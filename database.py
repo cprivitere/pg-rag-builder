@@ -1,9 +1,10 @@
-from dataclasses import dataclass, field
-
-
-@dataclass
 class GameDatabase:
+    def __init__(self):
+        self.tables = {}
+        self.wiki = {}
 
-    tables: dict = field(default_factory=dict)
+    def add_table(self, name, data):
+        self.tables[name] = data
 
-    wiki: dict = field(default_factory=dict)
+    def get_table(self, name):
+        return self.tables.get(name, [])
