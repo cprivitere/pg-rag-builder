@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Jace Soral in the Kur Mountains asked you to kill nearby deer to reduce the predator food supply.
+
+===Prerequisites===
+To start this quest, talk to '''[[Jace Soral]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|So here's the thing: nature takes care of itself, usually. But when fifty werewolves show up, not so much. The prey is so abundant that they're mating like crazy. Let's try to work smarter: try killing a bunch of deer so they can't eat 'em. That's smart, right? Or is it stupid? Hmm.}}
+
+===Requirements===
+* Kill Kur Deer
+* Talk to Jace Soral
+
+===Rewards===
+{{Spoiler|Rewards for Thin The Food Supply|
+{{Quote|Good. Now we wait a year and see how many werewolves are born! Damn. Yeah, this was a stupid plan. Nevermind. Take these shoes and let's pretend this never happened.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Ruggedized Boots}}
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Jace Soral]]

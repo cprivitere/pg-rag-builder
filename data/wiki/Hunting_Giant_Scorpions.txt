@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+You're killing giant scorpions in the dream version of the Ilmari Desert.
+
+This Quest can be repeated after 0 hours.
+===Preface===
+'''Giant Scorpions'''
+
+Massive beasts that usually require a team to take down, these scorpions rule the desert. Few can survive their attacks -- though they stay well clear of manticores.
+===Requirements===
+* Kill [[Sandhunter Scorpion|Giant Scorpion]]s x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 375 Combat XP for your active skills
+* 50 XP in Arthropod Anatomy
+* Level 15 Equipment x1
+}}
+
+[[Category:Quests]][[Category:Quests/Phantom Ilmari Desert Quests]][[Category:Quests/Hunting Quests]]

@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Brianna Willer in Serbule Hills said, "I'm trying to brew a toxic beer. I know, I know, that's against the Council's Brewing Code of Ethics, but the Council's not here, and monsters are! If goblins find me, I want to give them kegs of beer that will make them sick enough that I can flee.
+
+I'm still experimenting with the recipe, but I think a key ingredient is rotten strawberries. Not fresh ones -- they've gotta be really rotten. Dig me up some, okay?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Brianna Willer]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I'm trying to brew a toxic beer. I know, I know, that's against the Council's Brewing Code of Ethics, but the Council's not here, and monsters are! If goblins find me, I want to give them kegs of beer that will make them sick enough that I can flee.
+
+I'm still experimenting with the recipe, but I think a key ingredient is rotten strawberries. Not fresh ones -- they've gotta be really rotten. Dig me up some, okay?}}
+
+===Requirements===
+* Obtain {{Item|Rotten Strawberry}} x4
+* Talk to Brianna Willer
+
+===Rewards===
+{{Spoiler|Rewards for Rotten Beer Needs Rotten Fruit|
+{{Quote|Whew. Gross! Yeah, these strawberries are rotten enough. I'll get them into the brew right away, thanks. Here's some coins to cover any expenses, or whatever.
+
+And here's some hops. Don't lose these! They're hard to come by. You need them for brewing beer.}}
+
+* 150 {{Favor|favor}}
+* 100 councils 
+* {{Item|Hops}} x 4
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Brianna Willer]]

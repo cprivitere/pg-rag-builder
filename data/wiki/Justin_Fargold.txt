@@ -1,0 +1,61 @@
+__NOTOC__
+{{NPC infobox
+|title            = Justin Fargold
+|image            = [[File:Justin Fargold(npc).png|300px]]
+|caption          = Local Alchemist
+|zone             = Povus
+|town = City of Povus
+|location         = South of the forge.
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|barter = Yes
+}}
+{{Quote|source=[[Justin Fargold]]|
+I made some of these items myself! Others were trades. All my prices are very fair!}}
+[[Justin Fargold]] is a human merchant who currently runs an [[Alchemy]] shop in the City of Povus. Before the death of the city's previous alchemist, [[Justin Fargold|Justin]] ran an art gallery. 
+== Location ==
+; [[Povus]]
+: [[Justin Fargold]] can be found in a shop south of the forge, when the Povus Town Level is at least 10.
+== Favor ==
+[[Justin Fargold]] does not use the favor system.
+== Services == 
+==== Bartering ==== 
+Justin Fargold offers to barter alchemical potions for {{Item|Xogrite Chunk}}. The selection of barters changes at 8am each in-game day. Prices and quantities are also variable.
+Possible barters:
+{| class="wikitable"
+!Give
+!Receive
+|-
+| {{Item|Xogrite Chunk}} || {{Item|Moistening Cream}} x2
+|-
+| {{Item|Xogrite Chunk}} || {{Item|Dwarven Fixer}} x2
+|-
+| {{Item|Xogrite Chunk}} x2 || {{Item|Dwarven Fixer}} x3
+|-
+| {{Item|Xogrite Chunk}} x3 || {{Item|Holy Warmth}}
+|-
+| {{Item|Xogrite Chunk}} x4-5 || {{Item|Never-Die Juice}}
+|-
+| {{Item|Xogrite Chunk}} x5-6 || {{Item|Final Battle Potion}}
+|-
+| {{Item|Xogrite Chunk}} x5 || {{Item|Orcish Thickskin Potion}}
+|-
+| {{Item|Xogrite Chunk}} x5 || {{Item|Coldbite Potion}}
+|-
+| {{Item|Xogrite Chunk}} x6 || {{Item|Toxin Resistance Potion}}
+|-
+| {{Item|Xogrite Chunk}} x6 || {{Item|Telka's Tail}}
+|-
+| {{Item|Xogrite Chunk}} x7 || {{Item|Mercury}}
+|-
+| {{Item|Xogrite Chunk}} x2 || {{Item|Energy Resistance Potion}}
+|-
+| {{Item|Xogrite Chunk}} || {{Item|Curative: Mummy Diseases}}
+|-
+| {{Item|Xogrite Chunk}} x2 || {{Item|Telka's Teeth ("Baby Tooth" Variety)}}
+|}
+== Conversations ==  
+
+[[Category:NPCs]][[Category:NoRiShin]]

@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+Pickles in the Sacred Warden Grotto said, "I'm still reading the book you brought me, but I have good news: the big crystal inside this machine isn't broken! Because if it was broken, the magic would have leaked out and killed us all months ago.
+
+The main crystal isn't working because the little connector gear is broken. I think some gears and parts fell out while we were fleeing our old headquarters. But these parts don't seem all that exotic... maybe we can find replacements.
+
+Let me show you what I need: a gear that looks like this, some springs, and some of these weird twist-nails. Good luck!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Pickles]]''' in the '''[[Sacred Grotto]]'''. The quest is available at {{Favor|Neutral}} favor. You must have previously completed [[A Little Guidance Goes A Long Way]] in order to undertake this quest.
+
+===Preface===
+I'm still reading the book you brought me, but I have good news: the big crystal inside this machine isn't broken! Because if it was broken, the magic would have leaked out and killed us all months ago.
+
+The main crystal isn't working because the little connector gear is broken. I think some gears and parts fell out while we were fleeing our old headquarters. But these parts don't seem all that exotic... maybe we can find replacements.
+
+Let me show you what I need: a gear that looks like this, some springs, and some of these weird twist-nails. Good luck!
+
+===Requirements===
+* Obtain a Brass Gear
+* Obtain Springs
+* Obtain Brass Screws
+* Talk to Pickles
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|I appreciate the hard work! But... I have bad news. I've been reading this book some more, and I don't think replacing the gear is enough. It's missing the pendulum weight mechanism, too! But these parts are a start. Thanks!}}
+* 100 {{Favor|favor}}
+* 15 Warden Points
+}}
+
+[[Category:Quests]][[Category:Quests/Sacred Grotto Quests]][[Category:Quests/Pickles]]

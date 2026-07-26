@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Brianna Willer in Serbule Hills said, "Sometimes delicious beer uses gross ingredients. Mushrooms, for instance! But I've found that my boletus-and-apple pale ale is incredibly delicious! I've just run out of boletus mushrooms. Can you gather some for me?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Brianna Willer]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Sometimes delicious beer uses gross ingredients. Mushrooms, for instance! But I've found that my boletus-and-apple pale ale is incredibly delicious! I've just run out of boletus mushrooms. Can you gather some for me?}}
+
+===Requirements===
+* Obtain {{Item|Boletus Mushroom}}s x5
+* Talk to Brianna Willer
+
+===Rewards===
+{{Spoiler|Rewards for Mushrooms for Beer|
+{{Quote|Thanks. Now don't try to copy me: my boletus-and-apple ale is unique. Your beer will be different, even with the same ingredients!
+
+Take these hops and don't lose 'em. You need hops for brewing beer, and they're not so easy to come by.}}
+
+* 150 {{Favor|favor}}
+* {{Item|Hops}} x 4
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Brianna Willer]]

@@ -1,0 +1,56 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Porcine Alertness
+| description = Use your heightened senses to help your allies avoid injury.
+| level = 21
+| power cost = 17
+| reuse time = 20
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Pig}}{{KWAB|PorcineAlertness}}
+| special = You and your allies gain +10% Evasion vs. Melee and Burst attacks for 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Porcine Alertness 2
+| description = Use your heightened senses to help your allies avoid injury.
+| level = 41
+| power cost = 24
+| reuse time = 20
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Pig}}{{KWAB|PorcineAlertness}}
+| special = You and your allies gain +11% Evasion vs. Melee and Burst attacks for 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Porcine Alertness 3
+| description = Use your heightened senses to help your allies avoid injury.
+| level = 61
+| power cost = 31
+| reuse time = 20
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Pig}}{{KWAB|PorcineAlertness}}
+| special = You and your allies gain +12% Evasion vs. Melee and Burst attacks for 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Porcine Alertness 4
+| description = Use your heightened senses to help your allies avoid injury.
+| level = 81
+| power cost = 38
+| reuse time = 20
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Pig}}{{KWAB|PorcineAlertness}}
+| special = You and your allies gain +13% Evasion vs. Melee and Burst attacks for 20 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

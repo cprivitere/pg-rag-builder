@@ -1,0 +1,234 @@
+==Hotfix Notes: September 27-28, 2021==
+
+We've rolled out some quick-fixes for bugs that arrived with yesterday's major update. (A couple of these were fixed last night, consolidated here for convenience).
+
+*Recipes with no ingredients (such as some teleportations) can be crafted again
+*You could get multiple notifications for completing [[Povus]] night quests
+*Fixed [[Grakelsput]]'s quest "[[Cleanup Duty: Triceratops]]"
+*Povus lamp logic no longer considers player pets to be "monsters"
+*Augments can once again be sold in shops
+*[[Swamp Gourd]] item tooltips now have a line indicating whether they've been eaten before
+*Changed an additional [[Psychology]] treasure effect: "Inspire Confidence restores +151 Health after a 15-second delay" => restores 104 Health after an 8-second delay
+*Fixed error in ability-tip text for [[Psychoanalyze]]'s delayed-heal buff
+*Fixed typo in names of "[[Hexameat Wraps]]" and "[[Superb Parchment]]"
+*Corrected the start time in Povus instructions (it starts at 8pm, not 7pm)
+*More orcs spawn in the Povus orc camp
+*Correctly limit the reassembly of [redacted] to Povus
+*Fixed Povus vegetation that had no collisions
+*[[Arianna Fangblade]] no longer tries to sell you a stable slot when you ask for a hot betting tip
+*Could not correctly train [[Armorsmithing]] from [[Tremmond]] in Povus
+*The nightly Povus invasion system was bugged and did not correctly advance to harder quests
+
+We'll be back soon with more fixes and improvements!
+
+==Update Notes: September 27, 2021==
+Today's update is a big one. There's a new high-level zone, several new skills to find, and a metric tonne of UI fixes and improvements. Please keep in mind that with as many changes as are in this update, we are really relying on you for feedback to help us identify problems and bugs. Thank you!
+
+===Povus===
+[[Povus]] is a new high-level outdoor area for players with combat skills from 75 to 85. (We haven't raised the level cap past 80 yet, but you can reach 85 with synergy bonuses.) The town in this area has an event every night where they need your help! Monsters invade from 8pm to 7am game time (NOT real time!). But a series of quests can help put things right. 
+
+As you complete these town quests you'll help "level up" the town, unlocking more NPCs and amenities as you go. Visit the bulletin board in town for more information. This is an experimental design that we'd like your feedback on!
+
+There are other somewhat-experimental game mechanics in [[Povus]] which we invite you to discover. There are also a couple of mysteries to solve. (And there's a few unintentional red herrings: places on the landscape where we intend to add content, but haven't yet. But we're confident you'll figure everything out quickly enough!)
+
+There are also some new non-combat skills to discover in Povus, but since they're integrated into the area's quests, we'll leave them for you to find.
+
+Of course, with this added complexity comes the added chance for bugs. There's sure to be some to find, so please report them and we'll get them fixed.
+
+[[Povus]] is conceptually west of Rahu and north of Gazluk, and can be reached from those two areas. The temporary portals that previously connected Gazluk to Rahu now connect these areas to Povus. (This makes the portal location in Rahu a little weird, since it's on the southern edge of the map, instead of the western edge -- we'll address this when we do the Rahu art revamp in the future.)
+
+===Animal Husbandry===
+One new skill you can learn in Povus is [[Animal Husbandry]]. This skill lets you breed the pets in your stables to create new baby pets. Once you have the skill, speak with a qualified stablemaster to begin breeding. You'll receive an in-game document giving you more information on how it works.
+
+Note that there's a limit on the number of pets you can breed at once, and this limit is per-account, not per-player, similar to limit on player workorders. (The limit increases as you raise [[Animal Husbandry]], but the total across all your characters can't exceed this character's current limit.)
+
+One of the fun things about breeding pets is selling or giving away the babies to interested parties. For this reason, we've added a way to "store" pets, turning them into items which can be given to other players. These players can then use the item to add that pet to their stable.
+
+But there are caveats! First, only pets that were born in your stables can be sold. Pets that you capture in the wild can never be sold to others. (This means, for instance, that you can't capture and resell Hissy.) Second, you'll need to obtain a Pet Cage item -- and this will require a gadgeteer player who knows the recipe. And lastly, pet cages can't contain a pet forever! Each type of pet cage has a maximum lifespan. If the pet isn't taken out of the cage (and put into somebody's stable) before that time runs out, the pet escapes and is lost forever. (In other words, the cage item self-destructs.)
+
+===Pet Genetics: What You Need To Know===
+Also in this update we've started our rollout of pet genetics. Right now, only bees and wasps have a genome, but we'll be adding genomes to the other animal families (bears, cats, rats) in the future. 
+
+We simulate the pets' genome using simple Mendelian genetics. (If you don't remember that from high school, you might want to google it!) Their simulated genome has hundreds of genes that control their appearance as well as seven new pet traits: Ferocity, Toughness, Ruggedness, Friendliness, Enthusiasm, Intelligence, and Virility. They range from 1 (abysmal) to 100 (perfect) and affect things like your pets' health, damage, and so on.
+
+The seven pet traits can be viewed on each pet in your stable, provided you have moderate skill in [[Animal Handling]]. Rather than explain all these traits here, we'll direct you to an in-game document. You'll receive this document when you learn [[Animal Handling]]. Players that already know Animal Handling can get this document by talking to [[Gisli]] in [[Serbule]]. (Ask him for tips on animal handling, then ask him to explain combat stats.) Once you have it, you can find the document again in the Books and Lore tab.
+
+Also note that we no longer model the Happiness of your pet -- we just assume the pet is pretty happy all the time. The stuff Happiness used to affect (such as XP-earning rate) is now controlled by the aforementioned seven genetic traits.
+
+If you had a pet bee or wasp in your stable -- surprise! It probably looks different now. In the past, each type of bee or wasp had a fixed appearance, but now that's determined by their genes. Your pet's stats are also probably different, too. But to avoid too much heartbreak, we've used a mulligan system for existing pets: if any of their genetic traits came out below 30, or if more than 3 traits came out below 40, we re-rolled the genes a few times to try to get better stats. This means pre-existing pets are probably better than average, and at the very least, they're definitely "playable" in quality -- they have no devastatingly low trait scores.
+
+We also use this mulligan system for fairy starter pets, to ensure that they have nice stats. But we have another concern here: since fairies get free pets, and you can generate as many fairy characters as you like, it would be too tempting to re-roll hundreds of fairy characters to get good pets for breeding. To alleviate this problem, all starter fairy pets are marked as "Dormant". The in-game fiction is that these fae creatures are so ancient that they've entirely forgotten about sexuality.
+
+We may add a way to make dormant pets breeding-ready in the future, if there's demand for that feature. However, it will require a high-level item and/or quest to complete, and it will only work after your pet is at least a real-world year old. That means fairy characters created today would need to wait a year before they could breed their starter pets. (But we've back-dated pre-existing starter pets to be the age of your fairy character.)
+
+Sages say that there's a way to peer into the genetic code of a creature, to "read" it, and to partially understand what each gene does. And the sages are right! But we'll leave it to you to discover this well-kept secret.
+
+====Free Bees====
+Bees/wasps are the first pet with genetics, but we realize that not every Animal Handler uses them. To help us test Husbandry, you can get a free male and female insect added to your stable. Here's how it works: first, learn [[Animal Husbandry]]. Second, have at least two slots free in your stable (one for each free pet). Then view your Redemptions in-game (there's a button on the Persona window.) You'll see choices for two males and two females. You can pick one of each, and they'll be added to your stable. These free bees have been given "mulligans" on their genetics to ensure their stats are pretty decent. 
+
+Note that this redemption is per account, not per character. The free bees will be available until the end of this year, so you have a few months to unlock Husbandry and claim them.
+
+===Animal Handling/Pet Changes===
+In this update we've avoided making changes to the [[Animal Handling]] skill, or to individual pets' abilities and base stats. Our focus has been on genetics specifically. It's much easier to understand how it works (and make sure it's working right) if we don't change too many things at once. We DO plan to make changes to Animal Handling in the future: it needs a treasure revamp and probably a new ability. But for now we've made only minimal changes:
+: - Fixed a data problem that gave AH pets two opportunities to perform a critical-hit. This caused high-level pets to crit more often than we desired.
+: - AH pets no longer gain automatic crit-damage boosts as they level up.
+: - One treasure effect directly changed the pet's Enthusiasm. Enthusiasm is now controlled by genetics and can't be meaningfully enchanted, so we've replaced it with an effect that is vaguely similar to the old one. We'll revisit this effect when we make deeper revisions to AH.
+: - "Animal Handling pets have +80 Enthusiasm (which boosts XP earned and critical-hit chance)" => "Animal Handling pets deal +20% damage when they critically hit"
+: - Pet bears whose Special Trick dealt crushing damage actually dealt slashing damage. This has been fixed.
+
+===Psychology===
+We've revised [[Psychology]] a bit in this update:
+: - "Psychoanalyze restores 143 Health to you after a 15 second delay" => after an 8 second delay
+: - "Psychoanalyze restores 224 Armor to you" => 212 armor
+: - "Psychoanalyze causes the target to take +20 damage from Psychic attacks for 60 seconds" => +78 damage for 15 seconds
+: - Soothe ability now deals a small amount of direct Health damage.
+: - Soothe ability is now eligible for phrenology critical hits.
+: - "Soothe, But I Love You, and Cause Terror Damage +86" => damage +205
+: - "Inspire Confidence / Positive Attitude Healing +83" => +98
+: - The effect "Inspire Confidence increases all targets' Accuracy +20 for 10 seconds" now stacks with itself.
+: - "Inspire Confidence restores +205 Health after a 25 second delay" => restores +150 Armor to all targets
+: - "Soothe Damage +128" => Soothe and Psychoanalyze damage +167 and range +5 meters
+: - "Ridicule deals +57 health damage and taunts +525" => Ridicule taunts +800 and target's next attack has a 25% chance to automatically miss
+: - "Mock deals +125% damage and taunts +500, but reuse timer is +2 seconds" => Mock deals +125% damage, taunts +500, and hits all targets within 20 meters, but reuse timer is +1.5 seconds
+: - "Strike a Nerve deals +168 armor damage" => 236 armor damage
+: - Some Psychology treasure effects did not correctly scale past level 80; this has been fixed.
+
+===Werewolf===
+There are some werewolf skill/treasure changes in this update:
+: - "Future Pack Attacks to the same target deal +100 damage" => +610 damage
+: - "For 8 seconds after using See Red, all other Lycanthropy attacks deal 148 Trauma damage over 8 seconds" => Effect now lasts for 10 seconds after using See Red.
+: - "Sanguine Fangs deals +280 trauma damage over 8 seconds" => +360 trauma damage
+: - New treasure effect: Chest/Feet: "Pack Attack deals +100 damage and causes target to be 12% more vulnerable to Trauma damage for 10 seconds"
+: - "Sanguine Fangs suddenly deals 350 Trauma damage after an 8-second delay" => 450 trauma damage
+: - "Sanguine Fangs causes the target to take +15% damage from Slashing attacks for 15 seconds" => +18% damage
+: - New treasure effect: Legs: "For 10 seconds after using Sanguine Fangs, all other Lycanthropy attacks deal 180 Trauma damage over 8 seconds"
+: - "Werewolf Claw, Double Claw, and Pouncing Rake Damage +62" => +81
+: - Replaced treasure effect: Legs: "Double Claw Power Cost -21" => "Double Claw deals +40 damage and reuse timer is -2 seconds"
+: - "Pouncing Rake deals +220 Armor damage" => 304 armor damage
+: - Some werewolf treasure effects did not scale past level 80; this has been fixed.
+
+===Animal Armor Changes===
+: - Crafted Werewolf armor has been rebalanced to have less Armor and more offensive buffs. It also has a potent new sidebar ability that can be used when wearing a full set. (Equip a chest-piece to learn the ability.)
+: - The recipes to craft Werewolf Armor are no longer [[Blacksmithing]] recipes. They're [[Armorsmithing]] recipes now. If you previously had any of these recipes, you still have them, but you'll need to earn the appropriate level of [[Armorsmithing]] skill before you can actually use the recipe again.
+: - [[Solgribue]] in the [[Fae Realm]] now trains the recipes for level 80 wooden cowshoes and deershoes.
+: - Added level 80 versions of various other animal armor (but the recipes must be found).
+: - Revised Werewolf Armor recipes: high-level versions now require slightly fancier ingredients.
+: - To make Werewolf Armor work like the other prestige metal armor sets, you now need to forge it in a spot consecrated to [[Norala]]. There is a new forge for this purpose in the Kur [[Wolf Cave]].
+: - Recipes and stats for crafted Snail Armor, Cow Barding, and Cow Champrons have changed.
+
+===Staff, Shield, and Cow Nerfs===
+We're still evaluating the efficacy of the defensive combat skill changes made earlier in the year. We aren't ready to evaluate their use in solo combat (because solo monsters may still become more powerful in the future) but they definitely seem overpowered in terms of Elite monsters. One culprit is that we gave out too much percentage-based Elite invulnerability, so we've nerfed/replaced some of those effects. We'll continue to evaluate these skills as we move forward.
+
+====Staff====
+: - "Blocking Stance costs -20 Power and mitigates +10% of physical damage from Elite attackers for 30 seconds" => "Blocking Stance increases your Max Health +63 for 30 seconds (and heals you for 63)"
+
+====Shield====
+: - Bulwark Mode 3 previously granted +27% direct invulnerability => now +17%
+
+====Cow====
+: - "Max Power +37 and Vulnerability to Elite Attacks -10% when Cow skill active" => now -5% vulnerability
+
+===Synergy Level Changes===
+: - Players gain a new bonus level to [[Shamanic Infusion]] when reaching [[Psychology]] 70 and [[Skinning]] 70. 
+: - Fixed bug that prevented players from gaining the intended synergy levels to [[Sushi Preparation]] when reaching [[Fishing]] 55 and [[Knife Fighting]] 60. 
+: - Gain a new synergy level of [[Sushi Preparation]] upon reaching Fish Anatomy 31.
+: - Gain new [[Mining]] synergy levels by reaching [[Hammer]] 24 and [[Hammer]] 46.
+: - Gain new [[Surveying]] synergy levels by reaching [[Calligraphy]] 35, [[Calligraphy]] 55, and Nonfiction Writing 25.
+: - Gain a new [[Calligraphy]] synergy level by reaching Nonfiction Writing 15.
+: - Gain new synergy levels in [[Gardening]] when reaching these levels: Flower Arrangement 57, Nature Appreciation 55, Plant Anatomy 20, Carpentry 45.
+
+===Misc Treasure Changes===
+: - Fixed bugged Knife treasure effect: "When wielding two knives, all Knife Fighting attacks have a 33% chance to restore 41 Power". This did not work at all.
+: - "Signature Debuffs deal +29% damage and also deal 156 Armor damage" => 220 armor damage
+: - "Many Cuts deals +172 armor damage" => 236 armor damage
+: - "Wind Strike and Heart Piercer deal 164 armor damage" => 224 armor damage
+: - "Unarmed attacks deal +42 Armor damage" => 52 armor damage
+: - "Tundra Spikes deals 290 armor damage and taunts +750" => 380 armor damage
+: - "Marking Cut deals +80 armor damage and does not cause the target to shout for help" => 146 armor damage
+: - "Blast of Fury deals 200 Armor damage and restores 43 Armor to you" => 276 armor damage
+: - "Spit Acid deals +240 armor damage" => 360 armor damage
+
+===Sky and Camera Changes===
+We consolidated our camera-FX stacks, so now all areas use the same camera system. And this camera-stack has new color tuning and other features which hopefully make the game look better.
+
+We are also using a new sky system in most zones. Each area has its own weather setup ranging from clear skies to heavy clouds to fog (although never rain or snow).
+
+Again, please report any bugs or weirdnesses you see with these new systems!
+
+===September/October VIP Gift===
+We've added our first gift specifically for VIP members: the recipe "Dye Making: Dye My Rabbity Fur Blue". You don't need to actually log in and claim this reward immediately -- as long as your account has VIP at some point (from now until the end of October), the redemption will be available any time. This is a cosmetic recipe only: you must be a rabbit already to dye your fur blue. It requires blue dye.
+
+This special appearance will become available to non-VIPs in the future (via a learnable recipe), after a period of VIP exclusivity.
+
+===UI Fixes and Improvements===
+: - We no longer randomly remove your "Who's Online" status.
+: - The display of active buffs on other players would often disappear when changing zones. This is now fixed.
+: - In the Friends panel, long quotes will no longer overlap other fields.
+: - The volume of quest sounds can now be controlled separately from other types of sounds.
+: - Items in locked inventory folders will no longer be affected by the 'Stow' commands.
+: - We now handle character turning via mouse during large framerate drops better.
+: - Using mouse-look, you can now look vertically when both left- and right-mouse buttons are clicked simultaneously.
+: - There is now a search bar on the recipe panel. You can search by name ("baked potato"), by type ("meal", "snack", "instant-snack"), by level ("L 10" for level 10 items), or by some combination of those.
+: - You can now specify how many times you'd like to craft a recipe.
+: - Headers in the quest list now indicate when one of that area's quests is being tracked, to more easily locate tracked quests.
+: - We've added a search bar to the list of skills. 
+: - Non-integer effects now display their real value, so "+0.5" instead of "+0".
+
+===Player Shops===
+: - The number of unread notes you have waiting for you in your player shop is now included in the text of the "Read Notes From Customers" button.
+: - You can now reserve items to be bought only by members of your guild. This requires a minimum guild level of 5.
+: - You can now mark items in your shop "Accepting Offers", which prevents the item from being purchased and instead allows shoppers to "Make Offer" and leave a shop note with the owner, indicating the price they are willing to pay.
+
+
+===Particles, Animations, and Other Visual Things===
+: - Many animations have been fixed or improved.
+: - Many ability particle effects have been fixed or improved.
+: - There is a new Graphics setting called "Realistic Foot Placement" which improves animation quality in exchange for a small performance penalty. 
+: - When you take damage to Health, the screen now only flashes red if you have below 25% health remaining.
+: - When you take damage to Armor, the screen now only flashes yellow if you have below 25% armor remaining.
+: - Fixed a bug where an ability's particle was not played on the target if they didn't take direct damage from the attack.
+: - Sometimes a creature with a 'crown' quest would display their own texture over their head instead of a crown. This has been fixed.
+: - Deer now consistently fall over when killed.
+
+===Misc. Crafting===
+: - You can now raise the [[Cheesemaking]] level cap to 80; see Bendith in the Fae Realm. 
+: - You can now raise the [[Blacksmithing]] level cap raised to 80; see [[Solgribue]] in Fae Realm.
+: - The level cap of several other skills can be raised by NPCs in Povus.
+: - Bard instrument recipes that require a Perfect Conch (meaning "Great Musical Conch", "Amazing Musical Conch", and "Astounding Musical Conch") are now guaranteed to have a minimum rarity of Exceptional, and have improved chances for higher rarity. (This only applies to newly-crafted items.)
+: - The level 45 item "Great Arachnid Harness" has been nerfed from +8 inventory slots to +6. There are new higher-level arachnid harnesses with increased buffs up to +10 inventory slots. (The toolcrafting recipes drop as rare scrolls.)
+: - The recipe ID for the obsolete recipe "Legacy Bat Belt" has been reused. If you had this old alpha recipe, congratulations: you now know how to craft the "Amazing Arachnid Harness" (but you can only use the recipe when you have the necessary Toolcrafting level).
+: - Fixed some recipes that were supposed to require a Forge but didn't, including: various utility knives, armor stakes, and tool hammers. (Note that metal throwing knives are intentionally omitted from the forge requirement.)
+Improved the error messages when you try to use a recipe but aren't in the right place. e.g. "You must be near a TanningRack" became "You must be near a tanning rack."
+: - "Gazluk Plate"-type armors are now dyeable (up to 2 colors). If you were wearing Gazluk Plate when you logged out, your character will show up incorrectly in the character-select screen the first time. This is normal, and will fix itself when you log in.
+: - Moving, jumping, and Escape all cancel recipes with a crafting time.
+: - You can now summon partially-used items from storage.
+: - Items that cannot have work orders can no longer be sold in player shops, and now have the tooltip: "This item cannot be sold to other players." If you have an item like that in your shop, you'll get a notification to remove it.
+: - An internal numbering problem requires us to change the ID for Firkins of Sour Cream. If you had any of these in your inventory or storage, they are now marked as "Firkin of Sour Cream (OBSOLETE)". Please use these ASAP as they will disappear in the next update.
+: - The recipe for gold dye has changed.
+: - "Snail Plate Armor" is now Organic armor, like other snail armor.
+
+===Other===
+: - Certain skills are now explicitly marked as "umbrella skills". The max level for these skills is 0, so the only way to earn levels is via synergy bonuses. The following skills are umbrella skills: [[Anatomy]], [[Phrenology]], [[Performance]], [[Augmentation]], and [[Genetics]]. Players who had inadvertently earned XP in these umbrella skills (through content bugs in alpha) have had their levels recalculated.
+: - Goats (regular goats, not scapegoats!) have a new AI profile and use knockback attacks.
+: - Revised all non-Elite healing monsters so that their heal amounts are more meaningful (typically about 15% of their max health, but it's not actually a percentage-heal, so the amount varies per monster). This change was done individually per monster, so some monsters may have been missed. If you notice a monster that heals for a negligible amount (like a monster with 1000 max health healing for 50) please report it as a bug!
+: - Increased the damage of scray monsters' acid attacks, and higher-tier scray acid needs higher-tier First Aid to dispel.
+: - You no longer earn [[Gourmand]] XP for eating additional raw cantaloupe or fairy nuts beyond the first consumption. (It previously earned 1 and 2 XP respectively.)
+- The results of treasure maps, such as motherlodes, should now correctly spawn on top of the ground and not embedded into it. 
+: - The debuff "Spore Coating" used by certain fungal enemies no longer keeps you in-combat. Using First Aid 2 or higher now removes one stack of the debuff.
+: - [[Jace Soral]] now succumbs to his nature when the moon is full. 
+: - Item Dispensers and Item Rafflers are no longer subject to premature item-cleanup. They will last for 2 hours starting when they are placed in the world, or until they run out of items/tickets. High-end rafflers can have explicit durations up to 2 hours (instead of 90 minutes).
+: - Previously, wild deer had junk genetics for testing. They still have junk genetics for testing, but it's different junk now. They should be less Evasive overall.
+: - Changed "Tremor"'s boss curse: instead of permanently disabling Basic Attacks, it now gives the attacks a 15-second reset timer. As a side-effect, players with the old version of the curse will be automatically cured.
+: - A few monsters (that are supposed to be extremely evasive) are slightly more evadey.
+: - The world now goes gray when you are dead.
+: - The 'Stuck Report' is intended to get your character free of being stuck in something like a tree or cow. It is not to be used for free transportation. There is now a highly visible warning when you file a Stuck Report making that very clear for those players who have been using it for teleportation. Don't worry if you get stuck a few times; just don't use Stuck reports dozens of times a week!
+: - We've added the ability to use '/e' or '/em' to perform custom emotes (no animation, you supply the text). You can also use '%t' to include the name of your target. Emotes display in their own chat channel, so you can decide which chat tabs you want to include them.
+: - Guild quests now display in the guild audit log when they are started, canceled, or completed.
+: - Flying enemies will now stay at roughly the same elevation as their target, to prevent being unable to attack them with melee.
+
+===Known Bugs===
+: - One of the main tree models in Povus has lost its physics and you can walk through it. This is unintentional and will be fixed ASAP.
+: - Several kinds of teleportation are not working correctly. That really sucks, but we're working on it right now and hope to have a fix out very quickly. 
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

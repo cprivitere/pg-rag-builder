@@ -1,0 +1,109 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Rapid Recovery
+| description = During a lull in combat, quickly reorganize your Armor so that you can fight again.
+
+Effects that boost the Armor-restoration of Reinforce also boost this ability.
+| level = 14
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Perseverance}}{{KWAB|Shield}}
+| special = Restore 98 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Rapid Recovery 2
+| description = During a lull in combat, quickly reorganize your Armor so that you can fight again.
+
+Effects that boost the Armor-restoration of Reinforce also boost this ability.
+| level = 24
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Perseverance}}{{KWAB|Shield}}
+| special = Restore 120 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Rapid Recovery 3
+| description = During a lull in combat, quickly reorganize your Armor so that you can fight again.
+
+Effects that boost the Armor-restoration of Reinforce also boost this ability.
+| level = 34
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Perseverance}}{{KWAB|Shield}}
+| special = Restore 143 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Rapid Recovery 4
+| description = During a lull in combat, quickly reorganize your Armor so that you can fight again.
+
+Effects that boost the Armor-restoration of Reinforce also boost this ability.
+| level = 43
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Perseverance}}{{KWAB|Shield}}
+| special = Restore 165 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Rapid Recovery 5
+| description = During a lull in combat, quickly reorganize your Armor so that you can fight again.
+
+Effects that boost the Armor-restoration of Reinforce also boost this ability.
+| level = 54
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Perseverance}}{{KWAB|Shield}}
+| special = Restore 195 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Rapid Recovery 6
+| description = During a lull in combat, quickly reorganize your Armor so that you can fight again.
+
+Effects that boost the Armor-restoration of Reinforce also boost this ability.
+| level = 65
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Perseverance}}{{KWAB|Shield}}
+| special = Restore 225 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Rapid Recovery 7
+| description = During a lull in combat, quickly reorganize your Armor so that you can fight again.
+
+Effects that boost the Armor-restoration of Reinforce also boost this ability.
+| level = 75
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Perseverance}}{{KWAB|Shield}}
+| special = Restore 255 Armor.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

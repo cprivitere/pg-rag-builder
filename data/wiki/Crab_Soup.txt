@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Squidlips]] in [[Sun Vale]] said, "I can make some really good crab gumbo, but I need some crabs! Can you bring me 5 of the suckers?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Squidlips]]''' in '''[[Sun Vale]]'''. This quest is only available to [[Fairy|Fae]]. 
+
+===Preface===
+{{Quote|I can make some really good crab gumbo, but I need some crabs! Can you bring me 5 of the suckers?}}
+
+===Requirements===
+* Obtain {{Item|Crab}}s x5
+* Talk to [[Squidlips]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thanks! These are perfect. Now the gumbo is going to take a long time simmering, so don't get impatient!}}
+* 25 {{Favor|favor}}
+*[[Fishing]] raised to Level 25.
+}}
+
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Squidlips]][[Category:Quests/Fae Quests]]

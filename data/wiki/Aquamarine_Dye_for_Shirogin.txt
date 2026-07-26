@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Shirogin in Rahu said, "This is so frustrating! Where am I going to get aquamarine dye for General Tremal's gown? I checked with my supplier, but she sold all of it to a human named Charles Thompson, who used it all for research! And to make matters worse, this human left weeks ago on a ship bound to Serbule! If you ever find yourself in that backwoods town, maybe you can locate him and get the dye recipe.
+
+I just need three doses of aquamarine dye. This shouldn't be hard!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Shirogin]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Questions for Shirogin]] in order to undertake this quest.
+
+===Preface===
+{{Quote|This is so frustrating! Where am I going to get aquamarine dye for General Tremal's gown? I checked with my supplier, but she sold all of it to a human named Charles Thompson, who used it all for research! And to make matters worse, this human left weeks ago on a ship bound to Serbule! If you ever find yourself in that backwoods town, maybe you can locate him and get the dye recipe.
+
+I just need three doses of aquamarine dye. This shouldn't be hard!}}
+
+===Requirements===
+* Obtain {{Item|Aquamarine Dye}} x3
+* Talk to Shirogin
+
+===Rewards===
+{{Spoiler|Rewards for Aquamarine Dye for Shirogin|
+{{Quote|That's it, lovely aquamarine dye! This will make a wondrous gown. Thank you for delivering it! You may go now.}}
+
+* 250 {{Favor|favor}}
+* 1000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Shirogin]]

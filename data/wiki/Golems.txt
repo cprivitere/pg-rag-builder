@@ -1,0 +1,46 @@
+Golems are pets created using [[Battle Chemistry]], which can be programmed by the summoner to perform various actions.
+
+==Unlocking==
+The first Golem skill unlocked is Primal Golem at [[Battle Chemistry]] level 11. When first unlocked, he has only one Rule slot.
+<!-- I don't have any info on when other Golems or abilities are unlocked, but this should go in here, maybe as a table? -->
+
+==Programming==
+Once summoned, the Golem can be programmed by clicking the ''Program'' button in the Pets window. A player can access the Pets window by clicking the icon to the left of your 12 ability buttons. If the programming window instantly closes, you may have to be closer to your golem.
+
+Programming consists of setting ''Rules'', each of which has a ''Condition'' and an ''Ability''. When summoned, every few seconds the Golem will look down his list of ''Rule''s until he finds a ''Condition'' that is matched. When found, he will perform the associated ''Ability''.
+
+Both ''Conditions'' and ''Abilities'' need to be learned before they can be applied to a Golem.
+
+==Conditions==
+Conditions can currently be purchased from [[Durmok Orebinder]] in [[Rahu]].
+<!-- A table of conditions could go here, but maybe isn't necessary -->
+
+==Golem Stats==
+{| {{STDT}}
+! Name !! Level !! HP !! Armor !! Rage
+|-
+| Primitive Golem || 11 || 75 || 90 || 155
+|-
+| Simple Golem || 25 || 112 || 145 || 351
+|-
+| Basic Golem || 31 || 130 || 173 || 435
+|-
+| Standard Golem || 39 || 163 || 213 || 547
+|-
+| Standard Armored Golem || 40 || 183 || 419 || 624
+|-
+| Improved Golem || 51 || 217 || 333 || 715
+|-
+| Augmented Golem || 61 || 262 || 419 || 855
+|-
+| Superior Golem || 71 || 307 || 508 || 995
+|-
+| Basic Golem || 81 || 352 || 612 || 1135
+|}
+
+==Abilities==
+Abilities can currently be purchased from [[Chemist]] in [[Serbule]].
+<!-- A table of conditions could go here, but maybe isn't necessary -->
+{{:Golem Abilities}}
+
+[[Category:Abilities]][[Category:Mechanics]]

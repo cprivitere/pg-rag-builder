@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Jesina wanted you to pick some unusual flowers.
+
+===Prerequisites===
+To start this quest, talk to '''[[Jesina]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+You must have previously completed [[Save Sarina]] in order to undertake this quest.
+
+===Preface===
+{{Quote|I think it'll cheer Sarina up if I make a bouquet of flowers like we used to have back home. But of course mom used flowers native to the fey realm...
+
+Hey, actually, I know where you can get some! Look for the wooden pillars nearby. They were going to make a new city out there, but then they gave up. But they planted some Flitterbies early on, and those suckers are hard to kill! I bet there's still some out there.}}
+
+===Requirements===
+* Obtain {{Item|Flitterbies}} x3
+* Talk to Jesina
+
+===Rewards===
+{{Spoiler|Rewards for Flitterbies|
+{{Quote|Thanks! Ugh, they smell like home. I don't miss the fey realm, let me tell you! Except for all the fairy boys. I miss those. And my friends.
+
+<i>Jesina looks sad for a moment.</i> Oh, right! Here, a reward for your effort! It's not much. I'm sorry.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Buttered Baked Potato}} x 2
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Jesina]]

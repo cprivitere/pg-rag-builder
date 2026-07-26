@@ -1,0 +1,79 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Phoenix Strike
+| description = Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.
+| level = 35
+| power cost = 80
+| reuse time = 60
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffAttack}}{{KWAB|PhoenixStrike}}{{KWAB|EpicAttack}}{{KWAB|Melee}}
+| ragemulti = 2
+| damage = 196 Fire
+| special = For 15 seconds, melee attackers suffer 30 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Phoenix Strike 2
+| description = Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.
+| level = 45
+| power cost = 90
+| reuse time = 60
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffAttack}}{{KWAB|PhoenixStrike}}{{KWAB|EpicAttack}}{{KWAB|Melee}}
+| ragemulti = 2
+| damage = 307 Fire
+| special = For 15 seconds, melee attackers suffer 60 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Phoenix Strike 3
+| description = Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.
+| level = 55
+| power cost = 102
+| reuse time = 60
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffAttack}}{{KWAB|PhoenixStrike}}{{KWAB|EpicAttack}}{{KWAB|Melee}}
+| ragemulti = 2
+| damage = 448 Fire
+| special = For 15 seconds, melee attackers suffer 90 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Phoenix Strike 4
+| description = Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.
+| level = 65
+| power cost = 113
+| reuse time = 60
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffAttack}}{{KWAB|PhoenixStrike}}{{KWAB|EpicAttack}}{{KWAB|Melee}}
+| ragemulti = 2
+| damage = 586 Fire
+| special = For 15 seconds, melee attackers suffer 125 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Phoenix Strike 5
+| description = Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.
+| level = 75
+| power cost = 126
+| reuse time = 60
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffAttack}}{{KWAB|PhoenixStrike}}{{KWAB|EpicAttack}}{{KWAB|Melee}}
+| ragemulti = 2
+| damage = 743 Fire
+| special = For 15 seconds, melee attackers suffer 160 Fire
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

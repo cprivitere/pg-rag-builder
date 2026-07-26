@@ -1,0 +1,70 @@
+__NOTOC__
+{{NPC infobox
+|title            = Trekker
+|image            = [[File:Trekker(npc).png|300px]]
+|caption          = ...
+|zone             = Gazluk
+|location         = Animal Outpost
+|anatomy = Non-Ruminant Ungulate
+|species = Pig
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Toolcrafting]]
+}}
+{{Quote| I may be able to teach you something...
+}}
+[[Trekker]] is an [[Awakened]] boar working alongside [[Fluffikins]] for their beneficent master. He trains [[Toolcrafting]] recipes for dying organic armor.
+== Location ==
+; [[Gazluk]] 
+: [[Trekker]] is found at the northeast Animal Outpost, alongside [[Aven]] and [[Fluffikins]].
+
+==Favor==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+Trekker offers no quests, other than those available to Warden characters.
+==== Warden Quests ====
+<dpl>
+category = Quests/Trekker
+category = Quests/Warden Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+[[Trekker ]] will only teach Toolcrafting recipes for dying organic armor if you reach {{Favor|Friends}} with him, and have the proper level in the skill.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]]
+{{NPC training row
+ |recipe=Dye Organic Armor (1 color)
+ |skilllevel=?
+ |cost= 275
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe=Dye Organic Armor (2 colors)
+ |skilllevel=?
+ |cost=1486
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe=Dye Organic Armor (3 colors)
+ |skilllevel=?
+ |cost=4368
+ |favor= Close Friends
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 1x (Lv 70) equipment.
+|RiShin Family = 2x (Lv 70) equipment (incomplete): {{Item|Misery Trooper Leggings}}, {{Item|'Treatment of The Poor'}}
+}}
+
+== Conversations ==
+
+[[Category:NPCs]]

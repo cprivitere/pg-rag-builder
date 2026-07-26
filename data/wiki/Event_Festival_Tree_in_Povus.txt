@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+"There's an undecorated tree in Povus. When fully decorated, townsfolk will leave you presents under the tree each day during the holiday season."
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Leah Bowman]]''' in '''[[Povus]]'''.
+===Preface===
+There's an undecorated tree in Povus. When fully decorated, townsfolk will leave you presents under the tree each day during the holiday season.
+===Requirements===
+* Get Old Bones for the Tree.
+* Get Mushrooms and Dye for the Tree.
+* Get Alchemical Regents for the Tree.
+* Get Miss-Fly Hater for the Tree-Topper.
+* Talk to [[Leah Bowman]]
+
+===Rewards===
+{{Spoiler|Rewards for Event: Festival Tree in Povus|
+{{Quote|Ha ha! Look at that froggy monstrosity! I think it's great. You did good. Thanks!}}
+* Unlocks daily presents under the Povus tree.
+* 1 {{Favor|favor}} with [[Ri-Shin]]
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Leah Bowman]][[Category:Quests/Ri-Shin Quests]]

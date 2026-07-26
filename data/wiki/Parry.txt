@@ -1,0 +1,109 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Parry
+| description = Defensive maneuver that diminishes enemy's Rage and weakens their next attack.
+| level = 1
+| power cost = 7
+| reuse time = 7
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Melee}}{{KWAB|OnlyParry}}
+| ragemulti = 0
+| damage = 10 Slashing
+| special = Target's next attack deals -5 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Parry 2
+| description = Defensive maneuver that diminishes enemy's Rage and weakens their next attack.
+| level = 18
+| power cost = 11
+| reuse time = 7
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Melee}}{{KWAB|OnlyParry}}
+| ragemulti = 0
+| damage = 21 Slashing
+| special = Target's next attack deals -10 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Parry 3
+| description = Defensive maneuver that diminishes enemy's Rage and weakens their next attack.
+| level = 35
+| power cost = 15
+| reuse time = 7
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Melee}}{{KWAB|OnlyParry}}
+| ragemulti = 0
+| damage = 37 Slashing
+| special = Target's next attack deals -20 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Parry 4
+| description = Defensive maneuver that diminishes enemy's Rage and weakens their next attack.
+| level = 45
+| power cost = 17
+| reuse time = 7
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Melee}}{{KWAB|OnlyParry}}
+| ragemulti = 0
+| damage = 58 Slashing
+| special = Target's next attack deals -30 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Parry 5
+| description = Defensive maneuver that diminishes enemy's Rage and weakens their next attack.
+| level = 57
+| power cost = 20
+| reuse time = 7
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Melee}}{{KWAB|OnlyParry}}
+| ragemulti = 0
+| damage = 90 Slashing
+| special = Target's next attack deals -40 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Parry 6
+| description = Defensive maneuver that diminishes enemy's Rage and weakens their next attack.
+| level = 70
+| power cost = 23
+| reuse time = 7
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Melee}}{{KWAB|OnlyParry}}
+| ragemulti = 0
+| damage = 125 Slashing
+| special = Target's next attack deals -50 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Parry 7
+| description = Defensive maneuver that diminishes enemy's Rage and weakens their next attack.
+| level = 83
+| power cost = 26
+| reuse time = 7
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Melee}}{{KWAB|OnlyParry}}
+| ragemulti = 0
+| damage = 166 Slashing
+| special = Target's next attack deals -60 damage.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Ailred in Povus said, "I see your menu has a selection of goblin food, including ruktagh. How are you getting fresh dill out here?! Well, I'm sure the dill isn't fresh. But the meal had better be!"
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ailred]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+I see your menu has a selection of goblin food, including ruktagh. How are you getting fresh dill out here?! Well, I'm sure the dill isn't fresh. But the meal had better be!
+
+===Midway===
+Where is my ruktagh?!
+
+===Requirements===
+* Craft Ruktagh
+* (Keep Ruktagh)
+* Talk to Ailred
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Aaahhh, smell that aroma.
+
+...Well, the smell is better than the taste, but it's not bad. Not bad.}}
+* {{Item|Xogrite Chunk}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ailred]]

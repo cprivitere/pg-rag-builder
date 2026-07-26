@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Ratuk the Thinker asked you to deliver a note to an elf named Landri the Cold. He said Landri was in an inn somewhere in Kur Mountains.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ratuk]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|There is a disgraced Ice Magus staying in that little inn on the mainland. Her theorycrafting is already spreading among outsiders, but her own society has vilified her, just for a single murder. Elven society is foolish. But no matter: I must take advantage of this opportunity. Unfortunately because of their rampant racism, I cannot walk into the inn and have a conversation. I would be attacked. Instead, please deliver this note for me.}}
+
+===Requirements===
+* Deliver a note to [[Landri the Cold]]
+* Talk to [[Ratuk the Thinker|Ratuk]]
+
+{{Spoiler|Response to player|{{Quote|What's this? <i>Landri takes the letter and reads it with incredible speed.</i>
+
+Hm. A valid hypothesis, though I do not think it will work. Tell the author that she should substitute other elemental energy foci in place of ice foci. I believe that all the elemental planes are very close together, and using other energy types will open micro-portals to those planes, which may coalesce into a full portal more easily. And tell her good luck; she will need it.}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Ice Plane Research|
+{{Quote|<i>You relay Landri the Cold's words.</i>
+
+Thank you. Her theory is plausible. I will try my method first, but if it doesn't work, I'll try hers.}}
+
+* 50 {{Favor|favor}}
+* 2000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Ratuk]]

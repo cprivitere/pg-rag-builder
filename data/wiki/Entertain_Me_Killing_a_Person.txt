@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Pennoc in Serbule told you to commit murder against another player.
+
+<i>[ There's a "PvP cellar" in Serbule where players can attack each other. See if you can kill someone in there. ]</i>
+
+===Prerequisites===
+To start this quest, talk to '''[[Pennoc]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|Nothing works! Nothing is entertaining! I guess I am just too jaded to be amused by simple things. But there's still the ultimate prey: other people! Go kill another adventurer! Mwahahaha!
+
+<i>[ There's a "PvP cellar" in Serbule where players can attack each other. See if you can kill someone in there. ]</i>}}
+
+===Requirements===
+* Murder Another Player
+* Talk to Pennoc
+
+===Rewards===
+{{Spoiler|Rewards for Entertain Me: Killing a Person|
+{{Quote|It's done?! ... Wait, I saw that guy run by just a minute ago. You didn't kill anybody! But I like your chutzpah, you really sold that lie with your body language.}}
+
+This quest will reward random loot. This may include items with 25 level mods.}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Entertain Me]][[Category:Quests/Pennoc]]

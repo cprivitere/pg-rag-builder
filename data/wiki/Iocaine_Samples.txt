@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Voo the myconian asked for some Iocaine Mushrooms.
+
+===Prerequisites===
+To start this quest, talk to '''[[Voo]]''' in '''[[Myconian Caverns]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I need more iocaine mushrooms. Can you obtain them?}}
+
+===Requirements===
+* Obtain {{Item|Iocaine Mushroom}}s x2
+* Talk to Voo
+
+===Rewards===
+{{Spoiler|Rewards for Iocaine Samples|
+{{Quote|Thank you. These are a little underripe, but they will do. Here... perhaps these toys will be useful to you? }}
+
+* 150 {{Favor|favor}}
+* {{Item|Horrific Spore Bomb}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Myconian Caverns Quests]][[Category:Quests/Voo]]

@@ -1,0 +1,126 @@
+__NOTOC__
+{{Skill infobox
+|title            = Myconic
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the secret language of ancient fungus creatures.
+|skilltype        = Other Skill
+|maxlevel         = 50
+|req              = N/A
+|skilltrainers    = N/A
+}}
+{{Quote|
+Knowledge of the secret language of ancient fungus creatures.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Myconic]] is a skill linked to the of gathering of mushrooms. Sometimes when picking a mushroom, adventurers will receive experience in [[Myconic]] instead of [[Mycology]]. Those who receive this experience often report seeing vague ideas or hearing strange voices in their head. As skill in [[Myconic]] improves, the messages become clearer. 
+
+Once [[Myconic]] is learned, gathering mushrooms of any variety has a chance to grant experience. Travelers often raise their [[Myconic]] in [[Serbule]] and [[Eltibule]], areas with large quantities of mushrooms compared to the later arid regions of [[Ilmari]] and [[Rahu]].
+
+=== In-Game Description ===
+Knowledge of the secret language of ancient fungus creatures.
+=== Training {{msg:BASEPAGENAME}} ===
+* Picking mushrooms across Alharth and the Fae Realm will grant [[Myconic]] experience.
+* [[Mushroom Jack]] will teach [[Myconic]] during the hangout '''Hunt for Myconians down in the ravine (4h).'''
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Mycology]] - [[Myconic]] is a Sub-Skill of [[Mycology]].
+===== Related Skills: =====
+* [[Goblinese]] - Although Goblin is a spoken language, both are spoken by monstrous races.
+===== Synergy Levels: =====
+There are no Bonus [[Synergy Levels]] for [[Myconic]].
+== Harvestables == 
+==== Mushrooms ====
+At higher levels the XP received seems to vary between different gatherings.
+{| class="sortable wikitable"
+!Name
+!Mycology Required
+!Location
+!Mycology XP
+!Myconic XP
+|-
+| {{Item|Strange Dirt}} || 00 ||[[Anagoge]], [[Serbule]] || XX || 0
+|-
+| {{Item|Parasol Mushroom}} || 00 ||[[Anagoge]],  [[Serbule]], [[Serbule Sewers]], [[Myconian Cave]] (0 myconic), [[Serbule Hills]], [[Eltibule]] || 10 || 100-112
+|-
+| {{Item|Mycena Mushroom}} || 05 || [[Serbule]], [[Serbule Sewers]], [[Myconian Cave]] (0 myconic), [[Serbule Hills]], [[Eltibule]] || 29 || 243-560
+|-
+| {{Item|Boletus Mushroom}} || 10 || [[Serbule Hills]], [[Eltibule]], [[Ranalon Den]], [[Myconian Cave]] (0 myconic) || 55 || 600
+|-
+| {{Item|Field Mushroom}} || 15 || [[Eltibule]], [[Ranalon Den]], [[Myconian Cave]] (0 myconic) || 96 || 500-735
+|-
+| {{Item|Blusher Mushroom}} || 20 || [[Eltibule]], [[Myconian Cave]] (0 myconic) || 110 || ???
+|-
+| {{Item|Milk Cap Mushroom}} || 25 || [[Kur Mountains]], [[Myconian Cave]] (0 myconic) || 115 || 672
+|- 
+| {{Item|Blood Mushroom}} || 30 || [[Kur Mountains]], [[Myconian Cave]] (0 myconic), [[Dark Chapel]] || 137 || 750
+|-
+| {{Item|Iocaine Mushroom}} || 35 || [[Myconian Cave]] (0 myconic), [[Dark Chapel]] || XXX || 0
+|-
+| {{Item|Coral Mushroom}} || 40 || [[Myconian Cave]] (0 myconic), [[Dark Chapel]]|| XXX || 0
+|-
+| {{Item|Groxmax Mushroom}} || 47 || [[Gazluk]], All Gazluk Caves || XXX || 0
+|-
+| {{Item|Porcini Mushroom}} || 55 || [[Gazluk]], All Gazluk Caves, [[Rahu Sewers]] || XXX || 0
+|-
+| {{Item|Black Foot Morel}} || 63 || [[Gazluk]], All Gazluk Caves, [[Rahu Sewers]] || XXX || 0
+|-
+| {{Item|Pixie's Parasol}} || 70 || All Gazluk Caves, [[Fae Realm]] at night || 360-465 || 0
+|-
+| {{Item|Wizard's Mushroom}} || 75 || Unknown || XXX || 0
+|-
+| {{Item|Fly Amanita}} || ? || [[Fae Realm]] || XXX || 0
+|-
+| {{Item|Charged Mycelium}} || 80 || [[Fae Realm]] at night || 563 || 0
+|}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Myconic Messages ===
+As mushrooms are harvested that grant Myconic experience, strange messages may be experienced.
+{| {{STDT|sortable}}
+! Level !! Phrase
+|-
+| 0-4 || Suddenly, strange thoughts emerge in your brain... you cannot fathom what they mean.
+|-
+| 5-9 || You are overcome with thoughts of damp, and rot, and love and hate.
+|-
+| 10-14 || You suddenly imagine a sentient mushroom. It needs something from you. 
+|-
+| 15-19 || For a moment, you thought you heard a mushroom say "Crystal of Terror"
+|-
+| 20-24 || Suddenly you have a vision of a giant crystal, as large as a mountain.
+|-
+| 25-29 || You envision an ancient creature creating a giant crystal. The creature loves power.
+|-
+| 30-34 || You see a crystal mountain come to life. Its pulses speak to myconians everywhere.
+|-
+| 35-39 || You see millions of souls ripped from fungal bodies. Their minds wither and then disperse.
+|-
+| 40-44 || You hear a voice say "Crystal of Restoration".
+|-
+| 45-? || You suddenly imagine a device that could restore a myconian. It contains a red crystal.
+|}
+=== Unlocking Myconian Mysteries ===
+At Level 8 [[Myconic]], adventurers report being able to converse with the Tall Mushrooms around the [[Serbule]] region. Speaking with one of these unusual shrooms will transport the speaker to the [[Myconian Cave]], a tunnel network under the region. In the cave system, sentient Myconians can be spoken to, such as [[Poe]] and [[Way]].
+
+* '''Level 8''' - Access to Myconian Cave
+* '''Level 9''' - Understand [[Mu]] fluently.
+* '''Level 10''' - Understand [[Jaw]] fluently.
+* '''Level 11''' - Understand [[Poe]] and [[Voo]] fluently.
+* '''Level 13''' - Understand [[Way]] fluently.
+* '''Level 15''' - Understand [[Sem]] fluently.
+* '''Level 17''' - Understand [[Yoy]] fluently.
+* '''Level 20''' - Understand [[Mope]] fluently.
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Myconic Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Myconic|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+== Trivia ==
+* Right now Myconic experience only has a chance to be given by picking the following: {{Item|Parasol Mushroom}},  {{Item|Mycena Mushroom}}, {{Item|Boletus Mushroom}}, {{Item|Field Mushroom}}, {{Item|Blusher Mushroom}}, {{Item|Milk Cap Mushroom}}, and {{Item|Blood Mushroom}}.
+
+[[Category:Skills]][[Category:Other Skills]]

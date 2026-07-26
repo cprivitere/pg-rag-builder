@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Screech
+| description = Use your horrific voice to damage an enemy.
+| level = 6
+| power cost = 16
+| reuse time = 10
+| range = 20 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Ranged}}{{KWAB|Screech}}{{KWAB|Sonic}}{{KWAB|NiceAttack}}
+| damage = 19 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Screech 2
+| description = Use your horrific voice to damage an enemy.
+| level = 16
+| power cost = 22
+| reuse time = 10
+| range = 20 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Ranged}}{{KWAB|Screech}}{{KWAB|Sonic}}{{KWAB|NiceAttack}}
+| damage = 44 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Screech 3
+| description = Use your horrific voice to damage an enemy.
+| level = 26
+| power cost = 27
+| reuse time = 10
+| range = 20 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Ranged}}{{KWAB|Screech}}{{KWAB|Sonic}}{{KWAB|NiceAttack}}
+| damage = 73 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Screech 4
+| description = Use your horrific voice to damage an enemy.
+| level = 36
+| power cost = 33
+| reuse time = 10
+| range = 20 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Ranged}}{{KWAB|Screech}}{{KWAB|Sonic}}{{KWAB|NiceAttack}}
+| damage = 110 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Screech 5
+| description = Use your horrific voice to damage an enemy.
+| level = 46
+| power cost = 37
+| reuse time = 10
+| range = 20 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Ranged}}{{KWAB|Screech}}{{KWAB|Sonic}}{{KWAB|NiceAttack}}
+| damage = 171 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Screech 6
+| description = Use your horrific voice to damage an enemy.
+| level = 56
+| power cost = 41
+| reuse time = 10
+| range = 20 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Ranged}}{{KWAB|Screech}}{{KWAB|Sonic}}{{KWAB|NiceAttack}}
+| damage = 244 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Screech 7
+| description = Use your horrific voice to damage an enemy.
+| level = 66
+| power cost = 46
+| reuse time = 10
+| range = 20 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Ranged}}{{KWAB|Screech}}{{KWAB|Sonic}}{{KWAB|NiceAttack}}
+| damage = 317 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Screech 8
+| description = Use your horrific voice to damage an enemy.
+| level = 76
+| power cost = 51
+| reuse time = 10
+| range = 20 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Ranged}}{{KWAB|Screech}}{{KWAB|Sonic}}{{KWAB|NiceAttack}}
+| damage = 401 Nature
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

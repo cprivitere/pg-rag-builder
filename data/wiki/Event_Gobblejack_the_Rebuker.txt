@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Gobblejack the Rebuker and his flock of battle turkeys are gathering outside of Serbule Keep looking for some payback for the deaths of their cousins! These birds are very tough and they hit hard, so bring friends! Newer players should be extra cautious on the east side of Serbule Keep! Gobblejack will respawn 4 hours after being defeated. The battle turkeys will always start to spawn 1 hour before Gobblejack. Find the turkey hunters Bob, Rob and Terk outside of the Serbule Keep east gate and try to assist them.
+
+This Quest can be repeated after 30 days.
+
+This quest is only available during a Gobblejack event. 
+
+===Preface===
+Gobblejack the Rebuker and his flock of battle turkeys are gathering outside of Serbule Keep looking for some payback for the deaths of their cousins! These birds are very tough and they hit hard, so bring friends! Newer players should be extra cautious on the east side of Serbule Keep! Gobblejack will respawn 4 hours after being defeated. The battle turkeys will always start to spawn 1 hour before Gobblejack. Find the turkey hunters Bob, Rob and Terk outside of the Serbule Keep east gate and try to assist them.
+
+===Requirements===
+* Assist Bob
+* Assist Rob
+* Assist Terk
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Well done! You have avenged all three hunters, but that doesn't mean Gobblejack is done! Stay vigilant!}}
+*{{Item icon|Live Event Memorabilia|1}} [[Live Event Credit]]  x3
+}}
+
+[[Category:Quests]][[Category:Quests/Fall Harvest]]

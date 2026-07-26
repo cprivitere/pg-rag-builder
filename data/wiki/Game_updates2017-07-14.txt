@@ -1,0 +1,61 @@
+==<b>July 14 Update #2</b>==
+This small bug-fixing update includes these changes:
+:: - A number of dungeons in the lower-level zones of the game had disappeared - but they are back now!
+:: - Picking fruit off of a tree had the disconcerting habit of causing the tree trunk to despawn while the fruit stayed behind, hanging in mid-air. This is now fixed.
+:: - The new mummy boss, [[Baruti]], has had his stats adjusted. We look forward to your feedback on that encounter, both the stats and the mechanics. 
+:: - [[Sona]] now gives less favor for phlogiston.
+:: - [[Bellema Deftwhisper]] now unlocks [[Crossbow]] 50-60.
+
+'''You MUST start the game through the launcher in order to have this update work properly.'''
+
+==<b>July 14 Update</b>==
+===<b>New Prestonbule</b>===
+: The small community in the [[New Prestonbule Cave]] in [[Gazluk]] has some new residents! In addition, old residents have seen some changes, including new Favors and Hangouts -- and a new Skill.
+:: - [[Rick Snapley]] has two more Favors. (The first of which appears when you reach Comfortable.)
+:: - [[Rick Snapley]] was an armor/weapons vendor. He is now a general vendor, purchasing any type of item.
+:: - [[Mox Warcut]] is no longer a mycologist -- he's officially a chemist now! Elements pertaining to mycology, including several of his Favors and unlocking higher level [[Mycology]], have been migrated to the new NPC [[Hemmit Magmagrip]]. 
+:: - Similarly, elements involving transmutation have been moved from [[Bellema Deftwhisper]] to the new NPC [[Sona]].
+
+===<b>Mushroom Farming</b>===
+: One of the new things to learn in New Prestonbule is a new Skill: [[Mushroom Farming]]. This Skill requires [[Mycology]] 60 to learn.
+: The goal is for [[Mushroom Farming]] to reward patience and planning, without being especially cumbersome in other ways (such as needing super rare special components). We especially want feedback on whether the system is "discoverable" without external instructions.
+ 
+===<b>Mushrooms</b>===
+: The level requirement for various mycology component recipes has been changed. Recipes of the type "XXX Mushroom Flakes", "XXX Mushroom Powder", or "XXX Mushroom Suspension" now have the same level requirement as is needed to pick that kind of mushroom. For instance, [[Mycena Mushroom]]s require Mycology level 5 to pick, so [[Mycena Mushroom Flakes]] also requires level 5 to make. Hopefully this will be a bit more intuitive!
+: For similar reasons, Coral Mushroom Smoothie recipe now requires Mycology level 40 to make, and has level 40 drink stats. (It was level 35, but Coral Mushrooms require level 40 to pick.)
+:: - Adjusted the values of mushrooms a bit (and by extension, the value of some mushroom component recipes).
+:: - Changed the recipes for various mushroom flakes; they are now "cut" with lower-level mushroom powder than before.
+:: - The recipes for [[Basic Rennet]], [[Strong Rennet]], and [[Pungent Rennet]] now require more (and different) mushroom suspensions, but yield two doses of rennet per stomach. 
+:: - The recipe for [[Healing Potion Omega]] now requires only one [[Blood Mushroom Suspension]], not three.
+:: - [[Yagreet]] in [[Sun Vale]] teaches the recipes for groxmax, porcini, and black foot morel mushroom suspensions. (She already taught the recipes for blood and coral suspensions.)
+
+===<b>Other Changes & Fixes</b>===
+:: - The guild quest "Reclaiming Lydia" now properly tells you the recommended guild size for each of the variants.
+:: - Orange Trees can be found in [[Eltibule]].
+:: - The Lemon Trees in the desert now function like apple trees: multiple fruit, then choppable for wood.
+:: - Reduced the cash value of phlogiston by about half.
+:: - Added more poetry books to high-level loot.
+:: - Lore tweak: The modern dwarven city [[Aufghel]] is now referred to as "[[New Aufghel]]", to more clearly differentiate it from the ancient city of Aufghel. (New Aufghel is built on top of the old Aufghel.)
+:: - Lore tweak: Dwarven traditional engagements last 20 years prior to marriage, not 30.
+:: - Added some lore books to the guest room in the Tapestry Inn.
+:: - Goblins have stopped dropping firework recipes -- at least until the next holiday.
+:: - Fixed a bug that caused all types of crossbows to be eligible for Bow-skill treasure mods, and ineligible for Crossbow-specific mods (though there were only two crossbow-specific mods).
+:: - Added three new [[Crossbow]]-skill treasure mods that can appear on new crossbows.
+:: - Cross-pollinated one crossbow mod so it can appear on necklaces (similar to an existing crossbow mod that can appear on rings)
+:: - Fixed a bug that prevented some shields from being able to generate Shield-skill-specific powers. New shields of the following types are affected: Orcish Military Shield, Snowblood Misery Trooper Shield, Hypnotic Shield, and Gazluk Trooper Shield.
+:: - Early [[Meditation]] recipes give more one-time experience.
+:: - [[Augury]] recipes were supposed to share a common 1-hour reset time but each had their own reset timer.
+:: - Recipes that have timeouts before they can be used again now display how much time is remaining before they can be used again (just above the "craft it!" button).
+:: - The Kraken druid event in [[Serbule]] will spawn more [[Young Kraken]] and respawn them more quickly.
+:: - If an ability with an animation delay (e.g. Strategic Preparation, Rapid Recovery) is aborted during the animation, the ability's reset timer is not triggered, meaning it can be used again immediately.
+:: - [[Serbule]] player work-order sign: the sign indicated that there was a maximum number of active work orders per account, but it actually tracked them per player, not per account. They are now tracked per account.
+:: - As a side effect, you can now cancel work orders made by other characters on your account. (The money is still sent via in-game-mail to the original character that posted the order, not the person who canceled it.)
+:: - JSON: there are two new JSON files available for third-party tools: sources_abilities.json and sources_recipes.json. These files describe how each ability and recipe can be obtained. (A similar file for items will be included in the future.)
+: - Fixed all remaining collision problems with the various caves in [[Gazluk]]. Repeat: ALL known issues with collision in Gazluk caves are fixed, so '''if you get stuck in a wall, or you "fall to your death", please report it!'''
+
+===<b>Important Note</b>===
+This is the last snapshot of the game that will support 32-bit Windows. If you're running 32-bit Windows, you should see a warning about this when you first start the game.
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

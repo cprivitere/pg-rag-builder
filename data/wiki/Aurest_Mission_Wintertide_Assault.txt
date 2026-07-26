@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+[[Lady Alethina]] in [[Red Wing Casino]] said, "I have an extremely difficult task today. You need to enter the [[Fae Realm|fae realm]] near [[Sun Vale]]. There's a Winter ship in orbit there. Sneak aboard and take out some problems."
+
+This [[Daily Quest]] can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lady Alethina]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Despised}} favor. This quest is only available to characters with at least two level 65 [[Skills|Combat Skills]].
+
+===Preface===
+I have an extremely difficult task today. You need to enter the [[Fae Realm|fae realm]] near [[Sun Vale]]. There's a Winter ship in orbit there. Sneak aboard and take out some problems.
+
+===Requirements===
+* Kill [[Ensign|Ensigns]] x8
+* Kill [[Captain Evergloam]]
+* Kill [[Abominable Soldier|Abominable Soldiers]] x8
+* Kill [[Dalvos's Astral Projection]]
+* Talk to [[Lady Alethina]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|I've already heard the transmissions -- you've done well. The next stage of my plan is beginning, but your part is done. Here is your money. Remember: tell no-one of what you've done.}}
+* 200 {{Favor|favor}}
+* 42000 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Lady Alethina]][[Category:Quests/AurestMission]]

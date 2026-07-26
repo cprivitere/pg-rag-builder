@@ -1,0 +1,38 @@
+__NOTOC__
+{{NPC infobox
+|title            = Franklin Mallus
+|image            = [[File:Franklin Mallus (npc).png|300px]]
+|caption          = Looks a little sad
+|zone             = Statehelm
+|town = Statehelm
+|location         = Fountain/Wanders
+|anatomy = Human
+|species = Human
+|beastspeak       = ?
+}}
+{{Quote|source=[[Franklin Mallus]]|My wife's job as a shopkeeper leaves her without any time to explore the city with me. And our shared love of urban exploration is what brought Ariadne and I together in the first place. It doesn't help that I go off exploring without her. Makes her real jealous. But the alternative would be that I don't get to do any exploration either! }}
+[[Franklin Mallus]] is a human living in [[Statehelm]]. He is married to [[Ariadne Mallus]].
+== Location ==
+; [[Statehelm]]
+: [[Franklin Mallus]] may be found wandering near the main fountain of Statehelm during the day.
+
+== Favor ==
+=== Small Talk ===
+[[Franklin Mallus]] does not use the favor system.
+== Quests ==
+[[Franklin Mallus]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Franklin Mallus
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Franklin Mallus]]|
+I miss the old cornucopia food. When it was actual food, I mean.}}
+{{Quote|source=[[Franklin Mallus]]|
+You shouldn't stay out after dark. Thieves, muggers, vampires... it's just not safe anymore.}}
+[[Category:NPCs]][[Category:NoRiShin]]

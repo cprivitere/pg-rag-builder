@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+[[Floxie]] in the [[Fae Realm]] said, "I'm working on becoming a better botanist! It's not as exciting as hunting, but I'm doing what I can. My biggest focus right now is on the [[Carnivine|carnivines]], which are super amazing plants. They have a top area that's like a head, and they grow plates in their head that look like teeth! That's super strange, right? Can you get me some? The teeth, I mean. I need samples from several different carnivines so I can compare them.
+
+You'll find carnivines most commonly when daytime happens -- they burrow into the ground at night."
+
+===Prerequisites===
+To start this quest, talk to '''[[Floxie]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+I'm working on becoming a better botanist! It's not as exciting as hunting, but I'm doing what I can. My biggest focus right now is on the carnivines, which are super amazing plants. They have a top area that's like a head, and they grow plates in their head that look like teeth! That's super strange, right? Can you get me some? The teeth, I mean. I need samples from several different carnivines so I can compare them.
+
+You'll find carnivines most commonly when daytime happens -- they burrow into the ground at night.
+
+===Requirements===
+* Obtain [[Carnivine Tooth]] x7
+* Talk to Floxie
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hmm, these teeth aren't terribly sharp. I mean they cut flesh, but they aren't razor sharp... hmm. That probably means something. But it turns out I know almost nothing about botany, so I'm not sure what to make of it. Oh well. I give up. But not on you! You did great!}}
+* 100 {{Favor|favor}}
+* {{Item|Fairy Dagger}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Floxie]]

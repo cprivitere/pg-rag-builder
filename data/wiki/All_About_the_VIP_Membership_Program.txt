@@ -1,0 +1,151 @@
+__NOTOC__
+'''This Blog Post was part of the Gorgon Website blog. It was posted by Citan on Saturday, May 22, 2021.''' 
+: Previous Post: [[All About the Guides Program]]
+: Next Post: [[Town Hall - June 14, 2021]]
+'''Additional Blog entries can be found on the [[Developers]] page or in [[:Category:Game Blogs]] '''
+
+==All About the VIP Membership Program==
+Monday's game-patch will launch the Project: Gorgon VIP Membership program! This program gives players extra benefits while they are a VIP member. The intent is to give players another way to support the game's development while getting useful benefits for doing so -- kind of like becoming a Patreon patron. First, we'll discuss how to become a VIP. Then we'll cover the benefits.
+
+===How to Become a VIP Member===
+
+You can gain VIP membership in a variety of ways:
+* Purchasing a Steam subscription
+* Claiming VIP time from a backer-package you purchased
+* Using VIP Tokens in-game
+
+'''Steam Subscription:''' You will (soon) be able to buy a VIP Membership subscription from Steam. Due to Steam's approval process, subscriptions will not be available immediately on Monday -- it may be a week or two before they can be purchased.
+
+We'll have several price points depending on whether you pay monthly, quarterly, semi-annually, or annually. Here's our planned pricing:
+
+{|
+|-
+| Months||Price||Price/Month||$$$ Saved	||Discount
+|-
+|1
+|$11.99
+|$11.99
+|$0.00
+|0%
+|-
+|3
+|$29.99
+|$10.00
+|$5.98
+|17%
+|-
+|6
+|$54.99
+|$9.17
+|$16.95
+|24%
+|-
+|12
+|$99.99
+|$8.33
+|$43.89
+|31%
+|}
+
+'''Backer Plans:''' Many of our backer plans, such as the Kickstarter backer plans or the plans we sell on our website, include VIP time. Players who have this benefit can use the Redemption window in-game to claim the included VIP time. (Look for the button on the bottom right of the Persona window.)
+
+Once you've redeemed the VIP time, it will start ticking down daily. (So if you want to save your VIP time until the game is out of beta, just don't redeem the VIP time until then!)
+
+This VIP time is non-transferable: only the account who has the special package can claim the VIP time from the backer package they purchased.
+
+If you purchased a backer package and don't see a redemption (after Monday's update): don't panic, we can fix it! We probably need a bit of info from you to connect your account to your package. Email us at support@projectgorgon.com and we'll figure it out.
+
+'''VIP Tokens:''' These tokens are in-game items that can be consumed by a player to claim 30 days of VIP membership time. The tokens themselves can be used on your own account or given to others. VIP tokens can come from various sources in-game.
+
+'''Overlap:''' What happens if you have VIP time from several sources? What happens if you have a Steam subscription *and* time from a VIP token? Do the days from your VIP token keep counting down? Can you lose any time? (Short answer: No.)
+
+When using up your VIP membership time, Steam subscriptions are counted first. While you have a subscription, you are not using time from any backer packages or VIP tokens that you may have claimed. That VIP time will be applied if your subscription lapses.
+
+===VIP Member Benefits===
+* An account with an active VIP plan gets the following:
+* Four extra character slots -- for a total of 8!
+* 15 extra inventory slots -- for each character!
+* 25 extra slots in each item-transfer chest! There are four such chests now (100 extra slots) and two more coming (for a total of 150 extra slots).
+* Access to offline advancement via the Autodidacticism skill! (You can read all the details about this benefit below.)
+* Access to special in-game reports, such as a "character sheet" that lets you view all your character's stats in a simple spreadsheet.
+* Extra saddlebag slots for mounts (when mounts are implemented) (mount not included).
+* And more benefits to come! We're exploring ideas like giving VIPs custom chat colors, unique emotes, and monthly gift-redemptions that give out amusing trinkets.
+
+
+===All About Slots===
+With a VIP membership, you gain access to all sorts of slots: character slots, inventory slots, and item-transfer-chest slots. Those extra slots are not permanent, so if your VIP plan ends, they go away. But you never lose stuff permanently! If those slots were in use, they become "overflow" slots, meaning that you can't access them, but they're still there. As you free up space, they become visible.
+
+'''Inventory''': if your VIP plan ends and leaves your character carrying too much, you'll be "overburdened". (This is exactly the same as if you had drunk a potion of inventory-expansion, and it wore off while you were carrying extra items.) You'll be able to access the normal number of items, and the rest will be hidden until you make space. As you drop, sell, or otherwise remove items from your inventory, the "overflowing" items appear automatically.
+
+'''Transfer slots:''' just as with regular inventory, if your VIP plan ends and leaves your transfer slots overflowing, you will only be able to see the regular number of items in the chest -- the rest will be hidden. As you remove visible items, the hidden items reappear one by one. (You cannot add items to a chest while it's overflowing, so all you can do is remove items until it stops overflowing.)
+
+'''Character slots:''' if your VIP plan ends and leaves you with more than 4 characters, only the 4 most-recently-played characters will be accessible. The others will be hidden. If you choose to delete any of those characters, one of your hidden characters will appear in the now-empty slot. (In Monday's patch we've revised the UI to make it obvious which characters are in "regular" slots and which are in VIP slots. So if your VIP is going to lapse, you'll be able to easily plan and organize which characters should stay visible.)
+
+'''Summary:''' You never permanently lose access to your extra items or characters. They're still hidden in the background until you make room for them -- or until you have a VIP membership again!
+
+===Autodidacticism (and Non-Fiction Writing)===
+Autodidacticism - in addition to being a hard word to spell - is a new skill available only to VIP members that lets you gain XP while offline. It's intended to help players who can't play as often as they'd like, or who want to slowly level "alt" characters.
+
+Of course, we're worried about this skill giving VIP players too big of a gameplay advantage over non-VIP players. We don't expect that to be a problem due to the many limitations and restrictions on the skill (see below), but even so, we'll keep an eye on the rate of advancement. We want Autodidacticism to be a "secondary" way to level skills, so if it ends up feeling like the easiest or most efficient way to level a skill, we'll fix it.
+
+Autodidacticism is a non-combat skill. To use the skill, you basically hang out with a book. You can visit an in-game library -- in Rahu, and eventually Statehelm -- where there are study tables to hangout with your chosen textbook. This is a real hangout, so you cannot hangout with an NPC at the same time -- it's one or the other.
+
+You can choose whether to hang out for one, three, or five days. But the duration isn't too important, since -- just like a regular hangout -- you can interrupt these without penalty: the hangout timer will stop while you're logged in, and resume when you log out again.
+
+So where do you get these textbooks? Well, NPCs sell books for some skills, but books for most skills (and most level ranges) come from players who write them. There's another new skill called Non-Fiction Writing which is used to make these books.
+
+===Non-Fiction Writing===
+Non-Fiction Writing is not a VIP-specific skill. Any player can learn this skill and create textbooks, provided they have at least 50 levels in Calligraphy to unlock the skill. (And they need time, since writing a textbook is done via a multi-day hangout as well.) But the resulting textbooks can only be used by VIPs.
+
+Each textbook is for a certain skill and a certain level range. To write the book, your level in the book's skill needs to be 25 higher than the book. In addition, your level in Non-Fiction Writing has to be at least as high as the book's level. So to write a level 11-20 Sword book, you'd need level 11 in Non-Fiction Writing, and level 36 in Sword.
+
+Because of this requirement to be 25 levels higher than the book, it won't be possible to create the highest-level books right now. Most skills don't go higher than level 80 or 85-ish (depending on how many bonus levels are available for each skill), so the highest textbooks would be for level 55 or 60. This limitation will naturally disappear as we raise the level cap.
+
+=====Limitations to Keep in Mind=====
+There are other wrinkles to using Autodidacticism:
+Autodidacticism is a skill that has to be leveled up! You can't read a textbook for a skill level that's higher than your Autodidacticism level, so you'll need to practice by studying low-level books first.
+Only two characters on your account can participate in Autodidacticism hangouts at a time.
+With few exceptions, you can't unlock skills via Autodidacticism. For instance, if you don't know the Knife Fighting skill yet, you can't read the newbie Knife Fighting book. You must unlock the skill normally first.
+You still need to raise your level cap in the normal way: you need to unlock level caps at level 50 and every 10 levels thereafter.
+You need to obtain the books themselves, and as explained above, very-high-level books won't be available for a while.
+Books lose durability when used in autodidacticism hangouts. Most books will last for about 20 days of offline hangouts before disappearing.
+At first launch, only a subset of skills can have textbooks. This is just due to the sheer amount of data-wrangling involved -- we'll add textbooks for the other skills when we're more confident that we've got the numbers correct.
+
+The amount of XP you earn depends on the skill. At low level, the books are very efficient, but as you level up (and the XP curve gets steeper), books become less efficient. In general, combat skills earn XP faster than non-combat skills, much like they do in-game.
+
+In fact, you can easily out-level the low-level books: it might only take one 5-day session to raise your Sword skill from 0 to 10, so your skill will be higher than the book's level-range before the textbook is used up. (You can then sell it, give it away to someone else with VIP, or use it with another character.) Whereas for high-level textbooks, 20 days of offline time may not be enough to out-level the book's range: in some cases you may need multiple high-level textbooks for the same level range.
+
+These skills are brand new, and as with all new skills, you should expect changes while we experiment with them. Again, the goal is to make Autodidacticism a useful auxiliary leveling mechanism... but not TOO useful, and not TOO annoying to use, either! We'll find the sweet spot eventually, though it may take some iteration.
+
+===Special Reports===
+VIP players can access special reports, including:
+
+'''Character Sheet:''' generates a .csv (comma-separated-value) text file of all your character's stats. This file can be loaded in any spreadsheet app.
+
+'''Inventory Dump:''' lists every single item that one character possesses (including the stuff in various storage chests) as a text file. This file can be loaded into any word processor.
+
+'''Combat log:''' records every hit your character takes or deals to others in a text file. This text file is too verbose ("spammy") to be useful to most players, but it's being provided as a way for 3rd-party tools to generate new kinds of reports.
+
+With more reports added in the future!
+
+These reports are actually available to all players right now, VIP or not, so that we can test them and gather more feedback about them. They will continue to be available to everyone for another patch or two, and then they'll become VIP-members-only.
+
+===VIP Is a Big Deal... But Never Mandatory===
+Releasing the VIP service is a huge milestone for us, because it represents a new stage of the game's development.
+
+We've talked about the VIP plan for years, but didn't want to implement it until we were in a solid place technically, where we could leave the "prototype" stage and enter the "production" stage. And we're finally ready to enter that stage! That's super exciting for us, and hopefully for you!
+
+We've been extraordinarily careful with the funds we've earned from backers and purchasers, and it's let us develop the game slowly for many years -- and in fact we can continue to make the game at our current rate of development indefinitely.
+
+But we're finally in a place where it makes sense to hire several more people and widen our production capacity. This is incredibly exciting: we're talking about better graphics, more content, and lots more polish. (We're honest with ourselves and know this will never be as polished as a "AAA" game... but we can eventually come pretty close!)
+
+===Not Mandatory But Useful===
+In terms of game systems, we have two goals for VIP:
+Although we talk about it as "patronage", the benefits of VIP should be worthwhile. We aren't asking for charity here, so VIP should be useful!
+But it needs to be entirely optional -- we expect most players won't be VIPs, and that's fine. VIP should never feel "mandatory" at all.
+
+These goals are somewhat in conflict, so our first attempt at the VIP feature-set may not work out. If we don't meet both of these goals initially, we'll keep working on VIP until we do.
+
+Thank you for everything you do to help us make this crazy game. We'll have more details about VIP (and book-writing) in the patch notes of Monday's update.
+
+[[Category:Game Blogs]]

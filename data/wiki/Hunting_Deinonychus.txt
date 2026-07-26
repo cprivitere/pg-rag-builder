@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+You're killing deinonychus in the dream version of the Ilmari Desert.
+
+This Quest can be repeated after 0 hours.
+===Preface===
+'''Deinonychus'''
+
+hese dinosaurs are native to plains lands but have learned that they can survive here in the desert, where they wreak the delicate ecology by eating everything.
+===Requirements===
+* Kill [[Deinonychus]] x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 375 Combat XP for your active skills
+* 50 XP in Aberration Anatomy
+* Level 15 Equipment x1
+}}
+
+[[Category:Quests]][[Category:Quests/Phantom Ilmari Desert Quests]][[Category:Quests/Hunting Quests]]

@@ -1,0 +1,209 @@
+==Update Notes: March 9, 2020==
+This is a big update with a lot of changes, and these update notes are pretty in-depth. The big news is the playable fairy race, but we also have major Animal Handling changes and a big set of monster rebalancing, plus more smaller tweaks, additions, and bug fixes than you can shake a wing tassel at. Buckle up!
+
+===Fairies!===
+This update introduces our first 'advanced' playable [[Races|race]]: fairies. Before you can make a fairy character, you need to unlock the race by completing a quest for [[Fazzi]] called "Free Tortured Fairies". (It's not a new quest, but it previously gave no reward for completion. If you've already completed the quest, you can now repeat it to receive the quest-unlock reward.)
+
+The quest is pretty short, but it's in the [[Winter Nexus]], which is a very dangerous area, so a group is recommended. To reduce crowding, the imprisoned fairies are temporarily set up to respawn every 60 seconds instead of every 5 minutes. (Some monsters respawn faster, too, so be prepared for chaos!) The quest has also been revised to support groups: when you free a fairy, everyone in your group gets credit. So remember to group up with others!
+
+Please note that this is a "soft launch" of fairies - which means that while the mechanics are in place, you'll see some places where quests are "Coming Soon!", or where NPCs don't yet recognize that you are a fairy when you talk to them. We're working on these elements for release later in the month, but we didn't want to delay getting feedback on the basics.
+
+For more information on the fairy race, see our recent [https://forum.projectgorgon.com/entry.php?39-Dev-Blog-Say-Hello-to-Playable-Fairies blog post]. (Also note: fairies wearing too much metal armor receive a penalty to their damage. Fairy armor does not count for this purpose. This was a late addition to the fairy details described in the Fairy blog post.)
+
+===Animal Handling Changes===
+[[Animal Handling]] was revised to make it more powerful at high level. To do that, we now expose more game-mechanics about your pet. This also makes it possible for us to differentiate pets more, and will make it easier to buff/nerf individual pets in a future update.
+
+Instead of thinking of pet damage as one monolithic number (which was boring and hard to balance), treasure effects now focus more heavily on buffing each of the pet's three abilities: their Sic 'Em attack, their Special Trick, and their "basic attack" (which they use when not directed to use something else).
+
+All pets' Sic 'Em and Clever Trick abilities now deal more damage. Most pets' basic attacks deal more damage, too, especially those pets whose special abilities aren't very damaging. Bond Levels now increase pet damage more, also.
+
+Pets Hastened: Animal Handling pets are now better able to match the speed of their owners. Every few seconds, they recalculate their speed to be equal to their owner's speed. They can still fall behind for various reasons, but they're generally much more sticky.
+
+Pet UI Rewrite: We've received a bunch of bug reports about the pet window (the window that shows pet stats and lets you set the pet's mode), but haven't been able to reproduce those bugs, so the code for the pet window was rewritten to make it more robust. It's unclear whether this actually fixed any bugs, or indeed if it added new bugs in exchange. If you encounter a bug with the pet window, whether old or new, please report it!
+
+Changes to Pet Examine Screen: When you examine an animal handling pet, it now shows more information about its specific abilities. It shows info about your pet's basic attack, Sic 'Em ability, and Clever Trick, and tells you how much of each ability's damage comes from buffs, from Bond Levels, etc. (Note: this is implemented with the NPC dialog system, for now, so those stats aren't automatically refreshed!)
+
+(An important thing to remember about gear buffs: pets only get buffs from the gear you were wearing when you summoned the pet. If you take that gear off, the pet loses the buff. It doesn't get new gear buffs until it's resummoned.)
+
+Aggro Bug Fixed: We've fixed a bug that prevented pets from causing as much aggro as intended. Your pet will get enemies' attention much more easily during fights.
+
+====Other Pet Changes:====
+*Pet bond levels now increase base damage a bit more. This affects all levels. For example at Bond level 40, base damage increased from +41 to +56. At bond level 80, it increased from +101 to +157.
+*Pet bond levels now also boost the damage of pets' Sic 'Em and Clever Trick abilities. At Bond Level 80 this amounts to about a +150 damage bonus (which stacks with their base-damage bonus).
+*Increased the base damage of nearly all pets' Sic 'Em and Clever Trick attacks. At max level, this increases their special-attack base damage by several hundred (for most pets).
+*Increased the potency of several pets' Sic 'Em and/or Clever Trick abilities (heals, buffs, debuffs, DoTs).
+*Fire Rats: these pets' Clever Trick accidentally dealt the full DoT damage with every tick. Since it ticked 4 times, it effectively dealt 400% of the intended damage. This has been fixed. (Complicating the math, however: the base DoT damage was approximately doubled during rebalancing, so the new DoT is about half of the old value, not 1/4th. And there are new treasure effects which can increase it above the old value.)
+
+====Pet Treasure Changes:====
+*"Animal Handling pets' healing abilities, if any, restore +27% health" => restore +45% health
+*"Sic Em boosts your pet's Crushing attacks (if any) +26 damage for 10 seconds" => +80 over 10 seconds
+*"Sic Em boosts your pet's Slashing attacks (if any) +26 damage for 10 seconds" => +80 over 10 seconds
+*"Animal Handling pets recover +24 Armor every five seconds (whether in combat or not)" => +17 armor
+*"Unnatural Wrath causes your pet to bleed for 160 trauma damage over 10 seconds, but also deal +54 damage per attack during that time" => now deals +144 damage per attack during that time
+*"Animal Handling pets gain 16% melee evasion" => "Nimble Limbs gives pet +19% melee evasion for 30 seconds"
+*"Animal Handling pets gain +5 Armor Absorbency." => new effect: "Animal Handling pets absorb some direct damage based on their remaining Armor (absorbing 0% when armor is empty, up to 20% when armor is full)"
+*"Animal Handling pet attacks bypass 33 mitigation derived from armor" => "Animal Handling pets' damage-over-time effects (if any) deal +130% damage per tick"
+*"Animal Handling pets deal +36 direct damage with each attack" => "Animal Handling pets' Sic 'Em and Clever Trick attacks deal +100 damage"
+*"Get It Off Me heals you for 95 Health after a 15 second delay" => 160 Health
+*"Feed Pet restores 90 Health (or Armor if Health is full) to your pet after a 20 second delay" => 140 Health (or Armor if Health is full)
+*"Animal Handling pets deal +20% direct damage with each attack" => "Animal Handling pets' Sic 'Em attacks deal +16% damage"
+*New treasure: (chest, off-hand): "Animal Handling pets' Clever Trick abilities deal +245 damage"
+*New treasure: (hands, main-hand): "Animal Handling pets' Clever Trick attacks deal +16% damage"
+*New treasure: (chest): "Direct Cold Damage +16% while Animal Handling skill active"
+*New treasure: (necklace, legs, main-hand): "For 17 seconds after using Clever Trick, pets' basic attacks have a 15% chance to deal double damage"
+*New treasure: (ring, off-hand): "Animal Handling pets' basic attacks deal +13% damage"
+
+
+===Elite/Boss Monster Changes===
+In this update, Elite and Boss monsters have more health and armor. They also have larger Rage bars, which means they can't perform their Rage Attacks as often.
+
+The changes are most dramatic in the high-level areas outside of [[Gazluk Keep]] and the [[Fae Realm]]. For instance, the level 65 boss called the [[Ratkin King (SqUUeak)]] previously had 18k health and now has 23k health.
+
+Elites in Gazluk Keep and the Fae Realm already had special boosts to their stats, so they didn't receive much buffing compared to monsters in other high-level areas. We've removed those "artificial" boosts, and given all monsters comparable benefits.
+
+We've also made some other systemic changes that affect monster balance (both for regular monsters and elites), which are described below.
+
+A note about Gazluk Keep: I mentioned recently on the forums that I feel Elites/Bosses drop a bit too much high-rarity loot, and I'm considering lowering them a bit, but that didn't happen in this update. However, when removing the hacked-in artificial boosts for Elites in Gazluk Keep, we found several bugs where Elites received the boosts intended for Bosses instead of Elites. This meant they were proportionally a bit tougher than intended, and they also dropped much more Exceptional, Epic, and Legendary gear than intended. These errors have been fixed as part of the clean-up process. (This primarily affected Elite orcs in hallways.)
+
+===Changes to Monster Regeneration===
+Some monsters have Regeneration. The way this works has changed. Previously, regeneration happened only every 5 seconds, so if a fight was shorter than that, no regenerating happened. Monsters now regenerate every second. At higher level, monsters regenerate more overall, too.
+
+To counter regeneration you can use indirect damage, such as damage-over-time effects. This was always the case, but the formula has changed to make damage-over-time more effective in countering regeneration.
+
+Another problem with regeneration was that it was difficult to tell when it was happening. So this new system of regeneration uses healing. This way you can see the healing numbers coming from the monster, and at least know what the heck is going on.
+
+===Changes to Elite Monster "Rage Crits"===
+When a monster makes a Rage attack, it has a chance to "critically hit" and receive extra buffs.
+
+The behavior for non-elite monsters is unchanged: a Rage Crit for a regular monster restores 25% of their health instantly.
+
+The behavior for elites/bosses has changed: previously they healed 25% of their health and 100% of their armor. Now, they recover no health and only 25% of their armor. But in addition, they gain a "Rage Shield" buff which increases their damage by 10% and shields them from 50% of direct attack damage for 7 seconds.
+
+(We're trying different mechanics to see what may work best; expect more changes in the future. Also remember that since elites have larger Rage bars now, they have fewer Rage attacks and thus fewer Rage Crits overall.)
+
+===Changes to Monster Armor, and "Thick Armor" Monsters===
+Some monsters have "thick armor". This is when a monster's armor reduces the damage it receives more than normal. Monsters like rhinos, uraks, and snails get this feature. The intent is to make these monsters MUCH tougher to just blast away at. This makes armor-removal abilities more valuable, as well as making damage-over-time and direct-health-damage abilities more interesting. But it's never really met that goal, and it needs to. In fact, all monster armor needed some improvement.
+
+The old system used small flat mitigation boosts. The new system uses percentage mitigation. This applies to all monsters -- and makes all monsters a bit tougher.
+
+Normal monsters now mitigate 20% of all direct damage when their armor bar is full. This mitigation drops as their armor is removed, so when they're at half armor they mitigate 10%, and when their armor is gone they have no extra mitigation at all.
+
+Monsters with "Thick Armor" mitigate 50% of direct damage at max armor, scaling down to 0% as their armor is removed.
+
+Elites/bosses have a bonus to this, between +10% and +20%, depending on the tier of eliteness. This stacks with thick armor, so a thick-armored Elite can have as much as 70% resistance when their Armor bar is full.
+
+Attacks that directly lower health or armor aren't mitigated. So an attack that removes 500 armor always removes 500 armor.
+
+===Armor-Damage Formula Tweaks===
+We've tweaked the formula for armor-damage from treasure, which caused various treasure effects to change (mostly very slightly). Treasure changes:
+*Staff: "Lunge deals +102 armor damage" => 121 armor damage
+*Sword: "Many Cuts deals +110 armor damage" => 132 armor damage
+*Sword: "Wind Strike and Heart Piercer deal 108 armor damage" => 124 armor damage
+*Unarmed: "Unarmed attacks deal +18 Armor damage" => +32 armor damage
+*Unarmed: "Hip Throw deals +192 armor damage" => 226 armor damage
+*Mentalism: "Strike a Nerve deals +113 armor damage" => 132 armor damage
+*Werewolf: "Pouncing Rake deals +152 Armor damage" => 172 armor damage
+*Ice Magic: "Tundra Spikes deals 120 armor damage and taunts +600" => 220 armor damage
+*Ice Magic: "Blizzard deals 128 armor damage and generates -120 Rage" => 248 armor damage
+*Knife: "Marking Cut deals +48 armor damage and does not cause the target to shout for help" => 52 armor damage
+
+
+===Changes to "Thorns" Damage===
+Damage-reply effects ("thorns") no longer bypass armor when dealing instant damage. This does not apply to Damage-over-Time effects, only instant damage. The following abilities and items are affected:
+*Acid Shield Potion
+*Fire Shield Potion
+*Molten Veins
+*Fire Shield
+*Toxic Flesh
+*Brambleskin
+*Phoenix Strike
+*Privacy Field
+*Acidic Shield Wax *(already worked this way)
+
+
+===Druid Changes===
+*Fill With Bile: all tiers of this ability now boost direct Poison damage a bit more
+*"All Druid abilities have a 20% chance to restore 15 Power to you" => now a 30% chance
+*"Your Healing Sanctuary heals every 4 seconds (instead of every 5) and heals +16 health" => the speed-up feature of the old effect didn't work due to technical issues, and Healing Sanctuaries didn't really need more buffing anyway, so it's been replaced entirely: "Fill With Bile boosts target's direct Poison damage +51"
+
+
+===Shield Item Fixes===
+A bunch of shields were incorrectly tagged as "metal armor", which caused them to count toward the metal-armor-suit bonus (for having 3 pieces of metal armor on). This also means NPCs that like "Metal Armor" do not like these shields anymore. But note that shields are still considered "weapons" for gifting purposes.
+*Stalwart Targe: is now a Holy Symbol
+*Thentree Shield: is now a Holy Symbol, and is Elvish (for gifting purposes)
+*Dream-Keeper's Shield: is now a Holy Symbol
+*Elven Shield: is now Elvish (for gifting purposes)
+*Finesse Targe: is no longer indestructible nor antique
+
+
+===Staff Treasure Changes===
+*"Redirect deals +84 Trauma damage over 15 seconds" => deals 448 over 8 seconds
+*"Phoenix Strike restores 126 Health to you" => "Phoenix Strike deals +189 Fire damage to melee attackers"
+*"Phoenix Strike deals +21% damage and reuse timer is -8 seconds" => "Phoenix Strike deals +36% fire damage to melee attackers, and reuse timer is -7 seconds"
+*"Strategic Thrust and Lunge damage +61%" => +31% (this fixes a formula error)
+*"For 30 seconds after using Blocking Stance, your Mentalism attacks deal +16 damage" => "For 30 seconds after using Blocking Stance, your Mentalism Base Damage is +12.5%"
+*"Smash, Double Hit, and Heed The Stick Damage +18" => +69
+*"Nice Attack Power Cost -22 when skill Staff active" => Power cost -30
+
+
+===Augments In Loot===
+[[Augmentation|Augments]] can now be found in loot from monsters. Augments are much more likely to drop from animals (e.g. bears and wolves) than from sentient enemies such as goblins. The skills you have active will influence the types of Augments you find (e.g. you'll find more Ice Magic augments while using Ice Magic), but there is also a large randomness factor.
+
+The goal of adding augments to loot is to make augments more available to low-level players. For this reason, augments are more likely to be found on low-level monsters than high-level monsters. (At higher level we expect player-augmenters to make up the difference; the plan is that when we eventually have level 125 monsters, they won't drop augments at all -- only player augmenters will be able to make max-level augments.)
+
+For the non-Augmenters out there: augments are items that contain a random treasure effect, like you'd find on a piece of magical equipment. They can be installed into a piece of equipment to add their power to the item. If you find an augment, you can take it to any equipment-shop NPC who can install it for a fee. Both crafted and loot items can have augments installed into them. (Installing an Augment costs 100 crafting points, and all items have at least 100 crafting points.)
+
+Player Augmenters can install augments, and they can also destroy the augment currently in your item and restore the item's crafting points, allowing you to install a new augment. This option is not yet available from NPC shopkeepers, who can only install them. At low-level, though, our advice is not to worry about removing augments: you'll soon outgrow that level 20 sword, so if you find a level 20 augment that's useful, install it now, and expect to replace the sword (and the augment!) with better stuff soon.
+
+In conclusion, you should use augments. Augments are powerful.
+
+===Ice Throwing-Knife Changes===
+Ice Throwing Knives have been removed from the game. Instead, knife-throwing abilities can now use either regular throwing knives or clumps of Crystal Ice. Crystal Ice is no longer sold by vendors; instead, there is a new Ice Conjuration recipe that turns any food item into Crystal Ice. You can learn this recipe from [[Ichin]] in Rahu. (If you already knew how to craft Simple Ice Throwing Knives, you automatically know this new recipe instead.)
+
+Fairies have their own alternate methods for creating crystal ice. (They can use the Ice Conjuration recipe if they want to, but their method also generates fae energy, so is better for fairies.)
+
+===Hoplology===
+You now gain a bit more armor-restoration from Hoplology at low-level, and the rewards also now scale past 50. (It's always been possible to raise the skill higher than 50, but there were no rewards above level 50.) At level 50 Hoplology, you regain 24 Armor with every Staff attack (up from 15). At level 90, you regain 52 Armor with each Staff attack. There are not yet rewards above level 90.
+
+It now takes more XP to level Hoplology above level 30. Already-earned levels are unaffected, but your next level may need more XP than before.
+
+===Burying Players===
+To help alleviate "tombstone spam" in crowded areas, players can now bury other players' tombstones after their grave has been mourned enough. Here's how it works: if you mourn a tombstone and it's been mourned by enough other players before you, you'll be asked whether you want to bury the corpse or not. If you do, the tombstone will go away and you'll receive a small amount of Compassion XP (but not more than once per gameplay hour, to prevent abuse). You will only be asked if you want to bury a corpse if you have a shovel.
+
+The number of people that need to mourn the tombstone (before it can be buried) depends on several factors, including some randomness. Spammy deaths (such as "Suicide by Poison") can be buried after only a few mourners, whereas unusual deaths require more mourning.
+
+Hardcore deaths (by non-suicidal means) require more mourners than non-hardcore deaths. But in any case, hardcore players should remember that their tombstone is just a convenience: you can still repair your items even if the tombstone is gone. Just stand in the general area where your tombstone was and double-click your broken items to repair them.
+
+===Metal Armor Set-Bonus Change===
+The "set bonus" for wearing 3+ pieces of metal armor has changed. It now gives a point of universal direct mitigation for every 50 points of Max Armor. So a player with 600 Max Armor would reduce all attacks by 12 damage.
+
+===Viewing Buffs/Debuffs on Monsters===
+There's new benefits for raising your Anatomy skills: when you reach level 25 in any anatomy skill, you can see any active buffs/debuffs on monsters of that anatomy type. For now, this info is displayed in the Combat Info window (the same place that the monster's vulnerabilities are shown).
+
+When you reach level 50 in an anatomy skill, the Combat Info window also shows a few extra stats.
+
+This information is also available when you examine another player, as long as you have at least 25 of the relevant anatomy type. e.g. you need 25 Elf Anatomy to see the effects on an elven player. (If your relevant anatomy skill is less than 25, the window is disabled for that player, since there's no info to show.)
+
+===Other Tweaks & Fixes===
+*The /behaviorreport command now has "fake badges" for each equipment slot if you've NEVER used any item in that slot slot before. (There were already "real" badges for long-term refusal to use an item slot, which come with in-game titles, e.g. "Shoeless", but these "real" badges take much longer to earn and aren't as useful for behavior reports.) /behaviorreport also now includes the information from /age (e.g. # of attacks made, time online)
+*Players now have an anatomy type appropriate to their race. (For instance, elves have Elven Anatomy, humans have Human Anatomy, etc.) This has minor ramifications for certain abilities and powers. It also means that in PvP, players are subject to archery critical hits from their anatomy type.
+*Skeleton Ice Mages had varying levels of cold resistance/immunity. They now have a uniform 50% cold resistance at all levels. They also now have less resistance to Trauma.
+*Skeleton Fire Mages and Skeleton Darkness Mages had varying levels of fire resistance, typically having 100% (immunity). These skeletons now have a uniform 50% resistance to fire, and gain a 25% vulnerability to cold as well. Note that these changes do not affect summoned skeleton mages (which never had fire resistance anyway)
+*You can no longer fly upwards when overburdened. (In the strange event that you become overburdened during flight, you can still fly forwards or down.)
+*The teleportation platform in Animal Town incorrectly bound you to a different island in Sun Vale.
+*Preta's favor "Powedered Mammal" was intended for Agrashab (the one in Sun Vale). If you've not completed the quest before, it is now given out by (and generates favor for) Agrashab. If you already completed the quest, nothing has changed.
+*Amberjack now appear more frequently in the deep waters off of Sun Vale
+*Battle Chemistry: mini-golems now auto-match to your movement speed, allowing them to keep up with you better
+*Energy Turrets (used as part of traps) are no longer worth XP
+*Knife abilities Surprise Throw, Hamstring Throw, and Fan of Blades no longer technically require you to be wielding a dirk or dagger, as long as you have appropriate throwing knife ammunition and hands to throw it with. (This has little practical benefit, but it seemed more reasonable.)
+*Ability Fire Shield 6 did not do as much damage as listed (it used the base damage from Fire Shield 5 instead)
+*Treasure effect for Castigate that made it deal Fire damage did not also increase Rage generated.
+*Recipes for turning bones into bone meal no longer give extra XP after the first usage (too spammable for XP)
+*The item "Fairy Wand of Cold" has been renamed to "Grand Fae Wand of Cold".
+*Fixed a lightning-bolt projectile whose sound effect played in 2D instead of 3D
+*Fixed several monsters whose reactive combat sounds played in 2D instead of 3D
+*Fixed "floating" animation when firing a bow
+*Added server buttressing to prevent Steam lag from impacting in-game performance
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

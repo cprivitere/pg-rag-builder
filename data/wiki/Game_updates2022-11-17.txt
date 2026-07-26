@@ -1,0 +1,8 @@
+==Update Notes: November 17, 2022==
+MacOS users have a new version of the game which fixes problems that prevented the game from running. (Users on other operating systems won't see a new download.)
+
+'''Note for Linux users:''' We're still investigating the "super brightness bug" that Linux users have reported, and will fix as soon as possible, but no fix is ready yet. If this bug is making the game unplayable for you, a workaround is to use Steam's Proton mode. (Google "enable steam proton" for info on how to enable it.) This mode may have lower framerate, but does not suffer from the bug.
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

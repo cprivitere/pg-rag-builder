@@ -1,0 +1,152 @@
+__NOTOC__
+{{NPC infobox
+|title            = Malgath
+|image            = [[File:Malgath.jpg|300px]]
+|caption          =
+|zone = Kur Mountains
+|dungeon = Wolf Cave
+|location         = Left most path.
+|anatomy = Rakshasa
+|species = Lycanthrope
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Weapon Augmentation]]
+}}
+
+'''Malgath''' is the [[Weapon Augmentation]] trainer currently hiding out in [[Wolf Cave]]. After the [[Shadow Keepers]] began hunting for [[Nightshade]]'s guild, Malgath fled to the Kur Mountains. While out hunting one day, he became infected with Lycanthropy. To protect his friends, he retreated into the [[Wolf Cave]]. He's searching for a cure, and for some way to fight off his bestial urges. 
+
+In the past, Malgath sold weapons door-to-door.
+
+==Location==
+; [[Wolf Cave]]
+: On the leftmost path, with many enemies along the way.
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Quests ==
+<dpl>
+category = Quests/Malgath
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+;[[Weapon Augmentation]] - Requires 25 [[Alchemy]] and [[Blacksmithing]]
+: Malgath will teach you this skill once you have found him for [[Nightshade]] and returned to [[Nightshade]] to complete that quest.
+: Weapon Augmentation is one of the many [[Augmentation]] skills unlocked by completing Nightshade's favors. 
+: See [[Weapon Augmentation]] for detailed list of the Augments available.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Weapon Augmentation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Weapon Augmentation{{!}}Learn Weapon Augmentation
+ | skilllevel = 0
+ | cost=???
+ | favor=?
+}}
+{{NPC training row
+ |recipe=Decompose Main-Hand Weapon
+ |skilllevel=1
+ |cost=???
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Extract Main-Hand Augment (Level 0-30)
+ |skilllevel=8
+ |cost=???
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Decompose Off-Hand Weapon
+ |skilllevel=13
+ |cost=???
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Decompose Gloves
+ |skilllevel=18
+ |cost=???
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Extract Off-Hand Augment (Level 0-30)
+ |skilllevel=20
+ |cost=???
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Extract Glove Augment (Level 0-30)
+ |skilllevel=25
+ |cost=~1632
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Extract Main-Hand Augment (Level 31-60)
+ |skilllevel=31
+ |cost=~2832
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Extract Off-Hand Augment (Level 31-60)
+ |skilllevel=45
+ |cost=~4632
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Extract Glove Augment (Level 31-60)
+ |skilllevel=50
+ |cost=4800
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Undo Augment on Main-Hand Weapon
+ |skilllevel=38
+ |cost=~3065
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Undo Augment on Off-Hand Weapon
+ |skilllevel=42
+ |cost=~4532
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Undo Augment on Gloves
+ |skilllevel=50
+ |cost=4800
+ |favor=Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Wolfbite}} (Lv 40), {{Item|Blood Seeker Ointment}} x3
+}}
+== Conversations ==
+
+{{Spoiler|Friends|
+{{Quote|source=Malgath|
+It's lucky I ran into you! Hey. If I... go crazy... Find my mate. She's named Meara, and she lives in Sinoca. Tell her that I'm sorry.
+}}}}
+
+{{Spoiler|Weapon Augmentation unlock|
+{{Quote|source=Malgath|
+That elf never rests, does he? Always dealing in favors. This is a life-threatening disease! But fine. Fine, if you've got the money, I'll teach you what I know. 
+; Thanks! Uhh... what is it you do?
+I distill magic into oils that can be applied to weapons and shields. Most magic is built into an item by the craftsman when it's being made, but my technique lets you add an additional power to an already-made weapon. Naturally, I'm not going to part with this knowledge cheaply! This is my source of income!
+; Interesting. Well, I can pay...
+Money will be useful if I survive this. And if I don't... well, let's not worry about that. Are you good with a blacksmith's anvil? Because you need to know that before I can teach you anything.
+
+''[Weapon Augment Brewing requires Alchemy 25 and Blacksmithing 25. You can learn the skill from the Training menu.]''
+; Got it. 
+}}}}
+
+[[Category:NPCs]]

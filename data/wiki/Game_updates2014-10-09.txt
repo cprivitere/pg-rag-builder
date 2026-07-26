@@ -1,0 +1,27 @@
+==October 9th, 2014==
+
+Small bug fix update.
+
+===Fixes / Changes===
+
+* Hunter's Stride claimed to be an area-effect but only worked on the targeted ally (or self)
+
+* Player [[Spider|spider]] Incubate ability didn't create lasting spiders
+
+* Look At My Hammer cost power, when it was supposed to be free
+
+* Added some more checking for the '''/invite''' and '''/friend''' commands. (A few people have said it "doesn't seem to work" but I can't repro any issues; if you find a reproducible scenario please report it!)
+
+* Finally tracked down issues with certain gift items, most notably brass items
+
+* [[Marna]] now has double the available weekly gold (which is still, intentionally, pretty small)
+
+* Power costs for Room-Temperature Ball 1 and 2 were extremely high by mistake (and the higher level versions were much cheaper)
+
+===Fire Magic: Minor Nerf===
+
+* Small rebalance of [[Fire Magic]]: most spells now cost 2-3 more Power. This is intended to slightly increase the Power pressure on high level players. But the effect is pretty modest.
+
+* To keep this from having too big an impact on low-level fire magic, Fire Mages now earn more of their bonus Power at low level rather than high level. (At level 50, your Max Power will be unchanged from before, it's just that you get more of that Max Power at an earlier level.)
+
+[[Category:Game updates]]

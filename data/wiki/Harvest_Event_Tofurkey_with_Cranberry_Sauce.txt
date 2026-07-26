@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Ricatu in Povus said, "Plain old tofurkey is ... kind of dry. Gravy helps, but I bet you can do better. Maybe a sauce ... Oh! How about cranberry sauce! You'll have to find the recipe yourself, though."
+===Prerequisites===
+To start this quest, talk to '''[[Ricatu]]''' in '''[[Povus]]'''.  The quest is available during the [[Fall Harvest]]. The quest [[Harvest Event: Tofurkey!]] must be completed.
+
+===Preface===
+{{Quote|
+Plain old tofurkey is ... kind of dry. Gravy helps, but I bet you can do better. Maybe a sauce ... Oh! How about cranberry sauce! You'll have to find the recipe yourself, though.
+}}
+
+===Requirements===
+* Make {{Item|Tofurkey With Cranberry Sauce}}
+* Talk to Ricatu
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Tofurkey with Cranberry Sauce|
+{{Quote|
+
+}}
+* Live Event Credit x1
+* {{Item|Xogrite Chunk}} x13
+* 1300 XP Cooking
+}}
+
+
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ricatu]][[Category:Quests/Fall Harvest]]

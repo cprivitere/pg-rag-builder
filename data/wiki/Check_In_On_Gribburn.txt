@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+Nightshade asked you to look in on his business associate Gribburn, a goblin who lives within Hogan's Keep in Eltibule. In return, Nightshade says he'll help you convince Gribburn to teach you his unusual craft skill.
+
+===Prerequisites===
+To start this quest, talk to '''[[Nightshade]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|You aren't racist, are you? The next one's a goblin. Don't kill him! He's the best helm-enchanter I know! Not exactly a friend, but he's friendly as far as goblins go. He went to visit his old "tribe", and ended up moving into some castle.
+
+I'm worried he's doing stuff that will get him killed. You know, normal goblin stuff. Go see how he is. He's staying in a place called "Hogan's Keep". It's somewhere in Eltibule.
+
+In return, I'll help you convince the little bastard to train you in his secretive craft skill.}}
+
+===Requirements===
+* Talk to Gribburn
+* Talk to Nightshade
+
+{{Spoiler|Response to player|{{Quote|Ah, Nightshade, I'd forgotten about him. He was a good business partner, but then he went and got a guild of human assassins after him. Tell him that his concern is appreciated, but misplaced. We've both moved on. I'm going to stay here: free food and a bed, and nobody's trying to kill me!}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Check In On Gribburn|
+{{Quote|I'm glad Gribburn hasn't gotten himself killed by an overzealous human. It sounds like he's found a sweet setup for himself, too!
+
+But if he's going to live in some castle, that means I need more people who know how to do what he does. Say... are you a crafter? Why don't you learn his techniques? If he refuses to teach you, tell him that I'll have him killed! He'll think that's a hilariously bad bluff, and his levity will give you an opening to negotiate.
+
+It'll work. Goblins are incredibly predictable. Trust me.}}
+
+* 150 {{Favor|favor}}
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Nightshade]]

@@ -1,0 +1,16 @@
+__NOTOC__
+==Summary==
+Use the wolf whistle at the teleportation platform in the forest South of Serbule, then defeat the mystical wolf pack that appears. It will be a difficult fight! Use cunning!
+
+
+
+===Requirements===
+* Kill wolves near the teleportation platform x5
+* Talk to Harry
+
+===Rewards===
+{{Spoiler|Rewards|
+* {{Item|Werewolf Spit}}
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Limited Quests]]

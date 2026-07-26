@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Umarak in Povus said, "My mate is not doing well since the invasion. She used to make jewelry, and I'm hoping I can convince her to take up the trade again. It will make her happier. I just need some cinnabar!"
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Umarak]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+My mate is not doing well since the invasion. She used to make jewelry, and I'm hoping I can convince her to take up the trade again. It will make her happier. I just need some cinnabar!
+
+===Midway===
+Tryaka used to make necklaces of cinnabar. If we still had some, perhaps she'd take up the trade again.
+
+===Requirements===
+* Obtain Cinnabar x3
+* Talk to Umarak
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|This cinnabar will make some excellent necklaces. Many thanks, my friend.}}
+* {{Item|Xogrite Chunk}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Umarak]]

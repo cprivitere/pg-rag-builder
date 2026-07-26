@@ -1,0 +1,8 @@
+==Update Notes: Oct 2, 2020==
+This is a quick update to [[The Wintertide]]. (The rest of the October update will be coming soon!) These changes need playtest feedback, so we wanted to get them live quickly. We'll make more changes based on your feedback. 
+:: - [[Ensign]]s' shout radius is reduced from 30 to 20
+:: - Ensigns' security cocks have been replaced with golems
+:: - Modest increase in density in the bio deck
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

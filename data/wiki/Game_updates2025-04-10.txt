@@ -1,0 +1,5 @@
+==News: April 10, 2025==
+We rolled out a bug-fix update this morning, but it turned out to have a new bug in it, so we've rolled back to the previous version. The bug-fix update will return on Monday.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

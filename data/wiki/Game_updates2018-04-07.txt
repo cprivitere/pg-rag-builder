@@ -1,0 +1,84 @@
+==April 7 Update==
+This update contains a smorgasbord of optimizations, bug fixes, and new content. 
+
+The alpha client is no longer supported -- you will need to play via Steam.
+
+===Ranalon Den===
+[[Serbule Hills]] is home to a new solo dungeon for players of combat levels 18-24 or so. (There is group content planned as well, but most of it is not yet implemented.) This dungeon tries something a little new: a rapid-fire quest NPC roams the entryway. Let us know what you think! (The entrance is in a ranalon lake.)
+===Animal Handling Changes===
+<b>Loyalty Level Becomes Bond Level</b>
+[[Animal Handling]] pets have a "Loyalty Level" which starts at 0 for any pet and increases as you fight alongside that pet. This is not a new stat, and you've been able to earn these levels for a long time... but previously they didn't do anything. They now do something (see below). We've also renamed the stat from "Loyalty Level" to "Bond Level". The name change is supposed to help convey that this is a bond between you and your pet, so if this pet were to be, say, given away to another player, its Bond Level would reset to 0 for its new owner. (It's not yet possible to give away pets, though-- that feature is part of the Animal Husbandry skill tree, still deep in development.)
+
+Pets' Bond Level (previously "Loyalty Level") now boosts some combat stats: for each Bond Level, pets' base damage increases by 1 or 2, max health increases by 4, and max armor increases by 1. This is intentionally a somewhat modest effect -- we don't want Bond Level to be so important that you become effectively stuck with the same pet forever! (Since newly-tamed pets start at Bond Level 0.) But this is a noticeable buff at high level, rewarding players who stick with their pet a long time. We will no doubt adjust the effects of the Bond Level again in future updates, and we may have it behave differently for different pet types in the future.
+
+===Removal of Pet Power===
+When we added the pet-specific moves for Sic 'Em and Clever Trick, we also gave pets their own Power meter, with the intent to create interesting conundrums for animal handlers: deciding how and when to spend their pet's Power, whether the pet needed the benefit of Max-Power-boosting gear, etc. However after some experimentation it doesn't seem like it's going to be very interesting after all. So we're throwing that idea away: pets no longer need or use Power to activate their abilities. Instead, the animal handler's Power cost for Sic 'Em and Special Trick is increased a bit.
+
+For now, pets' abilities are unchanged aside from the removal of Power costs. Further balancing and development will happen here -- possibly including the re -introduction of Rage meters for pets, with a way to let animal handlers activate their pets' rage-attack.
+
+===Making Enthusiasm More Important===
+[[Animal Handling]] pets have another stat called Enthusiasm, which can be boosted by the owner's equipped items. (And boosted via other ways in the future!) Previously, the only purpose of Enthusiasm was to determine how quickly your pet gained Happiness. (Happiness determines how much XP your pet earns; if it dies, your pet's Happiness goes down, and the rate it recovers Happiness is based on the pet's Enthusiasm). All that is still true, but Enthusiasm has a second job now: it determines the chance for pets to critically-hit their enemies. The formula is based on the level of the monster, so higher Enthusiasm is needed to critically-hit higher-level monsters. If a pet performs a critical hit, the pet's direct damage is increased by 25% (for cats), 40% (for bears), or 50% (for rats).
+
+This system is a work in progress and will no doubt see changes (or even complete rewrites) in the future. For now the goal is just to make sure that Enthusiasm is a stat worth caring about, even if your pet is already really happy.
+===Other Pet Changes and Fixes===
+:: - A lot of the systems involved with Animal Handling are still too opaque: that is, it's very hard to figure out how they work. As a first step in helping explain everything, Gisli the Stablemaster now has a menu option where he will explain terms like Happiness, Enthusiasm, Bond Level, and so on.
+:: - Animal Handling abilities that target your pet should work even when you don't have your pet explicitly targeted. (This "mostly" worked before, but the icons were shown as being grayed out, leading to much confusion.)
+:: - Some Animal Handling abilities require you to be within a certain range of your pet. If you're too far away, using these abilities should now move you toward the pet until you're in range. Previously, due to bugs, your character would take one step forward and then give up.
+:: - Pets that are in "Follow" mode will no longer fight back against monsters that attack them. They will chase after their owner and never fight, even unto death. (Previously, switching a pet to Follow mode would briefly kick it out of combat, but if it was hit again it would go right back to defending itself. This made it difficult for players to flee without losing their pet.) Note that this change applies to all pets that can be put in Follow mode, not just Animal Handling pets!
+:: - The special abilities "Sic 'Em" and "Special Trick" will now automatically take the pet out of Follow mode if necessary in order to execute the attack you requested (placing the pet in Defend mode).
+:: - Due to a display bug, Enthusiasm was previously always shown as 0 or 1 on the pet's Examination window.
+:: - Due to a display bug, equipment that boosts pet Enthusiasm was listed as boosting it by a percentage, such as 20%. It actually boosts Enthusiasm by a fixed amount, such as 20.
+:: - Animal Handling ability "That'll Do 8" claimed to restore 450 health but only restored 400
+:: - "That'll Do" previously helped restore pets' Power; pets no longer use Power so "That'll Do" doesn't restore any.
+===Animal Handling Equipment:: -Mod Changes===
+The following treasure mods were changed. Existing gear has been automatically updated to use the new effects.
+:: - "Animal Handling pets regenerate +X Power every five seconds (whether in combat or not)" => "Animal Handling pets recover +Y Armor every five seconds (whether in combat or not)" 
+:: - "Animal Handling pets gain X% melee evasion, and their special trick costs them :: -Y Power to use" => removed the Power reduction aspect of this mod
+:: - "Animal Handling pets earn +X% XP" => "Animal Handling pets' Sic 'Em abilities taunt +Y"
+:: - "Feed Pet restores X Power to your pet and Y Power to you" => "Feed Pet restores X Health to your pet after a 20 second delay"
+:: - "Animal Handling pets have +X Max Power" => "Animal Handling pets have +Y% Death Avoidance (ignores a fatal attack once; resets after 15 minutes)"
+:: - "That'll Do restores X Power to your pet and Y Power to you" => "That'll Do restores X Health to your pet and Y Power to you"
+===General Changes===
+:: - Improved framerate in [[Serbule]] and [[Serbule Hills]] (optimizations to sky/weather system). Further optimizations to future.
+:: - Optimized UI bottlenecks to improve framerate, especially in busy areas
+:: - Fixed text that still referred to Serbule Hills as "South Serbule"
+:: - Reduced the chances of monsters "clumping up" into huge groups in the Ilmari Desert. (It can still happen, but is more rare.)
+:: - Ilmari desert now uses the new terrain shaders, giving it a rockier and more rugged look
+:: - Slightly increased spoon drops on newbie island
+:: - Reduced the number of temporary entities (such as tombstones) that are maintained in dungeons and on the newbie island
+:: - Changed the maximum length of a player vendor's shop name from 60 characters to 32 characters
+:: - Fixed issues with ambient sounds in outdoor areas
+:: - Fixed locations where monsters could spawn underneath buildings in Serbule
+:: - Fixed some abilities with buffs that didn't correctly abort if you switched to a different skill
+:: - The mini-map is now enabled by default for new installations of the game. (This does not affect already-installed copies of the game, just the default for new installs. You can still turn the mini:: -map on or off in the Settings window.)
+:: - Worked around bugs in Unity that caused animal-form players to move crazily when knocked back. The fix is complex because the bug is deep inside Unity so if you find more issues, please report them, with as much detail as you can.
+:: - Improved [[Hammer]] animations
+:: - The Serbule Hills "spider cave" and the Serbule "brain bug cave" are now properly marked as caves for purposes of crafting (e.g. cheese making)
+:: - Previously, when your hunting group used "any group member" loot mode, solo:: -monsters' loot was always tailored to one specific group member, chosen randomly, which never changed. Now, solo-monsters' loot is tailored to a different randomly-chosen group member each time. This is still not ideal, but it's a step in the right direction. And to reiterate, this does not apply to groups using the default "turns" looting mode  - - in that case the monster is always tailored to the person whose turn it is. And, of course, Elite and Boss monsters work entirely differently -- they have instanced loot that's tailored for each group member.
+:: - Adjusted the spawn configurations of certain monsters that could easily be exploited with area-effect attacks. Most notably, [[Razorslash Panther]]s (pets of the orcs) now have orcs spawn among them, rather than a vast field of nothing but panthers. These are stopgap measures as we continue to analyze looting rates and monster density scenarios
+:: - Fixed some spawners that were incorrectly configured to respawn super fast (e.g. respawning every 5 seconds). This includes some areas of Eltibule and many areas of Kur. The outdoor respawn rate is supposed to be quite fast, but not so fast that monsters continuously respawn in your face
+:: - Fixed some spawners that were incorrectly super:: -slow (e.g. respawning every 60 seconds instead of every 20 or 30 seconds). Most notably this affects pretty much all of outdoor [[Gazluk]] (aside from Gazluk Keep town) and much of the [[Ilmari]] Desert
+:: - Monsters with Evasion all have a little bit more of it (5 points more across the board)
+:: - The "strange deer" spawned during the quest "Get Crystal Samples" no longer drop loot (besides the quest item) and cannot be skinned
+:: - [[Flia]] the fairy likes weird items and rare recipes a bit less than before (in terms of Favor received for gifts)
+:: - Tweaked spawn rates upward slightly during kraken invasions
+===Fixes to Treasure Mods===
+:: - "Reconstruct restores +X Health and causes the target to take Y less damage from attacks for 10 seconds" => this mod appears on two slots, Helm and Necklace, but if you had both mods active at once, the "take less damage" portion only applied once
+:: - "Revitalize restores +X Health and causes the target to take Y less damage from Psychic and Nature attacks for 10 seconds" => this mod appears on two slots, Hands and Feet, but if you had both mods active at once, the "take less damage" portion only applied once
+:: - "If Strategic Thrust is used on a Vulnerable target, it deals +X damage and restores Y Health to you" => this did not restore health if the target was vulnerable
+:: - "Strategic Thrust deals +X% damage, plus Y% more damage if the target is Vulnerable" => this did not do extra damage to vulnerable targets
+:: - "Scintillating Frost and Scintillating Flame stun and deal +X% damage to Vulnerable targets" => this stunned but did not do extra damage to vulnerable targets
+:: - "Hammer attacks deal +X% damage to targets whose Rage meters are at least 66% full" => this did not work
+:: - "Seismic Impact deals +X% damage to targets that are Knocked Down" => this did not work
+:: - "Discharging Strike deals +X% damage plus Y% more damage if target's Rage meter is at least 66% full" => this did not add more damage to targets whose rage was mostly full
+:: - "Unarmed attacks deal +X% damage when you have 33% or less of your Armor left" => this did not work. It works now, though the damage boost is a bit lower
+:: - "All sword abilities deal +X% damage when you have 33% or less of your Armor left" => this did not work. It works now
+:: - "Kick attacks deal +X% damage when you have 33% or less of your Armor left" => this did not work. It works now but the damage boost is lower
+==="Special Settings" Changes===
+:: - The experimental optimization '''OptimizeMeshes''' is now enabled by default. You can remove '''OptimizeMeshes'''from your special settings list because that no longer does anything.
+:: - A new special setting '''DontOptimizeMeshes''' is available as a precaution in case the optimize meshes feature needs to be disabled for some reason.
+:: - Added a new special setting, '''FPSUpdateRate'''. This takes a duration in seconds (default is '''FPSUpdateRate=0.5''', max is '''FPSUpdateRate=10'''). When the FPS display is active, this is how long it waits between refreshes. While waiting, it averages your FPS. Using a value of < 1 shows your moment:: -to:: -moment framerate, which is usually what you want to see. But sometimes you want to know if a certain graphics configuration is an overall improvement or not, and a constantly:: -changing number is hard to use. In that situation setting '''FPSUpdateRate=5''' makes it easier to see the "big picture".
+:: - A new special setting, '''MaxActiveLoads''', might improve loading times when you enter new areas. Normally the loading screen tries to load up to 10 things at once, but on some computers (maybe most computers?) a different number would be better. The new setting lets you change the maximum number of simultaneous loads. Setting it to '''MaxActiveLoads=100''' would allow up to 100 concurrent loads :: -:: - that'd be pretty much maxed out, and could speed up or slow down loading, depending on your machine. (A more practical value to try might be 5 or 20.) You might also try '''MaxActiveLoads=1''' to make it stop multitasking at all -- this will probably be much slower, but it uses much less RAM during startup. If you experiment with this setting please let us know your thoughts after a few weeks' usage.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

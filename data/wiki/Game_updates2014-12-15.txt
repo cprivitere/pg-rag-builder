@@ -1,0 +1,11 @@
+==December 15, 2014==
+===What's Up?===
+I've been working on revamping Eltibule for the past week, to make it a much more compelling part of the game. But as I worked on it, I ended up adding lots of new code features, so the schedule has suffered. The update will add new NPC features, new map GUI features, and other stuff not directly tied to Eltibule. Should be ready by the 20th.
+
+*<b>Werewolves take note:</b> after the next update, the game's lunar calendar will no longer cycle weekly. It will now match the real world's lunar calendar (for the northern hemisphere). The "full moon" period will last three days per month.
+*On the one hand, that's more annoying, because you'll be stuck in wolf form for three straight days! But on the other hand, the actual number of full moon days is lower. This also makes it easier to predict when the full moon will happen.
+*In the longer term, I'm hoping to cultivate a small community of werewolf players, and I think having a "shared misery" period each month will be beneficial to building community.  Next year I'll be adding a few werewolf-specific game mechanics that give you more to do during that time. But I made this calendar change now because it ties into some new Eltibule content.
+*<b>Holiday Events:</b> Due to how the calendar is playing out, I don't have a lot of time to do a Christmas event, so I'll do a small token event, and do something a bit larger for New Years.
+*Thanks for playing, and sorry for the radio silence the past week or two! Been heads-down working on stuff.
+
+[[Category: Game updates]]

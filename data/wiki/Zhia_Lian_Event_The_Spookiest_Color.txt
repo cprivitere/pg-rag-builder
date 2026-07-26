@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> You have a lot of undead-bashing to do, and you should do it with a little more style. Make some nice orange dye. It's the scariest!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> You have a lot of undead-bashing to do, and you should do it with a little more style. Make some nice orange dye. It's the scariest!
+
+===Requirements===
+* Craft Goblin Orange Dye
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Hm. It's not as scary as I hoped. Try this! I know it doesn't seem scary, but this color just fits you better.}}
+* 2500 councils
+* {{Item|Plum Dye}} x5
+* random items
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

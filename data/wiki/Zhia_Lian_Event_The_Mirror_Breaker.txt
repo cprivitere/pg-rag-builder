@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Melandria in Gazluk Keep asked you to procure some items needed for the ritual to break Rick's curse.
+
+Melandria said that the flowers she needs only grow at night, near the glowy yellow crystals found in Gazluk.
+
+This Quest can be repeated after 60 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Melandria]]''' in '''[[Gazluk Keep]]'''.
+
+===Requirements===
+* Obtain Toxic Ice Sludge x3
+* Obtain Coldkiss Flowers x5
+* Obtain Final Battle Potion
+* Obtain Wolf Teeth x3
+* Talk to Melandria
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|That's everything I need! When the coast is clear, I'll get my friend to perform the ritual. Then I'll sneak Rick out via ... well, I've said too much already. Not that I don't trust you, but sometimes the walls have ears... it's best if you just let me handle this. I'll get him home!}}
+* 100 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Gazluk Keep Quests]][[Category:Quests/Melandria]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,121 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Disharmony
+| description = An out-of-tune note aimed at your enemy causes a wince of pain.
+| level = 1
+| power cost = 0
+| reuse time = 1.5
+| range = 20 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Disharmony}}
+| damage = 7 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Disharmony 2
+| description = An out-of-tune note aimed at your enemy causes a wince of pain.
+| level = 11
+| power cost = 0
+| reuse time = 1.5
+| range = 20 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Disharmony}}
+| damage = 12 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Disharmony 3
+| description = An out-of-tune note aimed at your enemy causes a wince of pain.
+| level = 22
+| power cost = 0
+| reuse time = 1.5
+| range = 20 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Disharmony}}
+| damage = 19 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Disharmony 4
+| description = An out-of-tune note aimed at your enemy causes a wince of pain.
+| level = 31
+| power cost = 0
+| reuse time = 1.5
+| range = 20 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Disharmony}}
+| damage = 27 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Disharmony 5
+| description = An out-of-tune note aimed at your enemy causes a wince of pain.
+| level = 41
+| power cost = 0
+| reuse time = 1.5
+| range = 20 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Disharmony}}
+| damage = 39 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Disharmony 6
+| description = An out-of-tune note aimed at your enemy causes a wince of pain.
+| level = 51
+| power cost = 0
+| reuse time = 1.5
+| range = 20 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Disharmony}}
+| damage = 60 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Disharmony 7
+| description = An out-of-tune note aimed at your enemy causes a wince of pain.
+| level = 61
+| power cost = 0
+| reuse time = 1.5
+| range = 20 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Disharmony}}
+| damage = 81 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Disharmony 8
+| description = An out-of-tune note aimed at your enemy causes a wince of pain.
+| level = 71
+| power cost = 0
+| reuse time = 1.5
+| range = 20 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Disharmony}}
+| damage = 103 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Disharmony 9
+| description = An out-of-tune note aimed at your enemy causes a wince of pain.
+| level = 81
+| power cost = 0
+| reuse time = 1.5
+| range = 20 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Disharmony}}
+| damage = 128 Trauma
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

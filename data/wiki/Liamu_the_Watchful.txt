@@ -1,0 +1,170 @@
+__NOTOC__
+{{NPC infobox
+|title            = Liamu the Watchful
+|image            = [[File:Liamu(npc).png|300px]]
+|caption          = Studious and calm.
+|zone             = Vidaria
+|location         = North of the manticore fields.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Calligraphy]]
+}}
+{{Quote|source=[[Liamu the Watchful]]|Though the manticores brought me here, I can't help but worry about the demonic threat that lurks behind the Rubywall. What we see on the ground could only be a fraction of their true force.}}
+[[Liamu the Watchful]] is a Rakshasa scholar currently studying the Manticores passing through [[Vidaria]]. 
+== Location ==
+; [[Vidaria]]
+: [[Liamu the Watchful]] can be found at a small tented campsite on a slope in northeastern Vidaria, between the Rubywall and the lower farmland.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}<!-- Add an area displaying the favor categories the NPC claims to enjoy. -->
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Like Family}}|
+{{Item|Fredrick's Charm}} x1
+}}
+
+=== Hang Outs ===
+
+== Quests ==
+[[Liamu the Watchful]] offers {{Favor|neutral}} acquaintances a single quest. Completing this quest unlocks two additional tasks.
+<dpl>
+category = Quests/Liamu
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+[[Liamu the Watchful]] trains [[Calligraphy]] skills.
+<!-- List the abilities the NPC trains by skill. -->
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Calligraphy]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Calligraphy{{pipe}}Unlock Calligraphy Skill Levels 61-70
+ |skilllevel = 60
+ |cost=64 Vidaria Renown and 0
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Calligraphy: Repetition
+ |skilllevel= 60
+ |cost={{Item|Manticore Tail Tip}} and 8500
+ |favor=Neutral
+}}
+{{NPC training row
+ | recipe = Calligraphy: Repetition+
+ | skilllevel = 
+ | cost ={{Item|Manticore Tail Tip}} and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy:Gloam
+ | skilllevel = 
+ | cost ={{Item|Manticore Tail Tip}} and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy:Gloam+
+ | skilllevel = 
+ | cost ={{Item|Manticore Tail Tip}} and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Stripe
+ | skilllevel = 
+ | cost ={{Item|Manticore Tail Tip}} and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Stripe+
+ | skilllevel = 
+ | cost ={{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Poison
+ | skilllevel = 
+ | cost ={{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Poison+
+ | skilllevel = 
+ | cost ={{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Expectation
+ | skilllevel = 
+ | cost ={{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Expectation+
+ | skilllevel = 
+ | cost ={{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Vociferous
+ | skilllevel = 
+ | cost = {{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Vociferous+
+ | skilllevel = 
+ | cost = {{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Obstinate
+ | skilllevel = 
+ | cost = {{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Obstinate+
+ | skilllevel = 
+ | cost = {{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Calligraphy: Division
+ | skilllevel = 
+ | cost = {{Item|Manticore Tail Tip}} x2 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Secret Calligraphy: Division+
+ | skilllevel = 
+ | cost = {{Item|Manticore Tail Tip}} x3 and ?
+ | favor = 
+}}
+{{NPC training row
+ | recipe = Secret Calligraphy: Reflection
+ | skilllevel = 
+ | cost = {{Item|Manticore Tail Tip}} x3 and ?
+ | favor = 
+}}
+|}
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Chrysoberyl}} x5
+|RiShin Family = {{Item|Chrysoberyl}} x10
+}}
+
+
+== Conversations ==
+{{Quote|source=[[Liamu the Watchful]]|When my rage threatened to overtake me, I discovered a strange practice called calligraphy. It is healing. I do not have the patience to teach beginners, but perhaps you've already heard of the practice?}}
+{{Quote|source=[[Liamu the Watchful]]|I had heard of the Rubywall, of course, but to see it is quite another matter. The sheer scope of it is... awe-inspiring, to say the least.}}
+{{Quote|source=Liamu's Notes|The pages of these books are filled with handwritten notes addressed to no one in particular, like the journals of a hermit scholar. Margins are filled with elaborate drawings of catlike scorpions, their anatomy meticulously connoted with the language of ancient science. The writing is so specific and esoteric that your eyes glaze over and your mind wanders to something else.}}
+[[Category:NPCs]]

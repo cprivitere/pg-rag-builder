@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Righteous Flame
+| description = Teach your foe what it means to face a priest of warmth.
+| level = 6
+| power cost = 16
+| reuse time = 13
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|RighteousFlame}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 24 Fire initially and 5 Fire 5 times over 10 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Righteous Flame 2
+| description = Teach your foe what it means to face a priest of warmth.
+| level = 16
+| power cost = 22
+| reuse time = 13
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|RighteousFlame}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 48 Fire initially and 10 Fire 5 times over 10 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Righteous Flame 3
+| description = Teach your foe what it means to face a priest of warmth.
+| level = 26
+| power cost = 27
+| reuse time = 13
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|RighteousFlame}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 72 Fire initially and 15 Fire 5 times over 10 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Righteous Flame 4
+| description = Teach your foe what it means to face a priest of warmth.
+| level = 36
+| power cost = 33
+| reuse time = 13
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|RighteousFlame}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 109 Fire initially and 20 Fire 5 times over 10 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Righteous Flame 5
+| description = Teach your foe what it means to face a priest of warmth.
+| level = 46
+| power cost = 37
+| reuse time = 13
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|RighteousFlame}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 170 Fire initially and 25 Fire 5 times over 10 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Righteous Flame 6
+| description = Teach your foe what it means to face a priest of warmth.
+| level = 56
+| power cost = 41
+| reuse time = 13
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|RighteousFlame}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 243 Fire initially and 30 Fire 5 times over 10 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Righteous Flame 7
+| description = Teach your foe what it means to face a priest of warmth.
+| level = 66
+| power cost = 46
+| reuse time = 13
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|RighteousFlame}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 316 Fire initially and 35 Fire 5 times over 10 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Righteous Flame 8
+| description = Teach your foe what it means to face a priest of warmth.
+| level = 76
+| power cost = 51
+| reuse time = 13
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|RighteousFlame}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 400 Fire initially and 40 Fire 5 times over 10 seconds
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

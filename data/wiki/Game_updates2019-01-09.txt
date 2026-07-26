@@ -1,0 +1,26 @@
+==January 9 Update==
+===Player Work-Order Board: Browse Categories===
+The "browse recent orders" option on Player Work-Order boards now lets you see orders for just a particular category of thing, such as arrows or gems. This helps work-order fulfillers see a broader picture of demand for their particular skill.
+
+We've created a lot of browse categories just to see what ends up being useful to players, and we'll evolve them based on usage. (If a work order doesn't show up in the category you expect, such as a crystal order not showing up in the Crystals section, please report it as a bug.)
+===Zombie Changes===
+Necromancer's zombies were too hard to keep alive, even with necromancer-provided healing. There are a few changes to help alleviate this:
+: - zombies' inherent self-bleed is reduced by about 75%
+: - zombies now reap 25% of the health damage they deal (meaning that every time they deal damage to an enemy's health, they are healed by 25% of the health damage they dealt)
+
+===Training Changes===
+: - [[Battle Chemistry]]: the trainer in [[Rahu]] now uses the Training system for golem conditionals and abilities, instead of selling them as books. This makes it easy to tell which ones you've learned: only ones you haven't learned yet will show up!
+: - [[Tanning]]: previously the easiest way to learn Tanning was to complete a favor for [[Kleave]]. This is too hidden for such an important low-level skill, so Kleave's training menu now has an entry to Learn Tanning for 500 Councils, which she teaches at Comfortable. (If you prefer, you can still learn it by completing the favor. This will save you a few hundred Councils in Training costs.)
+: - Learning the first level of Tanning (from whatever method) now teaches the first Tanning recipe. (The other Tanning recipes are still taught by Kleave.)
+: - [[Leatherworking]]: [[Kleave]] now teaches her Leatherworking recipes from the Training menu, like a normal trainer. (She previously sold books of leatherworking recipes instead)
+===Other Changes===
+: - the ability Set Broken Bone did not have the intended 33% chance to consume the Master First Aid Kit. (Instead the kit was always consumed.)
+: - added another background music track to [[Red Wing Casino]]
+: - [[Spider]]: Treasure effect "Premeditated Doom channeling time is -1 second and boosts your Indirect Poison damage +X (per tick) for 20 seconds" was bugged. Data errors caused this effect to use the level 80 version for all levels 60-80
+: - the game now tries a bit harder to ensure that summoned and deployed items (such as tapped kegs, growing vegetables, motherlodes, etc.) are in an accessible location, and not trapped underground or in a wall. Note that as a side-effect, they can now spawn up to 12 meters away from you (instead of 5 meters as previous), and can now appear above or below you in some cases, so you may need to look around for them
+: - removed terrifying error about speed-hacking when you try to turn off a toggleable ability too quickly (such as giant bats' Echolocate). You can now turn off abilities like this instantly, without having to wait for the ability's reuse timer to be up.
+: - fixed a bug where the Party chat channel could be dropped from custom chat tabs when leaving a party
+: - as a side-effect of cleaning up some old treasure system mechanics, the drop-chances of some treasure effects have changed. Most notably, effects that boost base-damage (e.g. "Sword Base Damage +X%") used to drop at a rate 15x higher than regular mods; they now drop 5x as often. (During pre-alpha those effects were extremely crucial and they needed to show up a lot, but they're more "optional" now.)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

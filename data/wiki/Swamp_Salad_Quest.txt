@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Ailred in Povus said, "The service here is truly awful. Do you know how long I've been waiting?! And I had to seat myself! But nevermind. Nevermind all that! I heard that this place makes a great swamp salad. I would like to try this dish."
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ailred]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+The service here is truly awful. Do you know how long I've been waiting?! And I had to seat myself! But nevermind. Nevermind all that! I heard that this place makes a great swamp salad. I would like to try this dish.
+
+===Midway===
+Hello again! I ordered the swamp salad. Is there any chance I could receive my food TODAY?!
+
+===Requirements===
+* Craft Swamp Salad
+* (Keep Swamp Salad)
+* Talk to Ailred
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Um... Is... Is this a swamp salad? It's... I expected crispy. This is kind of slimy...
+
+Hm. No, it's not my favorite. But it's not that bad. An interesting dining experience, at least!}}
+* {{Item|Xogrite Chunk}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ailred]]

@@ -1,0 +1,56 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Energize
+| description = Revitalize yourself and nearby allies at a crucial moment.
+| level = 20
+| power cost = 0
+| reuse time = 60
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Druid}}{{KWAB|DruidHeal}}{{KWAB|Energize}}
+| special = Restores 100 Health. Restore 50 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Energize 2
+| description = Revitalize yourself and nearby allies at a crucial moment.
+| level = 40
+| power cost = 0
+| reuse time = 60
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Druid}}{{KWAB|DruidHeal}}{{KWAB|Energize}}
+| special = Restores 140 Health. Restore 80 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Energize 3
+| description = Revitalize yourself and nearby allies at a crucial moment.
+| level = 60
+| power cost = 0
+| reuse time = 60
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Druid}}{{KWAB|DruidHeal}}{{KWAB|Energize}}
+| special = Restores 180 Health. Restore 100 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Energize 4
+| description = Revitalize yourself and nearby allies at a crucial moment.
+| level = 80
+| power cost = 0
+| reuse time = 60
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Druid}}{{KWAB|DruidHeal}}{{KWAB|Energize}}
+| special = Restores 220 Health. Restore 110 Power.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

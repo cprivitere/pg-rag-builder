@@ -1,0 +1,104 @@
+__NOTOC__
+{{NPC infobox
+|title            = Charles Thompson
+|image            = [[File:Charles Thompson (npc).jpg|300px]]
+|caption          = He has a broad smile.
+|zone             = Serbule
+|location         = Tent to the southwest.
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Mycology]]
+|vendor           = Yes
+|storage = Yes
+}}
+{{Quote|
+No, I don't use Alchemy! Those recipes use 'safety protocols' and 'resiliency ingredients.' I create potions with just the basics of Mycology, none of that pointless overhead!
+}}
+[[Charles Thompson]] is a human banned from [[Serbule Keep]] by [[Sir Coth]]. While one of them may claim it to be a personal grudge, [[Charles Thompson]]'s inventory of potions with downsides may be a factor. He is an alchemist who has interests in [[Dye Making]] and [[Mycology]].  If you befriend Charles Thompson, he will grant you permission to speak with his automation, the [[Dye Monster]]. He recently visited the City of [[Rahu]] to purchase Aquamarine Dye.
+== Location ==
+; [[Serbule]]
+: Southwest area on way to [[Serbule Crypt]]. He's in a tent.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Charles Thompson]] rewards his friends with additional [[Storage]] space.
+=== Hang Outs ===
+Does not offer any known Hang Outs.
+== Quests ==
+<dpl>
+category = Quests/Charles Thompson
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mycology]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Dimensional Folder
+ |skilllevel=10
+ |cost=466
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Myconutmeg
+ |skilllevel=20
+ |cost=920
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Ruggedizer
+ |skilllevel=15
+ |cost=966
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Life or Death Potion
+ |skilllevel=20
+ |cost=1133
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Thunderclap Potion
+ |skilllevel=20
+ |cost=1133
+ |favor=Like Family
+}}
+|}
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Charles Thompson
+|favorrestriction =Friends
+|itemrestriction =Potions and Alchemy Ingredients
+|neutral =0
+|comfortable =0
+|friends =32
+|closefriends =40
+|bestfriends =48
+|likefamily =56
+|soulmates =64
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Life or Death Potion}} x5
+|RiShin Family = {{Item|Ravager}} 5x
+}}
+== Conversations ==
+
+[[Category:NPCs]]

@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+Midge in the Fae Realm said, "Look, I don't need random help from random mortals! Somebody brought me this potion of memory inhibition, and I've been studying it. I think I can invert the effect. Well, I can invert <i>something</i>: memories, emotions, internal organs, something. And something is better than nothing.
+
+I wrote down the things that I need, but hmm, they'll have to come from a mortal world. Wait, you're a mortal! Here. Get this stuff! Hurry! Go!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Midge the Apothecary]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+Look, I don't need random help from random mortals! Somebody brought me this potion of memory inhibition, and I've been studying it. I think I can invert the effect. Well, I can invert <i>something</i>: memories, emotions, internal organs, something. And something is better than nothing.
+
+I wrote down the things that I need, but hmm, they'll have to come from a mortal world. Wait, you're a mortal! Here. Get this stuff! Hurry! Go!
+
+===Requirements===
+* Obtain Blue Cheese
+* Obtain Cinnabar x3
+* Obtain Hope Oil
+* Talk to Midge
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|What's all this? You think this can help fix memory problems? Oh, hmm. You know, I think you're right! This might work! There's some missing ingredients, but I think I have those. You're a genius, thank you! I have to mix this up right now before I forget.
+
+<i>[Midge works horriedly, then takes a deep breath and drinks her concoction.]</i>
+
+Oh, you're still here? That's nice. ... hmm. I think I may have helped my brain just now. I'll be able to tell in a bit. Hey, you're an alchemist too, right? Here, let me show you a related formula that I devised this earlier. It's not quite what I was looking for. In fact, it's a LOT of work for a short-term boost... maybe it'll help somebody somewhere, though!}}
+* 200 {{Favor|favor}}
+* Recipe: Memory Enhancer
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Midge the Apothecary]]

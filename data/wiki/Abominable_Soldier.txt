@@ -1,0 +1,83 @@
+__NOTOC__
+{{MOB infobox
+| title = Abominable Soldier
+| type      = Aberration
+| health    = 9534
+| armor     = 1883
+| rage      = 2739
+| effective = Crushing, Slashing, Piercing, Cold
+| vineffective = Fire, Electricity
+}}
+[[Nightmare Creature]]s are sentient creatures created through foul means. Their existence seems to be one of constant pain.
+
+== Locations ==
+{{MOB Location
+|area=The Wintertide
+|location=Found on the highest deck.
+| health    = 9534
+| armor     = 1883
+| rage      = 2739
+}}
+==Combat Abilities==
+{{:AIP:TotalHorror}}
+==Miscellaneous==
+{|
+|'''Skin''':
+| None
+|-
+|'''Meat''':
+| None
+|-
+|'''Skull''':
+|{{Item|Impressive Aberration Skull}}
+|}
+==Reported Loot==
+''' Level 80 Equipment '''
+{|
+|{{Loot|Archcudgel}}
+|{{Loot|Lordling's Spatha}}
+|{{Loot|Troll Claw}}
+|{{Loot|Dream-Keeper's Shield}}
+|-
+|{{Loot|Birch Pants}}
+|{{Loot|Winter Court Battle-Greaves}}
+|{{Loot|Soulworm-Bitten Hat}}
+|{{Loot|Ring of Basic Reconnaissance}}
+|-
+|{{Loot|Fae Rhino Necklace}}
+|{{Loot|Wing Tassels of Beefriending}}
+|{{Loot|Amulet of Cold Protection}}
+|{{Loot|Amulet of Mindwalls}}
+|}
+
+''' General Loot '''
+{|
+|{{Loot|Nightmare Flesh}}
+|{{Loot|Identification Gland}}
+|{{Loot|Dwarven N Core}}
+|{{Loot|Embalming Tool}}
+|-
+|{{Loot|Brass Fishhook}}
+|{{Loot|Brass Figurine of a Hag}}
+|{{Loot|Lead Figurine of an Ogre}}
+|{{Loot|Large Coin Sack}}
+|-
+|{{Loot|Strange Dirt}}
+|{{Loot|Sulfur}}
+|{{Loot|Amazing Steak}}
+|{{Loot|Amazing Venison}}
+|-
+|{{Loot|Amazing Rabbit Meat}}
+|{{Loot|Great Rabbit Meat}}
+|{{Loot|Cavefish}}
+|{{Loot|Brain}}
+|-
+|{{Loot|Spleen}}
+|{{Loot|Stomach}}
+|}
+
+''' Augments '''
+
+{|
+|{{Loot|Chest Augment}}
+|}

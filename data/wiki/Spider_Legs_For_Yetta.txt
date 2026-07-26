@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Yetta has requested some spider legs.
+
+===Prerequisites===
+To start this quest, talk to '''[[Yetta]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Yes, actually... can you grab me some spider legs? I need them for new potions. Big or small, doesn't matter. }}
+
+===Requirements===
+* Obtain {{Item|Spider Leg}}s x10
+* Talk to Yetta
+
+===Rewards===
+{{Spoiler|Rewards for Spider Legs For Yetta|
+{{Quote|Thanks! Hope it wasn't a big hassle. Here's something for your trouble.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Healing Potion}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Yetta]]

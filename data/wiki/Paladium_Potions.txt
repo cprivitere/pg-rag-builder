@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Ragabir in Red Wing Casino said, "So much for dwarves being great miners. I need a little bit of paladium, and you'd think with all these idiot dwarves around that'd be easy. Nope. Not easy. Are you any better than a dwarf? I just need a few chunks! I'll pay well!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Ragabir]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+So much for dwarves being great miners. I need a little bit of paladium, and you'd think with all these idiot dwarves around that'd be easy. Nope. Not easy. Are you any better than a dwarf? I just need a few chunks! I'll pay well!
+
+===Requirements===
+* Obtain Paladium x3
+* Talk to Ragabir
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|I'm a generous goblin so I'm going to overlook the tiny size of these paladium samples and pay what we agreed on. But in the future, try to get decent-sized ore samples!}}
+* 200 {{Favor|favor}}
+* 1500 councils}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Ragabir]]

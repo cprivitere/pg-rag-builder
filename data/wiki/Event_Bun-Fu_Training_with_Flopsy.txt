@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Greetings! Ready for advanced Bun-Fu lessons? Great!
+
+In order to survive, you must be able to replenish your carrot supply no matter the conditions! Find a good, fertile plot of ground somewhere out here in the [[Kur Mountains]] and grow twelve carrots. Don't forget, you MUST grow these carrots while being a rabbit. If you want to be a non-rabbit gardener, then go talk to someone else! Once you are done, bring them to me for inspection and I shall reward you with some bunny juices.
+
+[<em> This quest requires level 50 Gardening to complete!</em>]
+
+This Quest can be repeated after 15 days.
+
+This quest is only available during a BunFu event. 
+
+===Requirements===
+* Grow 12 carrots in [[Kur Mountains]]
+* Speak to Flopsy
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Nice gardening work! Those carrots will serve you well! Be sure to vist my other two cousins Lopsy and Boop to complete your training. Here are your bunny juices, as promised.}}
+* {{Item|Bunny Juice}} x4
+* {{Item|Un-Bunny Juice}} x4
+}}
+
+[[Category:Quests]][[Category:Quests/Bun-Fu Training Quests]]

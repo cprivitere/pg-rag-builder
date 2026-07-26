@@ -1,0 +1,37 @@
+__NOTOC__
+==Summary==
+[[Raina]] in the [[Fae Realm]] said, "You really should talk to [[Crelpin]] about your pets. Who knows what they might have gone through?"
+
+This quest is only available to [[Fairy|Fae]]. 
+
+===Preface===
+You really should talk to [[Crelpin]] about your pets. Who knows what they might have gone through?
+===Prerequisites===
+To start this quest, talk to '''[[Raina]]''' in '''[[Fae Realm]]''' after receiving the quest [[Re-Awakening]]. This quest is only available to [[Fairy|Fae]].
+
+===Requirements===
+* Talk to [[Crelpin]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|
+Hello, (player name)! I've been waiting for you and your bee to show up.
+
+'''Really? Why?'''
+
+The local hives have been buzzing with the news that you're here. They're anxious to scope out your bee. In fact, you should probably head out there for introductions as soon as you can.
+
+'''Introductions?'''
+
+Yeah. Bees can be a little territorial, about people too. Just take your bee out to the honeycomb to the west and talk to the bees. You *do* understand their language, right?
+
+'''Maybe? I lost my memory.''' (Completes [[Visit Crelpin]] and starts [[Meet the Hive]].)
+
+But you and your bee have such a strong bond! I'm sure you'll pick it up again eventually. Now get your beehind out to the beehive before the bees get too bee-othered.
+
+'''I'll try.'''
+}}
+* 0 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Fae Quests]][[Category:Quests/Raina]]

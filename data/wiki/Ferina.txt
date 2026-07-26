@@ -1,0 +1,41 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ferina
+|image            = [[File:Ferina (npc).png|300px]]
+|caption          = A bit tired
+|zone             = Statehelm
+|town = Statehelm
+|location         = Wandering
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = No scary animals
+}}
+{{Quote|source=[[Ferina]]|Ugh, I'm so tired! I've been avoiding sleep because of some scary nightmares. But I'm going to have to give in and sleep soon.}}
+[[Ferina]] is an Elf who lives in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Ferina]] may be found wandering the city of Statehelm during the day.
+: [[Ferina]] can be found on the top floor of the Elven Apartments after 7pm.
+
+== Favor ==
+=== Small Talk ===
+[[Ferina]] does not use the favor system.
+== Quests ==
+[[Ferina]] does not offer any quests.
+<!--
+[[Ferina]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Ferina
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+-->
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Ferina]]|
+Human racism is... tolerable. I mean, it's better than orc racism. But it just wears you down, you know? Day after day of the disrespect, the added danger, the people who cross the street to avoid me as if elves carry diseases. Which just goes to show how dump stereotypes are. Elves have a stereotype about humans being disease-infested, and humans have the same stereotype about us!}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

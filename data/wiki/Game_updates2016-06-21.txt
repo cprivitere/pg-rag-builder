@@ -1,0 +1,20 @@
+==<b>June 21 Bug-Fix Update</b>==
+: This update works around a bug in the latest version of Unity that causes AMD graphics cards to crash. (I suspect it is a Unity bug, not an AMD bug.) There is no "real" fix until Unity fixes the underlying problem, but we've worked around the problem by not using the offending feature. As a result, some elements of the scenery in Eltibule will be slightly uglier for now, but nothing too dramatic.
+: HOWEVER, the work-around has to be applied manually to any item in the game that uses a particular stock shader. There is no way for us to automatically locate all these items (thanks Unity!) so there may be more items outside of [[Eltibule]] that cause it. '''If you get this crash, we need to know where you were so we can track down the item. '''The symptoms are that the device driver restarts (you may see a popup message about it), and the screen goes all white. (Or in some cases shuts down entirely).
+===Other fixes:===
+:: - Repaired corrupted artwork for foxes
+:: - The knife ability "Opening Thrust" did not activate a Combat Refresh as indicated
+:: - Some knife treasure displayed as {MOD_SKILL_KNIFE} etc.
+:: - Deer skill passive stat boosts now scale to 60
+:: - Some treasure effects that made knife abilities do bonus DoT damage actually caused the knife wielder to bleed instead
+:: - Throwing knives have a uniform 85% chance to stick in the corpse and be recoverable. (Higher-level knives had reduced chances, incorrectly.)
+:: - Fan of Blades now consumes 3 knives instead of 5. (Because you can only recover at most one knife, from the primary target, this is still an expensive ability. But it didn't need to be THAT expensive)
+:: - The in-game skill hint incorrectly said that Urzab could raise Geology to 60; he cannot do so yet (higher-level geology recipes aren't all implemented). Urzab raises only Surveying and Mining to 60
+:: - Fixed a bug that let you drop winter fae blood on the ground and then pick it up to bypass the max-count restriction
+:: - Reduced the lens flare on the thornskin effect. (You can still spot it from a good ways away, but it should just be a blip of light, not a blinding flash)
+:: - Another fix for flowers that couldn't boost your XP if you had bonus levels that raised it above 50
+:: - The player-to-player trade feature did not successfully trade items
+:: - Cannibals that continue to eat their own kind enough times will eventually rationalize it to the point that they no longer suffer penalties
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

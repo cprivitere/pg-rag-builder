@@ -1,0 +1,41 @@
+{{Ambox
+|border=yellow
+|info=<span style="color:#c80000; font-weight:bold;">This quest is given by Beehive K.
+
+For a list of all Help the Hive quests, see: [[Help the Hive]].<br/></span>
+}}
+__NOTOC__
+==Summary==
+A beehive in the Fae Realm said, "Bzz. BzzZZzzz ...
+
+We need your help, fairy. We yearn to pollinate, but travel is unsafe! Raptors attack our troops in transit!
+
+Bzz. ZzzZzzZzzBz ... zzzBzt!
+
+You must kill them!"
+
+This Quest can be repeated after 5 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Beehive]] K''' in '''[[Fae Realm]],''' completing the quest [[Meet the Hive]]. This quest is only available to Fae.
+
+===Preface===
+Bzz. BzzZZzzz ...
+
+We need your help, fairy. We yearn to pollinate, but travel is unsafe! Raptors attack our troops in transit!
+
+Bzz. ZzzZzzZzzBz ... zzzBzt!
+
+You must kill them!
+
+===Requirements===
+* Kill [[Deinonychus]] x10
+* Talk to the Bee Hive
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|BzzZz! [Which you think means, 'Thanks!']}}
+* 200 XP [[Fae (Race Skill)]].
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/BeeHive]][[Category:Quests/Fae Quests]]

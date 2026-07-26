@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Leah Bowman in Povus said, "I used to walk the riverbank and collect old fishing nets. I use them for all sorts of crafts! But it's too dangerous to do that these days. If you find some nets, though, I'd like them! I can't pay much, but I'll pay a bit."
+
+===Prerequisites===
+To start this quest, talk to '''[[Leah Bowman]]''' in '''[[Povus]]'''. 
+
+===Preface===
+I used to walk the riverbank and collect old fishing nets. I use them for all sorts of crafts! But it's too dangerous to do that these days. If you find some nets, though, I'd like them! I can't pay much, but I'll pay a bit.
+
+===Requirements===
+* Obtain Broken Fishing Nets x3
+* Talk to Leah Bowman
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Three big nets, still reeking of swamp water! Yep, that's what I needed! Here: I wish I could offer more.}}
+* 100 {{Favor|favor}}
+* {{Item|Xogrite Chunk}} x3
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Leah Bowman]]

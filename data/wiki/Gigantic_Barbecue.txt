@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Noita the Green in the Fae Realm said, "Have you met Marrowchomp? Oh, hmm, actually, you should probably keep your distance from him: he can be ornery. But he's an amazing cook! And he's told me about something called barbecue, which I simply must try. Unfortunately it requires a lot of meat. A LOT of meat! But it doesn't really matter what kind, as apparently he can barbecue anything! Just make sure there's a lot of it."
+
+===Prerequisites===
+To start this quest, talk to '''[[Noita the Green]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+Have you met Marrowchomp? Oh, hmm, actually, you should probably keep your distance from him: he can be ornery. But he's an amazing cook! And he's told me about something called barbecue, which I simply must try. Unfortunately it requires a lot of meat. A LOT of meat! But it doesn't really matter what kind, as apparently he can barbecue anything! Just make sure there's a lot of it.
+
+===Requirements===
+* Obtain Meat x50
+* Talk to Noita the Green
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|That is an impressive amount of meat! It looks delicious already! But I'll keep my appetite. I'm so excited to try barbecue! Thank you! And don't worry: if Marrowchomp refuses to serve you, I'll slip some to you when he's not looking. Here's something to tide you over.}}
+* 100 {{Favor|favor}}
+* Recipe: Rustic Meatsterpiece
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Noita the Green]]

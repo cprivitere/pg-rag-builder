@@ -1,0 +1,52 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gleanfeckle
+|image            = [[File:Gleanfeckle (npc).png|300px]]
+|caption          = Speedy
+|zone             = Statehelm
+|town = Statehelm
+|location         = Fountain/Wandering
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = No scary animals
+}}
+{{Quote|source=[[Gleanfeckle]]|Do you know, I think I work harder as a messenger here in Statehelm than I worked abroad my old ship. And I was the astrogator! I had to be constantly prepared for encounters!
+
+But being on my wings all day is a different kind of exhaustion. Not unpleasant.}}
+[[Gleanfeckle]] is a fairy refugee who lives in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Gleanfeckle]] may be found wandering the city of Statehelm during the day. They are often found in the southwest parts of the city. Sometimes they can be found inside the first floor classroom of the Bard College.
+
+== Favor ==
+=== Small Talk ===
+[[Gleanfeckle]] does not use the favor system.
+== Quests ==
+[[Gleanfeckle]] does not offer quests.
+<!--
+[[Gleanfeckle]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Gleanfeckle
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Gleanfeckle]]|
+It's so interesting how the scope of your life can change overnight. One day you're worrying about a war of uncomprehending scope. Then the next day you're delivering parcels and wishing your bunkmate didn't snore.}}
+{{Quote|source=[[Gleanfeckle]]|
+It's not so much that [[Anamemerie]] snores, really. It's that she talks in her sleep, and she's obviously living out bondage fantasies.
+
+I just know she's a Spring! But we're all refugees here. We keep our mouths shut about that sort of thing. We're all friendly Summer fae! And if you know differently, no you don't.}}
+{{Quote|source=[[Gleanfeckle]]|
+One of the more annoying facets of this world is the need to sleep every day. Some force imposes that requirement on us while we're here. We only need to sleep an hour or three, but if we don't get any sleep at all, we get quite unhappy.
+
+In the fae realm, sleep is sporadic and rare. Certainly not every few hours like it is here!
+
+But I guess there's up sides. We don't have the same vivid dreams in the fae realm either. They're an interesting novelty.}}
+{{Quote|source=[[Gleanfeckle]]|
+I've places to be and people to see, darling. It's been nice talking with a friendly person.}}
+[[Category:NPCs]][[Category:NoRiShin]]

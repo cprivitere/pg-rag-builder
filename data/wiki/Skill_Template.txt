@@ -1,0 +1,121 @@
+__NOTOC__
+{{Skill infobox
+|title            = Sword
+|image            = [[File:Sword_skill.png|300px]]
+|caption          = A description of the skill.
+|skilltype        = Combat Skill <!-- Pick the first correct one: Beast Form, Combat Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Anatomy Skill, Phrenology Skill, Trade Skill, Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 70 <!-- List without bonus levels -->
+|req              = <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Nelson Ballard]], [[Janet Lews]], [[Malvol]] <!-- List skill trainers, 3 max -->
+}}
+
+{{Quote|
+Leave a quote about the skill here. This can be the in-game description, but that info must be placed below as well.  Adds a bit of flavor to the article as well.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+'''Skill''' introductory paragraph or two summarizing the main aspects of the skill or combat style. Is it a main damage skill or more of a support skill, or both? Feel free to elaborate on useful information. See [[Lycanthropy]] or [[Hammer]] for examples.
+
+=== In-Game Description ===
+The in-game description of the skill goes here.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Jara]] teaches Carpentry after you finish '''[[Kill Bear in There]]''' for her.
+
+* [[The Wombat]] in Sun Vale also has several recipes. These recipes teach how to make some staffs and animal shoes (Cow and Deer). (Useful if only for the bonus XP for creating an item for the first time)
+
+* [[Lamashu]] in Kur Mountains has some recipes to create Storage Crates.
+
+* [[Amutasa]] unlocks levels 51-70 and teaches some higher-level staff recipes.
+
+== Connected Skills ==
+'''List skills that connect with the skill the page is for. Sub-Skills often exist for Trade Skills and Combat Skills. For example, a Sub-Skill for Leatherworking may be Haberdashery. A Sub-Skill for Sword will eventually be Greatsword. An existing Sub-Skill is [[Corpse Talking]] for [[Necromancy]].'''
+
+'''Secondary Skills are skills that either modify the page's skill, or have connected mechanics. Calligraphy is an example of a Secondary skill for Sword, as well as Meditation for Unarmed. Secondary skills can also be Skills that require a level in the current page's skill to unlock. Toolcrafting would be an example of a Secondary skill for Carpentry, even though it isn't a Sub-Skill. In this example, list the level.'''
+
+'''Related Skills are suggested by the wiki editors, and Cooking could be listed for Gardening.'''
+
+===== Sub-Skills: =====
+* [[Charged Pig]] - (As a Sub-Skill for Pig)
+===== Secondary Skills: =====
+* [[Calligraphy]] - Explanation of how Calligraphy works with Sword.
+* [[Toolcrafting]] - Toolcrafting requires Level 20 Carpentry.
+===== Related Skills: =====
+* [[Cooking]] - Explanation of why Cooking is related to Gardening.
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Archery]]<!-- Skill Name --> can be obtained from the following skills and levels:
+:; [[Fletching]] <!-- List skills alphabetically, gather information from Synergy Levels page linked above. -->
+:: Level 15, Level 29, Level 43
+
+== Harvestables == 
+'''If the skill includes a gathering component (Foraging, Fishing, Gardening), add this heading.'''
+''' See [[Fishing]] or [[Mycology]] for examples.
+
+''' Reference a transcluded ability table for the skill. This will be populated with all possible abilities. Save the page for the skill, than follow the red link. On the new page, type  <code>{{((}}subst:Preload/Ability pages{{))}}</code> Save that page to generate the table (Just the table, there will be no content until the Wiki's ExtraBot is turned on, which generally happens after every otherpatch).
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== Recipe Lists ==
+Lists of Recipes pertaining to the skill goes here. See [[Cooking]] for one example of where recipes are broken up. For Transcluded tables (What all skills should use), see [[Carpentry]].
+
+'''After adding recipe breakdowns if needed, add a transcluded table of all recipes. In a similar method to adding the Complete Ability list, save this page and follow the red link that will be created for Recipes. Type on that page: <code>{{((}}subst:Preload/Recipe pages{{))}}</code> and save.'''
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+''' Add mechanics specific to the skill in this question, like [[Unarmed]] and [[Lycanthropy]]'s Combos, Skill-specific activities (Altar of Norala for Lycanthropes), and Equipment that is specialized for the skill.'''
+=== Mechanic 1===
+Doing la-di-dah allows for this and that.
+
+===Equipment===
+<!-- Special equipment that is intended to be used by the skill goes here, including belts. -->
+{{belt|Lucky Belt of the Hammerer}} increases Base Damage dealt with Hammer by 8%. Can be created with [[Toolcrafting]] 40.
+
+{{belt|Lucky Belt of the Woodland Warrior}} increases Base Damage dealt with Hammer and Druid combat skills by 6%. Can be bought from [[Agrashab]].
+
+{{belt|Lucky Belt of the Barbarian}} increases Base Damage dealt with Hammer and [[Shield]] combat skills by 6%. Can be bought from [[Agrashab]].
+
+{{belt|Lucky Belt of the Mindfist}} increases Base Damage dealt with Hammer and [[Mentalism]] combat skills by 6%. Can be bought from [[Agrashab]].
+
+{{belt|Lucky Belt of the Wraith}} increase Base Damage dealt with Unarmed and [[Necromancy]] combat skills by 6%. Can be found through rare drops and chests.
+
+'''If this is a Combat Skill, add Treasure Effects. In a similar method to adding the Complete Ability list, save this page and follow the red link that will be created for Treasure Effects. Type on that page: <code>{{((}}subst:Preload/Treasure Effect pages{{))}}</code> and save.'''
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+'''Now, Add Stat Bonuses. There is no preload for Stat Bonuses, so just add the following and wait for the bot to add the page.
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+'''Now, Add Level Up Rewards. In a similar method to adding the Complete Ability list, save this page and follow the red link that will be created for Level Up Rewards. Type on that page: <code>{{((}}subst:Preload/Level Up Reward pages{{))}}</code> and save.'''
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalCombatSkill}} <!-- Xptables will list all tables. Select the right one by looking at "XpTable" in the skills json. -->
+}}
+
+== Trivia ==
+'''Write a little about this history of the skill, or things that don't belong in above areas'''
+
+== Gallery==
+''' Include a small gallery of players using the skill, or abilities of the skill. Try to keep it under six images. This example Gallery is from the Serbule Page.'''
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+File:Serbule Gallery (abandoned cart).jpg|An abandoned cart.
+File:Serbule Gallery 2.jpg|A very dangerous place...
+</gallery>
+
+<!--
+    Add the correct Categories to the skill page. Make sure to remove Category:Template guides.
+
+    Mandatory Categories:
+    * Category:Skills
+
+    These Categories will be automatically added if the infobox is filled in correctly:
+    * Category:Beast Forms
+    * Category:Combat Skills
+    * Category:Beast Skills
+    * Category:Anatomy Skills
+    * Category:Phrenology Skills
+    * Category:Trade Skills
+    * Category:Other Skills
+-->
+[[Category:Template guides]][[Category:Skills]]

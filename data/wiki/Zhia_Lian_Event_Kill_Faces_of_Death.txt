@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> There's a tomb near you called Borghild. I happen to know that it's home to some terrifying Faces of Death. You should gather your fellow heroes or whatever, then go destroy them!
+
+<i>[Borghild is recommended for a group of 3+ level 30-40 players. You can also find Faces of Death in a few other locations -- those count too!]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> There's a tomb near you called Borghild. I happen to know that it's home to some terrifying Faces of Death. You should gather your fellow heroes or whatever, then go destroy them!
+
+<i>[Borghild is recommended for a group of 3+ level 30-40 players. You can also find Faces of Death in a few other locations -- those count too!]</i>
+
+===Requirements===
+* Kill Faces of Death x3
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> You faced death! Sorry.}}
+* 250 councils
+* {{Item|Event Loot Key (Universal)}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

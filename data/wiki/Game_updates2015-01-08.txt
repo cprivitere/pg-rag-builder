@@ -1,0 +1,10 @@
+==January 8 Status Update==
+Still working on the update! The holidays and the Steam greenlight approval were big distractions, but I'm back on task now.
+
+There are lots of experimental changes coming in this update. For instance, there'll be a new fourth type of energy (along with Health/Armor/Power), called [[Metabolism]], which regulates potion usage and a few other things. We'll see how it plays. Plus there's two new dungeons, a lot of stat re-balances, over 40 new treasure effects to find, the Christmas NPC gift-giving system (which I've renamed a New Years' system, so it's only two weeks late instead of 4...), and a lot of other stuff. 
+
+It's WAAY more than I can comfortably fit into the usual 1-2 week update cycle. So I'm trying to rein in the madness now, but it'll be a little bit. Aiming for middle of next week for the update.
+
+PS - Nice seeing some new players online! Happy gorgoning!
+
+[[Category:Game updates]]

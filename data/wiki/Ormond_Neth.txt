@@ -1,0 +1,43 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ormond Neth
+|image            = [[File:Ormond Neth (npc).png|300px]]
+|caption          = Bookish but with clear passion for music
+|zone             = Statehelm
+|town = Statehelm
+|location         = Bard College
+|anatomy = Human
+|species = Human
+|beastspeak       = ?
+}}
+{{Quote|source=[[Ormond Neth]]|Hello! It's always nice to have visitors to our school! I'm afraid I have a class to teach soon, so please excuse me.}}
+[[Ormond Neth]] is a human living in the city of [[Statehelm]]. He works as an instructor at the Bard College.
+== Location ==
+; [[Statehelm]]
+: [[Ormond Neth]] may be found on the first floor of the Bard College.
+== Favor ==
+[[Ormond Neth]] does not share his preferences to non-students.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards ===
+[[Ormond Neth]] offers no options beyond a brisk hello to individuals at '''{{favor|Neutral}}''' favor who are not part of the Bard College.
+== Quests ==
+[[Ormond Neth]] does not initially offer quests.
+<!--
+[[Ormond Neth]] offers ...
+<dpl>
+category = Quests/Ormond Neth
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Services ==
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+
+[[Category:NPCs]]

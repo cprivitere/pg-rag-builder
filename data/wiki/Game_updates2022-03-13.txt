@@ -1,0 +1,8 @@
+__NOTOC__
+==Hotfix Notes: March 13, 2022==
+- Fixed a problem that prevented a few users from being able to log in. (Server-side fix that required a reboot.)
+
+We'll have a client patch later this week to fix some other bugs, including the "particle spam" bug and a few others.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

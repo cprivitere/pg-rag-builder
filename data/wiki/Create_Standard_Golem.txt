@@ -1,0 +1,11 @@
+__NOTOC__
+{{Ability infobox
+| name = Create Standard Golem
+| description = You concoct an automaton that can be given four commands.
+| level = 39
+| power cost = 50
+| reuse time = 90
+| range = 0 meters
+| skill = Battle Chemistry
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

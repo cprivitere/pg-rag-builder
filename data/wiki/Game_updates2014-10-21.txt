@@ -1,0 +1,11 @@
+==October 21, 2014==
+
+Server changes were made to support the new website. Also, two random bug fixes:
+
+- Winter Court Fey were disappearing too quickly (they are supposed to last ~30 minutes before disappearing, if they haven't been
+killed yet)
+
+- NPC [[Nelson Ballard]] claimed to like fancy footwear, of which there was none in the game anymore. Nelson now likes "elegant
+footwear", which is any Feet item with the Elegant tag.
+
+[[Category:Game updates]]

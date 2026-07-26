@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Ensign Cricket aboard the Wintertide said, "Hey, while you're assaulting the ship and all, why not kill some of the pests on the engine deck? We've got a nasty infestation of droaches down there. Apparently they get along great with the phoenixes, so everybody's afraid to get rid of 'em. But not you!"
+
+This Quest can be repeated after 30 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ensign Cricket]]''' in '''[[The Wintertide]]'''. The quest is available at {{Favor|Friends}} favor. 
+
+===Preface===
+Hey, while you're assaulting the ship and all, why not kill some of the pests on the engine deck? We've got a nasty infestation of droaches down there. Apparently they get along great with the phoenixes, so everybody's afraid to get rid of 'em. But not you!
+
+===Requirements===
+* Kill Engine Droaches x8
+* Talk to Ensign Cricket
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thanks for stamping out some droaches. I'm sure there's hundreds more in the walls and floors, but if we can at least terrorize them into staying out of the way, that's a big win.
+
+Hey, stand still. This may hurt. There! Did it hurt? Perfect! You've stolen more of our technology! That will outrage the captain even more!
+
+Those blueprints are probably useless to you right now, but I'm sure some day you'll be glad I burned them into your mind!}}
+* 100 {{Favor|favor}}
+* Recipe: Position Inferencing Ring
+* Recipe: Position Inferencing Ring (Max-Enchanted)
+* {{Item|Royal Jelly}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm? Quests]][[Category:Quests/Ensign Cricket]]

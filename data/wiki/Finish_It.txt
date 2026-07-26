@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Finish It
+| description = Use your shield to clobber an enemy and get this fight over with!
+| level = 15
+| power cost = 26
+| reuse time = 20
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|FinishIt}}{{KWAB|NiceAttack}}
+| damage = 47 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Finish It 2
+| description = Use your shield to clobber an enemy and get this fight over with!
+| level = 25
+| power cost = 32
+| reuse time = 20
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|FinishIt}}{{KWAB|NiceAttack}}
+| damage = 80 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Finish It 3
+| description = Use your shield to clobber an enemy and get this fight over with!
+| level = 38
+| power cost = 40
+| reuse time = 20
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|FinishIt}}{{KWAB|NiceAttack}}
+| damage = 137 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Finish It 4
+| description = Use your shield to clobber an enemy and get this fight over with!
+| level = 44
+| power cost = 43
+| reuse time = 20
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|FinishIt}}{{KWAB|NiceAttack}}
+| damage = 178 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Finish It 5
+| description = Use your shield to clobber an enemy and get this fight over with!
+| level = 54
+| power cost = 49
+| reuse time = 20
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|FinishIt}}{{KWAB|NiceAttack}}
+| damage = 265 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Finish It 6
+| description = Use your shield to clobber an enemy and get this fight over with!
+| level = 64
+| power cost = 54
+| reuse time = 20
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|FinishIt}}{{KWAB|NiceAttack}}
+| damage = 349 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Finish It 7
+| description = Use your shield to clobber an enemy and get this fight over with!
+| level = 74
+| power cost = 60
+| reuse time = 20
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|FinishIt}}{{KWAB|NiceAttack}}
+| damage = 443 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

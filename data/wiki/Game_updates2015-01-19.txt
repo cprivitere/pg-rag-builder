@@ -1,0 +1,12 @@
+==January 19 Update==
+Small batch of server-side fixes. (No client patch; just fixed some easy-to-fix bugs and exploits on the server side.)
+
+:- You could corpse talk with the same corpse many times if you succeeded well enough
+:- Several NPCs gave out stacks of items that can't actually stack, causing all sorts of weirdness
+:- The new darkness mechanic caused you to evade even your own self-heals. Non-offensive abilities are now immune to evasion
+:- Goblin Boss Algapa accidentally had no loot
+:- Greta the garden tender accidentally had no loot
+:- One of Yasinda's favor quests claimed to want Basic Volatile Ink but actually wanted Expert Volatile Ink. (It wants Basic now, as intended.)
+:- Crazy Terry did not have group loot despite being marked as Elite
+
+[[Category:Game updates]]

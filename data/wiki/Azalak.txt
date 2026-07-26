@@ -1,0 +1,305 @@
+__NOTOC__
+{{NPC infobox
+|title            = Azalak
+|image            = [[File:Azalak the mantis.jpg|300px]]
+|caption          = This bug looks menacing.
+|zone             = Serbule
+|location         = A house near the Eltibule portal.
+|anatomy = Arthropod
+|species = Mantis
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = Cooking, Alchemy, Dye Making, Necromancy
+|vendor           = Yes
+}}
+{{Quote|
+Hello. I am not dangerous. My hat indicates intellect.
+}}
+{{Quote|
+We are like podmates. Except I am better at wearing hats.
+}}
+'''Azalak''' is a friendly mantis.
+
+==Location==
+; [[Serbule]]
+: Follow the road north of Serbule Keep past the Creepy Crystal until you find an old house near the portal to Eltibule.
+
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Sit quietly and ambush small game (4h)|
+{{Quote|Ttk. You were too noisy. Next time, be more quiet. Food only tastes good if you catch it unaware.}}
+* 35 favor
+}}
+{{Spoiler|Sit quietly and ambush small game again (4h){{repeatable}}|
+{{Quote|source=[[Azalak]]|
+Again, the hunting was good. So many of your kind are afraid of simply sitting in perfect silence. It is hard to take them seriously.
+}}
+* 35 [[favor]]
+* {{Item|Venison}} x6
+* {{Item|Rough Animal Skin}} x4
+}}
+{{Spoiler|Sit quietly and ambush small game yet again (4h)|
+* 35 [[favor]]
+: {{Item|Venison}} x6
+: {{Item|Rough Animal Skin}} x4
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Azalak
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Venison Psi-Mantis Style
+ |skilllevel=5
+ |cost=280
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Chicken Psi-Mantis Style
+ |skilllevel=10
+ |cost=?
+ |favor=Friends <!--at ''Friends'' or after completing  Dinner for Zeratak, to be confirmed-->
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Cranium Powder
+ |skilllevel=5
+ |cost=300
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Pure Cranium Powder
+ |skilllevel=15
+ |cost=966
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Enhanced Cranium Powder
+ |skilllevel=25
+ |cost=1633
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Pineal Juice
+ |skilllevel=10
+ |cost=466
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Pure Pineal Juice
+ |skilllevel=20
+ |cost=1133
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Enhanced Pineal Juice
+ |skilllevel=30
+ |cost=1800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Faux Pineal Juice
+ |skilllevel=45
+ |cost=4633
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Weak Acidic Cleanser
+ |skilllevel=25
+ |cost=1633
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Potent Acidic Cleanser
+ |skilllevel=30
+ |cost=1800
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Dye Making]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Lemon Chiffon Dye
+ |skilllevel=1
+ |cost=166
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Druid]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Cloud Sight
+ |skilllevel=12
+ |cost=1,300
+ |favor=?
+}}
+{{NPC training row
+ |ability=Cloud Sight 2
+ |skilllevel=24
+ |cost=2,400
+ |favor=?
+}}
+{{NPC training row
+ |ability=Cloud Sight 3
+ |skilllevel=36
+ |cost=4,500
+ |favor=?
+}}
+{{NPC training row
+ |ability=Cloud Sight 4
+ |skilllevel=48
+ |cost=7,100
+ |favor=?
+}}
+{{NPC training row
+ |ability=Cloud Sight 5
+ |skilllevel=60
+ |cost=11,700
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pulse of Life
+ |skilllevel=15
+ |cost=1,450
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pulse of Life 2
+ |skilllevel=30
+ |cost=2,700
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pulse of Life 3
+ |skilllevel=50
+ |cost=7,200
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pulse of Life 4
+ |skilllevel=65
+ |cost=14,950
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Archery]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Restorative Arrow
+ |skilllevel=12
+ |cost=1,300
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Restorative Arrow 2
+ |skilllevel=24
+ |cost=2,400
+ |favor=?
+}}
+{{NPC training row
+ |ability=Restorative Arrow 3
+ |skilllevel=36
+ |cost=4,500
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Restorative Arrow 4
+ |skilllevel=48
+ |cost=7,100
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Restorative Arrow 5
+ |skilllevel=60
+ |cost=11700
+ |favor=?
+}}
+{{NPC training row
+ |ability=Restorative Arrow 6
+ |skilllevel=72
+ |cost=19,800
+ |favor=?
+}}
+{{NPC training row
+ |ability=Mangling Shot
+ |skilllevel=20
+ |cost=1,700
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Mangling Shot 2
+ |skilllevel=30
+ |cost=2,700
+ |favor=?
+}}
+{{NPC training row
+ |ability=Mangling Shot 3
+ |skilllevel=40
+ |cost=4700
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Mangling Shot 4
+ |skilllevel=50
+ |cost=7,200
+ |favor=?
+}}
+{{NPC training row
+ |ability=Mangling Shot 5
+ |skilllevel=60
+ |cost=11,700
+ |favor=?
+}}
+{{NPC training row
+ |ability=Mangling Shot 6
+ |skilllevel=70
+ |cost=17200
+ |favor=?
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Enhanced Cranium Powder}} x3
+|RiShin Family = {{Item|Enhanced Cranium Powder}} x10
+}}
+== Conversations ==
+
+[[Category:NPCs]]

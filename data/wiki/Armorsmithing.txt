@@ -1,0 +1,72 @@
+__NOTOC__
+{{Skill infobox
+|title            = Armorsmithing
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = The art of making metal armor.
+|skilltype        = Trade Skill 
+|maxlevel         = 100
+|req              = [[Blacksmithing]] 50
+|skilltrainers    = [[Tremmond Blackhammer]]
+|gem = {{Item|Maximized Sardonyx}}, {{Item|Maximized Aquamarine}}
+}}
+{{Quote|
+The art of making metal armor.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Armorsmithing''' is the analogue of [[Tailoring]] (cloth) and [[Leatherworking]] (leather), allowing for the production of metal armor.
+=== In-Game Description ===
+The art of making metal armor.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Tremmond Blackhammer]] in [[Povus]] will teach Armorsmithing at FRIENDS.
+* [[Tremmond Blackhammer]] in [[Povus]] unlocks Levels 51-60 at ''TODO'' (Best Friends, but maybe prior), 61-70 at ''TODO", and 71-80 at ''TODO''
+* Levels 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+* [[Winston Veilmoor]] in [[Statehelm]]'s market district unlocks Levels 81-90 and 91-100.
+
+== Connected Skills ==
+====Parent skill====
+[[Blacksmithing]]
+====Synergy Levels====
+Bonus [[Synergy Levels]] for [[Armorsmithing]] can be obtained from the following skills and levels:
+:; [[Ancillary-Armor Augmentation]]
+:: Level 40, Level 80
+:; [[Armor Augmentation]]
+:: Level 40, Level 80
+:; [[Armor Patching]]
+:: Level 60, Level 70
+:; [[Blacksmithing]]
+:: Level 70
+:; [[Bladesmithing]]
+:: Level 90
+:; [[Carpentry]]
+:: Level 55
+:; [[Glassblowing]]
+:: Level 80
+:; [[Jewelry Crafting]]
+:: Level 80
+:; [[Leatherworking]]
+:: Level 60
+:; [[Tailoring]]
+:: Level 55
+:; [[Toolcrafting]]
+:: Level 65
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+Most ordinary [[Armorsmithing]] can be done at any forge. For a list of forge locations, see [[Blacksmithing]]. Advanced [[Armorsmithing]] to make Lycan, Dwarven, or Orcish armor requires special consecrated forges.
+=== Consecrated Forges===
+High-level [[Armorsmithing]] crafters require forges consecrated to particular gods, if they wish to craft certain styles of armor.
+; Consecrated to [[Norala]]
+* Found in the [[Wolf Cave]].
+; Consecrated to [[Umrad]]
+* In the City of [[Povus]], owned by [[Tremmond Blackhammer]].
+; Consecrated to [[Tast]]
+* Outside the Orc Camp of [[Povus]], northwest from the city.
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill}}
+}}
+
+[[Category:Skills]]

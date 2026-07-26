@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+The Sand Seer in Amulna wanted you to be on the lookout for an "ancient magical stencil". She suggested that she would pay well for it.
+
+===Prerequisites===
+To start this quest, talk to '''[[The Sand Seer | Sand Seer]]''' in '''[[Ilmari Desert]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Geometric Rune Charts]] in order to undertake this quest.
+
+===Preface===
+{{Quote|Do you recall those rune charts you found for me? Well, I've studied them a little bit, and now I wish to try to make my own. I just need something to guide my hand. You wouldn't happen to have any ancient magical stencils, by any chance? Well, keep an eye out for one! I've got a fat sack of coins burning a hole in my dress.}}
+
+===Requirements===
+* Obtain an {{Item|Ancient Stencil}}
+* Talk to Sand Seer
+
+===Rewards===
+{{Spoiler|Rewards for A Stencil to Make Runes|
+{{Quote|Ah, this will do. I should be able to reproduce these rune charts myself now, thank you. I shall let you know what I discover!}}
+
+* 50 {{Favor|favor}}
+* 1000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/The Sand Seer]]

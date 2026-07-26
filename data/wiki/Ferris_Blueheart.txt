@@ -1,0 +1,212 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ferris Blueheart
+|caption          = He avoids eye contact
+|zone             = Vidaria
+|town = Western Council Camp
+|anatomy = Human
+|species = Human
+|beastspeak       = Temporarily
+|skilltrainer     = [[Alchemy]], [[Non-Fiction Writing]], [[Transmutation]]
+|vendor           = Yes
+|storage = Yes
+|barter = yes
+}}
+{{Quote|source=[[Ferris Blueheart]]| Be careful around the smoking craters, demonic energy still lingers within them. If you happen to stumble into one, let me know. I've been doing research on curing Hellfire sickness and can share my knowledge with you.}}
+[[Ferris Blueheart]] is an Assistant to the Council Mages found in the western council camp of Vidaria.  If you contract [[Hellfire]], he can provide you with a {{Item|Hellfreeze}} once every six days for free, in addition to selling additional cures and providing training to create them.
+
+Completing Ferris Blueheart's quest chain unlocks his '''[[Daily Quests]]'''
+== Location ==
+; [[Vidaria]]
+
+== Shopkeeper ==
+[[Ferris Blueheart]] sells a selection of Hellfire and Lesser Hellfire cures for Vidaria Renown.
+
+{{Vendor items sold}} 
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Ferris Blueheart]] rewards his friends with [[Storage]] space and items.
+{{Spoiler|Reward at {{Favor|Friends}}:|
+:3x {{Item|Timestopped Magma}}
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}:|
+30 storage, anything
+}}
+{{Spoiler|Reward at {{Favor|Best Friends}}:|
+40 total storage, anything
+}}
+{{Spoiler|Reward at {{Favor|Like Family}}:|
+:{{Item|Scroll of Demonic Research}}
+}}
+{{Spoiler|Reward at {{Favor|Soulmates}}:|
+:{{Item|Scroll of Demonic Research}}
+}}
+
+=== Hang Outs ===
+{{Spoiler|Discuss the history of The Council|
+{{Quote|
+Ferris Blueheart said, "You are quite an attentive learner."
+}}
+:20 favor with [[Ferris Blueheart]] <!-- 30.20 favor with 151% Favor Earned From Hanging Out -->
+:50 Lore XP
+}}
+{{Spoiler|Help Ferris with demonic research|
+:65 favor with [[Ferris Blueheart]]
+:1x [[Scroll of Demonic Research]]
+:Repeatable every 7 days
+}}
+{{Spoiler|Let Ferris cure some of your Hellfire (removes 20 stacks) {{Favor|???}}|
+{{Quote|
+"It worked! Thinning the Hellfreeze and letting it remain applied for a longer duration seems to have extracted some of the Hellfire from your system!"
+}}
+:5 favor
+:Repeatable daily
+}}
+
+== Quests ==
+[[Ferris Blueheart]] offers some quests around the [[Vidaria]] region.
+
+<dpl>
+category = Quests/Ferris Blueheart
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+<!-- prices calculated from having 80% NPC training costs -->
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Transmutation]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Extract Demonic Essence
+ |skilllevel=90
+ |cost=18465
+ |favor=??
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Combine Demonic Wisps
+ |skilllevel=40
+ |cost=3132
+ |favor=??
+}}
+{{NPC training row
+ |recipe=Weak Hellfreeze Ointment
+ |skilllevel=63
+ |cost=4798
+ |favor=??
+}}
+{{NPC training row
+ |recipe=Weak Hellfreeze
+ |skilllevel=55
+ |cost=6632
+ |favor=??
+}}
+{{NPC training row
+ |recipe=Hellfreeze Ointment
+ |skilllevel=60
+ |cost=7798
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Hellfreeze
+ |skilllevel=65
+ |cost=9965
+ |favor=??
+}}
+{{NPC training row
+ |recipe=Strong Hellfreeze Ointment
+ |skilllevel=70
+ |cost=11465
+ |favor=??
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Non-Fiction Writing]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Non-Fiction Writing{{pipe}}Unlock Non-Fiction Writing Skill Levels 81-90
+ |skilllevel = 80
+ |cost=63 Vidaria Renown + 0
+ |favor=Close Friends
+}}
+|}
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Ferris Blueheart
+|favorrestriction =Close Friends
+|itemrestriction =Anything
+|neutral =0
+|comfortable =0
+|friends =0
+|closefriends =30
+|bestfriends =40
+|likefamily =50
+|soulmates =60
+}}
+
+==== Bartering ==== <!-- If the NPC offers a bartering system, include that section here -->
+At {{Favor|???}} Ferris offers to barter with you:
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Demonic Statement}} x10 || {{Item|Scroll of Demonic Research}} x1
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Demonic Statement}} x5
+|RiShin Family = {{Item|Scroll of Demonic Research}}
+}}
+
+== Conversations ==
+{{Quote|source=[[Ferris Blueheart]]|
+I recognize that smell, have you been infected with hellfire sickness?!
+
+'''I guess that's what this is, yes.'''
+
+Here, take this. Chug the whole thing at once without taking breaks. I know it's a lot, but you'll feel an immediate sense of relief afterward. That's the infernal influence leaving your body. 
+
+'''Huh, thanks.'''}}
+{{Quote|source=[[Ferris Blueheart]]|
+Oh, hello.
+
+'''Do you have any more of that Hellfreeze?'''
+: I'm afraid it's in extremely short supply, and I can't spare any more right now. I can teach you how to make it, though.
+;: You can?
+: Yes, of course! It's a technique of my own design. You can utilize the anti-demon properties of the Rubywall itself to reverse the polarity of the demonic influence within and essence, and then the essence itself becomes anti-demon! I'm still working on a proposal to submit to the Council Mages themselves, I think they'll be very pleased with my work.
+;: Good luck with that. 
+
+'''Hi. What are you doing here?'''
+: Oh, me? I am an Assistant to the Council Mages. I'm their eyes and ears in this region, keeping them informed about the demons and their movements.
+;:Don't they have some automated way of doing that?
+: Well, they do, but sometimes there are things a living being can pick up on that automated sensors cannot. For instance, the sheer fear and depression that we face when certain waves of demons come through the Rubywall. Automated sensors cannot accurately convey those emotions.
+;:I see.}}
+{{Quote|source=[[Ferris Blueheart]]|
+Where did that control sphere go? It was here two days ago... hm, there was that incursion the other day, do you suppose the demons managed to steal... no, if the demons had control of it, we'd know! Perhaps Ser Lorentz had it transferred to a safer location. Yes, that's likely. I'll check with him later.
+}}
+<!-- == Tips == An optional header for short messages offering guidance. -->
+
+<!-- == Gallery == An optional header used if additional images need to be displayed. -->
+
+
+[[Category:NPCs]]

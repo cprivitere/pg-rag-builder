@@ -1,0 +1,20 @@
+__NOTOC__
+==Server Maintenance Notes: Jan 19, 2022==
+We took the server offline for a few hours today to temporarily relocate part of our system. 
+===What's Happening (In Case You're Curious)===
+Here's what's going on: our ISP is physically moving to a better location this weekend, and they'll be driving our computers from Charlotte, NC to Ashburn, VA. This is good news because we'll have better routes to a lot more places in the world. (In other words, better pings!) To avoid being offline while the servers are moved, we're switching to temporary hardware. 
+
+We've moved the main server today, and will move more parts tomorrow (but those parts shouldn't require downtime.) We'll have similar downtime next week when we move back to our regular hardware.
+
+===Side-Effect of the Move:===
+There are a few side-effects of this temporary server move:
+: - The gardening almanac will temporarily show events for much further into the future (because we pre-generated those future events to cover the week until we're back on the main hardware)
+: - Druid events are temporarily disabled
+: - Later (after the move), some Warden and Aurest missions may be repeated more quickly than normal
+: - The wiki will not be available starting Friday evening, until some time Saturday afternoon
+
+===If You Cannot Log In (Today, Jan 19):===
+If you can't log in, you probably need to refresh your DNS, because something in your local system has (incorrectly) cached the old DNS entry. Usually this is fixed by rebooting your computer, so try that first. If that doesn't work, restarting your router is the second-most-likely fix. If that doesn't work, just try again in an hour, at which point it will likely have fixed itself! (In the absolute worst case, it should fix itself after 24 hours.)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = System Shock
+| description = Fling a bolt of electricity with your mind.
+| level = 7
+| power cost = 18
+| reuse time = 8
+| range = 30 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|SystemShock}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|CoreAttack}}
+| damage = 23 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = System Shock 2
+| description = Fling a bolt of electricity with your mind.
+| level = 30
+| power cost = 28
+| reuse time = 8
+| range = 30 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|SystemShock}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|CoreAttack}}
+| damage = 73 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = System Shock 3
+| description = Fling a bolt of electricity with your mind.
+| level = 47
+| power cost = 35
+| reuse time = 8
+| range = 30 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|SystemShock}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|CoreAttack}}
+| damage = 150 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = System Shock 4
+| description = Fling a bolt of electricity with your mind.
+| level = 55
+| power cost = 38
+| reuse time = 8
+| range = 30 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|SystemShock}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|CoreAttack}}
+| damage = 200 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = System Shock 5
+| description = Fling a bolt of electricity with your mind.
+| level = 67
+| power cost = 43
+| reuse time = 8
+| range = 30 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|SystemShock}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|CoreAttack}}
+| damage = 274 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = System Shock 6
+| description = Fling a bolt of electricity with your mind.
+| level = 75
+| power cost = 47
+| reuse time = 8
+| range = 30 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|SystemShock}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|CoreAttack}}
+| damage = 332 Electricity
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

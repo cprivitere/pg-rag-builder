@@ -1,0 +1,121 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Nip
+| description = Bite your enemy.
+| level = 1
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Attack}}{{KWAB|Nip}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 7 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Nip 2
+| description = Bite your enemy.
+| level = 10
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Attack}}{{KWAB|Nip}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 12 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Nip 3
+| description = Bite your enemy.
+| level = 20
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Attack}}{{KWAB|Nip}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 18 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Nip 4
+| description = Bite your enemy.
+| level = 30
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Attack}}{{KWAB|Nip}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 27 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Nip 5
+| description = Bite your enemy.
+| level = 40
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Attack}}{{KWAB|Nip}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 37 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Nip 6
+| description = Bite your enemy.
+| level = 50
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Attack}}{{KWAB|Nip}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 58 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Nip 7
+| description = Bite your enemy.
+| level = 60
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Attack}}{{KWAB|Nip}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 79 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Nip 8
+| description = Bite your enemy.
+| level = 70
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Attack}}{{KWAB|Nip}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 100 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Nip 9
+| description = Bite your enemy.
+| level = 80
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Attack}}{{KWAB|Nip}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 126 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

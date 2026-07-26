@@ -1,0 +1,79 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sir Coth
+|image            = [[File:Sir Coth.jpg|300px]]
+|caption          = A frumpy man in resplendent armor who hates elves.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = Near the northern gate.
+|anatomy = Human
+|species = Human
+|wander = Walks around turning lamps on at night.
+|beastspeak       = No
+|vendor           = Yes
+}}
+{{Quote|
+Welcome to Serbule, the den of elvish perversion. I hope you have a strong stomach for immorality!
+}}
+[[Sir Coth]] was part of the Human team that traveled with Praetor [[Nelson Ballard]] on the mission to build Serbule Keep. He serves as town Sheriff and retains extreme loyalty to all Council rules and regulations.<br>
+<br>
+Once you do the first two Quests he gives, you will reach Comfortable favor with him and his Hang Outs and Shop will appear.
+== Location ==
+; [[Serbule Keep]]
+: North gate near the stables
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Patrol the town perimeter (4h) {{Favor|Friends}}|
+{{Quote|Quiet as usual. Well, aside from those tigers that tried to ambush us. Stupid tigers. Thanks for staying up with me!}}
+:35 {{Favor|favor}} with Sir Coth
+:{{Item|Rough Animal Skin}} x 10
+:{{Recipe|Human Anti-Drowsy Cantrip}}
+}}
+{{Spoiler| Help polish Sir Coth's armor|
+{{Quote|Oh, it's beautiful now. Just lovely. Thank you.}}
+:12 {{Favor|favor}} with Sir Coth
+:200 [[Armor Patching]] XP
+:{{Item|Good Armor Patch Kit}} x 3
+}}
+{{Spoiler|Talk about how beautiful Rita is (60m)|
+{{Quote|No, you're wrong. Anything she says can't be trusted because she's a minx. A minx, I say. If only she were a real person, like a Human or even a Rakky... but I guess then I wouldn't love her the same, eh? Well, thanks for lending your ear.}}
+:12 {{Favor|favor}} with Sir Coth
+:{{Item|Apple Juice}}
+}}
+{{Spoiler|Argue about whether elves have souls (2h) {{Favor|Friends}}|
+
+{{Quote|Look, I have to rest my case: no animal in nature has two penises. Except some lizards. And snakes. Those don't have souls, either! It's really that simple: two dicks, no soul. No, no, you've said your piece. We'll have to agree to disagree.}}
+:20 {{Favor|favor}} with Sir Coth
+:25 [[Lore]] XP
+}}
+{{Spoiler|Spy on the elves in town to see what they're planning (5h) {{Favor|Friends}}|
+{{Quote|Did you tip them off? No? Well how did they know to shut up about all their sneaking and backstabbing, then? I don't get it. Harumph. Well anyways, keep those potions I gave you. I'm sure an emergency will arise eventually. Just not today.}}
+:40 {{Favor|favor}} with Sir Coth
+:{{Item|Regeneration Potion}} x 3
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Sir Coth
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item| Sturdy Shirt}} (Lv 25)
+|RiShin Family = {{Item|"Wheat"}}
+}}
+== Conversations ==
+{{Quote|source=[[Sir Coth]]|
+Yes, I've heard that [[Serbule]] was created after the Council flooded [[Dwyndarre]] with hell-bats, burning the place to the ground. A convenient lie, isn't it? If true, it would turn the Council's generosity into an act of apology. And if I know one thing about the Council, it's this: they never apologize.
+}}
+[[Category:NPCs]]

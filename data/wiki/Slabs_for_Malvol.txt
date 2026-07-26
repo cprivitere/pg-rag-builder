@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Malvol has asked you to obtain Basic Metal Slabs. These can be acquired with the Mining skill.
+
+===Prerequisites===
+To start this quest, talk to '''[[Malvol]]''' in '''[[Hogan's Basement]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I need more basic metal slabs for my sword designs. Get me some.}}
+
+===Requirements===
+* Obtain {{Item|Basic Metal Slab}}s x5
+* Talk to Malvol
+
+===Rewards===
+{{Spoiler|Rewards for Slabs for Malvol|
+{{Quote|Good work. Here, take this breastplate. It's inferior to mine, but I'm sure it's better than... whatever that thing is that you're wearing.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Goblin Breastplate}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Malvol]]

@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+.
+
+===Prerequisites===
+To start this quest, talk to '''[[Bogaku]]''' in the '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+The ratkin seem to be growing an orchard of sentient trees down here! That is FASCINATING! Right? But how old are these trees? Go and chop down some of these trees and see how many rings they have.\n\nWait, trees can be over a hundred years old. Can you count all the way to 100, monster? Well, try your best! Hurry, now.
+
+===Requirements===
+* Kill Sewer Treants x3
+* Talk to Bogaku
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|So none of the trees were planted in the past decade? But the ratkin have only been here for a few years! Which means... the ratkin didn't plant those tree monsters!
+
+Wait, I've got it! They're mutated trees... which means they used to be regular trees. You see, there used to be nice normal trees in Ilmari, but when it turned into a desert, these trees must have mutated, and then they climbed down here to escape the blistering sun. It all makes sense now. Good job! For that, you get a shiny!}}
+
+* 50 {{Favor|favor}}
+* {{Item|Xedrite}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Bogaku]]

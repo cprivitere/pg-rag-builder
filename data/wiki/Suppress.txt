@@ -1,0 +1,74 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Suppress
+| description = Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage.
+| level = 15
+| power cost = 21
+| reuse time = 12
+| range = 8 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Suppress}}{{KWAB|StaffAttack}}{{KWAB|Burst}}
+| ragemulti = 0
+| damage = 24 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Suppress 2
+| description = Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage.
+| level = 30
+| power cost = 29
+| reuse time = 12
+| range = 8 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Suppress}}{{KWAB|StaffAttack}}{{KWAB|Burst}}
+| ragemulti = 0
+| damage = 51 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Suppress 3
+| description = Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage.
+| level = 45
+| power cost = 36
+| reuse time = 12
+| range = 8 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Suppress}}{{KWAB|StaffAttack}}{{KWAB|Burst}}
+| ragemulti = 0
+| damage = 97 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Suppress 4
+| description = Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage.
+| level = 60
+| power cost = 43
+| reuse time = 12
+| range = 8 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Suppress}}{{KWAB|StaffAttack}}{{KWAB|Burst}}
+| ragemulti = 0
+| damage = 164 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Suppress 5
+| description = Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage.
+| level = 75
+| power cost = 51
+| reuse time = 12
+| range = 8 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Suppress}}{{KWAB|StaffAttack}}{{KWAB|Burst}}
+| ragemulti = 0
+| damage = 235 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

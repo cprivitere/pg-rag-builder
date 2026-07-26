@@ -1,0 +1,58 @@
+__NOTOC__
+{{Skill infobox
+|title            = Genetic
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the genetics of creatures in general. This is an umbrella skill that encompasses a vast suite of sub-skills for particular types of creatures. This skill represents generalized genetics knowledge.
+|skilltype        = Other Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Any Level 1 Genetics sub-skill.
+|skilltrainers    = None
+}}
+{{Quote|
+Knowledge of the genetics of creatures in general. This is an umbrella skill that encompasses a vast suite of sub-skills for particular types of creatures. This skill represents generalized genetics knowledge.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Genetics]] is an umbrella skill used by experts in [[Animal Husbandry]].
+=== In-Game Description ===
+Knowledge of the genetics of creatures in general. This is an umbrella skill that encompasses a vast suite of sub-skills for particular types of creatures. This skill represents generalized genetics knowledge.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Genetics]] is automatically learned when Level 1 of the sub-skills is earned. (At this time, only [[Arthropod Genetics]] and [[Non-Ruminant Ungulate Genetics]] are in the game).
+
+== Connected Skills ==
+=====Sub-Skills:=====
+{| class="sortable wikitable"
+!Name
+!Description
+|-
+| [[Arthropod Genetics]] || Knowledge of the genetics of spiders, insects, and scorpions.
+|-
+| [[Cat Genetics]] || Knowledge of the genetics of cats of all types
+|-
+| [[Non-Ruminant Ungulate Genetics]] || Knowledge of the genetics of large herbivores that do NOT chew cud, such as pigs, rhinos, and horses. Also covers hippos, which are not ungulates, but which are close enough.
+|-
+| [[Ruminant Genetics]] || Knowledge of the genetics of cud-chewing herbivores such as cows, sheep, deer, and camels.
+|}
+
+===== Secondary Skills: =====
+* [[Animal Husbandry]] -
+===== Related Skills: =====
+* [[Animal Handling]] -
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Genetics]] can be obtained from the following skills and levels:
+;: [[Arthropod Genetics]]
+: Levels: (1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100)
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Genetics Sub-Skills ===
+...
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Genetics Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Genetics|
+{{:Xptables/CorpseActionSkillExt}}
+}}
+
+== See Also ==
+* [[Project Gorgon Genetics Research By Kaskrim]] — In-depth genetics research and breeding guides by Kaskrim
+
+[[Category:Skills]]

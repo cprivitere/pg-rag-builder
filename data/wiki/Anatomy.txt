@@ -1,0 +1,125 @@
+__NOTOC__
+{{Skill infobox
+|title            = Anatomy
+|image            =[[File:Anatomy_skill.png|300px]] 
+|caption          = Knowledge of the physiology of creatures in general. This is an umbrella skill that encompasses a vast suite of sub-skills for particular types of creatures. This skill represents generalized knowledge that applies to all creatures in the world..
+|skilltype        = Other Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = None
+|skilltrainers    = None
+}}
+
+{{Quote|
+...
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Anatomy''' is a general knowledge skill that encompasses a great number of species-specific Anatomy skills. [[Elemental]], [[Fungoid]], and [[Crone-Kin]] are just a few of the Anatomy sub-skills you may encounter. As you improve your skill at reading the Anatomy of various creatures, you will begin to learn more about them. More details will be available in a monster's target window. Eventually, students of the Anatomy skill will learn to read an opponents combat abilities and weaknesses at just a glance. It is said that [[Archery |Archers]] will improve their Critical hit percentage by improving their Anatomy, and that [[Butchering|Butcher]]s and [[Skinning]] experts will likewise reap benefits.
+=== In-Game Description ===
+Knowledge of the physiology of creatures in general. This is an umbrella skill that encompasses a vast suite of sub-skills for particular types of creatures. This skill represents generalized knowledge that applies to all creatures in the world.
+=== Training {{msg:BASEPAGENAME}} ===
+To begin learning Anatomy, one must obtain an [[Autopsy Kit]] and keep it in their inventory.
+
+* [[Lawara]] can provide players on [[Anagoge]] with an Autopsy Kit after reaching a Comfortable favor level with her.
+* [[Mushroom Jack]] in [[Serbule]] sells Autopsy Kits for 250 Councils.
+* Other Adventurers skilled in the art of [[Toolcrafting]] may craft more elaborate Autopsy Kits.
+
+== Connected Skills ==
+=====Sub-Skills:=====
+{| class="sortable wikitable"
+!Name
+!Bonus
+!Description
+|-
+| [[Aberration]] Anatomy || Anatomy, Archery || Knowledge of the physiology of creatures made by mad science or dark chemistry.
+|-
+| [[Arthropod]] Anatomy || Butchery, Skinning || Knowledge of the physiology of the physiology of spiders, insects, and scorpions.
+|-
+| [[Bear and Bugbear]] Anatomy || Anatomy, Animal Handling, Archery, Butchery, Skinning || Knowledge of the physiology of bears. Bugbears, which are half-goblin and half-bear, are also covered by this skill, as they take after their bear side more than the goblin side.
+|-
+| [[Canine]] Anatomy || Anatomy, Archery, Butchery, Skinning || Knowledge of the physiology of dogs, wolves, and werewolves. Gives bonuses to killing, skinning, and raising these creatures.
+|-
+| [[Construct]] Anatomy || Anatomy, Archery  || Knowledge of the physiology of constructs such as Golems.
+|-
+| [[Crone-Kin]] Anatomy || Anatomy, Archery  || Knowledge of the physiology of crones and their ilk, including harpies, hags, and striga.
+|-
+| [[Demon]] Anatomy || Anatomy, Archery  || Knowledge of the physiology of demons.
+|-
+| [[Dinosaur]] Anatomy || Anatomy, Archery, Butchery, Skinning  || Knowledge of the physiology of dinosaurs. This skill also covers birds, which are descended from dinosaurs, and dragons, which are descended from birds.
+|-
+| [[Dwarf]] Anatomy || Anatomy, Archery || Knowledge of the physiology of dwarves.
+|-
+| [[Elemental]] Anatomy || Anatomy, Archery || Knowledge of the physiology of elementals.
+|-
+| [[Elven]] Anatomy || Anatomy, Archery || Knowledge of the physiology of elves.
+|-
+| [[Fae]] Anatomy || Anatomy, Archery || Knowledge of the physiology of faeries and fae creatures, including some animals that look mundane but aren't, such as the fae panther.
+|-
+| [[Feline]] Anatomy || Anatomy, Animal Handling, Archery, Butchery, Skinning  || Knowledge of the physiology of cats of all types.
+|-
+| [[Fish and Snail]] Anatomy || Anatomy, Archery, Butchery, Skinning  || Knowledge of the physiology of fish. Also snails. They're very similar. Really.
+|-
+| [[Fungoid]] Anatomy || Anatomy, Archery  || Knowledge of the physiology of fungus people, slime monsters, overgrown bacteria, and ooze beasts.
+|-
+| [[Giant]] Anatomy || Anatomy, Archery || Knowledge of the physiology of giant-kin such as yetis and ogres.
+|-
+| [[Goblin]] Anatomy || Anatomy, Archery  || Knowledge of the physiology of goblins.
+|-
+| [[Human]] Anatomy || Anatomy, Archery  || Knowledge of the physiology of humans.
+|-
+| [[Incorporeal Creature]] Anatomy || Anatomy, Archery  || Knowledge of the physiology of incorporeal creatures, such as ghosts and shadow illusions.
+|-
+| [[Non-Ruminant Ungulate]] Anatomy || Anatomy, Archery, Butchery, Skinning  || Knowledge of the physiology of large herbivores that do NOT chew cud, such as pigs, rhinos, and horses. 
+|-
+| [[Orc]] Anatomy || Anatomy, Archery  || Knowledge of the physiology of orcs.
+|-
+| [[Plant]] Anatomy || Anatomy, Archery, Carpentry  || Knowledge of the physiology of monstrous plants.
+|-
+| [[Rakshasa]] Anatomy || Anatomy, Archery, Butchery, Skinning  || Knowledge of the physiology of Rakshasa.
+|-
+| [[Reptile]] Anatomy || Anatomy, Archery, Butchery, Skinning  || Knowledge of the physiology of reptiles.
+|-
+| [[Rodent]] Anatomy || Anatomy, Animal Handling, Archery, Butchery, Skinning  || Knowledge of the physiology of rodents.
+|-
+| [[Ruminant]] Anatomy || Anatomy, Archery, Butchery, Skinning  || Knowledge of the physiology of cud-chewing herbivores such as cows, sheep, deer, and camels.
+|-
+| [[Undead]] Anatomy || Anatomy, Archery || Knowledge of the physiology of undead, such as skeletons, zombies, and liches. This skill doesn't cover undead without bodies, such as ghosts and wraiths.
+|}
+
+=====Secondary Skills:=====
+* [[Pathology]] - A skill that is earned when an [[Autopsy Kit]] is first used.
+=====Related Skills:=====
+* [[Phrenology]] - A skill similar to Anatomy, in that it has sub-skills for different types of creatures.
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Targeting ===
+As [[Anatomy]] and its sub-skills are leveled, the amount of information provided in an enemy's target window will increase.
+* When Level 5 is reached in an [[Anatomy]] sub-skill, ??? becomes visible.
+* When Level 25 is reached in an [[Anatomy]] sub-skill, ??? becomes visible.
+* When Level 50 is reached in an [[Anatomy]] sub-skill, ''Loot Level'' (average level of loot dropped by that creature) and ''Mitigation at Max Armor'' becomes visible for creatures of that anatomy type.
+
+[[File:Anatomy skill example.jpg|||250px|This target window reveals the enemy's abilities.]]
+
+[[File:Anatomy skill example2.png|||250px|This target window reveals the enemy's abilities, weaknesses, and immunity.]]
+===Equipment===
+While the introductory [[Autopsy Kit]] can be purchased from various NPC shopkeepers, it can also be crafted through [[Toolcrafting]]. Autopsy Kits which provide bonuses to effective skill level when interacting with a corpse can also be crafted, and do not require any specific skills to use. Adventurers encountering difficulties autopsying high level creatures may wish to request that another character craft them an improved kit, or learn [[Toolcrafting]] themselves.
+<dpl>
+  category   = Items/AutopsyBasic
+ include    = {ITEM infobox}:description
+  reset      = categories
+  columns = 1
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}}: ,,
+  allowcachedresults=true
+</dpl>
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/None}}
+}}
+
+== Trivia ==
+Anatomy is an old skill, and was once learned in a place known as the Tutorial Cave. [[Anagoge]] replaced the Tutorial Cave in December 2015.
+
+[[Category:Skills]][[Category:Other Skills]]

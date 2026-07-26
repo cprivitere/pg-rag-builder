@@ -1,0 +1,37 @@
+__NOTOC__
+==Summary==
+[[Felmer]] in the [[Fae Realm]] said, "My friend [[Lisi]] in [[Sun Vale]] is very good at making images. Of course now she needs to use paper, but it's still not bad. She's holding a, uh... a book for me. Like an an art book, you know? With sketches of ... nature. Look, nevermind. Just go to [[Sun Vale]] and bring me back that book!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Felmer]]''' in '''[[Fae Realm]]'''. You must have previously completed [[Fashion Kittens]] in order to undertake this quest. This quest is available at [[Fae_(Race_Skill)|Fae (Race Skill)]] level 15. 
+
+===Preface===
+{{Quote|My friend [[Lisi]] in [[Sun Vale]] is very good at making images. Of course now she needs to use paper, but it's still not bad. She's holding a, uh... a book for me. Like an an art book, you know? With sketches of ... nature. Look, nevermind. Just go to [[Sun Vale]] and bring me back that book!}}
+
+===Midway===
+{{Spoiler|Conversation with Lisi|
+{{Quote|
+[[Felmer]] sent you?
+
+[Lisi glances around anxiously, then sighs.]
+
+He always does this. If [[Silvia]] finds out...
+
+[She shoots you a pointed look.]
+
+Nevermind! I didn't say anything! You didn't even talk to me!
+
+Here's the 'art book' for [[Felmer]]. And tell him I won't keep doing this! This is the last time!}}
+}}
+===Requirements===
+* Talk to [[Lisi]] in [[Sun Vale]]
+* Talk to [[Felmer]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Very nice! Very ... ah ... natural. Would you excuse me for a moment?}}
+* 25 {{Favor|favor}}
+* 2600 XP in [[Fae_(Race_Skill)|Fae (Race Skill)]]
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Felmer]][[Category:Quests/Fae Quests]]

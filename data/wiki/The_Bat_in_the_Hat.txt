@@ -1,0 +1,58 @@
+__NOTOC__
+{{NPC infobox
+|title            = The Bat in the Hat
+|image            = [[File:BatintheHat.png|300px]]
+|caption          = Scary, yet stylish.
+|location         = Random locations.
+|wander = Appears at Admin discretion.
+|anatomy = Rodent
+|species = Giant Bat
+|beastspeak       = Yes
+|beastlist = All
+|eventnpc = Yes
+}}
+{{Quote|
+Hey there!
+
+Do you like treats? Of course you do! EVERYBODY likes treats! I'm looking for some particular treats myself. If you can bring them to me, I'll give you an exclusive treat that you won't find anywhere else... unless you can get it from one of those admin people, but I hear you might not have much luck.
+
+Bring me (item) and (item) and I'll trade you one of these treats. Don't tell the admins where you're getting this from, they might despawn me if they find out! I'm not sure what despawning is, but it doesn't sound very fun.
+}}
+[[The Bat in the Hat]] is an Event NPC who first appeared outside of [[Serbule]] during [[Halloween 2019]]. When he appears in Serbule or Serbule Hills, adventurers have one hour to find him and deliver his requested items in exchange for a reward.
+
+In 2020, [[The Bat in the Hat]] returned as a stationary NPC in the [[Red Wing Casino]]. Adventurers who completed a certain number of quests for [[Zhia Lian]] would receive a recipe for the [[Creepy Jack O' Lantern]].
+
+
+==Location==
+; 2019
+: [[Serbule]] - Found on large rocks west of town.
+: [[Serbule Hills]] - Found on a rock in the northwest.
+; 2020
+: [[Red Wing Casino]] - Appeared in [[Riston]]'s corridor.
+; 2021
+: [[Serbule]] - Appeared outside of town in the week leading up to [[Halloween 2021]].
+: [[Red Wing Casino]] - A few days before the first Halloween Party, appeared in [[Riston]]'s hallway.
+
+== Events ==
+===== Halloween 2019 =====
+Gifted  {{Item|Pumpkin-Spice Cookies}} to explorers who found it.
+===== Halloween 2020 =====
+During [[Halloween 2020]], [[The Bat in the Hat]] appeared in the [[Red Wing Casino]]. It would teach the recipe for {{Item|Creepy Jack O' Lantern}} to anyone who completed at least a minimum number of quests for [[Zhia Lian]].
+===== Halloween 2021 =====
+In the week leading up to [[Halloween 2021]], [[The Bat in the Hat]] appeared in the [[Serbule]] region, offering free transformations to and from [[Giant Bat]] form.
+
+A few days before the first Halloween Party of the year, [[The Bat in the Hat]] returned to the [[Red Wing Casino]]. Besides handing out the recipe for {{Item|Creepy Jack O' Lantern}}, it also offered two quests. [[Halloween Event: A Hat From a Bat]] first, followed by [[Halloween Event: A Better Hat From a Bat]].
+
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = None
+|RiShin Family = None
+}}
+
+== Conversations == 
+{{Quote|source=[[The Bat in the Hat]] (2020)|
+Well hello there!
+
+Zhia Lian asked me to come by to grant you a special gift! She taught me how to inject knowledge into your brain. She said this might increase your creativity a little. Hope you enjoy it!
+}}
+[[Category:NPCs]][[Category:Event NPCs]]

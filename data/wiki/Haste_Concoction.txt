@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Haste Concoction
+| description = Disperse chemicals that let you and your allies run at high speed for a short time.
+| level = 15
+| power cost = 10
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HasteConcoction}}
+| special = Sprint Speed +6 for 6 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Haste Concoction 2
+| description = Disperse chemicals that let you and your allies run at high speed for a short time.
+| level = 35
+| power cost = 15
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HasteConcoction}}
+| special = Sprint Speed +8 for 8 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Haste Concoction 3
+| description = Disperse chemicals that let you and your allies run at high speed for a short time.
+| level = 45
+| power cost = 17
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HasteConcoction}}
+| special = Sprint Speed +10 for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Haste Concoction 4
+| description = Disperse chemicals that let you and your allies run at high speed for a short time.
+| level = 60
+| power cost = 20
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HasteConcoction}}
+| special = Sprint Speed +11 for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Haste Concoction 5
+| description = Disperse chemicals that let you and your allies run at high speed for a short time.
+| level = 75
+| power cost = 24
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HasteConcoction}}
+| special = Sprint Speed +12 for 10 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

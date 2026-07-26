@@ -1,0 +1,29 @@
+__NOTOC__
+{{NPC infobox
+|title = Chaf Springfield
+|image = [[File:Chaf Springfield (npc).png|400px]]
+|caption =
+|eventnpc = Yes
+|zone = Red Wing Casino
+|location = Found near the Monster tables.
+|beastspeak = Yes
+|beastlist = All
+|anatomy = Human
+|species = Human
+}}
+[[Chaf Springfield]] is a human cursed by the god [[Zhia Lian]]. He believes that he carries a cursed coin that prevents him from winning any games of ''Monsters and Mantids''.
+
+== Location ==
+; [[Red Wing Casino]]
+: [[Chaf Springfield]] can be encountered during the [[Seasonal Event]] of Halloween.
+
+==Quests==
+<dpl>
+category = Quests/Chaf Springfield
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Conversations ==
+[[Category:NPCs]][[Category:NoRiShin]]

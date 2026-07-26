@@ -1,0 +1,84 @@
+==<b>September 17 Update #2</b>==
+Quick fix for some server bugs.
+:- Players couldn't register their new accounts. If you tried to register during the few hours the new update was live, and can't make it work now, please email eric@projectgorgon.com with your account name and I will fix you up
+:- Quest logs were getting screwed up
+Known issue:
+:- Bridges outside of Serbule are ghost bridges. This will be fixed tomorrow!
+
+==<b>September 17 Update</b>==
+===<b>[[Work Orders]]</b>===
+:- work orders are a new experimental way to make money while you level up crafting skills. 
+:- each outdoor area has a Work Order Sign where you can pick up orders. The available orders change randomly every few hours. A typical work order is something like "Deliver 10 pig snouts to some NPC and receive X coins."
+:- work orders are implemented as quests, so they appear in the quest window, but they have their own separate tab.
+:- as you complete work orders you earn XP in the new skill "[[Industry]]".
+:- you can only have a certain number of work orders active at once, but this cap goes up as your Industry level increases
+:- there are over 400 work orders implemented so far, and if we end up liking the system we can implement many more
+:- You can only complete each work order once, but after 30 days you can complete it again
+:- the work order sign in [[Serbule]] is on the Serbule Docks. There's a new NPC boatman who takes the orders and gives you the cash.
+:- All the work orders from the Serbule sign are low-level and don't require any Industry prerequisites, so that's where you should start. The other areas' signs have higher-level work orders, usually with prerequisite levels in Industry.
+:- You can also find some work orders in loot. It may be useful to know that <i>work orders you find in loot are never the ones found on a work order sign, and vice versa.</i>
+:- You can buy as many Work Orders as you want, even buying multiples of the same one if you have some clever scheme in mind, but they are intentionally un-stackable so as to prevent people storing or transporting large numbers of them
+:- '''Please give general feedback on the forums, and report bugs in-game. If you notice a work order has an out-of-whack gold value (too big or too small), report that as a bug, please!'''
+:- IMPORTANT WARNING FOR ARMOR CRAFTERS: I have not yet fixed the bug where quest turn-ins can take equipped items. In other words, if you turn in a work order for 10 leather coats, the game takes your 10 lowest-value leather coats ... and that may include the coat you're wearing! The bug will be fixed soon, but for now, please watch out for this.
+:- Again, this is experimental. Based on your feedback, we may dramatically change the system or remove it entirely in favor of something else.
+
+===<b>Training Cost Changes</b>===
+:- lowered the cost of low-level training. Low-level abilities cost about half as much as before. Low-level recipes are 33% cheaper than before.
+:- high-level ability costs are about the same or somewhat higher. High-level recipes are somewhat lower than before.
+:- the cost of raising the skill cap on a skill is now 20k instead of 15k
+
+===<b>New dungeon</b>===
+:- There is a new dungeon in the desert. You can find the entrance at one of the rakshasa thieves' camps. 
+:- The entrance is intended to be soloable for level 60s (much like the entrance to [[Dark Chapel]] is soloable) but then it becomes a very difficult 6-man level 60 group dungeon.
+:- This is definitely the hardest dungeon so far. (Quite probably too hard.) The boss encounter is difficult and the curse can be very aggravating. Please proceed with caution and all due preparation.
+:- Note about new tech that's being tried out: the new boss drops a LOT of loot on the first kill (typically a dozen pieces!), but subsequent re-killings of the boss will give very little loot. After 3 hours you can re-kill the boss for full loot.
+:- This is just the first part of the dungeon -- I want your feedback before I make the rest of the place! Please use the forums for general feedback, but use the in-game system for bugs
+:- The dungeon's lore items are missing for now but will be added soon. (Many decorations are missing, too.)
+
+===<b>Manticores</b>===
+[[Manticore]]s have returned, ultimately with very few changes. Same place, same respawn. They drop less loot, and about a third of the time they drop a special key. This key can be used to unlock very-high-quality chests at the bottom of the new dungeon. (There are four such chests in the dungeon, each needing a key for each user, and each reusable every 3 hours. So ideally you would take four of these keys with you if you plan to get all the loot.)
+
+===<b>[[Surveying]] Tweaks</b>===
+:- Lowered the cost of higher-tier parchments a bit
+:- You must now be standing on the ground to complete a survey or treasure map -- no fly-by looting! (You can still check the map while in the air, you just can't magically dig it up while 50 feet off the ground.)
+:- Added surveying recipes to [[Kur Mountains]]. These level 45 recipes can be learned from the orb in the yeti cave.
+:- The new Kur survey recipes should hopefully help explain how surveying will work throughout the game. Each map will have different pros and cons for surveying. (For instance, in Kur, white gem surveys require only Basic Parchment.)
+:- Note: in Kur, it's possible to survey a gem that ends up being in the ocean. This is intentional and is one of the down sides of surveying in this area!
+:- More tweaks will be coming!	
+
+===<b>Archery</b>===
+:- you can now raise [[Archery]] to 60 by gaining favor with an NPC in [[Amulna]]
+:- another batch of random Archery treasure effects have been implemented. This batch primarily focuses on making the elemental arrow attacks viable damage-dealers. There are a few support-related effects for other abilities too
+:- Marna required you to have levels of Battle Chemistry to learn Poison Arrow; she now requires modest amounts of Alchemy to train instead
+
+===<b>Hammer</b>===
+:- you can now raise [[Hammer]] to 60 by gaining favor with an NPC in [[Amulna]]
+:- some new treasure effects were added to flesh out abilities that were lacking and create some new synergy potential
+:- Hammer effects that reduced boss monster regeneration have been replaced with new effects, because boss monsters don't regenerate anymore!
+
+===<b>Other Fixes and Changes</b>===
+:- fixed broken curtain texture in Mushroom Jack's windows
+:- fixed bug with Ring of Fire 4
+:- fixed display bug with /guild who
+:- fixed bug where Word Hunt game didn't give XP
+:- fixed the /ignore command not working right in custom chat channels
+:- fixed monsters spawning on top of each other in the desert
+:- the barrier wall for the goat head puzzle in the dark chapel has reappeared
+:- made basilisk's attacks a bit more formidable
+:- yeti armor could not be crafting-augmented
+:- fixed display issue where effect icons and particles could stay on you after the effect wore off (finally!)
+:- worked around Unity 5.1+ issue where mouse cursor is easily lost when switching areas
+:- fixed a bunch of monsters whose sounds could be heard across the entire zone
+:- fixed bug where timers in loot profiles weren't being honored. This feature was only used in a few places (so far), so the fix will only be noticeable for these monsters:
+::- [[Maligno]]: Maligno's Head doesn't drop more than once per 3 hours (per player)
+::- [[Khyrulek]]: The Galvanizer doesn't drop more than once per 3 hours (per player)
+:- despite Nelson Ballard's insistence that doing so would make the town very hard to defend from marauding goblin hordes, a third exit has been added to Serbule
+:- the ability "Raise Skeletal Swordsman 3" had gone missing; it is back now. If you have level 49+ in [[Necromancy]] it will be in your abilities list
+:- Many equipment bugs were fixed and some ability and equipment stats adjusted. Fairly tame stuff this time around; probably the only dramatic nerf is to these effects: "Psi Adrenaline Wave increases your damage done with <damage type> attacks by N% for 10 seconds". Those percentage amounts have been greatly reduced (from e.g. 35% to 10%)
+:- Pinning Slash ability was unusable
+:- You can now loot resource items (e.g. lumber) even when your inventory is full. This fixes some exploit scenarios, but might create new ones, who knows! If you find a way to abuse this please report it!
+:- monsters can now only have a little bit more Rage than their rage bar indicates. (Previously they could have up to 50% more Rage than was shown on their bar.) This makes rage-management a bit more viable. However, I worry that it may now be possible to keep high-level monsters below their rage threshold forever with only crappy low-level anti-rage abilities/gear. If you find this is possible, please report it!
+:- fixed a bug that kept the basic effects of many items from working. (Most stock items that said "<ability> does +N damage" ... simply didn't work!)
+
+
+[[Category:Game updates]]

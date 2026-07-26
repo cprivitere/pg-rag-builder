@@ -1,0 +1,160 @@
+See [[:Category:Arthropod|Arthropods]] for a list of spiders.
+__NOTOC__
+{{Skill infobox
+|title            = Spider
+|image            = [[File:RoughSpiderArmor.png|400px]]
+|caption          = Ew, they're icky!
+|skilltype        = Beast Form <!-- Combat Skill, Trade Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              =  <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Strange Spider]], [[Legs]], [[Noita the Green]] <!-- List skill trainers, 3 max -->
+|gem = {{Item|Spider Malachite}}, {{Item|Malachite}}
+}}
+{{Quote|
+EEEEEEEEEEE!}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Spider''' is a unique [[Beast Forms| Beast Form]] that can only be attained by drinking the [[Spider Juice]] potion sold by the [[Strange Spider]], who is trapped deep in [[Serbule Crypt]]. Getting out of the form is done the same way, but with the far more expensive [[Un-Spider Juice]].
+
+Spiders serve the Goddess of Spiders and Patience, [[Akhisa]].
+
+=== In-Game Description ===
+The art of living and fighting as a spider.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Strange Spider]] will sell you a potion to turn into a Spider. BE WARNED, THIS IS PERMANENT UNTIL DISPELLED. 
+* [[Strange Spider]] also happens to sell a potion to undo being a Spider. If turning Spider, it might be a good idea to pick up one of these, too, so you can un-Spider when you want.
+* Some NPCs, even if they will talk to most animals, will not talk to scary ones. Spiders are quite scary.
+* Strange Spider also sells scrolls which teach a variety of spider abilities: Various levels of [[Spit Acid]], [[Insidious Illusion]], and [[Incubate]].
+* [[Legs]] in [[Animal Town]] will unlock Spider levels 51-60, 61-70 and can teach you level 51+ abilities.
+* [[Noita the Green]] unlocks Spider levels 71-80.
+* Levels 81-90 are unlocked by [[Big Footed Jim]] deep beneath [[Povus]].
+* Levels 91-100 are unlocked by [[Skitter]] at [[Statehelm]].
+* Prodigy levels are unlocked by [[Skitter]] at [[Statehelm]].
+
+==Connected Skills==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* None
+=====Related Skills:=====
+* [[Tailoring]] - Spiders can create special textiles using their web
+* [[Meditation]] - Infinite Legs counts as a Kick for Meditation unarmed combos, along with melee attacks counting as 'any melee'
+
+=== Synergy Levels: ===
+Bonus [[Synergy Levels]] for [[Spider]] can be obtained from the following skills and levels:
+:; [[Animal Handling]]
+:: Level 50
+:; [[Arthropod Anatomy]]
+:: Level 13, 41
+:; [[Interpretive Dance]]
+:: Level 60
+:; [[Nature Appreciation]]
+:: Level 45
+:; [[Psychology]]
+:: Level 19, 46
+:; [[Survival Instincts]]
+:: Level 37, 65
+:; [[Textile Creation]]
+:: Level 34
+:; [[Unarmed]]
+:: Level 60
+:; [[Shamanic Infusion]]
+:: Level 37
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Illusion ===
+Using the Insidious Illusion ability, a Spider can temporarily disguise themselves as a humanoid to fool shopkeepers. This ability consumes one [[Moonstone]]. It lasts a short time and has a fairly long cooldown.
+=== Riding ===
+As a [[Beast Forms|Beast Form]], Spiders are not able to use the traditional Horse mounts offered through [[Riding]]. Instead, [[Legs]] in [[Animal Town]] teaches mount-form to Spider players who are at least level 25, as well as the speed boost ability ''Move Those Legs''.
+===Equipment===
+Crafters producing equipment for use by [[Spider]]s should obtain the [[Sigil Scripting]] recipe '''Spider Inscription,''' which allows for the creation of {{Item|Spider Malachite}}. 
+
+This attuned gemstone can be used in any recipe which calls for the use of [[:Category:Items/Crystal|Crystals]] to create equipment with [[Spider]] Treasure Effects.
+
+There are items that only [[Spider]]s can wear. Some of them will turn you blue! (Spider Casings other than Shoddy/Rough/Crude)
+{| class="sortable" style="width:100%;" cellspacing="0" cellpadding="2"
+|- style="background: #ec81bf;"
+! Item
+! Level to Equip
+! Slot
+! Description
+! Source
+|-
+| {{Item|Harness of Poisons}} || Spider 30 ||  Waist || A strange mechanism that can augment an arthropod's venomous attack capabilities. (Only wearable by spiders.) ||???
+|-
+| {{Item|Shoddy Spider Casing}} || None ||  Chest || Pieces of chitin and scraps of metal are held together with thick webbing. This would fit on a spider. || [[Tailoring]] 1/3(e)
+|-
+| {{Item|Rough Spider Casing}} || Spider 10 ||  Chest || Pieces of chitin and scraps of metal are held together with thick webbing. This should make a spider somewhat tougher. || [[Tailoring]] 10/13(e)
+|-
+| {{Item|Crude Spider Casing}} || Spider 20 ||  Chest || Pieces of chitin and metal are sewn into reinforced webbing to create a suit for spiders. || [[Tailoring]] 20/23(e)
+|-
+| {{Item|Decent Spider Casing}} || Spider 30 ||  Chest || Pieces of chitin and metal are sewn into reinforced webbing to create a suit for spiders. || [[Tailoring]] 30(e)
+|-
+| {{Item|Nice Spider Casing}} || Spider 40 ||  Chest || Pieces of chitin and strong metal are sewn into reinforced webbing to create a powerful armor suit for spiders.|| [[Tailoring]] 40(e)/42(m)
+|-
+| {{Item|Quality Spider Casing}} || Spider 50 ||  Chest || Pieces of chitin and strong metal are sewn into reinforced webbing to create a powerful armor suit for spiders.|| [[Tailoring]] 50(e)/52(m)
+|-
+| {{Item|Great Spider Casing}} || Spider 60 ||  Chest || Pieces of chitin and strong metal are sewn into reinforced webbing to create a powerful armor suit for spiders.|| [[Tailoring]] 60(e)/62(m)
+|-
+| {{Item|Amazing Spider Casing}} || Spider 70 ||  Chest || Pieces of chitin and strong metal are sewn into reinforced webbing to create a powerful armor suit for spiders.|| [[Tailoring]] 70(e)/72(m)
+|-
+| {{Item|Astounding Spider Casing}} || Spider 80 ||  Chest || Pieces of chitin and strong metal are sewn into reinforced webbing to create a powerful armor suit for spiders.|| [[Tailoring]] 80(e)/82(m)
+|-
+| {{Item|Awesome Spider Casing}} || Spider 90 ||  Chest || Pieces of chitin and strong metal are sewn into reinforced webbing to create a powerful armor suit for spiders.|| [[Tailoring]] 90(e)/92(m)
+|-
+| {{Item|Incredible Spider Casing}} || Spider 100 ||  Chest || Pieces of chitin and strong metal are sewn into reinforced webbing to create a powerful armor suit for spiders.|| ???
+|-
+| {{Item|Marvelous Spider Casing}} || Spider 110 ||  Chest || Pieces of chitin and strong metal are sewn into reinforced webbing to create a powerful armor suit for spiders.|| ???
+|-
+| {{Item|Belt of The Arachnid}} || Spider 20||  Waist || A belt adorned with an odd rune that gives the wearer a certain kind of luck. It has been custom-sized to fit around the middle of a gigantic spider.|| Purchased from [[Strange Spider]]
+|-
+| {{Item|Crude Arachnid Harness}} || Spider 15 ||  Waist || This uncomfortable wooden spider suit was designed with the best of intentions. It just sucks. But the wood can act as a focal point for druidic spiders.|| [[Toolcrafting]] 15
+|-
+| {{Item|Nice Arachnid Harness}} || Spider 30||  Waist || Carefully crafted of dozens of little jointed sections, this harness can hold a lot of weight. The wood can also act as a focal point for druidic spiders.|| [[Toolcrafting]] 30
+|-
+| {{Item|Great Arachnid Harness}} || Spider 45||  Waist || Lovingly crafted to a high standard, this wooden spider suit makes spiders even more adaptable than normal. Its wood can also act as a focal point for druidic spiders.|| [[Toolcrafting]] 45
+|-
+| {{Item|Amazing Arachnid Harness}} || Spider 60||  Waist || Lovingly crafted to a high standard, this wooden spider suit makes spiders even more adaptable than normal. Its wood can also act as a focal point for druidic spiders.|| [[Toolcrafting]] 60
+|-
+| {{Item|Astounding Arachnid Harness}} || Spider 75||  Waist || Lovingly crafted to a high standard, this wooden spider suit makes spiders even more adaptable than normal. Its wood can also act as a focal point for druidic spiders.|| [[Toolcrafting]] 75
+|-
+| {{Item|Awesome Arachnid Harness}} || Spider 85||  Waist || Lovingly crafted to a high standard, this wooden spider suit makes spiders even more adaptable than normal. Its wood can also act as a focal point for druidic spiders.|| [[Toolcrafting]] 90
+|-
+| {{Item|Incredible Arachnid Harness}} || Spider 95||  Waist || Lovingly crafted to a high standard, this wooden spider suit makes spiders even more adaptable than normal. Its wood can also act as a focal point for druidic spiders.|| ???
+|-
+| {{Item|Marvelous Arachnid Harness}} || Spider 105||  Waist || Lovingly crafted to a high standard, this wooden spider suit makes spiders even more adaptable than normal. Its wood can also act as a focal point for druidic spiders.|| ???
+|-
+| {{Item|Quality Arachnid Mechaharness}} || Spider 50|| Waist || This spider equipment features a system of discrete tubes that can dispense chemicals. Enables [[Battle Chemistry]].|| [[Toolcrafting]] 55
+|-
+| {{Item|Great Arachnid Mechaharness}} || Spider 60|| Waist || This spider equipment features a system of discrete tubes that can dispense chemicals. Enables [[Battle Chemistry]].|| [[Toolcrafting]] 65
+|-
+| {{Item|Amazing Arachnid Mechaharness}} || Spider 70|| Waist || This spider equipment features a system of discrete tubes that can dispense chemicals. Enables [[Battle Chemistry]].|| [[Toolcrafting]] 75
+|-
+| {{Item|Astounding Arachnid Mechaharness}} || Spider 80|| Waist || This spider equipment features a system of discrete tubes that can dispense chemicals. Enables [[Battle Chemistry]].|| [[Toolcrafting]] 85
+|-
+| {{Item|Awesome Arachnid Mechaharness}} || Spider 90|| Waist || This spider equipment features a system of discrete tubes that can dispense chemicals. Enables [[Battle Chemistry]].|| [[Toolcrafting]] 95
+|-
+| {{Item|Friendly Spider Hat}} || Spider 75 || Head || A well-recognized hat in Spider culture that denotes friendliness and approachability. The hat has been enhanced with powerful magic that shrinks the spider to seem less scary.|| Purchased from [[Skitters]]
+|}
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Spider Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Spider|
+{{:Xptables/TypicalCombatSkill}}
+}}
+== Trivia ==
+You might want to avoid eating food items made from spiders...continued violation of your conscience will begin affecting your earned combat percentage. <i>"You're starting to think maybe it wasn't so wise to eat your brethren."
+
+== Gallery==
+
+[[Category:Skills]]

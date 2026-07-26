@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Wall of Fire
+| description = Create a dangerous wall of fire at your feet.
+| level = 10
+| power cost = 30
+| reuse time = 30
+| range = 4 meters
+| skill = Fire Magic
+| keywords = {{KWAB|FireMagic}}{{KWAB|FireWall}}{{KWAB|SummonedFireWall}}
+| special = Restores 5 Body Heat in cold environments. You heal 0 per second when near your fire wall.
+}}
+|-
+|
+{{Ability infobox
+| name = Wall of Fire 2
+| description = Create a dangerous wall of fire at your feet.
+| level = 25
+| power cost = 41
+| reuse time = 30
+| range = 4 meters
+| skill = Fire Magic
+| keywords = {{KWAB|FireMagic}}{{KWAB|FireWall}}{{KWAB|SummonedFireWall}}
+| special = Restores 6 Body Heat in cold environments. You heal 0 per second when near your fire wall.
+}}
+|-
+|
+{{Ability infobox
+| name = Wall of Fire 3
+| description = Create a dangerous wall of fire at your feet.
+| level = 40
+| power cost = 52
+| reuse time = 30
+| range = 4 meters
+| skill = Fire Magic
+| keywords = {{KWAB|FireMagic}}{{KWAB|FireWall}}{{KWAB|SummonedFireWall}}
+| special = Restores 7 Body Heat in cold environments. You heal 0 per second when near your fire wall.
+}}
+|-
+|
+{{Ability infobox
+| name = Wall of Fire 4
+| description = Create a dangerous wall of fire at your feet.
+| level = 55
+| power cost = 62
+| reuse time = 30
+| range = 4 meters
+| skill = Fire Magic
+| keywords = {{KWAB|FireMagic}}{{KWAB|FireWall}}{{KWAB|SummonedFireWall}}
+| special = Restores 8 Body Heat in cold environments. You heal 0 per second when near your fire wall.
+}}
+|-
+|
+{{Ability infobox
+| name = Wall of Fire 4 (Purple)
+| description = Create a dangerous wall of fire at your feet. This variant version of Wall of Fire 4 uses an unnaturally colored flame.
+| level = 55
+| power cost = 62
+| reuse time = 30
+| range = 4 meters
+| skill = Fire Magic
+| keywords = {{KWAB|FireMagic}}{{KWAB|FireWall}}{{KWAB|SummonedFireWall}}
+| special = Restores 9 Body Heat in cold environments. You heal 0 per second when near your fire wall.
+}}
+|-
+|
+{{Ability infobox
+| name = Wall of Fire 5
+| description = Create a dangerous wall of fire at your feet.
+| level = 65
+| power cost = 69
+| reuse time = 30
+| range = 4 meters
+| skill = Fire Magic
+| keywords = {{KWAB|FireMagic}}{{KWAB|FireWall}}{{KWAB|SummonedFireWall}}
+| special = Restores 10 Body Heat in cold environments. You heal 0 per second when near your fire wall.
+}}
+|-
+|
+{{Ability infobox
+| name = Wall of Fire 6
+| description = Create a dangerous wall of fire at your feet.
+| level = 75
+| power cost = 76
+| reuse time = 30
+| range = 4 meters
+| skill = Fire Magic
+| keywords = {{KWAB|FireMagic}}{{KWAB|FireWall}}{{KWAB|SummonedFireWall}}
+| special = Restores 11 Body Heat in cold environments. You heal 0 per second when near your fire wall.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

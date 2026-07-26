@@ -1,0 +1,43 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Illusive Guise
+| description = Briefly fool shopkeepers and villagers into perceiving you as a typical humanoid.
+| level = 0
+| power cost = 100
+| reuse time = 3600
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|FoxIllusionForm}}
+| special = Take a humanoid shape for 90 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Illusive Guise 2
+| description = Briefly fool shopkeepers and villagers into perceiving you as a typical humanoid.
+| level = 0
+| power cost = 100
+| reuse time = 3600
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|FoxIllusionForm}}
+| special = Take a humanoid shape for 180 seconds (3 minutes).
+}}
+|-
+|
+{{Ability infobox
+| name = Illusive Guise 3
+| description = Briefly fool shopkeepers and villagers into perceiving you as a typical humanoid.
+| level = 0
+| power cost = 100
+| reuse time = 3600
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|FoxIllusionForm}}
+| special = Take a humanoid shape for 300 seconds (5 minutes).
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

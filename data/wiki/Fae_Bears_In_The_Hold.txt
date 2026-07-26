@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Ensign Cricket aboard the Wintertide said, "There's a bunch of bears on the storage deck because of... reasons. You should clear those out, if you're going that way!"
+
+This Quest can be repeated after 30 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ensign Cricket]]''' in '''[[The Wintertide]]'''. The quest is available at {{Favor|Close Friends}} favor. 
+
+===Preface===
+There's a bunch of bears on the storage deck because of... reasons. You should clear those out, if you're going that way!
+
+===Requirements===
+* Kill Bears x5
+* Talk to Ensign Cricket
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|The bears are gone? Great! I was about to get in trouble for that one. See, the cow-men were sentient, but the bears weren't. So as a little prank, I  swapped their intelligence reports in our system. For weeks, ensigns have been trying to tame the cow-men and parlay with the bears. It's been very, VERY funny to watch, but the joke's run its course. Thanks to you!}}
+* 100 {{Favor|favor}}
+* {{Item|Royal Jelly}}
+* {{Item|Wing Tassels of Swift Wings}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm? Quests]][[Category:Quests/Ensign Cricket]]

@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Privacy Field
+| description = Electrify your skin. Melee attackers take damage when they hit you.
+| level = 34
+| power cost = 37
+| reuse time = 30
+| range = 5 meters
+| skill = Warden
+| keywords = {{KWAB|PrivacyField}}
+| special = Recover 0 Power when melee attacks deal damage to you. Melee Damagers Suffer 72 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Privacy Field 2
+| description = Electrify your skin. Melee attackers take damage when they hit you.
+| level = 44
+| power cost = 42
+| reuse time = 30
+| range = 5 meters
+| skill = Warden
+| keywords = {{KWAB|PrivacyField}}
+| special = Recover 0 Power when melee attacks deal damage to you. Melee Damagers Suffer 111 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Privacy Field 3
+| description = Electrify your skin. Melee attackers take damage when they hit you.
+| level = 54
+| power cost = 48
+| reuse time = 30
+| range = 5 meters
+| skill = Warden
+| keywords = {{KWAB|PrivacyField}}
+| special = Recover 0 Power when melee attacks deal damage to you. Melee Damagers Suffer 164 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Privacy Field 4
+| description = Electrify your skin. Melee attackers take damage when they hit you.
+| level = 64
+| power cost = 53
+| reuse time = 30
+| range = 5 meters
+| skill = Warden
+| keywords = {{KWAB|PrivacyField}}
+| special = Recover 0 Power when melee attacks deal damage to you. Melee Damagers Suffer 216 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Privacy Field 5
+| description = Electrify your skin. Melee attackers take damage when they hit you.
+| level = 74
+| power cost = 59
+| reuse time = 30
+| range = 5 meters
+| skill = Warden
+| keywords = {{KWAB|PrivacyField}}
+| special = Recover 0 Power when melee attacks deal damage to you. Melee Damagers Suffer 275 Electricity
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

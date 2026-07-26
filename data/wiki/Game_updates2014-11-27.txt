@@ -1,0 +1,6 @@
+==November 27th, 2014==
+Happy Thanksgiving!  Today you'll earn +25% XP from all monster kills and most recipes (after the first completion of each recipe which is already increased). And remember that you always earn extra XP when you are in a group! The bigger the group, the larger the bonus. A two-person group earns 25% more, while an eight-person group earns double XP.
+
+Our ISP had a bad router, which caused a lot of connectivity problems yesterday. It also kept me from uploading the new build, so some NPCs still have missing body parts. We'll get that fixed soon!
+
+[[Category: Game updates]]

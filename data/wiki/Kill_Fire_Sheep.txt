@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Trasen in Serbule Hills said, "If you listen very carefully, you might hear the friendly tornadoes around here making an oscillating noise approximately five notes higher than normal. They're obviously in significant distress!
+
+I think it's those ghastly exploding sheep. If an explosion gets sucked up into a tornado, that can really upset it. Could you clear the area of those fiery abominations?"
+===Prerequisites===
+To start this quest, talk to '''[[Trasen]]''' in '''[[Serbule Hills]]'''.  The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+If you listen very carefully, you might hear the friendly tornadoes around here making an oscillating noise approximately five notes higher than normal. They're obviously in significant distress!
+
+I think it's those ghastly exploding sheep. If an explosion gets sucked up into a tornado, that can really upset it. Could you clear the area of those fiery abominations?
+===Requirements===
+* Kill [[Fire Sheep]] x6
+* Talk to Trasen
+
+===Rewards===
+{{Spoiler|Rewards for Kill Fire Sheep|
+{{Quote|
+Thank you. It will probably take a bit before the tornadoes calm down, but I'm sure they'll be a bit calmer now. Here, this is for your trouble.
+}}
+* 100 favor towards [[Trasen]].
+* {{Item|Shock Dust}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]], [[Category:Quests/Trasen]]

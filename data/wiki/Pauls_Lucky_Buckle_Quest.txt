@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Paul Vaughn in Serbule Hills said, "I was one of the last lumberjacks to leave our logging camp. Thought I could hold out against some lousy goblins, but they just kept coming! Eventually I had to run. I left behind a lot of great beer, which I'm sure is all gone by now. But more importantly, I left behind my lucky belt buckle. I'd really like it back.
+
+The camps are east of here, over some hills. The buckle is in the northernmost camp, if that helps."
+
+===Prerequisites===
+To start this quest, talk to '''[[Paul Vaughn]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I was one of the last lumberjacks to leave our logging camp. Thought I could hold out against some lousy goblins, but they just kept coming! Eventually I had to run. I left behind a lot of great beer, which I'm sure is all gone by now. But more importantly, I left behind my lucky belt buckle. I'd really like it back.
+
+The camps are east of here, over some hills. The buckle is in the northernmost camp, if that helps.}}
+
+===Requirements===
+* Obtain {{Item|Paul's Lucky Buckle}}
+* Talk to Paul Vaughn
+
+===Rewards===
+{{Spoiler|Rewards for Paul's Lucky Buckle|
+{{Quote|My dad gave me this buckle. I don't wear it, 'cuz it'd get scuffed up. But it's the only thing the deadbeat gave me before he died. So thanks. I mean it.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Oak Wood}} x 5
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Paul Vaughn]]

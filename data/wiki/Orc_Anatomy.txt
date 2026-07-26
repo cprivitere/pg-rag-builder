@@ -1,0 +1,79 @@
+__NOTOC__
+{{Skill infobox
+|title            = Elemental Anatomy<!-- You can leave this blank -->
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the physiology of orcs.
+|skilltype        = Anatomy Skill <!-- Combat Skills, Trade Skills, Beast Forms, Beast Skills, Other Skills -->
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy<!-- Any other skills needed to gain this skill -->
+|skilltrainers    = None
+}}
+{{Quote|source=Loading screen|
+Almost all orcs are in the military. Orcs keep few possessions, and they value silence over empty words.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Orcish Anatomy''' is a sub-skill of [[Anatomy]] that explores the physiology of Orcs.
+=== In-Game Description ===
+Knowledge of the physiology of orcs.
+
+==Known Creatures==
+===Friends===
+<dpl>
+ category = Orc&NPCs
+</dpl>
+
+===Bosses===
+<dpl>
+ category = Orc&Bosses
+</dpl>
+
+===Foes===
+<!-- the DPL lists creatures which already have a page and are categorized. -->
+<dpl>
+ category    = Orc
+ notcategory = Bosses
+ notcategory = NPCs
+ columns =3
+</dpl>
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+== Lore ==
+{{Quote|source = [[Melandria]]|
+No! That word doesn't end in a snarl either! I know you've heard orcs ending most of their verbs with a snarl, but the snarl changes the meaning depending on which snarl is used. So you think you're trying to improve your accent, but what you're REALLY doing is changing the meaning of the words!
+}}
+[[Orc]]s are a proud race from the tundras and mountain ranges on the continent of [[Gu]], a distant land beyond Verta and the Crone Hegemony. Very little is known about their homeland, since Orcs are a private yet warlike race which views shared information as a weapon to be used against them. Orcs self-organize into factions and armies which fight against each other for land, wealth, and honor. Despite the constant infighting, Orcs will quickly set aside their differences to face foes from other species. Orcs across Alharth tend to construct wooden settlements containing only the bare essentials for survival, usually hidden away in cold regions other races are unable to tolerate. Orc camps in temperate climates are usually built to prepare for a fight, and are frequently abandoned afterwards. Other than their smaller camps and forts, Orcs control a number of elaborate remote cities, such as the mountain fortress of [[Gazluk]]. 
+
+Orc culture supports the race's penchant for creating warriors and heroes from a young age. At the age of 15, all Orcs must complete the [[Challenge of Blades]]. Failures die, and are not mourned. When they reach adulthood, young Orcs are presented with an iron Xiphos. Weapons are important to Orcs, so Blacksmithing and associated trades are frequently learned trades. Orcs consecrate their forges to the god of war and armies Tast, instead of the god of minerals Umrad. Some Orc spellcasters known as Mutterers use ornate knives to enhance their spells. Arena fighting is a popular sport in Orc society. Orcish Gladiators wear thick chainmail gloves.
+
+While some orcs find professions in crafting, gathering, or merchant work (all to support future conquest), most find it more efficient to capture what they need from other races. Raiding parties of orcs are known to sail the coastlines of Alharth and Verta, with peaceful settlements such as the Elven town of [[Fern Glade]] being a recent target. Orcish raiding ships are identical to their merchant ships, which has been known to cause issues. Orc traders often provide {{Item|Lac}} to foreign merchants. The Lac is harvested from Urak, a species of giant arthropod Orcs have trained to use as war-beasts. Through domestication of wolves, Orcs also created the Worg.
+
+While the primary language of Orcs is [[Orcish]], many warriors will learn the languages of other races such as Humans and Goblins so they can insult them in battle.
+
+:- The Ham Omelet is an Orcish dish.
+{{Quote|source= "Battle of Fok" (Poetry Book)|icon=book|
+Written by an anonymous orc, this terse poem tells the story of the battle of Fok, where over a million orcs died. The author manages to deliver a glimpse into the horrors of war. It's sad that the author was drawn and quartered for producing this work, and their works burned, but obviously some copies survived.
+}}
+{{Quote| source = [[Ring of Directness]]|
+Made of pink wood, supposedly common in the orcish homeland of Gu.
+}}
+{{Quote|source = Sign in [[Gazluk Keep]]|
+These are the first fully-functional ballistae made entirely by Gazluk Orcs. The plans were gloriously claimed from defeated dwarves, and the design flaws removed by our own master blacksmiths.
+
+These weapons defended the walls of Gazluk City for over a year before they were replaced with even better versions.
+
+Remember: Gazluk Orcs have the best weapons! Gazluk Orcs fear no one!
+}}
+{{Quote | source = Sign in [[Gazluk Keep]]|
+These dwarven war machines were taken during the [[Battle of Gribnik Hill]]. There were no enemy survivors.
+
+Remember: Dwarven trickery is no match for Gazluk Orc ferocity! Fear no weak race!
+}}
+
+==Gallery==
+TODO Add orc models from [https://www.facebook.com/media/set/?set=a.553164101403609.1073741827.292424904144198&type=3 Facebook photo stream]
+
+[[Category:Skills]][[Category:Anatomy Skills]]

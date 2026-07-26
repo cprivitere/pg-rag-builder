@@ -1,0 +1,135 @@
+__NOTOC__
+{{Skill infobox
+|title            = Teleportation
+|image            = [[File:Teleportation_Circle.jpg|300px]]
+|caption          = 
+|skilltype        = Other Skill <!-- Combat Skill, Trade Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              =  <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Elmetaph]], [[Ratuk the Thinker]] <!-- List skill trainers, 3 max -->
+|gem = {{Item|Amethyst}}, {{Item|Aquamarine}}, {{Item|Maximized Aquamarine}}
+}}
+
+{{Quote|
+Remote binding is hard even for the most advanced mages. And I'm a little past my prime. But I can give it a shot, if you like. I can probably get you somewhere off this island, and probably on dry land. I couldn't promise you any specifics, though.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+'''Teleportation''' is the main method for players to quickly move around the world. It works like this: you Bind to a specific circle, and then have the ability to teleport to that Circle in the future. There are other recipes, like the ability to recall to the beginning of any zone, or to have 2 circles bound. 
+
+=== In-Game Description ===
+The magical art of suddenly being somewhere else.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Elmetaph]] teaches Teleportation on [[Anagoge|Anagoge Island]]. It is possible to acquire the necessary amethyst gems on the island by searching through items on the ground, especially bags near the teleporation circle on the south side of the island (and the broken teleportation circle on the north side of the island).
+
+* [[Sem]] in the Gaz zone can train you in Mushroom Teleportation.
+
+* Teleportation can alternatively be learned through the book {{Item|Teleportation For Beginners}}, which is sold by [[Flia]] and [[Jesina]]. However, it is rare for players to get off the island without learning it.
+
+* [[Tyler Green]] offers a {{Item|Teleportation For Beginners}} book as the reward for his [[Rubbery Tongues]] quest.
+
+* [[Ratuk the Thinker]] also teaches specialized Teleportation spells such as '''Bind Alternate Circle''' and '''Recall Alternate Circle'''. Even a teleportation ability that can be used in combat: '''Organ Displacement'''!
+
+* [[Sem]] supposedly teaches Mushroom-Circle Bind in [[Gazluk Shadow Cave]] difficulty level 60.  Mushroom teleportation can be performed only at [[Mushroom Circle]]s.
+
+* For Fairy players, you must level up your [[Fae (Race Skill)]] in order to obtain the respective skills shown in the recipes table below. See the [[Fae (Race Skill)]] for more information.
+
+==Locations==
+'''[[Anagoge Island]]'''
+* South on the map, between dungeon and obelisk
+'''[[Serbule]]'''
+* Inside the northern gate of [[Serbule Keep]].
+* To the Northeast, outside of [[Borghild]].
+* Far south of [[Serbule Keep]], on a wooded hill.
+'''[[Serbule Hills]]'''
+* Behind Inn
+* North East corner of the map
+* South middle side of the map
+* Inside abandoned hunting lodge, south of inn
+'''[[Sun Vale]]'''
+* One is on one end of the beach (to your left from landing spot)
+* Another is north west of the gigantic tree. It will be visible from the ladder leading up the tree.
+* Third one is at the north-east end of the zone near the altar that currently offers the Druid skill.
+* Fourth Telepad is in the NW corner area
+* Fifth is in animal town.
+* Sixth is in the ocean near [[Fish Bowl Cavern]]
+'''[[Eltibule]]'''
+* [[Antry Farm]]
+* Hogan's Keep (courtyard)
+* Eltibule Keep (courtyard)
+* One underwater near waterfall
+* One over the Gnasher hill
+* One east of Eltibule Keep, high on the rocks next to the nearby lake.
+'''[[Kur]]'''
+* Northwest outpost
+* Northern shore (east of Wolf Cave)
+* ''Slightly'' southwest of Wolf Cave (northeast of the Outpost), on top of the cliff.
+* North of the spawn point (Eltibule Portal), near the barn with [[Syndra]].
+* Next to [[Ratuk the Thinker]] in the glaciers to the west.
+''' [[Ilmari]]'''
+* Ruined Village
+* [[Amulna]]
+''' [[Gazluk]]'''
+* New Prestonbule
+* Just South of the Northern-most abandoned Camp.
+* Just North-East of Gazluk City.
+* Directly North of [[New Prestonbule Cave]].
+''' [[Rahu]]'''
+* South-West part of Rahu City (peaceful)
+* Center of Rahu City (located in hostile area)
+* North end of Rahu City (near the exit in hostile area)
+''' [[Povus]]'''
+* North-East of the city (on an island)
+''' [[Vidaria]]'''
+* Northeast of the map, base of the mountains
+* Southeast of the map next to the large blue mushroom
+* Center of the map along the east-west roadway
+* Northwest military camp
+'''[[Red Wing Casino]]'''
+* Near the work order boards
+'''[[Myconian Cave]]'''
+* Near the entrance area.
+
+==Connected Skills==
+'''Sub-Skills:'''
+* None
+'''Secondary Skills:'''
+* None
+'''Related Skills:'''
+* None
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Experience ===
+The first time you use (bind to or recall from) a Teleportation Circle, you're rewarded 200 bonus Teleportation XP. You can click a Teleportation Circle icon on your map to see how many times you have used that circle and if it is eligible for the bonus.
+
+You can see how many unique teleportation circles you've already bound to in each zone by going to the Skills pane -> Teleportation -> List Used Teleport Locations. You can also see your currently bound Circle at Skills -> Teleportation -> Get Binding Info.
+
+=== Practical Summoning ===
+{{:Practical Summoning}}
+
+{{:Mushroom Circle}}
+
+=== Teleportation Machine ===
+The [[Teleportation Machine]] is a device used to facilitate long-distance teleportation by Council members, controlled through enchanted obelisks and powered through crystalline catalysts. A single operable [[Teleportation Machine]] can be found in the [[Windy View Cave]], although a dilapidated setup is still present on [[Anagoge Island]].
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Teleportation Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Teleportation|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+
+== Trivia ==
+At one point, there were two models used for Teleportation Circles. Besides the platforms, the other resembled a mossy, overgrown stone circle. It is suggested that these may be older teleports, from the time of the [[Crone Hegemony]].
+
+== Gallery==
+
+[[Category:Skills]]

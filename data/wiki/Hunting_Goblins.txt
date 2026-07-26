@@ -1,0 +1,34 @@
+__NOTOC__
+==Summary==
+You're slaying goblins that hinder the road to Sedgewick Forest.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Goblins</b>
+While the goblins sent to patrol the roads here are not nearly as dangerous as the ones in Sedgewick Forest, they are still very deadly. If trade is ever to return to normal, their blockade must be destroyed.
+
+===Requirements===
+* Kill Goblins in Serbule Hills x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 400 Combat XP for your active skills
+* 50 XP in Goblin Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Hunting Quests]]
+=== Hunting Guide ===
+This [[Hunting Quests|Hunting Quest]] calls for the elimination of [[Goblin]]s, which are are part of an invasion force encountered at encampments throughout the eastern half of [[Serbule Hills]].<br />
+'''+''' Commonly encountered Goblins include: <dpl>
+category = Serbule Hills Creatures
+category = Goblin
+notcategory = Bosses
+mode=inline
+inlinetext=,&nbsp;
+columns = 1
+includetrim = true
+</dpl>.

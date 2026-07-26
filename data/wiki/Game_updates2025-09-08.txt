@@ -1,0 +1,178 @@
+__NOTOC__
+==Update Notes: September 8, 2025==
+Lots of interesting stuff for you today! This update revises the outdoor environment, fixes 5000 bugs (approximately), adds voice chat, and sprinkles bits of new content all about. 
+
+We're still hard at work on the major city of [[Statehelm]], and we're excited to show it to you soon! But not yet. However, Statehelm has so many new systems and quests that it's impossible to keep them all hidden away, so you may encounter items, recipes, places, and even skills that don't seem fully fleshed-out. As a rule of thumb, if we don't mention it in the notes below, it's probably a "Statehelm Thing".
+
+Also, the game's JSON files (always available at https://cdn.projectgorgon.com) have more Statehelm clues in them. This was unavoidable. Please remember to use spoiler tags if discussing unreleased content in-game or on Discord!
+
+===Graphics Updates:===
+We've improved the sky, weather, water, and and some vegetation in outdoor areas. This was a large undertaking and there may be a few graphical issues as a result -:- please report them!
+
+This update is intended to be a "drop-in" replacement for the old systems, but as part of the change we've also refined some of the graphics-quality settings and added a few more controls. See the "Settings and UI" section below for details.
+
+This update also introduces rain. It's a relatively rare occurrence (at least for now), and can only happen in certain outdoor areas. While being rained on, there's a chance for fire damage-over-time effects to "fizzle out" and prematurely end. The chance of this happening is based on how hard the rain is falling. (This is basically a mechanics-test to make sure we're detecting rain properly; we have other planned game behaviors for rain -:- coming soon.)
+===Voice Chat:===
+::- n this update we've added basic voice-chat for hunting groups. It is automatically enabled when you join a hunting group. To speak in the voice channel, hold down the Push-To-Talk hotkey (default ` , the "grave" key)
+::- note: this key was once the default "Run/Walk" key. If you've had the game installed for years, this key may now be double-mapped for you. You'll want to change the keystroke for one of the two commands
+::- The Group UI panel shows when someone is speaking (with a tiny animated microphone icon). You can also click this icon to configure audio for that group member
+::- In Settings, under Sound, added a section for speech settings where you can configure input and output sources and volume
+===Skill Adjustments:===
+====Hammer:====
+:- Knockdown effects have a base duration of 4 seconds, up from 3 seconds
+:- Look at my Hammer ability restores a bit more Power at all tiers
+:- Pound to Slag base reuse timer improved from 45 seconds to 40 seconds
+=====Changed Hammer Treasure:=====
+:- (Head, Off-Hand): "Core Attacks cause the next use of Look At My Hammer to restore +50 Power" => "Look at My Hammer Reuse Time is -5 seconds and Core Attacks cause the next use of Look At My Hammer to restore +50 Power"
+:- (Head): "Look At My Hammer reduces the damage you take from Slashing, Piercing, and Crushing attacks by 54 for 5 seconds" => "... for 15 seconds"
+:- (Hands, Main-Hand, Legs): "After using Look At My Hammer, all other Hammer attacks cost -N Power for X seconds" => the "X" value is different for each slot. Previously it lasted 8, 10, and 12 seconds. Now lasts 12, 15, and 18 seconds
+:- (Hands): "Pound To Slag deals +40% damage and hits all enemies within 5 meters, but reuse time is +10 Seconds and Power cost is +35%" => removed the reuse time penalty
+:- (Necklace): "Pound To Slag deals +190 damage and hastens the current reuse timer of Look at My Hammer by 5 seconds" => damage increased to +280
+:- (Head, OffHand): "Hammer attacks that kill an enemy via direct damage restore 46 Power to you" => "... and hasten the current reuse timer of Pound to Slag -4 seconds."
+:- (OffHand, Ring): "Discharging Strike and Latent Charge boost your Epic Attack damage +110 for 15 seconds" => for 60 seconds
+:- (Feet): "Latent Charge deals +100 direct damage. In addition, the target takes a second full blast of delayed Electricity damage after an 8-second delay" => "Latent Charge direct damage becomes Electricity and deals +100 direct damage. In addition, the target takes a second full blast of delayed Electricity damage after a 4-second delay"
+:- new treasure effect that only drops in high-level boss loot as an augment: (Feet) "Look At My Hammer causes your next ability to deal double damage."
+
+====Shield:====
+:- Infuriating Bash: base ability taunt increased
+:- Fight Me You Fools: base ability taunt increased
+=====Changed treasure:=====
+:- (Hands) "When you are hit, all Shield abilities taunt +182 for 20 seconds (stacks up to 10 times)" => "When you are hit, all Shield abilities taunt +264 for 30 seconds (stacks up to 20 times)"
+:- (MainHand) "When you are hit, Finish It damage is +80 for 20 seconds (stacks up to 10 times)" => "When you are hit, Finish It damage is +105 for 40 seconds (stacks up to 20 times)"
+:- NEW: (OffHand) "Finish It Damage +240 and Taunt +200%"
+
+====Fire Magic:====
+:- Missing Fire Magic abilities Scintillating Flame 7 and Spontaneous Fireball 7 can now be researched
+:- Spontaneous Fireball reset time is 12 seconds instead of 60
+:- Adjusted the cost to learn higher-level research recipes by a modest amount
+:- new treasure effect that only drops in high-level boss loot as an augment: (Main-Hand) "Scintillating Frost and Scintillating Flame can be used while stunned. When used while stunned they deal +50% damage and knock the target back."
+
+====Animal Handling:====
+:- All "Get It Off Me" effects and mods now last the full 30 seconds
+:- Add a ton of debug info when a pet is examined. This is intended to help us track down scenarios where pets become unresponsive mid-combat. If this happens to you, please examine the pet, take a screen shot of the debug info at the bottom of the examine screen, and paste it into the discord thread about pet problems. Thanks! With a bit of luck this will help us understand what's going wrong.
+
+====Knife:====
+:- The mod "For 10 seconds after using Opening Thrust, all knife abilities with 'Cut' in their name deal +X damage" now properly lasts 10 seconds
+
+====Vampire:====
+:- The mod "Ripple of Amnesia increases targets' Psychic vulnerability +X% for 30 seconds" now properly affects Psychic instead of Trauma
+
+====Alchemy:====
+:- Memory Inhibitor Potion: recipe adjusted to use lower-level mushroom suspension
+:- Fruitbreath Potion: recipe adjusted to use lower-level mushroom suspension
+
+====Necromancy:====
+:- gain a synergy bonus in Necromancy when reaching Vampirism 50
+:- Raise Zombie's reset time changed from 60s to 30s
+:- Zombies' innate bleed effect is doubled
+:- potency of treasure that boosts existing summoned zombies have been moderately reduced because these effects can now be stacked twice as high. (But this is still a dramatic empowerment of the zombie overall)
+:- The mod "Life Steal restores X Health" now properly restores health to the caster, not the target
+
+====Druid:====
+:- Fix bug preventing the augment "Delerium becomes a 10m Burst Attack that deals +33% damage to targets that are not focused on you" from dropping in high-level boss loot as intended
+:- most bows and crossbows are now Wooden for purposes of activating druidic abilities
+
+====First Aid:====
+:- gain bonus Synergy levels by reaching Anatomy 35, 65, and 95
+
+====Battle Chemistry:====
+:- Earn synergy bonus levels in Battle Chemistry when reaching Mycology 80, Alchemy 70, Candle Making 60, and Gadgeteering 50
+:- Summon Golem: reuse time reduced from 90 seconds to 30 seconds. However the ability can no longer be used in combat.
+
+====Candlemaking:====
+:- improved the effects of most candles
+:- The Gazluk candlemaking station now works properly
+:- Moved the candlemaking station out of the fae realm and into Errruka's Cave dungeon. (Its location in the fae realm was temporary; all candlemaking stations are intended to be in dungeons, but an appropriate dungeon wasn't available at the time.)
+
+====Animal Husbandry:====
+:- The max Simultaneous Breeding Attempts for animal husbandry has been raised from 5 to 6 per account. Animal Husbandry now gives a total of +6, while Genetics (the umbrella skill) gives none
+:- Fix bug with the calculation of simultaneous animal breeding attempts :- it was erroneously using your Animal Handling skill level instead of your Animal Husbandry skill level
+
+====Angling:====
+:- Gain bonus synergy Angling levels when reaching Orcish 38, Fishing 70, Fishing 100, Sushi Preparation 40, Foraging 53, Foraging 80, Fish Anatomy 50
+
+====Sword:====
+:- new treasure effect that only drops in high-level boss loot as an augment: (Off-Hand) "Wind Strike causes your next ability to cost 0 Power if it is an Attack ability."
+
+====Weather Witching:====
+:- Yogzi now sells a new belt, "Belt of the Weather Witch"
+
+====Pig:====
+:- Ability Pig Rend :- damage-over-time happens in 8 seconds instead of 12
+:- (Chest, Hands) "Pig Rend has a 60% chance to deal +100% damage" => "Pig Rend damage +40%, with a 15% chance to deal +100% more damage"
+:- (Head, Necklace) "Pig Rend deals +288 Trauma damage over 12 seconds" => 320 damage over 8 seconds
+:- (Chest, Feet) "Pig Bite Damage +34" => "Pig Bite boosts the Trauma damage of Pig Rend and Squeal +188 for 30 seconds"
+:- (OffHand, Necklace) "Strategic Chomp deals +100 damage and taunts -205" => "Strategic Chomp deals +100 damage and generates no taunt, instead detaunting by 100% of the ability's direct damage"
+:- (Necklace, Ring) "Squeal deals 320 Trauma damage over 10 seconds"=> "Squeal deals +114 direct damage plus 456 Trauma damage over 8 seconds"
+:- NEW: (MainHand) "Strategic Chomp debuffs target's Trauma Vulnerability +42% for 20 seconds"
+:- (Head, OffHand) "Pig Punt deals +40 damage and slows target's movement by 45%" => damage increased to +100
+:- (Ring) "For 10 seconds, Frenzy boosts targets' indirect damage +10 per tick" => now also available on Necklace slot
+:- NEW: (Legs, OffHand) "Strategic Chomp and Squeal deal +268 Trauma damage over 8 seconds"
+:- (Necklace) "Max Armor +100 when Pig skill is active" => now also available on Feet slot
+
+====Brewing:====
+:- alcohol that boosts damage for a specific anatomy type has increased damage
+:- alcohol that boosted damage vs plants and reptiles incorrectly claimed to boost damage vs. crone-kin
+:- reduced evasion chance boost from the "Partier's" effect that boosts it
+:- one of the two brewing recipes that result in a damage boost vs. canines now boosts damage vs. dwarves
+:- alcohol that boosts Sonic or Divine damage have been replaced, as those damage types were long-ago removed from the game. The replacements are secondary recipes for boosting Trauma and Nature damage, respectively
+:- one of the recipes for alcohol "of Placeholder Effects" has been changed to reduce power cost for Priest, Weather Witching, and Vampirism
+:- one of the recipes for alcohol "of Placeholder Effects" has been changed to reduce power cost for Warden, Rabbit, and Spirit Fox
+
+====Lore:====
+:- New Lore recipe: Word of Power 6. It auto-unlocks at Lore level 19, and contains 11 new Words of Power
+
+===Monster Changes:===
+:- bugfix: some Fire Elementals were using electricity attacks (instead of fire attacks)
+:- Balance adjustment: most monsters need 1 more ally nearby before they can try to use their Special Buff ability. (E.g. instead of needing two allies in combat with them, they now need three)
+:- bug fix: Flapskulls in Povus were missing the damage-over-time part of their poison gas attack
+:- Burying a slime that's spawned allies no longer dispels the allies it spawned
+
+===Vidaria Changes:===
+:- A new NPC has arrived in Vidaria! Pitre Ferrence is here to keep an eye on the goblin Korbok, and uncap Animal Husbandry level 90
+:- Stables access in Vidaria has been moved from Korbok to Pitre
+:- The area around the Frozen Mushroom in Vidaria now spawns more fitting monsters, including a new Rimy Kuvou
+:- the stoves in the inn in Vidaria can be cooked on
+:- Ferris Blueheart has a new questline
+:- Most Human NPCs in Vidaria now respond to nudity & treat loneliness
+:- Tweak loot drops for some monsters in Vidaria, in particular making the "Whittling: Yew Butterfly Harness" recipe available
+
+===Settings and UI:===
+:- The settings "Camera Far Clip Plane" and "Maximum Entity Simulation Distance" now scale higher by default at higher qualities
+:- "Maximum Entity Simulation Distance" now has a max value of 1000 (previously 400)
+:- New Graphics Setting: "Precipitation Quality". Lets you control rain & snow particle collisions, and turn the particles off entirely
+:- The "Cloud Quality" setting is now called "Sky Quality" and affects the entire sky in certain zones, not just the clouds
+:- /accuse, /akimbo, and /cheer2 are now properly labeled as VIP emotes in /help emotes
+:- The horse dialog window no longer closes when you analyze their genes, so they won't run away as easily
+:- Items that require you to be an animal for 3 hours now return a more accurate error message if that requirement is not met
+:- The "Two Free Horses of Good Breeding Stock" special redemption requires you to have two stable slots open. Previously if you didn't have those slots open, the redemption simply didn't show up in the list at all. Now it will be grayed out with a note explaining what's wrong
+:- The special redemption "Basic Horse, Riding Skill, and Saddlebag" now gives a (non-breedable) genetic horse
+:- Fix a bug causing the Map label to update incorrectly in Mysterious Locales
+:- Revamp the Recipe Item tooltip to match existing Item & Ability tooltip UIs
+:- Tweak status effect icons to better match normal effect icons. "Status effect icons" are those that show up when you are hungry, high/low on community/cleanliness/peaceableness, inventory overflowing, etc.
+
+===Everything Else:===
+:- Norbert tells druids how much longer they must be an animal before they're welcome in Animal Town
+:- Fix some fox animations not looping properly
+:- The "Desert Watchers" druid event should now scale properly. It was stuck using the minimal version of the quest all the time, but is intended to be a bit harder when more druids are online
+:- Tweak loot profiles of all secret chests, so they give more varied loot
+:- Creatures can no longer walk underneath the Vidaria windmill
+:- Fix bug preventing creatures from walking through the curtain in Hogan's Basement
+:- Monsters can more easily traverse wooden bridges in the Serbule Sewers
+:- Fix a bug with the Rahu Fae Stone puzzle not properly resetting when the buff isn't collected
+:- Fix a stuck spot in Eltibule in the southeastern corner of the map
+:- Add bridges to Carpal Tunnels, which were actually supposed to be there the whole time but were invisible!
+:- The arrival points of Gazluk's Tower View & Amaluk Valley Cave entrances have been swapped, to be more spatially accurate
+:- The spoon-unlocked chest is now repeatable
+:- Fix a bug causing a certain bed in Gazluk to sink you into the ground when slept in
+:- Fix typo causing Palebloods to be referred to as Snowbloods
+:- Items attuned to someone else can no longer be used at Item Sacrifice Altars
+:- New item: Large Box of Space! Ability that summons a 40 slot storage crate, reusable every 3 hours of in-game playtime. Available from Riston in the Red Wing Casino for 150 LECs. You must already know the ability 'Small Box of Space'.
+:- A new Lore Note has appeared somewhere in Eltibule...
+:- Kunax Poison is now Attune-On-Pickup
+:- Fix typo in Gardening Display #E, causing it to show up as Gardening Display #D
+:- Fix Stephie Blackhammer's crafting quests requiring the items to be crafted in order :- you can now craft them in any order
+:- Dying while on a ladder is now handled more gracefully, and should no longer render you immovable
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

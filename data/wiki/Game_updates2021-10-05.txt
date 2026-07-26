@@ -1,0 +1,23 @@
+==Patch Notes: October 5==
+This is another bug-fix update.
+: - Fixed a game-stutter problem when opening UI windows and elements
+: - Fix issues with dancing and the synchronized-dancing game
+: - The "More Info" screen for items would display preview information instead of gifting information when you first opened it
+: - Fixed problems with using the candlemaking station in [[Hogan]]'s basement
+: - Fix periodic flickering in [[Eltibule]]
+: - Decreased the price of Liquid Soul Anchor on [[Riston]] in the casino to 6 Live Event Credits (previously 8)
+: - Fixed task text for "Cleanup Duty: Triceratops", "Auto-Camp Safety Blanket"; the quest descriptions were right, but the smaller task blurbs were wrong
+: - When you complete the later [[Povus]] nightly quests, the town now earns more XP (was 50 town XP for most quests, now 100)
+: - [[Lincha]] and other random-quest-giving Povus NPCs did not correctly choose a new random quest each game-day
+: - The recipe for "Povus Marvelous Mining Survey Map" was creating maps that yielded the same results as lower-level "Povus Superb Mining Survey Maps"
+: - The quest "Recover Lost Fly Amanita" required you to pick the wrong kind of mushroom
+: - Genetics analyzers could not break during failed analysis attempts, only successful ones. This is fixed
+: - During the [[Povus]] "Light the Lamps" quest, lighting all the lamps for a particular neighborhood now disables respawns in that neighborhood
+: - When [[Povus]] nightly quests complete, leftover monsters despawn more quickly. (They used to wait until no players were nearby, but now disappear within 1-2 minutes regardless.)
+: - Kuvou no longer have in-combat health regeneration. But they still have impressive armor and armor-regen
+: - Made some changes to [[Povus]] to try to fix reports of players falling through the ground. (We can't repro this yet, so our "fix" may or may not work!)
+
+We'll be back with more fixes (and holiday content) soon!
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

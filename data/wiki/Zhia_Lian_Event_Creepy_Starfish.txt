@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Ugh, undeath is creeping into the sea, too. There are undead starfish in the reefs! They burn you when you touch them. So fun! But evil. Very evil. So go get rid of those before mortals get hurt!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Ugh, undeath is creeping into the sea, too. There are undead starfish in the reefs! They burn you when you touch them. So fun! But evil. Very evil. So go get rid of those before mortals get hurt!
+
+===Requirements===
+* Collect Creepy Starfish in Sun Vale x3
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> See, now aren't you happy you practiced holding your breath earlier? Those starfish were pretty deep! All my plans work out eventually. And when they work out, you win!
+
+We're simpatico, you and me: I give you jobs and you do the jobs! This mind-invasion is working out so much better than usual!}}
+* 500 councils
+* {{Item|Gillpuncher Ointment}} x3
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

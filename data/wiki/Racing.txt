@@ -1,0 +1,179 @@
+__NOTOC__
+{{Skill infobox
+|title            = Racing
+|image            = [[File:Racing_skill.png|300px]]
+|caption          = Skill in riding in races.
+|skilltype        = Other Skill
+|maxlevel         = 50
+|req              = Riding
+|skilltrainers    = None
+}}
+{{Quote|source=[[Game updates/2024-06-19]]|
+There's a new activity for Project Gorgon's most expert riders: horse races! These are checkpoint races through the wilds; to finish the race, you must ride through each glowy domed checkpoint in order. There are other glowing points to look out for as well: if you run through a speed-up pool, your horse will go faster but become more anxious and may suffer other negative effects, while other glowing pools can reduce anxiety and help counter the speed-up's negative effects. Oh, and most importantly: avoid monsters!}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Racing''' is a sub-skill of the [[Riding]] skill.
+=== In-Game Description ===
+Skill in riding in races.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Racing]] is learned on a character when they complete their first race.
+== Connected Skills ==
+===== Sub-Skills: =====
+* N/A
+===== Secondary Skills: =====
+* [[Riding]] - Riding is the parent skill of [[Racing]].
+===== Related Skills: =====
+* [[Saddlery]] - Saddlery is another skill related to horses.
+===== Synergy Levels: =====
+There are no bonus [[Synergy Levels]] for [[Racing]].
+== Recipe Lists ==
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+[[Racing]] earns experience when races are completed. Race courses can be found across Alharth.
+===Leaderboards===
+All standard race tracks have a learderboard table which resets on the first of each month. Race tracks display a Score (time), Player (name), and Notes. The Notes column of a racing table encodes a character's skills, form, and status info.
+
+In this example, a player named Lice with a [[Riding]] skill level of 84 completed a race in 1 minute 13 seconds while in Cow form. They passed through 29 checkpoints.
+{| class="sortable wikitable"
+!Score
+!Player
+!Notes
+|-
+|01:13||Lice||#m=29,RS=84,F=Cow
+|}
+=== Prizes ===
+Completing standard races may reward prizes including Participation Ribbons, Racing Medals, and Racing Gems. These items can be attached to a Reign or Saddle using recipes learned the first time one of the prizes is used by a character. 
+
+Special Reins and Saddles can also be awarded, such as the [[Exceptional Racing Reins]] which grant ''+12 Mount Resilience to Damage While Racing.''
+
+Each standard race has two loot profiles (lists of possible loot) that successful racers can receive rewards from. The Eltibule Circuit uses the profiles "Racing_Eltibule" and "Racing_EltibuleExcellent." Which profile loot is awarded from upon completion of a race depends on the ability of a racer to complete a race under the Excellent Time Maximum for that race. 
+=== Standard Races===
+====Moat Circuit====
+A race track in [[Serbule]] with a starting line near Serbule Keep southern bridge.
+* Required Riding level: 1
+* Excellent Time Maximum: ???
+* Estimated time to complete: ???
+:- [[Race Completed (Moat Circuit) First Time]].
+:- [[Race Completed (Moat Circuit) Repeated]].
+:- [[Race Completed (Moat Circuit) Excellent First Time]].
+:- [[Race Completed (Moat Circuit) Excellent Repeated]].
+;Loot Profile - Racing_Kur
+(Identified by earning 250xp when completing the race)
+{|
+|{{Item|Participation Ribbon: Land Speed}} x2
+|{{Item|Participation Ribbon: Learning}} x2-3
+|-
+|{{Item|Racing Medal: Bravery}}
+|{{Item|Professional Racing Saddle}}
+|}
+;Loot Profile - Racing_KurExcellent
+(Identified by earning 500xp when completing the race)
+{|
+|{{Item|Racing Gem: Land Speed}}
+|{{Item|Racing Gem: Leaping}}
+|{{Item|Racing Gem: Bravery}}
+|-
+|{{Item|Participation Ribbon: Land Speed}} x3
+|{{Item|Participation Ribbon: Learning}} x3
+|}
+====Eltibule Circuit====
+A race track in [[Eltibule]] with a starting line near [[Mythander]]'s stables.
+* Required Riding level: 1
+* Excellent Time Maximum: 1:00
+* Estimated time to complete: 01:13.
+:- [[Race Completed (Eltibule Circuit) First Time]].
+:- [[Race Completed (Eltibule Circuit) Repeated]].
+:- [[Race Completed (Eltibule Circuit) Excellent First Time]].
+:- [[Race Completed (Eltibule Circuit) Excellent Repeated]].
+
+;Loot Profile - Racing_Eltibule
+(Identified by earning 100xp when completing the race)
+{|
+|{{Item|Participation Ribbon: Land Speed}}
+|{{Item|Participation Ribbon: Learning}}
+|{{Item|Racing Medal: Bravery}}
+|-
+|{{Item|Basic Racing Saddle}}
+|{{Item|Crab}}
+|}
+;Loot Profile - Racing_EltibuleExcellent
+(Identified by earning 250xp when completing the race)
+{|
+|{{Item|Participation Ribbon: Land Speed}} x2
+|}
+
+====Amulna Grand Tour====
+A race track in [[Ilmari]] with a starting line near the northern entrance of [[Amulna]].
+* Required Riding level: ???
+* Excellent Time Maximum: ??? (3:58 is not an excellent time)
+* Estimated time to complete: 02:25.
+:- [[Race Completed (Amulna Grand Tour) First Time]].
+:- [[Race Completed (Amulna Grand Tour) Repeated]].
+:- [[Race Completed (Amulna Grand Tour) Excellent First Time]].
+:- [[Race Completed (Amulna Grand Tour) Excellent Repeated]].
+;Loot Profile - Racing_Ilmari
+(Identified by earning 300xp when completing the race)
+<!--{|
+|{{Item|Crab}}
+|}-->
+;Loot Profile - Racing_IlmariExcellent
+(Identified by earning 600xp when completing the race)
+{|
+|{{Item|Participation Ribbon: Land Speed}} x2
+|{{Item|Participation Ribbon: Learning}} x3
+|{{Item|Racing Medal: Bravery}}
+|-
+|{{Item|Racing Gem: Bravery}}
+|}
+
+====Kur Mountain Debry====
+A race track in [[Kur Mountains]] which begins just outside of Syndra's barn. 
+* Required Riding level: 50
+* Estimated time to complete: 04:56.
+* Excellent Time Maximum: Somewhere between 2:26 and 2:37 (Most likely 2:30).
+:- [[Race Completed (Kur Mountain Derby) First Time]].
+:- [[Race Completed (Kur Mountain Derby) Repeated]].
+:- [[Race Completed (Kur Mountain Derby) Excellent First Time]].
+:- [[Race Completed (Kur Mountain Derby) Excellent Repeated]].
+
+;Loot Profile - Racing_Kur
+(Identified by earning 250xp when completing the race)
+{|
+|{{Item|Participation Ribbon: Land Speed}} x2
+|{{Item|Participation Ribbon: Learning}} x2-3
+|-
+|{{Item|Racing Medal: Bravery}}
+|{{Item|Professional Racing Saddle}}
+|}
+;Loot Profile - Racing_KurExcellent
+(Identified by earning 500xp when completing the race)
+{|
+|{{Item|Racing Gem: Land Speed}}
+|{{Item|Racing Gem: Leaping}}
+|{{Item|Racing Gem: Bravery}}
+|-
+|{{Item|Participation Ribbon: Land Speed}} x3
+|{{Item|Participation Ribbon: Learning}} x3
+|}
+ 
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill}}
+}}
+
+== Trivia ==
+[[Racing]] was added in June 2024.
+<!--
+== Gallery==
+''' Include a small gallery of players using the skill, or abilities of the skill. Try to keep it under six images. This example Gallery is from the Serbule Page.'''
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+File:Serbule Gallery (abandoned cart).jpg|An abandoned cart.
+File:Serbule Gallery 2.jpg|A very dangerous place...
+</gallery>-->
+
+[[Category:Skills]]

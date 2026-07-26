@@ -1,0 +1,218 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sir Johnson
+|image            = [[File:Sir Johnson.png|250px]]
+|caption          = At attention, yet still lost in thought
+|zone             = Ilmari
+|town = Amulna
+|location = Found outside a building near the north gate.
+|wander = Seeks shelter in sandstorms.
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Shield]]
+}}
+{{Quote|
+Did I ever tell you how I won the battle of Tree-Rock-Bridge? I had to take on a tower of boulder-throwing ogres. The only approach was a rickety wooden bridge with no cover, which could support the weight of two troops at once.
+}}
+[[Sir Johnson]] is a Council military leader, a skilled [[Shield]] expert, and a treasure-seeker currently stationed in [[Amulna]] to watch the movements of the Rakshasa of [[Rahu]]. [[Sir Johnson]] discovered [[Weaponized Xedrite]] in the sands under [[Ilmari]], and has been recruiting adventurers to help recover it from [[War Caches]].
+== Location ==
+; [[Ilmari|Ilmari Desert]]
+: In [[Amulna]], standing outside a building near the northern gate.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Shield]]
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Shield{{pipe}}Unlock Shield Skill Levels 51-60
+ |skilllevel = 50
+ |cost=19400
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Stunning Bash 6
+ |skilllevel=?
+ |cost=9554
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Finish It 5
+ |skilllevel=?
+ |cost=9603
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Take The Lead 4
+ |skilllevel=55
+ |cost=9651
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Emergency Bash 6
+ |skilllevel=59
+ |cost=11300
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Reinforce 6
+ |skilllevel=60
+ |cost=11349
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Shield Team 4
+ |skilllevel=60
+ |cost=11349
+ |favor=Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Shield{{pipe}}Unlock Shield Skill Levels 61-70
+ |skilllevel=60
+ |cost=97000
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Disrupting Bash 6
+ |skilllevel=61
+ |cost=14307
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Quick Bash 6
+ |skilllevel=62
+ |cost=14356
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Stunning Bash 7
+ |skilllevel=64
+ |cost=14453
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Take The Lead 5
+ |skilllevel=68
+ |cost=16587
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Emergency Bash 7
+ |skilllevel=69
+ |cost=16635
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Infuriating Bash 6
+ |skilllevel=63
+ |cost=14404
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Finish It 6
+ |skilllevel=64
+ |cost=14453
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Strategic Preparation 4
+ |skilllevel=63
+ |cost=14404
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Reinforce 7
+ |skilllevel=70
+ |cost=16684
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Disrupting Bash 7
+ |skilllevel=71
+ |cost=19157
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Quick Bash 7
+ |skilllevel=72
+ |cost=19206
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Stunning Bash 8
+ |skilllevel=74
+ |cost=19303
+ |favor=Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Leader's Shield}} (Lv 60), {{Item|Huge Coin Sack}} x2-3
+}}
+== Conversations ==
+{{Quote|source=Sir Johnson|
+Hmm. You'll do. Ready to start? 
+; Excuse me, start what?
+Oh, you're not here about the job opportunity? Sorry. You look the type. And we could use some more help, so if you're interested in fabulous treasure...
+; Tell me about this job opportunity.
+I'm hiring people to explore some tombs for me. I'll tell you right up front, it's incredibly dangerous work. I've had rakkie bandits come into town and take the job, thinking it'd be easy, but they usually go back to banditry... or die. 
+; That's a hell of a sales pitch. 
+I'm just trying not to send people to their deaths, that's all!
+
+Are you still interested?
+; Yes. What's the job?
+There's a bunch of bunkers in this desert, buried beneath the sand. We call 'em "War Caches." They were made by the Crone Hegemony forces during the Rahu wars, and lots of 'em are still full of military equipment. 
+
+The caches are usually hidden, but sometimes the sandstorms expose one for a bit. I've hired a bunch of bandits to search for 'em. When they find a location, I buy the intel from them. Then my Seer gets to work.
+; Your Seer?
+Yeah. Sorry, I'm not supposed to use her real name. She's just "the Sand Seer", all mysterious. Anyway, when we get a location, she does some scrying for me, looking for a special kind of metal called xedrite. Not normal garbage xedrite, though: I'm looking for Weaponized Xedrite. Metal with incredible magical properties. 
+
+So that's the job: when we find a location with Weaponized Xedrite, we send you in to get it. 
+; What's the pay? 
+Well, that's a bit complicated. See, I'm collecting this metal on behalf of the Council, but I didn't really receive much of a budget. It's a long story. 
+
+So I can't pay much in Councils, but I've got some top-notch magical equipment! For each successful mission, I'll give you credit in the commissary, and you can spend it on whatever you want. 
+; The Commissary?
+Yeah. My assistant Drima runs a little shop. There's weapons, armor, magic jewelry, and other things you might find useful. 
+
+''[You can undertake a mission for Sir Johnson by clicking on 'Favors'.]''
+; I'll consider it. Thanks.
+}}
+{{Quote|source=[[Sir Johnson]]|
+; Refresh my memory. What are War Caches?
+There's a bunch of bunkers in this desert, buried beneath the sand. We call 'em "War Caches." They were made by Crone Hegemony forces during the Rahu wars, and lots of 'em are still full of military equipment.
+
+The caches are usually hidden, but sometimes the sandstorms expose one for a bit. I've hired a bunch of bandits to search for 'em. When they find a location, I buy the intel from them. Then my Seer gets to work.
+; Your Seer?
+Yeah. Sorry, I'm not supposed to use her real name. She's just "[[The Sand Seer]]," all mysterious. Anyways, when we get a location, she does some scrying for me, looking for a special kind of metal called xedrite. Not normal garbage xedrite, though. I'm looking for Weaponized Xedrite. Metal with incredible magical properties.
+
+So that's the job: when we find a location with Weaponized Xedrite, we send you in to get it.
+; What's the pay?
+Well, that's a bit complicated. See, I'm collecting this metal on behalf of the Council, but I didn't really receive much of a budget. It's a long story.
+
+So I can't pay much in Councils, but I've got some top-notch magical equipment! For each successful mission, I'll give you credit in the commissary, and you can spend it on whatever you want.
+; The Commissary?
+Yeah. My assistant [[Drima]] runs a little shop. There's weapons, armor, magical jewelry, and other things you might find useful.
+; I'll consider it. Thanks.
+}}
+{{Quote|source=[[Sir Johnson]]|
+Have ya met [[Drima]] in there? He's a little whiner, but damned if he's not a great accountant!
+
+I know he hates the desert, but this is the safest place for him to hide from the Winter Queen. I've been here a year and I've seen zero Winter Fae in this desert. Zero!
+}}
+{{Quote|source=[[Sir Johnson]]|
+Did I ever tell you how I won the battle of Tree-Rock-Bridge? I had to take on a tower of boulder-throwing ogres. The only approach was a rickety wooden bridge with no cover, which could support the weight of two troops at once.
+
+Well... I'll save the details for my memoirs, I guess. Suffice it so say that we'd recently found a Cloak of Disguise that could make you look like a donkey. And ogres are dumb as shit. I'm sure you can figure out the rest.
+
+Never be afraid to make an ass of yourself on the battlefield. Whatever works!
+}}
+[[Category:NPCs]]

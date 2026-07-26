@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+[[Echur]] in [[Serbule]] said, "Sir Coth says it's traditional to decorate the tree with an ethnic human food called a 'gingerbread human'. He gave me a bunch of recipes... here's the simplest version. Can you prepare a batch?"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Echur]]''' in '''[[Serbule]]'''.
+
+===Preface===
+[[Sir Coth]] says it's traditional to decorate the tree with an ethnic human food called a 'gingerbread human'. He gave me a bunch of recipes... here's the simplest version. Can you prepare a batch?
+
+===Requirements===
+* Obtain {{Item icon|Bland Gingerbread Human|1}}[[:Category:Items/GingerbreadHuman|Gingerbread Humans]] x6
+* Talk to [[Echur]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hmm... if I didn't know better, I'd say these were caricatures of humans meant to mock them... but apparently not! I'll add them to the tree.
+
+Oh, and here: of the many recipes Sir Coth found for me, this is the only version of Gingerbread Humans that might actually be tasty. If you're ever in the mood for an ethnic cookie, maybe try out this recipe.}}
+* 25 {{Favor|favor}}
+* Recipe: Tasty Gingerbread Human
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Echur]][[Category:Quests/Ri-Shin Quests]]

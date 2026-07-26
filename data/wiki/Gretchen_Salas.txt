@@ -1,0 +1,120 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gretchen Salas
+|image            = [[File:GretchenSalas.png|300px]]
+|caption          = Scowling and dirty
+|zone             = Eltibule
+|location         = In or around [[Eltibule Keep]].
+|wander = Walks between Hogan's Keep and Eltibule Keep.
+|anatomy = Human
+|species = Human
+|beastspeak       = No
+|barter = Yes
+}}
+{{Quote|
+I was the cook for the Eltibule family! Now I live outside the keep, growing fuckin' potatos and waitin' to die.
+}}
+[[Gretchen Salas]] is a [[Human]] who once worked in [[Eltibule Keep]] as the cook. She is furious that non-humans have come to live in the Keep.
+== Location ==
+; [[Eltibule]]
+: Gretchen wanders between [[Eltibule Keep]] and her house just outside Eltibule Keep, frequently stopping to yell at the other residents.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards=== 
+[[Category:Favor/Rewards]]
+<div class="block1">
+{{Spoiler|Reward at {{Favor|Comfortable}}.|
+:Enables [[Bartering]].}}
+</div>
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Gossip with Gretchen about the elves in Eltibule Keep (60 minutes) {{Favor|Comfortable}}|
+{{Quote|I mean I know there are some good elves out there! It's not that! Its just that these elves are such scum! I heard Oritania was banished from Dwyndarre for having too much sex, and that's why she didn't die with the others. Can you imagine how much sex that must be?! She's a freak! They all are! Oh, my rolls are done baking. Here, take one! You're a good listener.}}
+* 12 {{Favor|favor}} with Gretchen Salas
+* {{Item|Gretchen's Potato Rolls}}
+}}
+{{Spoiler|Help Gretchen prepare her famous potato vodka (4 hours) {{Favor|Comfortable}}|
+{{Quote|Okay, that's enough potatoes! Now I need to go age them. Here, take a swig of the finished stuff. Good huh? Yeah! This is my favorite vodka recipe. It was Lord Eltibule's secret vice!}}
+* 40 {{Favor|favor}} with Gretchen Salas
+* {{Recipe|Potato Vodka (Un-Aged)}}
+* {{Recipe|Potato Vodka (Drinkable Cask)}}
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Gretchen
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services ==
+==== Bartering ====
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| rowspan = "3" | {{Item|Fire Dust}} x1 || {{Item|Oak Wood}} x4 {{Favor|Comfortable}}
+|-
+| {{Item|Matted Hair}} x3 {{Favor|Comfortable}}
+|-
+| {{Item|Barley Seeds}} x7 {{Favor|Friends}}
+|}
+Gretchen's offers also include trades of various equipment (of level 20 and {{ItemRarity|Rare}} rarity) for 3 [[Matted Hair]] and 2 [[Oak Wood]].
+{| class="wikitable mw-collapsible mw-collapsed"
+!Give
+!Receive 
+|-
+| rowspan = "14" | {{Item|Matted Hair}} x3<br> {{Item|Oak Wood}} x2 || {{Item|Sturdy Boots}}
+|-
+| {{Item|Sturdy Pants}}
+|-
+| {{Item|Sturdy Shirt}}
+|-
+| {{Item|Sturdy Gloves}}
+|-
+| {{Item|Sturdy Helm}}
+|-
+| {{Item|Sturdy Shield}}
+|-
+| {{Item|Sturdy Sword}}
+|-
+| {{Item|Sturdy Staff}}
+|-
+| {{Item|Dwarven Hammer}}
+|-
+| {{Item|Acid Beaker}}
+|-
+| {{Item|Amulet of Competent Swording}}
+|-
+| {{Item|Amulet of Max Health +15}}
+|-
+| {{Item|Ring of Arrows}}
+|-
+| {{Item|Ring of Kicking Ass}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Sturdy Gloves}} (Lv 40), {{Item|Grand Ring}} (Lv 40)
+}}
+== Conversations ==
+{{Quote|source=[[Gretchen Salas]]|
+Those Damned dwarves! It should have been a six-year task to rebuild the keep, but they spent more than double that before they were run off by the younger James. They say dwarves are good at stone work, but apparently that's just a load of horseshit, like how they say elves are kind and generous. All lies, it is.
+}}
+{{Quote|source=[[Gretchen Salas]]|
+I came here with Lord and Lady Eltibule when the moved back here to reclaim their ancestral home. That was 24 years ago. Served the Eltibules right up until the younger James disappeared. That was five years ago. No, six, now. Everything's been pretty terrible since then.
+}}
+{{Quote|source=[[Gretchen Salas]]|
+Well after James and Serisa and Katarina died, there was just the boy James II. He became duke, and he ran those damned dwarves off! I wish he was still around.
+}}
+{{Quote|source=[[Gretchen Salas]]|
+Well, James II isn't officially dead, so I'm still holding out a little hope. It's been six years though... and I ain't stupid. Pretty sure he died while traveling'. And soon as he was out of the picture, the damned Council swooped in and discontinued the duchy. Such a shame! Fuckin' wizards!
+}}
+{{Quote|source=[[Gretchen Salas]]|
+When Lady Serisa learned that she had to move out here, she wasn't happy. Quite the cosmopolitan woman, she was! But the duke was adamant. She would ride back to [[Statehelm]] every chance she got.}}
+[[Category:NPCs]]

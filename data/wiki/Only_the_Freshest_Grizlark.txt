@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Ferand Deftwhisper in Povus said, "If I'm going to run an armor shop again I'll need more grizlark, and Leah's kuvou are dead. But there's still feral kuvou! If you just let them spit on you and collect that into a bottle, I'll pay you."
+
+===Prerequisites===
+To start this quest, talk to '''[[Ferand Deftwhisper]]''' in '''[[Povus]]'''. 
+
+===Preface===
+If I'm going to run an armor shop again I'll need more grizlark, and Leah's kuvou are dead. But there's still feral kuvou! If you just let them spit on you and collect that into a bottle, I'll pay you.
+
+===Requirements===
+* Obtain Grizlark x5
+* Talk to Ferand Deftwhisper
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Smell that grizlark! Oh, I didn't explain what it's for. It's a trademark touch around here: we clean and etch armor with diluted grizlark. This will last me for a little while. Thanks.}}
+* 75 {{Favor|favor}}
+* {{Item|Xogrite Chunk}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ferand Deftwhisper]]

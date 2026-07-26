@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Raim said, "Hey could I get you to do me a personal favor? I'm really low on supplies and I'm in dire need of string. Lots of string! I promise I'll only ask this of you once - never again! If you can deliver me 50 strings, I'll show you what I use them for!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Raim]]''' in the '''[[Red Wing Casino]]'''. This quest is only available during a Crafting Caravan event. 
+
+===Preface===
+Hey could I get you to do me a personal favor? I'm really low on supplies and I'm in dire need of string. Lots of string! I promise I'll only ask this of you once - never again! If you can deliver me 50 strings, I'll show you what I use them for!
+
+===Requirements===
+* Collect 50 String
+* Talk to Raim
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Yes! String! Thank you so much! Now, what do I use these strings for? Shoelaces! Some elf traded me a pair of their windstep shoes a while back. I have figured out how to upgrade them while keeping their effectiveness. If you have a pair of exceptional quality or better windstep shoes, I can upgrade them for you, if you're willing to toss me some tokens as well for the time.
+<i>[You have earned 10 favor with Orran the Caravan Leader]</i>
+<i>[You have unlocked new talk options with Raim]</i>}}
+
+Completing this quest also awards one Live Event Credit. It can be completed only once.
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Raim]]

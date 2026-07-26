@@ -1,0 +1,75 @@
+__NOTOC__
+{{NPC infobox
+|title            = Strom Farblood
+|image            = [[File:Strom Farblood (npc).png|300px]]
+|caption          = With careful, practiced movements
+|zone             = Statehelm
+|town = Statehelm
+|location         = School of Magic
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer = [[Battle Chemistry]]
+|storage = Yes
+}}
+{{Quote|source=[[Strom Farblood]]|...}}
+[[Strom Farblood]] is a dwarf from [[New Aufghel]] living in the city of [[Statehelm]]. He works as a guest professor for the [[Statehelm School of Magic]].
+== Location ==
+; [[Statehelm]]
+: [[Strom Farblood]] may be found in his laboratory upstairs at the School of Magic.
+
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards ===
+[[Strom Farblood]] shares no preferences at '''{{favor|Neutral}} or {{favor|Comfortable}}''' favor, regardless of enrollment status.
+== Quests ==
+[[Strom Farblood]] will offer a quest to those who have joined the [[Statehelm School of Magic]] and reached level 55 in [[Alchemy]].
+
+Upon completing his quest, [[Strom Farblood]] will offer training for higher levels of [[Alchemy]], [[Battle Chemistry]], and [[Mycology]].
+== Training ==
+[[Alchemy]] levels 51-60, 61-70, 71-80 and some recipes.
+
+[[Battle Chemistry]] levels 81-90, 91-100 and associated skills, plus the golem skills.
+
+[[Mycology]] levels 81-90, 91-100 and some recipes.
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Strom Farblood
+|favorrestriction = Comfortable
+|itemrestriction =Alchemy Ingredients and Potions
+|neutral = 0
+|comfortable = 12
+|friends = 24
+|closefriends = 36
+|bestfriends = 48
+|likefamily = 60
+|soulmates = 72
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Strom Farblood]]|
+Hi. Pretty busy here; what is it?
+
+'''Can you teach me in Alchemy and Battle Chemistry?'''
+
+Not if you aren't a student here. Sorry, I'm a guest professor. I'm not in a position -- or predilection -- to flaunt the rules of my host school. It was rude of you to even ask.
+
+'''Um, I apologize.'''}}
+{{Quote|source=[[Strom Farblood]] (Enrolled Student)|
+'''Can you train me in Alchemy and Battle Chemistry?'''
+
+I know you understand the basics of alchemy, but you'll need to understand more than just the basics before I can teach you with a clean conscience. I need to know that you can safely handle dangerous substances, can source exotic ingredients, and can make a palatable potion. I'll teach you an alchemical formula, you make it and bring it to me. I drink it. Easy as that. 
+
+(Teaches {{Item|Latent Warmth Potion}}).}}
+
+
+[[Category:NPCs]]

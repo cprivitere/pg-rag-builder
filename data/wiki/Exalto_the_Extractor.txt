@@ -1,0 +1,45 @@
+__NOTOC__
+{{NPC infobox
+|title            = Exalto the Extractor
+|image            = [[File:Exalto the Extractor (npc).png|300px]]
+|caption          = Surly and frowny
+|zone             = Statehelm
+|town = Statehelm
+|location         = Fountain/Wandering
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = No scary animals
+}}
+{{Quote|source=[[Exalto the Extractor]]|My services are very specialized. If you have to ask what I do, you do not need me!}}
+[[Exalto the Extractor]] is a Rakshasa who lives in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Exalto the Extractor]] may be found wandering the city of Statehelm during the day.
+== Favor ==
+=== Small Talk ===
+[[Exalto the Extractor]] does not use the favor system.
+== Quests ==
+[[Exalto the Extractor]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Exalto the Extractor
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Exalto the Extractor]]|
+If you must pry, I resolve dental issues for those who have had bad experiences in the past. If you visit a wizard about a toothache, they'll take away the pain, but you might end up with a deep-seated infection that makes your whole head ache. And even return visits don't always cure the problem at its crux.
+
+My methods are crude and painful. But those who need my services agree to suffer. I do not hide the cruelty of ripping out a tooth. I take no joy in it.
+
+I do my work because I am needed. Were I not needed, I would not do this.
+
+Okay, I might take a little joy in it. It's a bad sign if your job doesn't bring you any happiness! I heard a human say that. They would know.
+
+I also do odd jobs to pay the rent. But I'm best known for the extracting.}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

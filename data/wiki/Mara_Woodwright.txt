@@ -1,0 +1,482 @@
+__NOTOC__
+{{NPC infobox
+|title            = Mara Woodwright
+|image            = [[File:Mara Woodwright (npc).png|300px]]
+|caption          = Preoccupied with wood
+|zone             = Statehelm
+|town = Statehelm
+|location         = Eastern markets.
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|vendor = Yes
+|skilltrainer     = [[Carpentry]], [[Fletching]]
+}}
+{{Quote|source=[[Mara Woodwright]]|I'm a Woodright -- you know, the famous shipwrights? Buuuttt... my branch of the family split off to work on other types of carpentry, to the shame of the rest.
+
+I kind of wish I knew how to make a ship. I've made a boat, of course, but there are secrets tot eh bigguns' my cousins won't share with me.}}
+[[Mara Woodwright]] is a human who lives in the city of [[Statehelm]]. The usually operate a stand in the marketplace.
+== Location ==
+; [[Statehelm]]
+: [[Mara Woodwright]] is in the market area, next to where the Casino portal spawns.
+== Shopkeeper ==
+{{Quote|source=[[Mara Woodwright]]|...}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards ===
+[[Mara Woodwright]] rewards her friends with additional training options.
+=== Hang Outs ===
+<!--
+{{Spoiler|Explore new mind-altering compounds(4h)|
+{{Quote|
+Echur said, "That one was too hallucinogenic for me. I prefer ones that focus the mind, not distract it. You keep the rest."
+}}
+:35 favor with [[Echur]]
+:25 [[Mycology]] XP
+:4 x {{Item|Blusher Mushroom}}
+}}
+-->
+== Quests ==
+[[Mara Woodwright]] does not offer any quests at '''{{favor|Neutral}}''' favor.
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Carpentry]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Carpentry{{pipe}}Unlock Carpentry Skill Levels 81-90
+ |skilllevel = 80
+ |cost=324 SR or ?
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Carpentry{{pipe}}Unlock Carpentry Skill Levels 91-100
+ |skilllevel = 90
+ |cost=600 SR or 1,200,000
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe = Yew Dowels
+ |skilllevel= 60
+ |cost= 7,800
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Incredible Wooden Cow Shoes (Enchanted)
+ |skilllevel= 103
+ |cost= 19,800
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe = Marvelous Wooden Cow Shoes (Enchanted)
+ |skilllevel= 113
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Wooden Deer Shoes (Enchanted)
+ |skilllevel= 103
+ |cost= 19,800
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe = Marvelous Wooden Deer Shoes (Enchanted)
+ |skilllevel= 113
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Club (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe = Incredible Club (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Club (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Club (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Melee Staff (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe = Incredible Melee Staff (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Melee Staff (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Melee Staff (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Combat Staff (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe = Incredible Combat Staff (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Combat Staff (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Combat Staff (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Priest Staff (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe = Incredible Priest Staff (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Priest Staff (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Priest Staff (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Chemistry Staff (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe = Incredible Chemistry Staff (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Chemistry Staff (Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Chemistry Staff (Max-Enchanted)
+ |skilllevel= ?
+ |cost= 19,800
+ |favor= ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Tanning]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe = Incredible Leather Roll
+ |skilllevel= 100
+ |cost= 19,800
+ |favor= Neutral
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fletching]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fletching{{pipe}}Unlock Fletching Skill Levels 71-80
+ |skilllevel = 70
+ |cost=324 SR or ?
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fletching{{pipe}}Unlock Fletching Skill Levels 81-90
+ |skilllevel = 80
+ |cost=400 SR or 800,000
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fletching{{pipe}}Unlock Fletching Skill Levels 91-100
+ |skilllevel = 90
+ |cost=600 SR or 1,200,000
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Arrow
+ |skilllevel= 83
+ |cost= ?
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Marvelous Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Astounding Barbed Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Awesome Barbed Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Barbed Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Awesome Long Arrow
+ |skilllevel= 76
+ |cost= 12,750
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Incredible Long Arrow
+ |skilllevel= 86
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Long Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Dense Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Marvelous Dense Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Reservoir Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Marvelous Reservoir Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Snare Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Snare Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Breathtaking Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Breathtaking Long Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Breathtaking Dense Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Breathtaking Reservoir Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Resplendent Reservoir Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Breathtaking Snare Arrow
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Marvelous Arrow Shafts (Organic Recipe)
+ |skilllevel= 91
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Breathtaking Arrow Shafts (Organic Recipe)
+ |skilllevel= 101
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Resplendent Arrow Shafts (Organic Recipe)
+ |skilllevel= 111
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Resplendent Arrowheads
+ |skilllevel= 110
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Arrow Shafts (Organic Recipe)
+ |skilllevel= 81
+ |cost= ?
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Incredible Arrowheads
+ |skilllevel= 80
+ |cost= ?
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Marvelous Arrowheads
+ |skilllevel= 90
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Breathtaking Arrowheads
+ |skilllevel= 100
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Critical Fletching
+ |skilllevel= ?
+ |cost= ?
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Grim Fletching
+ |skilllevel= 100
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Doom Fletching
+ |skilllevel= 110
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Incredible Arrow Shafts (Mineral Recipe)
+ |skilllevel= 80
+ |cost= ?
+ |favor= Neutral
+}}
+{{NPC training row
+ |recipe = Marvelous Arrow Shafts (Mineral Recipe)
+ |skilllevel= 90
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Breathtaking Arrow Shafts (Mineral Recipe)
+ |skilllevel= 100
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Resplendent Arrow Shafts (Mineral Recipe)
+ |skilllevel= 110
+ |cost= ?
+ |favor= ?
+}}
+|}
+
+== Services ==
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+
+== Conversations ==
+{{Quote|source=[[Mara Woodwright]]|
+I used to get big contracts to build houses in [[Vidaria]], but nobody's building new houses there now. And the Council has their own suppliers. So I'm back to the basics: chairs, tables, ridiculous wooden shoes for their cattle -- I'll make whatever people need.}}
+{{Quote|source=[[Mara Woodwright]]|
+When money gets tough I like to make arrows for the military. It's good money if you're an expert fletcher.}}
+[[Category:NPCs]]

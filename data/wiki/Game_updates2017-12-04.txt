@@ -1,0 +1,24 @@
+==<b>Dec 4 Update</b>==
+: This fixes some bugs from yesterday's update. And a few bugs that existed before that.
+:: - Fixed an issue with certain pre-existing maps (like Kur Mountains) in which the min and max scaling factors were set to 0.
+:: - The player-vendor management screen was not hiding itself when it was closed. This has been fixed.
+:: - You can now disable 3D character portraits for your character and your selected target. Add NoPortraits to your special settings box. Note that this is a temporary way to change this setting. As the portrait feature becomes more complete, settings for it will be integrated into the main options screens.
+:: - Fixed several bugs with setting item prices on player vendors.
+:: - Fixed a bug in which switching tabs in the player-vendor screen didn't reset the scroll position, which could cause the new tab to be off-screen until you scrolled.
+:: - You now receive proper error feedback if your favor level is too low to buy an item from an NPC.
+:: - Quest tracker:
+:::  o Fixed spurious "Cannot track quest: tracker limit exceeded" messages.
+:::  o No longer automatically tracking existing quests for users that are switching over from the old UI.
+:::  o Quest tracker is properly cleaned up if you switch characters
+:: - The size of effect icons is now saved on logout.
+:: - Changed the default icon size back to 40 for all types of icons (from 48 recently, and 32 before that).
+:: - Fixed visual issues with the loading-screen progress bar.
+:: - Fixed the alarming text in Settings -> Special that said your special settings were being ignored because you started the game in Safe Mode. That text was always displayed even if you weren't in Safe Mode.
+:: - Fixed several erroneous tooltips in Settings.
+:: - Fixed a scenario in which you could get stuck on a particular chat tab.
+:: - Fixed a bug that allowed you to harvest some items multiple times.
+:: - Fixed the short descriptions of some Gershok quests that erroneously referenced Breaded Perch with Onions.
+:: - Decomposing any type of leg armor always gave small leg baubles.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

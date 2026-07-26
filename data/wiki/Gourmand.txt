@@ -1,0 +1,59 @@
+__NOTOC__
+{{Skill infobox
+|title            = Gourmand
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = The art of appreciating what you eat. Every level of the Gourmand skill increases the duration of meal bonuses by 30 seconds. The main way to earn Gourmand XP is by eating foods you've never eaten before.
+|skilltype        = Other Skill
+|maxlevel         = 100
+|req              = N/A
+|skilltrainers    = N/A
+}}
+{{Quote|
+The art of appreciating what you eat. A high gourmand skill allows you to get maximum benefits from foods.
+}}
+== Gourmand Overview==
+'''Gourmand''' is a skill that lets you get the most value out of regenerative foods. It is usually first obtained by eating hardtack found in a sack or porridge cooked by [[Lawara]] on the starter Island of [[Anagoge]]. It is raised most effectively by eating every single type of unique consumable meal or drink that you come across. Such foods can be [[Cooking|cooked]], bought from vendors, or simply gathered (for example Large Strawberries).  Some rare foods may be obtained as rewards for [[Quests|performing favors]] for or [[Hang Outs|hanging out]] with various NPCs.
+=== In-Game Description ===
+The art of appreciating what you eat. Every level of the Gourmand skill increases the duration of meal bonuses by 30 seconds. The main way to earn Gourmand XP is by eating foods you've never eaten before.
+=== Training Gourmand ===
+* Each kind of food eaten will reward Bonus Experience ''the first time'' they are eaten. Typically this is 10 times the Meal Level, but some of the lower-level food it's different. To see all the unique foods you've already eaten (and how many of each), go to '''Skills panel > Gourmand''' and select the button there. Some high-level foods will provide a small amount of XP (+1) each time they are consumed.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* None
+===== Related Skills: =====
+* [[Cooking]] - A certain level of [[Gourmand]] may be required to consume items crafted through [[Cooking]].
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Gourmand]] can be obtained from the following skills and levels:
+:; [[Fire Magic]]
+:: Level 43
+
+== Gourmand Mechanics ==
+===Types of Foods===
+Most foods give bonuses to Regeneration of [[Health]] and [[Power]], both in- and out-of- combat.  Many foods also provide bonuses Maximum Health and/or Power, as well as [[Metabolism]] Regeneration.  The duration of food effects varies, but most last 1 hour.  The player may have one '''Meal''' and one '''Snack''' active simultaneously.
+
+In comparing Meals versus Snacks, '''Meals''' tend to give more '''Health Regeneration''', '''Maximum Health''', '''Metabolism Regeneration''', and '''Out-of-Combat Power Regeneration''' while '''Snacks''' provide more '''Maximum Power''' and '''In-Combat Power Regeneration'''.
+
+When comparing Cheeses to Non-Cheeses, '''Cheeses''' usually give more '''In-Combat Health and Power Regeneration''' and '''Maximum Health and Power''', while '''Non-Cheeses''' give more '''Out of Combat Health and Power Regeneration''' and '''Metabolism Regeneration'''.
+
+A comparison of approximate value of level 80 foods can be found at [[Game_updates/2019-11-08#Food_Changes]].
+
+The other foods are '''Instant-Snacks'''. These don't provide any Regeneration bonuses. Instead they restore flat amounts of Health and Power, while consuming some Metabolism. You can eat Instant-Snacks whenever you want, as long as you don't run out of Metabolism.
+
+'''Note''': While most of the food items listed here can be made through [[Cooking]] recipes, some are one-time quest or favor rewards from NPCs, some are available only from loot drops (such as the candy canes given as presents by Ri-Shin celebration trees during the [[Winter Holiday]] event), and still others are one-time player rewards bestowed by PG management on special occasions. Also, these lists include items whose recipes have been removed from the game.
+
+== Gourmand Consumables ==
+{{:Gourmand/Edibles}}
+{{:Gourmand/Meals}}
+{{:Gourmand/Snacks}}
+{{:Gourmand/Instant-Snacks}}
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Gourmand Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Gourmand|
+{{:Xptables/Gourmand}}
+}}
+[[Category:Skills]]

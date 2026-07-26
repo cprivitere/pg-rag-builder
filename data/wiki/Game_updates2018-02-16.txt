@@ -1,0 +1,46 @@
+==<b>Feb 16 Update</b>==
+===<b>Maps and Map-Fog</b>===
+: With this update, most maps now have "fog" that is cleared by exploring the map. This is an important exploration feature because it helps you know where you haven't gone yet, and for newbies, it helps by showing you where you came from. This is our first version of map fog and some zones have relatively ugly fog (with an overly bright or dark background). The visual presentation will be improved in future updates. If you find maps that are unreadable even after the fog is cleared, though, please bug-report the map in question so we don't overlook it.
+: As you clear this map fog, you will earn XP in a new skill called [[Cartography]]. Earning levels in [[Cartography]] does nothing right now, but in the future, this will be how you unlock map pins and other map-related stuff.
+: We've also added basic maps to most dungeons. (The only dungeon without a map should now be the Labyrinth dungeon, and that dungeon will get a map soon.) Note that these are rough maps and some still have miscellaneous geometry in them that isn't actually reachable. For instance, in some "cave" dungeons you can sometimes see boulders just off the map. Those boulders are not actually accessible, and if you could somehow access them, you'd just be standing on a boulder in space. These artifacts will get cleaned up over time.
+: The tutorial island does not have map fog, because we couldn't decide if it was too overwhelming for newbies or if it actually helped. (Your opinion is desired.) The dungeon on the newbie island DOES have map fog, however.
+
+===<b>"Enter the Light" Changed</b>===
+: The "Enter the Light" room no longer has a permanent portal to [[Serbule]]. It now has portals to [[Serbule]] and [[Rahu]] that can be used once every 8 hours (each), plus a portal that takes you to a random destination.
+: We've said that "Enter the Light" was never meant to be a primary transit system -- just an augment to other travel systems. We left the permanent portal to Serbule during alpha for convenience, but now that alpha is ending, it's important to fix the weird messages this sends to new players. For instance, it taught players that Serbule is the most important city in the game, but in fact when all areas are implemented, we expect Serbule to just be the "newbie city." Another problem is that it teaches players that Teleportation is pointless, since you can always drink some cheap poison instead!
+: This version of the "Enter the Light" room is still not its final form; the final version won't be possible until [[Statehelm]] is added to the game [[[because the "Enter the Light" sewers are actually under Statehelm]]]. This version is just something that's a little less... problematic.
+: In the short term, this change means travel may be a bit less convenient, but we've improved the Teleportation skill to partially make up for it. (See below.) In the longer term, many other travel features, most notably horses, will improve travel times.
+
+===<b>Teleportation Skill Changes</b>===
+:: - All [[Teleportation]] circles can now be clicked on and used. Doing so brings up the [[Teleportation]] recipe list. (If you find a teleportation circle that can't be clicked on, please bug-report it!)
+:: - Rewrote the spell "Recall Circle (Improvised)" to be much more useful. It now works without requiring you to be on a teleportation circle, and has simplified requirements and no pointless "you might die" side-effects
+:: - Changed the requirements of "Bind Alternate Circle" and "Recall Alternate Circle" to be slightly more convenient to use. Slightly.
+:: - Minor tweaks to other teleportation recipe requirements
+:: - New recipe "Summon Portal" is learned at Teleportation 15
+:: - [[Ratuk the Thinker]] has a new Teleportation recipe to train: "Recall Alternate Circle (Improvised)"
+:: - New rare-drop book teaches the teleportation recipe "Summon Alternate Portal" (requires [[Teleportation]] 33). For now the only place to find it is from elites in [[Gazluk Keep]] (although even there, it is not a common drop).
+:: - [[Cinnamon the rabbit|Cinnamon]], the (still-not-yet-written) rabbit in [[Sun Vale]]'s Animal Town, can help long-term animals teleport back to Animal Town. See [[Cinnamon the rabbit|Cinnamon]] for details
+
+===<b>Other Change Notes</b>===
+:: - [[Rahu]] and [[Animal Town]] now have transfer chests. These work like the [[Serbule]] transfer chest, allowing you to transfer a small number of items between characters on your account
+:: - Fixed bugs that let non-animals use animal-specific items (and, in a few cases, vice-versa)
+:: - [[Sammie Grimspine]] had bugs preventing her from teaching Calligraphy. It is now taught via the Training menu.
+:: - One of [[Joeh]]'s favors still gave [[Calligraphy]] XP from when he was a calligraphy teacher. It now gives Sword XP and cash.
+:: - The "Show Vitals Bars over Monsters' Heads" feature used to be a checkbox that was either on or off: either no enemies or all enemies got vitals bars. It now has three modes: "None", "Selected Enemy Only", or "All Enemies". : For new installations of the game, this feature now defaults to Selected Enemy Only. Existing players note: for technical reasons, if you had this option enabled before, it's now set to "Selected Enemy Only", rather than "All Enemies". You can change it in the Settings window under GUI Features.
+:: - Improved the on-screen error/info messages so that up to 4 messages can be displayed at once. (They are now only queued up if there are already 4 messages on screen.)
+:: - Screenshot keybindings work again
+:: - [[Clownfish]] are now level 0 fish, like crabs, so they can be picked up by anybody (without needing to collect some crabs first)
+:: - Wild Bluebells are now level 0 Foraging items, so they can be picked up by anybody (without needing to collect apples first)
+:: - The inventory folder that used to be unlocked by reaching [[Lore]] level 25 is now unlocked by reaching [[Lore]] level 13
+:: - The inventory folder that used to be unlocked by reaching [[Shamanic Infusion]] 50 is now unlocked by reaching [[Shamanic Infusion]] 25
+:: - Fixed broken "hide equipped items" button on bottom of inventory window
+:: - Some server performance optimizations
+:: - When the casting-bar is shown, you can now click on the icon to the left of the bar to quickly abort the casting
+:: - The "Alpha Tester" title is no longer given to new accounts. (Alpha is almost over! "Beta Tester" title will be given out soon.)
+:: - [[Durstin Tallow]] in [[Serbule Hills|South Serbule]] has six new favors that tie together into an overarching "quest arc"
+:: - Worked around a design flaw in Unity 2017.2 that caused degraded performance, especially in large outdoor zones. (This should fix the slowdowns that you could temporarily "fix" by right-clicking and auto-moving to a target.)
+:: - The game no longer shows scary "upgrading your equipment..." messages after game updates. This message was shown whenever an internal version number changed, and it usually didn't correspond to any actual changes to your equipment, so it was deemed to be pointlessly worrisome
+:: - A note about the experimental optimization you can turn on by typing "OptimizeMeshes" into the special settings window: we're still investigating crashes when this is turned on. The crashes are caused by players transforming into animal forms. But it doesn't necessarily have to be YOU that transforms into an animal, it could be anybody around you. So anyway, if the game crashes while OptimizeMeshes is on, turn it off for now. (If it doesn't crash for you, great! It only crashes on some computers.) Further optimizations of the optimization have been postponed until it's not as crashy
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

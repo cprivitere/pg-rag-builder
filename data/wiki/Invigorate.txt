@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Invigorate
+| description = Channel energy and confidence into an ally's brain.
+| level = 9
+| power cost = 0
+| reuse time = 45
+| range = 20 meters
+| skill = Priest
+| keywords = {{KWAB|Priest}}{{KWAB|Invigorate}}
+| special = Restore 15 Power. Restore 21 Armor. Restore 0 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Invigorate 2
+| description = Channel energy and confidence into an ally's brain.
+| level = 24
+| power cost = 0
+| reuse time = 45
+| range = 20 meters
+| skill = Priest
+| keywords = {{KWAB|Priest}}{{KWAB|Invigorate}}
+| special = Restore 20 Power. Restore 30 Armor. Restore 0 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Invigorate 3
+| description = Channel energy and confidence into an ally's brain.
+| level = 39
+| power cost = 0
+| reuse time = 45
+| range = 20 meters
+| skill = Priest
+| keywords = {{KWAB|Priest}}{{KWAB|Invigorate}}
+| special = Restore 25 Power. Restore 40 Armor. Restore 0 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Invigorate 4
+| description = Channel energy and confidence into an ally's brain.
+| level = 47
+| power cost = 0
+| reuse time = 45
+| range = 20 meters
+| skill = Priest
+| keywords = {{KWAB|Priest}}{{KWAB|Invigorate}}
+| special = Restore 30 Power. Restore 50 Armor. Restore 0 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Invigorate 5
+| description = Channel energy and confidence into an ally's brain.
+| level = 59
+| power cost = 0
+| reuse time = 45
+| range = 20 meters
+| skill = Priest
+| keywords = {{KWAB|Priest}}{{KWAB|Invigorate}}
+| special = Restore 35 Power. Restore 60 Armor. Restore 0 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Invigorate 6
+| description = Channel energy and confidence into an ally's brain.
+| level = 64
+| power cost = 0
+| reuse time = 45
+| range = 20 meters
+| skill = Priest
+| keywords = {{KWAB|Priest}}{{KWAB|Invigorate}}
+| special = Restore 40 Power. Restore 70 Armor. Restore 0 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Invigorate 7
+| description = Channel energy and confidence into an ally's brain.
+| level = 79
+| power cost = 0
+| reuse time = 45
+| range = 20 meters
+| skill = Priest
+| keywords = {{KWAB|Priest}}{{KWAB|Invigorate}}
+| special = Restore 45 Power. Restore 80 Armor. Restore 0 Health.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

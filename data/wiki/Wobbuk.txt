@@ -1,0 +1,38 @@
+__NOTOC__
+{{NPC infobox
+|title            = Wobbuk
+|image            = [[File:Wobbuk(npc).png|300px]]
+|caption          = Doesn't seem aggressive
+|zone             = Povus
+|town = City of Povus
+|location         = South of the city.
+|anatomy = Fish and Snail
+|species = Ranalon
+|beastspeak       = Yes
+|beastlist = All
+|barter = Yes
+}}
+{{Quote|source=[[Wobbuk]]|
+Sure, kill me if you must. I'm so burried in debt that you'd be doing me a favor.
+}}
+[[Wobbuk]] is a Ranalon who often joins nightly raids on the City of Povus. 
+== Location ==
+; [[Povus]]
+: [[Wobbuk]] can be found southeast of the city walls during [[Povus Safety: Ranalon Flooding]]
+
+== Favor ==
+[[Wobbuk]] does not use the favor system.
+
+== Services == 
+==== Bartering ==== 
+Wobbuk trades {{Item|Frog}} for {{Item|Xogrite Chunk}}.
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Frog}} x1 || {{Item|Xogrite Chunk}} x1
+|}
+
+== Conversations ==  
+
+[[Category:NPCs]][[Category:NoRiShin]]

@@ -1,0 +1,75 @@
+__NOTOC__
+{{NPC infobox
+|title            = Hulon
+|image            = [[File:Hulon the hoarder (npc).jpg|300px]]
+|caption          = The local Council Bank representative.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = Bank building near the well.
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All, after bribe.
+|vendor           = Yes
+|storage = Yes
+}}
+{{Quote|
+Yeah, you like banking? I don't. I want to be one of those adventurers you see walking around. Murderous hobos with no attachments and no regrets!
+}}
+[[Hulon the Hoarder]] is the resident banker of [[Serbule Keep]]. He offers [[Council Storage]] which can be expanded by buying vault slots at increasingly higher prices. Note that gaining favor with Hulon does not reduce the cost of vault slots.
+
+An Item-Transfer chest can also be found in the Serbule Bank. This lets Prodigies transfer 8 items at a time to alternative personas. (Other characters on your account). 
+
+Items placed in this vault are accessible from Hogan's Keep and other locations, see [[Storage]].
+== Location ==
+; [[Serbule Keep]]
+: Bank building near the well.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Discuss the tax code(60m)|
+:12 favor with Hulon
+:25 Lore XP
+}}
+{{Spoiler|{{repeatable}}Check business receipts (4h)|
+{{Quote|These are dramatically low. Joeh's cheating the council again! He even admits it, says he doesn't have to pay the whole thing because the city doesn't have full council services. Well, they '''never will''' if he never pays his taxes! Why don't elves understand how important this is?
+
+Well, you did well. Here's a fair wage.}}
+:35 favor with Hulon
+:400 Councils
+}}
+{{Spoiler|{{repeatable}}Double-check the month's records (8h)| 
+{{Quote|You found two errors! That's impressive. You know, the Council never finds any errors when I send the books in. Are they even overseeing me at all? Sometimes I wonder.}} 
+:65 favor with Hulon
+:800 Councils
+}}
+
+== Quests ==
+[[Hulon]] offers a quest only to [[Beast Forms]].
+<dpl>
+category = Quests/Hulon
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Services == 
+==== [[Storage]] ====
+: [[Hulon]] gives access to and sells extra slots of [[Storage|Council Storage]].
+; [[Storage]] for Animals.
+: Animals need to bribe '''Hulon''' to receive access to their storage.
+:: Five [[Ancient Bronze Coin]]s are required.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Council Certificate}} x1
+|RiShin Family = {{Item|Council Certificate}} x3
+}}
+== Conversations ==
+[[Category:NPCs]][[Category:StorageSpecial]]

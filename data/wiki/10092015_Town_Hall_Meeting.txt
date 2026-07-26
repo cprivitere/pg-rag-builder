@@ -1,0 +1,119 @@
+<div class="toccolours mw-collapsible mw-collapsed" style="width:100%">
+10/09/2015 Town Hall Meeting
+<div class="mw-collapsible-content">
+Thank you to Aurarice for transcribing a summary of this meeting and adding a TLDR for each question.
+
+'''Q: PvP reiteration…'''
+: A: The general gist of PvP is that it’s not the main focus of Project Gorgon but we do have it in-game as a dueling concept. It’s just a matter of prioritizing things and we can’t do everything, but we should be able to figure out some systems. More suggestions is always better because we can pick and choose from the stuff that is easy and good ideas. Even if it seems far fetched, we do take pieces from peoples’ ideas and piecemeal something together, so please continue to give feedback about what you would like to see.
+: As for discussions in the forums, try to keep it civil. Try to keep grudges and that sort of thing out of the forum or we’ll have to close it out. Keep it constructive.
+:: TL;DR Maybe. Just keep making suggestions on the forums and help them figure out some new ideas!
+
+'''Q: Playing the game as a final product?'''
+: A: The game is currently in early alpha stage and change is to be expected. I expect people want to run to that last spot and grind out gear, but that’s not what Alpha and Beta is about. It’s not about getting the best gear right now and hoarding currency. We need your help to make sure we’re testing all the content. We’ve still got a year and a half until launch. There’s no point rushing to the perceived endgame loot since that loot’s not gonna do you any good once the game’s released as far as endgame’s concerned. We’re at level 50 right now and that’s essentially midgame, so that shouldn’t be your priority.
+: The main thing that we get from alpha is your feedback, so when you give feedback that’s really precious. If the feedback is on point about a particular issue that’s really useful. A lot of times people have been giving feedback that’s not indicative of the scope of where we are right now. Eg. There’s not enough monsters and people are extrapolating that there’ll always be monster density issues. Things that people think are huge, huge issues are just small points in our development process that we’ll get through.
+: And to add on for Manticores, there’s been some talk about it and we’re going through the process, but those are currently the highest creatures in game. Once the game releases, those are going to be mid-level creatures, so they’re not gonna be tuned as if they were an end game creature. We do have work to do and we appreciate the feedback, but again it’s not just about farming them for good loot. It was really an experiment to figure out if we could make outdoor content that makes a group experience rather than dungeons. We’re basing it on EQ2/EQ1 type camping spots, but our game mechanics make it a little hard for us to do it in a really fair and elegant way. This stuff is essentially ‘junk’ for endgame. By the time you get to Lv. 120, you’re not even going to look twice at it.
+:: TL;DR This is NOT the final product. It’s still being fixed around. Don’t expect anything and just play the game like it’s supposed to be played in alpha – try everything out and put in feedback!
+
+'''Q: Do we really care about reports for graphical glitches?'''
+: A: Sometimes we do and sometimes we don’t. If you’re reporting a monster in the trees, there’s usually a spawn node at that specific spot which allows me to delete or fix it. But for things like this particular tree doesn’t look right at a particular resolution, it’s less important because we’re probably going to end up replacing all the trees anyway.
+: Erring on the side of caution, giving data is always better. I try to send thanks in private messages to people when I act on the feedback. Monster position, weird lighting, pretty important. Texture resolution isn’t that important right now.
+:: TL;DR Report everything that seems out of place. Even if it’s not important, it might be important later on and any information is good information.
+
+'''Q: Will we be have any way in the future to be able to see the total added bonus provided by gear listed in the character stats panel?'''
+: A: I’m not sure how we’ll get there or how it’ll exactly look like. As you level up a skill, you’ll be able to see what benefits you’ve received from previous levels of that skill. Some of the gear bonuses are very hard for us to calculate because they’re all coded with special bits of code so it’s not as easy as displaying a simple number. We’re not sure how great our display will be, but we’ll certainly have more information. Eg. This ability is giving this buff, this buff, and this buff, which allows you to compare and contrast. We’ll do what we can.
+:: TL;DR there will be more information. We’ll see how it goes.
+
+'''Q: Spider. Tailoring. Fits the theme. I don’t understand what the difference is between cloth, leather, and heavy gear. Is there any information regarding the differences?'''
+: A: We don’t really have them hammered out yet. I’m still not 100% satisfied with how armor works, so I expect to fairly dramatically rebalance armor at some point down the road. If you keep playing, keep playing and reminding me if anything breaks in terms of spiders being able to do tailoring. I think thematically it’s fun and I don’t always make sure that animals can do those sorts of things. In the future there will be a sort of lost animals city with a few more trainers available for just animal players that will cover basics, such as tailoring and an animal version of first aid. That’ll get there.
+:: TL;DR Gear types will get more information later on.
+
+'''Q: This game isn’t super strictly based on the trinity, and I was just curious if you had any visions for the versatility of specific skills? Do you want a skill to based in one particular role or multiple? (TL;DR Will mentalism stay the way it is? Can I use it as a support/buffing role?)'''
+: A: Mentalism is overpowered as a damaging skill and it will get weaker as a damaging skill. It should be more clear that it’s a skill for healing and support as we go on. It does have that one damage multiplier effect that’s pretty great for DPS, it may always be something that people keep as their secondary skill in order to multiply the damage of their base skill, but I don’t want to see it be a mainline attack skill ala sword. It just means that the skill has too much variability and versatility. Are we imagining skills having certain roles – kind of. It’s a balance of how much healing vs how much damage vs how much crowd control vs how much agro a skill has, but I’m not usually sitting down and going “What exactly is this skill for?” I kind of want a floaty variability. We’re still trying to figure out how important the trinity is for the gameplay.
+: The manticores were really the first attempt to make a holy trinity encounter that requires that, so you’re on the bleeding edge of us figuring out where that fits in the game. Our original goal was a lot more of each dungeon has its own scenarios or issues and when people go to a dungeon they kind of assign themselves accordingly. I think that we will have a large number of skills and some mechanics that are a little less trinity oriented. Eg. Sword will not be the best damage dealer or taunting device, but it will be the best at removing rage from the rage meter.
+:: TL;DR The game may or may not pull on the holy trinity of tank/dps/healer, but it will vary from content to content. Some skills may be better than others at certain roles, but there’s variability.
+
+'''Q: Is there ever going be a sorting feature for storage, recipes, filters, etc.?'''
+: A: Yes; there will certainly be (pretty soon) a sort button into storage banks. A deeper fix is giving more variable ways to control your inventory like having bags that you can put stuff in and organizing the bags. You’ll have tabs for guild storage, presumably, and those sorts of the things.
+:: TL;DR Yes. OCD rejoice.
+
+'''Q: Is there ever going to be a centralized bank / auction house?'''
+: A: There is already a centralized bank in the sense that you have a global storage machine that you can buy slots in, so that’s sort of the central storage area. As for auction house, we don’t intend on having an auction house. These sorts of things you’ll have to shop around from basically player stalls. For things like arrows, we’ll probably have a more general auction house for those sorts of consumables. A split of features, but no one universal auction house.
+:: TL;DR Yes to the bank – you already have Hulon’s love machine/storage. As for auction house, yes to certain items no to a universal one.
+
+'''Q: Exploration and the death penalty – Will there be less information for where you are in the world? Eg. Not knowing where you were. Pay attention to your surroundings or get lost. Hardcore mode + This = Really hardcore mode. Ever consider taking away the map and giving us a compass? Maybe a mapmaking or directional skill?'''
+: A: I like the benefits of those in terms of exploration, but I think it just cuts too many players out. As a player myself, I find it very hard to play with just a compass and without a map. I don’t think I’ll be taking my map away. I hope to have a more elaborate exploration tool in the sense of not giving you JPG of a map and good luck. I’m not sure if we’ll be able to fog of war or unlocking part of the map, but there’ll be more to exploration and unlocking stuff.
+: Eg. Make desert 3x longer and you only have a map of the center part. Portioned control. Different things in different places.
+:: TL;DR Kind of. Still working on it, but there will be some degree of exploration.
+
+'''Q: Account transfer box – make it the magic storage machine? Just be done with the transfer chest and have a banker in every city and make that the transfer space. The 8 spaces is just really a bummer.'''
+: A: There will be a Hulon type person in every city for that sort of transfer chest. Some of them will have larger space than he has, but I guess that’s it.
+:: TL;DR This isn’t that long. Just read it.
+
+'''Q: Is there any timeline for implementing the new character races? (Dwarf, Fae, etc)'''
+: A: I’m not sure what the timeline is. The first one that will go in is the fairy race because we have the most prep work done for that one, and then the orc. After that, I’m not sure. It’ll be some months before we get to the dwarf.
+:: TL;DR Fairy then Orc then months before Dwarf. Patience.
+
+'''Q: What is the next step after the Kickstarter ends Sunday? (How long will people be able to play before Steam starts?)'''
+: A: There’ll be probably a week I would guess. When the Kickstarter ends, we will send out a poll to users to tie their account name to their Kickstarter reward package and make sure the account is flagged for continuous access. It’ll probably take a week to make sure everyone gets their stuff in, so until then the game will stay open, but after then people will need to be able to log in with their authorized accounts. After that, I’m going to kick the dirt off the implementation of the Steam interface and expect to get that up in a month or so.
+:: TL;DR About a week of free play for everyone while they get all the accounts linked to the Kickstarter, then it’s byebye. Steam interface gonna get booted up soon!
+
+'''Q: Vampire hype? What if we don’t hit the kickstarter goal?'''
+: A: We’re so micromanage-y of our cash assortment that I don’t know without that 5 piddly thousand I don’t know if we have the art money to actually get it done. I can’t say we won’t do it, and I’m confident to say that we’ll do it in an expansion pack if nothing else, but it’s just a matter of timing and scheduling things.
+:: TL;DR They need the money because they manage every dollar to hit every goal.
+
+'''Q: Is there anything that you could elaborate on for your vision for the Vampire?'''
+: A: I’m still playing with some ideas. Let me reveal it a little bit later. I don’t want something with a huge downside and a huge upside – it’s really tedious as a game experience. We’ll get back to you.
+: There will be a Project Gorgon twist, but it’s still something we’re gonna work through. Daytime/Nighttime buff/debuff.
+:: TL;DR Please don’t let this be Twilight. If I sparkle I’m going to cry.
+
+'''Q: Will there be 10 or 25-man specific raids?'''
+: A: The current plan is 6-9 man larger sized raids, but we don’t currently have any plans for gigantic scope raids. Not enough feedback about that, and we’ve gotten diverging feedback about that. Basically when we’re getting to the midway of beta, we’ll have a more concrete answer. A lot of the game’s design is wait and see, so we’re gonna find what’s most fun.
+:: TL;DR Not yet. FEEDBACK!!!
+
+'''Q: Chatrooms : Multiple useful rooms are not being populated because people aren’t autojoined into those rooms. Can we do that?'''
+: A: We’ll end up doing that pretty soon. It’s just a matter of getting the code, we’ll get there pretty soon.
+:: TL;DR Yes.
+
+'''Q: Everyone can do everything to a max, but then people have to do other things to add more levels to them. I was wondering if you were going to add masteries, or pinnacles, to get toward the end of a skillset? Get to a certain “end” point – specialize certain masteries.'''
+: A: We’re not planning on doing that right now – perhaps in the very long term that could be the case but getting from 100 to 125 is already a pretty slow process that you’re going to want to focus on. It’s an incredible amount of resources. It’s kind of hard to lock people in too much without locking people down to one character per world or something like that. The important thing to keep in mind is that it’s expensive to level the last parts of those skills in order to unlock the highest tiers of recipes/crafting. I intend it to be something that people grind 1 or 2 of rather than max all of them.
+:: TL;DR Maxing a skill is going to be very, very difficult/tedious/expensive. If it gets to the point where people can max out multiple skills, there might be something.
+
+'''Q: Is crafting going to be changed so that gear is going to be proportional to what is dropped at endgame levels? Crafting VS Endgame Gear'''
+: A: Right now crafted gear is underwhelming, but I expect crafted gear to end up very similar in power to loot gear. You’ll always be able to craft gear that is useful, but crafting’s claim to fame will be augmenting gear. (Eg. Adding pockets)
+: **A lot of the game’s systems and specific skills: Will it change? Probably. Don’t be surprised if things change several times.
+:: TL;DR Crafting gear has certain niches that it fills that dropped gear won’t.
+
+'''Q: Is there going to be change to vendor mechanics? If you have a character that you can get the favor up and make an alt (Spend ~10k get that favor up), you now have a loop of 500-600k gold per character.'''
+: A: If it turns out to be really efficient to level an alt to have millions of gold available, we’ll look into it.
+
+'''Q: Are there any plans to disallow people for maxing out everything?'''
+: A: Not currently. The first 50 levels of a skill are the easy levels, and then it gets slower and slower. I don’t think it’ll be a big problem right now.
+
+'''Q: Will fairy boots be dye-able?'''
+: A: Yes.
+
+TL;DR PornStar is happy.
+
+'''Q: Will we see any more zone bosses added?'''
+: A: I’m going to end up doing some preliminary version of the Druid world bosses very soon. We’ll see how those go. Stay tuned!
+
+'''Q: Will there be a mega server or individual servers?'''
+: A: Eric has a big interview style article on MMOCentral coming out soon that delves into it. (It’s not going to be a megaserver.) (Maybe a PvP server :^) )
+:: TL;DR Individual servers probably. Maybe a PvP server?
+
+'''Q: Is [x] system going to change?'''
+: A: Yes, but we don’t have a timeline right now. Please give us the feedback!
+
+'''Q: Stealth?'''
+: A: Yes, in the future at some point. See 1st Q&A. (Aurarice transcribed it :^) )
+
+'''Q: Animal stretch goal – any cool ideas it COULD be?'''
+: A: I think the animal forms are special in that they are more focused on a particular role than a typical skill is. Eg. Cow is supposed to be a very tanky skill, the deer is an offtank with decent DPS, the pig is supposed to be crowd control which it’s not doing too terribly well now at now, so the new animal form is going to be another take on crowd control or a non-tank pet. Spiders pretty good at DPS. I’m hoping we can fit some other kind of strong roles.
+:: TL;DR CC animal or DPS animal incoming.
+
+'''Q: Is there going to be any sort of legendary item quests/title system?'''
+: A: There is going to be a title system, but as far as legendary weapon quests…
+There’ll be quests to get really good loot, but as for EQ-style: Probably not. Random loot is where it’s at in Project Gorgon. The sorts of things you’d get instead would be an, for example, and enchantment oil.
+Just keep reporting things. Don’t skip content – get us valuable information and get it set for later on!
+</div></div>
+<noinclude>[[Category:Game Blogs]]</noinclude>

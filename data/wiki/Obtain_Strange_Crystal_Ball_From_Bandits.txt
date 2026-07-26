@@ -1,0 +1,35 @@
+__NOTOC__
+==Summary==
+''Note: This quest is now titled '''Merriana's Strange Request'''''
+
+Merriana in Serbule Hills said, "You want to help? Hmph. Very well: perhaps you know this area better than we do.
+
+Some time ago we heard there was a group of bandits with something I want. These bandits live in a cave somewhere here in Serbule Hills. They called it the 'spider cave'.
+
+I have pre-paid for the device, but if the bandits make you pay more, get a receipt and I will reimburse you in precious reagents."
+===Prerequisites===
+To start this quest, talk to '''[[Merriana]]''' in '''[[Serbule Hills]]'''.  The quest is available at {{Favor|Tolerated}} favor.
+
+===Preface===
+You want to help? Hmph. Very well: perhaps you know this area better than we do.
+
+Some time ago we heard there was a group of bandits with something I want. These bandits live in a cave somewhere here in Serbule Hills. They called it the 'spider cave'.
+
+I have pre-paid for the device, but if the bandits make you pay more, get a receipt and I will reimburse you in precious reagents.
+===Requirements===
+* Collect {{Item|Strange Crystal Ball}} x1
+* Talk to Merriana
+
+===Rewards===
+{{Spoiler|Rewards for Obtain Strange Crystal Ball From Bandits|
+{{Quote|
+This orb is cracked! Wait. This is a fake! A cracked fake! How much did you pay for this?!
+
+Oh. The bandits are dead? Well, I suppose that's what comes of bandits. No great loss, I can assure you! Here: I don't want you to become hostile, so let me reward you for your meager effort.
+}}
+* 50 favor towards [[Merriana]].
+* {{Item|Shock Dust}} x1
+* {{Item|Sulfur}} x1
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]], [[Category:Quests/Merriana]]

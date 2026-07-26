@@ -1,0 +1,151 @@
+__NOTOC__
+{{Skill infobox
+|title            = Transmutation
+|image            = [[File:Table.PNG|400px]]
+|caption          =
+|skilltype        = Trade Skill
+|maxlevel         = 100 <!-- List without bonus levels -->
+|req              =  None
+|skilltrainers    = [[Kalaba]], [[Makara]], [[Sona]], <!-- List skill trainers, 3 max -->
+}}
+
+{{Quote|source=[[Makara]]|
+Most magic items are powered by a weird substance called Phlogiston. This is what gives them their magic power. But the substance is invisible and undetectable... unless you know the trick I just taught you.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+'''Transmutation''' allows you to change, or reroll, a [[Treasure Effects|mod]] on a piece of gear. (Note: "mod" is used interchangeably with "treasure effect" and "treasure mod") This consumes phlogiston and durability. The higher the level of the item, the higher the tier of phlogiston consumed. The ability to pick and choose treasure effects is huge, and it's not an understatement to say that this is the most powerful skill for min-maxing gear. Please note that transmuting anything will ATTUNE that gear to your account, making it useless to other players (but note that repairing transmutation damage does NOT attune gear; it is possible to restore another player's item's durability, though it is not possible to bypass the repair cooldown this way).
+
+In the Skills and Abilities tab, Transmutation is listed as a subskill of '''Alchemy'''.
+
+'''NOTE:''' Differences between Transmutation and Augmentation: [[Transmutation]] lets you '''change''' the mods on your gear, whereas '''Augmentation''' lets you '''add''' one additional mod to a piece of gear. With [[Transmutation]] you ''distill'' items into phlogiston and use a transmutation table to make changes. With Augmentation you ''decompose'' items into beads and baubles in order to extract a mod from one item and place it on a different item.
+
+=== In-Game Description ===
+The science of permanently altering how a magical item works. Also covers manipulation of the basic materials of magic, such as phlogiston.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Kalaba]] in [[Eltibule]] teaches [[Transmutation]] after starting a conversation. Basic recipes are learned through the quest [[Phlogiston Basics]].
+* [[Makara]] in [[Ilmari]] teaches [[Transmutation]] recipes for rarer equipment, she also teaches basic recipes to characters who could not learn them from Kalaba.
+* [[Sona]] in [[New Prestonbule Cave]] can raise the level cap of [[Transmutation]] from 51-60 and 61-70.
+* Levels 71-80 and 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+* Levels 81-90 and 91-100 are unlocked by [[Sulafa]] in the city of [[Statehelm]]
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* None
+===== Related Skills: =====
+* [[Augmentation]] - Augmentation is the other primary way for players to upgrade their gear.
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Distillation ===
+You can distill non-white items (anything that has a mod) into phlogiston. Each distillation has a chance to consume a Prism, depending on what tier the distilled equipment is. In order to distill items, right-click the item and select distill [item name].
+
+The quantity of phlog given depends on the tier of the item (Uncommon, Rare, Exceptional, Epic, or Legendary...see [[Items]] for a breakdown). Speaking very broadly, Uncommon gives 2-3 phlog, Rare gives 4-5, Exceptional gives 6-7, Epic gives 8-10, and Legendary gives 12-13.
+
+The tier of phlog (Shoddy, Rough, Crude, Decent, or Nice) depends on the level of the item. Generally, the highest level requirement for the item is used. A sword that requires level 55 Sword and level 30 Psychology would distill into Decent Phlogiston. The table below maps level to phlog tier.
+
+{| {{STDT}}
+! Level Range
+! Phlog Tier
+|-
+| 0-10 || Shoddy
+|-
+| 15-25 || Rough
+|-
+| 30-40 || Crude
+|-
+| 45-55 || Decent
+|-
+| 60-70 || Nice
+|-
+| 75-85 || Quality
+|-
+| 90-? || Great
+|}
+
+=== Transmutation ===
+Transmuting an item will change a selected mod to a different, randomly chosen, effect. To do this, find a Transmutation table (list of locations below). Interact with the table, drag an item to it, and choose the mod you wish to reroll. You must unequip gear before transmuting it.
+
+When you select a mod to reroll, you will get a prompt telling you how much phlog and durability will be consumed. Rerolling a mod from a normal combat skill costs 35 phlog and 25% durability. The tier of phlog required depends on the tier level that the mod belongs to, see the chart above for the exact ranges. EX: Rerolling a level 55 sword mod will require 35 Decent Phlogiston.
+
+If you reroll an Endurance or generic mod, the cost is 20 phlog and 20% durability.
+
+All skills have a list of specific mods that are available for each slot (Head, Chest, etc.). The new mod will be chosen from that list, and is guaranteed to NOT be something that is already on the gear. EX: Let's say that there are 10 possible mods for Fire Magic MainHands. Let's say you have 2 Fire Magic mods on your current Staff. If you reroll one of them, there are 8 possible mods it could become.
+
+Due to the random nature of transmutation, it can be very frustrating or very satisfying. You should be aware that you can roll many, many times without getting the mod you want...that's just how luck works.
+
+Tip: ANY tier of a mod will "block" all tiers of that mod from being rerolled. In other words, if you had "Riposte Damage +11%" (level 5 mod) on your gear, any rerolls on other mods would never result in any tier of "Riposte Damage +X%". This means that you can augment a low-level mod that you do NOT want on your gear to increase your chances of getting the mods you want. Using the example above, say there are 10 possible Fire Magic Staff mods and our gear already has 2 of them. Normally any reroll would be picking from a pool of 8. Instead, before transmuting, say that we augmented a mod that we definitely didn't want the reroll to become. Now you're choosing from a pool of 7. Once you've gotten the mod you want, you simply undo the augment (see [[Augmentation]]). This method is definitely a bit more tedious than just transmuting, but may be worth it in terms of time/gold/phlog/prisms saved. Make '''sure''' that you do not accidentally transmute the low-level augment, see the Note above.
+
+===Durability===
+Durability is consumed every time you transmute an item. Having 0% durability will NOT stop you from being able to wear and use that gear, but you cannot transmute if you don't have the required durability. You can repair an items durability with Transmutation recipes, but each one sets a timer on that piece of equipment. That equipment cannot be repaired again until the timer expires. For the max-level repair skill (repairs 100% durability), the timer is 7 days.
+
+The exception to this is the newer Mastercrafted Legendary gear. There is a special high-level Transmutation recipe for those where there is no timer, but it costs 15 prisms to repair the item in this way.
+
+===Theorycrafting===
+If you're trying to transmute gear in search of specific mods, you could probably use a list of possible mods for a particular skillset. You can visit [http://www.gorgonexplorer.com Gorgon Explorer] for a player-run database of every mod (the Mod and Build Planner tabs are particularly useful). Mods are also available on the wiki at <skill name>/Treasure Effects. (Example: [[Fire Magic/Treasure Effects]])
+=== Phlogiston ===
+: {{Item|Shoddy Phlogiston}}
+: {{Item|Rough Phlogiston}}
+: {{Item|Crude Phlogiston}}
+: {{Item|Decent Phlogiston}}
+: {{Item|Nice Phlogiston}}
+: {{Item|Quality Phlogiston}}
+: {{Item|Great Phlogiston}}
+: {{Item|Amazing Phlogiston}}
+: {{Item|Astounding Phlogiston}}
+: {{Item|Awesome Phlogiston}}
+
+===Magic Table Locations===
+; [[Serbule]]
+: Located in the adjoining room of [[Marna|Marna's]] shop.
+; [[Eltibule]]
+: Located in Kalaba's workspace near the tanning rack and forge.
+; [[Ilmari]]
+: Located in [[Makara|Makara's]] house.
+; [[Rahu]]
+: Located in the city of Rahu, in the building housing the Community Library.
+; [[Gazluk]]
+: A transmutation Item Workbench can be found inside the [[New Prestonbule Cave]].
+; [[Red Wing Casino]]
+: Located in [[Ragabir]]'s shop.
+
+=== Transmutation Book ===
+{{Spoiler|Click Expand to read the Transmutation book found at Transmutation Tables|
+{{Quote|source=Transmutation Help|
+Welcome to Transmutation!
+
+Transmutation is the process of changing one of the effects, or powers, on a piece of gear into another power. Each transmutation consumes phlogiston and some of the items durability. Phlogiston and durability are determined by individual power levels, item level, and item rarity.
+
+;Attunement
+When you transmute an item, that item attunes to you! This means that only you (or other characters on your account) will be able to wield the item, and you won't be able to sell it to vendors anymore.
+
+; Possible Replacements
+While you get to cheese which power to replace, you do not get to choose which power will be added in its stead. This new power is selected at random, but some powers have a higher chance of being selected than others. This selection chance is listed alongside each possible replacement power.
+
+;Power Requirements
+Every power has some requirements associated with it - Skill, Level Range, and Rarity
+* '''Skill''' - A power can only be replaced by another power o the same Skill type. E.G. A Sword power can only be replaced by other Sword powers.
+* '''Level Range''' - Each power has a level range associated with it. It will only be available to items within that level range. Items outside of that range will often have a scaled version of the same power available to them. E.G. "Sword Base Damage +10%" has a level range of 15-40, while "Sword Base Damage +15%" has a level range of 30-50.
+* '''Rarity''' - Each power has a minimum rarity requirement. This means that power is only available to items of that rarity or higher. E.G. "Minor Heals restore X Armor" is a Rare power, so it will never show up for Uncommon items.
+
+;Discounts
+Occasionally, cost discounts for certain skills will be available. For instance, there may be a 25% discount on all Sword-related powers. These typically accompany skill balance changes.
+
+}}}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Transmutation Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Transmutation|
+{{:Xptables/Transmutation}}
+}}
+
+== Trivia ==
+'''Write a little about this history of the skill, or things that don't belong in above areas'''
+
+== Gallery==
+
+[[Category:Skills]]

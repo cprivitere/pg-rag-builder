@@ -1,0 +1,56 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Elemental Ward
+| description = Hunker behind your shield and use it to deflect the elements.
+| level = 21
+| power cost = 24
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ElementalWard}}
+| special = Elemental damage mitigation + 5 for 30 seconds. Darkness mitigation + 0 for 30 seconds. Direct Trauma mitigation + 0 for 30 seconds. Reduces elemental damage (Fire, Cold, and Electricity) for 30 seconds, and for the first 3 seconds, provides complete immunity to elemental damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Elemental Ward 2
+| description = Hunker behind your shield and use it to deflect the elements.
+| level = 39
+| power cost = 34
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ElementalWard}}
+| special = Elemental damage mitigation + 15 for 30 seconds. Darkness mitigation + 0 for 30 seconds. Direct Trauma mitigation + 0 for 30 seconds. Reduces elemental damage (Fire, Cold, and Electricity) for 30 seconds, and for the first 3 seconds, provides complete immunity to elemental damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Elemental Ward 3
+| description = Hunker behind your shield and use it to deflect the elements.
+| level = 55
+| power cost = 41
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ElementalWard}}
+| special = Elemental damage mitigation + 25 for 30 seconds. Darkness mitigation + 0 for 30 seconds. Direct Trauma mitigation + 0 for 30 seconds. Reduces elemental damage (Fire, Cold, and Electricity) for 30 seconds, and for the first 3 seconds, provides complete immunity to elemental damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Elemental Ward 4
+| description = Hunker behind your shield and use it to deflect the elements.
+| level = 75
+| power cost = 51
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ElementalWard}}
+| special = Elemental damage mitigation + 35 for 30 seconds. Darkness mitigation + 0 for 30 seconds. Direct Trauma mitigation + 0 for 30 seconds. Reduces elemental damage (Fire, Cold, and Electricity) for 30 seconds, and for the first 3 seconds, provides complete immunity to elemental damage.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,512 @@
+__NOTOC__
+{{NPC infobox
+|title            = Floxie
+|image            = [[File:Floxie.png|400px]]
+|caption          = Playing with some arrows
+|zone             = Fae Realm
+|town = Fel-Dasculan Ruins
+|location         = Outside the west gate of the Fel-Dasculan Ruins
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Archery]], [[Cooking]], [[Crossbow]], <br>[[Fletching]], [[Gardening]], [[Flower Arrangement]]
+|vendor           = Yes
+}}
+{{Quote|
+Oh, oh, you're a mortal beast! Let me think, you're an animal, right? I love all the crazy creatures that come from your world! Welcome to Agrashabia.
+
+Wait. Did Pegast send you over here?
+}}
+[[Floxie]] is a skill trainer in the [[Fae Realm]].
+==Location==
+; [[Fae Realm]]
+: Fel-Dasculan Ruins
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Quests ==
+<dpl>
+category = Quests/Floxie
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Archery]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Archery{{!}}Unlock Archery Skill Levels 71-80
+ | skilllevel = 70
+ | cost = 3 [[Royal Jelly]] & 400,000
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Blitz Shot 8
+ | skilllevel = 70
+ | cost = [[Royal Jelly]] & 17,200
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Poison Arrow 8
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] & 19,950
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Acid Arrow 8
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] & 19,950
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Fire Arrow 8
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] & 19,950
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Heavy Shot 6
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] & 19,950
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Heavy Multishot 5
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] & 19,900
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Multishot 6
+ | skilllevel = 76
+ | cost = [[Royal Jelly]] & 22,500
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Bow Bash 7
+ | skilllevel = 78
+ | cost = [[Royal Jelly]] & 22,700
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Aimed Shot 7
+ | skilllevel = 80
+ | cost = [[Royal Jelly]] & 22,700
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Mangling Shot 7
+ | skilllevel = 80
+ | cost = [[Royal Jelly]] & 22,700
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Blitz Shot 9
+ | skilllevel = 80
+ | cost = [[Royal Jelly]] & 22,700
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Snare Arrow 8
+ | skilllevel = 81
+ | cost = [[Royal Jelly]] & 27,250
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Cooking{{!}}Unlock Cooking Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 2 [[Royal Jelly]] & 50,000
+ | favor = ?
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Cooking{{!}}Unlock Cooking Skill Levels 71-80
+ | skilllevel = 70
+ | cost = 3 [[Royal Jelly]] & 200,000
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Onion Chicken
+ | skilllevel = 63
+ | cost = [[Royal Jelly]] & 5,100
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Dinobites
+ | skilllevel = 64
+ | cost = [[Royal Jelly]] & 5240
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Vexfish Lettuce Wraps
+ | skilllevel = 70
+ | cost = [[Royal Jelly]] & 6,120
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Top Swamp Steak
+ | skilllevel = 74
+ | cost = [[Royal Jelly]] & 6.760
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Groovalu
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] & 6,920
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Fairy Peach Juice
+ | skilllevel = 80
+ | cost = [[Royal Jelly]] & 7,760
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Steak and Cheese Wraps
+ | skilllevel = 82
+ | cost = [[Royal Jelly]] & 8,120
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Crossbow]]
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Crossbow{{!}}Unlock Crossbow Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 2 [[Royal Jelly]] & 100,000
+ | favor = ?
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Crossbow{{!}}Unlock Crossbow Skill Levels 71-80
+ | skilllevel = 70
+ | cost = 3 [[Royal Jelly]] & 300,000
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Knockback Bolt 7
+ | skilllevel = 63
+ | cost = [[Royal Jelly]] & 14,850
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Fiery Bolt 7
+ | skilllevel = 65
+ | cost = [[Royal Jelly]] & 14,950
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Acid Bolt 7
+ | skilllevel = 67
+ | cost = [[Royal Jelly]] & 17,050
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Shoot Crossbow 8
+ | skilllevel = 70
+ | cost = [[Royal Jelly]] & 17,200
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Knockback Bolt 8
+ | skilllevel = 73
+ | cost = [[Royal Jelly]] & 19,850
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Fiery Bolt 8
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] & 19,950
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Acid Bolt 8
+ | skilllevel = 77
+ | cost = [[Royal Jelly]] & 22,550
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Shoot Crossbow 9
+ | skilllevel = 80
+ | cost = [[Royal Jelly]] & 22,700
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fletching]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Fletching{{!}}Unlock Fletching Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 2 [[Royal Jelly]] & 50,000
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Astonishing Arrowheads
+ | skilllevel = 60
+ | cost = [[Royal Jelly]] & 7,800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astonishing Arrow Shafts (Mineral Recipe)
+ | skilllevel = 61
+ | cost = [[Royal Jelly]] & 7,800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astonishing Arrow Shafts (Organic Recipe)
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] & 9,833
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astonishing Arrow
+ | skilllevel = ?
+ | cost = [[Royal Jelly]] & 9,900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astonishing Long Arrow
+ | skilllevel = 66
+ | cost = [[Royal Jelly]] & 11,333
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astonishing Reservoir Arrow
+ | skilllevel = 68
+ | cost = [[Royal Jelly]] & 11,400
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astonishing Snare Arrow
+ | skilllevel = 69
+ | cost = [[Royal Jelly]] & 19,900
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Gardening]]
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Gardening{{!}}Unlock Gardening Skill Levels 71-80
+ | skilllevel = 70
+ | cost = [[Royal Jelly]] x3 + 200000
+ | favor = Comfortable
+}}
+{{NPC training row
+ | ability = Spade Assault 6
+ | skilllevel = 80
+ | cost = [[Royal Jelly]] & 22,700
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Flower Arrangement]]
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Flower Arrangement{{!}}Unlock Flower Arrangement Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 2 [[Royal Jelly]] & 50,000
+ | favor = ?
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Flower Arrangement{{!}}Unlock Flower Arrangement Skill Levels 71-80
+ | skilllevel = 70
+ | cost = 3 [[Royal Jelly]] & 200,000
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Bee Lovers' Bouquet
+ | skilllevel = 60
+ | cost = [[Royal Jelly]] + 7800
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #7
+ | skilllevel = 65
+ | cost = [[Royal Jelly]] + 9966
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Forager's Display #7
+ | skilllevel = 66
+ | cost = [[Royal Jelly]] + 11333
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Cleanliness Arrangement #7
+ | skilllevel = 68
+ | cost = [[Royal Jelly]] + 11400
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Cleanliness Display #7
+ | skilllevel = 70
+ | cost =  [[Royal Jelly]] + 11466
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Dandelion Bouquet
+ | skilllevel = 70
+ | cost = [[Royal Jelly]] + 11466
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Lumberjack's Arrangement #7
+ | skilllevel = 71
+ | cost = [[Royal Jelly]] + 13166
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Lumberjack's Display #7
+ | skilllevel = 72
+ | cost = [[Royal Jelly]] + 13200
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Fae Mysotis Bouquet
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] + 13300
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #8
+ | skilllevel = 75
+ | cost = [[Royal Jelly]] + 13300
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Forager's Display #8
+ | skilllevel = 76
+ | cost = [[Royal Jelly]] + 15000
+ | favor = <= Best Friends
+}}
+{{NPC training row
+ | recipe = Cleanliness Arrangement #8
+ | skilllevel = 78
+ | cost = [[Royal Jelly]] + 15066
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Cleanliness Display #8
+ | skilllevel = 80
+ | cost = [[Royal Jelly]] + 15133
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Tulip Bouquet
+ | skilllevel = 80
+ | cost = [[Royal Jelly]] + 15133 
+ | favor = Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Green Apple}} x10
+|RiShin Family = {{Item|Floxie's Faebow}} (Lv 80)
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Introduction|
+{{Quote|
+Hey! You're from the mortal realm, right? I remember hearing about your species! Possibly. Anyway, my name is [[Floxie]].
+
+'''My name is (player name)!'''
+
+You're mortal too, right? Do you have any tips for me, as a first-time mortal?
+
+'''Wait, you're a mortal?'''
+
+Yes, I'm effectively mortal! We all are! Well... not as mortal as you, obviously... I guess I'm being insensitive. I'm sorry!
+
+'''I don't really understand.'''
+
+I was lifebound in A14. You know... before the tragedy.
+
+Our city held the Winter army at bay for a while, but then the armies just packed up and left. And that night, new creatures arrived. They were huge, made of metal, and nothing I did hurt them at all. I am an accomplished mage as well as a warrior, but my best spells barely moved them. I was powerless!
+
+These creatures had no emotions. They just overwhelmed us, and crushed us in their giant fists. And when we died, we hid in the lifestone, waiting for them to leave, but they came into the lifestone with us. It makes no sense! And it's definitely a war crime of some sort! But they found me, and they just kept killing me.
+
+'''That sounds painful.'''
+
+Each time I was conscious for only a moment, just long enough to realize that I remembered less than I did before. I was... dying!
+
+When the [[Autumn Defiant]] saved us, I couldn't remember my name, let alone how to save myself. I was lost in the astral without an anchor. But my old friend [[Pegast]] was waiting for me. He caught me and somehow managed to bind me here. I owe him my life!
+
+'''Are you feeling better not?'''
+
+Yes, I'm better now. Many of my memories came back. But my friend [[Midge the Apothecary|Midge]]... she's broken! She doesn't even remember me. The Midge I knew really is dead. Or... well, at least she's missing!
+
+'''So you're equating amnesia with... death?'''
+
+Well, I guess amnesia is sort of like death. But no, [[Midge the Apothecary|Midge]] doesn't just have amnesia: I have to keep reintroducing myself to her, almost every day! She came back wrong! And dying again doesn't fix her! She's broken! And I was almost broken, too!
+
+I'm not sure how much sense my story made, but let me put it this way: I'm still terrified of what the [[Winter Queen]] wants to do to me, but now I realize there are even worse fates. I'm scared of the Winter Queen, but when I think of those creatures... I'm so scared that I just can't function.
+
+{{Spoiler|You need to toughen up. You just don't have the luxury of fear right now!|
+{{Quote|I'm TRYING! I'm trying my best, mortal! You think it's easy being this afraid?! It's hard!
+
+I keep hearing things out in the wilderness, and I remember being so scared. And I just shut down!
+
+I just need a little while to get my bearings. A few years to figure things out.
+
+I know I owe [[Pegast]]... and I will make it up to him eventually. I have vowed it. I made a fucking VOW! ... I guess you wouldn't know this, but vows are a pretty big deal to fairies. I just need a little time.
+
+'''Of course. I'll... leave you be?'''
+
+Oh, okay, sure. I mean, I could use your help with some favors, but... well, [[Midge the Apothecary|Midge]] needs your help a lot more! Anyway, thanks for listening.
+
+'''Sure.'''}}
+}}
+{{Spoiler|After what you've been through, being afraid is natural.|
+{{Quote|That's kind of you to say! I wish [[Pegast]] felt that way. I owe him *everything*, and he needs my help, and he doesn't understand why I can't fight.
+
+For now, I'm trying to help in other ways.
+
+'''That sounds like a good plan.'''}}
+}}
+}}
+}}
+{{Quote|I just don't have the courage of a hunter right now. But I'm practicing with these bows... when I can get my fear under control, I'll be ready!}}
+{{Quote|As long as there's a chance I could lose my memories, I'm hardly immortal at all! And somehow, eternal death sounds even scarier than being tortured by the [[Winter Queen]]!}}
+{{Quote|I've just got to figure out what it means to be mortal. That's all there is to it. In the mean time I'm going to grow vegetables. Nothing dangerous!}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|I don't care what [[Pegast]] says: I'm not okay, and I'm not going hunting, and he can't make me. He can go be a scion elsewhere if he thinks he can boss me around.}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|Have you met [[Midge the Apothecary|Midge]]? At least I'm not ... like her. But I could be. Any of us could be! That's not living. Which means we can die. It's really that simple.}}
+}}
+{{Spoiler|Variation 3|
+{{Quote|I love the way hunters from your realm use physical arrows in their bows. I switched to energy arrows centuries ago, but I've realized there's a huge benefit to your method: when your magic only has to accelerate a bit of wood, you can deal a LOT of damage without expending much energy! Clever mortals, perfecting something most fairies had abandoned!
+
+So anyway, yeah, I've been making wood arrows to practice with. I just with they took up less space!}}
+}}
+
+{{Spoiler|Best Friends and Like Family|
+{{Quote|I finally realize that you like me even though I'm a coward! I didn't realize mortals were capable of unconditional acceptance. But I really appreciate it!}}
+}}
+
+[[Category:NPCs]]

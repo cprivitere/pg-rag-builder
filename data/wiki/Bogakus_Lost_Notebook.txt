@@ -1,0 +1,17 @@
+__NOTOC__
+==Summary==
+A goblin in the Rahu Sewers said that you would be allowed entrance to the goblins' sanctuary if you retrieve a lost notebook. He said it was in the "ratkin nesting warrens", and not too far from their hideout.
+
+===Prerequisites===
+To start this quest, talk to '''[[Goblin Door Guard]]''' in '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Requirements===
+* Obtain Bogaku's Notebook
+* Talk to Goblin Guard
+
+===Rewards===
+{{Spoiler|Rewards|
+* 0 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Goblin Door Guard]]

@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Chirrra in  the Serbule Hills Ranalon Den said, "Look around for some bottles of Errrgorabog. The moistening cream? Almost everyone down here uses it, so I'm sure you can find some easily enough. I need a bunch of it."
+
+===Prerequisites===
+To start this quest, talk to '''[[Chirrra]]''' in '''[[Ranalon Den]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This quest requires the previous completion of a [[:Category:Quests/Chirrra Tier 1|Tier 1]] quest from Chirrra.
+
+This is a solo quest from Chirrra. You may have one solo quest from Chirrra at a time. You can take on a new solo quest 15 minutes after completing or canceling this quest.
+
+===Preface===
+{{Quote|Look around for some bottles of Errrgorabog. The moistening cream? Almost everyone down here uses it, so I'm sure you can find some easily enough. I need a bunch of it.}}
+
+This is a [[:Category:Quests/Chirrra Tier 2|Tier 2]] quest from Chirrra.
+
+===Requirements===
+* Collect {{Item|Moistening Cream}} x4
+* Talk to Chirrra
+
+===Rewards===
+{{Spoiler|Rewards for Ranalon Den: Moistening Cream|
+{{Quote|Thanks. Actually these aren't part of a scheme: I'm keeping them. Somebody keeps stealing mine as a cruel prank, and my skin is getting all dry. Here's your reward!}}
+
+This quest will reward random loot. This may include items with level 20 mods.}}
+[[Category:Quests]][[Category:Quests/Ranalon Den Quests]][[Category:Quests/Chirrra]][[Category:Quests/Chirrra Tier 2]]

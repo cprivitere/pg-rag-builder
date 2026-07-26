@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Echur in Serbule wants you to obtain some Willpower Gel. Unfortunately he has no idea what that is. It sounds like a rare Alchemical recipe.
+
+===Prerequisites===
+To start this quest, talk to '''[[Echur]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+You must have previously completed [[The Cure For Cranium Blues]] in order to undertake this quest.
+
+===Preface===
+{{Quote|I need to experiment until I find a cure for this cranium powder issue. Can you go get me some Willpower Gel?
+
+I don't actually know what that is. It sounds alchemical, though. Maybe ask around, somebody might have it  for sale. I dunno. Just get it! Please!}}
+
+===Requirements===
+* Obtain some {{Item|Willpower Gel}} x2
+* Talk to Echur
+
+===Rewards===
+{{Spoiler|Rewards for Cranium Cure: Willpower Gel|
+{{Quote|Yes! Thanks! I've almost got this recipe! I really appreciate your help with this. Let me give you something for your trouble.
+
+I'm done with Cranium Powder, that stuff's terrible for you! I'm into the Pineal Juice scene now. All natural and incredibly powerful!}}
+
+* 150 {{Favor|favor}}
+* {{Item|Pineal Juice}} x 5
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Echur]]

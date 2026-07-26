@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+You now have a working nexus adjunct matter aligner! If you can get into the nexus and attach it to an inactive gate, it will open a portal that should lead you to Dalvos.
+
+The nexus entrance in Eltibule is in the northeast corner. You'll need a key to get in. A human named Percy Evans lives near there and is known to have a key.
+
+===Prerequisites===
+To start this quest, complete [[Jesina]]'s hangout "Discuss the portal device with Sarina and Jesina over dinner" which will also complete the quest [[Meet with Jesina and Sarina]].
+
+===Preface===
+N/A
+===Requirements===
+* Enter the nexus in Eltibule
+* Activate an inactive nexus gate and enter it
+
+===Rewards===
+{{Spoiler|Rewards for Chasing Dalvos Through the Nexus|
+* Unlocks Quest [[A Dark Surprise]].
+}}
+
+
+[[Category:Quests]][[Category:Quests/Story Quests]]

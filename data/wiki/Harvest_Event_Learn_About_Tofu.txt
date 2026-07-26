@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+Ricatu in Povus said, "It's the harvest season and all my friends are eating turkey: perfectly baked turkey, turkey stir-fry, turkey pot pie ... But killing turkeys to consume their flesh is obviously wrong.
+
+I hear you can make fake meat out of that fake milk somehow. I don't know if I believe myself, but it sure would be convenient to have a plant-based turkey!
+
+I hear that Braigon in Eltibule knows how. Why don't you go ask him?"
+===Prerequisites===
+To start this quest, talk to '''[[Ricatu]]''' in '''[[Povus]]'''.  The quest is available during the [[Fall Harvest]]. The quest [[Harvest Event: Not Quite Milk]] must be completed first.
+
+===Preface===
+{{Quote|
+It's the harvest season and all my friends are eating turkey: perfectly baked turkey, turkey stir-fry, turkey pot pie ... But killing turkeys to consume their flesh is obviously wrong.
+
+I hear you can make fake meat out of that fake milk somehow. I don't know if I believe myself, but it sure would be convenient to have a plant-based turkey!
+
+I hear that Braigon in Eltibule knows how. Why don't you go ask him?
+}}
+
+===Requirements===
+* Talk to [[Braigon]].
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Learn About Tofu|
+
+{{Quote|
+Some rakshasa wants to know about tofu? Are you sure he didn't mean cheese? Everyone loves cheese! Tofu is so boring, so last decade. But sure. Do me a couple of favors and I'll show you the basics.
+}}
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ricatu]][[Category:Quests/Fall Harvest]]

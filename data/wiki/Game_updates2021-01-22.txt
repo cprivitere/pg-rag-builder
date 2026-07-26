@@ -1,0 +1,6 @@
+==January 22: Ri-Shin Event Has Ended==
+The winter festivities have ended, and we've resumed our previously-in-progress Buffs-until-Covid-Ends plan.
+
+The next game update is almost here! It features a complete rewrite of our animation system. This will eventually give us a lot of new functionality, but in the short term we're just trying to hit parity with our existing system. We're doing daily bug-fixing and triaging, and when it's down to just the little-ish ones we'll put the update live so that you can help us test it further. (This update will be a tech-update only, no major new game content.)
+
+[[Category:Game updates]]

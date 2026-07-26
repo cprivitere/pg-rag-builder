@@ -1,0 +1,394 @@
+__NOTOC__
+{{NPC infobox
+|title            = Squidlips
+|image            = [[File:Squidlips.png|300px]]
+|caption          = Looks pretty relaxed
+|zone             = Sun Vale
+|location         = West of the [[Druid Camp]].
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Alchemy]], [[Archery]], [[Cooking]], [[Fishing]]
+}}
+{{Quote|source=[[Squidlips]]|
+Been a Druid for nearly thirty years. Which is a long time for a human! I still work as hard as any of them elves, but between jobs I gotta take weight off the old feet.
+}}
+[[Squidlips]] is an aging female [[Druid]] who enjoys fishing.
+== Location ==
+; [[Sun Vale]]
+: A beach at the end of pathway West of the Druid Camp.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Squidlips]] rewards their friends with items.
+{{Spoiler|Reward at {{Favor|Friends}}.|
+:{{Item|Oyster Knife}}
+}}
+== Quests ==
+<dpl>
+category = Quests/Squidlips
+notcategory = Quests/Fae Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+==== Fairy Quests ====
+[[Squidlips]] offers quests only available to [[Fairy]] characters.
+<dpl>
+category = Quests/Squidlips
+category = Quests/Fae Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Angling]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Angling {{pipe}}Unlock Angling Skill Levels 51-70
+ |skilllevel=50
+ |cost=18,200
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Angling {{pipe}}Unlock Angling Skill Levels 61-70
+ |skilllevel=60
+ |cost=45,500
+ |favor=Comfortable
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Water Lung Potion
+ |skilllevel=10
+ |cost=466
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Swimming Potion
+ |skilllevel=25
+ |cost=1633
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Eel Potion
+ |skilllevel=30
+ |cost=1800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Shark Potion
+ |skilllevel=40
+ |cost=3132
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Water Breathing Potion
+ |skilllevel=45
+ |cost=4632
+ |favor=Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Archery]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | ability = Acid Arrow
+ | skilllevel = 5
+ | cost = 450
+ | favor = 
+}}
+{{NPC training row
+ | ability = Acid Arrow 2
+ | skilllevel = 15
+ | cost = 1450
+ | favor = Comfortable
+}} 
+{{NPC training row
+ | ability = Acid Arrow 3
+ | skilllevel = 25
+ | cost = 2450
+ | favor = Friends
+}}
+{{NPC training row
+ | ability = Acid Arrow 4
+ | skilllevel = 35
+ | cost = 4450
+ | favor = Friends
+}}
+{{NPC training row
+ | ability = Acid Arrow 5
+ | skilllevel = 45
+ | cost = 6950
+ | favor = Close Friends
+}}
+{{NPC training row
+ | ability = Acid Arrow 6
+ | skilllevel = 55
+ | cost = 9950
+ | favor = Best Friends
+}}
+
+{{NPC training row
+ | ability = Acid Arrow 7
+ | skilllevel = 65
+ | cost = 14950
+ | favor = Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fishing]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Crab Meat
+ |skilllevel=0
+ |cost=79
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Clownfish Fillet
+ |skilllevel=5
+ |cost=279
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Grapefish Fillet
+ |skilllevel=10
+ |cost=479
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Perch Fillet
+ |skilllevel=20
+ |cost=919
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Cleaned Shrimp
+ |skilllevel=25
+ |cost=1219
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Eel Fillet
+ |skilllevel=30
+ |cost=1559
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Flounder Fillet
+ |skilllevel=35
+ |cost=1959
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Amberjack Fillet
+ |skilllevel=65
+ |cost=5380
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Shark Fillet
+ |skilllevel=40
+ |cost=2399
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Decent Musical Conch (Enchanted)
+ |skilllevel=30
+ |cost=1800
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Decent Musical Conch (Max-Enchanted)
+ |skilllevel=33
+ |cost=2900
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Amazing Conch
+ |skilllevel=30
+ |cost=1800
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Nice Musical Conch (Enchanted)
+ |skilllevel=40
+ |cost=3133
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Nice Musical Conch (Max-Enchanted)
+ |skilllevel=43
+ |cost=4565
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Quality Musical Conch (Max-Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Quality Musical Conch (Max-Enchanted)
+ |skilllevel=53
+ |cost=6565
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Great Musical Conch (Enchanted)
+ |skilllevel=60
+ |cost=7800
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Musical Conch (Max-Enchanted)
+ |skilllevel=63
+ |cost=9900
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Perfect Conch
+ |skilllevel=45
+ |cost=4632
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Musical Conch (Enchanted)
+ |skilllevel=70
+ |cost=11465
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Musical Conch (Max-Enchanted)
+ |skilllevel=73
+ |cost=13232
+ |favor=Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Boiled Crab
+ |skilllevel=0
+ |cost=79
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Rum-Glazed Shrimp
+ |skilllevel=30
+ |cost=1560
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Butter-Fried Shrimp
+ |skilllevel=32
+ |cost=1720
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Grilled Shrimp Wrap
+ |skilllevel=25
+ |cost=1220
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Baked Flounder
+ |skilllevel=25
+ |cost=1220
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Cheesy Flounder
+ |skilllevel=33
+ |cost=1800
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Lemon-Baked Flounder
+ |skilllevel=44
+ |cost=2800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Lemon Pepper Flounder
+ |skilllevel=45
+ |cost=2900
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Grilled Amberjack
+ |skilllevel=70
+ |cost=6120
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amberjack Snack Attack
+ |skilllevel=72
+ |cost=6440
+ |favor=Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ???
+|RiShin Family = {{Item|Grouper Gropers}} (Lv 35)
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Greeting 1|
+{{Quote|Take a load off. Water's nice today.}}
+}}
+{{Spoiler|Greeting 2|
+{{Quote|Good ta see ya, but keep it down. Don't wanna spook the fish.}}
+}}
+{{Spoiler|Greeting 3|
+{{Quote|Hey. Nothing bitin' right now, but sit a spell, 'cuz luck always changes.}}
+}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|The fishing's pretty good out here. I mean, I've seen better but no complaints. There's amberjack out there long as my arm.}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|Been a [[Druid]] for nearly thirty years. Which is a long time for a human! I still work as hard as any of them elves, but between jobs I gotta take weight off the old feet.}}
+}}
+{{Spoiler|Variation 3|
+{{Quote|Used ta be pretty great with the bow, but this old body don't cooperate too well anymore. 
+
+But my doe form's still limber and deadly, so I fight deer-style nowadays.}}
+}}
+{{Spoiler|Variation 4|
+{{Quote|Seems like every year my old joints ache a little more. Pretty soon I'll have to take up animal form full-time just to keep up the pace. That's why I'm working on a pelican form. It's a good fishing bird!}}
+}}
+{{Spoiler|Variation 5|
+{{Quote|They call me Squidlips 'cuz I love ta fish. And... well, I guess I've never been a looker!}}
+}}
+
+[[Category:NPCs]]

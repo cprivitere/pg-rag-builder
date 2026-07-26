@@ -1,0 +1,34 @@
+__NOTOC__
+{{NPC infobox
+|title = Mirror (Rick)
+|image = [[File:Mirror (npc).png|400px]]
+|caption = There's something odd about it.
+|eventnpc = Yes
+|zone = Gazluk
+||dungeon = Gazluk Keep
+|location = [[Melandria]]'s room.
+|beastspeak = Yes
+|beastlist = All
+|anatomy = Human
+|species = Human
+}}
+[[Mirror]] is a seemingly sentient mirror that can communicate by displaying scrolling text on its glass. The [[Mirror]] was once a cultist of [[Zhia Lian]] named Rick.
+
+== Location ==
+; [[Gazluk Keep]]
+: [[Mirror]] can be found during the [[Seasonal Event]] of [[Halloween]], near [[Melandria]].
+==Quests==
+[[Mirror]] offers no quest directly.
+* The quest to find [[Mirror]], [[Zhia Lian Event: Help Rick the Mirror]], is offered by [[Brandon Mellus]].
+* The quest to save [[Mirror]], [[Zhia Lian Event: The Mirror Breaker]], is offered by [[Melandria]].
+
+== Events ==
+===== Halloween =====
+[[Mirror]] has appeared during [[Halloween 2019]] and [[Halloween 2020]].
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = None
+|RiShin Family = None
+}}
+== Conversations ==
+[[Category:NPCs]][[Category:NoRiShin]]

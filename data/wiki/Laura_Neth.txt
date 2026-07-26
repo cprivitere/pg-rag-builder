@@ -1,0 +1,180 @@
+__NOTOC__
+{{NPC infobox
+|title            = Laura Neth
+|image            = [[File:Laura Neth (npc).jpg|300px]]
+|caption          = Laughing and eating candy.
+|zone             = Kur Mountains
+|town             = Northwestern Outpost
+|location         = Ukorga's Inn
+|anatomy = Human
+|species = Human
+|beastspeak       = No
+|skilltrainer     = [[Cooking]]
+|vendor           = Yes
+|storage = Yes
+|consignment = Yes
+}}
+{{Quote|
+Here to try my cheese biscuits? I've been perfecting that recipe for years!
+}}
+[[Laura Neth]] is a human shopkeeper found in the Kur Mountains outpost. Her father is a chef In [[Statehelm]]. He's not a very nice man, but he's an amazing baker, and his seafood is the best Laura's ever had. It turns out Laura is actually adopted, and her father is a werewolf. For some reason, Laura dislikes Orcs. She will not talk to animals, but animals can still turn in work orders to her. 
+
+During the winter holiday season, Laura has been known to give out the recipe for her [[Laura Neth's Famous Tart| famous tarts]].
+== Location ==
+; [[Kur Mountains]]
+: [[Northwestern Outpost]] [[Ukorga]]'s Inn by the counter
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+: Laura Neth offers [[Consignment]] at {{Favor|Friends}}.
+: [[Laura Neth]] offers Hang Out opportunities at {{Favor|Friends}}.
+: [[Laura Neth]] offers storage at {{favor|Friends}}.
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|
+;Help chop veggies and talk about the weather (60m)|
+{{Quote|Always snowy! I've been here two months and it's stopped snowing maybe once. Oh, but thanks for your help, dear! Looks like there's some onions we didn't get to, if you want them.}} 
+:12 {{Favor|favor}} with Laura Neth
+:{{Item|Onion}} x6 
+:50 Cooking XP
+}}
+{{Spoiler|{{repeatable}} Talk about how terrible orcs are (2 hours)|
+{{Quote|And the smell! Oh gods I'll never forget the stench of their prison. You know what, let's stop talking about this. I thought it would be therapeutic, but I think it's just a little too much right now. Thank you for caring, though. Here, take a snack!}}
+:20 {{Favor|favor}} with Laura Neth
+:{{Item|Banana}} x2
+}}
+{{Spoiler|Help bake biscuits (4 hours)|
+{{Quote|These aren't my famous cheesy biscuits, but they're still a pretty good meal, aren't they? I love trying to combine bread and seafood, it's such a challenge! Let me write down the recipe for you. Thank you for your help!}} 
+:35 {{Favor|favor}} with Laura Neth
+:Recipe for: {{Item|Laura's Crab Biscuits}}
+}}
+{{Spoiler|Talk about how terrible werewolves are (2 hours)|
+{{Quote|My father's a were. Which means, since I'm not, that means... I'm adopted. He never told me that's how it worked! I learned it from some boor who was making fun of me.
+
+I just don't like 'em. Not as bad as orcs, but pretty bad, you know? Here, you should carry one of these just in case.}}
+:20 {{Favor|favor}} with Laura Neth
+:{{Item|Simple Silver Knife}}
+}}
+{{Spoiler|{{repeatable}} Help prepare snacking cheese (8 hours)|
+{{Quote| Oh, you're so good at this! Thank you so much, I always have a hard time with the cheese making. The stench of the curds is what does it. And I pay Ukorga to get the sheep's milk for me -- imagine if you had to milk your own just to make some cheese!
+
+Like the taste? it's my sister's recipe. A mild, simple cheese, perfect for snacking. Thanks for everything, but now I have to clean up!}}
+:65 {{Favor|favor}} with Laura Neth
+:Recipe for: {{Item|Laressa's Cheese}}
+}}
+{{Spoiler|Help prepare next week's meals (8 hours)|
+:80 {{Favor|favor}} with Laura Neth
+:Recipe for: {{Item| Laura's Cheesy Beets}}
+}}
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Wolfsbane Muffin
+ |skilllevel=35
+ |cost = 1960
+ |favor = Comfortable
+}}
+{{NPC training row
+ |recipe=Fried Banana
+ |skilllevel=30
+ |cost = 1560
+ |favor = Friends
+}}
+{{NPC training row
+ |recipe=Mushroom Barley Soup
+ |skilllevel=35
+ |cost = 1960
+ |favor = Friends
+}}
+{{NPC training row
+ |recipe=Vegan Nut Barley Bread
+ |skilllevel=40
+ |cost = 2400
+ |favor = Friends
+}}
+{{NPC training row
+ |recipe=Beets 'n Meats
+ |skilllevel=45
+ |cost = 2900
+ |favor = Close Friends
+}}
+{{NPC training row
+ |recipe=Cheesy Veggie Delight
+ |skilllevel=45
+ |cost = 2900
+ |favor = Best Friends
+}}
+{{NPC training row
+ |recipe=Laura's Cheese Biscuits
+ |skilllevel=45
+ |cost = 2900
+ |favor = Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Dye Making]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Thistle Dye
+ |skilllevel=1
+ |cost = 166
+ |favor = Close Friends
+}}
+|}
+
+== Services ==
+Laura offers additional services at {{Favor|Friends}}:
+==== Consignment ====
+; Laura Neth offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10%, no stocking fee.
+: Max 1 active consignments (Food, cooking ingredients).
+: Max 4 consignments per week.
+
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Laura Neth
+|favorrestriction =Friends
+|itemrestriction =Food or Cooking Ingredients
+|neutral =0
+|comfortable =0
+|friends =20
+|closefriends =30
+|bestfriends =40
+|likefamily =50
+|soulmates =60
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Laura Neth's Famous Tart}} x3
+|RiShin Family ={{Item|Laura Neth's Famous Tart}} x3, {{Item|Cooking: Laura Neth's Famous Tart}}
+}}
+== Conversations ==
+{{Quote|source=[[Laura Neth]] (Quest:Inheriting the Bakery)|
+He can't write a letter without saying something to intentionally piss me off. I know he loves me. And he's been there for me when I needed him, but it's never felt like... well, like how a father should care about his daughter.
+
+When I was young and the bakery was flourishing, and orc gang kidnapped me for ransom. Do you know what my father did/ He haggled. Successfully, mind you, but they're fucking ORCS. They could have killed me out of rage! I was so scared.
+
+When I was caught in bed with a woman, did he use his immense clout with the Council to get us off the hook? No. He bribed a guard. Marie and I had to sneak out of Statehelm and never return.
+
+I love the man, and to be truthful I don't bear him ill will. I think of him fondly sometimes. But I'm not coming to his rescue.
+
+Tell dad I miss his walnut bread, but I'm never returning to Statehelm again. This is the second time he's asked, and if he asks again I'll cut off all communication with him forever.}}
+
+[[Category:NPCs]]

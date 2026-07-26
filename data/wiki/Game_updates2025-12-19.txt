@@ -1,0 +1,8 @@
+==Update Notes: December 19, 2025==
+This is a quick update to address problems with yesterday's update.
+:- Fix issues with some trees not having collision physics
+:- Fix issues with monsters and pets not being able to move in some outdoor areas.
+:- the new max-tier first aid kit recipes are now taught by Pitre in Vidaria. (This is temporary until Statehelm opens.)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

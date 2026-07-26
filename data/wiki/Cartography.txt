@@ -1,0 +1,60 @@
+__NOTOC__
+{{Skill infobox
+|title            = Cartography
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Skill in accurately mapping your surroundings. You earn Cartography XP by clearing the 'fog' from game maps, which happens automatically as you walk around.
+|skilltype        = Other Skill
+|maxlevel         = 115
+|req              = N/A
+|skilltrainers    = N/A
+}}
+{{Quote|
+Skill in accurately mapping your surroundings. You earn Cartography XP by clearing the 'fog' from game maps, which happens automatically as you walk around.
+}}
+== Cartography Overview==
+[[Cartography]] is a useful skill that quantifies your exploration of zones and dungeons. Leveling cartography will give you many more inventory slots. 
+
+=== In-Game Description ===
+Skill in accurately mapping your surroundings. You earn Cartography XP by clearing the 'fog' from game maps, which happens automatically as you walk around.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* A character automatically earns the [[Cartography]] skill as they begin walking around whichever map they first spawned in. Each zone and dungeon provides cartography xp from exploration.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* N/A
+===== Secondary Skills: =====
+* N/A
+===== Related Skills: =====
+* [[Treasure Cartography]] - Although not a sub-skill, [[Treasure Cartography]] is the art of creating maps from old clues, sometimes leading to treasure.
+* [[Animal Handling]] - leveling Cartography gives you more stable slots so you can have more pets. 
+* [[Riding]] - horses also use stable slots.
+
+===== Synergy Levels: =====
+There are no Bonus [[Synergy Levels]] for [[Cartography]]. <!-- can be obtained from the following skills and levels:
+:; None
+-->
+== Recipe Lists ==
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Map Exploration Stats ===
+The Map Exploration Stats report is...
+
+<!--
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+-->
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/Cartography}}
+}}
+== Trivia ==
+*Before the introduction of this skill, players naturally were able to see the full map of a zone when they first entered it!
+
+== Gallery==
+<gallery mode="nolines" widths=200px>
+File:PartialFogMap.png|A partially cleared map.
+</gallery>
+
+[[Category:Skills]]

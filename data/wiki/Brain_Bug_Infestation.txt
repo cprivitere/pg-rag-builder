@@ -1,0 +1,17 @@
+__NOTOC__
+==Summary==
+[[Yurra]] the hag said that the brain bugs infesting [[Serbule]] were made by [[Dalvos]]. Find where they are coming from. They are most prevalent in the north, so search there for someone who might know more.
+==Preface==
+N/A
+==Prerequisites==
+To start this quest, talk to '''[[Yurra]]''' in '''[[Serbule]]'''.
+
+==Requirements==
+* Find Someone Who Knows About Brain Bugs {{Hint|Talk to a harmless mantis in Serbule. You can tell he's harmless by his hat!"}}
+
+==Rewards==
+{{Spoiler|Reward for Brain Bug Infestation|
+No reward from [[Azalak]].
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Yurra]][[Category:Quests/Story Quests]]

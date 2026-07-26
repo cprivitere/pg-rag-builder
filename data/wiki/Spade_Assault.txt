@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Spade Assault
+| description = Expertly hack at your foe's legs with your shovel. (There is a 5% chance your shovel will be destroyed.)
+| level = 30
+| power cost = 24
+| reuse time = 13
+| range = 6 meters
+| skill = Gardening
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Kick}}{{KWAB|Melee}}{{KWAB|FrontKick}}{{KWAB|SpadeAssault}}{{KWAB|CraftingAttack}}
+| damage = 100 Slashing
+| special = Target's movement speed is reduced 25%. Creatures with Plant anatomy take double damage. You must have hands to use this ability. This is considered a variant of Front Kick for purposes of equipment and combos.
+}}
+|-
+|
+{{Ability infobox
+| name = Spade Assault 2
+| description = Expertly hack at your foe's legs with your shovel. (There is a 5% chance your shovel will be destroyed.)
+| level = 40
+| power cost = 29
+| reuse time = 13
+| range = 6 meters
+| skill = Gardening
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Kick}}{{KWAB|Melee}}{{KWAB|FrontKick}}{{KWAB|SpadeAssault}}{{KWAB|CraftingAttack}}
+| damage = 151 Slashing
+| special = Target's movement speed is reduced 25%. Creatures with Plant anatomy take double damage. You must have hands to use this ability. This is considered a variant of Front Kick for purposes of equipment and combos.
+}}
+|-
+|
+{{Ability infobox
+| name = Spade Assault 3
+| description = Expertly hack at your foe's legs with your shovel. (There is a 5% chance your shovel will be destroyed.)
+| level = 50
+| power cost = 33
+| reuse time = 13
+| range = 6 meters
+| skill = Gardening
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Kick}}{{KWAB|Melee}}{{KWAB|FrontKick}}{{KWAB|SpadeAssault}}{{KWAB|CraftingAttack}}
+| damage = 233 Slashing
+| special = Target's movement speed is reduced 25%. Creatures with Plant anatomy take double damage. You must have hands to use this ability. This is considered a variant of Front Kick for purposes of equipment and combos.
+}}
+|-
+|
+{{Ability infobox
+| name = Spade Assault 4
+| description = Expertly hack at your foe's legs with your shovel. (There is a 5% chance your shovel will be destroyed.)
+| level = 60
+| power cost = 36
+| reuse time = 13
+| range = 6 meters
+| skill = Gardening
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Kick}}{{KWAB|Melee}}{{KWAB|FrontKick}}{{KWAB|SpadeAssault}}{{KWAB|CraftingAttack}}
+| damage = 317 Slashing
+| special = Target's movement speed is reduced 25%. Creatures with Plant anatomy take double damage. You must have hands to use this ability. This is considered a variant of Front Kick for purposes of equipment and combos.
+}}
+|-
+|
+{{Ability infobox
+| name = Spade Assault 5
+| description = Expertly hack at your foe's legs with your shovel. (There is a 5% chance your shovel will be destroyed.)
+| level = 70
+| power cost = 41
+| reuse time = 13
+| range = 6 meters
+| skill = Gardening
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Kick}}{{KWAB|Melee}}{{KWAB|FrontKick}}{{KWAB|SpadeAssault}}{{KWAB|CraftingAttack}}
+| damage = 404 Slashing
+| special = Target's movement speed is reduced 25%. Creatures with Plant anatomy take double damage. You must have hands to use this ability. This is considered a variant of Front Kick for purposes of equipment and combos.
+}}
+|-
+|
+{{Ability infobox
+| name = Spade Assault 6
+| description = Expertly hack at your foe's legs with your shovel. (There is a 5% chance your shovel will be destroyed.)
+| level = 80
+| power cost = 45
+| reuse time = 13
+| range = 6 meters
+| skill = Gardening
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Kick}}{{KWAB|Melee}}{{KWAB|FrontKick}}{{KWAB|SpadeAssault}}{{KWAB|CraftingAttack}}
+| damage = 506 Slashing
+| special = Target's movement speed is reduced 25%. Creatures with Plant anatomy take double damage. You must have hands to use this ability. This is considered a variant of Front Kick for purposes of equipment and combos.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

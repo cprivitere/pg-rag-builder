@@ -1,0 +1,138 @@
+__NOTOC__
+==Update Notes: March 11, 2022==
+In this update we've done a ‘’’ton’’’ of polishing and bug-fixing, and we have some new content for the Eltibule region.
+
+===Eltibule Content===
+After a very long hiatus on the game's storyline, we've started expanding it again. We've only added a few new steps in this update, though it may be somewhat obvious where the next steps are headed. We'll be adding more storyline quests in future updates.
+
+Until now, the storyline ended with the quest "[[Chasing Dalvos to Eltibule]]". That quest completed when you talked to [[Oritania]], and there were no further quests. [[Oritania]] now has a new storyline quest which she will bestow after "[[Chasing Dalvos to Eltibule]]" is complete. You will need to run some errands for her first (although you may have already done those errands for her in the past, in which case you don't need to repeat them).
+
+There is also a new "top floor" to the dungeon underneath [[Eltibule Keep]]. Most of the top floor has low monster density, making it more approachable to players who don't yet have solid level 30 equipment. There is also a new quest on this top floor, which starts in the first room. (The new "top floor" connects to the older floors, which are almost completely unchanged.)
+
+===UI===
+:- Polished all of the main UI windows to have consistent header fonts, colors & sizing.
+:- Organized the GUI/Features settings with headings.
+:- Augment sub-skills now show up under the "[[Augmentation]]" umbrella skill in the Skills & Abilities window.
+:- Fixed an issue with Skills being displayed in a weird order in the Skills and Abilities window.
+:- Repeated searches within the Skills & Abilities window will no longer mess up Skill name padding.
+:- Reunited Toxic Flesh 9 with its friends Toxic Flesh 1-8 in the Special Abilities window.
+:- [[Mushroom Farming]] max grow-box bonus is now displayed in the Skills and Abilities window.
+:- Set correct error message for abilities whose parent skills are not high enough level, most notably when [[Fairy Magic]] is higher level than [[Mentalism]].
+:- The right-click hotbar submenu "Change Skill" will now display in 2 columns when you have 25+ combat skills. This prevents the list from going off the screen.
+:- Tightened the display of the right-click submenu that displays list of combat skills.
+:- The Crafting window now has an XP bar, displays the associated skill under the recipe name, and has a star icon to quickly favorite the selected recipe.
+:- Clicking an item while the crafting window is open will now place that item into any applicable ingredient slots.
+:- Attempting to craft with an ingredient in storage will now show an accurate error.
+:- Improved algorithm for single-clicking an inventory item with the crafting window open:
+:- If there are multiple ingredient slots, it will no longer swap them and will instead fill successive slots.
+:- If there is a single ingredient slot, it will swap any existing ingredient in the slot.
+:- Empty stable slots now have a custom UI that is more descriptive.
+:- The mount preview window should no longer be black.
+:- Polished pet UI, including highlighting the currently-selected mode (Assist, Guard, etc.).
+:- Added a new setting, "Automatically show pet UI?" under GUI/Features, which auto-shows the pet UI when a pet is summoned. Defaults to true.
+:- Added an option "Close mount window after action?" to prevent mount window from closing after performing an action.
+:- Properly resize Dismount button text.
+:- Mount anxiety bar now changes from green to red as anxiety increases.
+:- Added [[Riding]] to list of toggleable shop skills.
+:- Fixed a bug that prevented you from toggling off [[Riding]] skill when using the shop search golem (if you first talked to the golem while on a mount).
+:- General polish of the transmutation window. 
+:- Transmutation now always uses the new transmutation window.
+:- Polished the Quest Tracker a bit.
+:- Added an icon to quest list headers when one of their quests is completed. (It's a little green dot.)
+:- Tracked quests can now be right-clicked to view the Quest details or untrack the quest.
+:- Allowed locking of the hotbar from the right-click menu of the ability icons.
+:- Sidebar is no longer movable when attached to the main hotbar.
+:- The minimap now starts at the correct location when changing zones.
+:- The second floor map of [[Gazluk Keep]] now uses the correct map pins.
+:- The item comparison tooltip now properly disappears when the compare key isn't held in, and the equipped item in the comparison is more obvious. (It has an "Equipped" label.)
+:- Chat bubbles & selection boxes for yourself should no longer be jittery.
+:- Scaled down selection boxes for large rabbits, so they stay more-or-less centered on the rabbit itself instead of hovering over its head.
+:- We now update a selected target's description in real-time (if, for instance, someone's title changes while you have them selected).
+:- Monster name colors now update properly when the monster dies.
+:- The monster Rage-Full indicator (in Combat Info) now only displays on attacks that actually require full Rage.
+:- Removed blue power bars from above target heads.
+:- Polished favor bar in the NPC interaction window.
+:- [[Julius Patton]]'s favor increase text now lines up properly with his storage unlock.
+:- Moved the effect icon for "background downloading" to the end of the effects list, and only show it when background downloads are active for more than half a second. This should prevent pop-in of the icon repeatedly, which shifted the rest of the effects icons.
+:- Float item pickups to the correct place when they go into a different inventory pack than is currently selected.
+
+===Graphics & Animation===
+:- Added a new "Gather" animation for collecting fruit from trees/bushes.
+:- The transmutation animation is now quicker, and can be skipped via clicking on it.
+:- Changed animation for all fae recipes.
+:- Fixed fairy swim animation.
+:- Fairies should continue looking like they're floating when using most emotes.
+:- New pickup animation for rabbits.
+:- Revamped [[Knife Fighting]] animations.
+:- We now correctly orient knives during stab animations.
+:- Add particle effects to bard songs that last as long as the song is active.
+:- Improved mount ability animations.
+:- Add particle effects to mount abilities.
+:- Reset horse state completely when swapping between mounted & unmounted.
+:- When mounting, the camera now raises so your head is still in the same position on the screen.
+:- Polished spawn premonition particles.
+:- [[Eltibule]]: replaced legacy Unity trees with speedtree trees to fix problems with LODs. (The actual tree choices are still a work in progress, but good enough for now.)
+:- Eltibule: fixed LOD on "casino castle" (the facade entrance to casino).
+:- Removed advanced graphics setting for "Tilt Shift". (It hasn't actually done anything for a long time.)
+:- Added advanced graphics setting for "High-Quality Anti-Aliasing". Previously this was always enabled when you set the graphics quality to "Great" or higher. (And that's still the default, but now you can override it.)
+:- Added two new graphics settings:
+  :- There's a new Advanced Graphics Setting for "Torch Flicker". This is on by default for "Great" or higher graphics settings. It's a relatively inexpensive graphical flourish.
+  :- There's a new Advanced Graphics Setting for "More Lightsource Shadows". This causes some torches and fires to cast dynamic shadows. This is a MUCH more expensive graphical flourish, but it looks neat in the goblin dungeon. This feature is off by default for all quality settings (even Ultra).
+:- Fixed camera reversal when entering Serbule sewers via the lake.
+
+===Abilities and Treasure Effects===
+:- "Headbutt and Knee Kick Damage +X" now correctly applies to Headbutt instead of Barrage (and still applies to Knee Kick, of course).
+:- "Provoke Undead deals extra damage" will no longer do double the specified damage to the minions.
+:- "Basic Attacks restore X Power" now properly restores the power.
+:- "Trick Foxes have +X Max Health and +X Max Armor" now properly gain the specified Max Armor instead of a Taunt boost.
+:- "Ridicule taunts and causes target's next attack to miss" now applies the chance to miss to the target instead of the caster.
+:- "Spirit Pounce hits all enemies within 6 meters" now displays in the ability tooltip.
+:- Fixed the icons for various treasure effects.
+:- Elemental Ward's darkness and trauma mitigation effects will no longer display if they aren't active.
+:- Bulwark Mode's health & armor leech effects will no longer show up in the effects list.
+:- The treasure mod for System Shock's DoT now correctly reports the DoT damage type as Psychic instead of Trauma.
+:- The armor ability from Gazluk War Wizard Armor ("War Wizard's Battle Cry") now has a reset time of 180 secs and restores 300 power.
+:- The armor ability from Gazluk Death Trooper Armor ("Death Trooper's Battle Cry") now restores 350 armor as well as 350 health.
+:- Attempts to transmute a mod with no possible replacements will now be prevented.
+:- [[Endurance]] mods will now show up on crafted gear as intended, and can be extracted.
+:- Endurance mods can now be transmuted into generic mods.
+:- One of the treasure effects that gives small +Armor bonuses previously had no requirements and now has endurance-level requirements.
+
+===Other Bug Fixes===
+:- Toned down the rate of XP decay in [[Povus]] (until there are more high-level players to work on it).
+:- We now put abilities on cooldown immediately, and refund cooldown if you are stunned before ability goes off.
+:- Reverted an old change to in-combat fly costs. The earlier change raised flight costs exponentially the longer you were flying, which definitely did fix the exploit we were trying to fix, but took away a lot of the fun of being a fairy. (Now the cost is still not cheap, but it increases linearly instead of exponentially.)
+:- Fixed a bug that caused pets to reduce the total XP value of monsters they fought.
+:- Fixed a bug that caused [[Saddlery]] skill to give permanent health/power bonuses for leveling it up.
+:- Fixed bug that prevented you from earning [[Riding]] XP if your bonus synergy levels put you over the level cap.
+:- All effects that require a specific active ability will now persist while mounted, such as Summoned Skeletons, Battle Chemistry buffs, etc. The only exception is Bulwark Mode, which will be dispelled as normal.
+:- Fixed an issue with mounting/unmounting in water sometimes not updating your speed correctly.
+:- Humanoid illusions can now ride mounts (including some skeletons).
+:- Banana & Guava trees now have 3 of their respective fruits.
+:- Add bananas to banana tree models.
+:- When a tree has no fruit but still has wood, its name now changes to "Harvested <fruit-name> Tree" to denote the change.
+:- Guava trees now yield Maple Wood when they run out of fruit.
+:- Banana trees now yield Cedar Wood when they run out of fruit. (What, you've never heard of banana cedars?)
+:- Made it clearer which foods and effects are meals vs snacks.
+:- Recalling to the underwater teleport circle in [[Sun Vale]] will no longer teleport you to the circle near the druids.
+:- Fixed [[Carpal Tunnels]] chairs that were embedded in the ground.
+:- Fixed errors for some golems in newbie caves.
+:- Filled in the mini-pools in the caves in [[Gazluk]], making them shallower to prevent exploitability.
+:- Kur beds can now be slept in properly.
+:- Fixed a bug that caused the server to think you were floating when you first enter a new area (until you move). This could lead to messages like "You can only do that when standing on the ground" when trying to drop items, and cause your mount to generate anxiety (because it thought it was flying).
+:- Newly spawned entities will place themselves on the ground quicker.
+:- You now stop auto-running after interacting with something that is too far away. This would cause problems when interacting with things while mounted.
+:- Added a lore note in the tomb of James Eltibule I.
+:- Replaced the lore note for James II (found in a secret place in Eltibule). Note that this text canonically replaces the original lore.
+:- Misc. lore cleanup; notably, moved the text of "Sedgewick's Journal" from a static entity into a lorebook file.
+:- Fixed yet more references to "Davlos". (It should be Dalvos.)
+:- [[Roshun the Traitor]]'s favor should no longer reset for fae.
+:- [[Nelson Ballard]]'s small talk is more accurate (to indicate that he accepts all Carpentry items, not just hand-made ones).
+:- [[Glajur]] should now teach everyone [[Phrenology]], unless you have both the skill and the research recipe for each individual phrenology.
+:- [[Irkima]] will now offer a hangout if you've finished [[Probing Tavilak's History]].
+:- Added a new favor to [[Jesina]] in [[Eltibule]] which is automatically given to "scary" animal players. After completing this quest, you can interact with her normally.
+:- Game client now retries Steam authentication if the first attempt fails for any reason. (If the second attempt also fails, we show an error message like before.)
+:- Added a new redemption package for our 4th Anniversary on Steam. Redemption will run Mar 11 :- Apr 30.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

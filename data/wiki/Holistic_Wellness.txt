@@ -1,0 +1,269 @@
+__NOTOC__
+{{Skill infobox
+|title            = Holistic Wellness
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = An approach to health that involves taking into account factors beyond the obvious. Some critics claim that any benefits are due to the placebo effect, and they may be right. But if it works, who cares?
+|skilltype        = Other Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = N/A <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Lakrea]]
+}}
+{{Quote|source=[[Lakrea]]|
+It's just a different way of thinking about medicine. Most medicine focuses on preventing or curing ailments. But Holistic Wellness looks beyond that! To be really healthy you need a wide variety of things.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Holistic Wellness]] is a skill raised by completing seemingly pointless tasks for [[Lakrea]]. 
+=== In-Game Description ===
+An approach to health that involves taking into account factors beyond the obvious. Some critics claim that any benefits are due to the placebo effect, and they may be right. But if it works, who cares?
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Lakrea]] in [[Rahu]] teaches [[Holistic Wellness]].
+== Holistic Wellness Quests ==
+<dpl>
+category = Quests/Holistic Wellness
+mode = unordered
+columns = 3
+</dpl>
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* None
+=====Related Skills:=====
+* [[First Aid]] - Unlike [[Holistic Wellness]], [[First Aid]] can actually heal your in-combat injuries!
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Holistic Wellness]] can be obtained from the following skills and levels:
+:; [[Dying]]
+:: Level 35
+:; [[Interpretive Dance]]
+:: Level 19, Level 49
+
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+===Possible Rewards===
+You may receive potions, experience decoctions, 1-5 gems, recipes, work orders for [[Irkima]], [[Thimble Pete]], and [[Laura Neth]], level 55 gear, and more. 
+
+'''Gems'''
+{|
+|{{Item|Amethyst}}
+|{{Item|Agate}}
+|{{Item|Aquamarine}}
+|{{Item|Bloodstone}}
+|-
+|{{Item|Blue Spinel}}
+|{{Item|Carnelian}}
+|{{Item|Citrine}}
+|{{Item|Danburite}}
+|-
+|{{Item|Diamond}}
+|{{Item|Emerald}}
+|{{Item|Fluorite}}
+|{{Item|Garnet}}
+|-
+|{{Item|Goshenite}}
+|{{Item|Lapis Lazuli}}
+|{{Item|Malachite}}
+|{{Item|Morganite}}
+|-
+|{{Item|Moss Agate}}
+|{{Item|Obsidian}}
+|{{Item|Onyx}}
+|{{Item|Opal}}
+|-
+|{{Item|Peridot}}
+|{{Item|Quartz}}
+|{{Item|Ruby}}
+|{{Item|Sapphire}}
+|-
+|{{Item|Sardonyx}}
+|{{Item|Serpentine}}
+|{{Item|Sunstone}}
+|{{Item|Tiger's Eye}}
+|-
+|{{Item|Topaz}}
+|{{Item|Tsavorite}}
+|{{Item|Turquoise}}
+|}
+
+'''Miscellaneous'''
+{|
+|{{Item|Medium Prism}}
+|{{Item|Expert-Quality Metal Slab}}
+|{{Item|Iridium}}
+|{{Item|Eternal Greens}}
+|}
+
+'''Books and Recipes'''
+{|
+|{{Item|Alchemy: Behold the Fire Shield}}
+|{{Item|Alchemy: Infinite Potion of Healing}}
+|{{Item|Alchemy: Inks for Special Occasions Pt 4}}
+|{{Item|Alchemy: Why Not Leap Into the Sky?}}
+|-
+|{{Item|Art: Gold Gryphon Statues}}
+|{{Item|Art: Silver Gryphon Statues}}
+|{{Item|Calligraphy: "Clenched Fist"}}
+|{{Item|Calligraphy: "Cold Sea"}}
+|-
+|{{Item|Calligraphy: "Painful Experience"}}
+|{{Item|Calligraphy: "Purpose"}}
+|{{Item|Carpentry: Quality Priest Staff}}
+|{{Item|Cheesemaking: Firm Tofu}}
+|-
+|{{Item|Cooking: Basic Fried Tofu Cubes}}
+|{{Item|Flower Arrangement: Gardening Display #A}}
+|{{Item|Giant Phrenology Research 3}}
+|{{Item|Jewelry Crafting: Nice Battle-Priest's Pendant}}
+|-
+|{{Item|Jewelry Crafting: Nice Darkness Medallion}}
+|{{Item|Knife: Duelist's Slash 6}}
+|{{Item|Leatherworking: Quality Evasion Shirt}}
+|{{Item|Leatherworking: Quality Evasion Leggings}}
+|-
+|{{Item|Orc Phrenology Research 3}}
+|{{Item|Rakshasa Phrenology Research 3}}
+|{{Item|Saddlery: Quality Mystic Saddlebag}}
+|{{Item|Spirit Fox: Illusive Guise 2}}
+|{{Item|Spirit Fox: Cinderstorm 4}}
+|-
+|{{Item|Staff: Pin 3}}
+|{{Item|Sword: Decapitate 3}}
+|{{Item|Sword: Precision Pierce 5}}
+|{{Item|Sword: Riposte 5}}
+|-
+|{{Item|Tailoring: Add Nature Damage to Cloth Pants}}
+|{{Item|Tailoring: Add Nature Damage to Cloth Shirt}}
+|{{Item|Tailoring: Quality Hats for Deer}}
+|{{Item|Unarmed: Headbutt 5}}
+|-
+|{{Item|Unarmed: Bodyslam 3}}
+|{{Item|Weather Witching: Litany of Stillness}}
+|{{Item|Weather Witch: Summon Doomstorm 4}}
+|{{Item|Whittling: Oak Butterfly Harness}}
+|-
+|{{Item|Unidentified Poetry Volume}}
+|{{Item|"The Gods of Knowledge, Vol. 4"}}
+|}
+
+'''Level 55 gear'''
+{|
+|{{Item|Spring Fairy Top}}
+|{{Item|Spring Fairy Leggings}}
+|{{Item|Spring Fairy Shoes}}
+|{{Item|Desert Vagabond Cap}}
+|-
+|{{Item|Desert Vagabond Gloves}}
+|{{Item|Desert Vagabond Shirt}}
+|{{Item|Desert Vagabond Pants}}
+|{{Item|Desert Vagabond Boots}}
+|-
+|{{Item|Amulet of the Rugged Traveler}}
+|{{Item|Cutting Blade Necklace}}
+|{{Item|Alamyneth}}
+|{{Item|Amulet of Max Armor +30}}
+|-
+|{{Item|Amulet of Max Armor +50}}
+|{{Item|Amulet of Max Health +30}}
+|{{Item|Fox Glyph}}
+|{{Item|Hexagonal Trendsetter}}
+|-
+|{{Item|Indicator of False Beauty}}
+|{{Item|Symbol of Hate Made Manifest}}
+|{{Item|Blight Ring}}
+|{{Item|Ring of Directness}}
+|-
+|{{Item|Heavy Ring}}
+|{{Item|Ring of Health}}
+|{{Item|Ring of Increasing Anxiety}}
+|{{Item|Ring of Mind Insight}}
+|-
+|{{Item|Ring of Projectile Expression}}
+|{{Item|Stafflord's Ring}}
+|{{Item|Bow of Range}}
+|{{Item|Council Trooper Sword}}
+|-
+|{{Item|Deworming Club}}
+|{{Item|Incinerating Orb}}
+|{{Item|Lopsided Flask}}
+|{{Item|Ravana Soldier Dagger}}
+|-
+|{{Item|Sand War Claw}}
+|{{Item|Sandy Staff}}
+|{{Item|Serpent Sting}}
+|{{Item|Stabmaster}}
+|-
+|{{Item|Weaver's Ocarina}}
+|}
+
+'''Dyes'''
+{|
+|{{Item|Beige Dye}}
+|{{Item|Dark Salmon Dye}}
+|{{Item|Forest Green Dye}}
+|{{Item|Light Gray Dye}}
+|-
+|{{Item|Orange Dye}}
+|{{Item|Orchid Dye}}
+|{{Item|Royal Purple Dye}}
+|{{Item|Silver Dye}}
+|-
+|{{Item|Sky Blue Dye}}
+|}
+
+In addition to the following potions, '''Decoctions''' for a variety of skills that give 250xp when consumed are also possible rewards. 
+{|
+|{{Item|Minor Panacea}}
+|{{Item|Recuperative Honey Potion}}
+|{{Item|Super Steroid Drink}}
+|{{Item|Sword Lord Potion}}
+|-
+|{{Item|Healing Potion Omega}}
+|{{Item|Healing Potion Ultra}}
+|{{Item|Armor Potion Omega}}
+|{{Item|Armor Potion Ultra}}
+|-
+|{{Item|Power Potion Omega}}
+|{{Item|Power Potion Ultra}}
+|{{Item|Power Potion Extreme}}
+|{{Item|Potent Power Regen Potion}}
+|{{Item|Strong Power Regen Potion}}
+|-
+|{{Item|Amazing Armor Patch Kit}}
+|{{Item|Expert's Armor Patch Kit}}
+|{{Item|Master Armor Patch Kit}}
+|{{Item|Expert's First Aid Kit}}
+|{{Item|Master First Aid Kit}}
+|-
+|{{Item|Crossing Oil}}
+|{{Item|Fear Oil}}
+|{{Item|Hatred Oil}}
+|{{Item|Uncrossing Oil}}
+|-
+|{{Item|Crude Phlogiston}}
+|{{Item|Decent Phlogiston}}
+|{{Item|Quality Phlogiston}}
+|{{Item|Nice Phlogiston}}
+|}
+
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Lakrea]]
+
+== Holistic Wellness Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Holistic Wellness|
+{{:Xptables/Lore}}
+}}
+
+== Trivia ==
+Completing Holistic Wellness quests during the [[Fall Harvest]] may yield holiday event recipes as a reward. 
+
+
+{{Quote|source=Citan July 29 2025 on [[Discord]]|Funny story about holistic wellness. I was working on a new skill for Statehelm and wanted to borrow the special logic Holistic Wellness has, where each quest earns you more and more XP, as long as you don't cancel a quest (which resets your bonus to 0).
+
+But it turns out I never wrote that.
+
+Oops
+
+In my head it's been easier to level for quite a bit
+}}
+[[Category:Skills]]

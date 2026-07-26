@@ -1,0 +1,57 @@
+__NOTOC__
+{{DUNGEON infobox
+| name = Aktaari Cave
+| connects = [[Errruka's Cave]]
+| arealevel = 90-95
+}}
+[[Aktaari Cave]] is part of a vast cave system underneath the [[Povus]] region. This cave system is often considered split into four major sections. The [[Errruka's Cave]], [[Forthragarian Caves]], [[Nightmare Caves]], and [[Aktaari Cave]]. Trainers for the majority of the level 90 unlocks can be found in these caves.
+==Points of Interest==
+====Egg Run====
+See the dedicated page on [[Egg Run]] for full details.
+====Queen's Door====
+The [[Aktaari Queen]] guards a door which only opens at the time of her death.
+
+== {{msg:BASEPAGENAME}} Inhabitants ==
+====Friends====
+<dpl>
+category = Aktaari Cave NPCs
+mode = unordered
+columns = 3
+</dpl>
+====Foes====
+<dpl>
+category = Aktaari Cave Creatures
+notcategory = Bosses
+mode = unordered
+columns = 3
+</dpl>
+====Bosses====
+<dpl>
+category = Aktaari Cave Creatures
+category = Bosses
+mode = unordered
+columns = 3
+</dpl>
+
+=== Harvestables ===
+<!-- List of harvestable items. Sort by type (Fish, Fruit, Plants, Wood, Mushrooms, Minerals & Metal, Miscellaneous. Miscellaneous includes graves, eggs, and other stuff.
+==== Fish ====
+{|
+|{{Item|Crab}}
+|{{Item|Grapefish}}
+|{{Item|Clownfish}}
+|{{Item|Perch}}
+|} -->
+==Gallery==
+<!--
+<gallery mode="nolines" widths=200px>
+File:Painting 1 (Golbin Dungeon).jpg|One of many paintings found on the walls
+File:Goblin Spear Scout.jpg|A Goblin Spear Scout
+</gallery>-->
+== Tips ==
+The Aktaari Cave is the location of the regularly attended "Egg Run." All players can attend, however lower level players will receive no benefit from crushing the eggs. It is a good source of experience, [[Xogrite Chunk]], and level 90-95 gear.
+
+== Trivia ==
+
+
+[[Category:Povus Dungeons]][[Category:Dungeons]]

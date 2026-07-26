@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Kodan in Sun Vale's Animal Town agreed to give you a piece of his specialty werewolf armor if you provide some raw materials.
+
+===Prerequisites===
+To start this quest, talk to '''[[Kodan]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|You want werewolf armor? Well, since you can't smith your own, I guess I can give you some of my leftover pieces.
+
+If you bring me the metal I need to make more, you can have one of my old werewolf helms.}}
+
+===Requirements===
+* Obtain {{Item|Expert-Quality Metal Slab}}s x2
+* Talk to Kodan
+
+===Rewards===
+{{Spoiler|Rewards for Trade-In For Nice Werewolf Champron|
+{{Quote|Yep. That'll work. Here's your helm!}}
+
+* 50 {{Favor|favor}}
+* {{Item|Nice Werewolf Champron}}
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Kodan]]

@@ -1,0 +1,171 @@
+__NOTOC__
+{{NPC infobox
+|title            = Hiral
+|image            = [[File:Hiral.png| 300px]]
+|caption          = He is smiling while remembering something fondly.
+|zone             = Sun Vale
+|town             = Great Tree
+|location         = Platform 1
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Cooking]], [[Cheesemaking]], [[Brewing]]
+|vendor           = Yes
+|consignment = Yes
+}}
+{{Quote|
+HI! What's your favorite drink? Mine's ... uh, hm, anything with fruit in it is good!
+}}
+[[Hiral]] is a [[Summer Court]] fairy living in the giant tree in [[Sun Vale]]. He seems to be really into fruit juices.  His soul mate Radess was killed a month ago by [[Winter Court]] soldiers.
+== Location ==
+; [[Sun Vale]]
+: Inside the base of the giant tree.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Quests ==
+<dpl>
+category = Quests/Hiral
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+{{NPC training row
+ |recipe=Potato Wedges
+ |skilllevel=0
+ |cost=80
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Baked Potato
+ |skilllevel=0
+ |cost=80
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Buttered Baked Potato
+ |skilllevel=10
+ |cost=480
+ |favor=Neutral?
+}}
+{{NPC training row
+ |recipe=Onion Rings
+ |skilllevel=5
+ |cost=280
+ |favor=Neutral?
+}}
+{{NPC training row
+ |recipe=Onion Blossom
+ |skilllevel=5
+ |cost=280
+ |favor=Neutral?
+}}
+{{NPC training row
+ |recipe=Hash Browns
+ |skilllevel=5
+ |cost=280
+ |favor=Neutral?
+}}
+{{NPC training row
+ |recipe=Hard-Boiled Egg
+ |skilllevel=1
+ |cost=120
+ |favor=Neutral?
+}}
+{{NPC training row
+ |recipe=Sun Vale Tea
+ |skilllevel=10
+ |cost=480
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Molasses
+ |skilllevel=25
+ |cost=1,220
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Orange Juice
+ |skilllevel=20
+ |cost=920
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Fruity Mushy
+ |skilllevel=30
+ |cost=1,560
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Lemonade
+ |skilllevel=40
+ |cost=2,400
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Hiral's Citrus Blend
+ |skilllevel=50
+ |cost=3,440
+ |favor=Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Brewing]]
+{{NPC training row
+ |recipe=Pale Rum (Un-Aged)
+ |skilllevel=30
+ |cost=1,800
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Pale Rum (Drinkable Cask)
+ |skilllevel=30
+ |cost=1,800
+ |favor=Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cheesemaking]]
+{{NPC training row
+ |recipe=Fairwing Cheese
+ |skilllevel=21
+ |cost=1,500
+ |favor=Close Friends
+}}
+|}
+
+== Services == <!-- List some of the services offered by the NPC. Consignment, Storage, Augmentation, or unique options. Rappanel plays music if paid, and Ashk the Answerer tells fortunes that grant buffs. -->
+==== Consignment ====
+; Hiral offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10%, stocking fee of 100 Councils.
+: Max 2 active consignments (Food, drink).
+: Max 4 consignments per week.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Hiral's Citrus Blend}} x3
+|RiShin Family ={{Item|Hiral's Citrus Blend}} x5
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Greeting|
+{{Quote|Hi! What's your favorite drink? Mine's ... uh, hm, anything with fruit in it is good!}}
+}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|There's more to life than delicious drinks, sure. But I haven't found any Fairy Felt in this dimension yet. So I make do.}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|The fruits here aren't like the fruits back home! They're pretty good, though. I've been inventing new fruit drinks.}}
+}}
+
+[[Category:NPCs]]

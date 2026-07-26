@@ -1,0 +1,130 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Mycotoxin Formula
+| description = Fling deadly fungal toxins into the air all around you (10m radius).
+| level = 2
+| power cost = 13
+| reuse time = 16
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|BattleChemistryAttack}}{{KWAB|MycotoxinBomb}}{{KWAB|Burst}}
+| ragemulti = 2
+| damage = 12 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Mycotoxin Formula 2
+| description = Fling deadly fungal toxins into the air all around you (10m radius).
+| level = 12
+| power cost = 17
+| reuse time = 16
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|BattleChemistryAttack}}{{KWAB|MycotoxinBomb}}{{KWAB|Burst}}
+| ragemulti = 2
+| damage = 24 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Mycotoxin Formula 3
+| description = Fling deadly fungal toxins into the air all around you (10m radius).
+| level = 22
+| power cost = 21
+| reuse time = 16
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|BattleChemistryAttack}}{{KWAB|MycotoxinBomb}}{{KWAB|Burst}}
+| ragemulti = 2
+| damage = 36 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Mycotoxin Formula 4
+| description = Fling deadly fungal toxins into the air all around you (10m radius).
+| level = 32
+| power cost = 25
+| reuse time = 16
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|BattleChemistryAttack}}{{KWAB|MycotoxinBomb}}{{KWAB|Burst}}
+| ragemulti = 2
+| damage = 55 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Mycotoxin Formula 5
+| description = Fling deadly fungal toxins into the air all around you (10m radius).
+| level = 42
+| power cost = 30
+| reuse time = 16
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|BattleChemistryAttack}}{{KWAB|MycotoxinBomb}}{{KWAB|Burst}}
+| ragemulti = 2
+| damage = 85 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Mycotoxin Formula 6
+| description = Fling deadly fungal toxins into the air all around you (10m radius).
+| level = 52
+| power cost = 33
+| reuse time = 16
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|BattleChemistryAttack}}{{KWAB|MycotoxinBomb}}{{KWAB|Burst}}
+| ragemulti = 2
+| damage = 128 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Mycotoxin Formula 7
+| description = Fling deadly fungal toxins into the air all around you (10m radius).
+| level = 62
+| power cost = 37
+| reuse time = 16
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|BattleChemistryAttack}}{{KWAB|MycotoxinBomb}}{{KWAB|Burst}}
+| ragemulti = 2
+| damage = 172 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Mycotoxin Formula 8
+| description = Fling deadly fungal toxins into the air all around you (10m radius).
+| level = 72
+| power cost = 41
+| reuse time = 16
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|BattleChemistryAttack}}{{KWAB|MycotoxinBomb}}{{KWAB|Burst}}
+| ragemulti = 2
+| damage = 219 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Mycotoxin Formula 9
+| description = Fling deadly fungal toxins into the air all around you (10m radius).
+| level = 82
+| power cost = 46
+| reuse time = 16
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|BattleChemistryAttack}}{{KWAB|MycotoxinBomb}}{{KWAB|Burst}}
+| ragemulti = 2
+| damage = 271 Nature
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

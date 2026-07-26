@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Infuriating Fist
+| description = Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch.
+| level = 40
+| power cost = 17
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|InfuriatingFist}}{{KWAB|FistAttack}}
+| damage = 78 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Fist 2
+| description = Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch.
+| level = 50
+| power cost = 19
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|InfuriatingFist}}{{KWAB|FistAttack}}
+| damage = 120 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Fist 3
+| description = Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch.
+| level = 60
+| power cost = 22
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|InfuriatingFist}}{{KWAB|FistAttack}}
+| damage = 164 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Fist 4
+| description = Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch.
+| level = 70
+| power cost = 25
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|InfuriatingFist}}{{KWAB|FistAttack}}
+| damage = 209 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Fist 5
+| description = Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch.
+| level = 80
+| power cost = 28
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|InfuriatingFist}}{{KWAB|FistAttack}}
+| damage = 262 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

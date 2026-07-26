@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Jopol said, "Greetings! I used to be the Caravan's Master Carpenter, but we keep running out of arrows so quickly I decided to let Kalrod take over my position and I became the Caravan fletcher. I could really use some help getting caught up on things. Could you assemble and deliver 10,000 [[Basic Arrow]]s? I would really appreciate it!"
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Jopol]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Fletching]] level 13. This quest is only available during a Crafting Caravan event. 
+
+===Preface===
+Greetings! I used to be the Caravan's Master Carpenter, but we keep running out of arrows so quickly I decided to let Kalrod take over my position and I became the Caravan fletcher. I could really use some help getting caught up on things. Could you assemble and deliver 10,000 [[Basic Arrow]]s? I would really appreciate it!
+
+===Requirements===
+* Make 10 sets of Basic Arrows
+* Posses 10,000 Basic Arrows x10000
+* Talk to Jopol
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|AH yes! That will help a great deal! Now if I can keep the guys from firing them all off when they sit and get drunk in the evenings, maybe we can have some for protection and hunting! Come to think of it, I may need some more arrows later. Come by and check later!
+
+<i>[You earn 5 favor with Orran the Caravan Leader]</i>
+
+<i>[This task is repeatable every 12 hours.]</i>}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Jopol]]

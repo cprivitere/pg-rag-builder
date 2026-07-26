@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Charles Thompson, a vendor in a tent outside of Serbule, has asked you to obtain a "heartshroom", but he has no idea where they come from.
+
+===Prerequisites===
+To start this quest, talk to '''[[Charles Thompson]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|Last night, a mysterious Elf came into my tent. He was wrapped head to toe in gauze and smelled like dirt -- it was terrifying! You never know what those sex-riddled maniacs will do. But he just dropped a strange thing on my bed and left, saying "study this heartshroom and prepare for the invasion."
+
+The so-called Heartshroom is actually an amazing type of mushroom that I've never seen before! It has incredible regenerative powers... this could make me rich! Err, make <i>us</i> rich. But I need more. Too bad I have no idea where they come from! If you find some, bring them to me?}}
+
+===Requirements===
+* Obtain {{Item|Heartshroom}}s x2
+* Talk to Charles Thompson
+
+===Rewards===
+{{Spoiler|Rewards for The Mythical Heartshroom|
+{{Quote|You found more?! This is wonderful! Wonderful! Let me show you some of the ways this mushroom differs from the norm. <i>(Charles spends a while showing you diagrams he's created. You earn Mycology XP.)</i>}}
+
+* 250 {{Favor|favor}}
+* {{Item|Thunderclap Potion}}
+* 1000 XP in [[Mycology]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Charles Thompson]]

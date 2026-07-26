@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Ser Lorentz in Vidaria said, "I guess you're ready to move up to tougher demons. The soldiers are next. They're tough, but the scariest part is their disease. Or maybe it's a curse, I dunno. I'm no sage! Anyway, they spread Hellfire sickness. I can give you some balm for afterwards, but... try your best not to get too much hellfire on you. It saps your life away. To me, it's the scariest thing on this battlefield. Fight smart."
+
+===Prerequisites===
+To start this quest, talk to '''[[Ser Lorentz]]''' in '''[[Vidaria]]'''. The quest is available at {{Favor|Neutral}} favor. The quest [[Testing Your Demon-Killing Mettle]] must be completed first.
+
+===Preface===
+{{Quote|I guess you're ready to move up to tougher demons. The soldiers are next. They're tough, but the scariest part is their disease. Or maybe it's a curse, I dunno. I'm no sage! Anyway, they spread Hellfire sickness. I can give you some balm for afterwards, but... try your best not to get too much hellfire on you. It saps your life away. To me, it's the scariest thing on this battlefield. Fight smart.}}
+
+===Requirements===
+* Kill [[Demon Soldier]]s x8
+* Talk to Ser Lorentz
+
+===Rewards===
+{{Spoiler|Rewards for Demon Soldiers|
+{{Quote|Nice work! You brought the blaze of Arisetsu to those monsters! I have some hellfire curatives here. Take them.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Hellfreeze}} x 3 
+}}
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Ser Lorentz]]

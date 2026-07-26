@@ -1,0 +1,64 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Truffle Sniff
+| description = Search for a hidden mushroom in the area.
+| level = 5
+| power cost = 5
+| reuse time = 180
+| range = 4 meters
+| skill = Pig
+| keywords = {{KWAB|TruffleSniff}}{{KWAB|Pig}}
+}}
+|-
+|
+{{Ability infobox
+| name = Truffle Sniff 2
+| description = Search for a hidden mushroom in the area.
+| level = 15
+| power cost = 15
+| reuse time = 180
+| range = 4 meters
+| skill = Pig
+| keywords = {{KWAB|TruffleSniff}}{{KWAB|Pig}}
+}}
+|-
+|
+{{Ability infobox
+| name = Truffle Sniff 3
+| description = Search for a hidden mushroom in the area.
+| level = 25
+| power cost = 25
+| reuse time = 180
+| range = 4 meters
+| skill = Pig
+| keywords = {{KWAB|TruffleSniff}}{{KWAB|Pig}}
+}}
+|-
+|
+{{Ability infobox
+| name = Truffle Sniff 4
+| description = Search for a hidden mushroom in the area.
+| level = 35
+| power cost = 35
+| reuse time = 180
+| range = 4 meters
+| skill = Pig
+| keywords = {{KWAB|TruffleSniff}}{{KWAB|Pig}}
+}}
+|-
+|
+{{Ability infobox
+| name = Truffle Sniff 5
+| description = Search for a hidden mushroom in the area.
+| level = 45
+| power cost = 45
+| reuse time = 180
+| range = 4 meters
+| skill = Pig
+| keywords = {{KWAB|TruffleSniff}}{{KWAB|Pig}}
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

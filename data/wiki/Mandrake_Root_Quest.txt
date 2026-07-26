@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Yetta has asked for some mandrake root.
+
+===Prerequisites===
+To start this quest, talk to '''[[Yetta]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|This one's even harder. I'm sorry! But if you can find some mandrake root, I'd be really appreciative!}}
+
+===Requirements===
+* Obtain {{Item|Mandrake Root}}s x5
+* Talk to Yetta
+
+===Rewards===
+{{Spoiler|Rewards for Mandrake Root|
+{{Quote|Thanks! You're amazing at this. Here, this is my own brew, try some! It's very expensive to make, but it makes you feel amazing.}}
+
+* 250 {{Favor|favor}}
+* {{Item|Regeneration Potion}} x 2
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Yetta]]

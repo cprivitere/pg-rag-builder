@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Super Fireball
+| description = Throw a very potent fireball.
+| level = 15
+| power cost = 22
+| reuse time = 10
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|SuperFireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 43 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Super Fireball 2
+| description = Throw a very potent fireball.
+| level = 30
+| power cost = 31
+| reuse time = 10
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|SuperFireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 86 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Super Fireball 3
+| description = Throw a very potent fireball.
+| level = 45
+| power cost = 39
+| reuse time = 10
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|SuperFireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 162 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Super Fireball 4
+| description = Throw a very potent fireball.
+| level = 55
+| power cost = 45
+| reuse time = 10
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|SuperFireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 237 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Super Fireball 5
+| description = Throw a very potent fireball.
+| level = 70
+| power cost = 52
+| reuse time = 10
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|SuperFireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 348 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Super Fireball 6
+| description = Throw a very potent fireball.
+| level = 80
+| power cost = 57
+| reuse time = 10
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|SuperFireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 436 Fire
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

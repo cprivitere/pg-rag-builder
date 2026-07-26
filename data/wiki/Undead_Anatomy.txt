@@ -1,0 +1,51 @@
+__NOTOC__
+{{Skill infobox
+|title            = Undead Anatomy
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the physiology of undead, such as skeletons, zombies, and liches. This skill doesn't cover undead without bodies, such as ghosts and wraiths.
+|skilltype        = Anatomy Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy<!-- Any other skills needed to gain this skill -->
+|skilltrainers    = None
+}}
+{{Quote|source=[[Lore|Esoteric Bookshelf]]|
+One of the books here describes the experiences of postmortem revivification.
+
+"...the resulting 'un-dead' creature retains all the original memories and faculties, but it is no longer fueled by food or air. Instead, it is fueled by pure hatred, or in some cases, pure despair, avarice, or so on...
+
+...as a consequence, the creatures tend to hunt down and destroy their former loved ones and terrorize everything they once knew."
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Undead Anatomy''' is a sub-skill of [[Anatomy]] that explores the physiology of skeletons, zombies, and liches.
+=== In-Game Description ===
+Knowledge of the physiology of undead, such as skeletons, zombies, and liches. This skill doesn't cover undead without bodies, such as ghosts and wraiths.
+
+==Known Creatures==
+
+===Friends===
+<dpl>
+ category = Undead&NPCs
+</dpl>
+
+===Bosses===
+<dpl>
+ category = Undead&Bosses
+ notcategory = NPCs
+</dpl>
+
+===Foes===
+<!-- the DPL lists creatures which already have a page and are categorized. -->
+<dpl>
+ category    = Undead
+ columns = 2
+ notcategory = Bosses
+ notcategory = NPCs
+</dpl>
+<!-- here we can manually add any creatures to keep track of missing/todo pages -->
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+[[Category:Skills]][[Category:Anatomy Skills]]

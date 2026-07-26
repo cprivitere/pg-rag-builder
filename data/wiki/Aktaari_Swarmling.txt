@@ -1,0 +1,47 @@
+__NOTOC__
+{{MOB infobox
+| title = Aktaari Swarmling
+| type      = Arthropod
+| health    = 4393
+| armor     = 2912
+| rage      = 3458
+| effective = Piercing, Trauma
+| ineffective = Fire, Cold, Nature, Electricity
+| vineffective = Acid
+}}
+[[Aktaari Swarmling]] are an extremely common variety of [[Aktaari]]. They get their name from their tendency to swarm their foes.
+== Locations ==
+{{MOB Location
+| area = Aktaari Cave
+| location = Throughout the cave
+| health    = 4393
+| armor     = 2912
+| rage      = 3458
+| lootlevel = 85
+| mitigation =20%
+}}
+== Combat Abilities ==
+Slashing Damage, Slashing Damage, Heavy Poison Damage
+<!--
+:{{AIP:GiantRat}} -->
+== Miscellaneous ==
+{|
+{{Header|[[Skinning]]}}
+|-
+|None
+|-
+{{Header|[[Butchering]]}}
+|-
+|???
+|-
+{{Header|[[Butchering|Skull Extraction]]}}
+|-
+|???
+|}
+== Reported Loot ==
+==== General Loot ====
+; Level 85 Equipment
+{|
+{{Header|Common|4}}|-
+|{{Loot|Aktaari Claw}}
+|}

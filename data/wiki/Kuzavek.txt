@@ -1,0 +1,92 @@
+__NOTOC__
+{{NPC infobox
+|title            = Kuzavek
+|image            = [[File:Kuzavek (npc).png|300px]] 
+|caption          = Taking bets and looking bored.
+|zone             = Red Wing Casino
+|location         = on top of the balconies of the arena area
+|anatomy = Arthropod
+|species = Mantis
+|beastspeak       = Yes
+|beastlist = All
+}}
+
+[[Kuzavek]] is a NPC on the balconies of the arena area within the Red Wing Casino. He offers options to bet on the NPC fights that occur each 8 minutes between two selected NPC's.
+
+If a player places a winning bet on an arena fighter, Kuzavek will return double the initial bet minus a 10% fee. Ie. if a player bets 5,000 [[councils]] and places a winning bet, they will receive 9500 councils as a reward.
+
+== Location ==
+; [[Red Wing Casino]] 
+: [[Kuzavek]] is on top of the balconies of the Arena area  
+
+
+== Conversations ==
+
+'''Before a fight starts.'''
+
+{{Quote|
+"The next fight will be between Fighter 1 and Fighter 2. Would you like to wager on who will win?"
+}}
+
+Pre-fight conversation options. Note: Fighter 1 and Fighter 2 are just place holder names for the fighters who will be taking place in the Arena Match. Possible combatants are listed below in the Fighters section.
+
+* '''Place a bet on "Fighter 1" ''' - Maximum bet is limited by your [[Gaming]] skill. More information needed.
+* '''Place a bet on "Fighter 2"''' - Maximum bet is limited by your [[Gaming]] skill. More information needed.
+* '''Tell me about the two fighters''' - Possible combatants are listed below in the [[Kuzavek#Fighters|Fighters]] section.
+* '''Tell me about Hot Tips.'''
+
+'''Hot Tips'''
+
+{{Quote|
+"I've noticed that some casino employees have loose mandibles and often convey privileged background information to guests. I'm unable to stop this unprofessional habit, so I can only suggest that you not read too heavily into this information. No-one Knows the outcome of an arena match until it happens!"
+}}
+
+''[Some casino employees and shopkeepers can provide you with betting tips when you reach a certain favor level -- look for the Hot Tip menu option when speaking to them. Different players may receive different tips each day, but all tips are accurate and valid during the real-world day that they are given out.''
+
+''Most Hot Tips refer to two combatants, and have a number at the end such as (+5%). When these two combatants fight each other, the chance of victory is skewed in one's favor by the specified percentage. There are other Hot Tips that only refer to a single fighter. These apply to all battles the combatant is in. Hot Tips stack: sometimes the same fighter is mentioned in several tips; when this happens, the percentages from all relevant tips are added together.]''
+
+'''During a fight'''
+
+{{Quote|
+"A fight is currently underway! I cannot accept any bets at this time. Please excuse me, as I must watch the battle."
+}}
+
+'''After a fight'''
+
+{{Quote|
+"The last fight has ended, but I have not yet been informed of who will be fighting in the next match. Please give me a minute."
+}}
+
+==Fighters==
+
+The possible arena combatants for each match are randomly chosen. The potential fighters that players can wager on are:
+
+'''Corrrak'''
+
+[[Corrrak]]: Corrrak hails from the distant continent of [[Fosulf]], where he claims his people are the supreme race! I've never visited Fosulf so I cannot verify that idea, but Corrrak's prowess in the arena makes a compelling argument for [[ranalon]] martial supremacy.
+
+'''Dura'''
+
+[[Dura]]: Dura was forced to leave her home town of '[[Gazluk Keep]]' for reasons she refuses to share. We don't know why she's here, but we do know that this [[orc]] is deadly with a sword and shield. And that's good enough for us!
+
+'''Gloz'''
+
+[[Gloz]]: Gloz supposedly means "Claws" in [[Goblinese]], and indeed Gloz enjoys rending and mangling as much as any bear I've ever seen. She was recently purchased from a goblin tribe who said that she was just too violent to serve as a guard bear. But she loves fighting in the arena!
+
+'''Leo'''
+
+[[Leo]]: Once a member of a militant [[Rahu]] gang called 'Onkara', Leo's gambling addiction destroyed his life and he was forced to fight in the arena to repay his debts. He has since realized that the arena is where he truly belongs. He enjoys using his natural claws and strong limbs to defeat his enemies.
+
+'''Otis'''
+
+[[Otis]]: Formerly a bodyguard for a goblin chieftain, Otis distinguishes himself from other [[ogre|ogres]] with his comparably high brain function. Combined with his incredible bone-shattering might, Otix is a powerhouse well worth investing in!
+
+'''Ushug'''
+
+[[Ushug]]: This [[orc|orcish]] staff fighter hails from the frigid lands of [[Gazluk]]. It's so cold there that even insects cannot survive, so clearly this is a hardy specimen! Ushug claims to have killed a hundred goblins in a single day! Ushug calls himself "The Undefeatable", although this has not proven to be strictly true.
+
+'''Vizlark'''
+
+[[Vizlark]]: The mage who created [[Psychic Mantis|psychic mantises]] is not perfect. It took many experiments to create us. Vizlark is from an early round of experiments. His psychic powers are extreme, but his mental faculties are weak and unreliable. Do not worry: his special hat prevents him from lashing out and exploding spectator's brains with 98% reliability.
+
+[[Category: NPCs]][[Category:NoRiShin]]

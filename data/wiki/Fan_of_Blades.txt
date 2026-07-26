@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Fan of Blades
+| description = Toss blades at all enemies around you. Consumes 3 Basic Throwing Knives.
+| level = 15
+| power cost = 18
+| reuse time = 20
+| range = 15 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|FanOfBlades}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}
+| damage = 44 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Fan of Blades 2
+| description = Toss blades at all enemies around you. Consumes 3 Expert's Throwing Knives.
+| level = 30
+| power cost = 24
+| reuse time = 20
+| range = 15 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|FanOfBlades}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}
+| damage = 80 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Fan of Blades 3
+| description = Toss blades at all enemies around you. Consumes 3 Master's Throwing Knives.
+| level = 45
+| power cost = 31
+| reuse time = 20
+| range = 15 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|FanOfBlades}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}
+| damage = 140 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Fan of Blades 4
+| description = Toss blades at all enemies around you. Consumes 3 Amazing Throwing Knives.
+| level = 60
+| power cost = 36
+| reuse time = 20
+| range = 15 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|FanOfBlades}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}
+| damage = 233 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Fan of Blades 5
+| description = Toss blades at all enemies around you. Consumes 3 Astounding Throwing Knives.
+| level = 70
+| power cost = 41
+| reuse time = 20
+| range = 15 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|FanOfBlades}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}
+| damage = 297 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Fan of Blades 6
+| description = Toss blades at all enemies around you. Consumes 3 Astounding Throwing Knives.
+| level = 80
+| power cost = 45
+| reuse time = 20
+| range = 15 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|FanOfBlades}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}
+| damage = 371 Piercing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

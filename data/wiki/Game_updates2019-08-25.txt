@@ -1,0 +1,150 @@
+__NOTOC__
+==Update Notes: Aug 25, 2019==
+===The Fae Realm===
+A new explorable area has been added to the game! It's for those hardy adventurers who can already survive the dangers of [[Gazluk]]. Being another plane of existence, it's not especially easy to reach. There is an entry method via the [[Winter Nexus]] dungeon, and there is also a way in via one of the caves in [[Gazluk]].
+
+This area is a work in progress -- it will eventually also be the starting location for the playable fairy race, so you'll notice a few empty shop stalls, some suspiciously empty ruins, etc., which will be filled in later.
+
+(There's other things to discover, but we've stayed deliberately vague in these update notes to avoid spoilers for those of you who want to explore the new area fresh.)
+
+'''IMPORTANTGiven the sheer number of things added in this update, the odds of bugs are pretty high. Please report bugs ASAP so that we can triage and fix them quickly! If serious issues arise, we'll do another update within a day or two. Thank you for helping to beta-test Project: Gorgon!'''
+
+We also need your feedback about the new area's difficulty, both in terms of soloing and group content. We've experimented with different monster densities, monster-listening ranges, and monster varieties. It could be that we got it <i>just right</i> on the first try... but we probably didn't. We'll need your help to get it right.
+
+===Shield===
+We try to revise a combat skill in each major update, and this time around it's Shield. Normally we'd use this time to refine the balance of the skill, but Shield was in a relatively good place balance-wise. Instead, we're trying to inject more fun. The Shield skill was already extremely good at keeping players alive, but much of the treasure felt dull. Shield has a lot more potential to be exciting and engaging! 
+
+So in this update, we've experimented with a bunch of new treasure effects, just to see how they play. Most of the new effects replace existing treasure that's been underused by players.
+
+Since these changes are more experimental than usual, they run a higher-than-normal risk of needing to be nerfed later if we overshot the mark, or being replaced entirely if they just don't work out. Your feedback is important in helping us shape the skill! Seriously! We don't hear a lot about the Shield skill, and when we don't hear from you there's always the danger that something you love could get scrapped. If you play with this stuff and find something to be really fun or really annoying, let us know on the forums or in-game feedback.
+
+===Armor Repair and Shield Wax===
+Armor Repair is the [[Shield]] skill's "auxiliary skill", much like Calligraphy is for Sword, or [[Meditation]] for [[Unarmed]]. There are new Armor Repair recipes that allow you to enhance your shield in a few ways. Tyler Green teaches the basic shield wax recipes. (And if you're wondering why there's a bunch of Acid-buffing gear, it's because of the new acid-based Shield Wax recipes.)
+
+===Shield Treasure Changes===
+::-  "Vigorous Defense restores 85 Health" => "Vigorous Defense restores +48 Power"
+::-  "Infuriating Bash deals +40% damage and taunts +330" => +36% damage (This was a spreadsheet error; the low-level versions are stronger but the high level is a little lower.)
+::-  "Fight Me You Fools and Finish It boost Core Attack Damage +146 for 6 seconds" => +200 Core Attack Damage
+::-  "Shield Team causes all targets' Survival Utility abilities to restore 64 Armor to them. Lasts 20 seconds" => 100 Armor
+::-  Replaced (Hands): "Reinforce Power Cost -32" => "When you are hit by an attack, all Shield abilities taunt +182 for 20 seconds (stacks up to 15 times)"
+::-  Replaced (Chest, Off Hand): "Stunning Bash restores 35 Health" => "When you are hit by a monster's Rage Attack, the current reuse timer of Stunning Bash is reduced by 1 sec and your next Stunning Bash deals +80 damage (stacks up to 10 times)"
+::-  Replaced (Ring): " Fight Me You Fools grants you 33% damage reflection for 10 seconds" => "All Shield Bash Abilities deal +50 damage and hasten the current reuse timer of Fight Me You Fools by 2 seconds"
+::-  Replaced (Chest, Off Hand): "Fire Shield and Elemental Ward restore 57 Armor" => "Elemental Ward boosts your direct and indirect Electricity damage +40 for 30 seconds"
+::-  Replaced (Legs): "Strategic Preparation hastens the current reset timer of Emergency Bash by 10 seconds" => "Strategic Preparation boosts your Indirect Acid Damage +25% for 20 seconds"
+::-  Replaced (Off Hand, Ring): "Strategic Preparation boosts your in-combat Health regeneration +18 for 20 seconds" => "Strategic Preparation causes your next attack to deal +130 damage if it is a Crushing, Slashing, or Piercing attack"
+::-  New (Main Hand): "When you are hit by an attack, Finish It damage is +64 for 20 seconds (stacks up to 10 times)"
+::-  New (Hands): "All Shield Bash Abilities deal +50 damage and hasten the current reuse timer of Finish It by 2 seconds"
+::-  New (Head, Legs): "When you are hit by a monster's Rage Attack, Reinforce restores +42 Armor for 60 seconds (stacks up to 10 times)"
+::-  New (Off Hand, Necklace): "Infuriating Bash deals +48 damage and boosts your Indirect Acid Damage +54 for 7 seconds"
+
+===Shield Ability Change===
+In addition, there is one [[Shield]] ability change: 
+::-  Elemental Ward: Power cost has increased, and the first tier of the ability lasts 9 seconds (instead of 10). Second tier lasts 10 seconds (unchanged); there is a new third tier of the ability taught by Gorvessa that requires level 55 and lasts 11 seconds.
+
+
+===Level Cap Increases===
+All combat skills can now be raised to level 80 (plus bonus levels). Additionally, many auxiliary-combat skills and non-combat skills have higher level caps. Most of these caps can be raised by training with the fairies of the Fae Realm.
+
+[[Fae Realm]] trainers require a substance called {{Item|Royal Jelly}} in addition to cash. For the most expensive training, this pricing works in players' benefit: e.g. instead of charging 500,000 Councils to raise a combat skill level-cap, they charge 400,000 Councils and 3 Royal Jelly -- and 3 Royal Jelly is easier to come by than 100k councils. However, in other cases the fairies have simply added a [[Royal Jelly]] cost without significantly reducing the cash cost.
+
+We have explained to the fae that this is not how prices are expected to work, but fairies are ancient, stubborn creatures who are immune to Haggling. They insist that "mortals will be fine" and "this Royal Jelly is really important" and "you need to stop being so greedy, human". 
+
+We will continue to monitor the cost issues, but our advice for high-level players is to carefully choose your training priorities. Of course, you were doing that already.
+
+Some NPC trainers already taught abilities in the mid-70s level range. These abilities are now learned via new 70-80 trainers in the [[Fae Realm]]. The NPCs continue to train them also, but the favor requirement is Soul Mates, which is extremely difficult to achieve. ===The design intent is that any ability training that requires Soul Mates can also be learned from some other method.===
+
+===Other level cap increases:===
+::-  [[Foraging]] level cap can now be raised to 70 by [[Jesina]] in [[Eltibule]].
+::-  Ashk in [[Rahu]] can now raise the level cap of Pathology to 70.
+::-  [[Nishika]] and [[Rugen]] in [[Rahu]] can now raise the level cap of Skinning to 70.
+::-  [[Nishika]] and [[Rugen]] in [[Rahu]] can now raise the level cap of Butchering to 70.
+::-  [[Jake the Buckler]] in [[Sun Vale]] can now raise the level cap of [[Buckle Artistry]] to 60.
+
+===New Bonus Skill Levels===
+::-  You earn a bonus level of [[Lycanthropy]] when reaching [[Howling]] level 25.
+::-  You earn a bonus level of [[Spider]] when reaching [[Animal Handling]] 50, Arthropod Anatomy 41, or Survival Instincts 37.
+::-  Fire Magic now grants bonus Fire Mitigation into higher levels. (Previously the final bonus point was at level 45.)
+::-  You now gain bonus levels of Sushi Preparation at Fishing 55 and Knife 60.
+::-  You now gain bonus levels of Armor Patching when reaching Blacksmithing 50, First Aid 25, Endurance 20, Anatomy 20, Anatomy 40, and Toolcrafting 35. (This is in addition to the previously-existing bonus level at Blacksmithing 35.)
+::-  Players earn an additional bonus level of Leatherworking when reaching Tanning 60.
+
+===Training Changes===
+::-  Fletching: Some fletching recipes have new requirements. You learn the recipe for Precision Fletchings automatically at level 50 Fletching. (If you are already that level, it will be in your recipe list when you log in.) This recipe creates the feathery bits for Amazing and Astonishing arrows; some of the types of Amazing arrows already existed and those have had their recipe changed accordingly.
+::-  Mittens now teaches Toxic Flesh 8 at Soul Mates; it can also be learned in the Fae Realm.
+::-  Some of the very-high-level cheese recipes that Braigon previously taught have been moved to a different trainer.
+::-  The level 66 hammer ability Rib Shatter 5 was missing from the game; it is now trained by Falkrin Overstrike.
+::-  [[Furlak]] no longer trains Knee Kick 5 or 6. (Knee Kick and Jab are alternate powers that are only learnable from loot scrolls.)
+
+===Health & Power Advancement===
+Previously, you received +1 Max Power for each level above 50 in your active combat skills. You now receive a point every other level in the 50s, then receive no further Max Power increases after level 60. For a player with two level 70 combat skills, this amounts to a change of -30 Max Power in total, counting both skills. 
+
+Most animal-form skills (except werewolf and bat) are a special case: they use a different power advancement curve, and their Max Power starts dropping off in the 60s instead of the 50s.
+
+::-  Lycanthropy now grants bonus Max Health into higher levels. (At low levels it gives an average of 2.5 Max Health per level, but previously it changed to 2-per-level after level 60. It now gives an average of 2.5 at all levels.)
+::-  Previously, the Pig, Spider, and Rabbit skills gave slightly more Max Health and less Max Power than normal combat skills (following the "tanky" pattern of the Lycanthropy skill), but this doesn't really fit the nature of those skills very well, so they now gain max health and max power at the regular rate. (Total change is +10 power and -15 health at level 50.)
+::-  The Cow and Deer skills now give slightly more Max Health than before (a total of +15 Max Health at level 50).
+
+===Recipe XP Drop-off===
+When you complete a recipe that is significantly lower than your skill level, you will now earn less than the full XP for that recipe. This is a pretty gradual process: for most recipes, the XP doesn't drop to 0 until your skill level is more than 50 levels above the recipe's level. 
+
+The Recipe window now shows you how much XP you'll earn for repeat completions. (Note that this number doesn't include weird one-off XP awards, such as the Teleportation XP bonus for binding to a new teleport spot -- it just shows the basic XP earned from the recipe.)
+
+Not all recipes work this way because it just doesn't make sense in some cases. And a few recipes have slightly different drop-off rates. The intent isn't to make it super-hard to level up, just to push players away from using way-too-easy recipes at very high levels. If you feel a skill is now much too hard to level up (perhaps because of a lack of recipes in a particular level range), please let us know so we can address it!
+
+===This doesn't apply to the first-time use of a recipe, which intentionally awards a large bonus. That large bonus is always the same regardless of your skill level.===
+
+===Other Skill & Ability Changes===
+::-  Most abilities cost a bit more Power at very high level. A typical level 70 ability costs 1-4 more Power than before. The most dramatic change can be seen in the Epic Attacks; for example, Decapitate 5 (the level 72 Sword Epic Attack) previously cost 72 Power, and now costs 80 Power.
+::-  Animal Handling: "Sic 'Em" ability boosts the pet's speed and damage for a few seconds, but the in-game description was bugged and the damage bonus wasn't shown.
+::-  [[Animal Handling]]: Feed Pet/That'll Do: minor reduction to heal amounts at high level. (formula fix)
+::-  Archery: Multishot 5 consumes 5x Amazing Arrows (instead of 5x Masterwork Arrows).
+::-  [[Archery]]: Blitz Shot 3, 4, and 5 each consumed an arrow that was one tier lower than intended for that level.
+::-  Armor Patching: Levels 2-6 restored more armor than they said they would. This has been fixed to match ability description.
+::-  [[Battle Chemistry]]: Several tiers of Summon Minigolem summoned a golem with lower-than-intended health/armor/rage stats.
+::-  Cold Magic: The description of Ice Armor indicated that it reduced movement speed by 33%, but actually reduced by 25%. The ability description was incorrect and has been fixed.
+::-  Druid: Healing Sanctuary 5 restores 55 per tick instead of 60 per tick. (data fix)
+::-  [[Druid]]: Energize 2 and 3 restored 20 Health more than indicated in the ability description. (data fix)
+::-  [[Fletching]]: Recipe for Amazing Snare Arrows now consumes Expert Wood Glue instead of Advanced Wood Glue.
+::-  [[Fletching]]: Recipe for Precision Fletching now consumes Expert Wood Glue instead of Advanced Wood Glue.
+::-  [[Hammer]]: Way of the Hammer 2 and 3 did not buff crushing damage by as much as listed in the ability description.
+::-  Knife: The description of Hamstring Throw indicated that it lasted 5 seconds at all levels, but high-level versions last up to 10 seconds. The ability description was incorrect and has been fixed.
+::-  [[Pig]]: "Grunt of Abeyance" ability has a stronger innate heal. (formula change)
+::-  [[Rabbit]]: Carrot Power indicated that it consumes 1 carrot, but actually there is only a 33% chance of consumption. The ability description was incorrect and has been fixed.
+::-  [[Staff]]: Blocking Stance 3 now mitigates 35% of all damage (reduced from 40%).
+::-  Staff: Phoenix Strike now causes melee attackers to suffer significantly more fire damage (more than double the previous values).
+::-  [[Survival Instincts]]: All tiers of Toxic Flesh are now more potent (dealing about 2x more damage to melee damagers). Ability has been changed slightly: it now harms "melee damagers" instead of "melee attackers". This means the attacker must do at least 1 point of damage to you in order to qualify. (This is not normally a problem.)
+
+===Other Changes & Fixes===
+===Trade Window===
+::-  Fixed errant gold icon floating in middle of window.
+::-  Made the green "accepted" overlay click-through-able; this has the important benefit of letting you mouse over the items and see their tooltips. (Previously the green overlay prevented the tooltips from showing up.)
+::-  Fixed race-conditions that could cause the trade window to get out of sync, making the trade incompletable and requiring players to start the trade over.
+
+===Monster Vulnerabilities===
+Note that only changes are listed here, not full vulnerability/resistance lists.
+::-  Summer and Autumn fairies are now vulnerable to darkness but not psychic.
+::-  Giant scorpions are now vulnerable to darkness.
+::-  Hippogriffs are now vulnerable to darkness.
+::-  Gargoyles are now vulnerable to acid.
+::-  Hippos are now vulnerable to acid.
+::-  Treants are now resistant to trauma and psychic, but vulnerable to darkness and acid.
+
+===Misc===
+::-  Pet AI tweak: Pets in Assist and Defend mode ignore 75% of the aggro they would normally generate due to attackers hitting them. This is to ensure that pets continue to assist/defend you even when being attacked by other foes. (This also applies to mini-golem AI.)
+::-  Notoriety: raising Notoriety above level 50 now has stat rewards.
+::-  The previous update notes said that some orcs now have bonus Accuracy, but due to an error this change didn't actually make it into the game until now.
+::-  The chance for monsters to drop "Telka's Teeth" items has been lowered dramatically. (The chance is approx. 1/4th of its previous chances in desert rakshasa junk loot, and approx. 1/10th of previous drop rate in war caches specifically focused on Telka's Teeth.)
+::-  Fixed bugs with the guild quest "Fox Outpost (25-person)". If your guild was actively on this quest, you will need to re-obtain it.
+::-  [[Borghild]]: Fixed some spawn-positions for loot items and acid sigils; they spawned on shelves where they could not be interacted with.
+::-  The cash value of recipe books (found in loot) now follows a simple formula instead of being completely arbitrary. Some scrolls are worth more than before, some less.
+::-  NPCs who like "artwork" ([[Sir Coth]], [[Lawara]], [[Eveline Rastin]]) considered poetry books to be about twice as nice a gift as intended. This has been fixed.
+::-  Lemon shaved ice requires 1 fewer lemons; banana shaved ice requires 1 fewer bananas.
+::-  You cannot read [[Timothy Elerimon]]'s hoplology book while in combat.
+::-  With the advent of more fae creatures in the game, [[Hiral]] no longer sells Pixie Sugar. (He sold it at an astronomical +2,000% markup anyway.)
+::-  Several recipes that incorporated venison were not marked as containing deer meat in the final dish.
+::-  Fixed texture problems with Spring Fairy Boots.
+::-  [[Lakrea]]'s [[Holistic Wellness]] quests now give better rewards, thanks to a grant from the Redwing Fund for Biped Wellness.
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

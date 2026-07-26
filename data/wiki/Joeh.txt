@@ -1,0 +1,120 @@
+__NOTOC__
+{{NPC infobox
+|title            = Joeh
+|image            = [[File:Joeh.jpg|300px]]
+|caption          = Always with a smirk of superiority.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = His shop near the town well.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = No
+|vendor           = Yes
+|storage = Yes
+|consignment = Yes
+|augment = Yes
+}}
+{{Quote|
+Getting better with the sword, eh? Well, keep at it. Someday you may prove vaguely competent.
+}}
+[[Joeh]] is the weapons and armor merchant of Serbule Keep. He offers [[storage]] (for gear) and [[consignment]] services.
+
+[[Joeh]] is another survivor of the [[Dwyndarre]] disaster. As a boy, he taught himself swordsmanship by killing pigs.  His fascination with the pig has continued to this day, and he frequently mentions his love of pork based foods.  He claims that his love is not an obsession.
+== Location ==
+; [[Serbule Keep]]
+: Near the well, look for the sign with the two crossed swords). [[File:Joeh_Location.jpg|400px|thumb|right|[[Joeh]]'s shop, located in [[Serbule Keep]], note the two crossed sword sign (center).]]
+== Shopkeeper ==
+[[Joeh]] sells a selection of decent armor for players just starting out.  He also sells supplies for [[Calligraphy]] and [[Surveying]].
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Joeh]] rewards his friends with [[Storage]] space and access to additional Training.
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Talk about how stupid humans are(30m)|
+{{Quote|Ha ha, you know it! But that's enough slandering for a day. Back to work!}}
+:5 favor with Joeh
+:1x {{Item|Red Apple}}
+}}
+{{Spoiler|Participate in a leather party (8h) {{Favor|Like Family}}|
+{{Quote|Well, that was exhausting! And I had no idea you were so agile! Thank you for coming. Here's a token of my appreciation.}}
+:65 favor with Joeh
+:1 Joeh's Old Sword
+:{{Recipe|Elven Infertility Cantrip}}
+}}
+{{Spoiler|Spar with padded swords(2h)|
+{{Quote|Quite a workout! Next time, I should show you my other sparring technique. It doesn't use swords. It uses... other pointy things. But until then, thank you.}}
+:20 favor with Joeh
+:200 Sword XP
+}}
+{{Spoiler|Help refurbish some used swords(60m)|
+{{Quote|That tedium went by quicker than expected, eh?}}
+:12 favor with Joeh
+:100 Sword XP
+}}
+{{Spoiler|Decorate for a leather party(60m)|
+:12 favor with Joeh 
+:10x {{Item|Shoddy Animal Skin}}
+}}
+{{Spoiler|Go hunt for pig together(3h)|
+{{Quote|Little oinky bastards never knew what hit 'em! Here's your share!}}
+:27 favor with Joeh 
+:10x {{Item|Bacon}}
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Joeh
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+==Services==
+==== Consignment ====
+; Joeh offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10%, stocking fee of 100 Councils.
+: Max 2 active consignments (Equipment).
+: Max 4 consignments per week.
+
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Joeh
+|favorrestriction =Neutral
+|itemrestriction =Anything
+|neutral =10
+|comfortable =16
+|friends =22
+|closefriends =28
+|bestfriends =34
+|likefamily =40
+|soulmates =46
+}}
+
+==== Augmentation ====
+[[Joeh]] can install level 0-20 Augments for 50 Councils. You must be {{favor|Comfortable}} or higher.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Bacon}} x10, {{Item|Joeh's Old Sword}} (Lv 25)
+|RiShin Family = {{Item|Venison Jerky}} x10, {{Item|Joeh's Old Sword}} (Lv 25)
+}}
+== Conversations ==
+{{Quote|You've returned with all your limbs intact. So either you're a very good swordsman or a very cowardly one. Ah, but I shouldn't insult the customers. I'm sure you're quite brave.}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|Have you mastered the Riposte? I prefer it over Parry. We should spar some time, I'll show you the move.}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|It's not an obsession. I mean I can stop any time I want to. I just love the taste of pork products. Actually just about any meat is great. But especially pork.}}
+}}
+{{Spoiler|Variation 3|
+{{Quote|I taught myself swordsmanship by killing pigs. I guess the fascination with pigs grew from that.}}
+}}
+
+[[Category:NPCs]]

@@ -1,0 +1,43 @@
+__NOTOC__
+{{NPC infobox
+|title            = Shiriqa
+|image            = [[File:Shiriqa (npc).png|300px]]
+|caption          = The tiniest of smiles. More of a smirk.
+|zone             = Statehelm
+|town = Statehelm
+|location         = Wandering
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = No scary animals
+}}
+{{Quote|source=[[Shiriqa]]|Here, I'll sprinkle some fairy dust on you! Now you can breathe underwater! Go on, try it!}}
+[[Shiriqa]] is an Fairy who lives in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Shiriqa]] may be found wandering the city of Statehelm during the day and evening.
+== Favor ==
+=== Small Talk ===
+[[Flitilda]] does not use the favor system.
+== Quests ==
+[[Shiriqa]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Shiriqa
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Shiriqa]]|
+I have some flight dust instead if you'd prefer.
+
+(Shiriqa tosses the tiniest pinch of dust at you).
+
+There, now you can fly! But it only works if you start from a high point and jump off.}}
+{{Quote|source=[[Shiriqa]]|
+I just learned there's a word of power to control sharks! Just swim up to one and say "krahs yebo em!" and it will become your pet!}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

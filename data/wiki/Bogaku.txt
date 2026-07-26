@@ -1,0 +1,341 @@
+__NOTOC__
+{{NPC infobox
+|title            = Bogaku
+|image            = [[File:Bogaku (npc).png|300px]] 
+|caption          = Looking at some unusual garbage.
+|zone             = Rahu
+|dungeon = Rahu Sewer
+|location         = Found in a safe room.
+|anatomy = Goblin
+|species = Goblin
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Shamanic Infusion]]
+|barter = Yes
+}}
+[[Bogaku]] is a Goblin from [[Grackhaven]] on an expedition into the [[Rahu Sewer]]s.
+== Location ==
+; [[Rahu Sewer]]
+: Goblin encampment.
+== Favor ==
+Bogaku does not accept gifts.
+
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Friends}}.|
+:Can do favors for [[Chief Glortok]]
+}}
+
+=== Hang Outs ===
+{{Spoiler|Discuss gobthropological history(8h)|
+{{Quote|
+...and so it was at that point that the ratkins decided to pack up their things and start their exodus, but it wasn't to last for very - oh, you have to be going? What a shame, we were just getting to the good stuff!}}
+:150 favor with [[Bogaku]]
+:{{Item|Memory Note}}
+:50 Lore XP
+:75 Goblinese XP
+}}
+{{Spoiler|Discuss more gobthropological history(8h)|
+{{Quote|
+...}}
+:..
+}}
+
+== Quests ==
+Each quest gives one {{Item|Xedrite}} as a reward when turned in.
+<dpl>
+category = Quests/Bogaku
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Snakemeat Wraps
+ |skilllevel = 51
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Goblin Pasties
+ |skilllevel = 53
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Gobbledygook
+ |skilllevel = 55
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Ruktagh
+ |skilllevel = 55
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Swamp Salad
+ |skilllevel = 55
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Brukwont
+ |skilllevel = 40
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Brukwontrat
+ |skilllevel = 50
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=Neutral
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Gadgeteering]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Paralyzing Rat Trap
+ |skilllevel=20
+ |cost=3x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Necromancy]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Raise Skeletal Ratkin Mage 5
+ |skilllevel=64
+ |cost=15x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Shamanic Infusion]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Shamanic Infusion{{pipe}}Unlock Shamanic Infusion Skill Levels 51-60
+ |skilllevel = 50
+ |cost=10x{{Item|Xedrite}} and 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Beginner's Viper Headgear Infusion
+ |skilllevel = 45
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Novice's Viper Headgear Infusion
+ |skilllevel = 50
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shaman's Viper Headgear Infusion
+ |skilllevel = 55
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Beginner's Viper Core Infusion
+ |skilllevel = 46
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Novice's Viper Core Infusion
+ |skilllevel = 51
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shaman's Viper Core Infusion
+ |skilllevel = 56
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Beginner's Viper Hands Infusion
+ |skilllevel = 47
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Novice's Viper Hands Infusion
+ |skilllevel = 52
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shaman's Viper Hands Infusion
+ |skilllevel = 57
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Wolf Headgear Infusion
+ |skilllevel = 54
+ |cost=2x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Bear Chest Infusion
+ |skilllevel = 59
+ |cost=2x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Wolf Chest Infusion
+ |skilllevel = 58
+ |cost=2x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Tiger Hands Infusion
+ |skilllevel = 60
+ |cost=2x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Deer Necklace Infusion
+ |skilllevel = 51
+ |cost=2x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Chest Carapace Infusion
+ |skilllevel = 57
+ |cost=2x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Deinonychus Leg Infusion
+ |skilllevel = 61
+ |cost=2x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Boar Foot Infusion
+ |skilllevel = 53
+ |cost=2x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Novice's Treant Leg Infusion
+ |skilllevel = 52
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shaman's Treant Leg Infusion
+ |skilllevel = 58
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Treant Leg Infusion
+ |skilllevel = 65
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Novice's Fiery Ring Infusion
+ |skilllevel = 49
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shaman's Fiery Ring Infusion
+ |skilllevel = 56
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Fiery Ring Infusion
+ |skilllevel = 64
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Novice's Treant Necklace Infusion
+ |skilllevel = 50
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shaman's Treant Necklace Infusion
+ |skilllevel = 55
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Deep Treant Necklace Infusion
+ |skilllevel = 60
+ |cost=1x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Unknown/Abilities|Unknown (Special Abilities)]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Horrifying Screech
+ |skilllevel=?
+ |cost=3x{{Item|Xedrite}} and 0
+ |favor=?
+}}
+|}
+
+== Services ==
+==== Bartering ====
+{| class="wikitable"
+!Give
+!Receive 
+|-
+|rowspan="2"| {{Item|Xedrite}} x3 || {{Item|Shaman's Precision Belt}}
+|-
+| {{Item|Warrior's Precision Belt}}
+|-
+|rowspan="3"| {{Item|Xedrite}} x1 || {{Item|Strong Antivenom}} x4
+|-
+| {{Item|Somewhat-Gigantic Coin Sack}}
+|-
+| {{Item|Paralyzing Rat Trap}} x5
+|}
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Xedrite}}
+|RiShin Family = Favor Level cannot be reached at this time.
+}}
+== Conversations ==
+{{Quote|source=[[Bogaku]]|
+Most Ratkin can speak passable Goblinese, of course, but their vocabulary isn't very good. They substitute words from their native squeak-language whenever they forget the proper Goblinese term. Very annoying, isn't it.
+}}
+{{Quote|source=[[Bogaku]]|
+Oh yes, there are many Ratkin slaves in [[Grackhaven]]. Annoying fuckers... always replacing important parts of speech with horrible screeches! We teach them Goblinese from birth, but they still can't manage to speak it right.
+}}
+[[Category:NPCs]]

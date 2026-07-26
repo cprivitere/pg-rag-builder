@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> I heard there's some kind of powerful haunting-skeleton in the Serbule Crypt. You should go kill it. I think it's called 'Ursula'. Oh, and you should bring some friends for this party, because Ursula has backup!
+
+<i>[Ursula is a dangerous boss monster. Recommended for a group of 3+ level 15 players.]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> I heard there's some kind of powerful haunting-skeleton in the Serbule Crypt. You should go kill it. I think it's called 'Ursula'. Oh, and you should bring some friends for this party, because Ursula has backup!
+
+<i>[Ursula is a dangerous boss monster. Recommended for a group of 3+ level 15 players.]</i>
+
+===Requirements===
+* Kill Ursula
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> You killed Ursula too, just like that? Well, I guess you really can kill skeletons, huh? Okay! Let's move on to bigger prey!}}
+* 600 councils
+* {{Item|Level 30 Event Loot Key}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

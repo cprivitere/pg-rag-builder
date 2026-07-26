@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Rick Snapley]] in [[New Prestonbule]] said, "I remember as a snotrat having to cut out hundreds of paper snowflakes for the tree each year. Tedious work, but it taught me how to use a knife! We'll need some stencils, though... otherwise they won't all be even, and then what's the point?"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Rick Snapley]]''' in '''[[New Prestonbule Cave]]'''.
+
+===Preface===
+I remember as a snotrat having to cut out hundreds of paper snowflakes for the tree each year. Tedious work, but it taught me how to use a knife! We'll need some stencils, though... otherwise they won't all be even, and then what's the point?
+
+===Requirements===
+* Obtain {{Item|Ancient Stencil}} x3
+* Talk to [[Rick Snapley]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Perfect. Now I'll get these lazy dwarves (and Sona) to start cutting out snowflakes. Thanks!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Gazluk Caves Quests]][[Category:Quests/Rick Snapley]][[Category:Quests/Ri-Shin Quests]]

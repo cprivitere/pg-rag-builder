@@ -1,0 +1,86 @@
+__NOTOC__
+{{NPC infobox
+|title            = Dye Golem
+|image            = [[File:DyeMonster.png|300px]]
+|caption          = A little automaton loaded with advanced dye recipes.
+|zone             = Serbule
+|location         = Tent to the southwest.
+|anatomy = Construct
+|species = Golem
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Dye Making]]
+}}
+{{Quote|
+Hello, Charles Thompson or designated friend! I have several colorization tutorials available.
+}}
+The '''Dye Golem''' is a colorization automaton owned by [[Charles Thompson]]. Charles will grant access to the [[Dye Monster]] to his friends.
+
+==Location==
+; [[Serbule]]
+: In a tent along the southwest path to [[Serbule Crypt]].
+
+==Training==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Dye Making]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Aquamarine Dye
+ |skilllevel=16
+ |cost=1380
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Pale Green Dye
+ |skilllevel=16
+ |cost=1380
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Dark Blue Dye
+ |skilllevel=16
+ |cost=1380
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Blue Dye
+ |skilllevel=16
+ |cost=1380
+ |favor=?
+}}
+{{NPC training row
+ |recipe=White Dye
+ |skilllevel=16
+ |cost=1380
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crimson Dye
+ |skilllevel=16
+ |cost=1380
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Dark Khaki Dye
+ |skilllevel=16
+ |cost=1380
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Yellow Green Dye
+ |skilllevel=16
+ |cost=1380
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Royal Blue Dye
+ |skilllevel=51
+ |cost=6305
+ |favor=?
+}}
+|}
+
+[[Category:NPCs]][[Category:NoRiShin]]

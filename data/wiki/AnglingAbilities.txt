@@ -1,0 +1,25 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Angling/Abilities|Angling Complete Ability List]]==
+</includeonly><noinclude><!-- --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Angling (Basic)|2}} || 1 || Angling (Basic) || Cast your fishing rod and catch a fish. || Consumes 1 [[Basic Bait]] ||  || <b>Power Cost:</b> 1<br><b>Range:</b> 5<br><b>Cooldown:</b> 1 ||
+|-
+| {{Ability icon|Catch and Release (Basic)|2}} || 1 || Catch and Release (Basic) || Cast your fishing rod and catch a fish, then throw it back. || Earn +25% Angling XP. You toss fish back into the water, but keep non-fish items. <br> Consumes 1 [[Basic Bait]] ||  || <b>Power Cost:</b> 1<br><b>Range:</b> 5<br><b>Cooldown:</b> 1 || <b>Quest</b>: [[Angling: Invasive Species]]
+|-
+| {{Ability icon|Fish Juke|2}} || 1 || Fish Juke || Juke the fish with quick movement. This counteracts certain conditions encountered while angling. ||  ||  || <b>Power Cost:</b> 1<br><b>Range:</b> 5<br><b>Cooldown:</b> 1 || 
+|-
+| {{Ability icon|Fish Reel|2}} || 1 || Fish Reel || Reel the line in some. This counteracts certain conditions encountered while angling. ||  ||  || <b>Power Cost:</b> 1<br><b>Range:</b> 5<br><b>Cooldown:</b> 1 || 
+|-
+| {{Ability icon|Fish Troll|2}} || 1 || Fish Troll || Let the line out a bit to wear out the fish. This counteracts certain conditions encountered while angling. ||  ||  || <b>Power Cost:</b> 1<br><b>Range:</b> 5<br><b>Cooldown:</b> 1 || 
+|-
+| {{Ability icon|Angling (Advanced)|2}} || 30 || Angling (Advanced) || Cast your fishing rod and catch a fish. Your advanced bait technique will have them biting fast. || Fish are hooked 3 seconds faster than basic Angling. <br> Consumes 1 [[Good Bait]] ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 1 || <b>Quest</b>: [[Angling: Killer Starfish]] <br> <b>Quest:</b> [[Angling: Unnaturally Cold Waters]]
+|-
+| {{Ability icon|Catch and Release (Advanced)|2}} || 45 || Catch and Release (Advanced) || Use your advanced bait technique to quickly catch a fish, then throw it back. || Fish are hooked 3 seconds faster than basic Angling. Earn +25% Angling XP. You toss fish back into the water, but keep non-fish items. <br> Consumes 1 [[Good Bait]] ||  || <b>Power Cost:</b> 45<br><b>Range:</b> 5<br><b>Cooldown:</b> 1 || <b>Quest</b>: [[Angling: Toxic Blooms]]
+|-
+| {{Ability icon|Angling (Expert)|2}} || 60 || Angling (Expert) || Cast your fishing rod and catch a fish. No fish can resist your bait for long! || Fish are hooked 5 seconds faster than basic Angling, and fish are kept on the hook for 1 extra second. <br> Consumes 1 [[Expert Bait]] ||  || <b>Power Cost:</b> 60<br><b>Range:</b> 5<br><b>Cooldown:</b> 1 || <b>Quest</b>: [[Angling: Too Many Frogs]]
+|-
+| {{Ability icon|Catch and Release (Expert)|2}} || 60 || Catch and Release (Expert) || Use your incredible baiting techniques to rapidly catch a fish, then throw it back. || Fish are hooked 5 seconds faster than basic Angling, and fish are kept on the hook for 1 extra second. Earn +25% Angling XP. You toss fish back into the water, but keep non-fish items. <br> Consumes 1 [[Expert Bait]] ||  || <b>Power Cost:</b> 60<br><b>Range:</b> 5<br><b>Cooldown:</b> 1 || <b>Quest</b>: [[Angling: Old Dreadtooth]]
+|-
+|}

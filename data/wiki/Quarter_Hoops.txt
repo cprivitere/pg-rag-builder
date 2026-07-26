@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Braigon needs more quarter hoops for barrel making.
+
+===Prerequisites===
+To start this quest, talk to '''[[Braigon]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|Gods, I am so sick of making barrels! It's so hard! And so stupid! <i>Sigh...</i> and I just ran out of quarter hoops. Great. Just great. That means I have to talk that idiot Kalaba into making me some more.}}
+
+===Requirements===
+* Obtain {{Item|Quarter Hoop}}s x5
+* Talk to Braigon
+
+===Rewards===
+{{Spoiler|Rewards for Quarter Hoops!|
+{{Quote|You got these just for me? Wow. Wow! That was really kind of you. Here, try this. It's my latest batch. Oh and let me give you some coin to cover your expenses.}}
+
+* 200 {{Favor|favor}}
+* 500 councils 
+* {{Item|Urda Cheese}}
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Braigon]]

@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Selaxi in Amulna asked for some carrots. She mentioned that there's a small garden lot in Amulna where you could grow them.
+
+===Prerequisites===
+To start this quest, talk to '''[[Selaxi]]''' in '''[[Ilmari Desert]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Can you run over to Kelim's little garden -- it's over in the corner of town -- and see if he's going to have more carrots any time in the next year? He just keeps growing peppers!
+
+You know what, don't bother talking to the lout. Just get me carrots!}}
+
+===Requirements===
+* Obtain {{Item|Carrot}}s x6
+* Talk to Selaxi
+
+===Rewards===
+{{Spoiler|Rewards for Fresh Carrots|
+{{Quote|Yes! Carrots! Kelim keeps saying they're super difficult to grow, but that doesn't make any sense, does it? They can't be any harder to grow than, say, a potato. Anyway, thanks! Here, take these. A dozen potatoes for a half-dozen carrots seems like a good trade, right?}}
+
+* 100 {{Favor|favor}}
+* {{Item|Potato}} x 12
+}}
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/Selaxi]]

@@ -1,0 +1,54 @@
+__NOTOC__
+{{Skill infobox
+|title            = Human Anatomy
+|image            =[[File:Human.jpg|500px]] 
+|caption          = Knowledge of the physiology of humans.
+|skilltype        = Anatomy Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy<!-- Any other skills needed to gain this skill -->
+|skilltrainers    = None
+}}
+{{Quote|source=Source|
+Needs a quote
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Human Anatomy''' is a sub-skill of [[Anatomy]] that explores the physiology of Humans.
+=== In-Game Description ===
+Knowledge of the physiology of humans.
+=== Human Culture ===
+Humans are extremely social beings that feel loneliness more than other races.
+{{Quote|source= [["Horse, Carry My Topaz"]]|icon=book|
+A deep, difficult chapbook by the late human poet Avery Lancaster. Her imagery is hauntingly beautiful, yet profoundly stupid at the same time. That's the mark of a true master.
+}}
+{{Quote|source= [["Why Are There Bees" by Jim Hatcher]]|icon=book|
+The well-known human philosopher Jim Hatcher tried his hand at poetry with this tacky volume. There are some hints of cleverness toward the end, for people who keep reading that long.
+}}
+
+==Known Creatures==
+===Friends===
+<dpl>
+ category = Human&NPCs
+ columns = 3
+</dpl>
+
+===Bosses===
+<dpl>
+ category = Human&Bosses
+ notcategory = NPCs
+</dpl>
+
+===Foes===
+<!-- the DPL lists creatures which already have a page and are categorized. -->
+<dpl>
+ category    = Human
+ notcategory = Bosses
+ notcategory = NPCs
+</dpl>
+<!-- here we can manually add any creatures to keep track of missing/todo pages -->
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+[[Category:Skills]][[Category:Anatomy Skills]]

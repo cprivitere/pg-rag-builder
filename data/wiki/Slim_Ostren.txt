@@ -1,0 +1,90 @@
+__NOTOC__
+{{NPC infobox
+|title            = Slim Ostren
+|image            = [[File:Slim Ostren (npc).png|300px]]
+|caption          = A jovial man with a mischievous grim
+|zone             = Statehelm
+|location         = Vicious Bat
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|storage = Yes
+}}
+{{Quote|source=[[Slim Ostren]]| 
+Ah, another wandering soul seeking god tunes. or maybe just a hot brew?}}
+[[Slim Ostren]] is the proprietor of the Vicious Bat in [[Statehelm]].
+== Location ==
+; [[Statehelm]]
+: [[Slim Ostren]] can be found behind the bar at the Vicious Bat.
+
+== Favor ==
+[[Slim Ostren]] is not willing to share his preferences to individuals with '''{{favor|Neutral}}''' favor.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Slim Ostren]] rewards his friends with __TBD__
+== Quests ==
+[[Slim Ostren]] does not offer quests to those with (''{{favor|Neutral}}''' favor).<!--
+<dpl>
+category = Quests/Slim Ostren
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Services ==
+==== [[Storage]] ====
+[[Slim Ostren]] offers some form of rented storage.
+[[Category:StorageSpecial]]
+
+==== Rumors ====
+[[Slim Ostren]] will share a rumor for 10 Councils.
+{{Quote|source=[[Slim Ostren]]| 
+Did I ever tell you I was kicked out of the bard college for playing too much?
+
+Long story short: if you want to do the Full-Day-Performance Challenge, you shouldn't do it within earshot of the dean's office.
+
+I mean, he did give me two warnings, but THREE warnings is the standard amount.}}
+{{Quote|source=[[Slim Ostren]]| 
+I never graduated from the bard college, but at least I didn't get killed by the initiation process! I just had to perform a song. I've heard they replaced it with a combat initiation. And that several students have been seriously injured, and one killed. But you'll never find proof of that. Dean Leon is too smart for that.}}
+{{Quote|source=[[Slim Ostren]]| 
+The latest news from the bard college is that they hired a fairy as a teacher. Supposedly her music is amazing, but the REAL reason they hired her is to get her engineering help with a special teleportation machine.}}
+{{Quote|source=[[Slim Ostren]]| 
+You know the bard college's secretary, Rebeccah? She was a star pupil who went on some famous adventures after she graduated. But she lost her voice fighting a Councilmember! The foolish woman!
+
+The bard school took pity on her and gave her a job after that. Or did she have the job before she lost her voice? I can't remember. But either way, she showed poor judgement fighting a Council wizard. I'm not sure why they trust her to be an administrator of any kind!}}
+{{Quote|source=[[Slim Ostren]]|
+I heard a great rumor about the bard college that really shows how they've fallen on hard times. There used to be a dance-analysis golem in the basement as part of the initiation test. That golem was repurposed, but its old analysis eye was struck in a pot down there. If you dance for the eye, it does something.}}
+{{Quote|source=[[Slim Ostren]]| 
+It's just a fact that the bard college has never vocally renounced [[Denton Razor]]. You know, the famous thief of Vidaria? Yeah! He spent a decade in schools before becoming a thief. He graduated from the bard school, among others, and nobody's renounced him.
+
+They obviously can't take their knowledge back, but they could strike his name from the list of graduates, right? Is it so much to ask that the bard school not promote vigilantism?}}
+{{Quote|source=[[Slim Ostren]]| 
+I hear that old Ormond -- you know, [[Ormond Neth]] at the college? He's infatuated with the new fairy girl they hired.
+
+I mean, good for him, I guess! I always thought he was gay! But it turns out he's just a ... what's the derogatory phrase for it? I guess I'll have to make up my own. He's a butterflapper! No, that's awful. He's a bugfucker? No, not clever. He's a nectarlicker? ...eugh. Let me ponder this one.
+
+But it says something that I'm not sure which is more shameful in the eyes of the public: wanting to shag another man, or wanting to shag an entirely different species.
+
+Who am I kidding? Shagging another man is definitely more shameful.}}
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Slim Ostren]]| 
+Have you tried a kettle of the black? Only for those who know the secret tune, eh?}}
+{{Quote|source=[[Slim Ostren]]| 
+Ah, the Bard College days! I may not have graduated, but I certainly made my mark.}}
+{{Quote|source=[[Slim Ostren]]| 
+(Slim smiles thinly)
+
+Sometimes you need to learn a few tunes before you get to hear the secrets of the stage. If you catch me.}}
+{{Quote|source=[[Slim Ostren]]|
+They say the [[Duke of Flapbule]] flies in every full moon, just to check out the new tunes.}}
+{{Quote|source=[[Slim Ostren]] (Full Moon)| 
+Jenny took the night off. She loves to go on nature outings while the moon is full, so it's easier to hike at night. She hikes pretty far, too! She'll probably have some new stories when she gets back.}}
+
+[[Category:NPCs]]

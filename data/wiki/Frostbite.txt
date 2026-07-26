@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Frostbite
+| description = Spontaneously freeze an enemy's limbs, causing periodic loss of fine motor control.
+| level = 15
+| power cost = 18
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Frostbite}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 29 Cold
+| special = Target is randomly stunned occasionally during the next 30 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frostbite 2
+| description = Spontaneously freeze an enemy's limbs, causing periodic loss of fine motor control.
+| level = 30
+| power cost = 24
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Frostbite}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 62 Cold
+| special = Target is randomly stunned periodically during the next 30 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frostbite 3
+| description = Spontaneously freeze an enemy's limbs, causing periodic loss of fine motor control.
+| level = 45
+| power cost = 31
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Frostbite}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 117 Cold
+| special = Target is randomly stunned often during the next 30 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frostbite 4
+| description = Spontaneously freeze an enemy's limbs, causing periodic loss of fine motor control.
+| level = 55
+| power cost = 34
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Frostbite}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 170 Cold
+| special = Target is randomly stunned often during the next 30 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frostbite 5
+| description = Spontaneously freeze an enemy's limbs, causing periodic loss of fine motor control.
+| level = 65
+| power cost = 38
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Frostbite}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 223 Cold
+| special = Target is randomly stunned often during the next 30 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frostbite 6
+| description = Spontaneously freeze an enemy's limbs, causing periodic loss of fine motor control.
+| level = 75
+| power cost = 43
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Frostbite}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 282 Cold
+| special = Target is randomly stunned often during the next 30 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

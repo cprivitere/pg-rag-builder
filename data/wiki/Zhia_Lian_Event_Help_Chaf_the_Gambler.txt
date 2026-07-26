@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+Brandon Mellus in the Red Wing Casino said, "I guess you need to talk to Chaf too. The thing is that Chaf is perfectly fine. Zhia Lian only gave him a single coin when he wished for money, but that's really not a bad outcome when you ask Zhia Lian for a favor! Yet he has never stopped complaining.
+
+Chaf's a gambler, always has been, and very superstitious. He insists that Zhia's coin is cursed. He also drinks a lot, and I'm afraid he's going to show up at the party and make a scene in front of Zhia. And that would be awful. Not just for him: for everyone!
+
+Go talk to him -- he's already arrived at the casino (big shocker). He loves dice games, so look for him there."
+
+This Quest can be repeated after 60 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Brandon Mellus]]''' in the '''[[Red Wing Casino]]'''.
+
+===Preface===
+I guess you need to talk to Chaf too. The thing is that Chaf is perfectly fine. Zhia Lian only gave him a single coin when he wished for money, but that's really not a bad outcome when you ask Zhia Lian for a favor! Yet he has never stopped complaining.
+
+Chaf's a gambler, always has been, and very superstitious. He insists that Zhia's coin is cursed. He also drinks a lot, and I'm afraid he's going to show up at the party and make a scene in front of Zhia. And that would be awful. Not just for him: for everyone!
+
+Go talk to him -- he's already arrived at the casino (big shocker). He loves dice games, so look for him there.
+
+===Requirements===
+* Help Chaf in Red Wing Casino
+* Talk to Brandon Mellus
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|So is Chaf cool? He's not going to get us all killed by a whimsical god? Good! That's a huge relief. Thank you!}}
+* 10000 councils
+* {{Item|Event Loot Key (Universal)}} x4
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Brandon Mellus]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,102 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Blast of Despair
+| description = You blast sadness through your horn's song. You must have a horn equipped.
+| level = 6
+| power cost = 11
+| reuse time = 6
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfDespair}}
+| ragemulti = 0
+| damage = 12 Nature + 12 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Despair 2
+| description = You blast sadness through your horn's song. You must have a horn equipped.
+| level = 18
+| power cost = 16
+| reuse time = 6
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfDespair}}
+| ragemulti = 0
+| damage = 30 Nature + 30 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Despair 3
+| description = You blast sadness through your horn's song. You must have a horn equipped.
+| level = 30
+| power cost = 20
+| reuse time = 6
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfDespair}}
+| ragemulti = 0
+| damage = 52 Nature + 52 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Despair 4
+| description = You blast sadness through your horn's song. You must have a horn equipped.
+| level = 42
+| power cost = 24
+| reuse time = 6
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfDespair}}
+| ragemulti = 0
+| damage = 86 Nature + 86 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Despair 5
+| description = You blast sadness through your horn's song. You must have a horn equipped.
+| level = 54
+| power cost = 28
+| reuse time = 6
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfDespair}}
+| ragemulti = 0
+| damage = 138 Nature + 138 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Despair 6
+| description = You blast sadness through your horn's song. You must have a horn equipped.
+| level = 66
+| power cost = 32
+| reuse time = 6
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfDespair}}
+| ragemulti = 0
+| damage = 191 Nature + 191 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Despair 7
+| description = You blast sadness through your horn's song. You must have a horn equipped.
+| level = 78
+| power cost = 36
+| reuse time = 6
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfDespair}}
+| ragemulti = 0
+| damage = 251 Nature + 251 if target is Vulnerable
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,9 @@
+== News, March 23 ==
+Hi guys, I expected to have a patch up to fix the bug with monsters not getting enough Rage, but it didn't happen. And... eh, it just doesn't seem worth the effort to patch it at the moment, so enjoy the temporarily low-Rage monsters!
+
+There will be an update Thursday or Friday with some dungeon revamps; I want to make the under-used dungeons more fun and engaging. The Kur Tower in particular is getting a huge extension, and should become a fun 3-person experience for people in their low 40s. (Or duoable for people at 50... theoretically, anyway.)
+
+Thanks for sending in bugs!
+:- Eric
+
+[[Category:Game updates]]

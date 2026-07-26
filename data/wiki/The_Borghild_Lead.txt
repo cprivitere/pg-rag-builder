@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+Merriana in Serbule Hills said, "Somewhere south of here, nearish Serbule Keep, is a massive door. This traditional showy dwarf door leads to the long-dead city of Borghild. No dwarves live there, but it's infested with undead.
+
+You will ... How do I put this politely? You are quite formidable, but you would be wise to bring some allies with you into Borghild. It is full of traps.
+
+Do this for me and I shall bequeath upon you one of my grandest weather wands."
+===Prerequisites===
+To start this quest, talk to '''[[Merriana]]''' in '''[[Serbule Hills]]'''.  The quest is available at {{Favor|Tolerated}} favor. The quest [[Under The Hand Is An Orb]] must be completed first.
+
+===Preface===
+Somewhere south of here, nearish Serbule Keep, is a massive door. This traditional showy dwarf door leads to the long-dead city of Borghild. No dwarves live there, but it's infested with undead.
+
+You will ... How do I put this politely? You are quite formidable, but you would be wise to bring some allies with you into Borghild. It is full of traps.
+
+Do this for me and I shall bequeath upon you one of my grandest weather wands.
+===Requirements===
+* Collect {{Item|Strange Crystal Ball}} x1 {{Hint|This orb can be found inside the trapped chest in the room east of Kiralem.}}
+* Talk to Merriana
+
+===Rewards===
+{{Spoiler|Rewards for The Borghild Lead|
+{{Quote|
+I am impressed with your effort! Less so with the results, for while this was once a Naturesphere, it is no longer dangerous. I wonder what its story was. Typically when a Naturesphere is used, it becomes part of the area's history, for it always leads to terrible cataclysms. Perhaps that is why there are no more dwarves in Borghild...
+
+I am somewhat satisfied that no active Naturesphere is lying around in a cave near here. You have helped put my mind at ease, and for that I grant you this. It is quite dangerous. Maybe don't use it at first... wait until your skill increases a bit.
+}}
+* 150 favor towards [[Merriana]].
+* {{Item|Leafwind}} x1 (Level 65)
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]], [[Category:Quests/Merriana]]

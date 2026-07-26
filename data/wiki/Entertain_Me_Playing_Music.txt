@@ -1,0 +1,20 @@
+__NOTOC__
+==Summary==
+Pennoc in Serbule told you to play some music.
+
+===Prerequisites===
+To start this quest, talk to '''[[Pennoc]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|Go grab a lute -- I think Marna sells some. And play! Don't bother playing near me, though -- I can't stand beginner lute music. I just want you to get some practice time in so that you'll be more entertaining later.}}
+
+===Requirements===
+* Play Music For 10 Minutes
+* Talk to Pennoc
+
+===Rewards===
+{{Spoiler|Rewards for Entertain Me: Playing Music|
+{{Quote|Play till your fingers bled? Wonderful! Elves are patient, you know. I'm investing in you to cure my far-future boredom.}}
+
+This quest will reward random loot. This may include items with 25 level mods.}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Entertain Me]][[Category:Quests/Pennoc]]

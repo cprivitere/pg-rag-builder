@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> It's pumpkin-carving season! That's kinda whimsical, so I approve. You can get most of the ingredients you need by... yep: killing the undead.
+
+Obtain a pumpkin from an undead fiend, as well as a recipe book for Jack O' Lanterns. Then carve it up! If you don't have a butcher knife, you can buy one in town, I'm sure.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> It's pumpkin-carving season! That's kinda whimsical, so I approve. You can get most of the ingredients you need by... yep: killing the undead.
+
+Obtain a pumpkin from an undead fiend, as well as a recipe book for Jack O' Lanterns. Then carve it up! If you don't have a butcher knife, you can buy one in town, I'm sure.
+
+===Requirements===
+* Carve a Jack O'Lantern
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Nice job! You can place that pumpkin in town for others to appreciate! Or whatever. Let's move on.}}
+* 300 councils
+* {{Item|Level 10-20 Event Loot Key}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Ukorga in the Kur Mountains asked you for Cedar Wood Chips to keep the kitchen stocked.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ukorga]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I didn't lay in enough cedar wood chips for all the cooking that Laura's been doing. She brings in lots of customers and I don't want her to get upset!
+
+I have plenty of maple wood, but she only uses cedar for cooking. Can you get some more?}}
+
+===Requirements===
+* Obtain {{Item|Cedar Wood Chips}} x10
+* Talk to Ukorga
+
+===Rewards===
+{{Spoiler|Rewards for Keep the Kitchen Stocked|
+{{Quote|Perfect! You're the best! Here, take this old thing. It looks good on you!}}
+
+* 100 {{Favor|favor}}
+* {{Item|Amulet of Cold Mitigation 1}}
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Ukorga]]

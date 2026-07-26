@@ -1,0 +1,102 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Fireball
+| description = Throw a ball of fire.
+| level = 10
+| power cost = 0
+| reuse time = 2
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Fireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 14 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Fireball 2
+| description = Throw a ball of fire.
+| level = 25
+| power cost = 0
+| reuse time = 2
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Fireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 23 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Fireball 3
+| description = Throw a ball of fire.
+| level = 35
+| power cost = 0
+| reuse time = 2
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Fireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 33 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Fireball 4
+| description = Throw a ball of fire.
+| level = 50
+| power cost = 0
+| reuse time = 2
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Fireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 60 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Fireball 5
+| description = Throw a ball of fire.
+| level = 60
+| power cost = 0
+| reuse time = 2
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Fireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 80 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Fireball 6
+| description = Throw a ball of fire.
+| level = 70
+| power cost = 0
+| reuse time = 2
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Fireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 101 Fire
+}}
+|-
+|
+{{Ability infobox
+| name = Fireball 7
+| description = Throw a ball of fire.
+| level = 80
+| power cost = 0
+| reuse time = 2
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Fireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 127 Fire
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

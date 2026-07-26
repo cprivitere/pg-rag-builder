@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Mummies are another rare undead, because that quitter Ormorek refuses to make new ones. But there's still plenty left for you to kill, don't worry. Most mortals are terrified of them because they spread horrific diseases. But you aren't afraid, are you? Prove it by catching a mummy disease, then killing the fiends!
+
+<i>[You can find mummies in a cave in Gazluk.]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Mummies are another rare undead, because that quitter Ormorek refuses to make new ones. But there's still plenty left for you to kill, don't worry. Most mortals are terrified of them because they spread horrific diseases. But you aren't afraid, are you? Prove it by catching a mummy disease, then killing the fiends!
+
+<i>[You can find mummies in a cave in Gazluk.]</i>
+
+===Requirements===
+* Kill mummies while suffering from a mummy disease x5
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Good work! And here's a cure for that disease.}}
+* 1000 councils
+* {{Item|Event Loot Key (Universal)}}
+* {{Item|Curative: Mummy Diseases}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+A friendly mantis named Azalak suggested that the brain bugs in the area are coming from a cave west of him. Azalak asked you to find out what happened to a human named Commander Ferrows, last seen in that cave. In exchange, you'll get something that will be useful when encountering Dalvos.
+
+===Prerequisites===
+To start this quest, talk to '''[[Azalak]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|To be added}}
+
+===Requirements===
+* Enter the brain bug cave
+* Find Commander Ferrows' Fate
+* Return to Azalak
+
+===Rewards===
+{{Spoiler|Rewards for The Fate of Commander Ferrows|
+{{Quote|To be added}}
+
+* {{Item|Strong Psychic Resistance Potion}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Azalak]][[Category:Quests/Story Quests]]

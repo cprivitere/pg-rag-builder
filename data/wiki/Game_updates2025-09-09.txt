@@ -1,0 +1,24 @@
+==Update Notes: September 9, 2025==
+This update patches some issues found in yesterday's update.
+
+:- Sound Settings now handles cases where no voice input or output sources can be found... hopefully this fixes the blank Sound Settings issue. If it doesn't, please let us know!
+:- New Sound setting: "Auto-Join Hunting Party Voice Chat". Defaults to true
+:- Improve handling of voice chat UI when switching zones while in a party (if bugs persist around this, please report them)
+:- Lessen underwater effects, so it should be somewhat easier to see while under water
+:- New Graphics setting: "Disable Underwater Effects". Try this if you are experiencing an all-black screen while under water
+:- Lower general brightness in all zones, particularly around sunrise & sunset
+:- Lower brightness in Vidaria Demon & Frozen areas, and increase the transition length
+:- Clouds are now visible at the lowest Sky Quality setting
+:- Fix monsters spawning in rocks in Ilmari
+:- Fix for sunlight always harming vampires in Eltibule, regardless of time of day
+:- Lower the wind effect on trees in most zones
+:- Fix windmill in Serbule
+:- Fix floating plants in Serb Hills
+:- Fix pink triangle in Povus Caves
+:- Fix bug preventing party frames from being right-clicked on
+:- Fix for Makara being pinned under a rock
+:- Fix beige square where the saddlebag button should be
+:- Performance improvements for low-end PCs that couldn't log into areas using the new weather system
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

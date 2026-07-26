@@ -1,0 +1,56 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Restorative Sigil
+| description = Create a symbol of health that heals nearby allies when danger is nearby. Lasts 60 seconds. Consumes one Basic Holistic Ink.
+| level = 10
+| power cost = 9
+| reuse time = 15
+| range = 4 meters
+| skill = Sigil Scripting
+| keywords = {{KWAB|SigilScripting}}{{KWAB|RestorativeSigil}}
+| special = Sigil heals nearby allies for 15 health every 5 seconds while in combat.
+}}
+|-
+|
+{{Ability infobox
+| name = Restorative Sigil 2
+| description = Create a symbol of health that heals nearby allies when danger is nearby. Lasts 90 seconds. Consumes one Advanced Holistic Ink.
+| level = 25
+| power cost = 12
+| reuse time = 15
+| range = 4 meters
+| skill = Sigil Scripting
+| keywords = {{KWAB|SigilScripting}}{{KWAB|RestorativeSigil}}
+| special = Sigil heals nearby allies for 25 health every 5 seconds while in combat.
+}}
+|-
+|
+{{Ability infobox
+| name = Restorative Sigil 3
+| description = Create a symbol of health that heals nearby allies when danger is nearby. Lasts 120 seconds. Consumes one Expert Holistic Ink.
+| level = 45
+| power cost = 17
+| reuse time = 15
+| range = 4 meters
+| skill = Sigil Scripting
+| keywords = {{KWAB|SigilScripting}}{{KWAB|RestorativeSigil}}
+| special = Sigil heals nearby allies for 35 health every 5 seconds while in combat.
+}}
+|-
+|
+{{Ability infobox
+| name = Restorative Sigil 4
+| description = Create a symbol of health that heals nearby allies when danger is nearby. Lasts 120 seconds. Consumes one Amazing Holistic Ink.
+| level = 55
+| power cost = 19
+| reuse time = 15
+| range = 4 meters
+| skill = Sigil Scripting
+| keywords = {{KWAB|SigilScripting}}{{KWAB|RestorativeSigil}}
+| special = Sigil heals nearby allies for 50 health every 5 seconds while in combat.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,39 @@
+__NOTOC__
+{{NPC infobox
+|title            = Vendor Fox
+|image            = [[File:VendorFox (npc).png|400px]] 
+|caption          = He came from a box!
+|location         = {{Item|Event: Vendor Fox in a Box}}
+|anatomy =  Canine
+|species = Fox
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = Yes
+}}
+{{Quote|source=[[Vendor Fox]]| Whew! Thanks for summoning me! I really needed some fresh air!
+}}
+[[Vendor Fox]] is an [[Industry]]-trained Wizard familiar magically stored in a box. When released, the [[Vendor Fox]] will offer to purchase items from anyone that speaks to them for five minutes. The [[Vendor Fox]] can be summoned every two hours using {{Item|Event: Vendor Fox in a Box}}
+== Location ==
+; Anywhere
+: The [[Vendor Fox]] can be summoned anywhere.
+== Shopkeeper ==
+[[Vendor Fox]] sell a variety of useful items, and will buy anything. Adventurers can purchase items from the ''Buy Used'' tab of a [[Vendor Fox]]. The ''Buy Used'' tab is shared between summoned foxes.
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+A summoned [[Vendor Fox]] will only build favor with its summoner. 
+* Favor is raised every time the [[Vendor Fox]] is summoned.
+* It takes 300 summons, or 600 hours to reach '''{{favor|Soul Mates}}'''
+===Favor Rewards=== 
+[[Vendor Fox]] reward their summoner upon an increase in their '''{{favor}}''' with higher Spending Limits in its shop.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Spirit Stone}} x2
+|RiShin Family = {{Item|Spirit Stone}} x3
+}}
+== Conversations ==
+{{Quote|source=[[Vendor Fox]]| You really should come see the inside of my fox box one day. You would be amazed at how much stuff can fit in there!}}
+{{Quote|source=[[Vendor Fox]]| Why is everyone so interested in what I have to say?
+}}
+[[Category:NPCs]]

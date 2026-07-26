@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Nightshade]] in [[Kur]] said, "We need tinsel. What can we make it from? It should be fluffy, light, and... I have it! Matted hairballs! We'll dye them red. Go, fetch some!"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Nightshade]]''' in the '''[[Kur Mountains]]'''.
+
+===Preface===
+We need tinsel. What can we make it from? It should be fluffy, light, and... I have it! Matted hairballs! We'll dye them red. Go, fetch some!
+
+===Requirements===
+* Obtain {{Item|Matted Hair}} x6
+* Talk to [[Nightshade]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|We should be able to tease these disgusting hairballs apart and dye them red. And by the by, I love this! I've met the obligations of my duty as tree-master, and yet nobody will ever ask me to do it again! It's perfect.}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Nightshade]][[Category:Quests/Ri-Shin Quests]]

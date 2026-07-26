@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Lakrea told you to use treasure maps to find buried treasure, such as through [[Treasure Cartography]]. 
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|You should be more adventurous. And what's more adventurous than treasure maps? Nothing! Find or make a treasure map and then follow it to the buried treasure.}}
+
+===Requirements===
+* Hunt Buried Treasure
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: Treasure Hunting|
+{{Quote|Was the treasure good? Doesn't really matter: what matters is the searching itself.}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

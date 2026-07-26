@@ -1,0 +1,106 @@
+__NOTOC__
+{{NPC infobox
+|title            = Jace Soral
+|image            = [[File:Jace Soral.jpg|300px]]
+|caption          = 
+|zone             = Kur Mountains
+|location         = The campfire with [[Sanja]].
+|anatomy = Human
+|species = Lycanthrope
+|beastspeak       = Yes
+|beastlist = Non-Human or Lycan
+|skilltrainer     = [[Alchemy]]
+|vendor           = Yes
+|storage = Yes
+|consignment = Yes
+}}
+{{Quote|Yeah, let's talk about bullshit.  Yak yak yak.  There.  We done now?
+}}
+[[Jace Soral]] is a humanoid form werewolf NPC that can support werewolf players in various ways.  While not the absolute necessity that [[Sanja]] is, he may very well be the only vendor in Kur Mountains that werewolf players have access to. He refuses to talk to non-werewolf humans, and only grudgingly talks to non-werewolf animals.
+
+Jace will not speak with humans.
+
+== Location ==
+; [[Kur Mountains]]
+: Near the North-Westernmost point on the map that isn't in the ocean, next to a campfire and [[Sanja]].
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Clean and prepare wolfsbane (1h)|
+{{Quote|
+I hate working with this stuff. Being so vulnerable to it and all! Thanks for making it a little easier. Here. Take these. They're used in wolfsbane bombs.}}
+:24 favor
+:3 x {{Item|Field Mushroom}}
+:3 x {{Item|Perch}}
+}}
+{{Spoiler|Chop firewood and clean the campsite (4h)|
+{{Quote|
+It feels good to do simple work like this, doesn't it? Thanks. Oh here, take this junk with you.
+}}
+:70 favor with Jace Soral
+:3 Power Potion Extreme
+}}
+{{Spoiler|Play poker with Jace Soral and Sanja (4h)|
+{{Quote|
+'''Again?!''' How are you so good at this? Are you using mind magic on us? This is dumb. I'm out. 
+}}
+:70 favor with Jace Soral
+:32 Red Game Chip
+:8 Green Game Chip
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Jace Soral
+notcategory = Quests/Warden Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+==== Warden Quests ====
+Jace Soral offers quests only available to Warden characters.
+<dpl>
+category = Quests/Jace Soral
+category = Quests/Warden Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+==Training==
+; [[Alchemy]]
+: ''Wolfsbane Blade'', ''Wolfsbane Blade 2'', ''Wolfsbane Blade 3''
+== Services ==
+==== Consignment ====
+; Jace Soral offers [[Consignment]] at {{Favor|Neutral}}.
+: Mark-up fee of 10%, stocking fee of ??? Councils.
+: Max 3 items.
+
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Jace Soral
+|favorrestriction =Friends
+|itemrestriction =Anything
+|neutral =0
+|comfortable =0
+|friends =15
+|closefriends =20
+|bestfriends =25
+|likefamily =30
+|soulmates =35
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends =  {{Item|Heinous Wolfsbaned Knife}} x10
+|RiShin Family = {{Item|Heinous Wolfsbaned Knife}} x10, {{Item|Yeti Knuckleduster}} (Lv 45)
+}}
+== Conversations ==
+
+[[Category:NPCs]]

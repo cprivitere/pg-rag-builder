@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Tangle in the Sacred Warden Grotto said, "We need to check in on some of our spy network members. These are animals in distant lands that work with us. They aren't all members of the Wardens, but they're entrusted with our secret communication ritual. Start by checking in with a cow in Eltibule. I don't know her name... she's never given us one. But she says she's the only talking cow in her herd, so... see what you can do. Take this care package to her. It's some stuff she asked for a while back."
+
+===Prerequisites===
+To start this quest, talk to [[Tangle]] in the [[Sacred Grotto]]. The quest is available at {{Favor|Tolerated}} favor.
+
+===Preface===
+{{Quote|
+We need to check in on some of our spy network members. These are animals in distant lands that work with us. They aren't all members of the Wardens, but they're entrusted with our secret communication ritual. Start by checking in with a cow in Eltibule. I don't know her name... she's never given us one. But she says she's the only talking cow in her herd, so... see what you can do. Take this care package to her. It's some stuff she asked for a while back.
+}}
+
+===Requirements===
+* Deliver Care Package to [[Suspicious Cow]]
+* Talk to Tangle.
+
+===Rewards===
+{{Spoiler|Midway Text|
+Oh, you're doing deliveries for the Wardens? Hey, that's the stuff I asked for! ... What is this? This is a milking device for goats! Not cows! How can you mix these up? Our udder shape isn't even similar! Tell him thanks for the clover and salt, but I still need a milk storage device FOR COWS. And more clover than this!
+}}
+{{Spoiler|Rewards for Checking In On The Suspicious Cow|
+{{Quote|
+She's still alive? Great. Did she like the stuff? Oh. Well, I got it third-hand from a wolf in the desert, so... I did my best. Thanks for doing the delivery.
+}}
+* 100 Favor to [[Tangle]].
+* Warden Points x5
+}}
+
+[[Category:Quests]][[Category:Quests/Tangle]][[Category:Quests/Sacred Grotto Quests]]

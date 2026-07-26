@@ -1,0 +1,14 @@
+__NOTOC__
+==Summary==
+Dalvos isn't in Serbule. You need to find him. Eltibule is the next logical place to try.
+
+===Requirements===
+* Go to Eltibule
+* Find someone who knows about Dalvos {{Hint|Speak with Oritania in Eltibule Keep.}}
+
+===Rewards===
+{{Spoiler|Rewards|
+* Unlocks next quest.
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Story Quests]]

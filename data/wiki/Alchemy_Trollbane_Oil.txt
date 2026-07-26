@@ -1,0 +1,136 @@
+__NOTOC__
+{{ITEM infobox
+|name = Alchemy: Trollbane Oil
+|skillreqs = Alchemy 25<br>
+|description = Teaches you how to make a flammable oil that can be applied to weapons.
+|value = 625
+|extra = {{Spoiler|
+|{{ITEM EXTRA infobox
+ | stack = 1
+ | keywords = <p>{{KW|AlchemyRecipe}}{{KW|Book}}{{KW|Consumable}}{{KW|Document}}</p><p>{{KW|RareRecipe}}{{KW|Recipe}}</p>
+}}}}
+}}
+<!-- Add a brief description of the item. This can be anything as long as it is relevant, but mentioning skills might be a good idea. You can just add the in-game description here until something else is written! -->
+== How to Obtain ==
+<!-- Include any general information about obtaining the item here. If there is a single extremely standard method of obtaining an item, include that here. Often no information needs to be added here.
+Example:
+Grow from an [[Onion Seedling]] via [[Gardening]].
+-->
+===Producing with Recipes===
+<!-- v461 -->
+<!-- This section has been added automatically by a bot. Please contact [[user:Shupitsu]] if you believe this section is in error. -->
+None.
+
+=== Obtaining through Bartering ===
+<!--
+Example:
+Barter {{Item|Fire Dust}} x1 to [[Gretchen Salas]] for {{Item|Oak Wood}} x4.
+-->
+=== Purchasing ===
+<!-- Add as much information as you have available.  Include incomplete information.
+Example line:
+*[[Sammie Grimspine]] in [[Serbule Hills]] for 75 councils. Requires {{Favor|Close Friends}}.
+-->
+[[Daisy]] in [[Sunvale]] & Requires Deer Form.
+
+=== Drops ===
+<!-- To add drops, modify the relevant mob page and it will automatically be added to the following table. -->
+<dpl>
+noresultsheader = This item has not been submitted by an editor as loot, or may not exist as loot
+category = Loot/Alchemy: Trollbane Oil
+mode = unordered
+columns = 1
+include = {MOB Location}:area
+table = class="wikitable mw-collapsible mw-collapsed sortable", Monster, Location
+</dpl>
+=== Gathering ===
+<!-- Include items obtained from ground spawns such as fruit
+ trees, mushroom patches, ice blocks, serbule crypt urns
+Example line:
+* Randomly from [[Kur]] ice blocks.
+-->
+===Quest Rewards===
+<!-- v461 -->
+<!-- This section has been added automatically by a bot. Please contact [[user:Shupitsu]] if you believe this section is in error. -->
+None.
+
+=== Other Ways to Obtain === <!-- Add a subsection for any How to Obtain info not included above. Some possible subsections are
+==== Winter Holiday Gifts ====
+or
+==== Hang Outs ====
+-->
+== Uses ==
+<!-- Include any general information about using the item here. If there is a single extremely standard use for an item, include that here. Often no information needs to be added here.
+Example:
+Place and harvest after 1 minute to receive {{Item|Beginner's Arrow Shafts}}.
+-->
+===Using in Recipes===
+<!-- v461 -->
+<!-- This section has been added automatically by a bot. Please contact [[user:Shupitsu]] if you believe this section is in error. -->
+None.
+
+===Gifting===
+<!-- v461 -->
+<!-- This section has been added automatically by a bot. Please contact [[user:Shupitsu]] if you believe this section is in error. -->
+{| {{STDT|mw-collapsible mw-collapsed}}
+! NPC !! Location !! Preferences
+|- style="background:#4AF24A;"
+| [[Flia]] || East of Serbule Keep in [[Serbule]] || Loves ([[:Category:Items/RareRecipe|Rare Recipes]])
+|- style="background:#4AF24A;"
+| [[Marna]] || Serbule Keep in [[Serbule]] || Loves ([[:Category:Items/RareRecipe|Rare Recipes]])
+|- style="background:#4AF24A;"
+| [[Daisy (NPC)]] || [[Animal Town]] in Sun Vale || Loves ([[:Category:Items/AlchemyRecipe|Alchemy Recipes]])
+|- style="background:#9EF24A;"
+| [[Charles Thompson]] || Charles Thompson's Tent in [[Serbule]] || Likes ([[:Category:Items/AlchemyRecipe|Alchemy Recipes]] and [[:Category:Items/RareRecipe|Rare Recipes]])
+|- style="background:#9EF24A;"
+| [[Mox Warcut]] || [[New Prestonbule Cave]] in Gazluk || Likes ([[:Category:Items/AlchemyRecipe|Alchemy Recipes]])
+|- style="background:#9EF24A;"
+| [[Ragabir]] || [[Red Wing Casino]] || Likes ([[:Category:Items/AlchemyRecipe|Alchemy Recipes]])
+|- style="background:#9EF24A;"
+| [[Azalak]] || The Housing Complex in Northern [[Serbule]] || Likes ([[:Category:Items/Book|Books]])
+|- style="background:#9EF24A;"
+| [[Korbok]] || Outside the far-west gatehouse. || Likes ([[:Category:Items/Document|Documents]])
+|- style="background:#9EF24A;"
+| [[Echur]] || Serbule Keep in [[Serbule]] || Likes ([[:Category:Items/Book|Books]])
+|}
+
+=== Bartering Uses ===
+<!--
+Example:
+Give 3-4x {{Item|Brain Bug Lobe}}, along with 2-3x {{Item|Brain}} to [[Zeratak]] in exchange for a choice of equipment.
+-->
+=== Selling ===
+<!-- Include information for npcs who buy this item at full value with sufficient favor. Do not list general vendors; instead include the line {{General Buyers}} at the bottom of the list.
+Example:
+Purchased at full value by:
+* [[Sir Coth]]
+{{General Buyers}}
+-->
+===Consumption===
+====Direct Consumption====
+<!-- Include this section if an item can be consumed, and document the effects providing as much information as possible.
+Example:
+Drinking a Healing Potion instantly restores 75 health and consumes 25 metabolism.
+-->
+====Ability Consumption====
+<!-- v461 -->
+<!-- This section has been added automatically by a bot. Please contact [[user:Shupitsu]] if you believe this section is in error. -->
+None.
+
+===Quest Fulfillment===
+<!-- v461 -->
+<!-- This section has been added automatically by a bot. Please contact [[user:Shupitsu]] if you believe this section is in error. -->
+None.
+
+=== Other Uses ===
+<!-- Add a subsection for any uses that don't fit in above sections.
+====Example Subsection Heading====
+Example subsection.
+-->
+== Lore ==
+<!-- Add quotes or any other in-game lore that mentions the item.
+Example:
+{{Quote|source=[[Velkort]]|Ah yes. The secretions of fire elementals and other fiery beasts. Quite valuable. I will part with some of mine if you complete a few favors for me. Beyond that, you can obtain it by seeking out creatures that are naturally on fire. For instance, look for fire spiders in the Eltibule region.}}
+{{Quote|source=[[Work Order for Fire Dust]]|Rumor has it that Fire Dust can be found all over the place in Serbule and Eltibule. You are very lucky! It is not so common here in Verta.}}
+-->
+<!--Category tags are added automatically by the ITEM infobox-->

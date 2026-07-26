@@ -1,0 +1,70 @@
+__NOTOC__
+{{Skill infobox
+|title            = Wind Instruments
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Skill in performing with brass and woodwind instruments such as trumpets, ocarinas, and flutes.
+|skilltype        = Other Skill
+|maxlevel         = 20
+|req              = N/A
+|skilltrainers    = N/A
+}}
+Skills in performing with brass and woodwind instruments such as trumpets, ocarinas, and flutes.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Wind Instruments]] is one of three musical instrument Sub-skills of [[Performance]].
+=== In-Game Description ===
+Skills in performing with brass and woodwind instruments such as trumpets, ocarinas, and flutes.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Wind Instruments]] is automatically unlocked when an instrument associated with the skill that has a Level requirement of 0 is equipped.
+* {{Item|Gemshorn}} and some other ___ unlock the skill at Level 0.
+* {{Item|Blatterhorn}} unlocks Level 11-20 abilities.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None.
+===== Secondary Skills: =====
+* [[Performance]] - [[Percussion Instruments]] is a Sub-skill of [[Performance]].
+* [[Stringed Instruments]] - Skill in performing with stringed instruments such as harps, lutes, and guitars.
+* [[Percussion Instruments]] - Skill in performing with percussion instruments such as drums, bells, and dulcimers.
+===== Related Skills: =====
+* [[Interpretive Dance]] - Skill in dancing to music in a way that entertains or moves others.
+* [[Oratory]] - The ability to speak in a public way that moves your audience.
+* [[Bard]] - A combat ability that uses musical instruments.
+===== Synergy Levels: =====
+There are no Bonus [[Synergy Levels]] for [[Wind Instruments]].
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Music ===
+Playing music grants buffs which can boost combat experience gained, out-of-combat armor regeneration, and sometimes other effects if a group of players gathers.
+=== Gardening ===
+Playing music while [[Gardening]] can increase the chances for a larger crop harvest.
+=== Finding Instruments ===
+* {{Item|Gemshorn}} - Often drops from Winter Court Fairies in [[Sun Vale]].
+* {{Item|Fog Horn}} - Frequently drops from [[The Fog]] in the [[Goblin Dungeon]].
+* {{Item|Blatterhorn}} - Sometimes drops from [[Manticore]]s, [[Lamia]], and [[Basilisk Controller]]s.
+* {{Item|Decent Musical Conch}}, {{Item|Nice Musical Conch}}, {{Item|Quality Musical Conch}} - Crafted through [[Fishing]].
+===Equipment===
+<dpl>
+  category   = Items/TeacherInstrument
+  notcategory = Items/Drum
+  notcategory = Items/Lute
+  notcategory = Items/FairyChime
+  notcategory = Items/Harp
+  notcategory = Items/Dulcimer
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== Wind Instruments Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Wind Instruments|
+{{:Xptables/PerformanceSkill}}
+}}
+
+== Gallery ==
+<!-- <gallery mode="nolines" widths=200px>
+File:TubaPlayer.jpg|A player using a Blatterhorn.
+</gallery> -->
+[[Category:Skills]]

@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Backfat in the Fae Realm said, "I'm pretty tired of the mushroom scene. I'm much more into physical fitness these days! But people have certain expectations of an immortal pig. Everyone expects me to know the quality of the local fungi, but I haven't done a survey in a while. Saaaaay... why don't you go out and pick some for me? It'll be great exercise!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Backfat]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+I'm pretty tired of the mushroom scene. I'm much more into physical fitness these days! But people have certain expectations of an immortal pig. Everyone expects me to know the quality of the local fungi, but I haven't done a survey in a while. Saaaaay... why don't you go out and pick some for me? It'll be great exercise!
+
+===Requirements===
+* Pick Pixie's Parasols x3
+* (Keep the Mushrooms) x3
+* Pick Fly Amanitas x3
+* (Keep the Mushrooms) x3
+* Talk to Backfat
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|These are the mushrooms? Hmm, yep, pretty standard. You can keep those. And as for the exercise you just got: you're welcome!}}
+* 100 {{Favor|favor}}
+* {{Item|Ring of the Slashing Beast}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Backfat]]

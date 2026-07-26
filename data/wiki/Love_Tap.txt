@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Love Tap
+| description = Your playful attack can soften even the hardest heart, making it difficult for the target to use Rage attacks. (Chances of success are based on your Rabbit skill and the enemy's mental proficiency.)
+| level = 1
+| power cost = 5
+| reuse time = 30
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|LoveTap}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 3 Slashing
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Love Tap 2
+| description = Your playful attack can soften even the hardest heart, making it difficult for the target to use Rage attacks. (Chances of success are based on your Rabbit skill and the enemy's mental proficiency.)
+| level = 16
+| power cost = 8
+| reuse time = 28
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|LoveTap}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 12 Slashing
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Love Tap 3
+| description = Your playful attack can soften even the hardest heart, making it difficult for the target to use Rage attacks. (Chances of success are based on your Rabbit skill and the enemy's mental proficiency.)
+| level = 31
+| power cost = 12
+| reuse time = 26
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|LoveTap}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 26 Slashing
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Love Tap 4
+| description = Your playful attack can soften even the hardest heart, making it difficult for the target to use Rage attacks. (Chances of success are based on your Rabbit skill and the enemy's mental proficiency.)
+| level = 47
+| power cost = 15
+| reuse time = 24
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|LoveTap}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 51 Slashing
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Love Tap 5
+| description = Your playful attack can soften even the hardest heart, making it difficult for the target to use Rage attacks. (Chances of success are based on your Rabbit skill and the enemy's mental proficiency.)
+| level = 60
+| power cost = 19
+| reuse time = 22
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|LoveTap}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 79 Slashing
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Love Tap 6
+| description = Your playful attack can soften even the hardest heart, making it difficult for the target to use Rage attacks. (Chances of success are based on your Rabbit skill and the enemy's mental proficiency.)
+| level = 74
+| power cost = 23
+| reuse time = 20
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|LoveTap}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 110 Slashing
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

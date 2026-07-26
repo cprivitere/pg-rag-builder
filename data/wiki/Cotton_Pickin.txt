@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Thimble Pete asked for a bunch of prepped cotton.
+
+===Prerequisites===
+To start this quest, talk to '''[[Thimble Pete]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Oh, you look like the sort who works with their hands. Have you any cotton to spare? I could use some. Seeded and carded, of course.}}
+
+===Requirements===
+* Obtain {{Item|Carded Cotton}} x5
+* Talk to Thimble Pete
+
+===Rewards===
+{{Spoiler|Rewards for Cotton Pickin'|
+{{Quote|Ah. Thank you. Here's something for your efforts!}}
+
+* 100 {{Favor|favor}}
+* 500 councils 
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Thimble Pete]]

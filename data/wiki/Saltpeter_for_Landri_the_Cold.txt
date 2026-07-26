@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Landri in the Kur Mountains asked for Saltpeter.
+
+===Prerequisites===
+To start this quest, talk to '''[[Landri]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I know it's quite rare, but I might as well ask: have you stumbled on any extra saltpeter? I'm trying to master a few fire spells I missed. Just for completeness' sake, you understand.}}
+
+===Requirements===
+* Obtain {{Item|Saltpeter}} x3
+* Talk to Landri the Cold
+
+===Rewards===
+{{Spoiler|Rewards for Saltpeter for Landri the Cold|
+{{Quote|Perfect! Thank you. Here, take a few of these.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Coldgnaw Potion}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Landri]]

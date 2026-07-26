@@ -1,0 +1,84 @@
+==November 8 Update==
+This update brings some changes and experiments to the game. There's new Fall foods, changes to swimming, and changes to the stats of food.
+
+===New Seasonal Content Experiment===
+In this update we're experimenting with new kinds of seasonal content. We're using "Fall foods" as the experimental base, but we might expand this idea to many other types of crafting (and other "seasons") in the future. Or we may change this design dramatically, or even throw it out, depending on your feedback. After you've had a few weeks to play with this, please let us know what you think!
+
+::- There are two new seasonal ingredients available for a limited time. Cranberries and turkeys can be found in [[Serbule]], [[Serbule Hills]], and [[Eltibule]], among other places.
+::- In addition, the Pumpkin Seedlings (which dropped from undead during Halloween) continue to drop from a wide range of herbivorous and omnivorous animals in the 25-55 level range. This includes ferocious boars, many types of slime, most rhinos, polar bears, tundra deer, mountain sheep, [[Gaz-Urak]]s, and many others. (And even a few sentient creatures such as trolls.)
+::- There are 21 new food recipes that involve the new seasonal ingredients. These recipes can be found on a broad range of animals (with the best chances being from herbivorous/omnivorous animals).
+::- In addition to the new recipes, the handful of pumpkin recipes from Halloween can also still be found in loot, although the chances are much lower than during Halloween. (And the other Halloween items no longer drop.)
+::- There are also new Work Orders for all of the new foods (and the Halloween pumpkin foods). These work orders will only show up during this "season", and they have a much larger cash reward than normal work orders of their level. They can also be completed every 5 days instead of every 30 days. You can find these work orders at the work-order signs in Serbule, Redwing Casino, and the Fae Realm. (They won't always show up, but when they do, they will be at the bottom of the work-order list.)
+::- A few of the Halloween pumpkin foods already had work orders (such as Basic Pumpkin Pie). They've been turned into "seasonal" work orders
+
+===Swimming Changes===
+In preparation for upcoming content we've made improvements/changes to how swimming works. Please play with these changes and give us feedback and bug reports!
+
+::- Changed how we emulate gravity underwater. Previously you would instantly sink in deep water, but now you are slightly buoyant: you'll very slowly float upwards toward the surface. This means that if you wish to reach the bottom of a deep body of water you will need to use the Down movement key (default F) to swim down. To swim up for breath use the Up key (default R) -::- or you can use the jump button underwater as a "swim up" button.
+::- You now recover your breath automatically when you are swimming on the surface of the water, and breath recovers much more quickly than via the old "hopping in and out of the water" technique. (But still not as fast as when standing on solid ground.)
+::- "Breath" meter is more granular while losing breath
+::- Fixed various problems, bugs, and glitches in the swimming system
+::- Fixed problems with indoor water pools 
+::- Note: the river in Kur continues to behave oddly; this is a known issue that will be addressed when the final art for Kur is ready. All OTHER water should behave reasonably sanely now
+
+===Food Changes===
+We've rebalanced food a bit to make Meals more useful. This mainly involved moving some of the power of Snacks into Meals.
+
+Snacks once lasted only 15 minutes, and so were much more potent than meals. But in a previous update we changed Snacks to last as long as Meals (and even receive the Gourmand bonuses that Meals receive), and we're pretty happy with that change. And the total potency of Meals+Snacks combined was in the right ballpark -::- it's just that most of that potency was coming from the Snack, and the Meal was much less important. This is obviously dumb and needed fixing.
+
+We've also made other small rebalances to food stats, including some changes to Cheese stats. Cheese received both minor nerfs and minor buffs. (And since eating a Cheese Meal plus a Cheese Snack was already often over-healing while out of combat, nerfing those numbers isn't as noticeable as buffing the in-combat regen. But the in-combat regen buff was small... so... basically it's a wash.)
+
+Explaining the overall changes is tricky. The changes affect food at all levels, but we'll use some hypothetical level 80 food as an example. That will show the changes the most dramatically.
+
+‘’Tldr:’’ For players that already ate both a meal and a snack, the changes will probably not be very noticeable. If you only ate Snacks before, though, you will definitely notice how empty your stomach is now.
+
+‘’Level 80 (Non-Cheese) Meal:’’ (arrows indicate changes in this update; no arrow means no change)
+::- Out-of-Combat Health Regen (per tick): 273
+::- Out-of-Combat Power Regen (per tick): 222
+::- In-Combat Health Regen (per tick): 48
+::- In-Combat Power Regen (per tick): 32
+::- Metabolism Regen (per tick): 5 -> 6
+::- Max-Health Boost: 0 -> 160
+::- Max-Power Boost: 0
+
+‘‘Level 80 (Non-Cheese) Snack:’‘
+::- Out-of-Combat Health Regen (per tick): 273 -> 193
+::- Out-of-Combat Power Regen (per tick): 160
+::- In-Combat Health Regen (per tick): 32
+::- In-Combat Power Regen (per tick): 32 -> 48
+::- Metabolism Regen (per tick): 0 -> 2
+::- Max-Health Boost: 160 -> 0
+::- Max-Power Boost: 80
+
+‘‘Level 80 Cheese Meal:’‘
+::- Out-of-Combat Health Regen (per tick): 273
+::- Out-of-Combat Power Regen (per tick): 222
+::- In-Combat Health Regen (per tick): 48 -> 80
+::- In-Combat Power Regen (per tick): 48
+::- Metabolism Regen (per tick): 5 -> 3
+::- Max-Health Boost: 113 -> 220
+::- Max-Power Boost: 0
+
+‘‘Level 80 Cheese Snack:’‘
+::- Out-of-Combat Health Regen (per tick): 273 -> 193
+::- Out-of-Combat Power Regen (per tick): 268 -> 160
+::- In-Combat Health Regen (per tick): 32
+::- In-Combat Power Regen (per tick): 48 -> 64
+::- Metabolism Regen (per tick): 0
+::- Max-Health Boost: 160 -> 80
+::- Max-Power Boost: 160
+
+===Other Changes===
+::- Items removed from storage vaults now auto-stack with compatible items in your inventory
+::- Fixed bug that prevented carrots from receiving garden bonuses during carrot-specific events
+::- Fixed a [[Deer]] combat particle that played at full volume no matter how far away you were from the Deer player
+::- Spriggan Nuts now stack (to 99)
+::- Treasure effect "Stun Trap reuse timer is N seconds faster" was bugged (it actually lowered Power cost by N instead of reset time)
+::- Treasure effect "Lethal Force deals +N damage and reuse time is -3 seconds" was also bugged in the same way (it lowered Power cost instead of reset time)
+::- Treasure effect "Stun Trap deals +N damage, and there's a 50% chance you'll place an extra trap" was bugged and never generated an extra trap
+::- Iceheart Sustenance Oil counts as a Max-Health potion for gifting purposes
+::- The [[Sacred Grotto]] is now marked as a cave for craft purposes
+::- Meat-eaters in the [[Sacred Grotto]] are now a little more aware of what's being stored by their fellow Wardens
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Bogaku in the Rahu Sewers said, "I wonder where these ratkin are getting their appetizers. Can you get some for me so I can check them?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Bogaku]]''' in the '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+I wonder where these ratkin are getting their appetizers. Can you get some for me so I can check them?
+
+===Requirements===
+* Obtain Ratkin Aparatifs x3
+* Talk to Bogaku
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Oh, finally! The appetizers!
+
+Well, the stench is pretty typical. But see how thick it is? That means it's not very fresh. These ratkin aren't making their own aparatifs... which means they must be trading with other ratkin... which means there's a tunnel-caravan that passes by here!
+
+That explains how they're staying well-stocked. Now, if I knew exactly which caravan route we were on, maybe I could isolate cultural variations from that! Oh, sorry to keep you wating. Here's your shiny.}}
+* 50 {{Favor|favor}}
+* {{Item|Xedrite}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Bogaku]]

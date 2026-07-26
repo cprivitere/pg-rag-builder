@@ -1,0 +1,94 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Calefaction
+| description = Project a super-hot pulse that raises a target's core temperature, making them more prone to combustion.
+| level = 5
+| power cost = 17
+| reuse time = 12
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Calefaction}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 19 Fire
+| special = Target takes 20% more damage from direct Fire attacks for 60 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Calefaction 2
+| description = Project a super-hot pulse that raises a target's core temperature, making them more prone to combustion.
+| level = 20
+| power cost = 26
+| reuse time = 12
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Calefaction}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 42 Fire
+| special = Target takes 20% more damage from direct Fire attacks for 60 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Calefaction 3
+| description = Project a super-hot pulse that raises a target's core temperature, making them more prone to combustion.
+| level = 40
+| power cost = 37
+| reuse time = 12
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Calefaction}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 93 Fire
+| special = Target takes 20% more damage from direct Fire attacks for 60 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Calefaction 4
+| description = Project a super-hot pulse that raises a target's core temperature, making them more prone to combustion.
+| level = 55
+| power cost = 45
+| reuse time = 12
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Calefaction}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 170 Fire
+| special = Target takes 20% more damage from direct Fire attacks for 60 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Calefaction 5
+| description = Project a super-hot pulse that raises a target's core temperature, making them more prone to combustion.
+| level = 65
+| power cost = 50
+| reuse time = 12
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Calefaction}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 223 Fire
+| special = Target takes 20% more damage from direct Fire attacks for 60 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Calefaction 6
+| description = Project a super-hot pulse that raises a target's core temperature, making them more prone to combustion.
+| level = 75
+| power cost = 55
+| reuse time = 12
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Calefaction}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 282 Fire
+| special = Target takes 20% more damage from direct Fire attacks for 60 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

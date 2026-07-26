@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Red in Kur Mountains said, "You're finally here! We have a panther problem. An orcish ship came in the night and unloaded hundreds of war panthers! They must be planning a war or something. But who cares about that! They let their panthers hunt freely all through yeti territory, which is also where most of the surviving fox dens are!
+
+They're getting really close to this outpost, too. I saw one watching me from across the river earlier! I've programmed the turrets to target the panthers... but I don't know if they'll be enough. If Mittens and I are dead when you get back, please avenge us!"
+
+This Quest can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Red]]''' in the '''[[Kur Mountains]]'''. The quest is available at {{Favor|Despised}} favor. This quest is only available for Wardens. This quest is only available during an event in the area.
+
+===Preface===
+You're finally here! We have a panther problem. An orcish ship came in the night and unloaded hundreds of war panthers! They must be planning a war or something. But who cares about that! They let their panthers hunt freely all through yeti territory, which is also where most of the surviving fox dens are!
+
+They're getting really close to this outpost, too. I saw one watching me from across the river earlier! I've programmed the turrets to target the panthers... but I don't know if they'll be enough. If Mittens and I are dead when you get back, please avenge us!
+
+===Requirements===
+* Kill Razorslash Panthers x15
+* Talk to Red
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Oh, thanks. Sorry I was freaking out earlier. It turns out the turrets can handle the panthers just fine! Yeah, a panther came too close, got zapped, and just ran away. So Mittens and I weren't in any immediate danger. But other foxes still were, so thank you for helping us!}}
+* 50 {{Favor|favor}}
+* 10 Warden Points
+* {{Item|Fierce Collar}}
+}}
+
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Red]][[Category:Quests/Warden Quests]]

@@ -1,0 +1,46 @@
+__NOTOC__
+{{NPC infobox
+|title            = Broken Glowing Sphere
+|image            = [[File:BrokenGlowingSphere.png|300px]]
+|caption          = It's glowing. Looks kinda broken.
+|zone             = Kur Mountains
+|dungeon = Yeti Cave
+|location         = On the middle level.
+|anatomy = Construct
+|species = Ascended Sphere
+|beastspeak = Yes
+|beastlist = All
+}}
+{{Quote|
+No need to commence with prostration and supplication. I am dying.
+}}
+The '''Broken Glowing Sphere''' is a [[Himamanav Deities|Himamanav Deity]] which once ruled over the middle level of the [[Yeti Cave]]. Although it claims to be dying, it is still able to summon magical items and perform teleports. 
+
+{{Quote|
+No need to commence with prostration and supplication. I am dying.
+; ''' Huh. What are you dying of? '''
+I was thrown from a high place by a foolish [[Himamanav]] who wishes to be treated as a god. I am damaged. I estimate remaining life at 291 years -- a blink of an eye. The Himamanav should not worship me. They are other, more permanent gods. But not [[Urraghur]]: he's just a jerk.
+; '''I'm not a Himamanav.
+Oh. Well it would be very evil of you to kill [[Urraghur]], outsider. Just because he is a plague upon our people, a worthless speck... no I would never condone murdering any Himamanav. Although since I am dying, I could hardly stop you...
+; '''Uh huh. And this Urg-whatever guy, where is he?'''
+At the top of the nearby hill. He stands in my place, demanding worship.
+; '''Got it. Well, I'll go talk to him.'''
+He will simply attack you on sight.
+; '''Okay, that's fine too. Bye.'''
+}}
+Upon murdering [[Urraghur]].
+{{Quote|
+I am dying. [[Urraghur]] has destroyed my ancient place of honor and...
+; '''Yeah, yeah. He's dead now. All done.'''
+Outsider, you have done a great evil to the Himamanav. I shall punish you by making you carry these heavy magic items.
+; '''Huh. Okay. Thanks.'''
+Now perhaps it is time for you to go. I can teleport you to the surface, if you are ready.
+:: '''Sure, get me out of this cave!'''
+:: (You are returned to the entrance of the dungeon).
+:: '''No, I'm still exploring. Thanks, though.'''
+
+}}
+==Training==
+
+
+[[Category:NPCs]][[Category:NoRiShin]]

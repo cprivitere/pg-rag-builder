@@ -1,0 +1,54 @@
+__NOTOC__
+{{MOB infobox
+| title = Acclimated Mantis
+| type   = Arthropod
+| health = 1146
+| armor  = 1128
+| rage   = 1316
+| effective = Cold
+| ineffective = Slashing
+| vineffective = Psychic, Nature
+}}
+
+While the [[Acclimated Mantis]]'s name might suggest it can survive in the depths of the [[Wolf Cave]], this Mantis is still weak to Cold magic.
+
+== Locations ==
+{{MOB Location
+| area = Wolf Cave
+| location = Lurking in the deepest areas of the cave.
+| health = 1146
+| armor  = 1128
+| rage   = 1316
+}}
+
+== Combat Abilities ==
+{{:AIP:PsiMantis}}
+
+== Miscellaneous ==
+{|
+{{Header|[[Skinning]]}}
+|-
+|None
+|-
+{{Header|[[Butchering]]}}
+|-
+|None
+|-
+{{Header|[[Butchering|Skull Extraction]]}}
+|-
+|None
+|}
+
+== Reported Loot ==
+
+''' Level 50 Equipment '''
+{|
+|{{Loot|Arcane Ring}}
+|}
+
+''' General Loot '''
+{|
+|{{Loot|Giant Mantis Claw}}
+|{{Loot|Hatred Oil}}
+|{{Loot|Giant Mantis Claw}}
+|}

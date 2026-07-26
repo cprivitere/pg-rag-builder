@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Stunning Bash
+| description = Smack your target with the shield, leaving them reeling.
+| level = 1
+| power cost = 10
+| reuse time = 10
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|StunningBash}}{{KWAB|Bash}}{{KWAB|SignatureDebuff}}
+| damage = 9 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Stunning Bash 2
+| description = Smack your target with the shield, leaving them reeling.
+| level = 12
+| power cost = 14
+| reuse time = 10
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|StunningBash}}{{KWAB|Bash}}{{KWAB|SignatureDebuff}}
+| damage = 17 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Stunning Bash 3
+| description = Smack your target with the shield, leaving them reeling.
+| level = 22
+| power cost = 17
+| reuse time = 10
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|StunningBash}}{{KWAB|Bash}}{{KWAB|SignatureDebuff}}
+| damage = 30 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Stunning Bash 4
+| description = Smack your target with the shield, leaving them reeling.
+| level = 31
+| power cost = 21
+| reuse time = 10
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|StunningBash}}{{KWAB|Bash}}{{KWAB|SignatureDebuff}}
+| damage = 46 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Stunning Bash 5
+| description = Smack your target with the shield, leaving them reeling.
+| level = 43
+| power cost = 25
+| reuse time = 10
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|StunningBash}}{{KWAB|Bash}}{{KWAB|SignatureDebuff}}
+| damage = 76 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Stunning Bash 6
+| description = Smack your target with the shield, leaving them reeling.
+| level = 53
+| power cost = 28
+| reuse time = 10
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|StunningBash}}{{KWAB|Bash}}{{KWAB|SignatureDebuff}}
+| damage = 113 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Stunning Bash 7
+| description = Smack your target with the shield, leaving them reeling.
+| level = 64
+| power cost = 32
+| reuse time = 10
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|StunningBash}}{{KWAB|Bash}}{{KWAB|SignatureDebuff}}
+| damage = 155 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Stunning Bash 8
+| description = Smack your target with the shield, leaving them reeling.
+| level = 74
+| power cost = 35
+| reuse time = 10
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|StunningBash}}{{KWAB|Bash}}{{KWAB|SignatureDebuff}}
+| damage = 196 Crushing
+| special = Stuns opponent.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Gerrux in Povus said, "In my spare time I work to artistically enhance weapons, and I'm working on a hammer that needs a new wrap. I know just the material! Kuvou tongue! Can you get me some?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Gerrux]]''' in '''[[Povus]]'''. 
+
+===Preface===
+In my spare time I work to artistically enhance weapons, and I'm working on a hammer that needs a new wrap. I know just the material! Kuvou tongue! Can you get me some?
+
+===Requirements===
+* Obtain Kuvou Tongues x5
+* Talk to Gerrux
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Are these the kuvou tongues? Oh, by the four, that stinks... I didn't think my plan through very well. How do I tan these?!
+
+No, no, you've already done enough. Let me repay you for your effort with another customized hammer.}}
+* 200 {{Favor|favor}}
+* {{Item|Bedazzled Hammer}}
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Gerrux]]

@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Braigon wants a perfect cow hide for an experimental cheese he's making.
+
+(Perfect Cow Hides come from expert skinners who have mastered bovine anatomy. They're quite rare!)
+
+===Prerequisites===
+To start this quest, talk to '''[[Braigon]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|I have this crazy recipe for cheese that ripens within the hide of a cow. Crazy gimmick, right?! Trouble is, it requires a perfectly-skinned cow hide. I'm a pretty terrible skinner, so that's not going to happen.
+
+But if you happen upon one, save it for me!}}
+
+===Requirements===
+* Obtain a {{Item|Trophy Cow Hide}}
+* Talk to Braigon
+
+===Rewards===
+{{Spoiler|Rewards for The Perfect Cow Hide|
+{{Quote|That's perfect! A perfect hide! Did you skin this yourself? No matter, no matter. What's important is that it's mine now, and I can get to work on this Cow's Paradise cheese! Here. Some of my private cheese stock should be ample payment!}}
+
+* 200 {{Favor|favor}}
+* {{Item|Raclette Cheese}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Braigon]]

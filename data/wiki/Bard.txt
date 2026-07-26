@@ -1,0 +1,130 @@
+__NOTOC__
+{{Skill infobox
+|title            = Bard
+|image            = [[File:Bard.png|105px]]
+|caption          = Bardin'
+|skilltype        = Combat Skill
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              = ??? <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Rappanel]], [[Percussa]], [[Raina]]
+|gem = {{Item|Azurite}}
+}}
+
+{{Quote|source=[[Game_updates/2017-03-25|March 25, 2017 Patch Notes]]|
+You can learn the skill from Rappanel in South Serbule. (He's in the inn.) As you advance in Bard skill, you will also need to improve other skills, including performance, vocabulary, and poetry appreciation. Rappanel should give you enough information to proceed at each stage. We need feedback on how easy/hard it is to advance as a bard! We also need feedback on the bard's general abilities and playability. Keep in mind that the bard is designed to be a support character. It is definitely possible to solo with the bard, but it's not going to be as fast as some other skills.
+
+Note: the bardic music tracks are draft versions, not the finalized versions. There are small issues with the looping of some tracks, plus some pops and crackles in a few sound effects. These small issues will be fixed soon.
+
+One other note: Bardic music is implemented as a "performance". This has many subtle ramifications, but one useful feature is that if you tire of hearing the bardic songs, you can go into the Configuration window's Audio tab and reduce the number of audible performers to zero.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Bard''' is a skill intended for Adventurers looking to provide support to their fellow travelers. The Bard skillset can only be used by humanoid races at this time, and travelers confined to [[Beast Forms]] will find it difficult, even impossible to use.
+=== In-Game Description ===
+Bardin'
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Rappanel]] is a teacher for beginner [[Bard]]s, and can be found along the old trade-route trail in [[Serbule Hills]], inside the Tapestry Inn. 
+* [[Percussa]] can raise the level cap of [[Bard]] from 51-60, and from 61-70. She can be found in Rahu. During the day she performs in front of the restaurant and in the evening she returns home to the hostile part of the city. 
+* [[Raina]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Emersil the Ever-Gloating]] deep beneath [[Povus]].
+* [[Ormond Neth]] unlocks 81-90 and 91-100. You'll need complete the trial from [[Rebeccah the Whisperer]] first
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* [[Performance]] - level 10 is required to unlock 51-60 lvl
+* [[Vocabulary]] - Required to learn the Blast of Defiance ability from [[Rappanel]]. Level 15 is required to unlock 61-70.
+* [[Poetry Appreciation]] - level 5 is required to unlock 51-60 lvl, Level 10 is required to unlock 61-70 lvl.
+* [[Flower Arrangement]] - level 10 is required for unlocking the skill range 61-70 lvl
+
+=====Related Skills:=====
+* [[Interpretive Dance]] - This sub-skill of [[Performance]] allows dancing, and provides a +1 Bonus level for [[Bard]] at level 9.
+* [[Stringed Instruments]] - level 5 is required to learn Bard skill from [[Rappanel]].
+* [[Wind Instruments]]
+* [[Percussion Instruments]]
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Bard]] can be obtained from the following sources:
+====== Skills: ======
+:; [[Art History]]
+:: Level 15, Level 45
+:; [[Oratory]]
+:: Level 10, Level 30, Level 50
+:; [[Interpretive Dance]]
+:: Level 9, Level 35, Level 65
+:; [[Poetry Appreciation]]
+:: Level 35
+====== Favor: ======
+[[Relentless Bardification]] for [[Ormond Neth]]
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+Bards can play with a lute and/or horn. Horn abilities focus on dealing damage, lute abilities are songs (see below).
+
+=== Songs ===
+Bards using a lute can play a song for constant effects like healing or damage. When moving, the song is interrupted so it is a good idea to pull groups of enemies or have a high range attack to pull. Switching to a different song will interrupt the current song.
+=== Weapons ===
+Lute instruments are all MainHand, while everything else is OffHand. Even though only the Lutes are tagged as Wooden, [[Druid]]s may use all instruments.'''
+===== Main Hand Bard Lutes =====
+<dpl>
+  category   = Items/BardInstrument
+ notcategory = Items/BardHorn
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+===== Off-Hand Bard Horns =====
+<dpl>
+  category   = Items/BardHorn
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+===Equipment===
+===== Equipment, Instruments =====
+See [[Performance]] for additional information.
+<dpl>
+  category = Items/Instrument
+  notcategory   = Items/Weapon
+ include    = {ITEM infobox}:basemods 
+  reset      = categories
+  columns = 1
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}} - ,,
+  allowcachedresults=true
+</dpl>
+* {{Item|Gemshorn}} - Equipping this item grants you basic proficiency in wind instrument performance.
+=== Hymn of Resurrection ===
+[[Bard]]s have access to the [[Revive|revival]] ability [[Hymn of Resurrection]]. To unlock and use this ability, a [[Bard]] must be wearing a Main Hand item with the proper treasure effect. The required treasure only appears on {{ItemRarity|Epic}} or {{ItemRarity|Legendary}} equipment at Levels 50 and 70. Although the ability can be learned from any Main Hand item with the treasure, a Lute with the treasure must be held to actually use the ability.
+
+'''of Hymnals''' - ''Your Bard Songs cost -20% Power. In addition, you can use the ability Hymn of Resurrection.'' 
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Bard Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Bard|
+{{:Xptables/TypicalCombatSkill}}
+}}
+== Trivia ==
+'''The Bard skill was first added in March of 2017!'''
+<!--
+== Gallery==
+''' Include a small gallery of players using the skill, or abilities of the skill. Try to keep it under six images. This example Gallery is from the Serbule Page.'''
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+File:Serbule Gallery (abandoned cart).jpg|An abandoned cart.
+File:Serbule Gallery 2.jpg|A very dangerous place...
+</gallery>
+-->
+[[Category:Skills]]

@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+[[Nightshade]] asked you to look in on his friend [[Poe]], a myconian who lives somewhere beneath Serbule. In return, Nightshade says he'll help you convince Poe to teach you his unusual craft skill.
+
+===Prerequisites===
+To start this quest, talk to '''[[Nightshade]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Well, I'll tell you about Poe, but I don't expect you'll be able to find him. He's a myconian. A mushroom man! Weirdest thing I've ever seen wield a jeweler's hammer, I assure you! He was never part of our guild, but we invited him to come with us anyway. Sadly, he refused: he hates the cold. Can't blame him. He said he was going home, "under the ground in Serbule." So I guess you go there and start digging? How big is Serbule anyway?
+
+Do this for me, and I'll put in a good word with you to Poe!}}
+
+===Requirements===
+* Talk to [[Poe]]
+* Talk to [[Nightshade]]
+
+{{Spoiler|Response to player|{{Quote|Nightshade? Oh, the overworlder that named itself after a plant. I remember. I like Nightshade. Tell Nightshade that I am well, and that I am grateful for the concern.}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Check In On Poe|
+{{Quote|You found Poe! I'm glad he's alive. How many oils did he send back with you? ... None at all?! You went all that way and got nothing for me?!
+
+No, no, I'm not angry. I'm just very disappointed. Hm. Why don't you go back and ask him to teach you his techniques? I bet you'd be a faster crafter than a myconian could ever be!}}
+
+* 150 {{Favor|favor}}
+* Ability to Train [[Jewelry Augmentation]]
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Nightshade]]

@@ -1,0 +1,14 @@
+__NOTOC__
+{{Ability infobox
+| name = Necromancer's Mutter
+| description = You are a master of the secret arts. With a sinister word, you unravel an enemy's spirit.
+| level = 0
+| power cost = 35
+| reuse time = 90
+| range = 30 meters
+| skill = Unknown
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|EpicAttack}}
+| damage = 750 Darkness
+| special = This ability can only be used when you are wearing four or more pieces of Mutterer Necromancer Armor.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

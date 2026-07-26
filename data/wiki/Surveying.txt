@@ -1,0 +1,142 @@
+__NOTOC__
+{{Skill infobox
+|title            = Surveying
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = 
+|skilltype        = Trade Skill
+|maxlevel         = 100
+|skilltrainers    = [[Jaime Fatholm]], [[Urzab]], [[Dachak the Digger]]
+}}
+{{Quote|
+Analyzing the land to locate valuable resources or important locations. Surveying has many uses, but is most commonly used to make resource maps for [[Geology]] and [[Mining]].
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Surveying''' is a skill that produces surveys that lead to gems and minerals. Creating surveys increases the Surveying skill, while using the surveys increases [[Geology]] (mineral surveys) or [[Mining]] (mining surveys).
+
+=== In-Game Description ===
+Analyzing the land to locate valuable resources or important locations. Surveying has many uses, but is most commonly used to make resource maps for Geology and Mining.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Jaime Fatholm]] will teach you surveying when you become Comfortable with her. This can be done by completing her 2 initial favors. Once she's Comfortable with you, Jaime will give you a few starting ingredients and teach you the recipe for '''[[Serbule Rubywall Mineral Survey|Serbule Rubywall Crystal Survey]]''' and '''[[Serbule Hills Rubywall Mineral Survey|Serbule Hills Rubywall Crystal Survey]]'''. In the Recipe window, you can see that they require 1 [[Simple Parchment]], 1 [[Basic Ink]], and 1 [[Rubywall Crystal]] (only a 20% chance to consume the Crystal). The parchment and ink can be bought from Jaime.
+
+: Once you get all three ingredients you can create a map by pushing the 'Survey' button on the recipe. The survey map will be placed in your inventory. You will need to be in the area (ie. [[Serbule]] or [[Serbule Hills]]) for which you want to create a survey.
+
+* [[Urzab]] in [[Amulna]] will unlock levels 51-60 and teaches 51+ recipes.  He also unlocks levels 61-70 and teaches recipes of those levels.
+* [[Dachak the Digger]] unlocks 71-80.
+* [[Glowing Sphere]] in the [[Yeti Cave]] is willing to teach surveying recipes for [[Kur Mountains]] to travelers willing to help out with a task.
+* [[Sourgum]] in [[Statehelm]] will unlock levels 81-90, 91-100, and teaches 80+ recipes.
+
+==Connected Skills==
+'''Sub-Skills:'''
+* None
+'''Secondary Skills:'''
+* None
+'''Related Skills:'''
+* [[Geology]]
+* [[Mining]]
+
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Surveying]] can be obtained from the following skills and levels:
+:; [[Mining]]
+:: Level 15
+:; [[Foraging]]
+:: Level 40
+:; [[Geology]]
+:: Level 10
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+===Massive Gem Surveys===
+At Geology level 60, Farsight Flemmings can teach the ability to survey for massive gems. This will give all normal surveys created a 10% chance to be a massive gem survey instead of a normal gem survey. Massive gems can also be awarded from the Povus and Vidaria Mineshaft surveys taught by Sourgum. These require 85/90/95 Surveying and 70/75/80 Geology, as well as consuming massive gems to create. 
+
+=== Using A Basic Survey ===
+Right click a survey in your inventory and a little red spot will temporarily blink on the minimap (it can be difficult to see if it is on a bright area, it seems to blend in). An on screen message will also give you approximate distances, though it is less practical. It can also help to enlarge your map window, by dragging the lower right corner.
+
+Once you are near enough to the location indicated by the red spot (inside the 100x100 meter box around the treasure), you click the survey map again, and you will get your crystal or mining reward. At that time you will also get XP in either Geology or Mining, depending on the kind of survey.
+
+Getting attacked while trying to use a survey will cancel it and force you to re-click, so try to kill any annoying mobs around you first.
+
+Tip: A common technique for running multiple surveys is to sort the maps by the "quadrant" they're in on the map, and then run through each quadrant! Another helpful technique can be to mark the (closest) survey destinations with a Pin (Point of Interest dot) on the map; Once you are close to the dot you can right click the surveys to see if you are close enough. (Note be sure to remove the Pin after you collected the survey).
+
+=== Speed Bonus ===
+Whenever you finish a survey, a short timer starts. If you finish another survey within that time, you are rewarded with a speed bonus that gives you random minerals, ores, or other ingredients. The pool of random options depends on what zone you are in and what type of survey you're doing (mineral or mining). For example, completing a mineral survey in Serbule will be more likely to reward green or blue minerals, while Eltibule will likely reward orange and white. If you want to take advantage of the bonus, it is recommended to create a few Surveys, take a look at their locations, and plan which one should be done first, second, third, etc. in fast succession. 
+
+For Serbule and Eltibule, the timer is randomly chosen from a number between 1.5-3.5 minutes. In Kur, it's 2.5-4.5.
+
+====Mining Speed Bonuses====
+{| {{STDT}}
+|-
+! Map Type !! Possible Speed Bonus
+|-
+| {{Item|Serbule Hills Simple Mining Survey}} || {{Item|Simple Metal Slab}} {{Item|Basic Metal Slab}} {{Item|Good Metal Slab}} {{Item|Expert-Quality Metal Slab}} {{Item|Copper Ore}} {{Item|Gold Nugget}} {{Item|Silver Ore}} {{Item|Rubywall Crystal}} {{Item|Pyrite}} {{Item|Fire Dust}}
+|-
+| {{Item|Eltibule Good Mining Survey}} || {{Item|Simple Metal Slab}} {{Item|Basic Metal Slab}} {{Item|Good Metal Slab}} {{Item|Masterwork Metal Slab}} {{Item|Copper Ore}} {{Item|Gold Nugget}} {{Item|Flinty Rock}} {{Item|Tungsten}} {{Item|Pyrite}} {{Item|Fire Dust}}
+|-
+|}
+
+====Mineral Speed Bonuses====
+For mineral (gem) maps, the speed bonus is determined by location
+{| {{STDT}}
+|-
+! Location !! Bonus
+|-
+| Serbule Hills<br>Serbule  || Blue or Green Gems, Pieces of Green Glass and, more rarely, 'Ilmari' gems
+|-
+| Eltibule<br>Kur || Orange or White Gems and, more rarely, 'Ilmari' gems. Bonus Ilmari gems - poor return in Eltibule; best return is Kur Green surveys.
+|}
+
+=== Using A Motherlode Map === 
+Motherlode maps are more difficult than normal surveys, but give much greater rewards. When you use them, no red dot will appear on your minimap, and won't be given the exact location. You'll only be told the distance to the motherlode. If you're 1000 meters away, the motherlode could be on any point in the 1000-radius circle around you. When you find the motherlode, you'll be rewarded with 15-30 slabs, with a mean of 22 per motherlode survey.
+
+====Motherlode bonus ores====
+When you complete a motherlode survey you will receive slabs plus a bonus of a small amount of ore, slabs, dust, or other materials.  The following table shows which materials you are likely to receive, arranged approximately from most likely to least likely.
+{| {{STDT}}
+|-
+! Survey !! Possible bonus ores
+|-
+| {{Item|Kur Mountains Simple Metal Motherlode Map}} || {{Item|Pyrite}}, {{Item|Gold Nugget}}, {{Item|Copper Ore}}, {{Item|Basic Metal Slab}}, {{Item|Flinty Rock}}, {{Item|Fire Dust}} (rare)
+|-
+| {{Item|Kur Mountains Basic Metal Motherlode Map}}  || {{Item|Pyrite}}, {{Item|Silver Ore}}, {{Item|Fire Dust}}, {{Item|Tungsten}}, {{Item|Gold Ore}}, {{Item|Good Metal Slab}}
+|-
+| {{Item|Kur Mountains Good Metal Motherlode Map}}   || {{Item|Tungsten}}, {{Item|Gold Ore}}, {{Item|Expert-Quality Metal Slab}}, {{Item|Silver Ore}}, {{Item|Sulfur}}
+|-
+| {{Item|Ilmari Desert Expert Metal Motherlode Map}} || {{Item|Gold Ore}}, {{Item|Stibnite}}, {{Item|Iridium}}, {{Item|Masterwork Metal Slab}}, {{Item|Gypsum}}, {{Item|Sulfur}} (rare)
+|-
+| {{Item|Ilmari Desert Master's Metal Motherlode Map}} || {{Item|Amazing Metal Slab}} (~2/survey), {{Item|Iridium}} (~1-2/survey), {{Item|Stibnite}} (~1-2/survey), {{Item|Gold Ore}} (~1-2/survey), {{Item|Saltpeter}} (rare, < 0.5/survey) , {{Item|Magic Sand}} (rare, < 0.5/survey)
+|-
+| {{Item|Ilmari Desert Amazing Metal Motherlode Map}} || {{Item|Iridium}}, {{Item|Paladium}}, {{Item|Astounding Metal Slab}}, {{Item|Cinnabar}}, {{Item|Magic Sand}}
+|-
+| {{Item|Ilmari Desert Astounding Metal Motherlode Map}} || {{Item|Iridium}}, {{Item|Paladium}}, {{Item|Cinnabar}}, {{Item|Superb Metal Slab}}, {{Item|Magic Sand}}, {{Item|Rhodium}}
+|-
+| {{Item|Gazluk Astounding Metal Motherlode Map}} || {{Item|Superb Metal Slab}}, {{Item|Iridium}}, {{Item|Paladium}}, {{Item|Cinnabar}}, {{Item|Magic Sand}}, ?
+|-
+| {{Item|Gazluk Superb Metal Motherlode Map}} || {{Item|Superb Metal Slab}}, {{Item|Iridium}}, {{Item|Paladium}}, {{Item|Cinnabar}}, {{Item|Rhodium}}, {{Item|Gypsum}}, {{Item|Semi-Real Hassium}}, ?
+|}
+
+{{:Surveying/Geology Survey Maps}}
+
+{{:Surveying/Mining Survey Maps}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Surveying Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Surveying|
+{{:Xptables/Surveying}}
+}}
+
+== Trivia ==
+Players (in raven form or with flight potions) used to be able to use surveys while flying hundreds of feet above the ground! Now, you must be on the ground to actually dig up your reward.
+
+
+== Gallery==
+<gallery mode="nolines" widths=200px>
+File:1. Survey-Materials.png| A player prepares to craft a survey.
+File:Crafting-Serbule-Survey.png| Surveys being crafted by a player.
+File:Surverying activation.jpg|A player views the survey location on their map.
+File:Surveying ravennofly.jpg|A [[Druid]] learns that you can't complete a survey in the air.
+File:Collecting-Amethyst.png| After arriving at the survey location, an Amethyst is collected.
+</gallery>

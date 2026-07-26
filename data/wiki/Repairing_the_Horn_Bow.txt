@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Sirine in Rahu said, "Ever killed a rhino? Quite a rush, isn't it?! They're so dangerous! I'm not really in shape to hunt rhinos right now, though... my bow broke. And not coincidentally, the bow uses ivory rhino horn. You probably see where this is going... if you find some, please let me know!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Sirine]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Ever killed a rhino? Quite a rush, isn't it?! They're so dangerous! I'm not really in shape to hunt rhinos right now, though... my bow broke. And not coincidentally, the bow uses ivory rhino horn. You probably see where this is going... if you find some, please let me know!}}
+
+===Requirements===
+* Obtain {{Item|Ivory Horn}}s x2
+* Talk to Sirine
+
+===Rewards===
+{{Spoiler|Rewards for Repairing the Horn Bow|
+{{Quote|Great! Now I can start to work repairing my bow. Here, would you like some leather?}}
+
+* 100{{Favor|favor}} with [[Sirine]]
+* {{Item|Great Leather Roll}} x 10
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Sirine]]

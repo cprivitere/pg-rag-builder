@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Psi Adrenaline Wave
+| description = You and any nearby allies begin to do additional damage with every attack.
+| level = 16
+| power cost = 12
+| reuse time = 20
+| range = 15 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiAdrenalineWave}}{{KWAB|SignatureSupport}}
+| special = Direct attacks deal 3 extra damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Psi Adrenaline Wave 2
+| description = You and any nearby allies begin to do additional damage with every attack.
+| level = 40
+| power cost = 20
+| reuse time = 20
+| range = 18 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiAdrenalineWave}}{{KWAB|SignatureSupport}}
+| special = Direct attacks deal 5 extra damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Psi Adrenaline Wave 3
+| description = You and any nearby allies begin to do additional damage with every attack.
+| level = 54
+| power cost = 23
+| reuse time = 20
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiAdrenalineWave}}{{KWAB|SignatureSupport}}
+| special = Direct attacks deal 4% extra damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Psi Adrenaline Wave 4
+| description = You and any nearby allies begin to do additional damage with every attack.
+| level = 65
+| power cost = 26
+| reuse time = 20
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiAdrenalineWave}}{{KWAB|SignatureSupport}}
+| special = Direct attacks deal 5% extra damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Psi Adrenaline Wave 5
+| description = You and any nearby allies begin to do additional damage with every attack.
+| level = 78
+| power cost = 30
+| reuse time = 20
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiAdrenalineWave}}{{KWAB|SignatureSupport}}
+| special = Direct attacks deal 6% extra damage.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Bogaku in the Rahu Sewers said, "These ratkin are unusually good at necromancy. I wonder exactly how powerful they are? Hmm...
+
+Oh, hi there mutant, I have a small test for you. Go and get yourself shot by some ratkin necromancers. Try not to die, though! I need to ask you some questions after, and I can't speak with the dead! Because I'm not a necromancer!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Bogaku]]''' in the '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+These ratkin are unusually good at necromancy. I wonder exactly how powerful they are? Hmm...
+
+Oh, hi there mutant, I have a small test for you. Go and get yourself shot by some ratkin necromancers. Try not to die, though! I need to ask you some questions after, and I can't speak with the dead! Because I'm not a necromancer!
+
+===Requirements===
+* Be Attacked By Ratkin Necro-Shamans x10
+* Talk to Bogaku
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|So I see you didn't die from the necromancy blasts. I guess that means they aren't TOO dangerous! How painful would you consider their blasts, on a scale of zero to 60?
+
+Hmm. I see. Well that experience may be a fluke. I have some more tests in mind... and here is your reward! Good monster!}}
+* 50 {{Favor|favor}}
+* {{Item|Xedrite}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Bogaku]]

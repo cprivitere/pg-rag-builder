@@ -1,0 +1,92 @@
+__NOTOC__
+{{NPC infobox
+|title            = Puffy Ben
+|image            = [[File:Puffy.png|300px]]
+|caption          = A sad Ranalon
+|zone             =Sun Vale
+|location         = Northeastern small island.
+|anatomy = Fish and Snail
+|species = Ranalon
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     =
+|vendor           =
+}}
+{{Quote|
+}}
+[[Puffy Ben]] is a Ranalon found on the northeastern island of [[Sun Vale]].
+== Location ==
+; [[Sun Vale]]
+: Northeastern small island, southern beach.
+== Favor ==
+
+== Services ==
+==== Bartering ====
+[[Puffy Ben]] will give [[Sand Dollar]]s in exchange for various items.  The items he requests changes every 2-4 hours (the time period varies) and the player may only barter 3 times per period.
+
+Items he asks for include 3 options from:
+{| class="wikitable mw-collapsible mw-collapsed"
+!Give
+!Receive
+|-
+| {{Item|Shell Fragments}} x 99 || rowspan= "6" | {{Item|Sand Dollar}} x 5
+|-
+| {{Item|Piece of Blue Glass}} x 10
+|-
+| {{Item|Piece of Orange Glass}} x 10
+|-
+| {{Item|Piece of Black Glass}} x 10
+|-
+| {{Item|Piece of Green Glass}} x 10
+|-
+| {{Item|Piece of White Glass}} x 10
+|-
+| {{Item|Starfish}} x 20 - 40 || {{Item|Sand Dollar}} x 10 - 20
+|-
+| {{Item|Auger Shell}} x 26 || {{Item|Sand Dollar}} x 20
+|-
+| {{Item|Scallop Shell}} x 15 - 20 || {{Item|Sand Dollar}} x 30 - 40
+|-
+| {{Item|Small Conch}} x 13 - 19 || {{Item|Sand Dollar}} x 50 - 80
+|-
+| {{Item|Fae Auger Shell}} x 4 - 8 || {{Item|Sand Dollar}} x 30 - 60
+|-
+| {{Item|Pearl}} x 5 - 10 || {{Item|Sand Dollar}} x 50 - 100
+|-
+| {{Item|Blue Sea Star}} x 5 - 8 || {{Item|Sand Dollar}} x 50 - 80
+|-
+| {{Item|Vertan Emerald Star}} x 2 - 4 || {{Item|Sand Dollar}} x 50 - 100
+|-
+| {{Item|Silver Scallop}} x 1 - 2 || {{Item|Sand Dollar}} x 40
+|-
+| {{Item|Vertan Murex Shell}} x 1 - 2 || {{Item|Sand Dollar}} x 50 - 100
+|-
+| {{Item|Black Pearl}} || {{Item|Sand Dollar}} x 350
+|}
+
+== Conversations ==
+{{Quote|source=[[Puffy Ben]]|
+Hi. Are you here to avenge the fallen? I'm no warrior. I won't fight back. I accept my fate.
+; Your fate?
+I helped kill everyone. I didn't attack anybody myself, but I did my part. I'm not even sorry. Okay, that's a lie. I'm sorry, but not for the reasons you want. Who are you here to avenge, anyway?
+; I'm not here to avenge anybody.
+Oh. Well, anyway, if you plan to kill me, you should know that when I don't return home tonight, my brethren will swam this island and re-take it. You don't seem to have brought nearly enough friends to hold this island.
+; Did the ranalon kill everyone on this island?
+Yes, I played a key part. And now... I just guard the place.
+
+Look, I have a lot of beachcombing to do, so let me return to it. Unless you're a fellow beachcomber? I might be interested in trading shells...
+; Wait, I had a question.
+; Why are you called Puffy Ben?
+: This island use to be a resort. Wealthy elves would come here to relax. I worked as a gardener, and they called me Puffy Ben because I would puff my throat out to amuse the guests.
+;: Can you puff your throat out for me?
+: Erm... no, I don't think I will. Sorry. You see, it's part of ranalon courtship. It was humiliating, having to puff on command. It would be like... hm. Like asking an elf to masturbate on command!No, I take that back. It would be like asking a dwarf to masturbate on command. Elves really don't seem to find masturbating in any context, in my experience.
+;: Then why did you puff out for them?
+: I had to earn their trust, of course. My job was to put the elves at ease about my race. So I was just a harmless gardener with a funny throat trick. I told the elves they could pay for my labor in fish. Fish! I don't even eat a lot of fish, I prefer seaweed. But it worked: they considered my people harmless, right until the end.
+; What happened to the people here?
+: When the time came to begin our assault, my people killed them. It was very easy: there were only two guards living on the island, and I'd poisoned their breakfast. They died wallowing in their own vomit. The rest of the elves fought back but our numbers overwhelmed them. It was a very brief battle.
+: Anyway, their ghosts come out at night sometimes to relive their final moments. They aren't very discriminating in who they attack, so it's best to keep your distance.
+; What are you doing here now?
+: Well, my life's mission is over, and now I'm officially retired. Officially I've been assigned to guard this island and alert my people when elven reinforcements arrive, but nobody really cares about that. I was only given this assignment so I could collect shells here. This beach is good for shells.
+}}
+
+[[Category:NPCs]][[Category:Bartering]][[Category:NoRiShin]]

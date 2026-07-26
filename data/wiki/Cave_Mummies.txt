@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Mox Warcut in New Prestonbule said, "While I was exploring Foothills Cave, I uncovered mummies. I think orcs buried an army of mummies in there after a war and forgot about them. Well, you know how we dwarves feel about mummies! So I killed a few, but there were so many other nasty undead in that cave that I had to retreat. Can you go back in there and get rid of a bunch?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Mox Warcut]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|While I was exploring Foothills Cave, I uncovered mummies. I think orcs buried an army of mummies in there after a war and forgot about them. Well, you know how we dwarves feel about mummies! So I killed a few, but there were so many other nasty undead in that cave that I had to retreat. Can you go back in there and get rid of a bunch?}}
+
+===Requirements===
+* Kill Mummies in Foothills Cave (found near the [[Teleportation Machine]])
+* Talk to Mox Warcut
+
+===Rewards===
+{{Spoiler|Rewards for Cave Mummies|
+{{Quote|Good work. Here's a bit of money as a thank-you. And if you decide to go back in there and destroy more mummies, bring me their wrappings. We have a priesthood back in Aufghel that can consecrate the wrappings... we think it might help release the mummys' souls from their purgatory.
+
+<i>[A new Barter option has been added.]</i>}}
+
+* 200 {{Favor|favor}}
+* 4000 councils 
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Mox Warcut]]

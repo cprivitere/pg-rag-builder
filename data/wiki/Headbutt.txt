@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Headbutt
+| description = Bash an opponent with your head. You can use Headbutt instead of Barrage in combos.
+| level = 3
+| power cost = 12
+| reuse time = 12
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|Headbutt}}{{KWAB|BodypartAttack}}
+| damage = 18 Crushing + 18 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Headbutt 2
+| description = Bash an opponent with your head. You can use Headbutt instead of Barrage in combos.
+| level = 15
+| power cost = 18
+| reuse time = 12
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|Headbutt}}{{KWAB|BodypartAttack}}
+| damage = 41 Crushing + 41 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Headbutt 3
+| description = Bash an opponent with your head. You can use Headbutt instead of Barrage in combos.
+| level = 30
+| power cost = 26
+| reuse time = 12
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|Headbutt}}{{KWAB|BodypartAttack}}
+| damage = 86 Crushing + 86 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Headbutt 4
+| description = Bash an opponent with your head. You can use Headbutt instead of Barrage in combos.
+| level = 40
+| power cost = 31
+| reuse time = 12
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|Headbutt}}{{KWAB|BodypartAttack}}
+| damage = 130 Crushing + 130 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Headbutt 5
+| description = Bash an opponent with your head. You can use Headbutt instead of Barrage in combos.
+| level = 50
+| power cost = 36
+| reuse time = 12
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|Headbutt}}{{KWAB|BodypartAttack}}
+| damage = 200 Crushing + 200 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Headbutt 6
+| description = Bash an opponent with your head. You can use Headbutt instead of Barrage in combos.
+| level = 60
+| power cost = 40
+| reuse time = 12
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|Headbutt}}{{KWAB|BodypartAttack}}
+| damage = 273 Crushing + 273 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Headbutt 7
+| description = Bash an opponent with your head. You can use Headbutt instead of Barrage in combos.
+| level = 70
+| power cost = 45
+| reuse time = 12
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|Headbutt}}{{KWAB|BodypartAttack}}
+| damage = 348 Crushing + 348 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Headbutt 8
+| description = Bash an opponent with your head. You can use Headbutt instead of Barrage in combos.
+| level = 80
+| power cost = 50
+| reuse time = 12
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|Headbutt}}{{KWAB|BodypartAttack}}
+| damage = 436 Crushing + 436 if target is Vulnerable
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

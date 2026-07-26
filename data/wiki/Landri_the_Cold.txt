@@ -1,0 +1,362 @@
+__NOTOC__
+{{NPC infobox
+|title            = Landri the Cold
+|image            = [[File:Landri the Cold (npc).jpg|300px]]
+|caption          = She is trying very hard to look nonchalant.
+|zone             = Kur Mountains
+|town             = Northwestern Outpost
+|location         = Ukorga's Inn
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Alchemy]], [[Fire Magic]], [[Mycology]], [[Ice Magic]]
+}}
+{{Quote|
+What do you want? You're clearly not a fellow Ice Mage, so can you go bother someone else?
+}}
+[[Landri the Cold]] is a grumpy elf mage who specializes in cold spells. She is working on a spell to freeze the world. Or maybe it is just a joke.
+
+Decades ago, Landri was apprenticed to the Necromancer [[Lomas]]. Lomas was a necrophiliac who forced Landri to freeze the corpses he reanimated... so they wouldn't rot. Eventually, she decided to bury Lomas alive in the [[Kur Tower]], and sealed the area off with a massive ice wall. She turned herself in for her crime, and served fifty years in an Elven misery box at the [[Oldgrove Prison]]. 
+The memory of Lomas and his actions has continued to traumatize Landri.
+
+==Location==
+; [[Kur Mountains]]
+: [[Northwestern Outpost]]
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Landri
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+Note: [[Wolfsbane Blade]] and [[Lycanspore Bomb]] come with their recipes. It appears that all training requires completion of [[Into the Kur Tower]] quest and at least 25 levels of [[Fire Magic]] or [[Rabbit]].
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Wolfsbane Blade
+ |skilllevel=
+ |cost=2784
+ |favor=
+}}
+{{NPC training row
+ |ability=Wolfsbane Blade 2
+ |skilllevel=
+ |cost=2784
+ |favor=
+}}
+{{NPC training row
+ |ability=Wolfsbane Blade 3
+ |skilllevel=
+ |cost=2784
+ |favor=
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fire Magic]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Defensive Chill
+ |skilllevel=
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |ability=Defensive Chill 2
+ |skilllevel=
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |ability=Defensive Chill 3
+ |skilllevel=30
+ |cost=2349
+ |favor=
+}}
+{{NPC training row
+ |ability=Defensive Chill 4
+ |skilllevel=45
+ |cost=6046
+ |favor=
+}}
+{{NPC training row
+ |ability=Cold Protection
+ |skilllevel=
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |ability=Cold Protection 2
+ |skilllevel=
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |ability=Cold Protection 3
+ |skilllevel=30
+ |cost=2349
+ |favor=
+}}
+{{NPC training row
+ |ability=Cold Protection 4
+ |skilllevel=40
+ |cost=4089
+ |favor=
+}}
+{{NPC training row
+ |ability=Cold Protection 5
+ |skilllevel=50
+ |cost=6264
+ |favor=
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Flower Arrangement]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Cleanliness Arrangement #1
+ |skilllevel=
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Display #1
+ |skilllevel=
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Arrangement #2
+ |skilllevel=16
+ |cost=898
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Display #2
+ |skilllevel=18
+ |cost=927
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Arrangement #3
+ |skilllevel=31
+ |cost=2464
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Display #3
+ |skilllevel=33
+ |cost=2523
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Arrangement #4
+ |skilllevel=41
+ |cost=3915
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Display #4
+ |skilllevel=43
+ |cost=3972
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Arrangement #5
+ |skilllevel=48
+ |cost=4117
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Display #5
+ |skilllevel=50
+ |cost=4176
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Arrangement #6
+ |skilllevel=58
+ |cost=6727
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cleanliness Display #6
+ |skilllevel=60
+ |cost=6786
+ |favor=
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Ice Magic]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Ice Magic Research Level 1
+ |skilllevel=1
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 5
+ |skilllevel=5
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 10
+ |skilllevel=10
+ |cost=405
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 15
+ |skilllevel=15
+ |cost=840
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 20
+ |skilllevel=20
+ |cost=985
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 25
+ |skilllevel=25
+ |cost=1420
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 30
+ |skilllevel=30
+ |cost=1566
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 35
+ |skilllevel=35
+ |cost=2580
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 40
+ |skilllevel=40
+ |cost=2725
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 45
+ |skilllevel=45
+ |cost=4030
+ |favor=
+}}
+{{NPC training row
+ |recipe=Ice Magic Research Level 50
+ |skilllevel=50
+ |cost=4176
+ |favor=
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mycology]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Lycanspore Bomb
+ |skilllevel=30
+ |cost=2396
+ |favor=
+}}
+|}
+
+==Hang Outs==
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Discuss Ice Magic basic concepts (2 hr) {{Favor|Comfortable}}|
+:20 favor with Landri the Cold
+:300 Fire Magic XP
+}}
+{{Spoiler|Practice Ice magic on Each other (2 hr) {{Favor|Comfortable}}|
+:20 favor with Landri the Cold
+:300 Fire Magic XP
+}}
+{{Spoiler|Help make alchemical concoctions (6 hr) {{Favor|Friends}}|
+{{Quote|Thank you for helping. Did you get the formula we were using? Good. It's not the most potent thing in the world, but it's the basis for more powerful versions.}} 
+:50 favor with Landri the Cold
+:Recipe for Coldbite Potion
+}}
+{{Spoiler|Help make complex alchemical concotions (12hr) {{Favor|Close Friends}}|
+{{Quote|Thank you for helping. I hope you learned something from all of that!}}
+:95 favor with Landri the Cold
+:Recipe for Coldgnaw Potion
+}}
+{{Spoiler|Help make advanced alchemical concoctions (18hr) {{Favor|Best Friends}}|
+{{Quote|Thank you for helping. This Coldrend formula is the most potent I know, but they say there are much more powerful versions out there, lost in old books somewhere. Romantic thought, isn't it?
+}}
+:140 favor with Landri the Cold
+:Recipe for Coldrend Potion
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Coldrend Potion}} x4
+|RiShin Family ={{Item|Coldrend Potion}} x4, 1x Accessory: {{Item|Amulet of Max Health +30}} (L50) or Ring (Lv50)
+}}
+== Conversations ==
+
+
+{{Spoiler|After reading the signpost in the entrance of [[Kur Tower]].|
+:What is it?
+:'''I saw your sign in the tower near here.'''
+:Yes. What of it?
+:'''The sign said you'd tell me more about it in person.'''
+:Well... I killed a necromancer there long ago. I foolishly turned myself in for the murder and was imprisoned for fifty years. I was released last year and came to see my handiwork and... I don't think he's completely dead. 
+:'''You saw him alive?'''
+:No, but there's zombies wandering around--just like the frozen zombies I helped him create decades ago. But damn it, I burned him alive, and I felt his life force ebb. I must be mistaken. He ''can't'' be alive. 
+:'''Why did you kill him? 
+:He was a necromancy necrophiliac. He forced the dead to live in their rotting bodies so that he could have animated... play things. All necromancers are worthless scum, but he was even worse than most. 
+:
+:I was his apprentice, and he made me freeze his zombies so that they wouldn't rot while he... and he...
+:(Landri seems at a loss for words, but forces herself to speak)
+:
+:He would fuck them right in front of me. I was practically a child! Watching the zombies scream in anger and despair, and he laughed and laughed, and...
+:
+:(Landri seems lost in thought, her brow furrowed angrily)
+:'''I see.'''
+:And then I spent fifty years in a misery box as punishment, because there's no law against necromancy among elves!
+:
+:Elves live a long time, so I will eventually get over my prison term, I suppose. But not right now. I must focus on my ice magic. It's the only thing that matters. But this man may still be alive. And that gnaws at me!
+:'''Is there anything I can do?'''
+:I can't bring myself to go in there and see if he's alive. I'm not ready. But I can't let you go get yourself killed, either. If you went alone, you would surely die, and he would do terrible things with your corpse. So no, I can't let you go. 
+:'''What if I promise to bring a couple of friends?'''
+:Hm. Well, if you have powerful friends, I suppose... very well. You will need this. It will let you get past the icy barrier I concocted, deep within the lair. Let each of your friends use it, too. [[Ice Bypass Spell]]
+:'''Okay. What's past the barrier?'''
+:Once you're past the barrier, you should quickly come to a dead end. That's where I left his corpse. If he's dead, wonderful. If he's not, fix it. Bring back his skull.
+:'''Grisly!'''
+:Yes. But don't worry. He's already officially dead. I spent fifty years in prison for the crime. You're just... making sure I can sleep at night.
+:'''Okay. I'll do it. Bye!'''
+}}
+
+[[Category:NPCs]]

@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Monsters are invading Povus under cover of darkness. Light the town's lamps to regain control.
+
+(To receive a personal reward, make sure you personally light at least one lamp.)
+
+This Quest can be repeated after 0 days.
+
+This quest is only available at night. 
+
+===Preface===
+Monsters are invading Povus under cover of darkness. Light the town's lamps to regain control.
+
+(To receive a personal reward, make sure you personally light at least one lamp.)
+
+===Requirements===
+* Light lamps in Old Town x16
+* Light lamps in the Sprawl x19
+* Light lamps in New Town x25
+* Light lamps in the Annex x15
+* (Personally light a lamp)
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You lit all the lamps! Visit the Town Status Board for a reward.}}
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Povus Safety]]

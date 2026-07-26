@@ -1,0 +1,226 @@
+__NOTOC__
+{{NPC infobox
+|title            = Nelson Ballard
+|image            = [[File:Nelson Ballard (npc).jpg|300px]]
+|caption          = An older human with a weary but welcoming look.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = Around the well
+|wander = Walks all around town.
+|anatomy = Human
+|species = Human
+|beastspeak       = No
+|skilltrainer     = [[Sword]], [[Shield]]
+}}
+{{Quote|
+Well, technically, the title is Sir Ballard, Praetor, Retired. But they called me back up for this "special mission." So I'm officially the Praetor of all of [[Serbule]] and the surrounding land for a hundred miles. But that means nothing out here.
+}}
+[[Nelson Ballard]] is the retired Praetor of Serbule Keep.
+
+The retired Nelson was summoned by the Council to oversee the construction of a town in the east to hold Elven refugees from the destroyed [[Dwyndarre]].  His wife died five years ago, so he had no qualms packing up and accepting the mission.  He originally lived outside of [[Statehelm]].
+
+{{Quote |
+: Hello again!
+: ''' Can you tell me about the people here? '''
+: Who in particular?
+: ''' About [[Sir Coth]]...'''
+:: Sir Coth was part of the [[Human]] team that came with me to build this town. He's a decent fighter, a great Sheriff, and loyal as hell to the Council. Great man. Dumb as a horse. But a great man in his own capacity.
+: ''' [[Therese]]...'''
+:: The little [[Elven]] girl tending that garden? She wasn't a gardener back in [[Dwyndarre]]. When she got here she decided she'd grow food to feed everyone, and she's been learning for the past few months. She grows some herbs and a few vegetables, but [[Ivyn]] and [[Jara]] outside of town are the real food-makers here -- they've been farmers for two hundred years. Incredible! Therese is just playing at it.
+:: Therese is a dear little thing, though. Don't tell her I said that.
+: ''' [[Joeh]]...'''
+:: The weapon shopkeeper? He bought a bunch of stock with him, and he can maintain weapons well. He fights well, too, but... if he offers to spar with you, say no.
+:: I sparred with him once. We had a pretty good work out, and then he... things got awkward. I don't want to talk about it.
+: ''' [[Marna]]...'''
+:: She was a successful businesswoman back in her homeland. Lost everything, and she's anxious to claw her way back. She's older than most of the Elves here, not that I can tell their ages.
+:: She can be a bit... ambitious. But she works damned hard -- for an Elf, I mean.
+: ''' [[Harry the Wolf|Harry]]... '''
+:: I don't know any Harry. Oh wait, you mean the wolf? Seems to be Therese's pet, hangs out in her garden a lot. She has weird pets.
+:: I thought I heard that wolf talking to her once, but I'm pretty sure it was [[Velkort]] playing a prank on me with some kind of ventriloquism spell.
+
+}}
+
+==Location==
+; [[Serbule]]
+: Wanders through [[Serbule Keep]] between his office and Hulon's shop next door. [[File:Nelson_Ballard_Location.jpg|400px|thumb|right|[[Nelson Ballard]], standing outside his office in [[Serbule Keep]]. Can be found wandering between his office (note the scroll sign) and [[Hulon]] next door.]]
+
+==Favor==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+
+== Quests ==
+<dpl>
+category = Quests/Nelson Ballard
+notcategory = Quests/Guild Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+===== Guild Quests =====
+<dpl>
+category = Quests/Nelson Ballard
+category = Quests/Guild Quests
+include = #Prerequisites,#Requirements
+mode = unordered
+columns = 1
+</dpl>
+
+==Training==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Sword]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+|ability=Precision Pierce 
+|cost=600
+|favor=Comfortable (?)
+|skilllevel=8
+}}
+{{NPC training row
+|ability=Precision Pierce 2
+|cost=1650
+|favor=Friends
+|skilllevel=18
+}}
+{{NPC training row
+|ability= Precision Pierce 3
+|cost=4350
+|favor=Close Friends
+|skilllevel=33
+}}
+{{NPC training row
+|ability=Precision Pierce 4
+|cost=6900
+|favor=
+|skilllevel=44
+}}
+{{NPC training row
+|ability=Flashing Strike
+|cost=1350
+|favor=
+|skilllevel=13
+}}
+{{NPC training row
+|ability=Flashing Strike 2
+|cost=4400
+|favor=
+|skilllevel=34
+}}
+{{NPC training row
+|ability=Flashing Strike 3
+|cost=6950
+|favor=Best Friends
+|skilllevel=45
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Shield]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+|ability=Rapid Recovery
+|cost=1400
+|favor=Comfortable (?)
+|skilllevel=14
+}}
+{{NPC training row
+|ability=Rapid Recovery 2
+|cost=2400
+|favor=Friends
+|skilllevel=24
+}}
+{{NPC training row
+|ability= Rapid Recovery 3
+|cost=4400
+|favor=
+|skilllevel=34
+}}
+{{NPC training row
+|ability=Rapid Recovery 4
+|cost=6850
+|favor=Best Friends
+|skilllevel=43
+}}
+{{NPC training row
+|ability=Rapid Recovery 5
+|cost=9900
+|favor=Like Family
+|skilllevel=54
+}}
+{{NPC training row
+|ability=Rapid Recovery 6
+|cost=14950
+|favor=Like Family
+|skilllevel=65
+}}
+{{NPC training row
+|ability=Fire Shield
+|cost=550
+|favor= Comfortable
+|skilllevel=7
+}}
+{{NPC training row
+|ability=Fire Shield 2
+|cost=2550
+|favor=Friends
+|skilllevel=27
+}}
+{{NPC training row
+|ability=Fire Shield 3 
+|cost=7050
+|favor=
+|skilllevel=47
+}}
+{{NPC training row
+|ability=Fire Shield 4
+|cost=11550
+|favor=Best Friends
+|skilllevel=57
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Nelson Ballard's Shield}}, {{Item|Onyx}} x5
+}}
+== Conversations ==
+
+{{Quote |
+::
+Oh, we don't get a lot of Human visitors. Welcome to the daycare town.
+
+'''Daycare town?'''
+
+::Oh, it just feels that way sometimes. This city was going to be a new Council outpost for Humans, but was abondoned due to the war effort. When the Eleven city of Dwyndarre was destroyed, we finished building it as a shelter for refugees that fled into our country.
+
+'''So what happened to Dwyndarre?'''
+
+::Dwyndarre? Who knows! It just blew the fuck up! Right off the famned map, a million Elves killed in a single day. The refugees here were the ones that weren't in the city at the time. The are no survivors from Dwyndare proper. It's just ash now.
+
+'''Holy crap. And there's no clue what caused it?'''
+
+::Nope. One day it was a lovely tree-top city, the next day it was just ash. No trees for a hundred miles! Not even dragons are that thorough. It's gotta be demons, right? Demons from the front lines of the army. But how would they show up in Dwyndarre? Perverted Eleven magicians making some sort of sex deal for loner dicks, that's what I heard! (Nelson snickers and then sees you aren't laughing,) It's a joke! You aren't from around here, are you?
+
+''' I kind of lost my memory '''
+
+::Oh! Another one of those, eh? We've had a few people wander in without any memories the past month or two. Must be some sort of monster that eats minds or something around here. This whole countryside is full of bizarre magical shit. ...Oh, wait, you want to live here? Well only Elven refugees can stay here permanently without special Council permission. But I tell you what. Here, let me give you the cash I would give to an Elf. A thousand Councils. That should get you back on your feet, if you're a careful spender!
+
+'''Thanks! What should I do now?'''
+
+::Maybe you can find a place to stay around here for a while, or you can head off to Eltibule Keep. I know they're trying to make that old castle into an outpost. Might be able to find use for you there.
+
+'''Thanks. Goodbye for now.'''
+}}
+
+== Trivia ==
+
+Nelson gives the player 1,000 councils the first time you introduce yourself through his dialogue.  
+
+[[Category:NPCs]][[Category:Dead Wife]]

@@ -1,0 +1,33 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ailred
+|image            = [[File:Ailred (npc).png|300px]]
+|caption          = ...
+|zone             = Povus 
+|town             = City of Povus
+|location         = Old Town, Inn
+|anatomy          = Elven
+|species          = Elf
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|source=[[Ailred]]|
+I see your menu has a selection of goblin food, including ruktagh. How are you getting fresh dill out here? Well, I'm sure the dill isn't fresh. But the meal had better be!
+}}
+[[Ailred]] is an impatient resident of the city of Povus. Each in-game day, [[Ailred]] will make a request for an item in the form of a quest. The quests do not have time limits, however a new quest can not be obtained until a previously assigned one is completed or abandoned.
+
+== Location ==
+; [[Povus]]
+: [[Ailred]] can be found in Old Town, inside the remains of the Inn. He only appears when the Povus Town Level is at least 5.
+
+== Favor ==
+[[Ailred]] does not use the favor system.
+== Quests ==
+<dpl>
+category = Quests/Ailred
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+[[Category:NPCs]][[Category:NoRiShin]]

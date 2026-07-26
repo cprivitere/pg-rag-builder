@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Ratkin have infiltrated Old Town and the Sprawl and have claimed ownership of the town! Dispute their claim with prejudice!
+
+(To receive a reward, make sure that you personally help defeat at least one enemy.)
+
+This Quest can be repeated after 0 days.
+
+This quest is only available at night. 
+
+===Preface===
+Ratkin have infiltrated Old Town and the Sprawl and have claimed ownership of the town! Dispute their claim with prejudice!
+
+(To receive a reward, make sure that you personally help defeat at least one enemy.)
+
+===Requirements===
+* Defeat Ratkin Squatters and Goats x50
+* (Personally defeat an enemy)
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You've defeated the ratkin! Visit the town Status board for a reward.}}
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Povus Safety]]

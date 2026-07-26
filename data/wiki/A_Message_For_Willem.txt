@@ -1,0 +1,33 @@
+__NOTOC__
+==Summary==
+Eveline Rastin in Red Wing Casino said, "Can you give this note to Willem for me? Now don't read it! Promise you won't!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Eveline Rastin]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|
+Can you give this note to Willem for me? Now don't read it! Promise you won't!
+}}
+
+===Requirements===
+* Deliver {{Item|Note to Willem}} to [[Willem Fangblade]]
+* Talk to [[Eveline Rastin]]
+
+===Midway Text===
+{{Spoiler|Response by [[Willem Fangblade]]|
+{{Quote|
+Did you read this?! It's not even in an envelope! Tell the daft girl not to let people know about us! What in Ormorek's Beard am I going to do with her?
+}}
+}}
+
+===Rewards===
+{{Spoiler|Rewards for A Message For Willem|
+{{Quote|
+That's all he said? He didn't say anything about the ''contents'' of my letter? I mean, I trust you, so why isn't that enough for him?! Hmph. Oh, here. Now... please leave me alone... I just need to be alone for a minute.
+}}
+* 100 favor towards Eveline Rastin
+* {{Item|Red Wing Token}} X3
+}}
+
+[[Category:Quests]][[Category:Quests/Eveline Rastin]][[Category:Quests/Red Wing Casino Quests]]

@@ -1,0 +1,282 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sir Abbley
+|image            = [[File:Sir Abbley (npc).png|300px]] 
+|caption          = Seems kindly
+|zone             = Statehelm
+|town = Statehelm
+|location         = Stables/Wandering
+|anatomy = Human
+|species = Human
+|beastspeak       = No
+|skilltrainer     = [[Animal Handling]]
+|storage = Yes
+}}
+{{Quote|source=[[Sir Abbley]]| 
+My parents were saddlemakers so I was around horses all my life. So I got stuck running the stables.
+}}
+[[Sir Abbley]] is [[Statehelm]]'s stablemaster. He offers access to stables and [[Animal Handling]] Training. 
+== Location ==
+; [[Statehelm]]
+: [[Sir Abbley]] wanders in and around the stables in [[Statehelm]]. 
+
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+Animal Handling books are granted as rewards in [[Egg Run]], and can drop from [[Deep Hexapus]] in [[Nightmare Caves]] deep caves section.
+
+=== Favor Rewards === 
+[[Sir Abbley]] rewards his friends with __TBD__
+== Quests ==
+[[Sir Abbley]] does not offer quests to those with '''{{favor|Neutral}}''' favor.
+<!--
+[[Sir Abbley offers...
+<dpl>
+category = Quests/Sir Abbley
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Animal Handling]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Handling{{pipe}}Unlock Animal Handling Skill Levels 81-90
+ |skilllevel = 80
+ |cost=242 SR or 552000
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Handling{{pipe}}Unlock Animal Handling Skill Levels 91-100
+ |skilllevel = 90
+ |cost=404 SR or 992000
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Handling{{pipe}}Unlock Animal Handling Prodigy Potential
+ |skilllevel= 104
+ |cost=121 SR or 276000
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Call Stabled Pet #7
+ |skilllevel= 100
+ |cost=64252
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Revive Pet
+ |skilllevel= 100
+ |cost=64252
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Sic 'Em 10
+ |skilllevel= 99
+ |cost=63083
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Sic 'Em 11
+ |skilllevel= 109
+ |cost=75955
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Get It Off Me 10
+ |skilllevel= 96
+ |cost=59616
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Get It Off Me 11
+ |skilllevel= 106
+ |cost=71870
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Get It Off Me 12
+ |skilllevel= 116
+ |cost=86332
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Monstrous Rage 10
+ |skilllevel= 97
+ |cost=60720
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Monstrous Rage 11
+ |skilllevel= 107
+ |cost=73195
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Monstrous Rage 12
+ |skilllevel= 117
+ |cost=87878
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Feed Pet 11
+ |skilllevel= 103
+ |cost=67896
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Feed Pet 12
+ |skilllevel= 113
+ |cost=81696
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=That'll Do 11
+ |skilllevel= 101
+ |cost=65467
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=That'll Do 12
+ |skilllevel= 111
+ |cost=78825
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Wild Endurance 8
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Wild Endurance 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Wild Endurance 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Nimble Limbs 9
+ |skilllevel= 100
+ |cost=64252
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Nimble Limbs 10
+ |skilllevel= 110
+ |cost=77390
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Shrill Command 10
+ |skilllevel= 95
+ |cost=61824
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Shrill Command 11
+ |skilllevel= 105
+ |cost=74520
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Unnatural Wrath 8
+ |skilllevel= 95
+ |cost=58512
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Unnatural Wrath 9
+ |skilllevel= 105
+ |cost=70545
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Unnatural Wrath 10
+ |skilllevel= 115
+ |cost=84787
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Clever Trick 6
+ |skilllevel= 104
+ |cost=69220
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Mark Weakness 8
+ |skilllevel= 100
+ |cost=64252
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Mark Weakness 9
+ |skilllevel= 110
+ |cost=77390
+ |favor=Neutral
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Riding]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Riding{{pipe}}Unlock Riding Skill Levels 81-90
+ |skilllevel = 80
+ |cost=290 SR or 800000
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Riding{{pipe}}Unlock Riding Skill Levels 91-100
+ |skilllevel = 90
+ |cost=498 SR or 1200000
+ |favor=XXX
+}}
+|}
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Sir Abbley
+|favorrestriction = Friends
+|itemrestriction =Anything
+|neutral = 0
+|comfortable = 0
+|friends = 24
+|closefriends = 36
+|bestfriends = 48
+|likefamily = 60
+|soulmates = 72
+}}
+
+==== Stable Master====
+[[Sir Abbley]] offers stable access.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Sir Abbley]]| 
+Learned a thing or two about horses. The biggest shortcut I've found is to get someone else to break 'em in. And ideally that person should be lower rank than you, so if they do a poor job you can yell at 'em. Hah! I'm just kidding. I was having [[Blademan Thompson]] help me out the other day. So I guess that was a little inside joke that you weren't privy to. Sorry about that, I'm workin' on it!}}
+{{Quote|source=[[Sir Abbley]]| 
+I tried to convince the higher-ups that I'd be more useful to the war effort if they let me make saddles. That's what I'm best at! And a good strong war saddle can really make a difference in your ride. Well, long story short, they said no.}}
+
+[[Category:NPCs]]

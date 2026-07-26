@@ -1,0 +1,284 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Spirit Fox/Abilities|Spirit Fox Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v446 on Fri Jan 16 2026 03:16:03 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Illusive Guise|2}} || 20 || Illusive Guise || Briefly fool shopkeepers and villagers into perceiving you as a typical humanoid. || Take a humanoid shape for 90 seconds.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 4<br><b>Cooldown:</b> 3600 || <b>Item:</b> [[Spirit Fox: Illusive Guise]]
+|-
+| {{Ability icon|Illusive Guise 2|2}} || 45 || Illusive Guise 2 || Briefly fool shopkeepers and villagers into perceiving you as a typical humanoid. || Take a humanoid shape for 180 seconds (3 minutes).<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 4<br><b>Cooldown:</b> 3600 || <b>Item:</b> [[Spirit Fox: Illusive Guise 2]]
+|-
+| {{Ability icon|Illusive Guise 3|2}} || 70 || Illusive Guise 3 || Briefly fool shopkeepers and villagers into perceiving you as a typical humanoid. || Take a humanoid shape for 300 seconds (5 minutes).<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 4<br><b>Cooldown:</b> 3600 || <b>Item:</b> [[Spirit Fox: Illusive Guise 3]]
+|-
+| {{Ability icon|Nip|2}} || 1 || Nip || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 7 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Soul Bite|2}} || 2 || Soul Bite || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 15 Darkness || <b>Power Cost:</b> 10<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Dimensional Snare|2}} || 3 || Dimensional Snare || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 13 Darkness || <b>Power Cost:</b> 14<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Power Glyph|2}} || 5 || Power Glyph || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 60 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 45<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Galvanize|2}} || 5 || Galvanize || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 50 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 50<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Spirit Pounce 1|2}} || 7 || Spirit Pounce 1 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 24 Darkness<br><b>Dmg to Vulnerable:</b> 24 Darkness || <b>Power Cost:</b> 20<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Blur Step|2}} || 8 || Blur Step || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +20% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Nip 2|2}} || 10 || Nip 2 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 12 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Spirit Bolt|2}} || 10 || Spirit Bolt || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 33 Darkness || <b>Power Cost:</b> 25<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Cinderstorm|2}} || 10 || Cinderstorm || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 3 Fire, 8 times over 8 seconds || <b>Damage:</b> 38 Fire || <b>Power Cost:</b> 27<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm]]
+|-
+| {{Ability icon|Paradox Trot|2}} || 12 || Paradox Trot || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +10 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 26<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Trick Fox|2}} || 12 || Trick Fox || Create an ephemeral projection of a fox that taunts enemies. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Dimensional Snare 2|2}} || 13 || Dimensional Snare 2 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 30 Darkness || <b>Power Cost:</b> 18<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Soul Bite 2|2}} || 14 || Soul Bite 2 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 32 Darkness || <b>Power Cost:</b> 13<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Power Glyph 2|2}} || 15 || Power Glyph 2 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 90 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 69<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Galvanize 2|2}} || 15 || Galvanize 2 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 76 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 76<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Infectious Instincts|2}} || 15 || Infectious Instincts || Give a nod to an ally pet, filling them with enthusiastic energy. || Target's next attack deals 24 extra damage ||  || <b>Power Cost:</b> 19<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Spirit Pounce 2|2}} || 17 || Spirit Pounce 2 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 48 Darkness<br><b>Dmg to Vulnerable:</b> 48 Darkness || <b>Power Cost:</b> 27<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Blur Step 2|2}} || 18 || Blur Step 2 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +21% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 4<br><b>Cooldown:</b> 29 || Leveling
+|-
+| {{Ability icon|Nip 3|2}} || 20 || Nip 3 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 18 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Dimensional Snare 3|2}} || 23 || Dimensional Snare 3 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 44 Darkness || <b>Power Cost:</b> 22<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Power Glyph 3|2}} || 24 || Power Glyph 3 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 110 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 76<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Galvanize 3|2}} || 24 || Galvanize 3 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 101 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 101<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Paradox Trot 2|2}} || 24 || Paradox Trot 2 || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +20 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 33<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Soul Bite 3|2}} || 25 || Soul Bite 3 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 53 Darkness || <b>Power Cost:</b> 17<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Spirit Bolt 2|2}} || 25 || Spirit Bolt 2 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 74 Darkness || <b>Power Cost:</b> 32<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Cinderstorm 2|2}} || 25 || Cinderstorm 2 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 6 Fire, 8 times over 8 seconds || <b>Damage:</b> 85 Fire || <b>Power Cost:</b> 38<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm 2]]
+|-
+| {{Ability icon|Trick Fox 2|2}} || 26 || Trick Fox 2 || Create an ephemeral projection of a fox that taunts enemies. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Spirit Pounce 3|2}} || 27 || Spirit Pounce 3 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 77 Darkness<br><b>Dmg to Vulnerable:</b> 77 Darkness || <b>Power Cost:</b> 33<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Blur Step 3|2}} || 28 || Blur Step 3 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +22% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 36<br><b>Range:</b> 4<br><b>Cooldown:</b> 28 || Leveling
+|-
+| {{Ability icon|Nip 4|2}} || 30 || Nip 4 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 27 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Infectious Instincts 2|2}} || 30 || Infectious Instincts 2 || Give a nod to an ally pet, filling them with enthusiastic energy. || Target's next attack deals 51 extra damage ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Dimensional Snare 4|2}} || 33 || Dimensional Snare 4 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 69 Darkness || <b>Power Cost:</b> 27<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Power Glyph 4|2}} || 35 || Power Glyph 4 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 130 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Galvanize 4|2}} || 35 || Galvanize 4 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 127 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 127<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Soul Bite 4|2}} || 36 || Soul Bite 4 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 80 Darkness || <b>Power Cost:</b> 21<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Paradox Trot 3|2}} || 36 || Paradox Trot 3 || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +30 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 41<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Spirit Pounce 4|2}} || 37 || Spirit Pounce 4 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 113 Darkness<br><b>Dmg to Vulnerable:</b> 113 Darkness || <b>Power Cost:</b> 40<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Blur Step 4|2}} || 38 || Blur Step 4 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +23% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 43<br><b>Range:</b> 4<br><b>Cooldown:</b> 27 || Leveling
+|-
+| {{Ability icon|Nip 5|2}} || 40 || Nip 5 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 37 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Spirit Bolt 3|2}} || 40 || Spirit Bolt 3 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 133 Darkness || <b>Power Cost:</b> 41<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Cinderstorm 3|2}} || 40 || Cinderstorm 3 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 9 Fire, 8 times over 8 seconds || <b>Damage:</b> 154 Fire || <b>Power Cost:</b> 49<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm 3]]
+|-
+| {{Ability icon|Trick Fox 3|2}} || 42 || Trick Fox 3 || Create an ephemeral projection of a fox that taunts enemies. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Dimensional Snare 5|2}} || 43 || Dimensional Snare 5 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 106 Darkness || <b>Power Cost:</b> 31<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Power Glyph 5|2}} || 44 || Power Glyph 5 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 150 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 117<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Galvanize 5|2}} || 44 || Galvanize 5 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 154 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 154<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Soul Bite 5|2}} || 45 || Soul Bite 5 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 117 Darkness || <b>Power Cost:</b> 23<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Infectious Instincts 3|2}} || 45 || Infectious Instincts 3 || Give a nod to an ally pet, filling them with enthusiastic energy. || Target's next attack deals 97 extra damage ||  || <b>Power Cost:</b> 32<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Spirit Pounce 5|2}} || 47 || Spirit Pounce 5 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 177 Darkness<br><b>Dmg to Vulnerable:</b> 177 Darkness || <b>Power Cost:</b> 45<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Blur Step 5|2}} || 48 || Blur Step 5 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +24% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 48<br><b>Range:</b> 4<br><b>Cooldown:</b> 26 || Leveling
+|-
+| {{Ability icon|Paradox Trot 4|2}} || 48 || Paradox Trot 4 || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +40 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 47<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Nip 6|2}} || 50 || Nip 6 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 58 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Spirit Bolt 4|2}} || 50 || Spirit Bolt 4 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 200 Darkness || <b>Power Cost:</b> 45<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Cinderstorm 4|2}} || 50 || Cinderstorm 4 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 12 Fire, 8 times over 8 seconds || <b>Damage:</b> 233 Fire || <b>Power Cost:</b> 56<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm 4]]
+|-
+| {{Ability icon|Dimensional Snare 6|2}} || 53 || Dimensional Snare 6 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 159 Darkness || <b>Power Cost:</b> 35<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Soul Bite 6|2}} || 55 || Soul Bite 6 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 170 Darkness || <b>Power Cost:</b> 26<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Power Glyph 6|2}} || 56 || Power Glyph 6 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 175 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 136<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Galvanize 6|2}} || 56 || Galvanize 6 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 180 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 180<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Trick Fox 4|2}} || 56 || Trick Fox 4 || Create an ephemeral projection of a fox that taunts enemies. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Spirit Pounce 6|2}} || 57 || Spirit Pounce 6 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 250 Darkness<br><b>Dmg to Vulnerable:</b> 250 Darkness || <b>Power Cost:</b> 50<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Blur Step 6|2}} || 58 || Blur Step 6 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +25% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 53<br><b>Range:</b> 4<br><b>Cooldown:</b> 25 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Nip 7|2}} || 60 || Nip 7 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 79 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Paradox Trot 5|2}} || 60 || Paradox Trot 5 || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +50 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 54<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Spirit Bolt 5|2}} || 60 || Spirit Bolt 5 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 273 Darkness || <b>Power Cost:</b> 50<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Infectious Instincts 4|2}} || 60 || Infectious Instincts 4 || Give a nod to an ally pet, filling them with enthusiastic energy. || Target's next attack deals 164 extra damage ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Cinderstorm 5|2}} || 60 || Cinderstorm 5 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 15 Fire, 8 times over 8 seconds || <b>Damage:</b> 317 Fire || <b>Power Cost:</b> 62<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm 5]]
+|-
+| {{Ability icon|Dimensional Snare 7|2}} || 63 || Dimensional Snare 7 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 211 Darkness || <b>Power Cost:</b> 39<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Power Glyph 7|2}} || 64 || Power Glyph 7 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 200 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 155<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Galvanize 7|2}} || 64 || Galvanize 7 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 206 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 206<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Soul Bite 7|2}} || 65 || Soul Bite 7 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 223 Darkness || <b>Power Cost:</b> 29<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Spirit Pounce 7|2}} || 67 || Spirit Pounce 7 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 324 Darkness<br><b>Dmg to Vulnerable:</b> 324 Darkness || <b>Power Cost:</b> 56<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Blur Step 7|2}} || 68 || Blur Step 7 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +26% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 58<br><b>Range:</b> 4<br><b>Cooldown:</b> 24 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Nip 8|2}} || 70 || Nip 8 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 100 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Spirit Bolt 6|2}} || 70 || Spirit Bolt 6 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 348 Darkness || <b>Power Cost:</b> 55<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Cinderstorm 6|2}} || 70 || Cinderstorm 6 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 18 Fire, 8 times over 8 seconds || <b>Damage:</b> 404 Fire || <b>Power Cost:</b> 69<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm 6]]
+|-
+| {{Ability icon|Paradox Trot 6|2}} || 72 || Paradox Trot 6 || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +60 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 60<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Trick Fox 5|2}} || 72 || Trick Fox 5 || Create an ephemeral projection of a fox that taunts enemies. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Dimensional Snare 8|2}} || 73 || Dimensional Snare 8 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 268 Darkness || <b>Power Cost:</b> 44<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Soul Bite 8|2}} || 75 || Soul Bite 8 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 282 Darkness || <b>Power Cost:</b> 33<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Infectious Instincts 5|2}} || 75 || Infectious Instincts 5 || Give a nod to an ally pet, filling them with enthusiastic energy. || Target's next attack deals 235 extra damage ||  || <b>Power Cost:</b> 45<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Power Glyph 8|2}} || 76 || Power Glyph 8 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 225 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 199<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Galvanize 8|2}} || 76 || Galvanize 8 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 231 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 231<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Spirit Pounce 8|2}} || 77 || Spirit Pounce 8 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 408 Darkness<br><b>Dmg to Vulnerable:</b> 408 Darkness || <b>Power Cost:</b> 62<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Blur Step 8|2}} || 78 || Blur Step 8 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +27% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 63<br><b>Range:</b> 4<br><b>Cooldown:</b> 23 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Nip 9|2}} || 80 || Nip 9 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 126 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Spirit Bolt 7|2}} || 80 || Spirit Bolt 7 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 436 Darkness || <b>Power Cost:</b> 61<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Cinderstorm 7|2}} || 80 || Cinderstorm 7 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 21 Fire, 8 times over 8 seconds || <b>Damage:</b> 506 Fire || <b>Power Cost:</b> 77<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm 7]]
+|-
+| {{Ability icon|Dimensional Snare 9|2}} || 83 || Dimensional Snare 9 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 332 Darkness || <b>Power Cost:</b> 48<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Spirit Fox: Dimensional Snare 9]]
+|-
+| {{Ability icon|Galvanize 9|2}} || 84 || Galvanize 9 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 236 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 236<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Item:</b> [[Spirit Fox: Galvanize 9]]
+|-
+| {{Ability icon|Paradox Trot 7|2}} || 84 || Paradox Trot 7 || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +70 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 67<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Spirit Fox: Paradox Trot 7]]
+|-
+| {{Ability icon|Soul Bite 9|2}} || 85 || Soul Bite 9 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 345 Darkness || <b>Power Cost:</b> 36<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Spirit Fox: Soul Bite 9]]
+|-
+| {{Ability icon|Spirit Pounce 9|2}} || 87 || Spirit Pounce 9 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 497 Darkness<br><b>Dmg to Vulnerable:</b> 497 Darkness || <b>Power Cost:</b> 69<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Spirit Fox: Spirit Pounce 9]]
+|-
+| {{Ability icon|Blur Step 9|2}} || 88 || Blur Step 9 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +28% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 69<br><b>Range:</b> 4<br><b>Cooldown:</b> 22 || <b>Item:</b> [[Spirit Fox: Blur Step 9]]
+|-
+| {{Ability icon|Power Glyph 9|2}} || 88 || Power Glyph 9 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 250 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 220<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Power Glyph 9]]
+|-
+| {{Ability icon|Trick Fox 6|2}} || 88 || Trick Fox 6 || Create an ephemeral projection of a fox that taunts enemies. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Duke of Flapbule]]<br><b>Training:</b> [[Completely Normal Fox]]
+|-
+| {{Ability icon|Nip 10|2}} || 90 || Nip 10 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 151 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Spirit Fox: Nip 10]]
+|-
+| {{Ability icon|Spirit Bolt 8|2}} || 90 || Spirit Bolt 8 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 526 Darkness || <b>Power Cost:</b> 66<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Item:</b> [[Spirit Fox: Spirit Bolt 8]]
+|-
+| {{Ability icon|Infectious Instincts 6|2}} || 90 || Infectious Instincts 6 || Give a nod to an ally pet, filling them with enthusiastic energy. || Target's next attack deals 315 extra damage ||  || <b>Power Cost:</b> 52<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Spirit Fox: Infectious Instincts 6]]
+|-
+| {{Ability icon|Cinderstorm 8|2}} || 90 || Cinderstorm 8 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 24 Fire, 8 times over 8 seconds || <b>Damage:</b> 611 Fire || <b>Power Cost:</b> 85<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm 8]]
+|-
+| {{Ability icon|Dimensional Snare 10|2}} || 93 || Dimensional Snare 10 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 397 Darkness || <b>Power Cost:</b> 53<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Spirit Fox: Dimensional Snare 10]]
+|-
+| {{Ability icon|Soul Bite 10|2}} || 95 || Soul Bite 10 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 412 Darkness || <b>Power Cost:</b> 39<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Spirit Fox: Soul Bite 10]]
+|-
+| {{Ability icon|Galvanize 10|2}} || 96 || Galvanize 10 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 243 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 243<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Paradox Trot 8|2}} || 96 || Paradox Trot 8 || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +80 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 74<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Spirit Pounce 10|2}} || 97 || Spirit Pounce 10 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 589 Darkness<br><b>Dmg to Vulnerable:</b> 589 Darkness || <b>Power Cost:</b> 75<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Blur Step 10|2}} || 98 || Blur Step 10 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +29% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 75<br><b>Range:</b> 4<br><b>Cooldown:</b> 22 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Nip 11|2}} || 100 || Nip 11 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 178 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Power Glyph 10|2}} || 100 || Power Glyph 10 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 250 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 241<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Spirit Bolt 9|2}} || 100 || Spirit Bolt 9 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 618 Darkness || <b>Power Cost:</b> 72<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Cinderstorm 9|2}} || 100 || Cinderstorm 9 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 27 Fire, 8 times over 8 seconds || <b>Damage:</b> 717 Fire || <b>Power Cost:</b> 93<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm 9]]
+|-
+| {{Ability icon|Trick Fox 7|2}} || 102 || Trick Fox 7 || Create an ephemeral projection of a fox that taunts enemies. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Dimensional Snare 11|2}} || 103 || Dimensional Snare 11 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 468 Darkness || <b>Power Cost:</b> 58<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Galvanize 11|2}} || 104 || Galvanize 11 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 247 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 247<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Soul Bite 11|2}} || 105 || Soul Bite 11 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 483 Darkness || <b>Power Cost:</b> 43<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Infectious Instincts 7|2}} || 105 || Infectious Instincts 7 || Give a nod to an ally pet, filling them with enthusiastic energy. || Target's next attack deals 371 extra damage ||  || <b>Power Cost:</b> 59<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Spirit Pounce 11|2}} || 107 || Spirit Pounce 11 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 692 Darkness<br><b>Dmg to Vulnerable:</b> 692 Darkness || <b>Power Cost:</b> 82<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Blur Step 11|2}} || 108 || Blur Step 11 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +30% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 81<br><b>Range:</b> 4<br><b>Cooldown:</b> 22 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Paradox Trot 9|2}} || 108 || Paradox Trot 9 || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +80 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 81<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Nip 12|2}} || 110 || Nip 12 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 208 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Spirit Bolt 10|2}} || 110 || Spirit Bolt 10 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 723 Darkness || <b>Power Cost:</b> 78<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Cinderstorm 10|2}} || 110 || Cinderstorm 10 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 30 Fire, 8 times over 8 seconds || <b>Damage:</b> 840 Fire || <b>Power Cost:</b> 101<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Spirit Fox: Cinderstorm 10]]
+|-
+| {{Ability icon|Power Glyph 11|2}} || 112 || Power Glyph 11 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 250 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 248<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Dimensional Snare 12|2}} || 113 || Dimensional Snare 12 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 544 Darkness || <b>Power Cost:</b> 63<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Soul Bite 12|2}} || 115 || Soul Bite 12 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 559 Darkness || <b>Power Cost:</b> 47<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Galvanize 12|2}} || 116 || Galvanize 12 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 255 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 255<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Spirit Pounce 12|2}} || 117 || Spirit Pounce 12 || Pounce between the real world and the spirit world, hitting your enemy with unnatural impact force.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 797 Darkness<br><b>Dmg to Vulnerable:</b> 797 Darkness || <b>Power Cost:</b> 89<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blur Step 12|2}} || 118 || Blur Step 12 || Make yourself harder to hit by stepping partially into the spirit world.  || Gain +31% Melee Evasion for 20 seconds.<br><b>--Can Have--</b><br>Heal 0 Health every 4 seconds ||  || <b>Power Cost:</b> 87<br><b>Range:</b> 4<br><b>Cooldown:</b> 22 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Trick Fox 8|2}} || 118 || Trick Fox 8 || Create an ephemeral projection of a fox that taunts enemies. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Nip 13|2}} || 120 || Nip 13 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 239 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Paradox Trot 10|2}} || 120 || Paradox Trot 10 || Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you. || Gain +80 Universal Indirect Mitigation for 60 seconds or until you enter combat<br><b>Can Be On Sidebar</b><br><b>--Can Have--</b><br>Sprint Speed 0 (out of combat) ||  || <b>Power Cost:</b> 88<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Spirit Bolt 11|2}} || 120 || Spirit Bolt 11 || Throw spirit-realm energy at your enemy. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 829 Darkness || <b>Power Cost:</b> 84<br><b>Range:</b> 30<br><b>Cooldown:</b> 13 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Infectious Instincts 8|2}} || 120 || Infectious Instincts 8 || Give a nod to an ally pet, filling them with enthusiastic energy. || Target's next attack deals 371 extra damage ||  || <b>Power Cost:</b> 67<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Cinderstorm 11|2}} || 120 || Cinderstorm 11 || Pull supercharged energy from the ether to create a deadly explosion. || <b>DoT:</b> 33 Fire, 8 times over 8 seconds || <b>Damage:</b> 962 Fire || <b>Power Cost:</b> 110<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Dimensional Snare 13|2}} || 123 || Dimensional Snare 13 || Briefly entangle your opponent in the spirit realm. || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 620 Darkness || <b>Power Cost:</b> 69<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Power Glyph 12|2}} || 124 || Power Glyph 12 || Transfer a bit of your Power into a symbol for safe-keeping. You or an ally can touch it later to recover the Power.<br><b>This is a Survival-Utility ability</b> || Glyph restores 250 Power when touched<br><b>--Can Have--</b><br>Glyph restores 0 Health when touched<br>Glyph restores 0 Power after a 6 second delay ||  || <b>Power Cost:</b> 256<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Galvanize 13|2}} || 124 || Galvanize 13 || Assist your allies by selflessly routing Power to them via the spirit realm. || <b>Restores:</b> 260 Power to allies<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health to allies ||  || <b>Power Cost:</b> 260<br><b>AoE:</b> 20<br><b>Cooldown:</b> 45 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Soul Bite 13|2}} || 125 || Soul Bite 13 || Bite your enemy directly in their soul.<br><b>This is a Core Attack</b> ||  || <b>Health Dmg:</b> 635 Darkness || <b>Power Cost:</b> 51<br><b>Range:</b> 4<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|}

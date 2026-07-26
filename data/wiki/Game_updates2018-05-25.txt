@@ -1,0 +1,100 @@
+==May 25 Update==
+There's a new combat skill in this update! The [[Priest]] skill is primarily a healer and is especially powerful in groups. Unlocking Priest requires either [[Compassion]] 25 or [[Psychology]] 25. A priest in [[Kur Mountains]]' inn area can assist you in learning the skill.
+
+The [[Knife Fighting]] skill has also been improved. There is a new kind of knife for your off-hand. Off-hand knives are called Dirks. All pre-existing knives are main-hand knives, collectively called Daggers. You can wield a Dirk, a Dagger, or both when using the knife skill. If you wield two knives at once, you can take advantage of a few new treasure effects and a new dual-wielding-only knife ability found on loot scrolls.
+
+===General Combat Changes===
+::- Burst attacks (or "AoEs", that is, attacks that hit multiple enemies) now deal reduced damage if they hit more than 3 enemies at once. The damage drops off rapidly as the number of enemies hit increases. Note that this only applies to direct damage from the attack; debuffs and other special effects are applied at full potency to all targets
+::- DOTs (damage over time effects) incorrectly calculated their damage amount on every tick, instead of just once at the start of the DOT. This meant that if you poisoned a monster, then drank a +5 indirect poison potion while the monster was still poisoned, the remaining poison in the monster would magically do +5 damage per tick! While this this might sound like a beneficial bug, it actually made many small buffs worthless. For instance, Poisoner's Cut boosts indirect damage for 5 seconds, which is enough time to use one or two abilities. But due to this bug, after 5 seconds, the poison you'd just applied to enemies suddenly became weaker. This bug has been fixed so that DOTs behave like you'd expect: the damage of the DOT is calculated once, right when it's applied. (Note that this involved significant code refactoring, so please be on the lookout for weird behavior that may have cropped up.)
+::- Treasure and spell effects that boosted a certain damage type by a flat amount ("All Electricity attacks deal +7 damage") worked correctly in combat but the damage was not shown in the abilities' tooltips in the client
+::- Abilities with casting times (now called "Channeling Times") now show their channel times in the ability info tooltips
+::- Abilities that have Extra Taunt were displayed incorrectly; e.g. an ability that taunted +300 would be listed as adding +30000% taunt
+
+===Recipe Prerequisites===
+Many equipment-crafting recipes now have prerequisites, other recipes that you must already know before you can learn the new one. For instance, you must know the "Decent" version of a recipe before you can learn the "Nice" version, and must learn the "Nice" version before you can learn the "Quality" version.
+
+There is one major exception to this rule: max-enchanted recipes. To learn max-enchanted recipes you don't need to know all the previous max-enchanted recipes in that line; you just need to know the base recipe. For instance, to craft a "Quality Leather Helm (Max-Enchanted)", you need to know how to craft "Quality Leather Helm", but you don't need to know how to craft "Nice Leather Helm (Max-Enchanted)".
+
+Players who had already learned recipes "out of order" will still have the recipes in their list (so they don't have to re-learn it), but the recipes can't be used until their prerequisites are learned.
+
+===Player Titles===
+If you preordered a deluxe version of the game that includes a custom title (such as the Kickstarter 'Duke' package, or similar packages from Indiegogo or the Gorgon Shop), that title is now available! (Assuming that you filled out the backer form to tell us what title you want... we are still waiting on those forms for dozens of people.)
+
+All characters on your account will automatically receive the title when you log in. You can also give your unique title to other players if you want to. There are two ways: you can use the new chat command /entitle to give your title to a nearby player (e.g. type "/entitle Bob" in chat, without the quotes, to give a player named Bob your title). In addition, you can create scrolls that bestow your title on whoever reads one -- these can be sold or given away. You can create 5 of these scrolls every 7 days. Use the command "/redeem CustomTitleScrolls" to get a stack of 5 scrolls. (You can use the command "/redeem" without anything else to see if your 7 days are up: if it says you have no redemptions available, you still have to wait!)
+
+NOTE: once given out, you cannot take the title away from someone. So take great care!
+
+If you do NOT have a title and you think you should have a title, don't panic -- this is just the first pass, and there may be data errors or omissions. Just let us know and we'll straighten it out in the next game update!
+
+Note: player-owned titles are colored yellow for now, but we are still deciding on colors, so that may change.
+
+===Graphics Changes===
+::- Each race now has slightly customized out-of-combat idle stances (all animations are works in progress)
+::- Fixed weird jerky foot movement in some Unarmed Combat animations
+::- Fixed the shininess of several metal armors that were set up as leather instead of metal
+::- Improved culling of distant particles
+::- Previously if you set your "Shadow Distance" to 0 in the preferences, the game engine still did some of the computations needed for shadows, even though none could possibly be seen. Now if you set it to 0, all shadow processing is disabled
+::- New special setting ForceHardShadows makes the game use a simpler system for generating shadows, which can improve framerate. However, note that this is automatically enabled for all graphics levels up to and including "2: Fair". So this does nothing unless your graphics quality level is 3 or higher.
+::- Fixed the "T pose" of female avatars (when humanoids were past the animation cut-off distance, and had not yet had a chance to animate at all, they were supposed to be in a pose with arms extended, called the "T pose". Males were, but females were instead partially embedded in the ground)
+::- [[Serbule]] only: adjusted the animation cutoff for fellow players so that they stop animating at about 35 meters instead of 70 meters. This is roughly equivalent to setting your "Entity Animation Distance Modifier" to 0.5 in the previous update, except that this only affects players, and only in Serbule.
+::- New special setting PlayerAnimationCutoff=100 : sets how close other players need to be in order for you to see them animating. (Distance is in meters. Note that this value is multiplied by your 'Entity Animation Distance Multiplier', which can be changed in the advanced graphics settings.) By default, the game determines this setting on a per-area basis, with values ranging from 35 to 80.
+::- If you had manually overridden the "Entity Animation Distance Multiplier" graphics setting, it has been un-overridden, reverting back to the default for your graphics level. We did this because we changed the underlying distances that this setting modifies (see above), so it's unlikely you'd still want it to be set at whatever you had it set at! (You can, of course, override it again as you see fit.)
+::- Fixed the Thentree Helmet, which was using the wrong texture and looked like a monstrosity
+
+=== Detailed Knife Changes ===
+The knife skill underwent many subtle adjustments over multiple iterations. It's possible that small tweaks were made that are not reflected in this list. (But we probably found them all.)
+::- You can now wield a new kind of knife, called a Dirk, in your off-hand. You can wield either an off-hand knife or a main-hand knife (or both) to use Knife Fighting attacks
+::- Boosted how much Poisoner's Cut increases indirect (dot) damage
+::- There is a new Knife ability called Duelist's Slash. This is a variant of Slice that requires two knives equipped (dual-wielding). The ability can be found via loot scrolls
+::- When a monster is Feared, it is treated as "not looking at anyone" for the purpose of abilities that do more damage if the target isn't focused on you.
+::- When a monster is Mezzed, it is treated as "not looking at anyone" for the purpose of abilities that do more damage if the target isn't focused on you. (This was supposed to be true before, but was bugged in some cases.) [Note: previously there was a typo in this patch note that said it worked on Stunned enemies instead of Mezzed. Stunning an enemy does not prevent them from looking at you; this is intentional and is not going to change.]
+::- Knife abilities no longer generate the error message "The target is looking at you!" (even when it's true), because it was spammy and unnecessary
+::- Fixed several bugs related to the monster-looking-at-you system
+::- [[Lisi]] the fairy (in [[Sun Vale]]) now trains some Knife special abilities (instead of [[Bahdba]]): Poisoner's Cut, Backstab, and Surprise Throw. 
+::- [[Lisi]] no longer trains level 60 knife; that's [[Rick Snapley]] (in [[New Prestonbule Cave]])'s job!
+::- [[Flia]] the fairy (in [[Serbule]]) also had redundant training for some Knife skills; these are removed
+::- [[Lisi]] the fairy sells a couple of knife-related skill belts that had previously been unavailable
+
+=== [[Knife Fighting]]treasure changes:===
+::- Changed "Gut deals +48 damage and if target is not focused on you, also reduces rage by 800" => "Gut deals +48 damage and if target is not focused on you, Gut's trauma damage is increased 50%"
+::- Changed "Indirect Poison Damage +X%" => this now buffs both indirect Poison damage and indirect Trauma damage
+::- Changed "Poisoner's Cut deals 120 Poison damage over 10 seconds" => this mod was replaced due to technical limitations (the ability's purpose is to buffs DoTs, but it couldn't buff its own DoT, which is stupid). The mod now adds a Poison DOT to Slice instead.
+::- Changed "Fending Blade restores 24 Health to you immediately and reduces the target's Rage by 320 after a 10 second delay" => now a 5 second delay
+::- Changed "Slice ignores mitigation from armor and deals +65 direct health damage" => now deals +76 regular damage, not direct health damage (mainly a stylistic change)
+::- Changed "Surge Cut deals +146% damage" => "Surge Cut deals 205 Trauma damage over 10 seconds"
+::- Changed "Indirect Poison damage reduction +16 while Knife Fighting skill active" => "When wielding two knives, all Knife Fighting attacks have a 40% chance to restore 33 Power"
+::- Changed "Projectile Accuracy Boost +19% while Knife Fighting skill active" => "Thrown Knife attacks deal +39% damage and reuse timer is -1 second"
+::- Changed "Venomstrike has a 33% chance to deal 80 direct health damage and stun the target" => "Venomstrike has a 46% chance to stun the target and deal +48 damage"
+::- Changed "Blur Cut has a 50% chance to deal +160% damage" => " Blur Cut deals 105 Poison damage over 10 seconds"
+::- There are a couple of new treasure effects to flesh out the skill's repertoire
+::- When viewing a Knife skill that deals damage over time, you can now press the Alt key (the "more info" key) to see additional details about the DOT, including how many times it "ticks". These changes were made to the Knife skill first as a prototype and when we're happy with them we'll adjust all DOTs in the game to display in this manner
+
+
+===Changes to Other Skills' Treasure Mods: ===
+Note: we discussed an upcoming adjustment to percentage-based-damage treasure mods. This change has NOT been made yet because it needs more internal testing; it will happen in a future update. 
+
+The following changes are side-effects of bug fixes or tweaks to how DOTs are calculated. There are more DOT-related treasure changes necessary; they will happen in a future update.
+::- [[Battle Chemistry]] treasure that boosted specific golem abilities did not work for the past few updates (e.g. "Your golem minion's Poison Bomb deals +50 damage")
+::- [[Ice Magic]] treasure that boosted the Cold Sphere's Rage Attack did not work for the past few updates
+::- "Virtuoso's Ballad restores X Armor" => this accidentally restored Power instead
+::- Changed "Heavy Shot and Heavy Multishot Damage +33%" => "Heavy Shot and Heavy Multishot Damage +21%"
+::- Changed "Mangling Shot deals +9.5% damage and 330 Trauma damage over 20 seconds" => "Mangling Shot deals 330 Trauma damage over 10 seconds"
+::- Changed "Mangling Shot causes target to take +14% damage from Piercing for 10 seconds" => "Mangling Shot causes target to take +11.5% damage from Piercing for 10 seconds"
+::- Fire Arrow's burn (damage over time) changed from 300 over 20 seconds to 210 over 15 seconds (this change was made so that archery DOT treasure mods can stack more elegantly in the future)
+::- Healing Injection, Revitalize: these Minor Heal abilities did not benefit from buffs that boost the healing of Minor Heals
+::- Strategic Preparation: this ability is supposed to have a 1.5 second channeling time, but due to a bug the channel only took 1.0 second
+
+===Miscellaneous Fixes===
+::- Increased size of chat history log
+::- Fixed bug with dummy items from vendomatics
+::- Brewing: brewing effects that caused you to deal extra damage vs. specific types of enemies did not work
+::- Fixed a bug that caused some buffs to stick around for an arbitrary length of time after the caster had left the area (most obviously with Battle Chemistry mutations, since they last the longest). The intent is that any buffs that come from an ability (and that last longer than a few seconds) should abort if the buff's caster is not in the same server area as the person they buffed, OR if the caster switches to a different combat skill.
+::- Revised the heuristic that determines druid event size. When very few druids are online (at the moment of premonition), druid events will be easier and shorter
+::- [[Bellema Deftwhisper]] now likes [[Peridot]]s, not [[Lapis Lazuli]]. People change.
+::- The weapon "Gut-Ache's Chopper" did not have crafting points and could not be augmented; this has been fixed (retroactively for existing weapons)
+::- Changed the map orientation, arrival point, and some of the spawns, in [[Eltibule]]. (The map had gotten turned all around; while fixing it we also tweaked and improved some spawns.) As a result the fog has been reset; apologies for the inconvenience! You will not earn [[Cartography]] XP for fog that you already cleared in [[Eltibule]], but you will resume earning [[Cartography]] XP once you've cleared more fog than you had previously cleared.
+::- Fixed monster AI issues that slowed down server processing
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

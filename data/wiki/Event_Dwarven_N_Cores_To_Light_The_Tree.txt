@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Zhao]] in [[Rahu]] said, "The tree came with a complex system of wires and sparking mechanisms. Apparently they can make the tree glow. I've asked Ufkar to reverse-engineer it, and he says we can make it work with a power source. A few dwarven N cores ought to work."
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Zhao]]''' in '''[[Rahu]]'''.
+
+===Preface===
+The tree came with a complex system of wires and sparking mechanisms. Apparently they can make the tree glow. I've asked Ufkar to reverse-engineer it, and he says we can make it work with a power source. A few dwarven N cores ought to work.
+
+===Requirements===
+* Obtain {{Item|Dwarven N Core}} x2
+* Talk to [[Zhao]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Very good. Ufkar has finished his preparations, so we are ready to light the tree! Let us hope that we don't burn down the city...}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Zhao]][[Category:Quests/Ri-Shin Quests]]

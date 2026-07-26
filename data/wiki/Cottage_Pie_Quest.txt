@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Arianna Fangblade in Red Wing Casino said, "The food here's nice enough, but not what I'm used to. I've got a craving for a classic cottage pie! Do ya know where to get one around here? 'Cuz I surely don't!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Arianna Fangblade]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Friends}} favor. 
+
+===Preface===
+The food here's nice enough, but not what I'm used to. I've got a craving for a classic cottage pie! Do ya know where to get one around here? 'Cuz I surely don't!
+
+===Requirements===
+* Obtain Cottage Pie
+* Talk to Arianna Fangblade
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|This smells delicious! Thank you so much, dear!}}
+* 100 {{Favor|favor}}
+* 500 councils
+* {{Item|Red Wing Token}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Arianna Fangblade]]

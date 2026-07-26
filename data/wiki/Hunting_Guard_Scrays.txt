@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+You're killing guard scrays in Serbule Hills.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Guard Scrays</b>
+Scrays act as faithful companions to the ranalon, much like dogs do for humans. They are equally at home in water or land, and their stingers inject acid deep inside their victims, causing horrible delayed death. They are most dangerous in packs.
+
+===Requirements===
+* Kill Guard Scrays x8
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 500 Combat XP for your active skills
+* 50 XP in Fish and Snail Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Hunting Quests]]
+
+=== Hunting Guide ===
+This [[Hunting Quests|Hunting Quest]] calls for the elimination of [[Guard Scray]]s, which are Ranalon-bred pets found throughout their encampments in [[Serbule Hills]].<br />
+'''+''' [[Guard Scray]]s are found on the shores of the two Ranalon-controlled lakes, although occasionally a few may fly further north.

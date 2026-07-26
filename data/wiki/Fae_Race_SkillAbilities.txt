@@ -1,0 +1,12 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Fae (Race Skill)/Abilities|Fae (Race Skill) Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v400 on Tue Dec 19 2023 02:50:21 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Free-Flutter|2}} || 0 || Free-Flutter || Enchant your wings to be stronger, allowing you to fly without expending as much Power.<br><b>Costs 10 Fae Energy</b> || For 10 minutes, base Power cost of flight (out of combat) is -2/sec<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 600 || Leveling
+|-
+| {{Ability icon|Free-Flutter 2|2}} || 0 || Free-Flutter 2 || Enchant your wings to be stronger, allowing you to fly without expending as much Power.<br><b>Costs 15 Fae Energy</b> || For 10 minutes, base Power cost of flight (out of combat) is -3/sec<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 600 || Leveling
+|-
+| {{Ability icon|Free-Flutter 3|2}} || 0 || Free-Flutter 3 || Enchant your wings to be stronger, allowing you to fly without expending as much Power.<br><b>Costs 20 Fae Energy</b> || For 10 minutes, base Power cost of flight (out of combat) is -3/sec and Fly-Sprint cost is -1/sec<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 600 || Leveling
+|}

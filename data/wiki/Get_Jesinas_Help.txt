@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Oritania wasn't able to assemble Dalvos's machine. She sent you to find a fairy in Eltibule named Jesina. She lives on Sie Antry's farm, west of Eltibule Keep.
+===Prerequisites===
+To start this quest, complete quest [[Find Dalvos's Machine Parts]].
+
+===Preface===
+{{Quote|
+Oritania wasn't able to assemble Dalvos's machine. She sent you to find a fairy in Eltibule named Jesina. She lives on Sie Antry's farm, west of Eltibule Keep.
+}}
+
+===Requirements===
+
+* Have Dalvos's Machine (Keep {{Item|Nexus Adjunct Matter Aligner}} in Inventory).
+* Bring Dalvos's Machine to Jesina
+
+===Rewards===
+{{Spoiler|Rewards for Get Jesina's Help|
+* No Reward
+}}
+
+
+[[Category:Quests]][[Category:Quests/Jesina]][[Category:Quests/Eltibule Quests]][[Category:Quests/Story Quests]]

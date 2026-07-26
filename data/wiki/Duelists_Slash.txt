@@ -1,0 +1,121 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Duelist's Slash
+| description = A deadly attack that uses dual-wielded knives. This is a variant of Slice, and treasure that boosts Slice also boosts Duelist's Slash.
+| level = 3
+| power cost = 15
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Slice}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|MeleeKnife}}{{KWAB|DuelistsSlash}}
+| damage = 21 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Duelist's Slash 2
+| description = A deadly attack that uses dual-wielded knives. This is a variant of Slice, and treasure that boosts Slice also boosts Duelist's Slash.
+| level = 13
+| power cost = 20
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Slice}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|MeleeKnife}}{{KWAB|DuelistsSlash}}
+| damage = 46 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Duelist's Slash 3
+| description = A deadly attack that uses dual-wielded knives. This is a variant of Slice, and treasure that boosts Slice also boosts Duelist's Slash.
+| level = 23
+| power cost = 25
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Slice}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|MeleeKnife}}{{KWAB|DuelistsSlash}}
+| damage = 76 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Duelist's Slash 4
+| description = A deadly attack that uses dual-wielded knives. This is a variant of Slice, and treasure that boosts Slice also boosts Duelist's Slash.
+| level = 33
+| power cost = 31
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Slice}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|MeleeKnife}}{{KWAB|DuelistsSlash}}
+| damage = 115 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Duelist's Slash 5
+| description = A deadly attack that uses dual-wielded knives. This is a variant of Slice, and treasure that boosts Slice also boosts Duelist's Slash.
+| level = 43
+| power cost = 36
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Slice}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|MeleeKnife}}{{KWAB|DuelistsSlash}}
+| damage = 174 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Duelist's Slash 6
+| description = A deadly attack that uses dual-wielded knives. This is a variant of Slice, and treasure that boosts Slice also boosts Duelist's Slash.
+| level = 53
+| power cost = 41
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Slice}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|MeleeKnife}}{{KWAB|DuelistsSlash}}
+| damage = 258 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Duelist's Slash 7
+| description = A deadly attack that uses dual-wielded knives. This is a variant of Slice, and treasure that boosts Slice also boosts Duelist's Slash.
+| level = 63
+| power cost = 46
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Slice}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|MeleeKnife}}{{KWAB|DuelistsSlash}}
+| damage = 341 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Duelist's Slash 8
+| description = A deadly attack that uses dual-wielded knives. This is a variant of Slice, and treasure that boosts Slice also boosts Duelist's Slash.
+| level = 73
+| power cost = 51
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Slice}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|MeleeKnife}}{{KWAB|DuelistsSlash}}
+| damage = 434 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Duelist's Slash 9
+| description = A deadly attack that uses dual-wielded knives. This is a variant of Slice, and treasure that boosts Slice also boosts Duelist's Slash.
+| level = 83
+| power cost = 56
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Slice}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|MeleeKnife}}{{KWAB|DuelistsSlash}}
+| damage = 536 Slashing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

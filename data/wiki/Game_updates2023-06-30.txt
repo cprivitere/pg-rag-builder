@@ -1,0 +1,4 @@
+==Update Notes: June 30, 2023==
+Update to fix problems with animation loops in yesterday's patch
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

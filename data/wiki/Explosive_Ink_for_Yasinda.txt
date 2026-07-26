@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Yasinda in Hogan's Keep asked for some explosive ink.
+
+===Prerequisites===
+To start this quest, talk to '''[[Yasinda]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Kar-Get on Villas Wake]] in order to undertake this quest.
+
+===Preface===
+{{Quote|I have decided not to take Kar-Get on Wake's daughter. It is right and just, but I would feel too guilty. Instead I will use my trade to honor her. I will make an explosive map, and give Sinda a symbolic burial by fire. Hm, I am out of explosive ink. Do you have any?}}
+
+===Requirements===
+* Obtain {{Item|Basic Volatile Ink}} x5
+* Talk to Yasinda
+
+===Rewards===
+{{Spoiler|Rewards for Explosive Ink for Yasinda|
+{{Quote|Thank you. I will perform the wake privately. I would invite you to join me, but I fear I may cry, and I will not be seen in that state. Oh, but here is some money to compensate for your purchase.}}
+
+* 100 {{Favor|favor}}
+* 500 councils 
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Yasinda]]

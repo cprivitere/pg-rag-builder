@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Hemmit Magmagrip in New Prestonbule said, "I need another kind of mushroom. These are common everywhere: black foot morels. Delicious in stews! I need to make sure the kind that grow here are alchemically identical to the kinds grown elsewhere."
+
+===Prerequisites===
+To start this quest, talk to '''[[Hemmit Magmagrip]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Groxmax Mushrooms for Hemmit]] in order to undertake this quest.
+
+===Preface===
+{{Quote|I need another kind of mushroom. These are common everywhere: black foot morels. Delicious in stews! I need to make sure the kind that grow here are alchemically identical to the kinds grown elsewhere.}}
+
+===Requirements===
+* Obtain {{Item|Black Foot Morel}}s x10
+* Talk to Hemmit Magmagrip
+
+===Rewards===
+{{Spoiler|Rewards for Black Foot Morels for Hemmit|
+{{Quote|These definitely look like black foot morels. Thank you. I'll do some quick tests to make sure they're typical for the species. Here is a bounty for your hard work.}}
+
+* 250 {{Favor|favor}}
+* 5000 councils 
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Hemmit Magmagrip]]

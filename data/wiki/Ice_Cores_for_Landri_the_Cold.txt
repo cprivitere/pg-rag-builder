@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Landri in the Kur Mountains asked for Ice Cores.
+
+===Prerequisites===
+To start this quest, talk to '''[[Landri]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I need more Ice Cores to research better cold spells. Do you happen to have any?}}
+
+===Requirements===
+* Obtain {{Item|Ice Core}}s x10
+* Talk to Landri the Cold
+
+===Rewards===
+{{Spoiler|Rewards for Ice Cores for Landri the Cold|
+{{Quote|Thank you! Here's something for your trouble. If you find more, come back in a week. I'm sure I'll need more soon enough.}}
+
+* 100 {{Favor|favor}}
+* 250 councils 
+* {{Item|Coldbite Potion}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Landri]]

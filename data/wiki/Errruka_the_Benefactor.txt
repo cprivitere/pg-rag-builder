@@ -1,0 +1,238 @@
+__NOTOC__
+{{NPC infobox
+|title            = Errruka the Benefactor
+|image            = [[File:Errruka(npc).png|300px]] 
+|caption          = A peaceful-ish Ranalon
+|zone             = Povus
+|location         = Underwater in the northernmost Ranalon Encampment.
+|anatomy = Fish and Snail
+|species = Ranalon
+|beastspeak       = Yes
+|beastlist = All (quest)
+|barter = Yes
+|vendor = Yes
+}}
+{{Quote|source=[[Errruka the Benefactor]]|
+Oh, no, I live alone, now. My clutch was killed in the great poisoning. But these guys are nice to me, so I usually hang out here during the day.}}
+[[Errruka the Benefactor]] is a Ranalon tolerant enough of other races to speak with them.
+== Location ==
+; [[Povus]]
+: At 8:00am each morning, [[Errruka the Benefactor|Errruka]] leaves their home, a Murky Tunnel in north-central Povus, and makes a two-hour (10 minute) trip southeast to the Ranalon Encampments. Starting at 10:00am, [[Errruka the Benefactor|Errruka]] can be found underwater in the northern of the two encampments. This trip can take longer if conversations are held along the way. At 7:00pm, [[Errruka the Benefactor|Errruka]] announces that his shop is closed, and walks back to his home.
+; [[Errruka's Cave]]
+: During the nighttime, [[Errruka the Benefactor]] retreats into his cave. In the comfort of their home, '''Errruka''' is willing to entertain the thought of speaking to animals. Beast forms are tasked to collect a frog, and once completed will be able to continue speaking to '''Errruka.'''
+
+== Shopkeeper ==
+[[Errruka the Benefactor]] purchases and sells crystals, fish, and seashells.
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+=== Favor Rewards === 
+=== Hang Outs ===
+
+== Quests ==
+Although [[Errruka the Benefactor]] does not offer any traditional quests, they offer a task during the completion of a quest given by [[Gerrux]].
+
+== Services == 
+==== Bartering ====
+Errruka the Benefactor offers to barter a collection of recipe scrolls and skill books for {{Item|Xogrite Chunk}}. The selection of barters changes at 8am each in-game day. The limit is one trade per in-game day, until '''{{favor|Friends}}''' favor is reached with [[Errruka the Benefactor|Errruka]] and two trades per day becomes allowed.
+Possible barters:
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Xogrite Chunk}} x10 || {{Item|Unidentified Poetry Book}}
+|-
+| {{Item|Xogrite Chunk}} x12 || {{Item|Unidentified Poetry Chapbook}}
+|-
+| {{Item|Xogrite Chunk}} x9 || {{Item|Alchemy: Mercury}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Blue Violet Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Bright Violet Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Chartreuse Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Dark Sea Green Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Electric Yellow Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Medium Aquamarine Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Pale Turquoise Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Saddle Brown Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Steel Blue Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Dye Making: Teal Dye}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Leatherworking: Astounding Bard Leggings}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Toolcrafting: Astounding Snail Coats}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Toolcrafting: Astounding Snail Boots}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Toolcrafting: Astounding Snail Greaves}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Toolcrafting: Astounding Snail Gauntlets}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Toolcrafting: Astounding Snail Helm}}
+|-
+| {{Item|Xogrite Chunk}} x18 || {{Item|Tailoring: Amazing Hats for Cows}}
+|-
+| {{Item|Xogrite Chunk}} x18 || {{Item|Tailoring: Amazing Hats for Deer}}
+|-
+| {{Item|Xogrite Chunk}} x18 || {{Item|Tailoring: Amazing Hats for Pigs}}
+|-
+| {{Item|Xogrite Chunk}} x18 || {{Item|Tailoring: Astounding Spider Casings}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Carpentry: Astounding Priest Staff}}
+|-
+| {{Item|Xogrite Chunk}} x14 || {{Item|Carpentry: Quality Priest Staff}}
+|-
+| {{Item|Xogrite Chunk}} x16 || {{Item|Carpentry: Great Priest Staff}}
+|-
+| {{Item|Xogrite Chunk}} x16 || {{Item|Shamanic Infusion: Novice's Scray Headgear Infusion}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Shamanic Infusion: Shaman's Scray Headgear Infusion}}
+|-
+| {{Item|Xogrite Chunk}} x18 || {{Item|Jewelry Crafting: Great Battle-Priest's Pendant}}
+|-
+| {{Item|Xogrite Chunk}} x18 || {{Item|Jewelry Crafting: Great Darkness Medallion}}
+|-
+| {{Item|Xogrite Chunk}} x14 || {{Item|Jewelry Crafting: Nice Battle-Priest's Pendant}}
+|-
+| {{Item|Xogrite Chunk}} x8 || {{Item|Unarmed: Knee Kick}}
+|-
+| {{Item|Xogrite Chunk}} x9 || {{Item|Unarmed: Knee Kick 2}}
+|-
+| {{Item|Xogrite Chunk}} x13 || {{Item|Unarmed: Knee Kick 4}}
+|-
+| {{Item|Xogrite Chunk}} x15 || {{Item|Unarmed: Knee Kick 5}}
+|-
+| {{Item|Xogrite Chunk}} x18 || {{Item|Unarmed: Knee Kick 6}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Unarmed: Knee Kick 7}}
+|-
+| {{Item|Xogrite Chunk}} x8 || {{Item|Unarmed: Jab}}
+|-
+| {{Item|Xogrite Chunk}} x12 || {{Item|Unarmed: Jab 4}}
+|-
+| {{Item|Xogrite Chunk}} x16 || {{Item|Unarmed: Jab 6}}
+|-
+| {{Item|Xogrite Chunk}} x18 || {{Item|Unarmed: Jab 7}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Unarmed: Jab 8}}
+|-
+| {{Item|Xogrite Chunk}} x9 || {{Item|Psychology: Mock}}
+|-
+| {{Item|Xogrite Chunk}} x9 || {{Item|Psychology: Mock 2}}
+|-
+| {{Item|Xogrite Chunk}} x9 || {{Item|Psychology: Mock 3}}
+|-
+| {{Item|Xogrite Chunk}} x14 || {{Item|Psychology: Mock 6}}
+|-
+| {{Item|Xogrite Chunk}} x18 || {{Item|Psychology: Mock 8}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Psychology: Mock 9}}
+|-
+| {{Item|Xogrite Chunk}} x20 || {{Item|Saddlery: Decent Mystic Saddlebag}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Scray-Skin Leggings}} (Lv 80)
+|RiShin Family = {{Item|Scray-Skin Leggings}} (Lv 85)
+}}
+== Conversations ==
+==== Conversations in Povus ====
+{{Quote|source=[[Errruka the Benefactor]]|
+Did you know we can talk to frogs? Yeah, it's a ranalon thing. I mean, the frogs don't understand us, but we can talk to 'em.}}
+{{Quote|source=[[Errruka the Benefactor]]|
+A lot of the people in this clutch have pet frogs. Most of them are responsible pet owners... but the local frog-racing scene scares me. It's super competitive, and some tadpole-brained leglings will do anything to win.}}
+{{Spoiler|Conversation if on a quest for [[Gerrux]]|
+{{Quote|source=[[Errruka the Benefactor]]|
+: Yeah, okay. I can do business with you. Just keep your weapons sheathed.
+;: I'm looking for a special key that was thrown in the river a few years ago.
+: Can you be more specific?
+;: An emerald key that was lost shortly after the river poisoning?
+: Oh. Well, I do have a pile of fancy keys at home. Come back tomorrow and I'll let you know what I found.
+;: Okay, thanks!}}
+}}
+{{Spoiler|Conversations the day after speaking about [[Gerrux]]'s quest|
+{{Quote|source=[[Errruka the Benefactor]]|
+:You're in luck! I did find a key that matches your description! It's a beauty too!
+:Of course, there's still the matter of my fee. I think for this precious thing, I couldn't go cheaper than... let's say... a black pearl.
+;:A black pearl? But those are incredibly rare!
+: ???
+}}
+{{Quote|source=[[Errruka the Benefactor]]|
+:I still have it! I'll barter it for a black pearl. I'll also give it to you if you give me 25 frogs.
+;:"You have credit for 0.0 frogs right now."
+;:Yes. Here's a black pearl!
+:This pearl is lovely! Here's your key. No trade-backs!
+;:Thanks.
+}}
+}}
+==== Conversations in [[Errruka's Cave]] ====
+{{Quote|source=[[Errruka the Benefactor]]|
+Yeah, okay. I can do business with you. Just keep your weapons sheathed.
+
+'''Can I ask you some questions about this cave?'''
+
+What do you want to know about my home?
+
+'''Why is it full of acid?'''
+
+:Acid? Hum, I don't think it's acid. It doesn't burn me or other ranalon. And frogs love it. This is just some... some demon goop. Demons installed it.
+
+:'''Demons? Demons installed it?'''
+
+:Yeah, I met some friendly demons out in the swamp. This was hm, over a year ago. Nice people. Needed a home for their pets.
+
+They said their pets were.. what's the word they used? forthragarian? Something like that. They needed a special environment. They promised that it wouldn't hurt my frogs, and they were right!
+
+Of course, the aktaari also love it, and that's starting to be a problem. But the demons live deep in the cave and don't bother me.
+
+'''Why are there all these frogs here?'''
+
+:These frogs are my pets. They used to be smaller, but they really love the special demon ooze. It makes them grow to humongous size! Isn't that grand?
+
+:'''Are you sure that's... healthy for the frogs?'''
+
+:Yes. Their health is excellent. I'm an expert in their biology, and I've never seen healthier, happier, gianter frogs.
+
+'''What do you know of these bug people?'''
+
+:They are called [[Aktaari]]. They're a real pest! I met an aktaari brood queen in the swap and she needed a place to stay. When I told her about my ooze cave, she was so excited! She and her goons went deep into the cave and started laying eggs, and now the first batches have hatched, and there's hundreds of them.
+
+:They mostly stay away from me and the frogs, but they're getting bolder every day.
+
+:'''What do you know of their biology?'''
+
+:I can't say i understand aktaari biology too well. Their eggs hatch in weeks, perhaps thanks to this ooze. The larvae grow to full size within a few moons, but they aren't like us ranalon: they're extremely stupid when they're young! You would not believe how stupid. Some of them get smarter pretty quickly, but others just... stay stupid. Or maybe I'm being cruel: most of the Aktaari in here are less than a year old, after all.
+
+:When I met the queen, she spoke perfect Human, but her offspring seem to be speaking a language I don't know. And I know nine languages, including Myconian and Lobster. They've been learning some simple Human phrases though.
+
+:I know they can forge tools, but most of their stuff seems to be scavenged. I wonder if this cave is connected to the goblands somewhere, and they're scavenging from ratling hoards or something?
+
+:They sleep in big piles, and I think they learn things in those piles, too, like a community classroom.
+
+:That's all the info I can think of.
+
+'''What's the history of this cave?'''
+
+:History? Well, more than eight long years ago -- before I was even born -- this was an orcish base during some sort of war. After the orcs abandoned it, ranalon moved in. In fact, I was born in an adjoining cave not far from here!
+
+:But my tribe was wiped out when the water became poisonous due to an evil rakshasa scheme. Those who didn't die from the poison ended up dying in battles against Povus. The few of us still alive here scattered. A few are still in this cave, like [[Cheb]] and [[Asera]].
+
+:The other ranalon tribes in this area are friendly toward us, and I trade with them daily. But... well, they think this cave is cursed, and won't move in. More room for me!}}
+
+== See Also ==
+* [[Project Gorgon Genetics Research By Kaskrim]] — In-depth genetics research and breeding guides by Kaskrim
+
+[[Category:NPCs]][[Category:Errruka's Cave NPCs]]

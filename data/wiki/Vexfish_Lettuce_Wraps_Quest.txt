@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Ailred in Povus said, "Where the heck were you all this time?! No matter. How are your vexfish lettuce wraps? Fresh, I hope? I'll take that! And please make it snappy. I'm famished from waiting!"
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ailred]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+Where the heck were you all this time?! No matter. How are your vexfish lettuce wraps? Fresh, I hope? I'll take that! And please make it snappy. I'm famished from waiting!
+
+===Midway===
+Yes, I ordered the vexfish lettuce wraps? What's the hold up?
+
+===Requirements===
+* Craft Vexfish Lettuce Wraps
+* (Keep Vexfish Lettuce Wraps)
+* Talk to Ailred
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Well. These are quite good! I am a little embarrassed to admit that this is some of the best vexfish I've eaten! Wonderful!}}
+* {{Item|Xogrite Chunk}} x9
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ailred]]

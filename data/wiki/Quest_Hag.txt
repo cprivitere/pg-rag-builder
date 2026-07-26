@@ -1,0 +1,20 @@
+__NOTOC__
+{{NPC infobox
+|title            = Quest Hag
+|image            = [[File:Questhag.jpg|300px]]
+|caption          = She looks unimplemented
+|zone = Kur Mountains
+|dungeon = Necromancer's Courtyard
+|location         = Graveyard
+|anatomy = Crone-Kin
+|species = Hag
+|beastspeak       = Yes
+|beastlist = All
+}}
+
+{{Quote|
+I'm not implemented yet! When I'm done, I'll give directed goals throughout this dungeon. But for now, you should just go kill stuff. You'll figure it out.
+}}
+'''Quest Hag''' is a placeholder NPC in the [[Kur Tower]] graveyard.
+
+[[Category:NPCs]][[Category:NoRiShin]]

@@ -1,0 +1,306 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Battle Chemistry/Abilities|Battle Chemistry Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v478 on Wed Jun 24 2026 05:39:48 GMT-0600 (Mountain Daylight Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Toxin Bomb|2}} || 1 || Toxin Bomb || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 15 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 15<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Mycotoxin Formula|2}} || 2 || Mycotoxin Formula || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 15 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 13<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Acid Bomb|2}} || 3 || Acid Bomb || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 17 Acid<br><b>Armor Dmg:</b> 17 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 16<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Mist|2}} || 4 || Healing Mist || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 25 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 16<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Freezing Mist|2}} || 4 || Freezing Mist || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 15 Cold || <b>Power Cost:</b> 22<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Injection|2}} || 4 || Healing Injection || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 38 Health ||  || <b>Power Cost:</b> 13<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Toxic Irritant|2}} || 5 || Toxic Irritant || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 6 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Mutation: Extra Toes|2}} || 6 || Mutation: Extra Toes || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +5% damage.<br>Sprint Speed Bonus 2 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 10<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Mutation: Extra Skin|2}} || 7 || Mutation: Extra Skin || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +3, Indirect Damage Mitigation +1<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 11<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Mutation: Extra Heart|2}} || 8 || Mutation: Extra Heart || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +22<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 11<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Toxin Bomb 2|2}} || 10 || Toxin Bomb 2 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 33 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 20<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Create Primitive Golem|2}} || 11 || Create Primitive Golem || You concoct an automaton that can be given one command. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Mycotoxin Formula 2|2}} || 12 || Mycotoxin Formula 2 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 32 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 17<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Acid Bomb 2|2}} || 13 || Acid Bomb 2 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 38 Acid<br><b>Armor Dmg:</b> 38 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 21<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Mist 2|2}} || 14 || Healing Mist 2 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 35 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 22<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Freezing Mist 2|2}} || 14 || Freezing Mist 2 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 37 Cold || <b>Power Cost:</b> 30<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Injection 2|2}} || 14 || Healing Injection 2 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 51 Health ||  || <b>Power Cost:</b> 18<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Haste Concoction|2}} || 15 || Haste Concoction || Disperse chemicals that let you and your allies run at high speed for a short time. || Sprint Speed +6 for 6 seconds. ||  || <b>Power Cost:</b> 10<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Toxic Irritant 2|2}} || 15 || Toxic Irritant 2 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 15 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Mutation: Extra Toes 2|2}} || 16 || Mutation: Extra Toes 2 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +10% damage.<br>Sprint Speed Bonus 2 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 14<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Mutation: Extra Skin 2|2}} || 17 || Mutation: Extra Skin 2 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +6, Indirect Damage Mitigation +2<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 14<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Mutation: Extra Heart 2|2}} || 18 || Mutation: Extra Heart 2 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +30<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 15<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Toxin Bomb 3|2}} || 20 || Toxin Bomb 3 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 56 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 25<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Mycotoxin Formula 3|2}} || 22 || Mycotoxin Formula 3 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 50 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 22<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Acid Bomb 3|2}} || 23 || Acid Bomb 3 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 64 Acid<br><b>Armor Dmg:</b> 64 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 26<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Mist 3|2}} || 24 || Healing Mist 3 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 45 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 27<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Freezing Mist 3|2}} || 24 || Freezing Mist 3 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 64 Cold || <b>Power Cost:</b> 37<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Injection 3|2}} || 24 || Healing Injection 3 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 65 Health ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Create Simple Golem|2}} || 25 || Create Simple Golem || You concoct an automaton that can be given two commands. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Mutation: Extra Toes 3|2}} || 26 || Mutation: Extra Toes 3 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +12% damage.<br>Sprint Speed Bonus 3 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Toxic Irritant 3|2}} || 26 || Toxic Irritant 3 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 26 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Mutation: Extra Skin 3|2}} || 27 || Mutation: Extra Skin 3 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +9, Indirect Damage Mitigation +3<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Mutation: Extra Heart 3|2}} || 28 || Mutation: Extra Heart 3 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +36<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 18<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Toxin Bomb 4|2}} || 30 || Toxin Bomb 4 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 86 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 30<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Trigger Golem|2}} || 30 || Trigger Golem || Order your golem to immediately run through its instruction set and use an ability. (You can use the golem conditional "Owner has triggered golem" to add a special instruction for this situation. Remember that it will still follow its rules from first to last, so if you want the rule to always trigger, it should be the first rule.) || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 0<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Create Basic Golem|2}} || 31 || Create Basic Golem || You concoct an automaton that can be given three commands. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Mycotoxin Formula 4|2}} || 32 || Mycotoxin Formula 4 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 78 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 27<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Acid Bomb 4|2}} || 33 || Acid Bomb 4 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 96 Acid<br><b>Armor Dmg:</b> 96 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 32<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Mist 4|2}} || 34 || Healing Mist 4 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 60 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 33<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Freezing Mist 4|2}} || 34 || Freezing Mist 4 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 99 Cold || <b>Power Cost:</b> 45<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Injection 4|2}} || 34 || Healing Injection 4 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 78 Health ||  || <b>Power Cost:</b> 28<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Haste Concoction 2|2}} || 35 || Haste Concoction 2 || Disperse chemicals that let you and your allies run at high speed for a short time. || Sprint Speed +8 for 8 seconds. ||  || <b>Power Cost:</b> 16<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Toxic Irritant 4|2}} || 35 || Toxic Irritant 4 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 37 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Mutation: Extra Toes 4|2}} || 36 || Mutation: Extra Toes 4 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +15% damage.<br>Sprint Speed Bonus 3 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Mutation: Extra Skin 4|2}} || 37 || Mutation: Extra Skin 4 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +12, Indirect Damage Mitigation +4<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Mutation: Extra Heart 4|2}} || 38 || Mutation: Extra Heart 4 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +42<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Create Standard Golem|2}} || 39 || Create Standard Golem || You concoct an automaton that can be given four commands. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Toxin Bomb 5|2}} || 40 || Toxin Bomb 5 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 130 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 36<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Create Armored Standard Golem|2}} || 40 || Create Armored Standard Golem || You concoct an automaton that can be given four commands. It is extra-armored against attack. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || <b>Gift:</b> [[Leonard Allenson]]
+|-
+| {{Ability icon|Mycotoxin Formula 5|2}} || 42 || Mycotoxin Formula 5 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 120 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 31<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Acid Bomb 5|2}} || 43 || Acid Bomb 5 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 147 Acid<br><b>Armor Dmg:</b> 147 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 37<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Mist 5|2}} || 44 || Healing Mist 5 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 70 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 38<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Freezing Mist 5|2}} || 44 || Freezing Mist 5 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 154 Cold || <b>Power Cost:</b> 52<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Healing Injection 5|2}} || 44 || Healing Injection 5 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 91 Health ||  || <b>Power Cost:</b> 32<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Haste Concoction 3|2}} || 45 || Haste Concoction 3 || Disperse chemicals that let you and your allies run at high speed for a short time. || Sprint Speed +10 for 10 seconds. ||  || <b>Power Cost:</b> 18<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Toxic Irritant 5|2}} || 45 || Toxic Irritant 5 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 58 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Mutation: Extra Toes 5|2}} || 46 || Mutation: Extra Toes 5 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +17% damage.<br>Sprint Speed Bonus 4 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 24<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Mutation: Extra Skin 5|2}} || 47 || Mutation: Extra Skin 5 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +15, Indirect Damage Mitigation +5<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 24<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Durmok Orebinder]]
+|-
+| {{Ability icon|Mutation: Extra Heart 5|2}} || 48 || Mutation: Extra Heart 5 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +48<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 24<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Toxin Bomb 6|2}} || 50 || Toxin Bomb 6 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 200 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 40<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Create Improved Golem|2}} || 51 || Create Improved Golem || You concoct an automaton that can be given five commands. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Mycotoxin Formula 6|2}} || 52 || Mycotoxin Formula 6 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 181 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 35<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Acid Bomb 6|2}} || 53 || Acid Bomb 6 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 220 Acid<br><b>Armor Dmg:</b> 220 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 42<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Healing Mist 6|2}} || 54 || Healing Mist 6 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 80 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 42<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Freezing Mist 6|2}} || 54 || Freezing Mist 6 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 228 Cold || <b>Power Cost:</b> 58<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Healing Injection 6|2}} || 54 || Healing Injection 6 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 104 Health ||  || <b>Power Cost:</b> 36<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Toxic Irritant 6|2}} || 55 || Toxic Irritant 6 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 85 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Mutation: Extra Toes 6|2}} || 56 || Mutation: Extra Toes 6 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +20% damage.<br>Sprint Speed Bonus 4 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Mutation: Extra Skin 6|2}} || 57 || Mutation: Extra Skin 6 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +18, Indirect Damage Mitigation +6<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Mutation: Extra Heart 6|2}} || 58 || Mutation: Extra Heart 6 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +54<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Zealo]]
+|-
+| {{Ability icon|Toxin Bomb 7|2}} || 60 || Toxin Bomb 7 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 273 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 45<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Haste Concoction 4|2}} || 60 || Haste Concoction 4 || Disperse chemicals that let you and your allies run at high speed for a short time. || Sprint Speed +11 for 11 seconds. ||  || <b>Power Cost:</b> 21<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Create Augmented Golem|2}} || 61 || Create Augmented Golem || You concoct an automaton that can be given six commands. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Mycotoxin Formula 7|2}} || 62 || Mycotoxin Formula 7 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 242 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 39<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Healing Injection 7|2}} || 62 || Healing Injection 7 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 115 Health ||  || <b>Power Cost:</b> 39<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Acid Bomb 7|2}} || 63 || Acid Bomb 7 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 293 Acid<br><b>Armor Dmg:</b> 293 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 47<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Freezing Mist 7|2}} || 63 || Freezing Mist 7 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 293 Cold || <b>Power Cost:</b> 64<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Healing Mist 7|2}} || 64 || Healing Mist 7 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 90 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 47<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Toxic Irritant 7|2}} || 65 || Toxic Irritant 7 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 111 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Mutation: Extra Toes 7|2}} || 66 || Mutation: Extra Toes 7 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +22% damage.<br>Sprint Speed Bonus 5 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Mutation: Extra Skin 7|2}} || 67 || Mutation: Extra Skin 7 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +21, Indirect Damage Mitigation +7<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Mutation: Extra Heart 7|2}} || 68 || Mutation: Extra Heart 7 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +60<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Toxin Bomb 8|2}} || 70 || Toxin Bomb 8 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 348 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 50<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Create Superior Golem|2}} || 71 || Create Superior Golem || You concoct an automaton that can be given seven commands. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Mycotoxin Formula 8|2}} || 72 || Mycotoxin Formula 8 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 309 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 43<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Healing Injection 8|2}} || 72 || Healing Injection 8 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 128 Health ||  || <b>Power Cost:</b> 43<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Acid Bomb 8|2}} || 73 || Acid Bomb 8 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 373 Acid<br><b>Armor Dmg:</b> 373 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 52<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Freezing Mist 8|2}} || 73 || Freezing Mist 8 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 373 Cold || <b>Power Cost:</b> 72<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Healing Mist 8|2}} || 74 || Healing Mist 8 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 100 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 52<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Haste Concoction 5|2}} || 75 || Haste Concoction 5 || Disperse chemicals that let you and your allies run at high speed for a short time. || Sprint Speed +12 for 12 seconds. ||  || <b>Power Cost:</b> 24<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Toxic Irritant 8|2}} || 75 || Toxic Irritant 8 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 141 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Mutation: Extra Toes 8|2}} || 76 || Mutation: Extra Toes 8 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +25% damage.<br>Sprint Speed Bonus 5 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 33<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Mutation: Extra Skin 8|2}} || 77 || Mutation: Extra Skin 8 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +24, Indirect Damage Mitigation +8<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 33<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Mutation: Extra Heart 8|2}} || 78 || Mutation: Extra Heart 8 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +68<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Toxin Bomb 9|2}} || 80 || Toxin Bomb 9 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 436 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 56<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Create Greater Golem|2}} || 81 || Create Greater Golem || You concoct an automaton that can be given eight commands. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Mycotoxin Formula 9|2}} || 82 || Mycotoxin Formula 9 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 383 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 48<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Healing Injection 9|2}} || 82 || Healing Injection 9 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 141 Health ||  || <b>Power Cost:</b> 48<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Acid Bomb 9|2}} || 83 || Acid Bomb 9 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 460 Acid<br><b>Armor Dmg:</b> 460 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 57<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Healing Mist 9|2}} || 84 || Healing Mist 9 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 110 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 58<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Battle Chemistry: Healing Mist 9]]
+|-
+| {{Ability icon|Freezing Mist 9|2}} || 84 || Freezing Mist 9 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 470 Cold || <b>Power Cost:</b> 80<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Battle Chemistry: Freezing Mist 9]]
+|-
+| {{Ability icon|Toxic Irritant 9|2}} || 85 || Toxic Irritant 9 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 173 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Battle Chemistry: Toxic Irritant 9]]
+|-
+| {{Ability icon|Mutation: Extra Toes 9|2}} || 86 || Mutation: Extra Toes 9 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +28% damage.<br>Sprint Speed Bonus 5.5 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 36<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Battle Chemistry: Mutation: Extra Toes 9]]
+|-
+| {{Ability icon|Mutation: Extra Skin 9|2}} || 87 || Mutation: Extra Skin 9 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +27, Indirect Damage Mitigation +9<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Battle Chemistry: Mutation: Extra Skin 9]]
+|-
+| {{Ability icon|Mutation: Extra Heart 9|2}} || 88 || Mutation: Extra Heart 9 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +74<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Battle Chemistry: Mutation: Extra Heart 9]]
+|-
+| {{Ability icon|Toxin Bomb 10|2}} || 90 || Toxin Bomb 10 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 526 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 61<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Battle Chemistry: Toxin Bomb 10]]
+|-
+| {{Ability icon|Haste Concoction 6|2}} || 90 || Haste Concoction 6 || Disperse chemicals that let you and your allies run at high speed for a short time. || Sprint Speed +13 for 13 seconds. ||  || <b>Power Cost:</b> 28<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Item:</b> [[Battle Chemistry: Haste Concoction 6]]
+|-
+| {{Ability icon|Create Heightened Golem|2}} || 91 || Create Heightened Golem || You concoct an automaton that can be given nine commands. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Battle Chemistry: Create Basic Golem]]
+|-
+| {{Ability icon|Mycotoxin Formula 10|2}} || 92 || Mycotoxin Formula 10 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 460 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 53<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Item:</b> [[Battle Chemistry: Mycotoxin Formula 10]]
+|-
+| {{Ability icon|Healing Injection 10|2}} || 92 || Healing Injection 10 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 154 Health ||  || <b>Power Cost:</b> 53<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Battle Chemistry: Healing Injection 10]]
+|-
+| {{Ability icon|Acid Bomb 10|2}} || 93 || Acid Bomb 10 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 552 Acid<br><b>Armor Dmg:</b> 552 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 63<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Battle Chemistry: Acid Bomb 10]]
+|-
+| {{Ability icon|Healing Mist 10|2}} || 94 || Healing Mist 10 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 120 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 63<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Battle Chemistry: Healing Mist 10]]
+|-
+| {{Ability icon|Freezing Mist 10|2}} || 94 || Freezing Mist 10 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 561 Cold || <b>Power Cost:</b> 88<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Battle Chemistry: Freezing Mist 10]]
+|-
+| {{Ability icon|Toxic Irritant 10|2}} || 95 || Toxic Irritant 10 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 206 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Battle Chemistry: Toxic Irritant 10]]
+|-
+| {{Ability icon|Mutation: Extra Toes 10|2}} || 96 || Mutation: Extra Toes 10 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +30% damage.<br>Sprint Speed Bonus 5.5 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mutation: Extra Skin 10|2}} || 97 || Mutation: Extra Skin 10 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +30, Indirect Damage Mitigation +10<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mutation: Extra Heart 10|2}} || 98 || Mutation: Extra Heart 10 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +82<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 41<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Toxin Bomb 11|2}} || 100 || Toxin Bomb 11 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 618 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 67<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Create Impressive Golem|2}} || 101 || Create Impressive Golem || You concoct an automaton that can be given ten commands. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mycotoxin Formula 11|2}} || 102 || Mycotoxin Formula 11 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 541 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 58<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Healing Injection 11|2}} || 102 || Healing Injection 11 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 168 Health ||  || <b>Power Cost:</b> 58<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Create Impressive Bomb Golem|2}} || 102 || Create Impressive Bomb Golem || You concoct an automaton that can be given ten commands. This variant's Self-Destruct command deals double direct damage. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 0<br><b>Cooldown:</b> 30 || <b>Gift:</b> [[UgilixavNotesB]]
+|-
+| {{Ability icon|Acid Bomb 11|2}} || 103 || Acid Bomb 11 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 649 Acid<br><b>Armor Dmg:</b> 649 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 69<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Healing Mist 11|2}} || 104 || Healing Mist 11 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 130 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 69<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Freezing Mist 11|2}} || 104 || Freezing Mist 11 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 660 Cold || <b>Power Cost:</b> 96<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Haste Concoction 7|2}} || 105 || Haste Concoction 7 || Disperse chemicals that let you and your allies run at high speed for a short time. || Sprint Speed +14 for 14 seconds. ||  || <b>Power Cost:</b> 32<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Toxic Irritant 11|2}} || 105 || Toxic Irritant 11 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 241 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mutation: Extra Toes 11|2}} || 106 || Mutation: Extra Toes 11 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +32% damage.<br>Sprint Speed Bonus 6 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 43<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mutation: Extra Skin 11|2}} || 107 || Mutation: Extra Skin 11 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +33, Indirect Damage Mitigation +11<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 44<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mutation: Extra Heart 11|2}} || 108 || Mutation: Extra Heart 11 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +88<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 44<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Toxin Bomb 12|2}} || 110 || Toxin Bomb 12 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 723 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 73<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mycotoxin Formula 12|2}} || 112 || Mycotoxin Formula 12 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 631 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 63<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Healing Injection 12|2}} || 112 || Healing Injection 12 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 181 Health ||  || <b>Power Cost:</b> 63<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Acid Bomb 12|2}} || 113 || Acid Bomb 12 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 755 Acid<br><b>Armor Dmg:</b> 755 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 75<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Healing Mist 12|2}} || 114 || Healing Mist 12 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 140 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 76<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Freezing Mist 12|2}} || 114 || Freezing Mist 12 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 765 Cold || <b>Power Cost:</b> 105<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Toxic Irritant 12|2}} || 115 || Toxic Irritant 12 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 279 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mutation: Extra Toes 12|2}} || 116 || Mutation: Extra Toes 12 || Inject mutation chemicals into yourself or an ally. You grow numerous additional spiky toes on your feet, giving you purchase on the ground and causing all Kick attacks to deal extra damage. (Someone can only be affected by one Mutation at a time.) || Kicks deal +34% damage.<br>Sprint Speed Bonus 6 (out-of-combat only)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 47<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mutation: Extra Skin 12|2}} || 117 || Mutation: Extra Skin 12 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +36, Indirect Damage Mitigation +12<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 48<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Strom Farblood]]
+|-
+| {{Ability icon|Mutation: Extra Heart 12|2}} || 118 || Mutation: Extra Heart 12 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +96<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 48<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Toxin Bomb 13|2}} || 120 || Toxin Bomb 13 || Fling deadly toxins into the air all around you.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Poison, 7 times over 7 seconds || <b>Damage:</b> 829 Poison<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 79<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Haste Concoction 8|2}} || 120 || Haste Concoction 8 || Disperse chemicals that let you and your allies run at high speed for a short time. || Sprint Speed +15 for 15 seconds. ||  || <b>Power Cost:</b> 37<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Mycotoxin Formula 13|2}} || 122 || Mycotoxin Formula 13 || Fling deadly fungal toxins into the air all around you. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Nature, 8 times over 8 seconds || <b>Damage:</b> 720 Nature<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 68<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Healing Injection 13|2}} || 122 || Healing Injection 13 || Inject healing chemicals into yourself or an ally.<br><b>This is a Minor Heal</b> || <b>Restore:</b> 194 Health ||  || <b>Power Cost:</b> 68<br><b>Range:</b> 10<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Acid Bomb 13|2}} || 123 || Acid Bomb 13 || Fling armor-dissolving acids into the air all around you.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds<br><b>DoT:</b> 0 Acid, 6 times over 6 seconds || <b>Health Dmg:</b> 860 Acid<br><b>Armor Dmg:</b> 860 Acid<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 81<br><b>AoE:</b> 10<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Healing Mist 13|2}} || 124 || Healing Mist 13 || Fling restorative chemicals onto yourself and nearby allies.<br><b>This is a Major Heal</b> || <b>Restore:</b> 150 Health to You and Nearby Allies<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health every 6 seconds for 30 seconds<br><b>Restore:</b> 0 Armor every 3 seconds for 15 seconds ||  || <b>Power Cost:</b> 82<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Freezing Mist 13|2}} || 124 || Freezing Mist 13 || Disperse an instant-freeze chemical bomb to slow enemy movement. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 5 times over 10 seconds || <b>Damage:</b> 871 Cold || <b>Power Cost:</b> 114<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Toxic Irritant 13|2}} || 125 || Toxic Irritant 13 || Splash harmful chemicals on an enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 317 Acid || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 5 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Mutation: Extra Skin 13|2}} || 125 || Mutation: Extra Skin 13 || Inject mutation chemicals into yourself or an ally. Your skin thickens and coarsens. You take less damage from attacks. (Someone can only be affected by one Mutation at a time.) || Direct Damage Mitigation +40, Indirect Damage Mitigation +13<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 51<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Mutation: Extra Heart 13|2}} || 125 || Mutation: Extra Heart 13 || Inject mutation chemicals into yourself or an ally. You grow a small ancillary heart inside your ribcage, causing you to regenerate power quicker. (Someone can only be affected by one Mutation at a time.) || Combat Refresh Power Restoration +102<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 51<br><b>Range:</b> 10<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|}

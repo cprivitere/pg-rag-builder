@@ -1,0 +1,147 @@
+__NOTOC__
+==Update Notes: June 26, 2019==
+This update is a potpourri of tweaks, bug fixes, and new content. So let's get to it!
+
+===Gardening Almanac===
+Starting in this update, different gardens across the world will get daily [[Gardening]] bonuses. There are different bonuses each day; for example, today there might be a bonus to growing carrots in Gretchen's garden in [[Serbule Hills]], and tomorrow there might be a bonus for growing daisies in [[Sun Vale]]. 
+
+Gardeners who want to take advantage of these bonuses can check out the new Gardening Almanac in [[Serbule]], [[Rahu]], and the Casino. This book can tell you about current and upcoming Gardening bonuses. The [[Serbule]] almanac is in the windmill.
+
+Since it's possible for these gardening events to happen in Kur or [[Gazluk]], we've added locations in those areas where it's possible to grow vegetables. However, while it's now TECHNICALLY possible, most players will run into practical difficulties due to the climate. Not all Gardening events are equally useful!
+
+===Shop Search Upgrade===
+You can now use the shop-search golems to search for equipment or augments that meet certain requirements. Just click the appropriate option on the golem's sidebar menu to begin. You can search by slot, skill, rarity, and level range.
+
+This feature involved a lot of new code and could have bugs, so report them if you see them!
+
+===War Caches===
+::- We've added six more [[War Cache]] quests in this update. These are a bit harder than the earlier ones. (But are they too hard? If so, let us know!) 
+::- The rewards from spending "[[Sir Johnson]] Bucks" were previously guaranteed to be Epic (4-power) items. That ended up being too good for the work involved; new reward items are now Exceptional (3-power) with a chance for higher-rarity items.
+
+===Gazluk Keep===
+[[Gazluk Keep]] continues to be our testing ground for high-level group content. The following tweaks have been made in this update:
+::- Bosses have significantly improved chances of rare-drop items. Chances of finding Exceptional (3-power) items are 2-4x higher, and chances of Epic (4-power) items and Legendary (5-power) items are about double. (The exact amount of change varies per boss.)
+::- Certain types of orcs now have some Accuracy in their attacks, allowing them to overcome player Evasion. Affected orcs indicate this in their monster info (when selected). NOTE: this change also happens to affect a few monsters outside of [[Gazluk]]: "[[Orcish Thaumaturge]]s" anywhere in the world now have Accuracy. Give them a pat on the back for powering up. (Even though it may be only temporary.)
+::- Bug fix: [[Stolen War Golem]] eventually stops calling for backup after its enemies flee or are killed.
+
+===Live Events===
+We've added some major new tools for admin-run live events. We're continuing to improve the design of live events based on your feedback, so please continue to give feedback after any live event you participate in! Thanks!
+
+===Unarmed Skill Changes===
+Unarmed is the oldest skill (its internal ID is #1) and it has seen many permutations. It's intended to be a strongly defensive skill with a lot of control abilities, moderate damage potential, and powerful combos. 
+
+In a previous update we accidentally created a scenario where it was possible to use the skill's Epic Attack every 15 seconds, which added a huge amount of damage potential. As usual, we left it alone for a while to see what the ramifications were (lots of times, balance errors end up working out fine), but in this case it's obvious that this is not going to be sustainable into future higher levels, and it gets more overpowered every time we add a way to buff Epic Attacks. So we've nerfed the treasure effect responsible.
+
+We're also working on making percentage-based mitigation treasure scale better between low and high levels, and Unarmed is the first skill to see those changes. Previously, low-level mitigation treasure was very weak (e.g. "3% of the physical damage you take is mitigated"), then it scaled to the original target power-level around level 50, and then kept going higher after that. Our plan for percentage mitigation now is that it will start off much stronger and cap out around level 50 or 60, and we're adding other effects to the treasure that can continue to scale past that level.
+
+The [[Unarmed]] skill was created before Evasion existed, but it's a natural fit for the skill, so we've added a bit of Evasion to the treasure effects. In addition, the game engine can now support "side-effects" of Evading, and Unarmed is the first recipient of these effects. (For instance, one treasure effect is "Any time you Evade an attack, your next attack deals +133 damage".) As with any new tech, bugs are possible; please report them!
+
+We've also tweaked most of the meditation combos. Those changes aren't documented individually here because it's too spammy, but in general the combo changes came in two flavors: boosts to damage, and replacing "Punch" steps with "Any Melee" steps.
+
+Some other changes were made to add more synergy with other Trauma-damage skills.
+
+===Ability Changes:===
+::- Mamba Strike: This ability has changed from a Crushing attack to a Trauma attack that deals direct health damage. When the target's armor is low (below 33%), it now deals +33% immediate Trauma damage, instead of adding a Trauma damage-over-time effect. Reuse timer lowered from 8 sec to 6 sec.
+::- Slashing Strike and Claw Barrage: We updated ability descriptions to mention that being an empty-handed animal with claws is sufficient to activate the ability. (The behavior is unchanged, it was just not well-documented. Currently only werewolves have claws.)
+::- Slashing Strike: The damage-over-time is now applied over 6 seconds instead of 12.
+
+===Treasure Changes:===
+::- "Bruising Blow deals +28% damage and hastens the current reuse timer of Bodyslam by 10 seconds" => Now hastens by 5 seconds. (This is the big nerf.)
+::- "Headbutt deals +20% damage and conjures a magical field that mitigates 20% of all physical damage you take for 10 seconds (or until 200 damage is mitigated)" => Now mitigates 15% for 10 seconds or until 400 damage is mitigated. (All levels now mitigate 15% physical damage; the damage bonus and mitigation cap increase with each level.)
+::- "While using [[Unarmed]] skill, 22% of all Slashing, Piercing, and Crushing damage you take is mitigated and added to the damage done by your next Punch, Jab, or Infuriating Fist at a 100% rate" => now 18% at a 260% rate. (This effect previously scaled from 3%-22% mitigation with a constant 100% soak-reflect; it's now 10%-18% with a continuously increasing soak-reflect.)
+::- "While using [[Unarmed]] skill, 36% of all Darkness and Psychic damage you take is mitigated and added to the damage done by your next Punch, Jab, or Infuriating Fist" => now 25% at a 300% rate. (This effect previously scaled from 8%-36% mitigation with a constant 100% soak-reflect; it's now 13%-25% with a continuously increasing soak-reflect.)
+::- "While using Unarmed skill, 22% of all Acid, Poison, and Nature damage you take is mitigated and added to the damage done by your next Kick at a 100% rate" => now 21% at a 280% rate. (This effect previously scaled from 8%-22% mitigation with a constant 100% soak-reflect; it's now 1%-21% with a continuously increasing soak-reflect.)
+::- "Mamba Strike deals +250% Crushing damage and +400 Trauma damage (if target's armor is below 33%), but reuse timer is +8 seconds" => "Mamba Strike damage +55%"
+::- "Mamba Strike and Front Kick deal 95 Trauma damage over 15 seconds" => "Mamba Strike and Front Kick damage +80"
+::- "Barrage and Headbutt ignite the target, causing them to take 130 damage over 20 seconds" => 212 damage over 8 seconds.
+::- "Unarmed attacks have a 23% chance to conjure a magical field that mitigates 10% of all physical damage you take for 1 minute (or until 100 damage is mitigated)" => "While Unarmed skill is active: you gain +4% Melee Evasion and any time you Evade a Melee attack you recover 64 Armor"
+::- "Unarmed attacks have a 16% chance to conjure a magical field that mitigates 10% of all physical damage you take for 1 minute (or until 100 damage is mitigated). Damage mitigated in this way is automatically added to the damage you do with your next Kick attack" => "While Unarmed skill is active: When you Evade an attack, your next attack deals +188 damage"
+::- "Hip Throw and Bodyslam deal +148 armor damage" => "Hip Throw deals +192 armor damage"
+::- "Cobra Strike and Mamba Strike boost your Nice Attack and Signature Debuff ability damage +44 for 7 seconds" => +55 for 7 seconds
+::- "Slashing Strike and Claw Barrage boost damage from Epic attacks +60 for 10 seconds" => +74
+::- "Infuriating Fist taunts +460 and deals 150 Trauma damage over 12 seconds": This effect can no longer be found on Hands slot, only on Legs slot. Hand items with this effect have become Legacy items. (See below for instructions on what to do with Legacy items.)
+::- New treasure effect for the Hands slot: "Infuriating Fist damage +103. Damage becomes Trauma instead of Crushing"
+::- "Slashing Strike deals +126 Trauma damage over 12 seconds" => over 6 seconds
+::- "Infuriating Fist taunts +460 and deals 138 Trauma damage over 12 seconds" => over 6 seconds
+::- "Cobra Strike and Mamba Strike Damage +38%" => +58%
+::- "Cobra Strike and Mamba Strike restore 32 Armor to you" => 40 armor
+::- "Bodyslam deals +37% damage and slows target's movement speed by 45%": This effect is no longer available on Hands, just Head. Items with this effect on Hands have become Legacy items. (See below for instructions on what to do with Legacy items.)
+::- New hands treasure effect: "Bruising Blow deals Trauma damage instead of Crushing, and targets suffer 12.5% more damage from other Trauma attacks for 20 seconds"
+::- "Headbutt and Knee Kick deal +138 armor damage" => "Headbutt and Knee Kick Damage +108"
+::- New treasure effect for the chest and off-hand slots: "Headbutt Damage +44%"
+
+===Legacy Items===
+Legacy items are items that cannot be generated in-game anymore, typically due to changes to the treasure-effect tables. If you have a Legacy item, you can continue using it for 30 days before it becomes permanently broken. There is a small golem in Serbule (in a house near the well) called the Legacy Item Replacer. This golem can tell you why an item is Legacy, and can replace the item with a new randomly-generated item with the same rarity.
+
+New to this update, you can also use [[Transmutation]] to remove the treasure effect that is making your item Legacy. After you've used [[Transmutation]] to change the offending effect into something else, log out and then log back in so that the game re-examines the item and removes the Legacy status. (If it works, the message "THIS IS A LEGACY ITEM" should disappear from the item description after relogging.)
+
+
+===[[Werewolf]] Treasure===
+We've taken a second look at a few treasure effects, especially the effects for Shadow Feint. We didn't correctly account for its dual-state nature and the effects were a bit too weak.
+::- "Blood of the Pack restores 90 Health over 30 seconds to you and your allies" => over 10 seconds
+::- "Shadow Feint causes your next attack to deal +144 damage if it is a Werewolf ability" => +192 damage
+::- "When you teleport via Shadow Feint, you recover 50 Armor and your Sprint Speed is +3 for 10 seconds" => 83 Armor
+::- "When you teleport via Shadow Feint, you recover 70 Health" => 100 Health
+::- "Shadow Feint reduces the taunt of all your attacks by 35% until you trigger the teleport" => 46%
+::- "Shadow Feint raises your Lycanthropy Base Damage +36% until you trigger the teleport" => +52%
+
+===Fixes to Damage Type Overrides===
+When a treasure effect changes the type of damage an ability deals, the game previously only partially implemented this: the target's vulnerabilities and resistances to the new damage type were calculated correctly, but it still used the original damage type when calculating total damage. For related reasons, the ability tooltip didn't completely show what was changing, only mentioning it at the bottom under "Other Effects".
+
+This is fixed, both internally and in the displayed info. The tooltip will show the new damage type in green (indicating it is enchanted), and the damage is calculated based on that new damage type.
+
+===Sonic Damage Retired===
+We're retiring the "Sonic" damage type. It was basically only accessible from the Giant Bat and Bard skills, and Giant Bats can't be Bards, so there wasn't much synergy (except perhaps in groups). After playing with some ideas, we realized no upcoming new combat skills were going to do a lot of Sonic damage, either. 
+
+So we're converting all Sonic attacks to a different damage type to allow for more interconnectedness between skills. We've converted them all to Nature damage for now, although some may get changed to another damage type when we next focus on the individual skills involved.
+::- [[Bard]] ability Blast of Fury damage type is now Nature.
+::- Bard ability Blast of Defiance damage type is now Nature.
+::- Bard ability Blast of Despair damage type is now Nature.
+::- [[Giant Bat]] ability Screech damage type is now Nature.
+::- Giant Bat ability Sonic Burst damage type is now Nature.
+::- Bard Treasure change: "Thunderous Note deals +45% damage, and damage type is Sonic instead of Trauma" => Nature instead of Trauma
+::- Bard Treasure change: "Thunderous Note causes the target to take +13% damage from Sonic attacks for 15 seconds" => Nature instead of Sonic
+::- Giant Bat Treasure change: "For 30 seconds after using Drink Blood, all sonic attacks deal +45 damage" => all Nature attacks deal +45 damage
+::- Giant Bat Treasure change: "Sonic Damage +32%" => "Nature Damage +32%"
+::- Bard Crafting: Bard Shirts and Bard Gloves now boost Nature damage, not Sonic damage.
+::- Council Pathfinder Helm now mitigates Nature, not Sonic.
+::- Ratty Tactics Ring now boosts Nature, not Sonic damage.
+::- Rattail-Ring of Screeching now boosts and protects against Nature, not Sonic.
+::- All monsters that were vulnerable or resistant to Sonic have been changed. Most are now resistant/vulnerable to some new type instead.
+::- All monster attacks that dealt Sonic damage now deal Nature damage.
+
+===Preventing Unintentional Quest Turn-ins===
+Having an NPC steal your good boots, when what you wanted was to give him your not-nearly-as-good boots, is a frustrating pain! So we've tweaked the behavior a little:
+::- Equipment that is part of a Load-Out is never counted as part of a Quest or Work-Order.
+::- Equipment that is in a Vendor-Locked folder is never counted as part of a Quest or Work-Order. (Note this only applies to equipment, not other items. This is so that players can still put regular quest items in vendor-locked folders to prevent accidentally selling them, and the items can still be turned in for the quest.)
+
+These sound like small bug-fixes, but they involved a bit more work than it may seem. The changes have been tested, but as always, please be on the lookout for bugs or complications.
+
+===Footsteps===
+We've made major changes to the footstep sound-effect system to allow for more types of sounds, such as squishy sounds for sand and splash sounds when running in shallow water. More work is planned in this area eventually, including volume fixes and different sounds for different boot types. (Currently the game assumes you're always wearing metal boots.)
+
+===Other Changes===
+::- Fixed many teleportation arrival positions where the camera could get switched around to face the player instead of being behind the player.
+::- Made configuring guild permissions a little more intuitive.
+::- Fixed bugs that could prevent the "glowing" effect on high-tier loot (in the loot window).
+::- [[Thimble Pete]] no longer notices if you are an animal while turning in a work order. (But still won't train animals.)
+::- Small performance improvements to humanoids (both NPCs and Players).
+::- Trolls' regeneration (when not on fire) is MUCH more potent!
+::- Tweaked resistances and abilities of mummies.
+
+===Lore Adjustments===
+We've made a few small tweaks to game lore:
+::- The "Rains in Ilmari" lasted for 2 years, not 20. (Exaggeration at its best!)
+::- References to the "Red Mantis Gang" have been fixed to reference the "Red Wing Gang".
+::- Removed a reference to the god [[Bogdelle]] because she has been retconned out of existence.
+::- References to "Mirraverre" have been fixed to the correct spelling "[[Miraverre]]".
+
+===External Character References===
+We're working on some new ways for you to share your deeds and actions with the outside world. One thing we're working on is a "news ticker" that shows recent heroic exploits, such as killing a boss, completing a recipe for the 1000th time, maxing out a skill, that sort of thing. (It's not live yet -- we're still experimenting with it.)
+
+We'll only be using your character's name, and possibly other in-game names such as your guild's name -- we'd never share any real-life information. But if you are uncomfortable with having your character name-dropped outside of the game, you can opt out: in the "Social" window, under the "RESTRICT" tab, turn off "External References".
+
+And, of course, when you're in Incognito mode you're also left off of the news ticker, because you obviously want to be incognito! (As a reminder of how incognito works: you can log-in Incognito by holding down the SHIFT key at the character-selection screen. The "LOGIN" button will change to say "INCOGNITO LOGIN". This mode prevents your friends-list from being notified that you logged in, prevents you from showing up in /who lists and Guild-Online lists, etc. If you want to play incognito all the time, you can type "/incognito on" (without the quotes) into the chat window.)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

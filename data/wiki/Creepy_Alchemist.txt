@@ -1,0 +1,44 @@
+__NOTOC__
+{{NPC infobox
+|title            = Creepy Alchemist
+|image            = [[File:CreepyAlchemist.png|300px]]
+|caption          = He cackles to himself.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = North bridge exiting Serbule Keep.
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|eventnpc = Yes
+}}
+<kbd> Strange Alchemist: A mysterious alchemist is standing just outside of Serbule. He has something to offer you. (Speical Event). </kbd>
+{{Quote|
+Here you are, dear boy. A present for you! Ha ha ha ha ha! No need to thank me! Your expressions of joy are all I need. Go on, drink it, drink it!
+}}
+The '''Creepy Alchemist''' is an Event NPC who first appeared outside of [[Serbule Keep]] in June 2016. When spoken to, he gives a temporary item that disappears when you log off, and can't be placed in storage. A new potion can be received about half an hour after the effects of the previous one wear off.
+
+
+==Location==
+; [[Serbule]]
+: Standing by the northern bridge.
+
+== Previously distributed items ==
+; June 2016
+: {{Item|Superjump Potion}}
+; July 2016
+: {{Item|Flight Potion}}
+; November 2016
+: {{Item|Cottage Pie}}
+; February 2017
+: {{Item|Superjump Potion}}
+; May 20 - 21, 2017
+: {{Item|Superjump Potion}}
+; October 14 - 21, 2017
+: {{Item|Super Speed Potion}}
+; July 25 - ??, 2021
+: {{Item|Super Speed Potion}}
+; December 2024
+: {{Item|Superjump Potion}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

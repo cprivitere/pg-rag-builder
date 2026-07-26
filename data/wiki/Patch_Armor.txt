@@ -1,0 +1,112 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Patch Armor
+| description = Use a Simple Armor Patch Kit (or better) to repair your or an ally's armor. There is a 10% chance the kit will be used up.
+| level = 1
+| power cost = 10
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 50 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Patch Armor 2
+| description = Use a Basic Armor Patch Kit (or better) to repair your or an ally's armor. There is a 10% chance the kit will be used up.
+| level = 10
+| power cost = 13
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 75 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Patch Armor 3
+| description = Use a Good Armor Patch Kit (or better) to repair your or an ally's armor. There is a 10% chance the kit will be used up.
+| level = 20
+| power cost = 17
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 100 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Patch Armor 4
+| description = Use a Expert's Armor Patch Kit (or better) to repair your or an ally's armor. There is a 10% chance the kit will be used up.
+| level = 30
+| power cost = 20
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 125 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Patch Armor 5
+| description = Use a Master Armor Patch Kit (or better) to repair your or an ally's armor. There is a 10% chance the kit will be used up.
+| level = 40
+| power cost = 24
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 150 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Patch Armor 6
+| description = Use an Amazing Armor Patch Kit (or better) to repair your or an ally's armor. There is a 10% chance the kit will be used up.
+| level = 50
+| power cost = 27
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 175 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Patch Armor 7
+| description = Use an Amazing Armor Patch Kit (or better) to repair your or an ally's armor. There is a 20% chance the kit will be used up.
+| level = 60
+| power cost = 30
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 200 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Patch Armor 8
+| description = Use an Astounding Armor Patch Kit (or better) to repair your or an ally's armor. There is a 10% chance the kit will be used up.
+| level = 70
+| power cost = 34
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 225 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Patch Armor 9
+| description = Use an Astounding Armor Patch Kit (or better) to repair your or an ally's armor. There is a 20% chance the kit will be used up.
+| level = 80
+| power cost = 37
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 250 Armor.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

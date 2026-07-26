@@ -1,0 +1,260 @@
+__NOTOC__
+{{NPC infobox
+|title            = George Madler
+|image            = [[File:GeorgeMadler.png|300px]]
+|caption          = He looks older than he probably is.
+|zone             = Eltibule
+|town = Eltibule Keep
+|location         = Courtyard of [[Eltibule Keep]].
+|anatomy = Human
+|species = Human
+|skilltrainer     = [[Textile Creation]]
+|beastspeak       = No
+|vendor           = Yes
+}}
+{{Quote |
+My wife was taken as a slave aboard a goblin trading ship, and I was sent to [[Fallow Harbor]]. I saw her once or twice from afar, even sent her secret messages. But then one day I heard the ship had been lost at sea. She drowned. What a horrible death.
+}}
+[[George Madler]] is a textile artisan who teaches how to process plants like Cotton into usable fabrics.
+== Location ==
+; [[Eltibule]]
+: Eltibule Keep in the center of the zone
+== Shopkeeper ==
+{{Vendor items sold}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Card cotton and talk about the weather (4 hours)|
+* 35 favor with George Malder
+* 500 Textile Creation XP
+* 5 Carded Cotton
+}}
+{{Spoiler|Card cotton and talk about George's dead family (4 hours)|
+{{Quote|
+Isaac had the sweetest laugh. He would have grown up to be a tailor, I think. He liked playing with the cloth I made. Oh, I miss him even more than Lara. 
+
+...Is that bad? I can't believe I said that out loud, but it's true. I should miss them the same amount, right? What a thing to feel guilty about!
+
+Anyway. Thanks for talking with me. You're a great listener!}}
+* 35 favor with George Malder
+* 500 Textile Creation XP
+* 5 Carded Cotton
+}}
+{{Spoiler|Card cotton and talk about George's escape from slavery (4 hours)|
+* 35 favor with George Malder
+* 500 Textile Creation XP
+* 5 Carded Cotton
+}}
+
+== Quests ==
+<dpl>
+category = Quests/George Madler
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Textile Creation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Textile Creation{{pipe}}Learn Textile Creation
+ |skilllevel = 0
+ |cost=200
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Textile Creation{{pipe}}Unlock Textile Creation Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20000
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Carded Cotton
+ |skilllevel=1
+ |cost=166
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Carded Cotton (from Cotton Gin)
+ |skilllevel=2
+ |cost=200
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Coarse Cotton Yarn
+ |skilllevel=3
+ |cost=233
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Basic Spider Silk
+ |skilllevel=6
+ |cost=333
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Canvas
+ |skilllevel=5
+ |cost=300
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Simple Blanket
+ |skilllevel=12
+ |cost=866
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Butter Muslin
+ |skilllevel=7
+ |cost=366
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Flower Wrap
+ |skilllevel=9
+ |cost=433
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Fine Cotton Yarn
+ |skilllevel=10
+ |cost=466
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=String (from Cotton)
+ |skilllevel=13
+ |cost=900
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Cheesecloth
+ |skilllevel=12
+ |cost=866
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Breadcloth
+ |skilllevel=15
+ |cost=966
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Voile Muslin
+ |skilllevel=20
+ |cost=1133
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Cotton Thread
+ |skilllevel=22
+ |cost=1533
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Flower Banding
+ |skilllevel=22
+ |cost=1600
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Fine Cheesecloth
+ |skilllevel=25
+ |cost=1633
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Carded Cotton (Expert Level)
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Strong Spider Silk
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Carded Cotton (Master Level)
+ |skilllevel=45
+ |cost=4633
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Extreme Spider Silk
+ |skilllevel=35
+ |cost=2966
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Incredible Spider Silk
+ |skilllevel=45
+ |cost=4633
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Dye Cloth Armor (1 color)
+ |skilllevel=5
+ |cost=300
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Dye Cloth Armor (2 colors)
+ |skilllevel=25
+ |cost=1633
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Dye Cloth Armor (3 colors)
+ |skilllevel=50
+ |cost=4800
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Basic Saddle Blanket
+ |skilllevel=25
+ |cost=1633
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Robust Saddle Blanket
+ |skilllevel=45
+ |cost=4633
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Impressive Saddle Blanket
+ |skilllevel=65
+ |cost=9966
+ |favor=?
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Carded Cotton}} x50
+|RiShin Family ={{Item|Carded Cotton}} x50, {{Item|Coin Sack}} x3
+}}
+== Conversations ==
+{{Quote|source=[[George Madler]]|
+I was a slave until three years ago, when I poisoned my moronic goblin masters and escaped. I got my feet back under me in [[Statehelm]]. But every night I heard my dead family calling for justice. I ha to come avenge them.}}
+{{Quote|source=[[George Madler]]|
+Goblin ships landed on [[Murdo]] and bashed in our door. They took my wife and I for slaves, and they just killed little Isaac right there in front of me.}}
+{{Quote|source=[[George Madler]]|
+My wife was taken as a slave aboard a goblin trading ship, and I was sent to [[Fallow Harbor]]. I saw her once or twice from afar, even sent her secret messages. But then one day I heard the ship had been lost at sea. She drowned. What a horrible death.
+
+Do you understand why goblins must die now?|}}
+
+[[Category:NPCs]][[Category:Dead Wife]]

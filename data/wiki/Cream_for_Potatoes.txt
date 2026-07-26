@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Gretchen in Eltibule complained about a lack of sour cream.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gretchen]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|My main food is potatoes. I use other foods when I can get 'em, but potatoes are what get me through the long winters. Anyway, I fucking hate potatoes! At the very least, it'd be nice to have some sour cream, you know?}}
+
+===Requirements===
+* Obtain {{Item|Sour Cream}}
+* Talk to Gretchen
+
+===Rewards===
+{{Spoiler|Rewards for Cream for Potatoes|
+{{Quote|You got this for me? Well that's really kind of you! I was just complaining, I didn't mean to make you go to all that trouble. But I'm glad you did! Let me teach you some gardening tips. I wish I had more to offer!}}
+
+* 100 {{Favor|favor}}
+* 500 XP in [[Gardening]]
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Gretchen]]

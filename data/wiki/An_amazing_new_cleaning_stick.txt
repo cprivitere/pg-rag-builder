@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Lincha in Povus said, "All of my cleaning tools were stolen by the orcs. Even my trusty cleaning stick! I used to use it to get items off of the roof, disgorge gutters and drains, and poke seeds into the dirt! It was an amazingly versatile stick. I saw a perfect replacement in Rahu, but they couldn't guarantee that it wasn't made by slave labor. So I had to keep searching..."
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lincha]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+All of my cleaning tools were stolen by the orcs. Even my trusty cleaning stick! I used to use it to get items off of the roof, disgorge gutters and drains, and poke seeds into the dirt! It was an amazingly versatile stick. I saw a perfect replacement in Rahu, but they couldn't guarantee that it wasn't made by slave labor. So I had to keep searching...
+
+===Midway===
+I wish I had an amazing cleaning staff...
+
+===Requirements===
+* Craft Amazing Melee Staff
+* (Keep Amazing Melee Staff)
+* Talk to Lincha
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|These are good quality. And I see you've left your mark on them. I trust you, so I trust your wares. Thank you.}}
+* {{Item|Xogrite Chunk}} x9
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Lincha]]

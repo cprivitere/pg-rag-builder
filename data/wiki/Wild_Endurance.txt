@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Wild Endurance
+| description = Order your pet to hold its ground.
+| level = 17
+| power cost = 22
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|WildEndurance}}
+| special = Pet recovers 2 Health/Sec and gains Universal Mitigation +5 for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Wild Endurance 2
+| description = Order your pet to hold its ground.
+| level = 32
+| power cost = 30
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|WildEndurance}}
+| special = Pet recovers 4 Health/Sec and gains Universal Mitigation +10 for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Wild Endurance 3
+| description = Order your pet to hold its ground.
+| level = 47
+| power cost = 37
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|WildEndurance}}
+| special = Pet recovers 6 Health/Sec and gains Universal Mitigation +15 for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Wild Endurance 4
+| description = Order your pet to hold its ground.
+| level = 57
+| power cost = 42
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|WildEndurance}}
+| special = Pet recovers 9 Health/Sec and gains Universal Mitigation +20 for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Wild Endurance 5
+| description = Order your pet to hold its ground.
+| level = 67
+| power cost = 47
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|WildEndurance}}
+| special = Pet recovers 12 Health/Sec and gains Universal Mitigation +25 for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Wild Endurance 6
+| description = Order your pet to hold its ground.
+| level = 77
+| power cost = 52
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|WildEndurance}}
+| special = Pet recovers 15 Health/Sec and gains Universal Mitigation +30 for 15 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

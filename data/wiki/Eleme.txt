@@ -1,0 +1,109 @@
+__NOTOC__
+{{NPC infobox
+|title            = Eleme
+|image            = [[File:Eleme.png|300px]]
+|caption          = He snarls with determination as he studies a map.
+|zone             = Sun Vale
+|town             = Great Tree
+|location         = Platform 2
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = Yes
+|consignment = Yes
+}}
+{{Quote|
+I like to repurpose Winter Court armor, turning it into makeshift Summer Court armor. It looks nothing like the armor we had back home, but I think it helps boost morale to see us using the enemy's equipment against them.
+}}
+[[Eleme]] is a [[Summer Court]] fairy currently hiding in [[Sun Vale]].  He serves as the camp's blacksmith and modifies armor collected from captured [[Winter Court]] soldiers. 
+== Location ==
+; [[Sun Vale]]
+: [[Great Tree]] on the second platform.
+== Shopkeeper ==
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Comfortable}}|
+{{Item|Boots of the Summer Court}}
+}}
+{{Spoiler|Reward at {{Favor|Friends}}|
+{{Item|Greaves of the Summer Court}}
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}|
+{{Item|Coat of the Summer Court}}
+}}
+{{Spoiler|Reward at {{Favor|Like Family}}|
+{{Item|Helm of the Summer Court}}
+}}
+{{Spoiler|Reward at {{Favor|Soul Mates}}|
+{{Item|Coat of the Summer Court}}
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Eleme
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+==Services==
+==== Consignment ====
+;Eleme offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10%, stocking fee of 100 Councils.
+: Max 2 active consignments (Equipment).
+: Max 4 consignments per week.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Coat of the Summer Court}} (Lv 35)
+|RiShin Family = {{Item|Coat of the Summer Court}} (Lv 35), {{Item|Eynophille}} (Lv 35) or {{Item|Amulet of Max Health +20}} (Lv 35)
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Introduction|
+{{Quote|
+Who let you in? Argh! Security! Where is the damned security!
+
+'''I'm not here to hurt you.'''
+
+Hurt me? Hahahahaha! I alone have survived against the best the [[Winter Court]] has to offer. A mortal like you could never harm me!
+
+:'''Did you just judge me based on my race? Racist!'''
+:I don't know what that word means. But I don't care. You look like one of the druids' friends, right? Did you run into the [[Winter Court]] yet?
+::'''No...'''
+::You'll want to stay away from any fairy wearing heavy armor out in the fields. Almost all of those are Scions of the [[Winter Court]]. They're here to kill us, and they aren't weak.
+::'''Thanks for the warning.'''
+:'''It's a good thing I'm not here to harm you, then.'''
+:Indeed. Did you run into the [[Winter Court]] yet?
+::'''Yes, I believe I did'''
+::Huh. I'm impressed you survived. You must be made of sterner stuff than you look. They're quite dangerous.
+::'''Yep, I'm pretty stern'''
+::If only we'd brought more [[Summer Court]] troops with us, we could keep the poor far here safe. But for now, it's just me and [[Yagreet]] protecting these refugees.
+::'''Why does this Winter Court care?'''
+::The fae realm changes seasons every 20,000 years. It changed about two years ago, and the Winter Queen decided ... well, it's a long story. But suffice it to say that Summer fae are fleeing the realm as fast as possible. We chased after the fae that came here, hoping to help keep them alive.
+::'''Anything I can do to help?'''
+::I don't think you're strong enough. But if you know someone powerful, it would be a great help to kill the roaming Scions of the Winter Court. I collect pieces of their armor as reminders that they can be defeated. We can win this. Maybe not for 20,000 years, but for a time.
+::'''Hmm, yeah okay I'll keep that in mind.'''
+}}
+}}
+{{Spoiler|Greeting 1|
+{{Quote|It's going to be a really long 20,000 years here, I'll say that much right now. 2 years down, 19,998 to go.}}
+}}
+{{Spoiler|Greeting 2|
+{{Quote|I like to repurpose [[Winter Court]] armor, turning it into makeshift [[Summer Court]] armor. It looks nothing like the armor we had back home, but I think it helps boost morale to see us using the enemy's equipment against them.}}
+}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|The [[Winter Court]] will never stop sending killers after us. They can just revive and return a few days after we kill them. Whereas if *we* die, we'll reappear in the [[Fae Realm|fae realm]] and be tortured for 20,000 years...}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|When we realized thousands of [[Fairy|fae]] had fled into this dimension, our queen sent a task force to build a city here. I'm part of that task force. We didn't do so great of a job. But we haven't given up!}}
+}}
+
+[[Category:NPCs]]

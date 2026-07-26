@@ -1,0 +1,36 @@
+__NOTOC__
+{{NPC infobox
+|title            = Three-Eyes
+|image            =[[File:ThreeEyes NPC.png|300px]]
+|caption          = Begging for alms.
+|zone             = Rahu
+|town             = Rahu City (hostile)
+|location         = Found within the dangerous parts of the city.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+}}
+
+{{Quote|
+I'll come collect my fee for this valuable information later.
+}}
+While [[Three-Eyes]] appears to be a simple beggar, his knowledge of the citizens of [[Rahu]] is unheard of. He seems to make his living serving as an information broker.
+==Location==
+; [[Rahu]]
+: Found on the front porch of a house in the hostile area of the City of [[Rahu]].
+==Rumors==
+For a fee, accepted in the form of single-Council alms,  [[Three-Eyes]] is willing to provide information and insights about the citizens of Rahu.
+; First Rumor
+: You know the Tasty Cat, that tacky little restaurant near the docks? The [[Nishika|owner]] catered the last [[Formal Execution]], and now [[General Pask|Pask]] won't stop talking about their disgusting cat-meat dishes. He loves the place! So tacky, right?
+; Second Rumor
+: A funny one for you: that crazy little rak, [[Lakrea]], the one that teaches 'wellness'... she's in love with the [[Ashk|creepy soothsayer]] near the docks! I guess there's a mate out there for everybody... well, not for me, but for everybody else. ''Sniff.''
+; Third Rumor
+: You know that [[Lady Windsong|talking bird]] that's always snooping around? I heard it's not a bird at all. It's a d-r-u-i-d. Unconfirmed, so don't freak out. But if it's true, we're in big trouble.
+; Fourth Rumor
+: The [[Onkara]] went after the desert bandits again last week. I hear it didn't go too well. The bandits were better-equipped than ever before!
+; Fifth Rumor
+: Rumor is that the Council war with those demons isn't going so well. I hear the Rubywalls are cracking!
+; Sixth Rumor
+: I heard that [[General Pask]] is running out of orc prisoners to execute. Rumor is that Pask is hoping for another orcish invasion attempt so that he can keep the [[Formal Execution]] parties going. They're his favorite thing!
+[[Category:NPCs]][[Category:NoRiShin]]

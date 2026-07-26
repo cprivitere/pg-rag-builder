@@ -1,0 +1,43 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Insidious Illusion
+| description = Briefly fool shopkeepers and villagers into perceiving you as a typical humanoid. Consumes 1 Moonstone.
+| level = 0
+| power cost = 100
+| reuse time = 1200
+| range = 4 meters
+| skill = Spider
+| keywords = {{KWAB|Spider}}{{KWAB|SpiderIllusion}}
+| special = Take a humanoid shape for 90 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Insidious Illusion 2
+| description = Briefly fool shopkeepers and villagers into perceiving you as a typical humanoid. Consumes 1 Moonstone.
+| level = 0
+| power cost = 100
+| reuse time = 1200
+| range = 4 meters
+| skill = Spider
+| keywords = {{KWAB|Spider}}{{KWAB|SpiderIllusion}}
+| special = Take a humanoid shape for 150 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Insidious Illusion 3
+| description = Briefly fool shopkeepers and villagers into perceiving you as a typical humanoid. Consumes 1 Moonstone.
+| level = 0
+| power cost = 100
+| reuse time = 1200
+| range = 4 meters
+| skill = Spider
+| keywords = {{KWAB|Spider}}{{KWAB|SpiderIllusion}}
+| special = Take a humanoid shape for 210 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

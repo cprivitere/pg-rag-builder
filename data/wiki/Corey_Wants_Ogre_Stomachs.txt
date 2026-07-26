@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Corey the Croaker in the Winter Nexus asked you for ogre stomachs.
+
+===Prerequisites===
+To start this quest, talk to '''[[Corey The Croaker]]''' in '''[[Winter Nexus]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|If you're gonna be murdering harmless ogres, can you collect their stomachs for me? I need 'em for fart bladders and other joke toys. }}
+
+===Requirements===
+* Obtain {{Item|Ogre Stomach}}s x5
+* Talk to Corey the Croaker
+
+===Rewards===
+{{Spoiler|Rewards for Corey Wants Ogre Stomachs|
+{{Quote|Hm, not bad. Here! This is for your trouble!}}
+
+* 100 {{Favor|favor}}
+* {{Item|Fae Claw}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Corey The Croaker]]

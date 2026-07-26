@@ -1,0 +1,534 @@
+__NOTOC__
+{{NPC infobox
+|title            = Yogzi
+|image            = [[File:Yogzi.png|300px]]
+|caption          = He seems pretty focused.
+|zone             = Sun Vale
+|town             = Druid Camp
+|location         = By the fire
+|anatomy = Goblin
+|species = Goblin
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Toolcrafting]]
+|vendor           = Yes
+|consignment = Yes
+}}
+{{Quote|
+How goes your crafting?
+}}
+[[Yogzi]] is a Goblin merchant and [[Toolcrafting]] trainer found at the Druid camp in Sun Vale. He requires 30 [[Goblinese]] to understand, and will teach you [[Toolcrafting]] once your [[Blacksmithing]] is at least level 20 or [[Carpentry]] is at least level 20 (Yogzi's dialog in-game indicates both Carpentry and Blacksmithing must be 20, but having only one of the two is sufficient).
+== Location ==
+; [[Sun Vale]]
+: [[Druid Camp]] by the fire.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+{{Spoiler|Help sharpen utility knives (60m)|
+{{Quote|Boring, isn't it? That's toolcrafting! Now you know my pain! Quit while you're ahead! ... or keep going until you reach the awesome parts! Your choice, really.}}
+:12 {{Favor|favor}} with Yogzi
+:250 [[Toolcrafting]] XP
+}}
+{{Spoiler|Help sand down spider harnesses (2h)|
+:20 {{Favor|favor}} with Yogzi
+:500 [[Toolcrafting]] XP
+}}
+{{Spoiler|Test butchering knife designs (4h)|
+:35 {{Favor|favor}} with Yogzi
+:750 [[Toolcrafting]] XP
+:{{Item|Troll Flesh}}
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Yogzi
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Toolcrafting{{pipe}}Learn Toolcrafting
+ |skilllevel=20
+ |cost=0
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Keg Tap
+ |skilllevel=12
+ |cost=866
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Meat Tenderizer
+ |skilllevel=5
+ |cost=300
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Peening Hammer
+ |skilllevel=6
+ |cost=333
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Dishing Hammer
+ |skilllevel=16
+ |cost=1000
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Autopsy Kit
+ |skilllevel=15
+ |cost=966
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Forensic Inspection Kit
+ |skilllevel=30
+ |cost=1800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Forensic Analysis Kit
+ |skilllevel=50
+ |cost=4800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Simple First Aid Kit
+ |skilllevel=5
+ |cost=300
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Basic First Aid Kit
+ |skilllevel=15
+ |cost=966
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Good First Aid Kit
+ |skilllevel=25
+ |cost=1633
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Expert's First Aid Kit
+ |skilllevel=35
+ |cost=2966
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Master First Aid Kit
+ |skilllevel=45
+ |cost=4633
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Simple Skinning Knife
+ |skilllevel=1
+ |cost=166
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Basic Skinning Knife
+ |skilllevel=11
+ |cost=833
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Good Skinning Knife
+ |skilllevel=21
+ |cost=1500
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Expert's Skinning Knife
+ |skilllevel=31
+ |cost=2833
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Master Skinning Knife
+ |skilllevel=41
+ |cost=4500
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Amazing Skinning Knife
+ |skilllevel=51
+ |cost=6500
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Utility Knife
+ |skilllevel=18
+ |cost=1066
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Multipurpose Knife
+ |skilllevel=38
+ |cost=3066
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Butcher Knife
+ |skilllevel=8
+ |cost=400
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Organ Knife
+ |skilllevel=28
+ |cost=1733
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Filleting Knife
+ |skilllevel=48
+ |cost=4733
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Arachnid Harness (Enchanted)
+ |skilllevel=15
+ |cost=966
+ |favor=Comfortable?
+}}
+{{NPC training row
+ |recipe=Nice Arachnid Harness (Enchanted)
+ |skilllevel=30
+ |cost=1800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Great Arachnid Harness (Enchanted)
+ |skilllevel=45
+ |cost=4633
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Shoddy Pocket Belt
+ |skilllevel=5
+ |cost=300
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Pocket Belt (Enchanted)
+ |skilllevel=20
+ |cost=1133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Pocket Belt (Enchanted)
+ |skilllevel=35
+ |cost=2966
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Great Pocket Belt (Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Shoddy Hardcore Belt
+ |skilllevel=13
+ |cost=900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Hardcore Belt
+ |skilllevel=27
+ |cost=1700
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Hardcore Belt
+ |skilllevel=41
+ |cost=4500
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Great Hardcore Belt
+ |skilllevel=51
+ |cost=6500
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Shock Absorbing Belt (Enchanted)
+ |skilllevel=43
+ |cost=4566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Swordsman (Enchanted)
+ |skilllevel=16
+ |cost=1000
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Psychologist (Enchanted)
+ |skilllevel=18
+ |cost=1066
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Shielder (Enchanted)
+ |skilllevel=20
+ |cost=1133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Unarmed Fighter (Enchanted)
+ |skilllevel=22
+ |cost=1533
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Fire Mage (Enchanted)
+ |skilllevel=24
+ |cost=1600
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Battle Chemist (Enchanted)
+ |skilllevel=26
+ |cost=1666
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Mentalist (Enchanted)
+ |skilllevel=28
+ |cost=1733
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Archer (Enchanted)
+ |skilllevel=30
+ |cost=1800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Animal Handler (Enchanted)
+ |skilllevel=32
+ |cost=2866
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Staff Fighter (Enchanted)
+ |skilllevel=34
+ |cost=2933
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Werewolf (Enchanted)
+ |skilllevel=36
+ |cost=3000
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Necromancer (Enchanted)
+ |skilllevel=38
+ |cost=3066
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Hammerer (Enchanted)
+ |skilllevel=40
+ |cost=3133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Druid (Enchanted)
+ |skilllevel=42
+ |cost=4533
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Ice Mage (Enchanted)
+ |skilllevel=44
+ |cost=4600
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Knife Fighter (Enchanted)
+ |skilllevel=45
+ |cost=4633
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Brave Rabbit (Enchanted)
+ |skilllevel=46
+ |cost=4666
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Priest (Enchanted)
+ |skilllevel=47
+ |cost=4700
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Bard (Enchanted)
+ |skilllevel=48
+ |cost=4733
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Warden (Enchanted)
+ |skilllevel=49
+ |cost=4766
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Belt of the Spirit Fox (Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Decent Cow Champron (Enchanted)
+ |skilllevel=27
+ |cost=1700
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Cow Champron (Enchanted)
+ |skilllevel=37
+ |cost=3033
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Cow Champron (Max-Enchanted)
+ |skilllevel=37
+ |cost=3033
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Quality Cow Champron (Enchanted)
+ |skilllevel=47
+ |cost=4700
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Quality Cow Champron (Max-Enchanted)
+ |skilllevel=47
+ |cost=4700
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Great Cow Champron (Enchanted)
+ |skilllevel=57
+ |cost=7700
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Great Cow Champron (Max-Enchanted)
+ |skilllevel=57
+ |cost=7700
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Amazing Cow Champron (Enchanted)
+ |skilllevel=67
+ |cost=11366
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Amazing Cow Champron (Max-Enchanted)
+ |skilllevel=67
+ |cost=11366
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Decent Cow Barding (Enchanted)
+ |skilllevel=30
+ |cost=1800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Cow Barding (Enchanted)
+ |skilllevel=40
+ |cost=3133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Cow Barding (Max-Enchanted)
+ |skilllevel=40
+ |cost=3133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Quality Cow Barding (Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Quality Cow Barding (Max-Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Great Cow Barding (Enchanted)
+ |skilllevel=60
+ |cost=7800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Great Cow Barding (Max-Enchanted)
+ |skilllevel=60
+ |cost=7800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Amazing Cow Barding (Enchanted)
+ |skilllevel=70
+ |cost=11466
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Amazing Cow Barding (Max-Enchanted)
+ |skilllevel=70
+ |cost=11466
+ |favor=???
+}}
+|}
+
+== Services ==
+==== Consignment ====
+; Yogzi offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10%, stocking fee of 50 Councils.
+: Max 3 active consignments (Tools, carpentry goods, blacksmithing goods).
+: Max 5 consignments per week.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Yogzi's Butcher Knife}}
+|RiShin Family = {{Item|Yogzi's Butcher Knife}}, <b>One Lv 50 Equip:</b> {{Item|Hate Orb}}, {{Item|War Flask}}, {{Item|Cutting Crossbow}}, {{Item|Idealist's Skirts}}
+}}
+== Conversations ==
+{{Quote|source=[[Yogzi]]|
+Sometimes I wish we could use a little more iron in our weapons, you know? But it just disturbs the flow so much. Frustrating! If only there was a magic attuned to the earth. I guess it would be a dark kind of magic though...}}
+{{Quote|source=[[Yogzi]]|
+A druid doesn't like to use too much metal. But we're pragmatic! A few nails in a club makes it vastly more painful, you know?}}
+{{Quote|source=[[Yogzi]]|
+I like knives. I like making them and sharpening them. What? As gifts? No, I only like making them, not owning them!}}
+[[Category:NPCs]]

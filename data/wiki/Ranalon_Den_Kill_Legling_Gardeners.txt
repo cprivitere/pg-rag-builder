@@ -1,0 +1,74 @@
+__NOTOC__
+==Summary==
+Chirrra in  the Serbule Hills Ranalon Den said, "Head into the legling training area and find the area where gardeners practice their craft -- it's one of the first areas you'll come across in there. Kill everyone there."
+
+===Prerequisites===
+To start this quest, talk to '''[[Chirrra]]''' in '''[[Ranalon Den]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This is a solo quest from Chirrra. You may have one solo quest from Chirrra at a time. You can take on a new solo quest 15 minutes after completing or canceling this quest.
+
+===Preface===
+{{Quote|Head into the legling training area and find the area where gardeners practice their craft -- it's one of the first areas you'll come across in there. Kill everyone there.}}
+
+This is a [[:Category:Quests/Chirrra Tier 1|Tier 1]] quest from Chirrra.
+
+===Requirements===
+* Kill Legling Gardeners
+* Talk to Chirrra
+
+===Rewards===
+{{Spoiler|Rewards for Ranalon Den: Kill Legling Gardeners|
+{{Quote|Good! Those gardeners were almost ready to take their job to the surface. There are more gardeners, but now the den will have to spend more resources protecting them, keeping them safe. It's a step. Here: this is your reward.}}
+
+* Up to 234 Combat XP (scaled as level 15)
+
+This quest will reward 1 of the following loot randomly:
+
+'''Equipment (Level 20)'''
+* {{Item|Simple Enoyos Talisman}}
+
+
+==== Recipes ====
+Has a chance to reward with any of the following recipes:
+
+{{Spoiler|[[Alchemy]]|
+* {{Item|Alchemy: Energy Resistance Potion}}
+* {{Item|Alchemy: Gillpuncher Ointment}}
+}}
+
+{{Spoiler|[[Calligraphy]]|
+* {{Item|Calligraphy: "Enoyos"}}
+}}
+
+{{Spoiler|[[Cooking]]|
+* {{Item|Cooking: Basic Shark-Fin Soup}}
+* {{Item|Cooking: Fried Boletus Bites}}
+* {{Item|Cooking: Fried Lungfish}}
+* {{Item|Cooking: Fried Potato Sticks}}
+* {{Item|Cooking: Lungfish Kabob}}
+* {{Item|Cooking: Lungfish Roll}}
+* {{Item|Cooking: Mokapok Stew}}
+* {{Item|Cooking: Ranalon Salad}}
+* {{Item|Cooking: Succulent Pork Chops}}
+}}
+
+{{Spoiler|[[Fishing]]|
+* {{Item|Fishing: Lungfish Fillet}}
+}}
+
+{{Spoiler|[[Shamanic Infusion]]|
+* {{Item|Shamanic Infusion: Beginner's Scray Headgear Infusion}}
+* {{Item|Shamanic Infusion: Beginner's Scray Leg Infusion}}
+* {{Item|Shamanic Infusion: Novice's Scray Headgear Infusion}}
+* {{Item|Shamanic Infusion: Novice's Scray Leg Infusion}}
+* {{Item|Shamanic Infusion: Shaman's Scray Headgear Infusion}}
+* {{Item|Shamanic Infusion: Shaman's Scray Leg Infusion}}
+}}
+
+}}
+
+
+[[Category:Quests]]
+[[Category:Quests/Ranalon Den Quests]]
+[[Category:Quests/Chirrra]]
+[[Category:Quests/Chirrra Tier 1]]

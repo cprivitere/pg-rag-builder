@@ -1,0 +1,22 @@
+==October 27th #2, 2014==
+
+* Fixed more Halloween invasion issues
+* Fixed a bug that caused golems to stick around after their owner disconnects
+
+
+Also some unrelated bug fixes that happen to be in this update due to reasons:
+
+* You no longer learn [[Words of Power|Word of Power]] #2 automatically from lore; you learn Word of Power #1 automatically. The level 2 version is now discoverable on random loot scrolls.
+
+* Fixed issue with collecting ambient magic sponges in the sewers [[Carpal Tunnels|under the giant hand]]
+
+==October 27th, 2014==
+
+* Fixed some issues that caused the Halloween invasion boss to get out of sync with his minions.
+* Reduced the number of minions in the invasion down a bit, but buffed up the boss a good bit.
+* Changed the respawn point in [[Serbule]] to be away from the entrances, so that invading monsters won't camp respawners.
+* Fixed bug that caused all new shields to be displayed as "Legacy Items".
+
+Remember that (as the little info window says) ghosts are nigh-invulnerable until stunned! Once stunned, they go from yellow to white and become easy to kill. Unarmed skill gets a stun at level 3, and Shield skill gets a stun at level 1.
+
+[[Category:Game updates]]

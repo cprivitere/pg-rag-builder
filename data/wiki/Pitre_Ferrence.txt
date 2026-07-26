@@ -1,0 +1,147 @@
+__NOTOC__
+{{NPC infobox
+|title            = Pitre Ferrence
+|image            = [[File:Pitre_Ferrence_(npc).png.png|300px]]
+|caption          = Plucking lint off his shirt
+|zone             = Vidaria
+|location         = Outside the far-west gatehouse.
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|smalltalk = Yes
+|skilltrainer     = [[Animal Husbandry]]
+|vendor = Yes
+|stables = Yes
+}}
+{{Quote|source=[[Pitre Ferrence]]|
+Statehelm keeps me well stocked, and they only require 50% of the profits. Their generosity is truly remarkable.
+}}
+
+== Location ==
+; [[Vidaria]]
+: [[Pitre Ferrence]] can be found in the western half of Vidaria's farmlands, outside a gatehouse on the path to Statehelm.
+== Shopkeeper ==
+[[Pitre Ferrence]] sells items useful to cooks and farmers.
+{{Vendor items sold}}
+{{Vendor_purchase_info}} 
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Pitre Ferrence]] rewards his friends with ???
+
+{{Spoiler|Reward at {{Favor|Friends}}:|
+: {{Item|Brukwint}}
+}}
+
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Discuss Animal Husbandry with Pitre (4h) - requires {{Favor|Comfortable}}|
+{{Quote|source=[[Pitre Ferrence]]|
+There are many breeding methodologies, and some of the best breeders have more efficient methods than I do. But that's how I do things, and maybe it will help you out now that you know!}}
+: 50 favor with Pitre
+: 1000 [[Animal Husbandry]] XP
+: [[Cryogenic Pet Crate]]
+}}
+{{Spoiler|Discuss Arthropod Genetic with Pitre (4h) - requires {{Favor|Comfortable}}|
+{{Quote|source=[[Pitre Ferrence]]|
+So far as I can tell, there truly is no rhyme or reason to which genes affect which attributes. You may have two genes in a row which affect the bee's Toughness, then the very next affects its Virility. That's just how nature is sometimes.}}
+:  50 favor with Pitre
+: 10000 [[Arthropod Genetics]] XP
+: [[Stimulating Wax]] x5
+}}
+{{Spoiler|Discuss Ungulate Genetic with Pitre (4h) - requires {{Favor|Comfortable}}|
+{{Quote|source=[[Pitre Ferrence]]|
+The horse genome daunts even the most seasoned geneticists, and we are far from fully understanding it. My understanding is that some scholars predict it could be decades before the entire genome is decoded. But that should not stop you from participating in the global research - quite the opposite! You can have a very real impact on the discovery process. Isn't that exciting!}}
+: 50 favor with Pitre
+: 10000 [[Non-Ruminant Ungulate Genetics]] XP
+: [[Horse Aphrodisiac]] x5
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Pitre Ferrence
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Animal Husbandry]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Husbandry{{pipe}}Unlock Animal Husbandry Skill Levels 81-90
+ |skilllevel = 80
+ |cost=800,000
+ |favor=???
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Husbandry{{pipe}}Unlock Animal Husbandry Skill Levels 81-90
+ |skilllevel = 80
+ |cost=80 Vidaria Renown + 0
+ |favor=???
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Husbandry{{pipe}}Unlock Experimental Breeding
+ |skilllevel = 85
+ |cost=80 Vidaria Renown + 0
+ |favor=???
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Awesome First Aid Kit
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Incredible Armor Patch Kit
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[First Aid]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Awesome First Aid Kit (Combo Method)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+|}
+
+== Services ==
+==== Stable Master====
+[[Pitre Ferrence]] offers access to manage stable slots.
+
+By coordinating with a colleague in Statehelm, Pitre will offer animal breeding with double the usual mutation rate. Costs 2 Vidaria Renown per breeding, in addition to the usual costs.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Brukwintrat}}
+|RiShin Family = One of {{Item|Brukwintratcow}}, {{Item|Brukwintrat}}
+}}
+
+== Conversations == 
+
+[[Category:NPCs]]

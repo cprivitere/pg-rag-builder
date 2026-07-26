@@ -1,0 +1,9 @@
+== <b>Jun 30 Note</b> ==
+Thanks for the feedback! We've switched back to the previous data center for now. I need time to analyze the new setup to minimize lag. But first... patch tomorrow!
+
+It's not a coincidence that this patch aligns with the start of the full moon. It has some fixes to the new werewolf content, so it needs to be up tomorrow!
+
+If you're a werewolf and you have the Winter Wolf ability, when you log out today you might want to log out while in winter wolf form. (Even though right now Winter Wolf form is broken. It won't be after the patch.) That's because if you get force-transformed by the full moon, you'll always default to the standard form, but if you're in winter form already, you should stay in that form for the whole full moon. 
+
+The new content includes some Kur-related stuff like hunting orcs. If you're a werewolf that can't survive the weather in the Kur Mountains, you should try to fix that today! :)
+[[Category:Game updates]]

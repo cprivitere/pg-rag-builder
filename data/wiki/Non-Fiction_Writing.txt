@@ -1,0 +1,128 @@
+__NOTOC__
+{{Skill infobox
+|title            = Non-Fiction Writing
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Skill in writing non-fiction books, including textbooks.
+|skilltype        = Trade Skill
+|maxlevel         = 90
+|req              = [[Calligraphy]] 50
+|skilltrainers    = [[Hirochi the Booklord]], [[Wintria Irasce]]
+}}
+{{Quote|
+Leave a quote about the skill here. This can be the in-game description, but that info must be placed below as well.  Adds a bit of flavor to the article as well.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Non-Fiction Writing]] is a crafting skill dedicated to the production of informational books. Books produced through this skill are read using [[Autodidacticism]]. 
+
+When creating a book, the minimum level of the book is used as a basis for the requirements; your [[Non-Fiction Writing]] must be equal to or greater than the minimum level and you must have 25 levels OVER the minimum level of the skill you are creating a book for. 
+
+=== In-Game Description ===
+Skill in writing non-fiction books, including textbooks.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Hirochi the Booklord]] teaches [[Non-Fiction Writing]] to anyone who has 50 levels of [[Calligraphy]] and is willing to pay a fee.
+* [[Wintria Irasce]] unlocks Levels 61-70 and Levels 71-80.
+* Levels 81-90 may be unlocked by gaining favor with a mysterious entity deep beneath [[Povus]].
+== Connected Skills ==
+===== Sub-Skills: =====
+* None - [[Non-Fiction Writing]] is a Sub-Skill of [[Calligraphy]].
+===== Secondary Skills: =====
+* [[Autodidacticism]] - The ability to learn new skills on your own, just from reading a book.
+
+===== Related Skills: =====
+* [[Artistry]] - ...
+===== Synergy Levels: =====
+There are no Bonus [[Synergy Levels]] for [[Non-Fiction Writing]].
+
+== Recipe Lists ==
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Writing Books at a Non-Fiction Writing Table ===
+Books can be written using [[Non-Fiction Writing]] at a Non-Fiction Writing Table or Desk. 
+{{Quote|source=Non-Fiction Writing Desk|
+This is a desk for writing non-fiction textbooks. These textbooks can be studied by VIP players to gain experience via the Autodidacticism skill. (You need VIP access to use textbooks, but not to write them).
+; Write Book
+Book writing happens while your character is offline. (You will "hang out" with this writing table for two days of offline time).
+
+Each textbook is for a specifici skill and level range. To write the textbook, your Non-Fiction Writing skill must be at least as high as the book's minimum level, and your level in the book's topic skill must be 25 levels higher than the book's minimum level.
+
+(For instance, to write the textbook for Shield levels 1-10, you'd need Non-Fiction Writing level 1 and Shield level 26. To write the book for Shield 11-20, you'd need Non-Fiction Writing level 11 an Shield level 36. And so on).
+
+Here are all of the books you are capable of writing. Write which book?
+}}
+Once a book is selected from the list displayed on the table, additional details about crafting will be displayed.
+{{Quote|source=Non-Fiction Writing Desk|
+You chose:
+Write '''Book (Levels XX - XX).'''
+
+You will need ink and paper. To writethe book, you will undergo a two-day hangout with this writing table. Once the hangout is complete, the book will be done.
+
+Warning: if you change hangouts after starting this one, the book will not be written and the materials will not be refunded.
+
+Required materials:
+: - '''Ink x#''' (You have #)
+: - '''Parchment x#''' (You have #)
+}}
+If you are carrying the required materials, you will be given the option to start writing.
+{{Quote|source=Non-Fiction Writing Desk|
+You've begun the hangout, '''Write Book (Levels XX - XX)'''
+
+Your character will work on the book when offline. Remember that this is a hangout, so don't start a different hangout or your progress writing the book will be lost! (Along with the ink and paper!)
+}}
+=== Crafted Books ===
+When books are written, they have a chance to generate with a higher or lower '''Textbook XP Earned''', giving them a rarity. The rarity does not influence the value of each book, but changes the amount of favor received for gifting. A lower level book with an <span style="{{ItemColor|3}}">'''Exceptional'''</span> rarity can result in greater favor earned than a higher level book with a <span style="{{ItemColor|0}}">'''Common'''</span> rarity. However, adventurers seeking to quickly raise favor should craft the highest available Combat or Non-Combat Textbooks they have access to. 
+{| class="wikitable"
+!Example Book
+!Rarity
+!Textbook XP Earned:
+|-
+|<span class="extimage32px">{{Item icon|Sword Textbook (Levels 61-65)}}</span><span style="{{ItemColor|0|Light}}">'''Sword Textbook (Levels 61-65)'''</span>
+|<span style="{{ItemColor|0|Light}}">'''Common'''</span>
+|80%
+|-
+|<span class="extimage32px">{{Item icon|Sword Textbook (Levels 61-65)}}</span><span style="{{ItemColor|0|Light}}">'''Sword Textbook (Levels 61-65)'''</span>
+|<span style="{{ItemColor|0|Light}}">'''Common'''</span>
+|90%
+|-
+|<span class="extimage32px">{{Item icon|Sword Textbook (Levels 61-65)}}</span><span style="{{ItemColor|0|Light}}">'''Sword Textbook (Levels 61-65)'''</span>
+|<span style="{{ItemColor|0|Light}}">'''Common'''</span>
+|100%
+|-
+|<span class="extimage32px">{{Item icon|Sword Textbook (Levels 61-65)}}</span><span style="{{ItemColor|1|Light}}">'''Sword Textbook (Levels 61-65)'''</span>
+|<span style="{{ItemColor|1|Light}}">'''Uncommon'''</span>
+|105%
+|-
+|<span class="extimage32px">{{Item icon|Sword Textbook (Levels 61-65)}}</span><span style="{{ItemColor|2|Light}}">'''Sword Textbook (Levels 61-65)'''</span>
+|<span style="{{ItemColor|2|Light}}">'''Rare'''</span>
+|110%
+|-
+|<span class="extimage32px">{{Item icon|Sword Textbook (Levels 61-65)}}</span><span style="{{ItemColor|3|Light}}">'''Sword Textbook (Levels 61-65)'''</span>
+|<span style="{{ItemColor|3|Light}}">'''Exceptional'''</span>
+|115%
+|-
+|<span class="extimage32px">{{Item icon|Sword Textbook (Levels 61-65)}}</span><span style="{{ItemColor|4|Light}}">'''Sword Textbook (Levels 61-65)'''</span>
+|<span style="{{ItemColor|4|Light}}">'''Epic'''</span>
+|120%
+|-
+|<span class="extimage32px">{{Item icon|Sword Textbook (Levels 61-65)}}</span><span style="{{ItemColor|5|Light}}">'''Sword Textbook (Levels 61-65)'''</span>
+|<span style="{{ItemColor|5|Light}}">'''Legendary'''</span>
+|125%
+|}
+
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Non-Fiction Writing Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Non-Fiction Writing|
+{{:Xptables/TypicalNoncombatSkill}} 
+}}
+
+== Trivia ==
+* [[Non-Fiction Writing]] was added to Project: Gorgon in May 2021.
+
+== Gallery==
+<gallery mode="nolines" widths=200px>
+File:NonFictionWritingTable.png|A Nonfiction Writing Table in [[Rahu]].
+</gallery>
+
+[[Category:Skills]]

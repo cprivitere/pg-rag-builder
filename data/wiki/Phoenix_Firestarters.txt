@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Ensign Cricket aboard the Wintertide said, "Any invasion force would be dumb not to take out the phoenixes on the engine deck. We don't use them in day-to-day operations, but if we have to cold-start an engine, we use their superheated breath."
+
+This Quest can be repeated after 30 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ensign Cricket]]''' in '''[[The Wintertide]]'''. The quest is available at {{Favor|Friends}} favor. 
+
+===Preface===
+Any invasion force would be dumb not to take out the phoenixes on the engine deck. We don't use them in day-to-day operations, but if we have to cold-start an engine, we use their superheated breath.
+
+===Requirements===
+* Kill Phoenix Firestarters x8
+* Talk to Ensign Cricket
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|The phoenixes are gone? Well, that's an important part of the ship's backup system taken out!
+
+Nobody will notice at first. But in a few months when we need to restart an engine, people will be SO PISSED!}}
+* 100 {{Favor|favor}}
+* {{Item|Royal Jelly}}
+* {{Item|Phoenix Egg}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm? Quests]][[Category:Quests/Ensign Cricket]]

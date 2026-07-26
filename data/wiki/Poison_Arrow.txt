@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Poison Arrow
+| description = Fire a poison-tipped arrow at your target, causing Poison damage over time. You must have a Beginner's Reservoir Arrow (or better) in your inventory. Trained by Marna in Serbule.
+| level = 5
+| power cost = 16
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|PoisonArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 18 Poison initially and 5 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Poison Arrow 2
+| description = Fire a poison-tipped arrow at your target, causing Poison damage over time. You must have a Basic Reservoir Arrow (or better) in your inventory.
+| level = 15
+| power cost = 21
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|PoisonArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 32 Poison initially and 10 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Poison Arrow 3
+| description = Fire a poison-tipped arrow at your target, causing Poison damage over time. You must have an Advanced Reservoir Arrow (or better) in your inventory.
+| level = 25
+| power cost = 26
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|PoisonArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 50 Poison initially and 15 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Poison Arrow 4
+| description = Fire a poison-tipped arrow at your target, causing Poison damage over time. You must have an Expert's Reservoir Arrow (or better) in your inventory.
+| level = 35
+| power cost = 32
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|PoisonArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 75 Poison initially and 20 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Poison Arrow 5
+| description = Fire a poison-tipped arrow at your target, causing Poison damage over time. You must have a Masterwork Reservoir Arrow in your inventory.
+| level = 45
+| power cost = 36
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|PoisonArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 117 Poison initially and 25 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Poison Arrow 6
+| description = Fire a poison-tipped arrow at your target, causing Poison damage over time. You must have a Masterwork Reservoir Arrow (or better) in your inventory.
+| level = 55
+| power cost = 41
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|PoisonArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 170 Poison initially and 30 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Poison Arrow 7
+| description = Fire a poison-tipped arrow at your target, causing Poison damage over time. You must have an Amazing Reservoir Arrow (or better) in your inventory.
+| level = 65
+| power cost = 46
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|PoisonArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 223 Poison initially and 35 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Poison Arrow 8
+| description = Fire a poison-tipped arrow at your target, causing Poison damage over time. You must have an Astonishing Reservoir Arrow (or better) in your inventory.
+| level = 75
+| power cost = 51
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|PoisonArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 282 Poison initially and 40 Poison 6 times over 12 seconds
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

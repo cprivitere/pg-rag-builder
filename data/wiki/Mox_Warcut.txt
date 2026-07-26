@@ -1,0 +1,419 @@
+__NOTOC__
+{{NPC infobox
+|title            = Mox Warcut
+|image            = [[File:Mox Warcut.png|300px]]
+|caption          = A little dour, but not too grumpy.
+|zone             = Gazluk
+|town = New Prestonbule Cave
+|location = Near a fire pit.
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Yes
+|beastlist = ???
+|skilltrainer     = [[First Aid]], [[Battle Chemistry]], [[Toolcrafting]]
+|vendor           = Yes
+|barter = Yes
+}}
+{{Quote|
+Hello! Name's Mox. Mox Warcut. My lovely fiancee and I are here doing research on the local flora. Are you a big fan of caves?
+}}
+[[Mox Warcut]] is a dwarf from [[Aufghel]] on a mission to explore Gazluk and study its flora. His fiancee [[Bellema Deftwhisper]], and the mycologist [[Hemmit Magmagrip]], are working with him on the project for the [[New Aufghel Naturalist Society]]. Mox can raise the Skill Caps on First Aid, Mycology, and Battle Chemistry.
+
+When the dwarves fought the goblins, [[Mox Warcut]] served as a battle alchemist.
+== Location ==
+; [[Gazluk]]
+: Found inside [[New Prestonbule Cave]].
+== Shopkeeper ==
+[[Mox Warcut]] sells a variety of First Aid Kits and Armor Patch kits.
+{{Vendor items sold}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Compare explosion techniques (5h) {{favor|Comfortable}}|
+{{Quote|
+That's impressive, but you need to be able to sustain your offense better! Any jackass can throw a few bombs -- not as deadly as yours, but still pretty nasty. The trick is being able to throw dozens of bombs in a fight.
+
+Let me show you a trick I use to feed the alembic faster. Now this is a Mox Warcut special, so don't go sharing' it with anybody!
+}}
+: 50 favor with [[Mox Warcut]]
+: 15,000 Battle Chemistry XP
+}}
+{{Spoiler|Talk about Nadile, Mox's old girlfriend (2h) -  Complete "Catch up with Bellema after she talks with Mox" with [[Bellema Deftwhisper]] |
+{{Quote|
+You're not foolin' me, you know: I realize Bellema put you up to this. She's worried that she broke up 'true love' or something. But it's just like I told her went we got engaged: I loved Nadile, but we always knew it wasn't going to last. Nadile knew I would have to leave her before my 50th birthday because of my marriage contract. I waited until a month before the deadline. Then we said our goodbyes forever, and now I'm here with Bellema.
+
+Tell Bellema she's a daft girl for worrying about me. It's sweet. But I'm okay. Not everything in life is fair, but that doesn't mean I have to be distraught like an elf every time something bad happens.
+
+And besides, Bellema has a rack that'd put Nadile's to shame! Hahahaha!
+}}
+:20 favor
+:Unlocks Hang Out with [[Bellema Deftwhisper]] "Fill Bellema in on your talk with Mox"
+}}
+{{Spoiler| Show Mox how you use First Aid (4h) - Requires a [[Beast Forms|Beast Form]]|
+{{Quote|
+Hahaha! Amazing! You're a LOT more flexible than you look! But if you're gonna apply bandages with your mouth, you need to keep your mouth further away from the injury site. Mouths are full of diseasy stuff. Look: wrap it like this, then... right. Around the muzzle. See?
+
+Okay, now show me how you splint a broken bone!
+}}
+: 35 favor with [[Mox Warcut]]
+: 15000 [[First Aid]] XP
+}}
+== Quests ==
+<dpl>
+category = Quests/Mox Warcut
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[First Aid]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=First Aid{{pipe}}Unlock First Aid Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20000
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Astounding First Aid Kit (Combo Method)
+ |skilllevel=50
+ |cost=4368
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Set Broken Bone
+ |skilllevel=55
+ |cost=9054
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Treat Cold Exposure
+ |skilllevel=55
+ |cost=9054
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Resuscitate 2
+ |skilllevel=60
+ |cost=10674
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=First Aid 7
+ |skilllevel=60
+ |cost=10674
+ |favor=Close Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=First Aid{{pipe}}Unlock First Aid Skill Levels 61-70
+ |skilllevel = 60
+ |cost= 50000
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Soberize
+ |skilllevel=60
+ |cost=10647
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=First Aid 8
+ |skilllevel=70
+ |cost=17200
+ |favor=
+}}
+{{NPC training row
+ |ability=Field Surgery 3
+ |skilllevel=70
+ |cost=15652
+ |favor=
+}}
+{{NPC training row
+ |ability=Emergency Alcohol Treatment
+ |skilllevel=70
+ |cost=15652
+ |favor=Like Family
+}}
+|}
+
+{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Battle Chemistry]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Battle Chemistry{{pipe}}Unlock Battle Chemistry levels 51-60
+ |skilllevel = 50
+ |cost=19950
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Battle Chemistry{{pipe}}Unlock Battle Chemistry levels 60-70
+ |skilllevel = 60
+ |cost=91000
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Mycotoxin Formula 6
+ |skilllevel=52
+ |cost=8918
+ |favor= Comfortable
+}}
+{{NPC training row
+ |ability= Acid Bomb 6
+ |skilllevel=53
+ |cost=8963
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability= Healing Mist 6
+ |skilllevel=54
+ |cost=9875
+ |favor=
+}}
+{{NPC training row
+ |ability= Freezing Mist 6
+ |skilllevel=54
+ |cost=9009
+ |favor=
+}}
+{{NPC training row
+ |ability= Toxic Irritant 6
+ |skilllevel=55
+ |cost=9054
+ |favor=
+}}
+{{NPC training row
+ |ability= Mutation: Knee Spikes 6
+ |skilllevel=56
+ |cost=10465
+ |favor=
+}}
+{{NPC training row
+ |ability= Mutation: Extra Skin 6
+ |skilllevel=57
+ |cost=10510
+ |favor=
+}}
+{{NPC training row
+ |ability= Toxin Bomb 7
+ |skilllevel=60
+ |cost=10647
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability= Haste Concoction 4
+ |skilllevel=60
+ |cost=10647
+ |favor=
+}}
+{{NPC training row
+ |ability= Create Augmented Golem
+ |skilllevel=61
+ |cost=13422
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability= Mycotoxin Formula 7
+ |skilllevel=62
+ |cost=13468
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability= Healing Injection 7
+ |skilllevel=62
+ |cost=13468
+ |favor=
+}}
+{{NPC training row
+ |ability= Acid Bomb 7
+ |skilllevel=63
+ |cost=13513
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability= Freezing Mist 7
+ |skilllevel=63
+ |cost=13513
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability= Healing Mist 7
+ |skilllevel=64
+ |cost=13559
+ |favor=
+}}
+{{NPC training row
+ |ability= Toxic Irritant 7
+ |skilllevel=65
+ |cost=13604
+ |favor=
+}}
+{{NPC training row
+ |ability= Mutation: Stretchy Spine 4
+ |skilllevel=65
+ |cost=13604
+ |favor=
+}}
+{{NPC training row
+ |ability=Mutation: Knee Spikes 7
+ |skilllevel=66
+ |cost=15470
+ |favor=
+}}
+{{NPC training row
+ |ability= Mutation: Extra Skin 7
+ |skilllevel=68
+ |cost=15515
+ |favor= Best Friends
+}}
+{{NPC training row
+ |ability= Mutation: Extra Heart 7
+ |skilllevel=69
+ |cost=15561
+ |favor=
+}}
+{{NPC training row
+ |ability= Mutation: Extra Toes 4
+ |skilllevel=70
+ |cost=15606
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability= Toxin Bomb 8
+ |skilllevel=70
+ |cost=15652
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability= Healing Injection 8
+ |skilllevel=72
+ |cost=18018
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability= Create Superior Golem
+ |skilllevel=71
+ |cost=17972
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability= Mycotoxin Formula 8
+ |skilllevel=72
+ |cost=18018
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability= Acid Bomb 8
+ |skilllevel=73
+ |cost=18063
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability= Freezing Mist 8
+ |skilllevel=73
+ |cost=18063
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability= Healing Mist 8
+ |skilllevel=74
+ |cost=18109
+ |favor=Like Family
+}}
+|}
+
+{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Astounding First Aid Kit (Combo Method)
+ |skilllevel=50
+ |cost=4788
+ |favor=
+}}
+{{NPC training row
+ |recipe=Astounding First Aid Kit
+ |skilllevel=60
+ |cost=7780
+ |favor=
+}}
+|}
+
+== Services ==
+== Bartering ==
+At {{Favor|Friends}} after the completion of '''[[Cave Mummies]]''', Mox Warcut will barter with you. 
+
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Mummy Wrapping}} x4 || {{Item|Gigantic Coin Sack}}
+|-
+| rowspan="4" | {{Item|Mummy Wrapping}} x1 || {{Item|Big Coin Sack}}
+|-
+| {{Item|Amazing First Aid Kit}}
+|-
+| {{Item|Amazing Armor Patch Kit}}
+|-
+| {{Item|Curative: Mummy Diseases}} x4
+|-
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Amazing First Aid Kit}} x5
+|RiShin Family = {{Item|Amazing First Aid Kit}} x5, (Lv 70) gear, one of: {{Item|Snowblood Misery Trooper Helm}}, {{Item|Demonic Crossbow}}
+}}
+== Conversations ==
+{{Quote|
+Well, I'm no [[Arisetsu]]-loving priest or anything, but I'm quite the healer in my own way. The dwarven way. With medicine. I guess it's the elven way, too, actually... I don't know what the rakkies use... probably medicine? Yeah, let's assume that. I've never seen a Rakshasa who loved Arisetsu...
+; '''Who's Arisetsu?'''
+What? Come on, she's one of the most important gods! Were you dropped on your head or something?
+; ''' Actually, a crone stole my memories...'''
+Hah! That's a good one! Well, there's a book about Arisetsu in this cave somewhere. I found it among all the human junk that was left behind. It's rubbish though: just bard stories.
+
+Arisetsu is the goddess of hope and warmth, so she gets a lot of prayers around here -- it being so cold and all. She loves the god of death... it's complicated. And she hates the god of hopelessness, [[Talerra]]. That's all you need to know, really.
+; '''So you're a healer?'''
+A mycologist, primarily, but also a healer, yes. And I'm pretty good with an alchemy potion! I've had to use my chemistry skills to kill quite a few people... which is depressing, you know? So I try to give back with the healing. I'm sure you can take care of yourself in the field, you look pretty resourceful. But if you need healing supplies, I'll sell you what I have for cheap.
+; '''I'd like some information about the area.'''
+Well, I haven't explored much, except for a few of the closer caves. But before we left [[Aufghel]], I read up on what dwarves know of the place. I'm happy to share it, but it may be outdated.
+; '''Tell me about Gazluk City'''
+There was a war a few decades back. 'Sand War,' they called it, since it was in the desert that used to be the beautiful land of [[Ilmari]]. Anyways, orcs sided with the [[Crone Hegemony]], who sided with the [[Rakshasa]]... but then the crones switched sides suddenly, and the orcs got caught in the middle. Now they don't trust anybody. Most of them were wiped out in the war. Surviving companies retreated here and founded Gazluk City on an old orc fort.
+; ''' I'm guessing it's not a friendly place, this "Gazluk City?"'''
+No. Not even to fellow orcs, unless they're part of the local army. They used to welcome all orcs, as well as human traders, but [[Naurlok]] ruined that!
+; ''' Who's Naurlok?'''
+Naurlock's orcs, the [[Snowblood Orcs]], have lived in the mountains for generations and didn't take kindly to the new orcs. But instead of attacking Gazluk, which I guess would have been the "honorable" thing to do, Naurlok used Gazluk City's open-door policy to recruit hundreds of their younger and more gullible orcs away.
+
+Dwarven miner-spies say that Gazluk's subterranean tunnels are very impressive, but now they're only half-staffed, and the lower floors are unused. Their army is still very powerful, but morale isn't great.
+
+So yeah, that ruined Gazluk for everybody. Nobody can visit without [[General Hashk]]'s permission. A few trade caravans visit during the spring, but otherwise, they kill on sight.
+; ''' Tell me about the [[Snowblood Orcs]]'''
+The Snowbloods are an Orcish "distributed army." They have hundreds of troops all around Gazluk, as well as every mountain in the Kur range, and beyond. Very spread out! They're run by an orc named [[Naurlok]]. It's said that he can blow a special horn and orcs for a hundred miles will hear it, and that's how his army regroups. It's also said he's planning to take Gazluk City "soon."
+; ''' Is there a way to meet Naurlok?'''
+If there is, I don't know it. Naurlok lives in a fortress buried beneath the snow. That's all the dwarves of [[Aufghel]] know about him.
+; ''' Tell me about the yellow crystals of Gazluk '''
+They're called "Vol's Kiss." Well, that's the Dwarven translation of our name for 'em. But you know us dwarves: we love [[Vol]], almost as much as our own god [[Ormorek]], so all kinds of shit gets named after him. I'm sure the Council has a different name for them.
+; '''What do they do?'''
+They kill you. Slowly, sometimes, or quickly. Depends on the person. But they're full of magic! A magic that's hard to find elsewhere. With proper prep, they can make amazing armors and weapons. I'm not a crafter myself, so I don't know any details. But I do know that lead-lined storage boxes can protect you from the sickness. Really, any storage is better than keeping them in your pocket!
+; ''' So these crystals are valuable for crafting?'''
+Only to people who know what they're doing! Dwarves have our own sources of magic for armor, much safer than Vol's Kiss. But if you were to bring a lead-lined chest of the stuff to [[Aufghel]], I'm sure you'd find a rich buyer. Just don't try to sell it to yokels in the various human outposts. It'll kill 'em before they even know what's happening. This stuff makes iridium seem safe and harmless by comparison!
+}}
+
+[[Category:NPCs]]

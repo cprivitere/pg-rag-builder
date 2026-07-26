@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+George Madler asked you to get some red asters. He's going to use the flowers to create dye.
+
+===Prerequisites===
+To start this quest, talk to '''[[George Madler]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I've been experimenting with dyes, but I still haven't really got the hang of it. Ran out of raw materials, though! Could you help? I need some more of those red flowers that grow here. Red asters I think they're called.}}
+
+===Requirements===
+* Obtain {{Item|Red Aster}}s x6
+* Talk to George Madler
+
+===Rewards===
+{{Spoiler|Rewards for Flowers for Dye Practice|
+{{Quote|Thanks. Here's some coin for your trouble!}}
+
+* 100 {{Favor|favor}}
+* 500 councils 
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/George Madler]]

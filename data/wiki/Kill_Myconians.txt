@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Mushroom Jack in Serbule wants you to find and kill a dozen Myconians. He says he'll know when you've done it.
+
+===Prerequisites===
+To start this quest, talk to '''[[Mushroom Jack]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I don't know if you believe me or not about these Myconians. But I need you to believe! Go out there and find yourself some. And kill them! Kill a dozen! Then come back. I'll know you did the deed. The stink will be all over you. Go now. Do it.}}
+
+===Requirements===
+* Kill Myconians {{Hint|You have to talk to a Large Mushroom (NW section of map) and have 8 Myconian to enter the dungeon}}
+* Talk to Mushroom Jack
+
+===Rewards===
+{{Spoiler|Rewards for Kill [[Myconian]]s|
+{{Quote|Ha ha ha ha ha! You did it! I'm not crazy! I'm NOT crazy! But since I intuitively knew you did it, that means... I'm attuned to them. They're already inside my head. I am crazy. Damn! I...}}
+
+* 200 {{Favor|favor}}
+* 250 XP in [[Mycology]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Mushroom Jack]]

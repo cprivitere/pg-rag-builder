@@ -1,0 +1,13 @@
+__NOTOC__
+{{Ability infobox
+| name = Organ Displacement
+| description = Teleport the target's innards to another location far away. Requires an Aquamarine gem, which is usually consumed, but sometimes ends up inside the monster.
+| level = 25
+| power cost = 38
+| reuse time = 90
+| range = 30 meters
+| skill = Teleportation
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|EpicAttack}}
+| damage = 300 Trauma to health
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

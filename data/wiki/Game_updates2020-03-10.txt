@@ -1,0 +1,10 @@
+==Hotfix Notes: March 10, 2020==
+A few fixes to yesterday's update:
+*Fixed bug that caused Fae Energy to reset to 0 whenever you leveled up in any skill
+*Fixed problems with You Are Dead window not disappearing when you teleported during death
+*Fixed problems with certain delayed effects not dispelling
+*Raina sells shovels
+*Increased respawn rate of newbie monsters in the fae realm
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

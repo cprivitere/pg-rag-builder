@@ -1,0 +1,5 @@
+==Update: Aug 14, 2024==
+- Fixed issues with some entities in Serbule Hills.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

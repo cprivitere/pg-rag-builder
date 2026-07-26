@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> This next one's embarrassing. For Kajich, I mean! He's the god of fear, but half his monsters are funny, not scary! Kajich saw Tuvillus's heart-shaped jealousy pumps, and tried to one-up his brother with lung-shaped fear pumps. Can you go put these stupid things down before word gets out about how silly they look?
+
+But do be careful: they may not look scary, but you should be scared anyway. You'll need friends.
+
+The first pair of giant lungs are in Eltibule, deep underground. I see chambers full of magical darkness, and beneath that darkness is a cave.
+
+The lungs are in that cave. They're hidden behind an illusory rock, but you should be able to hear the breathing when you get close.
+
+This Quest can be repeated after 60 days.
+===Preface===
+<i>Zhia Lian:</i> This next one's embarrassing. For Kajich, I mean! He's the god of fear, but half his monsters are funny, not scary! Kajich saw Tuvillus's heart-shaped jealousy pumps, and tried to one-up his brother with lung-shaped fear pumps. Can you go put these stupid things down before word gets out about how silly they look?
+
+But do be careful: they may not look scary, but you should be scared anyway. You'll need friends.
+
+The first pair of giant lungs are in Eltibule, deep underground. I see chambers full of magical darkness, and beneath that darkness is a cave.
+
+The lungs are in that cave. They're hidden behind an illusory rock, but you should be able to hear the breathing when you get close.
+
+===Requirements===
+* Kill the First Evil Lungs.
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Thanks. Kajich's a huge ass, and but he tries hard to foster fear. I don't want his reputation ruined by a stupid mistake. Let's go kill the next one!}}
+* 2000 councils
+* {{Item|Level 40 Event Loot Key}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

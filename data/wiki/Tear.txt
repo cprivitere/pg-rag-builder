@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Tear
+| description = Tear into an enemy with your talon.
+| level = 2
+| power cost = 11
+| reuse time = 8
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|Tear}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 14 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Tear 2
+| description = Tear into an enemy with your talon.
+| level = 15
+| power cost = 15
+| reuse time = 8
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|Tear}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 34 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Tear 3
+| description = Tear into an enemy with your talon.
+| level = 25
+| power cost = 18
+| reuse time = 8
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|Tear}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 54 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Tear 4
+| description = Tear into an enemy with your talon.
+| level = 35
+| power cost = 22
+| reuse time = 8
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|Tear}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 78 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Tear 5
+| description = Tear into an enemy with your talon.
+| level = 45
+| power cost = 25
+| reuse time = 8
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|Tear}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 119 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Tear 6
+| description = Tear into an enemy with your talon.
+| level = 55
+| power cost = 29
+| reuse time = 8
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|Tear}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 171 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Tear 7
+| description = Tear into an enemy with your talon.
+| level = 65
+| power cost = 32
+| reuse time = 8
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|Tear}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 224 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Tear 8
+| description = Tear into an enemy with your talon.
+| level = 75
+| power cost = 35
+| reuse time = 8
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|Tear}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 283 Slashing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+In Vidaria, you stumbled upon an Undead creature that's been dead for so long, it doesn't even remember its own name. Perhaps you can find some items to jog its memory.
+
+==Prerequisites==
+To start this quest, talk to [[The Floriculturist]] in [[Vidaria]]. The quest is available at {{Favor|Neutral}} favor.
+
+==Preface==
+{{Quote|<This section not yet filled>}}
+
+==Requirements==
+*Find and identify an {{Item|Ancient Vase}} {{Hint|Animals in Vidaria}} {{Hint|Zhao can identify it, after that Rohina}}
+*Find and identify an {{Item|Ancient Painting}} {{Hint|Orcs in Vidaria}} {{Hint|Crelpin can identify it}}
+*Find and identify an {{Item|Ancient Crest}} {{Hint|Interactable shed by a farm plot SE of Korbok}} {{Hint|Pulsing Crystal in Serbule Crypt}}
+
+==Rewards==
+{{Spoiler|Rewards for Undead Memories|
+{{Quote|<Opens up the menu for the Floriculturist>}}
+
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Marna]]

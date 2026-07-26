@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Swordsman
+| description = Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 7
+| power cost = 50
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonSwordsman}}{{KWAB|SummonSkeletonSwordsmanOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Swordsman 2
+| description = Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 22
+| power cost = 75
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonSwordsman}}{{KWAB|SummonSkeletonSwordsmanOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Swordsman 3
+| description = Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 38
+| power cost = 100
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonSwordsman}}{{KWAB|SummonSkeletonSwordsmanOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Swordsman 4
+| description = Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 49
+| power cost = 125
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonSwordsman}}{{KWAB|SummonSkeletonSwordsmanOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Swordsman 5
+| description = Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 58
+| power cost = 125
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonSwordsman}}{{KWAB|SummonSkeletonSwordsmanOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Swordsman 6
+| description = Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 70
+| power cost = 125
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonSwordsman}}{{KWAB|SummonSkeletonSwordsmanOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Swordsman 7
+| description = Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 81
+| power cost = 125
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonSwordsman}}{{KWAB|SummonSkeletonSwordsmanOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,43 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Terror Dash
+| description = Increase your run speed dramatically for 5 seconds.
+| level = 13
+| power cost = 10
+| reuse time = 60
+| range = 4 meters
+| skill = Pig
+| keywords = {{KWAB|TerrorDash}}{{KWAB|Pig}}
+| special = You gain 9 sprint speed for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Terror Dash 2
+| description = Increase your run speed dramatically for 10 seconds.
+| level = 37
+| power cost = 16
+| reuse time = 60
+| range = 4 meters
+| skill = Pig
+| keywords = {{KWAB|TerrorDash}}{{KWAB|Pig}}
+| special = You gain 9 sprint speed for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Terror Dash 3
+| description = Increase your run speed dramatically for 10 seconds.
+| level = 64
+| power cost = 21
+| reuse time = 60
+| range = 4 meters
+| skill = Pig
+| keywords = {{KWAB|TerrorDash}}{{KWAB|Pig}}
+| special = You gain 12 sprint speed for 10 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

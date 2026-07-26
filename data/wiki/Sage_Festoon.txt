@@ -1,0 +1,64 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sage Festoon
+|image            = [[File:Sage Festoon (npc).png|300px]]
+|caption          = Snide
+|zone             = Statehelm
+|town = Statehelm
+|location         = Vicious Bat
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|storage = Yes
+}}
+{{Quote|source=[[Sage Festoon]]|Nice to meet you! Name's Sage. Sage Festoon. I'm not the talking type, more the drinking type. But again, nice to meet you.}}
+[[Sage Festoon]] appears to be a human who lives in the city of [[Statehelm]]. He can be found at the Vicious Bat during the day. Around 6pm, [[Sage Festoon]] leaves the shop to return home.
+== Location ==
+; [[Statehelm]]
+: [[Sage Festoon]] may be found wandering the city of Statehelm during the day.
+== Favor ==
+=== Small Talk ===
+[[Sage Festoon]] uses the favor system, but does not offer any favor or conversation options to individuals with '''{{favor|Neutral}}''' favor.
+
+[[Sage Festoon]] gains favor from completing [[Sagiso]]'s daily graffiti quest.
+
+[[Sage Festoon]] has the same favor as [[Sagiso]], so gifting [[Sagiso]] [[Mentalism]] skill books will increase his favor.
+== Quests ==
+[[Sage Festoon]] does not offer any quests.
+<!--
+[[Sage Festoon]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Sage Festoon
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+-->
+
+[http://wiki.projectgorgon.com/w/index.php?title=Statehelm_Graffiti Statehelm Graffiti]
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Sage Festoon
+|favorrestriction = Comfortable
+|itemrestriction =Anything
+|neutral = 0
+|comfortable = 12
+|friends = 24
+|closefriends = 36
+|bestfriends = 48
+|likefamily = 60
+|soulmates = 72
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+
+[[Category:NPCs]]

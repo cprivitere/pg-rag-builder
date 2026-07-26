@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Sammie Grimspine in Serbule Hills said, "Some of my calligraphy projects require unusual paper. Right now I've been experimenting with paper made out of watercress! Do you happen to have any? And don't worry about freshness: I'm going to pound it into a paste anyway."
+
+===Prerequisites===
+To start this quest, talk to '''[[Sammie Grimspine]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Some of my calligraphy projects require unusual paper. Right now I've been experimenting with paper made out of watercress! Do you happen to have any? And don't worry about freshness: I'm going to pound it into a paste anyway.}}
+
+===Requirements===
+* Obtain {{Item|Watercress}} x4
+* Talk to Sammie Grimspine
+
+===Rewards===
+{{Spoiler|Rewards for Cress Paper|
+{{Quote|Thanks! These should make a few pieces of cress paper. It gives a nice old-timey feel to my calligraphy.
+
+Oh, here. This is the runt of my sword collection, and nothing too special, but I thought you might find it useful.}}
+
+* 150 {{Favor|favor}}
+* {{Item|Sturdy Sword}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Sammie Grimspine]]

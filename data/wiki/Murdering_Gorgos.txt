@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Fazzi in the Winter Nexus asked you to kill an Ogre named Gorgos.
+
+===Prerequisites===
+To start this quest, talk to '''[[Fazzi]]''' in '''[[Winter Nexus]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Ogres are all dumb as hell and mean to boot, but Gorgos is the biggest and dumbest one around here. He chased us back here! If he were to die suddenly... that'd be really convenient.}}
+
+===Requirements===
+* Kill [[Gorgos]]
+* Talk to Fazzi
+
+===Rewards===
+{{Spoiler|Rewards for Murdering Gorgos|
+{{Quote|He's dead? Great! Now we can begin planning phase 2. Real soon. Here's mortal money for your task. What do you mortals call it? "Blood money?"}}
+
+* 75 {{Favor|favor}}
+* 10000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Fazzi]]

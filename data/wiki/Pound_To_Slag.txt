@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Pound To Slag
+| description = Hit an enemy with a club or hammer. Really, really hard.
+| level = 15
+| power cost = 53
+| reuse time = 45
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|PoundToSlag}}{{KWAB|Melee}}{{KWAB|EpicAttack}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 105 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pound To Slag 2
+| description = Hit an enemy with a club or hammer. Really, really hard.
+| level = 33
+| power cost = 86
+| reuse time = 45
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|PoundToSlag}}{{KWAB|Melee}}{{KWAB|EpicAttack}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 238 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pound To Slag 3
+| description = Hit an enemy with a club or hammer. Really, really hard.
+| level = 45
+| power cost = 102
+| reuse time = 45
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|PoundToSlag}}{{KWAB|Melee}}{{KWAB|EpicAttack}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 391 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pound To Slag 4
+| description = Hit an enemy with a club or hammer. Really, really hard.
+| level = 55
+| power cost = 115
+| reuse time = 45
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|PoundToSlag}}{{KWAB|Melee}}{{KWAB|EpicAttack}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 561 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pound To Slag 5
+| description = Hit an enemy with a club or hammer. Really, really hard.
+| level = 65
+| power cost = 128
+| reuse time = 45
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|PoundToSlag}}{{KWAB|Melee}}{{KWAB|EpicAttack}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 726 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pound To Slag 6
+| description = Hit an enemy with a club or hammer. Really, really hard.
+| level = 75
+| power cost = 142
+| reuse time = 45
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|PoundToSlag}}{{KWAB|Melee}}{{KWAB|EpicAttack}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 916 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

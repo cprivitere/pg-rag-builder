@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Lincha in Povus said, "I used to have a great little meditation stool which I used while working in my garden. The orcs stole it, of course. I would pay well for a replacement... but only if I know the crafter. I don't want to accidentally support slave labor!"
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lincha]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+I used to have a great little meditation stool which I used while working in my garden. The orcs stole it, of course. I would pay well for a replacement... but only if I know the crafter. I don't want to accidentally support slave labor!
+
+===Midway===
+I wish I had a great meditation stool...
+
+===Requirements===
+* Craft Great Meditation Stool
+* (Keep Great Meditation Stool)
+* Talk to Lincha
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you for making it to my specifications, this is great!}}
+* {{Item|Xogrite Chunk}} x11
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Lincha]]

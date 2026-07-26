@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Sir Arif wants you to kill Ursula and bring her creepy stuffed bear as proof.
+
+===Prerequisites===
+To start this quest, talk to '''[[Sir Arif]]''' in '''[[Khyrulek's Crypt]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Lady Rasheen was a fellow engineer with a whole lot more experience fixing portals. I wish she was here now, but she was killed by her own curiosity. She opened the tomb nearby and a skeleton climbed into her mind. Said the only way to cure it was to kill the skeleton, but we weren't strong enough. She died blubbering in the corner about how children were throwing fire at her. Very sad.
+
+Anyway! Can you go kill that thing? She has a plush toy - bring it to me as evidence.}}
+
+===Requirements===
+* Obtain Ursula's {{Item|Plush Bear}}
+* Talk to Sir Arif
+
+===Rewards===
+{{Spoiler|Rewards for Ursula's Creepy Bear|
+{{Quote|That's it! I guess that's the last we'll see of her! Hah, who am I kidding, this is an emotion resonance chamber down here, the undead are just rising back up out of the ground continuously. Unless we can get a squad of Placid Seers down here to wipe everything out, I give her a month, two tops before she's right back at it. So you pretty much wasted your time. But I appreciate the effort! Here's something for your trouble.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Council Certificate}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Khyrulek's Crypt Quests]][[Category:Quests/Sir Arif]]

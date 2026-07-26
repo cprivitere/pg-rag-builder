@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Loche said, "Hi there! The casino has some great drinks, but I am dying for a mushroom smoothie! Could you bring me 10 [[Boletus Mushroom Smoothie]]s? No! I'm not going to drink them all at once. What do you take me for... a dwarf?"
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Loche]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Mycology]] level 10. This quest is only available during a Crafting Caravan event.
+
+===Preface===
+Hi there! The casino has some great drinks, but I am dying for a mushroom smoothie! Could you bring me 10 [[Boletus Mushroom Smoothie]]s? No! I'm not going to drink them all at once. What do you take me for... a dwarf?
+
+===Requirements===
+* Make 10 Boletus Mushroom Smoothies
+* Obtain 10 Boletus Mushroom Smoothies
+* Talk to Loche
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you! So delicious!
+
+<i>[You earn 5 favor with Orran the Caravan Leader]</i>
+
+<i>[You earn 1600 Mycology XP]</i>
+
+<i>[This task is repeatable every 12 hours.]</i>}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Loche]][[Category:Quests/Crafting Caravan]]

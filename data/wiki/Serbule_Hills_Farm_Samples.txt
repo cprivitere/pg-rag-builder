@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Baroness Marith Felgard in Serbule Hills said, "I know that most of the farms in Serbule Hills have been abandoned, but I still need to soil samples from each one. It's part of my scientific duties, you understand. Here. Put a bit of soil from each farm in here and bring it back. Simple as cake! And I shall award you 700 Councils."
+
+===Prerequisites===
+To start this quest, talk to '''[[Marith Felgard]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I know that most of the farms in Serbule Hills have been abandoned, but I still need to soil samples from each one. It's part of my scientific duties, you understand. Here. Put a bit of soil from each farm in here and bring it back. Simple as cake! And I shall award you 700 Councils.}}
+
+===Requirements===
+* Get Soil from Brianna Willer's Farm
+* Get Soil from Julius Patton's Farm
+* Get Soil from Abandoned North Farm
+* Get Soil from Farm in Ranalon Territory
+* Get Soil from Farm in Goblin Territory
+* Talk to Marith Felgard
+
+To get the soil samples from the farms, use the '''[[Soil Sample Container]]''' while standing in the farming areas. '''[[Marith Felgard]]''' gives you that item when starting this quest.
+
+===Rewards===
+{{Spoiler|Rewards for Serbule Hills Farm Samples|
+{{Quote|Very good. These soil samples will tell me how viable each farm is for future crops. I'm thinking about the future, you see! Here is your payment.}}
+
+* 200 {{Favor|favor}}
+* 700 councils 
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Marith Felgard]]

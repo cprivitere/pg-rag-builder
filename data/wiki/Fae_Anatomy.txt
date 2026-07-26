@@ -1,0 +1,84 @@
+__NOTOC__
+{{Ambox
+| info = For the Fairy Magic subskill of Mentalism see '''[[Fairy Magic]]'''.<br>For the racial skill utilizing Crystal Ice and Fairy Dust see '''[[Fae (Race Skill)]]'''.
+| border = yellow
+}}
+{{Skill infobox
+|title            = Fae Anatomy
+|image            = [[File:Empty_Placeholder.png]] 
+|caption          = Knowledge of the physiology of faeries and fae creatures, including some animals that look mundane but aren't, such as the fae panther.
+|skilltype        = Anatomy Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy<!-- Any other skills needed to gain this skill -->
+|skilltrainers    = None
+}}
+{{Quote|source=Source|
+Needs quote.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Fae Anatomy]] is a sub-skill of [[Anatomy]] that explores the physiology of faeries and other fae creatures.
+=== In-Game Description ===
+Knowledge of the physiology of faeries and fae creatures, including some animals that look mundane but aren't, such as the fae panther.
+==Known Creatures==
+===Friends===
+<dpl>
+ category = Fae&NPCs
+ columns =2
+</dpl>
+
+===Bosses===
+<dpl>
+ category = Fae&Bosses
+ notcategory = NPCs
+ columns =2
+</dpl>
+
+===Foes===
+<!-- the DPL lists creatures which already have a page and are categorized. -->
+<dpl>
+ category    = Fae
+ notcategory = Bosses
+ notcategory = NPCs
+ columns =2
+</dpl>
+<!-- here we can manually add any creatures to keep track of missing/todo pages -->
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Maximum Level to Earn XP by Foe ===
+If the player exceeds this Level of {{msg:BASEPAGENAME}}, the foe in question will stop rewarding XP in {{msg:BASEPAGENAME}}.  This list is a work in progress.
+* [[Fey Panther]] ([[Eltibule]]): 28
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+
+== Lore ==
+:- Fae/Fairies are immortal beings from another realm of existence.  Fae society is separated into four factions, the Spring Court, Summer Court, Winter Court, and Autumn Court. Every 20,000 years, a different Court takes control of the Fae Realm.
+:- When Fae are killed, they respawn in the Fae Realm.
+:- Fairies can be burned by cold iron. <ref>Mentioned by [[Tadion]] in Small Talk</ref>
+:- Books can be enchanted to write themselves in the Fae Realm <ref>Mentioned by [[Preta]]</ref>
+:- Carrying around Fairy Wings is considered Taboo by most Fae, although some members of the Spring Court treat this ideology as a joke. <ref> Talk from [[Corey The Croaker]]</ref>
+:- According to a [[Winter Court]] [[Spy Portal]], There are 4,195,103 Summer and Autumn Fae on the run, across a total of 207 monitored worlds.
+:- Fairy foods contain emotional tones. For example, Apple Juice tastes like resignation and patience. <ref> Completing quest with [[Hiral]]. </ref>
+{{Quote|source=Fae Claw|
+Made of Cold Iron, this weapon is used in fae civil wars. Fairies who wield it are in constant pain from the metal... but not as much pain as their victims.
+}}
+===Summer Court===
+:The [[Summer Court]] ruled the Fae Realm during the last era.  Currently, Summer and Autumn Fae are being hunted and tortured by the [[Winter Queen]].
+===Autumn Court===
+
+===Winter Court===
+:The [[Winter Court]] has controlled the Fae Realm for two years now.  Their control will last for another 19,998 years.  Their leader, the [[Winter Queen]] has declared that all Summer and Autumn fae are to be captured and tortured for the rest of her rule.<ref> Talk from [[Fazzi]]</ref>
+:The [[Winter Queen]] is keeping the [[Spring King]] captured in her castle.<ref> Small talk with [[Corey The Croaker]]</ref>
+:It is said that the Winter Queen always does something insane when she begins her rule every 80,000 years. <ref> Small Talk with [[Fazzi]]</ref>
+:The Winter Queen believes that thousands of years of torture will turn all Fae into Winter Fae.<ref> Talk with [[Hiral]]</ref>
+===Spring Court===
+:The [[Spring Court]] is often looked down upon by the [[Summer Court]] and most Fae belonging to it are thought to be insane or evil<ref> Small Talk from [[Fazzi]]</ref>.<ref> Intro talk with [[Corey The Croaker]]</ref>
+:The [[Spring King]] is known to have a masochistic streak, and is currently captured by the [[Winter Queen]]. <ref> Small talk with [[Corey The Croaker]]</ref>
+{{Quote|source=[[Corey The Croaker]]|icon=book|
+There's no such thing as evil, dipshit, it's just name calling by the other courts. Spring Fae are all about sex and danger and doing whatever the hell we want! The Summer and Autumn Courts lump us with those fuckers in the Winter Court because we aren't insanely predictable like they are.
+}}
+
+[[Category:Skills]][[Category:Anatomy Skills]]

@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Leah Bowman in Povus said, "Mom always told me to forgive and forget my father. But I don't think she ever really did. And I sure as hell haven't! It gnaws at me, even now.
+
+I guess it's my orcish side, but I just think I'd be so much happier if he were dead!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Leah Bowman]]''' in '''[[Povus]]'''. The quest is available at {{Favor|Friends}} favor. 
+
+===Preface===
+Mom always told me to forgive and forget my father. But I don't think she ever really did. And I sure as hell haven't! It gnaws at me, even now.
+
+I guess it's my orcish side, but I just think I'd be so much happier if he were dead!
+
+===Requirements===
+* Kill Warmaster Brukal
+* Talk to Leah Bowman
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|He's dead? For real? You killed him for me? I... I don't know what to say. Here.
+
+<i>[Leah turns away to hide a tear.]</i>}}
+* 100 {{Favor|favor}}
+* {{Item|Xogrite Chunk}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Leah Bowman]]

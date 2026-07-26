@@ -1,0 +1,112 @@
+__NOTOC__
+{{Skill infobox
+|title            = Giant Bat
+|image            = [[File:Giant_Bat.png|300px]]
+|caption          = Spooky, but vaguely adorable.
+|skilltype        = Beast Form <!-- Combat Skill, Beast Form, Anatomy Skill, Trade Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Other Skill (For skills that don't fit the other categories) -->
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              = <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Yavazek]], [[Noita the Green]] <!-- List skill trainers, 3 max -->
+|gem = {{Item|Bat Malachite}}, {{Item|Malachite}}
+}}
+{{Quote|
+Skill in living and fighting as a bat.
+}}
+==Overview==
+The Giant Bat is a [[Beast Forms|Beast Form]] with the unique ability to fly while effectively fighting enemies, limited only by the flight's power usage.
+
+Bats have a variety of abilities, which range from knock-back, recovery, damage, and a concussion, making it potentially compatible with any skill-set a bat can use.
+
+You can cure Giant Bat form by buying an Un-Bat Juice from [[Harry the Wolf]] for 4500 councils. You can cure Fevered Trismus by using Treat Disease 1, a level 15 [[First Aid]] ability, which requires a basic first aid kit or better to use.
+=== Training ===
+* Levels 51-60 along with 61-70 can be unlocked by talking to [[Yavazek]].
+* [[Noita the Green]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Big Footed Jim]] deep beneath [[Povus]].
+* Levels 81-90 and 91-100 are unlocked by [[Duke of Flapbule]] in [[Statehelm]] 
+
+=== In-Game Description ===
+Skill in living and fighting as a bat.
+=== How to Obtain ===
+Another bat player (who must be at least level 8) can repeatedly use Virulent Bite on you for a chance to give the Fevered Trismus disease which will change you into a bat after two hours of logged-in real time. During the Halloween event, one may also be bitten by an enemy bat's rage attack for Fevered Trismus. Finally, enemy bats on the lower levels of the [[Labyrinth]] or [[Gazluk Keep]] dungeons can inflict Fevered Trismus on players.
+
+==== Happy-Go-Lucky Bat Event ====
+Starting in July 20, 2023, the [[Happy-Go-Lucky Bat]] (normally available only during Halloween) was temporarily located right outside of the north gate of [[Serbule]], by the bridge. He will transform players into a Giant Bat (and back) for free, along with offering training for Giant Bat skills.
+
+Ever since then, the Happy-Go-Lucky Bat occasionally appears outside Serbule for a week at a time throughout the year. 
+
+This can be used by any character, including newly made ones that just freshly arrived from [[Anagoge Island]]
+
+=== Vampirism ===
+
+[[Vampirism|Vampires]] may complete a quest unlocking the ability to transform into a giant bat and back again at will, similar to how [[Druid|Druids]] can transform into deer and back again.
+
+=== Synergy Levels: ===
+Bonus [[Synergy Levels]] for [[Giant Bat]] can be obtained from the following skills and levels:
+:; [[Animal Handling]]
+:: Level 46
+:; [[Bard]]
+:: Level 40
+:; [[Nature Appreciation]]
+:: Level 24
+:; [[Necromancy]]
+:: Level 27, and Level 45, and Level 55
+:; [[Survival Instincts]]
+:: Level 5
+:; [[Vampirism]]
+:: Level 25, 75, 100
+:; [[Warden]]
+:: Level 40, 80
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== Mechanics ==
+=== NPC Communication ===
+Like with other "creepy" [[Beast Forms|Beast Forms]] such as the [[Lycanthropy|Wolf]] and [[Spider|Spider]], even fewer NPCs will talk to you than to most animals. Additionally, some animals that normally talk to others animals will not talk to the Giant Bat (for example, [[Red]]). Before changing into a bat, it is recommended that you be an experienced player. (Unless you're up for a challenge!)
+
+'''Note''': If you were a [[Druid]] before becoming a Giant Bat and sufficiently high level (25 or higher) to transform into a deer (or bird), you can use that to interact with the NPCs who will talk to animals, but not bats.
+
+=== Flight ===
+Immediately after transforming, a bat is able to fly. Flight is faster than sprinting which makes travel easier, however flying drains power.
+
+Default flight controls: R, Page Up, and Number Pad 9 to fly; F, Page Down, and Number Pad 3 to land.
+
+=== Echolocation ===
+Bats get Echolocation, which sometimes makes seeing at night much easier. They also get Combat Echolocation which comes with a 7% evasion bonus at the cost of 1 movement speed.
+
+{| {{STDT|sortable}} style='width:100%;'
+! Icon !! Level !! Name !! Description !! Special !! style="width: 11%; text-align: center;" | Damage !! style="width: 11%; text-align: center;" | Stats !! Gear Required
+|-
+| {{Ability icon|Combat Echolocation|2}} || 0 || Combat Echolocation || Use your horrible squeaks and giant ears to interpret your environment and evade enemies, but at slight cost to your movement speed. || You evade 7% of all attacks. Your movement speed is -1.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost: </b>50<br><b>Range: </b>5<br><b>Cooldown: </b>10 || <b>Item:</b> Bat: Combat Echolocation
+|-
+| {{Ability icon|Echolocation|2}} || 0 || Echolocation || Use your horrible squeaks and giant ears to interpret your environment. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost: </b>50<br><b>Range: </b>5<br><b>Cooldown: </b>10 || Leveling
+|}
+===Equipment ===
+Crafters producing equipment for use by [[Giant Bat]]s should obtain the [[Sigil Scripting]] recipe '''Bat Inscription,''' which allows for the creation of {{Item|Bat Malachite}}. 
+
+This attuned gemstone can be used in any recipe which calls for the use of [[:Category:Items/Crystal|Crystals]] to create equipment with [[Giant Bat]] Treasure Effects.
+===== Witch Hats =====
+[[Giant Bat]] characters can equip Witch Hats crafted through [[Tailoring]]. To begin crafting hats, the [[Halloween]] quest [[Halloween Event: A Hat Fit for a Bat]] must be completed, unlocking the recipe for {{Item|Decent Bat Witch Hat}}. 
+
+Higher level hats are learned through recipe scrolls also obtainable during [[Halloween]], however you must unlock the Decent hat recipe first.
+*{{Item|Decent Bat Witch Hat}}
+*{{Item|Nice Bat Witch Hat}}
+*{{Item|Quality Bat Witch Hat}}
+*{{Item|Great Bat Witch Hat}}
+*{{Item|Amazing Bat Witch Hat}}
+*{{Item|Astounding Bat Witch Hat}}
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Giant Bat Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Giant Bat|
+{{:Xptables/TypicalCombatSkill}}
+}}
+
+== Trivia ==
+When using Virulent Bite to infect other players, you can see a red particle effect on the infected player. If you are trying but repeatedly failing to infect another player, it may be because their armor is too strong for you to land a hit. In that case, ask them to unequip their armor and then try again.
+
+[[Category:Skills]]

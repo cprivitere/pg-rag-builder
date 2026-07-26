@@ -1,0 +1,46 @@
+__NOTOC__
+==Patch Notes: October 16==
+Halloween is here! Zhia Lian, the demanding god of Whimsy, has new higher-level tasks for you to take on. The Halloween event now has over 90 quests! So get out there and see what whimsical random things she wants <i>now</i>! Just remember the first rule of the Cult of Zhia Lian ...
+
+In addition to new quests and rewards for Halloween, this update also includes a bunch of fixes and improvements.
+
+===UI===
+: - Added auto-repeat back into crafting, for use primarily with recipes that don't always consume their ingredients.
+: - Skills and sub-skills are now properly listed in alphabetical order in the abilities window.
+: - Fixed a bug that prevented area-specific loading-screen tips from showing when you logged into the game. (They could only be seen when you teleported to other areas.)
+: - The search bar is now cleared when opening the recipe window from the "More Info" context menu.
+: - Changed "Virility" to "Fertility" for female pets during direct pet inspection.
+
+===Animations===
+: - Players can move their characters a small amount even when they are performing "locked" combat animations. In other words, players can slide around while their feet are doing other things. This is an experiment in our ongoing animation work, as we continue to try to balance graphics quality with gameplay benefits.
+: - Players sit better on chairs.
+: - Birds sit properly on bird perches.
+: - [[Deer]] have a jump animation.
+: - Animal forms now display Bulwark Shield correctly.
+: - Skeleton archer animations play correctly.
+: - Smoothed out movement/rotation of equipment during animations.
+: - Many, many animations have been polished, including: [[Archery]] (and crossbows) animations; dance animations for Butterfly, Deer, & Owl; Psychology animations; animations for playing harp & fairy chimes; and others. 
+
+===Other Stuff===
+: - We've reverted earlier [[Povus]] change that allowed monsters to auto-despawn even if players were near them. This was intended to be beneficial to players, but proved detrimental, because it could despawn corpses that you wanted to loot. For now, Povus event monsters no longer auto-despawn if any player is within 20 meters of them. (We'll revisit this idea soon, as we continue to evolve the Povus nightly event system.)
+: - Fixed genetic equipment breakage rate, from 50% to 5%.
+: - Gestation time is now properly modified by the special-event that's supposed to cut it in half. (For the next time we run that special event.)
+: - Ghostly creatures that spawn during Povus invasions now correctly have the anatomy type Incorporeal.
+: - [[Glajur]] now teaches individual [[Phrenology]] skills instead of the overarching Phrenology skill.
+: - Dog Ear actually wants insect meat now.
+: - [[Eltibule]] treasure map treasures will no longer generate out of zone bounds.
+: - Goats now spawn in [[Gazluk]] instead of sheep. The availability of wool and mutton has not changed. 
+: - [[Ratkin Root-Tender]]s (and their servants) can drop wood as loot.
+: - [[Ratkin Miner]]s in Povus can drop ores as loot.
+: - Swapped north/south east/west in Povus surveys.
+: - Fixed the Zukelmux World Boss Portal to actually teleport players to the Fae Realm rather than back into Gazluk Keep (for next Attack of the World Bosses event)
+: - We now display accurate damage of Song of Discord when a damage mod like Bulwark Shield is active.
+: - Having [[Giant Bat]] form no longer slows your jump or renders you unable to make the lift jump in Wintertide. 
+: - Fixed typo in Murky Tunnel in [[Povus]].
+: - Fixed Latent Charge typo.
+: - Added a check to prevent players from dropping items if there are already 20 entities within 5 meters. (This is to prevent players from dropping 100+ items in very close proximity, which breaks Unity's physics engine.) 
+: - Reduced intensity of fogginess on foggy days. Most areas are dramatically less foggy; Povus is still notably foggier than other areas (but still half as foggy as last update).
+: - Fixed brightness changes to indoor areas, such as from "Brighter World" and "Echolocation".
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Grappling Web
+| description = Fling poisonous web at a distant enemy and reel them to you.
+| level = 15
+| power cost = 10
+| reuse time = 20
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|GrapplingWeb}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}
+| damage = 21 Poison
+| special = Target is pulled toward you.
+}}
+|-
+|
+{{Ability infobox
+| name = Grappling Web 2
+| description = Fling poisonous web at a distant enemy and reel them to you.
+| level = 35
+| power cost = 15
+| reuse time = 20
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|GrapplingWeb}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}
+| damage = 53 Poison
+| special = Target is pulled toward you.
+}}
+|-
+|
+{{Ability infobox
+| name = Grappling Web 3
+| description = Fling poisonous web at a distant enemy and reel them to you.
+| level = 44
+| power cost = 17
+| reuse time = 20
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|GrapplingWeb}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}
+| damage = 79 Poison
+| special = Target is pulled toward you.
+}}
+|-
+|
+{{Ability infobox
+| name = Grappling Web 4
+| description = Fling poisonous web at a distant enemy and reel them to you.
+| level = 57
+| power cost = 20
+| reuse time = 20
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|GrapplingWeb}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}
+| damage = 129 Poison
+| special = Target is pulled toward you.
+}}
+|-
+|
+{{Ability infobox
+| name = Grappling Web 5
+| description = Fling poisonous web at a distant enemy and reel them to you.
+| level = 70
+| power cost = 23
+| reuse time = 20
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|GrapplingWeb}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}
+| damage = 179 Poison
+| special = Target is pulled toward you.
+}}
+|-
+|
+{{Ability infobox
+| name = Grappling Web 6
+| description = Fling poisonous web at a distant enemy and reel them to you.
+| level = 80
+| power cost = 25
+| reuse time = 20
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|GrapplingWeb}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}
+| damage = 224 Poison
+| special = Target is pulled toward you.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

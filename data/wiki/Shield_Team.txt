@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Shield Team
+| description = You and all nearby allies regain Armor.
+| level = 15
+| power cost = 26
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ShieldTeam}}{{KWAB|SignatureSupport}}
+| special = Restore 40 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Shield Team 2
+| description = You and all nearby allies regain Armor.
+| level = 30
+| power cost = 35
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ShieldTeam}}{{KWAB|SignatureSupport}}
+| special = Restore 55 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Shield Team 3
+| description = You and all nearby allies regain Armor.
+| level = 45
+| power cost = 44
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ShieldTeam}}{{KWAB|SignatureSupport}}
+| special = Restore 70 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Shield Team 4
+| description = You and all nearby allies regain Armor.
+| level = 60
+| power cost = 52
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ShieldTeam}}{{KWAB|SignatureSupport}}
+| special = Restore 85 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Shield Team 5
+| description = You and all nearby allies regain Armor.
+| level = 72
+| power cost = 59
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ShieldTeam}}{{KWAB|SignatureSupport}}
+| special = Restore 100 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Shield Team 6
+| description = You and all nearby allies regain Armor.
+| level = 82
+| power cost = 65
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|ShieldTeam}}{{KWAB|SignatureSupport}}
+| special = Restore 115 Armor.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

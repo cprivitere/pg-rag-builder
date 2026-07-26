@@ -1,0 +1,14 @@
+__NOTOC__
+==Summary==
+At the behest of an animal friend, you visited the Sacred Grotto in the Kur Mountains. But they wouldn't let you in! Instead you were sent to Sun Vale to speak with a talking pig named Norbert.
+
+You must have previously completed [[The Sacred Grotto Password]] in order to undertake this quest. 
+
+===Requirements===
+* Speak with Norbert
+
+===Rewards===
+{{Spoiler|Rewards|
+}}
+
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Warden Quests]]

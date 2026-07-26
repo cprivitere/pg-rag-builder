@@ -1,0 +1,68 @@
+__NOTOC__
+{{Skill infobox
+|title            = Oratory
+|image            = [[File:Podium.png|300px]]
+|caption          =The ability to speak in a public way that moves your audience.
+|skilltype        = Other Skill 
+|maxlevel         = 50
+|req              =  N/A
+|skilltrainers    = N/A
+}}
+{{Quote|
+AKA "Oral"
+}}
+== {{msg:BASEPAGENAME}} Overview==
+Oratory is a skill gained by publicly reading poetry books at the podium in [[Chortling Beaver|The Chortling Beaver]], an inn in [[Serbule Keep]].
+
+=== In-Game Description ===
+The ability to speak in a public way that moves your audience.
+=== Training {{msg:BASEPAGENAME}} ===
+* Read Poetry books.
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* [[Performance]] - Performance is the parent skill of [[Oratory]].
+=====Related Skills:=====
+* [[Poetry Appreciation]]
+* [[Stringed Instruments]] - Skill in performing with stringed instruments such as harps, lutes, and guitars.
+* [[Percussion Instruments]] - Skill in performing with percussion instruments such as drums, bells, and dulcimers.
+* [[Wind Instruments]] - Skill in performing with brass and woodwind instruments such as trumpets, ocarinas, and flutes.
+* [[Interpretive Dance]] - Skill in dancing to music in a way that entertains or moves others.
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+* To recite a poem, click the podium in [[Chortling Beaver|The Chortling Beaver]] and drag the identified poetry book into the window that appears. You will be prompted to write something, but whether you do has no bearing on the XP gained by reading the poem.
+* For each person to whom the player has read a poem, 10 XP in Oratory is earned.
+* The identity of the book itself has no bearing on the amount of XP earned. Given the same audience size, a low-level book will earn the same amount as a high-level book.
+* There is currently a delay in receiving XP when reading poems.
+* "We have some future improvements in mind, such as letting your Oratory skill affect the potency of poetry buffs, but that will come later. We'll also add more podiums to other cities, and eventually let player-carpenters craft their own." <ref> Game updates/2017-08-28 </ref>
+
+==[[Oratory/Level Up Rewards|Oratory Level Up Rewards]]==
+<!-- This table is from patch v287, July 21, 2017 -->
+{| {{STDT| mw-collapsible<includeonly> mw-collapsed</includeonly>}}
+! Level || Reward
+|-
+| 10 || +1 to Bard
+|-
+| 25 || +1 to Performance
+|-
+| 30 || +1 to Bard
+|-
+| 40 || +1 to Endurance
+|-
+| 45 || +1 to Performance
+|-
+| 50 || +1 to Bard
+|}
+
+== Oratory Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Oratory|
+{{:Xptables/Oratory}}
+}}
+== Trivia ==
+* Oratory was added in the August 28, 2017 update.
+
+== Gallery==
+
+[[Category:Skills]]

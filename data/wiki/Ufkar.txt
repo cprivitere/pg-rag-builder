@@ -1,0 +1,352 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ufkar
+|image            = [[File:Ufkar.jpg|200px]]
+|caption          = ...
+|zone             = Rahu
+|town             = Rahu City (peaceful)
+|location         = Opposite of the garden stairs.
+|anatomy = Rakshasa
+|species = Rakshasa
+|skilltrainer     = [[Gadgeteering]], [[Alchemy]],<br> [[Calligraphy]]
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = Vendor
+}}
+{{Quote|
+...'''He snarls to himself as he works.'''
+}}
+[[Ufkar]] is in [[Rahu]]. He has opposite favor with his former student [[Kohan]].
+{{Quote|source=[[Furlak]]|
+[[Ufkar]]'s gadgets and traps helped defend Rahu during the orc assaults. He's earned my complete trust. If he says his ex-protégé [[Kohan]] is to be shunned, then shunned he should be!
+}}
+== Location ==
+; [[Rahu]]
+: Building across from where Percussa stands outside the inn. Last building on the left before Hostile side.
+== Shopkeeper ==
+{{Vendor items sold}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards === 
+[[Category:Favor/Rewards]]
+[[Ufkar]] rewards his friends with access to additional Training and sold items. As favor increases with [[Ufkar]], it decreases with [[Kohan]].
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Amazing Volatile Ink
+ | skilllevel = 31
+ | cost = 2833
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Amazing Holistic Ink
+ | skilllevel = 35
+ | cost = 2965
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Amazing Caustic Ink
+ | skilllevel = 40
+ | cost = 3133
+ | favor = Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Gadgeteering]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Simple Free Item Raffler
+ | skilllevel = 0
+ | cost = 165
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Modest Free Item Raffler
+ | skilllevel = 10
+ | cost = 465
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Standard Item Raffler
+ | skilllevel = 20
+ | cost = 1133
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Fancy Item Raffler
+ | skilllevel = 30
+ | cost = 1800
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Advanced Item Raffler
+ | skilllevel = 40
+ | cost = 3133
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Ultra Item Raffler
+ | skilllevel = 50
+ | cost = 4800
+ | favor = Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Calligraphy]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Calligraphy{{!}}Unlock Calligraphy Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20000
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Calligraphy: Bloodloss
+ | skilllevel = 51
+ | cost = 6500
+ | favor = <Best Friends
+}}
+{{NPC training row
+ | recipe = Calligraphy: Bloodloss+
+ | skilllevel = 52
+ | cost = 6533
+ | favor = <Best Friends
+}}
+{{NPC training row
+ | recipe = Calligraphy: Vision
+ | skilllevel = 53
+ | cost = 6565
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Vision+
+ | skilllevel = 54
+ | cost = 6600
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Advancing
+ | skilllevel = 55
+ | cost = 6633
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Advancing+
+ | skilllevel = 56
+ | cost = 7665
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Illness
+ | skilllevel = 57
+ | cost = 7700
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Illness+
+ | skilllevel = 58
+ | cost = 7733
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Heart
+ | skilllevel = 59
+ | cost = 7765
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Heart+
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Shell
+ | skilllevel = 61
+ | cost = 9833
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Shell+
+ | skilllevel = 62
+ | cost = 9865
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Sandstorm
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Calligraphy: Sandstorm+
+ | skilllevel = 64
+ | cost = 9933
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Armor Augmentation]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Armor Augmentation{{!}}Unlock Armor Augmentation Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 40000
+ | favor = Close Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Armor Augmentation{{!}}Unlock Armor Augmentation Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 120000
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Extract Chest Augment (Level 61-90)
+ | skilllevel = 61
+ | cost = 9833
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Extract Leg Augment (Level 61-90)
+ | skilllevel = 65
+ | cost = 9965
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Ancillary-Armor Augmentation]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Ancillary-Armor Augmentation{{!}}Unlock Ancillary-Armor Augmentation Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 40000
+ | favor = Close Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Ancillary-Armor Augmentation{{!}}Unlock Ancillary-Armor Augmentation Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 120000
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Extract Helm Augment (Level 61-90)
+ | skilllevel = 61
+ | cost = 9833
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Extract Boot Augment (Level 61-90)
+ | skilllevel = 65
+ | cost = 9965
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Weapon Augmentation]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Weapon Augmentation{{!}}Unlock Weapon Augmentation Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20000
+ | favor = Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Weapon Augmentation{{!}}Unlock Weapon Augmentation Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 50000
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Extract Main-Hand Augment (Level 61-90)
+ | skilllevel = 61
+ | cost = 9833
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Extract Off-Hand Augment (Level 61-90)
+ | skilllevel = 65
+ | cost = 9965
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Extract Glove Augment (Level 61-90)
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Jewelry Augmentation]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Jewelry Augmentation{{!}}Unlock Jewelry Augmentation Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20000
+ | favor = Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Jewelry Augmentation{{!}}Unlock Jewelry Augmentation Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 50000
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Extract Ring Augment (Level 61-90)
+ | skilllevel = 61
+ | cost = 9833
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Extract Necklace Augment (Level 61-90)
+ | skilllevel = 65
+ | cost = 9965
+ | favor = ?
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Advanced Item Raffler}}
+|RiShin Family = {{Item|Ultra Item Raffler}} x3
+}}
+== Conversations ==
+{{Quote|source=[[Ufkar]]|
+My traitorous student [[Kohan]] must be shown no mercy! If his stupid and shallow ideas become the standard, it will destroy my vision of commerce for the Rakshasa people. My life's work will be in vain.
+
+Slit his throat}}
+[[Category:NPCs]]

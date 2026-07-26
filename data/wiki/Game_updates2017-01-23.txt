@@ -1,0 +1,27 @@
+==<b>January 23 Hotfix</b>==
+: - Ability and item tooltips did not reflect changes made by active effects. 
+: - For abilities with gear that slowed down their reset times, the correct reset time was not reflected in the client, making the abilities seem to not work sometimes. (The server was refusing, because the reuse timer wasn't actually up yet.)
+: - Raising [[Cheesemaking]] to 60 no longer requires Cheesemaking level 60 to unlock.
+: - Raising [[Psychology]] to 70 no longer requires Psychology level 70 to unlock.
+: - A second copy of [[Alravesa]] the All-Hunter is available in [[Rahu]] to unlock level 61-70 [[Archery]]. She shares favor with the Alvaresa in [[Amulna]], but only the one in Rahu can unlock those skill levels. (We'll be back to one Alravesa soon, don't worry.)
+: - If you unlocked [[Carpentry]], [[Fletching]], [[Leatherworking]], [[Blacksmithing]], [[Tailoring]], or [[Toolcrafting]], the skill did not show up properly and could not gain XP. This is now fixed. If you already unlocked the skill, you do not have to pay to unlock the skill again. 
+: - The XP table for [[Armor Patching]] was messed up, making it often impossible to earn XP in the skill.
+: - Using [[Crossbow]] abilities now requires you to actually have a crossbow equipped. (Note that Crossbow is an aux-combat skill, like [[First Aid]], and so its abilities go on the sidebar only.)
+: - First Aid abilities now display the correct percentage-chance to lose the kit (10%, generally, not 33%).
+: - First Aid 7 now restores 175 hp, not 715 hp.
+: - Patch Armor abilities now display the correct percentage-chance to lose the kit (10%, not 33%).
+: - All the new high-level shield skills have been tweaked to be better than the lower level versions.
+: - Disrupting Bash 6 and 7 now reduce Rage further.
+: - Quick Bash 6, 7, and 8 provide more Accuracy than Quick Bash 5.
+: - Lower-level versions of Take The Lead had wrong info about how much they boosted speed and taunt. The descriptions now match what they actually do.
+: - All levels of Fire Shield are better.
+: - Pig's Frenzy 6 is now better than Frenzy 5.
+: - [[Fire Magic]] Research 65 incorrectly said you could learn 6 spells from it, but it only teaches 5. Now correctly says 5.
+: - [[Jara]] no longer has a favor requirement to teach Spruce Dowels. (This NPC's favor setup is borked, so all things are currently favor Neutral. They will require higher Favor soon, when it's more plausible to GET higher favor.)
+: - Blankets found as loot no longer have "Take Liquid" as their action verb. (Now they are just "Take".)
+: - Some of [[Ukorga]]'s new recipes were incorrectly labeled as coat recipes, but were for other body parts when purchased. 
+: - Players have reported that some cave entrances in [[Gazluk]] are difficult or impossible to select. For now, we've spawned a portal next to each cave entrance which will teleport you into the cave.
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Elahil in Serbule asked you to collect some Uncrossing Oil.
+
+===Prerequisites===
+To start this quest, talk to '''[[Elahil]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+You must have previously completed [[Oils for Arrows]] in order to undertake this quest.
+
+===Preface===
+{{Quote|Hey, so I just used that Crossing Oil you got me. I was making Curse Arrows. But I got it on my hands, and now my fingers are erupting in puss-filled blisters. Uh? Do you have the antidote? Uncross me!}}
+
+===Requirements===
+* Obtain {{Item|Uncrossing Oil}}
+* Talk to Elahil
+
+===Rewards===
+{{Spoiler|Rewards for A Soothing Balm|
+{{Quote|This is it? Thanks! <i>Elahil pours the Uncrossing Oil on his hands.</i> It burns!
+
+<b>It burnnnssss!</b>Oh Belrath ready your White Halls, I'm dying... I'm... oh, it stopped. Hey, I'm all good. Thanks! That was scary. I'm gonna skip Curse Arrows.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Basic Reservoir Arrow}} x 1000
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Elahil]]

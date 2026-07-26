@@ -1,0 +1,206 @@
+__NOTOC__
+{{NPC infobox
+|title            = Rappanel
+|image            = [[File:Rappanel.png|300px]]
+|caption          = He's playing a lute with a far-off look in his eyes.
+|zone             = Serbule Hills
+|town             = Tapestry Inn
+|location         = Main building
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All, after bribing [[Durstin Tallow]].
+|skilltrainer     = [[Bard]]
+}}
+{{Quote| Rappanel the bard at your service! I'm looking for a new patron of the arts. And If may be so forward, I believe that person is  you! What do you say? Pay for a song? 
+
+I lost everything when Dwyndarre was destroyed. A hundred years of getting my name out, earning patrons... all gone. So I decided to work these human lands Instead. There's fewer bards here, so I should make good money! Eventually. When word gets out.
+}}
+
+[[Rappanel]] is a traveling Bard who was forced to relocate to the Serbule region after the destruction of [[Dwyndarre]]. He teaches friendly adventurers the skill of a [[Bard]]. [[Rappanel]] spent eight years training at the [[Bard College of Jamurra]]. He is also friends with [[Joeh]].
+
+==Location==
+[[Rappanel]] is often found inside the Tapestry Inn, one of the small cottages along the main road through [[Serbule Hills]].
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+==Hang Outs==
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Have sex with Rappanel (4h) |
+{{Quote|source=[[Races#Humans|Human form]]|Thank you. I do so enjoy the company of humans in the bedroom. You could have been a little more enthusiastic for round four, though. Just a bit of constructive criticism! On the whole, quite a nice time.}}
+{{Quote|source=[[Races#Elves|Elf form]]|Ahh! It's been a while since I've had sex with an elf. I must say your attitude is quite refeshing: your#23 position was so enthusiastic, I almost believed you'd never had sex upside down before! Ha ha! Well, thank you, and let's do this again soon.}}
+{{Quote|source=[[Races#Rakshasa|Rakshasa form]]|Well. That was fun! But... how do I broach this subject? I don't have thick fur like you do. And... you see where this is going, don't you? Those horrific scratches you gave me really threw me off my game.
+
+Now, that's as much my fault as yours, but in the future, try to contain your ... claws, okay?}}
+{{Quote|source=[[Cow|Cow form]]|I will admit it: that was quite fun. And that thing you do with your udder is exhilerating!
+
+I didn't know what to expect, you see -- I've never had a talking cow proposition me before! And I'm glad I didn't turn down this once-in-a-lifetime opportunity! But... I should stress the "once" part. I enjoyed myself, and I hope you did too, but let's never speak of this again, okay?}}
+:35 {{favor|Favor}} with [[Rappanel]]
+:Post-Coital Bliss buff
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Rappanel
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Bard]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Bard{{pipe}}Learn Bard Skill
+ |skilllevel=
+ |cost=0
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Song of Bravery
+ |skilllevel=6
+ |cost=500
+ |favor=
+}}
+{{NPC training row
+ |ability=Song of Bravery 2
+ |skilllevel=16
+ |cost=1500
+ |favor=
+}}
+{{NPC training row
+ |ability=Song of Bravery 3
+ |skilllevel=26
+ |cost=2500
+ |favor=
+}}
+{{NPC training row
+ |ability=Song of Bravery 4
+ |skilllevel=36
+ |cost=4500
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Song of Bravery 5
+ |skilllevel=46
+ |cost=7000
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Song of Bravery 6
+ |skilllevel=56
+ |cost=11500
+ |favor=
+}}
+{{NPC training row
+ |ability=Song of Bravery 7
+ |skilllevel=66
+ |cost=17000
+ |favor=
+}}
+{{NPC training row
+ |ability=Anthem of Avoidance
+ |skilllevel=15
+ |cost=1450
+ |favor=
+}}
+{{NPC training row
+ |ability=Anthem of Avoidance 2
+ |skilllevel=30
+ |cost=2700
+ |favor=
+}}
+{{NPC training row
+ |ability=Anthem of Avoidance 3
+ |skilllevel=45
+ |cost=6950
+ |favor=
+}}
+{{NPC training row
+ |ability=Anthem of Avoidance 4
+ |skilllevel=60
+ |cost=11700
+ |favor=
+}}
+{{NPC training row
+ |ability=Anthem of Avoidance 5
+ |skilllevel=70
+ |cost=17200
+ |favor=
+}}
+{{NPC training row
+ |ability=Blast of Defiance
+ |skilllevel=15
+ |cost=1450
+ |favor=
+}}
+{{NPC training row
+ |ability=Blast of Defiance 2
+ |skilllevel=25
+ |cost=2450
+ |favor=
+}}
+{{NPC training row
+ |ability=Blast of Defiance 3
+ |skilllevel=35
+ |cost=4450
+ |favor=
+}}
+{{NPC training row
+ |ability=Blast of Defiance 4
+ |skilllevel=45
+ |cost=6950
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Blast of Defiance 5
+ |skilllevel=55
+ |cost=9950
+ |favor=
+}}
+{{NPC training row
+ |ability=Blast of Defiance 6
+ |skilllevel=65
+ |cost=14950
+ |favor=Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Daisy (Lute)}} (Lv 35)
+|RiShin Family = {{Item|Daisy (Lute)}} (Lv 35), {{Item|Amazing Metal Slab}} x10
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Greeting|
+{{Quote|Rappanel the bard at your service! I'm looking for a new patron of the arts. And if I may be so forward, I believe that person is ... you! What do you say? Pay for a song?
+
+'''What are your rates?'''
+
+I charge 100 Councils for 5 minutes of performance.
+}}
+}}
+{{Spoiler|Favor Level|
+{{Favor|Comfortable}}
+{{Quote|You've done more than any stranger would do for music. You must be a groupie! Oh, my first [[Council Lands]] groupie! Huzzah! Or wait. Wait a minute! You just want me to teach you to be a brd, don't you?! Well... I guess I could show you some very basic stuff. Nothing fancy, though -- just enough to make you a more appreciative groupie.}}
+}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|[[Serbule]] is just a publicity stunt for [[the Council]]. "We took in the refugees, aren't we a kindly mageocracy? We even take care of the freakish elves!" I won't be a part of their little show. I have my own little show here!}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|Oh yes, I'm classically trained. The Bard College of Jamurra is one of the top three bardic schools in the world! Well, at least the continent.}}
+}}
+{{Spoiler|Variation 3|
+{{Quote|I lost everything when [[Dwyndarre]] was destroyed. A hundred years of getting my name out, earning patrons... all gone. So I decided to work these human lands instead. There's fewer bards here, so I should make good money! Eventually. When word gets out.}}
+}}
+
+[[Category:NPCs]]

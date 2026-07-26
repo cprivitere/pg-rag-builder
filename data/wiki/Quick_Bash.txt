@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Quick Bash
+| description = A quick smack with the shield. It doesn't hurt much, but it helps keep the tide of battle going in your favor.
+| level = 4
+| power cost = 0
+| reuse time = 2
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|QuickBash}}{{KWAB|Bash}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 9 Crushing
+| special = All abilities gain Accuracy +5 for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Quick Bash 2
+| description = A quick smack with the shield. It doesn't hurt much, but it helps keep the tide of battle going in your favor.
+| level = 14
+| power cost = 0
+| reuse time = 2
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|QuickBash}}{{KWAB|Bash}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 11 Crushing
+| special = All abilities gain Accuracy +6 for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Quick Bash 3
+| description = A quick smack with the shield. It doesn't hurt much, but it helps keep the tide of battle going in your favor.
+| level = 23
+| power cost = 0
+| reuse time = 2
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|QuickBash}}{{KWAB|Bash}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 18 Crushing
+| special = All abilities gain Accuracy +7 for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Quick Bash 4
+| description = A quick smack with the shield. It doesn't hurt much, but it helps keep the tide of battle going in your favor.
+| level = 35
+| power cost = 0
+| reuse time = 2
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|QuickBash}}{{KWAB|Bash}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 30 Crushing
+| special = All abilities gain Accuracy +8 for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Quick Bash 5
+| description = A quick smack with the shield. It doesn't hurt much, but it helps keep the tide of battle going in your favor.
+| level = 47
+| power cost = 0
+| reuse time = 2
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|QuickBash}}{{KWAB|Bash}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 51 Crushing
+| special = All abilities gain Accuracy +9 for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Quick Bash 6
+| description = A quick smack with the shield. It doesn't hurt much, but it helps keep the tide of battle going in your favor.
+| level = 62
+| power cost = 0
+| reuse time = 2
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|QuickBash}}{{KWAB|Bash}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 82 Crushing
+| special = All abilities gain Accuracy +10 for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Quick Bash 7
+| description = A quick smack with the shield. It doesn't hurt much, but it helps keep the tide of battle going in your favor.
+| level = 72
+| power cost = 0
+| reuse time = 2
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|QuickBash}}{{KWAB|Bash}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 105 Crushing
+| special = All abilities gain Accuracy +11 for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Quick Bash 8
+| description = A quick smack with the shield. It doesn't hurt much, but it helps keep the tide of battle going in your favor.
+| level = 82
+| power cost = 0
+| reuse time = 2
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|QuickBash}}{{KWAB|Bash}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 130 Crushing
+| special = All abilities gain Accuracy +12 for 5 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> The next envy pump is in a cave deep beneath Rahu. Use the sewers to reach that cave, and as always, bring friends: this heart is even stronger than the last.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> The next envy pump is in a cave deep beneath Rahu. Use the sewers to reach that cave, and as always, bring friends: this heart is even stronger than the last.
+
+===Requirements===
+* Kill the Third Evil Heart
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|That's the last heart defeated! Wait... Wait, no, there are more.}}
+* 6000 councils
+* {{Item|Level 60 Event Loot Key}}
+* random items
+}}
+
+===Notes===
+The heart on the north branch of the southeast caves, on the lower level of Rahu sewers.
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

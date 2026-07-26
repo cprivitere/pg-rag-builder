@@ -1,0 +1,44 @@
+__NOTOC__
+==Update Notes: February 21, 2026==
+This is a bug-fix update with a few little other things attached. Other things first:
+
+===Monster Density Adjustments===
+This update continues our revamp of outdoor spawn density, this time revisiting Kur Mountains, Sun Vale, and Ilmari Desert. The spawners will now maintain a minimum density level regardless of the number of players in the area. In addition, overall monster density and loot/harvestable density is increased.
+
+These areas are also using new and improved "don't spawn a monster on player's heads" logic. Due to how our spawners work this logic is not infallible, but it's improved. This new logic has also been applied to Serbule, Serbule Hills, and Eltibule spawners.
+
+A historical note on the Ilmari desert: originally this area was less about hunting monsters and more about being a bleak and dangerous path through the desert: it provided a hostile environment between war caches. The dehydration mechanic and the dense bunches of monsters made it a very dangerous place. 
+
+This design has not stood the test of time, most notably because we added horses and you can just ride past the monsters while sipping water from your saddle. So we're starting to re-envision the desert to be more practical for hunting, more diverse, and more rewarding. (But don't worry, it's still pretty dangerous.)
+
+===Log Format Changes===
+Special reports (such as the VIP character dump, skill reports, item dumps, etc) now have the server name embedded in their filename. Many reports also have the server name in the JSON itself. The chat log also mentions which server you log into, and notes whenever you switch game areas.
+
+===Graphics Fixes===
+:- Revert changes to tree rendering in Serbule, to fix performance hits
+:- Remove shadow-casting from most lights in central Serbule, temporarily until we can do more performance work in there
+:- Further adjustments to tree LODs in Serbule
+:- Disable player hair rendering & physics at a certain distance, controllable by a new setting, "Character LOD Bias"
+:- Fix bug causing particles to not show in the item preview window
+:- Entity nameplates now stream in instead of all instantiating at once. This should reduce drastic framerate dips when high-density areas come into view. (For the settings-tweaker crowd, the rate at which they stream in is controlled by the "MaxActiveLoads" special setting)
+
+===Other Fixes===
+:- Fix bug causing party voice chat to sometimes leak into other servers(!)
+:- Select Next Pet and Select Previous Pet keybinds now work if you only have a single pet
+:- when you enter a code into the Account Package Golem, it automatically brings up the redemptions window so that you don't have to fish for it in the menus
+:- Move one of Eltibule's respawn points into Hogan's Keep, away from monsters
+:- Double the drop rate of Icy Frog Skins on Frostbelch Frogs (changing from "infuriatingly low drop rate" to "pretty annoying drop rate" as intended)
+:- Touch-up navigation paths in Povus to help prevent monsters getting stuck in walls
+:- when a player accidentally puts a first aid kit or armor patching kit on their ability bar instead of the First Aid or Patch Armor ability, the item now gives a more helpful explanation about what's gone wrong than "That item cannot be used"
+:- Pasha in Ilmari now gives the Zoomer horse glamour instead of the old proto horse version
+:- Medium Prisms can be found in various sources of desert loot
+:- Some of the types of sand needed for glassblowing can now be found in Sun Vale and/or Ilmari
+::- Several glassblowing resources are still not (practically) available; this will be fixed soon
+:- Almanac users rejoice: gardening plants no longer self-destruct when an area is under heavy load
+:- Fix bug causing some looping animations to not play
+:- Adjust humanoid optimization logic to hopefully reduce crashes
+:- fixed bug with message about having already looted a boss when you hadn't
+:- fixed bug with orange and white mineral survey recipes in Vidaria not working
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

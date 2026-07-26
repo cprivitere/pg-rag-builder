@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+[[Pennoc]] in [[Serbule]] told you to drink poison for his amusement.
+
+===Prerequisites===
+To start this quest, talk to '''[[Pennoc]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|Nothing is entertaining enough! Hmm... perhaps... why don't you drink some poison? Not enough to kill you, necessarily -- just enough to make you quite ill.}}
+
+===Requirements===
+* Drink [[:Category:Items/PoisonousDrink|Poisonous Liquids]] {{Hint|You can buy and drink Basic Ink.}}
+* Talk to [[Pennoc]]
+
+===Rewards===
+{{Spoiler|Rewards for Entertain Me: Drink Poison|
+{{Quote|Nope. You are especially un-fun while you're being violently ill. Not entertaining!
+
+Oh, stop the moaning. Here. Here's some extra coin for your trouble.}}
+
+* 500 [[councils]]
+This quest will reward random loot. This may include items with 25 level mods. Possible rewards include:
+
+* {{Item|Web-Coated Hat}}
+* {{Item|Simple First Aid Kit}}
+
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Entertain Me]][[Category:Quests/Pennoc]]

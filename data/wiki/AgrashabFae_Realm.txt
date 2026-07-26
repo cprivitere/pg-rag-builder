@@ -1,0 +1,83 @@
+{{Ambox
+|border=yellow
+|info=<span style="color:#c80000; font-weight:bold;">You may be looking for the deity [[Agrashab]]. <br/>
+You may be looking for the [[Agrashab/Sun Vale|Agrashab]] avatar in Sun Vale.</span>
+}}
+__NOTOC__
+{{NPC infobox
+|title            = Agrashab
+|image            = [[File:Agrashab.png|300px]]
+|caption          = He looks at you calmly.
+|zone             = Fae Realm
+|location         = Shrine east of the Fel-Dasculan Ruins.
+|anatomy = Giant
+|species = Troll
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|
+You are quite welcome here, mortal. Enjoy what there is to enjoy. Suffer what there is to suffer. That is the mortal way, after all.
+}}
+[[Agrashab/Fae Realm|Agrashab]] is one of the avatars of [[Agrashab]], God of Trolls. The Agrashab found in [[Sun Vale]] was named after this one. 
+== Location ==
+; [[Fae Realm]]
+: Found in a shrine between the Fel-Dasculan Ruins and the northeastern mountain.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:Agrashab/Fae Realm/Small_talk}}
+<!-- [[Category:Favor/Small Talk]] -->
+
+== Quests ==
+[[Agrashab]] offers daily Bounty Quests.
+== Quests ==
+<dpl>
+category = Quests/Agrashab/Fae Realm
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ???
+|RiShin Family = ???
+}}
+== Conversations ==
+{{Quote|source = [[Agrashab/Fae Realm|Agrashab]]|
+The fiery mountain south of here appeared spontaneously a few months ago. I do not know how or why it came to be, but I do not think it was coincidence.
+}}
+{{Quote|source = [[Agrashab/Fae Realm|Agrashab]]|
+: Hello there little mortal. Welcome to my realm! You are welcome to stay here as long as you obey my rules.
+;: This is you realm?
+: You might say I "terraformed" this part of the fae realm. I made it habitable by my children, which also coincidentally makes it habitable to you.
+: My children call this land Sun Vale. But I understand your home world has a land with the same name...
+;: Is there an alternative name that's less confusing?
+: Well, my land was named [[Sun Vale]] first, so in the interest of inter-world harmony I believe you should rename your '[[Sun Vale]]' to something else. Your land is called "U39X" by the Fairy Courts. You could use that, or something more mortal-idiomatic... be original! Have fun with it!
+;: Well... I don't actually have the authority to rename Sun Vale...
+: Damn! I was hoping you were a ruler in your land. Well, you should take my message back to your ruler.
+: I suppose there is one other name you can use. Many of your U39X brethren call this land... "Troll-vale." I dislike this name. Humans have a wonderful word that explains why: It's "tacky." But you may use that if you wish. Just understand that there are almost 600 lands like this one, all full of trolls. They can't all be "Troll-vale!" But you are unlikely to ever see any of the others, so use whatever term you like.
+;: You have 600 lands? And you live in this one?
+: Yes, I live in this one... and in all the others. I can be in many places at once!
+;: Oh! You're the god of trolls, right?
+: Yes, I'm an inter-dimensional energy creature, the same as the gods of your world. Speaking of which...
+;: Yes?
+: How is [[Vol]]?
+;: Vol, as in the god of Death? I guess he's... fine?
+: Good, good. I like Vol. Up until a few cycles ago, he called himself Volzek, and he was an incredible ass. But he's much less problematic now. Weaker too, but power isn't always much fun. Speaking of incredible power and lack of fun, how is [[Laeth]]?
+;: Laeth?
+: She lives on your world these days right? Laeth, the "Goddess of Time?" She comes from the fae realm originally, you know! She and [[Cae-a-lee]].
+;: Oh. I don't know her personally, but... I'm sure she's fine.
+}}
+
+
+If the player is a spider
+{{Quote|source=Agrashab|
+: Yes, I'm an inter-dimensional energy creature, the same as the gods of your world. Speaking of which...
+;: Yes?
+:How is Akhisa? You're Akhisa's scion, correct? Say... perhaps you could have a word with Akhisa for me? Some spiders have taken up home here, which would be fine, except that they belch fire. And trolls don't like fire. 
+;:Um... I'm not on speaking terms with Akhisa.
+:Well, as a scion of Akhisa, you should really be able to get a message through. What sort of god doesn't communicate with their scions? 
+;:Well, I'll try to get that message to Akhisa, when I can...
+:Good! And now that I've made an official complaint with a scion of Akhisa, I won't worry about causing offense when I have those spiders removed. 
+;:Um. Okay!}}
+[[Category:NPCs]][[Category:NoRiShin]]

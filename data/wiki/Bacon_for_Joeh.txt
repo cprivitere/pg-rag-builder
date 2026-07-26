@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Joeh in Serbule wants some bacon.
+
+===Prerequisites===
+To start this quest, talk to '''[[Joeh]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|You know what would hit the spot? Some bacon!}}
+
+===Requirements===
+* Get {{Item|Bacon}} x5
+* Talk to Joeh
+
+===Rewards===
+{{Spoiler|Rewards for Bacon for Joeh|
+{{Quote|Whoa, for me? You shouldn't have!}}
+
+* 200 {{Favor|favor}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Joeh]]

@@ -1,0 +1,64 @@
+__NOTOC__
+==Update Notes: September 1, 2023==
+This minor update includes some neat new stuff, as well as a horde of tweaks and fixes.
+===Serbule Community Storage Chest===
+This update, we've added an interesting new community feature - the Serbule Community Storage Chest. This is a way for rich players to give back to the community, donating some of their wealth to lease an extra storage slot that anyone can use.
+
+You can find this chest in [[Serbule]] in the 'golem house' - the room near the central well that also houses the Account Package Manager and the Legacy Item Helper golems. Players can donate 1 million councils or 20 Live Event Credits to lease a slot in this chest for a month, and all players can take advantage of that slot during that time. 
+
+Note that these slots are leased, not purchased, so wealthy players will need to break out their wallet once a month to keep the slots accessible. When the lease expires after a month, the total number of slots available to players in the chest will go down by one. If that means that you now have too many items in the chest, you will only be able to pull items out, not put any more in -- until either you don't have too many items, or someone chips in another cool million (or 20 LECs). 
+
+Players can donate as much and as often as they like, up to a maximum of 150 inventory slots total. The Community Chest lists top contributors (by guild and by player) as an incentive to donate, along with 500 Civic Pride XP, a world broadcast, and a mention in the highlight log. (That's the scroll on the login screen, which also gets posted to Discord.)
+
+Remember, these storage slots can be used by *all* players -- so convince your rich friends to donate today!
+
+===Notepad Improvements===
+One of the weird things about Project: Gorgon is that it sometimes expects you to write things down. We do offer an in-game notepad, at least -- and now we've made that notepad more useful by adding tabs.
+: - You can now organize your notes in up to 5 tabs!
+: - All of your existing notes will be in the first tab. 
+: - You can rename the tabs by right-clicking on them. 
+: - The hotkey to open the notepad defaults to 'n' and can be changed in System > Keys.
+
+===Gameplay Fixes & Tweaks===
+: - To help make animal loot stack up better against the loot of bipedal monsters, most types of animals now have a high chance to drop phlogiston. (Look, I don't know. Maybe they ate it?)
+: - [[Povus]]: Being in combat no longer stops you from using the Povus quest sign.
+: - Povus: Giving gear to Ishiko the boatwoman in the morning now earns double town XP.
+: - Povus: Ishiko the boatwoman now gives Civic Pride XP for each donation, rather than waiting until you've donated 100 times.
+: - Battle Chemistry: Fixed a bug with the new treasure effects that boosted minigolem damage +25% (along with some other buffs). This boost did not apply correctly. After it worked correctly it was clearly overpowered, though, so it's been reduced to a +15% damage boost.
+: - Increased the chance for monsters in a group to perform self-buffs before engaging in combat.
+: - Priest: Fixed the treasure effect "Triage restores X Health over 15 seconds" -- the highest-tier levels of this effect were weaker than intended.
+: - Fixed a bug from the last major update that caused delayed-healing effects to trigger twice (once when added, and again after the delay).
+: - Added Glamour Berries to the very-rare consumables loot table (the same table that drops Eternal Greens and Minor Panaceas).
+: - Reduced the cost of some LEC items on Cinnamon in Sun Vale.
+: - Reduced pricing on Riston in the Red Wing Casino for multiple items.
+: - New item added to Riston: Liquid Super Buffs! (24 hours) for 150 LEC.
+: - Slightly increased the chance to loot Pixie Dust on appropriate mobs.
+: - Fixed a bug that caused Chitterface to not drop its quest item if you had killed it in the past 3 hours.
+: - Fixed a bug that prevented necromancer pets from being targeted by burst attacks, group buffs, and area heals
+:: - Dev comment: the bug was that they couldn't be burst-attacked. In fixing that bug, they became targetable by beneficial spells as well. This wasn't part of the original design of the skill (in particular they were supposed to be immune to most types of healing), but we want to see how this change feels in play.
+: - Fixed a bug that prevented some creatures from tracking aggro properly.
+: - Young Krakens for the Serbule Druid quest will now stick around for the entire duration of the event.
+===UI Tweaks & Fixes===
+: - Main storyline quests are now marked in the Quest Log.
+: - Your current hangout is now viewable from inside the Quest Log, at the top of the list of quests
+: - An item's associated quests are now shown in the "More Info" window. (Only the quests you are currently on, not ALL quests!)
+: - When viewing a work order at the board, you can now view its associated recipe (if you have it unlocked) by right-clicking on the work order icon.
+: - Docile enemies (those that don't attack-on-sight) now have their own nameplate color. It defaults to white; you can change that in Settings > GUI > Colors.
+: - Made "deliver" quests more obvious by adding the number of items to deliver to the text.
+: - Fixed a bug that caused the XP Tracker to reset its position on launch.
+: - The current number of free inventory slots is now always visible in the window, even at the smallest size.
+: - Fixed a bug that caused nameplates to not sort properly, so closer ones would appear behind further ones. 
+: - Updated the map UI with new icons for characters and pins.
+: - Fixed a bug that made certain ambient sound FX lower than intended.
+: - Performance & Dance Appreciation effects are now more obvious.
+: - The current Appreciation level is visible on the buffs themselves. 
+: - A new icon will appear when you are actively appreciating a performance. It shows the level of the current performance and explains how your current buff levels change over time.
+===Other Stuff===
+: - Failed network calls on the login screen should no longer cause the Loading screen to hang after picking your character.
+: - Your character should no longer get "stuck" and keep moving with your mouse even when you aren't holding in right-click.
+: - Updated to Unity version 2021.3.29. This should fix several bugs in Linux, including:
+:: - Some parts of the screen are inaccessible to the mouse when in full-screen mode.
+::- Clicking and dragging the mouse doesn't lock the cursor.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

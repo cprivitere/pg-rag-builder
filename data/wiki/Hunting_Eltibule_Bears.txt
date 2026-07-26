@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+You're killing bears in Eltibule.
+
+This Quest can be repeated after 0 hours.
+
+===Preface===
+<b>Hunting: Eltibule Bears</b>
+The bears in Eltibule are odd. First, some of them are green. Second, they don't seem to act like bears should. They tend to gather in large aimless groups. It's not clear why they do this, but it's clearly not good.
+
+===Requirements===
+* Kill Bears in Eltibule x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 600 Combat XP for your active skills
+* 50 XP in Bear and Bugbear Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Hunting Quests]]
+=== Hunting Guide ===
+This [[Hunting Quests|Hunting Quest]] calls for the elimination of '''Bears''', which are easily encountered in part of [[Eltibule]].<br />
+'''+''' [[Bear Groupie]]s are found only in the northeast, on a small hill surrounding the [[Animal Handling]] Cat Shrine.

@@ -1,0 +1,35 @@
+__NOTOC__
+__NOTOC__
+==Summary==
+When you first awoke on an island, you met an elf named [[Riger]] who seemed depressed and asked for something to cure his depression. Unfortunately, he wasn't clear about what that might be. 
+
+===Prerequisites===
+To start this quest, talk to '''[[Riger]]''' in '''[[Anagoge Island]]'''.
+
+===Preface===
+{{Quote|I don't know. I mean, I don't even want to escape, you know? It doesn't matter anymore. I think I'm seriously depressed. But I can't figure out a fix. I wish I could feel some hope again.}}
+
+===Requirements===
+Cheer up [[Riger]]
+
+===Rewards===
+{{Spoiler|Reward for cheering up Riger|
+{{Quote|
+What's this? Oh, hey. (Riger drinks the potion.)
+
+... thanks. That hit the spot. At least for a while, I won't feel like dying! Actually, I think I'm going to plan my escape! It's all thanks to you! And no thanks to that [[Psychology]] book over there. Magic wins every time!
+;'''You're welcome. Bye!'''}}
+Rewards:
+*100 '''[[Alchemy]]''' XP
+*Access to Riger's Textbook on the table which teaches you '''[[Psychology]]'''}}
+
+===Tips===
+This is one of the first quests players encounter in which the way to finish it isn't obvious. Below is an explanation on how to complete the quest, but it's quite fun and not too difficult to figure out using the tools and items at your disposal on [[Anagoge Island]]. Give that a try first!
+{{Spoiler|How to cheer Riger up|
+Cheering up [[Riger]] requires the player to craft a {{Item|Pick-Me-Up Juice}}. To do this players will need access to two skill lines: [[Mycology]] and [[Alchemy]].
+
+To acquire [[Mycology]], just pick up any [[Parasol Mushroom]]s you see or [[Strange Dirt]] from Mounds of Dirt. With that skill line, players can use the '''Recipes''' button (the cauldron) to find the {{Item|Parasol Mushroom Flakes}} recipe. One of these needed to create the Pick-Me-Up Juice.
+
+The next skill players need is [[Alchemy]]. This can be learned by reading [[Basics of Alchemy]] on the bookshelf in [[Elmetaph]]'s tower. Everything needed to craft the potion can be found on [[Anagoge Island]] from monsters or sacks.
+}}
+[[Category:Quests]][[Category:Quests/Riger]][[Category:Quests/Anagoge Island Quests]]

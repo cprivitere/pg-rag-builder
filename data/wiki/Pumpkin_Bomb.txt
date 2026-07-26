@@ -1,0 +1,36 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Pumpkin Bomb
+| description = Use an evil pumpkin as a bomb.
+| level = 1
+| power cost = 12
+| reuse time = 30
+| range = 4 meters
+| skill = Gardening
+| keywords = {{KWAB|Summon}}
+| special = Consumes one Evil Pumpkin.
+}}
+[[Pumpkin Bomb]] These are Special Abilities (side-bar skills). Only available during the Halloween event. 
+* Complete the "Kill Skeletons" mini-quest.
+* Complete the "Kill Skeleton Mages" mini-quest.
+* You'll get a "Kill Pumpkin Mimics" mini-quest. After killing 7 evil pumpkins, you automatically learn Pumpkin Bomb (1). This quest is different from the stand-alone quest from Brianna to kill 15 pumpkin mimics. 
+
+The remaining Pumpkin Bomb 2 (and Pumpkin Turrets 1/2) skills are available via books dropped during the Halloween event.
+|-
+|
+{{Ability infobox
+| name = Pumpkin Bomb 2
+| description = Use an evil pumpkin as a bomb.
+| level = 45
+| power cost = 31
+| reuse time = 30
+| range = 4 meters
+| skill = Gardening
+| keywords = {{KWAB|Summon}}
+| special = Consumes one Evil Pumpkin.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

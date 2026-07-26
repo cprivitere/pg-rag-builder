@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Velkort has told me the frequency for the giant red crystal. All I have to do is touch it while thinking the right word. Once I'm past the crystal, I should try to figure out who's behind this and why.
+
+===Prerequisites===
+To start this quest, talk to '''[[Velkort]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor. The [[Unlocking the Crystal Lattice]] quest must be completed first.
+
+===Preface===
+{{Quote|You forgot something again: you're a simpleton. Of course it's a frequency! Now go visit the giant red crystal on the lake, touch it while thinking Alawambat, and you'll slip past it to whatever is underneath.}}
+
+===Requirements===
+* Enter the cave beneath the crystal
+* Get to the bottom of this
+* Talk to Velkort
+
+===Rewards===
+{{Spoiler|Rewards for Beneath the Red Crystal|
+{{Quote|What? Dalvos! That's not good. He's been this close to us for months?}}
+
+* 500 Fire Magic Experience
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Velkort]]

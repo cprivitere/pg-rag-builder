@@ -1,0 +1,98 @@
+__NOTOC__
+{{NPC infobox
+|title            = Baroness Marith Felgard
+|image            = [[File:BaronessMarithFelgard.png|300px]]
+|caption          = An older human
+|zone             = Serbule Hills
+|location         = Her farm in [[Serbule Hills]]
+|anatomy = Human
+|species = Yes
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = Yes
+|storage = Yes
+}}
+{{Quote| 
+Well, [[Caroline Serbule]] was the duchess, more or less, and my good friend. After her fool husband died, I watched her wither away from stress. It was horrid. So I decided to take a more active role in managing [[Serbule Hills]]. Nowadays, everyone in the [[Serbule Hills|Hills]] knows to come here if there's trouble. Not that I can do much about these damned ranalon people...
+}}
+[[Baroness Marith Felgard]] is a baroness living in her castle in [[Serbule Hills]].
+
+She was appointed baroness by [[Lord Serbule]] before his disappearance and sees herself as the rightful leader of Serbule Hills. However, [[The Council]] has since taken charge of [[Serbule]] and the surrounding areas, so her official title is nothing more than a title.
+
+She has disliked [[Nelson Ballard]] ever since she requested assistance with Serbule Hills' [[ranalon]] problem and he simply told her to evacuate to [[Serbule Keep]]. It is possible he would have requested assistance from the [[Council Army]], but they are currently preoccupied fighting demons in [[Vidaria]].
+
+Nowadays, she is still the most powerful person in Serbule Hills, since the Council does not enforce their laws much in Serbule, let alone the sparsely-populated hills south of Serbule. She despises [[ranalon]]s and would like to see the [[Serbule Hills]] ranalons killed off or driven away.
+
+She seems to dislike the fact that many displaced elves have fled into Serbule.
+== Location ==
+; [[Serbule Hills]]
+: [[Baroness Marith Felgard]] is found standing inside and to the rear of the courtyard of her estate, in the west of [[Serbule Hills]].
+== Shopkeeper ==
+[[Baroness Marith Felgard]] sells a selection of supplies and seedlings used in [[Gardening]]. She also sells Tannin Powder, a Basic Fertilizer Recipe, [[Handsaw|Handsaws]] and [[Bottle of Water|Bottles of Water]].
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Baroness Marith Felgard]] rewards her friends with [[Storage]], beginning at '''{{favor|Comfortable}}''' favor.
+{{Spoiler|Reward at {{Favor|Comfortable}}.|
+:Enables Storage.
+}}
+{{Spoiler|Reward at {{Favor|Friends}}.|
+{{Quote|You're a surprising one (playername). I think you should stop by more often. I might even put the kettle on. Oh, and you can use a spare room here to store your items, if need be.}}
+:Additional Storage slots become available.
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Marith Felgard
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+=== Tree Decoration: Serbule Hills ===
+During the [[Winter Holiday]] of Ri-Shin, [[Marith Felgard]] offers additional quests to decorate a tree in [[Serbule Hills]].
+<dpl>
+category = Quests/Ri-Shin Quests
+category = Quests/Baroness Marith Felgard
+mode = unordered
+columns = 1
+</dpl>
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Baroness Marith Felgard
+|favorrestriction =Comfortable
+|itemrestriction =Anything
+|neutral =0
+|comfortable =5
+|friends =10
+|closefriends =20
+|bestfriends =30
+|likefamily =40
+|soulmates =50
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Coinpurse}} x10
+|RiShin Family = {{Item|Coin Sack}} x10
+}}
+== Conversations ==
+{{Quote|source=[[Baroness Marith Felgard]]|
+The old hunting lodge south of here has become infested with elves, too. And they're horrid weather-witches! So unnatural! Weather should be left alone, not under the control of some... some elf.}}
+
+If the player is a Spider:
+{{Quote|
+Ah! A talking spider! Bad! Bad spider!
+:'''Wait, why am I bad?'''
+Well, I suppose if I can tolerate elves, I can tolerate a spider. You're a good bit more natural than an elf, anyway! Well, what are you here for?
+:'''I'm here to help.'''
+}}
+
+[[Category:NPCs]] [[Category:Favor/Small Talk]][[Category:Favor/Rewards]]

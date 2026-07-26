@@ -1,0 +1,9 @@
+==Update Notes: April 21, 2026, pt 2==
+:- We've disabled the dice game in Statehelm for now due to an exploitable issue.
+
+==Update Notes: April 21, 2026==
+:- Server was rebooted to fix a bug where players were stuck at the "Talking to server, please wait" step of logging in. This issue should finally be fixed now!
+:- Unrelatedly, BC golems no longer despawn when their creator is mounted. (the fix was ready... so here it is)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

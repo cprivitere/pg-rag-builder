@@ -1,0 +1,51 @@
+__NOTOC__
+{{MOB infobox
+| title = Katarina Eltibule
+| image = [[File:Katarina Eltibule.jpg|300px]]
+| type   = Incorporeal Creature
+| health = 12460
+| armor  = 1120
+| rage   = 1337
+| notoriety = 1000
+| effective = Psychic, Nature, Electricity
+| ineffective = Crushing, Slashing, Piercing, Fire, Cold
+| immune = Darkness
+}}
+The ghost of [[Katarina Eltibule]] is a tormented spirit kept chained as an anchor in the [[Dark Chapel]]. If you find her at the anchor room, she'll share some useful advice about the upcoming battle against [[Lord Sedgewick]], and you'll be able to find some loot from a chest close to her. However, during the final battle, she will be summoned and controlled by Sedgewick himself, and sent to fight against you. Like any other incorporeal ghost, she will have to be stunned before any significant damage can be dealt to her.
+== Location ==
+{{MOB Location
+| area = Dark Chapel
+| location = Chapel anchor room.
+| health = 12460
+| armor  = 1120
+| rage   = 1337
+}}
+==Combat Abilities==
+'''Evasion, Nigh-Invulnerable Until Stunned'''
+{{:AIP:Ghost}}
+== Miscellaneous ==
+{|
+|'''Skin''':
+| None
+|-
+|'''Meat''':
+| None
+|-
+|'''Skull''':
+| None
+|}
+== Reported Loot ==
+
+''' Level 45 Equipment '''
+{|
+|{{Loot|Elven Gauntlets}}
+|}
+
+''' General Loot '''
+{|
+|{{Loot|Ectoplasm}}
+|{{Loot|Maple Wood}}
+|{{Loot|Pyrite}}
+|{{Loot|Hatred Oil}}
+|}
+[[Category:Bosses]][[Category:NPCs]][[Category:Dark Chapel NPCs]]

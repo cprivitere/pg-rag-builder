@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Uriana in the Fae Realm said, "It is difficult to remember what beast is a true immortal and what is not. But I have invented something in the human tongue to help! Bury bears. Because they are mortal, you see? "Bury bears"? Go and practice until this trick is burned into your mind."
+
+===Prerequisites===
+To start this quest, talk to [[Uriana]] in the [[Fae Realm]]. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|
+It is difficult to remember what beast is a true immortal and what is not. But I have invented something in the human tongue to help! Bury bears. Because they are mortal, you see? "Bury bears"? Go and practice until this trick is burned into your mind.
+}}
+
+===Requirements===
+* Bury [[Fae Bear]]s x5
+* Talk to Uriana.
+
+===Rewards===
+{{Spoiler|Rewards for Pixie's Whim: Bear Burial|
+{{Quote|
+You are finally back! ... I realized that I have misled you. For you see, one can bury pixies also! We are reborn in a new body; the old one means little... burying creatures proves nothing! And I made you burn my lie into your mind! ... WHY?! WHY DID I PUNISH YOU WITH MY FOLLY! I AM SO SORRY! Please take this as an apology.
+}}
+* Random item.
+}}
+
+[[Category:Quests]][[Category:Quests/Uriana]][[Category:Quests/Fae Realm Quests]]

@@ -1,0 +1,145 @@
+==Update Notes: March 25, 2021==
+Welcome to another exciting Project: Gorgon update! This one has been in development for longer than usual - we usually aim for an update every month. But we've been working on bringing our animation system into the modern day and that took a bit longer than planned. 
+
+This update includes our work on the animation system, as well as a potluck collection of new features and bug fixes. So let's dive in!
+
+===Animation System Replacement===
+The old animation system had to go. It severely limited our ability to add new animations or replace old ones. So we've replaced it! 
+
+More specifically, we've replaced all the code in the system. Most of the actual animations are the same, for now. Our goal is to get this new system working at least as well as the old one did; then we can start improving things in earnest.
+
+That said, there are definitely improvements to be found already, especially in how animations are blended. But there's also a lot of stuff that still needs tweaking, tuning, and fixing. You'll see bugs. You'll see weirdness. And you'll '''probably''' see some very silly things.
+
+You'll also see some new animations, here and there. There are several new dance moves in this update, and now that we have the ability to add more, you can expect to see animations play a bigger role in the game in the future. 
+
+So please report all the silly, strange, or broken animations you see! The sooner we get those worked out, the sooner we can start pushing on new animation features. 
+
+(And we'd really love to hear about the silliest animation bugs you run into! Maybe we should offer a prize for the best 10-second video clip?)
+ 
+===Interpretive Dance===
+Certain NPCs in the world now have unique dance moves! If they choose to dance, they'll perform their move. If you dance along with them (and your [[Interpretive Dance]] skill is 10 or higher) you will eventually learn their dance move. The amount of time it takes to learn the move is random, but usually pretty quick.
+
+NPCs have gotten a little more picky about music, though- they now require a robust musical performance before they'll start dancing. (That's at least 3 performers.)
+
+Your [[Interpretive Dance]] level cap also increases by +5 for each new move you learn. There are 12 new moves, so the max level cap of Interpretive Dance is now 70. 
+
+You can gain new synergy levels by raising the Interpretive Dance skill:
+:: - [[Holistic Wellness]] - 19, 49
+:: - [[Performance]] - 30, 50, 70
+:: - [[Bard]] - 35, 65
+:: - [[Endurance]] - 39
+:: - [[Unarmed]] - 59
+
+===VIP Panel===
+You can now find a VIP tab in the Settings window. Nothing on this panel actually requires that you be a VIP member yet - we're testing out some of the features before we launch the VIP program and we'd like to get your feedback. (Just remember that these features will eventually become VIP-only.)
+
+====Special Reports====
+In the " Special Reports" section of the VIP panel, you can export a lot of information about your character and the items you have in storage. There are a couple of reports and formats depending on what you need, including:
+:: - a spreadsheet (.csv) of every item in every (non-shared) storage vault
+:: - a JSON file with similar information about your storage (for programmers)
+:: - a JSON file with information about your character
+
+====Combat Logging====
+In the "Combat Logging" section of the VIP panel, you can enable and configure combat logging. When this is enabled, details about combat will be displayed in the 'All' chat tab. There is also a new "Combat" channel which you can enable in any chat tab. 
+
+This combat spew will also be recorded into the chat logs if you've enabled chat logging (also in the VIP panel).
+
+Note that this is a first-pass attempt at combat logging and is fairly primitive. We may do another, more complicated version, that only writes to file - writing every single point of DoT damage to the in-game chat log is far too spammy to ever be useful.
+
+====Chat Logs & 'Book' Mode====
+You can also configure chat-logging and book-logging in the VIP panel. These previously used the special settings <kbd>LogChat</kbd> and <kbd>BookSaveToFile</kbd>. Those settings have been retired; you can safely remove them from your Special Settings window.
+
+Please explore these new features and give feedback! But be aware that these features will eventually become VIP-only.
+
+===New Performance Optimization===
+We are excited about our newest performance optimization! This one will be especially dramatic on lower-end PCs, but all players should see at least a small improvement.
+This is still experimental, so it's off by default. To enable it, open the Settings window. In the Graphics section, check the "Experimental Optimizations" box, then click save, then logout and back in.
+
+Details:
+:: - The optimization won't '''fully''' turn on/off until you switch to a new area, or logout and log back in.
+:: - The old "experimental optimizations" have stopped being experimental. The checkbox has been turned off for everyone, so you'll need to turn it on again!
+:: - This optimization works by unloading some of the assets for entities that are more than 100 meters away from you. As a side-effect, those distant entities won't be visible... even if you've set the entity-render distance higher than that!
+:: - If you have a high-end PC and like to fly at high distances (or like to travel at light-speeds), you may want to increase this range. You can do so with a new special setting. In the Settings window, Special Settings area, add the words <kbd>AppearanceRange=200</kbd> to double the range. (The minimum range is 100, the default setting.)
+
+===Fix for Mouse-Cursor Centering===
+Some players found it unintuitive that the mouse-cursor was repositioned in the center of the screen after dragging the camera with a mouse-drag. We've fixed this issue, but unfortunately the fix is only available on Windows so far. (But we are optimistic that this will be possible for the other OSes eventually.)
+
+We've been testing this for a while now and it's worked well, but let us know if you discover problems. If you need to turn it off (or if you just like the old behavior better): open the Settings window in-game, find the Special Settings section, and add the word <kbd>RecenterCursor</kbd> to the settings box. (Note that this only does something on Windows OSes; other OSes are always in recenter-cursor mode.)
+
+===Transmutation Change for Fairy Magic===
+Previously if you transmuted a [[Fairy Magic]] power on an item, you would always roll another [[Fairy Magic]] power. And if you re-rolled a [[Mentalism]] power, same thing, you would always re-roll a different [[Mentalism]] power. This made it impossible to replace Mentalism powers with Fairy Magic powers, or vice versa.
+
+Now, if you have an item that originally had a Fairy Magic power on it, transmutation will randomly choose between both Fairy Magic and Mentalism powers for all replacements on the item. This allows you to add more Fairy Magic powers, or to remove Fairy Magic powers.
+
+This works by using a hidden attribute set on the item during its creation. If the item was originally created with at least one Fairy Magic power, it'll always be possible to transmute Fairy Magic on/off the item. But if the item didn't originally have a Fairy Magic power, transmutation can never roll Fairy Magic powers.
+
+(But what if you want to add Fairy Magic to an item that doesn't have it? For now, we've added a "back door" way to activate this. If you add a Fairy Magic augment to a Mentalism item, it'll be eligible for Fairy Magic transmutations. You can remove or replace the augment when you're done transmuting.)
+
+===Graphics & Such===
+
+====Look====
+Project: Gorgon now supports 'head-look' - your character can turn their head to look toward the thing you have selected. It's still a little rough; this is the "first gen" version of the feature. (Also, it only works for bipeds so far, sorry animals!)
+
+This feature is enabled/disabled by default based on your graphics quality level. For graphics levels below Good, head-look is off by default. For Good and Great graphics levels, it is on by default but only applies to the local player - you will only see your own head movements, no one else's. For Amazing and Ultra, head-look is on for all bipeds - including other players and humanoid monsters like orcs. (Note that most NPCs don't yet use this tech.)
+
+You can change this setting in the Advanced Options section of Graphics in the Settings menu.
+
+====Screenshots====
+The "super res" screenshot feature had stopped generating high-res screenshots due to an incompatibility with the newest Unity camera post-processing system. For now we have disabled post-processing for high-res screenshots, so they won't have all the bells and whistles, but at least they'll generate correctly! We'll review this workaround when Unity next improves their postprocessing system.
+
+Screenshots that you take are now saved in a dedicated screenshots folder. You can see where that folder is, and open it, in Settings->GUI->Features. 
+
+==== Other graphic-y things:====
+:: - The flash you see on your screen when you are being hit ('screen flash') is less obtrusive. If you had it turned off via Special Settings, you might try it out again.
+:: - The Graphics "Brighter World" option will no longer uncheck itself after the client is restarted.
+:: - The Graphics setting "Resolution in Full-Screen Mode" no longer has multiple duplicate options.
+:: - Pet particle effects are now correctly disabled by <kbd>/particlespam</kbd> and the <kbd>NoParticleSpam</kbd> Special Setting.
+
+====UI Tweaks and Fixes====
+:: - The Recipes UI will no longer jump when crafting items at the bottom of long list of recipes. 
+:: - The Recipes UI will no longer scroll to a selected button that is already visible.
+:: - Improved functionality of "Back" button in the Work Order board.
+:: - Fixed a bug where closing out of certain menus also canceled the recipe you were crafting. 
+:: - The casting bar will now remain open when stopping interactions that are not directly tied to the casting. Note that standing up from a chair will cancel casting, no matter what.
+:: - The Quest Tracker will no longer display as a grey dot when no quests are being tracked.
+:: - Quests will no longer linger in the quest tracker after switching characters. 
+:: - Action button cooldowns will also reset properly when switching characters.
+:: - The cursor could sometimes get stuck in a mode (like the interact hand). That should no longer happen.
+:: - Fixed a bug that could cause the top ability slot on the sidebar to clear itself.
+:: - Fixed a bug that could cause dragging an item in your inventory to drop an item. 
+:: - Certain items that required metabolism, or which were broken, would flash rapidly when placed on the sidebar. This will no longer happen.
+:: - At certain screen resolutions, it was not possible to see the text menus for configuring shop items. Now you can!
+:: - Character generation options with no choices :: - for example, there is only one human male face at this point :: - no longer display as options in character generation.
+:: - Improved formatting of the fight and fight result windows in Monsters and Mantids.
+:: - Fixed some display issues with the Settings menu options.
+:: - Prettied up the Redeem menu. Previously you accessed this via <kbd>/redeem</kbd>, but now you can also use the handy button in the Persona window.
+:: - In addition, we've added two new redemptions this update! Both of them are time-limited; click that new Redeem button in the Persona window for more details.
+
+===Skills Changes===
+:: - Sigils, traps, fire walls, crystals, turrets, and other stationary objects are now immune to Fear. (It was adorable watching crystals flee in terror, but too exploitable.)
+:: - Treasure that added damage-over-time to Deadly Emission was twice as effective as listed (it fired every second instead of every other second).
+:: - The ability Fish Gut now requires (and can consume) an actual Skinning Knife. Previously it could use (and potentially consume) any knife that could skin animals.
+:: - Fixed some [[Animal Handling]] pet commands that could break due to a bug in the targeting logic.
+:: - Fixed a skill-check that was using the wrong skill when performing a butchery on a dead corpse (specifically, using your [[Skinning]] skill when rolling to get "bonus meat").
+:: - Fixed the displayed base damage for [[Warden]]'s Stun Trap abilities. (The actual damage did not change, just the displayed amount.)
+:: - Moo of Determination 4 no longer shows up twice on [[Raul]]'s training menu.
+:: - [[Hammer]] abilities have new icons.
+:: - (Looking for the [[Unarmed]] changes? Rebalancing of the Unarmed skill was postponed due to the animation system changes, but should be included in the next major update.)
+
+===Other Changes===
+:: - Added a lot of exciting new event content and tech. Stay tuned for dates and times!
+:: - Fixed a large number of bugs with unreachable spawns, monsters walking through walls, bad collision, etc. in: [[Serbule]], [[Kur Mountains]], [[Ilmari]], [[Rahu]], [[Winter Nexus]], [[Animal Nexus]], and the [[Labyrinth]]. Possibly others! 
+:: - Vendors would sometimes lie and tell you that they could afford to buy an entire stack when they were actually too low on money! Now, instead of lying about it, they will do their best to figure out what they *can* afford, and present that information to players.
+:: - Fixed exploit scenarios where a character could change between animal forms mid-conversation to gain access to unintended dialog options.
+:: - Quest dings and warning screens are slightly less obtrusive.
+:: - A number of creatures, including spiders and horrors, and a number of abilities, are a bit quieter and can no longer be heard from across the world.
+:: - You can now quit out of the game directly from character generation.
+:: - [[Durstin Tallow]] in [[Serbule Hills]] will no longer rent a room for 100 councils as many times as you ask.
+:: - [[Gisli]] in [[Eltibule]] no longer displays the wrong stable slots number when he offers to sell you one. (He was off by one.) This was a display problem only. 
+:: - [[Cow]]s now strafe correctly.
+:: - Fixed a very rare bug that could cause players to be unable to log in after a game patch (which previously required administrator assistance to fix).
+:: - It is now possible to bind 'Escape' through the Keys menu.
+:: - Thanks for reading and don't forget the time-limited gifts!
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,74 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Headcracker
+| description = Clobber an enemy. Vulnerable targets are also stunned.
+| level = 24
+| power cost = 26
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Headcracker}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|NiceAttack}}
+| damage = 64 Crushing
+| special = Vulnerable targets are stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Headcracker 2
+| description = Clobber an enemy. Vulnerable targets are also stunned.
+| level = 42
+| power cost = 35
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Headcracker}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|NiceAttack}}
+| damage = 141 Crushing
+| special = Vulnerable targets are stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Headcracker 3
+| description = Clobber an enemy. Vulnerable targets are also stunned.
+| level = 53
+| power cost = 40
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Headcracker}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|NiceAttack}}
+| damage = 220 Crushing
+| special = Vulnerable targets are stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Headcracker 4
+| description = Clobber an enemy. Vulnerable targets are also stunned.
+| level = 64
+| power cost = 45
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Headcracker}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|NiceAttack}}
+| damage = 300 Crushing
+| special = Vulnerable targets are stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Headcracker 5
+| description = Clobber an enemy. Vulnerable targets are also stunned.
+| level = 75
+| power cost = 51
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Headcracker}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|NiceAttack}}
+| damage = 392 Crushing
+| special = Vulnerable targets are stunned.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,59 @@
+__NOTOC__
+{{NPC infobox
+|title            = Yoy
+|image            = [[File:MyconianNPC.png|300px]]
+|caption          =
+|zone = Serbule
+|dungeon             = Myconian Cave
+|location         = The left branch of the dungeon.
+|anatomy = Fungoid
+|species = Myconian
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|
+...
+}}
+[[Yoy]] is a [[Myconian]] located in the [[Myconian Cave]].
+
+==Location==
+; [[Myconian Cave]]
+: The left branch of the actual dungeon.
+
+== Conversations ==
+Requires at least 17 Myconic to speak to you.
+
+== Training ==
+[[Yoy]] will begin to train abilities in [[Mentalism]] if you reach {{favor|Comfortable}} with him.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mentalism]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability= Mindworm
+ |skilllevel= 20
+ |cost= {{Item|Strange Dirt}} x 5
+ |favor=Comfortable}
+}}
+{{NPC training row
+ |ability= Mindworm 2
+ |skilllevel= 30
+ |cost= {{Item|Strange Dirt}} x 10
+ |favor=Comfortable}
+}}
+{{NPC training row
+ |ability= Mindworm 3
+ |skilllevel= 40
+ |cost= {{Item|Strange Dirt}} x 20
+ |favor=Comfortable}
+}}
+|}
+
+==NOTE==
+much TODO here
+
+Yoy will give you a quest to kill [[Senzur]]. 
+
+[[Category:NPCs]][[Category:NoRiShin]]

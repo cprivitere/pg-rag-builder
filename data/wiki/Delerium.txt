@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Delerium
+| description = Poison the target's mind, sapping their focus.
+| level = 9
+| power cost = 15
+| reuse time = 10
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|Delerium}}{{KWAB|NiceAttack}}
+| ragemulti = 0
+| damage = 20 Poison
+}}
+|-
+|
+{{Ability infobox
+| name = Delerium 2
+| description = Poison the target's mind, sapping their focus.
+| level = 20
+| power cost = 20
+| reuse time = 10
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|Delerium}}{{KWAB|NiceAttack}}
+| ragemulti = 0
+| damage = 38 Poison
+}}
+|-
+|
+{{Ability infobox
+| name = Delerium 3
+| description = Poison the target's mind, sapping their focus.
+| level = 29
+| power cost = 24
+| reuse time = 10
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|Delerium}}{{KWAB|NiceAttack}}
+| ragemulti = 0
+| damage = 58 Poison
+}}
+|-
+|
+{{Ability infobox
+| name = Delerium 4
+| description = Poison the target's mind, sapping their focus.
+| level = 40
+| power cost = 29
+| reuse time = 10
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|Delerium}}{{KWAB|NiceAttack}}
+| ragemulti = 0
+| damage = 93 Poison
+}}
+|-
+|
+{{Ability infobox
+| name = Delerium 5
+| description = Poison the target's mind, sapping their focus.
+| level = 49
+| power cost = 32
+| reuse time = 10
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|Delerium}}{{KWAB|NiceAttack}}
+| ragemulti = 0
+| damage = 139 Poison
+}}
+|-
+|
+{{Ability infobox
+| name = Delerium 6
+| description = Poison the target's mind, sapping their focus.
+| level = 59
+| power cost = 36
+| reuse time = 10
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|Delerium}}{{KWAB|NiceAttack}}
+| ragemulti = 0
+| damage = 190 Poison
+}}
+|-
+|
+{{Ability infobox
+| name = Delerium 7
+| description = Poison the target's mind, sapping their focus.
+| level = 69
+| power cost = 40
+| reuse time = 10
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|Delerium}}{{KWAB|NiceAttack}}
+| ragemulti = 0
+| damage = 244 Poison
+}}
+|-
+|
+{{Ability infobox
+| name = Delerium 8
+| description = Poison the target's mind, sapping their focus.
+| level = 79
+| power cost = 44
+| reuse time = 10
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|Delerium}}{{KWAB|NiceAttack}}
+| ragemulti = 0
+| damage = 307 Poison
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

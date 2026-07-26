@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+[[Preta]] in [[Sun Vale]] said, "Working with physical paper is interesting. I've been reading some books about creatures in this realm. Could you bring me some spider legs to study?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Preta]]''' in '''[[Sun Vale]]'''. This quest is only available to [[Fairy|Fae]]. 
+
+===Preface===
+{{Quote|Working with physical paper is interesting. I've been reading some books about creatures in this realm. Could you bring me some spider legs to study?}}
+
+===Requirements===
+* Obtain {{Item|Giant Spider Leg}}s x10
+* Talk to [[Preta]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Excellent! I can study these all day!}}
+* 25 {{Favor|favor}}
+*[[Pathology]] raised to Level 15.
+}}
+
+===Note===
+The in game text just asks for {{Item|Spider Leg}}s, but it actually requires {{Item|Giant Spider Leg}}s. 
+
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Preta]][[Category:Quests/Fae Quests]]

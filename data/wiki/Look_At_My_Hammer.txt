@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Look At My Hammer
+| description = Hold that fancy hammer up for all to see. You are mighty, and this hammer is amazing! Who can stop you now?!
+| level = 10
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Hammer
+| keywords = {{KWAB|Hammer}}{{KWAB|LookAtMyHammer}}{{KWAB|HammerNonBasic}}{{KWAB|SurvivalUtility}}
+| special = Restores 0 Health. Restores 55 Armor. Restores 10 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Look At My Hammer 2
+| description = Hold that fancy hammer up for all to see. You are mighty, and this hammer is amazing! Who can stop you now?!
+| level = 20
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Hammer
+| keywords = {{KWAB|Hammer}}{{KWAB|LookAtMyHammer}}{{KWAB|HammerNonBasic}}{{KWAB|SurvivalUtility}}
+| special = Restores 0 Health. Restores 70 Armor. Restores 15 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Look At My Hammer 3
+| description = Hold that fancy hammer up for all to see. You are mighty, and this hammer is amazing! Who can stop you now?!
+| level = 30
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Hammer
+| keywords = {{KWAB|Hammer}}{{KWAB|LookAtMyHammer}}{{KWAB|HammerNonBasic}}{{KWAB|SurvivalUtility}}
+| special = Restores 0 Health. Restores 90 Armor. Restores 20 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Look At My Hammer 4
+| description = Hold that fancy hammer up for all to see. You are mighty, and this hammer is amazing! Who can stop you now?!
+| level = 40
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Hammer
+| keywords = {{KWAB|Hammer}}{{KWAB|LookAtMyHammer}}{{KWAB|HammerNonBasic}}{{KWAB|SurvivalUtility}}
+| special = Restores 0 Health. Restores 105 Armor. Restores 25 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Look At My Hammer 5
+| description = Hold that fancy hammer up for all to see. You are mighty, and this hammer is amazing! Who can stop you now?!
+| level = 50
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Hammer
+| keywords = {{KWAB|Hammer}}{{KWAB|LookAtMyHammer}}{{KWAB|HammerNonBasic}}{{KWAB|SurvivalUtility}}
+| special = Restores 0 Health. Restores 120 Armor. Restores 30 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Look At My Hammer 6
+| description = Hold that fancy hammer up for all to see. You are mighty, and this hammer is amazing! Who can stop you now?!
+| level = 60
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Hammer
+| keywords = {{KWAB|Hammer}}{{KWAB|LookAtMyHammer}}{{KWAB|HammerNonBasic}}{{KWAB|SurvivalUtility}}
+| special = Restores 0 Health. Restores 135 Armor. Restores 35 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Look At My Hammer 7
+| description = Hold that fancy hammer up for all to see. You are mighty, and this hammer is amazing! Who can stop you now?!
+| level = 70
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Hammer
+| keywords = {{KWAB|Hammer}}{{KWAB|LookAtMyHammer}}{{KWAB|HammerNonBasic}}{{KWAB|SurvivalUtility}}
+| special = Restores 0 Health. Restores 150 Armor. Restores 40 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Look At My Hammer 8
+| description = Hold that fancy hammer up for all to see. You are mighty, and this hammer is amazing! Who can stop you now?!
+| level = 80
+| power cost = 0
+| reuse time = 30
+| range = 3 meters
+| skill = Hammer
+| keywords = {{KWAB|Hammer}}{{KWAB|LookAtMyHammer}}{{KWAB|HammerNonBasic}}{{KWAB|SurvivalUtility}}
+| special = Restores 0 Health. Restores 165 Armor. Restores 45 Power.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

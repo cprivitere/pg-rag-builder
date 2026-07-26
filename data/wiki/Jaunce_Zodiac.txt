@@ -1,0 +1,40 @@
+__NOTOC__
+{{NPC infobox
+|title            = Jaunce Zodiac
+|image            = [[File:Jaunce Zodiac (npc).png|300px]]
+|caption          = Shifty-eyed
+|zone             = Statehelm
+|town = Statehelm
+|location         = Wandering/Fountain
+|anatomy = Human
+|species = Human
+|beastspeak       = ?
+}}
+{{Quote|source=[[Jaunce Zodiac]]|Every long-term citizen knows the sewer is full of the occasional slime, but recently everybody's talking about them. Must be slime mating season down there.}}
+[[Jaunce Zodiac]] is a human who lives in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Jaunce Zodiac]] may be found wandering around Statehelm during the day.
+== Favor ==
+=== Small Talk ===
+[[Jaunce Zodiac]] does not use the favor system.
+== Quests ==
+[[Jaunce Zodiac]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Jaunce Zodiac
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Jaunce Zodiac]]|
+I get readings from Gossamyr the fairy. She works behind Farsight's stall in the shopping district. Dirt cheap, and she really can see the future!
+
+There's always a catch, of course, but the point is that she's not a fake.}}
+{{Quote|source=[[Jaunce Zodiac]]|
+All sorts of things happen during the full moon. I hate it.}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

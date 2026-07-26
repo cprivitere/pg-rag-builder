@@ -1,0 +1,50 @@
+==<b>November 8 Update</b>==
+
+===<b>PLEASE READ!</b>===
+Lots of changes. These notes are super condensed, just the most important stuff. (Full version will be on forum soon-ish.)
+
+===<b>Rebalancing Highlights</b>===
+
+:- Monsters: High-level non-elite monsters have been given more health. DPS equipment has been nerfed. These are steps toward making combats last longer, so other roles (healing, rage reduction, etc.) are more meaningful. We're not quite there yet, but we're closer. If you're level 50+ you will do noticeably less damage when you log in.
+
+:- Monsters are now worth a bit more XP to compensate for taking a bit longer to kill.
+
+:- Treasure: All random treasure effects have been changed, at least to some extent. Hopefully many more treasure effects are interesting now.
+
+:- Abilities: If you use [[Druid]] or [[Lycanthropy|Werewolf]], check your abilities; they have changed. Druid has only a couple changes whereas Werewolf abilities have changed very dramatically. There are also a lot of new werewolf gear effects. 
+
+:- Other skills have a few changes here and there, but nothing enormous. The big changes were to gear.
+
+:- Level Caps: [[Fire Magic]] can now be raised to level 60 (see a new NPC in the desert); Werewolf can be raised to 60 (but only during the full moon; see the werewolf altar). Note for werewolves: you do not need to be level 50 in order to raise the level cap to 60. You can be any level to buy the power-up from the werewolf altar during the full moon.
+
+:- [[Augmentation]]: The augmentation skills now work differently. You now rip augments off of items and put them into augment cubes. There are no more oils. Your existing levels in these skills have been retained, but you will need to get the new recipes from the trainer NPCs. Unfortunately if you had any oils in storage, they've been deleted because we couldn't keep them working alongside the new system.
+
+:- [[Transmutation]]: There's a new skill called Transmutation which lets you randomly re-roll powers on your gear. You can find the NPC for this skill in the desert. (She's in... uh, one of the four corners, I'm not sure which way is north in there... she's in a small house.)
+
+===<b>Prototype of "Combat Refresh"</b>===
+
+:This build includes a prototype of a new power system we're playing with. Basic abilities (such as Punch, Sword Slash, Deer's Antler Slash, etc.) no longer cost Power to use. In addition, once every 10 seconds these abilities can trigger a "combat refresh" which restores some Power to you. Your equipment can also boost the stats of your Combat Refresh; check the armor for details.
+
+:This system needs some refinement, such as an indicator that lets you know when the 10 seconds are up. But I wanted to get your feedback on the prototype before we polish it up too much.
+
+:Other Power Changes: Food/drink/snacks now have the ability to restore power in-combat as well as out of combat; see the individual foods for details.
+
+===<b>New Yeti Content</b>===
+
+:- There are some new floors in the [[Yeti Cave|Yeti Caves]]. These areas are deeper and intended for a small group (whereas the upper floor is supposed to be soloable). The new areas should be a fun and rewarding challenge for 3 level 40s or 2 level 50s.
+
+:- Because the caves can be confusing and non-linear, a few bits of info to help you know if you've been everywhere: there are four unique sub-bosses and five special chests. (The chests have level 40-50 loot and crafting materials, and require keys which are rare-dropped from any yeti.)
+
+:- Replaced the yetis that could encase themselves in ice with a different kind of yeti (the Yeti War Screamer). The old kind of yeti became an Elite and can only be found in the new deep-dungeon levels.
+
+===<b>Halloween Content (no spoilers)</b>===
+
+:- There is something wrong with the sacrificial altar in [[Serbule]]. [[Velkort]] is very concerned about it; see him for more information.
+
+
+That's the short version of the patch notes. The long, long, long version will be posted on the forums in a day or two.
+Thanks for your patience with all these changes, I know it can be a pain! The balance changes aren't even close to finished, this was just laying some balancing groundwork. There will be many more buffs and nerfs to come, but we'll try to keep you in the loop as to the plans.
+
+- Eric
+
+[[Category:Game updates]]

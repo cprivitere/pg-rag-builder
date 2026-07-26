@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+You're killing spiders in Serbule Hills.
+
+This Quest can be repeated after 0 hours.
+
+===Preface===
+<b>Hunting: Black Widow Spiders</b>
+These highly venomous spiders eat many dangerous pests. However, they also like to eat people, and they especially love sneaking up on campers and caravans in the night.
+
+===Requirements===
+* Kill Spiders x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 250 Combat XP for your active skills
+* 50 XP in Arthropod Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Hunting Quests]]
+
+=== Hunting Guide ===
+This [[Hunting Quests|Hunting Quest]] calls for the elimination of [[Black Widow Spider]]s, which are are common across [[Serbule Hills]].<br />
+'''+''' [[Black Widow Spider]]s are found throughout the entire region, except for directly around the Ranalon-controlled lakes.

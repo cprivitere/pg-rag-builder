@@ -1,0 +1,90 @@
+__NOTOC__
+{{Skill infobox
+|title            = Psychology
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Understanding the mind of sentient creatures. Also, using that knowledge in combat and other stressful situations.
+|skilltype        = Combat Skill
+|maxlevel         = 100
+|req              =  N/A
+|skilltrainers    = [[Riger]], [[Helena Veilmoor]], [[Suspicious Cow]], [[Nissim]], [[Raina]] <!-- List skill trainers, 3 max -->
+|gem = {{Item|Tourmaline}}
+}}
+{{Quote|
+So tell me about your mother...
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Psychology''' is a strange skill that revolves around affecting allies/enemies by getting into their head. It's one of the most versatile support skills, with a mix of crowd control, healing, and rage reduction.
+
+=== In-Game Description ===
+Understanding the mind of sentient creatures. Also, using that knowledge in combat and other stressful situations.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Riger]] in [[Anagoge]] will not directly teach you Psychology, but after you complete his quest, he will allow you to read a Psychology book.
+* For players that do not want to go back to the island to learn Psychology, [[Yetta]] in [[Eltibule Keep]] sells a book titled ''Fighting with Psychology''. Alternatively completing the "alternative approach to continued slaughter..." for [[Oritania]]'s quest [[Kill Spiders]] will award Psychology experience and unlock it.
+* [[Helena Veilmoor]] and [[Suspicious Cow]] in [[Eltibule]] teach '''You Were Adopted''' 1-3 and '''But I Love You''' 1-2
+* [[Nissim]] in [[Amulna]] will unlock Psychology 51-60, 61-70, and teaches level 51+ abilities.
+* [[Raina]] in [[Fae Realm]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Emersil the Ever-Gloating]] deep beneath [[Povus]].
+* [[Cynthia Rolfe]] in [[Statehelm]] unlocks 81-90, 91-100, and [[Prodigy Potential]].
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* None
+=====Related Skills:=====
+* None
+=== Synergy Levels ===
+Bonus [[Synergy Levels]] for [[Psychology]] can be obtained from the following skills and levels:
+:; [[Compassion]]
+:: Level 40
+:; [[Gender Studies]]
+:: Level 30
+:; [[Meditation]]
+:: Level 20
+:; [[Mentalism]]
+:: Level 15, Level 44
+:; [[Phrenology]]
+:: Level 35 and level 35 in each of the eleven subskills
+:; [[Safecracking]]
+:: Level 50
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+
+===Equipment===
+<!-- Special equipment that is intended to be used by the skill goes here, including belts. -->
+{{belt|Belt of the Psychologist}} increases Base Damage dealt with Psychology by 8%. Can be created with [[Toolcrafting]] 18.
+
+{{belt|Belt of the Gladiator}} increases Base Damage dealt with Psychology and [[Sword]] combat skills by 7%. Can be bought from [[Joeh]].
+
+{{belt|Belt of the Medic}} increases Base Damage dealt with Psychology and [[Mentalism]] combat skills by 7%. Can be bought from [[Echur]].
+
+{{belt|Belt of the Sneak}} increases Base Damage dealt with Psychology and [[Unarmed]] combat skills by 7%. Can be bought from [[Echur]].
+
+{{belt|Belt of the Cunning Wolf}} increases Base Damage dealt with Psychology and [[Lycanthropy]] combat skills by 7%. Can be bought from [[Harry the Wolf]].
+
+{{belt|Belt of the Controller}} increases Base Damage dealt with Psychology and [[Druid]] combat skills by 7%. Can be bought from [[Agrashab]].
+
+{{belt|Belt of the Cunning Assailant}} increases Base Damage dealt with Psychology and [[Knife Fighting]] combat skills by 7%. Can be bought from ???.
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Psychology Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Psychology|
+{{:Xptables/TypicalCombatSkill}}
+}}
+== Trivia ==
+'''Write a little about this history of the skill, or things that don't belong in above areas'''
+
+== Gallery==
+
+[[Category:Skills]]

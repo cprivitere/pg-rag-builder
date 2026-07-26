@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Sonic Burst
+| description = Scream at the top of your lungs, injuring all enemies within close earshot.
+| level = 13
+| power cost = 24
+| reuse time = 15
+| range = 15 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|SonicBurst}}{{KWAB|Sonic}}
+| damage = 30 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Sonic Burst 2
+| description = Scream at the top of your lungs, injuring all enemies within close earshot.
+| level = 23
+| power cost = 30
+| reuse time = 15
+| range = 15 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|SonicBurst}}{{KWAB|Sonic}}
+| damage = 53 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Sonic Burst 3
+| description = Scream at the top of your lungs, injuring all enemies within close earshot.
+| level = 33
+| power cost = 37
+| reuse time = 15
+| range = 15 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|SonicBurst}}{{KWAB|Sonic}}
+| damage = 82 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Sonic Burst 4
+| description = Scream at the top of your lungs, injuring all enemies within close earshot.
+| level = 43
+| power cost = 43
+| reuse time = 15
+| range = 15 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|SonicBurst}}{{KWAB|Sonic}}
+| damage = 125 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Sonic Burst 5
+| description = Scream at the top of your lungs, injuring all enemies within close earshot.
+| level = 53
+| power cost = 48
+| reuse time = 15
+| range = 15 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|SonicBurst}}{{KWAB|Sonic}}
+| damage = 188 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Sonic Burst 6
+| description = Scream at the top of your lungs, injuring all enemies within close earshot.
+| level = 63
+| power cost = 54
+| reuse time = 15
+| range = 15 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|SonicBurst}}{{KWAB|Sonic}}
+| damage = 249 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Sonic Burst 7
+| description = Scream at the top of your lungs, injuring all enemies within close earshot.
+| level = 73
+| power cost = 60
+| reuse time = 15
+| range = 15 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|SonicBurst}}{{KWAB|Sonic}}
+| damage = 317 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Sonic Burst 8
+| description = Scream at the top of your lungs, injuring all enemies within close earshot.
+| level = 83
+| power cost = 66
+| reuse time = 15
+| range = 15 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|SonicBurst}}{{KWAB|Sonic}}
+| damage = 391 Nature
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

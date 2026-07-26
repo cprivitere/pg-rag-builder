@@ -1,0 +1,102 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Freeze Solid
+| description = Entomb a target in ice, rendering it incapable of moving or attacking. The effect is broken if the target is attacked.
+| level = 10
+| power cost = 13
+| reuse time = 30
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|FreezeSolid}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|IceMagicSingleTarget}}
+| damage = 16 Cold
+| special = Target becomes mesmerized for 10 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Freeze Solid 2
+| description = Entomb a target in ice, rendering it incapable of moving or attacking. The effect is broken if the target is attacked.
+| level = 20
+| power cost = 17
+| reuse time = 30
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|FreezeSolid}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|IceMagicSingleTarget}}
+| damage = 32 Cold
+| special = Target becomes mesmerized for 15 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Freeze Solid 3
+| description = Entomb a target in ice, rendering it incapable of moving or attacking. The effect is broken if the target is attacked.
+| level = 30
+| power cost = 20
+| reuse time = 30
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|FreezeSolid}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|IceMagicSingleTarget}}
+| damage = 51 Cold
+| special = Target becomes mesmerized for 20 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Freeze Solid 4
+| description = Entomb a target in ice, rendering it incapable of moving or attacking. The effect is broken if the target is attacked.
+| level = 40
+| power cost = 24
+| reuse time = 30
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|FreezeSolid}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|IceMagicSingleTarget}}
+| damage = 78 Cold
+| special = Target becomes mesmerized for 20 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Freeze Solid 5
+| description = Entomb a target in ice, rendering it incapable of moving or attacking. The effect is broken if the target is attacked.
+| level = 50
+| power cost = 27
+| reuse time = 30
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|FreezeSolid}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|IceMagicSingleTarget}}
+| damage = 120 Cold
+| special = Target becomes mesmerized for 25 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Freeze Solid 6
+| description = Entomb a target in ice, rendering it incapable of moving or attacking. The effect is broken if the target is attacked.
+| level = 60
+| power cost = 30
+| reuse time = 30
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|FreezeSolid}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|IceMagicSingleTarget}}
+| damage = 164 Cold
+| special = Target becomes mesmerized for 25 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Freeze Solid 7
+| description = Entomb a target in ice, rendering it incapable of moving or attacking. The effect is broken if the target is attacked.
+| level = 75
+| power cost = 35
+| reuse time = 30
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|FreezeSolid}}{{KWAB|Ranged}}{{KWAB|SignatureDebuff}}{{KWAB|IceMagicSingleTarget}}
+| damage = 235 Cold
+| special = Target becomes mesmerized for 25 seconds, or until attacked.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

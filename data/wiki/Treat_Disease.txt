@@ -1,0 +1,61 @@
+__NOTOC__
+
+'''Treat Disease''' is an ability unlocked by leveling the [[First Aid]] Skill. 
+
+The first three Treat Disease abilities are unlocked by leveling the First Aid skill, and the remaining Treat Disease abilities must be learned from skill trainers.
+
+* [[Treat Disease|Treat Disease 1]] - Automatically Unlocked when level 15 [[First Aid]] skill is reached.
+* [[Treat Disease|Treat Disease 2]] - Automatically Unlocked when level 35 [[First Aid]] skill is reached.
+* [[Treat Disease|Treat Disease 3]] - Automatically Unlocked when level 50 [[First Aid]] skill is reached.
+
+
+
+'''Skill Trainers''' for Treat Disease Include:
+
+* [[Leah Bowman]] - Teaches [[Treat Disease|Treat Disease 4]] when level 65 [[First Aid]] skill is reached. Requires ??? Favor.
+
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Treat Disease
+| description = Use a Basic First Aid Kit (or better) to remove one basic disease from yourself or an ally. The First Aid Kit is used up.
+| level = 15
+| power cost = 18
+| reuse time = 20
+| range = 5 meters
+| skill = First Aid
+}}
+|-
+|
+{{Ability infobox
+| name = Treat Disease 2
+| description = Use a Good First Aid Kit (or better) to remove one complex disease from yourself or an ally. The First Aid Kit is used up.
+| level = 35
+| power cost = 27
+| reuse time = 20
+| range = 5 meters
+| skill = First Aid
+}}
+|-
+|
+{{Ability infobox
+| name = Treat Disease 3
+| description = Use an Expert's First Aid Kit (or better) to remove one advanced disease from yourself or an ally. The First Aid Kit is used up.
+| level = 50
+| power cost = 33
+| reuse time = 20
+| range = 5 meters
+| skill = First Aid
+}}
+{{Ability infobox
+| name = Treat Disease 4
+| description = Use a Master's First Aid Kit (or better) to remove one serious disease from yourself or an ally. The First Aid Kit is used up.
+| level = 65
+| power cost = 38
+| reuse time = 20
+| range = 5 meters
+| skill = First Aid
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

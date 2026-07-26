@@ -1,0 +1,41 @@
+__NOTOC__
+''Previous quest: [[The Stolen Lens]] (must also have received Vampirism from Truxartis) — first quest of Chain C''
+
+==Summary==
+[[Truxartis]] sent me to find a Tuvillic Rune in the walls of [[Eltibule Keep]] and retrieve a stored ointment. Chain C is independent of Chains A and B and can be started as soon as you receive Vampirism.
+
+===Prerequisites===
+To start this quest, talk to '''[[Truxartis]]''' in '''[[Vidaria]]'''. The quest is available after completing [[The Stolen Lens]] and receiving the Vampirism skill from [[Truxartis]].
+
+===Preface===
+{{Quote|While I am still... more powerful than you could ever dream to be, I... have been robbed of much of my... power. But do not worry. You shall help me recover.
+
+Not too long ago I had a thrall hide supplies in an abandoned keep in Eltibule. Find a way into the walls and find a rune of Tuvillus.
+Defeat the primitive guardian and... bring me the ointment it guards. Hurry.}}
+
+===Requirements===
+* Touch Vampire Rune in [[Eltibule Keep]] Walls
+* Obtain {{Item|Special Potion}} x1
+* Talk to [[Truxartis]]
+
+===Rewards===
+{{Spoiler|Rewards for Lost Strength|
+{{Quote|This ointment is ruined!
+
+No, it's not your fault. The idiot thrall created this, and he didn't... listen when I said to pack the nightshade... separately.
+
+Let this be a lesson - never take shortcuts in alchemy.
+
+I suppose we shall have to create a new...
+batch.}}
+
+* 50 {{Favor|favor}}
+* 10 Blood Oaths
+}}
+
+===Notes===
+{{Spoiler|Notes|
+Find the entrance to the interior of the walls in [[Eltibule Keep]]. Defeat the guardian inside to retrieve the stored potion.
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Truxartis]]

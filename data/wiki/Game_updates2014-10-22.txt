@@ -1,0 +1,7 @@
+==October 22, 2014==
+
+-Server-side update to fix some lag and instability problems
+
+- We've now launched the new projectgorgon.com website, which has integrated forums!  You can log in with your game account.
+
+[[Category:Game updates]]

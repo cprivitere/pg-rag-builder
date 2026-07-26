@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Mittens in Kur Mountains asked for some winterhue flowers. They bloom all around Kur Mountains starting at 5am, but they die off as the afternoon sun reaches its peak.
+
+===Prerequisites===
+To start this quest, talk to '''[[Mittens]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I have a very personal request. Red told me he likes winterhues! You know, that flower that grows here? Can you get me a few to give to him?
+
+Winterhues bloom at dawn, but they die off very quickly in the afternoon hours. So your best bet is to hunt for them starting at 5 am.}}
+
+===Requirements===
+* Obtain {{Item|Winterhue}}s x3
+* Talk to Mittens
+
+===Rewards===
+{{Spoiler|Rewards for The Dawn Flower|
+{{Quote|They're pretty! Thank you. Red will love them. Here... it's embarrassing, but this is all I have to offer in exchange.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Cavefish}} x 5
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Mittens]]

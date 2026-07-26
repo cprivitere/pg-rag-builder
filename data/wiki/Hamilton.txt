@@ -1,0 +1,244 @@
+__NOTOC__
+{{NPC infobox
+|title            = Hamilton
+|image            = [[File:Hamilton (npc).png|300px]] 
+|caption          = A no-nonse boar
+|zone             = Statehelm
+|dungeon = Statehelm Sewers
+|location         = Animal Room
+|anatomy = Non-Ruminant Ungulate
+|species = Pig
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Pig]], [[Survival Instincts]]
+}}
+{{Quote|source=[[Hamilton]]| 
+...
+}}
+[[Hamilton]] is a pig living in the [[Statehelm Sewers]].
+== Location ==
+; [[Statehelm Sewers]]
+: [[Hamilton]] can be found in the Animal Rooms.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Hamilton]] rewards his friends with ???
+== Quests ==
+[[Hamilton]] does not offer quests to those with '''{{favor|Neutral}}''' favor.
+<!--
+[[Hamilton offers...
+<dpl>
+category = Quests/Hamilton
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Pig]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Pig{{pipe}}Unlock Pig Skill Levels 81-90
+ |skilllevel = 80
+ |cost=300 SR or 800000 
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Pig{{pipe}}Unlock Pig Skill Levels 91-100
+ |skilllevel = 90
+ |cost=500 SR or 1200000 
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Pig{{pipe}}Unlock Pig Prodigy Potential
+ |skilllevel= 104
+ |cost=150 SR or 300000 
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Pig Bite 11
+ |skilllevel= 100
+ |cost= 69840 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pig Bite 12
+ |skilllevel= 110
+ |cost= 84120 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Truffle Sniff 11
+ |skilllevel= 105
+ |cost=76680 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Grunt of Abeyance 10
+ |skilllevel= 98
+ |cost= 67200 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Grunt of Abeyance 11
+ |skilllevel= 108
+ |cost= 81000 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pig Rend 7
+ |skilllevel= 106
+ |cost= 78120 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Frenzy 9
+ |skilllevel= 99
+ |cost= 68520 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Frenzy 10
+ |skilllevel= 110
+ |cost= 84120 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Strategic Chomp 7
+ |skilllevel= 96
+ |cost= 64800 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Strategic Chomp 8
+ |skilllevel= 104
+ |cost= 75240 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Strategic Chomp 9
+ |skilllevel= 113
+ |cost= 88800 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pig Punt 7
+ |skilllevel= 98
+ |cost= 67200 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pig Punt 8
+ |skilllevel= 111
+ |cost= 85680 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Squeal 7
+ |skilllevel= 99
+ |cost= 68520 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Squeal 8
+ |skilllevel= 111
+ |cost= 85680 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Mudbath 7
+ |skilllevel= 98
+ |cost= 67200 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Mudbath 8
+ |skilllevel= 112
+ |cost= 87240 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Porcine Alertness 5
+ |skilllevel= 101
+ |cost= 71160
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Survival Instincts]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Survival Instincts{{pipe}}Unlock Survival Instincts Skill Levels 81-90
+ |skilllevel = 80
+ |cost=300 SR or 600000 
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Survival Instincts{{pipe}}Unlock Survival Instincts Skill Levels 91-100
+ |skilllevel = 90
+ |cost=500 SR or 1000000 
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Survival Instincts{{pipe}}Unlock Survival Instincts Prodigy Potential
+ |skilllevel= 104
+ |cost=150 SR or 300000
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Toughen Up 11
+ |skilllevel= 100
+ |cost= 69840
+ |favor=?
+}}
+{{NPC training row
+ |ability=Toughen Up 12
+ |skilllevel= 110
+ |cost= 84120
+ |favor=?
+}}
+{{NPC training row
+ |ability=Lend Grace 6
+ |skilllevel=  108
+ |cost= 81000 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Toxic Flesh 11
+ |skilllevel= 103
+ |cost= 73800
+ |favor=?
+}}
+{{NPC training row
+ |ability=Toxic Flesh 12
+ |skilllevel= 113
+ |cost= 88800
+ |favor=?
+}}
+|}
+
+== Services ==
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Hamilton]]| 
+...}}
+
+[[Category:NPCs]]

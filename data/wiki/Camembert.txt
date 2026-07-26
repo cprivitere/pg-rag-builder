@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Hiral at the fairy tree has asked for some camembert cheese.
+
+===Prerequisites===
+To start this quest, talk to '''[[Hiral]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|We don't really get much cheese in the fae realm. I mean, the troll-dogs are technically milkable, but... ugh. This world's cheeses are amazing! I had a bite of one that I'd love to try again. It was called 'camembert'. Do you have any?}}
+
+===Requirements===
+* Obtain {{Item|Camembert Cheese}}
+* Talk to Hiral
+
+===Rewards===
+{{Spoiler|Rewards for Camembert|
+{{Quote|Thanks! I'm going to save this and share it with Yagreet later. She works so hard, you know? But hey, here. I brought it with me from the fae realm.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Fae Bead Necklace}}
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Hiral]]

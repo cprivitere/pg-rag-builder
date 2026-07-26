@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Pouncing Rake
+| description = Claw your enemy. If their armor is weak, also stuns them.
+| level = 5
+| power cost = 16
+| reuse time = 10
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|PouncingRake}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 25 Slashing
+| special = Stuns opponent if their armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Pouncing Rake 2
+| description = Claw your enemy. If their armor is weak, also stuns them.
+| level = 25
+| power cost = 26
+| reuse time = 10
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|PouncingRake}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 58 Slashing
+| special = Stuns opponent if their armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Pouncing Rake 3
+| description = Claw your enemy. If their armor is weak, also stuns them.
+| level = 45
+| power cost = 36
+| reuse time = 10
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|PouncingRake}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 137 Slashing
+| special = Stuns opponent if their armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Pouncing Rake 4
+| description = Claw your enemy. If their armor is weak, also stuns them.
+| level = 60
+| power cost = 43
+| reuse time = 10
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|PouncingRake}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 231 Slashing
+| special = Stuns opponent if their armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Pouncing Rake 5
+| description = Claw your enemy. If their armor is weak, also stuns them.
+| level = 75
+| power cost = 51
+| reuse time = 10
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|PouncingRake}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 332 Slashing
+| special = Stuns opponent if their armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Pouncing Rake 6
+| description = Claw your enemy. If their armor is weak, also stuns them.
+| level = 90
+| power cost = 61
+| reuse time = 10
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|PouncingRake}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 445 Slashing
+| special = Stuns opponent if their armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Pouncing Rake 7
+| description = Claw your enemy. If their armor is weak, also stuns them.
+| level = 105
+| power cost = 70
+| reuse time = 10
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|PouncingRake}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 568 Slashing
+| special = Stuns opponent if their armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Pouncing Rake 8
+| description = Claw your enemy. If their armor is weak, also stuns them.
+| level = 120
+| power cost = 79
+| reuse time = 10
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|PouncingRake}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 702 Slashing
+| special = Stuns opponent if their armor is below 33%.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

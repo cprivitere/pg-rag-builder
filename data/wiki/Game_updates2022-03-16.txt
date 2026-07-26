@@ -1,0 +1,17 @@
+__NOTOC__
+==Update Notes: March 16, 2022==
+This is a minor bug-fix update to fix issues with our latest major update.
+
+: - Fix problems with projectiles that persist after monster death
+: - Reverted unintentional lighting change that made certain dungeons extra dark (including "under the model home" and "Dark Chapel" dungeons)
+: - Fixed treasure effect "Nip boosts the damage of Basic, Core, and Nice attacks +X for 6 seconds" which actually buffed the enemy, not the attacker
+: - Item prompt now only shows when appropriate for NPCs
+: - Fix floating barrels in Goblin Dungeon
+: - Stop auto-running when using an ability on an enemy
+: - Fix minor padding issue in crafting window ingredients
+
+We'll be back with more fixes and features soon!
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

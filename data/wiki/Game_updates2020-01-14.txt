@@ -1,0 +1,10 @@
+==January 14 Hotfix==
+The server was rebooted to fix a bug:
+: - Fixed the Warden intro sub-quest "The Warden Test", which couldn't be completed in the new Sun Vale
+
+It also included these less-important fixes which happened to be ready:
+: - All crafted belts now have a chance to be Uncommon (instead of non-magical). That chance is 33%, 66%, or 100%, depending on the difficulty of the recipe. (Previously, only a select few belt recipes could craft magical belts.)
+: - Crafted bat witch hats have better chances of being higher-rarity
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

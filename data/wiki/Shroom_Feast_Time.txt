@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Ailred in Povus said, "Are you finally ready to take my order? I've been waiting for hours! Yes, I'd like the shroom feast, please. And please try to keep it as ungreasy as possible."
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ailred]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+Are you finally ready to take my order? I've been waiting for hours! Yes, I'd like the shroom feast, please. And please try to keep it as ungreasy as possible.
+
+===Midway===
+Where is my shroom feast? I'm starving!
+
+===Requirements===
+* Craft Shroom Feast
+* (Keep Shroom Feast)
+* Talk to Ailred
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Well, there's a bit too much salt, but it's not too greasy! My thanks to the chef.}}
+* {{Item|Xogrite Chunk}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ailred]]

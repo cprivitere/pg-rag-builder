@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Westley in Serbule asked for help gathering the ingredients for a medicinal balm.
+
+This Quest can be repeated after 60 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Westley]]''' in '''[[Serbule]]'''.
+
+===Requirements===
+* Obtain Milk
+* Obtain Mandrake Root
+* Obtain Antler
+* Talk to Westley
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you! Oh, thank the gods. I've been rubbing myself raw! Sorry, bad imagery. The other elves keep telling me to watch my unsexy phrasing. But anyway, thank you.}}
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Westley]][[Category:Quests/Halloween Quests]]

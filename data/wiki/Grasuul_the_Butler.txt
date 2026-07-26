@@ -1,0 +1,36 @@
+__NOTOC__
+''Previous quest: [[The Stolen Lens]]''
+
+==Summary==
+Truxartis asked me to find his butler [[Grasuul]] at a cursed lake in [[Vidaria]] and convince him to return. Completing this quest unlocks the daily Blood Oath quests.
+
+===Prerequisites===
+To start this quest, talk to '''[[Truxartis]]''' in '''[[Vidaria]]'''. The quest is available after completing [[The Stolen Lens]] and receiving the Vampirism skill from Truxartis.
+
+===Preface===
+{{Quote|First and foremost, you should find my... butler. He was once a ghoul. And I suppose he is still a ghoul, of a sort. But he is ... more. He can sense hatred in the air. It is MOST valuable.
+
+Grasuul ran away when I was forced into repose. But I know where he would go: I spied a cursed lake near the ruby wall. He would no doubt be there, reveling in anguish. Grasuul is... not well.
+
+Tell Grasuul that I have awoken. He will come back.}}
+
+===Requirements===
+* Convince Grasuul to Return (speak to Grasuul at the cursed lake near the ruby wall in Vidaria)
+* Talk to Truxartis
+
+===Rewards===
+{{Spoiler|Rewards for Grasuul the Butler|
+{{Quote|Grasuul has returned! Now we can find the best sources of blood. Excellent.}}
+
+* 50 {{Favor|favor}}
+* 10 Blood Oaths
+* Unlocks the Grasuul NPC
+* Unlocks all four daily Blood Oath quests
+}}
+
+===Notes===
+{{Spoiler|Notes|
+After completing this quest, [[Grasuul]] can tell you the current blood target (the target type for the current real-world day, resetting at midnight EST) and the current in-game weather.
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Truxartis]]

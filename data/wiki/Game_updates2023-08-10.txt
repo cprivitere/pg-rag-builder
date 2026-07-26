@@ -1,0 +1,152 @@
+==Update Notes: August 10, 2023==
+This update sees some serious upgrades for Battle Chemists, improvements to pet and enemy AI, an XP system tweak, and : - as always : - a lot of bug fixes large and small.
+
+===Battle Chemistry Changes===
+We've heavily revised [[Battle Chemistry]] in this update. This will seem like an especially large change, because it is! Battle Chemistry was "skipped over" during the last round of skill rebalancing because we were considering splitting the skill into two separate skills. But after prototyping that split, it doesn't seem more fun than what we already had. So instead we're embracing the skill's quirky nature and refining the ways you can take advantage of its many tools.
+
+While most of these changes should be good news to battle chemists, note that there's an effective nerf, too: we've fixed a bug that allowed you to take off your Mutation-buffing equipment but still keep the benefits of that equipment. The intended behavior is that taking off equipment disables all the buffs it provided. (This should be true for all skills, btw! If you find places where that isn't the case, please report it.)
+
+Battle Chemistry has three key features: the programmable golem pet (also called a "minigolem"), Mutations, and chemical attacks and buffs. We'll give the details for each. To help you adjust your character to these changes, Battle Chemistry Transmutation costs will be much lower for the rest of August.
+
+====Mini-Golem====
+[[Battle Chemistry]] features a programmable golem which is given a list of rules to follow in combat. Previously, it checked its rules once every 5 seconds, meaning that it only used an ability once every 5 seconds. To improve responsiveness, the golem now chooses an ability every 3 seconds. Golem abilities that previously had a 5-second reuse time now have a 3-second reuse time: Poison Bomb Toss, Taunting Punch, and Healing Injection. These abilities were revised based on this new reset time.
+
+The "Trigger Golem" side-bar ability is no longer a toggled ability. It now has a 15-second reuse time. Using the ability will instruct the golem to immediately check its ruleset and choose an ability, rather than waiting until its regular 3-second timer is up. (You can use the golem conditional "Owner has triggered golem" to program a specific response to this ability.)
+
+The golem was already a pretty good healing-bot, so it has comparatively minor buffs in that area. Its combat abilities, on the other hand, have been improved dramatically as there was much room for improvement. For historic reasons Battle Chemistry has a bunch of three-slot treasure effects for the golem -- meaning that the same power can show up on Chest, Legs, and Head gear, for instance -- and that seems interesting because it allows you to really hone in on a few specific golem abilities. But since "programmability" is the point of the golem, we don't want your gear to lock you out of using other abilities too much. So all those three-slot effects also boost the golem's overall damage or health.
+
+Next is a list of all the changes. Before we begin, a note on syntax. Here's how we document a change to a treasure effect:
+: - (SlotsThisPowerCanShowUpOn): "This effect does blah blah blah at level 100" => changed behavior of the effect at level 100
+
+With that out of the way, here's the golem-related changes:
+: - UI: fixed blank ability labels in golem programming UI window
+: - Fixed the ability icons of some of the mini-golem's abilities
+: - New golem conditional group: "Any group member is below X% Health"
+: - Minigolem abilities: all damaging abilities deal more damage
+: - Minigolem abilities: all abilities now scale to level 80. You can purchase the new ability tiers from the usual dude in Rahu
+: - Minigolem ability Rage Acid Toss: now aoe-splashes to hit all enemies within 20m of its target. (Primary target can still be up to 35m away)
+: - Minigolem Rage Mist abilities: reset time is now 5 seconds instead of 15. (But ability still requires a full Rage bar)
+: - Minigolem Rage Acid Toss abilities: reset time is now 5 seconds instead of 30. (But ability still requires a full Rage bar)
+: - Minigolem Self Destruct abilities: aoe range increased from 10m to 20m
+: - Minigolem Taunting Punch abilities: increased innate temp-taunt so that golem can briefly pull aggro more reliably
+: - (Head, Necklace): "Your golem minion's Taunting Punch deals +100 damage" => "Your golem minion has +25% Max Health and its attacks taunt +600"
+: - (Chest, Legs, Head): "Your golem minion's Poison Bomb deals +82 damage" => "Your golem minion's attacks deal +120 damage"
+: - (Hands, Feet, Ring): "Your golem minion's Self Destruct deals +360 damage" => "Your golem minion's attacks deal +25% Damage, and its Self Destruct deals +777 damage"
+: - (Head, OffHand, Necklace): "Your golem minion's Rage Acid Toss deals +243 damage" => "Your golem minion's attacks deal +25% Damage, and its Rage Acid Toss deals +357 damage"
+: - (Ring, MainHand, Feet): "Your golem minion's Doom Admixture deals +340 damage" => "Your golem minion's attacks deal +25% Damage, and its Doom Admixture deals +340 damage"
+: - (Legs, MainHand): "Your golem minion's Invigorating Mist heals 58 health" => "Your golem minion's Invigorating Mist restores +58 Power"
+: - New treasure effect: (OffHand): "Your golem minion's Fire Balm absorbs the first 198 Fire damage you suffer in the next 15 seconds"
+
+
+====Mutations====
+Mutations are the Battle Chemist's signature buff. Mutation abilities go on your sidebar. You use these abilities on yourself and your allies, and they provide potent buffs that last an hour. There's only one small catch: you can only have one Mutation on you at a time. For that reason, all available Mutations need to be pretty good, or else you'd use a better one instead! We've whittled down the previous five Mutations into three: Extra Toes grants nimbleness and speed and makes your Kicks dramatically better. Extra Skin protects you from damage, and Extra Heart helps you regenerate Power and, to a lesser extent, Health.
+
+Here's the details:
+: - The abilities "Mutation: Knee Spikes" and "Mutation: Extra Toes" have been combined, giving the benefits of both in one. For fiction reasons, the name Extra Toes makes more sense than Knee Spikes. But the old Knee Spikes ability had more tiers, which makes for smoother leveling. So we've dropped the old Extra Toes ability and renamed the old Knee Spikes ability to Extra Toes. If you're confused, we don't blame you, but long story short: if you were using Knee Spikes OR Extra Toes, you'll want to make sure that Extra Toes is on your ability bar.
+: - The ability "Mutation: Stretchy Spine" has been retired as being too niche. Its treasure effects were revised to apply to other mutations instead.
+: - Extra Heart abilities: instead of boosting Power Regeneration, now boosts Combat Refresh Power Restoration
+: - Treasure Effects that previously boosted Knee Spikes now boost Extra Toes
+: - Mutations: fixed bugs that caused treasure buffs to remain on targets even if the caster unequipped the treasure responsible for the buff
+: - (Chest): "Your Stretchy Spine mutation randomly repairs broken bones twice as often" => "Your Extra Heart mutation grants you -50% Indirect Poison Vulnerability and randomly repairs broken bones over time"
+: - (Head, Chest): "Your Knee Spikes mutation also causes kicks to restore 22 Health to the kicker" => "Your Extra Toes mutation also causes kicks to restore 44 Health to the kicker"
+: - (Legs): "Your Knee Spikes mutation causes kicks to deal an additional +24% damage" => Your Extra Toes mutation causes kicks to deal an additional +30% damage
+: - (Hands, MainHand): "Your Extra Skin mutation causes the target to heal 67 Health every 20 seconds" => 78 every 15 seconds
+: - (Necklace, OffHand): "Your Extra Skin mutation provides +22 mitigation from Slashing attacks" => +27 mitigation from Slashing and direct Acid damage
+: - (Legs, MainHand): "Your Extra Skin mutation provides +22 mitigation from Piercing attacks" => +27 mitigation from Piercing and direct Poison damage
+: - (Hands, OffHand): "Your Extra Heart and Stretchy Spine mutations grant the target +67 Max Health" => "Your Extra Heart and Extra Skin mutations grant the target +71 Max Health"
+: - (Necklace): "Your Extra Heart mutation causes the target to regain +74 Power every 6 seconds" => every 8 seconds
+: - New treasure effect: (Feet): "Your Extra Toes mutation grants the target +100% Knockback Resistance"
+: - New treasure effect: (Legs): "Your Extra Toes mutation grants the target +58% Slow/Root Resistance"
+: - New treasure effect: (Chest): "Your Extra Heart and Extra Toes mutations grant the target +67 Max Power"
+: - New treasure effect: (Head): "Your Extra Heart mutation grants the target +23% Max Power"
+: - New treasure effect: (Hands): "Your Extra Toes mutation grants the target +15.5% Ranged Evasion"
+
+
+====Splashin' Chemicals====
+While Battle Chemistry isn't intended to be a damage powerhouse, it still had room for improvement in terms of synergizing with other combat skills. Each of the skill's three main bomb abilities now has a treasure effect that adds a corresponding damage-over-time (DoT) effect. Note that these DoTs are a little special: unlike most DoTs which tick every 2 or 3 seconds, these DoTs tick every second. As a result, flat indirect damage boosts are more potent for these specific DoTs.
+
+Since Extra Toes is all about kicking, it seemed a shame that the Unarmed skill couldn't take full advantage of it for themselves (because they'd need to hold a beaker). So we've added new Alchemist's Claw craftable weapons specifically to enable this skill combination. (They're kind of a pain to craft, though -- not intended for beginners.) We've also added craftable staff-beakers so you aren't as reliant on the handful of random loot items that enabled that combination before.
+
+There are also new crafted items that allow spiders, giant bats, and pigs to use Battle Chemistry! These recipes are rather difficult, though, and may require the assistance of an expert crafter (with hands).
+
+Here's the change list:
+: - [[Kohan]] in [[Rahu]] now teaches recipes for Alchemist's Claw weapons, which are complex unarmed/battle chemistry hybrid weapons. Crafting requires [[Gadgeteering]] 50 and a high level of [[Toolcrafting]].
+: - [[Ufkar]] in [[Rahu]] now teaches recipes for Chemistry Staff weapons, which allow all manner of staff-based skills as well as [[Battle Chemistry]]. Crafting requires [[Gadgeteering]] 50 and a high level of [[Carpentry]].
+: - Staff-Beaker combo weapons (such as the Beaker-Stick and the new Chemistry Staff) are now elligible to have Staff treasure effects on them. (And Fire Magic effects for fire-staff-beakers.)
+: - [[Yogzi]] in [[Sun Vale]] teaches recipes for Arachnid Mechaharnesses, which allow spiders to use Battle Chemistry. Crafting these intricate belts requires high levels of Toolcrafting skill.
+: - Yogzi in Sun Vale teaches recipes for Aerosolizing Bat Harnesses, which allow giant bats to use Battle Chemistry. Crafting these exotic belts requires high levels of Toolcrafting skill.
+: - [[Backfat]] in the [[Fae Realm]] teaches recipes for Porcine Blast Dispersers, which allow pigs to use Battle Chemistry. Crafting these bizarre bracelets requires high levels of [[Jewelry Crafting]] skill.
+: - Toxin Bomb abilities: base damage increased
+: - Toxic Irritant abilities: no longer a melee attack; now a ranged projectile attack with a 10m range
+: - Mycotoxin Formula abilities: base damage increased
+: - Acid Bomb ability: ability now does both direct Health and direct Armor damage. Power cost and base damage increased
+: - Freezing Mist ability: reset time changed from 45s to 30s. Ability fully functions as a Bomb. (The fire DoT treasure effect previously didn't work on it). Damage revised upwards.
+: - (Chest, Feet): "Acid Bomb Damage +53%" => +59%
+: - (Feet, Ring): "You heal 26 health every other second while under the effect of Haste Concoction" => 36
+: - (Hands, Chest): "You regain 18 Power every other second while under the effect of Haste Concoction" => 34
+: - (Necklace, Legs): "Freezing Mist restores 165 Armor to you" => "Freezing Mist restores 165 Health (or Armor if Health is full) to you"
+: - New: (Head, Off-Hand): "Acid Bomb deals 198 Acid Damage to Health and Armor over 6 seconds"
+: - New: (Hands, Necklace): "Mycotoxin Formula deals 392 Nature Damage to Health over 8 seconds"
+: - New: (Chest, MainHand): "Toxin Bomb deals 385 Poison Damage to Health over 7 seconds"
+: - New: (Hands, Ring): "Freezing Mist Damage +195 and Reuse Time -7 seconds"
+: - New: (Hands): "Toxic Irritant deals +61 damage. If target has 5 or more Damage-over-Time effects, it also stuns them"
+: - New: (OffHand): "Toxic Irritant Damage +52 and Range +20"
+: - New: (Ring): "Toxic Irritant causes the target to suffer +15.5% from Acid Damage (including Toxic Irritant) for 15 seconds."
+===Game Systems Changes===
+====Pet Logic====
+: - Pets can now target Feared monsters. (They still cannot attack Mesmerized monsters.) This is an experiment; let us know if you like this change.
+: - Fixed a bug that could cause pets to stop responding to Sic 'Em and/or Clever Trick instructions.
+: - Potential fix for pets returning home too quickly. We'll monitor this to see if more needs to be done.
+: - When an Animal Handling pet tries to determine a target for Sic 'Em or Clever Trick, it can now check its owner's target's target. This means that if you have the group tank selected and use Sic 'Em, the pet can lock on the group tank's target.
+: - Fixed several subtle bugs where monsters and pets wouldn't use the right ability at the right time.
+====New Experimental Gameplay System: Monster Gang Buffs====
+Many monsters can now notice when they're ganging up on a target. When these monsters notice they're fighting alongside others, they will sometimes choose to stop fighting and buff themselves. This buff takes 5 seconds to cast, leaving them helpless during that time. Different types of monsters have different buffs; some are mild while others are pretty strong. The intention of this system is to add some variance to larger battles. 
+
+These buffs all have the same visual cue: the monster will be surrounded briefly in a green bubble with an up-arrow floating over it.
+====XP Dropoff Change====
+A few months ago, we made some changes to how much XP you earn from enemies above and below your level. we asked for your feedback on how this affected you, and based on that feedback we've revised how killing higher-level monsters works. Previously if your combat skill was more than 25 levels above the monster's level, you earned 0 XP. Now the monster's XP will downscale up to 100 levels of difference, effectively letting players kill any monster in the game and get a level-appropriate amount of XP for doing so. Note that after downscaling, higher-level monsters will earn roughly the same amount of XP as same-level monsters. So there's no big incentive to hunt monsters that are dramatically higher-level than you... there's just no punishment for doing so.
+
+===Everything Else===
+====VIP Challenge====
+The VIP Challenge that ran during the Summer Sales didn't do as well as we had hoped. We really wanted to give you more stuff! But we understand that money is tight for a lot of us. As a consolation prize ... err, participation prize, anyone who was a VIP member during the VIP Challenge has a new redemption available. You can find your special redemptions by clicking on the Persona tab on the right-hand sidebar, and then clicking on the icon of a present on the bottom right of that panel. 
+====Combat====
+: - Basic Attacks: many Basic Attacks deal slightly more damage at high level.
+: - [[Pig]] Frenzy ability: changes to the damage boost amount at each ability tier; highest tier changed from 60 to 118.
+: - Pig: (Legs, Ring) "Frenzy restores 30 power to all targets" => 76
+: - Pig: (Main Hand, Necklace) "Grunt of Abeyance restores 28 Power to all targets" => 52
+: - Pig: fixed some treasure effects that did not yet scale past level 80.
+: - Survival Instincts' Lend Grace ability: significantly increased Power regeneration. The stated +10% evasion buff is now actually applied.
+: - Rattail-Ring of Screeching: Nature Damage bonus reduced from +20% to +10%.
+: - The Sonic Burst Combo mod for bats will now do the correct damage on the final step.
+: - Toxic Flesh abilities: deal more damage to melee attackers.
+: - [[Hammer]] treasure effect: (Feet): "Rib Shatter dispels any roots or slows you are currently suffering. Power cost to sprint in combat is reduced -3 for 9 seconds" => "Rib Shatter dispels any roots or slows you are currently suffering. Sprint Speed is increased +3 and Power cost to sprint in combat is reduced -3 for 9 seconds"
+: - Droaches: high level Droach monsters deal more damage when their armor is depleted.
+: - Fixed a bug where monsters with special opening moves wouldn't always use them.
+: - Fixed an issue that might be the cause of reported "DoT persists for way too long" bugs. We'll monitor this to see if more needs to be done.
+: - Fixed bug that prevented earning auxiliary-combat-skill XP if you didn't earn XP in both of your main combat skills.
+
+====Other====
+: - Added work orders for all new angling fish. These can be found randomly at the work order sign in [[Sun Vale]] and the [[Red Wing Casino]].
+: - Added new "bulk" work orders for fish. These bulk orders require 99 fish and have a higher payout rate than normal. These work orders can be found as Angling junk loot.
+: - Reverted changes to fish fillet icons that unintentionally broke match-3.
+: - Elite Training Dummies have been renamed to Healthy Training Dummies, and no longer give combat wisdom.
+: - Fixed a bug where learning teleportation from [[Elmetaph]] would break future crafting animations.
+: - "Prioritize Unlooted Corpses" setting will no longer cause tab-targeting to stick to unlooted corpses.
+: - Fixed a bug causing some ability tooltips to show the wrong damage type when the type is changed via an item mod.
+: - Fixed a bug causing Skill XP Tracker to change its position.
+: - Fixed a bug causing tooltips to blink in the wrong spot when Use Tooltip Animation is disabled.
+: - Fixed a bug causing the minimap to be invisible until you toggle its visibility in settings.
+: - Search golem item results will no longer have a "1" in the icon.
+: - The crafting error message for being in the wrong area is now more accurate. (It tells you you must be IN the required area instead of NEAR it.)
+: - The Create New Character UI now scales with the screen size properly.
+: - Fixed a couple instances in the UI where the waving flag is invisible at certain resolutions.
+: - Default enemy nameplate color is now red.
+: - Fixed a bug preventing you from turning left/right after crafting certain recipes.
+: - Replaced the animations of several crafting recipes to be more accurate, rather than just sitting.
+: - Fixed some graphical problems with elven faces and hair.
+: - Lowered volume of some sounds, including eating and drinking sound effects and the water-ball particle effect used by some monsters.
+: - Revised audio settings on fireworks.
+: - Reduced horse selection hitbox size.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

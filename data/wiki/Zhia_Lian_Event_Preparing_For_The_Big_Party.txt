@@ -1,0 +1,38 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> You've been so helpful that I want to repay you with an amazing party! You just need to help get things prepared. Okay, actually this one might be a bit involved... see, it's a cult party. For my cult. Oh, it's fine, don't worry, it's not a murderous cult. It's a party cult! Or at least it will be.
+
+Now you have to promise not to say ONE WORD about how I'm talking into your head. Got it? As far as most people know, Zhia Lian does not like to talk directly into peoples' minds. It's extra work for me, and I'm sure as hell not gonna bother for people like these cultists. Don't make my life harder!
+
+If people ask why you're helping me, tell them I met you in person and you owe me a favor. Make up whatever details you want! Maybe we were arm wrestling and you lost. I really don't care.
+
+Anyway: there's a human named Brandon who needs help making the big party happen. He's in a hamlet in the Ilmari desert. Go help him!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> You've been so helpful that I want to repay you with an amazing party! You just need to help get things prepared. Okay, actually this one might be a bit involved... see, it's a cult party. For my cult. Oh, it's fine, don't worry, it's not a murderous cult. It's a party cult! Or at least it will be.
+
+Now you have to promise not to say ONE WORD about how I'm talking into your head. Got it? As far as most people know, Zhia Lian does not like to talk directly into peoples' minds. It's extra work for me, and I'm sure as hell not gonna bother for people like these cultists. Don't make my life harder!
+
+If people ask why you're helping me, tell them I met you in person and you owe me a favor. Make up whatever details you want! Maybe we were arm wrestling and you lost. I really don't care.
+
+Anyway: there's a human named Brandon who needs help making the big party happen. He's in a hamlet in the Ilmari desert. Go help him!
+
+===Requirements===
+* Assist Brandon Mellus
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Great work. The party is moving forward and I made sure you're on the guest list!
+
+Oh, hey, since only cult members can get into the party, and you're on the guest list, that means you must be in my cult now! Congratulations!
+
+Remember: you'll need a mask to get into the party, since it's a masquerade. But I'm sure you can find one somewhere.}}
+* 650 councils
+* {{Item|Event Loot Key (Universal)}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

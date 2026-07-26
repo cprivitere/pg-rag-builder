@@ -1,0 +1,116 @@
+__NOTOC__
+{{Skill infobox
+|title            = Orcish
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Fluency in Orcish, the ancient language of orcs -- as well as many other races and cultures.
+|skilltype        = Other Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Melandria]]
+}}
+{{Quote|
+Fluency in Orcish, the ancient language of orcs -- as well as many other races and cultures.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Orcish]] measures the comprehension of the [[Orc|Orcish]] language. This language is spoken by [[Orc]]s and other races.
+
+=== In-Game Description ===
+Fluency in Orcish, the ancient language of orcs -- as well as many other races and cultures.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* Orcs in [[Kur Mountains]] can drop the {{Item|Orcish Language Reference}}. This scroll can teach [[Orcish]].
+* [[Melandria]] in [[Gazluk Keep]].
+
+* Interactive objects in [[Gazluk Keep]] will grant you experience in [[Orcish]].
+
+* Many [[Orc]]s in [[Gazluk Keep]] can drop books that can raise your [[Orcish]] knowledge.
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* None
+=====Related Skills:=====
+* [[Goblinese]] - A similar language.
+* [[Orc Anatomy]] - Explores the physiology of Orcs.
+* [[Orc Phrenology]] - An understanding of Orcs based on careful study of the shape of their skulls.
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Orcish Language Documents===
+Reading a document for the first time grants a small amount of experience in Orcish, with a select few giving experience in other skills as well. Subsequent readings of the same document will grant 5 experience in Orcish.
+{| {{STDT|sortable}}
+!Document Name
+!Level
+!Orcish XP
+!Other XP
+|-
+| {{Item|Orcish Language Reference}} || 0 || 100 ||
+|-
+| {{Item|Orcish Military Phrasebook}} || 0 || 100 ||
+|-
+| {{Item|"Demands of The Deceased"}} || 0 || 100 ||
+|-
+| {{Item|Orcish Scroll About Swords}} || 0 || 100 || 500 XP in Sword
+|-
+| {{Item|Orcish Book On Weapons}} || 1 || 100 ||
+|-
+| {{Item|Orcish Book With Prayers}} || 3 || 100 ||
+|-
+| {{Item|Orcish Novel}} || 5 || 100 ||
+|-
+| {{Item|Orcish Warrior's Journal}} || 8 || 100 ||
+|-
+| {{Item|Orcish Weaponry Treatise}} || 11 || 125 ||
+|-
+| {{Item|Orcish Guard's Diary}} || 13 || 125 || 100 XP in Poetry Appreciation
+|-
+| {{Item|Orcish Scroll About Thaumaturges}} || 16 || 125 ||
+|-
+| {{Item|Orcish Field Medicine Guide}} || 19 || 150 || 500 XP in First Aid
+|-
+| {{Item|Orcish Race Guide}} || 23 || 150 ||
+|-
+| {{Item|Orcish Book About Weird Mages}} || 25 || 10 ||
+|-
+| {{Item|Orcish Scroll About Magic}} || 27 || 150 || 25 XP in Lore
+|-
+| {{Item|Odd Orcish Scroll}} || 30 || 200 ||
+|-
+| {{Item|Orcish Pronouncement}} || 32 || 225 || 25 XP in Lore
+|-
+| {{Item|Orcish Book On Knife Tricks}} || 33 || 225 ||
+|-
+| {{Item|Orcish Book About Thaumaturgy}} || 36 || 225 || 25 XP in Lore
+|-
+| {{Item|Orcish Book About Gotkul}} || 39 || 250 ||
+|-
+| {{Item|Orcish Book About Trebuchets}} || 42 || 275 ||
+|-
+| {{Item|Orcish Book About Tast}} || 44 || 275 || 25 XP in Lore
+|-
+| {{Item|Orcish Thaumaturge's Journal}} || 46 || 300 ||
+|-
+| {{Item|Orcish Treatise}} || 48 || 325 ||
+|}
+
+=== Gazluk Keep Records===
+(Explanation and list of items in Gazluk Keep that raise Orcish, and their required reading levels).
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Orcish Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Orcish|
+{{:Xptables/Goblinese}}
+}}
+
+== Trivia ==
+When [[Orcish]] was first introduced, [[Melandria]] did not have any favors or small-talk, and simply gifted a few levels of experience.
+<!--
+== Gallery==
+<gallery mode="nolines" widths=200px>
+File:Gazluk_Orcish_Point1.png|One readable item in Gazluk Keep.
+File:Gazluk_Orcish_Point2.png|One readable item in Gazluk Keep.
+File:Gazluk_Orcish_Point3.png|One readable item in Gazluk Keep.
+</gallery>
+-->
+[[Category:Skills]]

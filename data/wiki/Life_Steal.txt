@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Life Steal
+| description = Steal life force from the target's body, dealing Darkness damage and healing you. Does not have any effect on undead foes.
+| level = 8
+| power cost = 12
+| reuse time = 10
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|Necromancy}}{{KWAB|LifeSteal}}
+| special = Steals 10 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Life Steal 2
+| description = Steal life force from the target's body, dealing Darkness damage and healing you. Does not have any effect on undead foes.
+| level = 23
+| power cost = 18
+| reuse time = 10
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|Necromancy}}{{KWAB|LifeSteal}}
+| special = Steals 20 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Life Steal 3
+| description = Steal life force from the target's body, dealing Darkness damage and healing you. Does not have any effect on undead foes.
+| level = 35
+| power cost = 22
+| reuse time = 10
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|Necromancy}}{{KWAB|LifeSteal}}
+| special = Steals 32 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Life Steal 4
+| description = Steal life force from the target's body, dealing Darkness damage and healing you. Does not have any effect on undead foes.
+| level = 50
+| power cost = 27
+| reuse time = 10
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|Necromancy}}{{KWAB|LifeSteal}}
+| special = Steals 45 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Life Steal 5
+| description = Steal life force from the target's body, dealing Darkness damage and healing you. Does not have any effect on undead foes.
+| level = 60
+| power cost = 30
+| reuse time = 10
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|Necromancy}}{{KWAB|LifeSteal}}
+| special = Steals 60 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Life Steal 6
+| description = Steal life force from the target's body, dealing Darkness damage and healing you. Does not have any effect on undead foes.
+| level = 70
+| power cost = 34
+| reuse time = 10
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|Necromancy}}{{KWAB|LifeSteal}}
+| special = Steals 70 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Life Steal 7
+| description = Steal life force from the target's body, dealing Darkness damage and healing you. Does not have any effect on undead foes.
+| level = 80
+| power cost = 37
+| reuse time = 10
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|Necromancy}}{{KWAB|LifeSteal}}
+| special = Steals 80 Health.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

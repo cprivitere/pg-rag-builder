@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Pennoc in Serbule told you to kill creatures using explosive blasts.
+
+[[Psychology]]'s [[Mock]] with a treasure effect that causes it to hit all enemies within 20 meters does not count. [[Mentalism]]'s [[Panic Charge]] does not count. 
+
+The abilities in [[:Category:Ability/Burst|the Burst category]] work. 
+
+===Prerequisites===
+To start this quest, talk to '''[[Pennoc]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Despised}} favor.
+
+You must have previously completed [[Entertain Me: Deer Hunting]] in order to undertake this quest.
+
+===Preface===
+{{Quote|Explosions are entertaining! Go explode some animals! Or monsters! Or whatever!
+
+<i>[ The killing blow must be made with a burst attack, such as a bomb or explosion. ]</i>}}
+
+===Requirements===
+* Kill Creatures With Bursts
+* Talk to Pennoc
+
+===Rewards===
+{{Spoiler|Rewards for Entertain Me: Bursts of Death|
+{{Quote|That was kind of entertaining -- the bits I could see, anyway...}}
+
+This quest will reward random loot. This may include items with 25 level mods.}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Entertain Me]][[Category:Quests/Pennoc]]

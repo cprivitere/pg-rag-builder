@@ -1,0 +1,6 @@
+__NOTOC__
+==July 3: Beta Build 3==
+::- Fixed problems with settings not being saved on shutdown
+::- (Windows only) Uses Unity's IL2CPP back-end to provide better CPU performance. This optimization will be most notable on lower-end and older CPUs. It doesn't affect GPU tasks, meaning that your displayed framerate won't change much, but it improves CPU tasks, including culling, which results in fewer framerate "hiccups" while playing. (Note: Unity currently only provides this functionality for Windows, so Mac and Linux builds don't have this.)
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

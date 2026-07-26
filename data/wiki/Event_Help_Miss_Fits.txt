@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+You've found Miss Fits! But she doesn't seem interested in going home until she wins another game. Help by bringing her some red wing tokens so she can buy a game ticket!
+
+This Quest can be repeated after 15 days.
+
+You must have previously completed [[Event: Lost Scapegoats]] in order to undertake this quest. This quest is only available during a Lost Scapegoats event. 
+
+===Requirements===
+* Obtain 5 Red Wing Tokens
+* Speak with Miss Fits
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|That should be enough for another game. Thanks! As promised, here, take this for your trouble.
+
+<i>[She hands you something, then starts playing another game.]</i>}}
+* {{Item|Event Loot Key (Universal)}} x2
+}}
+
+[[Category:Quests]]

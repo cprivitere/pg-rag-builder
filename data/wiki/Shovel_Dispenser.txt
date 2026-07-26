@@ -1,0 +1,30 @@
+__NOTOC__
+{{NPC infobox
+|title            = Shovel Dispenser
+|image            = [[File:ShovelDispenser(npc).png|300px]]
+|caption          = Shovel Dispenser
+|zone             = Fae Realm
+|town = Fel-Dasculan Ruins
+|location         = Found in the garden, sometimes.
+|anatomy = Ruminant
+|species = Goat
+|beastspeak       = Yes
+|beastlist = All
+|eventnpc = Yes
+}}
+[[Shovel Dispenser]] is a pale goat summoned by [[Developers|otherworldly forces]] in times of need. As the name suggests, this goat can give the gift of a {{Item|Shovel}}.
+== Location ==
+; [[Fae Realm]] 
+: The [[Shovel Dispenser]] was summoned to the [[Fae Realm]] in March of 2020 to aid newly created fairies.
+== Favor ==
+[[Shovel Dispenser]] does not use the favor system.
+== Services == 
+==== Shovel Dispensing ==== 
+If spoken to without having a {{Item|Shovel}} in your inventory, the [[Shovel Dispenser]] goat will gift one to you.
+
+== Events ==
+==== Appearances ====
+; March 2020 - Fae Realm
+: {{Item|Shovel}} x1
+
+[[Category:NPCs]][[Category:NoRiShin]]

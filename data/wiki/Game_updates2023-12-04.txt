@@ -1,0 +1,44 @@
+==Update Notes: December 4, 2023==
+Happy holidays from Project: Gorgon! Today we celebrate the turning of the season, from bountiful autumn harvest to gift-giving extravaganza. In other words, we're finally done with Halloween - it's time for presents! If you've become Friends with any townsfolk in the game, they will have gifts for you the next time you speak with them. (Make sure to have your favorite combat skills active when you talk to them, in case their gift is a randomly-generated treasure item!)
+
+The Ri-Shin event is also underway -- look for townsfolk wearing red santa hats (err Ri Shin Hats) for more information. There's one in each town or settlement.
+
+In addition, we have a bunch of improvements, tweaks, bug fixes, etc.
+
+===Combat Changes/Fixes===
+:- Transforming into an animal no longer changes your active skills if one of them is already the appropriate animal skill. For example, changing into Deer while Bard and Priest are active will change one to Deer; changing into Deer while Bard and Deer are active won't change either.
+:- High-level deer-summoning mods now summon the appropriate level deer.
+:- Chemistry Staves now support Druid mods. 
+:- Fixed the mod "Finishing Blow causes your next attack to deal +X damage if it deals direct Psychic, Trauma, or Poison damage"; it now actually affects Trauma and Poison damage, and the Psychic damage is reduced to what it should be.
+:- Fixed the mod "If Finishing Blow or Decapitate kills its target, you gain +X% direct damage for 15 seconds".
+:- Fixed a bug causing lower-level enchantments to be transmuted for Weather Witching and Druid.
+:- Increased healing amount of Healing Mist 10 (110->120). 
+:- Changed James Eltibule's Sword damage boost from 0.1 back to 17. 
+:- [[Nissim]] no longer teaches Debilitating Blow 4 - it was only getting in the way of his Psychology lessons, after all.
+:- We're still not sure what could cause players to not retain the repeating aktaari quest, but added a backup system that will reapply the quest whenever players are in the Aktaari lobby area.
+:- Revised a certain boss encounter a bit. Should be a piece of cake now :) :) :)
+
+===UI Changes/Fixes===
+:- You can now view item levels and rarities overlaid on the item icons in your inventory. Toggle this view by clicking the "Show item rarities & levels" button in the inventory window, next to the "Show Equipped Items" button.
+:- Important monster buffs, such as Damage Reflection, now show up first in the list of Active Effects on the target.
+:- The Damage Reflection buff on monsters now has a unique icon. 
+:- Fixed icons for [[Fire Magic]] unlocks at Sand Seer & Bendith.
+:- Added "(or better)" to the arrow requirements of some Archery abilities.
+:- Dropping an item onto another in inventory or storage now always puts that item in the dropped slot, never the slot before it.
+:- Acid Sigil icon is now green.
+:- Your current equipment now has a yellow border in the compare-item view, to make it more obvious.
+
+===Other Changes/Fixes===
+:- Fixed a bunch of level 90 crafting recipes that had placeholder material ingredients.
+:- You can now raise [[Textile Creation]] to level 70 via trainer spheres beneath [[Povus]].
+:- Some corrected item-creation recipes now require Enhanced Yarn; you can learn the recipe from the same trainer sphere in Povus.
+:- Fixed some items that would let you learn their recipe but not their ability, thereafter breaking the item for the original learner. (We're still working on a way to fix those characters already affected by the issue and will have something in the next update.)
+:- Cosmetic pets now stay alive when you switch areas or log off (so you don't need to resummon them).
+:- When you have a cosmetic pet active and summon a different pet, the first pet is automatically dispelled (rather than making you dispel it manually first).
+:- Updated directions for getting to the Sacred Grotto.
+:- Removed an extraneous warning sign from Serbule Hills.
+:- New JSON file is available on the cdn (at https://cdn.projectgorgon.com/), called tsysprofiles.json. See the updated index page for more information.
+:- Updated JSON file: tsysclientinfo.json now includes the internal names of each tsys power, so they can be mapped with the new profile JSON file.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,75 @@
+__NOTOC__
+==Summary==
+Chirrra in  the Serbule Hills Ranalon Den said, "There's food plants everywhere in here -- look for some watercress, and bring it to me. I need a lot of it; I have an idea."
+
+===Prerequisites===
+To start this quest, talk to '''[[Chirrra]]''' in '''[[Ranalon Den]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This is a solo quest from Chirrra. You may have one solo quest from Chirrra at a time. You can take on a new solo quest 15 minutes after completing or canceling this quest.
+
+===Preface===
+{{Quote|There's food plants everywhere in here -- look for some watercress, and bring it to me. I need a lot of it; I have an idea.}}
+
+This is a [[:Category:Quests/Chirrra Tier 1|Tier 1]] quest from Chirrra.
+
+===Requirements===
+* Harvest {{Item|Watercress}} x4 {{Hint|Watercress must be harvested from Ranalon Meals on the ground to count for this quest.}}
+* Deliver Fresh {{Item|Watercress}}
+* Talk to Chirrra
+
+{{Spoiler|Response to player|{{Quote|Nice, fresh watercress. Good.}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Ranalon Den: Collect Watercress|
+  {{Quote|Thank you. I'm going to try soaking this watercress in something vile and see what happens when ranalons eat it. I think I'm getting the hang of this 'being an evil fiend' thing, huh? Here: this is your reward. Now give me a few minutes to work.
+  }}
+
+This quest will reward random loot. This may include items with level 20 mods.
+
+Reported Rewards:
+*Magic Talisman
+*250 Combat XP
+
+==== Recipes ====
+Has a chance to reward with any of the following recipes:
+
+{{Spoiler|[[Alchemy]]|
+* {{Item|Alchemy: Energy Resistance Potion}}
+* {{Item|Alchemy: Gillpuncher Ointment}}
+}}
+
+{{Spoiler|[[Calligraphy]]|
+* {{Item|Calligraphy: "Enoyos"}}
+}}
+
+{{Spoiler|[[Cooking]]|
+* {{Item|Cooking: Basic Shark-Fin Soup}}
+* {{Item|Cooking: Fried Boletus Bites}}
+* {{Item|Cooking: Fried Lungfish}}
+* {{Item|Cooking: Fried Potato Sticks}}
+* {{Item|Cooking: Lungfish Kabob}}
+* {{Item|Cooking: Lungfish Roll}}
+* {{Item|Cooking: Mokapok Stew}}
+* {{Item|Cooking: Ranalon Salad}}
+* {{Item|Cooking: Succulent Pork Chops}}
+}}
+
+{{Spoiler|[[Fishing]]|
+* {{Item|Fishing: Lungfish Fillet}}
+}}
+
+{{Spoiler|[[Shamanic Infusion]]|
+* {{Item|Shamanic Infusion: Beginner's Scray Headgear Infusion}}
+* {{Item|Shamanic Infusion: Beginner's Scray Leg Infusion}}
+* {{Item|Shamanic Infusion: Novice's Scray Headgear Infusion}}
+* {{Item|Shamanic Infusion: Novice's Scray Leg Infusion}}
+* {{Item|Shamanic Infusion: Shaman's Scray Headgear Infusion}}
+* {{Item|Shamanic Infusion: Shaman's Scray Leg Infusion}}
+}}
+
+}}
+
+[[Category:Quests]]
+[[Category:Quests/Ranalon Den Quests]]
+[[Category:Quests/Chirrra]]
+[[Category:Quests/Chirrra Tier 1]]

@@ -1,0 +1,19 @@
+__NOTOC__
+==Summary==
+Crelpin in the Fae Realm said, "You need to take your bee out to the beehive to the west to introduce yourselves."
+
+This quest is only available to Fae. 
+
+===Preface===
+You need to take your bee out to the beehive to the west to introduce yourselves.
+===Prerequisites===
+To start this quest, talk to '''[[Crelpin]]''' in '''[[Fae Realm]]''' after receiving the quest [[Visit Crelpin]]. This quest is only available to Fae.
+===Requirements===
+* Talk to the Bees
+
+===Rewards===
+{{Spoiler|Rewards|
+* 0 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Fae Quests]][[Category:Quests/Crelpin]]

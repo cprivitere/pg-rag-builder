@@ -1,0 +1,102 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Blizzard
+| description = Freeze everything around you.
+| level = 15
+| power cost = 21
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Blizzard}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 34 Cold
+| special = Targets are slowed 25% for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Blizzard 2
+| description = Freeze everything around you.
+| level = 25
+| power cost = 26
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Blizzard}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 58 Cold
+| special = Targets are slowed 25% for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Blizzard 3
+| description = Freeze everything around you.
+| level = 35
+| power cost = 32
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Blizzard}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 88 Cold
+| special = Targets are slowed 35% for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Blizzard 4
+| description = Freeze everything around you.
+| level = 45
+| power cost = 36
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Blizzard}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 137 Cold
+| special = Targets are slowed 35% for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Blizzard 5
+| description = Freeze everything around you.
+| level = 55
+| power cost = 41
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Blizzard}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 200 Cold
+| special = Targets are slowed 35% for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Blizzard 6
+| description = Freeze everything around you.
+| level = 65
+| power cost = 46
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Blizzard}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 262 Cold
+| special = Targets are slowed 35% for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Blizzard 7
+| description = Freeze everything around you.
+| level = 75
+| power cost = 51
+| reuse time = 20
+| range = 20 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|Blizzard}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 332 Cold
+| special = Targets are slowed 35% for 15 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

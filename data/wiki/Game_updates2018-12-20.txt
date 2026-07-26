@@ -1,0 +1,141 @@
+__NOTOC__
+==December 20 Update==
+===Ri-Shin Winter Celebration===
+Winter is here, and humans and their friends across [[Alharth]] have begun celebrating the winter festival dedicated to [[Ri-Shin]], god of plants and trees. Many towns and communities are looking for help to make their areas a little more festive, and you may find that your NPC friends have New Years' gifts for you as well!
+
+==="Dangerous Improvement" Recipes Disabled===
+When we opened the [[Red Wing Casino]] a few updates back, we introduced blacksmithing recipes to "dangerously improve" some types of weapons. This was a bit of an experiment for us as we looked at different ways to meet our goal of helping level-40 players improve their gear.
+
+After watching the recipes in action and tweaking them a bit, we've realized that this implementation will probably never meet our goals: it just requires too many resources for level-40 players to afford. And since "dangerously improved" weapons were overpowered in the hands of higher-level players, it didn't make sense to leave them in the game as they were.
+
+We apologize for having to remove this experiment. We're still prototyping replacement systems that will meet our goals better, and when we've chosen that new system, we'll attempt to update your equipment in whatever way seems to make sense. We'll do our best to preserve the time and effort that you've put into your "dangerously improved" weapons and translate that into the new system. 
+
+In the meantime, we've left the non-working enhancements encoded into your weapons; you may seem them listed as "Do Nothing +X". Similarly, the recipes are still in your recipe list, labeled as "OBSOLETE", until we decide how the new system will work.
+===Treasure Effect Location Fixes===
+Several treasure effects were misconfigured, making them unavailable on randomly generated items. These have never actually been seen in the game before. So really, it's like they're brand new effects! Other treasure effects were only available in some of the locations or on some of the objects they were intended to cover. 
+
+;[[Bard]]
+:-  Some treasure effects for main-hand weapons could only be found on Lutes, and some effects for off-hand weapons could only be found on Horns.
+;[[Battle Chemistry]]
+:-  "Toxic Irritant boosts your Nice Attack Damage +X for 8 seconds" is now available on rings and main-hand weapons.
+;[[Druid]]
+:-  "Toxinball Damage +X%": This was intended to be findable on necklaces and main-hand equipment, but couldn't be found on main-hand equipment.
+;[[Ice Magic]]
+:-  "Tundra Spikes deals +X% damage, gains +Y accuracy, and lowers targets' Evasion by Z for 20 seconds": This mod comes on two equipment slots, but the evasion-debuff aspect of the mod did not stack with itself.
+:-  "Ice Spear heals you for 46 health after a 15 second delay": This was intended to be findable on gloves and off-hand items, but couldn't be found on off-hand equipment.
+:-  Many treasure effects for main-hand weapons could only appear on Daggers. Now that dirks can be wielded in the off-hand, it's now reasonable to have a sword with Knife effects!
+;[[Knife]]
+:-  "Poisoner's Cut boosts indirect poison +X per tick" is now available on pants and off-hand weapons.
+:-  "Gut deals +X% damage and reuse timer is -1 second" is now available on shirts and necklaces.
+;[[Pig]]
+:-  "Grunt of Abeyance restores X Power to all targets": This was intended to appear on necklaces and main-hand equipment, but couldn't be found on main-hand equipment.
+;[[Staff]]
+:-  "Phoenix Strike deals +10% damage and triggers the target's Vulnerability" is now available on staves.
+;[[Werewolf]]
+:-  "All Werewolf attacks have a X% chance to deal Y Trauma damage over 8 seconds": This was intended to appear on helmets and main-hand equipment, but couldn't be found on main-hand equipment.
+;[[Unarmed]]
+:-  All main-hand treasure effects could not be found on daggers (but could be found on other weapons such as swords).
+;Other
+:-  Fixed several dozen Feet-slot treasure effects that could not be found on animal shoes (such as Deer Shoes).
+:-  Fixed a handful of other cases where certain treasure effects could not be found on certain specific types of equipment.
+
+===Skill Revisions===
+Several skills have gotten a bit of holiday love! For the following skill changes, we've tried to avoid turning gear "Legacy". (Legacy items are invalid items; they stop working and have to be replaced after 30 days.) To do that, retired treasure effects have been replaced with new effects that use the same equipment slots as the old. As a side-effect of squeezing new effects in wherever they can fit, it's possible that your gear will have effects for entirely different abilities than it had before! Sorry about that. We try to avoid that, but sometimes it's unavoidable.
+
+===Necromancy:===
+[[Necromancy]] has never been especially powerful at high-level, in large part due to a bunch of buggy treasure effects. You could build some interesting "darkness blaster" necromancers, but at high-level the pets were generally useless. We started out just fixing the bugs, but then decided to go a lot further: the majority of Necromancy's treasure effects have been altered with an eye toward creating interesting pet-oriented playstyles and skill combinations.
+
+;Ability Changes:
+:-  "Create Super Zombie": This ability has been removed! It is now merged into the Raise Zombie ability (which was previously called Create Shambling Corpse).
+:-  "Create Shambling Corpse" was renamed "Raise Zombie". (It was already called in some parts of the game.) You can now use Raise Zombie even while you have a zombie alive, in which case it buffs and heals the existing zombie. The reuse timer on Raise Zombie is increased to 60 seconds and the Power cost is higher. All gear pertaining to zombies has been revised, and many new gear effects have been added for zombies.
+:-  Wave of Darkness: Changed from a 20m burst to a 10m burst. Changed base reuse time from 30 seconds to 18 seconds. All treasure mods that affected Wave of Darkness have been rebalanced as a result.
+:-  Provoke Undead: The inherent damage boost is slightly larger. Also, all treasure effects that were supposed to boost the damage from Provoke Undead were bugged and did (almost) nothing. These effects have been fixed and significantly revised, and new effects were added as well.
+
+;Treasure Changes of Note:
+Since there were almost no [[Necromancy]] treasure effects that were entirely unchanged, this just lists the ones that changed significantly in function. Many other effects were rebalanced but not fundamentally changed, and a bunch of other Necromancy effects were entirely removed to make room for new ones. (See below.)
+:-  "Provoke Undead causes target undead to deal +X% damage for 10 seconds" => was bugged and did not work. It has been refactored to deal +X% damage but also deal Y damage to your minions over a 10 second period.
+:-  "Provoke Undead causes target undead to deal +X% damage for 10 seconds, but also take Y Health damage after a 10-second delay" => also did not work correctly. It has been refactored to deal damage immediately, not after a delay.
+:-  "Provoke Undead causes target undead to deal +X% damage with their Fire/Ice/Electricity attacks (if any) for 10 seconds" => also didn't work correctly. It has been refactored into a flat global damage bonus instead of an elemental percentage bonus.
+:-  "Life Steal targets all enemies within 10 meters and deals +X damage but reuse timer is +3 seconds" => was tweaked a bit because the +X flat damage wasn't useful. It is now: "Life Steal targets all enemies within 10 meters and steals +X health, but reuse timer is +3 seconds and Power cost is +Y".
+:-  "Wave of Darkness heals you for 66 health" => was replaced with a new effect: "Wave of Darkness damage +X and reuse timer is -1 second".
+:-  "Rebuild Undead restores X health/armor to your undead after a 15 second delay" => now has a 10-second delay.
+:-  "Summoned Skeletons deal +X direct damage with each attack, but take Y% more damage from any cold attacks" => damage bonus is a percentage instead of flat.
+:-  "Summoned Skeletal Archers and Mages deal +X direct damage, but take +50% more damage from any slashing, piercing, or crushing attacks" => damage bonus is a percentage instead of flat.
+:-  "Summoned Skeletal Archers deal +X direct damage with each attack" => now also applies to Skeletal Mages.
+:-  "All Summoned Skeletons deal +X damage with each attack, but are instantly destroyed by ANY Nature attack" => damage bonus is a percentage instead of flat, and this effect no longer applies to skeleton swordsmen.
+:-  "Death's Hold causes target to take +X% damage from Slashing for 15 seconds" => was quite overpowered, or would have been if it worked. It works now but has reduced efficacy.
+:-  "Rebuild Undead restores X health/armor to your undead after a 10 second delay" => accidentally healed the necromancer, not the undead minions. 
+
+;Retired Necromancy Treasure Mods:
+All of these have been replaced with entirely new effects.
+:-  "Death's Hold deals +X damage and Stuns target after a 15 second delay": This effect was almost always useless. It has been replaced.
+:-  "Necromancy Base Damage +%": The skill actually had two of these mods for a total of 4 slots' worth. This didn't seem to fit the Necromancy skill as it is currently envisioned, so two of those slots have been repurposed to boost Skeleton pet damage instead.
+:-  "Summoned Skeletal Archers and Mages regenerate +X health every update, both in and out of combat": Most tiers of this ability did not work on the right kinds of skeleton. It was fixed, but then completely replaced with a new effect.
+:-  "Summoned Skeletal Mages deal +X direct damage with each attack": This effect has been merged with a different one (above), so it was repurposed for a new effect.
+:-  "Create Super Zombie also heals yourself for 192 health, 192 armor, and 38 power": This has been replaced with a new effect that buffs Raise Zombie.
+:-  "Create Zombie also heals yourself for X health": This has been replaced with something that actually makes zombies better.
+:-  "Provoke Undead causes target undead to recover 66 Armor": Although it was one of the only Provoke Undead treasure effects that actually worked, it was thematically inappropriate for the ability. It has been replaced.
+:-  "Heal Undead restores +X Health/Armor and boosts targets' Slashing damage +Y for 8 seconds": The amounts here were so small as to be useless. Replaced.
+
+===Cow===
+[[Cow]]s' gear configuration posed a slightly thornier problem. While it was possible to build robust tanky builds, it required a lot of gear before it started to work: there were separate treasure effects for crushing, slashing, and piercing protection, and a typical "tank" would need all three -- and at high level they would probably want two of each. And since all six of those effects appeared on only Hands and Feet gear, cow gear ended up feeling pretty uninspired. We've changed those effects around, and also tried to address some other problematic play aspects and build limitations.
+:-  "Chew Cud boosts Crushing Mitigation +22 for 10 seconds" => "Chew Cud boosts Crushing/Slashing/Piercing Mitigation +14 for 10 seconds". In addition, this effect is now available on 4 slots instead of 2.
+:-  "Chew Cud boosts Slashing Mitigation +22 for 10 seconds" => was replaced with a new effect.
+:-  "Chew Cud boosts Piercing Mitigation +22 for 10 seconds" => was replaced with a new effect.
+:-  "Stampede Damage +X" => "Stampede Taunt +X" (for a much bigger X).
+:-  Ability "Tough Hoof" has been revised. "If the target attacks and damages you within 5 seconds, you regain X health" => is  now "Each time the target attacks and damages you within 8 seconds, you regain X health". The ability's damage is a bit lower and reuse timer is 12s instead of 10s. Treasure effects have changed also.
+:-  There is also a new ability for Cows, as well as a bunch of new treasure effects. The new ability can temporarily be learned from Raul in Animal Town. (Although not permanently, as he finds it extremely uncouth.)
+
+===Deer===
+:-  Cuteness Overload is now marked as an Epic Attack for purposes of equipment that boosts Epic Attacks.
+:-  "Summoned [[Deer]] deal +X damage" => damage is now percentage-based instead of flat.
+:-  "Deer Kick deals X armor damage and reduces target's rage by Y" => accidentally dealt Health damage instead. It has been refactored to just deal regular damage.
+:-  "Deer Kick implants insect eggs in the target. Future Deer Kicks by any deer cause target to take X Nature damage over 5 seconds" => didn't work. It now works as intended. In addition, all attacks made by player-summoned deer are now considered "Deer Kicks" for the purposes of this treasure effect.
+:-  "Deer Bash heals X health" => accidentally restored Armor instead.
+:-  Plus a new ability and a number of new treasure effects! The new ability can temporarily be learned from Jumper in Animal Town.
+
+===Rabbit===
+The [[Rabbit]] skill was unfinished: it had basic treasure effects but the selection was very shallow, which especially caused problems at high level. We've added two new abilities and dozens of new treasure effects to give Rabbit players a wider range of builds. Rabbits are the only animal form that can access [[Ice Magic]], so some of the new rabbit treasure synergizes with it. We've also deepened the possibilities for melee rabbits (when combined, presumably, with [[Unarmed]]) and added more tools to build supportive Mentalist rabbits.
+
+We've also worked harder to make Carrot Power the defining feature it was meant to be. Rabbits love veggies and we want rabbit players to love veggies too, thanks to their powerful game effects! There were two problems with carrots: they was too expensive to use routinely, and the effects didn't really justify that hassle. So we've tackled the problem from both directions, making rabbit abilities consume far fewer carrots (especially with gear effects), as well as buffing up the potency and versatility of the ability's treasure options. (And remember that the ability's requirement for "carrots" can also be met with carrot-flavored rabbit treats, which can be bartered in [[Animal Town]]. This is how you turn other veggies into "carrots"!)
+
+;Other changes
+:-  Reuse timer of Hare Dash changed from 30 to 25.
+:-  Reuse timer of Play Dead now gets faster with each tier of the ability.
+:-  "Carrot Power Boosts Direct Cold Damage" => now boosts direct and indirect cold damage.
+:-  Fixed effect-ordering bug where the Play Dead effect that boosted Psychic damage did not apply to the Play Dead effect that dealt Psychic damage.
+:-  Plus two new abilities and a large new assortment of new treasure effects! The new abilities can temporarily be learned from Cinnamon in Animal Town, although they will be taught by a different NPC in the future.
+
+===[[Spider]]===
+Abilities:
+:-  Incubate is no longer marked a Nice Attack. Spit Acid is now a Nice Attack.
+:-  Incubate can now be placed on the sidebar.
+:-  Baby spiders' rage attacks now have significantly better poison DoTs, and the spiders have smaller rage bars so they can use their poison a bit more often.
+:-  Spit Acid now destroys more armor on immediate impact.
+:-  Inject Venom's poison DoT deals more damage in a much shorter time window (12s instead of 20s).
+:-  Premeditated Doom reset time changed from 40s to 20s. Durations of various treasure effects adjusted accordingly.
+;Treasure
+:-  "Incubated Spiders deal +X direct damage with each attack" => now boosts damage by a percentage instead of a flat number
+:-  "Spider Bite has a 50% chance to deal +X damage" => now works for both Spider Bite and Infinite Legs, and it boosts damage by a percentage instead of a flat number.
+:-  "Combo: Gripjaw+any+any+Inject Venom deals +X damage and +Y over 20 seconds" => now deals +X% damage instead of a flat boost. The Damage-over-Time aspect has been dropped, but it was awful and you won't miss it.
+:-  "Spider Bite deals +X% damage" => has been replaced with "Combat Refresh restores +Y Power while Spider skill active".
+:-  "Premeditated Doom restores X health" => restores health after a 10-second delay.
+:-  "Premeditated Doom restores X armor" => restores armor after a 10-second delay.
+:-  "Infinite Legs restores X health" => now also applies to Spider Bite.
+:-  "Spider Bite restores X health" => was made obsolete because the Infinite Legs version now applies to both abilities. So it has been replaced with a completely new effect, one that buffs Premeditated Doom.
+:-  "Infinite Legs restores X armor" => has been replaced with "Infinite Legs deals +X% damage and reuse timer is -0.5 seconds".
+:-  "Grappling Web causes the target to take +X% damage from Poison attacks" => now correctly stacks with itself when the effect is present on two equipment slots.
+:-  "Poison Mitigation +X while Spider skill active" => now also mitigates Acid.
+:-  "Acid Mitigation +X while Spider skill active" => has been replaced with a new treasure effect for Spit Acid.
+:-  Plus various rebalances and new treasure effects to flesh out the spider's arsenal.
+===Other Stuff===
+:-  Abilities that summon pets now list the treasure effects that will apply (just as other types of abilities do).
+:-  You can now click on your pets in-game and examine them to see a rudimentary report of their combat stats at that moment. (Previously this was only available to [[Animal Handling]] pets.) 
+:-  [[Sammie Grimspine]] in [[Serbule Hills]] sells Skinning Knives to her Friends. (This is a backup method for demo players who lose the knife they get from Ivyn's favor reward.)
+:-  Fixed equipment-crafting bug where using two of the same gem could generate Legacy items. 
+:-  Fixed bug preventing [[Rabbit]] treasure mods from being extracted into Malachites.
+:-  Equipment-crafting recipes are changed so that using two of the same gem now usually results in gear for that skill + generic enhancements (rather than being for that skill + a randomly-picked skill) .
+:-  Fixed a bug where Death Avoidance gear did not always take your remaining armor into account before activating.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

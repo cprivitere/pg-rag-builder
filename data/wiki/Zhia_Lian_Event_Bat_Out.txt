@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Giant bats are common this time of year. And you can be one! Just get bitten often enough by a giant bat, and you're sure to catch the disease. Then practice being a bat long enough to learn echolocation! And don't worry, I'll make sure you can get back to your normal self later. If you want to be boring again.
+
+<i>[You can find giant bats in some deep caves, but it may be easier to just let other player-bats bite you.]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Giant bats are common this time of year. And you can be one! Just get bitten often enough by a giant bat, and you're sure to catch the disease. Then practice being a bat long enough to learn echolocation! And don't worry, I'll make sure you can get back to your normal self later. If you want to be boring again.
+
+<i>[You can find giant bats in some deep caves, but it may be easier to just let other player-bats bite you.]</i>
+
+===Requirements===
+* Become a giant bat and learn to echolocate
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Hahaha! Flap, bat, flap! You look absurd! I love it!}}
+* 250 councils
+* {{Item|Event Loot Key (Universal)}}
+* {{Item|Un-Bat Juice}}
+* {{Item|Memory Enhancer}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

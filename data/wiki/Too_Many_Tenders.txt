@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Jaw the myconian has asked you to kill a bunch of Garden Tenders in the Myconian caverns.
+
+===Prerequisites===
+To start this quest, talk to '''[[Jaw]]''' in '''[[Myconian Caverns]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|There are just so many Garden Tenders! It's hard to convince fellow myconians to resist Tidal when they see his massive army of tenders. They're so scary! Can you kill the scary monsters for us?}}
+
+===Requirements===
+* Kill Garden Tenders (10)
+* Talk to Jaw
+
+===Rewards===
+{{Spoiler|Rewards for Too Many Tenders|
+{{Quote|Well done! Well done! Here, take this. Never speak to anyone of what I asked you to do. They wouldn't understand.}}
+
+* 100 {{Favor|favor}}
+* 1000 councils 
+* {{Item|Myconian Jelly}} x 5
+}}
+[[Category:Quests]][[Category:Quests/Myconian Caverns Quests]][[Category:Quests/Jaw]]

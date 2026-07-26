@@ -1,0 +1,102 @@
+__NOTOC__
+{{NPC infobox
+|title            = Torgan
+|image            = [[File:Torgan.png|300px]]
+|caption          = He's smithing something, angrily.
+|zone             = Gazluk
+|town = New Prestonbule Cave
+|location = Forge room.
+|anatomy = Orc
+|species = Orc
+|beastspeak       = Yes
+|beastlist = All
+|barter = Yes
+|augment = Yes
+|storage = Yes
+}}
+{{Quote|source=[[Torgan]]|
+I may be exiled, but I am still a Snowblood! I was from Clan Gr'uah. Do NOT confuse us with Gru'ah. Those weaklings from Kur are more odorous than a fish platter!
+}}
+[[Torgan]] is a Orc blacksmith found in the [[New Prestonbule Cave]]. You must have at least 25 levels in [[Orcish]] to speak with him.
+==Location==
+; [[Gazluk]]
+: Found left of the campfire, and behind the next gate in [[New Prestonbule Cave]].
+==Favor==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+
+== Quests ==
+<dpl>
+category = Quests/Torgan
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+<!--
+==Hang Out==
+[[Category:Favor/Hang Outs]]
+{{Spoiler|
+*;Add a hang out title here (Duration)
+:Rewards here
+:More rewards here
+*;Next hang out (Duration)
+:Rewards
+}}
+
+-->
+
+==Services==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Torgan
+|favorrestriction =Friends
+|itemrestriction =Anything
+|neutral =0
+|comfortable =0
+|friends =16
+|closefriends =24
+|bestfriends =32
+|likefamily =40
+|soulmates =50
+}}
+
+==== Bartering ====
+At {{Favor|Friends}} Torgan offers to barter with you:
+
+Torgan will barter various gear (of level 70 and random rarity<sup>needs confirmation, high chance for red</sup>) in exchange for [[Spruce Wood]] and [[Astounding Metal Slab]]s.
+{| class = "wikitable mw-collapsible mw-collapsed"
+!Give
+!Receive 
+|-
+| rowspan = "8" | {{Item|Astounding Metal Slab}} x7<br> {{Item|Spruce Wood}} x3 || {{Item|Torgan's Claw}} <sup>*</sup>
+|-
+| {{Item|Torgan's Hammer}} <sup>*</sup>
+|-
+| {{Item|Torgan's Katar}} <sup>*</sup>
+|-
+| {{Item|Torgan's Shield}} <sup>*</sup>
+|-
+| {{Item|Torgan's Spatha}} <sup>*</sup>
+|-
+| {{Item|Torgan's Staff}} <sup>*</sup>
+|-
+| {{Item|Torgan's Stiletto}} <sup>*</sup>
+|-
+| {{Item|Dark Alicorn}} <sup>*</sup>
+|}
+<!-- Todo: Icons -->
+These items all require Hardcore Death Penalty Mode
+
+== Services ==
+==== Augmentation ====
+[[Torgan]] can install Level 61-80 Augments for 900 Councils.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Snowblood Misery Trooper Armor}} (Lv 70)
+|RiShin Family = 2x (Lv 70) gear (incomplete): {{Item|Demonic Crossbow}}, {{Item|Scorpiclaw Boots}}, {{Item|Snowblood Misery Trooper Helm}}
+}}
+== Conversations ==
+
+[[Category:NPCs]]

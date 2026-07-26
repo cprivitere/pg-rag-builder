@@ -1,0 +1,107 @@
+__NOTOC__
+{{Skill infobox
+|title            = Fishing
+|image            = [[File:Fishing (skill).jpg|300px|]]
+|caption          = The art of collecting fish.
+|skilltype        = Trade Skill
+|maxlevel         = 100
+|req              = <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Ukorga]], [[Rugen]], [[Justin Smoot]]
+|gem = {{Item|Aquamarine}}, {{Item|Maximized Onyx}}
+}}
+{{Quote|
+The art of collecting fish.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Fishing]] is a skill which earns experience as you catch fish, which in [[Alharth]] is a hands-on experience. The traditional fishing method involves swimming up to a fish and just grabbing it. Travelers from Orc-based regions may be more familiar with [[Angling]], which is an unusual method of fish acquisition requiring both a wooden pole and some bait. 
+
+Fish collected through [[Fishing]] are commonly used in [[Cooking]] recipes (often in a filleted form), but sometimes can be used in other skills such as [[Alchemy]] or [[Calligraphy]]. Advanced cooking subskills such as [[Sushi Preparation]] are also reliant on [[Fishing]].
+=== In-Game Description ===
+The art of collecting fish.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Ukorga]] teaches the recipes for ice fishing.
+* [[Rugen]] unlocks levels 51-60 and 61-70.
+* Levels 71-80 and 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+* Levels 71-80, 81-90, and 91-100 can be unlocked by [[Justin Smoot]] in [[Statehelm]].
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* [[Angling]] - A sub-skill of Fishing with Orcish origins.
+===== Related Skills: =====
+* [[Cooking]] - The fish caught through fishing can be used in cooking recipes.
+* [[Sushi Preparation]] - The fish caught through fishing can be used in Sushi recipes.
+
+==Harvestables==
+====Fish====
+Each time you catch a fish and clear the node it can respawn as another type of fish/crab.  So it is best to fish everything.
+{| {{STDT}}
+!Name !! Fishing !! XP !! Misc.Notes (recipes etc) 
+|-
+| {{Item|Crab}} || 0 || 35 || On the banks of the moat around Serbule Keep, and lakes in Eltibule.
+|-
+| {{Item|Clownfish}} || 0 || 35 || Around Serbule Keep, and the nearby lake. Also in Eltibule and Sun Vale.
+|-
+| {{Item|Grapefish}} || 10 || 60 || Lake NW of Serbule Keep.  Also in Eltibule.
+|-
+| {{Item|Lungfish}}|| 15 || 90|| Pools in the [[Ranalon Den]]
+|-
+| {{Item|Starfish}} || 20 || 100 || [[Sun Vale]] on the beach and at reefs.
+|-
+| {{Item|Perch}} || 20 || 110 || Pools in South / West Eltibule.
+|-
+| <span class="extimage32px">{{Item icon|Perch}}</span> Tasty Ocean Perch || 25 || 110 || Around reefs in Sun Vale.
+|-
+| {{Item|Eel}} || 30 || 160 || [[Sun Vale]], [[Rahu]], sometimes [[Eltibule]].
+|-
+| {{Item|Flounder}} || 40 || 190 || [[Sun Vale]].
+|-
+| {{Item|Shark}} || 45 || 240 || [[Sun Vale]], [[Rahu]].
+|-
+| {{Item|Raw Great Chicken}} || 60 || 150 || [[Rahu Sewers]] from Sewer Tilapia.
+|-
+| {{Item|Cavefish}} || 55 || 270 || Wolf Cave in [[Kur]], caves in [[Gazluk]], submerged caves in [[Sun Vale]]
+|-
+| {{Item|Green Vexfish}} || 60 || 300 || Caves in [[Gazluk]].
+|-
+| {{Item|Amberjack}} || 60 || 350|| [[Sun Vale]].
+|-
+| {{Item|Catfish}} || 65(?) || 375 || [[Povus]].
+|-
+| {{Item|Yellow Perch}} || 70 || 400 || [[Povus]].
+|}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+<!-- transclusing tables for easier edits/updates -->
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Swimming ===
+Catching fish often requires swimming, which is not tied to any particular skill. The default keys to adjust depth in the water are R (rise) and F (fall). PageUp and PageDown are alternatives on some devices.
+
+While swimming is not a skill, going underwater triggers the appearance of a breath meter. In Ocean based regions such as [[Sun Vale]], fish can be found at various depths. Adventurers trying to be efficient as they level [[Fishing]] might want to seek out methods to increase their breath meter, such as consuming an [[Alchemy]] crafted {{Item|Water Breathing Potion}} or wearing equipment like {{Item|Seashell Helm}}. Leveling [[Endurance]] is one method to permanently raise ''Max Underwater Held Breath''.
+
+=== Ice Fishing ===
+Ice Fishing is a fishing mechanic which involves deploying timer-based fish traps at specific ponds in cold regions. Recipes to craft these traps can be learned from [[Ukorga]], a Rakshasa merchant operating out of the [[Northwestern Outpost]] in the [[Kur Mountains]]. The mountains themselves are home to five ice fishing holes in the southern half of the zone. Higher level Ice Fishing gear level bait traps yield greater fish than lower level traps, but also increase the types of catchable fish.  
+
+Specialized Ice Fishing Gear is learned from [[Engineer Crall]] in Vidaria after completing the quest An Orc In The Mountains from [[Drummond Stonecurl]] and then the quest Collaborative Ice Fishing.
+
+* {{Item|Ice Fishing Gear (5 min)}} - "If the lake has Grapefish or Perch, this gear can catch them. Takes 5 minutes to attempt to catch 1 fish."
+* {{Item|Ice Fishing Gear (30 min)}} - "If the lake has Grapefish, Perch, or Eel, this gear can catch them. Takes 30 minutes to attempt to catch 2-5 fish."
+* {{Item|Ice Fishing Gear (2 hour)}} - "If the lake has Grapefish, Perch, Eel, or Shark, this gear can catch them. Takes 2 hours to attempt to catch 3-12 fish."
+* {{Item|Ice Fishing Gear (4 hour)}} - "If the lake has Grapefish, Perch, Eel, or Shark, this gear can catch them. Takes 4 hours to attempt to catch 5-20 fish."
+* {{Item|Ice Fishing Gear (8 hour)}} - "If the lake has Grapefish, Perch, Eel, or Shark, this gear can catch them. Takes 8 hours to attempt to catch 12-35 fish."
+
+*{{Item|Specialized Ice Fishing Gear (5 min)}} - "If the lake has Walleye or Rock Carp, this gear can catch them. Takes 5 minutes to attempt to catch 1 fish."
+*{{Item|Specialized Ice Fishing Gear (30 min)}} - "If the lake has Walleye, Rock Carp, or Smallmouth Bass, this gear can catch them. Takes 30 minutes to attempt to catch 2-5 fish."
+*{{Item|Specialized Ice Fishing Gear (2 hour)}} - "If the lake has Walleye, Rock Carp, Smallmouth Bass, or Yellow Perch, this gear can catch them. Takes 2 hours to attempt to catch 3-12 fish."
+*{{Item|Specialized Ice Fishing Gear (4 hour)}} - "If the lake has Walleye, Rock Carp, Smallmouth Bass, Yellow Perch, or Catfish, this gear can catch them. Takes 4 hours to attempt to catch 5-20 fish."
+*{{Item|Specialized Ice Fishing Gear (8 hour)}} - "If the lake has Walleye, Rock Carp, Smallmouth Bass, Yellow Perch, or Catfish, this gear can catch them. Takes 8 hours to attempt to catch 12-35 fish."
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Fishing Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Fishing|
+{{:Xptables/GatheringSkill}}
+}}
+
+[[Category:Skills]][[Category:Trade Skills]]

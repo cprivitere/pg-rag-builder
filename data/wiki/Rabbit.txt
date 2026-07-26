@@ -1,0 +1,115 @@
+__NOTOC__
+{{Skill infobox
+|title            = Rabbit
+|image            = [[File:Rabbit_purple.jpg|300px]]
+|caption          = While rabbits usually come in brown or white varieties, some prefer to dye their fur.
+|skilltype        = Beast Form 
+|maxlevel         = 100
+|req              = ???
+|skilltrainers    = [[Cinnamon the rabbit]], [[Noita the Green]], [[Big Footed Jim]], [[Fuzzlebun]]
+|gem = {{Item|Rabbit Malachite}}, {{Item|Malachite}}
+}}
+{{Quote|
+The art of living and fighting as a rabbit or hare. Note: rabbits are not known for their ferocity, so sentient rabbits should carefully consider their choice of secondary skill.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Rabbit''' is a [[Beast Forms|Beast Form]] with little combat power. Rabbits are stealthy, and their abilities often make them undetected.
+
+The Bun-Fu Training special weekend event provides a quest line yielding rabbit experience and several Bunny and Un-Bunny juices. It occurs once a year.
+
+[[The Errana Bunny's Egg Hunt]] event occurs yearly around Easter, allowing players to acquire several Bunny and Un-bunny juice and find eggs for an extra reward. 
+
+[[Cinnamon the rabbit]] in [[Sun Vale]] and [[Riston]] in the [[Red Wing Casino]] sell Bunny and Un-Bunny juices year round for Live Event Credits. 
+
+[[Zazzamath]] will turn the player into a bunny on speaking with them if the player has no combat skills at 80+.
+
+=== In-Game Description ===
+The art of living and fighting as a rabbit or hare. Note: rabbits are not known for their ferocity, so sentient rabbits should carefully consider their choice of secondary skill.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Cinnamon the rabbit]] in [[Sun Vale]] unlocks levels 51-60 and levels 61-70.
+* [[Noita the Green]] in the [[Fae Realm]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Big Footed Jim]] deep beneath [[Povus]].
+* [[Fuzzlebun]] in the [[Statehelm Sewers]] unlocks 81-90, 91-100, and [[Prodigy Potential]].
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* [[Ice Magic]] - [[Rabbit (Skill)|Rabbit]]s are the only [[Beast Forms|Beast Form]] capable of using [[Ice Magic]]. A headgear item similar to the {{Item|Shoddy Familiar Controller}} must be used.
+=====Related Skills:=====
+* [[Gardening]] - {{Item|Carrot}}s, which [[Rabbit (Skill)|Rabbit]]s use to augment some of their abilities, can be grown through [[Gardening]].
+
+=== Synergy Levels: ===
+Bonus [[Synergy Levels]] for [[Rabbit]] can be obtained from the following skills and levels:
+:; [[Animal Handling]]
+:: Level 28
+:; [[Deer]]
+:: Level 16
+:; [[Foraging]]
+:: Level 28
+:; [[Gardening]]
+:: Level 25, and Level 53
+:; [[Gourmand]]
+:: Level 30
+:; [[Survival Instincts]]
+:: Level 60
+:; [[Unarmed]]
+:: Level 10, and Level 38
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Ice Magic Tiara===
+{{Item|Shoddy Familiar Controller}}
+{{Quote |source=[[Shoddy Familiar Controller]]|
+It's a metal headband designed for a small animal. Mages uses these to control unruly familiars after Awakening them, and also to augment the animals' burgeoning magic powers. This particular control ring allows hares to use ice magic -- as long as the hare has already learned the rituals, of course.
+}}
+[[Rabbit]]s have the potential to wield [[Ice Magic]], if they are able to get their paws on a {{Item|Great Familiar Controller}} or similar headband.
+<dpl>
+  category   = Items/IceStaff
+ category = Items/Head
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+{{Quote|source=[[Developers|Admin]]|
+Tip for rabbits: Tiaras are a rare-ish drop in loot for players in rabbit form. (Not necessarily using any particular skill, but must be a rabbit.) Otherwise the chances are incredibly small you'll find one.
+}}
+=== Rabbit Fuel===
+===Equipment===
+Crafters producing equipment for use by [[Rabbit]]s should obtain the [[Sigil Scripting]] recipe '''Bat Inscription,''' which allows for the creation of {{Item|Rabbit Malachite}}. 
+
+This attuned gemstone can be used in any recipe which calls for the use of [[:Category:Items/Crystal|Crystals]] to create equipment with [[Rabbit]] Treasure Effects.
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Rabbit Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Rabbit|
+{{:Xptables/TypicalCombatSkill}}
+}}
+== Trivia ==
+The Rabbit skill was introduced in June 2017
+
+The '''Rabbit''' skill was first obtained by completing Therese's quest during the special weekend event on 10th June 2017. The reward for that quest was a [[Bunny Juice]] and an [[Un-Bunny Juice]]. After steam release these item's were raffled multiple times by guides in game. 
+
+The Bun-Fu Training special weekend event was first added in early November 2019 and now occurs yearly. 
+
+Rabbits are small enough to use the Fae Realm to Sun Vale portal. 
+
+<!--
+== Gallery==
+''' Include a small gallery of players using the skill, or abilities of the skill. Try to keep it under six images. This example Gallery is from the Serbule Page.'''
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+</gallery>
+-->
+[[Category:Skills]]

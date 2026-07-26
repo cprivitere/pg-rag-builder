@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Song of Discord
+| description = Play a song that causes all nearby monsters to wince in pain. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 9
+| power cost = 15
+| reuse time = 2
+| range = 3 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfDiscord}}
+| special = Deal 10 Damage every 2 seconds. Every 2 seconds, damages all enemies within 20 meters, skipping enemies that are not yet engaged in combat. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Discord 2
+| description = Play a song that causes all nearby monsters to wince in pain. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 19
+| power cost = 20
+| reuse time = 2
+| range = 3 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfDiscord}}
+| special = Deal 21 Damage every 2 seconds. Every 2 seconds, damages all enemies within 20 meters, skipping enemies that are not yet engaged in combat. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Discord 3
+| description = Play a song that causes all nearby monsters to wince in pain. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 29
+| power cost = 24
+| reuse time = 2
+| range = 3 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfDiscord}}
+| special = Deal 34 Damage every 2 seconds. Every 2 seconds, damages all enemies within 20 meters, skipping enemies that are not yet engaged in combat. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Discord 4
+| description = Play a song that causes all nearby monsters to wince in pain. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 39
+| power cost = 28
+| reuse time = 2
+| range = 3 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfDiscord}}
+| special = Deal 52 Damage every 2 seconds. Every 2 seconds, damages all enemies within 20 meters, skipping enemies that are not yet engaged in combat. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Discord 5
+| description = Play a song that causes all nearby monsters to wince in pain. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 49
+| power cost = 32
+| reuse time = 2
+| range = 3 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfDiscord}}
+| special = Deal 82 Damage every 2 seconds. Every 2 seconds, damages all enemies within 20 meters, skipping enemies that are not yet engaged in combat. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Discord 6
+| description = Play a song that causes all nearby monsters to wince in pain. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 59
+| power cost = 36
+| reuse time = 2
+| range = 3 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfDiscord}}
+| special = Deal 112 Damage every 2 seconds. Every 2 seconds, damages all enemies within 20 meters, skipping enemies that are not yet engaged in combat. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Discord 7
+| description = Play a song that causes all nearby monsters to wince in pain. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 69
+| power cost = 40
+| reuse time = 2
+| range = 3 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfDiscord}}
+| special = Deal 144 Damage every 2 seconds. Every 2 seconds, damages all enemies within 20 meters, skipping enemies that are not yet engaged in combat. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Discord 8
+| description = Play a song that causes all nearby monsters to wince in pain. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 79
+| power cost = 44
+| reuse time = 2
+| range = 3 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfDiscord}}
+| special = Deal 180 Damage every 2 seconds. Every 2 seconds, damages all enemies within 20 meters, skipping enemies that are not yet engaged in combat. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

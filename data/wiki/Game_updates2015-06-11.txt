@@ -1,0 +1,27 @@
+==June 12 Finale==
+<b>7am, June 12:</b> Server is back online!
+==June 11 Note 8==
+<b>11:30:</b> I still haven't tracked down the lag on the new hardware. Need to take the server offline so I can methodically track it. It'll probably be hours before I find this, so let's assume tonight is a bust! My apologies.
+==June 11 Note 7==
+<b>9:15pm:</b> Server is very laggy. Investigating... server will be up and down.
+==June 11 Note 6==
+<b>8:50pm:</b> Flipping the switch! Servers should be up now.
+==June 11 Note 5==
+<b>8:40pm:</b> Almost there! Waiting on final okay from the hardware guys and then I'll flip the switch.
+==June 11 Note 4==
+<b>7:00pm: Server is still down for hardware replacement!</b> The hardware is in place now and I am restoring backups. Another, hm, 90 minutes I'd expect!
+
+==June 11 Note 3==
+<b>4:30pm: Server is down for emergency maintenance!</b> Hardware is being replaced. (Sorry, they didn't give me warning before taking the server offline, or I would have given you more heads up!)
+
+Not sure what the ETA is yet, but likely an hour or two.
+
+
+==June 11 Note 2==
+I've tracked the problem down to a piece of hardware that's dying. I've contacted the hosting company to replace it. There will no doubt be some down time as a result of this, but I don't yet know the ETA. Stay tuned!
+
+==June 11 Note==
+Server deadlocked again last night. Did some resource reallocation after identifying the likely culprit. I'm still note sure if this will fix things permanently, but fingers crossed! There will be another update in a few days to get more debug information and to give me more options if it comes up again.
+
+
+[[Category:Game updates]]

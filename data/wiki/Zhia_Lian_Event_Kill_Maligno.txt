@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Okay this one is a personal favor to me. There's this yeti-infested cave in Kur Mountains where a particularly... problematic... ghoul named Maligno lives. He fancies himself a powerful undead. Show him that he's not!
+
+<i>[The yeti cave is a soloable dungeon recommened for players with level 40+ combat skills.]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Okay this one is a personal favor to me. There's this yeti-infested cave in Kur Mountains where a particularly... problematic... ghoul named Maligno lives. He fancies himself a powerful undead. Show him that he's not!
+
+<i>[The yeti cave is a soloable dungeon recommened for players with level 40+ combat skills.]</i>
+
+===Requirements===
+* Kill Maligno
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> You showed Maligno who's boss! That traitor! Now let's move on to even more serious threats.}}
+* 1000 councils
+* {{Item|Memory Enhancer}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

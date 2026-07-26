@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> You know what else makes a great warm meal during the autumn months? It's not pumpkin salad! But it makes a refreshing cold meal, so there's that. I'll share the recipe with you if you make one for me.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> You know what else makes a great warm meal during the autumn months? It's not pumpkin salad! But it makes a refreshing cold meal, so there's that. I'll share the recipe with you if you make one for me.
+
+===Requirements===
+* Make Pumpkin Salad
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Hey, not bad! No, no, you keep it. I filled up on candy.}}
+* 1000 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

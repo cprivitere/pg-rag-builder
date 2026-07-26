@@ -1,0 +1,132 @@
+__NOTOC__
+{{Skill infobox
+|title            = Art History
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Understanding of the rich history of art in Alharth.
+|skilltype        = Trade Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = None
+|skilltrainers    = [[Jesina]]
+}}
+{{Quote|
+Leave a quote about the skill here. 
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Art History''' is a specialized skillset that's often viewed as pointless by the common folk. Adventurers, Historians, Librarians, and Travelers may wish to study the skill, for identified paintings are worth much more than those left unidentified. 
+=== In-Game Description ===
+Understanding of the rich history of art in Alharth.
+=== Training {{msg:BASEPAGENAME}} ===
+[[Jesina]], a Fairy merchant operating out of [[Eltibule]], may be willing to teach the skill to anyone willing to help her [[Save Sarina|rescue her sister from slavery]].
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* [[Poetry Appreciation]] - Low levels of '''Art History''' may be needed to identify some Poetry Books.
+=====Related Skills:=====
+* [[Artistry]] - A somewhat related skill that deals with creating paintings. Currently, Artistry is only used to carve pumpkins and craft Fireworks.
+== Harvestables == 
+{{Item|Unidentified Painting}}
+Unidentified Paintings are often found in dungeons. Sometimes, defeated wild animals are found to have eaten a painting.
+
+* [[Serbule Crypt]] : There are a few rooms with platforms and ledges from which you can grab paintings.
+* [[Goblin Dungeon]] : Paintings are found throughout this dungeon. The goblins seem to have stashed the higher value paintings deeper in the dungeon.
+
+In general, paintings with higher values will give more xp when identified. They can also be identified by their golden border, instead of the normal brown one. Here are a few examples of identified paintings, roughly in order of increasing value:
+{| class="wikitable"
+|+
+! Painting !! Value !! Description
+|-
+| {{Item|Student Painting}} || 10 ||This is a novice students' attempt to mimic [[Landrisil]]'s masterpiece, "The Forest Before Dusk".
+|-
+| {{Item|Mediocre Goblin Painting}} || 10 ||The tell-tale signs of Newakis fatbrush-strokes indicate that this is a novice goblin painting, probably a teenagers' efforts.
+|-
+| {{Item|Bland Waterfall Painting}} || 20 ||This painting of a waterfall is bland and uninspired, but you can barely make out an older, better painting underneath. The older painting looks to have been a practice piece by a goblin expert.
+|-
+| {{Item|"Pies Cooling On A Windowsill"}} || 20 ||This scribbled mess is supposedly about pies, but it doesn't contain any recognizable shapes -- just ugly blobs. It's unsigned and unappealing.
+|-
+| {{Item|"Snake Widow Lake"}} || 20 ||A lovely forgery of "Snake Widow Lake" by [[Hermard Torsitan]], the most esteemed living human painter.
+|-
+| {{Item|Forest Painting}} || 30 ||This is the work of an elven artisan from approximately 300 years ago. It has a slight kitsch factor, and may look good on a wall, but it has little monetary value.
+|-
+| {{Item|Shoddy Forgery}} || 30 ||It's an extremely poor forgery of "Last Autumn Sunset" by [[Kot Bhenul]]. There isn't even any real gold in the gold paint!
+|-
+| {{Item|Painting of Traticus}} || 40 ||This nature scene depicts [[Traticus]], the mythical elven hero, entering the [[Woods of Disdain]]. The subject matter dates the painting to the New Revisionist period, 150 years ago. By elven timelines this was very recent, making the painting extremely tacky. Perhaps it will gain value in 300 years, however.
+|-
+| {{Item|Well-Framed Painting}} || 40 ||The painting is a student effort by an untrained hand, but the frame is quite lovely.
+|-
+| {{Item|Phot Painting}} || 40||This depiction of the [[Tower of Treason]] was made by an elven [[Phot]] craftsman, using their signature one-bristle brush.
+|-
+| {{Item|Painting of Grigtekark}} || 50||This ugly piece has been preserved through the ages solely because it depicts [[Grigtekark]], a goblin holy land.
+|-
+| {{Item|Painting of Ema}} || 50 ||A breathtaking scene of the old Council grounds of [[Ema]]. It seems to be 3000 years old. Sadly, however, there are traces of [[Alteration Magic]] in the paint, and it could well be a forgery.
+|-
+| {{Item|"Ovallia"}} || 250 ||A mass-produced replica of Sherig's "Ovallia". Tacky and somewhat low-quality, but it's currently popular among the nouveau riche.
+|-
+| {{Item|Goblin Painting}} || 50 ||This is clearly the work of a skilled goblin artisan. Made in the recent Three Hierarchies goblin style, it is probably very new.
+|-
+| {{Item|Numbered Ertrigard Painting}} || 100 ||This is an original numbered [[Ertrigard]] painting. The master is beloved for waterfall scenes like this one. However, thanks to his magic brush, he created over 40,000 paintings during his lifetime, so being "original" doesn't really make it too terribly special.
+|-
+| {{Item|Blurry Pastoral}} || 150||A blurry watercolor without much to redeem it. However, it was made with highly magical elven pigments that can be reclaimed.
+|-
+| {{Item|"Orcs and Storks"}} || 200 ||You can kind of make out little orc faces and little stork bodies in this abstract painting, although you have to squint. It's bright and upbeat, but you've never heard of the painter.
+|-
+| {{Item|"Shield Breaker's Lament"}} || 200 ||A portrait of a red-robed mage with a trained battle-rat. The mage is crying over a mug of spilled beer. There are no shields present in the picture. (Artist unknown.)
+|-
+| {{Item|Stunning Painting}} || 250 ||This piece is absolutely stunning... literally. Its magical pigments cause the viewer to very briefly lose their balance when viewing the painting. It's also a lovely painting and you're not sure why the artist bothered with the trickery.
+|-
+| {{Item|Extremely Old Painting}} || 200||A stunning find! This is a truly ugly painting, but the lack of depth and proportion suggest that it was made by someone in the pre-Council era, making it at least 10,000 years old.
+|-
+| {{Item|Peaceful Scene}} || 250 ||A lovely scene. Perhaps it was created by [[Mirkym]] -- it has her signature approach to foliage -- but probably just created in the same style by an admirer of her work.
+|-
+| {{Item|"Clouds and Trees"}} || 250 ||An original work by an elven name you don't recognize, Errasteria. It's lovely.
+|-
+| {{Item|"Esoteria"}} || 250 ||A gorgeous replica of [[Crea]]'s "Esoteria", complete with all 88 hidden symbols. Most noticeable is the three-headed duck in one corner, representing the three states of nature.
+|-
+| {{Item|Portrait of Ursula}} || 250 ||A portrait of [[Khyrulek]]'s young daughter. She's a pale Human child, no more than five years old, and she looks miserable.
+|-
+| {{Item|"Grim's Death"}} || 300 ||A recreation of the famous painting from the end of the Dwarven Period. The detail work really captures the ham-fisted spirit of dwarven painting techniques.
+|-
+| {{Item|"Talerra At The New Moon"}} || 350 ||A depiction of [[Talerra]], the spectral God of Depression and Knowing the Truth. Her ghostly arm beckons as if she has some bad news to deliver. This painting seems supernaturally resilient, and it has probably been blessed by one of Talerra's few monk-priests. However, it's way too creepy to display in a home.
+|-
+| {{Item|"Forgers Peril"}} || 400||As you glance into this painting, the details seem to melt away. It is a cursed forgery of [[Gobblenuk]]'s Forger's Peril: the insane goblin artist concocted a magical painting that can never be replicated. Any attempt to do so results in this monstrous visual effect. On the other hand, the visual effect is pretty sweet.
+|-
+| {{Item|"Always The Way"}} || 400 ||A masterpiece in the vein of "Esoteria" or "The Cured Path", this symbol-laden mess of a painting contains over 400 secret meanings.
+|-
+| {{Item|Reasonably Nice Abstract Art}} || 400 ||Not inspired, but quite pleasant to look at, this abstract piece would look good hanging in a Council official's office. It lends a little class to any room it's in.
+|-
+| {{Item|"Seasons Beyond Winter"}} || 450 ||An artist's depiction of what a fifth season might be like, if there was one between winter and spring. It's lovely, but it pretty much just looks like winter to you.
+|-
+| {{Item|"Last Autumn Sunset"}} || 500||It's the little-known masterpiece by dwarven artist [[Kot Bhenul]]. Note the beautiful use of real gold in the paint.
+|-
+| {{Item|"With The Wind On My Face I Can Never Smile"}} || 500 ||A wintry woodland scene featuring a little elf girl crying. You don't recognize the artist's name, but it dates back at least 1300 years, so that's something.
+|-
+| {{Item|"The Day I Dared To Dream"}} || 650 ||A collection of rectangles on a blue background painted by [[Susarex]], an elf that was turned into a snake in a tragic zoo accident. The perfectly straight rectangles took Susarex over 200 hours to complete.
+|-
+| {{Item|Ornately-Framed Painting}} || 800||This quality replica of "Candlelight and Dawnlight" is overshadowed by its frame, a beautiful masterpiece without peer.
+|-
+| {{Item|"Yap And The Big Catch"}} || 250 ||A lovely beach scene depicting a gaggle of goblins crowded around a massive talking fish wearing a little hat. You recognize the subject matter: it's the goblin tale of [[The Bossy Fishlord]]. Painted by [[Agzak]], a reasonably well-known goblin artist.
+|-
+| {{Item|Reproduction of "Fortress Five"}} || 1000 ||A signed and numbered copy of the famous painting by [[Go Hakomi]], a dwarven master. He recently passed away, increasing this painting's value significantly.
+|-
+| {{Item|"Wheat"}} || 1300 ||A well-known painting by the dwarven artist [[Kot Bhenul]]. Signed and numbered! This is a great find.
+|}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Identifying Paintings ===
+To identify an Unidentified Painting, simply right-click on the painting, and click Appraise to appraise its true value.
+
+=== Identifying Poetry Books ===
+To identify an Unidentified Poetry Book, simply right-click on the book, and click Appraise to reveal the Poetry Book.
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Art History Experience Table ==
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+
+== Trivia ==
+The developers once suggested that player-created paintings might become a reality some day!
+
+[[Category:Skills]][[Category:Trade Skills]]

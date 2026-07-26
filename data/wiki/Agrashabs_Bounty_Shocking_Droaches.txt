@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Agrashab in the Fae Realm said, "There has been a recent influx of pixies, and along with them come many typical creatures. The worst of these is the so-called shocking droach, a cowardly creature that roams in packs causing chaos. We have enough chaos right now; please remove this excess."
+
+===Prerequisites===
+To start this quest, talk to [[Agrashab/Fae Realm|Agrashab]] in the [[Fae Realm]].  The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|
+There has been a recent influx of pixies, and along with them come many typical creatures. The worst of these is the so-called shocking droach, a cowardly creature that roams in packs causing chaos. We have enough chaos right now; please remove this excess.
+}}
+
+===Requirements===
+<!-- Add requirements here. Use {{Item}} template for items, and link mobs. -->
+* Kill 10 [[Shocking Droach]].
+* Talk to Agrashab.
+
+===Rewards===
+{{Spoiler|Rewards for Agrashab's Bounty: Shocking Droaches|
+{{Quote|
+The sparking droaches are neutralized? Very good! The next wave of my children will arrive in less than a year, and they would have been easy prey to these foul ambushers. You have served trollkind well.
+}}
+* 10000 Councils
+* {{Item|Royal Jelly}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Agrashab/Fae Realm]][[Category:Quests/Fae Realm Quests]]

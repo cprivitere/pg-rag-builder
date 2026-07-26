@@ -1,0 +1,56 @@
+__NOTOC__
+{{NPC infobox
+|title            = General Tassadar
+|image            = [[File:General Tassadar (npc).png|300px]]
+|caption          = Battlewortn and a big haggard, <br> but his uniform is immaculate
+|zone             = Statehelm
+|town = Statehelm 
+|location         = Soldier Barracks Courtyard 
+|anatomy = Human
+|species = Human
+|beastspeak       = Unknown
+}}
+{{Quote|source=[[General Tassadar]]|
+I should have retired a year ago, but what kind of man would I be to abandon my city in its time of need?
+}}
+[[General Tassadar]] is a high-ranking military official in the Council army based out of [[Statehelm]]. He was known friends with the [[Eltibule]] family.
+== Location ==
+; [[Statehelm]]
+: [[General Tassadar]] can be found in the courtyard of the Soldier Barracks in the southwest corner of the city of [[Statehelm]].
+== Favor ==
+[[General Tassadar]] is not willing to share his preferences with strangers.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards ===
+[[General Tassadar]] rewards his friends with ???
+=== Hang Outs ===
+== Quests ==
+[[General Tassadar]] does not offer any quests at '''{{favor|Neutral}}''' favor.
+<!--
+<dpl>
+category = Quests/General Tassadar
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Services ==
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[General Tassadar]]|
+Statehelm is the heart of this nation. Protecting it isn't just my duty -- it's my life's work. Are you here to help?}}
+{{Quote|source=[[General Tassadar]]|
+Statehelm is the keystone in the arch of our nation. If it falls, the rest will follow. That's why the demons press so hard against Vidaria: from there, they can march on us.}}
+== Lore ==
+{{Quote|source=[[Gretchen Salas]]|
+Are you threatening me? I know General Tassadar! I'll make sure he puts you in the ground!
+
+He visited Lord Eltibule, and I served him lunch many times! We're very close!
+}}
+
+[[Category:NPCs]]

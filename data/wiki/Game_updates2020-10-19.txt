@@ -1,0 +1,7 @@
+==Update Notes: Oct 19, 2020==
+: - Fixed bug that made [[Nishika]]'s two new hangouts both be available simultaneously (the short should be a prerequisite to the long)
+: - Fixed bug that caused the [[Nishika]]'s shorter new hangout to disappear from the available list if the longer hangout was completed first
+: - Fixed bug that could make the hidden bear in the barn unkillable
+: - Added more logging to help find some uncommon errors
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

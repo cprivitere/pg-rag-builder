@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Makara in the Ilmari Desert asked you to find an odd crystal. She said it could be found in yeti caves deep beneath the Kur Mountains. The crystal is a very rare ground spawn that will likely take a long time to find.
+
+===Prerequisites===
+To start this quest, talk to '''[[Makara]]''' in '''[[Ilmari Desert]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Prisms are useful for a few special crafting tasks. I can make ordinary prisms, but I've heard of a strange prism made by an ancient yeti master. I wish to study it! Find it for me?
+
+It would be in some cave in the Kur Mountains, I presume. I doubt it would be easy to find, since I've only heard vague rumors of it. It's probably in some sack deep down in a hole somewhere.}}
+
+===Requirements===
+* Obtain {{Item|Archaic Prism}}
+* Talk to Makara
+
+===Rewards===
+{{Spoiler|Rewards for The Weird Prism|
+{{Quote|This is it! Hm. These sigils attune it to a specific species. That's not supposed to be possible! I will have to study this more. Oh, here. These are boring old regular prisms in exchange.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Small Prism}} x 4
+* {{Item|Medium Prism}} x 4
+}}
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/Makara]]

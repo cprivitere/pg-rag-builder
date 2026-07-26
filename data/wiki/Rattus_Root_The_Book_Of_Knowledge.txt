@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Bogaku in the Rahu Sewers said, "Rattus root is a favorite snack of these barbaric vermin. I'm sure to a mutant like you it just looks like a root, right? But to a gobthropologist, it's like an open book! A book of secrets! So go get me my secret books! I mean rattus roots!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Bogaku]]''' in the '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+Rattus root is a favorite snack of these barbaric vermin. I'm sure to a mutant like you it just looks like a root, right? But to a gobthropologist, it's like an open book! A book of secrets! So go get me my secret books! I mean rattus roots!
+
+===Requirements===
+* Obtain Rattus Root x3
+* Talk to Bogaku
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Ugh. These aren't fresh at all! Which means they aren't growing crops down here after all, these must be bartered from caravans. Unfortunately I can't learn much from roots that are this old!
+
+Hm, how do I explain the problem to a monster like you? They're like books of knowledge, but the books have gotten wet, and ... wait, do you know what a book is? Oh, nevermind! You did fine, here's your shiny.}}
+* 50 {{Favor|favor}}
+* {{Item|Xedrite}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Bogaku]]

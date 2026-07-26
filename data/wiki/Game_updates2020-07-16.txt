@@ -1,0 +1,72 @@
+__NOTOC__
+==Update Notes: July 16, 2020==
+This is a minor update in terms of new stuff, but it's a major update internally -:- after a lot of work, we've upgraded to the latest LTS Unity version! With luck, you'll notice better performance. (And a heartfelt thanks to the brave Beta Testers who helped us make this work!)
+
+In terms of new content, there's a new animal form for experienced players to discover. It can be found deep in a cave in Kur. (We consider this the "preview edition" of this new animal form; all mechanics are implemented, and most of the treasure, but not much in the way of NPC interactions yet.) We also want to remind players to always take warnings in item descriptions seriously!
+
+===Changes to Settings===
+We're using a new version of the Unity engine. It performs better for most hardware configurations. (Benefits will vary based on your hardware and OS.)
+
+Because a lot of the graphics settings changed subtly, we decided to wipe all game settings. So you'll need to reconfigure everything! We apologize for the inconvenience -:- it shouldn't happen again for at least a year (when the next LTS stable Unity engine is released).
+
+===Important Files:===
+:- The filename of the game's settings file has changed. It used to be GorgonConfig.txt. Now it's GorgonSettings.txt.
+:- Previously, the game's log was saved to a file named output_log.txt on Windows. That file is now Player.log. This is the log that we usually request when debugging. 
+:- In Windows, both of these files can be found at: C:\Users\YourUserName\AppData\LocalLow\Elder Game\Project Gorgon
+
+===SphereCull:===
+The SphereCull "special setting" has been promoted to a regular setting. It is now shown as a checkbox on the Graphics setting window. By default, spherical culling is turned on; to turn it off, uncheck that checkbox. (Typing SphereCull in the special settings window no longer does anything.)
+
+===3D window viewport size:=== 
+The rarely-useful "3D window viewport size" settings (there were four separate sliders for x, y, width and height) have been demoted to Special Settings. To set these values, go to the Special Settings window and add, e.g. 3DWindowX=0.25 to make the camera not render on the left-most 25% of your screen. (See the in-game Special Settings help for more information.)
+
+===UI Fixes & Changes===
+:- Another attempt to tame the Settings window's complexity: the features of the GUI section are now broken up into sub-sections that can be expanded or collapsed.
+:- Added the ability to set the color of different types of overhead labels. (Experimental)
+:- Fixed bug where resizing a game panel or window would not persist in its new size after restarting the game.
+:- Fixed bug where talking in Party chat while not in a Party would go to the Global channel. (This now displays an error message instead.)
+:- Fixed bug where chat tabs would switch to speaking on Global channel after switching to a new area.
+:- The game now saves the channel you want to talk on as part of its settings, so it will remember them when restarting the game (as long as you were speaking on a channel that is actually received in that room -:- this is a safety precaution).
+:- When you click the chat-channel-chooser button to pick which channel you're talking in, the listing shows only the channels that are actually displayed in that tab.
+(Well, actually the other channels are still displayed, in a special sub-listing, because we didn't want to remove old functionality without feedback. So! Do you use the sub-listing to speak in a channel that isn't displayed in the active tab? If so, why? Would you be sad if it went away? Let us know!)
+
+===Combat XP Tweak ===
+If you're only actively using one of your two combat skills, you no longer get a "bonus" of XP in your active skill. Let's step back and explain how XP is earned: basically, if the monster is worth 100% of its XP, each of your two skills get 50% of that... but if one of the skills hasn't been actively used within a minute, it doesn't earn anything. (That behavior is unchanged.) 
+
+Previously, half of that thrown-away XP was added to the first skill's earned XP as a bonus. But this code was easily abusable by pet classes, and the only thing we really wanted to keep from this setup was the "double-bar trick". So now, we just explicitly support that trick:
+
+If you really just want to level a single skill, you can assign both skill bars to the same skill. When both your bars are for the same skill, that skill earns 75% of the monster's total XP instead of only 50%. (This behavior is unchanged, we're just documenting it.)
+
+===Monsters and Mantids===
+:- Monsters toughened up! All monsters beyond level 2 have a bit more health and deal a bit more damage. (More tweaks and random encounters are still in the works.)
+:- Fixed several events with missing messages (where it would just say "null" instead of a message).
+:- Fixed golem encounter bug that could lead to fighting a fairy instead of a golem.
+:- The "skillcode" column on the leaderboard now encodes chosen perks. (Not retroactive for existing leaderboard entries.)
+
+===Treasure Fixes===
+:- Treasure effect "Warning Jolt restores X Armor and taunts +Y" restored Health instead of Armor.
+:- Treasure effect "Warning Jolt restores X Power and attack range is increased 5 meters" restored Health instead of Power.
+:- Treasure: "Deadly Emission Damage +X and Reuse Timer -1 second" didn't correctly shorten the reuse timer.
+:- Treasure: "Barrage and Headbutt ignite the target, ..." did not work for the Claw Barrage variant of Barrage.
+:- Some treasure effects that buff kicks did not apply to rabbits' "Thump" or spiders' "Infinite Legs".
+:- [[Priest]] treasure change: "Direct Fire Damage +35 while Priest skill active" => now +100.
+:- [[Necromancy]]: new off-hand treasure effect: "Death's Hold causes target to take +9% damage from Darkness for 15 seconds"
+
+===Other Changes===
+:- Added a new animal form. It can be discovered deep in a cave in Kur.
+:- [[Kelim]] required only level 50 to unlock 60-70 [[Gardening]]; he now requires level 60.
+:- The notoriety message for defeating [[Betra the Cold]] incorrectly referred to her as [[Murdebok the Valiant]].
+:- [[Yogzi]] has recipes for a few missing skill belts.
+:- [[Backfat]] now charges the usual royal jelly fee for first aid techniques.
+:- Pets now follow closer to their owners.
+:- Fixed bug that prevented pet grimalkin from being summoned by animal handlers.
+:- Undead creatures are now 50% vulnerable to Darkness damage (instead of 0%). This applies to pets as well as monsters.
+:- Spider's "Insidious Illusion" reset time changed from 1 hour to 20 minutes.
+:- Werewolf quests from the Altar of Norala now abort right after the full moon ends (instead of aborting right before the next full moon, as they did before).
+:- Alchemy: several "Max Health +N" potions had too short of a duration and were fixed to last 1 hour.
+:- "Toxin Resistance Potion" is now considered a resistance potion for gifting purposes.
+:- "Steroid Drink" is now considered a max-health potion, not a restorative potion, for purposes of gifting.
+
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

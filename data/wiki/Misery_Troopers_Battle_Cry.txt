@@ -1,0 +1,13 @@
+__NOTOC__
+{{Ability infobox
+| name = Misery Trooper's Battle Cry
+| description = With a shout, you move like a whirlwind, dodging and strafing any projectiles.
+| level = 0
+| power cost = 25
+| reuse time = 90
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|SurvivalUtility}}
+| special = You gain +50% Projectile Evasion for 20 seconds. This ability can only be used when you are wearing four or more pieces of Gazluk Misery Trooper Armor.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

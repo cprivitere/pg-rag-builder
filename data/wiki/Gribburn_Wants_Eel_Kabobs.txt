@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Gribburn in Hogan's Keep asked you for some eel kabobs.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gribburn]]''' in '''[[Hogan's Basement]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Gorvessa is beautiful, but her cooking is... well, it's adequate. But my refined palate needs something better. I could really go for eel kabobs right now!}}
+
+===Requirements===
+* Obtain {{Item|Eel Stir-Fry}} x2
+* Talk to Gribburn
+
+===Rewards===
+{{Spoiler|Rewards for Gribburn Wants Eel Kabobs|
+{{Quote|Mmm. Thanks! All mine, no sharing! Here, you can have the meal Gorvessa made for me.}}
+
+* 150 {{Favor|favor}}
+* {{Item|Boiled Crab}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Gribburn]]

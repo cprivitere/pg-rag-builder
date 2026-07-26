@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Chirrra in  the Serbule Hills Ranalon Den said, "Another mission already? Um... just go kill some ranalons! Whichever. Bring me some of their tacky jewelry to prove you've done your job."
+
+===Prerequisites===
+To start this quest, talk to '''[[Chirrra]]''' in '''[[Ranalon Den]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This quest requires the previous completion of a [[:Category:Quests/Chirrra Tier 1|Tier 1]] quest from Chirrra.
+
+This is a solo quest from Chirrra. You may have one solo quest from Chirrra at a time. You can take on a new solo quest 15 minutes after completing or canceling this quest.
+
+===Preface===
+{{Quote|Another mission already? Um... just go kill some ranalons! Whichever. Bring me some of their tacky jewelry to prove you've done your job.}}
+
+This is a [[:Category:Quests/Chirrra Tier 2|Tier 2]] quest from Chirrra.
+
+===Requirements===
+* Collect 7 [[:Category:Items/RanalonGlassBracelet|Glass Bracelets]]
+* Talk to Chirrra
+
+===Rewards===
+{{Spoiler|Rewards for Ranalon Den: Trophy Bracelets|
+{{Quote|Wow. You are really good at killing ranalons. Terrifyingly good. Have you considered killing goblins instead? ... No, gotta stay on focus! We're 'slaying the ranalon menace'!}}
+
+This quest will reward random loot. This may include items with level 20 mods.}}
+[[Category:Quests]][[Category:Quests/Ranalon Den Quests]][[Category:Quests/Chirrra]][[Category:Quests/Chirrra Tier 2]]

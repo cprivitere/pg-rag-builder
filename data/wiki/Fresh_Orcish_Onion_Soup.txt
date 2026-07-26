@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Ailred in Povus said, "There you are! I've been waiting so long! Let me have the orcish onion soup. And it had better be fresh!"
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ailred]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+There you are! I've been waiting so long! Let me have the orcish onion soup. And it had better be fresh!
+
+===Midway===
+Where is my orcish onion soup?
+
+===Requirements===
+* Craft Orcish Onion Soup
+* (Keep Orcish Onion Soup)
+* Talk to Ailred
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hmm, something's not quite right. Are you sure you used fresh onions?! Well, it's pretty good. Thank you.}}
+* {{Item|Xogrite Chunk}} x7
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ailred]]

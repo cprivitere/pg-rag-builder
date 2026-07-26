@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> I overheard Ilth Hale say she was going to make some ghosts from people who died without being mourned. Help keep the world safe from ghosts by mourning other heroes' tombstones.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> I overheard Ilth Hale say she was going to make some ghosts from people who died without being mourned. Help keep the world safe from ghosts by mourning other heroes' tombstones.
+
+===Requirements===
+* Mourn Players' Tombstones x7
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> You're very compassionate! I understand that's a good thing.}}
+* 100 councils
+* {{Item|Recall Stone}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

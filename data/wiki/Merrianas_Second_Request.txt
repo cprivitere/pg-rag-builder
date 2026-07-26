@@ -1,0 +1,33 @@
+__NOTOC__
+==Summary==
+Merriana in Serbule Hills said, "The orb you found for me was a fake, but I know it's somewhere in Serbule Hills! I must find it.
+
+The vortices have overheard the ranalon speak of a seer or wise-person called a 'doctrine keeper' -- if the ranalon have my orb, I bet their seer would have it.
+
+I understand they live under the water or some such thing. Finding it would be worthwhile."
+===Prerequisites===
+To start this quest, talk to '''[[Merriana]]''' in '''[[Serbule Hills]]'''.  The quest is available at {{Favor|Tolerated}} favor. The quest [[Obtain Strange Crystal Ball From Bandits]] must be completed first.
+
+===Preface===
+The orb you found for me was a fake, but I know it's somewhere in Serbule Hills! I must find it.
+
+The vortices have overheard the ranalon speak of a seer or wise-person called a 'doctrine keeper' -- if the ranalon have my orb, I bet their seer would have it.
+
+I understand they live under the water or some such thing. Finding it would be worthwhile.
+===Requirements===
+* Collect {{Item|Strange Crystal Ball}} x1 (The one with a fish in the description)
+* Talk to Merriana
+
+===Rewards===
+{{Spoiler|Rewards for Merriana's Second Request|
+{{Quote|
+You got this from a ranalon 'doctrine keeper'? This is not the orb I need. Moreover, this is not even a magic orb. It's some stupid cultural artifact. Augh! Where is it?!
+
+Yes, yes. You are right: I sent you on an errand that I knew might be impossible. I owe you a reward for your 'work'. Sigh.
+}}
+* 100 favor towards [[Merriana]].
+* {{Item|Shock Dust}} x1
+* {{Item|Sulfur}} x1
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]], [[Category:Quests/Merriana]]

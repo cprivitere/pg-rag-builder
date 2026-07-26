@@ -1,0 +1,61 @@
+==Update Notes - June 10, 2023==
+This is a small update to fix some of the bugs we introduced in the June 1 update. It also includes some other balance changes and bug fixes as well. (Sometimes bug fixes sprawl. One thing leads to another and so on, and suddenly you're making changes to Deer.)
+
+===Angling===
+::- The ability Catch and Release now gives 25% _bonus_ xp rather than just 25% xp.
+::- Clicking on Fish Tacos recipe in chat can no longer crash the client. It was the sour cream: the Fish Tacos recipe incorrectly indicated that it consumed half of a sour cream. It now correctly requires 1 sour cream, with a 50% chance it'll be consumed.
+::- Canceling angling (by pressing the ability) no longer consumes another piece of bait.
+::- Fish should no longer be selectable when they are attached to a fishing line.
+::- Fixed broken Dorado fish. This should help complete the angling quest in Ilmari.
+::- Angling ability descriptions no longer say they are test animations.
+::- Lungfish now look like lungfish (more or less) while on a fishing line.
+::- The Perch Fillet in the Loot Master Game is no longer just a blank white square.
+::- Fixed the reversed east/west text of the angling quest in Serbule Hills.
+::- Fixed missing particles on several "non-fish" angling targets.
+
+===Changes to Deer===
+After review, it seems like Deer has good bones and interesting potential, but it could use some buffing.
+::- "Deer Kick deals +X damage and grants you -10% Fire Vulnerability for 10 seconds" => for 60 seconds
+::- "Combo: Deer Bash+AnyMelee+Any Melee+Deer Kick: final step hits all enemies within 5 meters and deals +X damage." => combo is now Deer Bash+Any Melee+Deer Kick
+::- Ability "Deer Bash" base damage increased significantly (288 => 400)
+::- Revised correlated mod downward a bit: "Deer Bash Damage +72%" => "Deer Bash Damage +66%"
+::- "Forest Challenge damage is +158 and reuse time is -1 second" => "Forest Challenge and King of the Forest damage is +116 and reuse time is -1 second"
+::- "King of the Forest has a 90% chance to deal +200 damage" => "King of the Forest damage +100. There is a 22% chance to summon a deer ally for 30 seconds"
+::- Ability "Summon Deer" tiers 2-5: all tiers now have reset time of 30 seconds
+::- "Summoned Deer have +73 armor" => "Summoned Deer deal +61 damage and have a +10% chance to crit"
+::- "Pummeling Hooves has a 60% chance to deal +78% damage and taunt +500" => "Pummeling Hooves deals +60 damage and restores 80 Health over 8 seconds"
+::- "Deer Bash has a 60% chance to deal +134% damage" => "Deer Bash deals +100 damage and has a 24% chance to deal +134% more damage"
+::- New treasure effect: (Head): "Forest Challenge deals +100 damage and you take -15% damage from Elite attacks for 20 seconds"
+
+===UI & Graphics===
+::- AoE range indicators should work in all areas now.
+::- Doubled the speed at which vitals bars animate.
+::- Dying now enables the cursor in Action Mode.
+::- Skills now remember if they are expanded or collapsed when zoning.
+::- New setting: "AOE Area Opacity" located in GUI > Windows & HUD > Abilities & Items
+::- Fixed a bug causing Show/Hide durationless effects to cause a short framerate dip.
+::- Fixed a bug preventing players from booting up in the Old UI.
+::- Fixed broken combat numbers in the Old UI.
+::- Fixed a bug that caused animals to get stuck dancing.
+::- Channeling an ability while playing a bard song should no longer cancel the bard song animation.
+::- Acid Bomb & Freezing Mist effects now display even when nobody is hit by them.
+::- Added explode-y effects to Toxin Bomb & Mycotoxin Formula to make them feel more... explode-y.
+::- Removed some mud from pig dances until we can make it look better.
+
+===Other===
+::- Increased bonus XP earned for killing monsters in a group. The bonus depends on the number of group members that helped fight the monster. Bonuses for (1, 2, 3, 4, 5, or 6) group members changed from (+0%, +25%, +33%, +50%, +66%, +75%) to (+0%, +33%, +66%, +100%, +133%, +166%). Note that this was actually in the June 1 update, we just forgot to tell you.
+::- The Warden mod "When privacy field deals damage, it also ignites the suspect, dealing 64 damage over 8 seconds" will no longer ignite the user of Privacy Field.
+::- Jesina's dialog did not change after you received the Nexus Adjunct Matter Aligner.
+::- Jesina can now give players a replacement Nexus Adjunct Matter Aligner if they have misplaced theirs.
+::- Percy Evans now refuses gifts of the Nexus Adjunct Matter Aligner.
+::- The lowest-tier versions of "Summon Sandstorm" and "Summon Doomstorm" now use the same cooldown timer as all other summoned storm abilities.
+::- Doomstorms did not make any ambient sound.
+::- Summon Doomstorm 2+ and Summon Sandstorm 2+ abilities were grouped with Summon Sandstorm abilities in the ability window. This has been fixed.
+::- When you had multiple stacks of ammo, ammo would be consumed from the largest stack, thereby slowly depleting all the stacks at an even rate. This felt weird; now ammo is consumed one stack at a time, starting with the first ("leftmost"?) stack in your inventory.
+::- Increased the chance of wolfsbane spawning in the Werewolf Forest in Kur Mountains.
+::- Mushroom boxes & box recipes were using a fishing pole icon. (They always have, but the old icon was too murky to make out.)
+::- Potion of Random Resistance and Potion of Universal Resistance incorrectly gave back an empty bottle after drinking.
+::- A handful of old icons have been updated.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

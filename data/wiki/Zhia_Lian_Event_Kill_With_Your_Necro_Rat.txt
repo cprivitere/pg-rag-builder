@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> The ratkin necromancers underneath Rahu have been breeding high-quality necro rats. Very cute! They can act as your sidekick, helping you focus necromantic energy. Go find one and fight with it!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> The ratkin necromancers underneath Rahu have been breeding high-quality necro rats. Very cute! They can act as your sidekick, helping you focus necromantic energy. Go find one and fight with it!
+
+===Requirements===
+* Kill With a Pet Necro Rat x6
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Hrm. Well, they're cute, but as far as sidekicks go, those rats don't seem very evil. They're just animals! I don't think the other Chalice gods would be excited about them. Let's move on.}}
+* 2500 councils
+* {{Item|Event Loot Key (Universal)}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

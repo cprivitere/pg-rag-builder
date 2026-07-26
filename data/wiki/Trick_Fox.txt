@@ -1,0 +1,64 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Trick Fox
+| description = Create an ephemeral projection of a fox that taunts enemies.
+| level = 12
+| power cost = 0
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|TrickFox}}
+}}
+|-
+|
+{{Ability infobox
+| name = Trick Fox 2
+| description = Create an ephemeral projection of a fox that taunts enemies.
+| level = 26
+| power cost = 0
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|TrickFox}}
+}}
+|-
+|
+{{Ability infobox
+| name = Trick Fox 3
+| description = Create an ephemeral projection of a fox that taunts enemies.
+| level = 42
+| power cost = 0
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|TrickFox}}
+}}
+|-
+|
+{{Ability infobox
+| name = Trick Fox 4
+| description = Create an ephemeral projection of a fox that taunts enemies.
+| level = 56
+| power cost = 0
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|TrickFox}}
+}}
+|-
+|
+{{Ability infobox
+| name = Trick Fox 5
+| description = Create an ephemeral projection of a fox that taunts enemies.
+| level = 72
+| power cost = 0
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|TrickFox}}
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

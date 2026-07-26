@@ -1,0 +1,203 @@
+__NOTOC__
+{{NPC infobox
+|title            = Flia
+|image            = [[File:Flia.png|300px]]
+|caption          = Prim and pleasant. But not too pleasant.
+|zone             = Serbule
+|location         = East of [[Serbule Keep]]
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Unarmed]]
+|vendor           = Yes
+|barter = Yes
+}}
+[[File:Flia (npc) loc.png|thumb|right|300px|Location: Go north from the standing stones.]]
+{{Quote|
+I try to comfort other banished souls who wander the forest. I guess I don't have much else to do. Though I do wish there were more fairies here to talk to!
+}}
+[[Flia]] is a fairy serving the [[Winter Court]].  She is a spy, who has successfully located the sisters [[Jesina]] and [[Sarina]].
+
+When Favor with Flia reaches "Like Family" she suggests that she could transform you into a fairy, but it would take eons of torture.
+== Location ==
+; [[Serbule]]
+: Stands south of the altar that is east of Serbule Keep, and north of the Standing Stones.
+
+== Shopkeeper ==
+{{Vendor items sold}} 
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[Flia/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:Flia/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Flia]] offers access to her shop and barter options at {{favor|Comfortable}} favor.
+
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Quote|What did you have in mind?}}
+{{Spoiler|
+*;Scour the Woods Looking for Wounded Animals to Put Down (2h)|
+{{Quote|Well, we put one doe out of her misery, but that sickly wolf got away. Still, not that bad a job. Here, keep the deer parts, I don't want them.}}
+:20 favor with Fila
+:2 Vension}}
+{{Spoiler|
+*;Hunt For Light Fey In The Woods and Nearby Hills (8h)|
+{{Quote|Nothing! I think I killed them all already, but you never know when one of those little milksops will come back! Thanks for helping me patrol. You can keep that collar in case you find one.}}
+:65 favor with Fila
+:1 Cold Iron Shackles}}
+{{Spoiler|
+*;Discuss the Politics of Fey Courts (30min) {{Favor|Neutral}}|
+{{Quote|
+Are all dark fey "evil"? No! That's so racist!
+
+Look, most dark fey just don't think the way you do, because they live forever in a dimension of pure hatred and pain. So it's hard to relate to you. But that doesn't make them evil!
+
+I mean, compare them to mages who become undead so they can live forever. Would you call THEM evil?
+
+What, really? I just don't get you.
+}}
+:5 Favor with Fila
+:25 Lore}}
+{{Spoiler|
+*;Set Up Traps and Cull Excess Rabbits From the Forest (2h)|
+{{Quote|Thanks for your help, that would have really hurt to do on my own. The traps are made of cold iron, and they burn my flesh if I touch them! But since you set them for me, I guess I won't need these bandages. Maybe you can use them.}}
+:20 Favor with Fila
+:3 Simple First Aid Kits}}
+{{Spoiler|
+*;Frolic in the Woods and Bury Gold for Mortals to Find (3h) - requires {{Favor|Friends}}|
+:27 Favor with Fila
+:100 Coins}}
+
+=== Creature Kills ===
+[[Category:Favor/Creature Kills]]
+Killing the following creatures near Flia grants +1.0 favor:
+:[[Pig (mob)]] 
+:[[Sickly Wolf]]
+:[[Arthropod Anatomy|Spider (mob)]]
+:[[Brain Bug]]
+
+== Quests ==
+<dpl>
+category = Quests/Flia
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Unarmed]]
+! Unlock
+! Level
+! Cost
+! Favor
+|-
+{{NPC training row
+ | ability = Headbutt
+ | skilllevel = 3
+ | cost = 350
+ | favor = Neutral
+}}
+{{NPC training row
+ | ability = Headbutt 2
+ | skilllevel = 15
+ | cost = 1450
+ | favor = Comfortable
+}}
+{{NPC training row
+ | ability = Headbutt 3
+ | skilllevel = 30
+ | cost = 2349
+ | favor = Friends
+}}
+{{NPC training row
+ | ability = Headbutt 4
+ | skilllevel = 40
+ | cost = 4089
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Headbutt 5
+ | skilllevel = 50
+ | cost = 6264
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Bodyslam
+ | skilllevel = 23
+ | cost = 2044
+ | favor = Comfortable
+}}
+{{NPC training row
+ | ability = Bodyslam 2
+ | skilllevel = 33
+ | cost = 3784
+ | favor = ?
+}}
+{{NPC training row
+ | ability = Bodyslam 3
+ | skilllevel = 43 
+ | cost = 5959
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Lore]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Word of Power Scroll
+ | skilllevel = 0
+ | cost = 500
+ | favor = Best Friends
+}}
+|}
+
+== Services == 
+== Bartering ==
+{| {{STDT}}
+!Give
+!Receive 
+|-
+| {{Item|Cat Eyeball}} x1<br> {{Item|Antler}}  x1||  {{Item|Strange Dirt}}
+|-
+| {{Item|Cat Eyeball}} x1<br> {{Item|Power Potion}}  x1||  {{Item|Power Potion Extreme}}
+|-
+| {{Item|Beak}} x1<br> {{Item|Tuft of Fur}}  x1||  {{Item|Aquamarine}}
+|-
+| {{Item|"Esoteria"}}  x1||  {{Item|Ancient Gold Coin}}
+|-
+| {{Item|Boletus Mushroom}}  x1||  {{Item|Weak Poisoned Knife}}
+|-
+| {{Item|Field Mushroom}}  x1||  {{Item|Modest Poisoned Knife}}
+|-
+| {{Item|Boletus Mushroom}} x1<br> {{Item|Field Mushroom}}  x1||  {{Item|Dangerous Poisoned Knife}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends =
+|RiShin Family = {{Item|Helm of the Winter Court}} (Lv 30), {{Item|Tsavorite}} x10
+}}
+== Conversations ==
+{{Quote|
+We really don't have much to talk about... oh, look at the time! If you'll excuse me...
+}}
+
+If the player is an animal:
+{{Quote|
+You're so right! I love animals soo much! ''Flia pets you vigorously on the head.''}}
+
+Upon reaching Favor Level Soul Mates
+{{Quote|
+I know you haven't fully come to terms with me worshiping the Dark Queen. And I appreciate that we can be such close friends anyway. I know a way we could be friends forever. I can make you a fey! But you'd have to agree to suffer for eons with me. No?... Well. Think about it. }}
+
+== Trivia ==
+* Up until mid 2016, [[Flia]] referenced a previous version of game lore where an endless fight was held between Fairy Courts of Light and Darkness, not the seasonal courts in the current game. 
+
+[[Category:NPCs]]

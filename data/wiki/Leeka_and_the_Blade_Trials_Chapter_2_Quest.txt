@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Durstin Tallow in Serbule Hills said, "I know exactly where this chapter is. Well, not exactly. There used to be a caretaker that lived on a hill south of here. George left years ago, but he told me he kept a chapter of the book in a box somewhere on his farm.
+
+There's some dwarf living there now by the name of Sammie. Go search around the place, see if you can find the chapter."
+
+===Prerequisites===
+To start this quest, talk to '''[[Durstin Tallow]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This quest requires that you have spoken to [[Durstin Tallow]] regarding his need of an adventurer to solve his book problem.
+
+===Preface===
+{{Quote|I know exactly where this chapter is. Well, not exactly. There used to be a caretaker that lived on a hill south of here. George left years ago, but he told me he kept a chapter of the book in a box somewhere on his farm.
+
+There's some dwarf living there now by the name of Sammie. Go search around the place, see if you can find the chapter.}}
+
+===Requirements===
+* Find chapter on Sammie's Farm
+* Talk to Durstin Tallow
+
+===Rewards===
+{{Spoiler|Rewards for 'Leeka and the Blade Trials' Chapter 2|
+{{Quote|Thanks. I have info on another chapter, if you're interested in helping more.}}
+
+* 100 {{Favor|favor}}
+* 250 councils 
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Durstin Tallow]]

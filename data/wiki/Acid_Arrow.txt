@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Acid Arrow
+| description = Fire an acid-covered arrow at your target that burns armor. You must have a Beginner's Reservoir Arrow (or better) in your inventory.
+| level = 5
+| power cost = 13
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|AcidArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 16 Acid to armor
+}}
+|-
+|
+{{Ability infobox
+| name = Acid Arrow 2
+| description = Fire an acid-covered arrow at your target that burns armor. You must have a Basic Reservoir Arrow (or better) in your inventory.
+| level = 15
+| power cost = 18
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|AcidArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 27 Acid to armor
+}}
+|-
+|
+{{Ability infobox
+| name = Acid Arrow 3
+| description = Fire an acid-covered arrow at your target that burns armor. You must have an Advanced Reservoir Arrow (or better) in your inventory.
+| level = 25
+| power cost = 22
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|AcidArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 41 Acid to armor
+}}
+|-
+|
+{{Ability infobox
+| name = Acid Arrow 4
+| description = Fire an acid-covered arrow at your target that burns armor. You must have an Expert's Reservoir Arrow (or better) in your inventory.
+| level = 35
+| power cost = 27
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|AcidArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 62 Acid to armor
+}}
+|-
+|
+{{Ability infobox
+| name = Acid Arrow 5
+| description = Fire an acid-covered arrow at your target that burns armor. You must have a Masterwork Reservoir Arrow in your inventory.
+| level = 45
+| power cost = 31
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|AcidArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 97 Acid to armor
+}}
+|-
+|
+{{Ability infobox
+| name = Acid Arrow 6
+| description = Fire an acid-covered arrow at your target that burns armor. You must have a Masterwork Reservoir Arrow (or better) in your inventory.
+| level = 55
+| power cost = 34
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|AcidArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 142 Acid to armor
+}}
+|-
+|
+{{Ability infobox
+| name = Acid Arrow 7
+| description = Fire an acid-covered arrow at your target that burns armor. You must have an Amazing Reservoir Arrow (or better) in your inventory.
+| level = 65
+| power cost = 38
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|AcidArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 185 Acid to armor
+}}
+|-
+|
+{{Ability infobox
+| name = Acid Arrow 8
+| description = Fire an acid-covered arrow at your target that burns armor. You must have an Astonishing Reservoir Arrow (or better) in your inventory.
+| level = 75
+| power cost = 43
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|AcidArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|ElementalArchery}}
+| damage = 235 Acid to armor
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

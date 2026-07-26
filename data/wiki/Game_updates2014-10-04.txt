@@ -1,0 +1,118 @@
+==October 4th, 2014==
+
+===Small Combat Tweak #1 (Experimental):===
+
+The global ability cool down timer has been slowed by .3 seconds for both monsters and players. This means abilities will stay "queued" for a fraction of a second longer before activating. The intent is to slow combat down just a little bit, giving players a little more time to tell what the hell is going on.
+
+In my experience this change is very noticeable at first (and slightly annoying), but after just a little while it felt normal, and it did seem to let me be a bit more strategic. Feedback is welcome!
+
+Like any change, this one has lots of tiny side effects, such as increasing the efficacy of DOT attacks (because combat will last a few seconds longer) and changing the potential rotation of abilities (because ability cool downs didn't change, but the global cool down did). I haven't given these side—effects much consideration yet, but if you notice egregious problems please report them!
+
+===Small Combat Tweak #2 (Experimental):===
+
+Modest anti-zerging check added. If you die repeatedly in the same short timeframe, you will have to wait slightly longer to respawn. Feedback is very desired!
+
+Right now, the effect is very modest (it adds about 5 seconds more delay for each death in a 15-20 minute time frame), so the question is: is it enough to prevent zerging without being too punitive to people having a bad day?
+
+===Gourmand Skill Tweaks, Recipe Tweaks===
+
+* Your Gourmand skill level has been recalculated. The XP values of various foods have changed, so your level has been calculated based on all the foods you've ever eaten. Depending on what you‘ve eaten, your level may be higher or lower than before
+
+* The Gourmand skill now goes to 100. This is to keep you from capping out Gourmand and then accidentally "losing" XP from eating a new food (because you only get that XP the first time you eat a new recipe).
+
+* Note: you cant REALLY get past 50 in Gourmand yet, because there aren't enough recipes in the universe to accomplish this. But more are always coming online.
+
+* There is a new button labeled "See All Foods Eaten" in the Skill panel under Gourmand skill. This can be useful if you aren't sure whether you\/e already gotten the XP from something or not.
+
+* Note: very few foods give Gourmand XP if you eat them more than once, and the ones that do give only 1 or 2 XP for subsequent meals. The idea behind Gourmand is you're supposed to seek out all kinds of new foods to level it up.
+
+* A few consumable items that weren't considered "food" now are. They give very small amounts of Gourmand XP the first time you consume them. (E.g. bottles of milk)
+
+* Goblin Stew is now a Snack food instead of a Meal (with reduced stats to match), and also it no longer gives XP if you keep eating it over and over
+
+* Venison Jerky and Chicken Drumstick recipes no longer generate two food items.
+
+* You can now create 2-3 cheese casks at once instead of 1-2
+
+===New Crafting Content===
+
+* New NPCS in Sun Vale have recipes for carpentry and a new skill, Toolcrafting. The NPCs are in the "druid area", where eventually a druid camp will exist. (Right now, they are just some dudes standing in a field)
+
+* Sie Antry has additional content for the Toolcrafting skill.
+
+===Other New Features===
+
+* You can now walk through other players and their pets (and your pets). If both players (or pet owners) are PVP, and not grouped together, this does not apply.
+
+* Abilities that target enemies should no longer auto-target your pets (or ally's pets). (But they should still target enemy pets in PVP! Tested this? nope)
+
+* New slash command "/invite" lets a group leader invite other players having to be physically adjacent to interact. However, the player must still be on the same basic geographic region, for technical reasons (e.g. both players in Serbule, both in the same dungeon, etc.)
+
+* New slash command "/friend" lets you prompt to befriend another player without having to be physically adjacent to interact. However, the player must still be on the same basic geographic region, for technical reasons (e.g. both in Serbule, both in the same dungeon)
+
+* New skill reports! Cheesemaking, Dying, Gourmand, Hoplology, Notoriety, and Teleportation have new buttons on the Skill panel to get details about your activities with that skill
+
+* Added some more teleport platforms (2 in Kur, 1 in Myco cave) and unified their appearance
+
+* Tweaks to NPC appreciation of gifts:
+
+** Hogan likes staves more
+** Kalaba likes brass more
+** Tyler Green likes shields more
+** Joeh likes swords, shields, and meat more.<br>'''NOTE''': Joeh no longer appreciates chest gear. He apparently has all he needs.
+
+* Operation Monster Freedom: rescued hundreds of monsters stuck inside rocks, trees, cliffs, and occasionally from within each other. Could we rescue every monster? No. But the ones we rescued are thankful.
+
+* Triumphant return of the Combo GUI indicator! (it was off the screen since the last GUI revision)
+
+* Raised the Favor reward of longer Hangouts a bit. (Hangouts less than an hour long are unchanged)
+
+===Bug Fixes===
+
+* Fixed bug in "Push Onward" ability that kept it from working
+
+* Fixed more uncollectable paintings in goblin dungeon
+
+* Fixed pathing for the barn with a bear in it
+
+* Removed Hardcore requirement from Helm of the Summer Court
+
+* Messages about items being removed due to changing Hardcore Mode are only sent to the affected player, not the entire area
+
+* Added physics collision to some larger trees in Eltibule and Serbule
+
+* Removed invisible trees from Serbule (they had physics, so people were running into invisible trees)
+
+* Numerous animation improvements
+
+* Particle effect additions
+
+* Sound effect improvements and additions
+
+* Began the laborious process of adding flight-maps for NPC fairies. Only partially complete now — fairies can now fly over some parts of the ravines in Sun Vale
+
+* Equipment that boosted Discharging Strike damage also unintentionally knocked target back
+
+* Symbols of Hate Made Manifest did not have necromancy gems on them, despite the description claiming so
+
+* Fixed bug that let players interact with goblin NPCs even if they didn't know Goblinese
+* Fixed the extreme base armor levels of the Helm of the Summer/Winter Court
+* Calligraphy recipes that call for Knight's Armor no longer consume said armor
+* Various calligraphy recipe fixes
+* Various combo effect fixes
+* Carrots enhanced for texture
+* Fixed issue where calligraphy benches and similar carpentry items would leave their buff effect in the world forever even after the furniture had disappeared
+* Fix for having more than 2k text in notebook
+* Fixed AI of [[Tyxr the Guardian Elemental]]
+* The druid ability Hunter's Stride didnt work
+
+===Important===
+
+Please stop using /stuck as a fast-travel mechanism. /stuck is only for if you're literally stuck and can‘t move. 99% of
+the entries in the stuck-player log have turned out to be false positives, meaning I've had to throw out the entire log.
+
+If you're stuck because of other players being in your way, you can use /stuck for that if you really have to, but first try
+right-clicking past them, or using ctrl+tab to target an item beyond them and then pressing R to auto-use the item. The trick is that
+when the game auto-moves you, you can walk right through other players. (We're working on a better collision solution overall!)
+
+[[Category:Game updates]]

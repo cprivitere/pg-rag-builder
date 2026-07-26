@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Bellema Deftwhisper in New Prestonbule said, "When we were checking altitude measurements the other day, we found some very unusual creatures on top of the mountains. They're like slimes, but ice cold! A few fiery crossbow bolts can take 'em out. There's something inside, though... a sort of gunk. I'm thinking it might help make a nice kind of crossbow bolt. If you run across any ice slimes out there, check 'em for sludge!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Bellema Deftwhisper]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|When we were checking altitude measurements the other day, we found some very unusual creatures on top of the mountains. They're like slimes, but ice cold! A few fiery crossbow bolts can take 'em out. There's something inside, though... a sort of gunk. I'm thinking it might help make a nice kind of crossbow bolt. If you run across any ice slimes out there, check 'em for sludge!}}
+
+===Requirements===
+* Obtain {{Item|Toxic Ice Sludge}} x3
+* Talk to Bellema Deftwhisper
+
+===Rewards===
+{{Spoiler|Rewards for Ice Sludge|
+{{Quote|Ew! Haha, that's the stuff all right! It smells even worse than I remember! Chemistry's not exactly my strong suit, but fortunately my betrothed over there is an expert, so I'll get him to make me some icy bolts from this!}}
+
+* 100 {{Favor|favor}}
+* {{Item|Advanced Dense Arrow}} x 1000
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Bellema Deftwhisper]]

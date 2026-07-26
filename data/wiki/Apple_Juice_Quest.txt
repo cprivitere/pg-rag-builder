@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+[[Hiral]] at the fairy tree has asked for apple juice.
+
+===Prerequisites===
+To start this quest, talk to '''[[Hiral]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I heard you have apples in this dimension! They don't seem to grow around here though. I wanted to taste the apple juice made from them to see if it's like home.}}
+
+===Requirements===
+* Obtain {{Item|Apple Juice}}
+* Talk to [[Hiral]]
+
+===Rewards===
+{{Spoiler|Rewards for Apple Juice|
+{{Quote|Thanks! <i>Hiral drinks the juice.</i> Huh. It is exactly the same, except it doesn't have the emotional tones that fairy foods have. That's a good thing in this case. Fae apple juice tastes like resignation and patience. Which is not really that thirst quenching.
+
+Hey, as trade, want this weird drug somebody gave me? He said it makes you able to 'multitask', which sounds tiresome, but maybe that's your thing?}}
+
+* 100 {{Favor|favor}}
+* {{Item|Auk Gur-Horta}}
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Hiral]]

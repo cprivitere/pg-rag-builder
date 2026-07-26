@@ -1,0 +1,41 @@
+==<b>December 19 Hotfix</b>==
+: This update fixes some problems in Saturday's snapshot build, as well as fixing some other bugs that we hadn't gotten to yet.
+===<b>Cold Weather/Campfire Fixes</b>===
+: - For animal players, [[Spot]] in [[Sun Vale]]'s Animal Town can teach you how to make campfires via a method that doesn't require carpentry. (Creating campfires in this way requires [[Foraging]] 5 for the emergency fire and Foraging 20 for the campfire.)
+: - Campfires made via the traditional method require 1 less Wood than before
+: - Campfires no longer stay on the landscape forever if you log out before they expire (!)
+: - Fixed bug that kept your Body Heat from rising above 60, even if you had boosted your Max Body Heat above 60 points (!)
+: - Only some kinds of health/power regeneration were being disabled by Hypothermia
+: - Hypothermia damage now bypasses armor as the effect description indicated
+: - In addition to Cold Mitigation helping protect your body heat in Kur, reducing your Cold Vulnerability now also helps protect your body heat. Reducing your Cold Vulnerability (or Indirect Cold Vulnerability) by 5% is equivalent to having 1 extra point of Indirect Cold Mitigation. So abilities that reduce your vulnerability to 0, such as Elemental Ward, give you the same body-heat protection as 20 points of Cold Mitigation. (And this stacks with your Cold Mitigation.)
+: - Note that monster debuffs that make you more vulnerable to cold now also make you more susceptible to heat loss (this is a side-effect of the above change)
+
+: To help you test, here's some more explanation about how body-heat works: 
+: - Every second that you're in the cold, there is a RANDOM chance that you'll lose body heat. The more indirect cold mitigation (and now, the less indirect Cold Vulnerability) you have, the lower the chance. Because it's random, it can be unpredictably streaky. 
+: - Without any mitigation, you have a 50% chance to lose 1 body heat every second. Every point of cold mitigation reduces that chance by 3%. So 10 points of cold mitigation reduce the chance down to 20%, meaning that <i>on average</i>, your base 60 body heat will last 5-ish minutes.
+: - Being partially in icy water increases the chance to lose body heat. Being fully submerged in ice water drops your body heat VERY fast.
+: - In the old system, it mattered if you were in combat or not, but it doesn't matter anymore. You lose body heat at the same rate either way.
+: - You always get Frostbite right when your Body Heat reaches 0. If it stays at 0 for long, you also get Hypothermia, which is typically fatal. You can't get rid of either of these conditions without getting warm at a fire.
+: - Use campfires (there are some on the landscape, and you can craft your own) to restore all your heat and remove all ill effects from cold.
+: - Raising your Max Body Heat can substantially increase the time you can spend outside. (This was bugged until the hotfix.)
+
+===<b>Ability/Loot Mod Fixes</b>===
+: - Added several very low-potency mods ("Max Breath Underwater +1 second", "Max Power +3", "Max Health +5", "Inventory Space +1") so that newbie items that happen to be Epic or Legendary will always have enough mods to pick from
+: - Added higher-level tiers of some of those newbie mods. These are EXTREMELY unlikely to show up on normal loot, but they act as "emergency fallback mods" -- when your item/skills/level combination doesn't have enough available mods to fill out an item, and the system has already run out of "good" generic mods, these crappy generic mods will get used as backup. (This should, theoretically, fix all remaining causes of "pre-legacy" gear.)
+: - Unarmed mods that claimed to absorb damage and reflect it into punches or kicks did not absorb damage, only reflected it. They now absorb the damage as well as reflecting it into punches/kicks, and a note is added to Punch or Kick's tooltip to indicate that it's active
+: - The staff mod "Pin causes target's attacks to deal -35% damage for 5 seconds" debuffed the player instead of the target
+: - The werewolf mod "Skulk boosts the damage of your Core and Nice Attacks +X for 30 seconds" only worked if you had [[Fire Magic]] on your second bar
+: - The werewolf ability Skulk did not correctly make you harder for monsters to detect, and the damage boost was off by a small amount
+: - Abilities that boost your next attack no longer turn off if the next ability you use is a heal or other harmless ability, since those are not attacks
+
+===<b>Other</b>===
+: - Changed how dragging items around in your inventory works. Instead of swapping the item with the one you dragged onto, it inserts it ahead of that item. This seems to be more intuitive. (This change was actually in the previous update but got left out of the patch notes.)
+: - Dying by drowning did not show up correctly in the "Ways I've Died" skill report; they were being recorded as "unknown cause of death".
+: - The negative effects of [[Pineal Juice]] withdrawal (and dependence) were MUCH more punitive than indicated on the effect icon's description, basically making you unable to play until it wore off. The effects now match description
+
+===<b>These known issues still apply:</b>===
+: - Oops! A development version of the Fae race was accidentally included in this snapshot's character-creation screen. It doesn't work yet! (And the art shown there is not finalized.)
+: - You can create campfires underwater
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

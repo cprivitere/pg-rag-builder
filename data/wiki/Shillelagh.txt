@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Shillelagh
+| description = Bring balance to nature the old fashioned way: by hitting it until it works better.
+| level = 2
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Shillelagh}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 7 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Shillelagh 2
+| description = Bring balance to nature the old fashioned way: by hitting it until it works better.
+| level = 19
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Shillelagh}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 16 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Shillelagh 3
+| description = Bring balance to nature the old fashioned way: by hitting it until it works better.
+| level = 42
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Shillelagh}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 41 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Shillelagh 4
+| description = Bring balance to nature the old fashioned way: by hitting it until it works better.
+| level = 54
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Shillelagh}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 66 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Shillelagh 5
+| description = Bring balance to nature the old fashioned way: by hitting it until it works better.
+| level = 64
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Shillelagh}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 87 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Shillelagh 6
+| description = Bring balance to nature the old fashioned way: by hitting it until it works better.
+| level = 77
+| power cost = 0
+| reuse time = 2
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Shillelagh}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 118 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

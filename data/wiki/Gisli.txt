@@ -1,0 +1,263 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gisli
+|image            = [[File:Gisli.png|300px]]
+|caption          = A stablemaster
+|zone             = Serbule
+|town = Serbule Keep
+|location = Inside northern gate
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Yes
+|beastlist = All
+|stables = Yes
+|skilltrainer     = [[Animal Handling]]
+}}
+{{Quote|source=[[Gisli]]|
+That's great news! This shoddy, poorly-built stable is at your service! I can take care of your animals for you. Oh... but you have amnesia. Does that mean you don't know how to tame animals?
+}}
+[[Gisli]] is a Dwarf acting as [[Serbule Keep]]'s stablemaster. He offers access to stables to leave [[Animal Handling]] pets you may have trained up. Gisli likes to guess peoples' backstories. Before the destruction of [[Dwyndarre]], Gisli ran a luxury pet care center in the city, taking care of designer pets.
+== Location ==
+; [[Serbule Keep]]
+: Near the North entrance, right by the stable.
+<!-- Gisli has been replaced by Mythander.
+; [[Eltibule]]
+: Gisli is also present in the courtyard of Hogan's Keep.
+-->
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Milk the cows (30 minutes) {{Favor|Neutral}}|
+{{Quote|Thanks. With an extra pair of hands it goes a lot faster! I can groom them while you milk them. Hey, here, take this as thanks.}}
+: 5 favor
+: Bottle of Milk
+}}
+{{Spoiler|Help Gisli train a new animal (2 hours)|
+{{Quote|Well, that could have gone better. Blanche's new pet chicken is just not a smart bird. We can make her friendly to strangers, but Blanche wanted her to do tricks, and I just don't think that's happening. I'll break the news to Blanche -- don't worry about it. Thanks for your help today.}}
+: Must train Animal Handling
+: 20 favor with Gisli
+: 250 Animal Handling XP
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Gisli
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Animal Handling]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Handling{{pipe}}Unlock Animal Handling Skill
+ |skilllevel=0
+ |cost=2000
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Wild Endurance
+ |skilllevel= 17
+ |cost=1550
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Wild Endurance 2
+ |skilllevel= 32
+ |cost=4300
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Wild Endurance 3
+ |skilllevel= 47
+ |cost=7050
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Wild Endurance 4
+ |skilllevel= 57
+ |cost=11550
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Wild Endurance 5
+ |skilllevel= 67
+ |cost=17050
+ |favor=
+}}
+{{NPC training row
+ |ability=Unnatural Wrath
+ |skilllevel= 15
+ |cost=1450
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Unnatural Wrath 2
+ |skilllevel= 30
+ |cost=2700
+ |favor=
+}}
+{{NPC training row
+ |ability=Unnatural Wrath 3
+ |skilllevel= 45
+ |cost=6950
+ |favor=
+}}
+{{NPC training row
+ |ability=Unnatural Wrath 4
+ |skilllevel= 55
+ |cost=9950
+ |favor=
+}}
+{{NPC training row
+ |ability=Unnatural Wrath 5
+ |skilllevel= 65
+ |cost=14950
+ |favor=
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Handling{{pipe}}Unlock Animal Handling Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20000
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Shrill Command 6
+ |skilllevel= 58
+ |cost=11600
+ |favor=
+}}
+{{NPC training row
+ |ability=Call Stabled Pet #5
+ |skilllevel= 60
+ |cost=11700
+ |favor=
+}}
+{{NPC training row
+ |ability=Call Living Stabled Pet
+ |skilllevel= 60
+ |cost=11700
+ |favor=
+}}
+{{NPC training row
+ |ability=Sic 'Em 6
+ |skilllevel= 59
+ |cost=11650
+ |favor=
+}}
+{{NPC training row
+ |ability=Get It Off Me 6
+ |skilllevel= 56
+ |cost=11500
+ |favor=
+}}
+{{NPC training row
+ |ability=Monstrous Rage 6
+ |skilllevel= 57
+ |cost=11550
+ |favor=
+}}
+{{NPC training row
+ |ability=Feed Pet 6
+ |skilllevel= 53
+ |cost=9850
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=That'll Do 6
+ |skilllevel= 51
+ |cost=9750
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Nimble Limbs 5
+ |skilllevel= 60
+ |cost=11700
+ |favor=Best Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Handling{{pipe}}Unlock Animal Handling Skill Levels 61-70
+ |skilllevel = 60
+ |cost= 100000
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Shrill Command 7
+ |skilllevel= 68
+ |cost=17100
+ |favor=
+}}
+{{NPC training row
+ |ability=Sic 'Em 7
+ |skilllevel= 69
+ |cost=17150
+ |favor=
+}}
+{{NPC training row
+ |ability=Get It Off Me 7
+ |skilllevel= 66
+ |cost=17000
+ |favor=
+}}
+{{NPC training row
+ |ability=Monstrous Rage 7
+ |skilllevel= 67
+ |cost=17050
+ |favor=
+}}
+{{NPC training row
+ |ability=Feed Pet 7
+ |skilllevel= 63
+ |cost=14850
+ |favor=
+}}
+{{NPC training row
+ |ability=Clever Trick 4
+ |skilllevel= 64
+ |cost=14900
+ |favor=
+}}
+{{NPC training row
+ |ability=That'll Do 7
+ |skilllevel= 61
+ |cost=14750
+ |favor=
+}}
+{{NPC training row
+ |ability=Nimble Limbs 6
+ |skilllevel= 70
+ |cost=17200
+ |favor=
+}}
+{{NPC training row
+ |ability=That'll Do 8
+ |skilllevel= 71
+ |cost=19750
+ |favor=
+}}
+|}
+==== Stable Master====
+[[Crelpin]] offers access to stable slots.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Vervadium}} x5
+}}
+== Conversations ==
+== Gallery ==
+[[File:Gisli_Location.jpg|500px]]
+[[Gisli]], standing at his stable in [[Serbule Keep]] next to the north gate/entrance.
+[[Category:NPCs]]

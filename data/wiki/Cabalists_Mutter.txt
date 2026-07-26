@@ -1,0 +1,13 @@
+__NOTOC__
+{{Ability infobox
+| name = Cabalist's Mutter
+| description = Your powers are unfathomable and unknowable. With a mere whisper, you wipe yourself from an enemy's mind.
+| level = 0
+| power cost = 35
+| reuse time = 150
+| range = 30 meters
+| skill = Unknown
+| keywords = {{KWAB|MinorHeal}}{{KWAB|MinorHealAttack}}{{KWAB|Lint_NoAttackType}}
+| special = Restore 135 Health (to yourself). You regain health, and your target decides not to attack you for 5-10 seconds (even if you attack it during that time). This ability can only be used when you are wearing four or more pieces of Mutterer Cabalist Armor.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

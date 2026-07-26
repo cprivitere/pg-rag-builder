@@ -1,0 +1,23 @@
+__NOTOC__
+{{NPC infobox
+|title            = Records Golem A
+|image            = [[File:Recordsgolema.png|300px]]
+|caption          = This little automaton seems a bit impaired.
+|zone = Anagoge
+|dungeon = Anagoge Records Facility
+|location         = The entrance room.
+|anatomy = Construct
+|species = Golem
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|
+Welcome, visitor name here. Access to *crackle* artifacts and the restricted *crackle* right passageway.
+
+Authorization can be obtained by *crackle* the *crackle*. If at any time you need assistance, please inquire with any Records Worker.
+}}
+This '''Records Golem''' seems to have broken down. It continuously repeats a welcome message and is frozen in place.
+==Location==
+; [[Anagoge Records Facility]]
+: Found in the entrance room to the Facility.
+[[Category:NPCs]][[Category:NoRiShin]]

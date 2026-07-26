@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Lakrea suggested that you drink 20 bottles of water.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|A travelling monk told me the most interesting thing! She said that if you drink at least 20 glasses of water a day, your entire system will be flushed and you'll feel amazing. Give it a shot!}}
+
+===Requirements===
+* Drink Bottles of Water
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: Drink Water|
+{{Quote|You look, uh, kind of bloated, actually. Maybe you should have drunk diet water. Keep that in mind for next time.}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

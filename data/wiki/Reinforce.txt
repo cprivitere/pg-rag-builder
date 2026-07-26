@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Reinforce
+| description = Adjust yourself to regain Armor.
+| level = 10
+| power cost = 11
+| reuse time = 20
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|Reinforce}}{{KWAB|SurvivalUtility}}
+| special = Restore 50 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Reinforce 2
+| description = Adjust yourself to regain Armor.
+| level = 20
+| power cost = 14
+| reuse time = 20
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|Reinforce}}{{KWAB|SurvivalUtility}}
+| special = Restore 70 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Reinforce 3
+| description = Adjust yourself to regain Armor.
+| level = 30
+| power cost = 17
+| reuse time = 20
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|Reinforce}}{{KWAB|SurvivalUtility}}
+| special = Restore 90 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Reinforce 4
+| description = Adjust yourself to regain Armor.
+| level = 40
+| power cost = 20
+| reuse time = 20
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|Reinforce}}{{KWAB|SurvivalUtility}}
+| special = Restore 110 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Reinforce 5
+| description = Adjust yourself to regain Armor.
+| level = 50
+| power cost = 22
+| reuse time = 20
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|Reinforce}}{{KWAB|SurvivalUtility}}
+| special = Restore 130 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Reinforce 6
+| description = Adjust yourself to regain Armor.
+| level = 60
+| power cost = 25
+| reuse time = 20
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|Reinforce}}{{KWAB|SurvivalUtility}}
+| special = Restore 150 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Reinforce 7
+| description = Adjust yourself to regain Armor.
+| level = 70
+| power cost = 28
+| reuse time = 20
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|Reinforce}}{{KWAB|SurvivalUtility}}
+| special = Restore 170 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Reinforce 8
+| description = Adjust yourself to regain Armor.
+| level = 80
+| power cost = 31
+| reuse time = 20
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|Reinforce}}{{KWAB|SurvivalUtility}}
+| special = Restore 200 Armor.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

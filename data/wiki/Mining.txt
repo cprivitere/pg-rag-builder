@@ -1,0 +1,114 @@
+__NOTOC__
+{{Skill infobox
+|title            = Mining
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Digging metals and ores out of the ground.
+|skilltype        = Trade Skill
+|maxlevel         = 80
+|req              =
+|skilltrainers    = [[Jaime Fatholm]], [[Urzab]], [[Dachak the Digger]]
+}}
+{{Quote|
+Digging metals and ores out of the ground.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Mining]] is the skill of gathering metals and ores, often leveled through [[Surveying]].
+=== In-Game Description ===
+Digging metals and ores out of the ground.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Mining]] is learned through [[Surveying]], taught by [[Jaime Fatholm]].
+* [[Urzab]] in [[Ilmari]] unlocks levels 51-60 and 61-70, and teaches some higher level mining surveys.
+* [[Dachak the Digger]] in [[Povus]] unlocks levels 71-80.
+* [[Engineer Crall]] in [[Vidaria]] unlocks levels 81-90.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Surveying]] - Used to create {{Item|Serbule Hills Simple Mining Survey}} and other Mining Surveys.
+
+* [[Geology]] - While [[Mining]] is leveled from collecting metal and ores, [[Geology]] is raised through the collection of gemstones.
+===== Related Skills: =====
+* [[Blacksmithing]] - Many blacksmiths will find it useful to have a steady supply of metal from [[Mining]].
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Mining]] can be obtained from the following skills and levels:
+:; [[Geology]]
+:: Level 30
+:; [[Hammer]]
+:: Level 24, Level 46
+:; [[Surveying]]
+:: Level 30, Level 50
+
+== Recipe Lists ==
+[[Mining]] has no recipes of its own, as Mining Surveys are crafted using [[Surveying]]. Once crafted, Mining Survey Maps require a certain Level of [[Mining]] to use.
+{{:Surveying/Mining Survey Maps}}
+
+== Harvestables == 
+===== Mining Nodes =====
+Across [[Alharth]], mining nodes can be discovered and mined for ores, gemstones, and metal. In [[Rahu]], a prisoner-staffed quarry holds many nodes of various levels. Most types of [[:Category:Items/Ore|Ore]] can be collected there.
+{| {{STDT}}
+! style="width:150px;"| Deposit !! Mining Required || XP Gained || Locations
+|-
+| {{Item|Pyrite}} || 5 || 40 ||Some mining nodes are found in the [[Myconian Cave]].
+|-
+| {{Item|Winterprize}} || 15 || 0 || Found in [[Winter Nexus]]
+|-
+| {{Item|Saltpeter}}|| 30 || 115 || Cave at the far end of the hallway in [[Boarded up Basement]]. [[Kur Mountains]] near the Gaz-Urak and Tor-Urak in north east. Occasionally found in [[Yeti Cave]]s, [[Kur Tower]] and [[Molybdenum Mine]].
+|-
+| {{Item|Silver Ore}} || 35 || 130 ||[[Kur Mountains]] near Orc Camp, northwest shore. [[Boarded up Basement]] cave area. [[Gazluk]]
+|-
+| {{Item|Molybdenum}} || 35 || 130 || [[Molybdenum Mine]] in [[Sun Vale]].
+|-
+| {{Item|Gold Ore}} || 35 || 130 || [[Yeti Cave]] , lower levels. [[Gazluk]]
+|-
+| {{Item|Good Metal Slab}} || 35 || 130 || [[Molybdenum Mine]] in [[Sun Vale]].
+|-
+| {{Item|Iridium}}|| 40 || 145 || Found near the Orc camp in [[Kur Mountains]].
+|-
+| {{Item|Glowy Yellow Crystal}} || 45|| 0 || Scattered across [[Gazluk]] in clusters.
+|-
+| {{Item|Expert-Quality Metal Slab}} || 46 || ??? || Found in [[Gazluk]] as Nodes
+|-
+| Metal Nodes in Povus giving various minerals including Marvelous Slabs || 50 || 200 regardless of what is mined || Found in [[Povus]] as [[Metal Node]].
+|-
+| {{Item|Masterwork Metal Slab}} || 51 || 130 || Found in [[Gazluk]] as Nodes
+|-
+| {{Item|Amazing Metal Slab}} || 56 || 130 || Found in [[Gazluk]] as Nodes
+|-
+| {{Item|Paladium}} || ?? || 170 || Found in [[Gazluk]].
+|-
+| {{Item|Cinnabar}} || 55 || 200 || Found in [[Gazluk]].
+|-
+| Motherlode Node || ??? || 130 || Found from motherlode [[Surveying]] maps.
+|-
+| Nodes in Rahu giving random mineral || 35, 40 || ? || central [[Rahu]]
+|-
+| Nodes in Rahu giving random mineral || 35, 55 || ? || southwest [[Rahu]]
+|-
+| Nodes in Rahu sewer giving random mineral || ? || ? || various locations in the sewer
+|-
+| {{Item|Astounding Metal Slab}} || 62 || 130 || Found in [[Gazluk]] as Nodes.
+|-
+| {{Item|Superb Metal Slab}} || 67 || 170 || Found in [[Gazluk]] as Nodes.
+|-
+| {{Item|Marvelous Metal Slab}} || 75 || 250 || Found in [[Errruka's Cave]] and [[Nightmare Caves]] as Nodes.
+|-
+| {{Item|Extraordinary Metal Slab}} || 75 || 250 || Found in [[Errruka's Cave]] and [[Nightmare Caves]] as Nodes.
+|}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Using a Mining Survey ===
+<!-- Needs expanation -->
+=== Glowy Yellow Crystals ===
+{{Item|Glowy Yellow Crystal}} are hazardous rocks often found on the [[Gazluk]] Plateau. Known to the Dwarves as Vol's Kiss, these crystals can inflict health-sapping statuses upon the uninformed. Protection against the effects of the crystals can be learned from [[Aven]].  These require level 45 mining to collect.
+
+=== Motherlode Map ===
+Motherlode maps are more difficult than normal surveys, but give much greater rewards. When you use them, no red dot will appear on your minimap, and won't be given the exact location. You'll only be told the distance to the motherlode. If you're 1000 meters away, the motherlode could be on any point in the 1000-radius circle around you. When you find the motherlode, you'll often be rewarded with 15-30 metal slabs, ores, 130 Mining experience, and other rewards.
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== Mining Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Mining|
+{{:Xptables/Surveying}}
+}}
+
+[[Category:Skills]][[Category:Trade Skills]]

@@ -1,0 +1,69 @@
+__NOTOC__
+<b>Note: Bug - </b> There's a bug in the current build that prevents monsters (and pets) from moving around in several outdoor areas. We're making a new build to address this which will be ready in a few hours. In the mean time please avoid cheesing the monsters -- remember, it's Christmas and the monsters have families too.
+
+==Update Notes: December 18, 2025==
+It's that time of year again: Ri-Shin! When the thankful people of Alharth decorate trees in the name of the god of trees, to honor that one time when he saved humanity. And elfanity. (But not rakshasanity, as they hadn't arrived yet. Rakshasa can participate anyway.) In each city, look for townsfolk wearing festive Ri-Shin hats and see how you can help with the festivities!
+
+The people of Alharth also celebrate the new year by giving their Friends gifts. The first time you speak to townsfolk who have at least Friend favor-level, you'll receive a gift. These gifts range from "it's the thought that counts" to extraordinarily generous, depending on the gifter. Some gifts are equipment with randomized treasure effects, so you should have your preferred combat skills active when you speak to them.
+
+
+===Character-Creator Preview:===
+Version 2 of the New Character Model Creator (Preview) is now available!
+
+There are some significant changes to the models in this version, including a plethora of new colors and adjusted hairstyle options. If you've saved a model preset in the past, please revisit it now to ensure it still looks the way you want it to. We've done our best to preserve the look, but with so many new options some things have likely changed.
+
+This is basically the version of the creator we'll launch with, so we won't be making any more dramatic updates to it. But you should still submit bug reports and suggestions - we can always make improvements in the future, and we'll of course fix bugs as time permits.
+
+Here is a list of the major changes, with some extra details where applicable:
+:- Dozens of new color options for everything - skin, hair, eyes, etc.
+:- Many people have requested full freedom on colors, and for both technical & story limitations we cannot allow that. Our system tracks colors as palette indexes, and to overhaul that would be a massive undertaking - so we cannot offer e.g. saturation sliders.
+:- Finalized hairstyles and add a few new ones - including some popularly requested ones!
+:- Space Buns, pigtails, and Rakshasa Dreads have all made a comeback. Rejoice!
+:- Some previous hairstyles are no longer available. We spent some time deciding what types of styles should belong to which races, and some of the old hairstyles did not match. - If you selected one of the no-longer-available styles in one of your presets, we tried to convert it to the most similar now-available style.
+:- If you've been using the creator for a while, you'll notice that hair has gone from 2-tone to 1-tone colors. This is intentional. We are limiting base characters to only a single color, but we have plans to introduce 2-tone back into the game in the future, available via a different means. So you'll still have complete hair color freedom... eventually!
+:- A bunch of new sliders!
+:- New face sliders: Lower Face Depth, Chin Rotation, Eyes Depth, Eye Shape (Inner Eye, Outer Eye, Upper Eyelid, Lower Eyelid), Nose Rotation, Nose Twist, Mouth Rotation
+:- New body sliders: Neck, Upper Arm, Lower Arm, Belly, Breast, Hips, Upper Leg, Lower Leg
+:- Rakshasa ears are now scalable and rotatable. Rejoice a second time!
+:- Fae now have "Foliage", which are plants and flowers that stick out of their heads and bodies. There is still some visual weirdness with this that will be addressed in the future.
+:- Several UI improvements, which we'll continue to make until launch (and probably after)
+
+===Other Changes===
+
+=====Mastercrafted Boost Recipes:=====
+:- the foretold/mastercrafted item enhancement recipes are temporarily disabled while we address some feedback received during the recent Statehelm beta.
+:- we've also postponed converting your equipment to the "new system", so your items are unchanged.
+
+=====UI Change=====
+:- UI Setting change: "Show Interactible Names" is now "Interactible Names", a dropdown to show All, Important Only, or No interactibles. Default is "Important Only", which hides certain clutter-inducing interactible nameplates.
+:- The new setting does not access the old setting's value, so you'll have to re-set it if you want to
+:- Hovering over an object whose nameplate is hidden now shows its nameplate while it's hovered over
+
+=====Everything Else:=====
+:- if a player dies with their primary active combat skill higher than level 30 but they don't know Transmutation, the death box has a special message suggesting they learn the skill by talking to Kalaba or Makara
+:- Galdyr's Tasty Energy Flask generates less sugar
+:- Fixed missing steps in quest "Aurest Mission: Gazluk Assassination"
+:- most spore bomb recipes create +1 spore bomb
+:- value of spore bomb items decreased
+:- some NPCs did not correctly limit their training options based on favor level. These NPCs have been fixed: Malgath, Poe, Syndra, Gribburn
+:- Fix bug causing newly-acquired skills to not show up in the Skills window
+:- First Aid 10 now requires a higher tier of First Aid Kit
+:- revisions to toolcrafting recipe for Amazing First Aid Kit. Replace ingredient Coarse Cotton Yarn x2 with Healing Potion x1
+:- revisions to toolcrafting recipe for Astounding First Aid Kit. Now takes an additional ingredient: Healing Potion Extreme x1. Requires higher tier of skinning knife. Yields 2 kits instead of 1
+:- higher tiers of Field Surgery casting time is 2 seconds instead of 3 seconds
+:- reduced potency of crafted werewolf barding a bit
+:- gain bonus synergy levels in Ice Magic by reaching Cooking 80, Geology 45, Nature Appreciation 80, Rabbit 55, Rabbit 80
+:- Taunty Fire Wall is no longer weaker than regular walls; is much more taunty
+:- changed treasure effect: (Feet, MainHand) "Molten Veins and Flesh to Fuel restore 145 health to any pets (including Fire Walls) within 10 meters" => within 20 meters
+:- new fire magic effect: (Feet, Legs) "Fire Walls' attacks deal +100 direct damage and they gain Burst Evasion +43%. Fire Wall reuse time is -3 seconds."
+:- changed treasure effect: (Hands, Ring) "Fire Walls' attacks taunt +310%. Fire Wall reuse time is -3 seconds." => "Fire Walls' attacks taunt +310%. They gain Melee Evasion +20% and heal +100 Health every 5 seconds. Fire Wall reuse time is -3 seconds."
+:- Fire Walls gain damage vulnerabilities and resistances
+:- Exotic Firewall Research recipes have an additional exotic firewall to discover
+:- Fix scenarios where pets/monsters could get stuck and unable to move
+::- Added more debug information. If your pet still gets into a position where it can't move, please examine it, screenshot the "debug info" at the bottom of the examine window, and paste it in the corresponding pet thread in Discord. Thanks!
+:- increased potency (and withdrawl effects) of cranium powder
+:- increased potency (and in some cases addictiveness) of pineal juice
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

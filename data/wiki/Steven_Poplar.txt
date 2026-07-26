@@ -1,0 +1,325 @@
+__NOTOC__
+{{NPC infobox
+|title            = Steven Poplar
+|image            = [[File:Steven Poplar (npc).png|300px]] 
+|caption          = Smiling calmly
+|zone             = Statehelm
+|town = Statehelm
+|location         = Church
+|anatomy = Human
+|species = Human
+|beastspeak       = ?
+|skilltrainer     = [[Priest]]
+}}
+{{Quote|source=[[Steven Poplar]]| 
+Are you injured? Maimed? Maybe I can help.}}
+[[Steven Poplar]] runs the Church of Arisetsu in the city of [[Statehelm]].
+== Location ==
+; [[Statehelm]]
+: [[Steven Poplar]] can be found in the Church of Arisetsu.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Steven Poplar]] rewards his friends with __TBD__
+=== Hang Outs ===
+{{Spoiler|Let Steven ramble on about the god Remga (4h)|
+{{Quote|
+Steven Poplar said, "... so the strongest of these new gods was Remga. He's the god of Piracy and Rape. Real nasty piece of shit. So he takes the form of a goblin and quickly gains a massive following among goblinkin, all while hiding from Vol. But Vol finally finds him, and surprisingly loses. In fact the legend says that Vol got raped that day, but Vol's avatar is a handful of flower petals in the wind, so I'm choosing to believe that's metaphorical somehow.
+
+Anyway, then comes the story everybody knows: Remga raped the wrong god, Errana, and she tore his cock off.
+
+Oh yeah, that's a thing the priests of Errana used to do: if you rape somebody you lose a penis. It's not really done anymore, but you still probably shouldn't act disrespectfully around a priest of Errana.
+
+Now the part that's taboo to talk about. I'm 90% sure it's true. You ready? Errana had a child from that rape. That's Saledar, the goblin god of Cooperation. Yes, he's technically related to Errana! But no priest of Errana will confirm that for me.
+
+As for Remga, missing his penis hasn't stopped him from assaulting countless victims. He's a creative torturer, too. But he's mostly followed for his Pirate side rather than the Rape side. All goblin pirates follow a code that Remga created.
+
+And if you hear someone using Remga's name as a curse, you can bet they used to be a pirate!
+
+Or possibly just a dockworker. Or any sort of manual laborer. It's also catching on among craftsmen too. Look, don't go accusing people of piracy, okay?"
+
+}}
+:60 favor with [[Steven Poplar]].
+:50 XP in [[Lore]].
+}}
+{{Spoiler|Let Steven ramble on about the god Norala (4h)|
+{{Quote|
+Steven Poplar said, "Yeah, Norala's VERY old. She was already ancient when the Age of Dwarves began! Which was over 74,000 years ago. She's weaker now than in the distant past, but she's cunning and cruel, which helps make up for it.
+
+She's Tast's consort, but more importantly, she's his general among the gods. His vizier. His sage. That sort of thing. They're both dispicable creatures, so it's nice that they found each other.
+
+Norala created the curse of lycanthropy, and it's said that she still gives boons to werewolves that appease her through murder. So she's definitely in the "evil" column.
+
+If there's any sort of saving grace, I guess it's her own sense of loyalty: she's had many opportunities to betray Tast and she never has. Even Tast's son betrayed him, so that says something. Maybe it's fear. Maybe it's a scheme. Maybe she just knows her place. Who can say?
+
+Norala usually takes the form of a big wolf -- like, building-sized big. When she's alongside Tast she takes the form of an orc woman."
+
+}}
+:60 favor with [[Steven Poplar]].
+:25 XP in [[Lore]].
+}}
+{{Spoiler|Let Steven ramble on about the god Ilth Hale (4h)|
+{{Quote|
+Steven Poplar said, "So the God War was about how much godly intervention would be allowed. [[Ilth Hale]] was the god of Humanity and she wanted to be able to use all her power to aid humans. She and Tast led the fight against Vol and Dreva, who wanted the gods to be hands-off.
+
+Before the battle could get very far, Ilth's husband [[Kirad]] betrayed her: he'd found a flaw in her Armor of Bravery, and he destroyed it, leaving her naked on the battlefield. She continued to fight while she could. Then she slit her wrists, choosing to die as a mortal does. But Vol wouldn't take her! To be fair to Vol, he was pretty busy fighting at the time. But Ilth took it personally.
+
+She decided not to die after all, and became the god of Sorrow and Loss, which was a major downgrade. But she made new friends. Later she borrowed Harukita's Armor of Hate and his brother's Sword of Bigotry, and they all assaulted the moral realm together, killing millions and spreading new kinds of undead everywhere. That was called Ilth Hale's Rebuke.
+
+But that was a LONG time ago. Nowadays she seems less angry and more sorrowful. Her biggest scheme in the past thousand years as been helping to create vampires. Which is bad, sure. Don't get me wrong.
+
+I mean I'm sure she'd still destroy humanity if she could, but she doesn't seem to be actively trying. She's probably scheming, but all gods scheme. We have to let them deal with their own.
+
+Ilth Hale is known as the bloody god. Her slit wrists still leak blood to this day. And she usually appears naked, but human artists like to gauze her up. Which is fine by me. We probably don't want people lusting after the god of Sorrow and Loss}}
+:60 favor with [[Steven Poplar]].
+:50 XP in [[Lore]].
+}}
+{{Spoiler|Let Steven ramble on about the god Talerra (4h)|
+{{Quote|
+Steven Poplar said, "No, I don't think of her like that. Talerra is a human god, you know? Underneath all that hair is a human avatar! I've had the terrifying experience of meeting her. She really isn't evil. But she's not good either: she just wants people to know the truth. Since she consumes people's Hope to find that truth, our official stance is that she's evil.
+
+Personally, I think she's dangerous to the overly-curious, but then so is a hole in the ground. You don't call hazards evil, it cheapens the word. I feel like a damned rakkie, calling everything evil!
+
+Here, I've been meaning to get rid of this contraband, why don't you take it? It's an apocryphal story about Talerra and Arisetsu. I got it from an outlaw priest of Talerra, so the characterizations may be a little skewed."
+}}
+:60 favor with [[Steven Poplar]].
+:25 XP in [[Lore]].
+:Lorebook: [[The Despairing Priest]].
+}}
+{{Spoiler|Learn this "secret technique" that Steven is so excited about (3h) (May require a level of favor or quest completion for [[Fransesca Muradrake]])|
+{{Quote|
+And that's all there is to it: just wear a symbol of Arisetsu when you kill these undead, and you'll sometimes find lumps of negative emotion, called pearls. Bring those pearls to me!
+
+I have an almanac that shows what sort of undead are the juciest targets right now. Seek those out; they're by FAR the best source of pearls.
+
+Okay, enough talk. Time for a bit of practice, if you're up to it.
+}}
+:45 favor with [[Steven Poplar]].
+:Unlocks Quest
+}}
+== Quests ==
+<dpl>
+category = Quests/Steven Poplar
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+[[Preventing Undead Assaults]] and [[Donations Accepted]] available at Neutral
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Priest]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Priest{{pipe}}Unlock Priest Skill Levels 81-90
+ |skilllevel = 80
+ |cost=242 SR or ?
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Priest{{pipe}}Unlock Priest Skill Levels 91-100
+ |skilllevel = 90
+ |cost=430 SR or 1,032,000
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Priest{{pipe}}Unlock Priest Prodigy Potential
+ |skilllevel= 102
+ |cost=121 SR or 258,000
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Admonish 11
+ |skilllevel=101
+ |cost=61,197
+ |favor=?
+}}
+{{NPC training row
+ |ability=Admonish 12
+ |skilllevel=111
+ |cost=73,684
+ |favor=?
+}}
+{{NPC training row
+ |ability=Castigate 10
+ |skilllevel=108
+ |cost=69,660
+ |favor=?
+}}
+{{NPC training row
+ |ability=Exhilarate 7
+ |skilllevel=98
+ |cost=57,792
+ |favor=?
+}}
+{{NPC training row
+ |ability=Exhilarate 8
+ |skilllevel=112
+ |cost=75,026
+ |favor=?
+}}
+{{NPC training row
+ |ability=Mend Flesh 11
+ |skilllevel=105
+ |cost=65,944
+ |favor=?
+}}
+{{NPC training row
+ |ability=Corrupt Hate 11
+ |skilllevel=103
+ |cost=63,468
+ |favor=?
+}}
+{{NPC training row
+ |ability=Corrupt Hate 12
+ |skilllevel=113
+ |cost=76,368
+ |favor=?
+}}
+{{NPC training row
+ |ability=Relentless Hope 5
+ |skilllevel=98
+ |cost=57,792
+ |favor=?
+}}
+{{NPC training row
+ |ability=Righteous Flame 10
+ |skilllevel=96
+ |cost=55,728
+ |favor=?
+}}
+{{NPC training row
+ |ability=Righteous Flame 11
+ |skilllevel=106
+ |cost=67,183
+ |favor=?
+}}
+{{NPC training row
+ |ability=Flamestrike 10
+ |skilllevel=100
+ |cost=60,062
+ |favor=?
+}}
+{{NPC training row
+ |ability=Flamestrike 11
+ |skilllevel=110
+ |cost=72,343
+ |favor=?
+}}
+{{NPC training row
+ |ability=Triage 10
+ |skilllevel=100
+ |cost=60,062
+ |favor=?
+}}
+{{NPC training row
+ |ability=Triage 11
+ |skilllevel=110
+ |cost=72,343
+ |favor=?
+}}
+{{NPC training row
+ |ability=Remedy 10
+ |skilllevel=98
+ |cost=57,792
+ |favor=?
+}}
+{{NPC training row
+ |ability=Invigorate 8
+ |skilllevel=84
+ |cost=43,756
+ |favor=?
+}}
+{{NPC training row
+ |ability=Invigorate 9
+ |skilllevel=99
+ |cost=58,927
+ |favor=?
+}}
+{{NPC training row
+ |ability=Invigorate 10
+ |skilllevel=104
+ |cost=64,706
+ |favor=?
+}}
+{{NPC training row
+ |ability=Give Warmth 7
+ |skilllevel=110
+ |cost=72,343
+ |favor=?
+}}
+|}
+
+== Services ==
+==== Almanac ====
+TO DO!
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Steven Poplar]]|
+The Council doesn't really like its citizens relying on gods. But priests of [[Arisetsu]] have served humans for a very long time, so the Council couldn't throw us out. Officially, this is one of the only churches allowed in Statehelm, and we have the Council's explicit blessing to aid the people. Unfortunately, the Council respects us rather less than they say.
+
+Most stress-inducing is [[Councilman Plaudius]]. He's apparently created a "Health Emancipator" and would love to replace this church with his... machine. But the church does a lot more than just help people! Thankfully, common sense has won out so far.}}
+{{Quote|source=[[Steven Poplar]]|
+I took over the church three years ago from [[Solaraine the Gentle]]. She's an elf, so she'd been here a long time. Longer than any regular human has been alive! Now I get lots of complaints that I can't live up to a 500-year-old legendary spellcaster who is a literal Living Font of Hope.
+
+But, well, I just do my best.}}
+{{Quote|source=[[Steven Poplar]]|
+The homeless are always welcome to stay here, but we know it's not as good as a real home. When we can, we help people lease an apartment in town, and pay their rent for as long as they need us to. Most of our donated funds go toward that effort.}}
+{{Quote|source=[[Steven Poplar]]|
+This church is probably the oldest building in the city at 2800 years old. It was a central part of the old city -- which was called West Vidaria back then. The city grew up around the church.}}
+{{Quote|source=[[Steven Poplar]]|
+I know, I know -- Solaraine could heal faster and with less agony. I'm only human! I can't compete with an elf older than my whole bloodline. But for a human, rest assured I am very safe and very efficient.
+
+'''Can you cure my illnesses?'''
+
+I'm sorry. Whatever may ail you is beyond my current ability to fix.
+
+'''Ah.'''}}
+{{Quote|source=[[Steven Poplar]]|
+Arisetsu is technically an elven god, but she serves all the people of the world. Not only elves!}}
+{{Quote|source=[[Steven Poplar]]|
+Arisetsu despises undeath. Any sane person should! I'm always on the lookout for potential undeath incidents, and I've detected one nearby.
+
+In [[Vidaria]] there's a massive floating rock. Under that rock flows a constant stream of the undead. The soldiers are doing what they can to prevent the undead from swarming, but they could use help.
+
+Seek out the "Lungers." They're causing the most harm right now. Oh, and the dark-casting skeletons. Oh and also the fiery ones.}}
+{{Quote|source=[[Steven Poplar]] (Complete Hang Out: Learn this "secret technique" that Steven is so excited about)|
+'''About that "special technique" you taught me...'''
+
+We spent hours going over this. Don't tell me you lost your memories AGAIN?!
+
+No, no, I' sorry. It's fine! Here's what you need to know.
+
+I taught you a technique to harvest excess negative emotions from undead corpses. Check the almanac in the church to see what types of undead are most overflowing right now; those should be your target.
+
+You don't have to be a priest or use priestly powers to make this work; you just need to wear a symbol of Arisetsu while you kill the undead. Then when you check their corpses, you may spot blobs of excess emotion, so called "pearls."
+
+Bring those pearls back to me and I can use the Muradrake Mirror to invert them into wholesome emotional energy. And then I can use THAT energy to heal people! Among other things.
+
+'''You're using undead energy to heal people? Is this really safe?'''
+
+I'm NOT using undead energy to heal people! That's a terrible thought.
+
+See the mirror over there? That's the Muradrake Mirror. Created by Steven Muradrake, who was one of the best and noblest necromancers humanity has ever seen. I can use the mirror to invert the emotional context of dark emotion pearls. Doing so creates a tiny magical spark of hopeful energy, which I can harness.
+
+Now SOME may say that using a necromantic artifact goes against Arisetsu's will, but Arisetsu hates undeath, not necromancy per se. I did a bunch of research to confirm this. Personally I believe Arisetsu would be pleased to see us conjuring negative emotions into positivity.
+
+But please don't tell other priests of Arisetsu. Especially the elven priests -- they're very old-fashioned and any new idea scares them.
+
+
+}}
+
+[[Category:NPCs]]

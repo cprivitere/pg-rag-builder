@@ -1,0 +1,134 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Bite
+| description = Bite your enemy.
+| level = 2
+| power cost = 11
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 16 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bite 2
+| description = Bite your enemy.
+| level = 10
+| power cost = 14
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 32 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bite 3
+| description = Bite your enemy.
+| level = 28
+| power cost = 22
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 73 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bite 4
+| description = Bite your enemy.
+| level = 46
+| power cost = 31
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 144 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bite 5
+| description = Bite your enemy.
+| level = 56
+| power cost = 35
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 206 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bite 6
+| description = Bite your enemy.
+| level = 68
+| power cost = 40
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 280 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bite 7
+| description = Bite your enemy.
+| level = 80
+| power cost = 45
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 369 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bite 8
+| description = Bite your enemy.
+| level = 92
+| power cost = 53
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 460 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bite 9
+| description = Bite your enemy.
+| level = 104
+| power cost = 59
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 559 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bite 10
+| description = Bite your enemy.
+| level = 116
+| power cost = 65
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfBite}}{{KWAB|Bite}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 666 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

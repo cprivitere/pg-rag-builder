@@ -1,0 +1,20 @@
+__NOTOC__
+==Summary==
+A collection of 8 daily quests at Ferris, namely Animal, Behemoth, Justicar, Lesser Behemoth, Overseer, Scout, and Soldier, and Swarmer.
+
+===Prerequisites===
+To start these daily quests, talk to '''[[Ferris Blueheart]]''' in '''[[Vidaria]]''' after completing his normal quests.
+
+===Preface===
+Ferris Blueheart in Vidaria said...
+
+===Requirements===
+* ...
+
+===Rewards===
+* 1-3 {{Item|Demonic Statement}}
+* 10000 Councils
+* 50 {{Favor|favor}}
+* 5-10 Vidaria Renown
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Ferris Blueheart]]

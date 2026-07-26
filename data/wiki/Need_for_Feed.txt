@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Irkima in Red Wing Casino said, "I have given you my recipe for the [[Bird_Feed|bird feed]] we use here. Collect the ingredients and bring me 10 units of it back.
+
+''You can find the recipe in the Lore category of your recipe book''."
+
+===Prerequisites===
+To start this quest, talk to '''[[Irkima]]''' in '''[[Red Wing Casino]]'''.
+
+===Preface===
+{{Quote|
+}}
+
+===Requirements===
+* Make 10 units of {{Item|Icon=Bird Feed|Bird Feed{{pipe}}bird feed}}
+* Keep 10 units of bird feed for Irkima
+* Talk to Irkima
+
+===Rewards===
+{{Spoiler|Rewards for Need for Feed|
+* 100 favor towards Irkima
+* {{Item|Red Wing Token}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Irkima]][[Category:Quests/Red Wing Casino Quests]]

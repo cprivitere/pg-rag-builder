@@ -1,0 +1,30 @@
+==November 25th, 2014==
+This is a bug-fix/quality-of-life update. To throw an exciting wrench in the works, through, this update has DirectX 11 support, which may cause any number of weird graphical issues. If you see textureless purple things, please report them, as they are very likely to be bugged graphical objects.
+
+Also, please stop abusing obvious bugs to power-level equipment, money, or skills. I can't fix every bug overnight, but that doesn't mean "Please exploit the bugs." An example of abusive behavior is people who were breaking out of the Winter Nexus dungeon walls to kill monsters with no chance of danger. This isn't subtle stuff; I trust you can tell that "hey, I am literally outside of the game world, let's kill monsters with no repercussions" is abusing a bug.
+
+Abuse like this makes all my logging and metrics useless, because it throws off monster-kill counts, XP learning curves, everything I could otherwise use to tell how the game is doing. In short, it hurts the entire alpha test, and I really need it to stop.
+Please! I really can't spare the time to go banning assholes, so if I have to make time for it, the bans will be very permanent, and there will not be further warnings.
+
+And thanks to everyone who isn't being abusive, I know it's a very small subset. Sorry to be a downer!
+
+===Changes===
+* We are slowly building out the music system; Marna now sells hand drums which can be used with the /music 1-6 command.
+* Fixed AI of monsters with healing abilities.
+* "Fixed" some shader issues with dye colors. (The symptoms mysteriously went away when we recompiled the shaders... ... eh guess it's fixed now).
+* Fixed Fae Phrenology 2 recipe.
+* Fixed the range on most Battle Chemistry Mutation abilities. They now have a 5m range instead of 0m, so you no longer have to be standing literally on top of someone to mutate them.
+* Fixed Quality Claws found in loot; they were being treated as store-bought items. (Which made them bad gifts for Furlak).
+* Fixed XP-spammable arrowhead recipe.
+* Cleaned up the claw weapon's treasure profile (It was accidentally using the katar profile, creating lots of impossible-to-use enchantments).
+* Fixed several bugged treasure effects.
+* Fixed various holes in the Winter Nexus.
+* Fixed damaged data that caused players to "roar" emote instead of playing the "pick up" emote for certain items in the game, most notably in the tutorial cave.
+* Fixed a targeting bug that made other players' pets be treated like monsters unless the player was in your group.
+* Fixed an ability-usage bug that made players not able to accept healing spells from non-group members.
+* Fixed a display bug that made the Favor Meter display negative numbers.
+* Fixed a buggy campfire in Kur.
+* Switched back to earlier recipe categorization system, it's a little less spammy.
+* Changed the 24-hour timers on crystals and chests in the Winter Nexus to be 22-hour timers. This makes it a little less of a pain to redo the dungeon daily without having to keep exact track of when you did it last time.
+
+[[Category: Game updates]]

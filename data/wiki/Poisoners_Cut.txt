@@ -1,0 +1,74 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Poisoner's Cut
+| description = A distracting motion whose main aim is to give you time to add poison to your blade for your next maneuver.
+| level = 15
+| power cost = 18
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|PoisonersCut}}{{KWAB|Melee}}{{KWAB|KnifeCut}}{{KWAB|MeleeKnife}}
+| damage = 24 Slashing
+| special = For 5 seconds, you gain Direct Poison Damage +10 and Indirect Poison Damage +2 per tick.
+}}
+|-
+|
+{{Ability infobox
+| name = Poisoner's Cut 2
+| description = A distracting motion whose main aim is to give you time to add poison to your blade for your next maneuver.
+| level = 30
+| power cost = 24
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|PoisonersCut}}{{KWAB|Melee}}{{KWAB|KnifeCut}}{{KWAB|MeleeKnife}}
+| damage = 51 Slashing
+| special = For 5 seconds, you gain Direct Poison Damage +20 and Indirect Poison Damage +4 per tick.
+}}
+|-
+|
+{{Ability infobox
+| name = Poisoner's Cut 3
+| description = A distracting motion whose main aim is to give you time to add poison to your blade for your next maneuver.
+| level = 45
+| power cost = 31
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|PoisonersCut}}{{KWAB|Melee}}{{KWAB|KnifeCut}}{{KWAB|MeleeKnife}}
+| damage = 97 Slashing
+| special = For 5 seconds, you gain Direct Poison Damage +30 and Indirect Poison Damage +6 per tick.
+}}
+|-
+|
+{{Ability infobox
+| name = Poisoner's Cut 4
+| description = A distracting motion whose main aim is to give you time to add poison to your blade for your next maneuver.
+| level = 60
+| power cost = 36
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|PoisonersCut}}{{KWAB|Melee}}{{KWAB|KnifeCut}}{{KWAB|MeleeKnife}}
+| damage = 164 Slashing
+| special = For 5 seconds, you gain Direct Poison Damage +40 and Indirect Poison Damage +8 per tick.
+}}
+|-
+|
+{{Ability infobox
+| name = Poisoner's Cut 5
+| description = A distracting motion whose main aim is to give you time to add poison to your blade for your next maneuver.
+| level = 75
+| power cost = 43
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|PoisonersCut}}{{KWAB|Melee}}{{KWAB|KnifeCut}}{{KWAB|MeleeKnife}}
+| damage = 235 Slashing
+| special = For 5 seconds, you gain Direct Poison Damage +50 and Indirect Poison Damage +10 per tick.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

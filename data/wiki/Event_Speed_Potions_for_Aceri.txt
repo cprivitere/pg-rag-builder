@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Aceri said, "I could use your assistance! I hear there is a speed potion that a lot of folks craft around here to get around easier. Could you get me 10 of those [[Agonizing Speed Potion]]s? I need to reverse engineer them so I can make them for the whole group."
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Aceri]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Alchemy]] level 20. This quest is only available during a Crafting Caravan event.
+
+===Preface===
+I could use your assistance! I hear there is a speed potion that a lot of folks craft around here to get around easier. Could you get me 10 of those [[Agonizing Speed Potion]]s? I need to reverse engineer them so I can make them for the whole group.
+
+===Requirements===
+* Make 10 Agonizing Speed Potions
+* Obtain 10 Agonizing Speed Potions
+* Talk to Aceri
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Awesome! This will definitely put the hop in everyone's step! Thank you!
+
+<i>[You earn 10 favor with Orran the Caravan Leader]</i>
+
+<i>[This task is repeatable every 12 hours.]</i>}}
+* {{Item|Crafter's Guild Token}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Aceri]][[Category:Quests/Crafting Caravan]]

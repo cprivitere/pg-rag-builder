@@ -1,0 +1,70 @@
+__NOTOC__
+{{Skill infobox
+|title            = Civil Engineering
+|image            = [[File:civil_engineering_skill.png|300px]]
+|caption          = Covers many types of engineering used in city maintenance and construction. It also covers park management.
+|skilltype        = Other Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = [[Alchemy]], [[Carpentry]], [[Civic Pride]], or [[Gadgeteering]] at 25
+|skilltrainers    = [[Ser Hackley]] <!-- List skill trainers, 3 max -->
+}}
+
+{{Quote|source=[[Ser Hackley]]|
+If I hear one more story about mushrooms attacking people, I'm going to cry. I'm an engineer! What the heck am I supposed to do about that? Hm? You tell me!
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+{{msg:BASEPAGENAME}} is a constant battle against clogged sewers, weeds, and [[Urban Expression|Urban Expressionists]].
+
+=== In-Game Description ===
+Covers many types of engineering used in city maintenance and construction. It also covers park management.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Ser Hackley]] teaches {{msg:BASEPAGENAME}} and gives repeatable quests involving it
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* None
+===== Related Skills: =====
+* [[Gadgeteering]] - Used to craft consumables ([[Basic Bug Bomb]]) for {{msg:BASEPAGENAME}}
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for {{msg:BASEPAGENAME}} can be obtained from the following skills and levels:
+<!-- List skills alphabetically, gather information from Synergy Levels page linked above. -->
+* None
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+For graffiti removal, lamp bulb replacement, or plant pot weeding, equip the appropriate skill from the Special Abilities tab, have the proper materials in your inventory, and use the skill near the item to interact with.
+
+For sewer clot removal, directly interact with the clots.
+
+===Equipment & Materials===
+<!-- Special equipment that is intended to be used by the skill goes here, including belts. -->
+{{Item|Graffiti Cleaner}}<br>
+{{Item|Fertilizer Sticks}}<br>
+{{Item|Replacement Bulb}}<br>
+{{Item|Empty Bucket}}<br>
+{{Item|Bucket of Water}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}} <!-- Xptables will list all tables. Select the right one by looking at "XpTable" in the skills json. -->
+}}
+
+== Trivia ==
+<!-- Write a little about this history of the skill, or things that don't belong in above areas -->
+
+== Gallery==
+<!-- Include a small gallery of players using the skill, or abilities of the skill. Try to keep it under six images. -->
+<gallery mode="nolines" widths=200px>
+File:civil_engineering_weed.png|A weedy plant
+File:civil_engineering_sewer_clot.png|A sewer clot
+</gallery>
+
+[[Category:Skills]][[Category:Other Skills]]

@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Raina in the Fae Realm said, "Psst... thanks for your help getting those fresh bee stingers. I've got another order for really fresh butterfly wings. I'd collect them myself, but I'm very fluent in butterfly speech, and I just can't handle their dying screams right now..."
+
+===Prerequisites===
+To start this quest, talk to '''[[Raina]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor. You must have previously completed [[Freshest Stingers]] in order to undertake this quest.
+
+===Preface===
+Psst... thanks for your help getting those fresh bee stingers. I've got another order for really fresh butterfly wings. I'd collect them myself, but I'm very fluent in butterfly speech, and I just can't handle their dying screams right now...
+
+===Requirements===
+* Harvest Shimmerwing Wings x5
+* (Keep the Wings) x5
+* Talk to Raina
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Aw... poor butterflies! I feel terrible about this special order. But the store needs an income stream, or it can't be a part of this community! The needs of the many etcetera! Forgive me? ... Please?
+
+Wait, who am I asking forgiveness from?! You're the monster who killed these butterflies in the first place! You should be ashamed!
+
+... Sorry. Here's your blood money.}}
+* 50 {{Favor|favor}}
+* {{Item|Royal Jelly}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Raina]]

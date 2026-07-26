@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Tremmond Blackhammer in Povus said, "I'm making some armor as a gift for my niece Stephie. It's a new neck-guard for the suit I made her.
+
+I need some parts, and I can't ask Stephie to get them for me or she'd know my plan. Can you do it? I'll give you some xogrite."
+
+===Prerequisites===
+To start this quest, talk to '''[[Tremmond Blackhammer]]''' in '''[[Povus]]'''. The quest is available at {{Favor|Neutral}} favor. 
+
+===Preface===
+I'm making some armor as a gift for my niece Stephie. It's a new neck-guard for the suit I made her.
+
+I need some parts, and I can't ask Stephie to get them for me or she'd know my plan. Can you do it? I'll give you some xogrite.
+
+===Requirements===
+* Obtain Agates x2
+* Obtain Orichalcum
+* Talk to Tremmond Blackhammer
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hmm, these agates are shit. But they'll do, they'll do. I'm in a hurry. Here's your pay. And if it seems paltry, remember my gratitude is part of your payment!}}
+* 150 {{Favor|favor}}
+* {{Item|Xogrite Chunk}} x6
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Tremmond Blackhammer]]

@@ -1,0 +1,5 @@
+==Hotfix Notes: March 13, 2020==
+Fixed a bug in the scripting of [[Roshun the Traitor]] which allowed fairy players to obtain infinite Favor. Faeries with Favor over Comfortable were lowered back to Comfortable.
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

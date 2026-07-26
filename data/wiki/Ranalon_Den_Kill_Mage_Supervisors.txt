@@ -1,0 +1,40 @@
+__NOTOC__
+==Summary==
+Chirrra in  the Serbule Hills Ranalon Den said, "Some of the most talented stone-shapers in the whole den are back working with the leglings today. Strike now! The mage supervisors are deep in the legling wing. Go past the legling gardeners, then keep right at the fork."
+
+===Prerequisites===
+To start this quest, talk to '''[[Chirrra]]''' in '''[[Ranalon Den]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This quest requires the previous completion of a [[:Category:Quests/Chirrra Tier 1|Tier 1]] quest from Chirrra.
+
+This is a solo quest from Chirrra. You may have one solo quest from Chirrra at a time. You can take on a new solo quest 15 minutes after completing or canceling this quest.
+
+===Preface===
+{{Quote|Some of the most talented stone-shapers in the whole den are back working with the leglings today. Strike now! The mage supervisors are deep in the legling wing. Go past the legling gardeners, then keep right at the fork.}}
+
+This is a [[:Category:Quests/Chirrra Tier 2|Tier 2]] quest from Chirrra.
+
+===Requirements===
+* Kill Mage Supervisors
+* Talk to Chirrra
+
+===Rewards===
+{{Spoiler|Rewards for Ranalon Den: Kill Mage Supervisors|
+{{Quote|With fewer expert stone-shapers on our front lines, the goblins may finally be able to overrun the den! And that will mean a swift death for me. Hmm. I kind of hate what I've become, so maybe that's not a big deal. Anyway, here's your reward.}}
+
+XP Scaled to a maximum of level 17:
+* 321 at level 17
+
+This quest will reward 1-2 of the following loot randomly: 
+
+'''Equipment (Level 20)'''
+* {{Item|Chirrra's Enoyos Talisman}}
+
+'''Abilities & Recipes'''
+* {{Item|Alchemy: Energy Resistance Potion}}
+
+}}
+[[Category:Quests]]
+[[Category:Quests/Ranalon Den Quests]]
+[[Category:Quests/Chirrra]]
+[[Category:Quests/Chirrra Tier 2]]

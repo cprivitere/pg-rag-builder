@@ -1,0 +1,33 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> I can't tell you why, but you should go klil Barghests.
+
+Okay you twisted my arm. The reason is Norala, goddess of Hunting. She's trying to take control of them and turn them into a new kind of werewolf!
+
+Dreva would normally stop her, but Dreva is busy right now. So you go do it!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> I can't tell you why, but you should go klil Barghests.
+
+Okay you twisted my arm. The reason is Norala, goddess of Hunting. She's trying to take control of them and turn them into a new kind of werewolf!
+
+Dreva would normally stop her, but Dreva is busy right now. So you go do it!
+
+===Requirements===
+* Kill Barghests x6
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Look, I'm sorry I made you kill murderpuppies. I know they seemed harmless, but I swear that they were about to get mind-controlled by Norala!
+
+Well, that's a rumor I heard, anyway... and you put a stop to it!}}
+* 8000 councils
+* {{Item|Level 70 Event Loot Key}}
+* random items
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

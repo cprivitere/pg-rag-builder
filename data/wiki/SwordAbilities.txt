@@ -1,0 +1,264 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Sword/Abilities|Sword Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v446 on Fri Jan 16 2026 03:16:03 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Sword Slash|2}} || 0 || Sword Slash || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 10 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Parry|2}} || 1 || Parry || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -5 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 10 Slashing<br><b>Enemy Rage:</b> -60 || <b>Power Cost:</b> 7<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || Leveling
+|-
+| {{Ability icon|Many Cuts|2}} || 3 || Many Cuts || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 2 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 10 Slashing || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Wind Strike|2}} || 5 || Wind Strike || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +19 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 19 Slashing<br><b>Dmg to Vulnerable:</b> 19 Slashing || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Finishing Blow|2}} || 7 || Finishing Blow || A slow horrific cut across the midsection.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br>Target suffers 0 Psychic damage after a 4-second delay<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 42 Slashing || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Riposte|2}} || 7 || Riposte || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 16 Slashing<br><b>Dmg to Vulnerable:</b> 48 Slashing<br><b>Enemy Rage:</b> -70 || <b>Power Cost:</b> 11<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Riposte]]
+|-
+| {{Ability icon|Precision Pierce|2}} || 8 || Precision Pierce || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 13 Piercing<br><b>Enemy Rage:</b> -50 || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +5% || <b>Item:</b> [[Sword: Precision Pierce]]<br><b>Training:</b> [[Nelson Ballard]]
+|-
+| {{Ability icon|Debilitating Blow|2}} || 9 || Debilitating Blow || Attack the target's offense, leaving them less able to deal damage.<br><b>This is a Signature Debuff ability</b> || Target's attacks deal -10% damage for 10 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 21 Slashing || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Hacking Blade|2}} || 10 || Hacking Blade || Cut deep, causing the target to bleed. || <b>DoT:</b> 6 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 20 Slashing || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Sword Slash 2|2}} || 12 || Sword Slash 2 || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 18 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Flashing Strike|2}} || 13 || Flashing Strike || A solemn strike that does extra damage to undead. || Undead targets suffer 25 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 23 Slashing || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Nelson Ballard]]
+|-
+| {{Ability icon|Many Cuts 2|2}} || 15 || Many Cuts 2 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 4 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 31 Slashing || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Decapitate|2}} || 15 || Decapitate || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 100 Slashing || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Sword: Decapitate]]<br><b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Riposte 2|2}} || 16 || Riposte 2 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 31 Slashing<br><b>Dmg to Vulnerable:</b> 93 Slashing<br><b>Enemy Rage:</b> -110 || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Riposte 2]]
+|-
+| {{Ability icon|Parry 2|2}} || 18 || Parry 2 || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -10 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 21 Slashing<br><b>Enemy Rage:</b> -100 || <b>Power Cost:</b> 11<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || Leveling
+|-
+| {{Ability icon|Thrusting Blade|2}} || 18 || Thrusting Blade || A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 28 Piercing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 3 || <b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Precision Pierce 2|2}} || 19 || Precision Pierce 2 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 29 Piercing<br><b>Enemy Rage:</b> -90 || <b>Power Cost:</b> 13<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +10% || <b>Item:</b> [[Sword: Precision Pierce 2]]<br><b>Training:</b> [[Nelson Ballard]]
+|-
+| {{Ability icon|Wind Strike 2|2}} || 20 || Wind Strike 2 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +38 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 38 Slashing<br><b>Dmg to Vulnerable:</b> 38 Slashing || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Heart Piercer|2}} || 20 || Heart Piercer || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 105 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 38 Piercing || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Many Cuts 3|2}} || 27 || Many Cuts 3 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 6 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 45 Slashing || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Riposte 3|2}} || 28 || Riposte 3 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 56 Slashing<br><b>Dmg to Vulnerable:</b> 168 Slashing<br><b>Enemy Rage:</b> -220 || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Riposte 3]]
+|-
+| {{Ability icon|Debilitating Blow 2|2}} || 28 || Debilitating Blow 2 || Attack the target's offense, leaving them less able to deal damage.<br><b>This is a Signature Debuff ability</b> || Target's attacks deal -17% damage for 10 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 56 Slashing || <b>Power Cost:</b> 29<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Finishing Blow 2|2}} || 30 || Finishing Blow 2 || A slow horrific cut across the midsection.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br>Target suffers 0 Psychic damage after a 4-second delay<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 115 Slashing || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Decapitate 2|2}} || 30 || Decapitate 2 || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 194 Slashing || <b>Power Cost:</b> 58<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Sword: Decapitate 2]]<br><b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Heart Piercer 2|2}} || 30 || Heart Piercer 2 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 175 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 62 Piercing || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Hacking Blade 2|2}} || 31 || Hacking Blade 2 || Cut deep, causing the target to bleed. || <b>DoT:</b> 12 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 64 Slashing || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Sword Slash 3|2}} || 33 || Sword Slash 3 || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 34 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Precision Pierce 3|2}} || 33 || Precision Pierce 3 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 54 Piercing<br><b>Enemy Rage:</b> -170 || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +13% || <b>Item:</b> [[Sword: Precision Pierce 3]]<br><b>Training:</b> [[Nelson Ballard]]
+|-
+| {{Ability icon|Thrusting Blade 2|2}} || 33 || Thrusting Blade 2 || A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 49 Piercing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 3 || <b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Flashing Strike 2|2}} || 34 || Flashing Strike 2 || A solemn strike that does extra damage to undead. || Undead targets suffer 60 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 51 Slashing || <b>Power Cost:</b> 15<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Nelson Ballard]]
+|-
+| {{Ability icon|Parry 3|2}} || 35 || Parry 3 || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -20 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 37 Slashing<br><b>Enemy Rage:</b> -200 || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || Leveling
+|-
+| {{Ability icon|Wind Strike 3|2}} || 36 || Wind Strike 3 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +78 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 78 Slashing<br><b>Dmg to Vulnerable:</b> 78 Slashing || <b>Power Cost:</b> 29<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Riposte 4|2}} || 39 || Riposte 4 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 89 Slashing<br><b>Dmg to Vulnerable:</b> 267 Slashing<br><b>Enemy Rage:</b> -350 || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Riposte 4]]
+|-
+| {{Ability icon|Many Cuts 4|2}} || 40 || Many Cuts 4 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 10 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 78 Slashing || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Heart Piercer 3|2}} || 40 || Heart Piercer 3 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 245 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 93 Piercing || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Debilitating Blow 3|2}} || 43 || Debilitating Blow 3 || Attack the target's offense, leaving them less able to deal damage.<br><b>This is a Signature Debuff ability</b> || Target's attacks deal -25% damage for 10 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 106 Slashing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Precision Pierce 4|2}} || 44 || Precision Pierce 4 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 82 Piercing<br><b>Enemy Rage:</b> -270 || <b>Power Cost:</b> 20<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +15% || <b>Item:</b> [[Sword: Precision Pierce 4]]<br><b>Training:</b> [[Nelson Ballard]]
+|-
+| {{Ability icon|Parry 4|2}} || 45 || Parry 4 || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -30 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 58 Slashing<br><b>Enemy Rage:</b> -320 || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || Leveling
+|-
+| {{Ability icon|Flashing Strike 3|2}} || 45 || Flashing Strike 3 || A solemn strike that does extra damage to undead. || Undead targets suffer 100 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 83 Slashing || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Nelson Ballard]]
+|-
+| {{Ability icon|Sword Slash 4|2}} || 47 || Sword Slash 4 || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 64 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Wind Strike 4|2}} || 48 || Wind Strike 4 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +133 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 133 Slashing<br><b>Dmg to Vulnerable:</b> 133 Slashing || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Thrusting Blade 3|2}} || 48 || Thrusting Blade 3 || A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 95 Piercing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 3 || <b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Hacking Blade 3|2}} || 49 || Hacking Blade 3 || Cut deep, causing the target to bleed. || <b>DoT:</b> 18 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 139 Slashing || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Finishing Blow 3|2}} || 50 || Finishing Blow 3 || A slow horrific cut across the midsection.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br>Target suffers 0 Psychic damage after a 4-second delay<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 270 Slashing || <b>Power Cost:</b> 56<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Decapitate 3|2}} || 50 || Decapitate 3 || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 418 Slashing || <b>Power Cost:</b> 77<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Sword: Decapitate 3]]<br><b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Heart Piercer 4|2}} || 50 || Heart Piercer 4 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 350 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 144 Piercing || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Riposte 5|2}} || 51 || Riposte 5 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 149 Slashing<br><b>Dmg to Vulnerable:</b> 447 Slashing<br><b>Enemy Rage:</b> -550 || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Riposte 5]]
+|-
+| {{Ability icon|Many Cuts 5|2}} || 52 || Many Cuts 5 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 14 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 128 Slashing || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Flashing Strike 4|2}} || 54 || Flashing Strike 4 || A solemn strike that does extra damage to undead. || Undead targets suffer 140 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 117 Slashing || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Precision Pierce 5|2}} || 55 || Precision Pierce 5 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 124 Piercing<br><b>Enemy Rage:</b> -430 || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +18% || <b>Item:</b> [[Sword: Precision Pierce 5]]
+|-
+| {{Ability icon|Debilitating Blow 4|2}} || 56 || Debilitating Blow 4 || Attack the target's offense, leaving them less able to deal damage.<br><b>This is a Signature Debuff ability</b> || Target's attacks deal -25% damage for 10 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 175 Slashing || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Parry 5|2}} || 57 || Parry 5 || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -40 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 90 Slashing<br><b>Enemy Rage:</b> -500 || <b>Power Cost:</b> 20<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Wind Strike 5|2}} || 58 || Wind Strike 5 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +185 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 185 Slashing<br><b>Dmg to Vulnerable:</b> 185 Slashing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Sword Slash 5|2}} || 59 || Sword Slash 5 || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 95 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Heart Piercer 5|2}} || 60 || Heart Piercer 5 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 420 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 196 Piercing || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Janet Lews]]<br><b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Decapitate 4|2}} || 61 || Decapitate 4 || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 583 Slashing || <b>Power Cost:</b> 88<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Sword: Decapitate 4]]<br><b>Training:</b> [[Janet Lews]]<br><b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Finishing Blow 4|2}} || 62 || Finishing Blow 4 || A slow horrific cut across the midsection.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br>Target suffers 0 Psychic damage after a 4-second delay<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 385 Slashing || <b>Power Cost:</b> 64<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Thrusting Blade 4|2}} || 62 || Thrusting Blade 4 || A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 147 Piercing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 3 || <b>Training:</b> [[Malvol]]
+|-
+| {{Ability icon|Riposte 6|2}} || 63 || Riposte 6 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 211 Slashing<br><b>Dmg to Vulnerable:</b> 633 Slashing<br><b>Enemy Rage:</b> -660 || <b>Power Cost:</b> 29<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Riposte 6]]
+|-
+| {{Ability icon|Hacking Blade 4|2}} || 63 || Hacking Blade 4 || Cut deep, causing the target to bleed. || <b>DoT:</b> 24 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 211 Slashing || <b>Power Cost:</b> 39<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Flashing Strike 5|2}} || 63 || Flashing Strike 5 || A solemn strike that does extra damage to undead. || Undead targets suffer 200 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 151 Slashing || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Many Cuts 6|2}} || 64 || Many Cuts 6 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 18 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 180 Slashing || <b>Power Cost:</b> 29<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Precision Pierce 6|2}} || 66 || Precision Pierce 6 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 165 Piercing<br><b>Enemy Rage:</b> -510 || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +19% || <b>Item:</b> [[Sword: Precision Pierce 6]]
+|-
+| {{Ability icon|Wind Strike 6|2}} || 68 || Wind Strike 6 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +238 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 238 Slashing<br><b>Dmg to Vulnerable:</b> 238 Slashing || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Debilitating Blow 5|2}} || 69 || Debilitating Blow 5 || Attack the target's offense, leaving them less able to deal damage.<br><b>This is a Signature Debuff ability</b> || Target's attacks deal -25% damage for 10 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 244 Slashing || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Parry 6|2}} || 70 || Parry 6 || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -50 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 125 Slashing<br><b>Enemy Rage:</b> -600 || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Heart Piercer 6|2}} || 70 || Heart Piercer 6 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 540 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 251 Piercing || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Sword Slash 6|2}} || 71 || Sword Slash 6 || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 128 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Decapitate 5|2}} || 72 || Decapitate 5 || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 761 Slashing || <b>Power Cost:</b> 98<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Sword: Decapitate 5]]<br><b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Flashing Strike 6|2}} || 72 || Flashing Strike 6 || A solemn strike that does extra damage to undead. || Undead targets suffer 280 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 187 Slashing || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Janet Lews]]
+|-
+| {{Ability icon|Finishing Blow 5|2}} || 74 || Finishing Blow 5 || A slow horrific cut across the midsection.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br>Target suffers 0 Psychic damage after a 4-second delay<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 514 Slashing || <b>Power Cost:</b> 72<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Janet Lews]]<br><b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Riposte 7|2}} || 75 || Riposte 7 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 282 Slashing<br><b>Dmg to Vulnerable:</b> 846 Slashing<br><b>Enemy Rage:</b> -770 || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Riposte 7]]
+|-
+| {{Ability icon|Thrusting Blade 5|2}} || 75 || Thrusting Blade 5 || A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 202 Piercing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 3 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Many Cuts 7|2}} || 76 || Many Cuts 7 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 22 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 240 Slashing || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Precision Pierce 7|2}} || 77 || Precision Pierce 7 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 212 Piercing<br><b>Enemy Rage:</b> -600 || <b>Power Cost:</b> 29<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +20% || <b>Item:</b> [[Sword: Precision Pierce 7]]
+|-
+| {{Ability icon|Hacking Blade 5|2}} || 77 || Hacking Blade 5 || Cut deep, causing the target to bleed. || <b>DoT:</b> 30 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 294 Slashing || <b>Power Cost:</b> 46<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Wind Strike 7|2}} || 78 || Wind Strike 7 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +300 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 300 Slashing<br><b>Dmg to Vulnerable:</b> 300 Slashing || <b>Power Cost:</b> 46<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Heart Piercer 7|2}} || 80 || Heart Piercer 7 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 700 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 314 Piercing || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Flashing Strike 7|2}} || 81 || Flashing Strike 7 || A solemn strike that does extra damage to undead. || Undead targets suffer 400 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 228 Slashing || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Sword Slash 7|2}} || 83 || Sword Slash 7 || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 166 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Parry 7|2}} || 83 || Parry 7 || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -60 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 166 Slashing<br><b>Enemy Rage:</b> -700 || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Decapitate 6|2}} || 83 || Decapitate 6 || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 961 Slashing || <b>Power Cost:</b> 110<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Sword: Decapitate 6]]
+|-
+| {{Ability icon|Debilitating Blow 6|2}} || 84 || Debilitating Blow 6 || Attack the target's offense, leaving them less able to deal damage.<br><b>This is a Signature Debuff ability</b> || Target's attacks deal -25% damage for 10 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 338 Slashing || <b>Power Cost:</b> 58<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Debilitating Blow 6]]
+|-
+| {{Ability icon|Finishing Blow 6|2}} || 86 || Finishing Blow 6 || A slow horrific cut across the midsection.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br>Target suffers 0 Psychic damage after a 4-second delay<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 657 Slashing || <b>Power Cost:</b> 81<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Sword: Finishing Blow 6]]
+|-
+| {{Ability icon|Riposte 8|2}} || 87 || Riposte 8 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 358 Slashing<br><b>Dmg to Vulnerable:</b> 1074 Slashing<br><b>Enemy Rage:</b> -770 || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Riposte 8]]
+|-
+| {{Ability icon|Many Cuts 8|2}} || 88 || Many Cuts 8 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 28 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 303 Slashing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Sword: Many Cuts 8]]
+|-
+| {{Ability icon|Wind Strike 8|2}} || 88 || Wind Strike 8 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +364 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 364 Slashing<br><b>Dmg to Vulnerable:</b> 364 Slashing || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Wind Strike 8]]
+|-
+| {{Ability icon|Precision Pierce 8|2}} || 88 || Precision Pierce 8 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 262 Piercing<br><b>Enemy Rage:</b> -600 || <b>Power Cost:</b> 32<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +20% || <b>Item:</b> [[Sword: Precision Pierce 8]]
+|-
+| {{Ability icon|Thrusting Blade 6|2}} || 88 || Thrusting Blade 6 || A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 260 Piercing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 3 || <b>Item:</b> [[Sword: Thrusting Blade 6]]
+|-
+| {{Ability icon|Hacking Blade 6|2}} || 90 || Hacking Blade 6 || Cut deep, causing the target to bleed. || <b>DoT:</b> 36 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 379 Slashing || <b>Power Cost:</b> 52<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Sword: Hacking Blade 6]]
+|-
+| {{Ability icon|Flashing Strike 8|2}} || 90 || Flashing Strike 8 || A solemn strike that does extra damage to undead. || Undead targets suffer 550 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 270 Slashing || <b>Power Cost:</b> 28<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Item:</b> [[Sword: Flashing Strike 8]]
+|-
+| {{Ability icon|Heart Piercer 8|2}} || 90 || Heart Piercer 8 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 900 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 379 Piercing || <b>Power Cost:</b> 52<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Sword: Heart Piercer 8]]
+|-
+| {{Ability icon|Decapitate 7|2}} || 94 || Decapitate 7 || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 1171 Slashing || <b>Power Cost:</b> 122<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Sword: Decapitate 7]]
+|-
+| {{Ability icon|Sword Slash 8|2}} || 95 || Sword Slash 8 || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 206 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Sword: Sword Slash 8]]
+|-
+| {{Ability icon|Parry 8|2}} || 96 || Parry 8 || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -70 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 209 Slashing<br><b>Enemy Rage:</b> -700 || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Item:</b> [[Sword: Parry 8]]
+|-
+| {{Ability icon|Wind Strike 9|2}} || 98 || Wind Strike 9 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +430 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 430 Slashing<br><b>Dmg to Vulnerable:</b> 430 Slashing || <b>Power Cost:</b> 56<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Finishing Blow 7|2}} || 98 || Finishing Blow 7 || A slow horrific cut across the midsection.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br>Target suffers 0 Psychic damage after a 4-second delay<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 804 Slashing || <b>Power Cost:</b> 91<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Riposte 9|2}} || 99 || Riposte 9 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 437 Slashing<br><b>Dmg to Vulnerable:</b> 1311 Slashing<br><b>Enemy Rage:</b> -770 || <b>Power Cost:</b> 41<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Precision Pierce 9|2}} || 99 || Precision Pierce 9 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 314 Piercing<br><b>Enemy Rage:</b> -600 || <b>Power Cost:</b> 36<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +20% || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Flashing Strike 9|2}} || 99 || Flashing Strike 9 || A solemn strike that does extra damage to undead. || Undead targets suffer 750 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 312 Slashing || <b>Power Cost:</b> 31<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Many Cuts 9|2}} || 100 || Many Cuts 9 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 36 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 371 Slashing || <b>Power Cost:</b> 41<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Debilitating Blow 7|2}} || 100 || Debilitating Blow 7 || Attack the target's offense, leaving them less able to deal damage.<br><b>This is a Signature Debuff ability</b> || Target's attacks deal -25% damage for 10 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 445 Slashing || <b>Power Cost:</b> 67<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Heart Piercer 9|2}} || 100 || Heart Piercer 9 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 1100 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 445 Piercing || <b>Power Cost:</b> 57<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Thrusting Blade 7|2}} || 103 || Thrusting Blade 7 || A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 334 Piercing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 3 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Hacking Blade 7|2}} || 105 || Hacking Blade 7 || Cut deep, causing the target to bleed. || <b>DoT:</b> 42 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 483 Slashing || <b>Power Cost:</b> 59<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Decapitate 8|2}} || 105 || Decapitate 8 || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 1399 Slashing || <b>Power Cost:</b> 135<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Sword Slash 9|2}} || 107 || Sword Slash 9 || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 249 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Wind Strike 10|2}} || 108 || Wind Strike 10 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +506 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 506 Slashing<br><b>Dmg to Vulnerable:</b> 506 Slashing || <b>Power Cost:</b> 61<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Flashing Strike 10|2}} || 108 || Flashing Strike 10 || A solemn strike that does extra damage to undead. || Undead targets suffer 750 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 361 Slashing || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Parry 9|2}} || 110 || Parry 9 || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -80 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 260 Slashing<br><b>Enemy Rage:</b> -700 || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Finishing Blow 8|2}} || 110 || Finishing Blow 8 || A slow horrific cut across the midsection.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br>Target suffers 0 Psychic damage after a 4-second delay<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 973 Slashing || <b>Power Cost:</b> 101<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Precision Pierce 10|2}} || 110 || Precision Pierce 10 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 374 Piercing<br><b>Enemy Rage:</b> -600 || <b>Power Cost:</b> 39<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +20% || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Heart Piercer 10|2}} || 110 || Heart Piercer 10 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 1100 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 521 Piercing || <b>Power Cost:</b> 62<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Riposte 10|2}} || 111 || Riposte 10 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 528 Slashing<br><b>Dmg to Vulnerable:</b> 1584 Slashing<br><b>Enemy Rage:</b> -770 || <b>Power Cost:</b> 45<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Many Cuts 10|2}} || 112 || Many Cuts 10 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 36 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 447 Slashing || <b>Power Cost:</b> 46<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Decapitate 9|2}} || 116 || Decapitate 9 || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 1641 Slashing || <b>Power Cost:</b> 148<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sir Brooker]]
+|-
+| {{Ability icon|Debilitating Blow 8|2}} || 117 || Debilitating Blow 8 || Attack the target's offense, leaving them less able to deal damage.<br><b>This is a Signature Debuff ability</b> || Target's attacks deal -25% damage for 10 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 574 Slashing || <b>Power Cost:</b> 78<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Flashing Strike 11|2}} || 117 || Flashing Strike 11 || A solemn strike that does extra damage to undead. || Undead targets suffer 750 indirect Nature damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 410 Slashing || <b>Power Cost:</b> 36<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Wind Strike 11|2}} || 118 || Wind Strike 11 || A flurry of attacks that does extra damage to vulnerable targets, and creates an opening for your next attack to be more successful. || Your next attack deals +582 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 582 Slashing<br><b>Dmg to Vulnerable:</b> 582 Slashing || <b>Power Cost:</b> 66<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Thrusting Blade 8|2}} || 118 || Thrusting Blade 8 || A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 415 Piercing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 3 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Sword Slash 10|2}} || 119 || Sword Slash 10 || Attack with a sword.<br><b>This is a Basic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 295 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Hacking Blade 8|2}} || 120 || Hacking Blade 8 || Cut deep, causing the target to bleed. || <b>DoT:</b> 48 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 597 Slashing || <b>Power Cost:</b> 67<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Heart Piercer 11|2}} || 120 || Heart Piercer 11 || Surprise the target with a stab to the chest, turning their Rage into pain. || Up to 1100 Rage is taken from the target and 20% of it is turned into Trauma damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 597 Piercing || <b>Power Cost:</b> 67<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Precision Pierce 11|2}} || 121 || Precision Pierce 11 || A carefully-aimed attack that bypasses armor entirely. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Health Dmg:</b> 434 Piercing || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 6<br><b>Accuracy:</b> +20% || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Finishing Blow 9|2}} || 122 || Finishing Blow 9 || A slow horrific cut across the midsection.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br>Target suffers 0 Psychic damage after a 4-second delay<br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 1144 Slashing || <b>Power Cost:</b> 112<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Riposte 11|2}} || 123 || Riposte 11 || Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 620 Slashing<br><b>Dmg to Vulnerable:</b> 1860 Slashing || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Many Cuts 11|2}} || 124 || Many Cuts 11 || A flurry of attacks that leave the enemy disoriented and disheveled.<br><b>This is a Core Attack</b> || <b>DoT:</b> 36 Trauma, 6 times over 6 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 523 Slashing || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Parry 10|2}} || 124 || Parry 10 || Defensive maneuver that diminishes enemy's Rage and weakens their next attack. || Target's next attack deals -80 damage<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 314 Slashing<br><b>Enemy Rage:</b> -700 || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Decapitate 10|2}} || 125 || Decapitate 10 || A devastating attack.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 10 times over 10 seconds || <b>Damage:</b> 1840 Slashing || <b>Power Cost:</b> 159<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Unknown Source:</b> Not Found
+|}

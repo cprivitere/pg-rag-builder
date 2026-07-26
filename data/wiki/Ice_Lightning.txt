@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Ice Lightning
+| description = Rapidly alter the temperature of the air to create electricity, then use it to injure a foe.
+| level = 5
+| power cost = 9
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceLightning}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 10 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Lightning 2
+| description = Rapidly alter the temperature of the air to create electricity, then use it to injure a foe.
+| level = 15
+| power cost = 12
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceLightning}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 24 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Lightning 3
+| description = Rapidly alter the temperature of the air to create electricity, then use it to injure a foe.
+| level = 25
+| power cost = 15
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceLightning}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 41 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Lightning 4
+| description = Rapidly alter the temperature of the air to create electricity, then use it to injure a foe.
+| level = 35
+| power cost = 18
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceLightning}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 62 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Lightning 5
+| description = Rapidly alter the temperature of the air to create electricity, then use it to injure a foe.
+| level = 45
+| power cost = 21
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceLightning}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 97 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Lightning 6
+| description = Rapidly alter the temperature of the air to create electricity, then use it to injure a foe.
+| level = 55
+| power cost = 23
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceLightning}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 142 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Lightning 7
+| description = Rapidly alter the temperature of the air to create electricity, then use it to injure a foe.
+| level = 65
+| power cost = 26
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceLightning}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 185 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Lightning 8
+| description = Rapidly alter the temperature of the air to create electricity, then use it to injure a foe.
+| level = 75
+| power cost = 29
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceLightning}}{{KWAB|Ranged}}{{KWAB|IceMagicSingleTarget}}
+| damage = 235 Electricity
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

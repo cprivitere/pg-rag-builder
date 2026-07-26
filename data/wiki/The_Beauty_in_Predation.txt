@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Rohina]] in [[Sun Vale]] said, "Druids aren't just tree-lovers. We're deeply invested in the balance of nature, and that's not always pretty. Not to non-druids, anyway. I'll show you - the spiders near here sometimes feed on small shore birds. Bring me some of the prey feathers."
+
+===Prerequisites===
+To start this quest, talk to '''[[Rohina]]''' in '''[[Sun Vale]]'''. You must have previously completed [[The Beauty in Seeds]] in order to undertake this quest. This quest is only available to [[Fairy|Fae]]. 
+
+===Preface===
+{{Quote|Druids aren't just tree-lovers. We're deeply invested in the balance of nature, and that's not always pretty. Not to non-druids, anyway. I'll show you - the spiders near here sometimes feed on small shore birds. Bring me some of the prey feathers.}}
+
+===Requirements===
+* Collect {{Item|Feathers}} x5
+* Talk to [[Rohina]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|These are perfect. Now look here ... No, come over here. I won't bite! See how the feather has these little spines that lock together? And even though the bird is dead, the feather stays intact and even waterproof! Isn't that wonderful?}}
+* 25 {{Favor|favor}}
+*[[Nature Appreciation]] raised to Level 30.
+}}
+
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Rohina]][[Category:Quests/Fae Quests]]

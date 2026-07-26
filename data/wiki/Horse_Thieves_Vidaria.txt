@@ -1,0 +1,20 @@
+__NOTOC__
+==Activity Quest==
+[[Horse Thieves (Vidaria)]] is an [[Activity Quests|Activity Quest]] which does not appear in the quest log. It shares the displayed name '''Horses Rescued''' with all other Horse Thieves quests.
+
+===Prerequisites===
+This [[Activity Quests|Activity Quest]] is automatically completed when the Horse Thieves in [[Vidaria]] are defeated.
+===Location===
+{{Spoiler|Click 'Expand' to the right to see a map locating the event.|[[File:Vidaria horse thieves.png]]}}
+
+===Rewards===
+{{Spoiler|Rewards for Horse Thieves (Vidaria)|
+{{Quote|
+You rescued the wild horses!
+}}
+* A level 95 item from the HorseThieves_Serbule loot table.
+* 5671570 XP in active combat skills.
+}}
+
+
+[[Category:Quests]][[Category:Quests/Activity Quests]]

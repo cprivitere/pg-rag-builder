@@ -1,0 +1,60 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Deflective Spin
+| description = Spin your staff in a deflective stance.
+| level = 10
+| power cost = 19
+| reuse time = 16
+| range = 3 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffAttack}}{{KWAB|DeflectiveSpin}}{{KWAB|Melee}}
+| damage = 23 Crushing
+| special = Restores 0 Health. Restores 0 Health every 3 seconds for 15 seconds. You take 10% less damage from all attacks for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Deflective Spin 2
+| description = Spin your staff in a deflective stance.
+| level = 35
+| power cost = 32
+| reuse time = 16
+| range = 3 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffAttack}}{{KWAB|DeflectiveSpin}}{{KWAB|Melee}}
+| damage = 88 Crushing
+| special = Restores 0 Health. Restores 0 Health every 3 seconds for 15 seconds. You take 11% less damage from all attacks for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Deflective Spin 3
+| description = Spin your staff in a deflective stance.
+| level = 55
+| power cost = 41
+| reuse time = 16
+| range = 3 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffAttack}}{{KWAB|DeflectiveSpin}}{{KWAB|Melee}}
+| damage = 200 Crushing
+| special = Restores 0 Health. Restores 0 Health every 3 seconds for 15 seconds. You take 12% less damage from all attacks for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Deflective Spin 4
+| description = Spin your staff in a deflective stance.
+| level = 70
+| power cost = 48
+| reuse time = 16
+| range = 3 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffAttack}}{{KWAB|DeflectiveSpin}}{{KWAB|Melee}}
+| damage = 295 Crushing
+| special = Restores 0 Health. Restores 0 Health every 3 seconds for 15 seconds. You take 13% less damage from all attacks for 15 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

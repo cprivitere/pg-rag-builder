@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Double Hit
+| description = Strike an enemy twice with your staff.
+| level = 4
+| power cost = 15
+| reuse time = 8
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|DoubleHit}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 24 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Hit 2
+| description = Strike an enemy twice with your staff.
+| level = 25
+| power cost = 26
+| reuse time = 8
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|DoubleHit}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 69 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Hit 3
+| description = Strike an enemy twice with your staff.
+| level = 45
+| power cost = 36
+| reuse time = 8
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|DoubleHit}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 162 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Hit 4
+| description = Strike an enemy twice with your staff.
+| level = 60
+| power cost = 43
+| reuse time = 8
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|DoubleHit}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 273 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Hit 5
+| description = Strike an enemy twice with your staff.
+| level = 70
+| power cost = 48
+| reuse time = 8
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|DoubleHit}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 348 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Hit 6
+| description = Strike an enemy twice with your staff.
+| level = 80
+| power cost = 53
+| reuse time = 8
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|DoubleHit}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 436 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Ilth Hale's Kiss 1
+| description = You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.
+| level = 0
+| power cost = 11
+| reuse time = 90
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|MajorHeal}}
+| special = Restore 40 Health. After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Shoddy Ilth Hale Ring to use this ability.
+}}
+|-
+|
+{{Ability infobox
+| name = Ilth Hale's Kiss 2
+| description = You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.
+| level = 0
+| power cost = 16
+| reuse time = 90
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|MajorHeal}}
+| special = Restore 70 Health. After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Rough Ilth Hale Ring to use this ability.
+}}
+|-
+|
+{{Ability infobox
+| name = Ilth Hale's Kiss 3
+| description = You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.
+| level = 0
+| power cost = 20
+| reuse time = 90
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|MajorHeal}}
+| special = Restore 90 Health. After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Crude Ilth Hale Ring to use this ability.
+}}
+|-
+|
+{{Ability infobox
+| name = Ilth Hale's Kiss 4
+| description = You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.
+| level = 0
+| power cost = 24
+| reuse time = 90
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|MajorHeal}}
+| special = Restore 110 Health. After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Decent Ilth Hale Ring to use this ability.
+}}
+|-
+|
+{{Ability infobox
+| name = Ilth Hale's Kiss 5
+| description = You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.
+| level = 0
+| power cost = 27
+| reuse time = 90
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|MajorHeal}}
+| special = Restore 130 Health. After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Nice Ilth Hale Ring to use this ability.
+}}
+|-
+|
+{{Ability infobox
+| name = Ilth Hale's Kiss 6
+| description = You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.
+| level = 0
+| power cost = 29
+| reuse time = 90
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|MajorHeal}}
+| special = Restore 150 Health. After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Quality Ilth Hale Ring to use this ability.
+}}
+|-
+|
+{{Ability infobox
+| name = Ilth Hale's Kiss 7
+| description = You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.
+| level = 0
+| power cost = 31
+| reuse time = 90
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|MajorHeal}}
+| special = Restore 170 Health. After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Great Ilth Hale Ring to use this ability.
+}}
+|-
+|
+{{Ability infobox
+| name = Ilth Hale's Kiss 8
+| description = You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.
+| level = 0
+| power cost = 33
+| reuse time = 90
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|MajorHeal}}
+| special = Restore 190 Health. After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing an Amazing Ilth Hale Ring to use this ability.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

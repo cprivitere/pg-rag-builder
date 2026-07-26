@@ -1,0 +1,40 @@
+==Feb 28 Update #2: Launcher Note! ==
+: A new Windows launcher is now available from the website (on the "Play Now" page). It is backwards-compatible with the last version, so you don't need to download it if you don't want to. It adds some features, including the ability to choose your install directory, a button to delete the downloaded installation, a "safe mode" setting, DX11 toggle, better support for screen shots (so they don't get deleted like the old launcher did!), and more.
+
+: NOTE: the old launcher does not clean up after itself, so if you use the new launcher and give it a different install directory than the default, you will need to manually delete your old installation. You can find where that is by looking at the (old) launcher window; it mentions the directory where stuff is being downloaded to. Just delete that directory in Explorer.
+
+: This shouldn't be a problem going forward, because the new launcher remembers your chosen install directory and can delete the downloads for you. This is only an issue for people who used the old installer and want to install to a different directory now.
+
+==Feb 28 Update==
+:- Adjusted the treasure-generator so that it won't make items with completely conflicting random enchantments. (For instance, no more necklaces with both [[Sword]] and [[Axe]] requirements; no more items with both [[Sword]] and [[Cow]] requirements, etc.). 
+:- It is still possible to have conflicting requirements if the basic item has built-in requirements. (For instance, only players with at least 15 skill in [[Sword]] can wield any Xiphos, even a non-magical one. So a Xiphos that has Pig enchantments will still require Sword level 15, even though you cannot use Sword+Pig skills at the same time.)
+: - A new jeweler NPC is in the jewelry shop in [[Serbule]]. For now he's just a jewelry merchant. : Eventually he will also be tied into some crafting skills.
+: - The "Placeholder Dye Vendor" that was squatting in the jewelry shop has moved to [[Hogan's Keep]] in [[Eltibule]]
+: - The moon phase calculations were bugged. They should be fixed now. NOTE: this means the full moon is only a week away. It also means the statues in Eltibule are probably on a different phase/cycle than before the update.
+: - Some abilities accidentally consumed two of their required item each time you used them
+: - You should no longer auto-select monsters behind walls when you don't have a valid target
+: - Fixed some issues with Raven form transformation
+: - Lowered the respawn rate of the goblin dungeon underneath the model home. It was originally intended for a group of 40s but should now be soloable by a single level 40 player. (Theoretically. I haven't actually attempted it myself.) And the monsters now drop items with level 40 enchantments. : Please give it a try and give feedback!
+: - Damage done by Brambleskin should now count as damage done by the druid, not as self-inflicted damage. (This affects corpse-looting permissions.)
+: - Replaced the random number generator to one that's more evenly distributed. (This will probably only be actually noticeable on NPCs, because they were artificially favoring certain chatter scripts, small talk responses, etc. more than others. They were also running their chat scripts too often.)
+: - Graphics changes (see below)
+: - Some other small fixes I neglected to write down
+===Combat Flask Changes===
+I've had to change how flasks work to fix balance problems. Randomly-generated flasks had powers that were intended for main-hand weapons, and since you could put those flasks in your off-hand, it meant you could get one too many "stacks" of some powerful effects. At the same time, players who wanted to use battle chemistry couldn't find off-hand buffs on their flasks.
+: To clear all this up, I've split flasks into two items. All the existing flasks have been turned into "beakers". Beakers go in the main hand and have main-hand buffs. Flasks are new items that are wielded in the off-hand and have off-hand buffs. To use battle chemistry, you can wield one or the other (or both).
+: If you were wielding a flask (now a beaker) in your off-hand, it should become unequipped when you log in.
+
+=== Graphics Optimizations ===
+This update has a few graphics fixes, in particular fixing the frame-rate in some dungeons (like the [[Goblin Dungeon]] and the "shadow temple"), and near big lakes outdoors. But there are also a couple of new settings you can play with if you have a good graphics card (or a bad one, and need more framerate).
+: "Camera Cull Distance Multiplier": this setting determines how far away you can see monsters. A high setting means monsters are drawn further away. Besides monsters, this also affects the visibility of some other things, like some buildings, many decorations (like barrels), and more, so it can have dramatic performance implications (good or bad). 
+: "Monster Animation Distance Multiplier": this setting helps calculate when monsters start animating. If they're too far away, they will stop animating. They'll just be stuck in whatever pose they were before. (If the monsters haven't had a chance to animate yet, they'll be stuck in some weird pose -- usually with their arms outstretched, but some humanoids have a bug where they will appear face-down in the dirt instead).
+: You may have already noticed monsters blipping in and out, or not animating, in previous versions -- those optimizations aren't new. What's new is just the ability to customize the distances. They will be auto-configured based on your graphics quality level (so "Fastest" will cull monsters closer than "Beautiful", etc.), and you can further tweak them manually in the Options GUI, under Graphics Settings, Advanced Overrides. 
+: If you have a high-end graphics card, I definitely recommend cranking the cull distance up -- it makes outdoor areas feel much more vibrant when you can see all the distant monsters and points of interest. (Also, while you're in there, check out the "Camera Far Clip Plane" setting. Maxing this out will really improve the visuals of [[Eltibule]] and especially [[Kur Mountains]], because you'll be able to see the distant mountains!)
+: Finally, a note about the "Experimental Optimizations" checkbox in the config window. The old "experimental optimizations" are no longer experimental -- they're just always enabled. So the checkbox now refers on NEW, entirely different experimental optimizations that I just added. The checkbox is turned off by default, but feel free to try it out and give feedback! (It should further optimize the number of animations playing, which is a big improvement for low-end graphics cards... if it's not buggy.)
+
+:(BTW, the new launcher mentioned in previous update is still not live, due to... me forgetting to put it live. The Windows one will go live this afternoon.)
+
+==Feb 28 Early Message==
+Feb 28: A game update should be ready this afternoon.
+:Server will update at 4:30 pm EST -- less than 30 minutes from when I type this!
+[[Category:Game updates]]

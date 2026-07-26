@@ -1,0 +1,78 @@
+__NOTOC__
+==October 17 Update==
+Happy Halloween! The Halloween event has begun! You will receive a quest when you log in to get you started. 
+
+There's also some fun new stuff for animals in this update. Animals, if you're friends with the [[Suspicious Cow]] in [[Eltibule]], [[Norbert]] in [[Sun Vale]], or [[Red]] in [[Kur Mountains]] you should pay them a visit. Plus, the Giant Bat skill has gotten a major makeover.
+
+===General Changes===
+::- The Serbule work order sign has been moved from the docks to Serbule Keep itself, near the player work-order sign. (You still turn in completed work orders on the docks)
+::- The "Dye Placeholder" in [[Eltibule]] has sailed off to the east. (His clone, also named "Dye Placeholder", continues to live in [[Serbule]].)
+::- For new players, [[Lawara]]'s chest has a few partially-random items in it when first opened. (Bug fix.) (This is not retroactive; if you've already opened the chest, its contents are unchanged!)
+::- When you right-click an inventory item and choose "More Info", there is new information shown. The "Find" tab now lists vendors who sell the item in their "Buy New" tab, and barterers who trade for the item in their "Barter" area. This only lists permanent ways to obtain the item, so it can't search the "Used" tab of vendors, nor does it search player-hired vendors, etc. But if you've ever wondered "which vendor in town sells nails?" you can now check under More Info.
+::- [[Jesina]] the Fairy no longer sells strawberries. (Once strawberries could only be found in loot, so [[Jesina]] was an expensive alternative... but now that strawberry bushes exist, this is no longer needed.)
+::- Missing level 74 Deer ability "Cuteness Overload 5" can now be learned from Noita the Green
+::- Missing level 75 Necromancy ability "Raise Skeleton Mage 6" can now be learned from [[Bendith the Banished]]
+::- AI tweak: pets summoned during combat now figure out what's going on slightly faster. (Previously they would sometimes need a few seconds before joining a fight already in progress.)
+::- Fixed erroneous message "Error: you can only use that ability on yourself!" that was sometimes shown when a Combat Refresh triggered
+::- Some modest changes to spawn locations in Kur (more monsters in the northeast corner, and more yetis east of the Yeti cave entrance)
+::- Giant Beetles now have a small chance to drop food Beetles as bonus loot. (There are other ways to obtain beetles during Halloween, but this is a permanent way to obtain a small number of them year-round)
+::- New [[Rabbit]] treasure effect (Hands and Main-Hand Weapons): "While Rabbit skill is active, any Kick ability boosts Melee Evasion +6.5% for 10 seconds"
+::- Recipe "Amazing First Aid Kit (Combo Method)" no longer has a prerequisite to know "Amazing First Aid Kit", as they are for different skills
+::- Recipe "Astounding First Aid Kit (Combo Method)" now has a prerequisite of " Amazing First Aid Kit (Combo Method)", not "Amazing First Aid Kit", as they are for different skills
+::- Sour Cream now stacks to 5
+::- Bottles of Sugar Water now stack to 5
+::- The "Icy Feet" debuff used by Battle Chemistry's Toxin Bomb was intended to reduce movement speed by 75% (as indicated in effect description), but actually reduced it by 100%. "Icy Feet" is also used by various monsters and traps, so the fix applies there as well
+
+
+===[[Giant Bat]] Changes===
+This skill had a lot of abilities with different damage types (piercing, slashing, darkness, nature, electricity), and treasure that involved yet more damage types (mostly trauma). This wide spread of damage types meant Giant Bat could take advantage of a lot of different monster weaknesses, but made it difficult to "stack" damage-type buffs. We think the "sweet spot" is a little smaller, so we've consolidated some of these, and also added a bit more treasure that can change damage types. 
+
+===Ability category changes:===
+We've also had to reorganize the skill's ability tags (e.g. Core Attack, Nice Attack, etc.) This has several effects -::- most obviously, things that affect a certain category will benefit different abilities. But these changes also change the "treasure budget" for these abilities. For example, Smouldering Gaze switched from a Nice Attack to an Epic Attack, allowing the loot to be more powerful. (This also has down sides, notably Power cost increases.)
+
+::- Tear: Core Attack. (Was nothing special)
+::- Screech: Was a Core Attack; now a Nice Attack.
+::- Virulent Bite: Wasn't in a category before; now a Signature Debuff
+::- Smouldering Gaze: Was a Nice attack; now an Epic Attack. In addition, this ability has been renamed. (See below.)
+
+===Ability Changes===
+::- Drink Blood now deals a moderate amount of direct-health damage, in addition to draining health. (The bite is Piercing damage, and the health-drain effect is still a Darkness attack, meaning that undead are immune to that part.)
+::- Drink Blood 8 now steals 84 health instead of 68 health. (Bug fix.)
+::- Screech became a Nice Attack, which involved stat-changes: reset time is now 10s instead of 9s; base damage is increased (e.g. 289 damage is now 401 damage); Power cost is increased (e.g. 47 instead of 33); all treasure rebalanced.
+::- Smouldering Gaze became an Epic Attack named Deathscream, which involved stat-changes: base damage is increased (827 instead of 588); Power cost is increased (87 instead of 68); all treasure rebalanced. Damage type is now Nature instead of Electricity.
+
+===Treasure Changes===
+::- "Drink Blood deals 96 damage over 12 seconds, and 50% of the damage becomes health for you" => all of the damage becomes health for you. This is now Darkness damage (not Trauma).
+::- "Drink Blood restores 19 Power and 19 Armor" => "Drink Blood costs -27 Power"
+::- "Screech Deals 127 armor damage" => "Screech Damage +122"
+::- "Screech Damage +47%" => +41%
+::- "Screech has a 60% chance to deal +108% damage" => 60% damage to deal +90% damage
+::- "Tear deals +70 damage and restores 20 Armor to you" => "Tear and Virulent Boost deal +85 damage"
+::- "Rip damage +27" => "Rip deals +34 damage and restores 11 Power"
+::- "Rip has a 50% chance to deal +68 damage" => " Rip has a 50% chance to restore 
+::- "Rip has a 50% chance to restore 20 Power" => "Rip restores 20 Armor"
+::- "Bat Stability restores 100 Armor and 16 Power" => "Bat Stability restores 145 Armor"
+::- "Confusing Double Reset Time -11 seconds" -> -13 seconds, and is available on a second slot (necklace).
+::- "Confusing Double restores 71 Power after a 10-second delay" => 112 Power after a 10-second delay
+::- "Confusing Double restores 90 Health" => 123 Health
+::- "Smouldering Gaze damage type is changed to Nature. 7 seconds after use, it deals 384 additional damage" => "Deathscream deals an additional 594 Trauma damage over 12 seconds"
+::- "Sonic Burst has a 60% chance to deal +60% damage to all targets" => "60% chance to deal +100% damage"
+::- "Combo: Rip+Tear+Any Melee+Rip: final step hits all targets within 5 meters and deals +85 damage" => Combo is now Rip+Any Melee+Any Giant Bat Attack+Tear. Also, this effect was previously found on both Feet and Necklace gear. It is now only found on Feet gear; necklaces with this effect have become Legacy.
+::- "Combo: Screech+Any Melee+Any Melee+Virulent Bite: final step stuns the target and deals +100 damage" => Combo is now Screech+Any Giant Bat Attack+Any Melee+Virulent Bite.
+
+===New Treasure===
+::- Legs, Ring: "Your Confusing Double deals +55% damage with each attack"
+::- Main-Hand, Necklace: "Confusing Double summons an additional figment. Each figment deals +61 damage with each attack"
+::- Hands: "Rip and Tear deal +33 damage and hasten the current reuse timer of Drink Blood by 1 second"
+::- Chest: "Deathscream deals +45% damage and Power cost is -32, but the ability's range is reduced to 12m"
+::- Main-Hand, Off-Hand: "Screech, Sonic Burst, and Deathscream deal 256 Nature damage over 8 seconds"
+::- Off-Hand, Ring: "Sonic Burst deals 210 Trauma damage over 12 seconds"
+::- Main-Hand, Off-Hand: "Screech deals 240 Trauma damage over 12 seconds"
+::- Chest, Necklace: "Indirect Trauma Damage +57% when Giant Bat skill active"
+::- Off-Hand: "If Screech, Sonic Burst, or Deathscream deal Trauma damage, that damage is boosted +75% per tick"
+
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

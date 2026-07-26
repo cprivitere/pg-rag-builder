@@ -1,0 +1,30 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Stringed Instruments/Abilities|Stringed Instruments Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v400 on Tue Dec 19 2023 02:50:21 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Lute 1|2}} || 1 || Lute 1 || Play a lute. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Lute 2|2}} || 2 || Lute 2 || Play a lute. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Lute 3|2}} || 4 || Lute 3 || Play a lute. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Lute 4|2}} || 6 || Lute 4 || Play a lute. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Lute 5|2}} || 8 || Lute 5 || Play a lute. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Lute 6|2}} || 10 || Lute 6 || Play a lute. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Harp 1|2}} || 11 || Harp 1 || Play a harp. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Harp 2|2}} || 12 || Harp 2 || Play a harp. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Harp 3|2}} || 14 || Harp 3 || Play a harp. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Harp 4|2}} || 16 || Harp 4 || Play a harp. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Harp 5|2}} || 18 || Harp 5 || Play a harp. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Harp 6|2}} || 20 || Harp 6 || Play a harp. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|}

@@ -1,0 +1,91 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ivyn
+|image            = [[File:Ivyn.jpg|300px]]
+|caption          = A farmer.
+|zone             = Serbule
+|location         = Farm west of [[Serbule Keep]].
+|anatomy = Elven
+|species = Elf
+|beastspeak       = No
+|storage = Yes
+}}
+{{Quote|
+Yeah, I'm a farmer. But I'm also a "farmer" if you know what I mean. And I think you do. No? Dammit I'm so bad at innuendo.
+}}
+[[Ivyn]] is an Elven farmer. He lives with [[Jara]].
+
+== Location ==
+; [[Serbule]]
+: On a farm west of [[Serbule Keep]] and east of [[Carpal Tunnels]].
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Ivyn]] grants his {{favor|Close Friends}} access to a storage chest.
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Explore nearby ruined tombs for ancient treasures (3 hours)|
+{{Quote|So... I owe you an apology for my reaction to that deer made of dark energy, or whatever the hell that was. I know my shrieking didn't make the fight any easier. But we got out alive! That's what counts, right?}}
+:27 favor with Ivyn
+:100 Unarmed XP
+:1x {{Item|Anchor Rune}}
+}}
+{{Spoiler|Talk about the Sampo legend over dinner (2 hours) {{Favor|Friends}}|
+{{Quote|Right! Salt, gold, or flour. It can make any of those, on demand! Kind of redundant, I guess, since gold can buy salt or flour. But maybe the ratios are different or something? Anyway, take some of this home with you, I can't eat it all!}}
+:20 Favor with Ivyn
+:25 Lore XP
+:1x {{Item|Chicken and Broccoli}}
+}}
+{{Spoiler|{{repeatable}} Help till the fields (8 hours)|
+{{Quote|It's pretty rare to find someone around town who's willing to work that hard! I'm impressed! Take these fresh vegetables as payment.}}
+:65 favor with Ivyn
+:200 Gardening XP
+:10x {{Item|Broccoli}}
+}}
+{{Spoiler|{{repeatable}} Collect manure from the cow fields (4 hours) {{Favor|Friends}}|
+{{Quote|Quite a haul we got! Here's your share, thanks for the help!}}
+:37.8 Favor with Ivyn
+:50 Gardening XP
+:3x {{Item|Bottle of Fertilizer}}
+}}
+{{Spoiler|Have a beer and discuss how stupid the council is (60 minutes)|
+{{Quote|And that's not even the worst part! The worst part is that we no longer have any representation! It's practically a dictatorship! Ah, but listen to me.  If those wizards were really dictators, I suppose I'd have been smote down for my complaints by now, eh?}}
+:12 favor with Ivyn
+:25 Lore XP
+}}
+
+===Creature Kills ===
+[[Category:Favor/Creature Kills]]
+Killing the following creatures near Ivyn grants +1.0 favor:
+:[[Pig (mob)]] 
+:[[Augmented Mantis Slave]]
+:[[Angry Bear]]
+
+== Quests ==
+<dpl>
+category = Quests/Ivyn
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Services == 
+==== [[Storage]] ====
+: Ivyn will give you the code to his chest in the nearby house after you reach {{favor|Close Friends}}, granting access to 32 slots of storage. Storing items in the chest is not safe until Ivyn personally allows you to store items in it.
+{{Spoiler|Are you sure you want to know? Ivyn might get mad.|The code is 39150 again it is NOT safe to store stuff in here until Ivyn gives you the code, you've been warned!}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Cabbage}} x10
+|RiShin Family = {{Item|Pumpkin}} x10
+}}
+== Notes ==
+* Ivyns storage is always 32 slots no matter what favor you have with him
+
+
+== Conversations ==
+
+[[Category:NPCs]][[Category:StorageSpecial]]

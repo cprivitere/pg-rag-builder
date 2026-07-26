@@ -1,0 +1,114 @@
+__NOTOC__
+{{Skill infobox
+|title            = Priest
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Officially the 'Priest of Arisetsu' skill, this represents your attunement with Arisetsu, the goddess of Warmth and Hope. When fighting alongside allies, you can bring hope to even the most impossible battles... but you cannot do it alone.
+|skilltype        = Combat Skill
+|maxlevel         = 100 
+|req              = [[Compassion]] 25 or [[Psychology]] 25<br>{{favor|Comfortable}} status with [[Gloria Stonecurl]]<br>5,000 councils
+|skilltrainers    = [[Gloria Stonecurl]], [[Aralorn]], [[Raina]]
+|gem = {{Item|Lapis Lazuli}}
+}}
+{{Quote|
+Officially the 'Priest of Arisetsu' skill, this represents your attunement with Arisetsu, the goddess of Warmth and Hope. When fighting alongside allies, you can bring hope to even the most impossible battles... but you cannot do it alone. You must be wearing a holy symbol -- and NOT wearing a Necromancy Gem -- to use Priest abilities. Holy symbols are most often found as jewelry, but can also be found on armor and weapons.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Priest]] is a combat skill. Despite [[Gloria Stonecurl]] saying by agreeing to be a priest, you will be expected to help save the world from a cataclysm, Priest does not have any equivalent mechanics to [[Druid|Druids]] or Druidic Emergencies. 
+=== In-Game Description ===
+Officially the 'Priest of Arisetsu' skill, this represents your attunement with Arisetsu, the goddess of Warmth and Hope. When fighting alongside allies, you can bring hope to even the most impossible battles... but you cannot do it alone. You must be wearing a holy symbol -- and NOT wearing a Necromancy Gem -- to use Priest abilities. Holy symbols are most often found as jewelry, but can also be found on armor and weapons.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Gloria Stonecurl]] in [[Kur Mountains]] teaches [[Priest]]. You must have either 25 Levels of [[Compassion]] or [[Psychology]] to learn the skill, {{favor|Comfortable}} status with Gloria, and pay a fee of 5,000 councils.
+* [[Aralorn]] in [[Gazluk]] unlocks levels 51-60, 61-70.
+* [[Raina]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Reinath]] deep beneath [[Povus]].
+* [[Steven Poplar]] in [[Statehelm]] unlocks levels 81-90, 91-100, and [[Prodigy Potential]].
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* N/A
+===== Secondary Skills: =====
+* N/A
+===== Related Skills: =====
+* [[Fire Magic]] - [[Arisetsu]] is the goddess of Warmth, and Fire Magic can make things really warm!
+* [[Cooking]] - [[Arisetsu]] is the goddess of Warmth, and Cooking brings warmth to all!
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Priest]] can be obtained from the following skills and levels:
+:; [[Fire Magic]] 
+:: Level 48
+:; [[First Aid]] 
+:: Level 45
+:; [[Pathology]]
+:: Level 55
+:; [[Pig]] 
+:: Level 55
+:; [[Psychology]]
+:: Level 27
+:; [[Meditation]]
+:: Level 50
+:; [[Compassion]]
+:: Level 35
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+
+===Equipment===
+====Items Which Enable Priest====
+; Main Hand
+<dpl>
+  category   = Items/HolySymbol
+  category = Items/MainHand
+  reset      = categories
+  columns = 5
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+; Off Hand
+<dpl>
+  category   = Items/HolySymbol
+  category = Items/OffHand
+  reset      = categories
+  columns = 5
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+; Armor & Others
+<dpl>
+  category   = Items/HolySymbol
+ notcategory = Items/MainHand
+ notcategory = Items/OffHand
+  reset      = categories
+  columns = 5
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Priest Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Priest|
+{{:Xptables/TypicalCombatSkill}}
+}}
+
+== Trivia ==
+Priest was added in May 2018!
+
+== Gallery==
+<!--
+''' Include a small gallery of players using the skill, or abilities of the skill. Try to keep it under six images. This example Gallery is from the Serbule Page.'''
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+File:Serbule Gallery (abandoned cart).jpg|An abandoned cart.
+File:Serbule Gallery 2.jpg|A very dangerous place...
+</gallery>
+-->
+[[Category:Skills]]

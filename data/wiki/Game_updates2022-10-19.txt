@@ -1,0 +1,28 @@
+==Update Notes: October 19, 2022==
+Welcome to the yearly Zhia Lian event - aka Halloween! You'll receive two quests from Zhia Lian when you log in after the update. Completing these quests will unlock more and more -- there's about a hundred quests in all, including three brand new group quests for high-level players. This update also contains some small bug fixes and tweaks.
+
+===Experimental Selection UI:===
+:- If your selected creature dies, it now updates properly (loot button will appear & name color will change)
+:- Fixed bug that caused speech bubbles to stick around forever
+:- Fixed bug that caused floaty numbers to queue up while off-screen and then display all at once
+:- Fixed bug that would crash client if you logged out and then back in while something is selected
+:- Floating numbers now respect the size settings (Size of Combat Numbers)
+:- Darkened outlines around Experimental UI names
+:- Mounted players can now be selected, and their nameplates are positioned better
+
+===Other:===
+:- [[Legs]] in [[Sun Vale]] now trains a [[Riding]] ability for spiders when in their travel mode.
+:- Fixed all tier 1 Bat ability cooldowns.
+:- Fixed bug that causes vendors with low gold amounts to sometimes have large gaps in their Sell tab.
+:- Added POI markers near the portals in [[Kur Mountains]] so they are easier to find.
+:- We now show a subtle cooldown overlay on all abilities when the global cooldown is in effect.
+:- Non-humanoids display better on the character selection screen and in the Persona window.
+:- Improved nameplate placement, highlighting, and selection colliders for all monsters.
+:- Fixed bug that prevented camera panning if you clicked on certain GUI elements, such as floaties or speech bubbles.
+:- Sped up Hare "ear-scratching" animation, which is used mostly for support abilities.
+:- All animals will now stick-to-ground more smoothly.
+:- Fixed issues with cow appearance under certain lighting.
+:- Fixed error resulting from rapidly changing appearances.
+:- Fixed bug that causes "Loading 1 additional assets" to stay on the screen forever.
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

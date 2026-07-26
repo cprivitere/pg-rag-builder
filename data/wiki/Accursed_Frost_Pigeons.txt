@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Ensign Cricket aboard the Wintertide said, "While you're invading, would you mind exterminating those pesky birds on the main deck? Lieutenant Frostglimmer insists they're trained alarm birds that will prevent intruders from sneaking around. But they make so much noise that most of us just ignore them..."
+
+This Quest can be repeated after 30 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ensign Cricket]]''' in '''[[The Wintertide]]'''. The quest is available at {{Favor|Comfortable}} favor. 
+
+===Preface===
+While you're invading, would you mind exterminating those pesky birds on the main deck? Lieutenant Frostglimmer insists they're trained alarm birds that will prevent intruders from sneaking around. But they make so much noise that most of us just ignore them...
+
+===Requirements===
+* Kill Security Cocks x5
+* Talk to Ensign Cricket
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|The cocks are gone? Maybe we can get some peace and quiet now... Or maybe the hippogriffs will just get louder without competition. We'll see!
+
+Hey, want to know something new? Stand still. Did it take? You didn't die, so I think it must have worked! Haha! You've stolen our technology now! Some day you may even have use for that knowledge.}}
+* 50 {{Favor|favor}}
+* Recipe: Carbon-form Scrutinizer Array
+* {{Item|Royal Jelly}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm? Quests]][[Category:Quests/Ensign Cricket]]

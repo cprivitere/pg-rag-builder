@@ -1,0 +1,42 @@
+__NOTOC__
+{{NPC infobox
+|title            = Leopold Smith
+|image            = [[File:Leopold Smith (npc).png|300px]]
+|caption          = Not Board
+|zone             = Statehelm
+|town = Statehelm
+|location         = Fountain/Wandering
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+}}
+{{Quote|source=[[Leopold Smith]]|I'm a smith, like my father before me. I work solely for the Council.}}
+[[Leopold Smith]] is a human living in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Leopold Smith]] may be found wandering the city of Statehelm during the day. They are usually in the eastern market square. 
+== Favor ==
+=== Small Talk ===
+[[Leopold Smith]] does not use the favor system.
+== Quests ==
+
+Helping Townsfolk: Misplaced Hammer
+
+<!--
+[[Leopold Smith]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Leopold Smith
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Leopold Smith]]|
+I'm technically not a swordsmith. I mostly make horseshoes. But every so often I get to create a replacement sword. That's what I look forward to. I still have a lot to learn, which is great.}}
+{{Quote|source=[[Leopold Smith]]|My work for the council sometimes has me heading overland to [[Vidaria]]. Used to be a nice ride in the country. Now it's like riding into another world. Demons taller 'n trees. You wouldn't believe it.}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

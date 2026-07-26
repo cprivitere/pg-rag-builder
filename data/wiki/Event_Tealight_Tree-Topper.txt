@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+[[Rick Snapley]] in [[New Prestonbule]] said, "A Ri-Shin tree needs a topper, something that glows. But I don't wanna use one of those glowing yellow crystals... I know Sona says she can make 'em safe, but it's too dangerous.
+
+Let's just... I dunno, let's just stick some candles on top, like my family used to do. But we'll need to light 'em every night... got any spare tealights?"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Rick Snapley]]''' in '''[[New Prestonbule Cave]]'''. 
+
+===Preface===
+A Ri-Shin tree needs a topper, something that glows. But I don't wanna use one of those glowing yellow crystals... I know Sona says she can make 'em safe, but it's too dangerous.
+
+Let's just... I dunno, let's just stick some candles on top, like my family used to do. But we'll need to light 'em every night... got any spare tealights?
+
+===Requirements===
+* Obtain {{Item|Tealight}} x3
+* Talk to [[Rick Snapley]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thanks! These aren't half bad.
+
+Hmmm... the candles are too heavy, they're bending the branches down... do you think it'll catch the tree on fire? Nah, it's fine. I'm just overthinking this!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Gazluk Caves Quests]][[Category:Quests/Rick Snapley]][[Category:Quests/Ri-Shin Quests]]

@@ -1,0 +1,58 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gurki
+|image            = [[File:Gurki (npc).png|300px]]
+|caption          = A scowl dominates her face, overshadowing even her fancy clothes.
+|zone             = Kur Mountains
+|town             = Northwestern Outpost
+|location         = Building next to Ukorga's Inn.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = No
+|skilltrainer     = [[Tailoring]], [[Dye Making]]
+|storage = Yes
+}}
+[[Gurki]] is a female Rakshasa who is appears to be hiding from [[Shadow Keepers]] in the [[Northwestern Outpost]] of [[Kur Mountains]], which she regards as a "worthless hell hole". One of her hobbies is crafting items out of silver.
+
+==Location==
+; [[Kur Mountains]]
+: [[Northwestern Outpost]] building with beds and barrels.
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Gurki
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+{{:Training:Gurki}}
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Gurki
+|favorrestriction =Comfortable
+|itemrestriction =Anything
+|neutral =0
+|comfortable =10
+|friends =15
+|closefriends =20
+|bestfriends =25
+|likefamily =30
+|soulmates =35
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Silver-Threaded Shirt}} (Lv 45)
+|RiShin Family ={{Item|Silver-Threaded Shirt}} (Lv 45), One Amulet (Lv 45): {{Item|Amulet of Crushing Mitigation 5}}, {{Item|Amulet of Slashing Mitigation 5}}, {{Item|Amulet of Max Health +25}}
+}}
+== Conversations ==
+[[Category:NPCs]]

@@ -1,0 +1,62 @@
+__NOTOC__
+{{NPC infobox
+|title            = Wyn Dovaran
+|image            = [[File:Wyn Dovaran (npc).png|400px]]
+|caption          = The apparition seems not to see you
+|zone             = Statehelm
+|town = Statehelm
+|location         = Council Grounds 
+|anatomy = Incorporeal Creature
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|source=[[Wyn Dovaran]]|
+The path between realms is treacherous, yet there are ways to leave... and to return with wonders. I am the Council's foremost expert on inter-realm movement.}}
+[[Wyn Dovaran]] is a respected wizard currently traveling in another realm. They have projected themselves back to [[Statehelm]].
+== Location ==
+; [[Statehelm]]
+: [[Wyn Dovaran]] is found on the steps to the Council Grounds in the west part of town.
+== Favor ==
+[[Wyn Dovaran]] will not share his preferences with those of '''{{favor|Neutral}}''' favor. 
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Wyn Dovaran]] rewards his friends with ???
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Wyn Dovaran]]|
+You perceive me? Intriguing. Who gave you this gift? The gift of sight beyond sight?
+
+'''I'm not sure what you're talking about. I lost some memories recently...'''
+
+No matter. What is it you seek from me?
+
+'''Are you a ghost?'''
+
+:Hah! No, I have simply projected my appearance into your realm from a distant one. I keep this projetion active because it is easier to maintain it than to recreate it. But I rarely use it these days. I am available for consultation by the other Councilmembers, but my present concerns lie far beyond Statehelm. Or indeed Alharth.
+
+'''I see. Well, I won't keep you. Goodbye.'''
+
+'''I was just exploring. Goodbye.'''
+}}
+{{Quote|source=[[Wyn Dovaran]]|
+The realm I inhabit is connected to your realm via the [[Fae Realm]]. That's how it often is: the Fae Realm acts as a sort of way-station connecting other realms.
+
+So to communicate with you, my projection must inhabit three separate realms at once! Quite a feat, if I do say.}}
+{{Quote|source=[[Wyn Dovaran]]|
+You see only one realm, but dozens of others whisper beyond it -- perhaps hundreds -- perhaps countless other realms! And some of these realms contain countless worlds within themselves!
+
+I'm on a quest to find new ways to travel between these places. And I've had some modest success already.}}
+{{Quote|source=[[Wyn Dovaran]]|
+The cross-realm projection you're speaking to now is an extremely difficult spell, with an incredible cost. I would like to teach other Councilmembers how to perform this feat, but they're too engrossed in their own unique studies.
+
+It's a potent spell but there are side-effects, unfortunately: the person you see is a projection of how I imagine myself, not now I truly am. And I see you as you see yourself! That is why I immediately trusted you a bit.}}
+
+[[Category:NPCs]]

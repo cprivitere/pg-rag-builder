@@ -1,0 +1,16 @@
+==Update Notes: March 27, 2025==
+This is a minor bug-fix update.
+
+:- Fix crash from clicking the Summon button in the recipe window
+:- Fix text issues with popup UIs
+:- Fix issue with chat button going onto 2 lines
+:- Fix for manticores getting stuck in their crystals
+:- Fix for Winter Turrets getting stuck inside rocks
+:- Fix for spiders in Myconian Cave never coming down from their vantage points
+:- Improve pathing in Rahu Sewers (though it's still not 100% up to par yet)
+:- Reduce texture-memory usage in "Enter the Light" area; previously low-end PCs could hit out-of-memory crashes when entering this area
+:- Fix bug where charmed enemies' pet-mode wasn't displayed correctly (should be assisting but was displayed as passive follow)
+:- Fix broken unarmed treasure effect "Slashing Strike deals +64 damage and worsens the target's Slashing Vulnerability +16% for 60 seconds."
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

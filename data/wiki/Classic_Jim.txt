@@ -1,0 +1,56 @@
+__NOTOC__
+{{NPC infobox
+|title            = Classic Jim
+|image            = [[File:Classic Jim (npc).png|300px]] 
+|caption          = Food Vendor
+|zone             = Statehelm
+|town = Statehelm
+|location         = Marketplace
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|vendor = Yes
+|skilltrainer     = 
+}}
+{{Quote|source=[[Classic Jim]]|
+I have food for purchase if you need it. But a few coins for culinary delights!}}
+[[Classic Jim]] is a merchant working in the city of [[Statehelm]].
+== Location ==
+; [[Statehelm]]
+: Found along the central horizontal road of the marketplace.
+== Shopkeeper ==
+{{Quote|source=[[Classic Jim]]|
+As a human, I have a very discerning palette. You can trust that all my choices are delicious.}}<!-- Yes, it should be palate. But this is what he says! -->
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+Classic Jim rewards his friends with __TBD__
+== Quests ==
+[[Classic Jim]] does not offer quests to individuals with '''{{favor|Neutral}} favor'''.
+<!--
+<dpl>
+category = Quests/Classic Jim
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+
+== Services ==
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Classic Jim]]|
+Yes, I've heard the rumors that Pumza is afraid of me. I can't imagine why! I can vow that I've never injured Pumza with any weaponry. In fact, I... rather fancy her. It's a shame, really.}}
+{{Quote|source=[[Classic Jim]]|
+Have you met Pumza, the rakshasa? Her palette is unrefined, like all rakshasa, and so she must sell weapons instead of food. But her enthusiasm for food is... quite intoxicating, really.}}
+{{Quote|source=[[Classic Jim]]|
+Oh, [[Grim Jim]]? He's... he's my cousin. He's had a tough time and his mind isn't completely there anymore. But just humor him! Everything will be fine.}}
+
+[[Category:NPCs]]

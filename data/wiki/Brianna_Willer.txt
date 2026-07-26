@@ -1,0 +1,157 @@
+__NOTOC__
+{{NPC infobox
+|title            = Brianna Willer
+|image            = [[File:Brianna_Willer.png|350px]]
+|caption          = She looked annoyed
+|zone             = Serbule Hills
+|location         = Her farm
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Brewing]]
+|vendor           = Yes
+|barter = Yes
+}}
+{{Quote|source= [[Brianna Willer]]| Well, I mean, that'd be stabbin' my own foot with the hoe, right? I'm the only brewer for miles, and even so, I only sell a few barrels a month. Competition would put me out of business!
+}}
+[[Brianna Willer]] is a [[Gardening|farmer]] and [[Brewing|brewer]] living in the region of [[Serbule Hills]]. She considers beer making her passion, and produces a few kegs every month for the local inns and bars. Brianna has never been married, but claims to have had a 'special suitor' when she was younger.
+
+[[Brianna Willer|Brianna]] is generally wary of sharing information with strangers. She'll be at ease after an introduction from one of her fellow gardeners. [[Therese]] or [[Julius Patton]] will provide that introduction for their {{Favor|Close Friends}}.
+{{Quote|source=[[Therese]]| 
+: Yes, Brianna Willer! She's a pretty human lady in Serbule Hills. I met her when I was searching the nearby lands for fellow gardeners. Durstin from the Tapestry Inn introduced us.
+'''So Brianna is a gardener?'''
+: Yes! In fact, she's an expert on, um, 'alternative gardening.' And I think she might be flattered if you showed up and asked her for gardening advice. You're such an apt student that I'm running out of things to teach you!
+'''How do I find Brianna?'''
+: Her farm's in Serbule Hills, just travel south from here and you should see it eventually.
+: Tell her you're my friend, and she'll at least be willing to talk to you. Bring dahlias, she likes those!
+: Oh, and another bit of advice: there's another gardener in Eltibule named Gretchen. Stay away from her; she's a horrible, horrible person!
+}}
+[[Brianna Willer|Brianna]] was introduced to [[Therese]] by [[Durstin Tallow]]. Brianna treats Therese as a friend, but is convinced that any gestures Therese makes towards her have ulterior purposes.
+{{Quote|source= [[Brianna Willer]]|
+Hahaha! 'Alternative Farming?! Therese is adorable. Which is the only reason I haven't slapped her. She just doesn't take no for an answer! I'd be more pissed off if she wasn't an elf. But you've gotta make exceptions for elves, 'cuz of their nature.
+
+I know why she really sent you: she's buttering me up. She's been trying to get in my pants for a month now. And you can tell her to forget it! I don't swing that way, and Therese knows it!
+}}
+== Location ==
+; [[Serbule Hills]] 
+: [[Brianna Willer]] is always near her farmhouse in [[Serbule Hills]].
+== Shopkeeper ==
+[[Brianna Willer]] sells brewing supplies and some gardening supplies
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Comfortable}}.|
+: [[Brewing]] is available for Training.
+}}
+{{Spoiler|Reward at {{Favor|Friends}}.|
+: {{Item|Barley Seeds}}x10
+}}
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Weed the entire garden while Brianna watches and complains ''' (3 hours) {{Favor|Neutral}}|
+{{Quote|You missed another one! There! No, smaller. See, under your thumb. Yes, it's small now, but in a few weeks it'd become a full-sized weed. You should take some pride in your work! Okay, fine! Thanks for your help. I'll do the rest later.}}
+:: 25 favor with Brianna Willer
+:: {{Item|Strange Dirt}} x1
+}}
+{{Spoiler|Help Brianna prepare barley for beer ''' (4 hours) {{Favor|Comfortable}} - Complete '''Earlier Hang Out'''|
+{{Quote|How's the shucking coming along? Well, okay, that's enough for now. Hm? That barley over there? No, no, that's eatin' barley! I use the low-protein barley for brewing, and the high-protein barley for bread. I'm all out of bread or I'd let you taste some. But here: let me write down my recipe for you.}}
+:: 40 Favor
+:: {{Recipe|Barley Bread}}
+}}
+
+== Quests ==
+[[Brianna Willer]] offers a few quests around the [[Serbule Hills]] region. 
+<dpl>
+category = Quests/Brianna Willer
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+[[Brianna Willer]] will train [[Brewing]] skills to anyone who has both been introduced by [[Therese]], and reached {{Favor|Comfortable}} Favor with Brianna.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Brewing]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Marzen
+ |skilllevel=?
+ |cost=?
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Beet Vodka
+ |skilllevel=?
+ |cost=?
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Goblin Ale Keg
+ |skilllevel=?
+ |cost=2900
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Orcish Bock (One Glass)
+ |skilllevel=?
+ |cost=3132
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Orcish Bock Keg
+ |skilllevel=?
+ |cost=4566
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Brown Ale (One Glass)
+ |skilllevel=50
+ |cost=4800
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Brown Ale Keg
+ |skilllevel=53
+ |cost=6566
+ |favor=?
+}}
+|}
+Table missing many recipes.
+
+== Services ==
+== Bartering ==
+At {{Favor|Friends}}, Brianna will offer to barter with you:
+{| class="wikitable"
+!Give
+!Receive 
+!Favor Required 
+|-
+| {{Item|Barley}} x6 || {{Item|Hops}} x1 || Friends
+|-
+| {{Item|Barrel}} x1 || {{Item|Hops}} x5 || Friends
+|-
+|rowspan="4"| {{Item|Hops}} x1 || {{Item|Barley Seeds}} x5 || Friends
+|-
+| {{Item|Large Strawberry}} x1 || Friends
+|-
+| {{Item|Orange}} x1 || Close Friends
+|-
+| {{Item|Banana}} x1 || Best Friends
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Barley Seeds}} x10
+|RiShin Family = {{Item|Amulet of Competent Unarmed Fighting}} (Lv 20), {{Item|Barley Seeds}} x10
+}}
+== Conversations ==
+[[Category:NPCs]] [[Category:Favor/Small Talk]][[Category:Favor/Rewards]][[Category:Favor/Hang Outs]]

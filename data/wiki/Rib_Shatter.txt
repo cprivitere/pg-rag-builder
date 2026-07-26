@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Rib Shatter
+| description = Crush an enemy's bones.
+| level = 5
+| power cost = 19
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RibShatter}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|CoreAttack}}
+| damage = 24 Crushing
+| special = Restores 0 Health. For 15 seconds, target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Rib Shatter 2
+| description = Crush an enemy's bones.
+| level = 25
+| power cost = 32
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RibShatter}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|CoreAttack}}
+| damage = 80 Crushing
+| special = Restores 0 Health. For 15 seconds, target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Rib Shatter 3
+| description = Crush an enemy's bones.
+| level = 39
+| power cost = 41
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RibShatter}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|CoreAttack}}
+| damage = 143 Crushing
+| special = Restores 0 Health. For 15 seconds, target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Rib Shatter 4
+| description = Crush an enemy's bones.
+| level = 56
+| power cost = 50
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RibShatter}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|CoreAttack}}
+| damage = 282 Crushing
+| special = Restores 0 Health. For 15 seconds, target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Rib Shatter 5
+| description = Crush an enemy's bones.
+| level = 66
+| power cost = 56
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RibShatter}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|CoreAttack}}
+| damage = 367 Crushing
+| special = Restores 0 Health. For 15 seconds, target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Rib Shatter 6
+| description = Crush an enemy's bones.
+| level = 76
+| power cost = 62
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RibShatter}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|CoreAttack}}
+| damage = 465 Crushing
+| special = Restores 0 Health. For 15 seconds, target is prone to random self-stuns.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

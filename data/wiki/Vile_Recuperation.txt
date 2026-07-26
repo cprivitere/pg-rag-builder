@@ -1,0 +1,40 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Vile Recuperation
+| description = Consume Nightmare Flesh to heal your wounds.
+| level = 0
+| power cost = 0
+| reuse time = 60
+| range = 5 meters
+| skill = Unknown
+| special = You recover 50 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Vile Recuperation 2
+| description = Consume Nightmare Flesh to heal your wounds.
+| level = 0
+| power cost = 0
+| reuse time = 60
+| range = 5 meters
+| skill = Unknown
+| special = You recover 90 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Vile Recuperation 3
+| description = Consume Nightmare Flesh to heal your wounds.
+| level = 0
+| power cost = 0
+| reuse time = 60
+| range = 5 meters
+| skill = Unknown
+| special = You recover 130 Health.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

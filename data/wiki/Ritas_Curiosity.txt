@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Rita in Serbule has asked you to discover the secret of Marna's beautiful long hair. Marna is a shopkeeper in Serbule.
+
+===Prerequisites===
+To start this quest, talk to '''[[Rita]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Marna's old, like sooo old. But her hair is so great! You know what I heard? I heard that back before the forest existed, she met a wanderer and helped him ... plant his forest, if you know what I mean, and as a side-effect she's got everflowing hair. Crazy, right? Can you find out if that's true?}}
+
+===Requirements===
+* Ask Marna about her hair
+* Talk to Rita
+
+{{Spoiler|Response to player|{{Quote|Well hello! What? My hair? Oh that's easy: I use an alchemical potion twice a month. I should make some extra bottles and sell it! You look like you could use a bottle, if you don't mind my saying.}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Rita's Curiosity|
+{{Quote|She said her hair is due to a potion? Like, magic shampoo? I don't believe that for a second. Sigh. Well, you tried, I guess. So thanks, I guess.}}
+
+* 100 {{Favor|favor}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Rita]]

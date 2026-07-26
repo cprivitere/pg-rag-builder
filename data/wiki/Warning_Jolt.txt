@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Warning Jolt
+| description = Fire a mild electrical charge into the suspect. This tends to focus their attention on you instead of any nearby innocents.
+| level = 30
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Warden
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|WarningJolt}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 25 Electricity
+| special = Restores 0 Power. Restores 0 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Warning Jolt 2
+| description = Fire a mild electrical charge into the suspect. This tends to focus their attention on you instead of any nearby innocents.
+| level = 40
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Warden
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|WarningJolt}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 37 Electricity
+| special = Restores 0 Power. Restores 0 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Warning Jolt 3
+| description = Fire a mild electrical charge into the suspect. This tends to focus their attention on you instead of any nearby innocents.
+| level = 50
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Warden
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|WarningJolt}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 58 Electricity
+| special = Restores 0 Power. Restores 0 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Warning Jolt 4
+| description = Fire a mild electrical charge into the suspect. This tends to focus their attention on you instead of any nearby innocents.
+| level = 60
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Warden
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|WarningJolt}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 79 Electricity
+| special = Restores 0 Power. Restores 0 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Warning Jolt 5
+| description = Fire a mild electrical charge into the suspect. This tends to focus their attention on you instead of any nearby innocents.
+| level = 70
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Warden
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|WarningJolt}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 100 Electricity
+| special = Restores 0 Power. Restores 0 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Warning Jolt 6
+| description = Fire a mild electrical charge into the suspect. This tends to focus their attention on you instead of any nearby innocents.
+| level = 80
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Warden
+| keywords = {{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|WarningJolt}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 126 Electricity
+| special = Restores 0 Power. Restores 0 Armor.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

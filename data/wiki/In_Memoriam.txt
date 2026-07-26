@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Leah Bowman in Povus said, "Thank you for killing Brukal for me. I... I want our relationship to be honest, so let me tell you bluntly: that was a little out of line. I wanted him dead, but I didn't mean you should just... and the worst part is that It's made me feel nervous to be around you! But I do thank you. I know you did it out of kindness for a friend.
+
+I've decided to set up a little monument to my parents -- both of them -- outside of town. Could you gather some flowers for me? Poppies were always mom's favorite. Mine too."
+
+===Prerequisites===
+To start this quest, talk to '''[[Leah Bowman]]''' in '''[[Povus]]'''. The quest is available at {{Favor|Close Friends}} favor. You must have previously completed [[Brukal Must Die]] in order to undertake this quest. 
+
+===Preface===
+Thank you for killing Brukal for me. I... I want our relationship to be honest, so let me tell you bluntly: that was a little out of line. I wanted him dead, but I didn't mean you should just... and the worst part is that It's made me feel nervous to be around you! But I do thank you. I know you did it out of kindness for a friend.
+
+I've decided to set up a little monument to my parents -- both of them -- outside of town. Could you gather some flowers for me? Poppies were always mom's favorite. Mine too.
+
+===Requirements===
+* Obtain Poppy Bouquet
+* Talk to Leah Bowman
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you, these are lovely.
+
+I was thinking about what you did, killing someone just to make me feel better. Is that... look, are you in love with me? That's what it seems like. And I'm flattered, but I don't know how I feel about that.
+
+Right now I'm mourning. But I'll think of you when I place these flowers on mother's stone.}}
+* 150 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Leah Bowman]]

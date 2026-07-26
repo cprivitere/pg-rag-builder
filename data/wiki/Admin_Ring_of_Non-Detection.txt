@@ -1,0 +1,55 @@
+__NOTOC__
+{{ITEM infobox
+|name = Admin Ring of Non-Detection
+|description = This ring makes you unnoticeable by monsters, unless they see you in combat.
+|basemods = {{Attribute|DETECTABLE_RANGE_MOD|-100.0}}
+|value = 120
+|extra = {{Spoiler|
+|{{ITEM EXTRA infobox
+ | craftpoints = 100
+ | equipslot = Ring
+ | stack = 1
+ | keywords = <p>{{KW|Equipment}}{{KW|Jewelry}}{{KW|Lint_NotObtainable}}{{KW|Loot}}</p><p>{{KW|Ring}}</p>
+}}}}
+}}
+
+<!-- Add a brief description of the item. This can be anything as long as it is relevant, but mentioning skills might be a good idea. You can just add the in-game description here until something else is written! -->
+== How to Obtain ==
+<!-- Include any general information about obtaining the item here. If there is a single extremely standard method of obtaining an item, include that here. Often no information needs to be added here.
+Example:
+Grow from an [[Onion Seedling]] via [[Gardening]].
+-->
+===Producing with Recipes===
+<!-- v337 -->
+<!-- This section has been added automatically by a bot. Please contact [[User:Alleryn]] (check page history for link to user page with contact info) if you believe this section is in error. -->
+None.
+=== Obtaining through Bartering ===
+<!--
+Example:
+Barter {{Item|Fire Dust}} x1 to [[Gretchen Salas]] for {{Item|Oak Wood}} x4.
+-->
+=== Purchasing ===
+<!-- Add as much information as you have available.  Include incomplete information.
+Example line:
+*[[Sammie Grimspine]] in [[Serbule Hills]] for 75 councils. Requires {{Favor|Close Friends}}.
+-->
+=== Drops ===
+<!-- To add drops, modify the relevant mob page and it will automatically be added to the following table. -->
+<dpl>
+noresultsheader = This item has not been submitted by an editor as loot, or may not exist as loot
+category = Loot/Admin Ring of Non-Detection
+mode = unordered
+columns = 1
+include = {MOB Location}:area
+table = class="wikitable mw-collapsible mw-collapsed sortable", Monster, Location
+</dpl>
+=== Gathering ===
+<!-- Include items obtained from ground spawns such as fruit
+ trees, mushroom patches, ice blocks, serbule crypt urns
+Example line:
+* Randomly from [[Kur]] ice blocks.
+-->
+
+=== Gifting ===
+
+=== Lore ===

@@ -1,0 +1,74 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Hook Shot
+| description = You fire an arrow that drags the target to you. You must have a Beginner's Barbed Arrow (or better) in your inventory.
+| level = 7
+| power cost = 12
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HookShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 19 Piercing
+| special = Target is pulled toward you.
+}}
+|-
+|
+{{Ability infobox
+| name = Hook Shot 2
+| description = You fire an arrow that drags the target to you. You must have a Basic Barbed Arrow (or better) in your inventory.
+| level = 20
+| power cost = 17
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HookShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 32 Piercing
+| special = Target is pulled toward you.
+}}
+|-
+|
+{{Ability infobox
+| name = Hook Shot 3
+| description = You fire an arrow that drags the target to you. You must have an Advanced Barbed Arrow (or better) in your inventory.
+| level = 38
+| power cost = 23
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HookShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 61 Piercing
+| special = Target is pulled toward you.
+}}
+|-
+|
+{{Ability infobox
+| name = Hook Shot 4
+| description = You fire an arrow that drags the target to you. You must have an Expert's Barbed Arrow (or better) in your inventory.
+| level = 55
+| power cost = 29
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HookShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 122 Piercing
+| special = Target is pulled toward you.
+}}
+|-
+|
+{{Ability infobox
+| name = Hook Shot 5
+| description = You fire an arrow that drags the target to you. You must have a Masterwork Barbed Arrow (or better) in your inventory.
+| level = 70
+| power cost = 34
+| reuse time = 10
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HookShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 179 Piercing
+| special = Target is pulled toward you.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,36 @@
+__NOTOC__
+==Summary==
+Oritania in Eltibule told you about a device used by Dalvos to teleport to another place. The pieces of a spare machine are somewhere in the goblin dungeon below Eltibule Keep. If you find all the pieces listed below, Oritania will give you the final piece.
+===Prerequisites===
+To start this quest, talk to '''[[Oritania]]''' in '''[[Eltibule]]'''.  The quest is available at {{Favor|Neutral}} favor. The quest [[Learn Oritania's Secret Info]] must be completed first.
+
+===Preface===
+{{Quote|
+Oritania in Eltibule told you about a device used by Dalvos to teleport to another place. The pieces of a spare machine are somewhere in the goblin dungeon below Eltibule Keep. If you find all the pieces listed below, Oritania will give you the final piece.
+}}
+===Requirements===
+* Obtain {{Item|Portal Attachment Mechanism}}
+* Obtain {{Item|Crystal Adjunct Housing}}
+* Obtain {{Item|Polarity-Bisected N Core}}
+* Return to Oritania
+
+===Rewards===
+{{Spoiler|Rewards for Find Dalvos's Machine Parts|
+{{Quote|source=[[Oritania]]|
+You found all the parts? well then! Hand them here. I have the last missing piece. Now, we just shove these pieces into the crystal container, like so...
+
+Hm. I don't think it works. Well, it was worth a shot. You can keep it as a souvenir.
+;Wait! Why doesn't it work?
+I read some notes Dalvos left behind, and... I thought I could assemble it. But I don't think I can.
+
+It's been at least two hundred years since I last tried anything like this... I thought I remembered more gadgeteering than I do. I'm sorry.
+;But I need to find Dalvos. What am I supposed to do now?
+Well, it's a fae device, so you should talk to a fairy! I met one on [[Sie Antry]]'s farm, west of here. [[Jesina]]. She was a bit distracted -- and a bit weepy. But perhaps she can help.
+;Okay, I'll go find Jesina. Goodbye.
+}}
+
+* {{Item|Nexus Adjunct Matter Aligner}} x1
+}}
+===Notes===
+The machine parts spawn randomly in the Goblin Loot chests in the lower level of the [[Goblin Dungeon]].
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Oritania]][[Category:Quests/Story Quests]]

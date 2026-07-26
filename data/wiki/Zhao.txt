@@ -1,0 +1,335 @@
+__NOTOC__
+{{NPC infobox
+|title            = Zhao
+|image            = [[File:Zhao.png|300px]]
+|caption          = He's studying a flower intently.
+|zone             = Rahu
+|town             = Rahu City (peaceful)
+|location         = Near eastern entrance.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Flower Arrangement]]
+|vendor           = Yes
+}}
+{{Quote|
+I was told that the foliage here is essentially amenable to arrangement, being largely immobile, non-sentient, and corporeal.
+}}
+[[Zhao]] is a student of the art of [[Flower Arrangement]]. Living in the Rakshasan city of [[Rahu]], flower supplies can be low.
+== Location ==
+; [[Rahu]]
+: In the City of Rahu.
+== Shopkeeper ==
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+{{Spoiler|Rewards at {{favor|Comfortable}}|
+*  1 Gardening Display #A
+}}
+{{Spoiler|Rewards at {{favor|Friends}}|
+* 1 Marigold Bouquet
+}}
+{{Spoiler|Rewards at {{favor|Close Friends}}|
+* 3 Elven Lily Seeds
+}}
+{{Spoiler|Rewards at {{favor|Best Friends}}|
+* 1 Friendship Arrangement
+}}
+{{Spoiler|Rewards at {{favor|Like Family}}|
+* 1 Friendship Arrangement
+}}
+== Quests ==
+[[Zhao]] usually offers no quests.
+===== Tree Decoration: Rahu=====
+During the Winter Holiday of Ri-Shin, [[Zhao]] offers quests to decorate a tree in [[Rahu]].
+<dpl>
+category = Quests/Ri-Shin Quests
+category = Quests/Zhao
+mode = unordered
+columns = 1
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Flower Arrangement]]
+! Recipe
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Flower Arrangement{{!}}Learn Flower Arrangement
+ | skilllevel = 0
+ | cost = 30000
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Fisherman's Arrangement #1
+ | skilllevel = 4
+ | cost = 265
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #1
+ | skilllevel = 5
+ | cost = 300
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Fisherman's Display #1
+ | skilllevel = 6
+ | cost = 333
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Forager's Display #1
+ | skilllevel = 6
+ | cost = 333
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Lumberjack's Arrangement #1
+ | skilllevel = 9
+ | cost = 433
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Lumberjack's Display #1
+ | skilllevel = 10
+ | cost = 465
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Fisherman's Arrangement #2
+ | skilllevel = 14
+ | cost = 933
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #2
+ | skilllevel = 15
+ | cost = 965
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Fisherman's Display #2
+ | skilllevel = 16
+ | cost = 1000
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Forager's Display #2
+ | skilllevel = 16
+ | cost = 1000
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Lumberjack's Arrangement #2
+ | skilllevel = 19
+ | cost = 1100
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Lumberjack's Display #2
+ | skilllevel = 20
+ | cost = 1133
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Fisherman's Arrangement #3
+ | skilllevel = 24
+ | cost = 1600
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #3
+ | skilllevel = 25
+ | cost = 1633
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Fisherman's Display #3
+ | skilllevel = 26
+ | cost = 1665
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Forager's Display #3
+ | skilllevel = 26
+ | cost = 1665
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Lumberjack's Arrangement #3
+ | skilllevel = 29
+ | cost = 1765
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Lumberjack's Display #3
+ | skilllevel = 30
+ | cost = 1800
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Fisherman's Arrangement #4
+ | skilllevel = 34
+ | cost = 2933
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #4
+ | skilllevel = 35
+ | cost = 2965
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Fisherman's Display #4
+ | skilllevel = 36
+ | cost = 3000
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Forager's Display #4
+ | skilllevel = 36
+ | cost = 3000
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Lumberjack's Arrangement #4
+ | skilllevel = 39
+ | cost = 3100
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Lumberjack's Display #4
+ | skilllevel = 40
+ | cost = 3133
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Wolfsbane Bouquet
+ | skilllevel = 40
+ | cost = 3133
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Fisherman's Arrangement #5
+ | skilllevel = 44
+ | cost = 4600
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #5
+ | skilllevel = 45
+ | cost = 4633
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Fisherman's Display #5
+ | skilllevel = 46
+ | cost = 4665
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Forager's Display #5
+ | skilllevel = 46
+ | cost = 4665
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Lumberjack's Arrangement #5
+ | skilllevel = 49
+ | cost = 4765
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Lumberjack's Display #5
+ | skilllevel = 50
+ | cost = 4800
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Fisherman's Arrangement #6
+ | skilllevel = 54
+ | cost = 6600
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #6
+ | skilllevel = 55
+ | cost = 6633
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Fisherman's Display #6
+ | skilllevel = 56
+ | cost = 7665
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Forager's Display #6
+ | skilllevel = 56
+ | cost = 7665
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Lumberjack's Arrangement #6
+ | skilllevel = 61
+ | cost = 9833
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Lumberjack's Display #6
+ | skilllevel = 62
+ | cost = 9865
+ | favor = Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Friendship Arrangement}}
+|RiShin Family ={{Item|Friendship Arrangement}}, {{Item|Winterhue}} x5
+}}
+== Conversations ==
+{{Quote|source=[[Zhao]]|
+:Greetings, human. I buy flowers and seeds, if you wish to sell them.
+: ''' What do you do with them? '''
+: It is an art form that was created by [[Rakshasa]]. Or so my parents taught me. I have heard visiting elves claim that they invented it, and even orcs have laid ownership to the art. But it does not matter. Flower Arrangement is a traditional art form, and so I follow the traditions I know. In my tradition, it was invented by Rakshasa long ago. But the art is quite different on our homeworld.
+: '''How is it different on your homeworld?'''
+: I have never been to our homeworld, of course, but [[Ravana]] is not like here. It is always dark, even when the sun is high in the sky. The air weights heavy upon your bones. Water is very scarce. Our people can shape shift there, and take different forms at different times of day.
+: There are no flowers as we know them on [[Ravana]]. The 'flowers' my mother described are... hard for me to imagine. Poisonous, sentient, and angry. Flower Arrangement there is a contest of wills. But our people have spread to many worlds, and on each world we reinvent the art form with that world's plants.
+: ''' I see.'''
+: I was told that the foliage here is essentially amenable to arrangement, being largely immobile, non-sentient, and corporeal. So my great-grandparents managed to create many beautiful arrangements in their waning year here. My grandparents and parents carried on their teachings and expanded them.
+: ''' And now you carry on the art form too? '''
+: No. My brother [[Hian]] is the heir to my parents' workbooks and teachings. I went wandering into the desert in my youth, you see... and my mother never forgave me. But since [[Hian]] refuses to teach me, I have spent the past few years trying to recall my childhood lessons. I now have modest skill.
+: ''' Is the work rewarding? '''
+: I suppose so. It is also reasonably lucrative. My brother charges far too much, so many poorer people come to me for traditional ceremonial arrangements. I have a special on birthing arrangements right now, if you were expecting a child soon?
+: ''' Um, not that I know of.'''
+:(If Spider) '''No way. I'm not buying flowers for every egg I lay!'''
+: Well, I am also happy to buy flowers and seeds.
+: ''' Can you teach me how to arrange flowers? '''
+: Zhao looks at you. Are you skilled in growing flowers?
+; Requires Level 50 Gardening to continue.
+: ''' I know my way around a garden, if that's what you mean. '''
+: Very well. I can teach you the first lessons. For a modest fee, of course. 30,000 Councils
+: '''No way. That's an outrageous price!'''
+:: Oh, you looked rich. Well, if you're poor, then how about 200 flower seeds?
+:: ''' That's still pretty expensive. '''
+:: 150 seeds. That's my final offer.
+:: '''Very Well. I'll pay 150 seeds.'''
+: '''That's very high, but I will pay it.'''
+:: Great.}}
+
+{{Quote|source=[[Zhao]]|
+It was not my intention to pick a side between [[Kohan]] and [[Ufkar]]. But [[Ufkar]] ordered a Work Harder Bouquet to be delivered to [[Kohan]]. I thought nothing of it! But [[Kohan]] misunderstood the subtext... or perhaps I did. At any rate, neither of them are very nice.}}
+{{Quote|source=[[Zhao]]|
+In my spare time I've been practicing making jewelry. But I'm not ready to share that with the world yet -- I have much more to learn first.}}
+[[Category:NPCs]]

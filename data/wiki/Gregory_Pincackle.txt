@@ -1,0 +1,47 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gregory Pincackle
+|image            = [[File:Gregory Pincackle (npc).png|300px]]
+|caption          = Bad case of resting astonished-face.
+|zone             = Statehelm
+|town = Statehelm
+|location         = Wandering/Fountain
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Yes
+|beastlist = No scary animals
+}}
+{{Quote|source=[[Gregory Pincackle]]|I went to visit my dead son's grave but I was kicked out. Literally. Visit the graveyard and you'll see what I mean.}}
+[[Gregory Pincackle]] is a dwarf who begrudgingly lives in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Gregory Pincackle]] may be found wandering the city of Statehelm during the day.
+== Favor ==
+=== Small Talk ===
+[[Gregory Pincackle]] does not use the favor system.
+== Quests ==
+[[Gregory Pincackle]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Gregory Pincackle
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Gregory Pincackle]]|
+There's no such thing as a happy ghost, that's what they say. Even if the ghost says it's happy, it can't actually be. By definition, basically. Isn't that interesting?}}
+{{Quote|source=[[Gregory Pincackle]]|
+They say a ghost doesn't always form right after someone's death. Sometimes it can take years. My son died three years ago and there's been no sign of him as a ghost.
+
+Which is good. I guess that's good.}}
+{{Quote|source=[[Gregory Pincackle]]|
+It's been a bit of a shameful spot that my son was burried here instead of back at home. But he was a Statehelmsman through and through. Fought in the [[Second Column]]. "Fighting for good things," is how he described it to me.
+
+But the way he died... nothing adds up about it! He was killed in a dragonfire blast. Three years ago. While just out and about in [[Vidaria]]. There's been no dragons in these human lands for a century or more!}}
+{{Quote|source=[[Gregory Pincackle]]|
+I think I'll head home next spring. I have no ties to this place anymore.}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

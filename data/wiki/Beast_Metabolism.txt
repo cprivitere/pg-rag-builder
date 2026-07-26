@@ -1,0 +1,40 @@
+__NOTOC__
+{{Skill infobox
+|title            = Beast Metabolism
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Represents your metabolic efficiency when consuming raw meats.
+|skilltype        = Beast Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Lycanthropy
+|skilltrainers    = None
+}}
+{{Quote|
+Represents your metabolic efficiency when consuming raw meats.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Beast Metabolism''' is a secondary skill under [[Lycanthropy]] that helps you get more benefit out of eating corpses while in wolf form.
+=== In-Game Description ===
+Represents your metabolic efficiency when consuming raw meats.
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* A [[Lycanthropy|Lycanthrope]] will obtain [[Beast Metabolism]] when they first consume a carcass in wolf form.
+== Connected Skills ==
+=====Sub-Skills:=====
+* None.
+=====Secondary Skills:=====
+* [[Lycanthropy]] - [[Beast Metabolism]] is a skill given to those with Lycanthropy.
+===== Related Skills:=====
+* [[Beast Speech]] - Beast Speech is another skill that all Lycanthropes learn.
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Leveling Beast Metabolism ===
+Every time you eat a corpse in wolf form, you will get experience towards this skill.
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+<!-- {{:{{msg:BASEPAGENAME}}/Level Up Rewards}} -->
+== Beast Metabolism Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Beast Metabolism|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+
+[[Category:Skills]][[Category:Beast Skills]]

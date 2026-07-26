@@ -1,0 +1,11 @@
+==June 30: Beta Build 2==
+::- Fixed scaling bug that caused giant spiders, flowers, and more
+::- Fixed problem with MacOS build that made it not start
+::- The game's configuration is now saved to a different file than before. Unfortunately that means you'll need to re-configure it again. (Or see forum; you could manually copy over your old settings.)
+::- Fixed a few of the particles that were reported missing
+::- Fixed missing label when viewing the storage UI
+::- Reduced video memory usage in Serbule and Serbule Hills a bit. This will help computers that have very little video memory. (More memory optimizations to come)
+===Known Issues:===
+::- Some tabulated data (such as high-scores lists in the casino) are incorrectly aligned
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

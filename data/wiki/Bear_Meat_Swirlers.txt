@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Mandibles in [[Red Wing Casino]] said, "My Sausage Swirlers are a hit with many varieties of mammalian guests. However, I believe I could improve on their flavor if they were made of bear meat -- or a similar beast -- instead of goblin meat. Would you procure some for me?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Mandibles]]''' in the '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|
+My Sausage Swirlers are a hit with many varieties of mammalian guests. However, I believe I could improve on their flavor if they were made of bear meat -- or a similar beast -- instead of goblin meat. Would you procure some for me?
+}}
+===Requirements===
+* Obtain {{Item|Beast Meat}} x5
+* Talk to Mandibles
+
+===Rewards===
+{{Spoiler|Rewards for Bear Meat Swirlers|
+{{Quote|
+Perfect. It smells delicious! ... But I do understand that civilized creatures find raw meat disgusting. I shall put it on ice immediately!
+}}
+* 200 favor towards [[Mandibles]]
+* 1000 Councils
+* {{Item|Red Wing Token}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Mandibles]]

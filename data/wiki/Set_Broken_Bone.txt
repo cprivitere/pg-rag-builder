@@ -1,0 +1,12 @@
+__NOTOC__
+{{Ability infobox
+| name = Set Broken Bone
+| description = Use a Master First Aid Kit (or better) to heal a broken bone. There is a 33% chance the First Aid Kit will be used up.
+| level = 55
+| power cost = 23
+| reuse time = 30
+| range = 5 meters
+| skill = First Aid
+| special = Repairs 1 broken bone.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

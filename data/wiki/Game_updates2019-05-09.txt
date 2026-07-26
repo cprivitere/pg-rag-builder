@@ -1,0 +1,20 @@
+
+==Update Notes: May 9, 2019 ==
+This is a small update to add fixes and new features for future live events. Stay tuned to see them in action! There are also some other bug fixes:
+: - Fixed repeated Minotaur Vault rune in War Cache S-1
+: - Drinking a second Spider Punt Potion no longer gives the confusing message "Error: You already know that ability."
+: - Fixed a bug that prevented Spider Punt ability (or other sidebar abilities) from working if dragged onto the sidebar under certain conditions
+: - Fixed a related bug that could cause changes to the sidebar to stop being sent to the server (meaning your sidebar stopped working, and reverted to old contents when you logged out and back in)
+: - Collect Milk 2 & 3 incorrectly required Clobbering Hoof 6 as a prerequisite
+: - [[Sanja]] in Kur had incorrect training requirements for raising Lycanthropy skill cap
+: - Fixed bug that prevented slimes in War Cache D-3 from combining into each other, thus allowing infinite slimes
+: - Added missing warning screen for the Shower Slime in [[Gazluk Keep]]
+: - Fixed bug that caused volume UI sliders (and other number-sliders) in the Settings window to stop updating correctly if an invalid number was manually typed into the text field
+: - Fixed bug that prevented placing map pins in war cache D-4
+Added a missing Spider Punt Potion to war cache S-3
+: - Tweaked fire magic mod that added Rage to Super Fireball: it adds less Rage and has a slightly more clear description
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

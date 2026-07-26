@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Glortok in the Rahu Sewers said, "Strike their means of production! Kill the ratkin fishermen! They will surely starve!"
+
+This Quest can be repeated after 66 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Chief Glortok]]''' in the '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+Strike their means of production! Kill the ratkin fishermen! They will surely starve!
+
+===Requirements===
+* Kill Ratkin Fishtenders x15
+* Talk to Glortok
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You struck a blow for goblinkind. Good.}}
+* {{Item|Xedrite}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Chief Glortok]]

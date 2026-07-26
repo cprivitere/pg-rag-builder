@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Torgan in New Prestonbule said, "Snapley told me the pitiful tale of the settlement outside. Here is a detail he did not know: the strike was ordered by General Naurlok himself, and was executed by his elite legion. And here is where things become interesting. For you see, ghosts often retain something of what they had when they died. And if they died with spear heads from Naurlok's Avengers still stuck in them... that metal is precious! I cannot even make it myself.
+
+You should destroy some of those ghosts and see if you can find orcish metal. I will pay in Councils."
+
+===Prerequisites===
+To start this quest, talk to '''[[Torgan]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Snapley told me the pitiful tale of the settlement outside. Here is a detail he did not know: the strike was ordered by General Naurlok himself, and was executed by his elite legion. And here is where things become interesting. For you see, ghosts often retain something of what they had when they died. And if they died with spear heads from Naurlok's Avengers still stuck in them... that metal is precious! I cannot even make it myself.
+
+You should destroy some of those ghosts and see if you can find orcish metal. I will pay in Councils.}}
+
+===Requirements===
+* Obtain {{Item|Orcish Steel}} x5
+* Talk to Torgan
+
+===Rewards===
+{{Spoiler|Rewards for Steel From Ghosts|
+{{Quote|Ha ha! I knew it! This steel will make a monstrous new hammer! You have done well!}}
+
+* 100 {{Favor|favor}}
+* 250 councils 
+* {{Item|Gold Ore}} x 8
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Torgan]]

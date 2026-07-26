@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+You're killing Kuvou in Povus.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Kuvou</b>
+Kuvou -- supposedly named after the sound they make while belching -- came with the first rakshasa settlers, who even today use them as a food source. Their vomit is also prized. Unfortunately they lack the docility of other herbivores and must be trained from birth in order to be kept as livestock.
+
+===Requirements===
+* Kill Kuvou x8
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 5000 Combat XP for your active skills
+* 250 XP in Non-Ruminant Ungulate Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Hunting Quests]]

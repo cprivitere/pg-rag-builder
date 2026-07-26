@@ -1,0 +1,172 @@
+__NOTOC__
+==Jan 22 Update ==
+NOTE: If you get an error in the launcher, don't worry, it's just temporary due to the large number of downloaders right now. Please wait a bit and restart the launcher! When you restart, it will automatically remember the progress you'd made.
+
+===Gazluk===
+
+: A new high-level zone is available! Gazluk can be reached via a portal in Kur - look for the portal in the northeast corner of the map, where the werewolf-infested woods transition to mountains.
+
+: Note that this is just the "bones" of Gazluk, with many more elements planned. Most of the planned caves are already accessible, although most just have basic content (monsters, some loot spawns, some solo-dungeon chests, etc.) The Orcish city, Gazluk City, is accessible, but the major group dungeon there is not yet ready. 
+
+: Gazluk itself is a bit colder than Kur, so if Kur is too dangerous for you, Gazluk definitely is!
+
+===Skill Cap Increases===
+
+====The following skills can now be raised to level 70. In addition, treasure can be found for the combat skills in this list with up to level 70 loot mods.====
+; [[Battle Chemistry]]
+: [[Mox Warcut]] in [[Gazluk]]
+; [[Blacksmithing]]
+: [[Kodan]] in [[Animal Town]], or [[Falkrin Overstrike]] in [[Amulna]]
+; [[Carpentry]]
+: [[Amutasa]] in [[Rahu]]
+; [[Endurance]]
+: [[Lamashu]] in [[Kur Mountains]]
+; [[Fire Magic]]
+: [[Sand Seer]] in Amulna
+; [[Leatherworking]]
+: [[Sirine]] in Rahu
+; [[Lycanthropy]]
+: [[Altar of Norala]] during the full moon
+; [[Mentalism]]
+: [[Rohina]] in Sun Vale
+; [[Necromancy]]
+: [[Daniel Murderdark]] in Rahu
+; [[Psychology]]
+: [[Nissim]] in Amulna
+; [[Staff]]
+: [[Roshun the Traitor]] outside Serbule
+; [[Survival Instincts]]
+: [[Sanja]] in Kur Mountains
+; [[Sword]]
+: [[Janet Lews]] in Kur Mountains
+; [[Tanning]]
+: [[Sirine]] in Rahu
+; [[Toolcrafting]]
+: [[Amutasa]] in Rahu
+; [[Unarmed]]
+: [[Furlak]] in Rahu
+
+==== The following skills can be raised to level 70. However, due to time limitations, some of their loot mods do not yet scale to level 70. These skills can still get good loot, but not all of their gear mods scale to the highest loot-tiers yet.====
+; [[Animal Handling]]
+: [[Gisli]] in Serbule (for now, until the Rahu NPC is ready)
+;[[Archery]]
+:[[Alravesa the All-Hunter]] in Rahu
+;[[Cow]]
+:[[Raul]] in Animal Town
+;[[Deer]]
+:[[Jumper]] in Animal Town
+;[[Druid]]
+:[[Lady Windsong]] in Rahu
+;[[Giant Bat]]
+:[[Yavazek]] in animal town
+;[[Hammer]]	
+:[[Falkrin Overstrike]] in Amulna
+;[[Ice Magic]]
+:[[Ichin the Ice Master]] in Rahu
+;[[Knife]]
+:[[Rick Snapley]] in Gazluk
+;[[Pig]]
+:[[Norbert]] in Animal Town
+;[[Shield]]	
+:[[Sir Johnson]] in Amulna
+;[[Spider]]
+:[[Legs]] in Animal Town
+
+====In addition, the following skills can now be raised to level 60: ====
+; [[Fishing]]
+: [[Rugen]] in Rahu (for now, until the Fishing NPC in Rahu is ready)
+; [[Fletching]]
+: [[Bellema Deftwhisper]] in Gazluk
+; [[Cheesemaking]]
+: [[Braigon]] in Eltibule
+
+: In addition, various trainer NPCs have higher-level versions of the abilities that they teach. For instance, Hogan now teaches higher-level versions of Heed the Stick and Phoenix Strike. So check with your trainer!
+
+: Similarly, many recipes now have higher tiers as well; they are learned from the same person that sold the last-highest tier. E.g. the person that taught you Spore Bomb 5 can now teach you Spore Bomb 6.
+
+===Other training notes/changes:===
+
+: A few high-level werewolf combat abilities are now found as random loot scrolls. In addition, Sanja in Kur has one of them. The rest are learned from the altar during the full moon.
+: The battle chemistry mutation "Extra Heart" was trainable from the NPC Zealo, and also from the Chemistry Placeholder NPC - the difference being that Zealo did not have the Pathology prerequisites, but did have Favor prerequisites. Zealo is now the only trainer for the ability, and has only Favor prerequisites. (Which means this is a nerf to the usefulness of Pathology!)
+: Added a few missing levels of abilities for Spider in the 51-60 range: Terrifying Bite 4, Incubate 4, and Web Trap 2. They can be learned from Legs in Animal Town. Terrifying Bite 3 is learned automatically at 49.
+: Elahil now trains the Fletching recipes separately from the Archery abilities that use them. This allows one to become proficient in fletching without being an archer, or vice versa.
+: Flia no longer teaches the knife abilities Poisoner's Cut or Hamstring Throw. These are taught by Rick Snapley in Gazluk. (Flia still teaches the other knife techniques she previously taught: Surprise Throw, Backstab, Fan of Blades.)
+: Training for the level 1 Word of Power recipe is now available from Velkort instead of Elahil.
+: The Wombat in Sun Vale can now teach carpenters how to make crafted Clubs.
+: Higher-level recipes for crafted cow shoes and deer shoes are now taught by Falkrin Overstrike in Amulna, not Sirine in Rahu.
+: Previously, the recipes for Evasion Armor (leatherworking) and Camouflaged Armor (tailoring) mostly dropped as loot scrolls, but a few of the levels were taught by trainers. These recipes are now ALL learned from loot scrolls.
+: The recipe-scrolls for Evasion and Camouflaged armor now teach both the regular and the Max-Enchanted versions of those recipes. (Previously, these came on different scrolls.)
+: The "regular" tailoring clothing, e.g. "nice cloth shirt", was (and still is) taught by a trainer. However, the Max-Enchanted versions had to be found on loot scrolls. These recipes are now ALL taught by trainers.
+: There are now fewer recipe scrolls to be found in loot (since the regular and Max-Enchanted versions are now always found together). The ones that are now obsolete are marked as "OBSOLETE RECIPE BOOK". They should be sold to an unsuspecting vendor NPC, because they will soon cease to exist.
+=== Other ability & mod changes:===
+
+: Some abilities received double-benefit from treasure mods that boosted certain things. These abilities have been fixed:
+::-- Bodyslam benefitted 2x as much as listed from effects that boost Epic Attack Damage (by a flat amount).
+::-- Werewolf Claw benefitted 2x as much as listed from effects that boost Basic Attack Damage (by a flat amount).
+::-- You Were Adopted benefitted 2x as much as listed from effects that boost Epic Attack Damage (by a percentage).
+::-- Backstab benefitted 2x as much as listed from effects that boost Epic Attack Damage (by a flat amount).
+: Added a new alchemy recipe for a Swimming Potion that boosts your underwater speed. It's a level 40 alchemy recipe and it drops from level 50-ish monsters. (The same monsters that can drop the recipe for Mercury.)
+: The animal handling ability Get It Off Me did not correctly give the pet Piercing Mitigation as indicated. (It did give Crushing and Slashing mitigation.)
+: The ability description of Fire Arrow indicated it did half as much fire dot damage as it actually does.
+: Battle Chemistry has a new ability, Toxic Irritant. This is a basic attack. Low-level versions are learned automatically (starting at level 5); higher-level versions can currently be trained from the chemistry placeholder NPC.
+: A couple of Battle Chemistry gear mods had to be moved to new slots. Existing gear with those mods will have become Legacy because they now have an invalid mod. There is a golem in : Serbule that will replace Legacy gear with new items. Sorry for the inconvenience!
+: The mutation "Knee Spikes" now does percentage damage instead of flat damage. Also, this damage now correctly shows up in ability tooltips.
+: The mutation "Extra Skin" now has more direct mitigation.
+: The mutation "Extra Heart" now restores more Power.
+: The mutation "Extra Toes" is now an out-of-combat sprint boost only.
+: The ability "Healing Injection" no longer dispels the target's mutation.
+: The carpentry combat ability "Stake The Heart" has been rewritten. In addition to doing damage to any target, it now stuns corporeal undead. Reuse time is 30 seconds; power costs are reduced.
+: Higher-level versions of Brambleskin deal more reflect damage to melee attackers.
+: Toxinball deals much more poison damage (but slightly less direct damage).
+: The hammer ability Rib Shatter does more damage over time at all levels.
+: Higher-level versions of Adrenaline Wave now add percentage damage instead of flat damage.
+: Higher-level versions of Pain Bubble have higher max-damage caps before prematurely expiring.
+: Some of the recipes for spore bombs were tweaked to create more bombs.
+: The psychology mod "Mock deals +125% damage and taunts +500, but reuse timer is +2 seconds" was set for level 25 instead of level 60, making it more powerful than intended for its level (and making the mod unavailable above about level 35). The existing level 25 mod is now statted for level 25, and new levels of the mod are added up through 60+.
+: The psychology mod "Soothe further reduces target's Rage by X": the value of X was adjusted at some levels to fix data errors.
+: The psychology mod "Tell me about your mother boosts your Epic Attack Damage and reduces Epic Attack Power Cost" was adjusted to fix data errors.
+: The staff mod "Suppress and Heed the Stick have +30 Accuracy" was scaled for level 60 but the level req was only 25, making it more powerful than intended for its level (and making the mod unavailable above about level 35). The existing level 25 mod is now statted for level 25, and new levels of the mod are added up through 60+.
+: The staff mod that gives the combo "Combo: Suppression Stun" was incorrectly AoE-stunning. It is supposed to be a single-target effect, as described in the effect description.
+: Shamanic Infusion was using the wrong XP table; it is now much easier to raise the later levels of the skill.
+: Spider's "Spit Acid" ability now has more potent and faster-acting acid.
+: The unarmed mod "Cobra Strike and Mamba Strike boost your Nice Attack and Signature Debuff Damage +X for 7 seconds" was applying that buff permanently.
+: Claw Barrage (a variant of Barrage) was not affected by treasure mods that changed the reset time of Barrage.
+: Reduced the chances of lower-level First Aid abilities consuming the first aid kit from 33% down to 10%, but raised the Power cost a bit.
+: The Yetiskin ability now has only a 25% chance of consuming the reagent, instead of 100%.
+: Reduced the chances of Patch Armor abilities consuming the armor repair kit from 33% down to 10%, but raised the Power cost a bit.
+: You now learn Patch Armor 6 automatically upon reaching level 50 in Armor Repair. (If you are already at level 50 or above, the ability will be in your miscellaneous abilities list already.)
+: Raising the Endurance skill grants more Max Breath than before.
+: The Survival Instincts ability Toxic Flesh deals more poison damage to melee attackers.
+: Fixed formulaic bugs in numerous treasure mods. Most important is that some health/power/armor restoration mods were more powerful than intended. Due to the formulaic nature of the change, we don't have a handy list, but the changes were mostly small.
+
+
+===Random other things:===
+
+: If you've purchased storage from the Altar of Norala, it will now be available even when the moon isn't full.
+: Ukorga now sells recipes for an entire suit of cold-weather gear (not just the coat as he did before). This matching set of leather armor offers significant bonuses against cold weather.
+: "Universal Mitigation" and "Universal Indirect Mitigation" (but NOT "Universal Direct Mitigation") now help protect you from cold weather effects, in the same way that Cold : Mitigation and Indirect Cold Mitigation already did.
+: Campfires can no longer be deployed underwater.
+: Mountain Sheep (but not low-level 'Valley Sheep') now always drop at least 1 wool, and can drop up to 3. In addition, their 'bonus skin' (when skinning their corpses) is also wool.
+: Erroneous lore references to "Gazleb" have been changed to "Gazluk".
+: Fixed a bug in the Druid event in the Ilmari desert that caused the desert watchers to despawn after 15 minutes, leaving only a handful of remaining desert watchers alive.
+: Improved the displayed status info on sacrificial chests during the rotflower druid event.
+: The legacy-item-replacement-golem no longer gives 5x replacements for certain types of legacy items that had been given special treatment in recent updates. (The golem now gives 1 replacement for any legacy item.)
+: The creatures known as "Garden Tenders" and their cousin-creatures, "Sand Dogs", are now categorized as Dinosaurs instead of as Arthropods.
+: Animals, especially carnivores, can now occasionally drop jewelry.
+: The recipe for spicy chicken no longer requires deadly Iocaine Mushrooms.
+: The recipe for Cedar Wood Chips gives 2 piles of chips per log.
+: Ingredients for a few crafted-gear recipes were tweaked slightly (e.g. replacing cabbage with beets, replacing cotton thread with wool).
+: A few kinds of food now have a 3D graphical representation. (Most prominently, chicken dishes look like a plate of chicken; a few bread dishes, like Banana Bread, look like bread on a plate.)
+: Werewolf barding can be dyed with the Dye Metal Armor recipes. (Thanks to user BetaNotus for helping with the dye maps!)
+: Cow barding can be dyed with the new Dye Organic Armor recipes. The organic dye recipes can be learned from Trekker in Gazluk. (Thanks to user Betanotus for helping with the dye maps for the armor!)
+: Fixed a number of graphical armor glitches, including:
+::-- Newbie rags that made your skin visible when you ran.
+::-- The see-through helm on werewolf barding.
+::-- Cows clipping through cow barding.
+::-- See-thru arms on snail armor (and other armors that use the same model).
+: Updated the "incorrect coordinates" possibilities when giving the coordinates to Elmetaph on the newbie island, to include some new destinations.
+: The fae race no longer shows up in the character-creation screen (as it is not ready yet)
+: The "always run" checkbox now defaults to On for new installations. (I coulda sworn we'd already done that...)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

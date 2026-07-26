@@ -1,0 +1,47 @@
+__NOTOC__
+{{NPC infobox
+|title            = Way
+|image            = [[File:MyconianNPC.png|300px]]
+|caption          = A sentient mushroom.
+|zone = Serbule
+|dungeon = Myconian Cave
+|location         = First room after entering.
+|anatomy = Fungoid
+|species = Myconian
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = yes
+}}
+{{Quote|
+Hello again! Shop with me! I enjoy the sensation of taking your money!
+}}
+[[Way]] is a [[Myconian]] shopkeeper located in the [[Myconian Cave]].  Way enjoys collecting strange knick-knacks created by Humans, and has been attempting to create clothing for Myconians.  So far, he has failed.
+
+Note: [[Way]] requires you to be slightly more fluent in [[Myconic]] compared to the other friendly Myconians in the cave. You need 13 Myconic to speak to [[Way]].
+== Location ==
+; [[Myconian Cave]]
+: In the first room after entering.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Way
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Strange Dirt}}
+|RiShin Family = Gem x3
+}}
+== Conversations ==
+
+[[Category:NPCs]]

@@ -1,0 +1,30 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Heart's Power
+| description = Consume a heart to gain vast health for a time.
+| level = 20
+| power cost = 0
+| reuse time = 120
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HeartsPower}}
+| special = Boosts Max Health by 200 for 2 minutes. Heals 200.
+}}
+|-
+|
+{{Ability infobox
+| name = Heart's Power 2
+| description = Consume two hearts to gain vast health for a time.
+| level = 60
+| power cost = 0
+| reuse time = 120
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HeartsPower}}
+| special = Boosts Max Health by 300 for 2 minutes. Heals 300.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

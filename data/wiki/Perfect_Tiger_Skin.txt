@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Roshun the Traitor in Serbule mentioned that he wished he had a Trophy Tiger Skin. They are rare items found by expert skinners.
+
+===Prerequisites===
+To start this quest, talk to '''[[Roshun The Traitor]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I have many bear and panther skins to decorate my store. But the local beasts, the striped cats, should be on the wall, too! I have tried to get a skin but they are never perfect enough. I accept my limitations. I am not an expert skinner. It is enough to be a master warrior and an expert tradesorc.}}
+
+===Requirements===
+* Obtain a {{Item|Trophy Tiger Skin}}
+* Talk to Roshun the Traitor
+
+===Rewards===
+{{Spoiler|Rewards for Perfect Tiger Skin|
+{{Quote|This is not flawless enough. The cat was too small! This wouldn't look impressive next to the bear pelts. You have failed! But you were not required to even try, so I thank you. Hmm. You are a skinner, yes? Then perhaps you are a tanner as well? I skinned beasts while learning the art, but I do not know how to tan them, and they stink. Take them far from here.}}
+
+* 300 {{Favor|favor}}
+* {{Item|Shoddy Animal Skin}} x 5
+* {{Item|Rough Animal Skin}} x 4
+* {{Item|Crude Animal Skin}} x 3
+* {{Item|Decent Animal Skin}} x 2
+* {{Item|Nice Animal Skin}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Roshun The Traitor]]

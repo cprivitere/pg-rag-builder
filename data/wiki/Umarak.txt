@@ -1,0 +1,34 @@
+__NOTOC__
+{{NPC infobox
+|title            = Umarak
+|image            = [[File:Umarak (npc).png|300px]]
+|caption          = ...
+|zone             = Povus 
+|town             = City of Povus
+|location         = Old Town, near southeast Sprawl entrance
+|anatomy          = Rakshasa
+|species          = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|source=[[Umarak]]|
+...
+}}
+[[Umarak]] is a Rakshasa who has dedicated themselves to trying to improve [[Tryaka]]'s mood.
+
+== Location ==
+; [[Povus]]
+: [[Umarak]] can be found in Old Town, inside a house near the southeast entrance to the Sprawl district. He only appears when the Povus Town Level is at least 8.
+
+== Favor ==
+[[Umarak]] does not use the favor system.
+== Quests ==
+[[Umarak]] gives daily quests and rewards completion with {{Item|Xogrite Chunk}}.
+<dpl>
+category = Quests/Umarak
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+[[Category:NPCs]][[Category:NoRiShin]]

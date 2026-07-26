@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> I have a terrible dilemma: there are a bunch of mortals scheming to destroy your realm, and somebody needs to kill them. But I'm not an evil god, so I could never tell you to kill a mortal!
+
+Hahaha just kidding. Go kill those mortals!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> I have a terrible dilemma: there are a bunch of mortals scheming to destroy your realm, and somebody needs to kill them. But I'm not an evil god, so I could never tell you to kill a mortal!
+
+Hahaha just kidding. Go kill those mortals!
+
+===Requirements===
+* Kill other players in PvP x2
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Grim. I have to say murder's not very whimsical. That's really my main complaint about it. But you did it well!}}
+* 500 councils
+* {{Item|Power Syrup}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

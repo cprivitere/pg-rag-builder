@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Infinite Legs
+| description = Kick an enemy with some of your many legs.
+| level = 6
+| power cost = 9
+| reuse time = 3
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|InfiniteLegs}}{{KWAB|Melee}}{{KWAB|Kick}}{{KWAB|BodypartAttack}}
+| damage = 17 Crushing
+| special = For 10 seconds, additional Infinite Legs attacks deal +3 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Infinite Legs 2
+| description = Kick an enemy with some of your many legs.
+| level = 16
+| power cost = 12
+| reuse time = 3
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|InfiniteLegs}}{{KWAB|Melee}}{{KWAB|Kick}}{{KWAB|BodypartAttack}}
+| damage = 30 Crushing
+| special = For 10 seconds, additional Infinite Legs attacks deal +5 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Infinite Legs 3
+| description = Kick an enemy with some of your many legs.
+| level = 26
+| power cost = 15
+| reuse time = 3
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|InfiniteLegs}}{{KWAB|Melee}}{{KWAB|Kick}}{{KWAB|BodypartAttack}}
+| damage = 45 Crushing
+| special = For 12 seconds, additional Infinite Legs attacks deal +7 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Infinite Legs 4
+| description = Kick an enemy with some of your many legs.
+| level = 36
+| power cost = 19
+| reuse time = 3
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|InfiniteLegs}}{{KWAB|Melee}}{{KWAB|Kick}}{{KWAB|BodypartAttack}}
+| damage = 65 Crushing
+| special = For 12 seconds, additional Infinite Legs attacks deal +9 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Infinite Legs 5
+| description = Kick an enemy with some of your many legs.
+| level = 46
+| power cost = 21
+| reuse time = 3
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|InfiniteLegs}}{{KWAB|Melee}}{{KWAB|Kick}}{{KWAB|BodypartAttack}}
+| damage = 102 Crushing
+| special = For 15 seconds, additional Infinite Legs attacks deal +12 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Infinite Legs 6
+| description = Kick an enemy with some of your many legs.
+| level = 56
+| power cost = 24
+| reuse time = 3
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|InfiniteLegs}}{{KWAB|Melee}}{{KWAB|Kick}}{{KWAB|BodypartAttack}}
+| damage = 146 Crushing
+| special = For 15 seconds, additional Infinite Legs attacks deal +18 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Infinite Legs 7
+| description = Kick an enemy with some of your many legs.
+| level = 66
+| power cost = 26
+| reuse time = 3
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|InfiniteLegs}}{{KWAB|Melee}}{{KWAB|Kick}}{{KWAB|BodypartAttack}}
+| damage = 190 Crushing
+| special = For 18 seconds, additional Infinite Legs attacks deal +25 damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Infinite Legs 8
+| description = Kick an enemy with some of your many legs.
+| level = 76
+| power cost = 29
+| reuse time = 3
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|InfiniteLegs}}{{KWAB|Melee}}{{KWAB|Kick}}{{KWAB|BodypartAttack}}
+| damage = 240 Crushing
+| special = For 18 seconds, additional Infinite Legs attacks deal +40 damage.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

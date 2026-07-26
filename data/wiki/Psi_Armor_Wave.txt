@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Psi Armor Wave
+| description = You and any nearby allies begin to recover lost armor every few seconds.
+| level = 5
+| power cost = 9
+| reuse time = 20
+| range = 15 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiArmorWave}}{{KWAB|SignatureSupport}}
+| special = Restore 4 Armor every 3 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Psi Armor Wave 2
+| description = You and any nearby allies begin to recover lost armor every few seconds.
+| level = 25
+| power cost = 15
+| reuse time = 20
+| range = 18 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiArmorWave}}{{KWAB|SignatureSupport}}
+| special = Restore 6 Armor every 3 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Psi Armor Wave 3
+| description = You and any nearby allies begin to recover lost armor every few seconds.
+| level = 45
+| power cost = 21
+| reuse time = 20
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiArmorWave}}{{KWAB|SignatureSupport}}
+| special = Restore 9 Armor every 3 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Psi Armor Wave 4
+| description = You and any nearby allies begin to recover lost armor every few seconds.
+| level = 54
+| power cost = 23
+| reuse time = 20
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiArmorWave}}{{KWAB|SignatureSupport}}
+| special = Restore 12 Armor every 3 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Psi Armor Wave 5
+| description = You and any nearby allies begin to recover lost armor every few seconds.
+| level = 69
+| power cost = 27
+| reuse time = 20
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiArmorWave}}{{KWAB|SignatureSupport}}
+| special = Restore 15 Armor every 3 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Psi Armor Wave 6
+| description = You and any nearby allies begin to recover lost armor every few seconds.
+| level = 81
+| power cost = 31
+| reuse time = 20
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Mentalism}}{{KWAB|PsiWave}}{{KWAB|PsiArmorWave}}{{KWAB|SignatureSupport}}
+| special = Restore 18 Armor every 3 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,478 @@
+__NOTOC__
+{{NPC infobox
+|title            = Bendith the Banished
+|image            = [[File:Bendith.png|303px]]
+|caption          = With a perceptive glare
+|zone             = Fae Realm
+|town = Fel-Dasculan Ruins
+|location = Southwest wall of town.
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Battle Chemistry]], [[Fire Magic]], [[Ice Magic]],<br> [[Ice Conjuration]], [[Necromancy]], [[Cheesemaking]]
+|vendor           = Yes
+|storage = Yes
+}}
+{{Quote|
+Let me guess: you've come to me for knowledge that you can't get elsewhere. Well, perhaps you've come to the right place.
+}}
+[[Bendith the Banished]] is a fairy living in the Fel-Dasculan Ruins.
+== Location ==
+;[[Fae Realm]]
+: Near the southwestern corner of the ruins.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Like Family}}.|
+:{{Item|Winter Court Murder-Coat}} of red or random rarity
+}}
+== Quests ==
+<dpl>
+category = Quests/Bendith the Banished
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Ice Magic]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Ice Magic{{!}}Unlock Ice Magic Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}}x3 & 400,000
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Ice Magic Research Level 75
+ | skilllevel = 75
+ | cost = {{Item|Royal Jelly}}x2 & 13,300
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe =  Ice Magic Research Level 80
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}}x2 & 15,133
+ | favor = Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Ice Conjuration]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Pear Shaved Ice
+ | skilllevel = 19
+ | cost = {{Item|Royal Jelly}}x1 & 713
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Peach Shaved Ice
+ | skilllevel = 21
+ | cost = {{Item|Royal Jelly}}x1 & 813
+ | favor = Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fire Magic]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Fire Magic{{!}}Unlock Fire Magic Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}}x3 & 400,000
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe =  Fire Magic Research Level 75
+ | skilllevel = 75
+ | cost = {{Item|Royal Jelly}}x2 & 13,300
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe =  Fire Magic Research Level 80
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}}x2 & 15,133
+ | favor = Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Battle Chemistry]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Battle Chemistry{{!}}Unlock Battle Chemistry Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}}x3 & 400,000
+ | favor = Comfortable
+}}
+{{NPC training row
+ |ability = Toxic Irritant 8
+ |skilllevel = 75
+ |cost = {{Item|Royal Jelly}}x1 & 19,950
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Haste Concoction 5
+ |skilllevel = 75
+ |cost = {{Item|Royal Jelly}}x1 & 19,950
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Mutation: Extra Skin 8
+ |skilllevel = 77
+ |cost = {{Item|Royal Jelly}}x1 & 22,5050
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Mutation: Extra Heart 8
+ |skilllevel = 78
+ |cost = {{Item|Royal Jelly}}x1 & 22,600
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Toxin Bomb 9
+ |skilllevel = 80,
+ |cost = {{Item|Royal Jelly}}x1 & 22,700
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Create Basic Golem
+ |skilllevel = 81
+ |cost = {{Item|Royal Jelly}}x1 & 27,250
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Healing Injection 9
+ |skilllevel = 82
+ |cost = {{Item|Royal Jelly}}x1 & 27,300
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Mycotoxin Formula 9
+ |skilllevel = 82
+ |cost = {{Item|Royal Jelly}}x1 & 27,300
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Acid Bomb 9
+ |skilllevel = 83
+ |cost = {{Item|Royal Jelly}}x1 & 27,350
+ |favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Necromancy]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Necromancy{{!}}Unlock Necromancy Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}}x3 & 400,000
+ | favor = Close Friends
+}}
+<!--
+{{NPC training row
+ |ability = Free-Summon Skeletal Archer 6
+ |skilllevel = ?
+ |cost = {{Item|Royal Jelly}}x1 & 19850
+ |favor = ?
+}}
+-->
+{{NPC training row
+ |ability = Wave of Darkness 6
+ |skilllevel = 74
+ |cost = {{Item|Royal Jelly}}x1 & 19,900
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Provoke Undead 7
+ |skilllevel = 75
+ |cost = {{Item|Royal Jelly}}x1 & 19,950
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Life Crush 7
+ |skilllevel = 75
+ |cost = {{Item|Royal Jelly}}x1 & 19,950
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Raise Skeletal Battle Mage 6
+ |skilllevel = 75
+ |cost = {{Item|Royal Jelly}}x1 & 19,950
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Heal Undead 8
+ |skilllevel = 76
+ |cost = {{Item|Royal Jelly}}x1 & 22,500
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Death's Hold 7
+ |skilllevel = 76
+ |cost = {{Item|Royal Jelly}}x1 & 22,500
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Deathgaze 7
+ |skilllevel = 77
+ |cost = {{Item|Royal Jelly}}x1 & 22,550
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Spark of Death 7
+ |skilllevel = 77
+ |cost = {{Item|Royal Jelly}}x1 & 22,550
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Rebuild Undead 8
+ |skilllevel = 78
+ |cost = {{Item|Royal Jelly}}x1 & 22,600
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Raise Skeletal Ratkin Mage 6
+ |skilllevel = 78
+ |cost = {{Item|Royal Jelly}}x1 & 22,600
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Raise Skeletal Archer 7
+ |skilllevel = 79
+ |cost = {{Item|Royal Jelly}}x1 & 22,650
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Raise Zombie 8
+ |skilllevel = 80
+ |cost = {{Item|Royal Jelly}}x1 & 22,700
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Life Steal 7
+ |skilllevel = 80
+ |cost = {{Item|Royal Jelly}}x1 & 22,700
+ |favor = ?
+}}
+{{NPC training row
+ |ability = Raise Skeletal Swordsman 7
+ |skilllevel = 81
+ |cost = {{Item|Royal Jelly}}x1 & 27,250
+ |favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cheesemaking]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Cheesemaking{{!}}Unlock Cheesemaking Skill Levels 61-70
+ | skilllevel = 60
+ | cost = {{Item|Royal Jelly}}x3 & 50,000
+ | favor = Comfortable
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Cheesemaking{{!}}Unlock Cheesemaking Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}}x3 & 200,000
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Provolone Cheese
+ | skilllevel = 62
+ | cost ={{Item|Royal Jelly}}x1 & 9,866
+ | favor = Friends
+}}
+<!--
+{{NPC training row
+ | recipe = Telemea Cheese
+ | skilllevel = 64
+ | cost=Hang Out
+ | favor = ?
+}}
+-->
+{{NPC training row
+ | recipe = Cambozola Cheese
+ | skilllevel = 66
+ | cost={{Item|Royal Jelly}}x1 & 11,333
+ | favor = Close Friends ?
+}}
+{{NPC training row
+ | recipe = Halloumi Cheese
+ | skilllevel = 70
+ | cost={{Item|Royal Jelly}}x1 & 11,466
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Feta Cheese
+ | skilllevel = 72
+ | cost={{Item|Royal Jelly}}x1 & 13,200
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Candle Making]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Candle Making{{!}}Unlock Candle Making Skill Levels 61-70
+ | skilllevel = 60
+ | cost = {{Item|Royal Jelly}}x3 & 50,000
+ | favor = Comfortable
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Candle Making{{!}}Unlock Candle Making Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}}x3 & 200,000
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Great Brisk Candle
+ | skilllevel = 64
+ | cost={{Item|Royal Jelly}}x1 & 9,933
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Woodland Candle
+ | skilllevel = 66
+ | cost={{Item|Royal Jelly}}x1 & 11,333
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Floral Candle
+ | skilllevel = 68
+ | cost={{Item|Royal Jelly}}x1 & 11,400
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Brisk Candle
+ | skilllevel = 74
+ | cost={{Item|Royal Jelly}}x1 & 13,266
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Woodland Candle
+ | skilllevel = 76
+ | cost={{Item|Royal Jelly}}x1 & 15,000
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Floral Candle
+ | skilllevel = 78
+ | cost={{Item|Royal Jelly}}x1 & 15,066
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Vampirism]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Vampirism{{!}}Unlock Vampirism Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}}x3 & 400,000
+ | favor = ?
+}}
+|}
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Bendith the Banished
+|favorrestriction =Comfortable
+|itemrestriction =Potions, Alchemy, and Cheesemaking
+|neutral =0
+|comfortable =10
+|friends =20
+|closefriends =30
+|bestfriends =40
+|likefamily =50
+|soulmates =60
+}}
+
+== Hang Outs ==
+{{Spoiler|Help Bendith make perfect cheese brine (3h) [requirements unknown -- Cheesemaking 64 and Best Friends sufficient]|
+{{Quote|Of all the knowledge that Autumn fairies consider 'evil', I suspect cheesemaking seems the silliest to mortals. Mortals think "Yes, we get it: repeatedly molesting a cow for your own personal gain is evil. But fairies don't consider eating meat to be evil, so how is this worse?" But that's not the reason!
+
+As you know, the alchemical formulae for cheese are quite simple. But as with all alchemy, powerful ingredients give powerful results. In this case we're working with an animal's sacrifice in liquid form, quite a powerful source! You see? That's why they call it evil: ALL magic powered by sacrifices or suffering are considered evil by the Autumn court.
+
+We Winter fae don't care about such things. But I wasn't kidding when I said I knew the dark arts of cheesemaking: since the Autumn fae consider it evil, Autumn practicioners are called Dairy Witches. I think that's wonderful. Here's one of their dark formulae. Try it some time. It's not bad.}}
+* 27 Favor
+* Learn recipe for {{Item|Telemea Cheese}}
+}}
+{{Spoiler|Help Bendith pull curds (4h) [requirements unknown -- Cheesemaking 68 and Like Family are sufficient]|
+* 35 Favor
+* Learn recipe for {{Item|Scamorza Cheese}}
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Bendith's Blade}}
+}}
+== Conversations ==
+=== Talk ===
+{{Quote|There is a high price for my help, but the knowledge will be well worth it.
+
+Well, I hope it is. But I promise nothing and no refunds!}}
+{{Quote|Let me guess: you've come to me for knowledge that you can't get elsewhere. Well, perhaps you've come to the right place.}}
+{{Quote|I'm sure that [[Midge the Apothecary|Midge 'The Apothecary']] is an expert alchemist, but she's in no shape to run a store at the moment... so I'm running one.
+
+That doesn't mean she can't run a shop, too: I love friendly competition! But she should focus on her health right now, don't you agree?}}
+
+{{Spoiler|Friends|{{Quote|I'm so glad you didn't tell anyone our secret pact. Because it was actually an old Winter curse I played on you. Had you told anyone about it, you would have died! Oh... shit. I forgot you're a mortal! That was really bad form! I'm sorry! 
+
+Oh, but the curse isn't dispelled, no! Tell no one! And I shall never speak of this again either, for your safety.}}}}
+
+{{Spoiler|Close Friends|{{Quote|Psst... I'm still working on the curse removal. Tell no-one of our secret pact!}}}}
+
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|I was banished for political reasons. I'm sure it'll work itself out eventually. But for a season or two, I guess I'm on the Summer side! It's a relief, really.}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|You can trust me. Okay, maybe I'm not as trustworthy as an Autumn fairy. Or even as trustworthy as a Summer fairy. But I'm more trustworthy than a Spring fairy! That's around average trustworthiness, give or take.}}
+}}
+{{Spoiler|Variation 3|
+{{Quote|I'm really not like other Winter fae. They're all about killing and freezing, but I'm all about dark powers and cheese... Well, okay, most Winter fae like cheese. It's Autumn fae that hate cheese!}}
+}}
+
+[[Category:NPCs]]

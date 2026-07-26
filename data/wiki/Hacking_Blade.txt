@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Hacking Blade
+| description = Cut deep, causing the target to bleed.
+| level = 10
+| power cost = 16
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|HackingBlade}}{{KWAB|Melee}}
+| damage = 20 Slashing initially and 6 Trauma 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Hacking Blade 2
+| description = Cut deep, causing the target to bleed.
+| level = 31
+| power cost = 25
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|HackingBlade}}{{KWAB|Melee}}
+| damage = 64 Slashing initially and 12 Trauma 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Hacking Blade 3
+| description = Cut deep, causing the target to bleed.
+| level = 49
+| power cost = 32
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|HackingBlade}}{{KWAB|Melee}}
+| damage = 139 Slashing initially and 18 Trauma 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Hacking Blade 4
+| description = Cut deep, causing the target to bleed.
+| level = 63
+| power cost = 38
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|HackingBlade}}{{KWAB|Melee}}
+| damage = 211 Slashing initially and 24 Trauma 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Hacking Blade 5
+| description = Cut deep, causing the target to bleed.
+| level = 77
+| power cost = 44
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|HackingBlade}}{{KWAB|Melee}}
+| damage = 294 Slashing initially and 30 Trauma 6 times over 12 seconds
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

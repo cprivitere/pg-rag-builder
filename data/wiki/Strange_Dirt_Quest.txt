@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Charles Thompson, a vendor in a tent outside of Serbule, asked you to obtain some "strange dirt -- you know, the kind that you sometimes find under mushrooms or corpses."
+
+===Prerequisites===
+To start this quest, talk to '''[[Charles Thompson]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|A favor? Oh, well, I'm out of dirt. Not just regular dirt, you understand -- the strange dirt you sometimes find under mushrooms or corpses. It has a million uses! Most people use it for fertilizer, but I use it in potions. I just use a lot of sugar to mask the taste.}}
+
+===Requirements===
+* Obtain {{Item|Strange Dirt}} x5
+* Talk to Charles Thompson
+
+===Rewards===
+{{Spoiler|Rewards for Strange Dirt|
+{{Quote|Ah, smell that dirt. It's... pretty smelly, actually. I guess I never really sniffed it before. Hm. Not the most appetizing potion ingredient, is it? Ha ha, no matter -- I use it because it has tiny fragments of soul stuck in it, not because it tastes good!}}
+
+* 100 {{Favor|favor}}
+* 300 councils 
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Charles Thompson]]

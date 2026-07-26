@@ -1,0 +1,35 @@
+__NOTOC__
+==Summary==
+Crelpin in the Fae Realm said, "You can do amazing things with the goo of a ripe fairy puff. Usually they explode too violently to be useful, but if you pop one that's perfectly ripe, you won't be hurt! Instead, you'll get coated in their goo.
+
+Go get yourself coated, then come see me. I'll use that goo for hive maintenance."
+
+This Quest can be repeated after 18 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Crelpin]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Comfortable}} favor. 
+
+===Preface===
+{{Quote|
+You can do amazing things with the goo of a ripe fairy puff. Usually they explode too violently to be useful, but if you pop one that's perfectly ripe, you won't be hurt! Instead, you'll get coated in their goo.
+
+Go get yourself coated, then come see me. I'll use that goo for hive maintenance.}}
+
+===Requirements===
+* Get Coated in Spore Bomb Goo
+* Talk to Crelpin
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thanks for the goo. I'll use this to make sure the hives around here are able to survive the fluctuations of winter. Here, this is for your trouble.
+
+And please return tomorrow, I need fresh fairy puff goo every day!}}
+* 50 {{Favor|favor}}
+* {{Item|Royal Jelly}}
+}}
+
+===The correct puff===
+The correct puff changes every day. Talking to Crelpin in Fae Realm lets you ask "Which fairy puffs are ripe today?" which gives you the name of the species you must target. When you target a fairy puff (Found in the central area of the Fae Realm), the subtext will say the species.
+
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Crelpin]]

@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Yagreet]] at the fairy tree asked for some rubbery tongues, most commonly found on dead Ranalans.
+
+===Prerequisites===
+To start this quest, talk to '''[[Yagreet]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I've been experimenting with the local fauna. The creatures here have interesting healing properties! I think I can use the tongues of those horrid little frog people as super-strong binding material for broken wings. I don't condone violence, but if you happen upon a dead frog man, you could maybe collect its tongue...}}
+
+===Requirements===
+* Obtain {{Item|Rubbery Tongue}}s x6
+* Talk to [[Yagreet]]
+
+===Rewards===
+{{Spoiler|Rewards for Tongues of The Ranalan|
+{{Quote|Oh, wow, I didn't realize the tongues were so long! I probably could have done with fewer of them. But thanks! Hmm, here! I brought a lot of these with me from the fae realm for their medicinal value, but mortals seem to like them because they're shiny.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Diamond}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Yagreet]]

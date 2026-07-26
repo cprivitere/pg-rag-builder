@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Syndra in Kur Mountains wishes she had some dragon scales to take home with her.
+
+===Prerequisites===
+To start this quest, talk to '''[[Syndra]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|Back in Sinoca I had a state of the art research laboratory for inventing new augmentation oils. I had a breakthrough design that requires dragon scales, but, of course... I could never find any dragon scales! Wouldn't it be great if I found some dragon scales to take home with me? It'd almost make this experience worthwhile. Uh... do you know where any already-dead dragons are? ... Me neither.}}
+
+===Requirements===
+* Obtain Dragon Scales (3)
+* Talk to Syndra
+
+===Hints===
+Dragon Scales can be obtained from Droaches, located in the [[Dark Chapel]], or from Drakeworms in the [[Ilmari]] Desert.
+
+===Rewards===
+{{Spoiler|Rewards for Scales of a Dragon!|
+{{Quote|Oh my goodness. You're too much! You found a dead dragon and pried off its scales for me?! Thank you so much! I hope it wasn't too scary. Even if it was long-dead I'd be a little scared of such a fearsome monster. I wish I had something to offer you... hm, here. This is... a thing!}}
+
+* 250 {{Favor|favor}}
+* {{Item|Hope Oil}}
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Syndra]]

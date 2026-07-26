@@ -1,0 +1,29 @@
+__NOTOC__
+{{NPC infobox
+|title = Verac
+|image = 
+|caption =
+|eventnpc = Yes
+|zone = Red Wing Casino
+|location = Around performance stage.
+|beastspeak = Yes
+|beastlist = All
+|anatomy =
+|species =
+}}
+[[Verac]] is the Saddlery NPC of the [[Crafting Caravan]]. The repeatable quests [[Verac]] offers give {{Item|Crafter's Guild Token}} as rewards. These tokens are bartered with [[Orran]] during the event.
+== Location ==
+; [[Red Wing Casino]]
+: [[Verac]] can be encountered during the [[Crafting Caravan]] event.
+
+==Quests==
+<dpl>
+category = Quests/Verac
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Conversations==
+
+[[Category:NPCs]] [[Category:Crafting Caravan NPCs]][[Category:NoRiShin]]

@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Jake the Buckler in Sun Vale asked for a pot of Lemon Chiffon dye. You previously learned that a mantis living outside of Serbule can sell you the recipe. There may be other ways to acquire the dye, too.
+
+===Prerequisites===
+To start this quest, talk to '''[[Jake The Buckler]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Expert's Advice]] in order to undertake this quest.
+
+===Preface===
+{{Quote|So can you get me some of this lemon chiffon dye? Firaki said some mantis in Serbule sells the recipe, right? How many mantises can there be?
+
+Do this for me and I'll teach you how to make your own buckles.}}
+
+===Requirements===
+* Obtain {{Item|Lemon Chiffon Dye}}
+* Talk to Jake the Buckler
+
+===Rewards===
+{{Spoiler|Rewards for Lemony Dye|
+{{Quote|This is it! Hm. It's... it's really ugly. But I'll give it a try. Thanks. And a deal's a deal: let me teach you the basics of buckle artistry.}}
+
+* 100 {{Favor|favor}}
+* 10 XP in [[Buckle Artistry]]
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Jake The Buckler]]

@@ -1,0 +1,51 @@
+==<b>July 21 Update</b>==
+This week's snapshot focuses on bug fixes, especially some recent client crashes. This is also the first build that will require a 64-bit OS.
+
+===<b>Mushrooms & Mushroom Farming</b>===
+:: - The various caves in [[Gazluk]] are flagged as caves for purposes of growing mushrooms, aging cheese, etc.
+:: - The XP earned from higher-level Substrate has been reduced.
+:: - The XP earned from higher-level Grow Boxes has been increased.
+:: - Mushroom teleportation recipe scrolls are now properly destroyed after use.
+:: - Mushroom grow-boxes with long durations could not be used more than once. The intended design is that they can be restarted for as long as their duration remains. (When the duration runs out, they can still be harvested, but won't grow more mushrooms.)
+:: - The mushroom farming skill report indicated the wrong number of available grow-boxes. (It was based on your [[Brewing]] skill instead of your [[Mushroom Farming]] skill.)
+:: - The recipe for Lucky Mushroom Box (12 hour) now requires a Field Mushroom Suspension, not a Parasol Mushroom Suspension.
+:: - The recipe description for Epic Crop Mushroom Box differed from the item description. It needs 2x substrate, not 3x.
+:: - The recipe for "Epic Crop Mushroom Box" requires level 25, not level 5.
+:: - The "Lucky Mushroom Box (48 hour)" had only a 36-hour duration. 
+:: - The mushroom circle in Serbule now contains some permanent mushrooms, so it can no longer be picked completely clean.
+
+===<b>Quests & Stuff</b>===
+:: - The version of [[Rick Snapley]]'s hangout "Throw Darts and Drink Beer" intended for animals was instead available to non-animals only. (So non-animals had two of the same-named hangout available to them.)
+:: - Added some dialog to [[Rick Snapley]] to indicate when he has the "Proof of Rahu's Involvement" quest available.
+:: - For the favor "Safer Crystal Transport", which requires two different items, the quest status for the second item did not update until the first item had been obtained.
+:: - Torgan's Shield did not require Hardcore death penalty as intended.
+:: - [[Torgan]]'s trade for Dark Alicorns has changed so that it just needs resources, not an alicorn. (It would always take the cheapest-value alicorn from your inventory, which may not be the desired outcome.)
+
+===<b>Abilities & Stuff</b>===
+:: - Fixed an aggro bug that caused armor damage to count as negative aggro. This bug would be most noticeable at the beginning of fights (when monsters are losing lots of armor).
+:: - Treasure mod "Rotskin deals +X% Armor damage and boosts your Nice Attack Damage +Y% for 10 seconds" was not lasting 10 seconds.
+:: - Slashing Strike 2 and 3 could be learned without knowing the lower-tier versions. Also, all three versions could be used on your Unarmed ability bar at the same time, with separate timers, instead of being upgrades of each other as intended.
+
+===<b>Guilds & Stuff</b>===
+:: - Fixed an error that caused "/guild auditlogs" to fail if there was a bad entry in the audit logs. However, we do not yet know what generated those "bad entries" in the audit logs -- they will now show up as "(missing entry of type FOO)", where FOO will be a useful clue to help us debug it. If you see this, please report what the FOO in that sentence is displayed as, and if you have insight into how it happened, that'd be very useful also!
+:: - Fixed an error that could cause "/who all" to fail if someone logged off right as the command was processing.
+:: - Fixed an error that could cause "/guild who" to fail if someone logged ON right as the command was processing.
+:: - The guild help (from /guild help) now documents the correct guildmaster command to remove someone from the guild: it is /guild eject, not /guild kick. (The latter is reserved for future management of the guild chat channel.)
+:: - If a player is renamed (by an admin), their name in the guild will be updated the next time the player logs on.
+
+===<b>Other Stuff</b>===
+:: - The Windows client now requires a 64-bit version of Windows.
+:: - Fixed a crash that could happen immediately upon logging in (or entering a new area).
+:: - Fixed hole in geometry in [[Snowblood Shadow Cave]], near entrance.
+:: - Fixed a bug that let you distill augments into phlogiston.
+:: - The text descriptions for basic/strong/pungent rennet now indicate that they give you two rennet per recipe.
+:: - Ability scrolls and poetry books now have their own respective icons.
+:: - Added a new icon for Eyestalks.
+:: - Bitter-Mint Tea no longer uses the icon for butter.
+:: - Fixed [[Fainor]]'s butter recipe icon.
+:: - Various weekend buff events now have appropriate icons.
+:: - The signpost text "-Fogula Melben, Propietress" no longer has a new line in the middle of Fogula's name.
+:: - Giant Phrenology no longer references humans instead of giants. 
+:: - Small tweaks to format of the sources_abilities.json and sources_recipes.json files.
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

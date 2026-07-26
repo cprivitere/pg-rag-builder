@@ -1,0 +1,147 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Double Claw
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 13
+| power cost = 10
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 39 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 2
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 22
+| power cost = 12
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 59 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 3
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 42
+| power cost = 17
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 141 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 4
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 52
+| power cost = 19
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 214 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 5
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 62
+| power cost = 21
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 286 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 6
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 72
+| power cost = 23
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 364 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 7
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 82
+| power cost = 26
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 452 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 8
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 92
+| power cost = 29
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 543 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 9
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 102
+| power cost = 31
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 639 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 10
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 112
+| power cost = 34
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 744 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Double Claw 11
+| description = Attack with repeated mauling claws to the target's exposed flesh. Damage is reduced by 1 for every 5 points of armor the foe has left.
+| level = 122
+| power cost = 37
+| reuse time = 7
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|DoubleClaw}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 850 Slashing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

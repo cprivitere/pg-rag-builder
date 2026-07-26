@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Flia has asked for a large amount of Iocaine Powder.
+
+===Prerequisites===
+To start this quest, talk to '''[[Flia]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|A poor transmogrified pigeon has been stopping by recently, begging for my help. Well, I can't help him, so I think it's time I put him down. Can you get me some Iocaine Powder? It's the most humane way.}}
+
+===Requirements===
+* Obtain {{Item|Iocaine Powder}} x3
+* Talk to Flia
+
+===Rewards===
+{{Spoiler|Rewards for Flia's Odd Mushroom Request|
+{{Quote|Thank you! Would you like a snack? These are the unpoisoned ones, I promise! Tee hee!}}
+
+* 250 {{Favor|favor}}
+* {{Item|Banana Bread}} x 2
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Flia]]

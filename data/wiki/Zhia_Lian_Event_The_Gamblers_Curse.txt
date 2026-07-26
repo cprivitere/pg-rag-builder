@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Chaf in the Red Wing Casino gave you his supposedly-cursed coin and asked you to beat the game of Monsters and Mantids to prove it's not really cursed.
+
+Beating the game is incredibly hard, though, requiring you to win dozens of fights in a row without dying. You'll need luck and good table buffs, because this is no easy feat!
+
+This Quest can be repeated after 60 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Chaf Springfield]]''' in the '''[[Red Wing Casino]]'''.
+
+===Requirements===
+* Win Monsters and Mantids
+* Talk to Chaf
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|I can't believe you did it! You beat the game! I guess I'm not cursed after all. That means... hey, that means I was just unlucky! Which means my luck should turn around any time now! Thanks! It's time to gamble!}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Chaf Springfield]][[Category:Quests/Halloween Quests]]

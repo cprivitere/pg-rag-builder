@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Torgan in New Prestonbule said, "My new hammer must have a handle of impeccable quality. Spruce is, of course, the ideal wood for gripping, but its strength is substandard... except for very occasional pieces of spruce. I need those perfect specimens of spruce wood!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Torgan]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|My new hammer must have a handle of impeccable quality. Spruce is, of course, the ideal wood for gripping, but its strength is substandard... except for very occasional pieces of spruce. I need those perfect specimens of spruce wood!}}
+
+===Requirements===
+* Obtain {{Item|Perfect Spruce Wood}} x3
+* Talk to Torgan
+
+===Rewards===
+{{Spoiler|Rewards for Only The Best Handles|
+{{Quote|Yes, yes, very good. I find it fascinating that you were able to complete this task. It often takes many orcs many weeks to find spruce of this quality! You must be more impressive than you look!}}
+
+* 100 {{Favor|favor}}
+* 3000 councils 
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Torgan]]

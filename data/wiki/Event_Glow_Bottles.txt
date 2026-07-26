@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+[[Leah Bowman]] in [[Povus]] said, "It's tradition to use glow bottles on the tree. The alchemist who used to make them is dead now, but she taught me the technique! Most of the ingredients are pretty upsetting, seeing as they come from living animals. But remember, this is for presents! So if you get the parts, I'll make the jars."
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Leah Bowman]]''' in '''[[Povus]]'''.
+===Preface===
+It's tradition to use glow bottles on the tree. The alchemist who used to make them is dead now, but she taught me the technique! Most of the ingredients are pretty upsetting, seeing as they come from living animals. But remember, this is for presents! So if you get the parts, I'll make the jars.
+===Requirements===
+* Obtain {{Item|Kuvou Poison Sack}} x1
+* Obtain {{Item|Ratkin Cheese Mold}} x1
+* Obtain {{Item|Tentakiller Gland}} x3
+* Obtain {{Item|Hexapus Mouth Ring}} x1
+* Talk to [[Leah Bowman]]
+
+===Rewards===
+{{Spoiler|Rewards for Event: Glow Bottles|
+{{Quote|Great! You got all the stuff? Well I guess it's my turn to get my hands dirty. Now where did I leave those potion jars from last time?}}
+* 25 {{Favor|favor}} with [[Leah Bowman]]
+* 1 {{Favor|favor}} with [[Ri-Shin]]
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Leah Bowman]][[Category:Quests/Ri-Shin Quests]]

@@ -1,0 +1,33 @@
+__NOTOC__
+==Summary==
+Ensign Cricket aboard the Wintertide said, "Hippogriffs aren't immortal. Did you know that? Yeah, they hatch out of eggs! We have a hatchery on board, too. You should go kill the brood mother!
+
+You'll know you're in the right place when the temperature drops. They keep Coldfeather's quarters very cold!"
+
+This Quest can be repeated after 30 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ensign Cricket]]''' in '''[[The Wintertide]]'''. The quest is available at {{Favor|Comfortable}} favor. You must have previously completed [[Noisy Arcta Hippogriffs]] in order to undertake this quest. 
+
+===Preface===
+Hippogriffs aren't immortal. Did you know that? Yeah, they hatch out of eggs! We have a hatchery on board, too. You should go kill the brood mother!
+
+You'll know you're in the right place when the temperature drops. They keep Coldfeather's quarters very cold!
+
+===Requirements===
+* Kill Coldfeather
+* Talk to Ensign Cricket
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Coldfeather is dead? Huh. I guess I expected to feel better about that, since cleaning frozen bird poop is extremely unfun. But actually I'm kind of sad.
+
+Well, there's more brood hippogriffs, and I'm sure we'll get a new one soon. Unless you blow up the ship first! Here's hoping!
+
+Hey, what's that up there?! Hah, made you look! Hmm? Oh, no, it's just a memory injector. Do you feel the memory? Then it worked! This 'coffee' thing isn't a fairy invention, though. Actually, we found it on the mortal realm! But it's pretty good. Maybe some day you'll be able to make some. Or not. Who cares.}}
+* 100 {{Favor|favor}}
+* Recipe: Crone Coffee
+* {{Item|Royal Jelly}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm? Quests]][[Category:Quests/Ensign Cricket]]

@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Kelim]] in [[Amulna]] said, "We need something eye-catching to top the tree. How about... hmm... a pair of scorpion stingers?!"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Kelim]]''' in the '''[[Ilmari Desert]]'''.
+
+===Preface===
+We need something eye-catching to top the tree. How about... hmm... a pair of scorpion stingers?!
+
+===Requirements===
+* Obtain {{Item|Scorpion Stinger}} x2
+* Talk to [[Kelim]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Wow, you got them! Hmm. They're kind of gross. But no problem; I'll have Gremix class them up with some metal or something.}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/Kelim]][[Category:Quests/Ri-Shin Quests]]

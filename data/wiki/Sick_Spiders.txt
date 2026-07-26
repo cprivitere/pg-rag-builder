@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Silvia]] in [[Sun Vale]] said, "I'm getting reports that some of the spiders near here are developing some sort of spinneret-related disease. If that's true, I may be able to identify the problem if I can study enough of their spiderwebs."
+
+===Prerequisites===
+To start this quest, talk to '''[[Silvia]]''' in '''[[Sun Vale]]'''. You must have previously completed [[Rabid Deer]] in order to undertake this quest. This quest is only available to [[Fairy|Fae]]. 
+
+===Preface===
+{{Quote|I'm getting reports that some of the spiders near here are developing some sort of spinneret-related disease. If that's true, I may be able to identify the problem if I can study enough of their spiderwebs.}}
+
+===Requirements===
+* Obtain {{Item|Spiderweb}}s x10
+* Talk to [[Silvia]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Good, good. Hmm ... These look pretty normal to me. We'll have to keep an eye on the situation, but right now I don't think we need to take action. }}
+* 25 {{Favor|favor}}
+*[[Butchering]] raised to Level 30.
+}}
+
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Silvia]][[Category:Quests/Fae Quests]]

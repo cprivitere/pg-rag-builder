@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Ensign Cricket aboard the Wintertide said, "The loudest things aboard are definitely the hippogriffs. At first it was neat hearing them shriek all night, but it's gotten a little repetitive. I think any official invasion party would really need to kill those! Thanks!"
+
+This Quest can be repeated after 30 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ensign Cricket]]''' in '''[[The Wintertide]]'''. The quest is available at {{Favor|Comfortable}} favor. 
+
+===Preface===
+The loudest things aboard are definitely the hippogriffs. At first it was neat hearing them shriek all night, but it's gotten a little repetitive. I think any official invasion party would really need to kill those! Thanks!
+
+===Requirements===
+* Kill Arcta Hippogriffs x10
+* Talk to Ensign Cricket
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Nice. I really hated cleaning up after those birds! Thanks! Here's some precious loot. Tell people that I gave it to you under great duress.}}
+* 100 {{Favor|favor}}
+* {{Item|Royal Jelly}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm? Quests]][[Category:Quests/Ensign Cricket]]

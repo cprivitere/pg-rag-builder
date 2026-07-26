@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Pummeling Hooves
+| description = A rapid sequence of front kicks that makes sure enemies keep paying attention to you.
+| level = 7
+| power cost = 12
+| reuse time = 7
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|PummelingHooves}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 19 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pummeling Hooves 2
+| description = A rapid sequence of front kicks that makes sure enemies keep paying attention to you.
+| level = 17
+| power cost = 16
+| reuse time = 7
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|PummelingHooves}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 35 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pummeling Hooves 3
+| description = A rapid sequence of front kicks that makes sure enemies keep paying attention to you.
+| level = 29
+| power cost = 20
+| reuse time = 7
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|PummelingHooves}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 58 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pummeling Hooves 4
+| description = A rapid sequence of front kicks that makes sure enemies keep paying attention to you.
+| level = 37
+| power cost = 23
+| reuse time = 7
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|PummelingHooves}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 84 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pummeling Hooves 5
+| description = A rapid sequence of front kicks that makes sure enemies keep paying attention to you.
+| level = 47
+| power cost = 26
+| reuse time = 7
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|PummelingHooves}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 128 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pummeling Hooves 6
+| description = A rapid sequence of front kicks that makes sure enemies keep paying attention to you.
+| level = 57
+| power cost = 29
+| reuse time = 7
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|PummelingHooves}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 180 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pummeling Hooves 7
+| description = A rapid sequence of front kicks that makes sure enemies keep paying attention to you.
+| level = 67
+| power cost = 33
+| reuse time = 7
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|PummelingHooves}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 233 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Pummeling Hooves 8
+| description = A rapid sequence of front kicks that makes sure enemies keep paying attention to you.
+| level = 77
+| power cost = 36
+| reuse time = 7
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|PummelingHooves}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}
+| damage = 294 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Barnaby in the Sacred Warden Grotto said, "We're having some trouble with the "drawing with ink" lessons: Rubi refuses to get her paws inked up. I think I need something less messy to help them build paw-mouth dexterity. Help me get the raw materials for a little sewing project."
+
+===Prerequisites===
+To start this quest, talk to '''[[Barnaby]]''' in the '''[[Sacred Grotto]]'''. The quest is available at {{Favor|Neutral}} favor. You must have previously completed [[Fox Drawing Lessons]] in order to undertake this quest.
+
+===Preface===
+We're having some trouble with the "drawing with ink" lessons: Rubi refuses to get her paws inked up. I think I need something less messy to help them build paw-mouth dexterity. Help me get the raw materials for a little sewing project.
+
+===Requirements===
+* Obtain Simple Blankets x2
+* Obtain Coarse Cotton Yarn x2
+* Obtain Feathers x4
+* Talk to Barnaby
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Very good work. This will take a while, I expect! And I'll have bandages ready, because somebody's lip is going to get pierced by a needle, I just know it. But they'll learn incredibly fast, you'll see.}}
+* 100 {{Favor|favor}}
+* 7 Warden Points
+}}
+
+[[Category:Quests]][[Category:Quests/Sacred Grotto Quests]][[Category:Quests/Barnaby]]

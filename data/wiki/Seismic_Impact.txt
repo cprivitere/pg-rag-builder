@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Seismic Impact
+| description = Use your brute power to leave an enemy off-balance and reeling.
+| level = 7
+| power cost = 23
+| reuse time = 15
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|SeismicImpact}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|NiceAttack}}
+| damage = 24 Crushing
+| special = Target's speed is reduced by 90% for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Seismic Impact 2
+| description = Use your brute power to leave an enemy off-balance and reeling.
+| level = 18
+| power cost = 30
+| reuse time = 15
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|SeismicImpact}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|NiceAttack}}
+| damage = 55 Crushing
+| special = Target's speed is reduced by 90% for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Seismic Impact 3
+| description = Use your brute power to leave an enemy off-balance and reeling.
+| level = 27
+| power cost = 36
+| reuse time = 15
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|SeismicImpact}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|NiceAttack}}
+| damage = 87 Crushing
+| special = Target's speed is reduced by 90% for 8 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Seismic Impact 4
+| description = Use your brute power to leave an enemy off-balance and reeling.
+| level = 44
+| power cost = 46
+| reuse time = 15
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|SeismicImpact}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|NiceAttack}}
+| damage = 178 Crushing
+| special = Target's speed is reduced by 90% for 8 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Seismic Impact 5
+| description = Use your brute power to leave an enemy off-balance and reeling.
+| level = 53
+| power cost = 51
+| reuse time = 15
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|SeismicImpact}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|NiceAttack}}
+| damage = 256 Crushing
+| special = Target's speed is reduced by 90% for 11 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Seismic Impact 6
+| description = Use your brute power to leave an enemy off-balance and reeling.
+| level = 63
+| power cost = 57
+| reuse time = 15
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|SeismicImpact}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|NiceAttack}}
+| damage = 340 Crushing
+| special = Target's speed is reduced by 90% for 11 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Seismic Impact 7
+| description = Use your brute power to leave an enemy off-balance and reeling.
+| level = 73
+| power cost = 63
+| reuse time = 15
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|SeismicImpact}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|NiceAttack}}
+| damage = 433 Crushing
+| special = Target's speed is reduced by 90% for 11 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Seismic Impact 8
+| description = Use your brute power to leave an enemy off-balance and reeling.
+| level = 83
+| power cost = 69
+| reuse time = 15
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|SeismicImpact}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}{{KWAB|NiceAttack}}
+| damage = 535 Crushing
+| special = Target's speed is reduced by 90% for 11 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

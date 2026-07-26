@@ -1,0 +1,94 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Ring of Fire
+| description = Blast all nearby enemies with an incendiary wave of fire, leaving them burning.
+| level = 20
+| power cost = 26
+| reuse time = 12
+| range = 0 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|FireBurst}}{{KWAB|RingOfFire}}{{KWAB|FireMagicAttack}}{{KWAB|Burst}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 47 Fire initially and 5 Fire 6 times over 12 seconds
+| special = Restores 1 Body Heat in cold environments.
+}}
+|-
+|
+{{Ability infobox
+| name = Ring of Fire 2
+| description = Blast all nearby enemies with an incendiary wave of fire, leaving them burning.
+| level = 25
+| power cost = 32
+| reuse time = 12
+| range = 0 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|FireBurst}}{{KWAB|RingOfFire}}{{KWAB|FireMagicAttack}}{{KWAB|Burst}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 60 Fire initially and 10 Fire 6 times over 12 seconds
+| special = Restores 2 Body Heat in cold environments.
+}}
+|-
+|
+{{Ability infobox
+| name = Ring of Fire 3
+| description = Blast all nearby enemies with an incendiary wave of fire, leaving them burning.
+| level = 35
+| power cost = 42
+| reuse time = 12
+| range = 0 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|FireBurst}}{{KWAB|RingOfFire}}{{KWAB|FireMagicAttack}}{{KWAB|Burst}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 88 Fire initially and 15 Fire 6 times over 12 seconds
+| special = Restores 3 Body Heat in cold environments.
+}}
+|-
+|
+{{Ability infobox
+| name = Ring of Fire 4
+| description = Blast all nearby enemies with an incendiary wave of fire, leaving them burning.
+| level = 50
+| power cost = 50
+| reuse time = 12
+| range = 0 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|FireBurst}}{{KWAB|RingOfFire}}{{KWAB|FireMagicAttack}}{{KWAB|Burst}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 170 Fire initially and 20 Fire 6 times over 12 seconds
+| special = Restores 4 Body Heat in cold environments.
+}}
+|-
+|
+{{Ability infobox
+| name = Ring of Fire 5
+| description = Blast all nearby enemies with an incendiary wave of fire, leaving them burning.
+| level = 65
+| power cost = 60
+| reuse time = 12
+| range = 0 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|FireBurst}}{{KWAB|RingOfFire}}{{KWAB|FireMagicAttack}}{{KWAB|Burst}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 262 Fire initially and 25 Fire 6 times over 12 seconds
+| special = Restores 5 Body Heat in cold environments.
+}}
+|-
+|
+{{Ability infobox
+| name = Ring of Fire 6
+| description = Blast all nearby enemies with an incendiary wave of fire, leaving them burning.
+| level = 75
+| power cost = 66
+| reuse time = 12
+| range = 0 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|FireBurst}}{{KWAB|RingOfFire}}{{KWAB|FireMagicAttack}}{{KWAB|Burst}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 332 Fire initially and 30 Fire 6 times over 12 seconds
+| special = Restores 6 Body Heat in cold environments.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

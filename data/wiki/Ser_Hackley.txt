@@ -1,0 +1,177 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ser Hackley
+|image            = [[File:Ser Hackley (npc).png|300px]] 
+|caption          = Soured on life
+|zone             = Statehelm
+|town = Statehelm
+|location         = Council Grounds
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|vendor = Yes
+|storage = Yes
+|skilltrainer     = [[Civil Engineering]]
+}}
+{{Quote|source=[[Ser Hackley]]| 
+If I hear one more story about mushrooms attacking people, I'm going to cry. I'm an engineer! What the heck am I supposed to do about that? Hm? You tell me!}}
+[[Ser Hackley]] is a Council Chancellor and Commander of City Maintenance for the city of Statehelm. 
+== Location ==
+; [[Statehelm]]
+: [[Ser Hackley]] can be found on the landing in-front of the Council Grounds in the western section of the city of [[Statehelm]].
+== Shopkeeper ==
+{{Quote|source=[[Ser Hackley]]|I can sell some basic sundries. If you're looking for graffiti cleaner, consider bartering with me instead.}}
+{{Vendor items sold}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Ser Hackley]] rewards her friends with __TBD__
+== Quests ==
+[[Ser Hackley]] offers individuals with (''{{favor|Neutral}}''' favor) and [[Civil Engineering]] training one initial quest. Starting this quest unlocks the manholes scattered around the city.
+<dpl>
+category = Quests/Ser Hackley
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+* Training of Civil Engineering requires one of the following skills at Level 25: [[Gadgeteering]], [[Alchemy]], [[Civic Pride]], [[Carpentry]].
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Civil Engineering]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Civil Engineering{{pipe}}Learn Civil Engineering
+ |skilllevel = 0
+ |cost=900
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Basic Bug Bomb
+ |skilllevel= 35
+ |cost= ?
+ |favor=?
+}}
+|}
+
+== Services ==
+==== [[Storage]] ====
+{{Quote|source=[[Ser Hackley]]|You want to store stuff? ... Here? With me? Well, I guess there's room for you to store cleaning supplies here. But I can't be responsible for anything valuable.}}
+{{NPC STORAGE
+|npcname = Ser Hackley
+|favorrestriction =Friends
+|itemrestriction = Cleaning Supplies
+|neutral =0
+|comfortable =0
+|friends =10
+|closefriends =20
+|bestfriends =30
+|likefamily =40
+|soulmates =50
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Ser Hackley]]| 
+I'm sorry, I can't change anything about the cornucopia today. I understand the complaints, believe me, but...
+
+'''What's wrong with the cornucopia?'''
+
+'''Don't worry. I'm not here to complain about the cornucopia.'''
+
+Council says this way's better, so this way's better. That's all I know.
+
+Now is there anything else I can help you with?
+
+'''Maybe... what is it you do here?'''
+
+I'm Ser Hackley, the Commander of City Maintenance. I'm responsible for keeping this city together. But I'm sorry to report that pretty much every single engineer under my command has been routed to the battlefield., so very little maintenance is getting done right now.
+
+You just need to be patient, we will restore the city to its proper beauty right after we quell the demon problem in Vidaria.
+
+'''Is there anything I can do to help in the meantime?'''
+
+Do I know you? Here, can I have your palm for a moment?
+
+(Ser Hackley runs a gizmo over your palm).
+
+You're already employed by the Council! Well that's great! The answer is yes, you can help! Hopefully. If you have any construction background, I can teach you the basics of civil engineering.
+
+(Training available: learning [[Civil Engineering]] will unlock Favors).
+
+'''Okay.'''}}
+
+{{Quote|source=Ser Hackley (In Animal Form)|'''Is there anything I can do to help in the meantime?'''
+[Ser Hackley squints.]
+
+A talking spider, eh? Well... can you give me your hand for a moment? ... You know what I mean. Thank you.
+
+[Ser Hackley runs a gizmo over you.]
+
+You're already employed by the Council! How did that happen? No, wait, I don't care. Are you an engineer spider? If so, I can teach you the basics of civil engineering safety, and you can help me.
+
+[Training available: learning [[Civil Engineering]] will unlock Favors].}}
+
+{{Quote|source=[[Ser Hackley]]|
+I'm responsible for all sorts of city technology. In better times I had quite a few full-time engineers working for me, but now I only have whiny citizens and an aching back.}}
+{{Quote|source=[[Ser Hackley]]|
+I'm a Council Chancellor. We work directly with the Council mages and can act on their behalf. And it's no secret that the Council is pretty preoccupied most of the time. We Chancellors have to keep everything running.}}
+{{Quote|source=[[Ser Hackley]]|
+It's true, the old v2 cornucopia broke down all the time. Food would get stuck in it and pressure would build up. Damned stupid design. Of course, the v3 isn't a lot of fun. But it hasn't broken down as much.}}
+{{Quote|source=[[Ser Hackley]]|
+Plants are overgrown, the sewer's clogged, and vandals are ruining the city! It's a nightmare.}}
+{{Quote|source=[[Ser Hackley]]|
+Oh good, the new order of bulbs came in. We were running low.
+
+Some days I think just going back to oil lamps would be better. We'd have to light them all, but at least they stay lit. These bulbs go out all the time!}}
+{{Quote|source=[[Ser Hackley]] (Favor Advanced: Where Are The Police?!)| 
+Why do people think I'm responsible for investigating thefts? Ugh! But yes, I did report [[Elune]]'s story to the constabulary. They made a perfunctory investigation and decided it was [[Denton Razor]]'s gang. And that's the end of that! We don't tangle with Razor's gang if we can help it. She's out of luck.
+
+No no, don't tell Elune that! Tell her we're still investigating and it's an intricate process and time will tell and there are multiple investigative vectors etcetera etcetera. Sheesh}}
+{{Quote|source=[[Ser Hackley]] (Friends Favor)| 
+'''Why don't you like your official title of Chancellor?'''
+
+Typecasting, mostly: I try to be approachable. With a big title, some people are less willing to talk to you.
+
+But the other thing is that my background is from the military, where I was -- am -- a Praetor. Chancellors are the civilian equivalent of Praetors, but technically we're higher in seniority. If the Council were to mysteriously disappear, us Praetors would take over in the short term. Which I guess can be confusing, since Praetors report to Generals. You'd think the Generals would take over in an emergency, but they're too important to ever take on emergency roles.
+
+Naturally, some Chancellors don't think this is a reasonable system. I don't really care either way, so I'm just trying not to rub it in their faces, you know?
+
+So I don't use the P-word too often.
+
+'''How did you become a civilian official, then?'''
+
+Well my predecessor for the role, [[Chancellor Vertak]], disappeared under mysterious circumstances. I was laid up with hellfire sickness at the time, so I got stuck doing his job. Made the rookie mistake of doing my best, and now I'm still here.
+
+Vertak's disappearance was a huge blow for Rakshasa perception in our city. He was the first Rakshasa Chancellor. He was born and raised here in the city. But then he vanished, along with a very dangerous artifact.
+
+'''He couldn't be found? Even by the Council?'''
+
+They did divinations, but the results were confusing. Supposedly he lit himself on fire and burned to death somewhere outside of the walls. Which doesn't sound right. Nobody really believes that, not even the Council. But they didn't spend more time on it.
+
+If he hadn't been carrying a piece of [[The Sword of Bigotry]], his story would have been forgotten.
+
+'''The Sword of Bigotry? That sounds... impractical as a weapon.'''
+
+Hah! It's godstuff. When [[Ilth Hale]] reappeared to punish humanity, she wielded the Sword of Bigotry. It just made her more powerful, I guess. It's all sort of symbolic.
+
+The sword was shattered when she was defeated. At which point the symbolic sword became a real sword. Or maybe it was always real? I don't understand gods. But the fragments of the sword are powerful with necromantic potential.
+
+This sliver of the sword was kept safe in the Council chambers. We don't know how he got it, or why. But it was gone the same day he disappeared, so we put the clues together.
+
+Maybe the Council knows more than they let on. I would have expected them to search harder for it!
+
+'''Interesting.'''}}
+
+
+[[Category:NPCs]]

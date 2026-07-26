@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Gurki asked you for a Nice Calligraphy Bench
+
+===Prerequisites===
+To start this quest, talk to '''[[Gurki]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|Been drawing up new tailoring plans. Gotta keep my mind off the Shadow Keepers! But it's a bitch to draw anything in this frozen hellhole. What I wouldn't do for a nice calligraphy bench!}}
+
+===Requirements===
+* Obtain a {{Item|Nice Calligraphy Bench}}
+* Talk to Gurki
+
+===Rewards===
+{{Spoiler|Rewards for A Bench For Writing|
+{{Quote|Wow, I didn't expect you to manage that. Thank you. Ain't got much to repay you with, but here's some tailoring supplies.}}
+
+* 150 {{Favor|favor}}
+* {{Item|Voile Muslin}} x 20
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Gurki]]

@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Frenzy
+| description = Work yourself and your allies into a frenzy of violence.
+| level = 11
+| power cost = 28
+| reuse time = 30
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Frenzy}}{{KWAB|Pig}}
+| special = You and your allies' melee attacks deal +10 damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frenzy 2
+| description = Work yourself and your allies into a frenzy of violence.
+| level = 23
+| power cost = 36
+| reuse time = 30
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Frenzy}}{{KWAB|Pig}}
+| special = You and your allies' melee attacks deal +20 damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frenzy 3
+| description = Work yourself and your allies into a frenzy of violence.
+| level = 34
+| power cost = 45
+| reuse time = 30
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Frenzy}}{{KWAB|Pig}}
+| special = You and your allies' melee attacks deal +30 damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frenzy 4
+| description = Work yourself and your allies into a frenzy of violence.
+| level = 44
+| power cost = 52
+| reuse time = 30
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Frenzy}}{{KWAB|Pig}}
+| special = You and your allies' melee attacks deal +40 damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frenzy 5
+| description = Work yourself and your allies into a frenzy of violence.
+| level = 55
+| power cost = 59
+| reuse time = 30
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Frenzy}}{{KWAB|Pig}}
+| special = You and your allies' melee attacks deal +50 damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frenzy 6
+| description = Work yourself and your allies into a frenzy of violence.
+| level = 66
+| power cost = 67
+| reuse time = 30
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Frenzy}}{{KWAB|Pig}}
+| special = You and your allies' melee attacks deal +60 damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Frenzy 7
+| description = Work yourself and your allies into a frenzy of violence.
+| level = 77
+| power cost = 75
+| reuse time = 30
+| range = 20 meters
+| skill = Pig
+| keywords = {{KWAB|Frenzy}}{{KWAB|Pig}}
+| special = You and your allies' melee attacks deal +60 damage for 10 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

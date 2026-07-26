@@ -1,0 +1,55 @@
+==Update Notes: July 20, 2023==
+This is a relatively small update with some relatively large changes. In brief: based on player feedback, we're reverting some of the recent balance changes we made to Power generation and consumption. In addition, we've also taken some time to optimize performance in some areas to improve framerate. And, of course, there are bug fixes.
+
+===Power Balance Changes Reverted===
+We agree with the general feedback that the recent Power changes were too much too fast. We've reverted the Power costs to levels from before the June 28 update, with a few minor deviations. We'll continue to work on Power accessibility tools and may increase Power costs more slowly in the future.
+
+===Misc skill changes===
+There are some new [[Hammer]] effects related to Power consumption, as well as a tweak to a new Sword effect.
+:- Hammer: Slight changes to cost and potency of Reckless Slam and its treasure effects.
+:- New treasure effect: (Off-Hand, Necklace) "Core Attacks cause the next Look At My Hammer to restore +50 Power"
+:- New treasure effect: (Feet) "Rib Shatter dispels any roots or slows you are currently suffering, and Power cost to sprint in combat is reduced -3 for 9 seconds"
+:- [[Sword]] treasure effect tweak: (Hands, Feet) "All Sword abilities deal +13% damage to targets with less than 33% of their Max Rage." => +18%
+:- Known bug: the [[Fire Magic]] ability Flesh to Fuel currently costs Power (it should be free). This will be fixed in the next game update
+
+===Optimizations===
+This update includes a number of optimizations in specific problem areas that should improve graphics performance and framerate. Optimization is an ongoing process; it hasn't been a high priority while we are in Early Access, but as we move closer to launching it becomes more important. We made a start on some of the more notorious spots for bad performance in this update and we'll continue with other problem areas as time permits. 
+:- Optimized lighting in Povus city to improve framerate, particularly at night.
+:- Fixed some LODs in [[Povus]] to reduce pop-in.
+:- Optimized Gazluk terrain, which should fix most framerate issues in that zone.
+:- Fixed framerate issues in Kur at one of the orc camps.
+:- Optimized UI updates of nameplates. This should have a significant performance boost when using the new UI in areas with a lot of entities.
+:- Persona and Mount cameras now turn off when those windows are not open; previously they were always on and wasting time being rendered.
+
+===New Backer Package Incoming===
+As you may know, you can visit the Gorgon Shop [https://shop.projectgorgon.com/] to purchase an optional 'backer package' to help support Project: Gorgon. These packages have some nice benefits, from a free horse to spontaneous snack cakes. They also include VIP time, which comes with some of its own nice benefits, like extra inventory. (You can read more about the VIP program here: [https://store.steampowered.com/app/1476200/Project_Gorgon_VIP_Membership/].) 
+
+One of the problems with all of our old backer packages (what we now call Primary Packages) is that you can only apply one package to your account. Players who wanted to purchase another backer package to show their continued support couldn't do that -:- until now.
+
+We're now introducing our first Gorgon Shop Add-On Backer Package - the Summer 2023 Add-On! As the name implies, you can purchase an Add-On package in addition to a Primary package and get the benefits of both. But you don't have to use the Add-On as an add-on: you can purchase it even if you don't have to have a Primary Package yet, and you'll be able to add a Primary later if you wish. But note that you can only purchase one of each Add-On package! So the new rule is: You may have one Primary Package and one of each Add-On package per account.
+
+The Summer 2023 Add-On package is very much intended as a way for players to support the game, with a planned price of $75 USD. Here are the planned benefits:
+:- Auto-unlock the advanced Orc character race for your account when they become available. (Orcs have not yet been implemented! Normally you would need to complete in-game quests to unlock the Orc race.) 
+:- Receive a unique cosmetic mini-pet for all characters on your account.
+:- Be granted the special title "Summer's Fairest".
+:- Receive a unique new food to help level your Gourmand.
+:- 9 months VIP membership.
+
+PLEASE NOTE: The Summer 2023 Add-On package will be available in a few days, and the details are still subject to change until then. In addition, please keep in mind that the Orc player race is not yet available; you won't actually be able to make an Orc until we finish developing them. You can claim the other rewards immediately.
+
+If the new package is popular, we'll explore adding more of them in the future. 
+
+===Other Stuff===
+:- Items can now be summoned from the [[Warden]] chest when in Kur.
+:- Fixed a bug that caused dropped items to appear above the character instead of on the ground; this was notably bad in the [[Red Wing Casino]], where items would seemingly disappear into thin air (but were actually stuck in the walls).
+:- The events on the login page now auto-scroll.
+:- Some light polishing of the login screen.
+:- Fixed a bug that caused the waving flag on the login screen to disappear at certain resolutions.
+:- Fixed a formatting error in the score in the golf UI.
+:- Fixed a bug with spring fairy gear that caused elves to have purple skin.
+:- Animal players should no longer "ping-pong" (rotate back and forth very quickly) when standing still in certain scenarios.
+:- Pigs & deer no longer rotate when strafing left & right.
+:- Polished "On Fire" particles.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,71 @@
+__NOTOC__
+{{Skill infobox
+|title            = Artistry
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Skill in the visual arts, including painting, sculpting, and mosaic creation.
+|skilltype        = Trade Skill
+|maxlevel         = 50
+|req              = N/A
+|skilltrainers    = N/A
+}}
+{{Quote|
+Fireworks are often used as a means of celebration.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+[[Artistry]] is used to create Jack-o'-Lanterns and Fireworks. 
+=== In-Game Description ===
+Skill in the visual arts, including painting, sculpting, and mosaic creation.
+=== Training {{msg:BASEPAGENAME}} ===
+* {{Item|How To Be An Artist}} - This book teaches [[Artistry]], and requires Level 25 or higher [[Art History]] to read.
+
+* {{Item|Recipe: Small Fireworks}} - This book, often dropped by Goblins during a summer celebration, will teach [[Artistry]] its readers.
+
+*{{Item|Art: Jack O' Lantern}} - This recipe scroll, dropped during Halloween events, will teach [[Artistry]] to its readers.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Art History]] - Level 25 Art History may be required to learn Artistry if a {{Item|How To Be An Artist}} is used.
+===== Related Skills: =====
+* [[Blacksmithing]] - While [[Artistry]] is the study of sculpting, actual sculptures are currently crafted through [[Blacksmithing]].
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Artistry]] can be obtained from the following skills and levels:
+:; [[Art History]]
+:: Level 10, Level 30, Level 50
+:; [[Buckle Artistry]]
+:: Level 1, Level 15, Level 30, Level 45
+:; [[Carpentry]]
+:: Level 40
+:; [[Dye Making]]
+:: Level 50
+:; [[Flower Arrangement]]
+:: Level 5, Level 25, Level 45
+:; [[Glassblowing]]
+:: Level 55, Level 90
+:; [[Poetry Appreciation]]
+:: Level 20
+:; [[Tailoring]]
+:: Level 30
+:; [[Urban Expression]]
+:: Level 10, Level 20, Level 30, Level 40, Level 50
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Pumpkin Displays ===
+...
+<!-- None right now.
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+-->
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+
+== Trivia ==
+[[Artistry]] was introduced with Pumpkin carving related recipes during [[Halloween 2015]].
+[[Category:Skills]]

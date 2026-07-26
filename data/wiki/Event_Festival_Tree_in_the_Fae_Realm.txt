@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+There's an undecorated tree in the Fae Realm. When fully decorated, townsfolk will leave you presents under the tree each day during the holiday season.
+
+This Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Backfat]]''' in '''[[Fae Realm]]'''.
+
+===Requirements===
+* Get Butterflies for the Tree
+* Get Fae Honeycombs for the Tree
+* Get Pixie Dust and Pipe for the Tree
+* Get Safety Equipment for the Tree
+* Talk to [[Backfat]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Now that's a fancy tree! Although in retrospect, I kind of wish I didn't have to feed the ornaments to keep them alive. Oh well, we'll do better next year. Now it's time for presents!}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Backfat]][[Category:Quests/Ri-Shin Quests]]

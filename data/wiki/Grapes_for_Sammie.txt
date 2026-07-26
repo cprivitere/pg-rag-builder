@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Sammie Grimspine in Serbule Hills said, "Oh my gosh I really could use some grapes! They're my favorite snack. I should learn to grow them myself or something. Have you seen any?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Sammie Grimspine]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Oh my gosh I really could use some grapes! They're my favorite snack. I should learn to grow them myself or something. Have you seen any?}}
+
+===Requirements===
+* Obtain {{Item|Grapes}} x4
+* Talk to Sammie Grimspine
+
+===Rewards===
+{{Spoiler|Rewards for Grapes for Sammie|
+{{Quote|You got me grapes? Oh, that's so sweet of you!}}
+
+* 100 {{Favor|favor}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Sammie Grimspine]]

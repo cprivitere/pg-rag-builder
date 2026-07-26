@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Elahil in Serbule asked you to obtain some Crossing Oil.
+
+===Prerequisites===
+To start this quest, talk to '''[[Elahil]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|So I heard the latest thing is these enchanted arrowheads that curse your target. Sounds great, right? But I'm kind of out of my depth here. I think I need something called "Crossing Oil", though. Got any of that?}}
+
+===Requirements===
+* Obtain {{Item|Crossing Oil}}
+* Talk to Elahil
+
+===Rewards===
+{{Spoiler|Rewards for Oils for Arrows|
+{{Quote|This is it? Crossing Oil? Thanks! I guess I dip the arrow heads in this and they get magical? Huh. Well, I'll play with it. Here's some good old fashioned non-magical arrows as payment.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Advanced Arrow}} x 1000
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Elahil]]

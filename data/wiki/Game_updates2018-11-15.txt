@@ -1,0 +1,5 @@
+=== Nov 15 Update ===
+This update has no user-visible changes. (Internally, it fixes some compatibility issues with the "demo" version of Project: Gorgon, which will be available soon.)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

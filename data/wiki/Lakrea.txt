@@ -1,0 +1,50 @@
+__NOTOC__
+{{NPC infobox
+|title            = Lakrea
+|image            = [[File:Lakrea (npc).png|300px]] 
+|caption          = She smiles to herself.
+|zone             = Rahu
+|town             = Rahu City (peaceful)
+|location = Inside the Tasty Cat restaurant.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Holistic Wellness]]
+}}
+{{Quote|
+I can help you be the best 'you' that you can be! And I even have valuable gifts to give out as incentives!
+}}
+[[Lakrea]] is a Rakshasa trained in the art of [[Holistic Wellness]].
+{{Quote |
+: Welcome! I'm so glad you found your way to [[Rahu]]! Are you interested in self-improvement?
+: ''' Of course.'''
+: Then you've come to the right place! I am Lakrea, an expert on [[Holistic Wellness]]. I can help you be the best 'you' that you can be! And I even have valuable gifts to give out as incentives!
+: ''' What's this 'Holistic Wellness?' '''
+: It's just a different way of thinking about medicine. Most medicine focuses on preventing or curing ailments. But Holistic Wellness looks beyond that! To be really healthy you need a wide variety of things.
+: ''' Such as? '''
+: Such as singing in the rain, or washing your hair with cleaner, or cooking special meals. There's so many things that can improve your overall health! I can guide you.
+: ''' Interesting. And you mentioned gifts? '''
+: Ah, yes, of course. My parents left me many valuable things when they died, and I do not want them. I'm happy to give you a few random tidbits for each step you take on the path to wellness.
+: ''' Okay! What do I do? '''
+: I'll give you a task that will help improve your wellness. Complete it and I'll give you the gift -- although the real gift is improved wellness, of course! Once you've basked in your improved health for an hour, come back to get your next instruction.
+: ''' I'm game. What's the first step? '''
+}}
+
+==Location==
+; [[Rahu City (peaceful)]]
+: Inside the Tasty Cat restaurant.
+
+==Holistic Wellness Quests==
+<dpl>
+category = Quests/Holistic Wellness
+mode = unordered
+columns = 3
+</dpl>
+
+
+==Rewards==
+; Trains you in the art of [[Holistic Wellness]].
+; Offers a variety of gifts upon completion of quests.
+
+[[Category:NPCs]][[Category:NoRiShin]]

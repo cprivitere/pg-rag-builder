@@ -1,0 +1,20 @@
+__NOTOC__
+==Activity Quest==
+[[Horse Thieves (Kur Mountains)]] is an [[Activity Quests|Activity Quest]] which does not appear in the quest log. It shares the displayed name '''Horses Rescued''' with all other Horse Thieves quests.
+
+===Prerequisites===
+This [[Activity Quests|Activity Quest]] is automatically completed when the Horse Thieves in [[Kur Mountains]] are defea
+===Location===
+{{Spoiler|Click 'Expand' to the right to see a map locating the event.|[[File:Kur horse thieves.png]]}}ted.
+
+===Rewards===
+{{Spoiler|Rewards for Horse Thieves (Kur Mountains)|
+{{Quote|
+You rescued the wild horses!
+}}
+* A level 45 item from the HorseThieves_Serbule loot table.
+* 12048 XP in active combat skills.
+}}
+
+
+[[Category:Quests]][[Category:Quests/Activity Quests]]

@@ -1,0 +1,116 @@
+__NOTOC__
+{{NPC infobox
+|title = Orran
+|caption =
+|eventnpc = Yes
+|zone = Red Wing Casino
+|location = Around performance stage.
+|beastspeak = Yes
+|beastlist = All
+|anatomy =
+|species =
+|barter = Yes
+}}
+[[Orran]] is the Leader of the [[Crafting Caravan]]. [[Orran]] offers barter options for{{Item|Crafter's Guild Token}}.
+== Location ==
+; [[Red Wing Casino]]
+: [[Orran]] can be encountered during the [[Crafting Caravan]] event.
+
+==Bartering==
+The player may barter a number of times per period, depending on favor: once at '''{{Favor|Comfortable}}''', twice at '''{{Favor|Friends}}''', three times at '''{{Favor|Like Family}}''', and four at '''{{Favor|Soul Mates}}'''.
+
+Additionally, those who reach '''{{favor|Soul Mates}}''' with [[Orran]] will be given permission to barter for a [[Cosmetic Pet]].
+
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| rowspan = "14" | {{Item|Crafter's Guild Token}} x3 || {{Item|Weak Acidic Cleanser}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Potent Acidic Cleanser}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Ultimate Acidic Cleanser}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Vervadium}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Lace}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Coated Glowy Yellow Crystal}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Fae Felt}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Fae Silk}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Mercury}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Orcish Steel}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Orichalcum}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Rhodium}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Paladium}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Hippogriff Feather}} x2 {{Favor|Comfortable}}
+|-
+| rowspan = "2" | {{Item|Crafter's Guild Token}} x2 || {{Item|Tiger's Eye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Turquoise}} x2 {{Favor|Comfortable}}
+|-
+| rowspan = "3" | {{Item|Crafter's Guild Token}} x 5 || {{Item|Moxie's Flutter Butter}} {{Favor|Close Friends}}
+|-
+| {{Item|Moxie's Birdie Butter}} {{Favor|Close Friends}}
+|-
+| {{Item|Moxie's Bat Butter}} {{Favor|Close Friends}}
+|-
+| {{Item|Crafter's Guild Token}} x3|| {{Item|Orran's Inventory Expander Potion}} {{Favor|Comfortable}}
+|-
+| {{Item|Crafter's Guild Token}} x5|| {{Item|Orran's Super Inventory Expander Potion}} {{Favor|Close Friends}}
+|-
+| {{Item|Crafter's Guild Token}} x10|| {{Item|Orran's Ultra Inventory Expander Potion}} {{Favor|Like Family}}
+|-
+| {{Item|Crafter's Guild Token}} x30|| {{Item|Title: 'Crafty'}} {{Favor|Soul Mates}}
+|-
+| {{Item|Crafter's Guild Token}} x250|| {{Item|Cosmetic Pet: Summon Fae Dragon}} {{Favor|Soul Mates}}
+|}
+Orran's list of items also includes [[Maximized Gem]]s and various [[Dye Making|Dyes]]:
+{| class="wikitable mw-collapsible mw-collapsed"
+!Give
+!Receive 
+|-
+|  rowspan = "4" | {{Item|Crafter's Guild Token}} x3|| {{Item|Maximized Onyx}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Maximized Sardonyx}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Maximized Obsidian}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Maximized Aquamarine}} x2 {{Favor|Comfortable}}
+|-
+| rowspan = "10" | {{Item|Crafter's Guild Token}} x5|| {{Item|Cadet Blue Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Dark Salmon Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Slate Blue Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Dark Red Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Violet Red Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Forest Green Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Dim Gray Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Peach Puff Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Dark Goldenrod Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Silver Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Crafter's Guild Token}} x8|| {{Item|Royal Purple Dye}} x2 {{Favor|Comfortable}}
+|-
+| {{Item|Crafter's Guild Token}} x10|| {{Item|Pitch Black Dye}} x2 {{Favor|Friends}}
+|}
+
+==Conversations==
+
+[[Category:NPCs]] [[Category:Crafting Caravan NPCs]][[Category:NoRiShin]]

@@ -1,0 +1,86 @@
+Decapitate can be learned from books.
+
+Decapitate can also be trained by [[Malvol]].
+
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Decapitate
+| description = A devastating attack.
+| level = 15
+| power cost = 43
+| reuse time = 60
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|Decapitate}}{{KWAB|EpicAttack}}
+| damage = 100 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Decapitate 2
+| description = A devastating attack.
+| level = 30
+| power cost = 58
+| reuse time = 60
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|Decapitate}}{{KWAB|EpicAttack}}
+| damage = 194 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Decapitate 3
+| description = A devastating attack.
+| level = 50
+| power cost = 77
+| reuse time = 60
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|Decapitate}}{{KWAB|EpicAttack}}
+| damage = 418 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Decapitate 4
+| description = A devastating attack.
+| level = 61
+| power cost = 88
+| reuse time = 60
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|Decapitate}}{{KWAB|EpicAttack}}
+| damage = 583 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Decapitate 5
+| description = A devastating attack.
+| level = 72
+| power cost = 98
+| reuse time = 60
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|Decapitate}}{{KWAB|EpicAttack}}
+| damage = 761 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Decapitate 6
+| description = A devastating attack.
+| level = 83
+| power cost = 110
+| reuse time = 60
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|Decapitate}}{{KWAB|EpicAttack}}
+| damage = 961 Slashing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,9 @@
+==<b>July 29 Update</b>==
+;Just a few small fixes today. There was no client-side patch.
+===<b>Level 60 Cap Fix</b>===
+:- There was a mix-up that caused the game to not recognize when you'd bought level-60 level-cap-increases. This has been fixed. Unfortunately there is a <i>slight</i> chance that you may have permanently lost one of those upgrades, depending on what you did yesterday. (If you didn't log in yesterday, the 28th, you're definitely fine.) If this happened to you, you can fix it just by re-buying the training option from the NPC. You won't have lost any XP, but you will have to pay for it again.
+: I estimate this will only affect two or three players, so if this affects you, please send a bug report so we know who you are. We can't yet send coins through the admin mail, but I can send you some expensive items that will make up the lost cash.
+:- Wooden deer-shoes and cow-shoes made by carpenters once again count as "wood in your hands" for animal-form druids
+:- A few small equipment bug fixes
+:- A certain chest in the Necromancer Tower dungeon should now reset correctly. (This affected only a small number of players who didn't have a timer attached to their permission. After you log in, you will need to wait 3 hours for the timer to count down, then the chest will be usable again.
+[[Category:Game updates]]

@@ -1,0 +1,64 @@
+===October 18 update===
+
+====Halloween====
+
+Strange things are going on in Alharth. You'll receive more information as soon as you log in.
+
+====Slow-Boxes Optimization Turned Off By Default====
+
+If you have noticeably worse framerate after this update, read on:
+
+In this update we disabled one of the experimental optimizations known as "slow boxes". This optimization *does* improve framerate when lots of selectable things are on-screen, but the improvement often isn't worth it: the targeting selection-boxes can move around randomly, which can be deadly in combat situations. We've turned this optimization off while we improve it. If you want to re-enable it (which might be needed on low-end machines in busy areas), open up the settings window in-game, click "Special", and type SlowBoxes into the special settings box. This will reactivate the slow boxes optimization.
+
+(The old special setting NoSlowBoxes no longer does anything, since slow boxes are off anyway.)
+
+
+====Changes to Damage Formula====
+
+We've corrected a problem with how damage is calculated for target-conditional modifiers that increase damage by a percentage. Target-conditional modifiers are things that only apply if the target is a certain way. For instance, "+X% damage to non-Elite targets", "+X% damage to undead", "+X% damage when the target's rage meter is 66% or higher", etc.
+
+Previously, if these modifiers added a percentage of damage to your attack, that percentage wasn't added to your other percent-boosters like other mods; instead it was multiplied separately, very late in the calculation process. These percent-boosters are now included with other regular percent-boosters.
+
+In other words, if you had two mods, "+25% damage all the time" and "+25% damage if the target is Elite", the combination will now result in +50% damage. Previously that combination would result in +56% damage, because they were multiplied together instead of added together.
+
+
+===="Dangerously Improve Weapon" Recipes Return====
+
+The three blacksmithing recipes to "dangerously" improve an item have returned. (The "danger" is that the item may shatter and be destroyed.) The chance for the item to be destroyed has increased from 2% to 3%, and the weapon now gains simple damage, not regular damage. Simple damage is not multiplied by any other gear mod benefits, but it is still multiplied by the enemy's vulnerabilities, or lack thereof.
+
+There is now a cap of 300 simple damage that can be added to an item, and to prevent these items from being used as insanely overpowered newbie gear, the weapon must be at least level 30. 
+
+Weapons that were dangerously improved with the old recipes have been updated to use simple damage and have a cap of 300.
+
+To sum up, the recipes now read like this:
+
+Add +2 Simple Sword Damage to a sword, up to a maximum of +300. The sword must have enchantments of at least level 30. Simple damage is added to the total damage after all other multipliers. This recipe does not use Enhancement Points, but there is a 3% chance the weapon will shatter and be destroyed. (Must be near a forge.)
+
+
+====Item Rafflers & Item Vendors Changes====
+
+Ultra Item Rafflers with timers set to greater than 1 hour could sometimes be garbage-collected by the server before their timer was up (causing a winner to be immediately chosen from the people who had already bought a ticket). Large-Capacity Item Vendors and Fancy Item Vendors that are deployed in busy areas will now last longer before being garbage-collected by the server (and unsold items mailed back to the owner).
+
+A note about how these work: when there are a lot of items in an area, the server deletes old items based on internal priorities. If the server decides to delete a vend-o-matic, the remaining unsold items are mailed to the creator. If a raffler is destroyed before all tickets are sold, a winner is immediately chosen from among the sold tickets. If no tickets were sold, the raffle items are mailed to the creator. 
+
+Most gadgeteering items will last about an hour in a busy area, but can last much longer in areas that don't have a lot of items on the ground. The above-mentioned high quality vend-o-matics will typically last 90 minutes in busy areas.
+
+
+====Other Changes====
+
+: - All pet damage is increased noticeably. This is especially true of necromancers' skeletal pets. The most dramatic example is high-level skeletal mages, whose base damage increased by more than 50%. (The adjustments in this update are a "bulk" formulaic change; further adjustments will be made in the future.)
+: - As of the last update, Elite monsters that are killed with only area-effect attacks are no longer combat-locked. But if a group killed an Elite with ONLY area-effect attacks, the elite would incorrectly act like non-elite for turn-based looting. Non-combat-locked elites now "faux lock" themselves to the group of the main killer when they die so that the group's turns are honored.
+: - Higher tiers of the ability Spade Assault did not correctly have the lower tiers as prerequisites.
+: - Fixed a scenario where you could skin an illusion of a dead werewolf if you were really, really quick.
+: - Fixed weird particles appearing when drake worms burst out of the ground.
+: - Fixed a client display bug that caused some damage attributes to not be updated after equipment was taken off. This was only a tooltip display bug.
+: - Fixed a server-side rounding error with base-damage multipliers that could cause attacks to deal 1 less damage than the client tooltip indicated it should.
+: - Stuffed toy bears can now be deployed for others to be able to hug. (The bear is not destroyed; only one bear can be deployed per 15 minutes per player.)
+: - The map in the casino was shifted over a bit to include the new party room. The fog is reset, and any map pins in the casino will be off by a small amount. Sorry about that!
+: - Added signs to the Red Wing Casino to help guests navigate more easily.
+: - Added a "secret" entrance/exit to Gazluk Keep.
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

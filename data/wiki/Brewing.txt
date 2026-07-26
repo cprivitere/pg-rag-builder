@@ -1,0 +1,448 @@
+__NOTOC__
+{{Skill infobox
+|title            = Brewing
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Skill in creating alcoholic beverages of all sorts.
+|skilltype        = Trade Skill
+|maxlevel         =  90
+|req              = 
+|skilltrainers    = [[Brianna Willer]], [[Gretchen Salas]], [[Dhakmar]], [[Hiral]], [[Malvol]], [[Dunahain Broadarm]]
+}}
+{{Quote|
+Every Brewing recipe has some standard ingredients, [...] but there's also room for personalization. The personalized ingredients determine the precise flavor and effect of your beer and everybody's different. Even if I followed your exact recipe, I might get a completely different effect. That's why there's no substitute for experimentation. [...] Look, don't worry about all this at the beginning. Just remember to write down your research notes, especially when you start brewing fancier beers like Orcish Bock. You'll thank me later!|source=[[Brianna Willer]]
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Brewing]] is a crafting skill that involves the production of Alcoholic Beverages. The consumption of these beverages will raise your [[Alcohol Tolerance]] skill.
+
+=== In-Game Description ===
+Skill in creating alcoholic beverages of all sorts.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Brianna Willer]] teaches Brewing after you have been introduced to her by either [[Therese]] or [[Julius Patton]] (requires {{Favor|Close Friends}}) and then reached {{Favor|Comfortable}} with Brianna.
+* Levels 51-70 are unlocked by [[Dhakmar]] in Rahu
+* Levels 71-80 can be unlocked by befriending a [[Ghost Orc|ghostly orc]] in a cave beneath [[Povus]]. He also has some high-level brewing recipes.
+* Levels 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+====Recipes====
+* [[Gretchen Salas]] can be persuaded to teach a recipe for Potato Vodka.
+* [[Malvol]] is willing to teach Whisky recipes to Like Family.
+* [[Hiral]] can teach Pale Rum recipes to his Close Friends.
+* [[Paullus/Statehelm|Paullus]] will teach you the recipe for [[Strawberry Wine]] and will reward you with the recipes for stronger wines with each new kind of wine you make for him
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* [[Alcohol Tolerance]] - This skill represents your ability to ward off the adverse effects of alcohol. The consumption of [[Brewing|brewed]] beverages will raise this skill.
+=====Related Skills:=====
+* [[Carpentry]] - Carpentry is handy for making the kegs and barrels required for many recipes.
+* [[Gardening]] - Barley is a common crop grown for use in beer. 
+* [[Foraging]] - Many ingredients used in [[Brewing]] are found through Foraging.
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Brewing]] can be obtained from the following skills and levels:
+:; [[Alchemy]] 
+:: Level 49
+:; [[Alcohol Tolerance]]
+:: Level 30, Level 80
+:; [[Battle Chemistry]]
+:: Level 70
+:; [[Cooking]]
+:: Level 70
+
+== Recipe Lists ==
+<!-- Lists of Recipes pertaining to the skill goes here. See [[Cooking]] for one example of where recipes are broken up. For Transcluded tables (What all skills should use), see [[Carpentry]].
+-->
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+==Beer Effects==
+{{Spoiler|Click Expand to view Beer Effects (Level 20)|
+(List is not yet complete, other effects may be added as discovered)
+
+* +7% Chance to catch extra fish, +15% Chance to gather extra fish scales (stacks with arrangements/displays)
+* +7% Chance to gather extra seeds, +15% Chance to gather extra mushrooms (stacks with arrangements/displays)
+* +24 Max Armor
+* +33% Chance for YOUR attacks to miss, +20% Chance to avoid bursts, Sprint boost out of combat +0
+* +2 Peacableness, +3 Community, +3 Cleanliness
+* +17 Taunt, -1.5 Sprint speed
+* -0.2 Fast Flying power cost per second, +0.6 Flying speed
+}}
+{{Spoiler|Click Expand to view Beer Effects (Level 40-70)|
+'''Base differences and percentages increase with higher level alcohol'''
+
+* +(%) Dance Appreciation extra effect chance, +(X) Dance Appreciation
+* +(%) Taunt
+* -(%) Taunt
+* -(X) Sprint speed, +(%) Taunt
+* +(%) Projectile miss chance; +(%) Taunt
+* +(X) Melee accuracy, +(%) Melee evasion
+* +(%) Miss chance, +(%) Burst evasion, +(X) Sprint speed out-of-combat
+* +(%) Knockback evasion, +(X) Jump height
+* +(X) Breath recovery rate, +(X) Maximum breath, +(X) Fast-swimming speed
+* -(X) Fast-flying power depletion rate, +(X) Fast-flying speed
+* -(%) Ability power cost (Unarmed/Shield/Sword)
+* -(%) Ability power cost (Knife/Staff/Hammer)
+* -(%) Ability power cost (Bard/Battle Chemistry/Archery)
+* -(%) Ability power cost (Necromancy/Ice Magic/Fire Magic)
+* -(%) Ability power cost (Crossbow/Psychology/Mentalism)
+* -(%) Ability power cost (Armor Patching/Lycanthropy/Druid)
+* -(%) Ability power cost (First Aid/Giant Bat/Spider)
+* -(%) Ability power cost (Pig/Deer/Cow)
+* +(X) Max health
+* +(X) Max armor
+* +(X) Max power
+* +(X) Max health (Dwarf)
+* +(X) Max health (Elf)
+* +(X) Max health (Fey)
+* +(X) Max health (Human)
+* +(X) Max health (Orc)
+* +(X) Max health (Rakshasa)
+* +(X) Max power (Dwarf)
+* +(X) Max power (Elf)
+* +(X) Max power (Fey)
+* +(X) Max power (Human)
+* +(X) Max power (Orc)
+* +(X) Max power (Rakshasa)
+* +(X) Max metabolism (Dwarf)
+* +(X) Max metabolism (Elf)
+* +(X) Max metabolism (Fey)
+* +(X) Max metabolism (Human)
+* +(X) Max metabolism (Orc)
+* +(X) Max metabolism (Rakshasa)
+* +(X) Max body heat (Dwarf)
+* +(X) Max body heat (Elf)
+* +(X) Max body heat (Fey)
+* +(X) Max body heat (Human)
+* +(X) Max body heat (Orc)
+* +(X) Max body heat (Rakshasa)
+* +(X) Max hydration (Dwarf)
+* +(X) Max hydration (Elf)
+* +(X) Max hydration (Fey)
+* +(X) Max hydration (Human)
+* +(X) Max hydration (Orc)
+* +(X) Max hydration (Rakshasa)
+* +(%) exp. gain for Elves when clean, 0 exp. earned when dirty
+* +(%) exp. gain for Humans when community-minded, 0 exp. earned when lonely
+* +(%) exp. gain for Rakshasa when peaceable, 0 exp. earned when dead inside
+* +(X) Dig Deep power restoration
+* +(X) Ultimate Protection health restoration, +(X) Minor Healing health restoration, +(X) Major Healing health restoration
+* +(%) chance to chop perfect wood, +(%) chance to chop extra wood
+* +(%) chance to forage extra seeds, +(%) chance to forage extra mushrooms
+* +(%) chance to produce extra fish scales, +(%) chance to catch extra fish
+* +(X) to Max Peaceableness, +(X) to Max Community, +(X) to Max Cleanliness
+}}
+
+==Hard Liquor Effects==
+{{Spoiler|Click Expand to view Liquor Effects (Level 1-70)|
+'''Base differences and percentages increase with higher level alcohol'''
+
+* +(%) Dance Appreciation extra effect chance, +(X) Dance Appreciation
+* +(%) Taunt
+* -(%) Taunt
+* -(X) Sprint speed, +(%) Taunt
+* +(%) Projectile miss chance; +(%) Taunt
+* +(X) Melee accuracy, +(%) Melee evasion
+* +(%) Miss chance, +(%) Burst evasion, +(X) Sprint speed out-of-combat
+* +(%) Knockback evasion, +(X) Jump height
+* +(X) Breath recovery rate, +(X) Maximum breath, +(X) Fast-swimming speed
+* -(X) Fast-flying power depletion rate, +(X) Fast-flying speed
+* +(X) Direct Slashing damage
+* +(X) Direct Crushing damage
+* +(X) Direct Piercing damage
+* +(X) Direct Fire damage
+* +(X) Direct Cold damage
+* +(X) Direct Electricity damage
+* +(X) Direct Nature damage
+* +(X) Direct Poison damage
+* +(X) Direct Acid damage
+* +(X) Direct Psychic damage
+* +(X) Direct Darkness damage
+* +(X) Direct Trauma damage
+* +(X) Direct Sonic damage
+* +(X) Direct Demonic damage
+* +(X) Direct Divine damage
+* +(X) Melee damage to Elites
+* +(X) Projectile damage to Elites
+* +(X) Burst damage to Elites
+* +(X) Damage to Aberrations
+* +(X) Damage to Arthropods
+* +(X) Damage to Bears
+* +(X) Damage to Canines
+* +(X) Damage to Constructs
+* +(X) Damage to Crone-kin
+* +(X) Damage to Demons
+* +(X) Damage to Dinosaurs
+* +(X) Damage to Elementals
+* +(X) Damage to Elves
+* +(X) Damage to Felines
+* +(X) Damage to Fey
+* +(X) Damage to Fish
+* +(X) Damage to Fungoids
+* +(X) Damage to Giants
+* +(X) Damage to Goblins
+* +(X) Damage to Humans
+* +(X) Damage to Incorporeal Creatures
+* +(X) Damage to Non-ruminant Ungulates
+* +(X) Damage to Orcs
+* +(X) Damage to Rakshasa
+* +(X) Damage to Rodents
+* +(X) Damage to Ruminants
+* +(X) Damage to corporeal Undead
+* +(X) Max health, -(X) Damage taken from Elites, -(X) Damage taken from non-Elites
+* +(X) Max health, +(X) Direct mitigation (Acid/Fire/Slashing)
+* +(X) Max health, +(X) Direct mitigation (Nature/Cold/Slashing)
+* +(X) Max health, +(X) Direct mitigation (Darkness/Electricity/Slashing)
+* +(X) Max health, +(X) Direct mitigation (Sonic/Psychic/Slashing)
+* +(X) Max health, +(X) Direct mitigation (Demonic/Poison/Slashing)
+* +(X) Max health, +(X) Direct mitigation (Divine/Trauma/Slashing)
+* +(X) Max health, +(X) Direct mitigation (Darkness/Fire/Crushing)
+* +(X) Max health, +(X) Direct mitigation (Acid/Cold/Crushing)
+* +(X) Max health, +(X) Direct mitigation (Nature/Electricity/Crushing)
+* +(X) Max health, +(X) Direct mitigation (Sonic/Trauma/Crushing)
+* +(X) Max health, +(X) Direct mitigation (Demonic/Psychic/Crushing)
+* +(X) Max health, +(X) Direct mitigation (Divine/Poison/Crushing)
+* +(X) Max health, +(X) Direct mitigation (Nature/Fire/Piercing)
+* +(X) Max health, +(X) Direct mitigation (Darkness/Cold/Piercing)
+* +(X) Max health, +(X) Direct mitigation (Acid/Electricity/Piercing)
+* +(X) Max health, +(X) Direct mitigation (Sonic/Poison/Piercing)
+* +(X) Max health, +(X) Direct mitigation (Demonic/Trauma/Piercing)
+* +(X) Max health, +(X) Direct mitigation (Divine/Psychic/Piercing)
+* +(X) Max health
+* +(X) Max armor
+* +(X) Max power
+* +(X) Max health (Dwarf)
+* +(X) Max health (Elf)
+* +(X) Max health (Fey)
+* +(X) Max health (Human)
+* +(X) Max health (Orc)
+* +(X) Max health (Rakshasa)
+* +(X) Max power (Dwarf)
+* +(X) Max power (Elf)
+* +(X) Max power (Fey)
+* +(X) Max power (Human)
+* +(X) Max power (Orc)
+* +(X) Max power (Rakshasa)
+* +(X) Max metabolism (Dwarf)
+* +(X) Max metabolism (Elf)
+* +(X) Max metabolism (Fey)
+* +(X) Max metabolism (Human)
+* +(X) Max metabolism (Orc)
+* +(X) Max metabolism (Rakshasa)
+* +(X) Max body heat (Dwarf)
+* +(X) Max body heat (Elf)
+* +(X) Max body heat (Fey)
+* +(X) Max body heat (Human)
+* +(X) Max body heat (Orc)
+* +(X) Max body heat (Rakshasa)
+* +(X) Max hydration (Dwarf)
+* +(X) Max hydration (Elf)
+* +(X) Max hydration (Fey)
+* +(X) Max hydration (Human)
+* +(X) Max hydration (Orc)
+* +(X) Max hydration (Rakshasa)
+* +(%) exp. gain for Elves when clean, 0 exp. earned when dirty
+* +(%) exp. gain for Humans when community-minded, 0 exp. earned when lonely
+* +(%) exp. gain for Rakshasa when peaceable, 0 exp. earned when dead inside
+* +(X) Dig Deep power restoration
+* +(X) Ultimate Protection health restoration, +(X) Minor Healing health restoration, +(X) Major Healing health restoration
+* +(%) chance to chop perfect wood, +(%) chance to chop extra wood
+* +(%) chance to forage extra seeds, +(%) chance to forage extra mushrooms
+* +(%) chance to produce extra fish scales, +(%) chance to catch extra fish
+* +(X) to Max Peaceableness, +(X) to Max Community, +(X) to Max Cleanliness
+}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Brewing Advice from [[Brianna Willer]] ===
+{{Quote|source=[[Brianna Willer]]|
+Brewing advice? Let' see. First, start by making beer. You can brew tiny batches of beer to see how each recipe tastes. When you're happy with the recipe, you can brew up a big keg of it.
+
+Every Brewing recipe has some standard ingredients, like barley and hops, but there's also room for personalization. The personalized ingredients determine the precise flavor and effect of your beer. And everybody's different. Even if I followed your exact recipe, I might get a completely different effect. That's why there's no substitute for experimentation.
+
+Hard liquor is more potent than beer, but you can drink a lot more beer than you can hard liquor! Of course, the fastest way to get blitzed is to mix beer and the hard stuff at once.
+
+Sadly, the recipes for beer, wine, and liquor don't have a lot of carryover. You'll need to do separate experiments for beer, wine, and hard liquor recipes.
+
+Each ingredient can have a different effect in different recipes. I mean, you can put strawberries in Basic Lager, Pale Ale, and Marzen, but the strawberry's effect will be different for each recipe.
+
+When you get more advanced, there's an important trick. If two beer recipes take the exact same NUMBER of ingredients IN EACH SLOT, then there's a way to map the ingredients effects to other recipes with the same setup.
+
+This is tricky to explain to a new brewer. Here's an example: Orcish Bock, a very fancy brew, takes four special ingredients: one of four possible vegetables, one of three kinds of fruit, one of four mushrooms, and one of three garnish items. That means it's 4-3-4-3. Brown Ale's ingredients are different, but they work out to the same number: 4-3-4-3. You can predict how your ingredients are going to work between these two recipes, because their ingredient combinations are the same.
+
+Look, don't worry about all this at the beginning. Just remember to write down your research notes, especially when you start brewing fancier beers like Orcish Bock. You'll thank me later!
+
+And that special trick I just mentioned is even more important for hard liquor, because every kind of hard liquor has the exact same number of ingredients for each slot. That means that if you find an ingredient combo that makes Muscle Vodka, you can translate that recipe into other hard liquors -- Muscle Gin or whatever. So always write down notes on what you try!
+
+Course, hard liquor is a huge pain to brew. It needs a ton of ingredients, plus you've gotta let it age, plus you've gotta age the stuff in big barrels in a cave somewhere. Brewing beer is a lot easier! But once you find a few hard liquor recipes you like, you don't have to make it too often... a full barrel of the hard stuff will last you a while! ... Unless you're selling it to a bar, and you promised not to do that!
+
+Don't throw away your barrels when they run dry! Those suckers are expensive! I can show you how to clean 'em up so they can be reused. They'll still break every once in a while, but they usually last a long time.
+}}
+=== Information from [[Developers|Citan]]'s  blog post, April 20, 2017 ===
+
+The basic ideas of brewing are the same as I described last week, but the details have changed many times. In fact, I think this is the most times I've ever iterated on a craft skill before it went live! The first few versions were prototypes, trying to figure out what the system's goals were and how it would achieve them. I blogged about the system last week based on a fairly fun prototype version. But then I needed to future-proof the system, which turned out to require a full rewrite.
+
+I don't usually bother trying to future-proof crafting skills, because rewriting it later doesn't usually cause alpha-testers too much pain. When I rewrite a craft skill, you keep your old level and recipes, but the contents of those recipes change. No big deal. But brewing is different: brewing recipes have randomized results which will require a lot of player experimentation, so I want to protect that time investment. For instance, if I later decide that apples aren't a low-level fruit anymore, and replace them with, I dunno, kiwifruit, what happens to brewing recipes that can take apples? Obviously, kiwi should be a drop-in replacement in those brewing recipes, doing the same things as apples used to do, so that you don't have to re-try every brewing ingredient combination. But that's not an automatic feature -- it had to be coded that way. I brainstormed other ways that the skill might change in the future, and I tried to make sure those changes wouldn’t mess brewers up too badly. I can't guarantee that everything will work out right -- who knows, a bug might screw everything up. But I've given it my best shot.
+
+After that, I realized the skill was way TOO random: every time you learned a new recipe, you had to start your experimentation all over again. That's fine at low level when there's not too many ingredient combinations, but by level 50 there's over a hundred brewing outcomes! If levels 50, 60, 70, 80, etc. each had 100% different random outcomes, it wouldn't make economic sense to experiment at lower levels. Instead, players would just grind as fast as they could to the highest level and experiment with only the high-level recipes. That's a boring design! I needed a system that lets you "carry over" some of your brewing-experiment knowledge from mid-levels to higher levels. I've got a system that does that now -- although it might carry over a bit too much info... I'm still fiddling with things here.
+
+And in between all these revisions, I've been trying out tons of different possible buffs that could come from drinking booze. I had to answer some tricky questions, like: how many drink-effects can you have at once? If you can "stack" too many booze buffs then each individual drink would have to be weak and uninteresting. But if they don't stack at all, there's no chance to mix-and-match drink effects. After some experiments, I've decided that you can have three beers (or glasses of wine) at once, plus one drink of hard liquor, for a total of four stacking alcohol buffs. That's a lot of buffs! I'm trying to make the drink effects somewhat useful by themselves, but also make them more impressive when stacked together. It's a delicate balance. However, the specific buff effects can be changed later as balance demands, so I'm not TOO worried about this part.
+
+I've also made sure there's room for various systemic interactions later on. For instance, I was thinking it might be fun if beer brewed during the full moon is more random, with a chance to have higher or lower stats than normal. But what would it mean for a beer to be "extra effective" or "less effective" than normal? I had to work all that out too.
+
+In other words, there's lots and lots of design questions! Nothing earth-shatteringly hard, but it's been keeping me busy.
+
+=== Information from [[Developers|Citan]]'s  blog post, April 9, 2017===
+Brewing
+
+Let's talk about brewing! It's probably the most complex crafting skill so far, because it builds on the tech from other skills. (For instance, Cheesemaking gave us cask "technology", which brewing needs; Augmentation gave us recipes that can infuse items with effects, etc.)
+
+Brewing is the first skill that uses random per-player seeding. Basically, you can add certain items to your brew recipe and you'll get a specific result that's random for that character. Other characters who try the same recipe may get different results. I think this adds some fun to the crafting process, as you get to experiment on your own -- and there's no temptation to wiki the "right" brew recipes, since the recipes are unique to you!
+
+But it's not quite as trivial as "put an ingredient in a box and get a random result". It needs to be a little more fair than that: it shouldn't be the case that some players can use dirt-cheap items to get amazing brew, where others have to use extremely expensive items for the same results. I've ended up using fairly constrained recipes to avoid those cases. 
+
+Here's an example: a certain testing beer requires two special items (along with the usual beer ingredients like hops and barley). In the first box, players can drop "an apple, grapes, or an orange", and in the other box, they can drop "a guava, lemon, or banana". The results of that combination are random for each player; there are 9 possible results from just those ingredients.
+
+In that example, I broke the possibilities into "low-value fruit" and "high-value fruit" to avoid some of the extremes of randomness. Nobody will get the most-amazing brew with just a couple of dirt-cheap apples, because everybody has to use one low-value and one high-value fruit. Some people will still get better random luck than others -- the availability of individual fruit fluctuates, but generally apples are easier to find than oranges, for instance, and they're both in the "low-value fruit" category -- but there's enough different random recipe sets that it evens out pretty well in the end.
+
+(And of course, not all brewing recipes use fruit! Or have such a limited number of possible ingredients...)
+
+Drinking
+Brewing covers all kinds of alcoholic beverages. They're broken up into beers, wines, and hard liquors. Different kinds of brew have different effects, and they're quite broad-ranging. So you might find yourself carrying a small keg of combat-boosting beer into battle, or you might set up a tap of dance-boosting beer at a party.
+
+There's down sides to drinking too much alcohol, such as hangovers, slurred speech, or just passing out drunk. A new skill, Alcohol Tolerance, helps offset some of that. If you plan to drink in combat, perhaps as a drunken kung-fu master or a beer-rowdy tank, you'll definitely need some alcohol tolerance. Of course, no amount of alcohol tolerance prevents you from becoming an alcoholic! It just lets you be a "functional alcoholic." Just like the real-life drunken masters of yore. I assume.
+
+There's more complexity to the systems than I'll bother trying to explain here -- it's a complicated skill with lots of nooks and crannies. But I think it's turning out really well, and I'm looking forward to getting it in front of players!
+
+I mentioned above that this skill is the first that uses player-specific randomness -- and it might be the only one. The tech is being written with the idea that it might be reused for a few other craft skills, either old ones or new ones. But first I'll see how you like the system! Then we'll play it by ear with regard to future skills.
+
+=== How to obtain specific hard liquors ===
+
+Brewing hard liquor is slightly different than beer. Since all recipes at all level share the 3x4x5x4 pattern, figuring out recipes at low level enables one to know them at high level too. However, this is not immediate because contrary to beer, materials for recipes that follow the same pattern don't map one to one.
+
+To make this more clear, suppose you know a recipe for Hegemony Lager Beer, for example Corn + Peach + Blood Mushroom Flakes + Cinnamon gives +X damage to Goblins. Using the order in which components are listed in the recipe, we can use the shortcut 4x2x4x1 (Corn is the 4th fruit, and so on).
+
+Then, when creating Dwarven Stout, if you use components matching this 4x2x4x1 shortcut, i.e Corn + Peach + Black Foot Morel Flakes + Mint, you will obtain a slightly more powerful beer with +X damage to Goblins.
+
+For hard liquors, this is no longer true. Black Foot Morel Flakes does not necessarily replace Blood Mushroom Flakes nor Mint replace Cinnamon. However, other components that replace Blood Mushroom Flakes and Cinnamon (this could be for instance Coral Mushroom Powder and Honey) will be the same for all recipes. So the essential difficulty resides in finding the mapping between these different components. Once known, all recipes at the higher level are known by replacing low level components with the proper high level one.
+
+There are thirteen sets of components, listed below by category and tier:
+* Fruit 1: Red Apple, Grapes, Orange
+* Veggie 1: Parasol Mushroom Flakes, Mycena Mushroom Flakes, Boletus Mushroom Flakes, Field Mushroom Flakes
+* Parts 1: Boar Tusk, Cat Eyeball, Snail Sinew, Rat Tail, Basic Fish Scale
+* Flavor 1: Oregano, Mandrake Root, Peppercorns, Grass
+* Fruit 2: Guava, Banana, Lemon
+* Veggie 2: Beet, Squash, Broccoli, Carrot
+* Parts 2: Wolf Teeth, Panther Tail, Deinonychus Claw, Rabbit's Foot, Bear Gallbladder
+* Flavor 2: Cinnamon, Muntok Peppercorns, Seaweed, Myconian Jelly
+* Fruit 3: Pear, Peach, Green Apple
+* Veggie 3: Field Mushroom Flakes, Blusher Mushroom Flakes, Milk Cap Mushroom Powder, Blood Mushroom Powder
+* Parts 3: Cockatrice Beak, Worm Tooth, Ectoplasm, Powdered Mammal, Barghest Flesh
+* Flavor 3: Mint, Honey, Juniper Berries, Almonds
+* Veggie 4: Coral Mushroom Powder, Groxmax Powder, Porcini Mushroom Flakes, Black Foot Morel Flakes
+
+At low level, components tend to map one to one. For example:
+* Red Apple -> Guava
+* Grapes -> Banana
+* Orange -> Lemon
+
+Starting with Whisky, this is longer true and each mapping must be researched through trial and errors. Below are examples of some mapping that been found (speculated to be specific to each player):
+
+
+* Boar Tusk -> Rabbit's Foot
+* Cat eyeball -> Panther Tail
+* Snail Sinew -> Bear Gallbladder
+* Rat Tail -> Deinonychus Claw
+* Basic Fish Scale -> Wolf Teeth
+
+
+* Oregano -> Seaweed
+* Mandrake Root -> Muntok Peppercorns
+* Peppercorns -> Cinnamon
+* Grass -> Myconian Jelly
+
+
+* Wolf Teeth -> Worm Tooth
+* Panther Tail -> Ectoplasm
+* Deinonychus Claw -> Cockatrice Beak
+* Rabbit's Foot -> Barghest Flesh
+* Bear Gallbladder -> Powdered Mammal
+
+
+* Cinnamon -> Almonds
+* Muntok Peppercorns -> Honey
+* Seaweed -> Juniper Berries
+* Myconian Jelly -> Mint
+
+
+To summarize, and using the mapping above as example, here are recipes for the +X damage to Goblins liquor (the recipe will be different for each player, of course) for each tier:
+
+{| {{STDT}}
+! Liquor
+! Shortcut
+! Recipe
+|-
+| Potato Vodka || 2x2x4x4 || Grapes + Mycena Mushroom Flakes + Rat Tail + Grass
+|-
+| Applejack || 2x2x4x4 || Grapes + Squash + Rat Tail + Grass
+|-
+| Beet Vodka || 2x2x4x4 || Banana + Mycena Mushroom Flakes + Rat Tail + Grass
+|-
+| Pale Rum || 2x2x4x4 || Banana + Blusher Mushroom Flakes + Rat Tail + Grass
+|-
+| Whisky || 2x2x3x4 || Banana + Blusher Mushroom Flakes + Deinonychus Claw + Grass
+|-
+| Tequila || 2x2x3x4 || Banana + Blusher Mushroom Flakes + Deinonychus Claw + Myconian Jelly
+|-
+| Dry Gin || 2x2x3x4 || Peach + Groxmax Powder + Deinonychus Claw + Myconian Jelly
+|-
+| Bourbon || 2x2x1x1 || Peach + Groxmax Powder + Cockatrice Beak + Mint
+|}
+
+===Aging Casks===
+
+====Number of Casks====
+Two casks can be aged at once.  Starting at level 40 Brewing, three casks may be aged simultaneously.
+
+====Aging Times And Experience====
+Upon completing aging a cask, you will receive some experience (in addition to that received when crafting the cask, if you had crafted it yourself). This "second round" of experience is unaffected by crafting experience buffs.
+{| {{STDT}}
+|-
+! Skill Level
+! Un-aged Cask
+! Result
+! Time
+! XP
+|-
+| 1 || {{Item|Un-Aged Potato Vodka}} ||  {{Item|Aged Potato Vodka}} || 1 hour || 5
+|-
+| 10 || {{Item|Un-Aged Applejack}} || {{Item|Aged Applejack}} || 1 hour || 10
+|-
+| 20 || {{Item|Un-Aged Beet Vodka}} || {{Item|Aged Beet Vodka}} || 1 hour || 20
+|-
+| 30 || {{Item|Un-Aged Pale Rum}} || {{Item|Aged Pale Rum}} || 1 hour ||30
+|-
+| 40 || {{Item|Un-Aged Whisky}} || {{Item|Aged Whisky}} || 2 hours || 80
+|-
+| 50 || {{Item|Un-Aged Tequila}} || {{Item|Aged Tequila}} || 2 hours || 100
+|-
+| 60 || {{Item|Un-Aged Dry Gin}} || {{Item|Aged Dry Gin}} || 3 hours || 180
+|-
+| 70 || {{Item|Un-Aged Bourbon}} || {{Item|Aged Bourbon}} || 3 hours ||
+|}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill}}
+}}
+
+== Trivia ==
+The [[Brewing]] skill is the first skill where two players can craft the same recipe with the same ingredients, and get different results!
+
+Although the Dwarven Stout Keg is listed in the recipes list, it requires Level 73, while the current Brewing maximum level with bonus is 71. It's currently not possible to learn or make it.
+<!--
+== Gallery ==
+Include images of some kegs in a cave, a player drinking, and what being drunk looks like.
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+File:Serbule Gallery (abandoned cart).jpg|An abandoned cart.
+File:Serbule Gallery 2.jpg|A very dangerous place...
+</gallery> -->
+
+[[Category:Skills]]

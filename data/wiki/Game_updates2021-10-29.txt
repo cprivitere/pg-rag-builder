@@ -1,0 +1,55 @@
+__NOTOC__
+== Game Update 10/29/2021 ==
+We're back with another update! This one's a little earlier than expected because we wanted to fix a Halloween-event bug (the quest "Skeleton Dance?"). The Halloween event will run for another week or so, into November, so there's still plenty of time to finish the quest lines!
+
+But this isn't just a bug-fix update -- there's also major changes to the Povus nightly quest system, plus a new UI feature.
+
+===Povus - New Feature: "Bonus" Nights===
+Some nights in [[Povus]], the quests are worth more. This happens every 4-8 game days (which maps to 8-16 real hours, which means this happens an average of 2 times per realtime day).
+On Bonus nights, each quest earns the town +100 additional town XP, plus additional item rewards for participants. 
+
+The town signpost has an indicator if the upcoming night's quests will earn bonuses. In addition, at the signpost you can "join [[Tremmond]]'s pigeonmailing list" to receive notifications the game-day before a bonus night.
+(These notifications are sent to currently-online players every game-hour during the game-day, so you may not be notified if you're offline at the wrong moment. If in doubt, just check the signpost!)
+
+Note that at this time, "Bonus Nights" aren't actually any harder than regular nights. They're just bonusier. Some of the in-game flavor text suggests that nastier things are coming, but they're wrong. We might change this in the future as we continue to evolve Povus.
+
+===Povus - New Feature: Armor Shipments===
+When the "Light the Lamps" quest is completed at night, local merchant [[Ishiko]] will stop by the [[Povus]] docks at 10am game-time the next day to buy crafted metal armor. Each piece of armor you give her earns Town XP for Povus, helping it level up. But the cash payout is very poor, so this is primarily a way to donate armor to improve [[Povus]].
+
+===Povus - New Feature: Capstone Quest===
+There's an additional quest added to the end of the Povus nightly quest-line. This one's for those nights when there are LOTS of players in Povus. Starting the quest requires a whopping 16 players.
+
+===Povus - New Feature: Town Storage===
+When you complete a [[Povus]] nightly quest, you can now earn storage slots as part of the reward. The first few slots are earned just by completing one or two quests, but later slots require more quest-completions. Eventually you can have up to 80 slots in the Povus storage chest. (This is technically a bug fix, but since it didn't work at all before, it's also a new feature!)
+
+===Povus: Other Changes===
+: - Increased the number of players needed to start Povus nightly quest stages. Tiers previously required 1,2,3,4,5,6 players; now require 2,3,4,6,9,12 players. This should better match the actual quest requirements.
+: - [[Fashnagar the Prognosticator]]'s post-bath prognostications now have a kernel of truth: many of his lines now accurately hint at how soon the next Bonus Quest Reward night is coming. (Previously they were entirely random.)
+: - Made sure enough Invincible Ratkin Skeletons spawn for the quest "Bone War!"
+: - Fixed the spawn rate of [[Enchanted Mega-Scray]]s during quest "[[Povus Safety: Ranalon Assault]]"
+: - Reduced the kill-requirements of most higher-tier [[Povus]] quests a little bit (e.g. kill 35 flapskulls instead of 40)
+- The second-highest-tier [[Povus]] nightly quests now earn the town 200 XP instead of 100
+: - The highest-tier [[Povus]] nightly quests now earn the town 300 XP instead of 100
+
+===UI Improvement: See Active Buffs on Targets/Party Members===
+You can now see active buffs/debuffs on targets and party members. They are customizable via settings under "GUI > Features > Effects Display", and some of the options are available by right-clicking the party or target displays. They follow the usual Anatomy level requirements, so you need to have level 25 of the appropriate Anatomy skill to view them, even on party members.
+
+===Other Fixes===
+: - Fixed a bug that caused Spawn Premonitions to be permanent, instead of having a 5% chance to dispel on death as intended. As part of this fix, all existing spawn premonitions were erased, so you will need to reapply them!
+: - Also reduced the 3-second universal spawn premonition to a 2-second premonition, and the 5-second universal premonition to 4-second
+: - Summoned deer are now correctly unsummoned when player leaves [[Deer]] form
+: - Frostbite & Rib Shatter stuns now remove Ghosts' nigh-invulnerability
+: - Now treat /em custom emotes as chat messages, so they are affected by /ignore, moderator gagging, etc.
+: - Polish [[Hammer]] animations
+: - Fixed a "click really fast" exploit with [[Genetics]] XP
+: - Properly loop stun animation for NPCs
+: - Reduce crouching of female elves with realistic foot placement turned on
+: - Fix sideways-sitting chairs in [[New Prestonbule Cave|New Prestonbule]] and [[Serbule]]
+: - Skeleton dancing is functional again
+: - No longer send endless undeliverable messages for pigeon messages with no items attached
+: - Place bulwark shield particle correctly on Skeleton Mages
+: - Play animations (invisibly) when in first-person mode. This fixes some subtle bugs
+: - Prevent auto-selected targets from interfering with tab-targeting
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

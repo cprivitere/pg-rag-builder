@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Ragabir]] in [[Red Wing Casino]] said, "Qatik told me there's a set of secret tunnels underneath Eltibule and they're full of magical darkness! I need it! I NEED IT! Get the magical darkness for me! It shouldn't be hard to find: just look for the source of the darkness, kill it, take some darkness, done. So easy even you can do it."
+
+===Prerequisites===
+To start this quest, talk to '''[[Ragabir]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+[[Qatik]] told me there's a set of secret [[Dark Chapel|tunnels underneath Eltibule]] and they're full of magical darkness! I need it! I NEED IT! Get the magical darkness for me! It shouldn't be hard to find: just look for the source of the darkness, kill it, take some darkness, done. So easy even you can do it.
+
+===Requirements===
+* Obtain a [[Mote of Darkness]]
+* Talk to [[Ragabir]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|This is all the darkness you could get?! This is only enough for a few incredibly-powerful potions! <i>[Ragabir sighs.]</i> If you'd brought more, I could have paid better, but here's what you're owed.}}
+* 100 {{Favor|favor}}
+* 1000 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Ragabir]]

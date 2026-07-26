@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+You're killing fey panthers in Eltibule.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Fey Panthers</b>
+These big green panthers come from the fairy realm. Semi-intelligent, they seek to cause mischief and destruction. Regular panthers seem to instinctively treat them as royalty, following their lead and protecting their flank.
+
+===Requirements===
+* Kill Panthers x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 400 Combat XP for your active skills
+* 50 XP in Feline Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Hunting Quests]]

@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Amutasa in Rahu asked you to obtain a large amount of lac. It can be found on the corpses of many insects.
+
+===Prerequisites===
+To start this quest, talk to '''[[Amutasa]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I am running low on lac. Normally we trade with the orcs for it, but their ships have been fewer in number of recent months. I suppose there are local sources, though: giant beetles, for instance. But I suspect the easiest way to get it is the Urak creatures that the orcs use as war-beasts. A pity there are none around here! If you meet an orcish trader, can you purchase any lac they have? I shall repay you.}}
+
+===Requirements===
+* Obtain {{Item|Lac}} x20
+* Talk to Amutasa
+
+===Rewards===
+{{Spoiler|Rewards for Lac for Amutasa|
+{{Quote|You got this for me? I did not see an orcish ship come into port, so I suppose you obtained it from some other means. You must be quite resourceful!}}
+
+* 100 {{Favor|favor}}
+* 400 councils 
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Amutasa]]

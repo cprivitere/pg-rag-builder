@@ -1,0 +1,69 @@
+==<b>May 30 Update</b>==
+:This is mainly a bug-fix update.
+===<b>Black Vegetation on Newbie Island</b>===
+:There's some vegetation on the newbie island that shows up as a solid black mass, and it's due to a bug in the newest NVIDIA driver. Unfortunately we can't repro this bug ourselves, even though some users see it 100% of the time. So I've tried to fix it "blindly": I know certain bushes are showing up black, so I replaced the shader for those bushes with a much simpler one. This may or may not have fixed it. Even if it DOES fix it, there may be other foliage I need to fix.
+:'''If you've seen this bug (or if you see it for the first time today), we need your help! Please go to the newbie island and if you see black-blob vegetation, stand right on top of the black blob, or as close as you can get, and send in a bug report saying "This bush is still black!" Thanks!'''
+
+===<b>Camera-Related Fixes</b>===
+::-	You can once again click on an empty area of the screen to de-select whatever you have selected.
+::-	When you pan the camera, the mouse cursor now stays in the middle of the screen (the way the old camera worked) instead of potentially moving overtop GUI elements and causing pop-ups and unintended side-effects.
+::-	Fixed some bugs pertaining to "auto-move-forward-while-mouse-looking" mode which is activated by pressing both left and right mouse buttons simultaneously.
+::-	Changed the default camera distance to be a few meters back instead of right behind the skull.
+::-	When the camera is zoomed in close to the player, the player is now hidden, rather than subjecting you to a close-up of the player's hair and/or eyeballs.
+::-	The "zoom in" and "zoom out" keyboard buttons no longer zoom all the way in/out with a single press, but smoothly zoom as long as you hold them down.
+::-	Camera zoom distance is remembered when switching zones. Note that the zoom resets whenever you restart the game client; this is intentional failsafe behavior to keep you from getting stuck in a bad zoom state.
+::-	A new keyboard command has been added called "Reset Camera Position". It resets the camera to be behind the player at the default zoom. It has no default key-binding. (It's intended for use in an eventual controller-mapping, but you might find it useful for other things.)
+::-	The 'field of view' setting in the Graphics Advanced Overrides is once again honored.
+::-	A note for people who think the camera isn't showing as much "stuff" as it used to -- that is slightly true. The old Field of View defaulted to 60 degrees, and the new camera defaults to 50 degrees. To get the old behavior back, go into Config->Graphics Options->Advanced Overrides and set "Camera FOV" to 60.
+::-	A note for people who think that run-speed was reduced in the last big update: nope! I double-checked just to be sure. The change is just in the position of the camera: it's higher up so it feels slower.
+::-	There's a new variable that you can add to the special settings screen, "MouseDragSensitivity". It is set to 5 by default. If you sometimes start panning the camera when you're just trying to click on things, try setting this to 7 or 8. If you have a steady hand and want to start panning faster, try setting it to 2 or 3.
+:There were lots of reports that the camera's default settings were too sensitive. In this update the default for "mouse avatar turn speed" was reduced a bit, but no other changes were made yet -- we'll be asking players for their preferred settings soon and will make more changes when we have that feedback.
+
+===<b>Guild Quests</b>===
+:There were several serious bugs with guild quests, and while we’ve fixed those up there may be more bugs for you to find. This is very tricky code, and the chance for bugs is still kind of high (although hopefully nowhere near as serious as the first bugs). So I want to give you as much insight into the system as possible so you can spot problems.
+:First off: We had to recalculate Guild Level for all guilds, and Guild Credits for all players based on the intended rewards listed below. If your guild was in the middle of a guild quest, it is probably still underway -- but unfortunately a few guild quests couldn't be saved; you'll need to restart those. Guild quests can normally be repeated every two weeks BUT if you'd already completed a guild quest, the clean-up code may have artificially set the completion date to today. So you may need to wait two more weeks before you can repeat any quests that you did last week. NEW quests you undertake should reset after two weeks from date of completion.
+:Fixes & Tweaks:
+::-	Being able to have different guild members turn in the same guild quest for Guild XP was a bug. If things are working right, only one guild member needs to turn in the quest with the NPC! The quest should then automatically complete for all other guild members. 
+::-	Fixed a bug where a guild quest could be advanced multiple times by a single monster kill if multiple guild members fought the same monster.
+::-	The guild quest "Afraid of the Circus" had incorrect reward amounts for harder versions; it should follow the rewards listed below (100/200/300) but was rewarding 100/100/100 instead.
+::-	Fixed a scenario where you could accept two guild quests at once if two guild members timed things right.
+::-	If you logged in at any point while a guild quest was underway, you should automatically get Guild Credits for the quest -- even if you weren't logged in when it was completed.
+::-	You can now see how many Guild Credits you have by looking at the bottom of the Persona window.
+::-	Remember that you can spend Guild Credits from the guild sign. There are some unique teleportation and resurrection abilities for sale (which will require you to save up for a little while), along with some useful cheaper items.
+:In order to make it easier to tell if things are working right, all existing guild quests have the same simple reward pattern:
+::-	The 10-person version gives 100 guild XP and 10 Guild Credits to each guild member that participated.
+::-	The 25-person version gives 200 guild XP and 15 Guild Credits.
+::-	The 50-person version gives 300 guild XP and 20 Guild Credits.
+:To reach guild level 1 you need 500 guild XP. To reach level 2 you need 1000 more. Level 3 requires 1500 more, and so on, going up by 500 each level. Since you can complete 3 quests a week, and 3x300=900 guild XP, it should be impossible for any guild to be higher than Guild Level 1 right now. Guild levels don't progress nearly as quickly as player levels. Reaching Guild Level 10 is impressive! Guilds can theoretically reach level 50, but that'll take... a very long time.
+
+===<b>Small Gameplay Change: Kur Cold</b>===
+:The cold wind in [[Kur Mountains]] is meant to make you bundle up. In gameplay terms, that means wearing gear that gives you cold mitigation. But food was buffed a while back to the point that any small meal can completely negate the cold wind -- no cold-mitigation necessary! Rather than nerf food just to fix Kur Mountains, we'll be experimenting with changes to how the cold wind works. In this update, the cold now damages you while you're IN combat as well as when you're out of combat. Since food doesn't work during combat, cold mitigation equipment should be a bit more useful again.
+
+===<b>New Pennoc Quests</b>===
+:Now that most of [[Pennoc]]'s quests are working correctly (except a few hard-to-fix issues), it's time to add more quests! Pennoc has five more quests added to his repertoire, and as usual for Pennoc, each new quest tests new code. Please report any bugs!
+
+===<b>Other Bug Fixes/Changes</b>===
+::-	'''By request, added the official server time in a more easily-legible format when you use "/status". Also shows the in-game time.'''
+::-	Fixed a bug where many areas showed the Serbule map instead of an empty map window
+::-	Treasure effect "Squeal deals 182 Trauma damage over 15 seconds" was being applied to the pig instead of the targets.
+::-	Treasure effect "Squeal uniformly diminishes all targets' entire aggro lists by 30%" was being applied to the pig instead of the targets, where it did absolutely nothing since players don't have aggro lists.
+::-	Several treasure healing effects were being listed as e.g. "{BOOST_MAJORHEAL_SENDER}{.1}" instead of the actual treasure description.
+::-	The treasure effect "Ice Spear and Ice Lightning deal +40% damage" was also stunning the target 100% of the time. It now only does damage, as intended.
+::-	Replaced the temporary stun sound ("cartoon birds") with a sound effect that more closely matches the particle graphic.
+::-	A few other changes to combat sound effects.
+::-	Removed some weird visual artifacts from Calefaction's projectile.
+::-	Using Flesh to Fuel while out of combat no longer briefly marks you as in-combat.
+::-	When you view the pet stable, any active animal-handling pet will go back into the stable first; this works around lots of confusing issues like "Why didn't my pet level up when I bought a level?"
+::-	The special event "hiring a shopkeeper is cheaper" has been fixed for the next time we use it.
+::-	Removed all references to "nonCinematicColors" special-settings variable, as it doesn't do anything anymore (and hasn't for a long time).
+::-	Disabled the "experimental optimizations" due to some bug reports. The checkbox in the configuration screen currently doesn't do anything.
+::-	Revised the in-game help for the Special Settings screen so that it doesn't jump out to a web page -- the possible options are displayed in-game.
+
+===<b>Minor Treasure ID Fixes</b>===
+:There was a new treasure-ID bug, and I fixed some really old ID bugs at the same time. The odds that any of these affect you is extremely small. But here's the details just for completeness:
+::-	The treasure effect "Hunter's Stride boosts Out-of-Combat Health Regeneration" was removed and replaced in the last update, but the replacement accidentally used a new ID, so pre-existing items with the old ID displayed an error message and didn't work right. To make those old items display right, there's a new "dummy" treasure effect that uses the old ID. The dummy effect boosts max health a little. This is not technically a "legacy" treasure effect, but it can't be obtained on new items, either.
+::-	Cleaned up some ID errors related to the treasure effect "Elemental Ward lets you mitigate N% of all Trauma damage for 10 seconds". Existing items with this effect may have gone up or down by one potency tier. But probably not unless you had a pretty old helmet with this effect.
+::-	The ancient treasure effect "Finishing Blow causes targets to become mortified" was removed more than a year ago, and it never actually did anything anyway, but there are a few items in storage vaults that have this effect. So that they display correctly, a new dummy treasure effect with the same ID has been added. It adds Max Health +1. This effect is Legacy.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

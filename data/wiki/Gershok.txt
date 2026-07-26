@@ -1,0 +1,104 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gershok
+|image            = [[File:gershok.png|300px]]
+|caption          = Seems to be meditating.
+|zone             =Serbule Hills
+|location         = Near the meditation pillar by the lake,<br>on the east side of the southern shore
+|anatomy = Fish and Snail
+|species = Ranalon
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     =[[Shamanic Infusion]]
+}}
+{{Quote|
+You interrupt my meditation. You are not here to fight or you would already have struck. So why do you harass me?
+}}
+''Gershok'' is a female [[Ranalon]] living near the lake in [[Serbule Hills]]. She is a master in the Totemic art of [[Shamanic Infusion]].
+
+==Location==
+; [[Serbule Hills]]
+: Standing 25 meters southwest of the meditation pillar by the northern lake's north shore.
+
+==Favor==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+===Favor Rewards===
+{{Spoiler|Reward at {{Favor|Comfortable}}:|
+: Teaches [[Shamanic Infusion]].
+: (Beginner's Boar Foot Infusion is automatically learned upon unlocking Shamanic Infusion).
+}}
+{{Spoiler|Reward at {{Favor|Friends}}:|
+: Beginner's Rat Belt Recipe
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}:|
+: Novice's Rat Belt Recipe
+}}
+{{Spoiler|Reward at {{Favor|Best Friends}}:|
+: Shaman's Rat Belt Recipe
+: {{Item|Trophy Pig Skin}}
+}}
+=== Hang Outs ===
+{{Spoiler|Discuss Ranalon Culture (2h) {{Favor|Neutral}}|
+{{Quote|You almost understand it... you see, when the male fertilizes the eggs, only some of the male's memories are included. But ''all'' of the female's memories are included into the egg. For instance, I was the thirtieth egg my mother laid. I still have her memories of laying the 29 eggs before me. They are... horrible memories. More pickled fish? Oh, please, take it with you! You'll no doubt want to eat it later.}}
+:20 {{Favor|favor}} with Gershok
+:{{Item|Pickled Fish}}
+}}
+{{Spoiler|Help Gershok prepare a totemic infusion (1h) {{Favor|Comfortable}}|
+{{Quote|Good. The tusks are in place. Now just say whatever words come to mind. The actual phrases are not important -- only that the words are sincere. On the other hand, if you mis-align even a single tusk, you are quite likely to explode and die.
+
+Hmm... perhaps you are not yet ready for this recipe. I will teach it to you in time. For now, you may keep the leftover teeth. Practice!}}
+:12 {{Favor|favor}} with Gershok
+:{{Item|Boar Tusk}} x 2
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Gershok
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+[[Gershok]] will only train Shamanic Infusion skills if you reach {{Favor|Comfortable}} with her.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Shamanic Infusion]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Shamanic Infusion{{pipe}}Shamanic Infusion Skill
+ |cost=0
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Beginner's Rat Belt
+ |skilllevel=15
+ |cost=0
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Novice's Rat Belt
+ |skilllevel=30
+ |cost=0
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Shaman's Rat Belt
+ |skilllevel=50
+ |cost=0
+ |favor=Best Friends
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Deer Guts}} x10
+|RiShin Family = {{Item|Stomach}} x5
+}}
+== Conversations ==
+[[Category:NPCs]][[Category:Ranalon]] [[Category:Favor/Small Talk]][[Category:Favor/Rewards]][[Category:Favor/Hang Outs]]

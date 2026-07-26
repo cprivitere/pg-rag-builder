@@ -1,0 +1,71 @@
+__NOTOC__
+==Hotfix Notes: June 30, 2021==
+There were a few problems with this morning's patch:
+::- Some items, such as player-spawned portals and raffle boxes, were bugged and could not be interacted with
+::- Certain particle effects were "leaking" junk particles that didn't disappear correctly
+::- Reverted unintended lighting changes to [[Serbule]].
+
+==Update Notes: June 30, 2021==
+We've got a quick and dirty update for you today -- a smorgasbord of bug fixes and improvements that we've put together in the background while we continue to work hard not only on Animal Husbandry, but on a whole new high-level zone! But while those features are in active development, they aren't ready yet -- and we didn't want to wait any longer on fixing these annoying bugs. Here's the list:
+
+===Animations===
+::- Improved locomotion animations of both flying and non-flying creatures.
+::- Female humanoids slouch less. (But more tweaks still to come, especially for rakshasa females.)
+::- Updated [[Sword]] ability animations.
+::- Updated [[Shield]] ability animations.
+::- Updated [[Bard]] ability animations. 
+::- Tweaked [[Archery]] animations. In particular, all Archery animations should now aim toward their target.
+::- [[Bard]] abilities no longer have a delay before their damage or healing is applied.
+::- Fixed animation problems with [[Deer]] that caused certain attacks to take a very long time to trigger.
+::- Changing gear, then flying, no longer causes your character to use walking animations instead of flying ones.
+::- Limited how far your character will crane their head while looking at something.
+::- Disabled headlook while dead.
+::- Sword slash particles now face toward the attacker and not the attackee.
+::- While loading into a zone, you will no longer appear to other players as if you were falling.
+::- Ghosts now float again.
+::- /cry cries. Improved many other emote animations also. Note that some animations, such as /wave, have become full-body emotes for now, meaning that you cannot move while waving. We plan to make them upper-body-only emotes again in the future, so that you can e.g. walk while waving.
+::- Wings should now stop flapping when a fairy dies.
+::- More improvements to sitting and lying animation sequences.
+::- Hags in the character introduction screen are still creepy, but no longer 'sink into the ground' creepy. 
+
+===UI Improvements===
+::- Player Vendor UI Improvements: 
+::: o Items can be moved up & down with buttons instead of right-clicking.
+::: o Items can be moved to the top & bottom of the list via right-clicking.
+::: o Saving an item will no longer revert unsaved changes of other items.
+::: o Text colors change to indicate whether item is or is not currently shown in shop.
+::- Loadouts can now be renamed.
+::- If an NPC likes a gift but you don't know that yet (because they only share that info at higher Favor levels), they will now show up in the "Item Info" -> "Gifting" window as a "person who hasn't told you they like it." For example: "This item is a good gift for 2 people you haven't met yet, plus 1 person who hasn't told you they like it."
+::- Current vs. required favor levels are now taken into account when showing gifting highlights. In other words, if your character couldn't "know" that an NPC likes an item, the item doesn't show with a purple border as a gift.
+::- Gifting an item to an NPC no longer causes the highlights of other items to disappear.
+::- Selecting group members via nameplate in the mini-group UI will no longer intermittently fail.
+::- If you are the last remaining player in a group, you will no longer receive an extraneous "You are now the leader" message right before being disbanded.
+::- GUI window resizing now properly responds to locking the GUI with a hotkey.
+::- Better resizing of Quest Rewards when the Quest Log is tiny.
+::- Replaced the inventory folder lock icon with an outline around the bag instead, in order to let the bag itself to be more visible.
+::- Buff durations in tooltips now update in real-time when you leave the mouse over the effect icon.
+::- Map pin labels now place above their respective pins instead of overlapping.
+::- NPC shops could show the wrong price for certain multi-buy items like Salt, Flour, and Sugar. This has been fixed.
+::- Tooltips should no longer occasionally get stuck to your cursor. 
+::- Combat numbers and speech bubbles should no longer appear in the wrong place.
+::- If you're disconnected to the main menu with the cursor hidden -- for example, while holding right-click -- your cursor should now properly reappear.
+::- Tweaked the item-pickup floating animation to be quicker & no longer centered on the player. There are two new Special Settings to control the floating start point: <b>PickupItemsStartX</b> & <b>PickupItemsStartY</b>
+
+===Other Changes===
+::- When examining a corpse, if you have an autopsy kit and no chance to fail the autopsy, the corpse is instantly auto-autopsied.
+::- Deposit All will now only attempt to store stackable items and not, for example, non-stacking items like equipment that shares the same name.
+::- Added the word "unlocked" to Deposit All wording, to clarify that items cannot come from locked inventory folders.
+::- Stow Items now works properly for the Warden Chest when in Kur Mountains.
+::- Mobs will no longer knock you into the air if you are very close to them.
+::- When at negative max HP -- for example, due to anti-regeneration -- the player can no longer: Respawn, Eat items that require you to be dead (Eternal Greens, etc.), or be affected by abilities that require the target to be dead (Resuscitate, etc.). This brings gameplay behavior in line with our intention: if you lose literally all of your Max HP due to debuffs, you can't come back to life until those effects wear off. The main way this can happen is by consuming too much deadly iocaine powder, and we recommend that you don't do that!
+::- Lycans should now be able to survey at the bottom of water.
+::- Fixes bug where player sinks to bottom of water when interacting with something.
+::- Polished a number of projectiles, most noticeably the "darkness ball" used by several necromantic abilities and necro-monsters.
+::- Fixed bug in particle from Death's Hold: it could leave behind orphaned zombie arms.
+
+We'll be back soon with more bug-fixes and new content!
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

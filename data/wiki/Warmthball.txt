@@ -1,0 +1,14 @@
+__NOTOC__
+{{Ability infobox
+| name = Warmthball
+| description = Throw a vaguely painful ball of warmth.
+| level = 0
+| power cost = 0
+| reuse time = 2
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Fireball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 8 Fire
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

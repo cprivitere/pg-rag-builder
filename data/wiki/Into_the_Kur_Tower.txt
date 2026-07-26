@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+[[Landri the Cold]] asked you to enter the dungeon underneath the tower in Kur and find her old mentor, a necromancer named [[Lomas]]. She wants his skull as proof that he's fully dead.
+
+[[Landri]] gave you a special amulet that can let you enter the ice barrier deep within the dungeon.
+===Prerequisites===
+To start this quest, talk to '''[[Landri the Cold]]''' in '''[[Kur Mountains]]'''.  The quest is available after reading a signpost just inside the entrance of [[Kur Tower]].
+
+===Preface===
+{{Quote|
+[[Landri the Cold]] asked you to enter the dungeon underneath the tower in Kur and find her old mentor, a necromancer named [[Lomas]]. She wants his skull as proof that he's fully dead.
+
+[[Landri]] gave you a special amulet that can let you enter the ice barrier deep within the dungeon.
+}}
+
+===Requirements===
+* Get Past The Ice Barrier. (Use {{Item|Ice Bypass Spell}}).
+* Kill Lomas, Take His Skull. (Loot {{Item|Lomas's Skull}}).
+* Talk to Landri
+
+===Rewards===
+{{Spoiler|Rewards for Into the Kur Tower|
+* A conversation with [[Landri the Cold]] that allows [[Ice Magic]] to be learned if [[Fire Magic]] is at least Level 25.
+* This unlocks her training menu, giving access to the other skills she teaches.
+}}
+
+==Notes==
+If you lose your {{Item|Ice Bypass Spell}}, you can either drop the quest and re-accept it to get a new copy, or you can trade with another player for it.
+
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Landri]]

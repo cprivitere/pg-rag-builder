@@ -1,0 +1,105 @@
+__NOTOC__
+{{NPC infobox
+|title            = Drima
+|caption          = Scowling and writing.
+|image            = [[File:Drima (npc).png|300px]]
+|zone             = Ilmari
+|town = Amulna
+|location         = Northeast shop, near [[Sir Johnson]]
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|barter = Yes
+}}
+{{Quote|
+Welcome to Sir Johnson's commissary. I can redeem your Sir Johnson Bucks for items of actual value.
+}}
+[[Drima]] is a fairy in the town of [[Amulna]]. He provides players with the ability to trade [[Sir Johnson Buck]]s for various Level 55 gear, [[Lockpicks]], or [[Council Certificate]]s.
+== Location ==
+; [[Ilmari Desert]]
+: [[Drima]] is always found inside the northeastern-most building in [[Amulna]], behind [[Sir Johnson]].
+== Services ==
+==== Bartering ====
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Sir Johnson Buck}} || {{Item|Lockpicks}} x3
+|-
+| {{Item|Sir Johnson Buck}} || {{Item|Trollbane Oil}} x10
+|-
+| {{Item|Sir Johnson Buck}} || {{Item|Curative: Mummy Diseases}} x8
+|-
+| {{Item|Sir Johnson Buck}} x4 || {{Item|Council Certificate}}
+|}
+Drima will also trade various gear (of level 55 and random rarity (but at least {{ItemRarity|Exceptional}} - see [[Game_updates/2019-06-26#War_Caches|update notes from june 2019]]) for [[Sir Johnson Buck]]s:
+{| class="wikitable mw-collapsible mw-collapsed"
+!Give
+!Receive 
+|-
+| rowspan = "23" | {{Item|Sir Johnson Buck}} x2 || {{Item|Council Pathfinder Armor}}
+|-
+| {{Item|Council Pathfinder Boots}}
+|-
+| {{Item|Council Pathfinder Gloves}}
+|-
+| {{Item|Council Pathfinder Helm}}
+|-
+| {{Item|Council Pathfinder Leggings}}
+|-
+| {{Item|Ravana Soldier Shield}}
+|-
+| {{Item|Council Trooper Sword}}
+|-
+| {{Item|Bow of Range}}
+|-
+| {{Item|Sandy Staff}}
+|-
+| {{Item|Ravana Soldier Dagger}}
+|-
+| {{Item|Stabmaster}}
+|-
+| {{Item|Deworming Club}}
+|-
+| {{Item|Bombing Beaker}}
+|-
+| {{Item|Lopsided Flask}}
+|-
+| {{Item|Hunting Crossbow}}
+|-
+| {{Item|Serpent Sting}}
+|-
+| {{Item|Resistant Claw}}
+|-
+| {{Item|Weaver's Ocarina}}
+|-
+| {{Item|Rakshasa Lute}}
+|-
+| {{Item|Amulet of Max Power +30}}
+|-
+| {{Item|Battle Priest's Medallion}}
+|-
+| {{Item|Ring of Increasing Anxiety}}
+|-
+| {{Item|Fae Ring of Healing}}
+|}
+
+== Conversations == 
+{{Quote|source=[[Drima]]|
+I'd heard people talking about [[Sir Johnson]] when I worked in [[Statehelm]]. He's a well-respected military leader. As I'm sure he'll tell you, he successfully led the Invasion of Tree-Rock-Bridge, which everyone thought was a suicide mission.
+
+His nickname among friends is The Fox, which apparently implies cunning. Why are foxes cunning? Mortals are weird.
+
+Anyways, he's a "free thinker," meaning that he flouts military regulation constantly.
+; Seems like a bad trait for a military leader.
+I guess you're right. Where I come from, battles are much more... chaotic, and a bit of capriciousness is a good thing. But in the Council, leaders who don't follow orders end up relocated to far-away posts where they can't cause trouble. And look, here we are!
+; So he's been moved here as a punishment?
+Yes. Well, it's more complicated than that. His career has had a lot of ups and downs, and he's good at "turning problems into opportunities," as he says.
+
+He was sent out here to keep an eye on [[Rahu]], which was definitely a demotion. But they ne found out about [[Weaponized Xedrite|Xedrite]], and the Council gave him permission to collect a bunch of it, and he sees this as his way back into their good graces.
+
+He never disobeys orders, exactly. He just bends a lot of rules. Apparently this has worked out well for him in the past... sometimes.
+; Thank you for the information.
+}}
+[[Category:NPCs]][[Category:NoRiShin]]

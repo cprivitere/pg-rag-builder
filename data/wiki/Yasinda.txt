@@ -1,0 +1,105 @@
+__NOTOC__
+{{NPC infobox
+|title            = Yasinda
+|image            = [[File:Yasinda.png|250px|]]
+|caption          = She is writing something and looking angry
+|zone             = Eltibule
+|town = Hogan's Keep
+|location = A tent left of the entrance.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist        = All
+|skilltrainer     = [[Treasure Cartography]]
+}}
+[[Yasinda]] is a [[Rakshasa]] currently living in [[Hogan's Keep]].  She traveled here to find her daughter Sinda, who she believes went missing after partnering with a [[Human]] sage named [[Sir Villas Wake]].  Yasinda is named after her great-grandmother, who was a master cartographer from the Rakshasa world of Ravana.  Her mate died a year ago, and she is torn over whether she should find another mate or not.
+
+{{Quote|
+Human sages are wormy and bookish, preferring knowledge over power. It's obscene! Everyone knows that knowledge without use is immoral. A wise sage that can't even defend himself from monsters is... it's disgusting. How do humans tolerate such behavior?! And why would Sinda willingly learn from such a pathetic creature? What did I do wrong?
+}}
+
+{{Quote|
+My Daughter left [[Povus]] to work for a human and learn his miserable human trade.  She spurned the family history of cartography and shamed me. But I still miss her.
+}}
+  
+==Location==
+; [[Eltibule]]
+: Found in a blue and yellow tent in [[Hogan's Keep]].
+
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Comfortable}}|
+{{Quote|You make me slightly happier to have come to this place. Here. It's a trinket I brought with me from [[Povus]]. Accept it as token.}}
+:{{Item|Tail Ring of Righteousness}}
+}}
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]<br>
+{{Spoiler|Discuss Yasinda's disappointment with her daughter's choice of profession (3h)|
+{{Quote|Human sages are wormy and bookish, preferring knowledge over power. It's obscene! Everyone knows that knowledge without use is immoral. A wise sage that can't even defend himself from monsters is... it's disgusting! How can humans tolerate such behavior?! And why would Sinda willingly learn from such a pathetic creature? What did I do wrong?
+
+... My apologies. I got carried away. I know that humans ave their good points. In fact, I brought a human trinket with me as a placating gift. Hogan didn't want it, though. Do you?}}
+:27 favor with Yasinda
+:{{Item|Earrings of Community}}
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Yasinda
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Treasure Cartography]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Treasure Cartography{{!}}Learn Treasure Cartography
+ | skilllevel = 0
+ | cost = 0
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Eltibule Treasure Map: Small Treasure
+ | skilllevel = 1
+ | cost = 166
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Eltibule Treasure Map: Large Treasure
+ | skilllevel = 8
+ | cost = 400
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Eltibule Treasure Map: Vast Riches
+ | skilllevel = 16
+ | cost = 1000
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Eltibule Treasure Map: Incredible Wealth
+ | skilllevel = 24
+ | cost = 1600
+ | favor = Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Tail Ring of Defiance}}
+}}
+== Conversations ==
+[[Category:NPCs]]

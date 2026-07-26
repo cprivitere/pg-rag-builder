@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+Rick Snapley in New Prestonbule said, "A Ri-Shin tree needs a topper, something that glows. But I don't wanna use one of those glowing yellow crystals... I know Sona says she can make 'em safe, but it's too dangerous.
+
+Let's just... I dunno, let's just stick some candles on top, like my family used to do. But we'll need to light 'em every night... got any spare candles?"
+
+This Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Rick Snapley]]''' in '''[[New Prestonbule Cave]]'''.
+
+===Preface===
+A Ri-Shin tree needs a topper, something that glows. But I don't wanna use one of those glowing yellow crystals... I know Sona says she can make 'em safe, but it's too dangerous.
+
+Let's just... I dunno, let's just stick some candles on top, like my family used to do. But we'll need to light 'em every night... got any spare candles?
+
+===Requirements===
+* Obtain Candle Stumps x3
+* Talk to Rick Snapley
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Oh, you only have candle stumps? Well, Bellema likes to melt 'em down and remake 'em, so maybe this will work. Thanks!
+
+Hmmm... the candles are too heavy, they're bending the branches down... do you think it'll catch the tree on fire? Nah, it's fine. I'm just overthinking this!}}
+* 25 {{Favor|favor}}
+}}
+
+===Trivia===
+A New Prestonblule holiday tree quest until 2019. Replaced in 2020 with [[Event: Tealight Tree-Topper]].
+
+[[Category:Quests]] [[Category:Removed Content]]

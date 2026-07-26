@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Great, you're definitely competent! That means you can help with a slightly awkward problem: a few thousand years ago, long before he died, Urtigal taught me how to make undead. And the first monsters I made were silly undead that can haunt plants. They're really tacky. I was just messing around!
+
+Anyway, a bunch have escaped Chalice and they're infesting a pumpkin patch in Serbule Hills. Kill them before they do something that embarrasses me!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Great, you're definitely competent! That means you can help with a slightly awkward problem: a few thousand years ago, long before he died, Urtigal taught me how to make undead. And the first monsters I made were silly undead that can haunt plants. They're really tacky. I was just messing around!
+
+Anyway, a bunch have escaped Chalice and they're infesting a pumpkin patch in Serbule Hills. Kill them before they do something that embarrasses me!
+
+===Requirements===
+* Kill Pumpkin Mimics x7
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> I think you killed enough of the little jerks to keep them from invading a town or anything else too drastic. The stragglers will probably eat a few people, but meh.
+
+Hey, wanna see something funny? If you grow the seeds from those evil pumpkins, they explode! But fair warning: it hasn't been a very popular party trick for me.}}
+* 350 councils
+* Learn Gardening: Pumpkin Bomb. [[Gardening/Abilities|Gardening Complete Ability List]]
+* {{Item|Level 10-20 Event Loot Key}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

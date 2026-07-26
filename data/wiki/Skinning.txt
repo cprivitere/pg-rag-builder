@@ -1,0 +1,217 @@
+__NOTOC__
+{{Skill infobox
+|title            = Skinning
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = 
+|skilltype        = Trade Skill <!-- Combat Skill, Trade Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              =  <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Nishika]], [[Felmer]] <!-- List skill trainers, 3 max -->
+}}
+{{Quote|
+Leave a quote about the skill here. This can be the in-game description, but that info must be placed below as well.  Adds a bit of flavor to the article as well.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Skinning''' is one of the possible "corpse actions" you can take after you defeat an enemy, provided you have some kind of skinning knife in your inventory. In general you are only able to skin non-sentient mammals. Tougher enemies will result in better skins, which can be turned into rolls, which can be crafted into gear.
+
+=== In-Game Description ===
+Skill in the act of removing fur or skin from an animal. You need to be carrying a Skinning Knife in order to skin a corpse. Corpses of sentient creatures, such as goblins and humans, can't be skinned.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* Beginning players can obtain a '''Simple Skinning Knife''' by helping [[Ivyn]], or by buying one from [[Kleave]] in [[Eltibule]]
+* [[Nishika]] and [[Rugen]] both can unlock levels 51-60 and 61-70.
+* [[Felmer]] will unlock levels 71-80.
+* Levels 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+* Levels 81-90 are unlocked by [[Grim Jim]] at [[Statehelm]].
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* None
+===== Related Skills: =====
+* [[Tanning]] - Skins can be processed into rolls
+* [[Leatherworking]] - The end result of skins.
+* [[Butchering]] - One of the other possible corpse actions. If you skin a corpse, you cannot butcher it, and vice versa.
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Skinning]] can be obtained from the following skills and levels:
+:; [[Butchering]]
+:: Level 10, Level 30, Level 50
+:; [[Leatherworking]]
+:: Level 15
+:; [[Tanning]]
+:: Level 20
+:; [[Textile Creation]]
+:: Level 20
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+===List of Skins===
+{|
+| {{Item|Shoddy Animal Skin}}
+| {{Item|Rough Animal Skin}}
+| {{Item|Crude Animal Skin}}
+| {{Item|Decent Animal Skin}}
+| {{Item|Nice Animal Skin}}
+|-
+| {{Item|Quality Animal Skin}}
+| {{Item|Great Animal Skin}}
+| {{Item|Amazing Animal Skin}}
+| {{Item|Astounding Animal Skin}}
+|}
+
+===Trophy Skins and Exotic Items===
+Your chance of receiving special items depends on your [[Anatomy]] level for the type of mob that you're skinning. For example, at level 50 Cat Anatomy, you have a 5% chance of obtaining a Trophy Panther Skin from a [[Razorslash Panther]]. It's a bit easier to get Exotic Items: at level 49 cat Anatomy, you have a 14% chance of getting a Cat Eyeball from a [[Tiger]].
+
+===Extra Skins===
+If your skinning level is much higher than the mob, you have the chance to get extra skins. Typically this is either the normal skin + 1 skin of a lower tier, 2 normal skins, or 2 normal skins +  1 skin of the lower tier.
+
+=== XP Gains===
+Skinning an enemy successfully gives XP equivalent to the enemy's level, rounded up to the nearest multiple of 5. It seems that getting any extra skins or special items (e.g. cat eyes, pig snouts) gives another +5 XP for each skin/item. Trophy skins also give +5. 
+
+Failing a skinning gives a portion of the XP you would have gained from a successful skin.
+
+===Equipment===
+{| {{STDT}}
+! Knife !! Description
+|-
+| style="white-space:nowrap;"| {{Item|Simple Skinning Knife}} || A simple skinning knife for beginning skinners. (Keep it in your inventory and you'll be given the option to skin corpses of some enemies.)
+|-
+| style="white-space:nowrap;"| {{Item|Basic Skinning Knife}} || A basic skinning knife for novice skinners. ('''+2''' to your effective skill when skinning.)
+|-
+| style="white-space:nowrap;"| {{Item|Good Skinning Knife}} || A quality skinning knife for experienced skinners. ('''+4''' to your effective skill when skinning.)
+|-
+| style="white-space:nowrap;"| {{Item|Expert's Skinning Knife}} || A great skinning knife for expert Skinners. ('''+6''' to your effective skill when skinning.)
+|-
+| style="white-space:nowrap;"| {{Item|Master Skinning Knife}} || A perfect skinning knife for master Skinners. ('''+8''' to your effective skill when skinning.)
+|-
+| style="white-space:nowrap;"| {{Item|Amazing Skinning Knife}} || A perfect skinning knife for master Skinners. ('''+10''' to your effective skill when skinning.)
+|-
+| style="white-space:nowrap;"| {{Item|Astounding Skinning Knife}} || A perfect skinning knife for master skinners. ('''+12''' to your effective skill when skinning.)
+|-
+| style="white-space:nowrap;"| {{Item|Utility Knife}} || A versatile knife for skinning or butchering. (Keep it in your inventory and you'll be given the option to skin andlor butcher the corpses of some enemies.)
+|-
+| style="white-space:nowrap;"| {{Item|Multipurpose Knife}} || A versatile knife for skinning, butchering, or skull extraction. (Keep it in your inventory and you'll be given the option to skin, butcher, andlor extract the skull of some enemies.)
+|}
+
+=== Skins and Suggested Levels===
+{| {{STDT}}
+! style="width:150px;"| Skin !! style="width:100px;"|Skinning !! style="width:150px;"|Creatures & XP Gain !! Area(s)
+|-
+| {{Item|Shoddy Animal Skin}} || 0+ ||
+Rat +5<br>
+Deer +8<br>
+Pig +8<br>
+[[Doe Deer]] +13<br>
+[[Buck Deer]] +13<br>
+|| Between the town and the rocky cave (east on the minimap) lots of Pigs and Wolves. In the [[Serbule Sewers]], lots of Sewer Rats. Deer are South of Serbule.
+|-
+| {{Item|Rough Animal Skin}} || 11+ ||
+[[Doe Snow Deer]] +36<br>
+[[Feral Cow]] +15<br>
+[[Panther]] +25<br>
+[[Wild Pig]] +15<br>
+[[Worg]] +13<br>
+|| North Serbule, around Eltibule portal. Also south of Serbule, on the hills. Both places have Wild Pigs.
+|-
+| {{Item|Crude Animal Skin}} || 16+ || 
+[[Bear Groupie]] +29<br>
+[[Wolf]] +20<br>
+[[Tiger]] +25<br>
+[[Feral Bull]] +21<br> 
+[[Fire Sheep]] +25<br>
+[[Misery Yak]] +27<br>
+[[Panther]] +30<br>
+[[Tor-Urak]] +40<br>
+|| [[Eltibule]]
+|-
+| {{Item|Decent Animal Skin}} || 26+ || 
+[[Anomalous Sheep]] +35<br>
+[[Buck Snowdeer]] +33<br>
+[[Cunning Wolf]] + 35<br>
+[[Fey Panther Groupie]] +35<br>
+[[Mountain Sheep]] +35<br>
+[[The Mangler]] +39<br>
+[[The Mauler]] +39<br>
+[[Trained Crushing Bear]] +39<br>
+|| Northeastern [[Eltibule]]
+|-
+| {{Item|Nice Animal Skin}} || 40+? ||
+[[Bleddyn]] +45<br> 
+[[Bloodthirsty Werewolf]] +45<br>
+[[Hungry Tundra Wolf]] +40<br>
+[[Ice Bear]] +45<br>
+[[Insane Werewolf]]<br>
+|| [[Kur Mountains]]
+|-
+| {{Item|Quality Animal Skin}} || ? ||
+[[Razorslash Panther]]<br>
+[[Crazed Alpha]]
+|| Razorslash Panther is In [[Kur]], west of [[Kur Tower]]. Crazed Alpha is in the [[Wolf Cave]]
+|-
+| {{Item|Great Animal Skin}} || ? ||
+[[Grimalkin]]<br>
+[[Wild Worg]]<br>
+[[Desert Rhino]]<br>
+[[Deinonychus]]
+|| [[Grimalkin]] can be found around [[Ilmari]], and [[Wild Worg]]s can be found in [[Amaluk Valley Cave]].  [[Desert Rhino]]s and [[Deinonychus]]es can be found in the large plain in [[Rahu]].
+|-
+| {{Item|Amazing Animal Skin}} || ? ||
+[[Barghest]]<br>
+[[Starving Tundra Wolf]]<br>
+[[Tundra Bear]]<br>
+[[The Hound of Amaluk Valley]]
+|| [[Amaluk Valley Cave]]. Many areas throughout [[Gazluk]], such as outside [[New Prestonbule Cave]].
+|-
+| {{Item|Astounding Animal Skin}} || ? ||
+[[True Barghest]]<br>
+[[Fae Panther]]<br>
+[[Fae Bear]]<br>
+[[Fae Rhino]]
+|| Many areas in the [[Fae Realm]], such as the north central area.
+|}
+
+===Trophy Skins===
+
+{| {{STDT}}
+! style="width:130px;" | Skin !! style="width:130px;" | Questgiver !!| Value
+|-
+|[[Trophy Bear Skin]] || None || 750 
+|-
+|[[Trophy Cow Hide]] || [[Braigon]] || 750 
+|-
+|[[Trophy Deer Skin]] || None || 250 
+|-
+|[[Trophy Panther Skin]] || [[Gorvessa]] || 1200 
+|-
+|[[Trophy Pig Skin]] || None || 500 
+|-
+|[[Trophy Rat Skin]] || [[Thimble Pete]] || 250 
+|-
+|[[Trophy Sheep Skin]] || [[Syndra]] || 750 
+|-
+|[[Trophy Shark Skin]] || None || 750 
+|-
+|[[Trophy Tiger Skin]] || [[Roshun the Traitor]] || 600
+|-
+|[[Trophy Wolf Skin]] || [[Mushroom Jack]]; [[Ukorga]] x5|| 750
+|-
+|[[Trophy Rhino Hide]] || None || 1800
+|-
+|[[Trophy Droach Skin]] || None || 2500
+|-
+|}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Skinning Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Skinning|
+{{:Xptables/CorpseActionSkillExt}}
+}}
+
+== Trivia ==
+'''Write a little about this history of the skill, or things that don't belong in above areas'''
+
+== Gallery==
+
+[[Category:Skills]]

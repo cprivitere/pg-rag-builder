@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Way has asked for some string with which to fix Way's lucky yo-yo.
+
+===Prerequisites===
+To start this quest, talk to '''[[Way]]''' in the '''[[Myconian Cave]]s'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Way's Lost Yo-Yo]] in order to undertake this quest.
+
+===Preface===
+{{Quote|Could you find me some replacement string for my yo-yo? It doesn't work anymore.}}
+
+===Requirements===
+* Obtain {{Item|String}}
+* Talk to Way
+
+===Rewards===
+{{Spoiler|Rewards for Fixing Way's Yo-Yo|
+{{Quote|Thank you! Happy day! Here, let me shower you with human coins!}}
+
+* 100 {{Favor|favor}}
+* 1000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Myconian Caverns Quests]][[Category:Quests/Way]]

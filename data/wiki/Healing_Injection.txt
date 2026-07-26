@@ -1,0 +1,121 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Healing Injection
+| description = Inject healing chemicals into yourself or an ally.
+| level = 4
+| power cost = 13
+| reuse time = 15
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HealingInjection}}{{KWAB|MinorHeal}}{{KWAB|MinorHealTargeted}}
+| special = Restore 25 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Healing Injection 2
+| description = Inject healing chemicals into yourself or an ally.
+| level = 14
+| power cost = 17
+| reuse time = 15
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HealingInjection}}{{KWAB|MinorHeal}}{{KWAB|MinorHealTargeted}}
+| special = Restore 35 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Healing Injection 3
+| description = Inject healing chemicals into yourself or an ally.
+| level = 24
+| power cost = 22
+| reuse time = 15
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HealingInjection}}{{KWAB|MinorHeal}}{{KWAB|MinorHealTargeted}}
+| special = Restore 45 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Healing Injection 4
+| description = Inject healing chemicals into yourself or an ally.
+| level = 34
+| power cost = 27
+| reuse time = 15
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HealingInjection}}{{KWAB|MinorHeal}}{{KWAB|MinorHealTargeted}}
+| special = Restore 55 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Healing Injection 5
+| description = Inject healing chemicals into yourself or an ally.
+| level = 44
+| power cost = 30
+| reuse time = 15
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HealingInjection}}{{KWAB|MinorHeal}}{{KWAB|MinorHealTargeted}}
+| special = Restore 65 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Healing Injection 6
+| description = Inject healing chemicals into yourself or an ally.
+| level = 54
+| power cost = 34
+| reuse time = 15
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HealingInjection}}{{KWAB|MinorHeal}}{{KWAB|MinorHealTargeted}}
+| special = Restore 75 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Healing Injection 7
+| description = Inject healing chemicals into yourself or an ally.
+| level = 62
+| power cost = 37
+| reuse time = 15
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HealingInjection}}{{KWAB|MinorHeal}}{{KWAB|MinorHealTargeted}}
+| special = Restore 85 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Healing Injection 8
+| description = Inject healing chemicals into yourself or an ally.
+| level = 72
+| power cost = 41
+| reuse time = 15
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HealingInjection}}{{KWAB|MinorHeal}}{{KWAB|MinorHealTargeted}}
+| special = Restore 95 Health.
+}}
+|-
+|
+{{Ability infobox
+| name = Healing Injection 9
+| description = Inject healing chemicals into yourself or an ally.
+| level = 82
+| power cost = 46
+| reuse time = 15
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|HealingInjection}}{{KWAB|MinorHeal}}{{KWAB|MinorHealTargeted}}
+| special = Restore 105 Health.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

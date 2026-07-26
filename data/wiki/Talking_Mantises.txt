@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Sir Coth in Serbule has asked you to kill Augmented Mantis Slaves. They are past the farmlands outside of Serbule.
+
+===Prerequisites===
+To start this quest, talk to '''[[Sir Coth]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|The usual population of giant mantises has changed. They can talk now! And they have deadly acid attacks. I have no idea what the heck happened, but they're no longer an ignorable threat. Can you stomp them out? I'm stuck here, defending the gate...}}
+
+===Requirements===
+* Kill Augmented Mantis Slaves
+* Talk to Sir Coth
+
+===Rewards===
+{{Spoiler|Rewards for Talking Mantises|
+{{Quote|Good! Perfect! We're a well-oiled team! I know you did that just to make the town safer, but let me give you a bit of reward money anyway, as a token of thanks.}}
+
+* 150 {{Favor|favor}}
+* 600 councils 
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Sir Coth]]

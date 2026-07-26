@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Lakrea gave you a recipe for a Bacon Basket and instructed you to cook one. Eating it is optional.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|Eating meat is often bad for your holistic health, but <i>cooking</i> with meat definitely isn't! As you weave the guts of fallen animals into a delicious meal, you'll find your mind soaring to new heights.}}
+
+===Requirements===
+* Cook a Bacon Basket
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: Bacon Basket|
+{{Quote|How did the pig guts feel? Gross? Fatty? You see!? You're finally interacting with the <i>real</i> world, not the fake world that you usually live in. You'll get healthy in no time.}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

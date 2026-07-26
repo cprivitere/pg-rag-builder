@@ -1,0 +1,275 @@
+__NOTOC__
+{{NPC infobox
+|title            = Elahil
+|image            = [[File:Elahil (npc).jpg|300px]]
+|caption          = A bowyer and fletcher.
+|zone             = Serbule
+|town = Serbule Keep
+|location = Around the eastern gate.
+|wander = Walks between Guild House and well.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = No
+|skilltrainer     = [[Archery]], [[Fletching]]
+|vendor           = Yes
+}}
+{{Quote|
+You want to be a fletcher, you've gotta be handy with a saw. Learn some basic carpentry, otherwise you can't make much of anything can you? Nope. Not without carpentry.
+
+But don't get carried away. Carpentry's a pain in the ass, and you just need to know the basics.
+}}
+[[Elahil]] is the bowyer and fletcher expert in [[Serbule Keep]].
+== Location ==
+; [[Serbule]]
+: Around the South-East house in the village square. [[File:Elahil_Location.jpg|400px|thumb|right|'''Elahil''', standing outside the house with [[Pennoc]] inside, located in [[Serbule Keep]]. He will either be outside the house as shown, or occasionally be found in the house.]]
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+At {{Favor|Comfortable}} favor, [[Elahil]] begins to offer Hang Out opportunities.
+{{Spoiler|Go bow-hunting for stags (4 hours)|
+:35 [[favor]]
+:300 [[Archery]] XP
+:{{Item|Antler}} x1
+}}
+{{Spoiler|Help restring old bows (60 minutes)|
+{{Quote|Thanks! It's a lot easier to restring these with two people working on 'em.}}
+:12 [[favor]]
+:150 [[Archery]] XP
+}}
+{{Spoiler|Test various arrowhead designs (2 hours) {{Favor|Comfortable}} |
+{{Quote|Most of these experimental arrows sucked, but the frog-crotch arrows were pretty good. Let me keep working on the design; I think it oculd be pretty useful against unarmored foes.}}
+:20 [[favor]]
+:150 [[Archery]] XP
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Elahil
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Archery]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Archery{{pipe}}Unlock Archery Skill
+ |skilllevel=0
+ |cost=100
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Heavy Shot
+ |skilllevel=1
+ |cost=250
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Heavy Shot 2
+ |skilllevel=15
+ |cost=1450
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Heavy Shot 3
+ |skilllevel=30
+ |cost=2349
+ |favor=?
+}}
+{{NPC training row
+ |ability=Heavy Shot 4
+ |skilllevel=50
+ |cost=6264
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Heavy Shot 5
+ |skilllevel=65
+ |cost=13006
+ |favor=?
+}}
+{{NPC training row
+ |ability=Snare Arrow
+ |skilllevel=11
+ |cost=1250
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Snare Arrow 2
+ |skilllevel=21
+ |cost=1957
+ |favor=?
+}}
+{{NPC training row
+ |ability=Snare Arrow 3
+ |skilllevel=32
+ |cost=3741
+ |favor=?
+}}
+{{NPC training row
+ |ability=Snare Arrow 4
+ |skilllevel=41
+ |cost=5872
+ |favor=?
+}}
+{{NPC training row
+ |ability=Snare Arrow 5
+ |skilllevel=51
+ |cost=8482
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Heavy Multishot
+ |skilllevel=8
+ |cost=600
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Heavy Multishot 2
+ |skilllevel=25
+ |cost=2131
+ |favor=?
+}}
+{{NPC training row
+ |ability=Heavy Multishot 3
+ |skilllevel=43
+ |cost=5959
+ |favor=?
+}}
+{{NPC training row
+ |ability=Heavy Multishot 4
+ |skilllevel=59
+ |cost=10135
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fletching]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fletching{{pipe}}Unlock Fletching Skill
+ |skilllevel = 0
+ |cost=500
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Basic Arrow Shafts (Mineral Recipe)
+ |skilllevel=10
+ |cost=405
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Advanced Arrow Shafts (Mineral Recipe)
+ |skilllevel=20
+ |cost=985
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Expert's Arrow Shafts (Mineral Recipe)
+ |skilllevel=30
+ |cost=1566
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Masterwork Arrow Shafts (Mineral Recipe)
+ |skilllevel=40
+ |cost=2725
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Arrow Shafts (Mineral Recipe)
+ |skilllevel=50
+ |cost=4176
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Beginner's Snare Arrow
+ |skilllevel=9
+ |cost=376
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Basic Snare Arrow
+ |skilllevel=19
+ |cost=957
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Advanced Snare Arrow
+ |skilllevel=29
+ |cost=1536
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Expert's Snare Arrow
+ |skilllevel=39
+ |cost=2697
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Masterwork Snare Arrow
+ |skilllevel=49
+ |cost=4146
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Beginner's Dense Arrow
+ |skilllevel=7
+ |cost=318
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Basic Dense Arrow
+ |skilllevel=17
+ |cost=898
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Advanced Dense Arrow
+ |skilllevel=27
+ |cost=1479
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Expert's Dense Arrow
+ |skilllevel=37
+ |cost=2638
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Masterwork Dense Arrow
+ |skilllevel=47
+ |cost=4089
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Dense Arrow
+ |skilllevel=57
+ |cost=6699
+ |favor=?
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Advanced Reservoir Arrow}} x1000
+|RiShin Family ={{Item|Masterwork Arrow}} x1000, {{Item|Masterwork Long Arrow}} x1000, {{Item|Masterwork Reservoir Arrow}} x1000,
+}}
+== Conversations ==
+[[Category:NPCs]]

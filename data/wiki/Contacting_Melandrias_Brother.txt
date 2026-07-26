@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Melandria in Gazluk Keep said, "My brother is a gru-maghi in one of the aboveground houses. You know, up above, where the best-connected orc leaders live? Anyway, my brother and I each smuggled in a pemphredo eye so we could talk to each other at night. But mine was taken as contraband almost as soon as I arrived, and I haven't been able to find another anywhere in Gazluk. Can you find me another one from outside? I miss my brother..."
+
+===Prerequisites===
+To start this quest, talk to '''[[Melandria]]''' in '''[[Gazluk Keep]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|My brother is a gru-maghi in one of the aboveground houses. You know, up above, where the best-connected orc leaders live? Anyway, my brother and I each smuggled in a pemphredo eye so we could talk to each other at night. But mine was taken as contraband almost as soon as I arrived, and I haven't been able to find another anywhere in Gazluk. Can you find me another one from outside? I miss my brother...}}
+
+===Requirements===
+* Obtain a {{Item|Pemphredo Eye}}
+* Talk to Melandria
+
+===Rewards===
+{{Spoiler|Rewards for Contacting Melandria's Brother|
+{{Quote|Thank you! Hopefully Demerius still has his pemphredo eye! I'll try to contact him soon. You're so kind to get this for me. Here, this is for you. I stole it from my master. He thinks he lost it in a drunken card game.}}
+
+* 50 {{Favor|favor}}
+* {{Item|Gazluk Officer Helm}}
+}}
+[[Category:Quests]][[Category:Quests/Gazluk Keep Quests]][[Category:Quests/Melandria]]

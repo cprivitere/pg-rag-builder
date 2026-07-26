@@ -1,0 +1,174 @@
+__NOTOC__
+==Hotfix Update: May 24==
+This patch fixes a few bugs from the major update earlier today:
+::- Fixed problems accessing player vendors
+::- Fixed a UI bug that prevented some players from redeeming their VIP time
+::- Reverted changes to the "too far away" icon
+::- You can no longer send radioactive material via pigeon mail
+::- Other players once again display their title properly when they are selected
+::- You can once again select yourself properly
+::- items in storage remain in the loadouts they were previously a part of
+::- you can once again select party members by clicking on them in the full-size party UI
+
+==Update Notes: May 24==
+This update has a lot of different stuff. In it we've added... wait, let's just do a bullet list. That'll be easier. In this update, we have: 
+::- Soft-launched our long-awaited VIP program.
+::- Added lots of UI features -- like the ability to lock the UI!
+::- Bumped up the difficulty of high-level solo monsters.
+::- Revised the [[Unarmed]] skill.
+::- Added a new crafting skill, [[Non-Fiction Writing]].
+::- Introduced a new player messaging service: Pigeon Mail.
+
+===VIP Membership Program===
+This update introduces our new VIP Membership program. We've been talking about VIP for years -- all the way back to the Kickstarter campaign -- so we are very excited to get it going!
+
+VIP is an optional monthly subscription plan that helps players support the game's development while getting useful benefits in return. The most notable benefits are extra slots: more character slots, inventory slots, and transfer slots. Read all about the VIP plan, and the reasons for it, in our blog post (see the news links above these patch notes for a button that jumps to the blog post.)
+
+As of this patch, the VIP Program is "soft-launched". We're still waiting on final Steam store-page approval, so it may be a week or two before it's possible to subscribe via Steam. But if you have VIP time as part of a backer package, or if you own a VIP Token, you can access VIP now. 
+
+If you have a backer package, you can redeem your time from the redemption window -- look for the icon on the bottom right of the Persona window. 
+
+If you have a VIP Token, just use that item in-game to receive 30 days of time.
+
+A note about "package upgrading": in the past we've often been able to help players upgrade their backer packages (e.g. by paying more to switch to a fancier package). We can still offer this service in some cases, but keep in mind that if you Redeem any features from the package (such as VIP time), it will definitely not be possible to swap it for a better package.
+
+===Pigeon Mail===
+You can now send mail to other players via 'pigeon mail' -- hard-working and well-trained carrier pigeons that can fly all over the world delivering messages. And you can even attach an item to your message! The mail will be delivered in about 60 seconds if the player is online, or the next time they log in if they are offline. 
+
+Speak with [[Irkima]] in the [[Red Wing Casino]] to send a pigeon. The cost to starts at 100 Councils, and increases if you send multiple messages too close together. (The birds get tired!) Attaching an item costs an additional 100 Councils, but [[Irkima]] will waive the fee for his Close Friends. If an item isn't delivered after 7 days, it is returned to you.
+
+You can't send messages to people who are ignoring you, of course, and you can turn off receiving mail entirely if you prefer in the 'Social' window, under 'Restrict'. ('Social' is the icon on the right-hand bar that looks like three little people.)
+
+===Unarmed Changes===
+We've talked in the past about various potential changes to the [[Unarmed]] skill, but now that we've taken a closer look, it doesn't really need a major overhaul: it's got a good mix of tanking, damaging, and controlling abilities which lets it pair successfully with multiple skills, and there are some interesting choices to make when building Unarmed loadouts.
+
+So there aren't many huge changes here. Mainly, we've added new options to make some build styles work better. There's also a few damage changes (both up and down). After these changes there are still a few underwhelming treasure effects, but most of those, like the damage-over-time effects, are earmarked for future game-mechanics changes, so they've been left alone for now.
+
+The following changes use numbers from (currently hypothetical) level 100 gear.
+::- Changed treasure mod: (Head, Chest) "Infuriating Fist generates no Rage and instead reduces Rage by 910" => "Infuriating Fist damage +73 and for 10 seconds all Elite attacks deal -8% damage to you."
+::- Changed treasure mod: (Head) "Bodyslam deals +47% damage and slows target's movement speed by 45%" => "Bodyslam deals +100 damage and grants you immunity to direct damage for 3 seconds"
+::- Changed treasure mod : (Head, OffHand) "Slashing Strike and Claw Barrage boost damage from Epic attacks +98 for 10 seconds" => "Slashing Strike boosts your Melee Evasion +5.25% for 5 seconds"
+::- Changed treasure mod : (MainHand, Necklace) "Slashing Strike deals +150 Trauma damage over 6 seconds" => "Slashing Strike and Claw Barrage deal +150 Trauma damage over 6 seconds"
+::- Changed treasure mod: (Hands, Necklace) "Hip Throw deals +286 armor damage" => "Hip Throw deals +200 damage, plus Armor-specific damage equal to 15% of the attack's total regular damage"
+::- Changed treasure mod: (Head, Off-Hand) "Mamba Strike Damage +67%" => "Mamba Strike Damage +59 and Reuse Time -1 sec"
+::- New treasure mod: (Necklace): "Cobra Strike Damage +100"
+::- New treasure mod: (Chest, Feet): "Claw Barrage Damage +147"
+::- Adjusted treasure mod: "Barrage costs -14 Power and restores 31 Armor to you" => now -16 power
+::- Adjusted treasure mod: "Kick Damage +78" => now +100
+::- Adjusted treasure mod: "Mamba Strike and Front Kick Damage +100" => now +84
+
+===Solo Monster Upgrade===
+For several patches we've been working toward being able to upgrade solo monsters' stats. We're finally ready to start doing that! In this update we've changed the health and armor of all creatures over level 40. 
+
+Previously an "average" level 70 solo monster had 1163 armor and 2373 health (total of 3536 health+armor). That "average" creature would now have 1588 armor and 2922 health (4510 health+armor). So an average level 70 creature gained about 1000 health+armor.
+
+Since group monsters are implemented as superpowered solo monsters, they are also affected by this change. (An "average" level 70 group monster would also have 1000 additional health+armor.)
+
+This is just the first pass, and although it's definitely a noticeable change (at high level), the numbers still probably need to go higher. But before we increase these numbers further, we need to play with these changes and get feedback on what skills are breaking down, what's (still) insanely overpowered, what's newly frustrating, etc.
+
+
+In the future we'll be making more changes to solo monsters: we'll (probably) raise their health and armor even more, and we'll also be taking a look at individual monsters' special attacks, XP values, Max Rage, and damage-type vulnerabilities. We're also considering some mechanics changes (such as revisions to DoT damage), and possibly new AI combat tactics to react to perching and AoE-camping. And, of course, we'll also be revising player combat skills and loot effects in tandem with these changes. In other words, there's lots more balancing work to do! Your feedback has been and will continue to be extremely valuable.
+
+===Non-Fiction Writing===
+One of the benefits of the VIP program is the new [[Autodidacticism]] skill, which lets players slowly earn XP while offline. This is done by performing a Hangout with a textbook instead of with an NPC. This isn't a fast way to earn XP compared to just playing the game, but it's useful for players who can't play often, or who want to level an "alt". As you can imagine, there are many limitations to this skill, and one of them is that VIPs must find the necessary books to hang out with.
+
+And where do these textbooks come from? The new [[Non-Fiction Writing]] skill! There are new NPCs in [[Rahu]] ([[Hirochi]] and [[Wintria]]) who can help you unlock the skill, provided you have at least level 50 in [[Calligraphy]]. [[Non-Fiction Writing]] is done via offline hangouts, each of which takes two real-time days. The resulting books can then be used by VIP players who meet the requirements of the book.
+
+Each textbook is for a certain skill and a certain level range. To write the book, your level in the book's skill needs to be 25 higher than the book. In addition, your level in [[Non-Fiction Writing]] has to be at least as high as the book's level. So to write a level 11-20 [[Sword]] book, you'd need level 11 in [[Non-Fiction Writing]], and level 36 in [[Sword]].
+
+Because of this requirement to be 25 levels higher than the book, it won't be possible to create the highest-level books right now. Most skills don't go higher than level 80 or 85-ish (depending on how many bonus levels are available for each skill), so the highest textbooks would be for level 55 or 60. This limitation will naturally disappear as we raise the level cap.
+
+If you aren't a VIP, you won't be able to use the books you create, but you can gift them to NPCs or sell them to other players. (Remember to check the player work-order boards for book requests!) Books lose durability when used in Autodidactic hangouts, and are used up after 20 days of use.
+
+‘‘‘Tips on rarity:’‘‘ your first books will probably be terrible, and will have crappy stats (namely a penalty to earned XP). But as you level up in the skill, it's possible to create higher-rarity books which have XP bonuses. These range from Uncommon (green) books with a 5% XP bonus, all the way up to (extremely rare) Legendary books with a 25% XP bonus. Your chance of a bonus is based in part on your [[Non-Fiction Writing]] level: the higher it is above the book's level, the better, capping out at 25 levels above the book's level. It's relatively easy to create Uncommon and even Rare books (with a +10% bonus) but higher-rarity books require both high skill-level and random luck.
+
+‘‘‘Limited book options:’‘‘ in this first launch of Non-Fiction Writing, we've only implemented books for a few dozen skills. This is just due to the sheer amount of data-wrangling involved -- we'll add textbooks for the other skills when we're more confident that we've got the XP numbers right. Right now, you can write books for any combat skill, as well as for any auxiliary combat skill (such as [[First Aid]]), and a small number of crafting skills (like [[Carpentry]]).
+
+To figure out what books you're able to write, just use [[Hirochi]]'s Non-Fiction Writing Table (after learning the skill). This table will list all the books you're eligible to write given your skill levels (and which books have been implemented).
+
+===Autodidacticism===
+If you've just enabled VIP, all of the features will be pretty obvious, with one exception: [[Autodidacticism]]. This is a new skill which only VIPs can use. It allows you to earn XP while you're offline. (With many caveats, such as a limit of two characters on your account at once -- see the blog for all details. Key restrictions are also explained in-game.) 
+
+You don't need to explicitly unlock [[Autodidacticism]] - you can automatically use the skill while you're a VIP. However, your level in the skill will start at zero, so at first you'll only be able to read beginner's books -- books for the lowest levels of a skill. For instance, if you've never leveled up the [[Sword]] skill, you can buy the "Sword Levels 0-10" book from [[Hirochi]]. It requires [[Autodidacticism]] 0, so you can read that book. To do so, use [[Hirochi]]'s study nook. This will begin a Hangout lasting for a specified number of days. Once that many days of offline time has elapsed, you can log in and receive your XP.
+
+But what if you are a long-time player and have already leveled every skill? You can't use the "Sword Levels 0-10" book if your Sword skill is higher than 10. How do you earn [[Autodidacticism]] XP? [[Hirochi]] comes to the rescue! [[Hirochi]] has a sequence of hangouts which will give you [[Autodidacticism]] XP. You can repeat these hangouts as often as necessary.
+
+[[Hirochi]] sells books for many combat skills, up to level 30. [[Wintria Irasce]] sells books for a few non-combat skills. All other books have to be created by players using the new [[Non-Fiction Writing]] skill.
+
+===Experimental Optimizations Enabled by Default===
+
+The recently-added experimental optimizations seem stable, so we're enabling these optimizations by default for new installations. If you already had the game installed there is no change, although we recommend you go and manually turn on these optimizations if you haven't already done so. (It's in the Settings window, Graphics sub-section, "Experimental Optimizations" checkbox. The optimizations won't fully kick in until you log out or teleport to a new game area.)
+
+These optimizations give a noticeable framerate upgrade for most computers, but there is one visual side-effect: creatures more than 100 meters away are not rendered at all. If you find this limiting, you can just disable the Experimental Optimizations checkbox in the settings, or you can change the max-distance with a custom setting: in the Settings window, click on "Special", then add the line <kbd>AppearanceRange=200</kbd> to the text field. This will render creatures up to 200 meters away, which is usually plenty far.
+
+===Storage UI Improvements===
+We've added a button to the bottom right of the storage UI labeled 'Deposit any items that are already stored'. Clicking this button checks to see if any items in your inventory are also in the storage (stacks of apples, for example) and if there is room for those items to fit in the storage -- and if so it deposits all the items for you.  It first tries to fill up any partial stacks that are already in the storage, then uses empty storage slots. 
+
+In addition to this new feature, there are other improvements:
+::- Any items in your inventory that could be deposited with 'Deposit any items that are already stored' will be highlighted in your inventory with a green border in your inventory.
+::- Shift-clicking an item while the storage UI is open now deposits/withdraws a specific amount, instead of just splitting the stack.
+::- While the storage UI is open, you can also now right-click an item to split a stack into or out of storage.
+And many bug fixes:
+::- Ri-Shin Shrine Storage is now accessible from other storage NPCs in Kur.
+::- Bookshelves now allow direct access to nearby storage selections (like other storage NPCs do).
+::- Summoning items via practical summoning will now update the "More Info" menu properly.
+::- When withdrawing an item from storage, the tooltip will now update properly.
+::- Storing items after summoning a stack of another item will no longer cause visual weirdness.
+::- When using Practical Summoning, and the storage that you're summoning from is open, stack numbers will now update properly.
+
+===Other UI Improvements===
+Many other areas of the UI also received attention in this update:
+::- You can now promote a member of your party to be party leader. 
+::- There is now an option to lock your UI windows in place. You can find it in the Settings window, on the GUI tab, in the Features section. There is also a hotkey.
+::- There are 3 new settings to control the display of tooltips: "Tooltip Delay", "Instant Tooltip Duration", and "Use Tooltip Animation". You can find these in the Settings window, on the GUI tab, in the Features section.
+::- There's a new option on that screen as well, under the "Chat Behavior" section: "Close Chat With Hotkey". 
+::- The "Jump to Recipe" functionality now extends to work orders and quests. 
+::- You can now give NPCs an item by single-clicking instead of dragging.
+::- It's now harder to accidentally close an official admin message.  And if you do, there's also a line in chat to explain how to see it again.  
+::- You can now collapse and expand the list of quests for an area in the Quest window.
+::- (Most of) the rewards for a quest are now displayed as part of the quest in your quest log. 
+::- Made some improvements to the quest tracker presentation.
+
+===UI Bugfixes===
+And of course many UI bugs needed squishing:
+::- You can (once again) select your target's target.
+::- Players can no longer receive friend requests when their friends list is full.
+::- Note: you can now have a maximum of 150 friends (up from 100).
+::- Quotes in the friends list will no longer disappear after relogging. 
+::- Players with long names in the friends list will no longer screw up the display formatting.
+::- The first time using an item on the hotbar now updates its stack size properly.
+::- Opening the recipe window will no longer sometimes show the incorrect required number of an ingredient.
+::- The pet information screen no longer has overlapping text and icons.
+::- Text in vendor shops is now correctly sanitized of HTML tags (no more color codes)
+::- When using Automatically Select Chat Channels, the channel you change to will now persist when changing zones.
+::- Backspacing after using chat shortcuts with Automatically Select Chat Channels on no longer leaves the shortcut in chat.
+::- Placing unusable gear in persona window will no longer cause it to show an empty slot.
+::- Better updating in general of entered social texts, such as your friend status or party name.
+
+===Other Changes and Fixes===
+::- We've revised how "knockback" works (which also covers "pull forward" attacks such as Snare Arrow or Grappling Web). The effect happens faster and is more accurate, knocking enemies in a more predictable direction.
+::- Slowed down the respawn rate of golems in the [[Goblin Dungeon]]'s "red room" crystal encounters.
+::- "Live Event Token" items are being replaced with a new pseudo-currency, "Live Event Credits". Tokens can be converted to Credits by using them. [[Riston]] in the [[Casino]] now sells items for credits instead of tokens.
+::- You no longer need to hold the Dive Down key while surveying underwater, you only have to be at the sea floor.
+::- [[Fire Magic]]'s Cold Protection ability no longer hurts you when you use it.
+::- All of the mods for Triage and Shadow Feint will now display on the ability tooltip.
+::- Clearing an inventory slot will no longer disable Bulwark Mode. 
+::- Frostball is now cold & snowy instead of electric.
+::- Added missing animations for main-hand knife attacks.
+::- The option for a Hot Tip will no longer disappear on NPCs in the Casino.
+::- In Match-3, 'Possible Moves:' text will no longer show up when it's not unlocked.
+::- [[Percy Evans]] will no longer accept your Barter item for an Animal Nexus key if you already have one.
+::- Fixed a bug where right-clicking an object to auto-move to it would never actually reach it. You would just run around the entity in circles. 
+::- Added a troubleshooting command <kbd>/zapgolemprogram</kbd> which erases your current golem program. This is to help players who, for instance, program their golems to "Self-Destruct: Always", making it difficult to reprogram the golem since it instantly self-destructs.
+::- The performance in [[Gazluk Keep]] has improved.
+::- Birds and Crickets in [[Serbule]] and [[Serbule Hills]] are now properly affected by the Ambient Sounds volume slider.
+::- The selection boxes for things like a Fire Wall should no longer jump around.
+::- Fixed non-animating water textures in [[Eltibule]]'s waterfall.
+::- Improved the behavior of the camera during bad FPS dips. (This is especially noticeable in areas with many players.)
+::- Sitting in chairs works somewhat better.
+
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

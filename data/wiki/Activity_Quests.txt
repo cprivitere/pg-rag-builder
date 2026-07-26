@@ -1,0 +1,5 @@
+[[Activity Quests]] are hidden quests used to automatically grant rewards when a small event or activity is completed. These quests are not recorded in the quest tracker. 
+*In [[Vidaria]], area activities such as Ecological Disasters trigger [[Activity Quests]] rewarding [[Vidaria Renown]].
+*Across Alharth, [[Racing]] circuits can be challenged. A finished race will activate an appropriate '''Activity Quest''' to provide rewards. 
+*Succesfully defeating Horse Thieves also triggers an '''Activity Quest.'''
+[[Category:Mechanics]]

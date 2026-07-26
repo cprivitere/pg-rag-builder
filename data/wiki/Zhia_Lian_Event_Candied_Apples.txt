@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Who doesn't love a candied apple when the weather turns cool? Don't answer that. It's not important. What's important is that you make a candied apple from scratch! It's easy! I've already injected the recipe into your brain! Just go make one!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+Hey! Can you hear me? Finally! It is I, Zhia Lian, the Goddess of Whimsy! I've been trying to reach your mind for almost a week! Your brain is really hard to break into.
+
+Anyway, I was at a party last week and you'll never guess who showed up: the other undead gods! So I got to talking with them. It turns out Chalice is in close alignment with Alharth right now, and they're flooding the continent with undead!
+
+I have some friends on Alharth so I figured I'd help them out... by helping YOU out! You're pretty strong and I think you can help fix this. And we'll have some fun along the way, too. Stick with me, mortal, and you won't regret it!
+
+<i>[Check your quest journal for quests to get you started. Complete those quests and you'll unlock additional quests. The quests have varying degrees of difficulty and you probably won't be able to complete a lot of them, so focus on the ones you can complete. You'll be rewarded for each quest. Good luck, and happy Halloween!]</i>
+
+===Requirements===
+* Make a Candied Apple
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Great! Enjoy that tasty... well, no... that kind-of-tasty homemade treat! You'll need your energy for all the undead-slaying you have to do!}}
+* 150 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

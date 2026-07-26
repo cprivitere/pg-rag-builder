@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Freezing Mist
+| description = Toss instant-freeze chemicals all around yourself to slow enemy movement (10m radius).
+| level = 4
+| power cost = 22
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|FreezingMist}}{{KWAB|BattleChemistryAttack}}{{KWAB|Burst}}
+| damage = 9 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Freezing Mist 2
+| description = Toss instant-freeze chemicals all around yourself to slow enemy movement (10m radius).
+| level = 14
+| power cost = 30
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|FreezingMist}}{{KWAB|BattleChemistryAttack}}{{KWAB|Burst}}
+| damage = 22 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Freezing Mist 3
+| description = Toss instant-freeze chemicals all around yourself to slow enemy movement (10m radius).
+| level = 24
+| power cost = 37
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|FreezingMist}}{{KWAB|BattleChemistryAttack}}{{KWAB|Burst}}
+| damage = 38 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Freezing Mist 4
+| description = Toss instant-freeze chemicals all around yourself to slow enemy movement (10m radius).
+| level = 34
+| power cost = 45
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|FreezingMist}}{{KWAB|BattleChemistryAttack}}{{KWAB|Burst}}
+| damage = 59 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Freezing Mist 5
+| description = Toss instant-freeze chemicals all around yourself to slow enemy movement (10m radius).
+| level = 44
+| power cost = 52
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|FreezingMist}}{{KWAB|BattleChemistryAttack}}{{KWAB|Burst}}
+| damage = 92 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Freezing Mist 6
+| description = Toss instant-freeze chemicals all around yourself to slow enemy movement (10m radius).
+| level = 54
+| power cost = 58
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|FreezingMist}}{{KWAB|BattleChemistryAttack}}{{KWAB|Burst}}
+| damage = 137 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Freezing Mist 7
+| description = Toss instant-freeze chemicals all around yourself to slow enemy movement (10m radius).
+| level = 63
+| power cost = 64
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|FreezingMist}}{{KWAB|BattleChemistryAttack}}{{KWAB|Burst}}
+| damage = 176 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Freezing Mist 8
+| description = Toss instant-freeze chemicals all around yourself to slow enemy movement (10m radius).
+| level = 73
+| power cost = 72
+| reuse time = 45
+| range = 10 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|Attack}}{{KWAB|BattleChemistry}}{{KWAB|ChemistryBomb}}{{KWAB|Bomb}}{{KWAB|FreezingMist}}{{KWAB|BattleChemistryAttack}}{{KWAB|Burst}}
+| damage = 224 Cold
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,318 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Necromancy/Abilities|Necromancy Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v446 on Fri Jan 16 2026 02:56:27 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Death's Hold|2}} || 1 || Death's Hold || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 9 Darkness || <b>Power Cost:</b> 12<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Archer|2}} || 2 || Raise Skeletal Archer || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Provoke Undead|2}} || 3 || Provoke Undead || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 5 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 17<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Life Crush|2}} || 4 || Life Crush || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 11 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Spark of Death|2}} || 5 || Spark of Death || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 14 Electricity || <b>Power Cost:</b> 9<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Heal Undead|2}} || 6 || Heal Undead || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 41 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 13<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Swordsman|2}} || 7 || Raise Skeletal Swordsman || Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Life Steal|2}} || 8 || Life Steal || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 10 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 11<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Rebuild Undead|2}} || 9 || Rebuild Undead || Your undead pets are healed. || <b>Restore:</b> 50 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 16<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Raise Zombie|2}} || 10 || Raise Zombie || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 5 for 60 seconds<br>Existing Zombie's Max Health 25 for 5 minutes<br>Existing Zombie Restore 25 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|(Internal - SZ1)|2}} || 10 || (Internal - SZ1) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Raise Skeletal Battle Mage|2}} || 12 || Raise Skeletal Battle Mage || Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Deathgaze|2}} || 13 || Deathgaze || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 29 Darkness || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Spark of Death 2|2}} || 14 || Spark of Death 2 || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 22 Electricity || <b>Power Cost:</b> 12<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Death's Hold 2|2}} || 15 || Death's Hold 2 || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 29 Darkness || <b>Power Cost:</b> 19<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Heal Undead 2|2}} || 16 || Heal Undead 2 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 54 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 17<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Life Crush 2|2}} || 17 || Life Crush 2 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 16 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Archer 2|2}} || 18 || Raise Skeletal Archer 2 || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 75<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Rebuild Undead 2|2}} || 19 || Rebuild Undead 2 || Your undead pets are healed. || <b>Restore:</b> 70 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 19<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Raise Zombie 2|2}} || 20 || Raise Zombie 2 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 10 for 60 seconds<br>Existing Zombie's Max Health 50 for 5 minutes<br>Existing Zombie Restore 50 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Heart's Power|2}} || 20 || Heart's Power || Consume a heart to gain vast health for a time. || Boosts Max Health by 200 for 2 minutes. Heals 200.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 120 || <b>Training:</b> [[Jumjab]]
+|-
+| {{Ability icon|(Internal - SZ2)|2}} || 20 || (Internal - SZ2) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Provoke Undead 2|2}} || 21 || Provoke Undead 2 || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 9 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 24<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Swordsman 2|2}} || 22 || Raise Skeletal Swordsman 2 || Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 75<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Life Steal 2|2}} || 23 || Life Steal 2 || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 20 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Life Crush 3|2}} || 24 || Life Crush 3 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 23 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Wave of Darkness|2}} || 24 || Wave of Darkness || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 46 Darkness<br><b>Taunts:</b> 100 || <b>Power Cost:</b> 23<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Training:</b> [[Jumjab]]
+|-
+| {{Ability icon|Deathgaze 2|2}} || 25 || Deathgaze 2 || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 8 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 58 Darkness || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Heal Undead 3|2}} || 26 || Heal Undead 3 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 67 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 20<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Spark of Death 3|2}} || 27 || Spark of Death 3 || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 45 Electricity || <b>Power Cost:</b> 15<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Battle Mage 2|2}} || 28 || Raise Skeletal Battle Mage 2 || Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 75<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Rebuild Undead 3|2}} || 29 || Rebuild Undead 3 || Your undead pets are healed. || <b>Restore:</b> 90 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 22<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Raise Zombie 3|2}} || 30 || Raise Zombie 3 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 20 for 60 seconds<br>Existing Zombie's Max Health 75 for 5 minutes<br>Existing Zombie Restore 75 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 42<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Spleen's Power|2}} || 30 || Spleen's Power || Consume a spleen to gain vast power for a time. || Boosts Max Power by 100 for 2 minutes. Restores 100 Power.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 120 || <b>Item:</b> [[Necromancer: Spleen's Power]]
+|-
+| {{Ability icon|(Internal - SZ3)|2}} || 30 || (Internal - SZ3) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Provoke Undead 3|2}} || 31 || Provoke Undead 3 || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 13 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 29<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Archer 3|2}} || 32 || Raise Skeletal Archer 3 || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Death's Hold 3|2}} || 33 || Death's Hold 3 || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 57 Darkness || <b>Power Cost:</b> 27<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Deathgaze 3|2}} || 34 || Deathgaze 3 || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 11 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 84 Darkness || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Wave of Darkness 2|2}} || 34 || Wave of Darkness 2 || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 71 Darkness<br><b>Taunts:</b> 150 || <b>Power Cost:</b> 28<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Training:</b> [[Jumjab]]
+|-
+| {{Ability icon|Life Steal 3|2}} || 35 || Life Steal 3 || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 32 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Heal Undead 4|2}} || 36 || Heal Undead 4 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 81 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 24<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Spark of Death 4|2}} || 37 || Spark of Death 4 || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 68 Electricity || <b>Power Cost:</b> 19<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Swordsman 3|2}} || 38 || Raise Skeletal Swordsman 3 || Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Rebuild Undead 4|2}} || 39 || Rebuild Undead 4 || Your undead pets are healed. || <b>Restore:</b> 110 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 26<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Raise Zombie 4|2}} || 40 || Raise Zombie 4 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 30 for 60 seconds<br>Existing Zombie's Max Health 100 for 5 minutes<br>Existing Zombie Restore 100 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|(Internal - SZ4)|2}} || 40 || (Internal - SZ4) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Deathgaze 4|2}} || 41 || Deathgaze 4 || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 11 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 115 Darkness || <b>Power Cost:</b> 36<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Battle Mage 3|2}} || 42 || Raise Skeletal Battle Mage 3 || Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Death's Hold 4|2}} || 43 || Death's Hold 4 || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 88 Darkness || <b>Power Cost:</b> 31<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Provoke Undead 4|2}} || 44 || Provoke Undead 4 || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 20 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 35<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Wave of Darkness 3|2}} || 44 || Wave of Darkness 3 || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 111 Darkness<br><b>Taunts:</b> 300 || <b>Power Cost:</b> 32<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Training:</b> [[Jumjab]]
+|-
+| {{Ability icon|Life Crush 4|2}} || 45 || Life Crush 4 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 58 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Heal Undead 5|2}} || 46 || Heal Undead 5 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 94 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 27<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Archer 4|2}} || 47 || Raise Skeletal Archer 4 || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Rebuild Undead 5|2}} || 48 || Rebuild Undead 5 || Your undead pets are healed. || <b>Restore:</b> 130 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 28<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Raise Skeletal Swordsman 4|2}} || 49 || Raise Skeletal Swordsman 4 || Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Raise Zombie 5|2}} || 50 || Raise Zombie 5 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 40 for 60 seconds<br>Existing Zombie's Max Health 125 for 5 minutes<br>Existing Zombie Restore 125 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 56<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Life Steal 4|2}} || 50 || Life Steal 4 || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 45 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|(Internal - SZ5)|2}} || 50 || (Internal - SZ5) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Death's Hold 5|2}} || 51 || Death's Hold 5 || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 124 Darkness || <b>Power Cost:</b> 34<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Spark of Death 5|2}} || 51 || Spark of Death 5 || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 124 Electricity || <b>Power Cost:</b> 22<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Raise Skeletal Battle Mage 4|2}} || 53 || Raise Skeletal Battle Mage 4 || Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Provoke Undead 5|2}} || 53 || Provoke Undead 5 || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 35 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 38<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Wave of Darkness 4|2}} || 54 || Wave of Darkness 4 || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 164 Darkness<br><b>Taunts:</b> 450 || <b>Power Cost:</b> 36<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Training:</b> [[Jumjab]]
+|-
+| {{Ability icon|Raise Skeletal Archer 5|2}} || 55 || Raise Skeletal Archer 5 || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Life Crush 5|2}} || 55 || Life Crush 5 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 85 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Deathgaze 5|2}} || 55 || Deathgaze 5 || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 11 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 200 Darkness || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Heal Undead 6|2}} || 56 || Heal Undead 6 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 107 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 30<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Raise Skeletal Swordsman 5|2}} || 58 || Raise Skeletal Swordsman 5 || Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Rebuild Undead 6|2}} || 58 || Rebuild Undead 6 || Your undead pets are healed. || <b>Restore:</b> 150 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 31<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Raise Zombie 6|2}} || 60 || Raise Zombie 6 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 50 for 60 seconds<br>Existing Zombie's Max Health 150 for 5 minutes<br>Existing Zombie Restore 150 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 62<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Life Steal 5|2}} || 60 || Life Steal 5 || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 60 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 28<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Heart's Power 2|2}} || 60 || Heart's Power 2 || Consume two hearts to gain vast health for a time. || Boosts Max Health by 300 for 2 minutes. Heals 300.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 120 || <b>Training:</b> [[Jumjab]]
+|-
+| {{Ability icon|Spleen's Power 2|2}} || 60 || Spleen's Power 2 || Consume a spleen to gain vast power for a time. || Boosts Max Power by 200 for 2 minutes. Restores 200 Power.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 120 || <b>Item:</b> [[Necromancer: Spleen's Power 2]]
+|-
+| {{Ability icon|(internal)|2}} || 60 || (internal) || Internal Balancing Tool || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|(Internal - SZ6)|2}} || 60 || (Internal - SZ6) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Raise Skeletal Battle Mage 5|2}} || 64 || Raise Skeletal Battle Mage 5 || Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Wave of Darkness 5|2}} || 64 || Wave of Darkness 5 || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 216 Darkness<br><b>Taunts:</b> 700 || <b>Power Cost:</b> 40<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Training:</b> [[Jumjab]]
+|-
+| {{Ability icon|Death's Hold 6|2}} || 64 || Death's Hold 6 || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 180 Darkness || <b>Power Cost:</b> 40<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Raise Skeletal Ratkin Mage 5|2}} || 64 || Raise Skeletal Ratkin Mage 5 || Raise a skeletal ratkin mage from death to serve you. It uses electricity to destroy your foes. (You must be indoors to use this ability. It requires a Ratkin Necromancer's Talisman, which has a 10% chance of being destroyed.) || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Bogaku]]
+|-
+| {{Ability icon|Life Crush 6|2}} || 65 || Life Crush 6 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 111 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Spark of Death 6|2}} || 65 || Spark of Death 6 || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 185 Electricity || <b>Power Cost:</b> 26<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Provoke Undead 6|2}} || 65 || Provoke Undead 6 || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 50 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 43<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Heal Undead 7|2}} || 66 || Heal Undead 7 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 120 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 33<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Deathgaze 6|2}} || 66 || Deathgaze 6 || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 11 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 268 Darkness || <b>Power Cost:</b> 48<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Raise Skeletal Archer 6|2}} || 67 || Raise Skeletal Archer 6 || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Rebuild Undead 7|2}} || 69 || Rebuild Undead 7 || Your undead pets are healed. || <b>Restore:</b> 170 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 35<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Raise Skeletal Swordsman 6|2}} || 70 || Raise Skeletal Swordsman 6 || Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Raise Zombie 7|2}} || 70 || Raise Zombie 7 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 60 for 60 seconds<br>Existing Zombie's Max Health 175 for 5 minutes<br>Existing Zombie Restore 175 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 69<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|Life Steal 6|2}} || 70 || Life Steal 6 || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 70 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Daniel Murderdark]]
+|-
+| {{Ability icon|(Internal - SZ7)|2}} || 70 || (Internal - SZ7) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Wave of Darkness 6|2}} || 74 || Wave of Darkness 6 || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 275 Darkness<br><b>Taunts:</b> 700 || <b>Power Cost:</b> 44<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Raise Skeletal Battle Mage 6|2}} || 75 || Raise Skeletal Battle Mage 6 || Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Life Crush 7|2}} || 75 || Life Crush 7 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 141 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Provoke Undead 7|2}} || 75 || Provoke Undead 7 || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 65 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 48<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Heal Undead 8|2}} || 76 || Heal Undead 8 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 133 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 36<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Death's Hold 7|2}} || 76 || Death's Hold 7 || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 240 Darkness || <b>Power Cost:</b> 45<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Deathgaze 7|2}} || 77 || Deathgaze 7 || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 11 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 346 Darkness || <b>Power Cost:</b> 54<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Spark of Death 7|2}} || 77 || Spark of Death 7 || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 245 Electricity || <b>Power Cost:</b> 29<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Rebuild Undead 8|2}} || 78 || Rebuild Undead 8 || Your undead pets are healed. || <b>Restore:</b> 190 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 38<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Raise Skeletal Ratkin Mage 6|2}} || 78 || Raise Skeletal Ratkin Mage 6 || Raise a skeletal ratkin mage from death to serve you. It uses electricity to destroy your foes. (You must be indoors to use this ability. It requires a Ratkin Necromancer's Talisman, which has a 10% chance of being destroyed.) || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Raise Skeletal Archer 7|2}} || 79 || Raise Skeletal Archer 7 || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Raise Zombie 8|2}} || 80 || Raise Zombie 8 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 70 for 60 seconds<br>Existing Zombie's Max Health 200 for 5 minutes<br>Existing Zombie Restore 200 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 77<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Life Steal 7|2}} || 80 || Life Steal 7 || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 80 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|(Internal - SZ8)|2}} || 80 || (Internal - SZ8) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Raise Skeletal Swordsman 7|2}} || 81 || Raise Skeletal Swordsman 7 || Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Wave of Darkness 7|2}} || 84 || Wave of Darkness 7 || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 338 Darkness<br><b>Taunts:</b> 700 || <b>Power Cost:</b> 49<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Item:</b> [[Necromancy: Wave of Darkness 7]]
+|-
+| {{Ability icon|Life Crush 8|2}} || 85 || Life Crush 8 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 173 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Necromancy: Life Crush 8]]
+|-
+| {{Ability icon|Provoke Undead 8|2}} || 85 || Provoke Undead 8 || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 80 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 52<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Necromancy: Provoke Undead 8]]
+|-
+| {{Ability icon|Raise Skeletal Battle Mage 7|2}} || 86 || Raise Skeletal Battle Mage 7 || Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Necromancy: Raise Skeletal Battle Mage 7]]
+|-
+| {{Ability icon|Heal Undead 9|2}} || 86 || Heal Undead 9 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 147 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 39<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Necromancy: Heal Undead 9]]
+|-
+| {{Ability icon|Spark of Death 8|2}} || 87 || Spark of Death 8 || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 298 Electricity || <b>Power Cost:</b> 32<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Necromancy: Spark of Death 8]]
+|-
+| {{Ability icon|Rebuild Undead 9|2}} || 88 || Rebuild Undead 9 || Your undead pets are healed. || <b>Restore:</b> 210 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 41<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Necromancy: Rebuild Undead 9]]
+|-
+| {{Ability icon|Deathgaze 8|2}} || 88 || Deathgaze 8 || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 11 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 428 Darkness || <b>Power Cost:</b> 60<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Necromancy: Deathgaze 8]]
+|-
+| {{Ability icon|Death's Hold 8|2}} || 89 || Death's Hold 8 || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 309 Darkness || <b>Power Cost:</b> 51<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Necromancy: Death's Hold 8]]
+|-
+| {{Ability icon|(Internal - SZ9)|2}} || 90 || (Internal - SZ9) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Life Steal 8|2}} || 90 || Life Steal 8 || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 90 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Necromancy: Life Steal 8]]
+|-
+| {{Ability icon|Heart's Power 3|2}} || 90 || Heart's Power 3 || Consume three hearts to gain vast health for a time. || Boosts Max Health by 400 for 2 minutes. Heals 400.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 120 || <b>Item:</b> [[Necromancy: Heart's Power 3]]
+|-
+| {{Ability icon|Spleen's Power 3|2}} || 90 || Spleen's Power 3 || Consume two spleens to gain vast power for a time. || Boosts Max Power by 300 for 2 minutes. Restores 300 Power.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 120 || <b>Item:</b> [[Necromancy: Spleen's Power 3]]
+|-
+| {{Ability icon|Raise Flapskull|2}} || 90 || Raise Flapskull || Ransack a recently-dead corpse to create a sentient skull with wings. It is not under your direct control.<br><br>Most equipment that directly boost skeleton or zombie stats also affect the flapskull. || Summoned flapskull exists for 30 seconds or until destroyed. It spits poison gas as its Rage attack. ||  || <b>Power Cost:</b> 85<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Raise Zombie 9|2}} || 90 || Raise Zombie 9 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 80 for 60 seconds<br>Existing Zombie's Max Health 225 for 5 minutes<br>Existing Zombie Restore 225 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 85<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Necromancy: Raise Zombie 9]]
+|-
+| {{Ability icon|Raise Skeletal Archer 8|2}} || 91 || Raise Skeletal Archer 8 || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Necromancy: Raise Skeletal Archer 8]]
+|-
+| {{Ability icon|Raise Skeletal Ratkin Mage 7|2}} || 92 || Raise Skeletal Ratkin Mage 7 || Raise a skeletal ratkin mage from death to serve you. It uses electricity to destroy your foes. (You must be indoors to use this ability. It requires a Ratkin Necromancer's Talisman, which has a 10% chance of being destroyed.) || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Necromancy: Raise Skeletal Ratkin Mage 7]]
+|-
+| {{Ability icon|Raise Skeletal Swordsman 8|2}} || 93 || Raise Skeletal Swordsman 8 || Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Necromancy: Raise Skeletal Swordsman 8]]
+|-
+| {{Ability icon|Wave of Darkness 8|2}} || 94 || Wave of Darkness 8 || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 404 Darkness<br><b>Taunts:</b> 700 || <b>Power Cost:</b> 54<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Item:</b> [[Necromancy: Wave of Darkness 8]]
+|-
+| {{Ability icon|Spark of Death 9|2}} || 94 || Spark of Death 9 || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 337 Electricity || <b>Power Cost:</b> 34<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Necromancy: Spark of Death 9]]
+|-
+| {{Ability icon|Life Crush 9|2}} || 95 || Life Crush 9 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 206 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Necromancy: Life Crush 9]]
+|-
+| {{Ability icon|Provoke Undead 9|2}} || 95 || Provoke Undead 9 || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 95 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 57<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Necromancy: Provoke Undead 9]]
+|-
+| {{Ability icon|Heal Undead 10|2}} || 96 || Heal Undead 10 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 160 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 43<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Raise Skeletal Battle Mage 8|2}} || 97 || Raise Skeletal Battle Mage 8 || Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Rebuild Undead 10|2}} || 99 || Rebuild Undead 10 || Your undead pets are healed. || <b>Restore:</b> 230 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 45<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Deathgaze 9|2}} || 99 || Deathgaze 9 || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 11 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 514 Darkness || <b>Power Cost:</b> 66<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Raise Zombie 10|2}} || 100 || Raise Zombie 10 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 90 for 60 seconds<br>Existing Zombie's Max Health 250 for 5 minutes<br>Existing Zombie Restore 250 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 93<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Life Steal 9|2}} || 100 || Life Steal 9 || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 100 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 41<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Death's Hold 9|2}} || 100 || Death's Hold 9 || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 371 Darkness || <b>Power Cost:</b> 57<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|(Internal - SZ10)|2}} || 100 || (Internal - SZ10) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Raise Skeletal Archer 9|2}} || 103 || Raise Skeletal Archer 9 || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Wave of Darkness 9|2}} || 104 || Wave of Darkness 9 || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 475 Darkness<br><b>Taunts:</b> 700 || <b>Power Cost:</b> 59<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Spark of Death 10|2}} || 104 || Spark of Death 10 || Blast the target with electricity.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 396 Electricity || <b>Power Cost:</b> 37<br><b>Range:</b> 20<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Raise Skeletal Swordsman 9|2}} || 105 || Raise Skeletal Swordsman 9 || Raise a skeletal warrior from death to serve you. Skeletal swordsmen are melee fighters that can occasionally stun their enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Life Crush 10|2}} || 105 || Life Crush 10 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 241 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Provoke Undead 10|2}} || 105 || Provoke Undead 10 || Your undead pets become agitated, dealing more damage for a time. || <b>Minion Damage:</b> 110 for 10 seconds<br><b>--Can Have--</b><br>Minion Damage Boost 0 for 10 seconds<br><b>Minions Suffer:</b> 0 Smiting, 5 times over 10 seconds ||  || <b>Power Cost:</b> 62<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Heal Undead 11|2}} || 106 || Heal Undead 11 || Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses). || <b>Restore:</b> 173 Health (or Armor if Health is full) to nearby ally undead<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health/Armor every 3 seconds for 12 seconds ||  || <b>Power Cost:</b> 46<br><b>AoE:</b> 20<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Raise Skeletal Ratkin Mage 7|2}} || 106 || Raise Skeletal Ratkin Mage 7 || Raise a skeletal ratkin mage from death to serve you. It uses electricity to destroy your foes. (You must be indoors to use this ability. It requires a Ratkin Necromancer's Talisman, which has a 10% chance of being destroyed.) || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Raise Skeletal Battle Mage 9|2}} || 108 || Raise Skeletal Battle Mage 9 || Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 150<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Rebuild Undead 11|2}} || 108 || Rebuild Undead 11 || Your undead pets are healed. || <b>Restore:</b> 250 Health (or Armor if Health is full) to nearby ally undead ||  || <b>Power Cost:</b> 48<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Deathgaze 10|2}} || 108 || Deathgaze 10 || Force the target to stare into the darkness of death, typically sending them fleeing in terror.  Chances of success are based on your Necromancy skill and the enemy's mental proficiency. || Target flees for 11 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 595 Darkness || <b>Power Cost:</b> 72<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Raise Zombie 11|2}} || 110 || Raise Zombie 11 || Defile a recently-dead corpse to create a vaguely humanoid undead servant. The unstable creature loses health over time, but can recover health by attacking enemies. Its disgusting nature taunts enemies toward it. (If you already have a zombie, it is instead buffed and healed.) || Existing Zombie's Direct Damage 100 for 60 seconds<br>Existing Zombie's Max Health 275 for 5 minutes<br>Existing Zombie Restore 275 Health<br><b>--Can Have--</b><br>Existing Zombie's Direct Damage 0 for 5 minutes<br>Existing Zombie's Damage Boosted 0 for 60 seconds ||  || <b>Power Cost:</b> 101<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Life Steal 10|2}} || 110 || Life Steal 10 || Steal life force from the target's body, dealing Darkness damage and healing you. Has reduced effect on undead foes. || Steals 110 Health.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 5 times over 10 seconds ||  || <b>Power Cost:</b> 45<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|(Internal - SZ11)|2}} || 110 || (Internal - SZ11) || Internal ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Raise Flapskull 2|2}} || 110 || Raise Flapskull 2 || Ransack a recently-dead corpse to create a sentient skull with wings. It is not under your direct control.<br><br>Most equipment that directly boost skeleton or zombie stats also affect the flapskull. || Summoned flapskull exists for 30 seconds or until destroyed. It spits poison gas as its Rage attack. ||  || <b>Power Cost:</b> 101<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Death's Hold 10|2}} || 111 || Death's Hold 10 || Briefly hold your target in place with undead hands.<br><b>This is a Signature Debuff ability</b> || Target is immobilized for 5 seconds.<br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 440 Darkness || <b>Power Cost:</b> 62<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Wave of Darkness 10|2}} || 114 || Wave of Darkness 10 || Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 551 Darkness<br><b>Taunts:</b> 700 || <b>Power Cost:</b> 64<br><b>AoE:</b> 10<br><b>Cooldown:</b> 18 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Raise Skeletal Archer 10|2}} || 115 || Raise Skeletal Archer 10 || Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. || Ability cannot be used during combat<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 125<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Fransesca Muradrake]]
+|-
+| {{Ability icon|Life Crush 11|2}} || 115 || Life Crush 11 || Destroy the life force in the target's body, dealing Darkness damage.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 279 Darkness || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Fransesca Muradrake]]
+|}

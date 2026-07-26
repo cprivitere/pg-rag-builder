@@ -1,0 +1,39 @@
+__NOTOC__
+{{NPC infobox
+|title            = Phantessa
+|image            = [[File:Phantessa (npc).png|300px]]
+|caption          = Very Pale
+|zone             = Statehelm
+|town = Statehelm
+|location         = Fountain/Wandering
+|anatomy = 
+|species = 
+|beastspeak       = ?
+}}
+{{Quote|source=[[Phantessa]]|There's something so insidious about the cornucopia. You don't even have to eat, it just sustains you! But why would people want to deprive themselves of that pleasure? Just to ahve a few more minutes of working time each day?}}
+[[Phantessa]] lives in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Phantessa]] may be found wandering the city of Statehelm during the day.
+== Favor ==
+=== Small Talk ===
+[[Phantessa]] does not use the favor system.
+== Quests ==
+[[Phantessa]] does not offer quests.
+<!--
+[[Phantessa]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Phantessa
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Phantessa]]|
+It brings a smile to my lips when I see graffiti on the walls. Something about all these square boxy walls just makes me want to REBEL!
+
+But I don't. At least not in that way.}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

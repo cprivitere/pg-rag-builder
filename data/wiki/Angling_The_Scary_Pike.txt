@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+In a lake just southeast of Eltibule Keep, a telepathic spirit of some kind asked you to catch a "scary" pike that's invaded. The pike can only be caught at night.
+===Prerequisites===
+To start this quest, angle by the southeast lake in '''[[Eltibule]]'''.
+===Preface===
+{{Quote|
+You are a reasonable fisher, I hope. This lake needs your help to remain a fishing paradise! A human dumped fish in this lake a season ago. One of those fish has grown into a cruel, gigantic, horrible death beast! It only comes out at night. Please get it out of here!
+}}
+===Requirements===
+*Angle the Scary Pike.
+===Rewards===
+{{Spoiler|Rewards for Angling: The Scary Pike|
+{{Quote|
+I'm saved! I mean... the lake is saved! Thank you, fisher. By the way, I believe that evil pike would taste delicious pickled!}}
+* 1450 XP in [[Angling]].
+* Basic Bait x49.
+* Recipe: Pickled Pike.
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Angling Quests]]

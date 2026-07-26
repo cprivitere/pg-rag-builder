@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Fight Me You Fools
+| description = Hit all nearby enemies, knocking them back and causing them to hate you more than they would have.
+| level = 7
+| power cost = 12
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Burst}}{{KWAB|FightMeYouFools}}
+| damage = 18 Crushing
+| special = Restore 0 Health each second for 8 seconds. Targets are knocked back.
+}}
+|-
+|
+{{Ability infobox
+| name = Fight Me You Fools 2
+| description = Hit all nearby enemies, knocking them back and causing them to hate you more than they would have.
+| level = 19
+| power cost = 16
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Burst}}{{KWAB|FightMeYouFools}}
+| damage = 29 Crushing
+| special = Restore 0 Health each second for 8 seconds. Targets are knocked back.
+}}
+|-
+|
+{{Ability infobox
+| name = Fight Me You Fools 3
+| description = Hit all nearby enemies, knocking them back and causing them to hate you more than they would have.
+| level = 29
+| power cost = 20
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Burst}}{{KWAB|FightMeYouFools}}
+| damage = 42 Crushing
+| special = Restore 0 Health each second for 8 seconds. Targets are knocked back.
+}}
+|-
+|
+{{Ability infobox
+| name = Fight Me You Fools 4
+| description = Hit all nearby enemies, knocking them back and causing them to hate you more than they would have.
+| level = 39
+| power cost = 24
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Burst}}{{KWAB|FightMeYouFools}}
+| damage = 63 Crushing
+| special = Restore 0 Health each second for 8 seconds. Targets are knocked back.
+}}
+|-
+|
+{{Ability infobox
+| name = Fight Me You Fools 5
+| description = Hit all nearby enemies, knocking them back and causing them to hate you more than they would have.
+| level = 49
+| power cost = 27
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Burst}}{{KWAB|FightMeYouFools}}
+| damage = 99 Crushing
+| special = Restore 0 Health each second for 8 seconds. Targets are knocked back.
+}}
+|-
+|
+{{Ability infobox
+| name = Fight Me You Fools 6
+| description = Hit all nearby enemies, knocking them back and causing them to hate you more than they would have.
+| level = 59
+| power cost = 30
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Burst}}{{KWAB|FightMeYouFools}}
+| damage = 136 Crushing
+| special = Restore 0 Health each second for 8 seconds. Targets are knocked back.
+}}
+|-
+|
+{{Ability infobox
+| name = Fight Me You Fools 7
+| description = Hit all nearby enemies, knocking them back and causing them to hate you more than they would have.
+| level = 69
+| power cost = 33
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Burst}}{{KWAB|FightMeYouFools}}
+| damage = 174 Crushing
+| special = Restore 0 Health each second for 8 seconds. Targets are knocked back.
+}}
+|-
+|
+{{Ability infobox
+| name = Fight Me You Fools 8
+| description = Hit all nearby enemies, knocking them back and causing them to hate you more than they would have.
+| level = 79
+| power cost = 37
+| reuse time = 20
+| range = 20 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Burst}}{{KWAB|FightMeYouFools}}
+| damage = 219 Crushing
+| special = Restore 0 Health each second for 8 seconds. Targets are knocked back.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

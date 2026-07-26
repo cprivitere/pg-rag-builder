@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Nelson Ballard asked you to be on the lookout for a super-intelligent rat. If found, Nelson needs the rat's head decoration -- some sort of tiara or headband.
+
+===Prerequisites===
+To start this quest, talk to '''[[Nelson Ballard]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|The nonsense I have to deal with. An Elf in town recently reported a theft of his magic headband. But get this: he said a super-intelligent rat stole it from him in the dead of night. Clearly more is going on here, but he won't say anything else.
+
+And the frustrating part about this idiotic story is that I believe him! So, if you're travelling in the woods outside of town and you come across a super-intelligent rat with a tiara or something, can you bring it to me? I need to get to the bottom of this, and I think that head thing will be a useful bargaining chip.}}
+
+===Requirements===
+* Obtain Mr. {{Item|Squeaky's Tiara}}
+* Talk to Nelson Ballard
+
+===Rewards===
+{{Spoiler|Rewards for The Rat Tiara|
+{{Quote|This is it? This is the thing Echur wanted back? Huh. Well, thanks! Here, let me reward you. I don't have a lot of cash, but here's a Council Note.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Council Certificate}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Nelson Ballard]]

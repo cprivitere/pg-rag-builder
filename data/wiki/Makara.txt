@@ -1,0 +1,184 @@
+__NOTOC__
+{{NPC infobox
+|title            = Makara
+|image            = [[File:Makara.png|300px]]
+|caption          = An older Rakshasa, eyes half closed.
+|zone             = Ilmari
+|location         = Living in the far northeast.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Transmutation]]
+|barter = Yes
+}}
+{{Quote|
+I am tired. I have run out of materials to practice my craft. And I am alone in this world, without meaning or purpose.
+}}
+[[Makara]] is an older [[Rakshasa]] living alone in the empty wasteland of [[Ilmari]]. She is a first-generation Rakshasa, so her parents were emotionless and uncaring for her.
+{{Quote|
+You are a fast learner! Much faster than I was. Now you can break down simple magical items. Perhaps some day I can teach you more advanced techniques.
+; '''But what's the purpose of this skill?'''
+I will explain it as my father did to me. Most magic items are powered by a weird substance called Phlogiston. This is what gives them their magic power. But the substance is invisible and undetectable... unless you know the trick I just taught you. Now you can magically boil down an item into its raw phlogiston!
+; ''' Nice! And what do I do with the phlogiston?'''
+When you have practiced enough, you can use that table over there to change the enchantments on a magic item. You will pour raw phlogiston onto the item and change its properties. Unfortunately the only technique I've mastered is somewhat... random. I can choose an enchantment on an item and then twist it to do something else, but I don't have much control over what the new enchantment does.
+; '''So this lets me randomly change an enchantment on a magic item? '''
+Yes, if you don't like the results, you can always try again, as long as you have enough phlogiston of the appropriate quality... and as long as the item is still in good enough shape.
+; ''' Wait, so Transmutation damages the item?'''
+It's not physical damage, no. The item will be fine. But there's a limit to the number of times an item can be Transmuted before its innate power is too weak to try again.
+; '''How many Transmutations can an item take?'''
+That depends, but typically four or five. However, I've recently mastered another technique... one that can repair the Transmutation damage and let you further alter the item.
+; '''How do I do that?'''
+I can't explain it to you now; you wouldn't understand enough of the details. First you will need to practice more Transmutation.
+; '''Okay. I will practice some. Thanks!'''
+}}
+
+==Location==
+; [[Ilmari]]
+: Living to the far northeast, in a small hut hidden in the sandy hills. Look for the red & white cloth that makes up half the roof. 
+
+==Favor==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Best Friends}}:|
+:{{Item|Medium Prism}} x 6}}
+{{Spoiler|Reward at {{Favor|Like Family}}:|
+:{{Item|Medium Prism}} x 6}}
+{{Spoiler|Reward at {{Favor|Soul Mates}}:|
+:{{Item|Decent Phlogiston}} x 100}}
+
+===Hang Outs===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Have a quiet tea break ''' (30 minutes) {{Favor|Neutral}}|
+{{Quote|I guess my parents are right: all the rakshasa born here are infected with empathy. Which means that even if we could go home to [[Ravana]], the non-empathetic rakshasa would simply kill us to avoid spreading the contamination. I may dream of seeing our homeworld, but it can never be.
+
+You're a good listener. Thank you for your visit.}}
+* 5 {{favor|favor}}
+* Gives effect of consuming {{Item|Sun Vale Tea}}.
+}}
+{{Spoiler|Get in-depth disenchanting lessons ''' (4 hours) {{Favor|Comfortable}}|
+{{Quote|And so, by turning the armor over counter-clockwise, we destabilize its phlogiston. Then you use the resonance hammer. Right! You've finally gotten the hang of it. Of course, never turn footwear counter-clockwise, only headwear.}}
+* 35 {{favor|favor}} 
+* 100 [[Transmutation]] XP
+* 10x {{Item|Shoddy Phlogiston}}
+}}
+{{Spoiler|Help to transmute a difficult item ''' (2 hours) {{Favor|Neutral}}|
+{{Quote|No! Don't shake it... oh no! Are you okay? I told you not shake it while I aim the prism! The phlogiston climbed up the light beam and shattered the prism. Augh, I have bits of glass in my fur!
+
+Look, I'm sure you're a fine transmuter, but it's just too difficult for two people to work on the same item. But I do appreciate your gesture. Here. Take this and go work on your own.}}
+* 20 {{favor|favor}}
+* 50 [[Transmutation]] XP
+* {{Item|Medium Prism}}
+}}
+
+==Quests==
+<dpl>
+category = Quests/Makara
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+At Friends, [[Makara]] will begin to teach Transmutation.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Transmutation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Distill Simple Magical Item (0-30)
+ |skilllevel= 1
+ |cost=0
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Repair Transmutation Damage 1
+ |skilllevel= 5
+ |cost=0
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Distill Rare Magical Item (0-30)
+ |skilllevel= 10
+ |cost=0
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Repair Transmutation Damage 2
+ |skilllevel= 15
+ |cost=0
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Distill Exceptional or Better Magical Item (0-30)
+ |skilllevel= 20
+ |cost=0
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Repair Transmutation Damage 3
+ |skilllevel= 25
+ |cost=0
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Distill Simple Magical Item (31-60)
+ |skilllevel= 31
+ |cost=0
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Distill Rare Magical Item (31-60)
+ |skilllevel= 31
+ |cost=0
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Repair Transmutation Damage 4
+ |skilllevel= 40
+ |cost=0
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Distill Exceptional Magical Item (31-60)
+ |skilllevel= 35
+ |cost=0
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Distill Epic or Legendary Magical Item (31-60)
+ |skilllevel= 40
+ |cost=0
+ |favor=Like Family
+}}
+|}
+
+==Bartering==
+Makara will exchange larger prisms for smaller ones.
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Large Prism}} x3 || {{Item|Medium Prism}} x4
+|-
+| {{Item|Medium Prism}} x3 || {{Item|Small Prism}} x4
+|-
+| {{Item|Large Prism}} || {{Item|Medium Prism}}
+|-
+| {{Item|Medium Prism}} || {{Item|Small Prism}}
+|}
+
+==Events==
+=====Winter Celebration=====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = 2-3x random items from list (incomplete): {{Item|On Becoming Great Again}}, {{Item|Carpentry: Amazing Priest Staff}}, {{Item|Teleportation: Mushroom-Circle Recall (False Agaric)}} <br>{{Item|Pottery Shard}}, 5x{{Item|Large Prism}}, {{Item|Enchanted Construction Nail}}, {{Item|Telka's Tail}}
+}}
+==Conversations==
+
+[[Category:NPCs]]

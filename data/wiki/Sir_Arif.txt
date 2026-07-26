@@ -1,0 +1,199 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sir Arif
+|image            = [[File:Sir Arif.png|300px]]
+|caption          = Exhausted and perhaps delirious.
+|zone = Serbule
+|dungeon = Serbule Crypt
+|location         = Near the [[Serbule Sewers]] portal.
+|anatomy = Human
+|species = Human
+|beastspeak       = No
+|skilltrainer     = [[Sigil Scripting]], [[Necromancy]]
+|vendor           = Yes
+|storage = Yes
+}}
+{{Quote|
+Uh, hi there. Watch out for the explosive runes. Heh. Guess you saw those? I made 'em.
+}}
+[[Sir Arif]] is a human member of the [[Council Corps of Engineers]] who were stationed in Serbule to construct the [[Serbule Keep]]. When the construction of the town was rushed, Arif and his compatriots decided to funnel the sewage from the town into the abandoned [[Serbule Crypt]]s under the town through the use of portals. His partner Lady Rasheen accidentally awakened [[Ursula]], and died shortly after.
+
+He teaches [[Sigil Scripting]] at Calligraphy 20 and sells the special inks used to create the symbols.
+== Location ==
+; [[Serbule Crypt]]
+: Found in the room by the [[Serbule Sewers]] portal.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Sir Arif
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+
+
+{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Sigil Scripting]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Sigil Scripting{{pipe}}Sigil Scripting
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Explosion Sigil
+ |skilllevel= 0
+ |cost= 245 
+ |favor= Comfortable
+}}
+{{NPC training row
+ |ability= Explosion Sigil 2
+ |skilllevel= 20 
+ |cost= 1666 
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability= Explosion Sigil 3
+ |skilllevel= 40
+ |cost= 4606 
+ |favor=
+}}
+{{NPC training row
+ |ability= Restorative Sigil
+ |skilllevel= 10
+ |cost= 686 
+ |favor=
+}}
+{{NPC training row
+ |ability=  Restorative Sigil 2 
+ |skilllevel= 25 
+ |cost= 2401 
+ |favor=
+}}
+{{NPC training row
+ |ability=  Restorative Sigil 3
+ |skilllevel= 45
+ |cost= 6811 
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability= Electricity Sigil
+ |skilllevel= 5 
+ |cost= 441 
+ |favor=
+}}
+{{NPC training row
+ |ability= Electricity Sigil 2
+ |skilllevel= 25 
+ |cost= 2401 
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability= Electricity Sigil 3
+ |skilllevel= 50
+ |cost= 6811 
+ |favor=
+}}
+{{NPC training row
+ |ability= Acid Sigil
+ |skilllevel= 15 
+ |cost= 1421 
+ |favor=Friends
+}}
+{{NPC training row
+ |ability= Acid Sigil 2 
+ |skilllevel= 35, and 12 lore
+ |cost= 4361 
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability= Acid Sigil 3
+ |skilllevel= 50, and 18 lore
+ |cost= 7056 
+ |favor=
+}}
+{{NPC training row
+ |ability= Repulsion Barrier
+ |skilllevel= 35
+ |cost= 4361
+ |favor=
+}}
+|}
+
+
+==== Interpretive Dance Variant ====
+[[Sir Arif]] is the teacher for [[Interpretive Dance|Dance 4 (variant B)]]. At least three musicians must be playing instruments near [[Sir Arif]] to convince them to demonstrate their dance.
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Sir Arif
+|favorrestriction =Friends
+|itemrestriction =Anything
+|neutral =0
+|comfortable =8
+|friends =8
+|closefriends =8
+|bestfriends =8
+|likefamily =8
+|soulmates =8
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Expert Holistic Ink}} x5
+|RiShin Family = {{Item|Amazing Holistic Ink}} x5
+}}
+== Conversations ==
+{{Quote|
+Uh, hi there. Watch out for the explosive runes. Heh. Guess you saw those? I made 'em.
+
+'''What are you doing down here?'''
+
+Been down here about a year now, I guess. I was part of the [[Council Corps of Engineers]] who came to build [[Serbule]]. We got called back real quickly, though, on account of the war, and so we rushed stuff...
+:'''You rushed the development of Serbule?'''
+:We had to get [[The Council|Council]]-quality sewer and water installed in five days. Five days! So we took some big shortcuts. The water's being portaled in from miles away. And we didn't have time for a sewer, so...
+::'''So?'''
+::So we diverted all the sewage into this ancient series of crypts. These tunnels are old, old, old, like pre-[[The Council|Council]] old. We didn't think any undead would still be able to hold their rage together, you know? But damned if they aren't really powerful here! And they weren't real happy about having shit poured on them, either. We kinda woke them from an ancient slumber.
+:::'''So what are you doing here?'''
+:::Well, we rigged up some portals to route the sewage out of here, but since it was already pouring in to here, it's now a complex mess or portals. And the undead like to jam them up and damage them. So, I stayed behind to protect the sewage system.
+::::'''Isn't there a better use of you time?'''
+::::It was only supposed to be for a few weeks! But I think it's been over a year, now. My team's forgotten about me, haven't they? I bet they were called to the front lines of the war, and they're all dead. And now nobody can relieve me. Nobody even knows I'm here, since we kind of left that out of the reports...
+:::::'''Nobody knows you're here?'''
+:::::Well we didn't want to get punished. So we reported [[Serbule]] as being complete. Figured we could sneak back to town in a while and finish everything up. I guess now I'm just screwed.
+::::::'''Want me to get help?'''
+::::::Well, who's stationed in town? They left a garrison? Who's in charge?
+:::::::'''No garrison. Just [[Sir Coth]].'''
+:::::::That jerk's the only guard in town?! Well... I'm screwed. Don't tell him about me, he's a moron and he'll get me in trouble. They stationed him out here to get him out of the way. Good with a sword, bad with a brain, as the saying goes.
+::::::::'''So how can I help?'''
+::::::::Stay alive. And if you meet any other [[Council Corps of Engineers]] members, tell them Arif needs their help.
+:::::::::'''Okay. I'll do that. Bye.'''
+}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|There was a second engineer with me originally. [[Lady Rasheen]]. She died after exploring a nearby room. She said a lich with the mind of a child was stealing her memories. She died slowly, horribly.}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|Those little dinosaurs can rend flesh at an insane rate! But they have a hard time clawing through armor.}}
+}}
+{{Spoiler|Variation 3|
+{{Quote|Have you seen those dinosaurs down here? Yeah, that... uh... that was a council corps error. We portalled 'em in from hundreds of miles away! They can't hurt you much if you're wearing enough armor.}}
+}}
+{{Spoiler|Variation 4|
+{{Quote|I keep the place mostly safe with my runes and sigils. Was never really good with a sword, but I'm great at the lost art of sigil-scripting.}}
+}}
+
+[[Category:NPCs]]

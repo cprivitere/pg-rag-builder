@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Ricatu in Povus said, "I really need a good dipping sauce to go with all this 'meat'. I heard you can do something with pumpkins -- that should be interesting.  But you'll have to find the recipe yourself."
+===Prerequisites===
+To start this quest, talk to '''[[Ricatu]]''' in '''[[Povus]]'''.  The quest is available during the [[Fall Harvest]]. The quest [[Harvest Event: Tofurkey!]] must be completed.
+
+===Preface===
+{{Quote|
+I really need a good dipping sauce to go with all this 'meat'. I heard you can do something with pumpkins -- that should be interesting.  But you'll have to find the recipe yourself.
+}}
+
+===Requirements===
+* Make {{Item|Pumpkin Hummus}}
+* Talk to Ricatu
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Pumpkin Hummus|
+{{Quote|
+I like this a lot. It's not exactly a sauce, I guess, but it tastes great on raw vegetables. Thanks!
+}}
+* {{Item|Xogrite Chunk}} x8
+* 800XP Cooking
+}}
+
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ricatu]][[Category:Quests/Fall Harvest]]

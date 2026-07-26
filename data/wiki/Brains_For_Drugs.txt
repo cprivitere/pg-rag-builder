@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Azalak the mantis needs you to collect a bunch of intact brains from sentient creatures. Brain Bugs occasionally drop intact brains, as do several other creatures, such as Nightmare Creatures and Psychic Mantises.
+
+===Prerequisites===
+To start this quest, talk to '''[[Azalak]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|Zeratak and I wish to make a living selling our special alchemical brain elixirs. These are traditional psi-mantis recipes, but I am attempting to hone them to be less toxic to other races. I believe that the lobes from the brain bugs are too potent... instead, I wish to grind up their entire brains. Or any fully intact brains will do, actually. I am a scientist. I am not picky.}}
+
+===Requirements===
+* Obtain Intact {{Item|Brain}}s x3
+* Talk to Azalak
+
+===Rewards===
+{{Spoiler|Rewards for Brains For Drugs|
+{{Quote|Yes! Perfect. I shall extract the pineal juice from these. Here, take my most recent concoction, and Bob's your Uncle as they say in your idiom. I do not know what that means.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Enhanced Pineal Juice}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Azalak]]

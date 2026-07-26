@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Raina in the Fae Realm said, "I try to keep my shop stocked with the essentials... but what IS an essential, anyway? I don't personally need much, so I've been stocking a bit of everything, in case it's essential to somebody else. Despite this, sales are... not good.
+
+But I have a lead on a sale: Crelpin asked if I had any fresh pears, and I realized I didn't! Mine are old! If you're headed out of town, please pick me up some really fresh ones. And don't eat them!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Raina]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+I try to keep my shop stocked with the essentials... but what IS an essential, anyway? I don't personally need much, so I've been stocking a bit of everything, in case it's essential to somebody else. Despite this, sales are... not good.
+
+But I have a lead on a sale: Crelpin asked if I had any fresh pears, and I realized I didn't! Mine are old! If you're headed out of town, please pick me up some really fresh ones. And don't eat them!
+
+===Requirements===
+* Pick Fresh Pears x5
+* (Don't Eat the Pears) x5
+* Talk to Raina
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Perfect! Except Solgribue just told me he doesn't need them anymore.
+
+In retrospect I should have brokered some sort of business arrangement BEFORE I asked you to get these... but I'll take the blame, it's on me. Here's a fair payment.}}
+* 100 {{Favor|favor}}
+* {{Item|Huge Fae Honeycomb}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Raina]]

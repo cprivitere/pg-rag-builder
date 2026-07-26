@@ -1,0 +1,45 @@
+__NOTOC__
+{{NPC infobox
+|title            = Kasapar
+|image            = [[File:Kasapar (npc).png|300px]]
+|caption          = Making a show of being friendly.
+|zone             = Statehelm
+|town = Statehelm
+|location         = Fountain/Wandering
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = No scary animals
+}}
+{{Quote|source=[[Kasapar]]|I'm an ambassador from Rahu. Should the Council wish to communicate with Rahu, I speak on its behalf.
+
+However, the Council very rarely has even a passing thought about Rahu, so most of my days are spent in idle contemplation.}}
+[[Kasapar]] is a Rakshasa from [[Rahu]] who lives in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Kasapar]] may be found wandering the city of Statehelm during the day.
+== Favor ==
+=== Small Talk ===
+[[Kasapar]] does not use the favor system.
+== Quests ==
+[[Kasapar]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Kasapar
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Kasapar]]|
+Every other morning I receive missives from Rahu about how I should answer such-and-such question. I haven't the heart to tell them that the Council does not care about anything we care about. Aside from the issue of privacy, of course. Which is... a sticking point, I admit. But our real concerns -- trade agreements, war reparations, plans to rejuvenate the Ilmari -- these topics are non-starters.}}
+{{Quote|source=[[Kasapar]]|
+My seniors in Rahu are also a little misguided about their standing in comparison to Statehelm. We are a proud people. It is hard to accept how... how tiny a threat Rahu now is to the Council wizards.
+
+I have given up trying. When they tell me to rattle the saber of war, I simply smile and lie.}}
+{{Quote|source=[[Kasapar]]|
+Lying to my superiors is easier than lying to humans It's a skill I must master. But for now I instead use brutal honesty. And I've found the Council responds well to this!
+
+Of course, I have not had reason to speak with the Council over twenty days. My bones begin to ache for action. I am restless.}}
+[[Category:NPCs]][[Category:NoRiShin]]

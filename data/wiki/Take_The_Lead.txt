@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Take The Lead
+| description = Your speed and taunting power dramatically increase for a few seconds, allowing you to charge into the fray and take control.
+| level = 8
+| power cost = 8
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|TakeTheLead}}
+| special = For 10 seconds, you gain +6 sprint speed and all attacks taunt as if they did 50% more damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Take The Lead 2
+| description = Your speed and taunting power dramatically increase for a few seconds, allowing you to charge into the fray and take control.
+| level = 28
+| power cost = 13
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|TakeTheLead}}
+| special = For 10 seconds, you gain +7 sprint speed and all attacks taunt as if they did 75% more damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Take The Lead 3
+| description = Your speed and taunting power dramatically increase for a few seconds, allowing you to charge into the fray and take control.
+| level = 42
+| power cost = 17
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|TakeTheLead}}
+| special = For 10 seconds, you gain +8 sprint speed and all attacks taunt as if they did 100% more damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Take The Lead 4
+| description = Your speed and taunting power dramatically increase for a few seconds, allowing you to charge into the fray and take control.
+| level = 55
+| power cost = 19
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|TakeTheLead}}
+| special = For 10 seconds, you gain +9 sprint speed and all attacks taunt as if they did 125% more damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Take The Lead 5
+| description = Your speed and taunting power dramatically increase for a few seconds, allowing you to charge into the fray and take control.
+| level = 68
+| power cost = 22
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|TakeTheLead}}
+| special = For 10 seconds, you gain +10 sprint speed and all attacks taunt as if they did 150% more damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Take The Lead 6
+| description = Your speed and taunting power dramatically increase for a few seconds, allowing you to charge into the fray and take control.
+| level = 78
+| power cost = 25
+| reuse time = 30
+| range = 3 meters
+| skill = Shield
+| keywords = {{KWAB|Shield}}{{KWAB|TakeTheLead}}
+| special = For 10 seconds, you gain +10.5 sprint speed and all attacks taunt as if they did 175% more damage.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

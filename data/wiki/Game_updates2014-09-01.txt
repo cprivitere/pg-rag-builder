@@ -1,0 +1,37 @@
+==September 1, 2014==
+
+This update was rushed because it fixes memory issues that made the game basically unplayable for people using 32-bit Windows OSes. So the other changes here are just what happened to be ready to go at this time. More is in the works!
+
+* Large reduction in the amount of RAM used at runtime
+* Fixed some physics and lighting issues in Serbule
+* Fixed spawn spots of paintings in goblin cave (they could only be targeted with tab selection)
+
+* Tutorial Cave: People were missing the backup warning screen before reaching Maronesa, because it was piled in with all the other tutorial tips. Now it's a big friggin box that pops up in the center of the screen
+
+* Tutorial Cave: Also fixed up the tip for the "This is not the way out" part of the tutorial dungeon, it wasn't working correctly
+
+===[[Kur Mountains]] Changes===
+
+* Added new fire pits in the two orc encampments. They can be fueled to keep damagelfrostbitelhypothermia away
+* Tweaked height of icy area so that it isnt considered "unden~ater" when you're standing on the ice
+
+* Added meditation pillars (5 of them)
+
+* Added some more named monsters
+
+* Slowed down respawn time of Bleddyn to 2 minutes (instead of 10 seconds)
+
+* Tolar the Bear Raised once again looks like an orc instead of an elf
+
+* Minor tweaks to loot tables
+
+===Player Spider Ability Changes===
+
+* Inject Venom does more damage over time
+
+* Terrifying Bite ability no longer requires the enemy to be unarmored in order to attempt to Fear the target
+* The highest level Summoned Spider has more health and armor
+
+* Added some new spider-related treasure effects, including new effects that can boost the stats of incubated baby spiders. (Those haven‘t been tested. But they should work...)
+
+[[Category:Game updates]]

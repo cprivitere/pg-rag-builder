@@ -1,0 +1,90 @@
+==<b>Dec 29 Update</b>==
+: Today's update includes a lot of additions and fixes to the UI, as well as a new Lore Books Library!
+
+===<b>Lore Books Library</b>===
+: You can open your library with the new book-shaped icon on the right sidebar. This is a work-in-progress as we start adding more lore books to the game. The intent is to let you review lore documents when you aren't in the heat of battle. Many lore books are found deep in dungeons and it's impractical to read them while ghouls are trying to eat your face.
+
+: Many static in-game books, such as one found on a counter in Serbule, can be accessed here once you find them. (No lore books will show up by default, even if you've read them in the past; you will need to re-read the in-game books to add them to your lore library.) In addition, to help test new lore-book features, a few new lore books have been added to general loot tables. Each book earns 50 Lore XP when first read. They are extremely rare. 
+
+===<b>NPCs</b>===
+<i>Dark NPC Theme</i>
+: This update is testing out an experimental "dark theme" for NPC dialog windows. We aren't sure if we like it or not yet. The new theme has white text on a dark background which is actually a little harder to read than black on white, but the advantage of the dark theme is that most colors are more legible. This is important for e.g. shopping, when viewing colored item names. Let us know what you think!
+
+<i>Other NPC changes:</i>
+:: - Rewrote most of the shopkeeper and vendor UI to bring its usability up to par with the old UI. You no longer "select" items in the shop; you just buy them.
+:: - When gifting to an NPC, you can give multiple gifts without having to click "you're welcome" each time.
+:: - While selling to a vendor, items are now correctly hidden when the vendor can't afford them anymore due to running out of cash. 
+:: - The NPC Consignment screen now actually tells you the sorts of items the vendor is willing to consign! What an innovative new feature!
+:: - Fixed bug that made it impossible to purchase consignment packages if they were stacks of more than 1 item.
+:: - Your NPC favor meter once again updates immediately, rather than requiring you to close the NPC window and reopen it.
+:: - Fixed display errors when NPC favor was very close to the next favor-level.
+:: - The "help" button on the player vendor management screen works again.
+
+===<b>Chat</b>===
+: We've fixed lots of bugs with the chat window and added some convenience features. We really want the chat system to be intuitive, but that's difficult since everybody uses chat in slightly different ways. So it's VERY likely that there are still problems and unhappy surprises in the chat window, but we can't find these problems on our own, because we don't use chat the same way you do. (Probabilistically speaking, I mean.) At this point we need more feedback on what's wrong, what's weird, what could work better. Please send your chat-window suggestions via the in-game suggestion form! Thanks!
+
+====In this update: ====
+:: - If you right-click a Chat window tab while holding down the SHIFT key, you will see a new menu option to "Reset all Chat Tabs to Default". This restores your tabs to the stock setup. Please feel free to mention this hidden menu option to new players if they accidentally screw up their chat tabs and are frustrated or confused about how to edit them back.
+:: - Previously, when the chat window automatically created a new chat tab (such as when it creates a "Party" tab, if none of your existing tabs have Party chat), the tab would be auto-destroyed, too, when you left that channel. Now the chat tab will only be auto-destroyed if you haven't edited the chat tab. In other words, if you right-click and Edit your Party tab, it will never go away on its own. This allows you to customize it as desired, for instance to turn on timestamps, without having to re-edit the tab each time. You can still close the tab manually, of course, by right clicking and choosing Close Tab.
+:: - Fixed issues with multiple "Guild" or "Party" chat tabs being auto-added, and with guild and party channels being removed from customized chat tabs
+:: - Fixed unrelated bugs pertaining to the Guild and Party channels being removed from other tabs when you left a guild or hunting party
+:: - Fixed a scenario where your chat tab data could be lost when your connection to the server times out
+
+===<b>Map Pins</b>===
+: Shift-clicking a pin on the map is supposed to be a quick way to delete the pin, as it was in the old UI. While shift-clicking DID delete the pin, due to a bug it also created a new "phantom pin" that could not be deleted until you restarted the game client. This has been fixed! You can now once again shift-click on a pin to quickly delete it.
+
+: Plus, there is a new shortcut: if you RIGHT-click on the map, a pin is created without the need to enter a label. You can use this to quickly create pins for tasks such as surveying.
+
+: Maps are still a work in progress, so please continue to give us detailed feedback! (Posting screenshots on the forums is especially helpful.)
+
+===<b>More UI Customization</b>===
+: Getting more customization powers into your hands is an ongoing project. In this update:
+: <i>Portraits</i>
+: There is a new option in the settings window to turn player portraits on/off. This controls the little circular windows depicting you and your currently selected thing. We've turned this feature OFF for now by default because many monsters are still not set up for it, and because player avatars look very weird when doing some animations. We're planning an update of the player animations relatively soon. After that we'll turn this option "on" by default.
+
+====<i>On-Screen Errors</i>====
+: You can now set the font size of the on-screen error box in the settings window, just like other font sizes. And you can now move the error/informational-message box with the special settings ErrorMessageX and ErrorMessageY. Their values can range from 0 to 100. (0,0 is top left, 100,100 is bottom right.) Note that unlike the earlier special settings AbilityTipsX/Y, these CAN go beyond the range of 0-100 legally. We allow this because the error box has "fuzzy borders" and is larger than it looks. Anyway, if you want to completely hide the error messages, you could use something like ErrorMessageY=500 which will put it way off-screen and you won't have to see it. 
+
+: Special settings are typed into the "Special Settings" area of the settings screen. As with all special settings, these new settings may evolve into something fancier and more intuitive in the future. In the short term we want to give advanced players some configurability options.
+
+===<b>Other Changes</b>===
+:: - The resizable "sidebars" on various windows now save/load their size between runs of the game. (This pertains to the sidebars on the Crafting, Dialog, Skills, Loadouts, and Quest windows.)
+:: - The quest window's sidebar can no longer be dragged to infinite width (which caused problems when the sidebar became larger than the screen)
+:: - Clicking on any unused part of a GUI window will bring it to the foreground (rather than needing to click specifically on the title). However, there are still a few exceptions for technical reasons.
+:: - The special settings AbilityTipsX and AbilityTipsY were previously inaccurate when the GUI was scaled. This is now fixed.
+:: - The G icon - which didn't make much sense for Councils - has been replaced by a sack of coins.
+:: - Monetary amounts throughout the game now have comma separators for hundreds, thousands, etc. : '''Let us know if we missed some!'''
+:: - When wearing items or using potions that increase your inventory size, the Inventory window did not update the number of slots until your inventory changed in some way (or you closed and re-opened your inventory window).
+:: - You can no longer sell items that are overflowing from your inventory.
+:: - Fixed a harmless "Java null pointer exception" message when using the "/mapclear" command on a map that had no pins.
+:: - Pending friend requests don't persist through logout.
+:: - Fixed spurious "You are now in hunting group 'x' messages.
+:: - Added notifications when a person joins or leaves your hunting group.
+:: - Fixed a couple of bugs with kicking or leaving a party.
+:: - To make our terminology more consistent, we've attempted to change all references to "hunting groups" into "hunting parties". If you find text that still references hunting groups, please bug-report it!
+:: - Added a new "restrictions" tab to the Social window. This tab lets you disable different kinds of social interactions, such as preventing players from inviting you to their guild. (Note that Ignoring a player automatically restricts them from all of these things, too.)
+:: - The old command "/restrict" is now obsolete and has been removed.
+:: - Seek Objective and Objective Orienteering once again work. For now, they are attuned to the quest you've most recently looked at in the quest UI.
+:: - Mods that raise/lower "taunt from attack damage" displayed the percentage change as an integer (usually +0) instead of as a percentage amount. This was only a display error.
+:: - Similarly, mods that raise/lower "Rage Boost From Monsters" displayed the percentage as an integer (usually +0). This was only a display error.
+:: - the Transmutation table no longer lets you transmute powers that were added via Augmentation. (This was removed long ago but was accidentally re-added.)
+:: - Fixed an exploitable scenario where you could easily get extra Augmentation XP.
+:: - Wearing a santa hat will no longer cause you to be randomly forced into first-person mode. 
+:: - Title scrolls from the holiday event now give out the correct title when used.
+:: - When you spend guild credits, it once again displays how many guild credits you have (and not how many councils).
+:: - Garden plants and other deployables no longer show up as pets in the pet UI.
+:: - If you attempt to use a title scroll for a title you already have, you now receive an error message and the title isn't used up.
+:: - Fixed issue where the "paper doll" on the Persona window is just a white box if the player logged in nude.
+:: - The "LogChat" special setting works again
+:: - Removed extraneous light sources in Serbule that caused nighttime to be too bright.
+:: - Fixed a bug that let players remove items from the trade window without their "accept" button getting reset.
+:: - If a trading partner toggles their "accept trade" on and off quickly, the other player will perceive a 2-second delay between when it turns back off and it turns on again. This delay helps prevent players from being able to sneak a change into the trade deal.
+:: - Prevent players from trading more than 25 items at a time. (Additional items weren't shown in the trade UI, but were still traded.)
+:: - Fixed a number of display issues with player trades.
+:: - New JSON files for 3rd-party tools: lorebooks.json and lorebookinfo.json. The format of these files is likely to change as we flesh out the lore-book system!
+:: - The special setting "NoPortraits" has been removed since there's a regular UI option for it now.
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

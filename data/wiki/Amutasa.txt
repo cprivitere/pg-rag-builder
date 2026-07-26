@@ -1,0 +1,495 @@
+__NOTOC__
+{{NPC infobox
+|title            = Amutasa
+|image            = [[File:Amutasa.png|300px]]
+|caption          = She seems flustered.
+|zone             = Rahu
+|town             = Rahu City (peaceful)
+|location         = Inside her shop, towards the port side of town.
+|wander           = Walks up to work at the forge.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Toolcrafting]]
+|vendor           = Yes
+|consignment = Yes
+|augment = Yes
+}}
+{{Quote|
+...'''If you've come to order a tool, I am sorry. I still have some simple tools in stock, but I cannot take new requests for specialty tools. I am too far behind on my existing orders. Please forgive me. I would help you if I could.'''
+}}
+[[Amutasa]] is a renowned [[Toolcrafting|Tool maker]] who has set up shop in the City of [[Rahu]]. She mentions that she is often up every night working tirelessly on new tools to fufil orders. One day, she hopes to make custom armor using dyed snail shells. 
+==Location==
+; [[Rahu]]
+: Opposite the garden stairs.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Friends}}|
+{{Item|Basic Armor Stake}} x5
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}|
+{{Item|Peening Hammer}} x1
+}}
+{{Spoiler|Reward at {{Favor|Best Friends}}|
+{{Item|Tack Hammer}} x2
+}}
+{{Spoiler|Reward at {{Favor|Like Family}}|
+{{Item|Grand Shaping Hammer}} x2
+}}
+
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Assist Amutasa in preparing an order of hammers (5h).|
+{{Quote|That's the final hammer for this batch. Thanks to you, I might get to sleep before this night ends! I must admit that I am growing tired of making tools. Some day I will be able to focus on my custom armors again!}}
+* 40 {{Favor|favor}} with Amutasa
+* 650 [[Toolcrafting]] XP
+}}
+{{Spoiler|Go with Amutasa into the dangerous parts of Rahu to shop for specialty tools (3h).|
+{{Quote|I was certain that I could keep you safe in the deeps of Rahu by explaining that you were my ward. But that alchemist threw hot oil on you before I even saw he was there! I am so sorry! Are your burns too painful? Here, take this.}}
+* 50 {{Favor|favor}} with Amutasa
+* {{Item|Amazing First Aid Kit}} x 3
+* Debuff: Scalded (30m) (-10% out-of-combat armor regeneration)
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Amutasa
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Meat Tenderizer
+ | skilllevel = 5
+ | cost = 300
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Peening Hammer
+ | skilllevel = 6
+ | cost = 333
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Dishing Hammer
+ | skilllevel = 16
+ | cost = 1000
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Shaping Hammer
+ | skilllevel = 26
+ | cost = 1666
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Tack Hammer
+ | skilllevel = 36
+ | cost = 3000
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Delicate Tack Hammer
+ | skilllevel = 46
+ | cost = 4666
+ | favor = Best Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Toolcrafting{{!}}Unlock Toolcrafting Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20000
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Grand Shaping Hammer
+ | skilllevel = 56
+ | cost = 7666
+ | favor = Like Family
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Toolcrafting{{!}}Unlock Toolcrafting Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 50000
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Great Spring Fairy Shoes
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Spring Fairy Shoes (Max-Enchanted)
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Spring Fairy Leggings
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Spring Fairy Leggings (Max-Enchanted)
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Spring Fairy Top
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Spring Fairy Top (Max-Enchanted)
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Greaves
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Greaves (Max-Enchanted)
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Boots
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Boots (Max-Enchanted)
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Coat
+ | skilllevel = 62
+ | cost = 9865
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Coat (Max-Enchanted)
+ | skilllevel = 62
+ | cost = 9865
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Gauntlets
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Gauntlets (Max-Enchanted)
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Helm
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Snail Helm (Max-Enchanted)
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Spring Fairy Shoes
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Spring Fairy Shoes (Max-Enchanted)
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Spring Fairy Leggings
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Spring Fairy Leggings (Max-Enchanted)
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Spring Fairy Top
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Spring Fairy Top (Max-Enchanted)
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Greaves
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Greaves (Max-Enchanted)
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Boots
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Boots (Max-Enchanted)
+ | skilllevel = 70
+ | cost = 11465
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Coat
+ | skilllevel = 72
+ | cost = 13200
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Coat (Max-Enchanted)
+ | skilllevel = 72
+ | cost = 13200
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Gauntlets
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Gauntlets (Max-Enchanted)
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Helm
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Snail Helm (Max-Enchanted)
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Carpentry]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Carpentry{{!}}Unlock Carpentry Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20000
+ | favor = Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Carpentry{{!}}Unlock Carpentry Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 50000
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Quality Chair
+ | skilllevel = 50
+ | cost = ?
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Quality Calligraphy Bench
+ | skilllevel = 53
+ | cost = 6535
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Quality Meditation Stool
+ | skilllevel = 54
+ | cost = 6664
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Great Chair
+ | skilllevel = 60
+ | cost = 7800
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Calligraphy Bench
+ | skilllevel = 61
+ | cost = 9833
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Meditation Stool
+ | skilllevel = 62
+ | cost = 9865
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Melee Staff (Enchanted)
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Melee Staff (Max-Enchanted)
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Combat Staff (Enchanted)
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Combat Staff (Max-Enchanted)
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Wooden Cow Shoes
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Great Wooden Deer Shoes
+ | skilllevel = 63
+ | cost = 9900
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Memo Book
+ | skilllevel = ?
+ | cost = ?
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Primitive Table
+ | skilllevel = 50 
+ | cost = 4560
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Wall Torch
+ | skilllevel = 30
+ | cost = 1710
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Amazing Melee Staff (Enchanted)
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Melee Staff (Max-Enchanted)
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Combat Staff (Enchanted)
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Combat Staff (Max-Enchanted)
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Wooden Cow Shoes
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Amazing Wooden Deer Shoes
+ | skilllevel = 73
+ | cost = 13233
+ | favor = ?
+}}
+|}
+
+== Services ==
+==== Consignment ====
+; Amutasa offers [[Consignment]] at {{favor|Friends}}.
+: Mark-up fee of 10%, no stocking fee.
+: Max 1 active consignments (Tools, alchemy ingredients).
+: Max 4 consignments per week.
+
+==== Augmentation ====
+[[Amutasa]] can install Level 0-60 Augments for 650 Councils. You must be {{favor|Friends}} or better.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Expert-Quality Metal Slab}} x20
+|RiShin Family ={{Item|Amazing Metal Slab}} x20
+}}
+== Conversations ==
+{{Quote|source=[[Amutasa]]|
+Once I hoped to make my name from my custom armors -- I know a technique for using snail shells -- dyed in beautiful colors. But my armors are ignored; only my tools are sought out. So I try to make the best tools I can, for what other point is there in this life?
+}}
+{{Quote|source=[[Amutasa]]|
+[[Kohan]] placed another order yesterday. Because he is an important customer, I completed it right away. But it seemed a bit odd. How could he need another batch of Artisanal Radiation Springs already? He received a gross of them last week. Sometimes I think he just comes here to talk to me...
+}}
+[[Category:NPCs]]

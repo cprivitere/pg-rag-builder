@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+The Suspicious Cow in Eltibule said, "There should be plenty of grazing space for the herd, but all these weird monsters are making life tough. Maybe if some of the fire spiders east of here were to mysteriously die..."
+
+===Prerequisites===
+To start this quest, talk to '''[[Suspicious Cow]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+There should be plenty of grazing space for the herd, but all these weird monsters are making life tough. Maybe if some of the fire spiders east of here were to mysteriously die...
+
+===Requirements===
+* Kill Fire Spiders x6
+* Talk to Mysterious Cow
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Um... I wanted mysterious deaths that wouldn't draw too much attention. You just wandered out and murdered those fire spiders!
+
+I guess that's better than nothing. Let's just hope you didn't draw too much attention to Eltibule.}}
+* 50 {{Favor|favor}}
+* {{Item|Cow Shoes}}
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Suspicious Cow]]

@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Find some of the cultural lore items scattered throughout the town of Serbule.
+
+==Prerequisites==
+To start this quest, talk to [[Velkort]].  The quest is available at {{Favor|Neutral}} favor.
+
+==Preface==
+{{Quote|
+;I want to become a better Fire Mage.
+}}
+
+==Requirements==
+*Find 6 lore items {{Hint|Lore items can be found many places around town.  There is one in Hulon's shop, two in Nelson Ballard's office, and three in Marna's shop.  Examining each lore item will give Lore XP, and level-up rewards.}}
+*Talk to [[Velkort]].
+
+==Rewards==
+{{Spoiler|
+{{Quote|
+Good job! I'll deign to teach you some little tricks. And here's a bit of Fire Dust.
+}}
+
+*200 [[Lore]] XP
+*{{Item|Fire Dust}} x3
+}}
+
+[[Category:Quests]]

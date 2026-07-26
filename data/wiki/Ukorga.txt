@@ -1,0 +1,482 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ukorga
+|image            = [[File:Ukorga (npc).jpg|300px]]
+|caption          = A little drunk, but in a good mood.
+|zone             = Kur Mountains
+|town             = Northwestern Outpost
+|location         = [[Ukorga]]'s Inn
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = No
+|skilltrainer     = [[Leatherworking]], (ice) [[Fishing]]
+|vendor           = Yes
+|consignment = Yes
+|barter = Yes
+|storage = Yes
+}}
+{{Quote|
+Well, well, look what the snow blew in.
+}}
+[[Ukorga]] is a Rakshasa merchant found in the outpost in the Northwestern area of the Kur mountains. He offers [[Storage]] and [[Consignment]]. He buys valuable items such as weapons, shields and amulets. The nearby Teleportation Circle makes [[Ukorga]] a valuable merchant to invest in. He also trains ice fishing recipes.
+{{Quote|
+After Lem died, I just started wandering. Eventually here I am! Now I just make shoes and coats and things to keep busy. I used to be a leather-worker in Ral, but that place is just not the same anymore, not with Lem gone.
+}}
+{{Quote|
+This Inn was owned by a bitchy old elf woman, but on an impulse I bought it from her and kicked her out. Used up all my savings! And now I just let people crash here for free, mostly. I'm not really good at business.
+}}
+== Location ==
+; [[Kur Mountains]]
+: [[Northwestern Outpost]] Ukorga's Inn.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+: [[Ukorga]] offers [[Storage]] at {{Favor|Comfortable}}.
+: [[Ukorga]] offers [[Consignment]] at {{Favor|Friends}}.
+
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|{{repeatable}} Help butcher sheep for meals (3 hours)|
+{{Quote|We make quite a pair, you and I. You should come work for me. I'd pay you in meat. Like this! Think it over.}}
+* 27 favor with Ukorga
+* 300 Butchering XP
+* 1 Mutton
+}}
+{{Spoiler|{{repeatable}} Help shovel snow off the nearby road (4 hours) - Resets every ? (week maybe?)|
+{{Quote|Yep, that'll keep the road visible for another couple of days.}}
+* 35 favor with Ukorga
+}}
+{{Spoiler|{{repeatable}} Tan skins and discuss politics (4 hours) - Resets every week|
+{{Quote|And that's why it's unfair to make me pay taxes! Yes, the Council cleared this so-called 'road', but there's not been a guard through here in months! Oh here, thanks for the help! If you're still here in a week, come back and help again. I'd appreciate it!}}
+* 35 favor with Ukorga
+* 3 Decent Leather Rolls
+}}
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Carpentry]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Basic Campfire
+ |skilllevel=10
+ |cost=466
+ |favor=Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fishing]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Ice Fishing Gear (30m)
+ |skilllevel=18
+ |cost=1066
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Ice Fishing Gear (2h)
+ |skilllevel=25
+ |cost=1633
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Ice Fishing Gear (4h)
+ |skilllevel=35
+ |cost=2966
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Ice Fishing Gear (8h)
+ |skilllevel=45
+ |cost=4633
+ |favor=Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Leatherworking]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Decent Winter Boots (Enchanted)
+ |skilllevel=27
+ |cost=1700
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decent Winter Boots (Max-Enchanted)
+ |skilllevel=27
+ |cost=1700
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decent Winter Gloves (Enchanted)
+ |skilllevel=27
+ |cost=1700
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decent Winter Gloves (Max-Enchanted)
+ |skilllevel=27
+ |cost=1700
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decent Winter Pants (Enchanted)
+ |skilllevel=28
+ |cost=1733
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decent Winter Pants (Max-Enchanted)
+ |skilllevel=28
+ |cost=1733
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decent Winter Hood (Enchanted)
+ |skilllevel=29
+ |cost=1766
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decent Winter Hood (Max-Enchanted)
+ |skilllevel=29
+ |cost=1766
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decent Winter Coat (Enchanted)
+ |skilllevel=29
+ |cost=1766
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decent Winter Coat (Max-Enchanted)
+ |skilllevel=29
+ |cost=1766
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Nice Winter Boots (Enchanted)
+ |skilllevel=37
+ |cost=3033
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Winter Boots (Max-Enchanted)
+ |skilllevel=37
+ |cost=3033
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Winter Gloves (Enchanted)
+ |skilllevel=37
+ |cost=3033
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Winter Gloves (Max-Enchanted)
+ |skilllevel=37
+ |cost=3033
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Winter Pants (Enchanted)
+ |skilllevel=38
+ |cost=3066
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Winter Pants (Max-Enchanted)
+ |skilllevel=38
+ |cost=3066
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Winter Hood (Enchanted)
+ |skilllevel=39
+ |cost=3100
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Winter Hood (Max-Enchanted)
+ |skilllevel=39
+ |cost=3100
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Winter Coat (Enchanted)
+ |skilllevel=39
+ |cost=3100
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Winter Coat (Max-Enchanted)
+ |skilllevel=39
+ |cost=3100
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Quality Winter Boots (Enchanted)
+ |skilllevel=47
+ |cost=4700
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Winter Boots (Max-Enchanted)
+ |skilllevel=47
+ |cost=4700
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Winter Gloves (Enchanted)
+ |skilllevel=47
+ |cost=4700
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Winter Gloves (Max-Enchanted)
+ |skilllevel=47
+ |cost=4700
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Winter Pants (Enchanted)
+ |skilllevel=48
+ |cost=4733
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Winter Pants (Max-Enchanted)
+ |skilllevel=48
+ |cost=4733
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Winter Hood (Enchanted)
+ |skilllevel=49
+ |cost=4766
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Winter Hood (Max-Enchanted)
+ |skilllevel=49
+ |cost=4766
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Winter Coat (Enchanted)
+ |skilllevel=49
+ |cost=4766
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Winter Coat (Max-Enchanted)
+ |skilllevel=49
+ |cost=4766
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Winter Boots (Enchanted)
+ |skilllevel=57
+ |cost=7700
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Winter Boots (Max-Enchanted)
+ |skilllevel=57
+ |cost=7700
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Winter Gloves (Enchanted)
+ |skilllevel=57
+ |cost=7700
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Winter Gloves (Max-Enchanted)
+ |skilllevel=57
+ |cost=7700
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Winter Pants (Enchanted)
+ |skilllevel=58
+ |cost=7733
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Winter Pants (Max-Enchanted)
+ |skilllevel=58
+ |cost=7733
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Winter Hood (Enchanted)
+ |skilllevel=59
+ |cost=7766
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Winter Hood (Max-Enchanted)
+ |skilllevel=59
+ |cost=7766
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Winter Coat (Enchanted)
+ |skilllevel=59
+ |cost=7766
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Winter Coat (Max-Enchanted)
+ |skilllevel=59
+ |cost=7766
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Winter Boots (Enchanted)
+ |skilllevel=67
+ |cost=11366
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Winter Boots (Max-Enchanted)
+ |skilllevel=67
+ |cost=11366
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Winter Gloves (Enchanted)
+ |skilllevel=67
+ |cost=11366
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Winter Gloves (Max-Enchanted)
+ |skilllevel=67
+ |cost=11366
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Winter Pants (Enchanted)
+ |skilllevel=68
+ |cost=11400
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Winter Pants (Max-Enchanted)
+ |skilllevel=68
+ |cost=11400
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Winter Hood (Enchanted)
+ |skilllevel=69
+ |cost=11433
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Winter Hood (Max-Enchanted)
+ |skilllevel=69
+ |cost=11433
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Winter Coat (Enchanted)
+ |skilllevel=69
+ |cost=11433
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Amazing Winter Coat (Max-Enchanted)
+ |skilllevel=69
+ |cost=11433
+ |favor=Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Tanning]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Rawhide Liner
+ |skilllevel=30
+ |cost=1800
+ |favor=Friends
+}}
+|}
+
+== Quests ==
+<dpl>
+category = Quests/Ukorga
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Services ==
+==== Consignment ====
+; Ukorga offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 20% plus 200 Councils, stocking fee of 100 Councils.
+: Max 3 active consignments (Equipment).
+: Max 3 consignments per week.
+
+==== Bartering ====
+Ukorga will barter a crossbow as well as various winter gear (Level 45 {{ItemRarity|Rare}} Equipment), in exchange for the player's choice of [[Tuft of Fur|Tufts of Fur]], [[Winterhue Seeds]], or [[Silver Ore]].
+{| class="wikitable mw-collapsible mw-collapsed"
+!Give
+!Receive 
+|-
+| rowspan = "6" style="text-align: center;" | {{Item|Tuft of Fur}} x3<br>OR<br>{{Item|Winterhue Seeds}} x3<br>OR<br>{{Item|Silver Ore}} x3 || {{Item|Insulated Coat}}
+|-
+| {{Item|Insulated Pants}}
+|-
+| {{Item|Insulated Gloves}}
+|-
+| {{Item|Insulated Hood}}
+|-
+| {{Item|Insulated Boots}}
+|-
+|  {{Item|Stock Crossbow}}
+|}
+
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Ukorga
+|favorrestriction =Comfortable
+|itemrestriction =Anything
+|neutral =0
+|comfortable =16
+|friends =24
+|closefriends =32
+|bestfriends =40
+|likefamily =46
+|soulmates =56
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Nice Winter Coat}} (Lv 40), {{Item|Nice Winter Leggings}} (Lv 40)
+|RiShin Family = {{Item|Nice Winter Coat}} (Lv 40), {{Item|Nice Winter Leggings}} (Lv 40)
+}}
+== Conversations ==
+
+[[Category:NPCs]]

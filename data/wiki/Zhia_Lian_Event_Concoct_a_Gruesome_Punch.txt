@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> You should understand your enemy better. I think you should drink from the foul undead concoction known as the Gruesome Spooky Punch. Normally only an alchemist could make the stuff, but if you collect the ingredients, I'll mix you up a batch... plus you'll get the recipe, so you can make more later.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> You should understand your enemy better. I think you should drink from the foul undead concoction known as the Gruesome Spooky Punch. Normally only an alchemist could make the stuff, but if you collect the ingredients, I'll mix you up a batch... plus you'll get the recipe, so you can make more later.
+
+===Requirements===
+* Obtain a zombified hand
+* Obtain cat eyeballs x4
+* Obtain a brain
+* Obtain sugar
+* Obtain a bottle of milk
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Good work! Here's the punch, plus the recipe. Drink up!}}
+* Recipe: Gruesome Spooky Punch
+* 100 councils
+* {{Item|Gruesome Spooky Punch}}
+* {{Item|Empty Bottle}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

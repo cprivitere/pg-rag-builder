@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Gorvessa is trying to create panther-themed lingerie and needs a Trophy Panther Skin. Or at least she thinks she does.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gorvessa]]''' in '''[[Hogan's Basement]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Sex with Malvol is getting old. And that's bad! It's my job to keep it interesting. But I'm really a shield-basher at heart. I'm no good at this.
+
+I have an idea! I could make a sexy panther suit and pretend to hunt him. Hmm he may like that. But I'd need an extremely good panther skin.}}
+
+===Requirements===
+* Obtain a {{Item|Trophy Panther Skin}}
+* Talk to Gorvessa
+
+===Rewards===
+{{Spoiler|Rewards for The Sexy Panther|
+{{Quote|Wow, this is larger than I expected! Thank you. Here, you can keep this skin -- it was my first idea, but turns out it's not sexy at all.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Trophy Rat Skin}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Gorvessa]]

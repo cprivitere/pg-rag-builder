@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+[[Floxie]] in the [[Fae Realm]] said, "[[Pegast]] will not relent! He wants me to hop to the next mushroom circle and take out the winter court there. But I can't bring myself to do it! Could you ... do it for me? Just a few kills should be enough to get him out of my nest for a bit."
+
+===Prerequisites===
+To start this quest, talk to '''[[Floxie]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Friends}} favor. (Requires 25 [[Fae (Race_Skill)]] as a Fae)
+
+===Preface===
+[[Pegast]] will not relent! He wants me to hop to the next mushroom circle and take out the winter court there. But I can't bring myself to do it! Could you ... do it for me? Just a few kills should be enough to get him out of my nest for a bit.
+
+===Requirements===
+* Kill [[Winter Court Fae]] x10
+* Talk to Floxie
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Oh thank you so much! Did you have to travel far from the circle?
+
+Oh... you do know how to hop mushroom circles, right? No? Let me show you! It's really very simple teleportation magic. I'm sorry, I should have checked before you went all that way.}}
+* 150 {{Favor|favor}}
+* Recipe: Mushroom-Circle Hop
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Floxie]]

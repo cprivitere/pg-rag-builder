@@ -1,0 +1,16 @@
+__NOTOC__
+==Activity Quest==
+[[Crazed Animals Subdued]] is a group of [[Activity Quests]] which do not appear in the quest log. These four almost identical quests share the name of '''Crazed Animals Subdued''' with the only noticeable difference being a change in their InternalName (Vidaria_CrazedAnimals1, Vidaria_CrazedAnimals2, Vidaria_CrazedAnimals3, Vidaria_CrazedAnimals4). They have identical rewards.
+
+===Prerequisites===
+This [[Activity Quests|Activity Quest]] is automatically completed when an infected-beast-related Ecological Disaster is prevented.
+===Rewards===
+{{Spoiler|Rewards for Crazed Animals Subdued|
+{{Quote|
+You put down some of the infected beasts, and ran the others off!}}
+* 10 [[Vidaria Renown]].
+* 1 point for Serbule Community Chest.
+* Level 90 or 95 Jewelry item.
+}}
+
+[[Category:Quests]][[Category:Quests/Activity Quests]]

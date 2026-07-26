@@ -1,0 +1,4 @@
+==June 8 Note==
+The new sub-servers are running hot and CPU bottlenecking, which causes cascades of problems. I added some more processing power to give them breathing room, so things should be back to normal. There will be a new update tonight that will give me more debugging information.
+
+[[Category:Game updates]]

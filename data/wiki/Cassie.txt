@@ -1,0 +1,69 @@
+__NOTOC__
+{{NPC infobox
+|title =Cassie
+|caption =...
+|zone =Kur Mountains
+|town = Sacred Grotto
+|location = Near the campfire.
+|anatomy = Canine
+|species = Fox
+|beastspeak = Yes
+|beastlist = All
+|skilltrainer =
+|vendor =
+}}
+Cassie is a fox found in the [[Sacred Grotto]].
+== Location ==
+; [[Sacred Grotto]]
+: Found near the campfire.
+== Favor ==
+[[Cassie]] is initially untrusting of other animals. Every 24 hours, speaking to [[Cassie]] will result in +10 favor. Another way to gain favor with Cassie is to leave quantities raw meat in the Warden storage chest, which she and the other foxes and [[Pickles]] will eat at random intervals, leaving gnawed bone piles behind. If she consumes your meat, you will see a favor increase next time you speak with her and she'll thank you for leaving it for her. The foxes and Pickles generally prefer quality meats over cheap.
+
+[[Cassie]] appears to prefer venison above all other meats. Note that it is not possible to gift meat directly to [[Cassie]] or [[Rubi]].
+
+Speaking to [[Cassie]] as a [[Lycanthropy|Lycanthrope]] will result in -100 favor.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Dead Vole}}
+|RiShin Family = {{Item|Dead Vole}} and {{Item|Foxtail Ring of Pouncing}}
+}}
+== Conversations ==
+These quotes appear in a random order and repeat.  
+{{Quote|
+:Barnaby says we can't fight  the werewolves head on because there's too many of them and the god Norala is helping to make more and more. He says even if a Warden can take on 10 werewolves, there's still 11 werewolves for each Warden. But if I was a Warden I think I could fight 11 werewolves. 
+:'''That's interesting! Tell me more.'''
+:Do you know Red? He's a fox and he used to be a Warden. He resigned after the Sacred Grove Massacre. He said he resigned because he didn't deserve to be a Warden anymore. But I say it's because his whole family died in the Massacre and he feels sad. I'm pretty sure I'm right, because my mom died in the Massacre and I feel sad too. But he has a new girlfriend now!
+:'''That's interesting! Tell me more.'''
+:We also have a brother, but he's not smart. He used to live here with us, but now he lives outside. He just seems to like it better out there. 
+:'''That's interesting! Tell me more.'''
+:Milton says Wardens used to talk in Orcish hundreds of years ago, but then mages started Awakening familiars and teaching them Human, so Wardens started talking in Human so we could be friends. 
+:
+:Wait... I learned Human when I drank from the spring. How did the spring know what language to teach me? 
+:'''That's interesting! Tell me more.'''
+:I want to be a Warden to avenge my mom, and Mr. Slither says that's fine, but Barnaby says vengeance is bad. Milton says I'd have my chance for justice as long as I do it by the book. But I don't know how to read yet!
+:'''That's interesting! Tell me more.'''
+:Our mom was a Warden but she's dead now. We don't know who our dad is. Barnaby says our mom knew who our dad was but didn't tell anybody in the Wardens. But why not? Mr. Slither says it was because our mom was ashamed of our dad. But Barnaby says that's stuff-and-nonsense. 
+:'''That's interesting! Tell me more.'''
+:I know an Awakened fox! Her name is Mittens. She's VERY smart but she doesn't want to be a Warden. She says the only thing she's willing to die for now is Red. Red is a boy fox! 
+:'''That's interesting! Tell me more.'''
+:I'm a good hunter. I can catch field mice and voles and rats and snakes. But we have to study sooooo long every day that I can't always hunt enough. There's Warden food to eat here, but it's not as fun as hunting your own food. 
+:'''That's interesting! Tell me more.'''
+:I know why the sky is blue, it's blue because all air is blue, it's just so faded that you can't tell unless there's a whole lot of it. Like in the sky.
+:'''That's interesting! Tell me more.'''
+:Milton says the magic spring was enchanted a thousand years ago. That's... I can't even count how many fox-lifetimes that is!
+:'''That's interesting! Tell me more.'''
+:I want to be a Warden so I can avenge my mom. Sometimes I sneak out at night and I look for werewolves. And I think about what I'll do if I see him again. The one that killed my mom.
+:'''That's interesting! Tell me more.'''
+:I saw a ghost drinking from the sacred spring! Sugar says I'm a liar because she didn't let any ghosts inside, but Milton believes me! He says it's the ghost of an important Warden from ages past and only very special animals can see him. But Barnaby says that's stuff-and-nonsense. 
+:'''That's interesting! Tell me more.'''
+:Barnaby says the old Warden base was better than this. He says it was less drafty, and it didn't have young mothers trotting through at all hours of the day and night in order to anoint their children with the sacred gift of knowledge without a shred of reverence or ceremony or appreciation for what Wardens have had to do to safeguard it. What does 'anoint' mean?
+:'''That's interesting! Tell me more.'''
+:Barnaby says we can't become Wardens yet because we're too young and our hearts are filled with vengeance. But they're not, they're just full of blood. He said that because he used a metaphor.
+:'''That's interesting! Tell me more.'''
+}}
+[[Category:NPCs]]

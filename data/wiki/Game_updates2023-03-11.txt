@@ -1,0 +1,118 @@
+==Update Notes: March 11, 2023==
+This minor update fixes bugs and refines the new systems from last week's update. We'd also like to use these patch notes to give extra behind-the-scenes info for long time players about why the recent gameplay changes are happening, and where we're headed. 
+
+You can skip all the "Background Info" sections if you just want to read about the changes in this update!
+
+===XP Changes:===
+====Background Info: Goals of the XP Changes====
+The recent XP changes had two different goals. The first goal is to prevent players from staying in the same hunting area for too long. Previously, since XP amounts was relatively flat across levels, players could stay in one spot (such as the goblin dungeon in Eltibule) for many, many levels because it was easy and effective. This left players weak because they were only finding level 30 equipment all that time. And farming the same dungeon for 30 levels is boring game design.
+
+The other goal is to require players to <i>actually use a skill</i> to level it. Previously, experienced players would level one pair of combat skills to 80, and then they could level literally ALL other combat skills in a fraction of the time it was supposed to take. They just paired a new level 1 skill with one of their level 80 skills. They never needed to find gear for those lower levels, or visit lower-level dungeons at all. That's awful game design because it obsoletes almost all of the game's content.
+
+Ideally, if a level 80 player switched to using two new level 1 combat skills, they'd effectively be a combat newbie -- aside from the cheaty powers on their sidebar. Thus they would need to return to Serbule or somewhere similar to level up a bit, then head to appropriate level 20 areas, then 30, then 40, etc. That's our eventual goal after more iterations. It doesn't really work yet because not everything scales yet. For instance, Max Armor doesn't scale yet, so your gear still gives you all the armor of a level 80 player even if your combat skills are level 1. Finding good solutions to all these scaling issues will take time.
+
+====Background Info: Leveling Speed====
+The intent with the last update was to keep the relative XP value of monsters the same, so that a level N player killing a level N monster would give the same relative advancement as it did before the update. However, there were many bugs (and "surprise game-system interactions") which made that not work. We've fixed those issues, but we've also abandoned that goal! After reviewing the old XP curve more carefully, it had problems that made leveling happen too fast.
+
+Even though there have been a lot of fixes in this update, leveling should feel somewhat slower than before. Leveling needed to slow down so that players are more likely to find level-appropriate gear before they level up too far.
+
+Now that we've fixed a bunch of bugs, we'd like more feedback on how the curve works! We'll keep refining things as needed.
+
+====In this update: Revised XP Dropoff Rate (When Killing Higher-Level Monsters)====
+In the last big update, we added a new rule that if you kill monsters higher than your level, you get reduced XP. In this update, we've refined the rates at which XP drops off.
+
+In the last update, if you killed a monster 5 levels above you (or less), you got 100% of the XP. This was a big problem because monster XP rates now increase VERY dramatically: about 10% per monster level! An average level 50 monster is worth 1373 XP, while a level 55 monster is worth 2249 XP. By killing monsters exactly 5 levels above their level, players could advance at almost double speed.
+
+On the other hand, after 10 levels, the old curve dropped off very quickly, such that you got essentially 0 XP for monsters more than 15 levels above you. This seemed a bit too punitive, at least given the current content landscape. 
+
+Now, the XP dropoff is 10% per level, which approximates the 10% monster XP increase per level. So no matter what level you are, you get about the same amount of XP for that higher-level monster, up to 25 levels above it. Here are some examples:
+
+Suppose you are level 49 and are fighting a level 50 monster worth 1373 XP. Since the monster is 1 level higher than you, the penalty would be 10%, and you would receive 1236 XP. (This is approximately how much a level 49 monster would be worth.)
+
+Suppose you're level 45 and are fighting that level 50 monster worth 1373 XP. Since the monster is 5 levels higher than you, the penalty would be 10%, then 10% of THAT value, then 10% of THAT value, then 10% of that value, then 10% of that value. The level 50 monster worth 1373 XP becomes 811 XP when killed by a level 45 player. (A typical level 45 monster would be worth 861 XP, so you can see the math isn't perfect, but it stays in the same ballpark.)
+
+Now we'll go to the extreme end: suppose you're level 45 and you've managed to solo a level 70 monster worth 12,498 XP. Since you are 25 levels below the monster, we apply the 10% penalty 25 times, and the level 70 monster ends up being worth 897 XP when killed by a level 45 player. (The final cutoff is still 25 levels -- if the monster had been level 71 instead of level 70, you would receive 0 XP because it's more than 25 levels above you.)
+
+This revision means that you can hunt in places up to 25 levels above you and get appropriate XP, without giving overmuch XP to players who can kill those higher-level monsters (such a by being in a group with higher-level players).
+
+These XP curves and ideas are still in heavy development, so expect more changes as we refine our goals and implementation.
+
+PS - remember that monster XP is split between your two active combat skills! Half of the XP goes into each skill, and the penalty is calculated per-skill. So if you kill a a level 50 monster worth 1000 XP, half of that 1000 is given to your first active combat skill (and possibly reduced as explained above, if that skill is higher than the monster's level). The other half is given to your other active combat skill (and is reduced if it's higher).
+
+===Background Info: Max-Enchanted Change===
+I (Citan, head dev) want to apologize to the long-time players who have max-enchanted legendaries. This is definitely a nerf, and it's intentional, because I can't balance the game when the power disparity is as large as it is at high levels. Mod potency is multiplicative, and those 9 extra mods really are a big deal in terms of overall power scaling. (Even when treasure mods aren't <i>literally</i> multiplicative they still have a pseudo-multiplicative effect on your character's potency -- for instance, by making characters much more versatile than they should be.)
+
+We made this change now, months BEFORE launching new levels, because the expectation is that you will need new gear at higher level. We're not marking those items as Legacy yet because we don't need to do that yet -- you can keep using them for now and we'll mark them as Legacy before we raise the level cap. The change was made now to give you time to prepare for the change, and to stop crafters from making more gear that would ultimately get nerfed.
+
+To answer questions that players have asked:
+:- We'll provide a way to pick one mod to remove from you max-enchanted legendaries, making them non-Legacy so you can keep using them.
+:- Mega-raffle gear that's max-enchanted legendary will be treated like other max-enchanted legendaries.
+:- We're not going to "grandfather" existing level 80 max-enchanted legacies. In many cases, that one extra treasure mod on a level 80 item makes it better than a level 100 item with one fewer mod. That would mean players with these grandfathered items don't need to replace them until we launch level 100+ content! That is problematic for balancing in many ways.
+
+====Background Info: Crafting vs. Looting====
+The old max-enchanting system existed for too long, and we should have changed it long ago. I'm sorry about that. I don't apologize for most nerfs -- this is beta, and there will be lots more nerfs -- but I apologize for this being such a surprise. The old max-enchanting system made it seem like we wanted crafted gear to always be better than looted gear. But that is definitely not the case.
+
+I want crafted gear to be the best choice for some builds, but looted gear should be the best choice for at least half of the game's builds. I want Project: Gorgon to have exciting loot! I want to find a legendary item in a high level dungeon and be super excited. I do not want to be in a high-level dungeon only to farm "mats" (materials) so that a crafter can craft my gear at some future date. I know some games do that, but It's not what I want for my game.
+
+However, I do expect crafting to play a big role in max-level play. (And yes, farming mats to play a role as well.)
+
+The existing armor-crafting recipes are mainly there to help you level and create something useful. (And in some cases, to create the best possible gear for certain builds.) At max level, these skills will also offer repeatable buff recipes -- e.g. armorsmiths can "reinforce" a piece of armor for a time, giving it a buff. Weapon crafters can "sharpen" the weapons, etc. This will give max-level players a repeating reason to visit crafters (or be one themselves). The potency of these buffs will be similar to a "generic" treasure mod, but it will wear off after enough use. The intent is for those buffs to last for quite a while, but eventually to need reapplying.
+
+It doesn't really make sense to implement these buffs until we've implemented level 100+ content. But that's where we're headed.
+
+===Weather Witching Fixes===
+:- [[Weather Witching]] + [[Warden]] equipment is now a valid combination that can be found in loot and treasure. (Although note that only butterflies can use such equipment!)
+:- The following Weather Witching treasure buffs were bugged such that they disappeared as soon as you used an ability:
+:: - "While Wind Ward is active, you gain +N% Melee Evasion"
+::- "While Wind Ward is active, you gain +N% Burst Evasion"
+:- The following Weather Witching treasure debuffs were similarly bugged, and disappeared as soon as the monster used an ability:
+::- "Dampen deals Cold damage and debuffs the target so that it takes +N damage from future Cold attacks for 10 seconds"
+::- "Dampen debuffs the target so that it takes +N damage from future Nature attacks for 10 seconds"
+::- "Deluge deals +N damage on contact and increases the target's Poison Vulnerability +15% for 30 seconds (non-stacking)"
+::- "Deluge deals an additional N nature damage over 7 seconds.\nFor 7 seconds, target has a 15% chance to Miss with any Melee attack."
+:- The following abilities can now be used underwater or in shallow water: Dampen, Deluge, Tsunami, and Hailstorm.
+:- Hailstorm is now a Signature Debuff ability.
+:- The effect "Summoned Tornadoes move much faster and their attacks deal +N% damage": tornado speed is buffed +6 instead of +9.
+:- The effect "Summoned Tornado attacks deal +N damage and cause the target to take 15% more damage from Electricity for 10 seconds (non-stacking)": this debuff was stacking incorrectly. Is now non-stacking as intended.
+:- The treasure mod "Shocking Grasp Damage +N. Every other use has a 25% chance to stun the target" will no longer generate extraneous error messages.
+:- Corrected recipe text for level 80 Weather Witching research: there are four level 80 spells, not five.
+===UI and Graphics Fixes===
+- Nameplates of entities that update (such as growing garden plants) will no longer get stuck on the screen.
+:- When the thing you have selected updates, the button will update too when applicable (such as trees/bushes running out of fruit).
+:- Nameplates no longer get in the way of dragging to move the camera.
+:- Fixed selection problems with the following: Beer Barrels, some Chests, Writing Benches, Firefly Boxes, Zombie Hands, Urns, & Jack-o-Lantern turrets.
+:- The Animal Town transfer chest, grapevines in Serbule Hills, and the New Prestonbule portcullis are selectable with the new UI.
+:- Fixed mouse-cursor-changing logic so the mouse should no longer disappear.
+:- The escape key no longer sends chat messages.
+:- When the party leader changes, the new leader's party frame will jump to the top of the list.
+:- New UI now respects the "Use Floaty Numbers" and "Auto-Move to Interactors" settings.
+:- Modified the logic of looping animations. This should fix bugs where the character gets stuck in an infinite looping animation.
+:- Added missing water bubble icon. This affected multiple items, including Kraken Potions and Water-Breathing Potions.
+:- Grass Draw Distance setting is now properly clamped between 50 and 500.
+:- Fixed visibility of some graphics dropdowns.
+:- Ability tooltips now use proper number formatting for any "special" numbers, such as Cur Tempest Energy or the amount that Blast of Defiance Reaps.
+:- Fixed the Damage Over Time calculation in ability tooltips, so it now matches the actual damage done.
+:- Portrait combat numbers will no longer get stuck when zoning.
+:- Effect stack text now scales with effect icon size.
+:- Fixed bug causing text overflow for some ability tooltips.
+:- Changed color of highlight around items that are usable in the current-selected recipe to orange.
+
+===Other Fixes===
+:- Fixed bug that broke storage switching if certain crafting recipes were open.
+:- Fixed bug preventing "That'll Do" from activating properly, leaving the character in a weird, very slow condition.
+:- Fixed bug that caused alcohol toxins to not wear off if you moved to a different area or logged out drunk.
+:- Fixed more logic bugs that could cause a piece of equipment's instant effects to be re-applied at inappropriate times. (a/k/a "Sometimes when my instrument is equipped, my skill bar changes to Performance".)
+:- Fixed a bug that was causing armor set buffs to wear off when zoning.
+:- Illusive Guise and Insidious Illusion sidebar abilities don't need to be kept on the sidebar to maintain the buffs.
+:- Fixed a bug that caused [[Fairy Magic]] abilities to bypass the 25-level skill disparity cap.
+:- Fixed a bug that caused [[Crossbow]] and [[Endurance]] sidebar abilities to bypass the 25-level skill disparity cap. For now, the other sidebar abilities (such as Stake the Heart and Spade Assault) are usable regardless of combat level disparity. We'll revisit this after a while to see if it's a good idea.
+:- Comfortable Bed in [[Serbule]] and Rustic Bedroll in [[Serbule Hills]] are now slept in properly. In addition, the Rustic Bedroll no longer shoots the camera through the ground.
+:- Adjusted the colliders on humanoids. This might help prevent [[Velkort]] from getting stuck on his flame buddy.
+:- Foxes won't get stuck in certain areas as easily anymore.
+:- [[Sir Arif]] now lets animals turn in delivery quests to him.
+:- [[Endurance]] previously used a placeholder XP table. It now uses an XP table tailored to modern monster damage output. This makes it dramatically easier to level Endurance compared to a few patches ago.
+:- Repeatable kill-quests that reward Combat XP now scale the same way monsters do. In other words, completing a level 80 kill quest now scales down the XP reward if you're lower than level 80, the same way higher-level monster XP is scaled
+:- Fixed some monster-pets (monsters spawned by other monsters) that were worth XP.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

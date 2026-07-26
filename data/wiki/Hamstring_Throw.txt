@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Hamstring Throw
+| description = A thrown blade to the leg that can ruin an enemy's mobility. Consumes 1 Simple Throwing Knife.
+| level = 4
+| power cost = 13
+| reuse time = 15
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|HamstringThrow}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}{{KWAB|SignatureDebuff}}
+| damage = 15 Piercing
+| special = Target's movement speeds are reduced by 90% for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Hamstring Throw 2
+| description = A thrown blade to the leg that can ruin an enemy's mobility. Consumes 1 Basic Throwing Knife.
+| level = 14
+| power cost = 17
+| reuse time = 15
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|HamstringThrow}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}{{KWAB|SignatureDebuff}}
+| damage = 33 Piercing
+| special = Target's movement speeds are reduced by 90% for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Hamstring Throw 3
+| description = A thrown blade to the leg that can ruin an enemy's mobility. Consumes 1 Good Throwing Knife.
+| level = 24
+| power cost = 22
+| reuse time = 15
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|HamstringThrow}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}{{KWAB|SignatureDebuff}}
+| damage = 55 Piercing
+| special = Target's movement speeds are reduced by 90% for 8 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Hamstring Throw 4
+| description = A thrown blade to the leg that can ruin an enemy's mobility. Consumes 1 Expert's Throwing Knife.
+| level = 34
+| power cost = 27
+| reuse time = 15
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|HamstringThrow}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}{{KWAB|SignatureDebuff}}
+| damage = 84 Piercing
+| special = Target's movement speeds are reduced by 90% for 8 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Hamstring Throw 5
+| description = A thrown blade to the leg that can ruin an enemy's mobility. Consumes 1 Master's Throwing Knife.
+| level = 44
+| power cost = 30
+| reuse time = 15
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|HamstringThrow}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}{{KWAB|SignatureDebuff}}
+| damage = 130 Piercing
+| special = Target's movement speeds are reduced by 90% for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Hamstring Throw 6
+| description = A thrown blade to the leg that can ruin an enemy's mobility. Consumes 1 Amazing Throwing Knife.
+| level = 54
+| power cost = 34
+| reuse time = 15
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|HamstringThrow}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}{{KWAB|SignatureDebuff}}
+| damage = 193 Piercing
+| special = Target's movement speeds are reduced by 90% for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Hamstring Throw 7
+| description = A thrown blade to the leg that can ruin an enemy's mobility. Consumes 1 Astounding Throwing Knife.
+| level = 64
+| power cost = 38
+| reuse time = 15
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|HamstringThrow}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}{{KWAB|SignatureDebuff}}
+| damage = 255 Piercing
+| special = Target's movement speeds are reduced by 90% for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Hamstring Throw 8
+| description = A thrown blade to the leg that can ruin an enemy's mobility. Consumes 1 Astounding Throwing Knife.
+| level = 74
+| power cost = 42
+| reuse time = 15
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|HamstringThrow}}{{KWAB|Ranged}}{{KWAB|KnifeNonCut}}{{KWAB|SignatureDebuff}}
+| damage = 323 Piercing
+| special = Target's movement speeds are reduced by 90% for 10 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

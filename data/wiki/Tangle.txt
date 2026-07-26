@@ -1,0 +1,200 @@
+__NOTOC__
+{{NPC infobox
+|title            = Tangle
+|image            = [[File:Tangle.png|303px]]
+|caption          = A sneaky-looking fox
+|zone = Kur Mountains
+|town = Sacred Grotto
+|location         = Found near the campfire
+|anatomy = Canine
+|species = Fox
+|beastspeak       = Yes
+|beastlist = All, but he finds wolves scary
+|skilltrainer     = [[Warden]]
+}}<!--
+{{Quote|
+
+}} -->
+[[Tangle]] is a Fox found inside the [[Sacred Grotto]] Warden base in the [[Kur Mountains]].
+
+==Location==
+[[Tangle]] is located in the [[Sacred Grotto]] next to [[Milton]] and across from [[Rubi]], [[Cassie]], and [[Barnaby]].
+
+==Favor==
+[[Tangle]] will accept any kind of fruit or meat as a gift for favor, but he really loves [[Great Rabbit Meat]] best of all. It should be noted that if you leave meat of any kind in the Warden storage chest, [[Tangle]] may eat some of it at random intervals, leaving behind gnawed bones. When you next speak with him, you'll be awarded any pending favor and he'll let you know he took care of the meat before [[Milton]] noticed the contraband in the box.
+
+He is not fond of Lycans, however and although you can interact with him as a wolf, you will lose some favor when doing so.
+
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+{{Spoiler|{{Favor|Comfortable}}|+2 Warden Points, +3 Warden Storage Slots}}
+{{Spoiler|{{Favor|Friends}}|+4 Warden Points, +3 Warden Storage Slots}}
+{{Spoiler|{{Favor|Close Friends}}|+6 Warden Points, +3 Warden Storage Slot}}
+{{Spoiler|{{Favor|Best Friends}}|+8 Warden Points, +3 Warden Storage Slots}}
+{{Spoiler|{{Favor|Like Family}}|
++10 Warden Points, +3 Warden Storage Slots
+}}
+
+== Quests ==
+[[Tangle]] offers quests to [[Warden]]s inside the [[Sacred Grotto]].
+<dpl>
+category = Quests/Tangle
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Warden]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ |ability= Stun Trap
+ |skilllevel= 38
+ |cost= 7 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Stun Trap 2
+ |skilllevel= 48
+ |cost= 9 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Stun Trap 3
+ |skilllevel= 58
+ |cost= 11 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Stun Trap 4
+ |skilllevel= 68
+ |cost= 12 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Stun Trap 5
+ |skilllevel= 78
+ |cost= 15 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Pursuit Mode
+ |skilllevel= 40
+ |cost= 9 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Pursuit Mode 2
+ |skilllevel= 60
+ |cost= 13 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Pursuit Mode 3
+ |skilllevel= 80
+ |cost= 17 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Privacy Field
+ |skilllevel= 34
+ |cost= 5 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Privacy Field 2
+ |skilllevel= 44
+ |cost= 7 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Privacy Field 3
+ |skilllevel= 54
+ |cost= 9 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Privacy Field 4
+ |skilllevel= 64
+ |cost= 11 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Privacy Field 5
+ |skilllevel= 74
+ |cost= 12 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Coordinated Assault
+ |skilllevel= 35
+ |cost= 7 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Coordinated Assault 2
+ |skilllevel= 50
+ |cost= 10 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Coordinated Assault 3
+ |skilllevel= 66
+ |cost= 13 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Coordinated Assault 4
+ |skilllevel= 80
+ |cost= 17 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Aggression Deterrent
+ |skilllevel= 37
+ |cost= 5 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Aggression Deterrent 2
+ |skilllevel= 47
+ |cost= 7 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Aggression Deterrent 3
+ |skilllevel= 57
+ |cost= 9 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Aggression Deterrent 4
+ |skilllevel= 67
+ |cost= 11 warden points, 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability= Aggression Deterrent 5
+ |skilllevel= 77
+ |cost= 12 warden points, 0
+ |favor= ?
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Somewhat-Gigantic Coin Sack}} x5
+|RiShin Family = {{Item|Somewhat-Gigantic Coin Sack}} x10
+}}
+== Conversations ==
+
+[[Category:NPCs]]

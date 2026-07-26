@@ -1,0 +1,50 @@
+__NOTOC__
+{{Skill infobox
+|title            = Giant Anatomy
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the physiology of giant-kin such as yetis and ogres.
+|skilltype        = Anatomy Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy<!-- Any other skills needed to gain this skill -->
+|skilltrainers    = None
+}}
+{{Quote|source=Source|
+Needs a quote
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Giant Anatomy''' is a sub-skill of [[Anatomy]] that explores the physiology of giant-kin such as yetis and ogres.
+=== In-Game Description ===
+Knowledge of the physiology of giant-kin such as yetis and ogres.
+==Known Creatures==
+
+===Friends===
+<dpl>
+ category = Giant&NPCs
+</dpl>
+
+===Bosses===
+<dpl>
+ category = Giant&Bosses
+ notcategory = NPCs
+</dpl>
+
+===Foes===
+<!-- the DPL lists creatures which already have a page and are categorized. -->
+<dpl>
+ category    = Giant
+ notcategory = Bosses
+ notcategory = NPCs
+</dpl>
+<!-- here we can manually add any creatures to keep track of missing/todo pages -->
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Maximum Level to Earn XP by Foe ===
+If the player exceeds this Level of {{msg:BASEPAGENAME}}, the foe in question will stop rewarding XP in {{msg:BASEPAGENAME}}.  This list is a work in progress.
+* [[Troll]] ([[Sun Vale]]): 35
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+[[Category:Skills]][[Category:Anatomy Skills]]

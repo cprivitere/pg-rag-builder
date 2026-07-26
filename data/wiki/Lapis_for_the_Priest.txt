@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+[[Gloria Stonecurl]] in [[Kur Mountains]] said, "I'd like to engrave a blessing of safety into the door of [[Ukorga]]'s inn. It'll act as a protective charm. But I need some special items to do it! First, I need lapis gems. They're the favorite gem of [[Arisetsu]]. Can you find me some?
+
+===Prerequisites===
+To start this quest, talk to [[Gloria Stonecurl]] in [[Kur Mountains]].  The quest is available at {{Favor|Neutral}} favor.
+===Preface===
+<!-- This text is what the quest giver says in the dialog window when they give the quest.  Place that text in the quote. For a series of dialog, add lines for the text the quest giver says, and use '''bold''' lines for the player responses. -->
+{{Quote|
+I'd like to engrave a blessing of safety into the door of Ukorga's inn. It'll act as a protective charm. But I need some special items to do it! First, I need lapis gems. They're the favorite gem of Arisetsu. Can you find me some?
+}}
+
+===Requirements===
+* Obtain {{Item|Lapis Lazuli}} x3
+* Talk to [[Gloria Stonecurl]].
+
+===Rewards===
+{{Spoiler|Rewards for Lapis for the Priest|
+{{Quote|
+Thank you! Now if I can get the right ink, I can perform the inscription. Oh here, do you want this? It's the best ink Ukorga had on hand. But it's not good enough for a blessing!
+}}
+: {{Item|Advanced Ink}} x5
+: 100 favor with [[Gloria Stonecurl]]
+}}
+
+[[Category:Quests]][[Category:Quests/Gloria Stonecurl]][[Category:Quests/Kur Mountains Quests]]

@@ -1,0 +1,151 @@
+__NOTOC__
+{{Skill infobox
+|title            = Weather Witching
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = A rigorous magical discipline focusing on manipulating and engaging with the environment around you. Elves are the undisputed experts of the field, which causes some races to view it negatively. It is also sometimes mistaken for (illegal) Chaos Magic due to its chaotic and dangerous nature.
+|skilltype        = Combat Skill
+|maxlevel         = 90
+|req              = {{Favor|Tolerated}} favor with [[Trasen]]
+|skilltrainers    = [[Trasen]], [[Merriana]], [[Felmer]]
+|gem = {{Item|Bloodstone}}
+}}
+{{Quote|
+A rigorous magical discipline focusing on manipulating and engaging with the environment around you. Elves are the undisputed experts of the field, which causes some races to view it negatively. It is also sometimes mistaken for (illegal) Chaos Magic due to its chaotic and dangerous nature.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Weather Witching]] is...
+=== In-Game Description ===
+A rigorous magical discipline focusing on manipulating and engaging with the environment around you. Elves are the undisputed experts of the field, which causes some races to view it negatively. It is also sometimes mistaken for (illegal) Chaos Magic due to its chaotic and dangerous nature.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Trasen]] in [[Serbule Hills]] teaches [[Weather Witching]].
+* [[Merriana]] in [[Serbule Hills]] unlocks the level cap from 51-60 and from 61-70.
+* [[Felmer]] in the [[Fae Realm]] unlocks the level cap from 71-80.
+* Levels 81-90 are unlocked by [[Reinath]] deep beneath [[Povus]].
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* ???
+===== Related Skills: =====
+* ???
+===== Compatible Combat Skills =====
+* [[Fire Magic]], [[Staff]], [[Druid]], [[Ice Magic]], [[Knife]], [[Archery]], [[Shield]], [[Bard]], [[Unarmed]], [[Psychology]], [[Animal Handling]], [[Battle Chemistry]], [[Necromancy]], [[Mentalism]], [[Fairy Magic]], [[Priest]].
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Weather Witching]] can be obtained from the following skills and levels:
+:; [[Battle Chemistry]]
+:: Level 60
+:; [[Druid]]
+:: Level 40, Level 70
+:; [[Elemental Anatomy]]
+:: Level 35
+:; [[Foraging]]
+:: Level 70
+:; [[Gardening]]
+:: Level 35, Level 65
+:; [[Ice Magic]]
+:: Level 60, Level 85
+:; [[Surveying]]
+:: Level 35, Level 65
+:; [[Teleportation]]
+:: Level 25
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== Recipe Lists ==
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Research Ingredients ===
+[[Weather Witching]] is a research based magic, and abilities are unlocked through combining specific ingredients using recipes. The skill can be expensive due to the required ingredients used in spell research:<br>{{Item|Salt}}, {{Item|Shock Dust}}, {{Item|Sulfur}}, {{Item|Fulgurite}}, {{Item|Dwarven N Core}}, {{Item|Magic Sand}}, {{Item|Explosive Runestone}}, {{Item|Shock Nib}}, {{Item|Guano}}, {{Item|Accuracy Circuit}}, {{Item|Pemphredo Eye}}, {{Item|Pixie Dust}}, {{Item|Wind Heart}}, {{Item|Orcish N Core}}, {{Item|Potash}}.
+
+Every five levels, a research recipe can be learned which allows for researching a certain number of abilities per recipe. When a research recipe is completed, one of the abilities tied to that ability will be learned randomly.
+
+=== Tempest Magic & Tempest Energy===
+'''Tempest Energy''' is a [[Weather Witching]] mechanic which is primarily used to enable the Tempest Flight sidebar abilities. Once a Weather Witch learns Tempest Flight, they will begin to accumulate '''Tempest Energy.''' 
+* Tempest Energy is expended when Tempest Flight is used.
+* Tempest Energy will cap at 2xMob Level, so killing level 50 mobs will only raise your Tempest Energy to 100 max.
+* Tempest Energy is regained when defeating enemies using [[Weather Witching]].
+* The initial maximum Tempest Energy is 100. Raising the level of [[Weather Witching]] increases the maximum total Tempest Energy which can be accumulated. 
+{{Spoiler|Click Expand to view the Tempest Energy by Level Table for [[Weather Witching]]|
+{{:Xptables/TempestEnergyByLevel}}
+}}
+===== Tempest Energy Recipes =====
+A variety of exercises, meditations, rites, and secret techniques can be used to increase the maximum total Tempest Energy beyond leveling. These are expressed as recipes predominantly taught by [[Weather Witching]] skill trainers, however a few are found in enemy loot.
+{|
+!|Level||Name||Uses|| Description
+|-
+|20||Song of the Sun||10||Increase your Maximum Tempest Energy through a simple ceremony. It must be performed at noon [game time] on a perfectly clear day. It can be performed repeatedly on different days. Each performance permanently increases your Maximum Tempest Energy +1.
+|-
+|25||Errana's Lesson To Kirad||1||Increase your Maximum Tempest Energy +5 by reciting an ancient elven story that can expand your mind. The recitation need only be performed once; the effects are permanent. It must be performed outdoors while surrounded by at least 20 growing garden plants.
+|-
+|35||Errana's Soliloquy||1||Increase your Maximum Tempest Energy +5 by reciting elven verses that can expand your mind. The recitation need only be performed once; the effects are permanent. It must be performed outdoors while enjoying post-coital bliss.
+|-
+|45||Paullus's Pulsing Reminder||1||Increase your Maximum Tempest Energy +5 through a ritual that expands your understanding. The ritual need only be performed once; the effects are permanent. It must be performed outdoors while severely intoxicated and suffering from a pineal juice hangover.
+|-
+|50||Litany of Stillness||1||Increase your Maximum Tempest Energy +5 through a mysterious ceremony. It must be performed at midnight [game time] on a new moon [real world]. It need only be performed once; the effects are permanent.
+|-
+|55||The Flopsy Dance||1||Increase your Maximum Tempest Energy +5 through an extraordinarily painful ritual. The ritual need only be performed once; the effects are permanent. Must be performed outdoors while suffering from 20 broken bones.
+|-
+|60||Trial of Lannasea||1||Increase your Maximum Tempest Energy +5 through a simple ritual. The ritual need only be performed once; the effects are permanent. It must be performed at precisely 4AM [game time] while in a sandstorm.
+|-
+|65||Meditation on Water||1||Increase your Maximum Tempest Energy +5 through a simple ritual that expands your understanding. The ritual need only be performed once; the effects are permanent. Must be performed outdoors while fully submerged in water.
+|-
+|70||Final Rites of Cae-a-Lee||1||Increase your Maximum Tempest Energy +5 through a supposedly-ancient (but actually fairly modern) ritual. The ritual need only be performed once; the effects are permanent. It must be performed outdoors while suffering from at least two diseases and two curses.
+|-
+|75||Lessons of the Swamp||1||Increase your Maximum Tempest Energy +5 through a simple ceremony said to expand your mind. The recitation need only be performed once; the effects are permanent. It must be performed while sitting in shallow water after having just licked a toxic frog.
+|-
+|80||Mope's Method||1||Increase your Maximum Tempest Energy +5 through a simple but extremely lengthy ritual. The ritual need only be performed once; the effects are permanent. Must be performed near a meditation pillar.
+|}
+
+=== Weapons ===
+[[Weather Witching]] requires handheld equipment which can properly channel the casting of magic. All [[Weather Witching]] enabling equipment is considered a [[:Category:Items/WeatherStaff|Weather Staff]], even if the item is a Wand or Trident. Butterfly forms have the potential to wield [[Weather Witching]], if they are able to get their wings a {{Item|Wing Rings of Weather}} or similar racial slot item.
+===== Weapons enabling Weather Witching for humanoid races=====
+<dpl>
+  category   = Items/WeatherStaff
+ notcategory = Items/Racial
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+===== Weapons enabling Weather Witching for Beast Forms =====
+<dpl>
+  category   = Items/WeatherStaff
+ category = Items/Racial
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+===Equipment===
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for [[Weather Witching]]|
+{{:Xptables/TypicalCombatSkill}}
+}}
+
+== Trivia ==
+[[Weather Witching]] was added in the March 2, 2023 Game Update.
+== Gallery==
+<!--
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+File:Serbule Gallery (abandoned cart).jpg|An abandoned cart.
+File:Serbule Gallery 2.jpg|A very dangerous place...
+</gallery>
+-->
+
+[[Category:Skills]]

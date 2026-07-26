@@ -1,0 +1,16 @@
+__NOTOC__
+==Summary==
+Hulon won't let you use the Council Vault while you're an animal... if his superiors found out, he'd be in trouble. But he hinted that a suitable bribe would get him to look the other way.
+
+
+
+===Requirements===
+* Find Ancient Bronze Coins x5
+* Talk to Hulon
+
+===Rewards===
+{{Spoiler|Rewards|
+* 50 XP in Beast Speech
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Hulon]][[Category:Quests/Limited Quests]]

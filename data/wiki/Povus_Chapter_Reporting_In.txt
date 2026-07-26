@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Dog Ear in Povus said, "Could you tell your Warden friends about me? I've been keeping a log of dangers in the area, but I can't really act on them alone. Maybe we could team up! Or something. Just tell the head of your Warden enclave about me. I'm here and ready to help however I can!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Dog Ear]]''' in '''[[Povus]]'''. The quest is available at {{Favor|Neutral}} favor. This quest is only available after an interaction. 
+
+===Preface===
+Could you tell your Warden friends about me? I've been keeping a log of dangers in the area, but I can't really act on them alone. Maybe we could team up! Or something. Just tell the head of your Warden enclave about me. I'm here and ready to help however I can!
+
+===Midway===
+You found a lost Warden from the Povus region? That's good news. I thought they died out years ago! Well, tell your new friend to report here for debriefing, and we'll get him relocated to somewhere that really needs a Warden!
+
+===Requirements===
+* Speak with Milton about Dog Ear
+* Talk to Dog Ear
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you for telling your Warden friends about me, but if their plan is to relocate me out of Povus, I'm not interested. <i>This</i> is the land I've sworn to defend! But I guess I'll go and explain this to your sheep friend myself. You've done enough for me!}}
+* 100 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Dog Ear]]

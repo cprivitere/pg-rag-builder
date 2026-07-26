@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Torana said, "I need some candles to help kill the odor of musty crafters in our wagons! I'm still waiting on my stipend from Orran to go buy supplies to make my own. Could you craft and bring me 10 [[Decent Floral Candle]]s? I'll trade some of my knowledge and a token for it!"
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Torana]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Candle Making]] level 38. This quest is only available during a Crafting Caravan event. 
+
+===Preface===
+I need some candles to help kill the odor of musty crafters in our wagons! I'm still waiting on my stipend from Orran to go buy supplies to make my own. Could you craft and bring me 10 [[Decent Floral Candle]]s? I'll trade some of my knowledge and a token for it!
+
+===Requirements===
+* Make 10 Decent Floral Candles
+* Possess 10 Decent Floral Candles
+* Talk to Torana
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Mmmm smells flowery! Thanks a lot! Maybe we can trade knowledge again like this later on.
+
+<i>[You earn 10 favor with Orran the Caravan Leader]</i>
+
+<i>[This task is repeatable every 20 hours.]</i>}}
+* {{Item|Crafter's Guild Token}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Torana]][[Category:Quests/Crafting Caravan]]

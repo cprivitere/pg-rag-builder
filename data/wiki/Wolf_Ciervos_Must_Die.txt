@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+In a dungeon beneath Eltibule there is a mighty avatar shackled into servitude. This is unacceptable. Slay Ciervos The Shadow to relieve his humiliation. 
+
+===Prerequisites===
+To start this quest, talk to '''[[Wolf Altar]]''' in '''[[Wolf Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+To begin this quest you must have level 1 [[Lycanthropy]].
+
+This quest is only available around the Full Moon (+/- 1 day).
+
+===Preface===
+{{Quote|In a dungeon beneath Eltibule there is a mighty avatar shackled into servitude. This is unacceptable. Slay Ciervos The Shadow to relieve his humiliation. }}
+
+===Requirements===
+* Kill Ciervos the Shadow
+* Talk to Wolf Altar
+
+===Rewards===
+{{Spoiler|Rewards for Wolf: Ciervos Must Die|
+{{Quote|Confirmed: Ciervos the Shadow is dead.
+
+You have received 1 token of Norala.}}
+
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Wolf Altar]]

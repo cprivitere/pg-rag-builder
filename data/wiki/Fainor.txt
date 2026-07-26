@@ -1,0 +1,482 @@
+__NOTOC__
+{{NPC infobox
+|title            = Fainor
+|image            = [[File:Fainor.jpg|300px]]
+|caption          = He's sweating profusely from the fire, but intensely focused on some sort of potato dish.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = Inside the Inn.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All after bribe.
+|skilltrainer     = [[Cooking]]
+|vendor           = Yes
+}}
+{{Quote|
+I've had Human ﬂsh dishes, and I can't say I like them. Too much sauce!
+}}
+[[Fainor]] is the chef of [[Serbule]] and quite the foodie as you can see from his likes. The inn he operates is named the [[Chortling Beaver]].
+
+Since [[Fainor]] likes ''Prepared Food'', you can gift him any foods that you cook while you practice new recipes. Remember to eat one of each first to gain your [[Gourmand]] Bonus XP!
+== Location ==
+; [[Serbule]]
+: Inside the [[Serbule Keep]] Inn. [[File:Fainor_Location.jpg|400px|thumb|right|[[Fainor]], behind his counter inside his [[Serbule Keep]] Inn, "The Chortling Beaver".]]
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Fainor]] rewards his '''{{favor|Friends}}''' access to new recipes through Training.
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Collect Mushrooms for stew (8h)|
+:65 favor with Fainor
+:200 Mycology XP
+:20 Parasol Mushrrom
+:10 Mycena Mushroom
+}}
+{{Spoiler|Help clean up the inn (3h)|
+{{Quote|You do good work. Thanks. Here, dinner's on the house.}}
+:27 favor with Fainor
+:1 BBQ Ribs
+}}
+{{Spoiler|Cut deer carcasses for venison (2h)|
+{{Quote|Gods they stink inside! I'll take rotten fish any day over the smell of deer guts. You did good, though. Thanks.}}
+:20 favor with Fainor
+:200 Butchering XP
+:1 Vension
+}}
+{{Spoiler|Watch potatoes bake (4h)|
+{{Quote|See? Wasn't that fun? Take these with you so you can have fun on your own later!}}
+:35 favor with Fainor
+:100 Cooking XP
+:5 Potato
+}}
+{{Spoiler|Help butcher pigs to make steaks (60m)|
+:12 favor with Fainor
+:100 Butchering XP
+:1 Pork Shoulder
+}}
+{{Spoiler|Collect crabs by the river (60m)|
+{{Quote|You know what is more fun than that? Almost anything. But hey, thanks for keeping me company! Keep some crabs!}}
+:12 favor with Fainor
+:100 Fishing XP
+:5 Crab
+}}
+{{Spoiler|Collect more crabs|
+{{Quote|Well, that was still pretty dull, but I appreciate your company. I'm gonna make some crab rolls with this batch. Oh, you don't know how? Let me teach you.}}
+:20 favor with Fainor
+:5 Crab
+:Recipe for Crab Roll
+}}
+{{Spoiler|Taste-test new vegetarian recipes (60m)|
+{{Quote|So you like lentils in the salad but hate lentil soup. Got it.}}
+:12 favor with Fainor
+:100 Gourmand XP
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Fainor
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fishing]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Crab Meat
+ |skilllevel=0
+ |cost=80
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Clownfish Fillet
+ |skilllevel=5
+ |cost=280
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Grapefish Fillet
+ |skilllevel=10
+ |cost=480
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Perch Fillet
+ |skilllevel=20
+ |cost=920
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Eel Fillet
+ |skilllevel=30
+ |cost=1560
+ |favor=
+}}
+{{NPC training row
+ |recipe=Shark Fillet
+ |skilllevel=40
+ |cost=2400
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cavefish Fillet
+ |skilllevel=50
+ |cost=3440
+ |favor=
+}}
+{{NPC training row
+ |recipe=Green Vexfish Fillet
+ |skilllevel=60
+ |cost=4680
+ |favor=
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Potato Wedges
+ |skilllevel=0
+ |cost=80
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Strawberry Bowl
+ |skilllevel=5
+ |cost=280
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Baked Potato
+ |skilllevel=0
+ |cost=80
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Buttered Baked Potato
+ |skilllevel=10
+ |cost=480
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Cheesy Baked Potato
+ |skilllevel=15
+ |cost=680
+ |favor=
+}}
+{{NPC training row
+ |recipe=Flatbread
+ |skilllevel=5
+ |cost=280
+ |favor=
+}}
+{{NPC training row
+ |recipe=Fried Clownfish
+ |skilllevel=0
+ |cost=80
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Boiled Crab
+ |skilllevel=0
+ |cost=80
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Honey Ham
+ |skilllevel=0
+ |cost=80
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Onion Rings
+ |skilllevel=5
+ |cost=280
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Onion Blossom
+ |skilllevel=5
+ |cost=280
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Hash Browns
+ |skilllevel=5
+ |cost=280
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Hard-Boiled Egg
+ |skilllevel=1
+ |cost=120
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Soft-Boiled Egg
+ |skilllevel=7
+ |cost=360
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Bacon
+ |skilllevel=5
+ |cost=280
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Grapefish Steak
+ |skilllevel=10
+ |cost=480
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Boiled Cabbage
+ |skilllevel=10
+ |cost=480
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Venison Jerky
+ |skilllevel=10
+ |cost=480
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Boring Fruit Cocktail
+ |skilllevel=10
+ |cost=480
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Slightly Sub-Par Fruit Cocktail
+ |skilllevel=15
+ |cost=680
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Venison Roast
+ |skilllevel=15
+ |cost=680
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Sausage
+ |skilllevel=15
+ |cost=680
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Bland Baked Chicken
+ |skilllevel=5
+ |cost=280
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Chicken Drumstick
+ |skilllevel=15
+ |cost=680
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Grilled Chicken
+ |skilllevel=25
+ |cost=1220
+ |favor=
+}}
+{{NPC training row
+ |recipe=Baked Beets
+ |skilllevel=20
+ |cost=920
+ |favor=
+}}
+{{NPC training row
+ |recipe=Breaded Perch with Onions
+ |skilllevel=20
+ |cost=920
+ |favor=
+}}
+{{NPC training row
+ |recipe=Fruit Cocktail
+ |skilllevel=20
+ |cost=920
+ |favor=
+}}
+{{NPC training row
+ |recipe=Glazed Beets
+ |skilllevel=25
+ |cost=1220
+ |favor=
+}}
+{{NPC training row
+ |recipe=Orange Perch
+ |skilllevel=25
+ |cost=1220
+ |favor=
+}}
+{{NPC training row
+ |recipe=Weird Fruit Cocktail
+ |skilllevel=25
+ |cost=1220
+ |favor=
+}}
+{{NPC training row
+ |recipe=Squash Soup
+ |skilllevel=30
+ |cost=1560
+ |favor=
+}}
+{{NPC training row
+ |recipe=Stuffed Squash
+ |skilllevel=30
+ |cost=1560
+ |favor=
+}}
+{{NPC training row
+ |recipe=Eel Stir-Fry
+ |skilllevel=30
+ |cost=1560
+ |favor=
+}}
+{{NPC training row
+ |recipe=Chicken and Broccoli
+ |skilllevel=30
+ |cost=1560
+ |favor=
+}}
+{{NPC training row
+ |recipe=Lemon-Glazed Chicken
+ |skilllevel=40
+ |cost=2400
+ |favor=
+}}
+{{NPC training row
+ |recipe=Chicken Casserole
+ |skilllevel=50
+ |cost=3440
+ |favor=
+}}
+{{NPC training row
+ |recipe=Guava Beet Muffin
+ |skilllevel=35
+ |cost=1960
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Super Fishy Surprise
+ |skilllevel=35
+ |cost=1960
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Fried Spider Leg
+ |skilllevel=35
+ |cost=1960
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Broccoli Florets
+ |skilllevel=40
+ |cost=2400
+ |favor=
+}}
+{{NPC training row
+ |recipe=Maple-Smoked Shark
+ |skilllevel=40
+ |cost=2400
+ |favor=
+}}
+{{NPC training row
+ |recipe=BBQ Ribs
+ |skilllevel=40
+ |cost=2400
+ |favor=
+}}
+{{NPC training row
+ |recipe=Beef and Broccoli
+ |skilllevel=45
+ |cost=2900
+ |favor=
+}}
+{{NPC training row
+ |recipe=Banana Bread
+ |skilllevel=45
+ |cost=2900
+ |favor=
+}}
+{{NPC training row
+ |recipe=Maple Carrots
+ |skilllevel=50
+ |cost=3440
+ |favor=
+}}
+{{NPC training row
+ |recipe=Shark and Crab Kebabs
+ |skilllevel=50
+ |cost=3440
+ |favor=
+}}
+{{NPC training row
+ |recipe=Candied Lemon
+ |skilllevel=50
+ |cost=3440
+ |favor=
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Carpentry]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Oak Wood Chips
+ |skilllevel=0
+ |cost=166
+ |favor=
+}}
+{{NPC training row
+ |recipe=Maple Wood Chips
+ |skilllevel=18
+ |cost=1066
+ |favor=
+}}
+{{NPC training row
+ |recipe=Cedar Wood Chips
+ |skilllevel=28
+ |cost=1733
+ |favor=
+}}
+{{NPC training row
+ |recipe=Spruce Wood Chips
+ |skilllevel=48
+ |cost=4733
+ |favor=
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = One item including: {{Item|Red Apple}} x5, {{Item|Good First Aid Kit}}, {{Item|Red Apple}} x10, {{Item|Amethyst}} x5
+|RiShin Family = {{Item|Onion Blossom}} x10
+}}
+== Conversations ==
+
+[[Category:NPCs]]

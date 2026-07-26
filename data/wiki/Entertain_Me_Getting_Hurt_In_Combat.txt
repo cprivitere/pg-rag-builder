@@ -1,0 +1,20 @@
+__NOTOC__
+==Summary==
+Pennoc in Serbule told you to go get hurt by a monster or wild animal. (You must take 500 points of health damage to complete the task.)
+
+===Prerequisites===
+To start this quest, talk to '''[[Pennoc]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|I hate how hunters always talk about their big game, but they don't have scars. How dangerous could it be if you don't even get maimed? So go get hurt. That'll give you a much more authentic hunting story to tell me.}}
+
+===Requirements===
+* Take Health Damage In Combat
+* Talk to Pennoc
+
+===Rewards===
+{{Spoiler|Rewards for Entertain Me: Getting Hurt In Combat|
+{{Quote|Nice wounds! So, tell me the epic story of your battle! ... ... That's it? You should have embellished it some more. But I guess it's a start of a decent story.}}
+
+This quest will reward random loot. This may include items with 25 level mods.}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Entertain Me]][[Category:Quests/Pennoc]]

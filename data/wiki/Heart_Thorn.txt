@@ -1,0 +1,130 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Heart Thorn
+| description = Plant a seed in the target that leaves them weakened.
+| level = 1
+| power cost = 14
+| reuse time = 15
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|HeartThorn}}{{KWAB|SignatureDebuff}}
+| damage = 11 Nature
+| special = Target's attacks deal -5 damage for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Heart Thorn 2
+| description = Plant a seed in the target that leaves them weakened.
+| level = 11
+| power cost = 19
+| reuse time = 15
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|HeartThorn}}{{KWAB|SignatureDebuff}}
+| damage = 24 Nature
+| special = Target's attacks deal -10 damage for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Heart Thorn 3
+| description = Plant a seed in the target that leaves them weakened.
+| level = 21
+| power cost = 24
+| reuse time = 15
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|HeartThorn}}{{KWAB|SignatureDebuff}}
+| damage = 39 Nature
+| special = Target's attacks deal -15 damage for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Heart Thorn 4
+| description = Plant a seed in the target that leaves them weakened.
+| level = 31
+| power cost = 30
+| reuse time = 15
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|HeartThorn}}{{KWAB|SignatureDebuff}}
+| damage = 59 Nature
+| special = Target's attacks deal -20 damage for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Heart Thorn 5
+| description = Plant a seed in the target that leaves them weakened.
+| level = 41
+| power cost = 35
+| reuse time = 15
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|HeartThorn}}{{KWAB|SignatureDebuff}}
+| damage = 87 Nature
+| special = Target's attacks deal -25 damage for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Heart Thorn 6
+| description = Plant a seed in the target that leaves them weakened.
+| level = 51
+| power cost = 39
+| reuse time = 15
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|HeartThorn}}{{KWAB|SignatureDebuff}}
+| damage = 130 Nature
+| special = Target's attacks deal -30 damage for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Heart Thorn 7
+| description = Plant a seed in the target that leaves them weakened.
+| level = 61
+| power cost = 44
+| reuse time = 15
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|HeartThorn}}{{KWAB|SignatureDebuff}}
+| damage = 174 Nature
+| special = Target's attacks deal -35 damage for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Heart Thorn 8
+| description = Plant a seed in the target that leaves them weakened.
+| level = 71
+| power cost = 49
+| reuse time = 15
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|HeartThorn}}{{KWAB|SignatureDebuff}}
+| damage = 220 Nature
+| special = Target's attacks deal -40 damage for 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Heart Thorn 9
+| description = Plant a seed in the target that leaves them weakened.
+| level = 81
+| power cost = 54
+| reuse time = 15
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|HeartThorn}}{{KWAB|SignatureDebuff}}
+| damage = 272 Nature
+| special = Target's attacks deal -45 damage for 15 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

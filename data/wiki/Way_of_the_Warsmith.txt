@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+An avatar of Tast in Povus said, You have slain so many foes that one might easily mistake you for an army. You are worthy, of that much I am certain. Make an offering to me."
+
+===Prerequisites===
+To start this quest, talk to '''[[Tast]]''' in '''[[Povus]]'''. This quest is available at [[Armorsmithing]] level 50. You must have previously completed [[Hammer Steel, Hammer Brain]] in order to undertake this quest. 
+
+===Preface===
+You have slain so many foes that one might easily mistake you for an army. You are worthy, of that much I am certain. Make an offering to me.
+
+===Requirements===
+* Kill Sentient Enemies x250
+* Talk to Tast, God of War
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|I bequeath to you the title of Warsmith. Among orcs, few reach this height. And yet I suspect you have even greater feats ahead. I shall be watching.}}
+* 3 {{Favor|favor}}
+* Recipe: Astounding Orcish Plate Boots (Enchanted)
+* Recipe: Astounding Orcish Plate Boots (Max-Enchanted)
+* Recipe: Astounding Orcish Plate Greaves (Enchanted)
+* Recipe: Astounding Orcish Plate Greaves (Max-Enchanted)
+* Recipe: Astounding Orcish Plate Coat (Enchanted)
+* Recipe: Astounding Orcish Plate Coat (Max-Enchanted)
+* Recipe: Astounding Orcish Plate Gauntlets (Enchanted)
+* Recipe: Astounding Orcish Plate Gauntlets (Max-Enchanted)
+* Recipe: Astounding Orcish Plate Helm (Enchanted)
+* Recipe: Astounding Orcish Plate Helm (Max-Enchanted)
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Tast]]

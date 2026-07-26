@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Yetta has asked for some feathers.
+
+===Prerequisites===
+To start this quest, talk to '''[[Yetta]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Can you grab some feathers for me? Shouldn't be hard...}}
+
+===Requirements===
+* Obtain {{Item|Feathers}} x3
+* Talk to Yetta
+
+===Rewards===
+{{Spoiler|Rewards for Feathers For Yetta|
+{{Quote|Thanks! Here's something for your effort.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Word of Power Scroll (level 1)}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Yetta]]

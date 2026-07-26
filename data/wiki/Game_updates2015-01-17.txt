@@ -1,0 +1,138 @@
+==January 17th Update==
+===New Content:===
+- There are several new NPCs and points of interest in Eltibule
+- There is a new dungeon in Eltibule; it should be pretty easy to find. It's designed to be a short (30 minute maybe) fun repeatable experience for two level 30-ish players.
+- There is a second new dungeon in Eltibule, which ... wasn't on the schedule, but just sort of happened. It's harder to find, and it's a pretty long dungeon. It's for level 50s. I'm not sure how many players are best for it, but, well... bring some friends. And some tactical nuclear weapons wouldn't be amiss. This dungeon will have some unique unlockable abilities in it soon, but at the moment it just has a lot of random equipment treasure
+- [[Treasure Cartography]] and [[Corpse Talking]] skills are in and should be fully usable. A few other skills are "in", in a very limited fashion
+- A new instrument, the Gemshorn, can be found in random fae loot. It has a makeshift temporary animation and art.
+
+===Content Tweaks:===
+- [[Winter Nexus]] key is no longer consumed by entering the nexus, because that's very annoying
+- The pedestal "puzzle" in the Winter Court cave no longer resets every 7 days
+- The red/green annexes of the Eltibule dungeon now have a timer of 25 minutes instead of 15 minutes. It was a little too "speed run" for the target level range (a large group of 35ish players)
+- Nerfed [[Ciervos The Shadow|Ciervos]] just a bit for the same reasoning. He's still a beast though.
+- The drum is no longer sold in a shop, it can be found in random orc loot
+
+===Beds (EXPERIMENTAL)===
+Added interaction to most beds. This is just something I'm playing around with. I think it'd be nice if beds had a use in the world, maybe to fix certain ailments or something like that, but right now beds just give out Comfort buffs, the same as the ones given out by Carpentry-made chairs. (So this is a reverse-nerf to carpenters, technically, but those chairs need improvement in the future anyway, at least in buff duration.) 
+There is still no lie-down animation, so you sleep in a sitting position for now. 
+Eventually NPCs will be able to tell when you're sleeping within visual range of them, but right now they are utterly oblivious, so you can use any bed anywhere without fear of repercussions. 
+Nicer beds have better buffs.
+
+===[[Metabolism]]: (EXPERIMENTAL)===
+- A new "energy bar" has been added alongside Armor, Health, and Power, called "Metabolism". It is hidden for new players because it's not that important and I don't want to overwhelm people. When you reach level 10 in Endurance, the bar will appear, along with a tip about how it works. You can also turn the bar on/off at any time in the Options panel.
+- Metabolism's main purpose is to be the fuel source for consumable items. Healing potions, restorative foodstuff (such as bacon), etc. now require Metabolism.
+- Previously, we'd attempted to keep these items from being overpowered by making their stack size low. Since you could only stack 5 to a slot, it was impractical to carry a ton of them. But that's a very annoying way to do things. This change lets us remove that stacking limit, so potions now stack to 99.
+- Pure healing food like Bacon and Venison Jerky had a 1-second delay added to them to make them impractical to use in combat. This is removed now so you CAN use them in combat as long as you have enough Metabolism left
+- Metabolism regenerates back very slowly on its own, but this can be sped up with food and drink.
+- Certain skills boost your Max Metabolism, allowing you to drink more potions at once. At the moment, these are just the skills Endurance, Gourmand, and Werewolf Metabolism.
+- This change allowed us to significantly improve the potency of the health and armor potions in-game, as well as the effects of cooked Snack foods. 
+- Snack foods got MUCH better at instantly healing you, and a few are easy enough to make that they may be interesting for combat purposes. And some are probably too easy to exploit... please keep an eye on this and report if you find foods that break the game wide open
+- Also, cheese has intentionally very low Metabolism cost, to help offset the extreme cost of creating it. Their very low Metabolism costs are not a bug
+- Remember: you can drag and drop foods, drinks, and potions to your side bar (or bottom bars) for more convenient use during combat.
+- If Metabolism isn't important to the way you play, you can just turn off the bar in the Options panel. (You can still tell if you've got enough Metabolism to drink a potion because it will be grayed out on the ability bar if you don't.)
+
+===[[Racial Jewelry]]===
+- This update adds the very first racial jewelry. The selection is extremely limited at the moment (just a token item or two for each race). There will be many more items with many different effects later.
+- [[Rakshasa]] can wear tail rings (at the base of their tail), 
+- Elves wear navel rings (it is elven tradition to pierce the navels of both males and females when they reach maturity), 
+- Humans wear earrings (it is fashionable for both male and female humans to wear earrings, while the other races find the practice of ear piercing to be... a little weird).
+- Right now the plan is that racial jewelry will not be found in random loot; it's going to be one of the things I reserve for giving out by NPCs.
+
+===Other Changes:===
+- Tons of skill changes; see below! And some more skill changes are coming, I just ran out of time in this update
+- You can now click on the map window to place an icon there to remind you of a point of interest. Click the pin again to edit its label and icon (or remove it). You can place a small number of pins on each map (five by default), but that number can be increased by raising [[Surveying]], [[Foraging]], and [[Treasure Cartography]] skills. You can also give the pins meaningful labels and (at high level) different pin colors, etc. Shortcut tip: shift-clicking an icon is a quick way to delete it
+- The XP curve for combat skills has been adjusted to reflect monster XP values. (These got out of alignment because monster XP values are auto-calculated based on the monsters' stats, but the player XP curve is made by hand.) The previous XP curve was skewed so that some of the low levels were very tedious, but high levels actually went by faster. Now, the levels up to 20 are reduced, and the levels from 28 to 50 are longer. The 40-50 levels should be noticeably slower than before, but not by an insane amount.
+- Note: XP-curve changes do NOT change your existing level; you're still the same level you were before
+- You will now only see the informational message about sitting the first time you /sit, not once every game session
+- You can now get into the top floor of the Serbule inn
+- Reverted Unity's Direct X 11 renderer back to the Direct X 9 mode. DX11 seemed to suck for lots of people
+- Many loot items with prefixes "Basic", "Sturdy", and "Quality" were flagged as stock items internally. This meant that e.g. "Quality Shield"s you found in loot were treated as store-bought items by NPCs, which made them very poor gifts for people like Tyler Green. (NPCs turn up their noses at store-bought stock equipment.) This is fixed for newly-found loot, but already-existing loot items couldn't be corrected.
+- On a related note, most of the items [[Joeh]] sells with the "Basic" descriptor (e.g. "Basic Boots") were marked as loot items, making them good gifts by mistake.
+- One of the clothing suits worn by NPCs is borked; these NPCs are wearing one of the unused leather armor suits for now. Looks a little weird, but is temporary
+- There is a new system that lets NPCs chat amongst themselves (like Rita and Blanche do, but more powerful and configurable). Several NPCs in [[Eltibule]] now have scripted dialogs that they will use occasionally. One NPC, [[Gretchen Salas]], runs LOTS of scripts for testing purposes. Her frequency will be lowered in a future update. The repetition can get kind of annoying right now, but please watch for issues. For instance, if Gretchen decides to wander off into the ocean or something, that'd be a bug; she is supposed to just walk back and forth between her hovel and Eltibule Keep. (Although sometimes she may take a slightly scenic route, the long way around the castle.)
+- Inventory Overflow Changes: if you are carrying more items than your max capacity, you won't be able to sprint. If you're carrying more than 10 items beyond your max capacity, your walking speed will be severely hampered as well.
+- When you examine a player, you can now see which combat skills they have active
+- NPCs currently think it's the winter holiday and will give gifts to their Friends. (If you were a Friend with them prior to this update, that is.)
+- Lots and lots of other little changes that didn't get written down in the patch log
+
+===Skill Changes===
+There are a lot of skill changes. Normally after I do a round of changes, I like to wait a few months (at least) before making more changes, so I can see how the last changes work. However, this current batch of changes was really big and I didn't finish in time, so expect some more changes pretty quickly in a future update. 
+
+The rest of the patch notes pertain to individual skills. These notes don't generally bother to mention minor adjustments to ability damage and power costs; all the skills had small changes there.
+
+===[[Fire Magic]]===
+It's been difficult to balance the Power costs of fire magic. It's supposed to be a high-Power-cost skill, but the low-level versions of the abilities were TOO high-cost. So if I made those newbie abilities really cheap, high-level players would keep using those newbie abilities forever -- high-level equipment makes such a big difference that they could just rely on their equipment. So the Power costs have had to stay pretty similar at all level ranges.
+To fix this, I've changed how most fire magic equipment works. Instead of adding +n damage to some ability, it now adds +n% damage, so that the equipment is scaled by the ability. This makes sure that high-level gear will be most effective with high-level abilities. This in turn let me lower the Power cost of low-level Fire Magic abilities. (I also lowered the Power cost of some high-level abilities, which had gotten out of whack.)
+Many other skills besides Fire Magic had similar problems, but to a lesser extent. So I've used the +n% notation for those skills' equipment, too, when it was appropriate and convenient. Hopefully this notation isn't super confusing. (It's borderline super-confusing, but hopefully not quite over the edge.)
+Aside from these changes, I haven't made balance changes to Fire Magic yet. It's overpowered at level 50 but I don't want to change too many variables at once, makes it hard to tell how things are working
+
+===[[Cow]]:===
+- Various small changes; biggest buff would be to Bash, which can be used more often
+- Most notable nerf would be to "Cudspeeder" equipment; it no longer makes you move insanely fast; now it only makes you move extremely fast. (Most speed-boosting treasure effects were toned down a bit, not just cows.)
+- Fixed an issue where Collect Milk could result in the loss of a bottle if your inventory is full
+- Started to add some game mechanics that help teach cows that being a vegetarian has benefits. (There will be more crafting-related benefits later. Being a vegetarian will never affect a cow's combat ability, however.) 
+- You can see if you're a vegetarian by selecting yourself (F1 key by default) and examining yourself to see if you have the "Vegetarian" badge. If you are not a vegetarian now, you can become one by simply not eating meat for 3 weeks (and continuing to play the character for at least 20 hours during those three weeks)
+- Cows that maintain a vegetarian diet can be milked by other players more often, as follows: newbie or non-vegetarian cow: once per hour (unchanged); low-level vegetarian cow: once every 45 minutes; vegetarian cow over level 24: once every 30 minutes; vegetarian cow over level 49: once every 15 minutes
+- Two higher-level versions of the Collect Milk ability are given out at Cow level 38 and 52. They have faster reset times, allowing you to collect milk more quickly. These versions only work if you have the Vegetarian badge.
+
+===[[Pig]]:===
+Did some exploration of how the Pig is supposed to work. They're always going to suck at dealing damage, but they are surprisingly hardy and sneaky.
+There are now MANY treasure effects that boost the pig's defensive and survival capabilities, so pig soloing should be very doable, and they should make pretty good off-tanks (but they will struggle to hold aggro for long time periods). They also have a broad range of crowd control and aggro management powers, and there are now unique treasure effects that blur the line between crowd control and aggro management. 
+While pigs should be able to solo as well as most any skill, their lack of damage output will make them slower. My guess is that pigs are probably most fun when duo-ing (where they can be a tank) or in a large group (where they can handily manage adds and provide support).
+
+===Other things to note:===
+- A new level 35 ability was added, "Harmlessness", which convinces a target not to fight the pig for a few seconds. Sold by the [[Suspicious Cow]]
+- Pigs now get Mudbath 1 at level 7 instead of level 27; there is a new Mudbath 3 at level 43
+- It's now possible to get synergy skill levels to reach Pig 55; there are ability upgrades at at 51 and 54
+
+===[[Psychology]]:===
+- No dramatic changes here
+- There are some new healing effects for most abilities
+- Lots of new treasure effects for the abilities that didn't have any yet (e.g. Soothe, Ridicule, a few others), so that these abilities can be more useful and interesting at high level. 
+- Note: the power-recovering aspect of Positive Attitude is no longer boosted by equipment that boosts the Psychology Healing stat. (Only health and armor recovery are boosted by it.)
+
+===[[Mentalism]]===
+- There was a bug in the treasure data that prevented the high-level healing treasure effects of Mentalism from ever showing up in loot. I've fixed this, so it should now be much easier to use Mentalism as a high-level healing skill. (It's probably now possible to be TOO good at healing... but we'll see.)
+- Many new treasure effects were added, with both offensive and defensive powers, but focusing more on defense.
+- Some abilities were tweaked. 
+- Note: equipment that boosts Reconstruct no longer also boosts Revitalize -- those are now separate abilities that require separate treasure effects
+
+===[[Sword]], [[Staff]], [[Unarmed]]:===
+Lots of moderate changes to abilities and treasure effects, buffing, nerfing, tweaking. Nothing really stood out as a huge change to the point that I bothered to write it in the patch log, though. I will likely do some more work on Staff and Unarmed soon.
+
+===[[Druid]]:===
+- I'm still not really sure how under/overpowered the druid's debuffs are (haven't seen a lot of groups with druids in them!), so no real changes there yet.
+- Cosmic Strike's damage was increased and its reset time slowed down from 10 seconds to 30 seconds (this makes it an even better opening/vulnerability attack, but keeps players from relying too much on this one attack -- especially important given that Druid is a support/debuff skill). 
+- Cloud Natural Senses can now optionally be placed in a side bar slot.
+- A few new treasure effects were added.
+
+===[[Necromancy]]:===
+- Necromancy pets have been improved at high level, and many new treasure effects can boost them further
+- Necromancers suffered from a severe lack of specialized treasure effects, making them quite dull at high level. This has been remedied to a large extent
+- Skeletal Swordsmen and Raised Zombies now have a built-in taunting mechanism to help them gain aggro despite doing low damage; this should be pretty effective at high level when combined with new loot effects that further boost their aggro -- feedback requested! Too weak? Too strong?
+
+===[[Hammer]]===
+- fixed some data bugs. One ended up being a pretty big nerf to Discharging Strike, which did damage as a 15-second heavy hitter ability, but was usable every 4 seconds, not 15... oops. I ended up making it an 8-second ability and costing a bit more Power so there's more of a trade-off... it's still kinda overpowered, but at least more in the ballpark of what I imagined. 
+- Before you fret too much, there's a ton of new Hammer equipment treasure effects, and I'm sure there's plenty of broken builds to discover, so you win some, you lose some
+
+
+===[[Archery]]===
+- Archery abilities and treasure effects now do noticeably more damage... in a couple of cases, a LOT more damage
+- The archery ability Blitz Shot now consumes a small amount of the new Metabolism stat when used, instead of Power. The problem was that at high level its 1-second reset time made it a better damage-per-second than any other archery ability, which is just stupid. It's supposed to be a filler attack or a finisher move, not the only ability you want to use. This change helps it fill those niche roles and makes it a great emergency attack, since it no longer needs any Power
+- There are a bunch of new treasure effects, including for Bow Bash and other less-used abilities
+
+===[[Lycanthropy|Werewolf]]===
+- Lots of numbers tweaks
+- The werewolf combos have been simplified to make them more usable in combat
+- Howling will be redone in a future update, it's still very broken at the moment
+
+===[[Animal Handling]]===
+- Animal Handling was INSANELY overpowered with very easy-to-assemble gear sets, due to a large number of crack-addled treasure effects and ridiculous ability stats. These had to be ultranerfed.
+- Many abilities and powers were significantly reduced in potency, but some treasure effects just made no sense at their new nerfed power levels, so they were replaced with new, less-problematic powers.
+- A repeated problem is that Animal Handling abilities and equipment don't actually care about the pet at all; it's just a sort of token beast. This is not a good design, so I'm working to fix that. One of the ways I do that is by making abilities and treasure do fewer flat damage boosts (e.g. "Deals +100 damage") and more percentage enhancements to the pet's stats, so that you care about the pet more. This will make it possible to add different pets which have meaningful gameplay differences.
+- Unfortunately I completely ran out of time and I'm still working on Animal Handling. It needs some more changes. It should be playable and still fairly powerful, but very bland right now with only a couple of possible builds. (It was pretty bland before, but people didn't seem to mind since it could literally do 3000 damage in a hit.) So Animal Handlers, please sit tight, more changes are coming soon.
+
+
+
+[[Category:Game updates]]

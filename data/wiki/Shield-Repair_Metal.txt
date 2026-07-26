@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Tyler Green asked you to bring him some Simple Metal Slabs, which are most easily obtained via Surveying. He intimated that Jaime Fatholm in Serbule Hills might know how to survey ores.
+
+===Prerequisites===
+To start this quest, talk to '''[[Tyler Green]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I keep asking Jaime over there to give me some cheap metal slabs. I just need some junk metal to repair my shields with! But she just tells me to go mine my own ore. So greedy!
+
+Hey. Maybe you could get me some metal? Do you know how to survey for ore like she does?}}
+
+===Requirements===
+* Obtain {{Item|Simple Metal Slab}}s x5
+* Talk to Tyler Green
+
+===Rewards===
+{{Spoiler|Rewards for Shield-Repair Metal|
+{{Quote|Ah, junk metal. Wow. I guess I've really hit rock bottom, repairing my awesome shields with this crap!
+
+Uh, but thanks. For the crap. I appreciate it.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Armor Potion}} x 5
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Tyler Green]]

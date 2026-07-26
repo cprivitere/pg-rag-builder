@@ -1,0 +1,39 @@
+__NOTOC__
+{{NPC infobox
+|title            = Viedesi
+|image            = [[File:Viedesi.png|250px]]
+|caption          = ...
+|zone             = Sun Vale
+|location         = Lighthouse near entrance.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+}}
+[[Viedesi]] is an elf living on the island of [[Sun Vale]]. She accepts [[Industry|Work Orders]] from a board set up near her. 
+
+{{Quote |
+Hello! Are you a new druid? You're not a fairy, and that pretty much just leaves druids!
+;''' Nope. I'm not a druid.'''
+:  Oh. I see. Why in the world are you here? I hope you aren't here about the resort. That... that never panned out. There's some buildings, but... no resort. I'm sorry you came all this way.
+: '''No, I'm not here about a resort, what resort?'''
+: Well, this island is a strategic spot between [[Verta]] and [[Council Lands|The Council Lands]]. Both countries claim it, but since our countries are friendly, nobody's really cared that much. Anyway, a few years ago some businessman in Verta tried to turn this place into a resort! He had some buildings made, and there's a big bridge, that sort of thing.
+: But, well, the native frog people killed him. And his crew. And his customers. Nobody comes here anymore.
+: ''' Oh. that's very sad.'''
+: Well, it's not that sad. The elf who ran the resort was an ass, and this island is a mosquito-infested shit hole. I mean, let's be honest with each other... I feel like I can trust you. Can I?
+: ''' Of course.'''
+: Good. Here's the thing: I'm actually paid by the government of Verta! I'm clandestine and everything!
+: ''' ... uh, should you be telling me this?'''
+: Oh, like you didn't know already, Captain. But I guess you aren't a Captain anymore... that was just a disguise, right? I got your file from my Verta contact. You're an interesting one.
+: ''' What does my file say? You see, I have amnesia, and...'''
+: Ha ha! Nice try! Don't worry... there's no assassins after you or anything. Verta is just keeping tabs on important Council resources like yourself. Your secret is safe with me.
+: Now if you want to pretend to be a craftsman, that will work out great. There's a bulletin board over there with things I can buy. Take a look!
+: '''Okay, but can we talk about the Council thing?'''
+: Not now. I've said more than I'm supposed to already.
+: ''' Sigh. Well, thanks. Bye.'''
+}}
+==Location==
+; [[Sun Vale]]
+: Standing near the Work Orders board. In the far southwest (bottom left) corner of the map.
+
+[[Category:NPCs]][[Category:NoRiShin]]

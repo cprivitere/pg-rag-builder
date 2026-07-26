@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Sie Antry wants you to kill Giant Mantises near her homestead.
+
+===Prerequisites===
+To start this quest, talk to '''[[Sie Antry]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Yeah, there's some mantises out there that are causin' trouble. Can you go whack 'em? They're getting too close for comfort.}}
+
+===Requirements===
+* Kill Mantises (10)
+* Talk to Sie Antry
+
+===Rewards===
+{{Spoiler|Rewards for Kill Giant Mantises|
+{{Quote|Thanks! You're a peach. Here's something for your trouble. And let me tell you some gardening tips, too.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Mantis Hat}}
+* 500 XP in [[Gardening]]
+Rewards for this quest will be generated with 35 level mods.
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Sie Antry]]

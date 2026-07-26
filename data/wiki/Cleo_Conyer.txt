@@ -1,0 +1,71 @@
+__NOTOC__
+{{NPC infobox
+|title            = Cleo Conyer
+|image            = [[File:Cleo Conyer(npc).png|400px]]
+|caption          = Studying a book.
+|zone             = Serbule Hills
+|town             = Tapestry Inn
+|location         = Main building
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist        = All after bribing Durstin Tallow
+|vendor           = Yes
+}}
+{{Quote|source=[[Cleo Conyer]]| Hey. You look like you've had an adventure recently. Find any amazing treasures? Anything you're selling for cheap, I mean?}}
+[[Cleo Conyer]] is a traveling merchant who became stuck in Serbule Hills after an unfortunate encounter with the Ranalon invading the region.
+
+== Location ==
+; [[Tapestry Inn]]
+: [[Cleo Conyer]] is always seen inside.
+
+== Shopkeeper ==
+[[Cleo Conyer]] makes a living reselling anything sold to her. She is willing to purchase anything, but does not have many Councils each week.
+
+{{Vendor_purchase_info}} 
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Cleo Conyer]] does not currently have any favor rewards.
+<!--
+{{Spoiler|Reward at {{Favor|Comfortable}}:|
+:{{Item|Lembas Brick}} x2
+}}-->
+
+=== Hang Outs ===
+[[Cleo Conyer]] does not currently offer any Hang Outs.
+== Quests ==
+<dpl>
+category = Quests/Cleo Conyer
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Goblin Stompers}} (Lv 40)
+|RiShin Family = {{Item|Goblin Battle Coat}} (Lv 55)
+}}
+== Conversations == 
+{{Quote|source=[[Cleo Conyer]]|You ever hear of Thentree? No? It's a little town of throwback elves. It's past Sedgewick. A real isolated group. Great customers of my traveling curiosity shop, though!}}
+{{Quote|source=[[Cleo Conyer]]|I'm still surprised I made it out of Sedgewick Forest alive! I used some painful alchemy potions to run super fast away from the goblins. It's been a week, and my legs still hurt!
+;How'd you end up here?
+I used to run a traveling curiosities shop. I'd stop by Thentree via Sedgewick Forest every so often. I have a system of bribes to get me past each goblin tribe. But that didn't help me this time.
+; Your bribes didn't work?
+The goblins took their bribes like always. But the ranalon betrayed me! I paid their toll like usual, but a group of them attacked me anyway.
+; That's a tragic tale.
+I spent years building up a rapport with the goblins. I learned some of their language just to facilitate trade! But those ranalon have ruined everything.
+
+Now I'm stuck in a bar in the middle of nowhere, with a mediocre bard and truly terrible beer! But I have a plan?
+; What's your plan?
+I have a little money left. The plan is that you're gonna sell me the best stuff you find, and I'll use it to rebuild my traveling curiosities shop!
+; You're going to make a shop based on just the stuff I sell you?
+Not just you! I got some neat stuff from the bard, and a bonafide magic shield from that guy over there. I've started collecting a bunch of interesting stuff! So come on, be a pal and help me with my plan. Sell me stuff!}}
+
+== Tips ==
+* [[Cleo Conyer]] is one a few shopkeepers who will purchase anything! This can be useful for new adventurers.  
+
+[[Category:NPCs]] [[Category:Favor/Small Talk]]

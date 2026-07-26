@@ -1,0 +1,216 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Pig/Abilities|Pig Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v446 on Fri Jan 16 2026 02:56:27 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Pig Bite|2}} || 1 || Pig Bite || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 7 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Pig Rend|2}} || 3 || Pig Rend || Tear into your enemy, causing it to bleed.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 6 Trauma, 4 times over 12 seconds || <b>Damage:</b> 19 Crushing || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Truffle Sniff|2}} || 5 || Truffle Sniff || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 5<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || Leveling
+|-
+| {{Ability icon|Strategic Chomp|2}} || 6 || Strategic Chomp || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 18 Crushing<br><b>Dmg to Vulnerable:</b> 18 Crushing || <b>Power Cost:</b> 5<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +5% || Leveling
+|-
+| {{Ability icon|Mudbath|2}} || 7 || Mudbath || Take advantage of your ever-present caked on mud to save yourself or an ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 70 Health ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Grunt of Abeyance|2}} || 8 || Grunt of Abeyance || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 46 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 18<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Pig Bite 2|2}} || 10 || Pig Bite 2 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 12 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Frenzy|2}} || 11 || Frenzy || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +9 damage for 10 seconds. ||  || <b>Power Cost:</b> 28<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Pig Punt|2}} || 12 || Pig Punt || Kick an enemy away from you.<br><b>This is a Core Attack</b> || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 19 Crushing || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Terror Dash|2}} || 13 || Terror Dash || Increase your run speed dramatically for 5 seconds. || You gain 9 sprint speed for 5 seconds.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 10<br><b>Range:</b> 4<br><b>Cooldown:</b> 60 || Leveling
+|-
+| {{Ability icon|Truffle Sniff 2|2}} || 15 || Truffle Sniff 2 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 15<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || Leveling
+|-
+| {{Ability icon|Grunt of Abeyance 2|2}} || 18 || Grunt of Abeyance 2 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 59 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 24<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Strategic Chomp 2|2}} || 19 || Strategic Chomp 2 || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 35 Crushing<br><b>Dmg to Vulnerable:</b> 35 Crushing || <b>Power Cost:</b> 11<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +10% || Leveling
+|-
+| {{Ability icon|Pig Bite 3|2}} || 20 || Pig Bite 3 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 19 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Porcine Alertness|2}} || 21 || Porcine Alertness || Use your heightened senses to help your allies avoid injury. || You and your allies gain +10% Evasion vs. Melee and Burst attacks for 20 seconds ||  || <b>Power Cost:</b> 16<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Squeal|2}} || 22 || Squeal || Scream horrendously, potentially spooking nearby foes. (Chances of causing fear are based on your Pig level and the targets' mental defenses.) || Targets flee for 5 seconds<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 30 Nature || <b>Power Cost:</b> 12<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Frenzy 2|2}} || 23 || Frenzy 2 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +18 damage for 10 seconds. ||  || <b>Power Cost:</b> 36<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Pig Rend 2|2}} || 24 || Pig Rend 2 || Tear into your enemy, causing it to bleed.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 12 Trauma, 4 times over 12 seconds || <b>Damage:</b> 64 Crushing || <b>Power Cost:</b> 31<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Truffle Sniff 3|2}} || 25 || Truffle Sniff 3 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || Leveling
+|-
+| {{Ability icon|Mudbath 2|2}} || 27 || Mudbath 2 || Take advantage of your ever-present caked on mud to save yourself or an ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 110 Health ||  || <b>Power Cost:</b> 28<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Grunt of Abeyance 3|2}} || 28 || Grunt of Abeyance 3 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 73 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 29<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Pig Bite 4|2}} || 30 || Pig Bite 4 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 31 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Pig Punt 2|2}} || 32 || Pig Punt 2 || Kick an enemy away from you.<br><b>This is a Core Attack</b> || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 47 Crushing || <b>Power Cost:</b> 15<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Frenzy 3|2}} || 34 || Frenzy 3 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +29 damage for 10 seconds. ||  || <b>Power Cost:</b> 45<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Truffle Sniff 4|2}} || 35 || Truffle Sniff 4 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 35<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || Leveling
+|-
+| {{Ability icon|Harmlessness|2}} || 35 || Harmlessness || Feign harmlessness, convincing your enemy that they could be spending their time more productively than by killing you. || Target decides not to attack you for 5-10 seconds (even if you attack it during that time).<br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 40<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Terror Dash 2|2}} || 37 || Terror Dash 2 || Increase your run speed dramatically for 10 seconds. || You gain 9 sprint speed for 10 seconds.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 4<br><b>Cooldown:</b> 60 || Leveling
+|-
+| {{Ability icon|Grunt of Abeyance 4|2}} || 38 || Grunt of Abeyance 4 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 86 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 35<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Squeal 2|2}} || 39 || Squeal 2 || Scream horrendously, potentially spooking nearby foes. (Chances of causing fear are based on your Pig level and the targets' mental defenses.) || Targets flee for 8 seconds<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 63 Nature || <b>Power Cost:</b> 16<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Pig Bite 5|2}} || 40 || Pig Bite 5 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 47 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Porcine Alertness 2|2}} || 41 || Porcine Alertness 2 || Use your heightened senses to help your allies avoid injury. || You and your allies gain +11% Evasion vs. Melee and Burst attacks for 20 seconds ||  || <b>Power Cost:</b> 22<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Mudbath 3|2}} || 43 || Mudbath 3 || Take advantage of your ever-present caked on mud to save yourself or an ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 140 Health ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Frenzy 4|2}} || 44 || Frenzy 4 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +44 damage for 10 seconds. ||  || <b>Power Cost:</b> 52<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Truffle Sniff 5|2}} || 45 || Truffle Sniff 5 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 45<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || Leveling
+|-
+| {{Ability icon|Strategic Chomp 3|2}} || 46 || Strategic Chomp 3 || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 102 Crushing<br><b>Dmg to Vulnerable:</b> 102 Crushing || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +13% || Leveling
+|-
+| {{Ability icon|Pig Punt 3|2}} || 47 || Pig Punt 3 || Kick an enemy away from you.<br><b>This is a Core Attack</b> || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 91 Crushing || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Grunt of Abeyance 5|2}} || 48 || Grunt of Abeyance 5 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 99 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 39<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Pig Bite 6|2}} || 50 || Pig Bite 6 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 72 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Squeal 3|2}} || 51 || Squeal 3 || Scream horrendously, potentially spooking nearby foes. (Chances of causing fear are based on your Pig level and the targets' mental defenses.) || Targets flee for 10 seconds<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 106 Nature || <b>Power Cost:</b> 19<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Pig Rend 3|2}} || 54 || Pig Rend 3 || Tear into your enemy, causing it to bleed.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 18 Trauma, 4 times over 12 seconds || <b>Damage:</b> 228 Crushing || <b>Power Cost:</b> 49<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Frenzy 5|2}} || 55 || Frenzy 5 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +68 damage for 10 seconds. ||  || <b>Power Cost:</b> 59<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Truffle Sniff 6|2}} || 55 || Truffle Sniff 6 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 55<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || <b>Item:</b> [[Pig: Truffle Sniff 6]]
+|-
+| {{Ability icon|Mudbath 4|2}} || 56 || Mudbath 4 || Take advantage of your ever-present caked on mud to save yourself or an ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 170 Health ||  || <b>Power Cost:</b> 43<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Strategic Chomp 4|2}} || 57 || Strategic Chomp 4 || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 150 Crushing<br><b>Dmg to Vulnerable:</b> 150 Crushing || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +15% || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Grunt of Abeyance 6|2}} || 58 || Grunt of Abeyance 6 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 112 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 44<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Pig Punt 4|2}} || 59 || Pig Punt 4 || Kick an enemy away from you.<br><b>This is a Core Attack</b> || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 136 Crushing || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Pig Bite 7|2}} || 60 || Pig Bite 7 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 98 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Porcine Alertness 3|2}} || 61 || Porcine Alertness 3 || Use your heightened senses to help your allies avoid injury. || You and your allies gain +12% Evasion vs. Melee and Burst attacks for 20 seconds ||  || <b>Power Cost:</b> 28<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Squeal 4|2}} || 63 || Squeal 4 || Scream horrendously, potentially spooking nearby foes. (Chances of causing fear are based on your Pig level and the targets' mental defenses.) || Targets flee for 10 seconds<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 151 Nature || <b>Power Cost:</b> 22<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Terror Dash 3|2}} || 64 || Terror Dash 3 || Increase your run speed dramatically for 10 seconds. || You gain 12 sprint speed for 10 seconds.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 22<br><b>Range:</b> 4<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Truffle Sniff 7|2}} || 65 || Truffle Sniff 7 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 65<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || <b>Item:</b> [[Pig: Truffle Sniff 7]]
+|-
+| {{Ability icon|Frenzy 6|2}} || 66 || Frenzy 6 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +91 damage for 10 seconds. ||  || <b>Power Cost:</b> 67<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Pig Rend 4|2}} || 67 || Pig Rend 4 || Tear into your enemy, causing it to bleed.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 24 Trauma, 4 times over 12 seconds || <b>Damage:</b> 324 Crushing || <b>Power Cost:</b> 56<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Grunt of Abeyance 7|2}} || 68 || Grunt of Abeyance 7 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 125 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 49<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Mudbath 5|2}} || 69 || Mudbath 5 || Take advantage of your ever-present caked on mud to save yourself or an ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 200 Health ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Pig Bite 8|2}} || 70 || Pig Bite 8 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 125 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Strategic Chomp 5|2}} || 71 || Strategic Chomp 5 || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 214 Crushing<br><b>Dmg to Vulnerable:</b> 214 Crushing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +18% || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Pig Punt 5|2}} || 72 || Pig Punt 5 || Kick an enemy away from you.<br><b>This is a Core Attack</b> || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 187 Crushing || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Squeal 5|2}} || 75 || Squeal 5 || Scream horrendously, potentially spooking nearby foes. (Chances of causing fear are based on your Pig level and the targets' mental defenses.) || Targets flee for 10 seconds<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 202 Nature || <b>Power Cost:</b> 24<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Truffle Sniff 8|2}} || 75 || Truffle Sniff 8 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 75<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || <b>Item:</b> [[Pig: Truffle Sniff 8]]
+|-
+| {{Ability icon|Frenzy 7|2}} || 77 || Frenzy 7 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +118 damage for 10 seconds. ||  || <b>Power Cost:</b> 75<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Grunt of Abeyance 8|2}} || 78 || Grunt of Abeyance 8 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 139 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 54<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Pig Bite 9|2}} || 80 || Pig Bite 9 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 157 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Porcine Alertness 4|2}} || 81 || Porcine Alertness 4 || Use your heightened senses to help your allies avoid injury. || You and your allies gain +13% Evasion vs. Melee and Burst attacks for 20 seconds ||  || <b>Power Cost:</b> 35<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Pig Rend 5|2}} || 82 || Pig Rend 5 || Tear into your enemy, causing it to bleed.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 30 Trauma, 4 times over 12 seconds || <b>Damage:</b> 452 Crushing || <b>Power Cost:</b> 65<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Strategic Chomp 6|2}} || 83 || Strategic Chomp 6 || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 276 Crushing<br><b>Dmg to Vulnerable:</b> 276 Crushing || <b>Power Cost:</b> 31<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +21% || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Mudbath 6|2}} || 84 || Mudbath 6 || Take advantage of your ever-present caked on mud to save yourself or an ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 230 Health ||  || <b>Power Cost:</b> 58<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Pig: Mudbath 6]]
+|-
+| {{Ability icon|Truffle Sniff 9|2}} || 85 || Truffle Sniff 9 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 85<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || <b>Item:</b> [[Pig: Truffle Sniff 9]]
+|-
+| {{Ability icon|Pig Punt 6|2}} || 85 || Pig Punt 6 || Kick an enemy away from you.<br><b>This is a Core Attack</b> || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 247 Crushing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Pig: Pig Punt 6]]
+|-
+| {{Ability icon|Squeal 6|2}} || 87 || Squeal 6 || Scream horrendously, potentially spooking nearby foes. (Chances of causing fear are based on your Pig level and the targets' mental defenses.) || Targets flee for 10 seconds<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 256 Nature || <b>Power Cost:</b> 27<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Pig: Squeal 6]]
+|-
+| {{Ability icon|Grunt of Abeyance 9|2}} || 88 || Grunt of Abeyance 9 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 152 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 60<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Pig: Grunt of Abeyance 9]]
+|-
+| {{Ability icon|Frenzy 8|2}} || 88 || Frenzy 8 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +146 damage for 10 seconds. ||  || <b>Power Cost:</b> 83<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Pig: Frenzy 8]]
+|-
+| {{Ability icon|Pig Bite 10|2}} || 90 || Pig Bite 10 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 189 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Pig: Pig Bite 10]]
+|-
+| {{Ability icon|Terror Dash 4|2}} || 91 || Terror Dash 4 || Increase your run speed dramatically for 15 seconds. || You gain 12 sprint speed for 15 seconds.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 29<br><b>Range:</b> 4<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Pig: Terror Dash 4]]
+|-
+| {{Ability icon|Pig Rend 6|2}} || 94 || Pig Rend 6 || Tear into your enemy, causing it to bleed.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 36 Trauma, 4 times over 12 seconds || <b>Damage:</b> 561 Crushing || <b>Power Cost:</b> 73<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Pig: Pig Rend 6]]
+|-
+| {{Ability icon|Truffle Sniff 10|2}} || 95 || Truffle Sniff 10 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 95<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || <b>Item:</b> [[Pig: Truffle Sniff 10]]
+|-
+| {{Ability icon|Strategic Chomp 7|2}} || 96 || Strategic Chomp 7 || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 348 Crushing<br><b>Dmg to Vulnerable:</b> 348 Crushing || <b>Power Cost:</b> 35<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +24% || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Grunt of Abeyance 10|2}} || 98 || Grunt of Abeyance 10 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 165 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 66<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Pig Punt 7|2}} || 98 || Pig Punt 7 || Kick an enemy away from you.<br><b>This is a Core Attack</b> || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 307 Crushing || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Mudbath 7|2}} || 98 || Mudbath 7 || Take advantage of your ever-present caked on mud to save yourself or an ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 260 Health ||  || <b>Power Cost:</b> 66<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Frenzy 9|2}} || 99 || Frenzy 9 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +175 damage for 10 seconds. ||  || <b>Power Cost:</b> 92<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Squeal 7|2}} || 99 || Squeal 7 || Scream horrendously, potentially spooking nearby foes. (Chances of causing fear are based on your Pig level and the targets' mental defenses.) || Targets flee for 10 seconds<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 312 Nature || <b>Power Cost:</b> 31<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Pig Bite 11|2}} || 100 || Pig Bite 11 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 222 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Porcine Alertness 5|2}} || 101 || Porcine Alertness 5 || Use your heightened senses to help your allies avoid injury. || You and your allies gain +14% Evasion vs. Melee and Burst attacks for 20 seconds ||  || <b>Power Cost:</b> 42<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Strategic Chomp 8|2}} || 104 || Strategic Chomp 8 || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 396 Crushing<br><b>Dmg to Vulnerable:</b> 396 Crushing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +27% || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Truffle Sniff 11|2}} || 105 || Truffle Sniff 11 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 105<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Pig Rend 7|2}} || 106 || Pig Rend 7 || Tear into your enemy, causing it to bleed.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 42 Trauma, 4 times over 12 seconds || <b>Damage:</b> 681 Crushing || <b>Power Cost:</b> 81<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Grunt of Abeyance 11|2}} || 108 || Grunt of Abeyance 11 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 178 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 72<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Frenzy 10|2}} || 110 || Frenzy 10 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +208 damage for 10 seconds. ||  || <b>Power Cost:</b> 101<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Pig Bite 12|2}} || 110 || Pig Bite 12 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 260 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Pig Punt 8|2}} || 111 || Pig Punt 8 || Kick an enemy away from you.<br><b>This is a Core Attack</b> || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 377 Crushing || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Squeal 8|2}} || 111 || Squeal 8 || Scream horrendously, potentially spooking nearby foes. (Chances of causing fear are based on your Pig level and the targets' mental defenses.) || Targets flee for 10 seconds<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 377 Nature || <b>Power Cost:</b> 34<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Mudbath 8|2}} || 112 || Mudbath 8 || Take advantage of your ever-present caked on mud to save yourself or an ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 290 Health ||  || <b>Power Cost:</b> 74<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Strategic Chomp 9|2}} || 113 || Strategic Chomp 9 || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 453 Crushing<br><b>Dmg to Vulnerable:</b> 453 Crushing || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +30% || <b>Training:</b> [[Hamilton]]
+|-
+| {{Ability icon|Terror Dash 5|2}} || 118 || Terror Dash 5 || Increase your run speed dramatically for 15 seconds. || You gain 12 sprint speed for 15 seconds.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 36<br><b>Range:</b> 4<br><b>Cooldown:</b> 60 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Grunt of Abeyance 12|2}} || 118 || Grunt of Abeyance 12 || You grunt with a calm determination that affects all who hear it, a reminder that now is not the time to succumb to pain. || <b>Restore:</b> 192 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 78<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Pig Rend 8|2}} || 118 || Pig Rend 8 || Tear into your enemy, causing it to bleed.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 48 Trauma, 4 times over 12 seconds || <b>Damage:</b> 808 Crushing || <b>Power Cost:</b> 90<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Truffle Sniff 12|2}} || 120 || Truffle Sniff 12 || Search for a hidden mushroom in the area. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 120<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Pig Bite 13|2}} || 120 || Pig Bite 13 || Bite your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 298 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Frenzy 11|2}} || 121 || Frenzy 11 || Work yourself and your allies into a frenzy of violence. || You and your allies' melee attacks deal +242 damage for 10 seconds. ||  || <b>Power Cost:</b> 111<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Porcine Alertness 6|2}} || 121 || Porcine Alertness 6 || Use your heightened senses to help your allies avoid injury. || You and your allies gain +14% Evasion vs. Melee and Burst attacks for 20 seconds ||  || <b>Power Cost:</b> 49<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Strategic Chomp 10|2}} || 122 || Strategic Chomp 10 || Chomp an enemy in their most vulnerable spot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 510 Crushing<br><b>Dmg to Vulnerable:</b> 510 Crushing || <b>Power Cost:</b> 44<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +33% || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Squeal 9|2}} || 123 || Squeal 9 || Scream horrendously, potentially spooking nearby foes. (Chances of causing fear are based on your Pig level and the targets' mental defenses.) || Targets flee for 10 seconds<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 443 Nature || <b>Power Cost:</b> 38<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Pig Punt 9|2}} || 124 || Pig Punt 9 || Kick an enemy away from you.<br><b>This is a Core Attack</b> || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 448 Crushing || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Mudbath 9|2}} || 125 || Mudbath 9 || Take advantage of your ever-present caked on mud to save yourself or an ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 310 Health ||  || <b>Power Cost:</b> 83<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|}

@@ -1,0 +1,196 @@
+==<b>March 8 Update</b>==
+:This is the abbreviated patch notes. Full patch notes are on the forums.
+===<b>Rahu: A Preview</b>===
+:While the new city of [[Rahu]] is in-game, it is still very far from complete. You will notice large stretches of empty desert surrounding it; most NPCs have skeletal info and others are missing. There were so many systems changes that a lot of the features of Rahu were delayed until the next update. But rather than delay the whole city, I've opened it up in this preview format, because it has a lot of skill trainers you'll need. Expect it to become a bustling and more interesting place soon!
+:Oh, and there are some things that NPCs '''may mention that aren't in-game yet: the sewers (upcoming 50-60 solo content)''', higher-level fishing, the Ankara generals (but I left a few of their level 65-solo-content soldiers on a hill in case you want to bang your head on them). In addition, most of the lore is not in-game yet. So if you're wondering why everyone is called "Evil", it will make sense eventually... probably.
+:Finally, I didn't get the map into the game yet either. But you should be okay since the desert is still empty!
+
+===<b>South Serbule</b>===
+:The [[Serbule Hills|South Serbule]] area is in a similar state of half-assed-ness. South Serbule is a large swath of nature that is accessible via a portal directly south of Serbule Keep. It is a low-level zone and should be viable for players between [[Serbule]] and [[Eltibule]]. There aren't a lot of unique encounters here yet, but there are a couple of named bosses that can spawn, and an experimental new kind of quest. Expect more work to happen here soon.
+
+===<b>New Special Weekend Modes</b>===
+:On holidays we sometimes turn on "Bonus XP mode" to let you earn extra XP. We like being able to offer special modes like that, but "Bonus XP" can't be used too often or the game's balance would get out of whack. So I've added a bunch of new special modes to try out. Each weekend for the next four weeks we'll try a different game mode. (There are more than 4 new modes coded, but this will give us a nice sampler so you can give feedback.) After that, we may try more new modes on following weekends, or we may give it a rest for a few months -- we'll see how things play out. This weekend we'll test a simple one: "Bonus Inventory Space". You'll have extra inventory slots all weekend. 
+:In addition, all this week (and this weekend) we will run a second special mode that allows extended transmutation. This is less about a special weekend and more about making the patch less annoying. There are more details below. 
+
+===<b>Loot Rarity Changes</b>===
+:One of the most important problems brought up by high-level players is that they only consider elite/boss monsters to be worth killing. They tend to consider solo monsters "trash mobs". But while they may be "trash" in certain group dungeon scenarios, they are also solo content elsewhere in the world -- and not trash. One of the reasons for the disconnect is that solo monsters don't have good enough loot. I'll try to correct that with these changes to rarity profiles. :Solo monsters drop much more rare equipment now, and crafted items have much higher chances of good rarities. (Exact details on forums)
+till wearing level 35 gear, the game can feel extremely punishing.
+:I've tried other approaches to fixing this in the past (such as adding NPCs who barter monster-bits for equipment), and that helped, but wasn't enough. So this update tries a two-pronged attack: I’m giving out significantly better solo loot (see above), and I’m slowing down leveling so you have more chances to find that loot. I'll keep monitoring to see if this improves the issue enough, or if other side-effects need addressing.
+:As always, when XP requirements change, your current level stays the same. Only the XP needed to earn <i>new</i> levels has increased.
+
+===<b>Combat Leveling Slowed Down</b>===
+:Leveling up combat skills now requires more XP. (Something like 50% more overall, though it varies by level.) This is to help fix a serious problem that many players experience: they level up MUCH faster than they find gear appropriate for their level. This can make the game more frustrating than it needs to be, because players aren't as powerful as the game expects them to be. By the time they reach level 50 and are still wearing level 35 gear, the game can feel extremely punishing.
+:I've tried other approaches to fixing this in the past (such as adding NPCs who barter monster-bits for equipment), and that helped, but wasn't enough. So this update tries a two-pronged attack: I’m giving out significantly better solo loot (see above), and I’m slowing down leveling so you have more chances to find that loot. I'll keep monitoring to see if this improves the issue enough, or if other side-effects need addressing.
+:As always, when XP requirements change, your current level stays the same. Only the XP needed to earn <i>new</i> levels has increased.
+
+===<b>Combat Duration Extended</b>===
+:I took another step in the effort to slow down the pace of combat a bit -- without breaking everything else. Since I've just buffed solo monster loot dramatically, it made sense to focus on solo monsters today. Solo monsters now have about 20% more health and a tiny bit (< 5%) more armor than before. (Elites and bosses are affected too because they're implemented as "Solo Monsters Plus Extra Stuff", but the relative change is small for them.) 
+:Solo monsters are also worth about 20% more XP, so that the amount of XP you earn per hour should be about the same... BUT I also found and fixed many bugs in monsters' XP tables, which means individual monsters may be higher or lower than before. So on average, their value is about 20% higher.
+:This is actually a fairly conservative change to monsters and I expect to buff solo monsters more than this after all the dust settles. But mid-level players may be particularly hampered by this change because those players are often underpowered due to the lack of solo-accessible gear in those levels (which I’m also trying to fix in this update!). Keep in mind that monsters drop much better loot now, so don't get too discouraged. You may need to drop back to weaker monsters for a little bit -- but not for too long.
+:'''Note that player pets are implemented as monsters, so their health has also been increased. This is an UNINTENDED side effect '''that I just haven't had time to correct yet. (More pet changes and improvements will be coming in a future update!)
+
+===<b>Spawn Rates Lowered</b>===
+:In conjunction with adding health to monsters, spawn rates in dungeons were also slowed down. (Exact details on forums.)
+
+===<b>Treasure Effects Changed</b>===
+:As described in a recent forum post, most treasure effects were changed in this update. This will continue to happen periodically as our formulas and metrics slowly become more sophisticated. (I'm not currently expecting changes of this magnitude again for at least a little while, as I'll be focusing on other things first... but who knows.) In general, treasure effects for abilities with long cooldown timers (12-second or longer) are weaker. Treasure effects with 10-second or shorter cooldown timers are stronger.
+:This change is actually a net buff to gear overall -- a BIG net buff! But many of the popular gear effects from pre-update were nerfed. Low/mid-level players will probably not be particularly impacted one way or the other, but high level players who have put fancy gear sets together may be sad. So in order to help high-level players explore the new gear mods, we’re trying something special: all this week we will be running a new ‘event’. During the event, transmuting items will cost no durability from the item. (It still costs phlogiston.) Combined with some fixes to the [[Transmutation]] logic to keep items from becoming repeatedly-demoted, this should let you get a reasonable set of gear back in working order again.
+:Several things to note:
+::-	Pay attention! The transmutation table will correctly indicate the durability cost. So if it doesn't say "-0 durability", the event isn't enabled! It will be enabled a little while after the patch is live.
+::-	There are various experimental monster changes that you may want to take into account when creating gear sets. Read all the patch notes for details.
+::-	Many treasure effects were rewritten entirely. (See the notes below.) Others weren't "technically" rewritten, but their numbers have changed so much that they might as well be new mods. So even for effects that aren't listed below, pay attention to the details of effects.
+
+===<b>Combat Wisdom</b>===
+:Combat Wisdom is a new kind of "spendable XP". It's primarily earned by grouping, although you can earn small amounts of it by soloing as well. Boss monsters give a few points of Combat Wisdom the first time you kill them in any 3-hour period. Elite monsters also have a chance to give a point of Combat Wisdom (the higher level, the better the chance). Certain soloable named monsters also give small amounts of Combat Wisdom, but not more than once per 24 hours.
+
+:You can earn Combat Wisdom now, but you can't spend it yet -- that part's been delayed until a future update. But I figured there's no harm in letting you start collecting it now!
+
+:Combat Wisdom will eventually be used for specialized ability tiers. For instance, for 600 Combat Wisdom you might be able to unlock Master Barrage 1, which is a version of Barrage that's about 10% better than the regular Barrage 5. And then later you could buy the upgrade, Master Barrage 2, which is better than Barrage 6, etc. This is a slow-powering system that isn't going to make your character dramatically better. One goal is to let you further specialize your character: while you might invest in Master Riposte ability ranks, another swordsman might invest in Master Hacking Blade, and at high level you'll each have slightly different combat styles and gear setups.
+
+:(By the way, if you've ever wondered why so much gear has percentage boosts like "deals +X% damage" instead of just giving a flat number, this is one of the reasons why! Even though the specialized versions of these abilities are only modestly better than the usual versions, that difference can be multiplied with the right gear.)
+
+:But as I mentioned, there's not yet any way to spend these points. I'm still experimenting with the best way to handle that part. So stay tuned!
+
+===<b>Evasion and Accuracy</b>===
+:The evasion experiment from the previous update has ended and it's pretty universal that players are not able to tolerate general Evasion very well -- it feels random and uncontrollable and punitive. So the "bulk" Evasion has been removed from monsters.
+:A few types of monsters still have Evasion, though, because I think it's a useful mechanic to add diversity to the game. The trick is that evasion needs to be more manageable in order to be an interesting mechanic. So there are now two ways to control evasion. The new stat "Accuracy" directly cuts down Evasion. For example, if a monster has, say 10% evasion, then 10 Accuracy would nullify it, allowing you to always hit. The following abilities now have some amount of :Accuracy built into them:
+::-	Precision Pierce
+::-	Aimed Shot
+::-	Cobra Strike
+::-	Ridicule
+::-	Strategic Chomp
+::-	Strategic Thrust
+::-	Ice Spear
+:In addition, certain pieces of equipment add Accuracy to other abilities. [[Unarmed]] is probably the current king of Accuracy -- they can find equipment that gives strong skill-wide accuracy buffs.
+:The other way to counter Evasion is with Stuns. A stunned monster loses all Evasion for 5 seconds. Note that even if a stun is reduced due to diminishing returns, the Evasion-disabling part still lasts 5 seconds. So constantly stunning a monster will render it unable to evade. And perhaps more pragmatically, you can always lead with a stun before using your heavy-hitter ability to bypass Evasion. (And as usual, this change works on players too -- if you're stunned, you lose any Evasion buffs from armor.)
+:The following monster types are the only ones with any Evasion. (Note that their other stats or abilities were lowered, so some of these monsters are probably more dangerous than before, but not INSANELY so.)
+::-	[[Basilisk Controller|Basilisk]]s
+::-	Fairy Healers (e.g. Autumn Healer, Fairy Heal Slave, etc.)
+::-	[[Ranalon Warrior]]s (which needed reworking anyway)
+::-	Ghosts
+::-	Deinonychuses. Deinonychi? The little jumpy dinosaurs
+::-	Rats (including pet rats)
+:If you are Evaded by any other kind of monster, you should report it!
+:To help test evasion in a controlled environment, there are new "Evasive Target Dummies" in the Serbule keep (where the training-golem guy is). These dummies have 20% evasion, so an ability with Accuracy +20 should completely bypass their evasion.
+
+===<b>Regeneration and DoTs</b>===
+:Regeneration was once heavily used by many monsters (and all bosses!) but it wasn't very fun because there was no way to counteract it. Since then, regeneration has only been used by a couple of creatures in the game (mainly hook beasts and slimes). But regeneration is a useful way to add diversity to combat. It just needs a way to counteract it. So in this update, regeneration can now be countered by damage-over-time effects, on a point-for-point basis. 
+:The way it works is this: Monsters regenerate every 5 seconds. On that 5-second mark, all damage-over-time that was done to the monster during the last 5 seconds is subtracted from the amount it regenerates. So if your Hacking Blade deals 80 damage over 4 seconds, that will cancel out 80 points worth of the monster's health regeneration –- in addition to the 80 points of damage it already did! This means that damage-over-time attacks effectively do double damage against regenerating creatures.
+::The following monster types now have some amount of regeneration. (Note that in most cases their base stats were reduced to counter-balance for this change.)
+::-	Slimes
+::-	[[Hook Beast]]s
+::-	Dragon Worms (but note that they were nerfed in general, as they were too powerful before)
+::-	Elementals
+::-	Slugs
+::-	Snails (but they can no longer cast heal on themselves, see below)
+::-	Striga
+:A few additional notes:
+:-	I used the term "damage-over-time" because it's a well-known term, but technically, all "indirect" damage works. Indirect damage is any damage that doesn't happen immediately from an attack. Other kinds of indirect damage include damage-reflection (e.g. Brambleskin, Fire Reflection Potions, etc.) and delayed-damage (e.g. "This attack deals 100 damage after a 20 second delay.")
+:-	Because this is a systemic change, it also applies to players' regeneration. If you have equipment that boosts your "Health Regeneration (In-Combat)", your regeneration will be reduced by any damage-over-time effects you've suffered during the past 5 seconds. (Note that by default, players have no in-combat regeneration unless they have items or abilities that provide it.)
+:-	This change only applies to in-combat regeneration; out-of-combat regeneration is not affected.
+:-	Armor regeneration works the same way, but is tallied separately: armor-damage-over-time reduces in-combat armor regeneration. However, it's pretty moot because armor regeneration is not used by any monsters at the moment. (The [[Rhino Guardian]] in the [[Serbule Crypt]] used to have armor regeneration, but it was removed.) 
+:-	Snails used to be able to heal their health and armor when their rage-meter was full. The health-healing part has been replaced by health-regen, and armor-healing has been replaced by dense armor (see below).
+:-	This change is an experiment and is subject to change or removal! At the very least I expect we'll need to tweak the regeneration rates up or down for various monsters. Feedback is very much needed here!
+
+===<b>Dense Armor</b>===
+:There are many loot items in the game which can quickly remove a lot of armor. At high level these are less desirable, because they're perceived as "damage that only works until the monster's armor runs out". In order to make armor-removal abilities just a bit more valuable, while also adding more monster diversity, we are adding the concept of “dense armor”.
+:Certain monsters now have extra-dense armor. This means that they have additional damage mitigation based on their remaining armor. The normal formula (which players also use) is unchanged: 1 damage mitigation for every 25 points of armor remaining. But these special monsters instead have1 mitigation for every 10-20 points of armor remaining. As a result, quickly removing these monsters' armor will greatly speed up their demise.
+::The following types of monsters have dense armor (with changes to some of their other stats to counterbalance):
+::-	Rhinos
+::-	Some Spiders (most of the stunning-type and boss-type, but not poisoning-type)
+::-	Watchers
+::-	Urak
+::-	Snails (replacing their armor-heal power)
+::-	Scorpions
+::-	Some Skeletons (such as "Invincible Warrior" and "[[Immortal Bulwark]]")
+:This change is hard to handle at low level -- either it's irrelevant or way too dangerous -- so it hasn't been used too much. Higher level players have more ways to counteract this, so we'll probably use it on more higher-level monsters going forward. Again, this is an experiment -- expect changes here and please provide feedback!
+
+===<b>[[Transmutation]] Changes</b>===
+:-	Previously there was a chance that a transmuted enchantment would be lower-level than its predecessor, and future transmutations might make that lower still, creating a "death spiral" for the item's quality. This can no longer happen -- the level is rolled from scratch with each transmutation, so even if one roll has a lower level, the next roll has the same chance as the original item to be higher level.
+:-	The cost of transmutation has been raised. Adding a non-skill-specific power costs 15 phlogiston (instead of 10). Adding a skill-specific power costs 35 phlogiston (instead of 20). This reflects the increased amount of magical loot in the world (see above) as well compensating for the removed danger of permanently lowering the item's enchantment levels.
+:-	The amount of phlogiston you get from transmuting high-rarity items has been raised. (Not a lot of people do that, but hey, if you have to do that, it should get you a bit more phlog!)
+:-	During this week only, transmutation will not consume durability from the item.
+
+
+===<b>Taunt Changes</b>===
+:There are some relatively subtle changes to how taunting works; see forum patch notes for details.
+
+===<b>Hammer</b>===
+:[[Hammer]] had changes - see forum notes for details, but here's key info:
+:-	New Hammer ability, "Seismic Impact". It will be learned automatically as you level up the Hammer skill (and will be in your Persona window if you've already leveled it up).
+
+===<b>Druid</b>===
+:-	Several pieces of [[Druid]] gear had to be moved to different gear slots. (The "chest" slot had twice as many gear options as every other slot ...) Items with gear in the old slots have become Legacy Items.
+:-	Cold Sphere was supposed to last 30 seconds (as it says in the ability text) but was accidentally lasting 60 seconds, letting you have two of them. This is fixed.
+:-	Replaced Druid ability "Cloud Natural Senses" with "Trackless Steps". It's a similar idea, but it buffs you instead of debuffing an enemy. Much more practical, and this version doesn't have the ironic side-effect of potentially alerting the enemy.
+:-	Druid skill has a new ability: Shillelagh. It's a basic attack that is learned automatically at levels 2, 19, and 42. Nothing too special about it --  it's just a way to hit things with your stick. It was added so that players can more easily use druid as their main skill instead of their supporting skill. If you already have the Druid skill past level 1, you'll find this ability in the Persona window. There are a couple of new treasure effects that enhance the ability.
+:-	New druid treasure effects help round out the skill set, including treasure effects for Healing Sanctuary.
+:-	Druid can now be raised to level 60.
+
+===<b>Mining / Geology / Surveying</b>===
+:-	Lots of recipe tweaks and adjustments to recipes.
+:-	[[Geology]] maps are worth a bit more money. 
+:-	XP tables are changed. 
+:-	Some surveying recipes that used to be possible are no longer possible. Most prominently, you cannot mine for ore in [[Serbule]] anymore. (But you can mine in [[Serbule Hills|[South Serbule]] instead!) 
+:-	You can mine for [[Amazing Metal Slab]]s in [[Eltibule]]. (See the new NPC in South Serbule to obtain this recipe and all the others for Serbule, South Serbule, and Eltibule.)
+:-	Doing multiple mining recipes back-to-back quickly will earn you "bonus ore", similar to how you can get bonus gems from geology maps. However, the bonus ore doesn't usually just give you more Metal Slabs -- it gives you new kinds of ore with various crafting uses. Most of these new ores can't be obtained any other way (right now, at least). Different areas have different bonus ore possibilities; for instance in South Serbule you can find things like [[Pyrite]] and Gold Nuggets, but in higher level areas you can find things like Cinnabar and Rhodium.
+:-	New high-level mining recipes: "motherlode maps". These are experimental maps that give a lot of ore at once, but have trickier ingredients to make, and the map is less useful -- it doesn't show a spot on your map, only a distance, so you'll have to search around to find the motherlode.
+:-	The time window needed to get "bonus loot" from gem survey maps has been tweaked. It had been randomly chosen between 1 and 5 minutes. It's now different for different areas; in Serbule and Eltibule it's between 1.5 and 3.5 minutes. In Kur it's between 2.5 and 4.5 minutes.
+
+===<b>Fletching</b>===
+:Changed (improved) [[Fletching]] recipes. See forum patch notes for exact details, although it will be mostly obvious.
+
+===<b>Calligraphy</b>===
+:-	Reduced the cost of inks.
+:-	Revised some existing [[Calligraphy]] recipe ingredients and effects.
+:-	Lowered the cash value of secret calligraphy scrolls.
+:-	Calligraphy can now be raised to 60.
+
+===<b>[[Sigil Scripting]]</b>===
+:-	Reduced the cost of inks (and reduced complexity when crafting your own).
+:-	Revised sigils to be more useful -- some were already somewhat useful, while others were comically terrible.
+:-	Reduced ink-consumption cost of explosion sigils.
+:-	Sigil Scripting abilities now specify the damage/healing/etc. that the sigils do.
+:-	Sigil Scripting can now be raised to 60.
+:-	'''A new rare recipe book teaches the alchemical recipes for the new Amazing Inks.''' It would be most commonly found on very dangerous skeletons such as [[Skeleton Death Shepherd]]s, [[Skeleton Corpse Keeper]]s, [[Skeleton Darkweaver]]s, or [[Skeleton Vigilant]]s. It can also be found on 50s-range scroll-dropping bosses including the named bosses in [[Dark Chapel]] and [[Winter Nexus]].
+
+===<b>Equipment, Ability, Recipe Changes</b>===
+:Too long to list here, see forum for details.
+
+===<b>Other Bug Fixes / Changes</b>===
+:-	[[Chicken]]s occasionally lay eggs. There are new recipes, such as: hard-boiled eggs (cooking level 1) and soft-boiled eggs (cooking level 7), which are for sale from [[Fainor]].
+:-	The "Chance to Avoid Death" attribute now has a 15-minute reset instead of a 60-minute reset. (Hopefully this makes the attribute a bit more practical.)
+:-	"So and so feels vulnerable!" messages are now only added to your chat when you are within 40 meters of the vulnerable creature.
+:-	Various "emote" texts (including the annoying "compassionately buries the corpse" messages) will only be visible if you're within 60 meters of the emoting player.
+:-	Serbule Guild Storage Chest #2 was tied to the permission for chest #1. It now uses the correct guild-permission.
+:-	[[Old Fangsworth]]: Old Fangsworth now always spawns. (Previously, a regular tiger would often appear in his stead, so you had to kill lots of tigers until he showed up.) He has a 3 minute respawn, and can spawn in many areas in the tiger field. His unique loot item ("tiger-urine-encrusted shirt") only drops the first time you kill him per day.
+:-	Banana trees look more like banana trees, instead of some kind of pine.
+:-	More NPCs in [[Serbule]] notice when you kill their domestic animals -- and hate it.
+:-	Fixed a bunch of loot items that could never have any magic enchantments, including: "Sturdy Boots", "Rita's Charm", "Flower Dainties", "Flat Footers", "Basic Combat Flask", "Ruggedized Boots".
+:-	Several Favors could not be cancelled. They can now. 
+:-	Several work orders for tools were described incorrectly (e.g. the work order for Multipurpose Knives told you to deliver Amazing Skinning Knives instead).
+:-	Revised [[Fugorg]] statue goblin encounter: the loot chest no longer spawns randomly but is static next to the statue; it can be used once per day and has slightly improved loot.
+:-	Tweaked rules in PvP cellar to make playing around in there a little more fun (or at least less insta-death-y). All direct attack damage is reduced by two thirds. All indirect (damage-over-time) damage is halved.
+:-	Made the stairways much longer in the "minotaur labyrinth" dungeon to avoid monsters being able to hear combat on the floor above them. Slowed down the respawn rate by 50%, so that only half as many monsters respawn each time. ::(There are more changes to come here - I just didn't have enough time yet!)
+:-	[[Glajur]] the goblin was willing to buy any item for 10gp -- this is confusing. He now only buys recipes, bones, and skulls (and pays reasonable amounts for them).
+:-	Reduced some "chest distortion" on female elves that was left over from a previous art version, and looked weirdly exaggerated on this version.
+:-	Fixed the weird "super thick eyeshadow" effect on human female faces. (This was an error from when we converted to Unity 5.)
+:-	Fixed transparency of hair on several races, male and female.
+:-	Giant beetle damage reflection was bugged. Due to a typo, it had 12% damage reflection instead of the intended 20% damage reflection. On the other hand, another bug caused indirect damage to be reflected; it no longer is. Only direct attack damage should reflect.
+:-	A new song is automatically performed via player instruments when you play them anywhere on the Rahu map. (This song is actually intended for a different city -- the very-high-level crone capital city -- but, well, I'm tired of the first song and didn't want to sit on these tracks another six months or more!)
+:-	The myconian merchant [[Way]] has raised his prices on beaks and simple metal slabs. (He's intended as a backup source, not a primary resource. Eventually we'll have vendor code that lets him sell a small number to each player at a low price, and then not sell any more. But for now he just charges insane prices instead.)
+:-	[[Ukorga]] has the recipe for level 60 winter coats.
+:-	New guild storage chests in [[Rahu]], [[Kur Mountains]] and Animal Town.
+:-	[[Daniel Murderdark]] has moved from [[Amulna]] to his permanent residence in Rahu.
+:-	[[Furlak]] has moved from the Winter Nexus to his permanent residence in Rahu.
+:-	[[Kleave]]'s shop preferences have changed; she buys skins and hides now, not food and potions.
+:-	[[Marna]] once again offers training for the ability Poison Arrow 6.
+:-	Added multiple respawn spots in the desert zones. When you die, you'll respawn at the nearest spot.
+:-	[[Sun Vale]] has a new music track. (The old one will return with the upcoming [[Sedgewick Forest]] map.)
+:-	[[Eltibule]] has a second ambient track that interleaves with the original one so it doesn't get as repetitive.
+:-	Reduced the amount of XP you get for putting oil into town lamps once you've reached level 10 in [[Civic Pride]]. Raised the amount of XP you receive for turning the lamp off when it was on overnight, or turning it on if it was off when it went dark.
+:-	New slash command for people who get their resource-objects stuck in walls or lost. (Fishing holes, cheese casks, drying boxes of arrows, etc.) "/zapresources fletching" will delete your fletching boxes. (Actually, it will make you give it a confirmation code first.) Similarly, "/zapresources icefishing" and "/zapresources cheesemaking" work for those other kinds of resources.
+:-	Rakshasa bandits in the desert sometimes drop treasure clues. Treasure Cartographers can decipher these clues and hunt down the treasure -- after they get the necessary training from the Sand Seer.
+:-	New hourly-quest giver in Rahu. Her quests vary in difficulty a good bit more than [[Pennoc]], but her rewards can be greater also. Once again, many of her quests are using brand new tech, so watch out for problems.
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

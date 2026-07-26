@@ -1,0 +1,125 @@
+==Hotfix: July 30, 2024==
+We fixed a bug in today's patch that caused some elves to be invisible. If you are still seeing invisible elves -- err, not seeing -- anyway if that's happening to you, please patch through Steam. If you don't see a patch available you may need to restart Steam.
+==Update Notes: July 30, 2024==
+Today we have a nice well-rounded update for you, with a bit of combat mechanic tweaking, some necro love, a bit of horse cosmetics, a new horse race and more.
+
+===Combat Changes===
+=====Changes to Area-of-Effect Damage and Monster Buffs=====
+Some background: when an area-of-effect attack hits more than 3 enemies, its direct damage is reduced. But due to technical limitations, the amount of INDIRECT damage was not reduced. This caused many players to create builds focusing heavily on indirect damage and burst attacks, to the detriment of basically all other attack styles in the game.
+
+This allowed players to fight monsters in much larger groups than intended, so more recently we added monster buffs of various potencies that only kick in when fighting a large group of monsters. 
+
+The most potent monster buff, "Burst Reaction", dealt damage to attackers whenever they used Burst attacks. This caused players some consternation, as it could easily lead to sudden player death.
+
+In this update we're experimenting with other approaches to this balancing problem. We've solved the technical issue that prevented indirect damage from being reduced in burst attacks. Burst attacks now deal reduced damage when they hit more than 3 targets, similar to direct damage, although the dropoff is slower and less dramatic than the dropoff for direct damage. (Indirect damage falls to a minimum of 50% damage when hitting 9 or more targets, while direct damage falls to 25% damage when hitting 9 or more targets).
+
+
+Alongside this change, we've changed monster buffs as follows:
+::- "Burst Reaction" Monster Buff has been replaced with new damage-resistance buffs
+::- Monster Buffs no longer stack with themselves
+::- Monster Buffs last 30 seconds instead of 60 seconds
+::- Most Monster Buffs are diminished in potency, with the notable exception of the "Angry" buff that boosts non-Rage attack damage -- that buff remains very dangerous!
+
+=====Burst Radius Bonus=====
+Since we're exploring changes to area-of-effect logic, we also made a change that benefits players here. For every 10 meters of radius in a Burst attack, you can hit 1 more target without suffering damage penalties. So if you used a Burst attack with a 20 meter range, you can hit 5 enemies without penalty instead of 3.
+
+If an attack's Burst Radius is not divisible by 10, the remainder is used in a random die roll to see if you get +1 more target. For instance, if an attack has a burst radius of 7 meters, there's a 7-in-10 chance that it will target 1 more enemy without suffering damage dropoff. 
+
+The drop-off rate for Burst Attack direct damage was also tweaked so that it falls to its minimum damage when hitting 9 targets instead of 8 targets.
+
+A reminder: monsters use the same combat logic as players. Their burst attacks and direct/indirect damage are affected the same way that players' are. A group of players (and their pets) can use this to their advantage.
+
+These are experimental changes that we'll run for a few weeks before iterating again on the design. We may revert these changes entirely or refine them, based on feedback.
+
+=====Damage Reflection Changes=====
+Monsters that previously had innate "Damage Reflection", such as Giant Beetles, now have "Damage Reaction". When these monsters are attacked, the attacker suffers damage, the amount of which is based on the monster. But the TYPE of damage is the same as the damage dealt to the monster.
+
+Example: player Bob attacks a Manticore with a Crushing attack. They suffer 100 Crushing damage in response. 
+
+This change affects: Giant Beetles, Manticores, Refraction Spiders, Osslars
+
+=====Aktaari Burst-Reflection Changes=====
+Monsters that previously had innate "Burst Damage Reflection" now have "Burst Damage Reaction". The damage amount is based on the monster's stats. The TYPE of this damage is always Smiting (unmitigatable damage).
+
+This currently only applies to Aktaari.
+
+
+===Necromancy===
+This update sees a number of adjustments to treasure effects for necromancers.
+
+=====Treasure Changes=====
+::- "Raised Zombies deal +28 damage and speed is +10" => +60 damage and speed is +10
+::- "Raised Zombies deal +47 damage and taunt as if they did +200% more damage" => 65 damage
+::- "Summoned Skeletons have +62 health" => +93
+::- "Summoned Skeletons have +92 armor" => +130
+::- "Summoned Skeletal Archers and Mages deal +36 direct damage" => +50
+::- "Summoned Skeletal Archers and Mages deal +24% direct damage, but take +50% damage from any slashing, piercing, or crushing attacks" => "Summoned Skeletal Archers and Mages deal +28% direct damage, but take +50% damage from crushing attacks"
+::- "Summoned Skeletons deal +22% direct damage, but take +150% more damage from any cold attacks" => "Summoned Skeletons deal +18% direct damage, but take +50% more damage from cold attacks"
+::- "Summoned Skeletal Archers and Mages deal +15% direct damage, but are instantly destroyed by ANY Nature Damage" => "Summoned Skeletal Archers and Mages deal +25% direct damage, but take +50% damage from nature attacks"
+::- "Provoke Undead deals 69 damage to your minions, who then deal +62 damage for 10 seconds" => "Provoke Undead deals 72 damage to your minions, who then deal +72 damage for 10 seconds"
+::- "Heal Undead restores +24 and has a 25% chance to boost targets' mitigation +43 for 8 seconds" => "Heal Undead restores an additional 156 Health/Armor over 12 seconds"
+::- "Summoned Skeletal Swordsmen have +140 armor" => "Summoned Skeletal Swordsmen have +149 armor and +10 Crushing/Slashing/Piercing Mitigation"
+::- "Heal Undead restores +28 Health/Armor and boosts your next attack +59 if it is a Darkness attack" => "Heal Undead boosts your next attack +117 if it is a Darkness attack"
+::- "Rebuild Undead restores 67 Health to you" => "Rebuild Undead grants targets +20% Universal Damage Resistance for 6 seconds"
+
+=====Other Necro Changes=====
+::- Heal Undead ability restores a bit more health at each tier.
+::- Pet skeleton archers no longer try to back away from their target until they have less than 50% of their Health remaining.
+::- Skeleton Swordsmen have more innate Max Armor.
+::- [[Daniel Murderdark]] in Rahu trains a new recipe to create 10 Necromancy Dust at a time.
+
+===Mount Cosmetics===
+Our mounts are getting a little snazzier in this update!
+
+Mounts have two new item slots that they can use to equip different types of cosmetic items. The Banner slot lets you equip a banner or similar item off the mount's flank. The Cosmetic slot is more general and allows you to equip decorative reins, a garland, and more. The mount UI has been slightly rearranged (and polished!) to account for these new slots.
+
+We'll be adding more mount cosmetics in the future, of course, but there are a couple of mount cosmetics you can get your hands on in this update: 
+::- [[Riston]] offers a new mount cosmetic item for Live Event Credits. 
+::- A mount cosmetic item can also be won in the new <b>Moat Circuit race in Serbule!</b> Check for the start banner on the south side of [[Serbule Keep]]. 
+::- The August VIP gift also contains a mount cosmetic. (VIP gifts are available to anyone who is/was a VIP during the given month. The August VIP gift will be available starting on Aug 1.) 
+
+Other mount changes:
+::- Pouch reins allow saddlebag access when no saddlebag is equipped (since they have pockets, too!).
+::- The Mount window now shows item levels & rarities.
+::- Auto-Close Mount Window setting now works for all mount actions.
+
+
+===Bug Fixes & Tweaks===
+
+=====Gameplay=====
+::- "Anti-Invincibility Poison" special quest item no longer disappears immediately when you log out. Instead, it lasts up to 75 minutes before self-destructing. Because the self-destruction feature can only be used on non-stacking items, "Anti-Invincibility Poison" items no longer stack in inventory. To offset the combat problems this causes, the poison no longer takes 1 second to cast; it is instant-cast when used.
+::- "Anti-Invincibility Posion" debuff now shows at the top of the debuff list when it's present.
+::- Increased the duration of all Orran Inventory potions to 5 hours (previously 3).
+::- Changed the self-destruct timer of all Liquid Super Buff potions to 60 days (previously 30 days).
+::- Fixed a bug that caused some evil Sun Statues to not count for  Sun Vale blood portal event.
+::- Animal forms can now wear Firefly Hats, Orbiting Gems, & Floating Pumpkins.
+::- Fixed a bug that restricted gene mutation when breeding animals.
+::- Fixed a bug causing corpses to sometimes be unlootable when using the new loot window.
+::- Fixed a bug causing undiscovered landmarks to show up on the minimap over top of the fog.
+::- Tuneup kits no longer prevent transmuting.
+::- Tuneup kits now have a warning that they will add a Bladesmithing requirement to any weapon they sharpen. (This is a temporary fix; eventually they will not add a requirement.)
+::- Elven Ceremonial Longswords now count as Elvish for the purposes of gift-giving.
+::- New emote for all players: /wave2
+::- New emotes for current VIPs: /cower & /knuckles
+::- Military Blue Dye can now be found in loot.
+
+=====UI=====
+::- Improved genetics window readability.
+::- Added loot radius to the persona window stats, under "General Stats".
+::- Temporary items now go to the top of the inventory when it's sorted.
+::- Better handling of missing items on hotbars when Show Item Levels is enabled.
+::- Tracked combat skills now update when you gain XP in them.
+::- Change the "High-Quality Anti-Aliasing" setting to "Anti-Aliasing", with a dropdown so you can choose your AA or turn it off completely.
+
+=====Other=====
+::- Fixed mixed-up descriptions of VIP/package titles.
+::- Fixed misplaced snows in Goblin Caves & [[Anagoge Records Facility]].
+::- Fixed misplaced water splashes in [[Gazluk Keep]].
+::- Fix for some elven hair being see-thru.
+::- Fixed a broken texture on Tree in Fae Realm]].
+::- Fixed Dark Chapel ceiling with a hole in it.
+::- Fixed a floating mushroom in Kur Caves.
+::- Fixed a hole in mountains of [[Eltibule]].
+::- Reduced server read timeout to 30 seconds to avoid interference with relogging when players violently lose connection.
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

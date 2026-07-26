@@ -1,0 +1,7 @@
+== <b>Jun 29 Note</b> ==
+A few weeks ago, we switched our master server to a new data center to try it out. This morning we switched to yet another new datacenter. The goal is to find the setup that has the least lag for the most people. Please pay a little attention while you're playing today: <b>if you have more or less lag, disconnects, or problems than you had previously, please let me know.</b>
+
+The game itself wasn't updated today (that will happen late Tuesday night), so if there are any changes in behavior it must be due to the new server configuration!
+
+(For me personally, on my home gaming PC, this new setup takes significantly longer to load new zones, but once the area is loaded there isn't any noticeable lag, and disconnections are fewer. But I am just one data point. I really need your feedback!)
+[[Category:Game updates]]

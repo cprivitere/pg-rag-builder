@@ -1,0 +1,91 @@
+__NOTOC__
+{{NPC infobox
+|title            = Tamilla
+|image            = [[File:Tamilla (npc).png|300px]]
+|caption          = A slight smile
+|zone             = Statehelm
+|town = Statehelm
+|location         = Elven apartment southwest of fountain.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = ?
+}}
+{{Quote|source=[[Tamilla]]|You're new! Hello! I'm Tamilla, priestess of Errana. I can help you with all things related to fertility. And I do mean all things.}}
+[[Tamilla]] is an elven priestess of [[Errana]] living in the city of [[Statehelm]]. She owns the only bathtub in the entire city.
+== Location ==
+; [[Statehelm]]
+: [[Tamilla]] can be found in her apartment on the second story of a building southwest from the fountain.
+== Favor ==
+[[Tamilla]] is not willing to share her preferences to individuals with '''{{favor|Neutral}}''' favor.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Tamilla]] rewards her friends with ???
+=== Hang Outs ===
+{{Spoiler|Introductory Experience (2h)|
+{{Quote|
+Tamilla said, "Whew! That was fun! You can use the tub to clean off again if you'd like. I hope I'll see you again -- it seems like you could use weekly health maintenance!
+
+Oh, and remember that there's no obligation, but I do accept donations in the name of Errana. All proceeds go towards helping the horny! That's a joke. They mostly go toward helping farmers grow healthy crops. Any amount helps!
+}}
+:35 favor with [[Tamilla]].
+: Post-Coital Bliss (+10% Earned XP from Combat and Crafting for 60 minutes).
+}}
+{{Spoiler|Weekly Health Maintenance (2h) - Complete "Introductory Experience" first.|
+{{Quote|
+It was great to see you again! I had fun. I know you did too! Same time next week? Well, I'd be happy if you pencil me in.
+
+Oh, and don't forget to make a donation if you have Councils to spare!
+}}
+:35 favor with [[Tamilla]].
+: Post-Coital Bliss (+10% Earned XP from Combat and Crafting for 60 minutes).
+}}
+== Quests ==
+[[Tamilla]] does not offer quests to those with '''{{favor|Neutral}}''' favor.
+<!--
+<dpl>
+category = Quests/Tamilla
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Services ==
+==== Crop Prediction Services ====
+[[Tamilla]] offers access to the [[Gardening#Gardening Almanac|Gardening Almanac]].
+==== Sexual Services ====
+[[Tamilla]] offers weekly 2 hour hangouts which apply the '''Post-Coital Bliss''' buff for 60 minutes. This buff grants "+10% Earned XP from Combat and Crafting."
+
+After completing a hangout, the option to Make a Donation appears.
+* 1000 Council Donation = 0.1 favor with [[Tamilla]].
+* 10000 Council Donation = 1 favor with [[Tamilla]].
+{{Quote|source=[[Tamilla]]|
+I can help you! I know how sexually frustrating life can be. And Errana understands that not all sex leads to procreation -- sex is so much more than that! If you've been feeling lonely and horny and it's becoming a problem, let's schedule a time when I can help you relax. We'll start with a luxurious bath and then go from there. 
+
+(Hangout Available).
+
+'''Are there any restrictions I should know about?'''
+
+Fetish-wise, you mean? I'm happy to roleplay most any situation, though I guess I draw the line at necrophilia-play. I'm also personally grossed out by urine and offal play, but I can tolerate being peed on a little. As long as it's in the bathroom!
+
+My biggest limitation is that I'm happy to simulate being in pain, but I don't want to actually be in pain, even for a short time. I have to work all day, and I can't handle getting beat up over and over.
+
+I think that covers the basics. We'll talk through everything before we start, so if there's any other problems, we'll work through them. I know illusion magic, which can fix a lot of issues.
+
+'''Okay. Goodbye for now.'''}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Tamilla]]|
+I like humans. [[Sagiso]] does too, deep down. But he's having a hard time finding his empathy in the face of a lot of hostility. He's young, though. He'll get it in time.}}
+{{Quote|source=[[Tamilla]]|
+You look... mmm, worth exploring.}}
+== Tabitha Smith ==
+[[Tamilla]] occasionally uses the glamour of a human woman named [[Tabitha Smith]] very early in the morning.
+
+
+[[Category:NPCs]]

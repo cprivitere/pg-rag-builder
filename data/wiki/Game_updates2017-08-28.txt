@@ -1,0 +1,67 @@
+==<b>August 28 Update</b>==
+: This is a huge update, the result of more than a month of hard work - much of it spent revamping what used to be "South Serbule" entirely. 
+: But that's not the only thing in this update by far! We've given the abbreviated version of the notes here, and more in-depth information on the forum.
+
+===<b>Serbule Hills</b>===
+: There is a new exit from [[Anagoge]], the tutorial island. Hidden at the bottom of the abandoned [[Anagoge Records Facility]] (aka the newbie dungeon) is a tunnel that leads to Serbule Hills. 
+: Serbule Hills used to called [[Serbule Hills|South Serbule]], but there's a lot more here than just a name change. The zone has been completely redone to be more useful and intuitive for new players and to be more interesting in general. 
+: '''PLEASE HELP US PLAY-TEST THIS NEW EXPERIENCE! Create a new character - you can use a guest account if you're out of character slots - and use the tunnel to reach Serbule Hills, then let us know how well it works for new players. Is it too hard? Missing something important? Let us know!'''
+
+===<b>Level 65-70 Gear Mod Changes</b>===
+: This update reduces the potency of most level 65+ gear mods. You can find an explanation of the changes - and the philosophy behind the changes - in detail on the blog. The bulk of the changes are aimed at balancing gear mods above level 60 in such a way that they can scale all the way up to level 125 without being completely insane. But there are a lot of details in there, so we urge you to read the dev blog.
+
+===<b>Skill and Ability Changes</b>===
+: There were changes to several skills' gear mods and abilities. These changes are detailed on the forum. None of the changes will cause gear to become Legacy; existing gear will simply use the new stats or effects.
+
+===<b>Augmentation & Transmutation Changes</b>===
+[[Augmentation]] and [[Transmutation]] see some major changes in this update as part of gearing up for Steam. A dev blog explains the changes in detail, but here's the brief version:
+:: * The necessary materials now occur in three level tiers: Small (0-30), Medium (31-60) and Large (61-90). All existing prisms, contraptions, beads, baubles, and ornaments have been turned into Legacy Prisms, Legacy Contraptions, Legacy Beads, etc. 
+:: * Legacy Resources can't be used in recipes, but you can take them to the Legacy Golem in Serbule to trade them in for whichever tier of item you need.
+:: * There are new recipes for each tier. The old recipes became the low-level (0-30) recipes, and you can learn the higher-level ones from the usual trainers.
+:: * The XP requirements for leveling these skills has increased - an increase that is perfectly offset by increases in the XP you earn from level-appropriate recipes. (The difference is the 'level-appropriate' part.)
+
+===<b>Poetry Podium</b>===
+: In [[Serbule]]'s inn there is a podium that allows you to recite poetry books aloud, giving Poetry Appreciation XP to all players nearby (including you), and giving you Oratory XP as well. 
+: This is a prototype, and right now we're most concerned with the technical implementation: can you break the recital system? If so, please let us know! We have some future improvements in mind, such as letting your Oratory skill affect the potency of poetry buffs, but that will come later.  We'll also add more podiums to other cities, and eventually let player-carpenters craft their own.
+: The poetry podium itself has instructions, and hopefully it's intuitive enough to figure out. If not, we'd like to know that, too! 
+
+===<b>Spawn Density</b>===
+: We have improved the spawn density in [[Serbule]]. This was done at the last minute, and more work needs to be done, but it seems to be more fun this way, so we're shipping it! 
+: However, due to the rushed nature, there may be unforeseen side effects. Please report any spawn problems that seem crazy! Examples: tons of monsters all standing together in a knot of death, lots of loot or resource items in the same area, monsters respawning too quickly, etc. 
+: Serbule should feel denser, but definitely not "Holy crap I'm just going to stay in this area forever and collect all the loot and never have to move again!" dense. Or anywhere close to that, really. Denser, but not stupidly dense.
+
+: There is a second spawn change in this update, although this one is just a bug fix: in certain dungeons, spawners were broken so that they didn't create the proper number of "add-on" monsters. The most notable affected locations were:
+:: * Several large rooms in the minotaur dungeon
+:: * Many of the encounters in [[Gazluk Keep]]	
+: Be on guard when doing these dungeons and if things are now too hard, let us know.
+
+===<b>NPCs & Training</b>===
+:: * [[Joeh]]'s barter options (e.g. trading a spoon for fish scales, etc.) have been removed. They were the prototype barter options when we were testing the barter feature, and they never really made any sense.
+:: * Joeh's intro quest to kill tigers (which collided, story-wise, with his quest to collect tiger eyeballs) has been removed. It, too, was a prototype from a bygone era. However, the collect-tiger-eyeballs quest now gives 750 Sword XP instead of 250, so that doing just the eyeball quest earns the amount of XP you would have gotten from both. There's also more tigers (due to the spawner changes mentioned above).
+:: * Joeh's max purchase caps didn't increase when raising favor from "Like Family" to "Soul Mates".
+:: * Joeh no longer unlocks [[Calligraphy]]. That is now unlocked by a new NPC in Serbule Hills.
+:: * [[Jara]] no longer trains the recipes for calligraphy benches. They are taught by a new NPC, [[Paul Vaughn]].
+:: * [[Nishika]]'s storage has changed from "ingredients for any skill" to "food or cooking ingredients". This will not affect items already in storage, but once you withdraw an item that no longer counts, you won't be able to put it back in.
+* The recipes for Butter, Mild Cheddar Cheese, and Beginner's Buttermilk are now taught by Braigon (the Eltibule cheese trainer) instead of Fainor (the Serbule cooking trainer).
+:: * [[Durstin Tallow]] has new recipes to train.
+:: * Among other new recipes added to the game in this update, Paul Vaughn in Serbule Hills has recipes to convert perfect lumber into a large number of wood chips.
+
+===<b>Food Changes</b>===
+: There were a number of recipe changes, which are detailed on the forum. In addition:
+:: * Mutton now comes in two varieties, low-level and high-level. All existing mutton has been turned into Great Mutton, which is still used in the existing mutton recipes without changes. The new mutton, just called Mutton, comes from Serbule Hills sheep and is used in new recipes
+:: * The recipes for Potato Cubes, Onion Cubes, and Onion Slices have been removed. Recipes that needed potato cubes, onion cubes, or onion slices now take a potato, an onion, or two onions instead.
+
+===<b>Other Changes and Fixes</b>===
+:: * Rebalanced how each type of armor boosts your Combat Refresh. Leather, cloth, and organic armor give more resources from a combat refresh, while metal armor gives less. NOTE: The amount of Armor you get from wearing each piece of equipment hasn't changed. The only thing that changed was what happens when you perform a Combat Refresh (by using a basic attack, once every fifteen seconds).
+:: * In the center of [[Gazluk City]] is a new altar to the god of war, [[Tast]]. Hardcore players can use this altar to gain a 5% buff to max health and max power. The buff is lost only on death (and has to be re-acquired.)
+:: * Fixed an exploit that allowed players to loot solo-monster corpses that they didn't actually have permission to loot.
+:: * When crafting gear, if you used a crystal that has no skill attunement (such as Diamond), the item could end up with more than two combat skill requirements (and thus be immediately flagged as Legacy).
+:: * You can now see basic likes/dislikes for an NPC even if you are Tolerated or Disliked by an NPC. (This helps with cases where you accidentally piss off an NPC and then don't even know what to give him as a gift.)
+:: * Made it easier to see particles applied to bears (typical particles will appear near the bear's head instead of the bear's midsection).
+:: * Began replacing particles that have become obsolete due to changes in Unity engine. Most noticeable: the "on fire" particle is changed to a better-performing particle.
+:: * The default keyboard map now sets the commands "Select Next Interactible" and "Select Previous Interactible"  to ` and shift+`, respectively. Previously they were unmapped by default. (This only has an effect on new installations of the game. If you want these commands available in your existing setup, configure them from the Options->Keyboard Commands screen.)
+:: * Tab-targeting selection distance increased in outdoor zones (from 60m to 80m).
+:: * Bottles of milk stack to 5.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

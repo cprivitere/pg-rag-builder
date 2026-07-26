@@ -1,0 +1,333 @@
+__NOTOC__
+{{NPC infobox
+|title            = The Floriculturist
+|image            = [[File:Floriculturist(npc).png|300px]]
+|caption          = If he had eyes, they'd be scanning the horizon
+|zone             = Vidaria
+|location         = Flying Rock
+|anatomy = Undead
+|species = Undead
+|beastspeak       = Yes
+|beastlist = All
+|smalltalk = Yes
+|skilltrainer     = [[Nature Appreciation]], [[Flower Arrangement]]
+|barter = yes
+}}
+{{Quote|source=[[The Floriculturist]]| <!-- This quote should be something informative about the NPC, or express their personality. The quote can be from the NPC, or another NPC talking about them.-->
+Isn't the air up here just so... lovely?
+}}
+
+The Floriculturist still has a lot of missing memories, and requires reminders of his past life in order to train you in most things. These reminders take the form of 'Memory Notes'.
+
+Memory Notes are acquired by first finding and inspecting [[:Category:Items/UninspectedMemento|Mementos]], an item just like any other. Once you inspect a Memento, you will receive a hint about which NPC in the world can identify it for you. Gift it to that NPC in exchange for a [[Memory Note]]. But be careful: gifting it to the wrong NPC will lose it permanently!
+
+== Location ==
+Meditating on a small flying rock in [[Vidaria]]. To talk to [[The Floriculturist]] you need level 50 in [[Corpse Talking]].
+Each conversation can be initiatiated with one [[Fetish Bag]].
+
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+<noinclude>[[Category:Small talk]]</noinclude>
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+{{Spoiler|Rewards at {{favor|Comfortable}}|
+*  Offers hangout to Meditate on the Sky Island
+}}
+{{Spoiler|Rewards at {{favor|Friends}}|
+* 1 [[Sunflower Bouquet]]
+}}
+{{Spoiler|Rewards at {{favor|Close Friends}}|
+* 1 [[Lavender Bouquet]]
+}}
+{{Spoiler|Rewards at {{favor|Best Friends}}|
+* 1 [[Relaxing Arrangement C]]
+}}
+{{Spoiler|Rewards at {{favor|Like Family}}|
+* Nothing
+}}
+
+=== Hang Outs ===
+{{Spoiler|Plant Lavender (2 hours) {{favor|Friends}}|
+{{Quote|A... good harvest today. These flowers flourish in the sun.}}
+* 15 favor
+* {{Item|Lavender}} x5
+* 500 Gardening XP
+* Repeatable (on what timeframe?)
+}}
+{{Spoiler|Recall ancient history (4 hours) {{favor|Friends}}|
+{{Quote|You have uncovered... many of my old memories. I... never would have known without you.}}
+* 25 favor
+* {{Item|Memory Note}} x1
+* 50 Lore XP
+}}
+{{Spoiler|Recall more ancient history (4 hours) {{favor|Friends}}|
+{{Quote|It seems... you have a knack for uncovering ancient memories I... never would have realized I have.}}
+* 25 favor
+* {{Item|Memory Note}} x1
+Unlocked by the prior hangout Recall ancient history
+}}
+{{Spoiler|Grow Lavender (4 hours)-(unsure of Favor level unlock)|
+{{Quote|A Floriculturist said: A... good harvest today. These flowers flourish in the sun.}}
+*21.75 {{Favor|favor}} with Floriculturist
+*{{Item|Lavender}} x 5
+*500 Gardening XP
+}}
+{{Spoiler|Meditate on Sky Island (1 hour) {{favor|Comfortable}}|
+{{Quote|The Floriculturist said: "You are ... welcome back any time you would like, friend."}}
+*10 {{Favor|favor}} with Floriculturist <!-- recalculated to 100% hangout favor -->
+*250 Nature Appreciation XP
+*(May also apply a buff "Nature Appreciation" for 2hrs that boosts Max Power by +75)
+}}
+{{Spoiler|Discuss fine linens (2 hours) {{favor|Comfortable}}|
+{{Quote|The Floriculturist said: "I can help with your textile endeavors. Here, take this seed. Make something beautiful."}}
+*22.50 {{Favor|favor}} with Floriculturist <!-- recalculated to 100% hangout favor -->
+*Flax seeds (1)
+}}
+
+== Quests ==
+<dpl>
+category = Quests/The Floriculturist
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+(the dpl above isn't populating at time of this edit, but while it does, [[Undead Memories]] is the Floriculturalist's quest)
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Nature Appreciation]]
+! Unlock
+! Level
+! Cost
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Nature Appreciation{{!}}Unlock Nature Appreciation Skill Levels 81-90
+ | skilllevel = 80
+ | cost = 15 [[Memory Note]], Level 60 Corpse Talking + 0
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Flower Arrangement]]
+! Unlock
+! Level
+! Cost
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Flower Arrangement{{!}}Unlock Flower Arrangement Skill Levels 81-90
+ | skilllevel = 80
+ | cost = 10 [[Memory Note]], Level 70 Corpse Talking + 0
+}}
+{{NPC training row
+ | recipe = Lumberjack's Arrangement #8
+ | skilllevel = 81
+ | cost = 2 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Lumberjack's Display #8
+ | skilllevel = 82
+ | cost = 2 [[Memory Note]] + some
+}}
+{{NPC training row
+ |recipe=Paleblood Bouquet
+ |skilllevel = 85
+ | cost = 2 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #9
+ | skilllevel = 85
+ | cost = 2 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Forager's Display #9
+ | skilllevel = 86
+ | cost = 2 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Cleanliness Arrangement #9
+ | skilllevel = 88
+ | cost = 3 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Cleanliness Display #9
+ | skilllevel = 90
+ | cost = 3 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Lumberjack's Arrangement #9
+ | skilllevel = 91
+ | cost = 3 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Lumberjack's Display #9
+ | skilllevel = 94
+ | cost = 3 [[Memory Note]] + some
+}}
+{{NPC training row
+ |recipe=Hyacinth Bouquet
+ |skilllevel=90
+ | cost = 3 [[Memory Note]] + some
+}}
+{{NPC training row
+ |recipe=Swamp Lily Bouquet
+ |skilllevel=95
+ | cost = 3 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Forager's Arrangement #10
+ | skilllevel = 95
+ | cost = 4 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Relaxing Arrangement #C
+ | skilllevel = 95
+ | cost = 4 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Forager's Display #10
+ | skilllevel = 96
+ | cost = 4 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Cleanliness Arrangement #10
+ | skilllevel = 98
+ | cost = 4 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Cleanliness Display #10
+ | skilllevel = 100
+ | cost = 4 [[Memory Note]] + some
+}}
+{{NPC training row
+ | recipe = Relaxing Display #C
+ | skilllevel = 100
+ | cost = 4 [[Memory Note]] + some
+}}
+|}
+
+== Services == <!-- List some of the services offered by the NPC. Consignment, Stable Master, Storage, Augmentation, or unique options. Rappanel plays music if paid, and Ashk the Answerer tells fortunes that grant buffs. -->
+==== Bartering ====
+At {{Favor| Neutral }} The Floriculturist offers to barter with you:
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Lavender Seeds}} x3<br> {{Item|Bottle of Fertilizer}} x2 || {{Item|Lavender}} x1<br> {{Item|Empty Bottle}} x2
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ???
+|RiShin Family = {{Item|Lavender}} x 30
+}}
+
+== Conversations == 
+
+To talk to [[The Floriculturist]] you need level 50 in [[Corpse Talking]].
+Each conversation can be initiatiated with one [[Fetish Bag]].
+
+{{Quote|source=[[The Floriculturist]]|
+You... can speak? To me?
+
+'''I've spoken with plenty of undead before. Now, what do you have to teach me?'''
+
+Me? ... Teach? ... You?
+
+I don't think so. I am not here to teach, I am here to ... learn.
+
+'''That sounds pretty deep for a skeleton.'''
+
+Deep... yes... that's what I am. That's what I <i>was</i>... But no longer, I have been given a second chance at life... and what a beautiful life it is!
+
+'''What do you mean, you were deep?'''
+
+Deep... under the ground. But recently I was unearthed... Risen... And now, I am here.
+
+'''Now you're here, and you think life is beautiful?'''
+
+Of course I do! How could you not? Take a look around... Have you ever seen such beauty, from such a wonderful vantage point? It is... <i>breathtaking</i>.
+
+'''Are you sure it's not death that took your breath?'''
+
+I suppose you are <i>technically</i> correct. But that only means I am more... experienced in breathtaking experiences. So believe me when I tell you that this view is extraordinary.
+
+'''Sure. So, what happened to your first chance at life?'''
+
+That... I do not know. I was buried deep. For how long? It's unclear; It could be weeks, it could be centuries. My memories... have faded.
+
+'''You really don't remember anything?'''
+
+Not a single thing. Not when I was born, not what I did with my life... not even my own name.
+
+'''Perhaps I can help you.'''
+
+Help me? To what... to reclaim my memories?
+
+'''Either that, or help you get back down to the ground.'''
+
+Absolutely not! I quite enjoy the view from up here. But my memories, on the other hand...
+
+Yes, if you can help me in some way, I accept. And who knows, I may even be able to... teach you a thing or two from my past life.
+
+'''Great. Any idea how I can help?'''
+
+Well, I died here, or my body was carried here.. so here might be a good place to start. Perhaps you can look around for something meaning full.
+
+'''And then bring it back to you?'''
+
+Well, no... I doubt that seeing a mere item will jog my memory.. but perhaps if you can find something meaningful, you can seek out someone who <i>does</i> know its importance, and they can inform you.
+
+'''That sounds sensible. I'll return when I have more info.'''}}
+
+You receive the quest [[Undead Memories]].
+
+{{Quote|source=[[The Floriculturist]]|
+
+Welcome back... Do you know who I am yet?
+
+'''What am I supposed to be doing again?'''
+
+Hunt around in the immediate vicinity for anything... meaningful, then find someone who can tell you about it. Should be... simple, right?
+
+'''Got it. I'll get back when I have all the info.'''}}
+
+Upon completing [[Undead Memories]].
+
+{{Quote|source=[[The Floriculturist]]|
+
+Welcome back... Do you know who I am yet?
+
+'''Yes, I've finished investigating.'''
+
+Wonderful. Who am I?
+
+'''You are an elven florist that's been dead for 10,000 years.'''
+
+Ten... thousand? I suppose that explains the memory loss.
+
+[The skeleton pauses for a moment and looks off to the side.]
+
+Yes, now that you mention it I do remember the flowers... So many bouquets I must have put together thousands of them...
+
+'''You are also a landscape painter.'''
+
+A painter... Yes!
+
+[The skeleton's skull turns to look over to the horizon.]
+
+I captured so many beautiful vistas in my life... but never any quite so stunning as this one.
+
+'''That's all the info I have.'''
+
+I see. While I'm sure there <i>are</i> more details, these that you've brought me have already... reawakened me.
+
+Thank you... I may have a thing or two I can teach you, now.
+
+'''Splendid.'''
+}}
+
+
+
+[[Category:NPCs]]

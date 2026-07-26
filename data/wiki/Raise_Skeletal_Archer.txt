@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Archer
+| description = Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 2
+| power cost = 50
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonArcher}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Archer 2
+| description = Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 18
+| power cost = 75
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonArcher}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Archer 3
+| description = Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 32
+| power cost = 100
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonArcher}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Archer 4
+| description = Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 47
+| power cost = 125
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonArcher}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Archer 5
+| description = Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 55
+| power cost = 125
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonArcher}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Archer 6
+| description = Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 67
+| power cost = 125
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonArcher}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Archer 7
+| description = Raise a skeletal archer from death to serve you. Skeletal archers have long-distance ranged attacks. (You must be in a graveyard to use this ability. It consumes one Femur.)
+| level = 79
+| power cost = 125
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonArcher}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonArcherOrSwordsman}}
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

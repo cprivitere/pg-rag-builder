@@ -1,0 +1,65 @@
+__NOTOC__
+{{NPC infobox
+|title            = Pickles
+|image            = [[File:Pickles.png|303px]]
+|caption          = A tired panther
+|zone = Kur Mountains
+|town             = Sacred Grotto
+|location         = Found near the campfire
+|anatomy = Feline
+|species = Panther
+|beastspeak       = Yes
+|beastlist        = All
+}}
+{{Quote|
+...
+}}
+[[Pickles]] is a Panther found inside the [[Sacred Grotto]] Warden base in the [[Kur Mountains]].
+== Favor ==
+[[Pickles]] will accept gifts of any kind of figurines (including whittled ones), as well as mechanical parts such as screws, springs, and the like. You can also gain favor over time with Pickles by leaving raw meat in the Warden storage chest. Although the foxes will eat much of it themselves, from time to time [[Pickles]] will let you know that they dropped some of it on the floor, thereby making it fair game for him to consume, and you'll gain some favor with him that way.
+
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+<!-- [[Category:Favor/Rewards]] -->
+
+== Quests ==
+[[Pickles]] offers quests to [[Warden]]s inside the [[Sacred Grotto]].
+<dpl>
+category = Quests/Pickles
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = Yellow Collar (Lv 80)
+|RiShin Family = {{Item|Pickles' Protective Collar}} (Lv 80)
+}}
+== Conversations ==
+{{Quote|
+
+:What is this spider doing here? Sugar, you were supposed to keep the cave clear. Wait, I don't think she can hear me from back here.
+:'''Wait, I'm a Warden! Milton sent me over to help!''' 
+:A spider? Don't you have your own god to appease? 
+:'''You mean Akhisa, god of spiders? Meh. But wait, what other god are you talking about?'''
+:I'm just talking. Ignore me. Now, let's pretend pleasantries are over, because you need to start helping! Our telepathic alert system is completely broken, and emergencies are coming in and there's nobody to help. Nobody knows anything! I barely know where to start! I am so SICK of this!
+:'''Sick of what? Can I help?'''
+:Sick of this work-load! This stress! I'm surrounded by weird metal bits that make no sense! This is way too much stress!
+:
+:Milton thinks I'm whining. I'm " just" doing communications and monitoring now. " Just do your best, Pickles, it's all the Wardens ever ask." Smug fucking sheep! Maybe Milton can sleep easily while other talking animals die! Horribly! Potentially horribly! Die because we don't even know they need help! 
+:
+:This is a big deal! Why doesn't anyone take this seriously? Don't answer that. I know why. It's because I'm a spont.
+:
+:(Pickles leans in conspiratorially,)
+:
+:We sponts need to work together. The wardens aren't gonna make it without us. But they don't even know!
+:'''I'm ready to help. What can I do?'''
+:Help me get the Warden Alert system working again. It's been broken for almost a whole day! And nobody here is taking this nearly seriously enough!
+:'''Okay.'''
+}}
+
+[[Category:NPCs]]

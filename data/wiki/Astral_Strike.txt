@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Astral Strike
+| description = Pull fae energy into reality, where it damages all enemies nearby. (This ability shares the reset timer of Agonize.)
+| level = 15
+| power cost = 37
+| reuse time = 60
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|AstralStrike}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| damage = 55 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Astral Strike 2
+| description = Pull fae energy into reality, where it damages all enemies nearby. (This ability shares the reset timer of Agonize.)
+| level = 30
+| power cost = 50
+| reuse time = 60
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|AstralStrike}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| damage = 115 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Astral Strike 3
+| description = Pull fae energy into reality, where it damages all enemies nearby. (This ability shares the reset timer of Agonize.)
+| level = 45
+| power cost = 63
+| reuse time = 60
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|AstralStrike}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| damage = 218 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Astral Strike 4
+| description = Pull fae energy into reality, where it damages all enemies nearby. (This ability shares the reset timer of Agonize.)
+| level = 60
+| power cost = 75
+| reuse time = 60
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|AstralStrike}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| damage = 367 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Astral Strike 5
+| description = Pull fae energy into reality, where it damages all enemies nearby. (This ability shares the reset timer of Agonize.)
+| level = 75
+| power cost = 87
+| reuse time = 60
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|AstralStrike}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| damage = 528 Electricity
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

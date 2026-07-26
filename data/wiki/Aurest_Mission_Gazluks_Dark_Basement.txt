@@ -1,0 +1,40 @@
+__NOTOC__
+==Summary==
+[[Lady Alethina]] in [[Red Wing Casino]] said, "I have heard terrifying tales of creatures deep beneath [[Gazluk Keep]]. I need you to investigate and correct these problems before they become severe. Bring allies! You'll need to trek deep into the lower level of the keep.
+
+First, there is a [[The Productivity Expert|'productivity expert']] that apparently achieves excellent results. We don't want them being productive, so fix that. Next, they have a [[Gazluk Clutchmaster|massive urak]] pumping out eggs daily. That's got to stop!
+
+Last, and most troubling, there is supposedly a [[Zukelmux|demon hidden down there]], summoned by foolish mages. They call it a 'gargoyle'. They do not understand how powerful it is. Slay it before it can open a portal and invade this world!"
+
+This [[Daily Quest]] can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lady Alethina]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Despised}} favor. This quest is only available to characters with at least two level 60 [[Skills|Combat Skills]]. 
+
+===Preface===
+I have heard terrifying tales of creatures deep beneath Gazluk Keep. I need you to investigate and correct these problems before they become severe. Bring allies! You'll need to trek deep into the lower level of the keep.
+
+First, there is a 'productivity expert' that apparently achieves excellent results. We don't want them being productive, so fix that. Next, they have a massive urak pumping out eggs daily. That's got to stop!
+
+Last, and most troubling, there is supposedly a demon hidden down there, summoned by foolish mages. They call it a 'gargoyle'. They do not understand how powerful it is. Slay it before it can open a portal and invade this world!
+
+===Requirements===
+* Kill the [[The Productivity Expert|Productivity Expert]]
+* Kill the [[Gazluk Clutchmaster]]
+* Kill [[Zukelmux]]
+* Talk to [[Lady Alethina]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Zukelmux The Intransigent?! I have indeed heard of him... and I am most impressed that you were able to slay him. ...
+
+... Actually, that's outright terrifying. It's hard to believe that a handful of mortals could slay THE [[Zukelmux]]...
+
+Actually, I bet it was an imposter! Someone claiming to be [[Zukelmux]]! Yes, that must be it.
+
+Even so, good work. Here is your payment for services rendered.}}
+* 200 {{Favor|favor}}
+* 35000 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Lady Alethina]][[Category:Quests/AurestMission]]

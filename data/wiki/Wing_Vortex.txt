@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Wing Vortex
+| description = Flap violently to disperse your enemies with a gust of wind.
+| level = 4
+| power cost = 15
+| reuse time = 12
+| range = 10 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|WingVortex}}
+| damage = 13 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Wing Vortex 2
+| description = Flap violently to disperse your enemies with a gust of wind.
+| level = 14
+| power cost = 21
+| reuse time = 12
+| range = 10 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|WingVortex}}
+| damage = 27 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Wing Vortex 3
+| description = Flap violently to disperse your enemies with a gust of wind.
+| level = 24
+| power cost = 26
+| reuse time = 12
+| range = 10 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|WingVortex}}
+| damage = 46 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Wing Vortex 4
+| description = Flap violently to disperse your enemies with a gust of wind.
+| level = 34
+| power cost = 32
+| reuse time = 12
+| range = 10 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|WingVortex}}
+| damage = 71 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Wing Vortex 5
+| description = Flap violently to disperse your enemies with a gust of wind.
+| level = 44
+| power cost = 36
+| reuse time = 12
+| range = 10 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|WingVortex}}
+| damage = 111 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Wing Vortex 6
+| description = Flap violently to disperse your enemies with a gust of wind.
+| level = 54
+| power cost = 41
+| reuse time = 12
+| range = 10 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|WingVortex}}
+| damage = 164 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Wing Vortex 7
+| description = Flap violently to disperse your enemies with a gust of wind.
+| level = 64
+| power cost = 45
+| reuse time = 12
+| range = 10 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|WingVortex}}
+| damage = 216 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Wing Vortex 8
+| description = Flap violently to disperse your enemies with a gust of wind.
+| level = 74
+| power cost = 50
+| reuse time = 12
+| range = 10 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Burst}}{{KWAB|WingVortex}}
+| damage = 275 Nature
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

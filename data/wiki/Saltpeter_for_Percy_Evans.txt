@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Percy in Eltibule has asked for saltpeter. He intends to use it to blow up a portal.
+
+===Prerequisites===
+To start this quest, talk to '''[[Percy Evans]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Been thinking about the portal those green bears use to get back into our world. I'm gonna try blowin' it up! I know an old recipe for explosions... just need a bunch of saltpeter.}}
+
+===Requirements===
+* Obtain {{Item|Saltpeter}} x4
+* Talk to Percy
+
+===Rewards===
+{{Spoiler|Rewards for Saltpeter for Percy Evans|
+{{Quote|Thanks! This will work. I'll try it out in a while.
+
+I haven't got much, but here's some of my old emergency potions. You might as well use 'em, they're just going stale sitting on my shelf.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Power Potion Omega}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Percy Evans]]

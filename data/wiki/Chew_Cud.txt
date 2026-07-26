@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Chew Cud
+| description = Eat grass to heal yourself.
+| level = 7
+| power cost = 12
+| reuse time = 10
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|ChewCud}}
+| special = Restore 33 Health. Consumes 1 Grass.
+}}
+|-
+|
+{{Ability infobox
+| name = Chew Cud 2
+| description = Eat grass to heal yourself.
+| level = 28
+| power cost = 19
+| reuse time = 10
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|ChewCud}}
+| special = Restore 100 Health. Consumes 1 Grass.
+}}
+|-
+|
+{{Ability infobox
+| name = Chew Cud 3
+| description = Eat grass to heal yourself.
+| level = 39
+| power cost = 24
+| reuse time = 10
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|ChewCud}}
+| special = Restore 125 Health. Consumes 1 Grass.
+}}
+|-
+|
+{{Ability infobox
+| name = Chew Cud 4
+| description = Eat grass to heal yourself.
+| level = 55
+| power cost = 29
+| reuse time = 10
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|ChewCud}}
+| special = Restore 150 Health. Consumes 1 Grass.
+}}
+|-
+|
+{{Ability infobox
+| name = Chew Cud 5
+| description = Eat grass to heal yourself.
+| level = 67
+| power cost = 33
+| reuse time = 10
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|ChewCud}}
+| special = Restore 175 Health. Consumes 1 Grass.
+}}
+|-
+|
+{{Ability infobox
+| name = Chew Cud 6
+| description = Eat grass to heal yourself.
+| level = 79
+| power cost = 37
+| reuse time = 10
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|ChewCud}}
+| special = Restore 200 Health. Consumes 1 Grass.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

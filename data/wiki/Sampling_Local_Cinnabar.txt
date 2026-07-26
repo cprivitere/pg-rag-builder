@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Fluffikins in Gazluk said, "My master left me with a long list of tasks, and we've fallen behind. I'd love your help! This one's tricky: I need samples of a mineral that grows in the caves around here. It's called cinnabar, and it's pretty hard to mine. But if you can get some, I'll pay you ... let's see... ten thousand Councils."
+
+===Prerequisites===
+To start this quest, talk to '''[[Fluffikins]]''' in '''[[Gazluk Plateau]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|My master left me with a long list of tasks, and we've fallen behind. I'd love your help! This one's tricky: I need samples of a mineral that grows in the caves around here. It's called cinnabar, and it's pretty hard to mine. But if you can get some, I'll pay you ... let's see... ten thousand Councils.}}
+
+===Requirements===
+* Obtain {{Item|Cinnabar}} x8
+* Talk to Fluffikins
+
+===Rewards===
+{{Spoiler|Rewards for Sampling Local Cinnabar|
+{{Quote|This is the cinnabar? Good. Here's your money. That's one task off the list... maybe I won't get in trouble after all!}}
+
+* 100 {{Favor|favor}}
+* 10000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Gazluk Plateau Quests]][[Category:Quests/Fluffikins]]

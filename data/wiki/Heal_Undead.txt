@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Heal Undead
+| description = Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses).
+| level = 6
+| power cost = 14
+| reuse time = 8
+| range = 19 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HealUndead}}
+| special = Restore 15 Health (or Armor if Health is full) to nearby ally undead.
+}}
+|-
+|
+{{Ability infobox
+| name = Heal Undead 2
+| description = Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses).
+| level = 16
+| power cost = 18
+| reuse time = 8
+| range = 19 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HealUndead}}
+| special = Restore 25 Health (or Armor if Health is full) to nearby ally undead.
+}}
+|-
+|
+{{Ability infobox
+| name = Heal Undead 3
+| description = Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses).
+| level = 26
+| power cost = 22
+| reuse time = 8
+| range = 19 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HealUndead}}
+| special = Restore 40 Health (or Armor if Health is full) to nearby ally undead.
+}}
+|-
+|
+{{Ability infobox
+| name = Heal Undead 4
+| description = Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses).
+| level = 36
+| power cost = 26
+| reuse time = 8
+| range = 19 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HealUndead}}
+| special = Restore 55 Health (or Armor if Health is full) to nearby ally undead.
+}}
+|-
+|
+{{Ability infobox
+| name = Heal Undead 5
+| description = Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses).
+| level = 46
+| power cost = 29
+| reuse time = 8
+| range = 19 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HealUndead}}
+| special = Restore 60 Health (or Armor if Health is full) to nearby ally undead.
+}}
+|-
+|
+{{Ability infobox
+| name = Heal Undead 6
+| description = Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses).
+| level = 56
+| power cost = 32
+| reuse time = 8
+| range = 19 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HealUndead}}
+| special = Restore 75 Health (or Armor if Health is full) to nearby ally undead.
+}}
+|-
+|
+{{Ability infobox
+| name = Heal Undead 7
+| description = Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses).
+| level = 66
+| power cost = 35
+| reuse time = 8
+| range = 19 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HealUndead}}
+| special = Restore 90 Health (or Armor if Health is full) to nearby ally undead.
+}}
+|-
+|
+{{Ability infobox
+| name = Heal Undead 8
+| description = Restore health to any nearby friendly undead (such as pet skeletons or shambling corpses).
+| level = 76
+| power cost = 39
+| reuse time = 8
+| range = 19 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|HealUndead}}
+| special = Restore 105 Health (or Armor if Health is full) to nearby ally undead.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,391 @@
+__NOTOC__
+{{NPC infobox
+|title            = Legs
+|image            = [[File:Legs.png|300px|]]
+|caption          = Busy spinning webs.
+|zone             = Sun Vale
+|town = Animal Town
+|location = Near a tent.
+|anatomy = Arthropod
+|species = Spider
+|beastspeak       = Yes
+|beastlist = All, if [[Beast Form|animal form]] at least the last 3 hours of play time.
+|skilltrainer     = [[Spider]], [[Tailoring]], [[Textile Creation]]
+|vendor           = Yes
+}}
+{{Quote|
+This thread is crucial to neophyte loom users. Until you can make your own thread, you must buy it from me!
+}}
+[[Legs]] is a sentient [[Spider]] that excels in spinning creations from her silk. She also likes to collect hunting trophies from monsters.
+
+As a resident of [[Animal Town]], [[Legs]] is only willing to hold conversations with characters that have transformed into a [[Beast Forms|Beast Form]] over 180 real-world minutes prior to the conversation attempt. If you lose track of the time you last transformed, [[Norbert]] is willing to tell you how long you have until the other residents will tolerate talking with you.
+== Location ==
+; [[Sun Vale]]
+: [[Animal Town]]
+== Shopkeeper ==
+{{Vendor items sold}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+{{Spoiler|Reward at {{Favor|Comfortable}}.|
+{{Quote|You did a service for me, and I shall do a service for you. Let me show you how to create cloth.}}
+:Visit the Training menu to unlock Textile Creation.
+}}
+{{Spoiler|Reward at {{Favor|Comfortable}}.|
+{{Quote|You continue to provide me with items of value. I shall trade for knowledge.}}
+:Additional recipes are available.
+}}
+
+== Training ==
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Textile Creation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=String (from Spiderweb)
+ |skilllevel=13
+ |cost=900
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Breadcloth
+ |skilllevel=?
+ |cost=?
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Voile Muslin
+ |skilllevel=?
+ |cost=?
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Cotton Thread
+ |skilllevel=?
+ |cost=?
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Flower Banding
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Fine Cheesecloth
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Spider Silk
+ |skilllevel=?
+ |cost=965
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Strong Spider Silk
+ |skilllevel=?
+ |cost=?
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Extreme Spider Silk
+ |skilllevel=35
+ |cost=2,965
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Incredible Spider Silk
+ |skilllevel=45
+ |cost=4,632
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Carded Cotton (Expert Level)
+ |skilllevel=?
+ |cost=4,632
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Carded Cotton (Master Level)
+ |skilllevel=45
+ |cost=?
+ |favor=Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Tailoring]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Shoddy Spider Casing
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shoddy Spider Casing (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Spider Casing
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Spider Casing (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Crude Spider Casing
+ |skilllevel=?
+ |cost=?
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Crude Spider Casing (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Decent Spider Casing (Enchanted)
+ |skilllevel=30
+ |cost=1548
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Spider Casing (Enchanted)
+ |skilllevel=?
+ |cost=2694
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Spider Casing (Max-Enchanted)
+ |skilllevel=?
+ |cost=3898
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Quality Spider Casing (Enchanted)
+ |skilllevel=?
+ |cost=4128
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Spider Casing (Max-Enchanted)
+ |skilllevel=?
+ |cost=5618
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Spider Casing (Enchanted)
+ |skilllevel=?
+ |cost=6708
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Spider Casing (Max-Enchanted)
+ |skilllevel=?
+ |cost=8484
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Spider Casing (Enchanted)
+ |skilllevel=?
+ |cost=9860
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Spider Casing (Max-Enchanted)
+ |skilllevel=?
+ |cost=11352
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Riding]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Spider{{pipe}}Spider-Form Travel Mode
+ |skilllevel=25
+ |cost=0
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Move Those Legs!
+ |skilllevel=25
+ |cost=2300
+ |favor=Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Spider]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Spider{{pipe}}Unlock Spider Skill Levels 51-60
+ |skilllevel=50
+ |cost=20,000
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Spider{{pipe}}Unlock Spider Skill Levels 61-70
+ |skilllevel=60
+ |cost=100,000
+ |favor=?
+}}
+{{NPC training row
+ |ability=Web Trap 2
+ |skilllevel=53
+ |cost=9850
+ |favor=?
+}}
+{{NPC training row
+ |ability=Spit Acid 4
+ |skilllevel=54
+ |cost=9900
+ |favor=?
+}}
+{{NPC training row
+ |ability=Inject Venom 4
+ |skilllevel=55
+ |cost=9950
+ |favor=?
+}}
+{{NPC training row
+ |ability=Terrifying Bite 4
+ |skilllevel=55
+ |cost=9950
+ |favor=?
+}}
+{{NPC training row
+ |ability=Infinite Legs 6
+ |skilllevel=56
+ |cost=11500
+ |favor=?
+}}
+{{NPC training row
+ |ability=Grappling Web 4
+ |skilllevel=57
+ |cost=11550
+ |favor=?
+}}
+{{NPC training row
+ |ability=Incubate 4
+ |skilllevel=57
+ |cost=11550
+ |favor=?
+}}
+{{NPC training row
+ |ability=Gripjaw 4
+ |skilllevel=59
+ |cost=11650
+ |favor=?
+}}
+{{NPC training row
+ |ability=Webspin
+ |skilllevel=60
+ |cost=11700
+ |favor=?
+}}
+{{NPC training row
+ |ability=Spider Bite 7
+ |skilllevel=60
+ |cost=11700
+ |favor=?
+}}
+{{NPC training row
+ |ability=Premeditated Doom 4
+ |skilllevel= 60
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Spit Acid 5
+ |skilllevel=64
+ |cost=14900
+ |favor=?
+}}
+{{NPC training row
+ |ability=Terrifying Bite 5
+ |skilllevel=65
+ |cost=14950
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Infinite Legs 7
+ |skilllevel=66
+ |cost=17000
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Inject Venom 5
+ |skilllevel=67
+ |cost=17050
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Incubate 5
+ |skilllevel=67
+ |cost=17050
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Gripjaw 5
+ |skilllevel=69
+ |cost=17150
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Grappling Web 5
+ |skilllevel=70
+ |cost=17200
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Spider Bite 8
+ |skilllevel=70
+ |cost=17200
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Premeditated Doom 5
+ |skilllevel=70
+ |cost=17200
+ |favor=Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Extreme Spider Silk}} x6
+|RiShin Family = {{Item|Extreme Spider Silk}} x10
+}}
+== Conversations ==
+{{Quote|source=[[Legs]], if humanoid|
+That "Spot" woman will come and pester me all day if she sees me talking to a biped. And I cannot kill her or the others will become angry. So I must simply avoid her ire. Leave me!}}
+
+[[Category:NPCs]]

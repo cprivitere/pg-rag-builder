@@ -1,0 +1,283 @@
+__NOTOC__
+{{NPC infobox
+|title            = Rebeccah the Whisperer
+|image            = [[File:Rebeccah the Whisperer (npc).png|300px]]
+|caption          = She doesn't seem to speak
+|zone             = Statehelm
+|town = Statehelm
+|location         = Bard College
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|skilltrainer     = [[Glassblowing]]
+|storage = Yes
+}}
+{{Quote|source=[[Rebeccah the Whisperer]]|
+Rebeccah plays a few soft, haunting notes to convey her greeting.}}
+[[Rebeccah the Whisperer]] is receptionist and test proctor for the Bard College.
+== Location ==
+; [[Statehelm]]
+: [[Rebeccah the Whisperer]] can be found in the reception room for the Bard College
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards ===
+[[Rebeccah the Whisperer]] rewards her friends with additional training options.
+=== Hang Outs ===
+<!--
+{{Spoiler|Explore new mind-altering compounds(4h)|
+{{Quote|
+Echur said, "That one was too hallucinogenic for me. I prefer ones that focus the mind, not distract it. You keep the rest."
+}}
+:35 favor with [[Echur]]
+:25 [[Mycology]] XP
+:4 x {{Item|Blusher Mushroom}}
+}}
+-->
+== Quests ==
+[[Rebeccah the Whisperer]] offers no quests at '''{{favor|Neutral}}''' favor.
+<dpl>
+category = Quests/Rebeccah the Whisperer
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Glassblowing]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Glassblowing{{pipe}}Learn Glassblowing
+ |skilllevel = 0
+ |cost=0
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe = Quality Malice Orb (Enchanted)
+ |skilllevel= 50
+ |cost= 20640
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Quality Malice Orb (Max-Enchanted)
+ |skilllevel= 53
+ |cost= 22800
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Quality Scintillating Orb (Enchanted)
+ |skilllevel= 50
+ |cost= 20640
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Quality Scintillating Orb (Max-Enchanted)
+ |skilllevel= 53
+ |cost= 22800
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Quality Searing Orb (Enchanted)
+ |skilllevel= 50
+ |cost= 20640
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Quality Searing Orb (Max-Enchanted)
+ |skilllevel= 53
+ |cost= 22800
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Quality Mind Focus (Enchanted)
+ |skilllevel= 50
+ |cost= 20640
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Quality Mind Focus (Max-Enchanted)
+ |skilllevel= 53
+ |cost= 22800
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Empty Basic Wine Bottle
+ |skilllevel= 60
+ |cost= 28080
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Exploding Beakers
+ |skilllevel= 65
+ |cost= 32280
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Empty Basic Wine Bottle
+ |skilllevel= 70
+ |cost= 36720
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Empty Basic Wine Bottle
+ |skilllevel= 80
+ |cost= 46560
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Small Prism
+ |skilllevel= 50
+ |cost= 20640
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Medium Prism
+ |skilllevel= 65
+ |cost= 32280
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Large Prism
+ |skilllevel= 80
+ |cost= 45560
+ |favor= ?
+}}
+{{NPC training row
+ |recipe = Grand Prism
+ |skilllevel= 95
+ |cost= 63600
+ |favor= ?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Glassblowing{{pipe}}Unlock Glassblowing Skill Levels 71-80
+ |skilllevel = 70
+ |cost=200 SR or 400000
+ |favor=Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Glassblowing{{pipe}}Unlock Glassblowing Skill Levels 81-90
+ |skilllevel = 80
+ |cost=400 SR or 800000
+ |favor=Close Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Glassblowing{{pipe}}Unlock Glassblowing Skill Levels 91-100
+ |skilllevel = 90
+ |cost=600 SR or 1200000
+ |favor=Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Geology]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe = Maximized Citrine (via Winterprize)
+ |skilllevel= 70
+ |cost= 36720
+ |favor=Neutral
+}}
+|}
+
+== Services ==
+==== [[Storage]] ====
+[[Rebeccah the Whisperer]] offers storage to individuals who complete the Bard College exam.
+{{NPC STORAGE
+|npcname = Rebeccah the Whisperer
+|favorrestriction = Neutral
+|itemrestriction =Anything
+|neutral = 10
+|comfortable = 20
+|friends = 30
+|closefriends = 40
+|bestfriends = 50
+|likefamily = 60
+|soulmates = 70
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Rebeccah the Whisperer]]|
+Rebeccah tilts her head, her fingers moving to create notes on her instrument. She communicates with a musical phrase, inviting you to speak.
+
+'''This is the front desk of the Bard College, rigth? Can I ask you a few questions?'''
+
+:Rebeccah nods, her fingers moving at a blur, her song patient but not at all slow.
+
+:'''I heard you manage the entrance exam. Is that true?'''
+
+:Rebeccah nods slowly, gesturing toward a trap door near her foot. She plays a haunting melody that seems to evoke the challenge ahead.
+
+:'''What's the entrance exam like?'''
+
+:She performs a quick intense tune. You don't recognize it, but it suggests combat.
+
+:'''Ah. Well... thanks.'''
+
+:'''Combat? But I just want to learn music, not fighting!'''
+
+:Rebeccah stares at you, then glances toward the trap door near her foot. Her gaze is concerned, quizzical.
+
+:'''Oh, no, I'm not ready to take the entrance exam right now.'''
+
+:'''Yes. I'm ready to take the entrance exam.'''
+
+::She gestures toward her throat and mimes singing. Then she gestures toward you.
+
+::'''Sing a short song.'''
+
+::Rebeccah smiles warmly but shakes her head. She performs several gestures you're not familiar with. Seeing your lack of understanding, she sighs dramatically, then mouths a phrase. You watch her lips carefully: she says "NOT YET." (Requires Bard 70)
+
+::'''Ah. Well, I'll come back when I'm a better singer, I guess.'''
+
+:'''Can you tell me more about this school?'''
+
+:Reebeccah looks away for a moment. Then she begins to play a beautiful song, intricate and fast, her fingers a whir of motion. She makes it seem effortless. But then, somewhat abruptly, the song becomes simpler, yet louder. Its rhythm changes to a steady march, bringing to mind the horrors of war.
+
+:'''So the school has a military focus, but once it focused more on music?
+
+:Rebeccah smiles approval. She hands you a sheet of parchment. It seems to be a list of professors, or something like that.
+
+:'''Can I ask you about these professors? It says the headmaster is Leon Dasterre. Who is he?
+
+:Rebeccah smiles and shrugs one slender shoulder. Then she plays a tune on her lute. The song is technically perfect, and ... wait, here lute is smoking! Your alarm recedes when you realize the smoke is purple, and clearly for effect. The song speeds up and her lute catches fire, first purple, then green, then red. The heatless flame grows in size until it's painful to look at her. Then, abruptly, it ends.
+
+:'''That was... insightful. Thank you. What about this name. Professor Ormond Neth?
+
+:Rebeccah nods and picks up her lute. She plays a tavern song, not especially difficult, but warm and inviting. You keep watching and realize something is happening... you are starting to feel and unnatural affection toward Rebeccah. It's not strong enough to control your actions, but it's unmistakable.
+
+:'''Okay! I get it! Stop. Stop. Tell me about this last name, Junior Professor Anaberyl?
+
+:Rebeccah takes a moment to stetch her arms and hands, then plays a lilting fae tune. It starts simple, then adds a second part, and then a third, and then you cannot count them, her fingers an impossible blur of motion. Yet despite the technical complexity, the song itself still seems... simple, somehow. Sincere and straightforward, and desperately upbeat.
+
+:''' I think I get it. This has all been very informative. Thank you.
+
+:'''That's all. Thanks for your time.'''
+
+'''How did you loose your voice?'''
+
+:Her melody starts somber, hinting at a painful memory. Then it becomes a battle-song, sometimes beautiful, but interspersed with loud dissonant notes, more like a beast's scream than music. As the sound builds to a crescendo, her lute lets out a truly horrific sound... and then is suddenly muted.
+
+:After a moment, a quiet lilting tune comes from her instrument, suggesting calm and caring. But as it ends, she repeats the refrain in a minor key. The latent anger is unmistakable.
+
+:'''I'm sorry to hear that.'''
+
+'''Just wanted to say hello.'''}}
+
+[[Category:NPCs]]

@@ -1,0 +1,284 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Animal Handling/Abilities|Animal Handling Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v478 on Wed Jun 24 2026 05:39:48 GMT-0600 (Mountain Daylight Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Tame Rat|2}} || 1 || Tame Rat || Tame a wild rat into becoming your permanent pet. Requires a piece of cheese. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 20 || <b>Gift:</b> [[Gisli]]<br>Leveling
+|-
+| {{Ability icon|Tame Big Cat|2}} || 1 || Tame Big Cat || Tame a wild great cat into becoming your permanent pet. Requires a piece of string. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 20 || <b>Gift:</b> [[Sacrificial Bowl]]
+|-
+| {{Ability icon|Tame Bear|2}} || 1 || Tame Bear || Tame a wild bear into becoming your permanent pet. Requires a perch. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 20 || <b>Gift:</b> [[Sacrificial Bowl]]
+|-
+| {{Ability icon|Call Stabled Pet #1|2}} || 2 || Call Stabled Pet #1 || Summon the pet in your stable slot #1 || Summon Pet from Stable Slot #1<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || Leveling
+|-
+| {{Ability icon|Sic 'Em|2}} || 3 || Sic 'Em || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +3 speed for 10 seconds and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 10<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Feed Pet|2}} || 4 || Feed Pet || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 15 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 10<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|That'll Do|2}} || 5 || That'll Do || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 70 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Get It Off Me|2}} || 6 || Get It Off Me || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 300% more damage. pet gains +4 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Monstrous Rage|2}} || 7 || Monstrous Rage || Give your pet the signal to unleash its inner fury. || Pet deals +20% damage for one attack ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Shrill Command|2}} || 8 || Shrill Command || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 25 Psychic || <b>Power Cost:</b> 18<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Clever Trick|2}} || 10 || Clever Trick || Instruct your pet to perform its special trick ability. (Each type of pet has a trick ability. Their usefulness varies widely.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.<br><b>This is a Survival-Utility ability</b> || Pet attempts to perform its pet-specific Clever Trick ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|That'll Do 2|2}} || 11 || That'll Do 2 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 105 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Feed Pet 2|2}} || 13 || Feed Pet 2 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 35 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 13<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Call Stabled Pet #2|2}} || 15 || Call Stabled Pet #2 || Summon the pet in your stable slot #2 || Summon Pet from Stable Slot #2<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || Leveling
+|-
+| {{Ability icon|Unnatural Wrath|2}} || 15 || Unnatural Wrath || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 41 damage and deals +30 damage for one attack || <b>Damage:</b> 41 Nothingness || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Get It Off Me 2|2}} || 16 || Get It Off Me 2 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 310% more damage. pet gains +8 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Monstrous Rage 2|2}} || 17 || Monstrous Rage 2 || Give your pet the signal to unleash its inner fury. || Pet deals +40% damage for one attack ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Wild Endurance|2}} || 17 || Wild Endurance || Order your pet to hold its ground. || Pet recovers 2 Health/Sec and gains Universal Mitigation +5 for 15 seconds ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Shrill Command 2|2}} || 18 || Shrill Command 2 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 48 Psychic || <b>Power Cost:</b> 24<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Sic 'Em 2|2}} || 19 || Sic 'Em 2 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +4 speed and +5 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 15<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Nimble Limbs|2}} || 20 || Nimble Limbs || Your pet becomes more agile and evasive. || Pet gains +50% Projectile Evasion for 10 seconds ||  || <b>Power Cost:</b> 13<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|That'll Do 3|2}} || 21 || That'll Do 3 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 150 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Feed Pet 3|2}} || 23 || Feed Pet 3 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 70 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Clever Trick 2|2}} || 25 || Clever Trick 2 || Instruct your pet to perform its special trick ability. It also recovers some Armor. (Each type of pet has a trick ability. Their usefulness varies widely.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.<br><b>This is a Survival-Utility ability</b> || Pet recovers 25 Armor. Pet attempts to perform its pet-specific Clever Trick ||  || <b>Power Cost:</b> 32<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Get It Off Me 3|2}} || 26 || Get It Off Me 3 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 320% more damage. pet gains +12 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 28<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Monstrous Rage 3|2}} || 27 || Monstrous Rage 3 || Give your pet the signal to unleash its inner fury. || Pet deals +60% damage for one attack ||  || <b>Power Cost:</b> 28<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Shrill Command 3|2}} || 28 || Shrill Command 3 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 78 Psychic || <b>Power Cost:</b> 29<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Sic 'Em 3|2}} || 29 || Sic 'Em 3 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +5 speed and +10 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 18<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Nimble Limbs 2|2}} || 30 || Nimble Limbs 2 || Your pet becomes more agile and evasive. || Pet gains +60% Projectile Evasion and +33% Burst Evasion for 12 seconds ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Unnatural Wrath 2|2}} || 30 || Unnatural Wrath 2 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 86 damage and deals +70 damage for one attack || <b>Damage:</b> 86 Nothingness || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Mark Weakness|2}} || 30 || Mark Weakness || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.1 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 62 Psychic || <b>Power Cost:</b> 19<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|That'll Do 4|2}} || 31 || That'll Do 4 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 190 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Wild Endurance 2|2}} || 32 || Wild Endurance 2 || Order your pet to hold its ground. || Pet recovers 4 Health/Sec and gains Universal Mitigation +10 for 15 seconds ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Feed Pet 4|2}} || 33 || Feed Pet 4 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 105 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 20<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Call Stabled Pet #3|2}} || 34 || Call Stabled Pet #3 || Summon the pet in your stable slot #3 || Summon Pet from Stable Slot #3<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || Leveling
+|-
+| {{Ability icon|Get It Off Me 4|2}} || 36 || Get It Off Me 4 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 330% more damage. pet gains +16 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Monstrous Rage 4|2}} || 37 || Monstrous Rage 4 || Give your pet the signal to unleash its inner fury. || Pet deals +80% damage for one attack ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Shrill Command 4|2}} || 38 || Shrill Command 4 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 118 Psychic || <b>Power Cost:</b> 35<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Sic 'Em 4|2}} || 39 || Sic 'Em 4 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +6 speed and +15 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 22<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Nimble Limbs 3|2}} || 40 || Nimble Limbs 3 || Your pet becomes more agile and evasive. || Pet gains +70% Projectile Evasion and +50% Burst Evasion for 15 seconds ||  || <b>Power Cost:</b> 19<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Mark Weakness 2|2}} || 40 || Mark Weakness 2 || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.11 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 93 Psychic || <b>Power Cost:</b> 22<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|That'll Do 5|2}} || 41 || That'll Do 5 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 240 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Feed Pet 5|2}} || 43 || Feed Pet 5 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 150 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Clever Trick 3|2}} || 44 || Clever Trick 3 || Instruct your pet to perform its special trick ability. It also recovers some Armor. (Each type of pet has a trick ability. Their usefulness varies widely.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.<br><b>This is a Survival-Utility ability</b> || Pet recovers 50 Armor. Pet attempts to perform its pet-specific Clever Trick ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Call Stabled Pet #4|2}} || 45 || Call Stabled Pet #4 || Summon the pet in your stable slot #4 || Summon Pet from Stable Slot #4<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || Leveling
+|-
+| {{Ability icon|Unnatural Wrath 3|2}} || 45 || Unnatural Wrath 3 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 162 damage and deals +100 damage for one attack || <b>Damage:</b> 162 Nothingness || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Get It Off Me 5|2}} || 46 || Get It Off Me 5 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 340% more damage. pet gains +20 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Monstrous Rage 5|2}} || 47 || Monstrous Rage 5 || Give your pet the signal to unleash its inner fury. || Pet deals +100% damage for one attack ||  || <b>Power Cost:</b> 39<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Wild Endurance 3|2}} || 47 || Wild Endurance 3 || Order your pet to hold its ground. || Pet recovers 6 Health/Sec and gains Universal Mitigation +15 for 15 seconds ||  || <b>Power Cost:</b> 39<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Shrill Command 5|2}} || 48 || Shrill Command 5 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 185 Psychic || <b>Power Cost:</b> 39<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Sic 'Em 5|2}} || 49 || Sic 'Em 5 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +7 speed and +20 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Nimble Limbs 4|2}} || 50 || Nimble Limbs 4 || Your pet becomes more agile and evasive. || Pet gains +75% Projectile Evasion and +66% Burst Evasion for 15 seconds ||  || <b>Power Cost:</b> 22<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Mark Weakness 3|2}} || 50 || Mark Weakness 3 || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.12 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 144 Psychic || <b>Power Cost:</b> 25<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|That'll Do 6|2}} || 51 || That'll Do 6 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 280 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Feed Pet 6|2}} || 53 || Feed Pet 6 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 190 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 26<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Unnatural Wrath 4|2}} || 55 || Unnatural Wrath 4 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 237 damage and deals +150 damage for one attack || <b>Damage:</b> 237 Nothingness || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Get It Off Me 6|2}} || 56 || Get It Off Me 6 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 350% more damage. pet gains +24 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 43<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Monstrous Rage 6|2}} || 57 || Monstrous Rage 6 || Give your pet the signal to unleash its inner fury. || Pet deals +120% damage for one attack ||  || <b>Power Cost:</b> 44<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Wild Endurance 4|2}} || 57 || Wild Endurance 4 || Order your pet to hold its ground. || Pet recovers 9 Health/Sec and gains Universal Mitigation +20 for 15 seconds ||  || <b>Power Cost:</b> 44<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Shrill Command 6|2}} || 58 || Shrill Command 6 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 257 Psychic || <b>Power Cost:</b> 44<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Sic 'Em 6|2}} || 59 || Sic 'Em 6 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +8 speed and +25 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Call Stabled Pet #5|2}} || 60 || Call Stabled Pet #5 || Summon the pet in your stable slot #5 || Summon Pet from Stable Slot #5<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Call Living Stabled Pet|2}} || 60 || Call Living Stabled Pet || Summon the first living pet in your stable. If the pet in stable slot #1 is alive, it is summoned; if not, slot #2 is checked, etc. || Summon Pet from first Stable Slot with a Living Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Nimble Limbs 5|2}} || 60 || Nimble Limbs 5 || Your pet becomes more agile and evasive. || Pet gains +75% Projectile Evasion and +75% Burst Evasion for 15 seconds ||  || <b>Power Cost:</b> 24<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Mark Weakness 4|2}} || 60 || Mark Weakness 4 || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.13 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 196 Psychic || <b>Power Cost:</b> 28<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|That'll Do 7|2}} || 61 || That'll Do 7 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 320 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Feed Pet 7|2}} || 63 || Feed Pet 7 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 240 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 29<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Clever Trick 4|2}} || 64 || Clever Trick 4 || Instruct your pet to perform its special trick ability. It also recovers some Armor. (Each type of pet has a trick ability. Their usefulness varies widely.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.<br><b>This is a Survival-Utility ability</b> || Pet recovers 100 Armor. Pet attempts to perform its pet-specific Clever Trick ||  || <b>Power Cost:</b> 51<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Unnatural Wrath 5|2}} || 65 || Unnatural Wrath 5 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 309 damage and deals +200 damage for one attack || <b>Damage:</b> 309 Nothingness || <b>Power Cost:</b> 48<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Get It Off Me 7|2}} || 66 || Get It Off Me 7 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 400% more damage. pet gains +27 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 48<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Monstrous Rage 7|2}} || 67 || Monstrous Rage 7 || Give your pet the signal to unleash its inner fury. || Pet deals +150% damage for one attack ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Wild Endurance 5|2}} || 67 || Wild Endurance 5 || Order your pet to hold its ground. || Pet recovers 12 Health/Sec and gains Universal Mitigation +25 for 15 seconds ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Shrill Command 7|2}} || 68 || Shrill Command 7 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 331 Psychic || <b>Power Cost:</b> 49<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Sic 'Em 7|2}} || 69 || Sic 'Em 7 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +8 speed and +40 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Tame Bee|2}} || 70 || Tame Bee || Tame a wild bee or wasp into becoming your permanent pet. Requires a Bee-Lover's Bouquet. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 20 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|Nimble Limbs 6|2}} || 70 || Nimble Limbs 6 || Your pet becomes more agile and evasive. || Pet gains +80% Projectile Evasion, +75% Burst Evasion, and +10% Melee Evasion for 15 seconds ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Mark Weakness 5|2}} || 70 || Mark Weakness 5 || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.14 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 251 Psychic || <b>Power Cost:</b> 31<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|That'll Do 8|2}} || 71 || That'll Do 8 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 360 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Gisli]]
+|-
+| {{Ability icon|Feed Pet 8|2}} || 73 || Feed Pet 8 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 280 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 32<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|Call Stabled Pet #6|2}} || 75 || Call Stabled Pet #6 || Summon the pet in your stable slot #6 || Summon Pet from Stable Slot #6<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|Unnatural Wrath 6|2}} || 75 || Unnatural Wrath 6 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 392 damage and deals +250 damage for one attack || <b>Damage:</b> 392 Nothingness || <b>Power Cost:</b> 53<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Animal Handling: Unnatural Wrath 6]]
+|-
+| {{Ability icon|Get It Off Me 8|2}} || 76 || Get It Off Me 8 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 450% more damage. pet gains +30 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 53<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|Monstrous Rage 8|2}} || 77 || Monstrous Rage 8 || Give your pet the signal to unleash its inner fury. || Pet deals +175% damage for one attack ||  || <b>Power Cost:</b> 54<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|Wild Endurance 6|2}} || 77 || Wild Endurance 6 || Order your pet to hold its ground. || Pet recovers 15 Health/Sec and gains Universal Mitigation +30 for 15 seconds ||  || <b>Power Cost:</b> 54<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|Shrill Command 8|2}} || 78 || Shrill Command 8 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 417 Psychic || <b>Power Cost:</b> 54<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Animal Handling: Shrill Command 8]]
+|-
+| {{Ability icon|Sic 'Em 8|2}} || 79 || Sic 'Em 8 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +9 speed and +55 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|Nimble Limbs 7|2}} || 80 || Nimble Limbs 7 || Your pet becomes more agile and evasive. || Pet gains +80% Projectile Evasion, +80% Burst Evasion, and +15% Melee Evasion for 15 seconds ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Animal Handling: Nimble Limbs 7]]
+|-
+| {{Ability icon|Mark Weakness 6|2}} || 80 || Mark Weakness 6 || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.15 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 314 Psychic || <b>Power Cost:</b> 34<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|That'll Do 9|2}} || 81 || That'll Do 9 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 400 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|Feed Pet 9|2}} || 83 || Feed Pet 9 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 320 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 35<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Animal Handling: Feed Pet 9]]
+|-
+| {{Ability icon|Clever Trick 5|2}} || 84 || Clever Trick 5 || Instruct your pet to perform its special trick ability. It also recovers some Armor. (Each type of pet has a trick ability. Their usefulness varies widely.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.<br><b>This is a Survival-Utility ability</b> || Pet recovers 150 Armor. Pet attempts to perform its pet-specific Clever Trick ||  || <b>Power Cost:</b> 64<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Animal Handling: Clever Trick 5]]
+|-
+| {{Ability icon|Unnatural Wrath 7|2}} || 85 || Unnatural Wrath 7 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 480 damage and deals +300 damage for one attack || <b>Damage:</b> 480 Nothingness || <b>Power Cost:</b> 58<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Animal Handling: Unnatural Wrath 7]]
+|-
+| {{Ability icon|Get It Off Me 9|2}} || 86 || Get It Off Me 9 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 500% more damage. pet gains +35 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 59<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Animal Handling: Get It Off Me 9]]
+|-
+| {{Ability icon|Monstrous Rage 9|2}} || 87 || Monstrous Rage 9 || Give your pet the signal to unleash its inner fury. || Pet deals +200% damage for one attack ||  || <b>Power Cost:</b> 59<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Animal Handling: Monstrous Rage 9]]
+|-
+| {{Ability icon|Wild Endurance 7|2}} || 87 || Wild Endurance 7 || Order your pet to hold its ground. || Pet recovers 18 Health/Sec and gains Universal Mitigation +35 for 15 seconds ||  || <b>Power Cost:</b> 59<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Animal Handling: Wild Endurance 7]]
+|-
+| {{Ability icon|Shrill Command 9|2}} || 88 || Shrill Command 9 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 506 Psychic || <b>Power Cost:</b> 60<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Animal Handling: Shrill Command 9]]
+|-
+| {{Ability icon|Sic 'Em 9|2}} || 89 || Sic 'Em 9 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +9 speed and +70 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Animal Handling: Sic 'Em 9]]
+|-
+| {{Ability icon|Nimble Limbs 8|2}} || 90 || Nimble Limbs 8 || Your pet becomes more agile and evasive. || Pet gains +85% Projectile Evasion, +80% Burst Evasion, and +17% Melee Evasion for 15 seconds ||  || <b>Power Cost:</b> 33<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Animal Handling: Nimble Limbs 8]]
+|-
+| {{Ability icon|Mark Weakness 7|2}} || 90 || Mark Weakness 7 || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.16 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 379 Psychic || <b>Power Cost:</b> 38<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Crelpin]]
+|-
+| {{Ability icon|That'll Do 10|2}} || 91 || That'll Do 10 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 450 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Animal Handling: That'll Do 10]]
+|-
+| {{Ability icon|Feed Pet 10|2}} || 93 || Feed Pet 10 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 360 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 39<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Animal Handling: Feed Pet 10]]
+|-
+| {{Ability icon|Unnatural Wrath 8|2}} || 95 || Unnatural Wrath 8 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 572 damage and deals +350 damage for one attack || <b>Damage:</b> 572 Nothingness || <b>Power Cost:</b> 64<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Get It Off Me 10|2}} || 96 || Get It Off Me 10 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 550% more damage. pet gains +40 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 65<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Monstrous Rage 10|2}} || 97 || Monstrous Rage 10 || Give your pet the signal to unleash its inner fury. || Pet deals +225% damage for one attack ||  || <b>Power Cost:</b> 65<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Wild Endurance 8|2}} || 97 || Wild Endurance 8 || Order your pet to hold its ground. || Pet recovers 21 Health/Sec and gains Universal Mitigation +40 for 15 seconds ||  || <b>Power Cost:</b> 65<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Shrill Command 10|2}} || 98 || Shrill Command 10 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 598 Psychic || <b>Power Cost:</b> 66<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Sic 'Em 10|2}} || 99 || Sic 'Em 10 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +10 speed and +100 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 41<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Call Stabled Pet #7|2}} || 100 || Call Stabled Pet #7 || Summon the pet in your stable slot #7 || Summon Pet from Stable Slot #7<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Revive Pet|2}} || 100 || Revive Pet || Coax an Animal Handling pet to get back up. See, it was just playing dead! || Resurrect target Animal Handling pet, giving it 50% of its Max Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Nimble Limbs 9|2}} || 100 || Nimble Limbs 9 || Your pet becomes more agile and evasive. || Pet gains +85% Projectile Evasion, +85% Burst Evasion, and +19% Melee Evasion for 15 seconds ||  || <b>Power Cost:</b> 36<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Mark Weakness 8|2}} || 100 || Mark Weakness 8 || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.17 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 445 Psychic || <b>Power Cost:</b> 41<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|That'll Do 11|2}} || 101 || That'll Do 11 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 500 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Feed Pet 11|2}} || 103 || Feed Pet 11 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 400 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 42<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Clever Trick 6|2}} || 104 || Clever Trick 6 || Instruct your pet to perform its special trick ability. It also recovers some Armor. (Each type of pet has a trick ability. Their usefulness varies widely.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.<br><b>This is a Survival-Utility ability</b> || Pet recovers 200 Armor. Pet attempts to perform its pet-specific Clever Trick ||  || <b>Power Cost:</b> 77<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Unnatural Wrath 9|2}} || 105 || Unnatural Wrath 9 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 670 damage and deals +400 damage for one attack || <b>Damage:</b> 670 Nothingness || <b>Power Cost:</b> 70<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Get It Off Me 11|2}} || 106 || Get It Off Me 11 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 600% more damage. pet gains +45 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 71<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Wild Endurance 9|2}} || 107 || Wild Endurance 9 || Order your pet to hold its ground. || Pet recovers 24 Health/Sec and gains Universal Mitigation +45 for 15 seconds ||  || <b>Power Cost:</b> 71<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Monstrous Rage 11|2}} || 107 || Monstrous Rage 11 || Give your pet the signal to unleash its inner fury. || Pet deals +250% damage for one attack ||  || <b>Power Cost:</b> 71<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Shrill Command 11|2}} || 108 || Shrill Command 11 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 702 Psychic || <b>Power Cost:</b> 72<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Sic 'Em 11|2}} || 109 || Sic 'Em 11 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +10 speed and +150 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 45<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Nimble Limbs 10|2}} || 110 || Nimble Limbs 10 || Your pet becomes more agile and evasive. || Pet gains +90% Projectile Evasion, +85% Burst Evasion, and +22% Melee Evasion for 15 seconds ||  || <b>Power Cost:</b> 39<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Mark Weakness 9|2}} || 110 || Mark Weakness 9 || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.18 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 521 Psychic || <b>Power Cost:</b> 45<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|That'll Do 12|2}} || 111 || That'll Do 12 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 550 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Feed Pet 12|2}} || 113 || Feed Pet 12 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 450 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 46<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Unnatural Wrath 10|2}} || 115 || Unnatural Wrath 10 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 776 damage and deals +450 damage for one attack || <b>Damage:</b> 776 Nothingness || <b>Power Cost:</b> 76<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Get It Off Me 12|2}} || 116 || Get It Off Me 12 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 650% more damage. pet gains +50 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 77<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Wild Endurance 10|2}} || 117 || Wild Endurance 10 || Order your pet to hold its ground. || Pet recovers 27 Health/Sec and gains Universal Mitigation +50 for 15 seconds ||  || <b>Power Cost:</b> 78<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Monstrous Rage 12|2}} || 117 || Monstrous Rage 12 || Give your pet the signal to unleash its inner fury. || Pet deals +275% damage for one attack ||  || <b>Power Cost:</b> 78<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sir Abbley]]
+|-
+| {{Ability icon|Shrill Command 12|2}} || 118 || Shrill Command 12 || Use your stern gaze and loud voice to surprise a foe.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 808 Psychic || <b>Power Cost:</b> 78<br><b>Range:</b> 30<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Sic 'Em 12|2}} || 119 || Sic 'Em 12 || Instruct your pet to use its special attack ability. (Each type of pet has a special attack, although some pets' special attacks are hardly more impressive than their basic attack.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy. || Pet gains +11 speed and +200 damage for 10 seconds, and pet attempts to use its pet-specific Special Attack ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Mark Weakness 10|2}} || 120 || Mark Weakness 10 || Point out a weakness in your target so that your pet can take advantage of it.<br><b>This is a Signature Debuff ability</b> || Target Suffers 0.19 Direct Damage from Pets for 30 seconds (non-stacking) || <b>Damage:</b> 597 Psychic || <b>Power Cost:</b> 49<br><b>Range:</b> 30<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Nimble Limbs 11|2}} || 120 || Nimble Limbs 11 || Your pet becomes more agile and evasive. || Pet gains +90% Projectile Evasion, +90% Burst Evasion, and +25% Melee Evasion for 15 seconds ||  || <b>Power Cost:</b> 43<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|That'll Do 13|2}} || 121 || That'll Do 13 || Give your pet positive reinforcement after combat to help get it back into shape quickly. || <b>Restores:</b> 600 Health (or Armor if Health is full) to Pet<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Feed Pet 13|2}} || 123 || Feed Pet 13 || Give your pet a quick snack to bolster it in the middle of combat. || <b>Restores:</b> 450 Health (or Armor if Health is full) to Pet ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Clever Trick 7|2}} || 124 || Clever Trick 7 || Instruct your pet to perform its special trick ability. It also recovers some Armor. (Each type of pet has a trick ability. Their usefulness varies widely.)<br><br>If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.<br><b>This is a Survival-Utility ability</b> || Pet recovers 250 Armor. Pet attempts to perform its pet-specific Clever Trick ||  || <b>Power Cost:</b> 92<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Get It Off Me 13|2}} || 125 || Get It Off Me 13 || Order your pet to come to your aid and taunt whatever's attacking you. || For 30 seconds, pet's attacks taunt as if they did 700% more damage. pet gains +55 mitigation versus Piercing, Slashing, and Crushing damage. Pet switches to Defend mode, and is directed to attack the foes that are focused on you. (How well the pet focuses on your enemies depends in part on the pet's Bond Level.) ||  || <b>Power Cost:</b> 83<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Wild Endurance 11|2}} || 125 || Wild Endurance 11 || Order your pet to hold its ground. || Pet recovers 30 Health/Sec and gains Universal Mitigation +55 for 15 seconds ||  || <b>Power Cost:</b> 83<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Monstrous Rage 13|2}} || 125 || Monstrous Rage 13 || Give your pet the signal to unleash its inner fury. || Pet deals +300% damage for one attack ||  || <b>Power Cost:</b> 83<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Unnatural Wrath 11|2}} || 125 || Unnatural Wrath 11 || Energize your pet's next attack at the cost of its health. You must have an Anchor Rune in your inventory, and there is a 10% chance it will be consumed. || Pet takes 882 damage and deals +500 damage for one attack || <b>Damage:</b> 882 Nothingness || <b>Power Cost:</b> 83<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|}

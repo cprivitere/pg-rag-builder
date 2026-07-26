@@ -1,0 +1,11 @@
+== <b>Jun 22 Update</b> ==
+This update is intended to reduce lag that many players are experiencing. There were low-level networking changes, so please be on the lookout for weirdness. The most likely sorts of bugs you'd see are monsters that aren't where they seem to be (the server thinks they are somewhere far away from where they are on your screen).
+
+There are a few other fixes as well:
+:- Fixed Frost Spear ice magic ability
+:- Male characters regained the ability to walk up steep stairs
+:- Various missing monster graphics are back. 
+:- Known bug: the "winter wolf" mode for player wolves is still bugged, sorry!
+
+<b> Update tonight at 8pm EST! </b> (That's less than 30 minutes as I type this!)
+[[Category:Game updates]]

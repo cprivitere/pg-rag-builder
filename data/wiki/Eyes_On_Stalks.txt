@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Daisy in Sun Vale's Animal Town asked for some eyestalks. They come from Watchers, which are terrible monsters generally found deep within dungeons.
+
+===Prerequisites===
+To start this quest, talk to '''[[Daisy_(NPC)|Daisy]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|Oh n-no. Th-th-this r-recipe n-needs EYE STALKS. W-where in the w-world w-w-would I g-get that?! They c-come from w-watchers, b-but there's no w-w-watchers anywhere a-around h-here! Th-thankfully!
+
+B-but i-if you ever f-find any eyestalks, p-please save them f-for me.}}
+
+===Requirements===
+* Obtain Watcher {{Item|Eyestalk}}s x2
+* Talk to Daisy
+
+===Rewards===
+{{Spoiler|Rewards for Eyes On Stalks|
+{{Quote|Oh m-my... th-thank y-y-you! H-here, p-p-p-... <i>Daisy struggles with her words.</i> P-please take this. F-for y-your own r-recipes.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Ultimate Acidic Cleanser}} x 2
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Daisy]]

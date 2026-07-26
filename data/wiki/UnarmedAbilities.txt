@@ -1,0 +1,290 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Unarmed/Abilities|Unarmed Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v446 on Fri Jan 16 2026 03:16:03 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Punch|2}} || 0 || Punch || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 6 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Front Kick|2}} || 1 || Front Kick || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 11 Crushing<br><b>Dmg to Vulnerable:</b> 11 Crushing || <b>Power Cost:</b> 6<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || Leveling
+|-
+| {{Ability icon|Jab|2}} || 1 || Jab || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 6 Crushing<br><b>Enemy Rage:</b> -12 || <b>Power Cost:</b> 4<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Jab]]
+|-
+| {{Ability icon|Barrage|2}} || 3 || Barrage || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 16 Crushing || <b>Power Cost:</b> 13<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Headbutt|2}} || 3 || Headbutt || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 18 Crushing<br><b>Dmg to Vulnerable:</b> 18 Crushing || <b>Power Cost:</b> 13<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Headbutt]]<br><b>Training:</b> [[Flia]]
+|-
+| {{Ability icon|Cobra Strike|2}} || 5 || Cobra Strike || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 13 Crushing || <b>Power Cost:</b> 4<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +5% || Leveling
+|-
+| {{Ability icon|Hip Throw|2}} || 7 || Hip Throw || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 28 Crushing || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Mamba Strike|2}} || 7 || Mamba Strike || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 15 Trauma || <b>Power Cost:</b> 5<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Punch 2|2}} || 9 || Punch 2 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 12 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Front Kick 2|2}} || 12 || Front Kick 2 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 23 Crushing<br><b>Dmg to Vulnerable:</b> 23 Crushing || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || Leveling
+|-
+| {{Ability icon|Jab 2|2}} || 12 || Jab 2 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 20 Crushing<br><b>Enemy Rage:</b> -40 || <b>Power Cost:</b> 7<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Jab 2]]
+|-
+| {{Ability icon|Barrage 2|2}} || 15 || Barrage 2 || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 33 Crushing || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Knee Kick|2}} || 15 || Knee Kick || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 41 Crushing<br><b>Dmg to Vulnerable:</b> 41 Crushing || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Knee Kick]]
+|-
+| {{Ability icon|Headbutt 2|2}} || 15 || Headbutt 2 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 41 Crushing<br><b>Dmg to Vulnerable:</b> 41 Crushing || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Headbutt 2]]<br><b>Training:</b> [[Flia]]
+|-
+| {{Ability icon|Bruising Blow|2}} || 15 || Bruising Blow || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 24 Crushing || <b>Power Cost:</b> 11<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Punch 3|2}} || 19 || Punch 3 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 18 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Cobra Strike 2|2}} || 20 || Cobra Strike 2 || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 28 Crushing || <b>Power Cost:</b> 8<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +10% || Leveling
+|-
+| {{Ability icon|Bodyslam|2}} || 23 || Bodyslam || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 116 Crushing || <b>Power Cost:</b> 54<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Item:</b> [[Unarmed: Bodyslam]]<br><b>Training:</b> [[Flia]]
+|-
+| {{Ability icon|Front Kick 3|2}} || 24 || Front Kick 3 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 38 Crushing<br><b>Dmg to Vulnerable:</b> 38 Crushing || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || Leveling
+|-
+| {{Ability icon|Hip Throw 2|2}} || 25 || Hip Throw 2 || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 58 Crushing || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Mamba Strike 2|2}} || 27 || Mamba Strike 2 || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 37 Trauma || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Barrage 3|2}} || 28 || Barrage 3 || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 57 Crushing || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Jab 3|2}} || 30 || Jab 3 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 44 Crushing<br><b>Enemy Rage:</b> -88 || <b>Power Cost:</b> 11<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Jab 3]]
+|-
+| {{Ability icon|Knee Kick 2|2}} || 30 || Knee Kick 2 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 86 Crushing<br><b>Dmg to Vulnerable:</b> 86 Crushing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Knee Kick 2]]
+|-
+| {{Ability icon|Headbutt 3|2}} || 30 || Headbutt 3 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 86 Crushing<br><b>Dmg to Vulnerable:</b> 86 Crushing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Headbutt 3]]<br><b>Training:</b> [[Flia]]
+|-
+| {{Ability icon|Bruising Blow 2|2}} || 30 || Bruising Blow 2 || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 51 Crushing || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Bodyslam 2|2}} || 33 || Bodyslam 2 || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 181 Crushing || <b>Power Cost:</b> 66<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Item:</b> [[Unarmed: Bodyslam 2]]<br><b>Training:</b> [[Flia]]
+|-
+| {{Ability icon|Front Kick 4|2}} || 35 || Front Kick 4 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 62 Crushing<br><b>Dmg to Vulnerable:</b> 62 Crushing || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || Leveling
+|-
+| {{Ability icon|Punch 4|2}} || 36 || Punch 4 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 39 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Hip Throw 3|2}} || 37 || Hip Throw 3 || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 96 Crushing || <b>Power Cost:</b> 31<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Cobra Strike 3|2}} || 40 || Cobra Strike 3 || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 67 Crushing || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +15% || Leveling
+|-
+| {{Ability icon|Knee Kick 3|2}} || 40 || Knee Kick 3 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 130 Crushing<br><b>Dmg to Vulnerable:</b> 130 Crushing || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Knee Kick 3]]
+|-
+| {{Ability icon|Jab 4|2}} || 40 || Jab 4 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 67 Crushing<br><b>Enemy Rage:</b> -134 || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Jab 4]]<br><b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Infuriating Fist|2}} || 40 || Infuriating Fist || Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds<br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 78 Crushing<br><b>Taunts:</b> 400 || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Headbutt 4|2}} || 40 || Headbutt 4 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 130 Crushing<br><b>Dmg to Vulnerable:</b> 130 Crushing || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Headbutt 4]]<br><b>Training:</b> [[Flia]]
+|-
+| {{Ability icon|Bodyslam 3|2}} || 43 || Bodyslam 3 || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 278 Crushing || <b>Power Cost:</b> 77<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Item:</b> [[Unarmed: Bodyslam 3]]<br><b>Training:</b> [[Flia]]
+|-
+| {{Ability icon|Barrage 4|2}} || 45 || Barrage 4 || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 117 Crushing || <b>Power Cost:</b> 35<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Bruising Blow 3|2}} || 45 || Bruising Blow 3 || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 97 Crushing || <b>Power Cost:</b> 20<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Mamba Strike 3|2}} || 47 || Mamba Strike 3 || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 75 Trauma || <b>Power Cost:</b> 15<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Punch 5|2}} || 48 || Punch 5 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 67 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Front Kick 5|2}} || 49 || Front Kick 5 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 116 Crushing<br><b>Dmg to Vulnerable:</b> 116 Crushing || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || Leveling
+|-
+| {{Ability icon|Knee Kick 4|2}} || 50 || Knee Kick 4 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 200 Crushing<br><b>Dmg to Vulnerable:</b> 200 Crushing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Knee Kick 4]]
+|-
+| {{Ability icon|Jab 5|2}} || 50 || Jab 5 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 103 Crushing<br><b>Enemy Rage:</b> -206 || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Jab 5]]
+|-
+| {{Ability icon|Infuriating Fist 2|2}} || 50 || Infuriating Fist 2 || Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 120 Crushing<br><b>Taunts:</b> 500 || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Hip Throw 4|2}} || 50 || Hip Throw 4 || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 170 Crushing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Headbutt 5|2}} || 50 || Headbutt 5 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 200 Crushing<br><b>Dmg to Vulnerable:</b> 200 Crushing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Headbutt 5]]<br><b>Training:</b> [[Flia]]
+|-
+| {{Ability icon|Slashing Strike|2}} || 51 || Slashing Strike || A punch with a claw weapon (or animal claws). || Dispels the strongest Damage-over-Time effect you are currently suffering from<br><b>DoT:</b> 10 Trauma, 6 times over 6 seconds || <b>Damage:</b> 124 Slashing || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Claw Barrage|2}} || 51 || Claw Barrage || A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.) || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds<br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 175 Slashing || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Bodyslam 4|2}} || 52 || Bodyslam 4 || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 405 Crushing || <b>Power Cost:</b> 86<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Mamba Strike 4|2}} || 53 || Mamba Strike 4 || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 93 Trauma || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Punch 6|2}} || 56 || Punch 6 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 88 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Barrage 5|2}} || 58 || Barrage 5 || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 185 Crushing || <b>Power Cost:</b> 41<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Cobra Strike 4|2}} || 60 || Cobra Strike 4 || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 140 Crushing || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +20% || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Bruising Blow 4|2}} || 60 || Bruising Blow 4 || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 164 Crushing || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Infuriating Fist 3|2}} || 60 || Infuriating Fist 3 || Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 164 Crushing<br><b>Taunts:</b> 600 || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Knee Kick 5|2}} || 60 || Knee Kick 5 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 273 Crushing<br><b>Dmg to Vulnerable:</b> 273 Crushing || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Knee Kick 5]]
+|-
+| {{Ability icon|Headbutt 6|2}} || 60 || Headbutt 6 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 273 Crushing<br><b>Dmg to Vulnerable:</b> 273 Crushing || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Jab 6|2}} || 60 || Jab 6 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 140 Crushing<br><b>Enemy Rage:</b> -280 || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Jab 6]]
+|-
+| {{Ability icon|Slashing Strike 2|2}} || 61 || Slashing Strike 2 || A punch with a claw weapon (or animal claws). || Dispels the strongest Damage-over-Time effect you are currently suffering from<br><b>DoT:</b> 20 Trauma, 6 times over 6 seconds || <b>Damage:</b> 168 Slashing || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Front Kick 6|2}} || 63 || Front Kick 6 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 176 Crushing<br><b>Dmg to Vulnerable:</b> 176 Crushing || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Claw Barrage 2|2}} || 63 || Claw Barrage 2 || A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.) || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds<br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 248 Slashing || <b>Power Cost:</b> 44<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Bodyslam 5|2}} || 64 || Bodyslam 5 || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 569 Crushing || <b>Power Cost:</b> 98<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Mamba Strike 5|2}} || 65 || Mamba Strike 5 || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 131 Trauma || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Hip Throw 5|2}} || 66 || Hip Throw 5 || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 268 Crushing || <b>Power Cost:</b> 45<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Punch 7|2}} || 68 || Punch 7 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 119 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Barrage 6|2}} || 70 || Barrage 6 || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 251 Crushing || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Cobra Strike 5|2}} || 70 || Cobra Strike 5 || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 179 Crushing || <b>Power Cost:</b> 20<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +23% || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Jab 7|2}} || 70 || Jab 7 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 179 Crushing<br><b>Enemy Rage:</b> -358 || <b>Power Cost:</b> 20<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Jab 7]]
+|-
+| {{Ability icon|Knee Kick 6|2}} || 70 || Knee Kick 6 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 348 Crushing<br><b>Dmg to Vulnerable:</b> 348 Crushing || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Knee Kick 6]]
+|-
+| {{Ability icon|Headbutt 7|2}} || 70 || Headbutt 7 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 348 Crushing<br><b>Dmg to Vulnerable:</b> 348 Crushing || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Bruising Blow 5|2}} || 70 || Bruising Blow 5 || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 209 Crushing || <b>Power Cost:</b> 28<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Infuriating Fist 4|2}} || 70 || Infuriating Fist 4 || Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 209 Crushing<br><b>Taunts:</b> 700 || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Slashing Strike 3|2}} || 71 || Slashing Strike 3 || A punch with a claw weapon (or animal claws). || Dispels the strongest Damage-over-Time effect you are currently suffering from<br><b>DoT:</b> 30 Trauma, 6 times over 6 seconds || <b>Damage:</b> 214 Slashing || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Furlak]]<br><b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Claw Barrage 3|2}} || 74 || Claw Barrage 3 || A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.) || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds<br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 323 Slashing || <b>Power Cost:</b> 49<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Front Kick 7|2}} || 75 || Front Kick 7 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 235 Crushing<br><b>Dmg to Vulnerable:</b> 235 Crushing || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Bodyslam 6|2}} || 76 || Bodyslam 6 || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 758 Crushing || <b>Power Cost:</b> 112<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Hip Throw 6|2}} || 77 || Hip Throw 6 || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 346 Crushing || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Mamba Strike 6|2}} || 77 || Mamba Strike 6 || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 173 Trauma || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Punch 8|2}} || 80 || Punch 8 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 157 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Cobra Strike 6|2}} || 80 || Cobra Strike 6 || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 224 Crushing || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +26% || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Jab 8|2}} || 80 || Jab 8 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 224 Crushing<br><b>Enemy Rage:</b> -448 || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Jab 8]]
+|-
+| {{Ability icon|Knee Kick 7|2}} || 80 || Knee Kick 7 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 436 Crushing<br><b>Dmg to Vulnerable:</b> 436 Crushing || <b>Power Cost:</b> 53<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Knee Kick 7]]
+|-
+| {{Ability icon|Headbutt 8|2}} || 80 || Headbutt 8 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 436 Crushing<br><b>Dmg to Vulnerable:</b> 436 Crushing || <b>Power Cost:</b> 53<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Bruising Blow 6|2}} || 80 || Bruising Blow 6 || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 262 Crushing || <b>Power Cost:</b> 31<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Infuriating Fist 5|2}} || 80 || Infuriating Fist 5 || Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 262 Crushing<br><b>Taunts:</b> 800 || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Slashing Strike 4|2}} || 81 || Slashing Strike 4 || A punch with a claw weapon (or animal claws). || Dispels the strongest Damage-over-Time effect you are currently suffering from<br><b>DoT:</b> 40 Trauma, 6 times over 6 seconds || <b>Damage:</b> 266 Slashing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Barrage 7|2}} || 83 || Barrage 7 || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 332 Crushing || <b>Power Cost:</b> 54<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Pegast]]<br><b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Claw Barrage 4|2}} || 85 || Claw Barrage 4 || A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.) || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds<br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 406 Slashing || <b>Power Cost:</b> 55<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Unarmed: Claw Barrage 4]]
+|-
+| {{Ability icon|Front Kick 8|2}} || 87 || Front Kick 8 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 298 Crushing<br><b>Dmg to Vulnerable:</b> 298 Crushing || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Item:</b> [[Unarmed: Front Kick 8]]
+|-
+| {{Ability icon|Hip Throw 7|2}} || 88 || Hip Throw 7 || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 428 Crushing || <b>Power Cost:</b> 57<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Unarmed: Hip Throw 7]]
+|-
+| {{Ability icon|Bodyslam 7|2}} || 88 || Bodyslam 7 || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 958 Crushing || <b>Power Cost:</b> 126<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Item:</b> [[Unarmed: Bodyslam 7]]
+|-
+| {{Ability icon|Mamba Strike 7|2}} || 89 || Mamba Strike 7 || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 218 Trauma || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Item:</b> [[Unarmed: Mamba Strike 7]]
+|-
+| {{Ability icon|Cobra Strike 7|2}} || 90 || Cobra Strike 7 || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 270 Crushing || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +29% || <b>Item:</b> [[Unarmed: Cobra Strike 7]]
+|-
+| {{Ability icon|Jab 9|2}} || 90 || Jab 9 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 270 Crushing<br><b>Enemy Rage:</b> -540 || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Jab 9]]
+|-
+| {{Ability icon|Knee Kick 8|2}} || 90 || Knee Kick 8 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 526 Crushing<br><b>Dmg to Vulnerable:</b> 526 Crushing || <b>Power Cost:</b> 58<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Knee Kick 8]]
+|-
+| {{Ability icon|Headbutt 9|2}} || 90 || Headbutt 9 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 526 Crushing<br><b>Dmg to Vulnerable:</b> 526 Crushing || <b>Power Cost:</b> 58<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Unarmed: Headbutt 9]]
+|-
+| {{Ability icon|Bruising Blow 7|2}} || 90 || Bruising Blow 7 || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 315 Crushing || <b>Power Cost:</b> 35<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Unarmed: Bruising Blow 7]]
+|-
+| {{Ability icon|Infuriating Fist 6|2}} || 90 || Infuriating Fist 6 || Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 315 Crushing<br><b>Taunts:</b> 900 || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Unarmed: Infuriating Fist 6]]
+|-
+| {{Ability icon|Slashing Strike 5|2}} || 91 || Slashing Strike 5 || A punch with a claw weapon (or animal claws). || Dispels the strongest Damage-over-Time effect you are currently suffering from<br><b>DoT:</b> 50 Trauma, 6 times over 6 seconds || <b>Damage:</b> 321 Slashing || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Item:</b> [[Unarmed: Slashing Strike 5]]
+|-
+| {{Ability icon|Punch 9|2}} || 92 || Punch 9 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 196 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Unarmed: Punch 9]]
+|-
+| {{Ability icon|Claw Barrage 5|2}} || 96 || Claw Barrage 5 || A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.) || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds<br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 492 Slashing || <b>Power Cost:</b> 62<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Barrage 8|2}} || 96 || Barrage 8 || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 418 Crushing || <b>Power Cost:</b> 62<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Front Kick 9|2}} || 99 || Front Kick 9 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 364 Crushing<br><b>Dmg to Vulnerable:</b> 364 Crushing || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Hip Throw 8|2}} || 99 || Hip Throw 8 || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 514 Crushing || <b>Power Cost:</b> 63<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Infuriating Fist 7|2}} || 100 || Infuriating Fist 7 || Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 371 Crushing<br><b>Taunts:</b> 1000 || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Cobra Strike 8|2}} || 100 || Cobra Strike 8 || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 318 Crushing || <b>Power Cost:</b> 28<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +32% || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Jab 10|2}} || 100 || Jab 10 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 318 Crushing<br><b>Enemy Rage:</b> -636 || <b>Power Cost:</b> 28<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Knee Kick 9|2}} || 100 || Knee Kick 9 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 618 Crushing<br><b>Dmg to Vulnerable:</b> 618 Crushing || <b>Power Cost:</b> 64<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Bodyslam 8|2}} || 100 || Bodyslam 8 || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 1170 Crushing || <b>Power Cost:</b> 141<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Headbutt 10|2}} || 100 || Headbutt 10 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 618 Crushing<br><b>Dmg to Vulnerable:</b> 618 Crushing || <b>Power Cost:</b> 64<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Bruising Blow 8|2}} || 100 || Bruising Blow 8 || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 371 Crushing || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Mamba Strike 8|2}} || 101 || Mamba Strike 8 || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 266 Trauma || <b>Power Cost:</b> 28<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Slashing Strike 6|2}} || 101 || Slashing Strike 6 || A punch with a claw weapon (or animal claws). || Dispels the strongest Damage-over-Time effect you are currently suffering from<br><b>DoT:</b> 60 Trauma, 6 times over 6 seconds || <b>Damage:</b> 377 Slashing || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Punch 10|2}} || 104 || Punch 10 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 238 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Claw Barrage 6|2}} || 107 || Claw Barrage 6 || A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.) || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds<br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 586 Slashing || <b>Power Cost:</b> 68<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Barrage 9|2}} || 109 || Barrage 9 || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 513 Crushing || <b>Power Cost:</b> 69<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Infuriating Fist 8|2}} || 110 || Infuriating Fist 8 || Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 434 Crushing<br><b>Taunts:</b> 1000 || <b>Power Cost:</b> 36<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Cobra Strike 9|2}} || 110 || Cobra Strike 9 || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 372 Crushing || <b>Power Cost:</b> 31<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +32% || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Hip Throw 9|2}} || 110 || Hip Throw 9 || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 613 Crushing || <b>Power Cost:</b> 70<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Jab 11|2}} || 110 || Jab 11 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 372 Crushing<br><b>Enemy Rage:</b> -744 || <b>Power Cost:</b> 31<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Knee Kick 10|2}} || 110 || Knee Kick 10 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 723 Crushing<br><b>Dmg to Vulnerable:</b> 723 Crushing || <b>Power Cost:</b> 70<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Headbutt 11|2}} || 110 || Headbutt 11 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 723 Crushing<br><b>Dmg to Vulnerable:</b> 723 Crushing || <b>Power Cost:</b> 70<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Bruising Blow 9|2}} || 110 || Bruising Blow 9 || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 434 Crushing || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Slashing Strike 7|2}} || 111 || Slashing Strike 7 || A punch with a claw weapon (or animal claws). || Dispels the strongest Damage-over-Time effect you are currently suffering from<br><b>DoT:</b> 70 Trauma, 6 times over 6 seconds || <b>Damage:</b> 440 Slashing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Front Kick 10|2}} || 111 || Front Kick 10 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 440 Crushing<br><b>Dmg to Vulnerable:</b> 440 Crushing || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Bodyslam 9|2}} || 112 || Bodyslam 9 || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 1410 Crushing || <b>Power Cost:</b> 157<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Mamba Strike 9|2}} || 113 || Mamba Strike 9 || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 320 Trauma || <b>Power Cost:</b> 32<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Punch 11|2}} || 116 || Punch 11 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 283 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Sir Hughes]]
+|-
+| {{Ability icon|Claw Barrage 7|2}} || 118 || Claw Barrage 7 || A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.) || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds<br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 684 Slashing || <b>Power Cost:</b> 75<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Infuriating Fist 9|2}} || 120 || Infuriating Fist 9 || Punch a nerve or vulnerable spot that causes great pain in the target, leading them to focus on you. In combos, you can use Infuriating Fist in place of Punch. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 6 seconds || <b>Damage:</b> 497 Crushing<br><b>Taunts:</b> 1000 || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Cobra Strike 10|2}} || 120 || Cobra Strike 10 || Strike a vital point. If you can find an opening in their defenses, also stuns the target.<br><b>This is a Core Attack</b> || Stuns opponent if their armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Damage:</b> 426 Crushing || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 8<br><b>Accuracy:</b> +32% || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Jab 12|2}} || 120 || Jab 12 || A feint that catches an opponent off-guard. In combos, you can use Jab whenever Punch is called for, and equipment that affects Punch also affects Jab.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 426 Crushing<br><b>Enemy Rage:</b> -852 || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Knee Kick 11|2}} || 120 || Knee Kick 11 || A sudden painful kick. You can use Knee Kick in place of Front Kick in combos. ||  || <b>Damage:</b> 829 Crushing<br><b>Dmg to Vulnerable:</b> 829 Crushing || <b>Power Cost:</b> 76<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Headbutt 12|2}} || 120 || Headbutt 12 || Bash an opponent with your head. You can use Headbutt instead of Barrage in combos. || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 829 Crushing<br><b>Dmg to Vulnerable:</b> 829 Crushing || <b>Power Cost:</b> 76<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Bruising Blow 10|2}} || 120 || Bruising Blow 10 || A punch that damages the target's innards, leaving them more susceptible to further attack.<br><b>This is a Signature Debuff ability</b> || Target takes 15% more damage from Crushing for 20 seconds || <b>Damage:</b> 497 Crushing || <b>Power Cost:</b> 46<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Slashing Strike 8|2}} || 121 || Slashing Strike 8 || A punch with a claw weapon (or animal claws). || Dispels the strongest Damage-over-Time effect you are currently suffering from<br><b>DoT:</b> 80 Trauma, 6 times over 6 seconds || <b>Damage:</b> 504 Slashing || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 5 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Hip Throw 10|2}} || 121 || Hip Throw 10 || Fling an opponent away from you. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 711 Crushing || <b>Power Cost:</b> 77<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Barrage 10|2}} || 122 || Barrage 10 || A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)<br><b>This is a Nice Attack</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 4 times over 8 seconds || <b>Damage:</b> 612 Crushing || <b>Power Cost:</b> 78<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Front Kick 11|2}} || 123 || Front Kick 11 || A kick that sends the enemy flying backwards. || Flings opponent backwards<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 516 Crushing<br><b>Dmg to Vulnerable:</b> 516 Crushing || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 7 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Bodyslam 10|2}} || 124 || Bodyslam 10 || Slam into an opponent, causing damage. You can use Bodyslam instead of Hip Throw in combos.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 1650 Crushing || <b>Power Cost:</b> 174<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Punch 12|2}} || 125 || Punch 12 || Punch with a fist. Requires at least one open hand.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 317 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Mamba Strike 10|2}} || 125 || Mamba Strike 10 || Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos. || Deals +33% Trauma damage if target's armor is below 33%; Dispels the strongest Damage-over-Time effect you are currently suffering from || <b>Health Dmg:</b> 373 Trauma || <b>Power Cost:</b> 35<br><b>Range:</b> 5<br><b>Cooldown:</b> 6 || <b>Unknown Source:</b> Not Found
+|}

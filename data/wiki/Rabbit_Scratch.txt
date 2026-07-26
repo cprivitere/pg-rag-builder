@@ -1,0 +1,158 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch
+| description = Swipe feebly at your enemies.
+| level = 1
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 7 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch 2
+| description = Swipe feebly at your enemies.
+| level = 10
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 12 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch 3
+| description = Swipe feebly at your enemies.
+| level = 20
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 18 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch 4
+| description = Swipe feebly at your enemies.
+| level = 30
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 27 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch 5
+| description = Swipe feebly at your enemies.
+| level = 40
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 37 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch 6
+| description = Swipe feebly at your enemies.
+| level = 50
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 58 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch 7
+| description = Swipe feebly at your enemies.
+| level = 60
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 79 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch 8
+| description = Swipe feebly at your enemies.
+| level = 70
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 100 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch 9
+| description = Swipe feebly at your enemies.
+| level = 80
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 126 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Rabbit Scratch 10
+| description = Swipe feebly at your enemies.
+| level = 90
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 151 Slashing
+}}
+|}
+{{Ability infobox
+| name = Rabbit Scratch 11
+| description = Swipe feebly at your enemies.
+| level = 100
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 178 Slashing
+}}
+|}
+{{Ability infobox
+| name = Rabbit Scratch 12
+| description = Swipe feebly at your enemies.
+| level = 110
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|RabbitScratch}}{{KWAB|BasicAttack}}{{KWAB|BodypartAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}
+| damage = 208 Slashing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

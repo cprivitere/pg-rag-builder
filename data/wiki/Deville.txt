@@ -1,0 +1,55 @@
+__NOTOC__
+{{NPC infobox
+|title = Deville
+|image            = [[File:Deville (npc).png|400px]]
+|caption =
+|eventnpc = Yes
+|zone = Sun Vale
+|location = Found near the Garden.
+|beastspeak = Yes
+|beastlist = All
+|anatomy = Non-Ruminant Ungulate
+|species = Donkey
+}}
+[[Deville]] was a human cursed by the god [[Zhia Lian]]. He was turned into a Donkey. Not to be confused with [[Deville Neth]], a completely different human. 
+
+== Location ==
+; [[Sun Vale]]
+: [[Deville]] can be encountered during the [[Seasonal Event]] of Halloween.
+
+==Quests==
+<dpl>
+category = Quests/Deville
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Conversations ==
+[[Category:NPCs]][[Category:NoRiShin]]
+
+{{Quote|
+
+I used to live with my parents on a farm, and when I turned into an ass, they treated me like one... They made me sleep in the barn and eat hay! They whipped me when I misbehaved... eventually I ran away. And the animals here helped me learn to talk! I want to go back and confront my parents, but I can't. It would just be ugly... I have no more love for them left in my heart. 
+:'''(After talking to Brandon in the Red Wing Casino) Hi, [[Brandon Mellus]] sent me.'''
+Brandon! I haven't heard from him in almost a year! Is he okay? Is he dead? 
+:'''Brandon is fine. He sent me here to help you!'''
+Help me? Oh no, the stupid cult party again!
+
+I told Brandon to give up on his dream. Zhia Lian is the god of Whimsy, for fuck's sake, does he really think she's gonna come to his crappy party? I'm done with all that. 
+
+Life as an ass is hard, but the first step to becoming happier is accepting who I am. And I am an ass. The end. 
+:'''Don't give up! Actually, Zhia sent me to help you!'''
+Really? Zhia Lian sent you? 
+:'''Yes.'''
+How did you meet her? No, never mind, it doesn't matter. So you're serious? You aren't tricking me? Zhia Lian sent you to fix me? How? 
+:'''Um... well...'''
+I knew it. You have no cure. Why are you really here? 
+:'''I believe you already have a plan. Let me help make it a reality.'''
+My plan? Oh, that potion? It's all lies. Never trust fish! They always say they're sent by Dreva but they're usually sent by Enoyos. And sturgeon are naturally huge assholes anyway! 
+:'''What are you talking about?'''
+A week ago a talking sturgeon told me about a potion that'd cure me. So I had a druid named [[Silvia]] write down the recipe for me. She said she could make the potion if I had the ingredients, but the ingredients are basically impossible for a donkey to get. 
+:'''Aha! That's it! Give me the ingredient list!'''
+Here's the paper. I asked Silvia what a Vurrkan heart was, and she said it must refer to a drakeworm that lives in the sandy part of the island. A drakeworm! Those are even nastier than all the trolls, and evil fairies, and nasty ranalon... it's pretty much impossible. 
+:'''Believe in yourself! Well, believe in me. I've got this. Back later!'''
+}}

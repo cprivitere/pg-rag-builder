@@ -1,0 +1,56 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Bat Stability
+| description = Use your wings and your incredible hearing to hold your ground even in extreme circumstances.
+| level = 9
+| power cost = 15
+| reuse time = 30
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|BatStability}}
+| special = Restore 25 Armor. For 8 seconds you become immune to knockbacks and stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Bat Stability 2
+| description = Use your wings and your incredible hearing to hold your ground even in extreme circumstances.
+| level = 29
+| power cost = 24
+| reuse time = 30
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|BatStability}}
+| special = Restore 50 Armor. For 10 seconds you become immune to knockbacks and stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Bat Stability 3
+| description = Use your wings and your incredible hearing to hold your ground even in extreme circumstances.
+| level = 49
+| power cost = 32
+| reuse time = 30
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|BatStability}}
+| special = Restore 100 Armor. For 12 seconds you become immune to knockbacks and stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Bat Stability 4
+| description = Use your wings and your incredible hearing to hold your ground even in extreme circumstances.
+| level = 69
+| power cost = 40
+| reuse time = 30
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|BatStability}}
+| special = Restore 150 Armor. For 12 seconds you become immune to knockbacks and stuns.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

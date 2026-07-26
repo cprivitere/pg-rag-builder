@@ -1,0 +1,34 @@
+__NOTOC__
+{{NPC infobox
+|title            = Bonely Willis
+|image            = [[File:Bonely Willis (npc).png|300px]]
+|caption          = Seems unaware of his repugnant odor
+|zone             = Statehelm
+|town = Statehelm
+|location         = Docks
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = ?
+}}
+{{Quote|source=[[Bonely Willis]]|
+Yet another day waiting for cargo to arrive. We're bleeding money waiting! But the captain promised to wait for this delivery. Should be any day now...}}
+[[Bonely Willis]] is a human sailor living at the [[Statehelm]] docks until their ship is ready to depart. 
+== Location ==
+; [[Statehelm]]
+: [[Bonely Willis]] may be found wandering the docks of Statehelm during the day. They might also be at the bottom of the bay. At night, they can be found sleeping in a room on the second floor of one of the larger buildings at the docks. 
+
+== Favor ==
+=== Small Talk ===
+[[Bonely Willis]] does not use the favor system.
+== Quests ==
+[[Bonely Willis]] does not offer quests.
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Bonely Willis]]|
+This is a pretty weird city. There's not exactly a lot of nightlife, heha! But the elf wench in the whore-church is... Mmm. You know? Mmm.}}
+{{Quote|source=[[Bonely Willis]]|
+I sleep aboard the ship most nights. Somehow there's less roaches there than in the local inn!}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

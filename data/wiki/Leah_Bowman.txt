@@ -1,0 +1,285 @@
+__NOTOC__
+{{NPC infobox
+|title            = Leah Bowman
+|image            = [[File:Leah Bowman (npc).png|300px]]
+|caption          = Local animal tender
+|zone             = Povus 
+|town             = City of Povus
+|location         = Old Town, southwest of the Town Status Board
+|anatomy          = Human
+|species          = Human
+|beastspeak       = ? 
+|skilltrainer     = [[Animal Husbandry]], [[Blacksmithing]], [[Carpentry]], [[Candle Making]],<br> [[First Aid]], [[Alchemy]], [[Gadgeteering]], [[Toolcrafting]]
+}}
+{{Quote|source=[[Leah Bowman]]|
+Thanks for asking. Personally, I think the term 'half-human' is fine. I don't take offense to 'halfie' either, though maybe it's just because I'm used to it. I don't like 'half-breed,' though. It makes me sound like a dog. And 'half-orc' is used as a slur, so... don't. And all the terms with 'green' in the name are slurs: greenskin, greeny, halfgreen, greenback, all of them.}}
+
+[[Leah Bowman]] is an animal tender in the city of Povus. She is both stable master and expert in animal breeding (husbandry).
+
+== Location ==
+; [[Povus]]
+: [[Leah Bowman]] can be found in Old Town, southwest of the Town Status Board, appearing at Town Level 0.
+
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+<!-- === Favor Rewards ===
+[[Category:Favor/Rewards]]
+[[Leah Bowman]] rewards her friends with ?.
+{{Spoiler|Reward at {{Favor|Comfortable}}:|
+:{{Item|Lembas Brick}} x2
+}}
+{{Spoiler|Reward at {{Favor|Friends}}:|
+:{{Item|Flower Dainties}} (with random enchant).
+}} -->
+<!-- === Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Hike to a remote meditation pillar(8h)|
+{{Quote|
+Echur said, "The scenery was great, wasn't it? Even if the meditation was kind of a drag. Well, not every meditation session goes as planned, you know? But we just come back to it tomorrow and try it again."
+}}
+:65 favor with [[Echur]]
+:300 Meditation XP
+}} -->
+== Quests ==
+<dpl>
+category = Quests/Leah Bowman
+notcategory=Ri-Shin Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+=== Tree Decoration: Serbule Hills ===
+During the [[Winter Holiday]] of Ri-Shin, [[Leah Bowman]] offers additional quests to decorate a tree in [[Povus]].
+<dpl>
+category = Quests/Ri-Shin Quests
+category = Quests/Leah Bowman
+mode = unordered
+columns = 1
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Swamp Balm
+ |skilllevel= 30
+ |cost= {{Item|Xogrite Chunk}} x5 + 0
+ |favor= Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Animal Husbandry]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Husbandry{{pipe}}Learn Animal Husbandry
+ |skilllevel = 0
+ |cost= {{Item|Xogrite Chunk}} x20 + 0
+ |favor= Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Husbandry{{pipe}}Unlock Animal Husbandry Levels 51-60
+ |skilllevel = 50
+ |cost= {{Item|Xogrite Chunk}} x10 + 0
+ |favor= ?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Animal Husbandry{{pipe}}Unlock Animal Husbandry Levels 61-70
+ |skilllevel = 60
+ |cost= {{Item|Xogrite Chunk}} x15 + 0
+ |favor= ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Blacksmithing]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Hardened Rivets
+ |skilllevel= 50
+ |cost= {{Item|Xogrite Chunk}} x2 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Extreme Rivets
+ |skilllevel= 75
+ |cost= {{Item|Xogrite Chunk}} x4 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Basic Sconce
+ |skilllevel= ?
+ |cost= {{Item|Xogrite Chunk}} x1 + 0
+ |favor= ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Candle Making]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Perfumed Wax
+ |skilllevel= 25
+ |cost= {{Item|Xogrite Chunk}} x6 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Enticing Wax
+ |skilllevel= 50
+ |cost= {{Item|Xogrite Chunk}} x8 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Stimulating Wax
+ |skilllevel= 75
+ |cost= {{Item|Xogrite Chunk}} x10 + 0
+ |favor= ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Carpentry]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Oak Lattice
+ |skilllevel= 15
+ |cost= {{Item|Xogrite Chunk}} x3 + 0
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Cedar Lattice
+ |skilllevel= 30
+ |cost= {{Item|Xogrite Chunk}} x3 + 0
+ |favor= Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[First Aid]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability= Treat Disease 4
+ |skilllevel= 65
+ |cost= {{Item|Xogrite Chunk}} x6 + 0
+ |favor= Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Gadgeteering]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Miniature Egg Incubator
+ |skilllevel= 25
+ |cost= {{Item|Xogrite Chunk}} x7 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Super Egg Incubator
+ |skilllevel= 50
+ |cost= {{Item|Xogrite Chunk}} x10 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Simple Travel Cage
+ |skilllevel= 15
+ |cost= {{Item|Xogrite Chunk}} x8 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Robust Travel Cage
+ |skilllevel= 30
+ |cost= {{Item|Xogrite Chunk}} x10 + 0
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Simple Kennel
+ |skilllevel= 20
+ |cost= {{Item|Xogrite Chunk}} x15 + 0
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Robust Kennel
+ |skilllevel= 35
+ |cost= {{Item|Xogrite Chunk}} x20 + 0
+ |favor= Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Astounding Cow Barding (Enchanted)
+ |skilllevel= 80
+ |cost= {{Item|Xogrite Chunk}} x15 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Astounding Cow Barding (Enchanted)
+ |skilllevel= 80
+ |cost= {{Item|Xogrite Chunk}} x15 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Astounding Cow Champron (Enchanted)
+ |skilllevel= 77
+ |cost= {{Item|Xogrite Chunk}} x15 + 0
+ |favor= ?
+}}
+{{NPC training row
+ |recipe= Astounding Cow Champron (Max-Enchanted)
+ |skilllevel= 77
+ |cost= {{Item|Xogrite Chunk}} x15 + 0
+ |favor= ?
+}}
+|}
+
+== Services == 
+==== Stable ====
+: The player's stable may be accessed from [[Leah Bowman]].
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = {{Item icon|Orcish Precision Display #3|1}} [[Orcish Precision Display 3]]
+}}
+== Conversations ==
+{{Quote|source=[[Leah Bowman]]|
+My mother was traveling through Povus and got raped by an orc warlord that lives here. That's how I was conceived. After that, she hated this city. But at least the rakkies didn't care what I look like. I even had some friends here, before they were murdered. Murdered by my father's goons, I might add.
+}}
+{{Quote|source=[[Leah Bowman]]|
+Some halfies can past for human, or at least pass for an orc. But I'm not so lucky. Every race thinks I'm an abomination.}}
+{{Quote|source=[[Leah Bowman]]|
+When I was old enough, I apprenticed with Yenshi the Animal Guru. He taught me a lot about kuvou an d animal-breeding in general. In fact, this was his house! He was killed in the bed next door to the one I sleep in. Pretty grim, huh?}}
+{{Quote|source=[[Leah Bowman]]|
+My mom spent her savings on an elven glamour that made me look like a human. Managed to get through school in [[Statehelm]] that way, but eventually people found out. And it was even worse because I'd been hiding it.
+
+So mom brought us back here, the very place she was raped. She was never the same after that. But I learned to love it here. I could be myself and the rakkies didn't care at all.}}
+{{Quote|source=[[Leah Bowman]]|
+Well for one thing, I inherited incredible anger issues. And my hair is utterly unmanageable. Oh, and I want to kill all humans... but that's just because of how they treat me.}}
+[[Category:NPCs]]

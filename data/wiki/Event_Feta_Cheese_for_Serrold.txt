@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Serrold said, "I can tell you're a cheesemaker... you have that smell about you! Making cheese on the go can always be difficult, and we really could use a stock of something other than what Torana and myself are carrying. If you would be willing to bring me 10 pieces of [[Feta Cheese]], I will share some of my cheesemaking experience with you!"
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Serrold]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Cheesemaking]] level 72. This quest is only available during a Crafting Caravan event.
+
+===Preface===
+I can tell you're a cheesemaker... you have that smell about you! Making cheese on the go can always be difficult, and we really could use a stock of something other than what Torana and myself are carrying. If you would be willing to bring me 10 pieces of [[Feta Cheese]], I will share some of my cheesemaking experience with you!
+
+===Requirements===
+* Make 10 Feta Cheese
+* Obtain 10 Feta Cheese
+* Talk to Serrold
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|This cheese is fantastic! We might eat it all right now! Come check with me later on... we might need some more!
+
+<i>[You earn 10 favor with Orran the Caravan Leader]</i>
+
+<i>[This task is repeatable every 18 hours.]</i>}}
+* {{Item|Crafter's Guild Token}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Serrold]][[Category:Quests/Crafting Caravan]]

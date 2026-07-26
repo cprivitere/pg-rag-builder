@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Echur]] in [[Serbule]] said, "We need lots of cheap decorations. They should be bright and shiny and round. Hmm. Apples! Yes, fetch some apples. I'll get some myself, and together we should have enough."
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Echur]]''' in '''[[Serbule]]'''.
+
+===Preface===
+We need lots of cheap decorations. They should be bright and shiny and round. Hmm. Apples! Yes, fetch some apples. I'll get some myself, and together we should have enough.
+
+===Requirements===
+* Obtain {{Item|Red Apple}} x6
+* Talk to [[Echur]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you. These will make a lovely apple-snake that coils around the tree. Festive!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Echur]][[Category:Quests/Ri-Shin Quests]]

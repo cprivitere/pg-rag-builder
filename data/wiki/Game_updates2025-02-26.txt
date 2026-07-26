@@ -1,0 +1,40 @@
+==Update Notes: February 26, 2025==
+This is a bug-fix update.
+
+===Hellfire adjustments:===
+:- You are now engulfed in purple flames when you are standing in an area that is applying Hellfire to you
+:- Demons that apply Hellfire now say so under their name when targeted
+:- Being dead in a zone of Hellfire no longer continues to apply Hellfire stacks to you
+:- Ferris Blueheart now offers a daily hangout to remove some Hellfire. What a nice guy!
+:- Hellfire stacks now show in your buff bar even when you are hiding Permanent Buffs
+
+===Vidaria adjustments:===
+:- Fix bug causing you to respawn at a random location in [[Vidaria]], instead of the nearest respawn point
+:- Kormathrux the Helix Devourer (the horse thief boss) no longer curses you
+:- Astonishing Skulls can now be found on the undead in Vidaria
+:- adjustments to dynamic activities in Vidaria - monsters' detection, shout, and chase radius is a bit smaller
+:- Slightly increase spawn rate of engineers in the back half of the Vidaria Orc Camp
+:- Fix bugs in the Crazed Animal and Gargoyle events in Vidaria
+:- Vidaria events now show up on the map when they are active (make sure you have Events selected in your filters!)
+:- Orcish Mining Pick recipes now work like other crafted gear recipes, and Engineer Crall has many more recipes to teach as a result
+:- Optimize Vidaria crater smoke particles
+:- Fix wrong favor-increase text for Korbok
+
+===Vampirism adjustments:===
+:- fixed display bug in Blood Mist tooltip; it showed that it dealt damage without any treasure effects. (Ability does no damage without treasure effects)
+:- Treasure effect "While in Blood Mist form, you erupt in a fountain of vile blood every 2 seconds, damaging all enemies within 5 meters" was broken, is now fixed
+:- Treasure effect "Bite attacks deal +24% damage and hasten the current reuse timer of Blood Mist by 3 seconds" => by 2 seconds
+:- Vampire 81-90 can now be unlocked
+:- Enable vampire rune in Vidaria farmhouse
+:- Vampire Runes can now be interacted with in the Old Targeting UI
+
+===Other:===
+:- New currencies (Vidaria Renown, Blood Oaths) now show up on vendor screens, displaying how much of that currency you currently have
+:- Fix bugs in the Golf window GUI
+:- Potential fix for Combatant-related exceptions on subservers (a/k/a "dead monsters chasing players")
+:- Gain a synergy level of Toolcrafting when reaching Gadgeteering 55
+:- Fix for "You're appreciating a performance" not going away when it should
+:- Fix for some NPCs no longer receiving gifts, and instead responding with something along the lines of "I don't know what to do with that"
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

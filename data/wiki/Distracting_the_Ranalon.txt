@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Baroness Marith Felgard in Serbule Hills said, "The goblins are keeping the ranalon very focused on their west flank. The eastern flank, the one facing us, has only a handful of guards. If we attack it, they'll have to split their forces up more, giving the goblins a better chance to take them out for us.
+
+Focus on the guards at the outpost down the road. That will get their attention. I will pay you 350 Councils if you kill six of them."
+
+===Prerequisites===
+To start this quest, talk to '''[[Marith Felgard]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Tolerated}} favor.
+
+===Preface===
+{{Quote|The goblins are keeping the ranalon very focused on their west flank. The eastern flank, the one facing us, has only a handful of guards. If we attack it, they'll have to split their forces up more, giving the goblins a better chance to take them out for us.
+
+Focus on the guards at the outpost down the road. That will get their attention. I will pay you 350 Councils if you kill six of them.}}
+
+===Requirements===
+* Kill Ranalon Guards
+* Talk to Marith Felgard
+
+===Rewards===
+{{Spoiler|Rewards for Distracting the Ranalon|
+{{Quote|Good work. And yes, I know, trying to help the bloody goblins is terrible... but the enemy of my enemy is an ally. Let's hope the goblins make a move soon.}}
+
+* 150 {{Favor|favor}}
+* 350 councils 
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Marith Felgard]]

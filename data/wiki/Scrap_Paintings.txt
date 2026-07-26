@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Kleave wants some low-value paintings. Paintings worth less than 50 councils would probably work best.
+
+===Prerequisites===
+To start this quest, talk to '''[[Kleave]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|Those goblins love artwork. I hate it! Bring me some of the lesser-valued pieces. I use them as floor coverings to keep my tanning chemicals from seeping into the groundwater.}}
+
+===Requirements===
+* Obtain Cheap Paintings x5
+* Talk to Kleave
+
+===Rewards===
+{{Spoiler|Rewards for Scrap Paintings|
+{{Quote|Yes, these will do. Thank you.
+
+Here, let me show you how I mix the tannins. There's a trick to it, you see...}}
+
+* 200 {{Favor|favor}}
+* 300 XP in [[Tanning]]
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Kleave]]

@@ -1,0 +1,19 @@
+__NOTOC__
+[[File:Charm Rat.png|thumb|right|300px|]]
+A necessary first step for anyone who wants to use [[Animal Handling]].
+
+In order to learn Charm Rat while on Anagoge Island, the player must solve the "pedestals" puzzle on the eastern shore of Anagoge Island, then open the chest in the middle of the pedestals. This will award the player with the Charm Rat scroll.
+
+{{Spoiler|Pedestal puzzle solution| a clue is given on a note in a shack on the island, referring to the word "SEWN". This means that if the first pedestal is "South", then the next one clicked should be in the "east" position, then the "west" position, and finally the "north" position.}}
+
+{{Ability infobox
+| name = Charm Rat
+| description = Befriend a rat. The rat will fight for you as long as you remain in the rat's natural home zone. Requires a cheese.
+| level = 0
+| power cost = 40
+| reuse time = 60
+| range = 10 meters
+| skill = Unknown
+| keywords = {{KWAB|Lint_NoAttackType}}
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

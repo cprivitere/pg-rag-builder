@@ -1,0 +1,74 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Debilitating Blow
+| description = Attack the target's offense, leaving them less able to deal damage.
+| level = 9
+| power cost = 18
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|DebilitatingBlow}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 21 Slashing
+| special = Target's attacks deal -10% damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Debilitating Blow 2
+| description = Attack the target's offense, leaving them less able to deal damage.
+| level = 28
+| power cost = 28
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|DebilitatingBlow}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 56 Slashing
+| special = Target's attacks deal -17% damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Debilitating Blow 3
+| description = Attack the target's offense, leaving them less able to deal damage.
+| level = 43
+| power cost = 36
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|DebilitatingBlow}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 106 Slashing
+| special = Target's attacks deal -25% damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Debilitating Blow 4
+| description = Attack the target's offense, leaving them less able to deal damage.
+| level = 56
+| power cost = 41
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|DebilitatingBlow}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 175 Slashing
+| special = Target's attacks deal -25% damage for 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Debilitating Blow 5
+| description = Attack the target's offense, leaving them less able to deal damage.
+| level = 69
+| power cost = 48
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|DebilitatingBlow}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 244 Slashing
+| special = Target's attacks deal -25% damage for 10 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

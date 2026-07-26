@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Elahil in Serbule asked you to collect some feathers.
+
+===Prerequisites===
+To start this quest, talk to '''[[Elahil]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|My shipment of feathers didn't come in. <i>Again.</i> I wonder what's up? Anyway, can you collect some? There's a few chickens in town, but you can also find them in giant spiders' stomachs. They eat lots of birds! And there's lots of giant spiders in the cemetery crypt...}}
+
+===Requirements===
+* Obtain {{Item|Feathers}} x3
+* Talk to Elahil
+
+===Rewards===
+{{Spoiler|Rewards for Feathers For Elahil|
+{{Quote|Perfect! Well... not <i>perfect</i>, these are pretty ratty feathers, but I can make 'em work.
+
+Let me repay you. Not in money, but in something even better: arrows!}}
+
+* 100 {{Favor|favor}}
+* {{Item|Beginner's Arrow}} x 500
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Elahil]]

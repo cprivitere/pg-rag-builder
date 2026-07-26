@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Bash
+| description = Bash your enemy, stunning them.
+| level = 3
+| power cost = 15
+| reuse time = 15
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|CowBash}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 20 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Bash 2
+| description = Bash your enemy, stunning them.
+| level = 33
+| power cost = 31
+| reuse time = 15
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|CowBash}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 69 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Bash 3
+| description = Bash your enemy, stunning them.
+| level = 46
+| power cost = 37
+| reuse time = 15
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|CowBash}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 122 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Bash 4
+| description = Bash your enemy, stunning them.
+| level = 61
+| power cost = 44
+| reuse time = 15
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|CowBash}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 201 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Bash 5
+| description = Bash your enemy, stunning them.
+| level = 71
+| power cost = 49
+| reuse time = 15
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|CowBash}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 257 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Bash 6
+| description = Bash your enemy, stunning them.
+| level = 83
+| power cost = 55
+| reuse time = 15
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|CowBash}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 332 Crushing
+| special = Stuns opponent.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

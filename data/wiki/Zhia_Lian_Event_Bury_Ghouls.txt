@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Ghouls are nasty, disgusting undead. There is nothing more gross than a pile of dead ghouls. At least skeletons don't smell very much! Go make the world a better-smelling place! Bury all the ghouls you can find!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Ghouls are nasty, disgusting undead. There is nothing more gross than a pile of dead ghouls. At least skeletons don't smell very much! Go make the world a better-smelling place! Bury all the ghouls you can find!
+
+===Requirements===
+* Bury Ghouls x6
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Good. I hate ghouls. So gross.}}
+* 200 councils
+* {{Item|Recall Stone}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

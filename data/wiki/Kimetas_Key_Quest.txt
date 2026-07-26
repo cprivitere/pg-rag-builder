@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Gerrux in Povus has asked you to find his deceased sister's key, which she threw into the river before her death. He heard there's a ranalon who trades in river treasures who might be able to help.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gerrux]]''' in '''[[Povus]]'''. This quest is only available after you give him Ghostly Key as a gift.
+(The Ghostly Letter is NOT the key, the letter must be given to Kimeta directly. Once you give Kimeta the letter, she will give you a key. That key is what needs to be gifted to Gerrux.)
+
+===Preface===
+Like I said when you gave me that ghostly key... If you ever find my sister's <i>real</i> key, I could use it to open her precious-items box!
+
+I heard that somewhere out there is a ranalon who deals in river treasures. Maybe you can find this frog and beat the secret out of him!
+
+===Requirements===
+* Obtain Kimeta's Key
+* Talk to Gerrux
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You found it?! This is Kimeta's key! I can open the chest she left behind! Wait just a minute.
+
+<i>[Gerrux opens a small chest and sighs.]</i> Well, I'm glad to know what was inside. But it's just more of the weird gizmos she was making. And some technical notes. Here, you can have this junk, maybe it'll make more sense to you.
+
+Thanks for helping me figure out what was inside! Even though it's disappointing.}}
+* 50 {{Favor|favor}}
+* {{Item|Secrets of Arthropod Genetics}}
+* {{Item|Beginner's Arthropod Genetics Analyzer}} x10
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Gerrux]]

@@ -1,0 +1,67 @@
+__NOTOC__
+{{NPC infobox
+|title            = Fluffikins
+|image            = [[File:Fluffikins(npc).png|300px]]
+|caption          = Looking over some plans
+|zone             = Gazluk
+|location         = Animal Outpost
+|anatomy = Canine
+|species = Fox
+|beastspeak       = Yes
+|beastlist = All
+|barter = Yes
+}}
+{{Quote| My master left me with a long list of tasks, and we've fallen behind. I'd love your help!
+}}
+[[Fluffikins]] is an [[Awakened]] Fox that works alongside [[Trekker]]. He barters [[Glowy Yellow Crystal]]s for other valuables. 
+== Location ==
+; [[Gazluk]]
+: [[Fluffikins]] is found at the northeast Animal Outpost alongside [[Trekker]] and [[Aven]].
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Fluffikins
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services ==
+{{Quote|
+I am authorized by my beneficent master to trade any ensorcelled hassium... I mean, '[[Glowy Yellow Crystal|glowy yellow crystals]]'... sigh... for vervadium or other precious materials. Of course, you could also gift the crystals to me just because you're nice.
+}}
+==== Bartering ====
+At {{Favor|Neutral}}, Fluffikins will offer to barter with you:
+{| {{STDT}}
+!Give
+!Receive 
+|-
+| {{Item|Glowy Yellow Crystal}} x5 || {{Item|Vervadium}} x2 {{Favor|Neutral}}
+|-
+| {{Item|Glowy Yellow Crystal}} x2 || {{Item|Power Potion Omega}} x1 {{Favor|Comfortable}}
+|-
+| {{Item|Glowy Yellow Crystal}} x5 || {{Item|Winterprize}} x2 {{Favor|Friends}}
+|-
+| {{Item|Glowy Yellow Crystal}} x7 || {{Item|Semi-Real Hassium}} x1 {{Favor|Close Friends}}
+|-
+| {{Item|Glowy Yellow Crystal}} x4 || {{Item|Large Prism}} x1 {{Favor|Close Friends}}
+|-
+| {{Item|Glowy Yellow Crystal}} x2 || {{Item|Diamond}} x1 {{Favor|Best Friends}}?
+|-
+| {{Item|Glowy Yellow Crystal}} x3 || {{Item|Basic Stoneskin Potion}} x1 {{Favor|Like Family}}?
+|}
+Fluffikins will accept an equal number of {{Item|Coated Glowy Yellow Crystal}} instead of {{Item|Glowy Yellow Crystal}}.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Ring of Toxin Archery}}
+|RiShin Family = Two (Lv 70) items (incomplete): {{Item|Scorpiclaw Boots}}, {{Item|'Treatment of The Poor'}}
+}}
+== Conversations ==
+
+[[Category:NPCs]]

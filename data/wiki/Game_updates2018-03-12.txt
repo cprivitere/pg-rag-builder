@@ -1,0 +1,61 @@
+==Rahu==
+
+This update contains a number of additions to [[Rahu]] aimed at making it more useful as a hub for high-level players. There is more to be done but this should be a big push in the right direction.
+
+Rahu now has its own player work order board. Note that this is not connected to the Serbule work order board, so you can place your full allotment of orders on both boards simultaneously. The intent is that the Serbule work order board is for items that low-level players can obtain, and the Rahu board is for higher-level items. But there are no explicit restrictions on which items can go where, so we'll just see how things evolve.
+
+There is a new portal on the south side of the map that connects to [[Gazluk]]. Note that this will change eventually: in the final game, Rahu is supposed to connect to a different landmass, so this portal will eventually be replaced with a connection to a different one
+
+[[Daniel Murderdark]] has [[storage]] slots available for his friends.
+
+Some additional resource nodes and monsters were added to Rahu, including some mining nodes in the desert itself (around the hills), and a very early version of the "prison mine" area south of town. 
+
+The idea for the mine is that it's full of mining nodes which can be harvested to obtain a wide range of minerals -- often junk, but sometimes quite rare. Prisoners wander around constantly, but they ignore you unless you get very close to them. (They have a short detection radius.) However, the prison guards are much more observant, and can bring prisoners into the fight to back them up.
+
+All of Rahu is still a work in progress, so there's no need to report graphical issues at this time unless they're very flagrantly bad. And while the "prison mine" is definitely a work in progress, it would still be useful to hear feedback on the difficulty/reward of this area! (Especially if it's super tough, super rewarding, super boring, etc.)
+
+==Force Low-Res==
+
+If you have trouble logging a character into the game, there's now an easy way to lower the graphics settings. On the character select screen, press and hold the Ctrl key on your keyboard (on macs, the Mac key also works). This will make the "Enter World" button become "Enter World FORCE LOW-RES". Press the button and your graphics preset will be changed to the lowest level, "Retro-Terrible", and full-screen mode will be turned off. Once you log in, open the Settings window and change your graphics to the desired level.
+
+This is a sort of replacement for the "Safe Mode" feature in the Gorgon launcher (because the launcher isn't used on Steam!). Note that FORCE LOW-RES doesn't turn off all your graphics overrides. If you manually overrode some graphics settings and FORCE LOW-RES isn't doing the trick to let you log in, a common fix is to create a new character. That's because the tutorial island (Anagoge Island) is specially set up to be low-graphics-intensive, and you will almost certainly be able to log in to the island in FORCE LOW-RES mode. Once you're on the island, you can change your graphics settings as desired, log out, and log back in with your main character.
+
+One other thing the FORCE LOW-RES button does is disable the "Special Settings" features until you log out. So you can use FORCE LOW-RES to turn off OptimizeMeshes or other special settings if there's a problem.
+
+(Oh, and by the way: you can also hold down the Shift key on the log in screen to log in "incognito". In incognito mode, friends won't be notified you logged in, the /who command won't include you, your guild's log won't indicate that you logged in, etc.)
+
+
+==Fog Changes==
+In outdoor areas, there are no more "partially-cleared fog" squares, as it was difficult to visually interpret.
+
+In outdoor areas, fog is cleared in a wider radius as you move around the map.
+
+In dungeons, the "partial fog" color is denser (that is, foggier) to make it easy to parse while still conveying useful information.
+
+In dungeons, fog colors are normalized, removing super-bright white backgrounds that were used on some maps.
+
+==Other Changes==
+Enabled basic occlusion culling in [[Serbule Hills]], since the occlusion culling in [[Serbule]] seemed to go well. As before, if there are problems you can disable occlusion culling by adding NoCull to the special settings window.
+
+The tooltip info for spell effects now shows the name of the person or thing that cast it on you (unless it's you). A caveat: when you switch areas (or logout and log back in) with active spells on, the client no longer knows who cast those spells on you, so it can't display any caster info.
+
+Fixed broken "wolf whistle" so that wolves spawn in the appropriate place (part of the alpha [[lycanthropy]] quest).
+
+Added a few more entries to the "things to do" list for [[Anagoge Island]].
+
+Nerfed biting vines' damage.
+
+[[Paul Vaughn]] now sells handsaws and other things vaguely pertaining to woodworking (since he's a lumberjack).
+
+[[Durstin Tallow]]'s footlocker: you could gain access to the footlocker by becoming Friends with Durstin. However due to a bug, you could actually access it immediately via the "Storage Books" bookshelf. It now works differently: you can buy access to the footlocker at any time by talking to Durstin and paying 100 Councils. You cannot access it from the Storage Books until you pay. (That bug is fixed.) Now if you reach Friends with Durstin, he gives you some power potions instead. (If you already had reached Friends with Durstin, you don't have to pay the 100 Councils.)
+
+Fixed a dummy "Are you sure" box that could appear on the newbie island when you create your first character (or after a fresh reinstall).
+
+Upgraded to a new bug-fix version of Unity to hopefully address some crashing issues.
+
+Fixed issue with male Elven Armor flickering and behaving weirdly.
+
+Fixed issues with the "OptimizeMeshes" optimization, and smoothed out the work so that it doesn't cause quite as noticeable a framerate hit when new players enter your vicinity. At this point we need more volunteers to try it out and report any problems! To use it, open the Settings window, then Special Settings, and type OptimizeMeshes into the box. Note that you need to re-login for the optimization to fully become active (and if you turn it off, you have to relog to fully deactivate it). If you have serious crashing issues and can't log in to turn it off, use the "Start in Safe Mode" option in the launcher, or the FORCE LOW-RES option (see above). This will cause the game to ignore the Special Settings box entirely, allowing you to log in and turn it off.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

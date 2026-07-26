@@ -1,0 +1,50 @@
+__NOTOC__
+==Summary==
+Use Blanche's awl to chip the giant crystal near a lake somewhere around Serbule. You aren't sure what will happen when you do this. You've been told to be careful.
+
+==Prerequisites==
+To start this quest, talk to [[Blanche]].  The quest is available at {{Favor|Neutral}} favor.  OPTIONAL: Start the quest [[The Red Crystal]] before talking to [[Blanche]].
+
+==Preface==
+{{Quote|
+Hey there. You're new! I love new ones! Are you here for a reason, or just passing through?
+;'''I'm here about some crystals?'''
+You mean the giant crystal out near the lake? What do you know about it? Who sent you? What do you plan to do about it? Are you form the Council? Where's your badge? WHO ARE YOU REALLY?
+;'''I lost my memories, and...'''
+Oh no, another person? I thought you looked pretty disoriented! So you lost all your memory? You don't know anything?
+;'''Nope, it's all gone.'''
+Well that's... that's really sad! I'm sorry for your loss. There was a different person, a human girl, stumbled into town the same way a few months ago, said she was trapped on an island nearby.
+;'''Same thing happened to me!'''
+Damn. So you aren't from the Council at all. You just saw the big crystal and you're curious. Well, it's a variety of red crystal that we find all over the place, but usually the chunks are tiny. The only time any of us have seen a crystal this big is on the redwalls.
+;'''Wait, what are the redwalls?'''
+You know, the gigantic red walls that criss-cross the continent and keep demons from invading? They're made of crystal and magic energy. But only a Council mage knows how to make them.
+;'''Huh'''
+So anyway, enough blabbing. I've been trying to figure out where this came from by studying its crystal structure -- I'm an amateur geologician -- but I ran out of red crystal samples. Why don't you go and chip off some more samples for me?
+;'''Yeah, okay, sure thing.'''
+
+[ Blanche gives a {{Item|Geomancy Awl}} and the quest [[Get Crystal Samples]]. ]
+
+Really? You're going to go off and do it? That's so sweet of you! Here, take this awl. Use it to chip some of the crystal. But be careful -- weird random stuff happens when you do it. I kind of almost died last time. So, uh, be careful.
+;'''... gee, thanks'''
+}}
+
+==Requirements==
+*Obtain {{Item|Rubywall Crystal Fragments}} x5. {{Hint|Obtain these from the glowing red crystal on the west shore of the lake north of town.  Use the Geomancy Awl to chip fragments off the crystal.  Be ready to fight!}}
+*Talk to [[Blanche]].
+
+==Rewards==
+{{Spoiler|Rewards for Get Crystal Samples|
+{{Quote|
+Thanks!
+}}
+* 50 XP in Sword
+}}
+
+
+== Headline text ==
+==Notes==
+*This quest is part of the central quest "chain", where players learn more about the backstory for the game.  The chain starts with [[Yurra]] and [[The Red Crystal]].
+*The [[Creepy Crystal]] required for this quest is located near the lake north-east of [[Serbule Keep]], which later becomes the entrance to the [[Crystal Cavern]].
+*Once the quest is complete, the {{Item|Geomancy Awl}} is no longer needed.
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Blanche]][[Category:Quests/Story Quests]]

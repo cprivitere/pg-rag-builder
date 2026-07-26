@@ -1,0 +1,51 @@
+==<b>August 15 Note</b>==
+Bugs! There are some. The portal to [[Serbule Crypt]] has gone missing and has been replaced with an emergency backup portal, looks a little odd but it works the same, so no worries. More tragically, the lore in the new cave is all fubar, giving too much XP, and it's been temporarily disabled. If you find some that I missed, please don't abuse it! There will be another update to fix these issues, and many more I'm sure, in a day or two!
+
+==<b>August 15 Update</b>==
+This update has lots of bug fixes, lots of stat changes, chat features, and a bit of new content. Remember: this is alpha, weird stuff happens routinely! Don't panic, just report weird stuff. We can put up a fix quickly as needed.
+===<b>Chat Features</b>===
+;The game now has primitive user-created chat rooms. They'll get fancier as we go forward, but hopefully this first version is still useful. There's a new tab in the chat window where you can join as many chat rooms as you want via the /join command. For instance, you could type "/join Help", "/join Trade", or "/join Lounge"... or all of the above. To see what chat rooms are active, use "/rooms".
+:If you want to create a "private" room, well, you can't yet! But you can create a "hidden" room that doesn't show up in the listing. To do that, just start the room name with a minus sign. For instance, "/join -abc"
+:You can talk in these chat rooms from the new tab. If you can't see the new tab in the chat window, resize the window! Or you can use /c to talk from any other tab. 
+
+===<b>New Content</b>===
+:- [[Staff]] can now be raised to level 60. Seek out [[Roshun the Traitor]] in [[Serbule]], at the mantis compound
+:- There's a new mini-encounter area, a/k/a "small solo dungeon", in [[Serbule]]. It's kinda near the portal to [[Eltibule]]. This cave will soon be a small part of the main storyline quests, but at the moment it's just got some things to stab, loot to collect, and bits of lore here and there. Theoretically, you should be able to solo this cave by the time you have level 20 in two skills, but that's just theory. Please give feedback on your experience in the dungeon!
+:- new musical instruments: added the dwarven Blatterhorn and the miniature hammer dulcimer to the loot tables. They are rare drops from high level creatures. The Blatterhorn will drop from a few monsters in the 50s range (like lamias and basilisk controllers), as well as from [[Manticore]]s. The hammer dulcimer will drop from rakshasa in the desert. (It's not a rakshasa-specific instrument, they just happen to be the only creatures in that level range right now.)
+:- A new vendor has moved into [[Amulna]], as we slowly build out the town
+:- the pig has a new higher-res model with some new animations, including /dance anims... of a sort
+:- new miscellaneous skill: [[Civic Pride]]. Right now the only way to earn XP is via lamps in towns: you earn small amounts of XP for refueling lamps/torches/lanterns and for turning them on after dark (or turning them off when the sun is up).
+
+===<b>General Changes</b>===
+:- slightly increased Power costs of abilities beyond about level 30 (in a couple cases, raised by as much as 13% at level 50... pretty mild overall, but noticeable)
+:- you no longer get bonus Max Power for levels of [[Lore]] above 10
+:- adjusted the equipment drop rates of many solo monsters. For the time being, the rule of thumb is: if a monster can drop random equipment, it will drop 33% of the time. Some monsters had higher equipment drop rates than this (goblins, yetis, a few others), so they have been nerfed. But most monsters had MUCH lower drop rates than that, so they've been buffed. This includes skeletons, rhinos, spiders, brain bugs, and many others.
+:- zombies learned a new trick: they are immune to being stunned, and the icy variety are more resistant to all types of direct damage
+:- We're trying something new to try to make the [[Manticore]] area work. The manticores now have a ton more health, do more damage, and wander much more often. And the entire manticore area now respawns once per hour (all at once), so it's not something you can just farm over and over.
+:- Some treasure effects were reworked, and a few new ones added. Lots of bugged effects were fixed (but there's still more bugs to squash). Equipment will be auto-updated when you log in.
+:- added some more unique loot drops for individual monster types. For instance, rhinos can now drop a necklace that grants knockback resistance, fairy healers can drop a healing ring, etc.
+
+===<b>Bug Fixes</b>===
+:- fixed bug with [[Yasinda]] in Eltibule when talking to animal players
+:- fixed one of the bugs that caused a subserver crash
+:- level 40 Antique Spathas had a level 55 wield requirement; this is changed to level 40. (Stock swords will automatically change, but some enchanted spathas will retain the higher requirement permanently because of how it's recorded on the item.)
+:- nerfed pet rats so that their attacks generate a very slight amount of aggro. This way they aren't completely invisible to monsters, because that led to exploitable scenarios where a single rat could kill Gajus the Big Headed. You should be able to pull aggro off of your pet rat very easily, though.
+:- equipment that buffed Bodyslam didn't work (items that buffed "Hip Throw and Bodyslam" did, though)
+:- equipment that buffed Pin didn't work
+:- equipment that simultaneously buffed Fire/Acid/Poison arrow abilities didn't work
+:- portals are now brighter and emit a bluish light (to make them easier to see in changing daylight conditions outdoors)
+:- fireworks recipe can no longer be found in goblin loot (until next 4th of July!)
+:- the little garden in [[Amulna]] now actually works as a garden
+:- corrected some exploitable looting scenarios
+:- fixed bug in "/invite" and "/friend" commands that kept them from working if you were too far away. (They still don't work if the person is in another zone entirely, due to technical limitations.)
+:- improved some blurry textures in Serbule
+:- added some filler items to the goblin 3-hour chests, so it's not always dropping two enchanted pieces of equipment
+:- fixed the level of the 3-hour [[Yeti Cave]] chests (was accidentally giving level 30 enchantments on level 40 equipment)
+:- ice zombies were dropping level 50 equipment with level 40 enchantments. They now drop level 40 equipment
+:- you now play a "chop wood" animation while collecting lumber. This slows the collection process down a little bit, but on the up side there is now a chance of getting multiple pieces of wood from a single source.
+:- [[Hissy]] got smaller
+:- Newbie-cave cheese has been demoted from level 31 Mogyar Cheese to level 14 Mild Cheddar Cheese. Still works the same on rats!
+:- Fixed more weird flashy things in [[Eltibule]] near bridges
+
+;Note to animal handlers: Note that rats still have rage-reducing attacks -- that part hasn't changed. While cats vastly outdamage rats, rats reduce Rage with every attack, at a rate 2x the amount of damage they do. So a level 50 pet rat removes over 100 rage with every bite -- not bad! It's not insanely great, either, but in scenarios where you are being hit by lots of Rage attacks (and dying to stun locks or getting your bones broken), a rat may be a better companion than a cat.
+[[Category:Game updates]]

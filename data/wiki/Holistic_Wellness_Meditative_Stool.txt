@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Lakrea told you to build two meditation stools. (Meditation stools are made with Carpentry.)
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|You should meditate more! But not on the ground. True meditation requires a meditation stool that you built yourself. Go and assemble a meditation stool. Then make a backup. Damned stools break all the time!}}
+
+===Requirements===
+* Craft Meditation Stools
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: Meditative Stool|
+{{Quote|Good, good. Now you should go meditate with one of the stools! I bet you'll find it very deeply fulfilling. And you'll wish you'd done a better job on the stool, too! That's how we push ourselves to improve.}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

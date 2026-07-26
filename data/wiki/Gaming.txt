@@ -1,0 +1,102 @@
+__NOTOC__
+{{Skill infobox
+|title            = Gaming
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Skill in playing games, especially gambling games.
+|skilltype        = Other Skill
+|maxlevel         = 50
+|req              = N/A
+|skilltrainers    = ???
+}}
+
+{{Quote|
+Skill in playing games, especially gambling games.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+'''Gaming''' is a skill improved through playing gambling games in areas such as the [[Red Wing Casino]]. A high level in Gaming shows that a player has learned how to bend the odds in their favor - or at least failed many, many times in pursuit of a future payout.
+
+=== In-Game Description ===
+Skill in playing games, especially gambling games.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* Loot Master Match-3 gives moderate experience based on performance.
+* Progression in Monsters and Mantids grants increasing experience rewards (even if you die).
+* Cashfall Match-3 gives only a very little amount of experience.
+== Connected Skills ==
+===== Sub-Skills: =====
+* [[Golf]] - A sub-skill named after four different games played by Dwarves, Humans, Goblins, and Elves.
+
+===== Secondary Skills: =====
+* N/A
+===== Related Skills: =====
+* [[Corpse Talking]] - Digging up random graves is kinda like gambling!
+* [[Brewing]] - A beer or two will help gain the desire to gamble!
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Gaming]] can be obtained from the following skills and levels:
+:; [[Safecracking]]
+:: Level 5, Level 25
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+
+=== Red Wing Casino Games===
+* In Cashfall and Loot Master Match-3, 4 pieces in a row grants an extra turn, 5 in a row grants two extra turns, and 2 matching connected sets of 3 also grants extra turns.
+* Losing a match of Monsters and Mantids results in no councils or tokens, but you may receive Cashfall Match-3 tickets depending on how far you progressed.
+* Successfully completed Monsters and Mantids games will award 2-3 Crown Tokens as well as the other cash-out rewards.
+* Tables of Monsters and Mantids in the High-Stakes room (requiring at least level 30 Gaming) cost 250 councils more to start, but give you +5 max health and a free healing potion at the start.
+* The level-up reward of Gaming "Improved gaming intuition (Monsters and Mantids)" increases a chance to be warned if you attempt to cash-out right before an event (rather than a fight).
+
+====Monsters and Mantids====
+*You can view the in depth instructions at each table. It is a text and dice based game. You start each game with a set of three random skills and have to beat a series of enemies by choosing one of the skills. A 'D' is a six-sided die, so if the skill says it does 2D damage then you will roll 2 dice and the added result will be the damage dealt to the enemy. At the end of each fight you can choose to level up or 'Master' a skill or to eat the enemy for lots of health. During gameplay you may come across a hat which can boost your health or damage, and is often based on rolling doubles. Other special events may happen that could result in loot, a fight, or death depending on how you roll and the event. 
+*A 'close call' may happen if you finish a fight with 5 or less hit points. When this happens you will get a Cashfall ticket at the end of the game, even if you die. 
+*You can cash-out periodically throughout the game. If you cash out (instead of dying) you will get councils equal to the amount of gold you have, the Cultural Artifacts you have become Red Wing Tokens.
+*Cashing out with Cultural Artifacts can also cause a table buff to happen. The chance is 5% per artifact. The table buffs are powerful and benefit any player that plays on that table. Each table buff lasts a full real-time hour. These buffs can stack with each other, but only one instance of each type of buff can exist at the same time.
+*List of Table Buffs (work in progress):
+** Perk Picker: When choosing a Perk, you have a fourth choice available.
+** Well-Prepared Adventurer: Start with Healing Potion and a Makeshift Bomb.
+** Hat Memorializer: There's a much higher chance that fallen mantises will be found with their hats still intact.
+** +1 damage to all player attacks.
+** +1 to the number of healing dice rolled when devouring the corpse of a slain enemy (you roll 6 dice instead of 5).
+** +1 to the number of Persuasion dice rolled for Persuasion checks (4 dice instead of 3). Persuasion dice are white in color.
+** +1 to the number of Saving throw dice rolled for Saving throws (4 dice instead of 3). Saving throw dice are black in color.
+** Stylish Adventurer: Start with a Fancy Hat (A stylish hat that boosts your Max Health +5, adds +1 to Diplomacy checks, and gives you 1D-3 Max Health whenever you devour a corpse after battle).
+** Lucky Looter: +25% extra gold found on slain enemies.
+** Start with a healing potion.
+** Start with a bomb.
+*Monsters and Mantids costs 650 councils downstairs
+*The High Roller room Monsters and Mantids costs 900 councils. You start with an extra 5 health and a health potion.
+*Fast Games:
+** You can obtain fast games by tipping the mantis at least 1,000 councils to add [floor(tip/200)-1] fast games to your pool. For example tipping 1,000 councils gives 4 fast games, while tipping 10,000 councils yields 49.
+** Playing a 'fast game' makes all the dice roll at once instead of one at a time, speeding up the game.
+** You can tip the mantis exactly 1 council to see how many "fast games" you have remaining.
+** Fast games can be used at any table.
+
+====Cashfall, Loot Master, and Loot Master Deluxe====
+*In game instructions, located on Tutorial Console
+"Instructions: drag gems to swap them with their neighbors in order to line up 3 of the same gems either horizontally or vertically. 
+If you match 4 gems at once, you get a free turn, and if you match 5 at once, you get two free turns! (Note:you can only get credit for one 5-match in a single turn.)Learning how to set up 4-gem and 5-gem matches takes a lot of practice, but it's the secret to great high-scores!"
+*A game of Loot Master Match-3 cost 450 councils
+*A game of Loot Master Deluxe Match-3 costs 800 councils
+*A Cashfall ticket is needed in order to play Cashfall Match-3
+*Each type of game has a High Scores page. These are rolling high-score lists; entries fall off the list after 7 days
+*The score of each game is the amount of councils you receive when it is over. You also get items based on what you earned during the game. Cashfall scores and payouts are higher but the items are always glass. The items and payouts of Loot Master Deluxe tend to be better than Loot Master
+====Sea of Gems Match-3====
+{{Quote|source=Sea of Gems|Earn exotic fish to reveal precious Massive Gems! Plus with Councils equal to your final score!}}
+Sea of Gems Match-3 operates similarly to standard Loot Master machines, but has a higher cost (1200 Coucils) and only contains two categories of items: [[:Category:Items/FishFresh]] and [[:Category:Items/MassiveGem]].
+
+=== Gaming Rewards===
+* Level 30 Gaming gets you access to the High-Stakes room of the Red Wing Casino.
+* Every 10 levels of Gaming allows you to purchase and wear a new Gaming-related title from Qatik in the Red Wing Casino!
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Gaming Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Gaming|
+{{:Xptables/Gaming}}
+}}
+
+== Trivia ==
+* Gaming was added in September 2018.
+
+[[Category:Skills]]

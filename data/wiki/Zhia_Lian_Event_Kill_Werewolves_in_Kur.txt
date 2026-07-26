@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> It looks like Norala is up to something. You know, the goddess of the Hunt? She created werewolves? Anyway, she's mobilizing them to attack someone. You'd better go and make your presence known before she starts a war. Wars are boring.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> It looks like Norala is up to something. You know, the goddess of the Hunt? She created werewolves? Anyway, she's mobilizing them to attack someone. You'd better go and make your presence known before she starts a war. Wars are boring.
+
+===Requirements===
+* Kill Werewolves x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Nice job killing werewolves. That's really the only thing that Norala respects these days: killing power.
+
+Now that Norala knows she isn't the only god making a play during this weird equinox thing, she'll be more careful, more manipulative, and way less boring. So good work!}}
+* 1500 councils
+* {{Item|Level 50 Event Loot Key}}
+* random items
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,56 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Pinning Slash
+| description = Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.)
+| level = 51
+| power cost = 22
+| reuse time = 12
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffPin}}{{KWAB|StaffAttack}}{{KWAB|Melee}}
+| damage = 124 Slashing initially and 10 Trauma 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Pinning Slash 2
+| description = Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.)
+| level = 61
+| power cost = 25
+| reuse time = 12
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffPin}}{{KWAB|StaffAttack}}{{KWAB|Melee}}
+| damage = 168 Slashing initially and 20 Trauma 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Pinning Slash 3
+| description = Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.)
+| level = 71
+| power cost = 28
+| reuse time = 12
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffPin}}{{KWAB|StaffAttack}}{{KWAB|Melee}}
+| damage = 214 Slashing initially and 30 Trauma 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Pinning Slash 4
+| description = Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.)
+| level = 81
+| power cost = 31
+| reuse time = 12
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffPin}}{{KWAB|StaffAttack}}{{KWAB|Melee}}
+| damage = 266 Slashing initially and 40 Trauma 6 times over 12 seconds
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Eleme in Sun Vale has asked you to murder the Winter Court soldiers at the various encampments in Sun Vale.
+
+===Prerequisites===
+To start this quest, talk to '''[[Eleme]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I've seen the Winter Court's outposts. They're staying in tiny dimensional pockets where they think they're safe. But they have to come out some time. Show them that their safety is an illusion.}}
+
+===Requirements===
+* Kill Winter Court Fae Near Their Portals And Bases
+* Talk to Eleme
+
+===Rewards===
+{{Spoiler|Rewards for Encroaching Winter Camps|
+{{Quote|They aren't really dead, you know. Not like mortals die. They'll be back within a week. But they'll not soon forget the pain you caused them! Thank you.}}
+
+* 150 {{Favor|favor}}
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Eleme]]

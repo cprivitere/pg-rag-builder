@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Ricatu in Povus said, "My friend Kelim in Amulna says he's got some spices that might help this fake meat taste more like turkey. I think he's trying a little too hard to sell me on them, you know? But it might work.
+
+Go see if he'll give you some harvest spices."
+===Prerequisites===
+To start this quest, talk to '''[[Ricatu]]''' in '''[[Povus]]'''.  The quest is available during the [[Fall Harvest]]. The quest [[Harvest Event: Not Quite Meat]] must be completed first.
+
+===Preface===
+{{Quote|
+My friend Kelim in Amulna says he's got some spices that might help this fake meat taste more like turkey. I think he's trying a little too hard to sell me on them, you know? But it might work.
+
+Go see if he'll give you some harvest spices.
+}}
+
+===Requirements===
+* Talk to Kelim
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Let's Spice Things Up|
+
+{{Quote|
+Ricatu sent you? Yes! I can get rid of some of these infernal spices! Er ... I mean ...
+
+Yeah. I don't know if the harvest spices I have will help with the taste of this fake meat, but help me out, do me a favor or two, and I'll give you some to take back to him.
+}}
+}}
+
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ricatu]][[Category:Quests/Fall Harvest]]

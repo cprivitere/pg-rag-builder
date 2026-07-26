@@ -1,0 +1,146 @@
+__NOTOC__
+{{NPC infobox
+|title            = Korbok
+|image            = [[File:Korbok (npc).png|300px]]
+|caption          = Looking over some papers
+|zone             = Vidaria
+|location         = Outside the far-west gatehouse.
+|anatomy = Goblin
+|species = Goblin
+|beastspeak       = Yes
+|beastlist = All
+|smalltalk = Yes
+|skilltrainer     = [[Retail Management]]
+|vendor = Yes
+|storage = Yes
+|consignment = Yes
+}}
+{{Quote|source=[[Korbok]]|
+De Cancel ain't usually in the merkit for workin' wit' us goblins, but dey made an exception for yerz truly.
+}}
+[[Korbok]] is an opportunistic goblin merchant who was granted management over the [[Industry|Work Order]] board in [[Vidaria]].
+== Location ==
+; [[Vidaria]]
+: [[Korbok]] can be found in the western half of Vidaria's farmlands, outside a gatehouse on the path to Statehelm.
+== Shopkeeper ==
+[[Korbok]] sells items useful to farmers.
+{{Vendor items sold}}
+{{Vendor_purchase_info}} 
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Korbok]] rewards his friends with access to his services, training options, and eventually storage.
+<!--
+{{Spoiler|Reward at {{Favor|Comfortable}}:|
+:{{Item|Lembas Brick}} x2
+}}
+-->
+=== Hang Outs ===
+[[Korbok]] does not offer any favors at '''{{favor|Neutral}}''' favor.
+== Quests ==
+<dpl>
+category = Quests/Korbok
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Retail Management]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Industry{{!}}Unlock Retail Management Skill Levels 51-60
+ | skilllevel = 50
+ | cost ={{Item|Xogrite Chunk}}x25
+ | favor = ??
+}}
+|}
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Industry]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Industry{{!}}Unlock Industry Skill Levels 81-90
+ | skilllevel = 80
+ | cost ={{Item|Xogrite Chunk}}x50
+ | favor = Friends
+}}
+|}
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Brukwint
+ | skilllevel = 80
+ | cost = 8 Vidaria Renown & 0
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Brukwintrat
+ | skilllevel = 83
+ | cost = 13 Vidaria Renown & 0
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Brukwintcow
+ | skilllevel = 86
+ | cost = 13 Vidaria Renown & 0
+ | favor = ??
+}}
+|}
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mycology]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Poisoned Brukwint
+ | skilllevel = 80
+ | cost = 13 Vidaria Renown & 0
+ | favor = Like Family
+}}
+|}
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Korbok
+|favorrestriction =Like Family
+|itemrestriction =Anything
+|neutral =0
+|comfortable =0
+|friends =0
+|closefriends =0
+|bestfriends =0
+|likefamily =50
+|soulmates =65
+}}
+==== Consignment ====
+; [[Korbok]] offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10%, stocking fee of 100 Councils.
+: Max 2 active consignments (Equipment).
+: Max 4 consignments per week.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Council Certificate}} x50
+|RiShin Family = {{Item|Council Certificate}} x99
+}}
+
+== Conversations == 
+
+[[Category:NPCs]]

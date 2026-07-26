@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Red in Kur Mountains said, "Thanks for answering my summons. I know me and the Wardens don't always agree, but this one's bad: an invasion of werewolves! I don't know where they came from, but there's lots of 'em are prowling around northeast of here, along the beach past the orcs. Sanja's camp is too far northwest to be much help. So it's up to you!"
+
+This Quest can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Red]]''' in the '''[[Kur Mountains]]'''. The quest is available at {{Favor|Despised}} favor. This quest is only available for Wardens. This quest is only available during an event in the area.
+
+===Preface===
+Thanks for answering my summons. I know me and the Wardens don't always agree, but this one's bad: an invasion of werewolves! I don't know where they came from, but there's lots of 'em are prowling around northeast of here, along the beach past the orcs. Sanja's camp is too far northwest to be much help. So it's up to you!
+
+===Requirements===
+* Kill Werewolves x12
+* Talk to Red
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Did you figure out what they were up to? No? Well, I'll keep trying to gather intel. Thanks again, friend.}}
+* 50 {{Favor|favor}}
+* 10 Warden Points
+}}
+
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Red]][[Category:Quests/Warden Quests]]

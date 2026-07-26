@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+You're killing ranalon stoneshapers in Serbule Hills.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Ranalon Stone Shapers</b>
+Stoneshapers can pull stone from deep beneath the earth, and use these stones to create most Ranalon buildings. They also serve on the battlefield where they hamper enemy movement. When cornered, they can pull stones from the ground to protect themselves, creating a dense shield that absorbs most attacks.
+
+===Requirements===
+* Kill Ranalon Stoneshapers x6
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 500 Combat XP for your active skills
+* 50 XP in Fish and Snail Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Hunting Quests]]
+=== Hunting Guide ===
+This [[Hunting Quests|Hunting Quest]] calls for the elimination of [[Ranalon Stone-Shaper]]s, which are part o the hostile Ranalon invasion of [[Serbule Hills]].<br />
+'''+''' [[Ranalon Stone-Shaper]]s are found among the hills surrounding the two lakes.

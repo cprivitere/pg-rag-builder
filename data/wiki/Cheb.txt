@@ -1,0 +1,72 @@
+__NOTOC__
+
+{{NPC infobox
+|title            = Cheb
+|image            = [[File:Cheb (npc).png|300px]]
+|caption          = A peaceful-ish ranalon
+|zone             = Povus
+|dungeon = Aktaari Cave
+|location         = The beginning of the zone
+|anatomy = Ranalon
+|species = Ranalon
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = Yes
+}}
+{{Quote|source=[[Cheb]]| <!-- This quote should be something informative about the NPC, or express their personality. The quote can be from the NPC, or another NPC talking about them.-->
+I know you've heard that we ranalon plan to flood the world. That's true. But we'll let land-dwellers live in special enclaves on the mountain tops. You'll be able to govern yourselves and everything. We're not going to kill everyone!
+
+The aktaari, on the other hand, just want to kill ALL non-insects. So you can see this is a much more severe problem.
+}}
+<!-- Add a brief description of the NPC. -->
+
+== Location ==
+; [[Povus]] <!-- List the Zone the NPCis found in. Be sure this matches the infobox! -->
+<!-- This could be a town or location such as [[Serbule Keep]], [[Hogan's Keep]], or [[Amulna]]. You may also want to describe their location with more details if they wander around.  -->
+== Shopkeeper ==
+<!--  Add an introductory sentence or two briefly explains what this NPC merchant has to offer, if they are a shopkeeper. -->
+{{Vendor_purchase_info}} <!-- Add this template if and only if the NPC purchases items from the player and resells them in a Used tab.-->
+<!-- If you have the info, please edit the resulting pages <npcname>/Items_purchased, and <npcname>/Spending_limits. (Links to these will automatically be created when using the {{Vendor_purchase_info}} template.) -->
+<!-- Remember that your max purchase value will be affected by buffs from random skills, open up Persona->Stats and adjust for your Max Purchase Cap %. -->
+
+== Favor ==
+Cheb does not accept gifts, but can be favored through questing.
+=== Favor Rewards === <!-- Add a section describing rewards from leveling favor -->
+Does [[Cheb]] reward his friends with items?
+{{Spoiler|Reward at {{Favor|Comfortable}}:|
+:??
+}}
+{{Spoiler|Reward at {{Favor|Friends}}:|
+:??
+}}
+
+== Quests ==
+[[Cheb]] offers a recurring quest in the [[Aktaari Cave]]. <!-- Add a short sentence describing the quests the NPC offers. -->
+<!-- Each quest should be added as an individual page with proper categories. Quests may be added automatically to the wiki every few months, but can also be manually added by consulting the current json files if required or requested. 
+Be aware that not every NPC's name in the quest json matches their in-game name!-->
+<dpl>
+category = Quests/Cheb
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+
+== Services == <!-- List some of the services offered by the NPC. Consignment, Stable Master, Storage, Augmentation, or unique options. Rappanel plays music if paid, and Ashk the Answerer tells fortunes that grant buffs. -->
+
+== Events ==
+
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 2 Egg-run-drop skill books, {{Item|Letter of Authority}} x10
+|RiShin Family = 4 Egg-run-drop skill books, {{Item|Letter of Authority}} x25
+}}
+
+
+== Conversations ==  <!-- List any long and potentially important conversations the NPC may have. Even if there are none, you must include this header. -->
+
+<!-- == Tips ==An optional header for short messages offering guidance. -->
+
+<!-- == Gallery == An optional header used if additional images need to be displayed. -->
+
+[[Category:NPCs]]

@@ -1,0 +1,4 @@
+==November 24, 2014==
+There was a major issue with the update. The update was rolled back, so it's still using the Nov 16 build now.
+
+[[Category: Game updates]]

@@ -1,0 +1,72 @@
+__NOTOC__
+{{NPC infobox
+|title            = Dorimir Fangblade
+|image            = [[File:Dorimir Fangblade (npc).png|300px]] 
+|caption          = Dour
+|zone             = Red Wing Casino
+|location         = Employee area.
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Yes
+|beastlist = All
+|barter = Yes
+}}
+{{Quote|source=[[Dorimir Fangblade]]|
+I'm the principal architect of the [[Red Wing Casino]]. I oversaw the castle excavation and all the rebuilding. I developed the pneumatic tube plans nd even set up the game machines. And now? Now you know what they have me doin'?
+}}
+[[Dorimir Fangblade]] is a maintenance man in the employee area within the Red Wing Casino. 
+== Location ==
+; [[Red Wing Casino]] 
+: [[Dorimir Fangblade]] in the employee area to the west of the Arena area 
+== Services ==
+==== Bartering ====
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Brass Nail}} x3|| rowspan = "5" | {{Item|Red Wing Token}}
+|-
+| {{Item|Brass Gear}} x2
+|-
+| {{Item|Tin Gear}} x2
+|-
+| {{Item|Metal Claw}} x2
+|-
+| {{Item|Spool of Wire}} x1
+|-
+| {{Item|Springs}} x1|| rowspan = "5" | {{Item|Red Wing Token}} x2
+|-
+| {{Item|Dwarven Weight}} x1
+|-
+| {{Item|Magnifying Glass}} x1
+|-
+| {{Item|Brass Screws}} x1
+|-
+| {{Item|Silver Spring}} x1
+|-
+| {{Item|Enchanted Construction Nail}} x1|| rowspan = "2" |  {{Item|Red Wing Token}} x3
+|-
+| {{Item|Heavy Gear}} x1
+|}
+== Conversations == 
+{{Quote|source=[[Dorimir Fangblade]]|
+So a few months back [[Qatik]] comes to me and says, "We had to take all the goblin enemies out of our casino games. The goblins only want to be seen as friendly merchants."
+
+And I said, "Well that's pretty shitty." I mean what am I supposed to say? Apologize? I don't know!
+
+And then Qatik says, "Do we need to take dwarven enemies out of our games too?"
+
+And I said, "Fuck no! Just make sure every dwarf is a deadly warrior. There are no low-level dwarves! Haha! I swear if those bugs could roll their eyes they'd be eye-rollin' every time they talk to me. But they did what I asked. So can't complain.
+}}
+{{Quote|source=[[Dorimir Fangblade]]|
+I'm the principal architect of the [[Red Wing Casino]]. I oversaw the castle excavation and all the rebuilding. I developed the pneumatic tube plans nd even set up the game machines. And now? Now you know what they have me doin'?
+; What?
+Maintenance! I fix the machines, stock the rewards and so on. As if I'm some godsforsaken engineer instead of a master architect!
+; Why do you stay, then?
+Because they keep paying me extravagantly. And because they let me bring in a bunch of my clan to work in the shops. And because they're planning a big expansion "real soon" and if I leave they'll let goblins do it!
+; Goblins?
+Aye, goblins. The mantises hired goblin laborers to help build everything, and it turned out mostly okay -- by a fucking MIRACLE I should add -- so they're keen to use 'em again, since goblins are dirt cheap. The queen learned that goblins have their own casinos, so she thinks she can hire a "goblin casino architect" to build out their next expansion. I told her goblin casinos aren't anything like high-end dwarven casinos, but... well that's the thing with these idiot bugs: they don't know what they don't know.
+
+Anyway, it's fine. I'm just staying for a few more years to oversee the upcoming expansion and make sure my name stays attached to this place. Then I'll head home and get more architecting work.
+}}
+[[Category: NPCs]][[Category:NoRiShin]]

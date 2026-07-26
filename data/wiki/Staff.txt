@@ -1,0 +1,125 @@
+__NOTOC__
+{{Skill infobox
+|title            = Staff
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Mastery of the staff as a martial weapon. Staff fighting has a mix of both offensive and defensive abilities.
+|skilltype        = Combat Skill 
+|maxlevel         = 100 
+|req              =  N/A
+|skilltrainers    = [[Hogan]], [[Roshun the Traitor]], [[Pegast]]
+|gem = {{Item|Blue Spinel}}
+}}
+{{Quote|
+WHACK!
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Staff''' is an extremely potent defensive skill. It has access to a variety of armor/health regeneration, crowd control, taunt, rage reduction, and extreme damage reduction. Its secondary skill, [[Hoplology]] can restore a bit of armor every time you use a Staff ability.
+
+=== In-Game Description ===
+Mastery of the staff as a martial weapon. Staff fighting has a mix of both offensive and defensive abilities.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Hogan]] in [[Hogan's Keep]] teaches '''Staff''' after completing his quest [[Hogan's Request]].
+* [[Roshun the Traitor]] will unlock levels 51-60, 61-70 and teach you 51+ '''Staff''' abilities as well as lower-level '''Staff''' abilities.
+* [[The Wombat]] in [[Sun Vale]] also teaches some '''Staff''' abilities.
+* [[Pegast]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Emersil the Ever-Gloating]] deep beneath [[Povus]].
+* [[Sourgum]] in [[Statehelm]] unlocks 81-90, 91-100, and [[Prodigy Potential]].
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Hoplology]]
+===== Related Skills: =====
+* [[Carpentry]] - Players can carve melee and combat staves.
+===== Synergy Levels =====
+Bonus [[Synergy Levels]] for [[Staff]] can be obtained from the following skills and levels:
+:; [[Calligraphy]]
+:: Level 65
+:; [[Carpentry]]
+:: Level 70
+:; [[Goblinese]]
+:: Level 25, 45
+:; [[Hoplology]]
+:: Level 20, 50
+:; [[Psychology]]
+:: Level 85
+:; [[Sword]]
+:: Level 42
+:; [[Unarmed]]
+:: Level 21, 46, 95
+:; [[Whittling]]
+:: Level 50
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Hoplology ===
+As you gain levels in [[Hoplology]], your "Staff Armor Auto-Heal" amount will go up. This means that every time you use a Staff ability, you will regenerate that amount of armor. This caps out at Hoplology 90, at a bonus of 52 armor per attack.
+
+=== Weapons ===
+===== [[Staff]] weapons compatible with [[Fire Magic]]. =====
+<dpl>
+  category   = Items/Staff
+ category = Items/FireStaff
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+===== [[Staff]] weapons for [[Priest]] (Holy Symbol). =====
+<dpl>
+  category   = Items/Staff
+ category = Items/HolySymbol
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+===== Other [[Staff]] weapons. =====
+<dpl>
+  category   = Items/Staff
+ notcategory = Items/FireStaff
+ notcategory = Items/HolySymbol
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+=== Equipment===
+<!-- Special equipment that is intended to be used by the skill goes here, including belts. -->
+{{belt|Belt of the Staff Fighter}} increases Base Damage dealt with Staff by 8%. Can be created with [[Toolcrafting]] 34.
+
+{{belt|Belt of the War Wizard}} increases Base Damage dealt with Staff and [[Fire Magic]] combat skills by 6%. Can be bought from [[Velkort]].
+
+{{belt|Belt of the Defender}} increases Base Damage dealt with Staff and [[Shield]] combat skills by 6%. Can be bought from [[Hogan]].
+
+{{belt|Belt of the Wandering Do-Gooder}} increases Base Damage dealt with Staff and [[Animal Handling]] combat skills by 6%. Can be bought from [[Hogan]].
+
+{{belt|Belt of the Forest Traveler}} increases Base Damage dealt with Staff and [[Druid]] combat skills by 6%. Can be bought from [[Agrashab]].
+
+{{belt|Belt of the Tundra Guardian}} increases Base Damage dealt with Staff and [[Ice Magic]] combat skills by 6%. Can be bought from [[Ukorga]].
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Staff Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Staff|
+{{:Xptables/TypicalCombatSkill}}
+}}
+
+== Trivia ==
+'''Write a little about this history of the skill, or things that don't belong in above areas'''
+
+== Gallery==
+
+[[Category:Skills]]

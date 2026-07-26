@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Next, you'd better go save Rahu from an uprising of undead. There's a bunch of necromancers deep in the sewers, and they're planning an invasion.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Next, you'd better go save Rahu from an uprising of undead. There's a bunch of necromancers deep in the sewers, and they're planning an invasion.
+
+===Requirements===
+* Kill Ratkin Necromancers x7
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Good job with the necromancers. There's nothing I hate more than a trite invasion plan. And really, "armies rising from the sewers" is more of a Gulagra thing. Undead should be a little classier than that!}}
+* 5000 councils
+* {{Item|Level 60 Event Loot Key}}
+* random items
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

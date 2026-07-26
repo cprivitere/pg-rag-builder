@@ -1,0 +1,37 @@
+__NOTOC__
+{{Skill infobox
+|title            = Productivity
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = (unused)
+|skilltype        = Other Skill
+|maxlevel         = ?? 
+|req              = Unknown
+|skilltrainers    = Unknown
+}}
+{{Quote|
+Needs a quote.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Productivity''' is a skill added during September 2015. It has no use.
+=== In-Game Description ===
+(unused)
+=== Training {{msg:BASEPAGENAME}} ===
+There is no known method to obtain this skill, added during the September 15th, 2015 patch.
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Related Skills:=====
+* None
+<!--
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+-->
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CivicPride}} 
+}}
+
+== Trivia ==
+Productivity was added to the game on September 15th, 2015!
+
+[[Category:Skills]][[Category:Other Skills]]

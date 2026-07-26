@@ -1,0 +1,43 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Free-Flutter
+| description = Enchant your wings to be stronger, allowing you to fly without expending as much Power.
+<b>Costs 10 Fae Energy</b>
+| level = 0
+| power cost = 0
+| reuse time = 600
+| range = 4 meters
+| skill = Fae (Race Skill)
+| special = For 10 minutes, base Power cost of flight (out of combat) is -2/sec.
+}}
+|-
+|
+{{Ability infobox
+| name = Free-Flutter 2
+| description = Enchant your wings to be stronger, allowing you to fly without expending as much Power.
+<b>Costs 15 Fae Energy</b>
+| level = 0
+| power cost = 0
+| reuse time = 600
+| range = 4 meters
+| skill = Fae (Race Skill)
+| special = For 10 minutes, base Power cost of flight (out of combat) is -3/sec.
+}}
+|-
+|
+{{Ability infobox
+| name = Free-Flutter 3
+| description = Enchant your wings to be stronger, allowing you to fly without expending as much Power.
+<b>Costs 20 Fae Energy</b>
+| level = 0
+| power cost = 0
+| reuse time = 600
+| range = 4 meters
+| skill = Fae (Race Skill)
+| special = For 10 minutes, base Power cost of flight (out of combat) is -3/sec and Fly-Sprint cost is -1/sec.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

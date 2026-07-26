@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Pegast in the Fae Realm said, "Even soldiers need refreshment, and the mortals have a bitter booze called Beer which is quite amusing. I'm attempting to craft some of my own, but I need some 'hops'. They don't grow here! Do you have any?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Pegast]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+Even soldiers need refreshment, and the mortals have a bitter booze called Beer which is quite amusing. I'm attempting to craft some of my own, but I need some 'hops'. They don't grow here! Do you have any?
+
+===Requirements===
+* Obtain Hops x7
+* Talk to Pegast
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|These are hops? They smell bad... well, I'll take your word for it. Thank you! Here's something from my shop in return.}}
+* 100 {{Favor|favor}}
+* {{Item|Fairy Dirk}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Pegast]]

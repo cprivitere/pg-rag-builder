@@ -1,0 +1,44 @@
+__NOTOC__
+==Summary==
+It's time to enjoy summer activities! Complete the check-list before this event ends to receive a few summer reward items. (Night time activities only count after 7pm and before 5am)
+==Prerequisites==
+This quest begins when Event:Summertime Experience is active.
+==Preface==
+{{Quote|
+It's time to enjoy summer! Your quest journal has a check-list of traditional summer activities. Complete them all before the event ends to receive some items that'll help you enjoy the weather.
+}}
+
+==Requirements==
+<!-- Add requirements here. Use {{Item}} template for items, and link mobs. -->
+* Fish up some [[Clownfish]]. x5
+* Fillet the [[Clownfish]]. x5
+* Cook a meal with fish in it.
+* Get stung by an insect (or spider, ect.).
+* Light a campfire at night.
+* Dance at night. x12
+* Kill rampaging tigers. x3
+* Butcher a tiger for its meat.
+* Make some Fireworks. (Any Type of Firework. {{Item|Small Firework}} x1, {{Item|Purple Firework}} x1, {{Item|Green Firework}} x1)
+* Launch some fireworks at night x10. (Any Type of Firework. {{Item|Small Firework}}, {{Item|Purple Firework}}, {{Item|Green Firework}})
+* Lastly, say 'Ahh, this is the life'
+
+==Rewards==
+{{Spoiler| Rewards for Event: Summer Experience|
+{{Quote|
+Good job! Here's your reward.}}
+* {{Item|Summer Apple Pie}} x2
+* {{Item|Kraken Power Potion}} x1
+* {{Item|Pocket Expander Potion}} x5
+* 3500 Councils
+* Live Event Credits x3
+* Ability Unlock: Fireworks Launcher.
+}}
+
+== Event Times ==
+* June 16, 2017 - September 3, 2017.
+* April 20, 2018 - ???
+* July 12, 2019 - ???
+* July 3, 2020 - ???
+* July 3, 2021 - ???
+* July 4, 2022 - ???
+[[Category:Quests]][[Category:Seasonal Event]]

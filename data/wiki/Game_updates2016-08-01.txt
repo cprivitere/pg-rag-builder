@@ -1,0 +1,82 @@
+==<b>August 1 Update</b>==
+: This is a bug-fix update. There are no major new features. (There are some fixes that amount to nerfs; see below for details.)
+: Known issue: there are still several bugs with player-music performances cutting in and out, and performance buffs spontaneously changing duration. These will be fixed soon.
+
+===<b>Unity 5.4</b>===
+: This update switches to Unity 5.4.0. This is a major update to the graphics engine, so <b>please report weird graphics problems!</b>
+: You will hopefully see a small framerate improvement with this version. There are some advanced features of Unity 5.4 which should give further optimizations that we haven't turned on yet. We'll do so after more testing.
+: Changes in this version should also improve the recent problems with AI (monster and pet) movement behavior. We'll be monitoring this closely.
+: Note: the video-driver crash bug that some users experience is NOT fixed in this version of Unity, but it is supposed to be fixed in a patch of 5.4 soon and we will update the game when that patch is available.
+
+===<b>Druid Events</b>===
+:We have addressed some bugs in the druid events. The bugs were mainly in the larger-sized versions that are used when more players are online.
+:: - The higher-difficulty versions of the Ilmari druid events were not spawning enough monsters. Due to a typo, they were spawning about 1/100th as many as intended... and far fewer than the low-difficulty version! The desert should actually be a horrific bloodbath of doom while this event is active!
+:: - The higher-difficulty versions of the Kur druid events were not spawning enough monsters. (But not quite as dramatic as the problem in Ilmari.)
+:: - The higher-difficulty versions of the Eltibule event did not shut off correctly. As a temporary fix, we had locked the Eltubule event into using the easy version for the past week. So starting with this update, you will be seeing the higher levels of the Eltibule event for the first time. Keep an eye out for new bugs!
+:: - We reduced the loot quality of many Druid Event monsters, including both kinds of droaches, Young Kraken, Giant Frost Elementals, and Desert Overseers. But it's still pretty great loot. (Still too good? Probably... but we'll see how it feels.)
+: As an FYI, I want druid events to last at least 45 minutes, and we'll probably increase the length of the druid quests to facilitate that. However, no changes like that have been made yet because of the bugs listed above -- I need to see how these fixed versions feel first.
+: As another FYI, there will be other kinds of druid events, including a few non-combat ones, but the majority will involve at least some amount of combat. Druids are not pacifists. At all.
+
+===<b>Recipe XP Amounts Revised</b>===
+: You may have noticed that the XP earned from various item-crafting recipes seemed capricious and arbitrary. This is because, for many crafting recipes, the XP amounts were in fact arbitrary -- I just typed in whatever numbers : I felt like into the spreadsheet while prototyping them, intending to come back to them later. And now is later!
+: The affected skills are: carpentry, leatherworking, blacksmithing, tailoring, toolcrafting, flower arrangement, calligraphy, and meditation. These now use a formula that is similar to Cooking. (In fact, for most of them it's exactly the same formula.) A few, such as flower arrangement, use a different formula owing to the higher difficulty of obtaining the recipe ingredients.
+: It is hard to generalize too much about these changes because, again, many of the old XP numbers were arbitrary. But speaking EXTREMELY broadly, low-level recipes are worth a bit more XP and many high level recipes are worth considerably less XP. (And many others are unchanged.)
+: WHAT TO WATCH FOR: Right now the formula uses the recipe's level as the main determiner of XP. This can be flawed because some recipe's ingredients are much rarer than higher-level recipe's ingredients. If you feel that a particular recipe is much harder than another that gives more XP, please report that as a bug.
+: These changes are hardly "final" -- they're just a step forward from random. There are still some skills using completely arbitrary numbers, and they will get fixed eventually.
+: As always with changes like this, your skill level is NOT changed. This only affects XP earned going forward.
+
+===<b>Other Recipe & Work-Order Changes & Fixes</b>===
+:: - Fixed minor incongruities in wooden cow and deer horseshoe recipes. (Note: these recipes are still much too cheap to make and they will be changed soon. We just ran out of time for this update.)
+:: - Slight tweaks to some textile recipes (added cotton x1 to recipes that are otherwise pointless 1-to-1 item transfers... more work will be needed with textiles in the future to make these more sensible)
+:: - Improved the cash reward of some reported work orders (e.g. pig snouts, rotten strawberries, wolfsbane muffins, bonnets, many others). There are still several more reported work-orders to fix -- they will be fixed in the next update
+:: - Fixed errors in some work order scroll titles (they had incorrect names but correct descriptions)
+:: - As of last update, firkins of sour cream were supposed to give you a random amount of sour cream (between 1 and 4). This did not work correctly; the cheese cask would claim to give you more sour cream but only actually gave you one
+
+===<b>Pet Stat Changes</b>===
+: As you know if you've followed these patch notes for a while, pets have been using monster stat-tables. This worked fine at first, but as monsters have gotten tougher, pets have also gotten tougher as a side-effect. This meant high-level pets had way, WAAAAY too much health and armor at higher level, and not enough damage. (In fact the damage was so low that I added a "shim" to temporarily bolster pet damage a while back... but it was a flat per-level boost that applied to all pets -- a temporary hack.) 
+: With the advent of the animal-handling changes in the last update, pets can now use their own separate scaling tables, so we've revised the non-animal-handling pets in this update. (Animal handling pets were already changed in the last update.)
+: You can find a mostly-complete table of pet changes in the forums' version of these patch notes.
+: This is a first stab at these numbers. After we gather real-world performance data we'll no doubt alter these a lot in the future. These numbers are mostly a nerf, but hopefully the temporary nature of the old numbers was explained enough times that this isn't a surprise. (I mentioned it each time monster stats changed.)
+
+===<b>A Note About Avoiding Unintentional Surprises</b>===
+: If the pet-stat changes have caught the alpha test community by surprise (and I fear they have), that's a problem we need to work on. It's just damned hard to keep players in the loop about upcoming changes that are more than a month or two away. But it's definitely time to do a round-up list! I'll write a blog post this week that lists a bunch of things that I've explained before to the community and that I naively assume players already know... but which may not be known at all anymore. Once the blog post is written, it would be really helpful if players conveyed this info to newcomers so that it becomes common knowledge. (I'll add a note in the launcher when the post is live.)
+
+===<b>Other Pet Changes & Fixes</b>===
+:: - Tweaked the pet GUI slightly so that the current pet state is displayed next to the change-pet-state button, not inside the button. (The actual behavior is entirely unchanged; some users just got confused by the button's label)
+:: - Pets can no longer earn XP while dead
+:: - Pets now correctly show their XP progress toward next level when examined. (Previously always showed 0%)
+:: - Made the bear altar work - for real this time.
+:: - Animal-handling pets with Special Tricks that give a buff were often choosing to use their special trick on themselves. Now these abilities are always used on their owner. Affected pets include Ice Bears and all pets with a ranged heal.
+:: - Fixed various icon bugs related to animal-handling pets' abilities
+:: - All pets were incorrectly benefitting from last update's change that gave monsters +20% out-of-combat regeneration. This was especially problematic for Shambling Corpses, which no longer degenerated out of combat
+
+===<b>Other Changes & Fixes</b>===
+:: - Reverted some optimizations made to the targeting commands (like "Next Non-Combatant"). The optimizations did reduce framerate spikes, but they were too finicky and buggy
+:: - Fixed a bug where you sometimes couldn't pan with the mouse. Super annoying
+:: - Added a new checkbox in the Config window under Graphics Options: "Brighter World". This boosts the gamma a little bit for players who think it's too dark at night
+:: - Fixed some scenarios where players could get stuck inside objects and unable to move (Unity 5.4 engine fix)
+:: - Added a second music track for Kur Mountains ("orcish brass ambient")
+:: - Many animals are now dropping grisly corpse bits that they did not drop before. These items will be used by an upcoming skill but currently do nothing. 
+:: - Strange Deer summoned from the giant red crystal no longer drop more than 1 Fire Dust at a time
+:: - Gisli no longer gives out stacking milk bottles. (Milk isn't supposed to stack.)
+:: - Gisli's "Milk the Cows" hangout now takes an appropriate amount of time. 
+:: - Pennoc's quest to collect fish works again
+:: - Shuffled the cash value of some types of fish to better correspond to their difficulty in catching them
+:: - Damage incurred from drinking poisonous household items (such as ink or fuel oil) is no longer boosted by your poison-boosting effects
+:: - Damage incurred from standing in fire or lava is no longer boosted by your fire-boosting effects
+:: - Drinking fuel oil (or ink, etc.) or eating iocaine-laced meals no longer makes the system think you are in combat for a few seconds 
+:: - The "modest free item raffler" let you charge for tickets
+:: - The "modest free item raffler" did not let you provide a cash prize as the description suggested it did
+:: - The duration of Cranium Powder is now correctly listed. All versions said they worked for 15 minutes, but actually higher-level versions work for longer
+:: - Fixed a scenario where you could have withdrawal from a drug while being under the influence of the drug. This could happen with pineal juice, cranium powder, or bounceweed
+:: - The Serbule graveyard (and the countryside surrounding it) was spawning far less random loot and forageables than intended
+:: - Fixed a bug where some quests, most noticeably Druid event quests, could be added to your quest journal multiple times
+:: - Owl night-vision should now work at all graphics quality levels. 
+:: - Players can earn Combat Wisdom again
+:: - Removed the special graphics override for "Contrast Enhance", which did not actually apply a contrast enhancement (for about a year now), and turning it off screwed stuff up
+:: - If you use the Windows full-screen shortcut (Alt+Enter) to enter full-screen mode and your graphics card decides to put you into a nonstandard resolution, the Options window will no longer assume you want to switch to 640x480 resolution whenever you save your options
+:: - For new installations, the default full-screen resolution will be the highest one supported by your monitor, rather than the lowest resolution
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

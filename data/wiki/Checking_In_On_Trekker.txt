@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Tangle in the Sacred Warden Grotto said, "This one's hard. Ever heard of the Gazluk Plateau? Well, Trekker the pig is in the northwest-ish part of the mountains. You'll have to climb up from the valley into the mountains to find him. Bring warm clothes."
+
+===Prerequisites===
+To start this quest, talk to [[Tangle]] in the [[Sacred Grotto]]. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|
+This one's hard. Ever heard of the Gazluk Plateau? Well, Trekker the pig is in the northwest-ish part of the mountains. You'll have to climb up from the valley into the mountains to find him. Bring warm clothes.
+}}
+
+===Requirements===
+* Deliver Care Package to [[Trekker]]
+* Talk to Tangle.
+
+===Rewards===
+{{Spoiler|Midway Text|
+(Shh, keep your voice down. Fluffikins over there has good ears! Tell Tangle I'm working a mission right now. I met a gigantic talking mushroom man, and he has some very useful magic to teach! Tell Tangle I'm gonna need eight or ten more recall stones. And thanks for these mushrooms!
+}}
+{{Spoiler|Rewards for Checking In On The Suspicious Cow|
+{{Quote|
+He met a "talking mushroom man"? What?! Trekker always gets into the weirdest adventures. But he's a badass pig, even by Warden standards. Not a lot of us can survive in Gazluk! I'll get the recall stones he needs. Thanks for making the delivery.
+}}
+* 50 Favor to [[Tangle]].
+* Warden Points x8
+}}
+
+[[Category:Quests]][[Category:Quests/Tangle]][[Category:Quests/Sacred Grotto Quests]]

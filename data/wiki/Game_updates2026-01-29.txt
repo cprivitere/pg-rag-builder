@@ -1,0 +1,19 @@
+==Update Notes: January 29, 2026==
+Some more fixes for yesterday's 1.0 release:
+
+:- Fix for some fairy gear causing massive framerate dips
+:- Fix skin and hair color discrepancies between character creator and in-game - this time for females!
+:- Fix for some chest pieces giving you a buzz cut
+:- Fix the really dark item preview window
+:- add a mushroom circle to Statehelm (temporary location)
+:- the sun in Statehelm now correctly burns vampires
+:- Adjust land around Percy Evans' house in Eltibule
+:- Add collision to corner-plants and some buildings in Statehelm
+:- Adjust LODs of prison shackles
+:- fix bugs with Chancellor Algest's animal assistant registration
+:- Statehelm NPCs no longer think foxes are terrifying
+:- add missing Archery prodigy training option
+:- Statehelm NPC favor balancing adjustments
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

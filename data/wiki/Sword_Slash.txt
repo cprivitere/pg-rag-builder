@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Sword Slash
+| description = Attack with a sword.
+| level = 0
+| power cost = 0
+| reuse time = 2 seconds
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|SwordSlash}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Lint_NotLearnable}}
+| damage = 10 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Sword Slash 2
+| description = Attack with a sword.
+| level = 12
+| power cost = 0
+| reuse time = 2 seconds
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|SwordSlash}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 18 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Sword Slash 3
+| description = Attack with a sword.
+| level = 33
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|SwordSlash}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 28 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Sword Slash 4
+| description = Attack with a sword.
+| level = 47
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|SwordSlash}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 51 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Sword Slash 5
+| description = Attack with a sword.
+| level = 59
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|SwordSlash}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 76 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Sword Slash 6
+| description = Attack with a sword.
+| level = 71
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|SwordSlash}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 103 Slashing
+}}
+|-
+|
+{{Ability infobox
+| name = Sword Slash 7
+| description = Attack with a sword.
+| level = 83
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|SwordSlash}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 133 Slashing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,42 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Endurance/Abilities|Endurance Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v400 on Tue Dec 19 2023 02:50:21 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Dig Deep|2}} || 2 || Dig Deep || Summon your body's last reserves of Power in an emergency. || <b>Restore:</b> 40 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || Leveling
+|-
+| {{Ability icon|Push Onward|2}} || 10 || Push Onward || Take advantage of your preparedness and training to stay alive longer... at the cost of your armor. || You lose up to 50 Armor and regain that much Health. ||  || <b>Power Cost:</b> 9<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Kalaba]]<br><b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Dig Deep 2|2}} || 17 || Dig Deep 2 || Summon your body's last reserves of Power in an emergency. || <b>Restore:</b> 60 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || Leveling
+|-
+| {{Ability icon|Push Onward 2|2}} || 20 || Push Onward 2 || Take advantage of your preparedness and training to stay alive longer... at the cost of your armor. || You lose up to 80 Armor and regain that much Health. ||  || <b>Power Cost:</b> 11<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Kalaba]]<br><b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Dig Deep 3|2}} || 25 || Dig Deep 3 || Summon your body's last reserves of Power in an emergency. || <b>Restore:</b> 80 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || Leveling
+|-
+| {{Ability icon|Push Onward 3|2}} || 30 || Push Onward 3 || Take advantage of your preparedness and training to stay alive longer... at the cost of your armor. || You lose up to 130 Armor and regain that much Health. ||  || <b>Power Cost:</b> 14<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Kalaba]]<br><b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Dig Deep 4|2}} || 38 || Dig Deep 4 || Summon your body's last reserves of Power in an emergency. || <b>Restore:</b> 100 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || Leveling
+|-
+| {{Ability icon|Push Onward 4|2}} || 40 || Push Onward 4 || Take advantage of your preparedness and training to stay alive longer... at the cost of your armor. || You lose up to 160 Armor and regain that much Health. ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Kalaba]]<br><b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Dig Deep 5|2}} || 50 || Dig Deep 5 || Summon your body's last reserves of Power in an emergency. || <b>Restore:</b> 125 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || Leveling
+|-
+| {{Ability icon|Push Onward 5|2}} || 50 || Push Onward 5 || Take advantage of your preparedness and training to stay alive longer... at the cost of your armor. || You lose up to 200 Armor and regain that much Health. ||  || <b>Power Cost:</b> 19<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Kalaba]]<br><b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Dig Deep 6|2}} || 60 || Dig Deep 6 || Summon your body's last reserves of Power in an emergency. || <b>Restore:</b> 150 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || <b>Training:</b> [[Lamashu]]
+|-
+| {{Ability icon|Push Onward 6|2}} || 60 || Push Onward 6 || Take advantage of your preparedness and training to stay alive longer... at the cost of your armor. || You lose up to 250 Armor and regain that much Health. ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Lamashu]]
+|-
+| {{Ability icon|Dig Deep 7|2}} || 70 || Dig Deep 7 || Summon your body's last reserves of Power in an emergency. || <b>Restore:</b> 175 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || <b>Training:</b> [[Lamashu]]
+|-
+| {{Ability icon|Push Onward 7|2}} || 70 || Push Onward 7 || Take advantage of your preparedness and training to stay alive longer... at the cost of your armor. || You lose up to 275 Armor and regain that much Health. ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Lamashu]]
+|-
+| {{Ability icon|Dig Deep 8|2}} || 80 || Dig Deep 8 || Summon your body's last reserves of Power in an emergency. || <b>Restore:</b> 200 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Push Onward 8|2}} || 80 || Push Onward 8 || Take advantage of your preparedness and training to stay alive longer... at the cost of your armor. || You lose up to 300 Armor and regain that much Health. ||  || <b>Power Cost:</b> 26<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Dig Deep 9|2}} || 90 || Dig Deep 9 || Summon your body's last reserves of Power in an emergency. || <b>Restore:</b> 225 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || <b>Item:</b> [[Endurance: Dig Deep 9]]
+|-
+| {{Ability icon|Push Onward 9|2}} || 90 || Push Onward 9 || Take advantage of your preparedness and training to stay alive longer... at the cost of your armor. || You lose up to 325 Armor and regain that much Health. ||  || <b>Power Cost:</b> 28<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Endurance: Push Onward 9]]
+|}

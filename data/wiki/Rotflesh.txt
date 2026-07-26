@@ -1,0 +1,16 @@
+__NOTOC__
+{{Ability infobox
+| name = Rotflesh
+| description = Inflict decay on the target's flesh and organs, causing severe trauma.
+
+This is a variant of Rotskin. Treasure that affects Rotskin also affects Rotflesh. You must already know Rotskin 6 or higher to use this ability.
+| level = 66
+| power cost = 46
+| reuse time = 12
+| range = 20 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|Ranged}}{{KWAB|Rotskin}}
+| damage = 316 Trauma
+| special = Target's mitigation reduced 0 for 30 seconds.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

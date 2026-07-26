@@ -1,0 +1,19 @@
+==Update Notes: October 25, 2022==
+This is a quick bug-fix update. The Zhia Lian Halloween Event continues unabated! Here are the bug fixes:
+
+:- Better handling of appearances disappearing while they're being loaded. This should fix the current round of stuck-on-loading-screen issues
+:- Enhanced logging around appearance errors (to help track down any additional errors)
+:- "Move Those Legs!" now works while mounted
+:- Ghostly Spiders in Ilmari now count towards the quest "Zhia Lian Event: Kill Ghosts at Night" 
+:- Item tooltip names should no longer overlap their short description
+:- Gathering crystals now looks like you're actually gathering instead of sitting
+:- Improve animation for "Become Wolf" ability
+:- '''Experimental UI:'''
+::- Now changes the cursor when you hover over something, using higher res versions of the normal cursors
+::- Fix bugs with highlights being out of sync with their models, such as rotating around them
+::- Actually remove broken highlights from fairy wings (they were still showing up sometimes)
+::- Add outline to selected-entity description
+::- Selecting an entity for the first time using tab instead of click will no longer cause their highlight to display in the face cam
+::- Favor floaties now round the number
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

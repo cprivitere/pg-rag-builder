@@ -1,0 +1,51 @@
+==<b>July 14 Update</b>==
+<b>Warning:</b> In this update, boss monsters and elites now hit harder. Please be careful until you get a feel for their new danger level. (This mainly applies to bosses in Kur and later.)
+
+===<b>Day/Night Cycle</b>===
+This is the first version of the game with a day/night cycle. It's fairly primitive so far (for instance, the sun/moon don't move in the sky yet) but that will come in time. You can tell what time it is by looking at the Map window: the time is displayed at the top. Each 24-hour game day takes 90 minutes of real time. (It might take a little longer later on, if that ends up working better.)
+The gameplay doesn't change much between day and night right now, but we'll slowly add differences as we find things that are fun. There are two new flower spawns that are tied to the day cycle:
+
+- The Winterhue is a white flower that blooms in Kur Mountains, but only in the morning. At night they freeze to death and die off. So if you want to find them your best bet is early morning.
+
+- The Desert Rose blooms at dusk in the Ilmari desert. The hot sun of the afternoon sometimes kills them off, so your best bet to find these flowers is right after the sun is down. 
+
+===<b>[[Mentalism]]</b>===
+- [[Rohina]] in [[Sun Vale]] can raise your Mentalism level cap to 60. [[Rohina]] also has a few new abilities (while others are available from the myconians)
+
+- Revised some combat abilities slightly
+
+- You can now find Mentalism equipment for levels 51-60 when killing monsters in [[Ilmari]] desert
+
+===<b>[[Cooking]]</b>===
+- There is a new NPC in the [[Ilmari]] desert that can raise your cooking cap to 60. She has new recipes to learn as well.
+
+- [[Fainor]] no longer sells the ingredients he was temporarily selling until they were added to the game. (Most of them were long ago added as drops in Sun Vale anyway.)
+
+- Tweaked the XP tables on Cooking to make it take a bit longer to level. But not as noticeable a change as the Gardening XP change.
+
+===<b>[[Gardening]]</b>===
+Fixed bugs in Gardening XP progression. Gardening had the problem that it got easier to level the higher-level you got. By the last few levels, you could earn each level in just a few minutes. But of course later levels are supposed to be a bit <i>longer</i> than the earlier ones, not markedly shorter. 
+As always when we change XP tables, this does not affect your level. Your Gardening skill level stayed the same, but the XP needed to reach the next level now uses the new formula (so it will take longer).
+- A couple of vegetables had their XP value raised (e.g. beets are worth 300 XP instead of 200)
+
+- A couple of flowers had their XP amounts lowered (e.g. daisies are worth 375 XP instead of 450)
+
+- New high level vegetables (green peppers and red peppers). These work the same way as all the other vegetables, but they require twice as much water and fertilizer, and take longer to grow (but not twice as long). The resulting plant yields 2 vegetables. The plants last much longer before auto-deleting themselves (up to 25 minutes, whereas most delete themselves in 10 minutes), so they don't require quite as much constant attention.
+
+- There is a new NPC in the Ilmari desert that can raise your Gardening level cap to 60.
+
+===<b>[[Foraging]]</b>===
+[[Jesina]] the Fairy in [[Eltibule]] can now raise your Foraging level cap to 60. This will allow you to pick new kinds of flowers and other odd things (for instance there are new cacti in the desert that require high Foraging skill to use.)
+
+===<b>Other Improvements and Bug Fixes</b>===
+- Still working on the bugs where you get stuck in doors and stairs. (It's a Unity 5 bug and I haven't figured out a general work-around yet.) I've fixed some of the more common places where it happens, and I've also fixed the part where you could die by "falling from a great height" if you manage to get yourself free. Usually you can get yourself free by right-clicking on the ground near where you're stuck.
+
+- The Quest window now shows a little check mark next to the names of favors that are ready for turn-in
+
+- The chat window would "lose" the information about items shared in the chat log whenever you switched sub-servers. This is fixed
+
+- Fixed Heavy Bootlocker in [[Kur Tower]] so that it should be re-openable after a few hours with a new key (as it already claimed)
+
+- When you complete a favor, it now lists what your reward was, so you don't have to guess
+
+[[Category:Game updates]]

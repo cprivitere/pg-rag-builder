@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+Braigon in Eltibule said, "Tofu can be made in three main ways. Soft tofu is even mushier than regular tofu. Personally I think it tastes disgusting, but perhaps you're more cultured than me!
+
+I can teach you how to make it in exchange for a fresh brie."
+===Prerequisites===
+To start this quest, talk to '''[[Braigon]]''' in '''[[Eltibule]]'''.  The quest is available during the [[Fall Harvest]]. The quest [[Harvest Event: Not Quite Meat]] must be completed first.
+
+===Preface===
+{{Quote|
+Tofu can be made in three main ways. Soft tofu is even mushier than regular tofu. Personally I think it tastes disgusting, but perhaps you're more cultured than me!
+
+I can teach you how to make it in exchange for a fresh brie.
+}}
+
+===Requirements===
+* Make {{Item|Brie Cheese}}
+* Keep Cheese On-Hand
+* Talk to Braigon
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Soft Tofu|
+{{Quote|
+Oh, this brie is lovely! I'm going to enjoy this for lunch! Here's the technique for making disgusting soft tofu.
+}}
+* Recipe: {{Item|Soft Tofu}}
+* 1500 Councils.
+}}
+
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Braigon]][[Category:Quests/Fall Harvest]]

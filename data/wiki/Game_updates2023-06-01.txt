@@ -1,0 +1,152 @@
+==Update Notes - June 1, 2023==
+Welcome to June, and also the latest Project: Gorgon update! This update contains a new much-requested skill, Angling, as well as new UI features, quests, balancing, and a ton of bug fixes.
+
+===Bugs!===
+Update: the following are known bugs in this update - no need to report them. If you see OTHER bugs, please report them!
+::- Animal forms are able to angle - kind of- and that is unintentional. Angling is intended to require hands.
+::- The Angling ability 'Catch and Release' gives 25% XP, not 25% ''bonus'' XP.
+::- You can target certain angling fish before they exist. You shouldn't be able to target them at all. 
+::- Some of the angling abilities have old test descriptions. 
+::- The new AoE indicator doesn't display in some outdoor areas.
+
+===Main Story===
+We've expanded the main story quest-line by a few steps. If you've already reached the point in the storyline where you were asked to have dinner with [[Jesina]] (via a hang out), the hang out is now available, and you should log in to see that your character has a "reminder quest" to hang out with Jesina.
+
+===New Camera Types===
+Players come to us from different games with different control schemes and camera views, and they often ask us if we can imitate the camera styles they're used to. So we gave it a try! We know that getting movement behavior just right can be tricky, so *please* give us feedback on how these work for you.
+
+There are now 3 camera types to choose from, located in Settings > Controls:
+::- '''Traditional Camera''': How the camera has always worked. Right-click rotates your character, left-click rotates only the camera. Mouse is always available.
+::- '''Free Camera''': Camera control is completely separate from character control. Mouse is always available.
+::- '''Action Camera''': Mouse movement always controls character. Mouse cursor is only available when a UI window is open, or when the Toggle Cursor key is pressed (configurable). NOTE: only available in the new selection system!
+
+===AoE Visibility===
+Area-of-Effect abilities that are centered on the caster now have a visualization for their range.
+::- When an ability is used, the AOE range briefly displays on the ground as a circle.
+::- When an AOE ability icon is hovered over, its AOE range displays on the ground for as long as it's hovered over.
+::- Visibility is configurable via Settings > GUI > Windows & HUD > Abilities & Items > "Show Beneficial AOE Areas" & "Show Detrimental AOE Areas". By default they are "Party Members Only" & "Self Only" respectively. Detrimental enemy AOEs will always display.
+::- Many "aura"-type pets display their aura ranges in a similar fashion, such as a druid's Healing Sanctuary or a fairy's Fae Conduit. These should also follow the visibility settings described above.
+::- Note: as of this update, all AoE abilities are centered on the caster, except for two Weather Witching abilities that are explicitly centered on the target. Previously, all AoEs were centered on the target, but the game didn't say that anywhere, and most players assumed it was centered on the caster! So this seems much more intuitive. But if there are specific AoE abilities that you feel should be centered on the target instead of the caster, please let us know and we'll consider it.
+
+===Angling===
+Traditionally, fishing in Project: Gorgon has involved scooping fish up out of the water with your bare hands - what we might call 'tickling' the fish. And that's fine, as far as it goes. It takes real skill! But not all fish can be caught this way. (And more importantly, players have told us that an MMO "needs" to have traditional fishing in order to feel like a complete MMO.)
+
+So we've expanded Fishing with a new sub-skill: [[Angling]]. All you need is a fishing pole, some bait, and a body of water with catchable fish. (Also Fishing 15. And hands!) In order to get started, talk to [[Roshun the Traitor]] in [[Serbule]].
+
+The precise mechanics of Angling aren't spelled out in the game at the moment. Since this game focuses on exploration, we expect players to be able to figure out how Angling works. Please let us know what parts of the system were hard to figure out, and we'll work to make those bits more obvious.
+
+===Skills & Abilities===
+From here out (and probably through the rest of beta), we'll be making small balance changes. We don't want to overnerf/overbuff things, so most changes will be relatively modest, and then we'll re-evaluate and adjust further after more observation.
+
+====Warden:====
+We've revised the formulae used for damage reflection, which resulted in nerfs to Privacy Field. On the other hand, multiple bug fixes actually increase the Warden's power significantly in other ways.
+::- Privacy Field abilities: reduced base ability damage (Privacy Field 5 changed from 196 -> 138)
+::- Treasure: "Privacy Field deals +60 damage to all melee attackers, and the first melee attacker is knocked away": 60 => 42
+::- Treasure: "Privacy Field also deals its damage when you are hit by burst attacks, and damage is +86": 86 => 47
+::- Treasure: "Privacy Field also deals its damage when you are hit by ranged attacks, and damage is +57":  57 => 48
+::- Treasure: "When Privacy Field deals damage, it also ignites the suspect, dealing 156 damage over 12 seconds": => 156 => 80. Note: previously this effect did not work at all, so this is technically a huge buff, not a nerf!
+::- Treasure: "While Privacy Field is active, melee attacks that hit you have a 100% chance to restore 20 Power to you" : 100% chance => 75% chance. Note: previously this effect did not work at all, so this is technically a huge buff, not a nerf!
+::- Treasure: "Apprehend deals +48 damage and hastens the current reuse timer of Controlled Burn by 2 seconds (so it can be used again more quickly)" : 2 seconds -> 1.5 seconds. Note: previously this effect did hasten Control Burn at at all, so this is technically a huge buff, not a nerf!
+::- Controlled Burn: area-of-effect reduced from 15 meters to 10 meters.
+::- Aggression Deterrent: area-of-effect reduced from 10 meters to 6 meters.
+
+====Weather Witch:====
+::- New ability Summon Sandstorm: This is a variant of Summon Tornado intended to be more convenient in groups. It does not knock back foes, instead dealing bonus Armor damage. All tiers of this ability can be learned from the Sand Seer in Ilmari.
+::- New rare ability Summon Doomstorm: This is a variant of Summon Tornado. It does not knock back foes. Instead it deals Darkness damage. Damage is improved over base version. This pet is marked as undead for purposes of ability targeting. In other words, heals that don't work on undead don't work on this pet either. Buffs that work on undead DO work on this pet. For now, all tiers of this ability can be found as loot scrolls.
+::- Fixed bug that caused high-level summoned tornados to move incredibly fast. Normalized tornado speeds.
+::- Summoned tornadoes accidentally had vulnerability stats for Cold Spheres. They now correctly have vulnerability stats for Tornadoes.
+
+====Giant Bat:====
+::- "Your Confusing Double deals +67% damage with each attack": 67% => 45%
+::- "Confusing Double summons an additional figment. Each figment deals +77 damage with each attack": 77 => 50
+::- "Confusing Double Reuse Timer -15": -15 => -10
+
+====Fire Magic:====
+::- "Fire Breath hits all targets within 8 meters and deals +30.5% damage, but reuse timer is +3 seconds and Power cost is +33%" => "Fire Breath hits all targets within 8 meters and deals +60 damage, but reuse timer is +3 seconds and Power cost is +40"
+
+===Settings===
+::- The "Reset" button in Settings now resets the currently-selected tab to its default settings. The old functionality, undoing all current changes, is still doable by simply closing the window.
+::- Added new experimental settings for Tab Targeting. You can find them in settings under GUI > Targeting > Tab Targeting (Experimental).
+::- Combat Range: Control the max range of tab targeting when you are in combat.
+::- Combat Lock: If your current target is in combat, only other in-combat enemies will be targeted via tab, unless none are in view.
+::- Prioritize Unlooted Corpses: When tabbing through corpses, should all un-looted corpses be targeted before looted corpses?
+::- You can now tab through targets as quickly as you can press the button.
+::- Overwriting a keybind that's already bound now shows a confirmation prompt, including the name of the keybind being overwritten.
+::- Reorganized and renamed several Settings, to make them more intuitively grouped and easier to find.
+
+===UI Changes===
+::- "Controls" settings have been organized into Camera & Character controls, with sub-menus.::- Allow clicking through entities in the new UI, similar to how it works in the old UI. If you click on something that's already selected, it selects the entity behind it (if there is one).
+::- Reduced precision of click-selecting entities, so they can be selected without hovering directly over them.
+::- All stat bars (and globes) now smoothly animate when they change, instead of statically changing to the new value.
+::- Item stack size font now resizes properly for vaults (including saddlebag).
+::- Fixed nameplate placement for mounted humanoids.
+::- Fixed bug causing mouse cursor to disappear completely if mouse-dragging while zoning.
+::- Fixed bug that caused very large tooltips not to display sometimes.
+::- Removed hover-text about avatar portraits coming soon -::- because they're here now! We live in the future!
+::- Ability tooltips now display Special Values before Special Info, as those make more sense grouped together with the other numerical data.
+::- Polished the lootable-corpse particles a bit.
+::- Nameplates now fully fade out with distance instead of just the names.
+::- Better handling of left-clicking nothing to deselect your current target.
+::- Improved display of Crafting button when no hotkey is assigned.
+::- Fixed quest window display bug when objective count number was very large.
+::- Removed the "1" from the item slot in the bug report window.
+::- Fixed bug causing stack sizes of items in the sidebar to get out of sync.
+
+===Graphics & Animation===
+::- Wolves & cows now animate at proper speed when going up and down hills.
+::- Replaced wolf's Hunting Speed animation with a howl animation.
+::- Polished bard animations, so they flow together better now. The play-lute animation now always plays when you are playing a bard song, even if you use other abilities while playing the song.
+::- Improved instrument-playing animations.
+::- New VFX (animations, particles, & shader effects) for all Battle Chemistry abilities.
+::- You can no longer auto-move while jumping. Doing so previously resulted in some very strange-looking animations.
+::- Fixed weird animation bug when trying to do certain things while sitting or kneeling.
+::- Failure to interact with something now returns the player to idle stance.
+::- Fixed bug with Thentree armor causing weird shadows on male characters.
+::- Mage Armor is now more polished, a bit darker, and has glowier gems
+::- Fixed bug that would cause a dancing pig's mud to stick around forever.
+::- Fixed bug where mounting while dancing would continue some dancing effects.
+::- Improved texture for Spring Fairy armor.
+::- Fixed face cam for Pigeons.
+
+===Other Bug Fixes & Tweaks===
+::- Some legacy equipment that should have been Mastercrafted wasn't. Those items should be fixed now.
+::- When you un-legacy equipment by pulling an invalid power off of it at the transmutation table, the legacy and broken state of that equipment is now properly updated.
+::- Fixed bug allowing recipe items to be summoned from anywhere.
+::- Updated Shadow Feint tooltip to display the correct AOE distance for blinking back to position.
+::- Phrenology-based Mentalism & Psychology bonuses to critical chance now properly affect heals.
+::- Improved logic related to channeling abilities; this should hopefully fix stuck-in-channel bugs.
+::- Modified Mutation Injection ability descriptions to make it a bit clearer how they work.
+::- Lycanthropy ability "Become Wolf": the skill check to disable wolf mode is no longer downleveled when your combat skills are downleveled.
+::- Newly learned abilities, Wild Endurance, & First Aid should now correctly auto-rerank.
+::- Dying by falling through the world now shows a special button in the death window, "Teleport to Last-Touched Ground", which teleports your dead body to the last ground you were standing on. While this isn't an ideal solution, it should allow you to be revived in party situations
+::- Fixed bug causing skeleton warrior pets to repeatedly retreat a short distance when fighting something.
+::- Astounding Cloth Shirt (Max-Enchanted) and Camouflaged Astounding Shirt (Max-Enchanted) recipes now require the correct ingredients.
+::- Pressing spacebar while in an animal-mount form will no longer play the horse neighing sound.
+::- Fixed typo in Evasion Boots (Enchanted) recipes.
+::- Changed icon color for Acid Bomb to more of an acid-y color (and match the new VFX).
+::- Acid Boost Potion recipe now correctly states that it lasts 30 minutes.
+::- Fixed typo in quest "Holistic Wellness: Yarn" (twelve -> twenty-four balls of yarn).
+::- The tsys mod, "Psi Health Wave grants all targets +X Mitigation vs. Electricity, Acid, and Nature attacks for 20 seconds" now displays in the effects list when it's active.
+::- Fixed Dwarven Fixer causing screen brightness (instead of hiding it).
+::- "Toxic Flesh" tooltip now takes poison damage buffs into account.
+::- Using Objective Orienteering on "The Borghild Lead" quest now leads to the correct area.
+::- Fixed typo in quest "The Borghild Lead" (south -> north).
+::- Harry now hints more strongly that his Minor Panacea will not cure ALL curses, just a specific one.
+::- The quest "Goblin Avenger: Ratkin!!!" now correct gives 10 Xedrite.
+::- JSON users: Note that in skills.json's level-up rewards, "Ability" can now refer to a single ability or an array of abilities.Wolves & cows now animate at proper speed when going up and down hills.
+::- Replaced wolf's Hunting Speed animation with a howl animation.
+::- Polished bard animations, so they flow together better now. The play-lute animation now always plays when you are playing a bard song, even if you use other abilities while playing the song.
+::- Improved instrument-playing animations.
+::- New VFX (animations, particles, & shader effects) for all Battle Chemistry abilities.
+::- You can no longer auto-move while jumping. Doing so previously resulted in some very strange-looking animations.
+::- Fixed weird animation bug when trying to do certain things while sitting or kneeling.
+::- Failure to interact with something now returns the player to idle stance.
+::- Fixed bug with Thentree armor causing weird shadows on male characters.
+::- Mage Armor is now more polished, a bit darker, and has glowier gems
+::- Fixed bug that would cause a dancing pig's mud to stick around forever.
+::- Fixed bug where mounting while dancing would continue some dancing effects.
+::- Improved texture for Spring Fairy armor.
+::- Fixed face cam for Pigeons.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

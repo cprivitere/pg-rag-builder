@@ -1,0 +1,28 @@
+__NOTOC__
+{{NPC infobox
+|title            = Legacy Item Replacer
+|image            = [[File:LegacyGolem.png|300px]]
+|caption          = A little automaton.
+|zone             = Serbule
+|town = Serbule Keep
+|location = Next to Joeh's shop.
+|anatomy = Construct
+|species = Golem
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|
+This golem provides a service for Alpha players: if one or more of your items has become Legacy due to gameplay changes, the golem can replace it with a new randomly-generated item.
+
+The new item will be the same model and level as the Legacy item, and will have the same rarity, but it will have entirely randomly-generated treasure effects.
+
+Other features of the old item, such as augments, attunement, inscription, and crafting bonus effects, will not be replaced.
+}}
+
+The '''Legacy Item Replacer'' is an automaton that can either replace a Legacy item, or inform you why the item was marked Legacy.
+
+==Location==
+; [[Serbule Keep]]
+: Inside the building with the tanning rack next to [[Joeh]]'s shop.
+
+[[Category:NPCs]][[Category:NoRiShin]]

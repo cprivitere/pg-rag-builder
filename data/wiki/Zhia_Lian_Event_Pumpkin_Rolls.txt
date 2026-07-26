@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Brandon Mellus in the Red Wing Casino said, "Let's round out the party's food offerings with something a little less disgusting! I got this recipe from my mother. Can you get the stuff?"
+
+This Quest can be repeated after 60 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Brandon Mellus]]''' in the '''[[Red Wing Casino]]'''. You must have previously completed [[Zhia Lian Event: More Soup Prep]] in order to undertake this quest.
+
+===Preface===
+Let's round out the party's food offerings with something a little less disgusting! I got this recipe from my mother. Can you get the stuff?
+
+===Requirements===
+* Obtain Pumpkins x3
+* Obtain Cinnamon x3
+* Obtain Bananas x3
+* Talk to Brandon Mellus
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Excellent work! Here's the recipe. Did we get everything? Hmm, yep, looks like it!
+
+That's all the food preparation we need. Everything else can be handled by the bug-men. Thanks for all your help!}}
+* Recipe: Cinnamon Pumpkin Rolls
+* 5000 councils
+* {{Item|Level 50 Event Loot Key}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Brandon Mellus]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Lincha in Povus said, "The orcs even stole my guest chair. It was pretty great, too. I wish I could find a replacement! The trouble is that I must know the chair's provenance. I won't support goblin slave labor!"
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lincha]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+The orcs even stole my guest chair. It was pretty great, too. I wish I could find a replacement! The trouble is that I must know the chair's provenance. I won't support goblin slave labor!
+
+===Midway===
+I wish I had a great new chair...
+
+===Requirements===
+* Craft Great Chair
+* (Keep Great Chair)
+* Talk to Lincha
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|This looks quite comfortable. It should be perfect for my guest chair! And I can tell by your hands that you made this yourself. Thank you.}}
+* {{Item|Xogrite Chunk}} x17
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Lincha]]

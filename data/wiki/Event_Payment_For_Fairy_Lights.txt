@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Irkima]] in [[Red Wing Casino]] said, "At the Ri-Shin celebration in Statehelm, the trees are lit with fairy lights! Our tree must be lit as well. There are a few fairy shopkeepers in the employ of the casino, and Laphylla says she can place a glamour on our tree... but she demands payment in a substance called 'pixie sugar'. Can you obtain this?"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Irkima]]''' in the '''[[Red Wing Casino]]'''.
+
+===Preface===
+At the Ri-Shin celebration in Statehelm, the trees are lit with fairy lights! Our tree must be lit as well. There are a few fairy shopkeepers in the employ of the casino, and Laphylla says she can place a glamour on our tree... but she demands payment in a substance called 'pixie sugar'. Can you obtain this?
+
+===Requirements===
+* Obtain {{Item|Pixie Sugar}} x3
+* Talk to [[Irkima]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you! I shall take this to Laphylla promptly so that she can place a glamour on our tree.}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Irkima]][[Category:Quests/Ri-Shin Quests]]

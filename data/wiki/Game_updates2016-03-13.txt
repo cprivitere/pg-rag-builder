@@ -1,0 +1,14 @@
+==<b>March 13 Hotfix</b>==
+:- Aggro: fixed bugs with how monsters evaluated damage. This addressed the most obvious symptoms (e,g, pets not getting aggro). There may be other aggro bugs left, but I can't repro any more situations so we'll see what reports come in!
+:- Aggro: healing was unintentionally irrelevant to the taunt calculations -- 1 point of healing was only taunting as if it was 1/100th of a point of damage. It is now equal to 3/4ths of a point of damage. (This is a very old bug that I just uncovered.)
+:- The "Flame Basher" would set YOU on fire instead of setting the monster on fire
+:- Items that claim to boost pet Enthusiasm now do so. (Enthusiasm currently determines the chance for a pet's happiness to increase, and nothing else. So boosting enthusiasm boosts Happiness over time. Happiness boosts XP earned. These systems will be expanded in the future, right now we're just bug-fixing)
+:- Fixed a bug that sometimes prevented pet owners from being able to see how much Bonus Taunt their animal-handling pets have. (It's shown when you examine the pet.)
+:- Added Damage Boost stats to the info shown when you examine an animal-handling pet. (These are the stats that gear boost, so you can tell if gear is working by whether these numbers go up. Remember you must resummon a pet to get the benefits of new gear.)
+:- [[Chicken]]s in [[Serbule Hills|South Serbule]] can now wander around, reducing the chance of an eggpocalypse
+:- Fixed multiple issues related to Motherlode Maps
+:- Two of [[Jaime Fatholm]]'s favor quests give you some [[Basic Metal Slab]]s, to make it easier to start doing mining surveys
+:- Fixed a bug that would sometimes make the surveying speed bonuses unobtainable
+:- Fixed bug with most delayed-heal treasure effects	
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

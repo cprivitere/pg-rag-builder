@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Gisli the stablemaster in Serbule asked you to place an order for horseshoes with the town's blacksmith, Tadion, who works in the large enclosed keep at the southern end of Serbule town.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gisli]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Can you go tell Tadion I need more horseshoes? He's the blacksmith in town. You'll find him in the keep -- that enclosed horrible-smelling area at the southern end of town. Tell him I need as many shoes as he can make, but I can only pay in sexual favors. He'll understand.}}
+
+===Requirements===
+* Speak with Tadion
+* Talk to Gisli
+
+{{Spoiler|Response to player|{{Quote|Wait, how can Gisli need more horseshoes? I just made him a dozen! And what size does he need? I take pride in my work and... wait, he wants 'as many as I can make'? And he'll pay in sex. Oh. He doesn't even need horseshoes at all! <i>Tadion lets out a profound sigh.</i> That dwarf is just not a great lay. But since I'm always sweaty and smelly I can't exactly have my pick of the town. So tell him I'll be by tomorrow for my payment.}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Horseshoe Order|
+{{Quote|Tadion will stop by tomorrow? Great! I know he didn't like our roll in the hay last time, but I got fresh new hay and I've mostly kept the cows away from it, so ... here's hoping! Thanks for being my messenger. Here, take this. Use it to make some rat's day.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Mild Cheddar Cheese}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Gisli]]

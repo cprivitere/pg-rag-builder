@@ -1,0 +1,118 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ratuk the Thinker
+|image            = [[File:RatuktheThinker.png|300px]]
+|caption          =
+|zone             = Kur Mountains
+|location         = Ice Floats
+|anatomy = Orc
+|species = Orc
+|beastspeak       = Yes
+|beastlist        = All
+|skilltrainer     = [[Teleportation]]
+}}
+{{Quote|
+I do not wish to fight. I am not interested in trade. Please let me be.
+}}
+'''Ratuk the Thinker''' is an Orc mage who isolated himself to conduct research.  Ratuk teaches advanced teleportation techniques, which are quite valuable to players.
+
+Ratuk spends his time researching [[Teleportation]] techniques, but his isolation has left him unable to maintain proper supplies. Ratuk claims he is capable of killing an opponent using teleportation.  Recently, Ratuk has reached out to [[Landri the Cold]] for help to create a wormhole into another plane of existence.
+==Location==
+; [[Kur Mountains]]
+: Western ice floes.
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Quests ==
+<dpl>
+category = Quests/Ratuk
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Favor Rewards ==
+{{Spoiler|Reward at {{Favor|Friends}}|
+{{Item|Recall Stone}} x1
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}|
+{{Item|Recall Stone}} x1
+}}
+==Training==
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Teleportation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Recall Last Recall
+ |skilllevel=
+ |cost=
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Recall Somewhere
+ |skilllevel=
+ |cost=
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Recall Heart's Home
+ |skilllevel=
+ |cost=
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Bind Alternate Circle
+ |skilllevel=26
+ |cost=1516
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Recall Alternate Circle
+ |skilllevel=27
+ |cost=1547
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Recall Alternate Circle (Improvised)
+ |skilllevel=30
+ |cost=1638
+ |favor= Like Family
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Teleportation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability= Organ Displacement
+ |skilllevel=25
+ |cost=2229
+ |favor= Close Friends
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family ={{Item|Recall Stone}} x5
+}}
+== Conversations ==
+[[Category:NPCs]]
+{{Quote|
+I do not wish to fight. I am not interested in trade. Please let me be. 
+:'''What are you doing out here?'''
+Research. It is an orc tradition that mages wander off on their own to do research. It keeps the idiots out of the way. Well, most of them. ''Ratuk glares.''
+:'''But I like research too! I could help you.'''
+Hm, do you know your way around a teleportation stone? I suppose I could tolerate your presence. 
+:'''That's the spirit!'''
+I have been experimenting for a long time, and have many new and interesting teleportation techniques. But I am running out of supplies for more research. Maybe you could do me a few favors in exchange for a few of my lesser secrets.
+: '''Yeah, maybe later. Bye!'''
+}}

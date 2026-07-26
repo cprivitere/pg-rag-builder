@@ -1,0 +1,59 @@
+==<b>August 27 Update</b>==
+: This update focuses on some quality-of-life improvements, as well as some small content additions and the new synchronized dancing system.
+
+==<b>Synchronized Dancing</b>==
+:: - If three or more players dance to music, they will be prompted to perform a particular dance "move". If at least three dancers perform the specified move, all spectators receive a choreography boost. This increases the duration and intensity of the dance-buff dramatically. (A single dancer, or just two dancers, now generate a very small buff on their own.)
+:: - A massive troupe of 12 (or more) dancers performing reasonably well together can give spectators a Dance Appreciation buff that caps out at +13% Crafting XP with a 6.5 hour duration. However, a solo dancer (or pair of dancers) has a dramatically smaller impact -- this is really intended as a group project and you need three dancers to have much effect. But just three is enough to get good results.
+:: - In addition to the old benefits of dance appreciation (crafting XP % and metabolism regen %), watching a well-choreographed dance can now also give you random "inspirations". These are small fun buffs with random effects. The more choreographed dancers you're watching at once, the higher the chances of being inspired. (Get a dozen dancers together and watch the buffs stack up!)
+:: - Lastly, a note to head off confusion: dancers who do not choreograph with the group do not penalize the group! When a dancer sees a message like "Good! 3 of 4 Dancers Synchronized!" it might be natural to think that the fourth dancer is hurting their "score". But even an out-of-sync dancer is still better than no dancer at all. In other words, "3 of 4 synchronized" is better than "3 of 3 synchronized". (But only by a tiny bit... synchronization gives you the majority of the benefits.) The point is that it's not possible to "grief" the dancers by dancing out of sync.
+
+==<b>Work Orders</b>==
+: Thanks to everyone that reported work orders that sucked! The formula for work orders has been revised so that the item's value is a bit more important and the "level" of the recipe is less important, especially at low level. : Lower-level work orders are more valuable, mid-level work orders are about the same, and the highest-level work orders are something like 10% less valuable. <b>If you find work orders that nobody would ever want to do, please report them!</b> The new formula works better than before, but it will still require some fine-tuning for individual items.
+
+==<b>Aggro Fixes</b>==
+: Spent a long while tracking down more bugs with aggro calculation:
+:: - The base damage of most pet abilities (and some player abilities) wasn't included in aggro calculation, and in some cases could even generate negative aggro instead of positive aggro
+:: - When a monster Evaded an attack, it still calculated aggro as if it had been hit by the attack
+:: - Effects that only apply on special conditions weren't included in aggro (e.g. "deal +200 damage only to goblins" or "deal +100 damage if enemy is stunned" etc.)
+:: - A few other aggro-calculation errors that are very hard to explain because they involve a lot of variables
+: FYI: Because of the (fixed) aggro bugs, no data changes have been made regarding aggro. I know that bear pets were severely under performing as tanks before, but we need to see how these fixes affect things and go from there
+
+==<b>Other Improvements</b>==
+:: - Added a GUI scaling option. This only works for some parts of the GUI at the moment (the "windows" like Chat, Inventory, NPC dialogs, and so on), but hopefully it helps people with high-res monitors play the game more easily. It can be found in the Configuration window under GUI and Windows.
+:: - Added an auto-repeat checkbox for recipes. For safety, it un-checks itself whenever you switch recipes.
+:: - When playing an instrument, any non-instrument item in the other hand will be automatically hidden
+:: - When performing an emote, items in hands are now hidden. Afterwards they stay hidden, and will reappear if you change equipment or engage in combat
+:: - Dragon and Gryphon statues now have a much higher cash value. Their work-orders are also now a viable way to make money. NPCs who like statuary, gold, or silver now consider these gifts to be much more impressive than before 
+:: - New icons for "druidic premonition" and "druid emergency"
+:: - New mallard flight form (at druid altar)
+:: - Recipe for [[Druid]] Storage Crate can be purchased at druid altar. This crate can be summoned (without any ingredient costs) at any teleportation platform, but it only works during a druidic emergency or an hour before/after such an emergency. The intended use is to store druid gear so you don't have to go collect it before heading to the emergency site.
+:: - A larger-size version of the Druidic Storage Crate can be learned after learning the basic crate recipe
+:: - "Dark Wolf" werewolf appearance can be bought from werewolf altar after unlocking all level 60 werewolf abilities
+:: - [[The Wooly Bastard]] now always spawns atop a certain hill, making him easier to find. (And making it possible for the game to direct you to his general location via the Objective Orienteering ability)
+:: - [[The Big Widow]] now always spawns in a certain building, making her easier to find.
+:: - By the way, FYI: it is sometimes said in chat that [[Old Fangsworth]] "shares spawns with other tigers" -- this isn't true. He has a set of unique possible spawn locations in the tiger fields. He is always in the game (except for a 3 minute delay after his death). So you don't have to kill other tigers to "make him spawn". Just need to look around for him
+:: - Added a new shamanic infusion recipe to make the skill a bit easier to level (you will automatically receive it at levels 14, 32, and 47)
+:: - Male deer have a higher chance to drop antlers. (Also, note that male "Misery" creatures such as Misery Gazelles can drop antlers. The rule of thumb is that If they've got antlers on their head, they can drop 'em.)
+:: - The Altar of Norala now has built-in storage for lycanthropes, unlocked with Norala Tokens. The intent of this storage is to provide a place to keep your werewolf gear and supplies so that they're handy when it's "that time of the month." However, the storage is not restricted by moon phase and, once purchased, it can be accessed at any time
+:: - More [[Biting Vine]]s spawn in [[Sun Vale]] (mostly in and around the Ranalons)
+:: - There is a new type of Druidic Emergency that will randomly appear among the other emergency types (and we will manually activate it sometime this weekend to give it a test run)
+:: - Potent Acidic Cleanser (Mineral Recipe) no longer requires copper; simple metal slab is used instead
+:: - Various small content additions
+
+==<b>Bug Fixes</b>==
+:: - Worked around a bug in Unity's screenshot-saving feature so that it actually saves screenshots instead of all-black rectangles
+:: - Work-Orders for fancy arrows are much less terrible
+:: - Owls have a death animation, and owls are larger in general
+:: - Fixed a scenario where monsters could continue to follow you after they died
+:: - Recipes for maple and cedar wood chips now give less XP
+:: - You now get much more Favor (and a few more skins) for completing [[Roshun The Traitor]]'s favor request for a perfect tiger skin
+:: - [[Dementia Puck]] drops his key on each death, not just the first death in a three-hour period
+:: - Ranalon warriors in [[Sun Vale]] (and in various dungeons) now have combat moves similar to the ranalons found in [[Serbule Hills|South Serbule]], rather than being reskinned goblins
+:: - Fixed the door to the dungeon on the newbie island (it had gotten turned inward and was hard to see). Also added a torch to make it easier to spot in the dark
+:: - Fixed some tutorial-island armor that would become Legacy when augmented (such as with Shamanic Infusions)
+:: - Fixed a bug where player music could briefly skip when switching tracks (if the switch was done during a .4 second time window every 10 seconds)
+:: - Fixed a bug with [[Rahu]] song that caused music to skip weirdly when players switched tracks
+:: - Fixed a bug where different players could hear the player-music song out of sync with each other by +/- 3 seconds. (You can't actually tell when two players hear different music, since you're only one player... but anyway it's fixed now.)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

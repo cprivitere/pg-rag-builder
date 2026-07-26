@@ -1,0 +1,17 @@
+{{Vendor spending limits
+|ItemCapNeutral         =100
+|ItemCapComfortable     =100
+|ItemCapFriends         =200
+|ItemCapCloseFriends    =400
+|ItemCapBestFriends     =
+|ItemCapLikeFamily      =
+|ItemCapSoulMates       =
+|WeeklyPoolNeutral      =5,000
+|WeeklyPoolComfortable  =5,000
+|WeeklyPoolFriends      =10,000
+|WeeklyPoolCloseFriends =20,000
+|WeeklyPoolBestFriends  =40,000
+|WeeklyPoolLikeFamily   =50,000
+|WeeklyPoolSoulMates    =60,000
+}}
+<noinclude>[[Category:Spending limits]]</noinclude>

@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Kib the Unkillable in Red Wing Casino said, "My friend Irkima has told me a fanciful tale! There are insects on this continent that secrete lac that is so strong that it has different properties. Irkima called it 'ultra-lac', but of course I'm certain that sages in this land have a more appropriate name for it. I must see this substance! Can you procure some?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Kib the Unkillable]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|
+My friend [[Irkima]] has told me a fanciful tale! There are insects on this continent that secrete lac that is so strong that it has different properties. Irkima called it 'ultra-lac', but of course I'm certain that sages in this land have a more appropriate name for it. I must see this substance! Can you procure some?
+}}
+
+===Requirements===
+* Obtain {{Item|Ultra Lac}} x1
+* Talk to [[Kib the Unkillable]]
+===Rewards===
+{{Spoiler|Rewards for Better Lac than Lac?|
+{{Quote|
+This is the so-called ultra-lac? But this is just regular lac! Wait, I think we have a terminology problem. What you call 'regular lac' must be what we call 'worthless bug secretions'. Ah well. Thank you for helping me solve the mystery!
+}}
+* 200 favor towards [[Kib the Unkillable]]
+* 1000 Councils
+* {{Item|Red Wing Token}} X5
+}}
+
+[[Category:Quests]][[Category:Quests/Kib the Unkillable]][[Category:Quests/Red Wing Casino Quests]]

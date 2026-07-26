@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Midge in the Fae Realm said, "Look, I don't need random help from random mortals! I used to be an expert alchemist, and I know there was a method to inhibit memory. If I could remember how to make memory-inhibitors, maybe I could find a reversal effect... anyway, if you happen to have a memory-inhibitor potion, that'd be great. Otherwise, you can help best by bringing me the ingredients I need! I'll barter for royal jelly."
+
+===Prerequisites===
+To start this quest, talk to '''[[Midge the Apothecary]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+Look, I don't need random help from random mortals! I used to be an expert alchemist, and I know there was a method to inhibit memory. If I could remember how to make memory-inhibitors, maybe I could find a reversal effect... anyway, if you happen to have a memory-inhibitor potion, that'd be great. Otherwise, you can help best by bringing me the ingredients I need! I'll barter for royal jelly.
+
+===Requirements===
+* Obtain Memory-Fixing Potion
+* Talk to Midge
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|What's this? This fixes memory problems? No, this is a memory inhibitor! Why would you give me this?! Wait.. wait, I asked you for this, didn't I? Because I can study it! Hmm. Okay! Okay! I have to take some notes, but thanks! Thank you. This is great! Here: this doesn't work.}}
+* 200 {{Favor|favor}}
+* {{Item|Decoction of Fae Anatomy Knowledge}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Midge the Apothecary]]

@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Crelpin in the Fae Realm said, "Will you do me a favor? I want to try out some mortal recipes I've learned. To master them, I figured I'll need about two thousand potatoes. I can't do that all myself! So I'm asking everyone I see to bring me a few potatoes. Can you bring me a handful?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Crelpin]]''' in '''[[Fae Realm]]'''. This quest is only available to Fae who have completed the quest [[Pollinate]].
+
+===Preface===
+Will you do me a favor? I want to try out some mortal recipes I've learned. To master them, I figured I'll need about two thousand potatoes. I can't do that all myself! So I'm asking everyone I see to bring me a few potatoes. Can you bring me a handful?
+
+===Requirements===
+* Find Potatoes for Crelpin x4
+* Talk to Crelpin
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you! Bizz was just telling me about you. He asked me to show you a few things you may have forgotten. A reward for helping us out.}}
+* 25 {{Favor|favor}}
+* 2500 XP in Fae (Race Skill)
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Crelpin]][[Category:Quests/Fae Quests]]

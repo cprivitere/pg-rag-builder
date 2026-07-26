@@ -1,0 +1,21 @@
+==Update Notes: March 11, 2026==
+A quick bugfix update:
+:- Fix grass-related performance issues
+:- Address some performance hiccups related to vegetation calculation
+:- Fix bug causing framerate spike when a new character model disappears
+:- Fix Serbule well collider
+:- Fix Serbule fountain collider
+:- Bear On the Barn has once again become Bear In the Barn
+:- minor lighting tweaks in casino
+:- Disable some fancier camera-based lighting tricks for now until they can be reimplemented for Unity 6.3. (You will probably not notice the difference)
+:- The number of not-visible nameplates that updates per frame has been doubled, and is now configurable by the setting "Nameplates Processed per Frame" (from 25-1000, default is 100)
+:- New special setting: "MaxNameplateLoads", determines how many brand-new nameplates can spawn at once. Defaults to 5
+:- Fix bug with a Wind Ward mod sometimes causing lag spikes
+:- Bard Prodigy unlock now requires Like Family with Ormond Neth as intended
+:- Weather Witching Prodigy no longer requires level 100 in Shield to unlock
+:- Fix some spawn positions in Serbule and Eltibule
+:- Adjust tree LODs in Serbule/Eltibule
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

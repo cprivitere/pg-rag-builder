@@ -1,0 +1,33 @@
+__NOTOC__
+==Summary==
+Ensign Cricket aboard the Wintertide said, "The science deck has been given over to the mad wizard that made those... monstrosities. And he's not even here! He just astrally projects himself here from the mortal realm.
+
+Sustained astral projection requires an impressive amount of magical fortitude, I'll admit. But its so gauche!
+
+You should just pull his plug."
+
+This Quest can be repeated after 30 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ensign Cricket]]''' in '''[[The Wintertide]]'''. The quest is available at {{Favor|Close Friends}} favor. 
+
+===Preface===
+The science deck has been given over to the mad wizard that made those... monstrosities. And he's not even here! He just astrally projects himself here from the mortal realm.
+
+Sustained astral projection requires an impressive amount of magical fortitude, I'll admit. But its so gauche!
+
+You should just pull his plug.
+
+===Requirements===
+* Disable Dalvos's Astral Projection
+* Talk to Ensign Cricket
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Did you disconnect him? Hah! I'm sure he'll just call back in a bit. But he'll be extra pissed off now. That might be fun! Good work!}}
+* 100 {{Favor|favor}}
+* {{Item|Royal Jelly}}
+* {{Item|Mortal-Realm Mineral Sample}} x10
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm? Quests]][[Category:Quests/Ensign Cricket]]

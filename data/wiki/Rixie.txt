@@ -1,0 +1,45 @@
+__NOTOC__
+{{NPC infobox
+|title = Rixie
+|image = [[File:Rixie.png|300px|]]
+|caption = 
+|zone = Povus
+|dungeon = Nightmare Caves
+|town = The Yellow Room
+|location = Near the bottom on a square in The Yellow Room
+|anatomy = Fae
+|species = Fairy
+|beastspeak = Yes
+|beastlist = Anyone
+|skilltrainer = [[Druid]]
+}}
+{{Quote|
+If this isn't a pocket dimension, that means... I don't know what it is.
+}}
+[[Rixie|Rixie]] is a fairy lady living in [[The Yellow Room]]. 
+
+She is trapped in [[The Yellow Room]] after trying to escape from the entity deep beneath Povus.
+==Location==
+; [[Nightmare Caves]]
+: Found in [[The Yellow Room]].
+== Quests ==
+[[Rixie]] offers no quests.
+==Training==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Druid]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+
+{{NPC training row
+ |ability=Eagle Form
+ |skilllevel=50
+ |cost=???
+ |favor=???
+}}
+|}
+
+== Services ==
+Lets you play a mini-game of collecting the rings that float around [[The Yellow Room]].
+[[Category:NPCs]]

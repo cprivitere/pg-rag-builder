@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Nishika in Rahu asked you to obtain grapefish. It's an ingredient in her "famous" travel snacks.
+
+===Prerequisites===
+To start this quest, talk to '''[[Nishika]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I'll let you in on a secret. My famous travel snacks are only <i>mostly</i> cat meat. They've also got fish in them -- grapefish, to be exact. But don't tell anyone! Grapefish isn't common around here so I have to import it, and some customers might get upset about me not using local ingredients. But you and I are above that sort of thing, right? I'll pay you well if you can get me some! Filet them before you bring them in here, though. Fillets draw less attention than whole fish.}}
+
+===Requirements===
+* Obtain {{Item|Grapefish}} x12
+* Talk to Nishika
+
+===Rewards===
+{{Spoiler|Rewards for Grapefish for Snacks|
+{{Quote|You have my fish? Perfect! Now remember, tell nobody. But, since you already know, I guess I can teach you the recipe, if you'd like.
+
+<i>[ Recipe 'Nishika's Travel Snack' unlocked in the Training menu. ]</i>}}
+
+* 200 {{Favor|favor}}
+* 1000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Nishika]]

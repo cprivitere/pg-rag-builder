@@ -1,0 +1,139 @@
+__NOTOC__
+{{NPC infobox
+|title            = Corey The Croaker
+|image            = [[File:CoreyTheCroaker.png|300px]]
+|caption          = He's laughing and making weird noises.
+|zone = Sun Vale
+|dungeon = Winter Nexus
+|location         = Hiding at Fae Realm portal.
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Toolcrafting]]
+|vendor           = Yes
+}}
+{{Quote|
+You know what's great?  Sex.  I prefer Humanoids, but I'm not super picky.  But I have a rule: no insects.  No giant bugs, no bug-demons, no insect swarms.  Unh uh.  Learned my lesson.
+}}
+[[Corey The Croaker]]is a [[Spring Court]] fairy currently hiding in the [[Winter Nexus]].
+
+Corey dislikes the Summer and [[Autumn Court]] stereotype that [[Spring Court]] fae are insane. He is helping free the captured [[Summer Court]] fae, because the [[Winter Queen]] has captured the [[Spring King]].
+
+Talking to Corey with a ''Fairy Wing'' will result in a dialogue option to give him the wing. In return, you gain 5 favor and Corey places a ''Flower Appreciation'' buff that boosts your Max Power by 63 for one hour.
+== Location ==
+; [[Winter Nexus]]
+: On the right side of the dungeon.
+== Shopkeeper ==
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Friends}}|
+{{Item|Nice Spring Fairy Shoes}}
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}|
+{{Item|Nice Spring Fairy Leggings}}
+}}
+{{Spoiler|Reward at {{Favor|Best Friends}}|
+{{Item|Nice Spring Fairy Top}}
+}}
+== Quests ==
+<dpl>
+category = Quests/Corey The Croaker
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]]
+! Ability/Recipe
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Nice Spring Fairy Shoes (Enchanted)
+ |skilllevel= 40
+ |cost= 3133
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Nice Spring Fairy Shoes (Max-Enchanted)
+ |skilllevel= 40
+ |cost= 3133
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Quality Spring Fairy Shoes (Enchanted)
+ |skilllevel= 50
+ |cost= 4800
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Quality Spring Fairy Shoes (Max-Enchanted)
+ |skilllevel= 50
+ |cost= 4800
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Nice Spring Fairy Leggings (Enchanted)
+ |skilllevel= 40
+ |cost= 3133
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Nice Spring Fairy Leggings (Max-Enchanted)
+ |skilllevel= 40
+ |cost= 3133
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Quality Spring Fairy Leggings (Enchanted)
+ |skilllevel= 50
+ |cost= 4800
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Quality Spring Fairy Leggings (Max-Enchanted)
+ |skilllevel= 50
+ |cost= 4800
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Nice Spring Fairy Top (Enchanted)
+ |skilllevel= 40
+ |cost= 3133
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Nice Spring Fairy Top (Max-Enchanted)
+ |skilllevel= 40
+ |cost= 3133
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Quality Spring Fairy Top (Enchanted)
+ |skilllevel= 50
+ |cost= 4800
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Quality Spring Fairy Top (Max-Enchanted)
+ |skilllevel= 50
+ |cost= 4800
+ |favor= Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Spring Fairy Shoes}} (Lv 45)
+|RiShin Family = {{Item|Fairy Wing}}
+}}
+== Conversations ==
+[[Category:NPCs]]

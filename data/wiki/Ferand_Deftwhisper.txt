@@ -1,0 +1,84 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ferand Deftwhisper
+|image            = [[File:Ferand Deftwhisper (npc).png|300px]]
+|caption          = Armor Sales
+|zone             = Povus 
+|town             = City of Povus
+|location         = Old Town, northeast of the Town Status Board
+|anatomy          = Dwarf
+|species          = Dwarf
+|beastspeak       = Yes
+|beastlist = All 
+|vendor           = yes
+|consignment = yes
+}}
+{{Quote|source=[[Ferand Deftwhisper]]| <!-- This quote should be something informative about the NPC, or express their personality. The quote can be from the NPC, or another NPC talking about them.-->
+I sell some of the best armor in Alharth! Or rather did at one time. This stuff's pretty good too.
+}}
+[[Ferand Deftwhisper]] is an armor dealer in the city of Povus.
+
+== Location ==
+; [[Povus]]
+: [[Ferand Deftwhisper]] can be found in Old Town, northeast of the Town Status Board, when the Povus town level is at least 3.
+
+== Shopkeeper ==
+[[Ferand Deftwhisper]] opens his armor shop when Povus is a minimum level of 4.
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+[[Ferand Deftwhisper]] rewards his friends with Equipment.
+{{Spoiler|Reward at {{Favor|Best Friends}}:|
+:{{Item|Hand-Picked Dwarven Plate Coat}} (Level 75). This item can unlock the sidebar ability '''Dwarven Mettle.'''
+}}
+{{Spoiler|Reward at {{Favor|Like Family}}:|
+:{{Item|Hand-Picked Dwarven Plate Coat}} (Level 80). This item can unlock the sidebar ability '''Dwarven Mettle.'''
+}}
+{{Spoiler|Reward at {{Favor|Soul Mates}}:|
+:{{Item|Hand-Picked Dwarven Plate Coat}} (Level 85). This item can unlock the sidebar ability '''Dwarven Mettle.'''
+}}
+<!-- === Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Hike to a remote meditation pillar(8h)|
+{{Quote|
+Echur said, "The scenery was great, wasn't it? Even if the meditation was kind of a drag. Well, not every meditation session goes as planned, you know? But we just come back to it tomorrow and try it again."
+}}
+:65 favor with [[Echur]]
+:300 Meditation XP
+}} -->
+
+== Quests ==
+<dpl>
+category = Quests/Ferand Deftwhisper
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+<!-- == Services ==  List some of the services offered by the NPC. Consignment, Storage, Augmentation, or unique options. Rappanel plays music if paid, and Ashk the Answerer tells fortunes that grant buffs. -->
+
+== Services ==
+==== Consignment ====
+; Ferand Deftwhsiper offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10%, stocking fee of 100 Councils.
+: Max 2 active consignments (Armor, Shields).
+: Max 4 consignments per week.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = Chest Augment
+|RiShin Family = {{Item|Hand-Picked Dwarven Plate Coat}} (Lv 85), Chest Augment
+}}
+== Conversations ==
+{{Quote|source=[[Ferand Deftwhisper]]|
+Stephie's uncle is a great armorsmith to be sure. But don't believe him when he says he came here out of grand and noble intent! Ha ha, no. He was practically chased out of [[New Aufghel]]!}}
+{{Quote|source=[[Ferand Deftwhisper]]|
+Oh, I don't know. Sure, the town's ruined and monsters come every night, but every new city is gonna have some bad days, right? I'll give it a few more years. Maybe it'll turn around.}}
+{{Quote|source=[[Ferand Deftwhisper]]|
+Stephie's and old friend of mine. I moved here when she said this little town was going to get big. Seems like it's got some growing pains now, though.}}
+[[Category:NPCs]]

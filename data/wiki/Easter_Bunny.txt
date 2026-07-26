@@ -1,0 +1,27 @@
+__NOTOC__
+{{NPC infobox
+|title            = Easter Bunny
+|image            = [[File:Easter Bunny.png|300px|]]
+|caption          = ''Wow! Huge!''
+|zone             = Eltibule
+|location = [[Sie Antry]]'s farm
+|anatomy = Rodent
+|species = Rabbit
+|beastspeak       = Yes
+|beastlist = All
+|eventnpc = Yes
+}}
+<kbd> Easter Bunny only appears during a Garden Invasion event. </kbd>
+{{Quote|RAWR! Happy Easter!}}
+A Huge Rabbit NPC that spawns during the Garden Invasion Event for Easter. When talking to the Rabbit you will recieve some {{Item|Jellybeans}} (one per character).
+==Location==
+; [[Eltibule]]
+: Found on [[Sie Antry]]'s farm.
+== Gallery ==
+<gallery mode="nolines" widths=300px>
+File:Easter Bunny 2.png|Comparison to humanoid for scale (courtesy of JohnnyComics)
+</gallery>
+==Trivia==
+In 2020, the Easter Bunny also gave an {{Item|Orran's Inventory Expander Potion}} as a test for its introduction into the [[Crafting Caravan]].
+== Conversations ==
+[[Category:NPCs]][[Category:NoRiShin]]

@@ -1,0 +1,35 @@
+__NOTOC__
+==Summary==
+Trekker in Gazluk said, "Psst... you're with the Wardens? Whew! I was hoping backup would arrive!
+
+A few days ago, teams of orcs from Gazluk Keep were up here clearing out their secret system of mountain trails. And today we found out that there are now hundreds of slimes in the southern valley! That has to be connected. Right?
+
+Sometimes ice slimes fall down the mountain, but not in numbers like this. The animals that live in the valley don't know how to avoid ice slimes. They're sitting ducks! And deer, and goats, and other animals! Not to mention those dwarves that live in the New Prestonbule cave. Please help me lower the number of ice slicks down there!"
+
+This Quest can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Trekker]]''' in '''[[Gazluk]]'''. The quest is available at {{Favor|Despised}} favor. This quest is only available for Wardens. This quest is only available during an event in the area.
+
+===Preface===
+Psst... you're with the Wardens? Whew! I was hoping backup would arrive!
+
+A few days ago, teams of orcs from Gazluk Keep were up here clearing out their secret system of mountain trails. And today we found out that there are now hundreds of slimes in the southern valley! That has to be connected. Right?
+
+Sometimes ice slimes fall down the mountain, but not in numbers like this. The animals that live in the valley don't know how to avoid ice slimes. They're sitting ducks! And deer, and goats, and other animals! Not to mention those dwarves that live in the New Prestonbule cave. Please help me lower the number of ice slicks down there!
+
+===Requirements===
+* Kill [Huge or Normal] Ice Slicks in Southern Valley x15
+* Talk to Trekker
+
+Normal Ice Slicks are closer to the Kur Mountains portal,<br>and Huge Ice Slicks are closer to the New Prestonbule Cave portal.
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You're back! I just got back myself a bit ago. There's still more slimes than I'm happy with, but I think I can take it from here. I appreciate your backup! Here, take this, nobody'll miss it.}}
+* 50 {{Favor|favor}}
+* 14 Warden Points
+* {{Item|Vervadium}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Gazluk Quests]][[Category:Quests/Trekker]][[Category:Quests/Warden Quests]]

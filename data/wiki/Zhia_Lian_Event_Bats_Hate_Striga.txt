@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> I forsee a problem with my Goddess of Bats plan: striga! You know, those bat-people who act as servants for the crones? They're Imatia's favored people, and they look like bats. I think the best plan here is to go on the offense.
+
+What I need you to do is start an undeniable rumor that giant bats hate and kill striga on sight. Do this by killing striga on sight!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> I forsee a problem with my Goddess of Bats plan: striga! You know, those bat-people who act as servants for the crones? They're Imatia's favored people, and they look like bats. I think the best plan here is to go on the offense.
+
+What I need you to do is start an undeniable rumor that giant bats hate and kill striga on sight. Do this by killing striga on sight!
+
+===Requirements===
+* Kill Striga as a bat x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Yeah. I'm thinking maybe being Goddess of Bats would be fun. I'll talk to some of the other gods about it. Thanks for the help, and remember to spread rumors that bats hate striga!
+
+But... just to be clear, you don't actually need to hunt striga for me. I mean, they're sentient, and most of them are bookworms. They work as scribes, and they're already pretty afraid of giant bats. So just keep them on their toes, but don't overdo it. Otherwise my plan will backfire!
+
+Our pro-bat public relations scheme is going well, but there's more to do...}}
+* Pumpkin Seedling
+* 5000 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

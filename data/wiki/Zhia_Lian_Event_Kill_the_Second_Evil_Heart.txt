@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> The second giant heart thing is in Kur. I see a ruined tower, and underneath it is a necromancer. He's got minions guarding the heart.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> The second giant heart thing is in Kur. I see a ruined tower, and underneath it is a necromancer. He's got minions guarding the heart.
+
+===Requirements===
+* Kill the Second Evil Heart
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|That's another heart dead! Great work.}}
+* 4000 councils
+* {{Item|Level 50 Event Loot Key}}
+* random items
+}}
+
+===Notes===
+The heart is in the far west of the hallways containing the ice wall, before the courtyard.
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

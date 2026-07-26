@@ -1,0 +1,60 @@
+==Update Notes: October 25, 2024==
+It's Halloween! In Project: Gorgon, that means the traditional annual incursion by Zhia Lian, goddess of Whimsy. Your characters will receive a quest when they log in to help them get started with the holiday. There are lots of activities and some pretty cool rewards! Now let's take a look at everything else in this update:
+
+===Not Vampires===
+Originally we wanted to launch a new Skill, Vampirism, along with this Halloween update. Unfortunately that skill needs to cook a little longer, and we didn't want it to delay our Halloween celebration any further. So vampires will make their debut in the next major update. We can't wait for you to play with them!
+
+If you see in-game references to Vampirism, just treat those as teasers for now.
+
+===Horse Genetics===
+Last update introduced horse genetics, and an entirely different way of looking at your mounts. In this update we continue to iterate on this system with necessary tweaks and bug fixes. 
+:- A floating sphere deep beneath Povus teaches new high-level textile recipes for creating Mare Blankets that accelerate gestation. (These recipes will eventually be learned from an NPC in Statehelm.)
+:- Dozens of genes are now quite rare in wild horses. As a result of increased gene rarity, wild horse stats in general are now lower - by about 10 points per stat.
+:- Several horse breeds were missing some coat-related functionality; it has been added to pre-existing genes. It's very unlikely but this may affect the appearance of some horses. If it does, it will be an obvious change.
+:- One of the Satincoat Scale genes now boosts friendliness when previously it gave nothing
+:- Moved an attribute from horse gene 28E4 to 28F1, so 28E4 doesn't affect multiple attributes.
+:- Wild Horses now display their virility alongisde other stats when you Pet them.
+:- Wild horse hitboxes are more accurate.
+:- Wild horses now take small breaks from running every now and again.
+
+===Mount Glamours===
+This update adds something else new and fun for mounts: mount glamours! This is similar to glamouring your equipment, but there are some big differences. A mount glamour is a new piece of mount equipment that overrides a horse's appearance. In other words, when your mount has a mount glamour item equipped, it will look like a different horse. This lets you show off your quest mounts - like Pantiflax - without giving up the superior stats of the horse you so carefully tamed, bred, or bought. (Note that Inella now gives the glamour version of Pantiflax rather than the mount version.)
+
+If you received a quest mount in the past, you will need to turn it into a glamour item before you can apply it to your regular mount. You can access a Horse Glamourizer near Mythander in Eltibule. 
+
+===New Inventory Slots===
+All players receive 4 new inventory slots. These correspond to the equipment slots for horses: saddle, saddlebag, reins, and horseshoes. All items that go in the new equipment slots for banners, horse cosmetics, and horse glamours give +1 Max Inventory when worn.
+
+=====Background: What's this about?=====
+New players sometimes ask why equipped items take up inventory slots. The answer is that it's just easier to manage your inventory that way! We wanted to give players the best of both worlds, so we simply increased the max-inventory size for each equipment slot. This change just updates our plan to accomodate the new equipment slots.
+
+We didn't do the same thing for the cosmetic-only slots (banners, horse cosmetics, and horse glamours) because of... psychology. We've already heard some players express that they won't be using these slots because they won't "waste" precious inventory. Even if we gave you slots to compensate for them, a fair number of players simply wouldn't spend their equipment slots to making their horse look better. And we want players to be excited for our horse hats and other nonsense.
+
+Instead, we've enchanted all the cosmetic-slot items to give you +1 Max Inventory slot when worn. This way, they effectively don't take up an inventory slot when worn.
+
+===Community Activity System===
+This is a new option to unlock 30-day slots in the Serbule Community Chest. Completing certain tasks or events will accumulate points that will be applied toward unlocking slots in the chest. Example: Completing any wave of the Povus nightly will contribute points toward an unlock. There are also other ways available in game to score points and more will be added over time. Slots unlocked by this system will be noted on the Community Chest screen as 'Community Activity'. The options to purchase slots with councils or LECs will remain available.
+
+===Everything Else===
+:- [[Yoy]] in the Myconian Caves has a new favor which unlocks a new [[Mentalism]] ability. (Requires Myconian 17 and Mentalism 20, and may require a friend to complete the quest.) (Higher tiers of this ability can be trained from myconians Sem and Mope, for now.)
+:- Fixed a bug that caused treasure effects not to work. These effects were ones that were triggered by the state of the target (such as "if target is not Elite").
+:- Updated some [[Povus]] favors to require proper quantity of items. They previously only required half of the items crafted.
+:- Sped up several humanoid animations.
+:- Anatomy-Based Critical Hit Chance % attributes now display as percentages instead of decimals.
+:- All Bladesmithing weapon recipes now require you to be near a forge.
+:- Added a ladder to the Serbule Hills watchtower and sprinkle some items on its balconies.
+:- Fixed a bug that broke movement completely if you tried to climb a ladder while already climbing it.
+:- Saddlebags are now accessible in guild halls.
+:- Fixed bug preventing moon phase from affecting genetics mutation chance.
+:- Player bats can be clicked on again.
+:- Fixed inverted permission for picking up others' items in guild halls.
+:- You now get a stable slot at Racing 50 instead of 60.
+:- Fixed graphical glitch with horse manes when teleporting within a zone.
+:- Closed ceiling hole in deep Povus Caves.
+:- Update [[Joeh]]'s store.
+:- Update [[Marna]]'s Front-of-House.
+:- New JSON file: abilitykeywords.json lists Attributes that apply to any Abilities that have a certain keyword. These have been broken out into separate listings to better reflect that abilities can dynamically add or remove keywords (e.g. when a Melee attack becomes a Burst attack due to an equipped piece of treasure).
+:- VIPs, don't forget to claim your more-or-less-monthly gifts from the Persona panel! The November gift will become available on November 1.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

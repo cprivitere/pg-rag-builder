@@ -1,0 +1,12 @@
+__NOTOC__
+{{Ability infobox
+| name = Field Prophylactic
+| description = Use an Astounding First Aid Kit (or better) to prepare someone for entering a hazardous medical environment.
+| level = 80
+| power cost = 64
+| reuse time = 900
+| range = 5 meters
+| skill = First Aid
+| special = For 60 minutes, target gains +5 Trauma Mitigation, +5 Psychic Mitigation, and +5 Poison Mitigation.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

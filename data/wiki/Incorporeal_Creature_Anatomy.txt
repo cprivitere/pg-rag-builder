@@ -1,0 +1,45 @@
+__NOTOC__
+{{Skill infobox
+|title            = Incorporeal Creature Anatomy
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the physiology of incorporeal creatures, such as ghosts and shadow illusions.
+|skilltype        = Anatomy Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy<!-- Any other skills needed to gain this skill -->
+|skilltrainers    = None
+}}
+{{Quote|source=Source|
+Needs a quote
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Incorporeal Creature Anatomy''' is a sub-skill of [[Anatomy]] that explores the physiology of incorporeal creatures, such as ghosts and shadow illusions.
+=== In-Game Description ===
+Knowledge of the physiology of incorporeal creatures, such as ghosts and shadow illusions.
+==Known Creatures==
+
+===Friends===
+<dpl>
+ category = Incorporeal Creature&NPCs
+</dpl>
+
+===Bosses===
+<dpl>
+ category = Incorporeal Creature&Bosses
+ notcategory = NPCs
+</dpl>
+
+===Foes===
+<!-- the DPL lists creatures which already have a page and are categorized. -->
+<dpl>
+ category    = Incorporeal Creature
+ notcategory = Bosses
+ notcategory = NPCs
+</dpl>
+<!-- here we can manually add any creatures to keep track of missing/todo pages -->
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+[[Category:Skills]][[Category:Anatomy Skills]]

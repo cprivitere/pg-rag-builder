@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Squidlips]] in [[Sun Vale]] said, "The ocean perch tend to stay away from this area. They know I'll catch 'em! But I don't really want to get up right now. Sitting on the beach just relaxing feels so good. Anyway, can you bring me a passel of perch? The freshest ones are the ones you catch yourself!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Squidlips]]''' in '''[[Sun Vale]]'''. 
+
+===Preface===
+{{Quote|The ocean perch tend to stay away from this area. They know I'll catch 'em! But I don't really want to get up right now. Sitting on the beach just relaxing feels so good. Anyway, can you bring me a passel of perch? The freshest ones are the ones you catch yourself!}}
+
+===Requirements===
+* Catch Tasty Ocean {{Item|Perch}} x5
+* Talk to [[Squidlips]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Oh, these are good looking fish. Thank you!}}
+* 50 {{Favor|favor}}
+* 250 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Squidlips]]

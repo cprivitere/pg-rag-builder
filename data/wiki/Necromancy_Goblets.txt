@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Glajur, a goblin you met under a tower in Kur Mountains, asked you to bring him some of the odd goblets lying about the dungeon.
+
+===Prerequisites===
+To start this quest, talk to '''[[Glajur]]''' in '''[[Kur Tower]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I noticed something weird: there are a bunch of magical goblets lying around down here. They have necromantic magic, but I don't know what they do. If you find any of them, could you let me have them?}}
+
+===Requirements===
+* Obtain {{Item|Necromancer's Goblet}} x5
+* Talk to Glajur
+
+===Rewards===
+{{Spoiler|Rewards for Necromancy Goblets|
+{{Quote|Hmm, they're warm! What was that old mnemonic we learned in school? "Hatred is Hot, Despair is Cold, Fear is Tingly, Greed is  Slimy". <i>(It rhymes in Goblin, but not in Common.)</i> I guess... I guess I don't really know enough about Necromancy to tell what these do. But I'll study them. Thanks! Here, take some money for your trouble.}}
+
+* 150 {{Favor|favor}}
+* 1000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Glajur]]

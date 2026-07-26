@@ -1,0 +1,96 @@
+__NOTOC__
+{{Skill infobox
+|title            = Battle Chemistry
+|image            =[[File:DyeMonster.png|300px]]
+|caption          = Using alchemical concoctions in the heat of battle. Not for the faint of heart, or the particularly sane, this combat style specializes in area-effects of all types. Advanced practitioners can also ingest their formulae directly to take on new combat personalities. Masters can even create homonculi to serve them in battle.
+|skilltype        = Combat Skill
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              = Alchemy 50
+|skilltrainers    = [[Durmok Orebinder]], [[Mox Warcut]], [[Bendith the Banished]]
+|gem = {{Item|Citrine}}
+}}
+{{Quote|
+Please check [[Game updates/2023-08-10]] for recent updates to the [[Battle Chemistry]] skill which may not be on this page yet!
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Battle Chemistry''' (often abbreviated "'''BC'''") is a combat skill usable only by well-practiced [[Alchemy|Alchemists]]. '''Battle Chemistry''' is known for its solid aoe damage utilizing a wide variety of element types, as well as its utility abilities and programmable [[Golem Abilities|golem summons]].
+=== In-Game Description ===
+Using alchemical concoctions in the heat of battle. Not for the faint of heart, or the particularly sane, this combat style specializes in area-effects of all types. Advanced practitioners can also ingest their formulae directly to take on new combat personalities. Masters can even create homonculi to serve them in battle.
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Durmok Orebinder]] will teach you [[Battle Chemistry]] if you have at least level 50 [[Alchemy]] (this training used to be free--it now costs 10000 councils).  He will also teach you most abilities up to level 50.
+* [[Mox Warcut]], an NPC in [[Gazluk]], will raise the Skill Cap to 60 and to 70.
+* [[Bendith the Banished]] in the [[Fae Realm]] unlocks 71-80.
+* [[Zealo]] can teach the "Extra Heart" mutation and "Healing Injection".
+* Levels 81-90 are unlocked by [[Reinath]] deep beneath [[Povus]] or [[Strom Farblood]] in [[Statehelm]].
+* Levels 91-100 are unlocked by [[Strom Farblood]].
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Alchemy]] - Without Alchemy, Battle Chemists would be unable to create their explosive concoctions and mutagenic injections.
+===== Synergy Levels =====
+Bonus [[Synergy Levels]] for [[Battle Chemistry]] can be obtained from the following skills and levels:
+:; [[Alchemy]]
+:: Level 25, Level 45, and Level 70
+:; [[Candle Making]]
+:: Level 60
+:; [[Cooking]]
+:: Level 55
+:; [[Gadgeteering]]
+:: Level 50
+:; [[Iocaine Resistance]]
+:: Level 30
+:; [[Mycology]]
+:: Level 30, and Level 80
+:; [[Sigil Scripting]]
+:: Level 25
+:; [[Pathology]]
+:: Level 30
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Weapons ===
+[[Battle Chemistry]] users have access to two categories of weapons. Chemistry Beakers can be held in the main-hand, while Chemistry Flasks are used in the offhand.
+==== Main-hand Chemistry Beakers ====
+<dpl>
+  category   = Items/ChemistryBeaker
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+==== Off-hand Chemistry Flasks ====
+<dpl>
+  category   = Items/ChemistryFlask
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+===Equipment===
+* {{Item|Belt of The Alchemist}} ('''Battle Chemistry''', Mentalism)
+* {{Item|Belt of The Support Archer}} ('''Battle Chemistry''', Archery)
+* {{Item|Belt of The Master Exploder}} (Fire Magic, '''Battle Chemistry''')
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Battle Chemistry Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Battle Chemistry|
+{{:Xptables/TypicalCombatSkill}}
+}}
+== Trivia ==
+Out of the original combat skills, Battle Chemistry was the last to receive a level cap beyond 50!
+
+When applying the buffs from Battle Chemistry on another person, if you switch skills, log out, or switch zones the buff will go away.
+If the other person logs out or switches zones they will also lose the buff.
+
+Battle Chemistry golems used to despawn upon entering [[Riding]] mode. This was fixed April 21, 2026. 
+[[Category:Skills]][[Category:Combat Skills]]

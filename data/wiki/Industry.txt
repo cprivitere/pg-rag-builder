@@ -1,0 +1,83 @@
+__NOTOC__
+{{Skill infobox
+|title            = Industry
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Competence in completing tasks to specification. Highly industrious workers can juggle more tasks at once, and earn slightly higher rewards for their hard work.
+|skilltype        = Other Skill
+|maxlevel         = 90
+|req              = N/A
+|skilltrainers    = [[Sheyna]]
+}}
+{{Quote|
+Competence in completing tasks to specification. Highly industrious workers can juggle more tasks at once, and earn slightly higher rewards for their hard work.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Industry]] is a skill leveled by completing crafting or collection tasks for the Work Order system. Across Alharth, merchants post [[Work Orders]] for explorers and crafters to complete. 
+=== In-Game Description ===
+Competence in completing tasks to specification. Highly industrious workers can juggle more tasks at once, and earn slightly higher rewards for their hard work.
+=== Training {{msg:BASEPAGENAME}} ===
+Training [[Industry]] primarily occurs when NPC [[Work Orders]] are completed. 
+* [[Decoction of Industry Knowledge]] is a consumable, granting +250 Industry XP. {{Hint|Sold by Qatik in Red Wing Casino.}}
+* [[Sheyna]] in [[Rahu]] offers the unlocks of levels 51-60 and 61-70.
+* [[Tryaka]] in [[Povus]] offers the unlock of levels 71-80. (Note: Povus town's level must be 8+ for Tryaka to arrive).
+* [[Korbok]] in [[Vidaria]] offers the unlock of levels 81-90.
+
+Work Orders can be obtained from:
+* Interacting with a Work Order board in a town.
+* Receiving a Work Order scroll in monster loot or in a dungeon.
+* Buying a Work Order from an NPC's Buy Used tab. {{Hint|Players often sell unwanted work orders to NPCs like Hulon and Velkort.}}
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* N/A
+===== Secondary Skills: =====
+* [[Retail Management]] - Having 25 levels of [[Industry]] allows a reduced purchase price of the [[Retail Management]] skill from [[Selphie]].
+===== Related Skills: =====
+* [[Cooking]] (including [[Sushi Preparation]] and [[Ice Conjuration]]), [[Tailoring]], [[Textile Creation]], [[Alchemy]], [[Leatherworking]], [[Tanning]], [[Toolcrafting]], [[Mining]], [[Cheesemaking]], [[Dye Making]], [[Fletching]], [[Brewing]], [[Blacksmithing]], [[Gardening]], [[Flower Arrangement]], [[Jewelry Crafting]], and [[Carpentry]] all are skills that produce goods desired for Work Orders.
+
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Industry]] can be obtained from the following skills and levels:
+:; [[Retail Management]]
+:: Level 15, Level 30, Level 45
+== {{msg:BASEPAGENAME}} Mechanics ==
+===Work Order System===
+====What is a Work Order====
+[[Work Orders]] are scroll items that ask for a certain number of items to be delivered to a specific NPC. In return for turning in those items the player will receive the price that was indicated on the Work Order.
+
+Once a player has learned (or even completed) a certain Work Order for an item, other identical Work Orders will be shown with a green text to indicate that the player has 'already memorized' that Work Order. After one month the 'memorized' status will be reset for the work order;  The player can then once again learn the Work Order and turn in the required items.
+
+Many players will begin by completing Work Orders in [[Serbule]] before moving to other zones. Work Orders in higher level zones request items that require higher levels of crafting skills to complete, but also offer a higher reward. The completion of high level Work Orders is a common way to earn many Councils. As [[Industry]] is leveled, the maximum number of active Work Orders a character can claim is increased (up to 13).
+
+====How are Player Work Orders different from NPC Work Orders====
+While most towns have a sign offering NPC Work Orders, Player Work Order signs can sometimes be found nearby. Player Work Orders do not give experience towards leveling [[Industry]], and must be completed while interacting with the sign. Player Work Orders cannot be bought, sold, dropped, or traded.
+
+At the Player Work Order sign, a character can:
+* Create a new Work Order (choose the desired item, specify the number requested and set the price).
+* browse the posted Player Work orders.
+* Fill a Work Order (if the required items are held in inventory).
+=== Obtaining Work Orders ===
+==== Work Order Types ====
+* [[Serbule]] : Items obtained through Alchemy, Blacksmithing, Carpentry, Cooking, Fishing, Fletching, Foraging, Leatheworking, Surveying, and monster trophies obtained as loot.
+* [[Eltibule]] : Items obtained through Blacksmithing, Cheesemaking, Dye Making, Gardening, Fletching, Textile Creation, Leatherworking, Skinning, Surveying, Blacksmithing and monster trophies obtained as loot.
+* [[Sun Vale]] : Items obtained through Alchemy, Blacksmithing, Carpentry, Surveying, and Toolcrafting
+* [[Kur Mountains]] : Items obtained through Cooking
+* [[Ilmari]] : Items obtained through Leatherworking, Tailoring and Toolcrafting (snail gear)
+* [[Rahu]] : Items obtained through Blacksmithing (werewolf gear), Carpentry, Cooking, Flower Arrangement, Surveying, Tailoring, Toolcrafting, Leatherworking, Monster Trophies
+* [[Gazluk]] : There is no work order board in Gazluk.
+* [[Red Wing Casino]] : Items obtained through Alchemy (boost potions), Brewing, Carpentry, Cooking, Dye making, Mining, Tailoring, Monster Trophies. 
+* [[Fae Realm]] : Items obtained through Cooking, Sushi Preparation, Ice Conjuration, Cheesemaking, Gardening, Fletching, Carpentry, Jewelry Crafting, Blacksmithing, and monster trophies obtained as loot.
+* [[Vidaria]] : Items obtained through Flower Arrangement,???, and various item orders (Ultra Lac, Spruce Wood). 
+
+{{:{{msg:BASEPAGENAME}}/Work Orders}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Industry Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Industry|
+{{:Xptables/Industry}} 
+}}
+== Trivia ==
+This still was added on added September 15, 2015, but Player Work Orders were not introduced until June 2016.
+
+[[Category:Skills]]

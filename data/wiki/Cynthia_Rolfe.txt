@@ -1,0 +1,285 @@
+__NOTOC__
+{{NPC infobox
+|title            = Cynthia Rolfe
+|image            = [[File:Cynthia Rolfe (npc).png|300px]]
+|caption          = A scruffy, no-nonsense woman with a piercing glare.
+|zone             = Statehelm
+|town = Statehelm
+|location         = Goblin's Armpit
+|anatomy = Human
+|species = Human
+|beastspeak       = ?
+|skilltrainer     = [[Psychology]], [[Alchemy]]
+|storage = Yes
+}}
+{{Quote|source=[[Cynthia Rolfe]]|I'm not really the talkin' kind of bartender.}}
+[[Cynthia Rolfe]] is a human who lives on the outskirts of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Cynthia Rolfe]] is usually found behind the Goblin's Armpit bar counter.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards ===
+[[Cynthia Rolfe]] rewards her friends with additional training options.
+
+=== Hang Outs ===
+<!--
+{{Spoiler|Explore new mind-altering compounds(4h)|
+{{Quote|
+Echur said, "That one was too hallucinogenic for me. I prefer ones that focus the mind, not distract it. You keep the rest."
+}}
+:35 favor with [[Echur]]
+:25 [[Mycology]] XP
+:4 x {{Item|Blusher Mushroom}}
+}}
+-->
+== Quests ==
+[[Cynthia Rolfe]] has a roach problem.
+<dpl>
+category = Quests/Cynthia Rolfe
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Psychology]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Psychology{{pipe}}Unlock Psychology Skill Levels 81-90
+ |skilllevel = 80
+ |cost=? or 242 SR
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Psychology{{pipe}}Unlock Psychology Skill Levels 91-100
+ |skilllevel = 90
+ |cost=? or 404 SR
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Psychology{{pipe}}Unlock Psychology Prodigy Potential
+ |skilllevel = 100
+ |cost=? or 121 SR
+ |favor=?
+}}
+{{NPC training row
+ |ability=Psychoanalyze 8 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Psychoanalyze 9 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Tell Me About Your Mother 7 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Tell Me About Your Mother 8 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Tell Me About Your Mother 9 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Strike a Nerve 8 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Strike a Nerve 9 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Cause Terror 5 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Pep Talk 9 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Pep Talk 10 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Fast Talk 6 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Ridicule 7 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Soothe 8 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Soothe 9 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Positive Attitude 7 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Inspire Confidence 6 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=You Were Adopted 7 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=You Were Adopted 8 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=But I Love You 4 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Mock 11 
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Mock 12
+ |skilllevel= ?
+ |cost= ?
+ |favor= ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe =Vilified Cranium Powder
+ |skilllevel= ?
+ |cost= ?
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe =Gurtiv's Mind Lozenge
+ |skilllevel= ?
+ |cost= ?
+ |favor= Comfortable
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Druid]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Seagull Form
+ |skilllevel= ?
+ |cost= 199
+ |favor= Close Friends
+}}
+|}
+
+== Services ==
+==== [[Storage]] ====
+[[Cynthia Rolfe]] offers storage to anyone who solves her roach problem.
+{{NPC STORAGE
+|npcname = Cynthia Rolfe
+|favorrestriction =Despised
+|itemrestriction =Anything
+|neutral =12
+|comfortable =24
+|friends = 36
+|closefriends = 48
+|bestfriends = 70
+|likefamily = 72
+|soulmates = 90
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+
+== Conversations ==
+{{Quote|source=[[Cynthia Rolfe]]|
+Well, well... you lost, or just looking for trouble?
+
+'''What kind of place is this?'''
+
+This is The Goblin's Armpit, the finest dump in all of Statehelm. If you're here for a fancy cocktail, you're in the wrong place.
+
+'''I like the atmosphere.'''
+:Hahaha! Atmosphere, eh? If you like the smell of vomit and bad decisions, then welcome.
+:'''I'll drink to that!'''
+
+'''Why such a rough name for the place?'''
+:Because it's honest. This place ain't for nobles or scholars. It's for people who don't fit anywhere else.
+:'''Fair enough.'''
+
+'''I heard rumors about a... Thieves' Guild?'''
+
+Hah! And who told you that load of troll dung? Guilds are for noble types, not folks like me.
+
+:'''So you deny any connection?'''
+:I don't owe you any explanation. But if you keep your nose clean and your mouth shut, maybe you'll fit in around here.
+:'''Understood.'''
+
+'''Just looking around, thanks.'''}}
+{{Quote|source=[[Cynthia Rolfe]]| Aw, fuck! There's roaches back here behind the counter now, too. Can my day get any worse!?
+
+Shit. Why did I say that? I know, I know, Remga's Rule #10.}}
+
+[[Category:NPCs]]

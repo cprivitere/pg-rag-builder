@@ -1,0 +1,225 @@
+__NOTOC__
+{{NPC infobox
+|title            = Jenny Foster
+|image            = [[File:Jenny Foster (npc).png|300px]] 
+|caption          = Friendly and quick-witted
+|zone             = Statehelm
+|town = Statehelm
+|location         =Vicious Bat
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Lycanthropy]]
+}}
+{{Quote|source=[[Jenny Foster]]| 
+This is a good city for someone who doesn't want to put down roots, necessarily. Like me. And like you, too. Am I right?}}
+[[Jenny Foster]] is a human currently living in the city of [[Statehelm]]. They work at the Vicious Bat.
+== Location ==
+; [[Statehelm]]
+: [[Jenny Foster]] can usually be found at the Vicious Bat. During a Full Moon she is found in Statehelm Sewers near the other animal form trainers.
+
+== Favor ==
+
+
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk | *Likes [[:Category:Items/WerewolfRecipe | Werewolf Skill Books]] }}
+
+=== Favor Rewards === 
+[[Jenny Foster]] rewards her friends with Lycanthropy Training, and Lycanthropy Prodigy Potential
+
+== Quests ==
+[[Jenny Foster]] does not offer quests to those with '''{{favor|Neutral}}''' favor.
+<!--
+<dpl>
+category = Quests/Jenny Foster
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Lycanthropy]]
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Lycanthropy{{pipe}}Unlock Lycanthropy Skill Levels 91-100
+ |skilllevel=90
+ |cost=420 SR or 1,008,000
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Lycanthropy{{pipe}}Unlock Lycanthropy Prodigy Potential
+ |skilllevel=100
+ |cost=126 SR or 252,000 
+ |favor=?
+}}
+{{NPC training row
+ |ability=Bite 9
+ |skilllevel=104
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Bite 10
+ |skilllevel=116
+ |cost=1 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Claw 9
+ |skilllevel=106
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Pack Attack 7
+ |skilllevel=100
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Pack Attack 8
+ |skilllevel=115
+ |cost=1 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pouncing Rake 7
+ |skilllevel=105
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Shadow Feint 7
+ |skilllevel=110
+ |cost=1 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pouncing Rend 8
+ |skilllevel=96
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Pouncing Rend 9
+ |skilllevel=106
+ |cost=0 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pouncing Rend 10
+ |skilllevel=116
+ |cost=1 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Sanguine Fangs 9
+ |skilllevel=98
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Sanguine Fangs 10
+ |skilllevel=109
+ |cost=1 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=See Red 10
+ |skilllevel=99
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=See Red 11
+ |skilllevel=109
+ |cost=1 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Smell Fear 8
+ |skilllevel=99
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Smell Fear 9
+ |skilllevel=111
+ |cost=1 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Double Claw 9
+ |skilllevel=102
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Double Claw 10
+ |skilllevel=112
+ |cost=1 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Skulk 7
+ |skilllevel=95
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Skulk 8
+ |skilllevel=105
+ |cost=0 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Skulk 9
+ |skilllevel=115
+ |cost=1 NT & 0
+ |favor=?
+}}
+{{NPC training row
+ |ability=Blood of the Pack 8
+ |skilllevel=100
+ |cost=0 NT & 0
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Blood of the Pack 9
+ |skilllevel=110
+ |cost=1 NT & 0
+ |favor=?
+}}
+|}
+
+== Services ==
+For 5 NT [[Jenny Foster]] will sell you a [[ Dog Miniaturization Talisman]] that reduces the size of your character model and allows you to speak to NPCs that will talk to animals, but not scary animals. (Only available during Full Moon)
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Jenny Foster]]|
+Can I get you something? Or maybe you're just here for the atmosphere?
+
+'''Just here for the atmosphere, thanks.'''
+
+Well, we've got plenty of that! Just don't forget to tip if you're taking up space.
+
+:'''Will do!'''
+
+'''Got any interesting news?'''
+
+I'm not the incorrigible gossip. That's Slim. I know how to keep a secret, and he doesn't!
+
+:'''Ah.'''
+
+'''Just browsing, thanks.'''
+}}
+
+[[Category:NPCs]]

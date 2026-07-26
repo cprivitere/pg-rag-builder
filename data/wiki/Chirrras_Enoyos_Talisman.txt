@@ -1,0 +1,97 @@
+__NOTOC__
+{{ITEM infobox
+|name = Chirrra's Enoyos Talisman
+|description = A squid amulet worn by those that venerate Enoyos. This one is a failed experiment by Chirrra. The enchantment has been altered in strange and seemingly-random ways.
+|basemods = {{Attribute|SWIM_SPEED_MOD|+25}}<br>{{Attribute|MAX_MAP_PIN_ICONS|+1}}<br>
+|value = 60
+|extra = {{Spoiler|
+|{{ITEM EXTRA infobox
+ | craftpoints = 100
+ | equipslot = Necklace
+ | stack = 1
+ | keywords = <p>{{KW|Amulet}}{{KW|Equipment}}{{KW|Jewelry}}{{KW|Loot}}</p><p>{{KW|Necklace}}{{KW|RacialJewelry}}</p>
+}}}}
+}}
+
+[[Chirrra's Enoyos Talisman]] comes in several variants of attributes.
+
+Examples recorded are:
+
+{|
+|{{Attribute|SWIM_SPEED_MOD|+25}}
+|{{Attribute|MAX_MAP_PIN_ICONS|+1}}
+|}
+
+{|
+|{{Attribute|ACCURACY_BOOST_PROJECTILE|+6}}
+|}
+
+{|
+|{{Attribute|MAX_METABOLISM|+27}}
+|}
+
+{|
+|{{Attribute|BOOST_SKILL_KNIFE|+6}}
+|{{Attribute|BOOST_SKILL_ICEMAGIC|+5}}
+|}
+
+== How to Obtain ==
+
+=== Producing with Recipes ===
+
+=== Obtaining through Bartering ===
+None
+
+=== Gifting ===
+
+
+=== Purchasing ===
+None
+<!-- Uncomment if item is sold anywhere.
+<dpl>
+category = Sold/Chirrra's Enoyos Talisman
+mode = unordered
+columns = 1
+includesubpages = no
+include = {NPC Infobox}:zone
+table = class="wikitable mw-collapsible mw-collapsed sortable", Vendor, Location
+</dpl>
+-->
+
+=== Drops ===
+None
+
+=== Gathering ===
+None
+
+===Quest Rewards===
+
+=== Other Ways to Obtain ===
+
+== Uses ==
+
+=== Using in Recipes ===
+
+=== Gifting ===
+
+=== Bartering Uses ===
+None
+
+=== Selling ===
+
+===Consumption===
+
+====Direct Consumption====
+None
+
+====Ability Consumption====
+
+===Quest Fulfillment===
+
+=====Work Order=====
+
+=== Other Uses ===
+
+== Lore ==
+
+[[Category:Items]]

@@ -1,0 +1,113 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gribburn
+|image            = [[File:Gribburn.jpg|300px]]
+|caption          = He seems content.
+|zone             = Eltibule
+|dungeon = Hogan's Basement
+|anatomy = Goblin
+|species = Goblin
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Ancillary-Armor Augmentation]]
+}}
+
+{{Quote|
+I'm going to stay here: free food and a bed, and nobody's trying to kill me!
+}}
+'''Gribburn''' is a [[Goblin]] who was once part of [[Malvol]]'s clan, and also a business partner with [[Nightshade]]. Fluency in [[Goblinese]] (20) is required to talk to him. When the [[Shadow Keepers]] threatened Nightshade, Gribburn decided to track down Malvol. He quite likes [[Hogan]]'s basement. At some point in the past, he lived in a lagoon near [[Sinoca]].
+
+Gribburn is skilled in distilling magical oils that can be applied to helms and shoes. 
+
+==Location==
+; [[Hogan's Basement]]
+: In the room to the left of the entrance corridor.
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Gribburn
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+; [[Ancillary-Armor Augmentation]] - Requires 25 [[Alchemy]] and [[Tailoring]]
+: Gribburn will teach you this skill once you have found him for [[Nightshade]] and returned to [[Nightshade]] to complete that quest.
+: Ancillary Armor Augmentation is one of the many [[Augmentation]] skills unlocked by completing Nightshade's favors. 
+: See [[Ancillary-Armor Augmentation]] for detailed list of the Augments available.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Ancillary-Armor Augmentation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Ancillary-Armor Augmentation{{!}}Learn Ancillary Armor Augment Brewing
+ | skilllevel = 0
+ | cost = 1000
+ | favor = Comfortable
+}}
+{{NPC training row
+ |recipe=Decompose Helm
+ |skilllevel=1
+ |cost=165
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Extract Helm Augment (Level 0-30)
+ |skilllevel=8
+ |cost=450
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Decompose Boots
+ |skilllevel=13
+ |cost=900
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Extract Boot Augment (Level 0-30)
+ |skilllevel=20
+ |cost=1132
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Extract Helm Augment (Level 31-60)
+ |skilllevel=31
+ |cost=2832
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Extract Boot Augment (Level 31-60)
+ |skilllevel=45
+ |cost=4632
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Undo Augment on Helm
+ |skilllevel=30
+ |cost=1800
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Undo Augment on Boots
+ |skilllevel=40
+ |cost=3132
+ |favor=?
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Goblin Gloves}} (Lv 50)
+|RiShin Family = {{Item|Goblin Gloves}} (Lv 50), {{Item|Coin Sack}} x3
+}} 
+== Conversations ==
+[[Category:NPCs]]

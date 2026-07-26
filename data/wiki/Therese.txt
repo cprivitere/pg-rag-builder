@@ -1,0 +1,130 @@
+__NOTOC__
+{{NPC infobox
+|title            = Therese
+|image            = [[File:Therese (npc).jpg|300px]]
+|caption          = There's a little bit of dirt on her. How un-elven!
+|zone             = Serbule
+|town = Serbule Keep
+|location         = [[Serbule Keep]]'s garden.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Gardening]], [[Cooking]], [[Alchemy]]
+|vendor           = Yes
+}}
+{{Quote|
+Everything I grow is organic: no magic used! I mean, if I knew magic that could grow veggies faster, I'd use it... but I don't, so it's a selling point!
+}}
+[[Therese]] is a gardener, and refugee from [[Dwyndarre]]. Recently, [[Therese]] decided to start growing herbs and vegetables to help feed her fellow townsfolk, and to reduce the burden on [[Ivyn]] and [[Jara]]. Unlike most Elves, [[Therese]] has no problems getting dirty, and she can often be found at the [[Serbule Keep]] garden. She maintains a stock of basic vegetable seeds for sale, as well as various types of tannin powder.
+
+[[Therese]] became friends with [[Durstin Tallow]] and [[Brianna Willer]], residents of Serbule Hills, during her travels to find other gardeners. She thinks that [[Gretchen Salas]] is a horrible person.
+== Location ==
+; [[Serbule]]
+: Serbule Keep, in the garden.
+== Shopkeeper ==
+[[Therese]] sells basic gardening supplies, tools, and tanning supplies.
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards === 
+[[Category:Favor/Favor Rewards]]
+{{Spoiler|Reward at {{Favor|Friends}}:|
+:''Recipe: Basic Fertilizer (from Bone)'' ([[Gardening]])
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}:|
+:''Recipe: Bone Meal (from any Bone)'' ([[Alchemy]])
+:Introduction to [[Brianna Willer]].
+}}
+{{Spoiler|Reward at {{Favor|Best Friends}}:|
+:''Recipe: Bone Meal (from Humanoid Skull)'' ([[Alchemy]])
+}}
+{{Spoiler|Reward at {{Favor|Like Family}}:|
+: ''Recipe: Vension Hash'' ([[Cooking]])
+}}
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Help prepare Hard Cider''' (2 hours) {{Favor|Close Friends}} - Learn [[Brewing]] first.|
+{{Quote|This is applejack! Nelson Ballard taught me how to make it. He says lots of humans love it. Try it. You like it? Well, it's an 'acquired taste.' But you'll like it if you drink enough!
+I need to let this new stuff ferment, so I don't have a lot to share right now. But since you helped me, I'll teach you the recipes I use!}}
+:20 {{Favor|favor}} with [[Therese]]
+:{{Recipe|Applejack (Un-Aged)}}
+:{{Recipe|Applejack (Drinkable Cask)}}
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Therese
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+Although [[Therese]] mainly teaches [[Gardening]] related recipes through quests and favor increases, she offers a few recipes in the traditional training tab. 
+<!-- List the abilities the NPC trains by skill. -->
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe = Apple Juice
+ |skilllevel= 10
+ |cost=0
+ |favor=
+}}
+{{NPC training row
+ |recipe = Venison Hash
+ |skilllevel= 25
+ |cost=0
+ |favor=Like Family
+}}
+|}
+<!-- List the abilities the NPC trains by skill. -->
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe = Bone Meal (from Any Bone)
+ |skilllevel= 0
+ |cost= 0
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe = Bone Meal (from Humanoid Skull)
+ |skilllevel= 0
+ |cost= 0
+ |favor= Best Friends
+}}
+|}
+<!-- List the abilities the NPC trains by skill. -->
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Gardening]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe = Basic Fertilizer (from Bone)
+ |skilllevel= 8
+ |cost= 0
+ |favor= Friends
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends =2 items which may include: {{Item|Oregano}}, {{Item|Elven Lily}}
+|RiShin Family = 2-3 items which may include: <br>{{Item|Cinnamon}}, {{Item|Orange}}, {{Item|Seaweed}},  {{Item|Muntok Peppercorns}},<br> {{Item|Elven Lily}} x5, {{Item|Ring of Burning}}, {{Item|Daisy Seeds}}, {{Item|Sugarcane Seeds}}, {{Item|Hops}}, {{Item|Oregano}}
+}}
+== Conversations ==
+
+[[Category:NPCs]]

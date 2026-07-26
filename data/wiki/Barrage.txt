@@ -1,0 +1,102 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Barrage
+| description = A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)
+| level = 3
+| power cost = 12
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|BarrageOnly}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}
+| damage = 16 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Barrage 2
+| description = A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)
+| level = 15
+| power cost = 18
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|BarrageOnly}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}
+| damage = 33 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Barrage 3
+| description = A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)
+| level = 28
+| power cost = 25
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|BarrageOnly}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}
+| damage = 57 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Barrage 4
+| description = A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)
+| level = 45
+| power cost = 33
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|BarrageOnly}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}
+| damage = 117 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Barrage 5
+| description = A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)
+| level = 58
+| power cost = 39
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|BarrageOnly}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}
+| damage = 185 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Barrage 6
+| description = A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)
+| level = 70
+| power cost = 45
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|BarrageOnly}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}
+| damage = 251 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Barrage 7
+| description = A flurry of blows that will leave an opponent briefly stunned. (Your hands must be empty.)
+| level = 83
+| power cost = 52
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Barrage}}{{KWAB|Melee}}{{KWAB|BarrageOnly}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}
+| damage = 332 Crushing
+| special = Stuns opponent.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

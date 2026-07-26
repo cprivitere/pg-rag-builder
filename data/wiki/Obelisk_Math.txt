@@ -1,0 +1,48 @@
+__NOTOC__
+==Summary==
+Elmetaph thinks he can change your bind location to be 'somewhere' off of this island, which would let you teleport out of here. But he needs to do some calculations first. Get the info he needs by finding four obelisks on the island.
+
+==Prerequisites==
+To start this quest, talk to '''[[Elmetaph]]''' in the lighthouse on '''[[Anagoge Island]]'''.  You must have completed [[Find an Amethyst (part 2)]] before you can begin this quest.
+
+==Preface==
+{{Quote|
+I'll need to do some math to compensate for ley line fluctuation. Fortunately there are some old obelisks that were once used for this very thing, back when the Council was teleporting students here every week. Hopefully they still work!
+
+Find the four obelisks and write down their info. Then bring it to me.
+
+;Four obelisks. Right.
+}}
+
+==Requirements==
+* Visit 4 Obelisks
+* Talk to [[Elmetaph]]
+
+==Rewards==
+{{Spoiler|Reward for this quest|
+{{Quote|
+Have you got the numbers from the obelisks?
+
+;Yes, I have the numbers.
+
+Okay, what's the complete obelisk teleport coordinate?
+
+;6918
+
+Okay, great. I think that's all I need!
+
+Wait. Are you 100% sure you have the correct teleport coordinate? If not, you could end up in a very bad place...
+
+;I'm confident that 6918 is the right coordinate. Do it!
+
+[ Binding Teleport Location... ]
+
+It's done. Now you really should be going. I need to nap. Good luck, [ mangled player name ]!
+
+(Continues on with "special someone" dialogue)
+}}
+
+Your teleport location is now bound to the new coordinates.
+}}
+
+[[Category:Quests]][[Category:Quests/Elmetaph]][[Category:Quests/Anagoge Island Quests]]

@@ -1,0 +1,112 @@
+__NOTOC__
+{{Skill infobox
+|title            = Carpentry
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Preparing and treating lumber, and making things out of wood.
+|skilltype        = Trade Skill
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              = N/A <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Jara]], [[The Wombat]], [[Amutasa]] <!-- List skill trainers, 3 max -->
+|gem = {{Item|Maximized Obsidian}}
+}}
+{{Quote|
+Preparing and treating lumber, and making things out of wood.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Carpentry]] is the skill of wood working, it is used to craft chairs, some weapons, and food accessories.
+
+If you plan on gathering wood yourself, you'll need to buy a [[Handsaw]] from a vendor such as [[Therese]] in [[Serbule]] town. Alternatively, players of a high level may encounter a [[Cutting Blade Necklace]], an amulet slot item that also works as a handsaw.
+
+'''Note:''' Under no circumstances can any regular animal beast-form gather wood from regular tree-falls, not even with the [[Cutting Blade Necklace]]. Birds can, but only if they are humanoid under the [[Druid]] illusion. For animals, the only options are to use alternate humanoid characters to gather wood, buy it from players, break it down from [[Treant Wood]] loot, or barter with [[Gretchen Salas]]. Alternatively, you might find it in NPC Used Item tabs or you can try posting player work orders.
+
+=== In-Game Description ===
+Preparing and treating lumber, and making things out of wood.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Jara]] in [[Serbule]] will teach [[Carpentry]] to those who help her with a [[Kill Bear in There|bear problem]]. She teaches most basic recipes for Carpentry.
+* [[Lawara]] on [[Anagoge]] gives [[Carpentry]] XP when the hangout ''Help carve marionettes'' is completed.
+* [[Paul Vaughn]] in [[Serbule Hills]] teaches basic calligraphy bench recipes and a few other recipes.
+* [[The Wombat]] in [[Sun Vale]] can teach several recipes. Wooden Melee Staffs, Combat Staffs, and Wooden shoes for Cows and Deer can be learned from him.
+* [[Lamashu]] in the  [[Kur Mountains]] teaches recipes for Storage Crates. She also teaches the combat abilities in the Stake the Heart set.
+* [[Ufkar]] in [[Rahu]] teaches the recipes for [[Battle Chemistry]] staves.
+* [[Amutasa]], a toolmaker in [[Rahu]], can raise the skill cap for [[Carpentry]] from 51-60 and 61-70.
+* [[Solgribue]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Toolcrafting]] - Toolcrafting requires Level 20 [[Carpentry]].
+===== Related Skills: =====
+* [[Blacksmithing]] - Some [[Carpentry]] recipes require materials that can be crafted by [[Blacksmithing|Blacksmiths]].
+* [[Fletching]] - A successful Fletcher will find themselves needing many materials crafted by [[Carpentry]].
+* [[Foraging]] - A Carpenter needs a source of wood, and [[Foraging]] allows wood to be gathered.
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Carpentry]] can be obtained from the following skills and levels:
+:; [[Blacksmithing]]
+:: Level 45
+:; [[Bowyery]]
+:: Level 80
+:; [[Druid]]
+:: Level 85
+:; [[Fletching]]
+:: Level 25, Level 50
+:; [[Hammer]]
+:: Level 11, Level 41
+:; [[Holistic Wellness]]
+:: Level 44
+:; [[Industry]]
+:: Level 10
+:; [[Nature Appreciation]]
+:: Level 73
+:; [[Plant Anatomy]]
+:: Level 10, Level 50
+:; [[Shamanic Infusion]]
+:: Level 56
+:; [[Sigil Scripting]]
+:: Level 20
+:; [[Staff]]
+:: Level 80
+:; [[Toolcrafting]]
+:: Level 30, Level 85
+:; [[Whittling]]
+:: Level 45, Level 70
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== Recipe Lists ==
+<!-- Transcluding recipes table here, so it"s easier to update -->
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+== {{msg:BASEPAGENAME}} Mechanics ==
+<!--
+=== Mechanic 1===
+Doing la-di-dah allows for this and that.
+-->
+=== Equipment ===
+{| {{STDT}}
+! Tool !! Description
+|-
+| style="white-space:nowrap;"| {{Item|Handsaw}} || Handsaws are used to gather wood. (Keep it in your inventory and you'll be given the option to harvest logs and some trees.)
+|-
+| style="white-space:nowrap;"| {{Item|Cutting Blade Necklace}} || A Cutting Blade Necklace is an alternative to a Handsaw.
+|}
+
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill}}
+}}
+
+== Trivia ==
+* Before June 2017, all wood was gathered from logs scattered around each zone.
+<!--
+== Gallery==
+''' Include a small gallery of carpentry items
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+</gallery>
+-->
+[[Category:Skills]]

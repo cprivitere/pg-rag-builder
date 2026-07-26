@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Flia has asked for a pair of antlers.
+
+===Prerequisites===
+To start this quest, talk to '''[[Flia]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I have a deer friend who lost his antlers in a fight. He's very traumatized about it, even though I explained that they'd grow back. Can you get me a pair of replacement antlers?}}
+
+===Requirements===
+* Obtain {{Item|Antler}}s x2
+* Talk to Flia
+
+===Rewards===
+{{Spoiler|Rewards for New Spiky Headgear|
+{{Quote|Thanks. I hope you didn't have to kill too many deer for these! But I'm glad you understand that sometimes deer have to die for inexplicable reasons. That's part of nature's way.}}
+
+* 100 {{Favor|favor}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Flia]]

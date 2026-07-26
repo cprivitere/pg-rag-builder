@@ -1,0 +1,121 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Ice Spear
+| description = Launch a freezing chunk of ice at an enemy.
+| level = 2
+| power cost = 19
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceSpear}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|IceMagicSingleTarget}}
+| damage = 14 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Spear 2
+| description = Launch a freezing chunk of ice at an enemy.
+| level = 10
+| power cost = 23
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceSpear}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|IceMagicSingleTarget}}
+| damage = 33 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Spear 3
+| description = Launch a freezing chunk of ice at an enemy.
+| level = 20
+| power cost = 27
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceSpear}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|IceMagicSingleTarget}}
+| damage = 55 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Spear 4
+| description = Launch a freezing chunk of ice at an enemy.
+| level = 30
+| power cost = 32
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceSpear}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|IceMagicSingleTarget}}
+| damage = 83 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Spear 5
+| description = Launch a freezing chunk of ice at an enemy.
+| level = 40
+| power cost = 36
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceSpear}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|IceMagicSingleTarget}}
+| damage = 117 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Spear 6
+| description = Launch a freezing chunk of ice at an enemy.
+| level = 50
+| power cost = 37
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceSpear}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|IceMagicSingleTarget}}
+| damage = 176 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Spear 7
+| description = Launch a freezing chunk of ice at an enemy.
+| level = 60
+| power cost = 40
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceSpear}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|IceMagicSingleTarget}}
+| damage = 237 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Spear 8
+| description = Launch a freezing chunk of ice at an enemy.
+| level = 70
+| power cost = 45
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceSpear}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|IceMagicSingleTarget}}
+| damage = 301 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Spear 9
+| description = Launch a freezing chunk of ice at an enemy.
+| level = 80
+| power cost = 49
+| reuse time = 8
+| range = 30 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceSpear}}{{KWAB|Ranged}}{{KWAB|CoreAttack}}{{KWAB|IceMagicSingleTarget}}
+| damage = 375 Cold
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,130 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Pixie Flare
+| description = Electrify the space where an enemy is standing.
+| level = 4
+| power cost = 15
+| reuse time = 12
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PixieFlare}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 14 Electricity
+| special = Restores 0 Health to yourself.
+}}
+|-
+|
+{{Ability infobox
+| name = Pixie Flare 2
+| description = Electrify the space where an enemy is standing.
+| level = 14
+| power cost = 21
+| reuse time = 12
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PixieFlare}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 37 Electricity
+| special = Restores 0 Health to yourself.
+}}
+|-
+|
+{{Ability infobox
+| name = Pixie Flare 3
+| description = Electrify the space where an enemy is standing.
+| level = 24
+| power cost = 26
+| reuse time = 12
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PixieFlare}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 64 Electricity
+| special = Restores 0 Health to yourself.
+}}
+|-
+|
+{{Ability infobox
+| name = Pixie Flare 4
+| description = Electrify the space where an enemy is standing.
+| level = 34
+| power cost = 32
+| reuse time = 12
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PixieFlare}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 99 Electricity
+| special = Restores 0 Health to yourself.
+}}
+|-
+|
+{{Ability infobox
+| name = Pixie Flare 5
+| description = Electrify the space where an enemy is standing.
+| level = 44
+| power cost = 36
+| reuse time = 12
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PixieFlare}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 154 Electricity
+| special = Restores 0 Health to yourself.
+}}
+|-
+|
+{{Ability infobox
+| name = Pixie Flare 6
+| description = Electrify the space where an enemy is standing.
+| level = 54
+| power cost = 41
+| reuse time = 12
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PixieFlare}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 228 Electricity
+| special = Restores 0 Health to yourself.
+}}
+|-
+|
+{{Ability infobox
+| name = Pixie Flare 7
+| description = Electrify the space where an enemy is standing.
+| level = 64
+| power cost = 45
+| reuse time = 12
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PixieFlare}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 300 Electricity
+| special = Restores 0 Health to yourself.
+}}
+|-
+|
+{{Ability infobox
+| name = Pixie Flare 8
+| description = Electrify the space where an enemy is standing.
+| level = 74
+| power cost = 50
+| reuse time = 12
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PixieFlare}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 382 Electricity
+| special = Restores 0 Health to yourself.
+}}
+|-
+|
+{{Ability infobox
+| name = Pixie Flare 9
+| description = Electrify the space where an enemy is standing.
+| level = 84
+| power cost = 56
+| reuse time = 12
+| range = 20 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PixieFlare}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 470 Electricity
+| special = Restores 0 Health to yourself.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

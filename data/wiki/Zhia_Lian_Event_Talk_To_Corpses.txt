@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> One of the most amusing things a necromancer can do is talk to corpses. Go try it! I think there's someone in nearby Eltibule that can teach you. Look for a goblin that doesn't attack on sight -- that'll be him.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> One of the most amusing things a necromancer can do is talk to corpses. Go try it! I think there's someone in nearby Eltibule that can teach you. Look for a goblin that doesn't attack on sight -- that'll be him.
+
+===Requirements===
+* Talk To Corpses x3
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> On second thought, corpses are boring conversationalists. They never have anything new to say; they just talk about their lives and how they died and blah blah blah. Let's move on.}}
+* 3500 councils
+* {{Item|Arm Bones}} x2
+* {{Item|Femur}} x2
+* {{Item|Astonishing Human Skull}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

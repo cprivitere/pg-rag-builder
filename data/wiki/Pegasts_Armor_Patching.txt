@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Pegast]] in the [[Fae Realm]] said, "I'll teach you Armor Patching if you bring me the dust of Powdered Mammals from the Nibbling Sprouts to the west."
+
+===Prerequisites===
+To start this quest, talk to '''[[Pegast]]''' in '''[[Fae Realm]]'''. '''This quest is only available to Fae.''' 
+
+===Preface===
+I'll teach you Armor Patching if you bring me the dust of Powdered Mammals from the [[Nibbling Sprout|Nibbling Sprouts]] to the west.
+
+===Requirements===
+* Obtain either [[Strange Dirt]] x3 or [[Powdered Mammal]] x3. Your quest may vary.
+
+* Talk to [[Pegast]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Good. Here, take this... yes, and this too. Now here, you can pop this dent out like this. And then some cleaning and polishing... The muscles remember!}}
+* 25 {{Favor|favor}}
+* [[Armor Patching]] raised to Level 10.
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Pegast]][[Category:Quests/Fae Quests]]

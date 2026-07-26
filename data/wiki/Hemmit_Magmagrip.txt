@@ -1,0 +1,249 @@
+__NOTOC__
+{{NPC infobox
+|title            = Hemmit Magmagrip
+|image            = [[File:Hemmit Magmagrip.png|300px]]
+|caption          = Seems friendly enough.
+|zone             = Gazluk
+|town = New Prestonbule Cave
+|location = Left, by of mushroom circle.
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Mushroom Farming]], [[Mycology]], [[Carpentry]]
+}}
+{{Quote|A new face in the cave, eh? Say... are you a big fan of caves?}}
+[[Hemmit Magmagrip]] is a Dwarf member of the [[Aufghel Naturalist Society]], and traveled to [[Gazluk]] alongside [[Mox Warcut]] and [[Bellema Deftwhisper]]. Hemmit is convinced that mushroom people exist, and that they have established a secret teleportation network.
+==Location==
+; [[Gazluk]]
+: Found near the mushroom circle inside [[New Prestonbule Cave]].
+
+==Favor==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Quests ==
+<dpl>
+category = Quests/Hemmit Magmagrip
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mycology]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mycology{{pipe}}Unlock Mycology Skill Levels 51-60
+ | skilllevel= 50
+ | cost= 20,000
+ | favor= Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mycology{{pipe}}Unlock Mycology Skill Levels 61-70
+ | skilllevel= 60
+ | cost= 50,000
+ | favor= Close Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Carpentry]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+|recipe=Oak Mushroom Box Frame
+|cost=265
+|favor=Comfortable
+|skilllevel=4
+}}
+{{NPC training row
+|recipe=Maple Mushroom Box Frame
+|cost=433
+|favor=Comfortable
+|skilllevel=9
+}}
+{{NPC training row
+|recipe=Cedar Mushroom Box Frame
+|cost=933
+|favor=Comfortable
+|skilllevel=14
+}}
+{{NPC training row
+|recipe=Spruce Mushroom Box Frame
+|cost=1,100
+|favor=Comfortable
+|skilllevel=19
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mushroom Farming]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mushroom Farming{{pipe}}Learn Mushroom Farming
+ |skilllevel=60 Mycology
+ |cost=35,000
+ |favor=Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mushroom Farming{{pipe}}Unlock Mushroom Farming Levels 51-60
+ |skilllevel=50
+ |cost= 50,000
+ |favor=Like Family
+}}
+{{NPC training row
+|recipe=Practice Mushroom Box (12 Hour)
+|cost=0
+|favor=Friends
+|skilllevel=3
+}}
+{{NPC training row
+|recipe=Practice Mushroom Box (24 Hour)
+|cost=0
+|favor=Close Friends
+|skilllevel=18
+}}
+{{NPC training row
+|recipe=Practice Mushroom Box (48 Hour)
+|cost=0
+|favor=Best Friends
+|skilllevel=33
+}}
+{{NPC training row
+|recipe=Practice Mushroom Box (72 Hour)
+|cost=0
+|favor=Like Family
+|skilllevel=50
+}}
+{{NPC training row
+|recipe=Fast Mushroom Box
+|cost=1,633
+|favor=Close Friends
+|skilllevel=25
+}}
+{{NPC training row
+|recipe=Very Fast Mushroom Box
+|cost=4,633
+|favor=???
+|skilllevel=45
+}}
+{{NPC training row
+|recipe=Lucky Mushroom Box
+|cost=166
+|favor=Friends
+|skilllevel=1
+}}
+{{NPC training row
+|recipe=Lucky Mushroom Box (12 hour) 
+|cost=333
+|favor=Close Friends
+|skilllevel=6
+}}
+{{NPC training row
+|recipe=Lucky Mushroom Box (24 hour)
+|cost=1,666
+|favor=Best Friends
+|skilllevel=26
+}}
+{{NPC training row
+|recipe=Lucky Mushroom Box (48 hour)
+|cost=4,600
+|favor=Like Family
+|skilllevel=44
+}}
+{{NPC training row
+|recipe=High-Yield Mushroom Box (48 hours)
+|cost=0
+|favor=???
+|skilllevel=30
+}}
+{{NPC training row
+|recipe=Epic Crop Mushroom Box
+|cost=0
+|favor=???
+|skilllevel=25
+}}
+|}
+
+== Hang Outs ==
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Have a mushroom-joke competition (3 hours) {{Favor|Neutral}}|
+{{Quote|"Hahaha! Wait, damn it all! I laughed, but only because your joke was so awful! Mycelium museum doesn't even rhyme! Or make sense! Okay, my turn... we're both about out of material here... have I tried this one? Why did the two algae get married? They took a lichen to each other! ...nothing? Then the final score is 3 to 2, I win! No, I said that laugh didn't count!... Fine, it's a tie! Didja like the mushroom bites? Well, next time YOU make 'em, 'cuz they're a pain in the ass! Here's the recipe."}}
+:30 Favor with Hemmit Magmagrip
+:Recipe for [[Cooking|Spicy Porcini Bites]]
+}}
+{{Spoiler|Explain how mushroom circles work (8 hours)|
+:The ability to learn more mushroom-grow boxes gets unlocked (i.e. Epic Crop Mushroom Box).
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 1x Random Equip (Lv 70): {{Item|Crushing Club}}, {{Item|Lunging Staff}}
+|RiShin Family = 2x Random Equips (Lv 70): {{Item|Flask of Chills}}, {{Item|Misery Trooper Helm}}, {{Item|Misery Trooper Gauntlets}}, {{Item|Scorpiclaw Boots}}
+}}
+== Conversations ==
+{{Quote|source=[[Hemmit Magmagrip]]|
+So what brings you to the cave today? Are you in need of my mycological expertise?
+; What's up with this circle of mushrooms?
+Ah, good eye. It's a mushroom circle. I've seen several in my years, but this one's a bit special.
+; What is it special?
+Okay, this is gonna sound like a joke, but I'm not joking! Years ago when I was doing some mushroom analysis, I saw something appear in a circle like this one. It was a mushroom, bigger than me. And it could walk around! It tried to talk to me with some sort of mind magic, but I couldn't understand. But the point is, it teleported! I'm sure of it.
+; So mushroom people can teleport via these circles?
+ Yes, and there's more. ''Hemmit looks to see if others are watching.'' Mox thinks I'm insane, but I tell you, I saw one of these mushroom people in a cave near here! The locals call it [[Snowblood Shadow Cave]]. There was a mushroom circle, a bit smaller than this one, and nearby was a mushroom man.
+; Did you talk to him?
+I tried to, but all I got was a headache. So now I'm doing every test I can think of to figure out the secret of these mushrooms... no luck so far, but some of my tests will take weeks to complete. Maybe I'll unlock a new kind of travel! Hey, a dwarf can dream, right?
+
+If you head into that cave, see if you can find the mushroom man.
+; I'll let you know if I find this mushroom.
+}}
+{{Quote|source=[[Hemmit Magmagrip]]|
+So this human woman is getting married for the fourth time. The Council flunkie who's doing the marriage ceremony asks what happened to her first three husbands. "It's so tragic. My first husband ate a bowl of false agaric mushrooms and died."
+
+The flunkie says, "That's very sad! What about your second husband?"
+
+"Oh that's even sadder. He ate an iocaine mushroom and died."
+
+"That's terrible! I'm scared to even ask about your third husband..."
+
+The women says, "Oh, he fell down a mine shaft." The flunkie gasps. "How did that happen?"
+
+The woman says, "Well, he wouldn't eat the mushrooms."
+}}
+{{Quote|source=[[Hemmit Magmagrip]]|
+So this crazed human kidnaps two distinguished dwarven mycologists and says "I'm going to become famous by killing one of you! Which will it be?"
+
+The dwarves both say they have important research left to do. So the crazy human says, "Fine. You each get two minutes to explain why I shouldn't kill you." The first mycologist explains how his work on fungal taxonomy is improving the world. He goes all out, talking about medical benefits, the number of people he can save with his improved schema, everything he can think of. The crazy human stops him and says, "Okay, your time's up. Next dwarf!"
+
+The other mycologist says "Let me spend two minutes explaining why yeast genetics is an important research area..." but he was interrupted by the first mycologist who shouted "Kill me! Kill me!"
+
+Ha ha, I love that one! But the idea that dwarven society would hold mycologists in high esteem is really the punchline. On a meta-level. It's one of those laugh-instead-of-crying jokes.
+}}
+{{Quote|source=[[Hemmit Magmagrip]]|
+So this elf comes to the farmer's market and he runs up to the vegetable stand. "I need a mushroom right away!" he shouts. The dwarven farmer says "Sorry, I'm sold out. Come back next week."
+
+The elf leaves dejected, but a couple hours later he's right back. "Come on, dwarf, it's a kinky sex thing. I really gotta have a mushroom!" And the dwarf calmly explains there's no mushrooms. The elf leaves.
+
+Right about closing time the elf runs back to the stand. "PLEASE, dwarf, give me a mushroom!"
+
+The dwarf signs. "Look, elf, if you answer a couple questions for me I'll give you a mushroom. First spell 'cat,' like in 'cataclysm.'" The elf spells C-A-T.
+
+"Now spell pig, like in 'pigmentation.'" The elf spells P-I-G.
+
+"Great. Now spell fuck, like in 'mushrooms.'" The elf looks confused. "There's no 'fuck' in mushrooms."
+
+The dwarf smacks the elf with his hat and shouts "THAT'S WHAT I'VE BEEN SAYING ALL FUCKING DAY!"
+}}
+[[Category:NPCs]]

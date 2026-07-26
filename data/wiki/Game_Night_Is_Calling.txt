@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Helena Veilmoor in Hogan's Keep asked you to get some game chips. She wasn't picky about the type.
+
+===Prerequisites===
+To start this quest, talk to '''[[Helena]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|It's just so boring here! I figured maybe I could get a card game going. But I need some supplies! Can you get me some game chips? Whatever denomination doesn't matter. I just need a handful of them to get the games started!}}
+
+===Requirements===
+* Obtain Game Chips x10 ([[Green Game Chip]], [[Red Game Chip]], [[Yellow Game Chip]]; can mix)
+* Talk to Helena Veilmoor
+
+===Rewards===
+{{Spoiler|Rewards for Game Night Is Calling|
+{{Quote|Ah hahaha perfect! I'm gonna make a killing with these! Thanks! Hey, you want this dumb thing? Take it!}}
+
+* 200 {{Favor|favor}}
+* {{Item|Quality Sword}}
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Helena]]

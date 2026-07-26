@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+[[Zhao]] in [[Rahu]] said, "The tree should be topped with a large decoration. But what decoration? There were no instructions. Since this is a human celebration of Ri-Shin, the god of plants and trees, it makes sense to use a wooden decoration, no? Fetch me a large load of spruce and I'll ask Daniel Murderdark what we should make with it."
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Zhao]]''' in '''[[Rahu]]'''.
+
+===Preface===
+The tree should be topped with a large decoration. But what decoration? There were no instructions. Since this is a human celebration of Ri-Shin, the god of plants and trees, it makes sense to use a wooden decoration, no? Fetch me a large load of spruce and I'll ask Daniel Murderdark what we should make with it.
+
+===Requirements===
+* Obtain {{Item|Spruce Wood}} x4
+* Talk to [[Zhao]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you for the spruce. I have consulted with Daniel Murderdark who says that a large human skull is an appropriate tree-topper. Amutasa has agreed to sculpt one from your lumber.
+
+I have some suspicions about Daniel's truthfulness. His skeleton started to interject with a comment and Daniel shushed it. But what else can I do? This is all I have to go on. And a giant wooden skull does sound festive!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Zhao]][[Category:Quests/Ri-Shin Quests]]

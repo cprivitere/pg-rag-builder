@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+While angling in a lake in northeast Povus, you encountered a voice that asked you to remove some of the aggressive frogs from the lake. These frogs can be caught with angling at dusk, and a little while after. (7pm-8pm)
+
+===Prerequisites===
+To start this quest, angle by the lake in northeast '''[[Povus]]'''. Angling level 60 is required; the lake contains [[Rock Carp]], [[Yellow Perch]] and [[Mukklo]].
+
+===Preface===
+{{Quote|
+They come at night! The froooooggggsss! It's just too much! As a sovereign independent psychic insect lord I demand you aid my swampy kingdom. Please? The frogs come out at dusk and they leave a while after. Come on. Do a bug a favor.
+}}
+===Requirements===
+*Angle Povus Frog x5.
+===Rewards===
+{{Spoiler|Rewards for Angling: Too Many Frogs|
+{{Quote|
+You won't regret helping me! That's an order. From a sovereign insect lord. By the way, you should really use better bait. I'll show you. Then begone!}}
+* 87950 XP in [[Angling]].
+* Recipe: Expert Bait.
+* Ablity: Angling (Expert).
+* 5x [[Frog]]
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Angling Quests]]

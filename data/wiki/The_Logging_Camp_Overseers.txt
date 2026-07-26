@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+Paul Vaughn in Serbule Hills said, "The lumber camps east of here were made by humans. I helped build the fences myself! But then goblins came and ran us out, and now they're chopping our wood!
+
+Goblins have huge numbers on their side, but most goblins are stupid. To really hurt 'em, you gotta kill the overseers! Look for the mage-casting goblins in the camps, and kill 'em.
+
+And hey, if you want help with how to attack the camps, just ask me."
+
+===Prerequisites===
+To start this quest, talk to '''[[Paul Vaughn]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|The lumber camps east of here were made by humans. I helped build the fences myself! But then goblins came and ran us out, and now they're chopping our wood!
+
+Goblins have huge numbers on their side, but most goblins are stupid. To really hurt 'em, you gotta kill the overseers! Look for the mage-casting goblins in the camps, and kill 'em.
+
+And hey, if you want help with how to attack the camps, just ask me.}}
+
+===Requirements===
+* Kill Logging Camp Overseers
+* Talk to Paul Vaughn
+
+===Rewards===
+{{Spoiler|Rewards for The Logging Camp Overseers|
+{{Quote|You killed the overseers? Great job! I'm sure they'll send up some new ones soon enough, but that'll slow 'em down for a few days. If we keep it up, they'll abandon the camps out here and retreat back into Sedgewick Forest!
+
+Here's a reward for the good news you brought me.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Oak Wood}} x 5
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Paul Vaughn]]

@@ -1,0 +1,45 @@
+==Update Notes: April 3, 2025==
+This is a bug-fix update (mostly).
+
+===Sheathing/Unsheathing===
+You can now sheathe your weapons! Press the new Sheathe Weapons keybind (default: Z) to put your weapons away when they're not in use. Attacking while your weapons are sheathed will automatically unsheathe them.
+
+This new feature happened to be ready for testing, so we included it in this update. We've already spotted a couple of minor bugs, but they weren't "show stoppers" worthy of holding up the update. So we'll just fix them in the next update. Known issues:
+:- manually sheathing/unsheathing while dead causes weird state
+:- NPCs with weapons don't appear to unsheath them correctly
+
+If you spot OTHER bugs besides these two, please report them!
+===End of Steam Beta Channel for Now===
+If you participated in our brief Steam beta-channel build, thank you! We've turned off the beta channel so you will automatically download a regular game build through Steam.
+
+(And if you emailed crash reports from that beta build, thank you twice! We've added yet more debug-logging and are still looking for an issue -- see below.)
+===Loading & Memory-Usage Improvements===
+This update has new optimizations which improve loading times, especially when many users are in the same area. We've also improved the game's video-memory footprint, which indirectly helps performance.
+
+We're still trying to track down a bug, though, and could use your help! If you experience a load time that takes minutes and then see an error saying "some assets failed to load, continuing anyway", that's the bug we're trying to track down. Please hold down SHIFT on your keyboard while pressing the Quit button in the escape menu. That will bring up an Explorer window with the file <kbd>Player.log</kbd> in it. If you email that file to <kbd>eric@projectgorgon.com</kbd> I can take a look for more clues. Thanks!
+===Navigation Improvements===
+We've made more fixes to monster/pet navigation (caused by Unity's new navigation system):
+:- fixed pathing issues in many dungeons around doors, portcullises, and energy barriers
+:- Improve pathing in Serbule; bushes are now properly taken into account
+:- Improve pathing in Wolf Cave room where you have to jump across the ledges
+:- fixed pathing around invisible walls in Serbule Crypt and Goblin Dungeon
+:- Fix issue in Fae Realm with monsters getting stuck in bushes
+:- Fix pathing near the bell in Sun Vale
+===Other Fixes===
+:- Fix: Psychology was increasing your Max Health and Max Power even when the combat skill was not active. (All combat skills give bonuses to Max Health/Max Power as you level them up, but those bonuses are supposed to off when you're not using those combat skills.)
+:- Sidebar ability "Health Burst Glyph" required 1 Amazing Holistic Ink instead of 1 Astounding Holistic Ink as it claimed in the description
+:- added slightly more noticeable particles to a few abilities
+:- Reduce camera exposure in Fae Realm
+:- "Wasp Ice Slow" is now a Sic 'Em attack instead of a Clever Trick attack
+:- "Slashed" debuff from Slashing Strike now properly applies to target instead of caster
+:- Fix a bug causing some horses' tails to animate strangely
+:- Rename Serbule Community Chest to Serbule Dynamic Safebox in all areas of the UI
+:- fix errors in XP tables. Only change notable to players is that corpse-activity skills now cost a bit more XP to raise past level 50
+:- Relaxing Arrangements & Displays are now one-time-use
+:- Fix invisible holes in Vidaria's terrain near Korbok
+:- Fix typo in Richter's scroll shelves
+:- Fix collision on Richter's cabinet
+:- Add extra help info to denote that AbilityTipsX and AbilityTipsY don't do anything unless BOTH of them are set
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

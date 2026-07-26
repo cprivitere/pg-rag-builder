@@ -1,0 +1,194 @@
+__NOTOC__
+{{NPC infobox
+|title            = Lamashu
+|image            = [[File:Lamashu.jpg|300px]]
+|caption          =
+|zone             = Kur Mountains
+|location         = By a campfire, in northern<br> part of the [[Kur Mountains]]
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = No
+|skilltrainer     = [[Carpentry]], [[Endurance]]
+|vendor           = Yes
+|storage = Yes
+|consignment = Yes
+}}
+{{Quote|
+An honest day's work!
+}}
+[[Lamashu]] is a Rakshasa merchant and [[Carpentry]] trainer found west of the northern orc camp in the [[Kur Mountains]]. She is named after a species of flying lions. Recently, Lamashu started on her Su-Falak, a Rakshasan spiritual journey to improve her skills as a carpenter. She does not talk to animals.
+== Location ==
+; [[Kur Mountains]]
+: Northwest of the northern orc camp, in the forest by a campfire.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Collect lumber (2h)|
+{{Quote|
+Are your hands as full of splinters as mine are? Wow, that's a huge splinter... you win!
+
+Hmm, I think your hand will get infected, actually. Here, let me help. ''Lamashu carefully removes your splinters.'' You have strong masculine hands. They would be sexy to some... but infections are never sexy.
+}}
+: 20 favor with [[Lamashu]]
+: {{Item|Cedar Wood}} x10
+: {{Item|Simple First Aid Kit}} x1
+}}
+{{Spoiler|Help Lamashu build a cabinet (4h)|
+{{Quote|
+That's adequate workmanship! Now I have to haul this thing all the way to town. Thanks for your help.
+}}
+: 35 favor with [[Lamashu]]
+: 500 [[Carpentry]] XP
+}}
+== Quests ==
+<dpl>
+category = Quests/Lamashu
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+[[Lamashu]] offers two unique [[Carpentry]] training abilities: Stake the Heart, which is a sidebar attack that deals bonus damage to undead, and recipes for storage crates, which allow temporary access to a storage container that is character-specific and persistent between crates. Storage crates essentially act as a temporary, deployable inventory.
+
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Carpentry]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Stake The Heart
+ |skilllevel=15
+ |cost=2755
+ |favor=
+}}
+{{NPC training row
+ |ability=Stake The Heart 2
+ |skilllevel=35
+ |cost=3871
+ |favor=
+}}
+{{NPC training row
+ |ability=Stake The Heart 3
+ |skilllevel=50
+ |cost=6264
+ |favor=
+}}
+{{NPC training row
+ |ability=Stake The Heart 4
+ |skilllevel=65
+ |cost=13006
+ |favor=
+}}
+{{NPC training row 
+ | recipe = Shoddy Storage Crate
+ | skilllevel = 20
+ | cost = 985
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Crude Storage Crate
+ | skilllevel = 30
+ | cost = 1566
+ | favor = Close Friends
+}}
+{{NPC training row 
+ | recipe = Decent Storage Crate
+ | skilllevel = 40
+ | cost = 2725
+ | favor = Best Friends
+}}
+{{NPC training row 
+ | recipe = Nice Storage Crate
+ | skilllevel = 50
+ | cost = 4176
+ | favor = Like Family
+}}
+{{NPC training row 
+ | recipe = Quality Storage Crate
+ | skilllevel = 60
+ | cost = 6786
+ | favor = 
+}}
+|}
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Endurance]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Endurance{{!}}Unlock Endurance Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20,000
+ | favor = Close Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Endurance{{!}}Unlock Endurance Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 43,500
+ | favor = Best Friends
+}}
+{{NPC training row
+ |ability=Dig Deep 6
+ |skilllevel=60
+ |cost=10179
+ |favor=
+}}
+{{NPC training row
+ |ability=Push Onward 6
+ |skilllevel=60
+ |cost=10179
+ |favor=
+}}
+{{NPC training row
+ |ability=Dig Deep 7
+ |skilllevel=70
+ |cost=14964
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Push Onward 7
+ |skilllevel=70
+ |cost=14964
+ |favor= Like Family
+}}
+|}
+
+== Services ==
+==== Consignment ====
+; Lamashu offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10% plus 50 Councils, no stocking fee. 
+: Max 3 active consignments (Equipment, carpentry items).
+: Max 5 consignments per week.
+
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Lamashu
+|favorrestriction =Comfortable
+|itemrestriction =Anything
+|neutral =0
+|comfortable =10
+|friends =15
+|closefriends =20
+|bestfriends =25
+|likefamily =30
+|soulmates =35
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Great Chair}}
+}}
+== Conversations ==
+[[Category:NPCs]]

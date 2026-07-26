@@ -1,0 +1,275 @@
+__NOTOC__
+{{NPC infobox
+|title            = Guzor Harrison
+|image            = [[File:Guzor Harrison (npc).png|300px]]
+|caption          = His flameproof robe is covered in scratches.
+|zone             = Statehelm
+|town = Statehelm
+|location         = School of Magic
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|skilltrainer = [[Fire Magic]]
+}}
+{{Quote|source=[[Guzor Harrison]]|This school is founded on Fire Magic. Never let that be in doubt.}}
+[[Guzor Harrison]] is a human living in the city of [[Statehelm]]. He runs the [[Statehelm School of Magic]].
+== Location ==
+; [[Statehelm]]
+: [[Guzor Harrison]] may be found on the second floor of the [[Statehelm School of Magic]].
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}<!-- Add an area displaying the favor categories the NPC claims to enjoy. -->
+=== Favor Rewards ===
+[[Guzor Harrison]] only offers a single preference and a conversation to those with '''{{favor|Neutral}}''' favor who are not part of the Statehelm School of Magic.
+== Quests ==
+[[Guzor Harrison]] initially offers two quests to individuals seeking acceptance to the [[Statehelm School of Magic]]. Enrolled students will be provided with three additional tasks to complete.
+<dpl>
+category = Quests/Guzor Harrison
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+[[Charred Femurs]]
+
+[[Demon Resistance Analysis]]
+
+[[Scintillated Rakshasa Skulls]]
+
+== Training ==
+[[Guzor Harrison]] offers training options to enrolled students at the [[Statehelm School of Magic]].
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fire Magic]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Charring Fireball
+ |skilllevel= 85
+ |cost=0
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Exotic Fire Wall Research Level 65
+ |skilllevel=65
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Exotic Fire Wall Research Level 75
+ |skilllevel= 75
+ |cost=6'918
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Exotic Fire Wall Research Level 85
+ |skilllevel= 85
+ |cost=51'959
+ |favor=?
+}}
+{{NPC training row
+ |ability=Scintillating Doom
+ |skilllevel= 80
+ |cost=0
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fire Magic{{pipe}}Unlock Fire Magic Skill Levels 81-90
+ |skilllevel = 80
+ |cost=242 SR or 600'000
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 85
+ |cost=?
+ |skilllevel = 85
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 90
+ |cost=?
+ |skilllevel = 90
+ |favor=?
+}}
+{{NPC training row
+ |ability=Scintillating Doom 2
+ |skilllevel= 90
+ |cost=57'600
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fire Magic{{pipe}}Unlock Fire Magic Skill Levels 91-100
+ |skilllevel = 90
+ |cost=404 SR or 1'000'000
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 95
+ |cost=428'400
+ |skilllevel = 95
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Exotic Fire Wall Research Level 95
+ |skilllevel= 95
+ |cost=63'600
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 100
+ |cost=?
+ |skilllevel = 100
+ |favor=?
+}}
+{{NPC training row
+ |ability=Scintillating Doom 3
+ |skilllevel= 100
+ |cost=69'840
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 105
+ |cost=555'600
+ |skilllevel = 100
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Exotic Fire Wall Research Level 105
+ |skilllevel= 105
+ |cost=76'680
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 110
+ |cost=?
+ |skilllevel = 100
+ |favor=?
+}}
+{{NPC training row
+ |ability=Scintillating Doom 4
+ |skilllevel= 110
+ |cost=84'120
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 115
+ |cost=721'600
+ |skilllevel = 100
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Exotic Fire Wall Research Level 115
+ |skilllevel= 115
+ |cost=92'160
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fire Magic{{pipe}}Unlock Fire Magic Prodigy Potential
+ |skilllevel= ?
+ |cost=121 SR or 300'000
+ |favor=Neutral
+}}
+|}
+
+== Services ==
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Guzor Harrison]]|
+I've learned a lot from our visiting friend [[Alzaneth]]. Elves have a complete understanding of the principles of weather magic! Of course it's largely impractical and very chaotic. But at least it's real. It's a science!
+
+I can't say the same for divination magic. As far as I can tell, it's all nonsense.}}
+{{Quote|source=[[Guzor Harrison]]|
+I'm not a fucking elf. I haven't got a hundred years for this conversation. What do you want?
+
+'''Can I ask you some questions about the college?'''
+
+You want to know about the [[Statehelm School of Magic]]? I suppose I'm obligated to answer. What don't you understand already?
+
+'''How can I enroll here?'''
+
+:I think I gave you the wrong impression. This is a very advanced school. Neophytes should go elsewhere. The [[College at Warrenbule]] takes promising new students. Or you might prefer [[Kem Taruhr Academy]]. That's an incredible dwarven school. But you'll need to be able to tolerate living underground.
+
+:'''I see.'''
+
+:'''I'm an advanced student. Is there no way to enroll here?'''
+
+:Oh, you are, are you? Why does every fucking Council Prodigy think they ca waltz in here and enroll? Oh, don't look so surprised. I'm on the [[Sub-Council on City Defense]]. We were briefed about you just recently. The Councils's watching you, you know!
+
+:As for joining the school, I suppose you could attempt it. But it's rather dangerous and also time-consuming. I'm sure there are more interesting pursuits for you in Statehelm.
+
+:'''I see. Thanks for the info.'''
+
+:'''I'm not afraid, nor easily bored. I'd like to join the college.''''
+
+:There are two requirements to join the Statehelm School of Magic. First, you'll also need to get recommendations from wizards that I trust. Here are some names. Get at least three to sign off on your competence. Oh, and don't bother trying to forge these letters. If they agree to recommend you, these good folks will know how to contact me directly.
+
+:''The following wizards can provide recommendations: [[The Sand Seer]], [[Bendith the Banished]], [[Velkort]] the Inferno, [[Ichin the Ice Master]], [[Landri the Cold]].
+
+:'''And what's the other requirement?'''
+
+:In addition to getting three recommendations, you'll also need to pass a simple trial. Scattered near the university are three statuettes. Find them, activate them, and defeat their guardians. Hopefully you can manage something as simple as that.
+
+:'''Okay. I'll get all of this done. Goodbye for now.'''
+
+'''Can you explain the school's history?'''
+
+Oh come on. I'm not a history book.
+
+Ugh. Let's see, the school was founded by [[Ilvadele Irasce]] herself. The Council mage? Hopefully you've heard of her, at least! She still has rooms and storage here. Mostly books that don't fit in her Council chambers. We allow visiting sages to read some of those texts. It's what we initially became famous for.
+
+But over the past few decades we've grown beyond that heap of old books. Not to brag, but the staff here are simply some of the best mages in the world. That's our claim to fame now.
+
+'''Can you tell me about the teachers here?'''
+
+Yes, I suppose I can speak to the credentials of my staff. Who were you inquiring about?
+
+:'''Fransesca Muradrake'''
+
+:Fransesca is perhaps the most well-respected Necromancer in the country. That is, since her husband died. Personally I think Fransesca has always been the superior schollar, but Steven was definitely the better teacher.
+
+:And speaking of that: Fransesca is expected to start teaching Ethical Necromancy classes at some time in the future, but she's still grieving her spouse. So those classes are on hold for now.
+
+:'''Strom Farblood'''
+
+:Strom hails from [[New Aufghel]], which is well-respected for its alchemists. He's an excellent teacher and we're lucky to have him. He's the ideal blend of scientist and warrior. Beyond teaching you important formulas, he can teach you how to fight with alchemy. After seeing what he's capable of, I daresay we humans taken the potential of Alchemy for granted for far too long.
+
+:'''Unora Veilmooor'''
+
+:Unora is our preeminent Ice Mage. Her decades of research have furthered the field for us all.
+
+:Her husband died recently. That makes two of my staff whose husbands have died. It was a minor scandel, as you can imagine. But Unora has been cleared of any wrong-doing... not that any of us here though she would kill her husband. She doted on that man. He was a common blacksmith, but the way she carries on about him, you'd think he was an archmage!
+
+:'''Valeria'''
+
+:Valeria isn't a teacher. She's... a scribe. She's quite good at what she does. Ilvadele Irasce personally hired her and trusts her implicitly, which is good enough for me. Ought to be good enough for you too.
+
+:'''Alzaneth'''
+
+:Alzaneth is a visiting sage from [[Synelon]]. I'm trying to convince him to stay on a year or two: he's brilliant!
+
+:I have to admit I used to think of "weather witching" as some sort of hedge witchery. But it's actually a well-researched elven field of chaos magic.
+
+:Even though he's not a teacher here, I suggest you pester him for lessons if you're interested in weather witching. 
+
+:'''Yourself'''
+
+:Me? I'm the resident fire magic expert. I also have the dreary duty of managing the school.
+}}
+{{Quote|source=[[Guzor Harrison]] (Enrolled Student)|
+Fire Magic is the best-studied magic among humans, dwarves, and elves. In times of emergency, you need magic that is reliable. Understood. And effective. That's Fire Magic.}}
+{{Quote|source=[[Guzor Harrison]] (Enrolled Student)|
+Bah. "Mentalism?" That's a pseudo-science. It works on some people, not on others. And why him but not her? No one can say!}}
+
+{{Quote|source=Guzor Harrison (If Scary Animal)|Ormorek's Beard, what kind of cranium-powdered idiot made a Familiar out of YOU? Go away. Shoo. Leave your message with [[Scoops]].}}
+
+[[Category:NPCs]]

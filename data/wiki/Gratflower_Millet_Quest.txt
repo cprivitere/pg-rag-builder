@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Gretchen in Eltibule asked you to find a crate of gratflower millet. She thinks there's some left in the storage tower in Eltibule Keep.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gretchen Salas|Gretchen]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I wish I'd had time to get all the supplies out of the keep before I left! Those squatters make it hard to get my stuff out of there now. I had a crate of gratflower millet in there, and I think it's still good! Could you go get it for me? It's in the front tower -- you'll walk under it as you enter the keep.
+
+Oh, the wooden stairs to the towers were torn down, so you'll have to be a little creative.}}
+
+===Requirements===
+* Obtain {{Item|Gratflower Millet}}
+* Talk to Gretchen
+
+===Rewards===
+{{Spoiler|Rewards for Gratflower Millet|
+{{Quote|This is the stuff! Thank you! I'll use this for my famous gratflower tongba. That will take a while to prepare, though. In the mean time, try this! It's another of my specialties.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Gretchen's Millet Bar}} x 3
+}}
+
+=== Accessing the Tower ===
+Currently, the top of the Eltibule Keep wall can be easily accessed from stone steps or from the hill the back wall of the Keep is up against. This was not always the case. 
+
+Following [[Game updates/2022-10-10]], it was impossible for an average adventurer to reach the outer wall simply by jumping off rocks behind Eltibule Keep. Players had to use various tricks such as a Superjump potion or fast horse. 
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Gretchen]]

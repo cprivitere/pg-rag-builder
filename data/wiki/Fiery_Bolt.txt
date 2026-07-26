@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Fiery Bolt
+| description = Fire a flaming crossbow bolt. Uses a Beginner's Dense Arrow.
+| level = 5
+| power cost = 35
+| reuse time = 40
+| range = 30 meters
+| skill = Crossbow
+| keywords = {{KWAB|Crossbow}}{{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 159 Fire initially and 13 Fire 6 times over 12 seconds
+| special = Deals 78 Fire damage over 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Fiery Bolt 2
+| description = Fire a flaming crossbow bolt. Uses a Beginner's Dense Arrow.
+| level = 15
+| power cost = 48
+| reuse time = 40
+| range = 30 meters
+| skill = Crossbow
+| keywords = {{KWAB|Crossbow}}{{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 199 Fire initially and 20 Fire 6 times over 12 seconds
+| special = Deals 120 Fire damage over 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Fiery Bolt 3
+| description = Fire a flaming crossbow bolt. Uses a Basic Dense Arrow.
+| level = 25
+| power cost = 59
+| reuse time = 40
+| range = 30 meters
+| skill = Crossbow
+| keywords = {{KWAB|Crossbow}}{{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 248 Fire initially and 27 Fire 6 times over 12 seconds
+| special = Deals 162 Fire damage over 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Fiery Bolt 4
+| description = Fire a flaming crossbow bolt. Uses a Basic Dense Arrow.
+| level = 35
+| power cost = 72
+| reuse time = 40
+| range = 30 meters
+| skill = Crossbow
+| keywords = {{KWAB|Crossbow}}{{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 307 Fire initially and 34 Fire 6 times over 12 seconds
+| special = Deals 204 Fire damage over 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Fiery Bolt 5
+| description = Fire a flaming crossbow bolt. Uses an Advanced Dense Arrow.
+| level = 45
+| power cost = 82
+| reuse time = 40
+| range = 30 meters
+| skill = Crossbow
+| keywords = {{KWAB|Crossbow}}{{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 362 Fire initially and 41 Fire 6 times over 12 seconds
+| special = Deals 246 Fire damage over 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Fiery Bolt 6
+| description = Fire a flaming crossbow bolt. Uses an Advanced Dense Arrow.
+| level = 55
+| power cost = 92
+| reuse time = 40
+| range = 30 meters
+| skill = Crossbow
+| keywords = {{KWAB|Crossbow}}{{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 418 Fire initially and 48 Fire 6 times over 12 seconds
+| special = Deals 288 Fire damage over 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Fiery Bolt 7
+| description = Fire a flaming crossbow bolt. Uses an Expert's Dense Arrow.
+| level = 65
+| power cost = 102
+| reuse time = 40
+| range = 30 meters
+| skill = Crossbow
+| keywords = {{KWAB|Crossbow}}{{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 533 Fire initially and 55 Fire 6 times over 12 seconds
+| special = Deals 330 Fire damage over 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Fiery Bolt 8
+| description = Fire a flaming crossbow bolt. Uses an Expert's Dense Arrow.
+| level = 75
+| power cost = 114
+| reuse time = 40
+| range = 30 meters
+| skill = Crossbow
+| keywords = {{KWAB|Crossbow}}{{KWAB|Attack}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 668 Fire initially and 62 Fire 6 times over 12 seconds
+| special = Deals 372 Fire damage over 20 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

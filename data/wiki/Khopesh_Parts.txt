@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Gerrux in Povus said, "In my spare time I dabble in artistic weapon improvements, and I'm working on a dazzling khopesh. But I need more raw materials!
+
+I'm not a smith, but if I had enough old broken blades, I could probably fulfill my artistic vision."
+
+===Prerequisites===
+To start this quest, talk to '''[[Gerrux]]''' in '''[[Povus]]'''. 
+
+===Preface===
+In my spare time I dabble in artistic weapon improvements, and I'm working on a dazzling khopesh. But I need more raw materials!
+
+I'm not a smith, but if I had enough old broken blades, I could probably fulfill my artistic vision.
+
+===Requirements===
+* Obtain Broken Swords x3
+* Talk to Gerrux
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you for gathering these! I am honored by your thoughtfulness. Here: this is an earlier blade I worked on. I hope you like it.}}
+* 200 {{Favor|favor}}
+* {{Item|Bedazzled Spatha}}
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Gerrux]]

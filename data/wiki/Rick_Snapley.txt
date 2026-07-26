@@ -1,0 +1,151 @@
+__NOTOC__
+{{NPC infobox
+|title            = Rick Snapley
+|image            = [[File:RickSnapley.png|300px]]
+|caption          = He's got an unsavory grin.
+|zone             = Gazluk
+|town = New Prestonbule Cave
+|location = Central cavern.
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Knife Fighting]]
+|vendor           = Yes
+|augment = Yes
+}}
+{{Quote|
+We have a lot of beer stored away here from the previous tenants. And I know how to summon Council Rations, which are just barely enough to keep us all alive. But I would kill for something else to eat! This is a cave, so you'd think you could catch cave fish in here, right? But no. No water, so no cave fish.
+}}
+[[Rick Snapley]] is a human who has been living in the [[New Prestonbule Cave]] for almost a year. He teaches advanced [[Knife Fighting]] techniques, and can raise the Skill Cap from 51 to 60, as well as from 61 to 70. Before he saved [[Sona]] from her would-be murderers, Rick served as a fence for desert thieves, buying and selling their stolen goods for years.
+== Location ==
+; [[Gazluk]]
+: Found near the campfire inside [[New Prestonbule Cave]].
+== Shopkeeper ==
+[[Rick Snapley]] sells just two items.
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Hang Outs ===
+{{Spoiler|Play pin-finger and drink beer (4 hours)|
+{{Quote|(If humanoid) " Ooh... that's gotta hurt. Get a bandage! See, what'd I tell ya? You drink enough of that shitty beer, knife games get a lot more exciting! Oh, keep that old knife. It's shit anyway!"}} 
+{{Quote|(If in [[Spider Form]]) " This isn't how ''I've'' ever played pin-finger before. This is a totally made up game! Well, I figured you were up to some sort of scheme when you suggested it! Ha ha! Okay, let's call it for now. Your made-up game is brutal. You've got a bit of... ichor... running down your leg there. And I've got a fuckin' knife cut on my FOOT. No, keep the booze. And the knife. I'm done for today!"}}
+: 35 favor with [[Rick Snapley]]
+: Seemingly random [[Knife Fighting]] weapon.
+: '''Tipsy''' - You're feeling a little floaty.
+: Hand Injury: You've injured your hand! All abilities cost +2 Power. This injury can be alleviated with First Aid 5 or higher
+}}
+{{Spoiler|Help Rick organize his knife collection (5 hours) {{favor|Friends}}|
+{{Quote|Yeah, you're right, but... you know, you and me do have one big thing in common: we're not innocent any more. 
+
+No, don't pretend - you know what I mean. There's that moment, when you're looking at a big pile of bodies - bodies YOU killed - and you realize that you will never be innocent again. And Mox knows that feeling. I think Hemmit too. But not Sona. 
+
+Sona looks at me like I'm a hero. A blood-soaked hero, but still a hero. And so... I am her hero. And I'm gonna keep her from losing her innocence if it's the last thing I do. Swear on Remga. ... Which is something I don't do much any more, heh!
+
+It's funny. I never thought I'd be shackin' up with a rakkie. Or a twenty-year-old, for that matter. Just never saw it comin'. But life goes weird places, y'know?
+
+Thanks for the help. It's a lot of knives, and Sona doesn't like helping with the poisoning ones. Here. Keep this one, it's lucky.}} 
+: 40 favor with [[Rick Snapley]]
+: {{Item|Rick's Sticker}}
+}}
+{{Spoiler|Throw darts and drink beer (3h)| 
+{{Quote|(if in [[Animal Form]]) " Okay, let's stop. I win again! I mean, it's not really been a fair fight. I told you that ya need hands to play darts! But I will admit that you are WAY better at darts than I woulda expected. Pretty eerie really."
+
+Oh, keep that shit. I won a dozen bottles off of Hemmit, but it's undrinkable.}}
+: 27 favor with [[Rick Snapley]]
+: {{Loot|Burn-Throat}}
+}}
+
+=== Favor Rewards === 
+[[Rick Snapley]] rewards his friends with access to additional Training.
+== Quests ==
+<dpl>
+category = Quests/Rick Snapley
+notcategory = Quests/Ri-Shin Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+===== Tree Decoration: New Prestonbule Cave =====
+During the Winter Holiday of Ri-Shin, [[Rick Snapley]] offers additional quests to decorate a tree in [[New Prestonbule Cave]].
+<dpl>
+category = Quests/Ri-Shin Quests
+category = Quests/Rick Snapley
+mode = unordered
+columns = 1
+</dpl>
+
+== Training ==
+;[[Knife Fighting]]
+''Note: Price varies based on Favor and [[Notoriety]].
+:{| {{STDT|sortable}}
+! Ability
+! Level
+! Gold
+|-
+|Unlock Knife Skills Levels 51-60	||	50	||	18200
+|-
+|Opening Thrust 6	||	51	||	8872
+|-
+|Slice 6	||	53	||	8963
+|-
+|Blur Cut 6	||	54	||	9009
+|-
+|Gut 6	||	55	||	9054
+|-
+|Venomstrike 6	||	57	||	10510
+|-
+|Surge Cut 6	||	60	||	10647
+|-
+|Unlock Knife Skills 61-70	||	60	||	91000
+|-
+|Opening Thrust 7	||	61	||	13422
+|-
+|Fending Blade 5	||	62	||	13468
+|-
+|Slice 7	||	63	||	13513
+|-
+|Blur Cut 7	||	64	||	13559
+|-
+|Gut 7	||	65	||	13604
+|-
+|Venomstrike 7	||	67	||	15515
+|-
+|Marking Cut 4	||	68	||	15561
+|-
+|Surge Cut 7	||	70	||	15652
+|-
+|Opening Thrust 8	||	71	||	17972
+|-
+|Slice 8	||	73	||	18063
+|-
+|Poisoners Cut 2	||	30	||	2457
+|-
+|Poisoners Cut 3	||	45	||	6324
+|-
+|Poisoners Cut 4	||	60	||	10647
+|-
+|Hamstring Throw 3	||	24	||	2184
+|-
+|Hamstring Throw 4	||	34	||	4004
+|-
+|Hamstring Throw 5	||	44	||	6279
+|-
+|Hamstring Throw 6	||	54	||	9009
+|-
+|Hamstring Throw 7	||	64	||	13559
+|}
+== Services ==
+==== Augmentation ====
+[[Rick Snapley]] can install Level 61-80 Augments for 1000 Councils.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Snapley's Venom Mk. 3}} x5
+|RiShin Family = {{Item|Snapley's Venom Mk. 4}} x5, One (Lv 70) gear (incomplete): {{Item|Snowblood Misery Trooper Helm}} (Lv70), {{Item|Niphian Boots}} (Lvl 70), {{Item|Executrix Blade}}
+}}
+== Conversations ==
+
+[[Category:NPCs]]

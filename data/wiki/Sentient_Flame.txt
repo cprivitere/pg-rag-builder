@@ -1,0 +1,26 @@
+{{NPC infobox
+|title            = Sentient Flame
+|image            = [[File:Sentient_Flame_(NPC).jpg|300px]]
+|caption          = Friend of [[Velkort]]
+|zone             = Serbule
+|town = Serbule Keep
+|location         = Around the Velkort's house.
+|anatomy = Construct
+|species = Sentient Flame
+|wander = Moves around the well square.
+|beastspeak       = No
+}}
+{{Quote|
+Neato!
+}}
+A special friend to [[Velkort]].
+
+==Location==
+; [[Serbule]]
+: [[Serbule Keep]], Can be found blazing around the Square or where it resides, in [[Velkort]]'s house. [[File:Sentient_Flame_Location.jpg|400px|thumb|right|The [[Sentient Flame]] can be found wandering outside [[Velkort]]'s house in [[Serbule Keep]]. It has a big wandering path and can be anywhere in the town square, or in the said house.]]
+
+==Use==
+; None
+: As of right now, the [[Sentient Flame]] allows you to dispose of unwanted items like a trash bin. But it is pretty Neato!
+
+[[Category:NPCs]][[Category:NoRiShin]]

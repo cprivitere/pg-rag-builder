@@ -1,0 +1,49 @@
+__NOTOC__
+{{MOB infobox
+| title = Aktaari Guardian
+| type      = Arthropod
+| health    = 17642
+| armor     = 9489
+| rage      = 5006
+| effective = Piercing, Trauma
+| ineffective = Fire, Cold, Nature, Electricity
+| vineffective = Acid
+}}
+[[Aktaari Guardian]] are a combat-focused class of [[Aktaari]]. These solitary warriors have Thick Armor in addition to Burst-Reflection
+== Locations ==
+{{MOB Location
+| area = Aktaari Cave
+| location = Throughout the cave
+| health    = 17642
+| armor     = 9489
+| rage      = 5006
+| lootlevel = 95
+| mitigation =25%
+}}
+== Combat Abilities ==
+'''Thick Armor, Burst Damage Reflection'''
+
+Slashing Damage, Slashing Damage, Heavy Poison Damage
+<!--
+:{{AIP:GiantRat}} -->
+== Miscellaneous ==
+{|
+{{Header|[[Skinning]]}}
+|-
+|None
+|-
+{{Header|[[Butchering]]}}
+|-
+|???
+|-
+{{Header|[[Butchering|Skull Extraction]]}}
+|-
+|???
+|}
+== Reported Loot ==
+==== General Loot ====
+; Level 90 Equipment
+{|
+{{Header|Common|4}}|-
+|{{Loot|Aktaari Claw}}
+|}

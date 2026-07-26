@@ -1,0 +1,33 @@
+__NOTOC__
+==Summary==
+Ricatu in Povus said, "Milking non-sentient cows is exploitation! Or I think it might be -- this morality thing is ''hard''. And there aren't really enough sentient cows to go around.
+
+Anyway, I want to try this fake milk I've been hearing about. I'll teach you the recipe if you don't know it. I picked it up from a dead goat."
+===Prerequisites===
+To start this quest, talk to '''[[Ricatu]]''' in '''[[Povus]]'''.  The quest is available during the [[Fall Harvest]].
+
+===Preface===
+{{Quote|
+Milking non-sentient cows is exploitation! Or I think it might be -- this morality thing is ''hard''. And there aren't really enough sentient cows to go around.
+
+Anyway, I want to try this fake milk I've been hearing about. I'll teach you the recipe if you don't know it. I picked it up from a dead goat.
+}}
+
+===Requirements===
+* Make 3 {{Item|Bottle Of Soy Milk}} (Recipe provided)
+* Talk to Ricatu
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Not Quite Milk|
+
+{{Quote|
+Huh. It's not half bad! Doesn't taste much like milk to me, but it's tasty enough.
+
+Here, here's a small reward for helping me.
+}}
+* 1000 Councils
+* 500 Cheesemaking XP
+}}
+
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ricatu]][[Category:Quests/Fall Harvest]]

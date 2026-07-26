@@ -1,0 +1,19 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gremix
+|image            = [[File:Gremix.png|300px]]
+|caption          = Taking a break from the forge.
+|zone             = Ilmari
+|town = Amulna
+|location         = Forge near northern gate.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|Yeah, go ahead, you can use the forge. I'm taking a break.}}
+
+[[Work Orders]] for Leatherworking can be bought from the Work Order sign next to [[Gremix]]. These workorders can be turned in with [[Gremix]].
+
+
+[[Category:NPCs]][[Category:Ilmari NPCs]][[Category:NoRiShin]]

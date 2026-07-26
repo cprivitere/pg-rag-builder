@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Nightshade]] in [[Kur]] said, "We need something blue, and I think it would be pretty funny to cover the tree in fungus. Let's do that."
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Nightshade]]''' in the '''[[Kur Mountains]]'''.
+
+===Preface===
+We need something blue, and I think it would be pretty funny to cover the tree in fungus. Let's do that.
+
+===Requirements===
+* Obtain {{Item|Tundra Lichen}} x6
+* Talk to [[Nightshade]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hahaha! It's perfect! That'll teach them not to put me in charge of menial tasks!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Nightshade]][[Category:Quests/Ri-Shin Quests]]

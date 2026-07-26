@@ -1,0 +1,14 @@
+__NOTOC__
+{{Ability infobox
+| name = Spider Punt
+| description = Kick spiders, scorpions, and other arthropods away from you. (You can only use this ability while under the influence of Spider Punt Potion.)
+| level = 0
+| power cost = 30
+| reuse time = 15
+| range = 5 meters
+| skill = Unknown
+| keywords = {{KWAB|Melee}}{{KWAB|Kick}}{{KWAB|BodypartAttack}}{{KWAB|Attack}}
+| damage = 50 Crushing
+| special = Arthropods are knocked backwards.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

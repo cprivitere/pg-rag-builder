@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Melandria in Gazluk Keep said, "Psst... I need your help! My friend Avgal -- he's another gru-maghi -- was caught trying to escape yesterday! And you know the penalty for that: they strip you naked and leave you in the mountains to freeze to death. You've probably never seen somebody die from hypothermia, but it's horrible. Not to worry, though: I have a plan. I just need some cold resistance potions! A lot of them!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Melandria]]''' in '''[[Gazluk Keep]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|Psst... I need your help! My friend Avgal -- he's another gru-maghi -- was caught trying to escape yesterday! And you know the penalty for that: they strip you naked and leave you in the mountains to freeze to death. You've probably never seen somebody die from hypothermia, but it's horrible. Not to worry, though: I have a plan. I just need some cold resistance potions! A lot of them!}}
+
+===Requirements===
+* Obtain {{Item|Cold Resistance Potion}}s x5
+* Talk to Melandria
+
+===Rewards===
+{{Spoiler|Rewards for Resisting Extreme Punishment|
+{{Quote|Five of them? Okay, I think that will be enough. Because I'm such a model slave, I'm allowed to go out in the mornings to pick fresh berries. I'll hide these potions for Avgal, along with some clothes and food. With some luck, he'll live. Thanks so much!
+
+Here, take this. I was so angry about how they're treating Avgel that I stole it. I was planning to fight my way out to save him, but that would be suicide. Take it so I'm not tempted.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Orcish Military Bow}}
+}}
+[[Category:Quests]][[Category:Quests/Gazluk Keep Quests]][[Category:Quests/Melandria]]

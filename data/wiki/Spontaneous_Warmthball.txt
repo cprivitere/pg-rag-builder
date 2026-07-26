@@ -1,0 +1,14 @@
+__NOTOC__
+{{Ability infobox
+| name = Spontaneous Warmthball
+| description = Throw a vaguely painful ball of warmth. You do not need to be wielding an implement to cast this spell, or even have Fire Magic active. This spell goes on your Miscellaneous ability bar.
+| level = 0
+| power cost = 3
+| reuse time = 60
+| range = 30 meters
+| skill = Unknown
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Fireball}}{{KWAB|SpontaneousCast}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 8 Fire
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

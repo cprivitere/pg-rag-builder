@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+[[Mu]] asked you to locate [[Poe]], a myconian that may not entirely be under [[Tidal|Tidal's]] influence, and deliver a [[Mu's Message Spore|message-spore]].
+
+===Prerequisites===
+To start this quest, talk to '''[[Mu]]''' in '''[[Myconian Caverns]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Most myconians have turned away from my counsel. But Poe -- loyal Poe is out there somewhere. I don't really believe Poe has turned away from me. Find Poe and deliver this message-spore. And if Poe needs help, please do whatever is necessary.}}
+
+===Requirements===
+* Deliver {{Item|Mu's Message Spore}} to Poe
+* Talk to [[Mu]]
+
+{{Spoiler|Response to player|{{Quote|This message spore is from Mu? I see.
+
+He understands me well. Tell him that so long as I am alive, I will serve him. But I must keep up appearances with Tidal, or be torn apart!}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Find Poe|
+{{Quote|Poe is alive? Thank you! In return, let me teach you what I can of our language.
+
+<i>[You gain Myconic XP.]</i>}}
+
+* 100 {{Favor|favor}}
+* 250 XP in [[Myconic]]
+}}
+[[Category:Quests]][[Category:Quests/Myconian Caverns Quests]][[Category:Quests/Mu]]

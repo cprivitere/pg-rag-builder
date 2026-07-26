@@ -1,0 +1,57 @@
+__NOTOC__
+{{NPC infobox
+|title            = Stephie Blackhammer
+|image            = [[File:Stephie Blackhammer(npc).png|300px]]
+|caption          = Blacksmithing Assistant
+|zone             = Povus
+|town = City of Povus
+|location         = Near the forge in Old City.
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Yes
+|beastlist = All
+|barter = Yes
+}}
+{{Quote|source=[[Stephie Blackhammer]]|
+My job is to keep Tremmond's parts-bins full! I'm dangerously low on a few commodities, so I'd be happy to buy them from you.}}
+[[Stephie Blackhammer]] is a dwarf working as a blacksmithing assistant to her uncle, [[Tremmond Blackhammer]].
+== Location ==
+; [[Povus]]
+: [[Stephie Blackhammer]] can be found outside her uncle's shop in the Old City district of Povus.
+
+== Favor ==
+[[Stephie Blackhammer]] does not use the favor system.
+
+== Services == 
+==== Quests ==== 
+Stephie Blackhammer offers crafting quests each in-game day (2 hours real time) which reward sizable amounts of {{Item|Xogrite Chunk}} for items crafted through [[Armor Patching]], [[Blacksmithing]], and [[Toolcrafting]], or gathered through [[Mining]]. The quest is randomly selected from the following list:
+{| class="wikitable"
+!Give
+!Receive
+|-
+| Craft {{Item|Peening Hammer}} x2 + {{Item|Dishing Hammer}} x2 + {{Item|Shaping Hammer}} x2 || {{Item|Xogrite Chunk}} x5
+|-
+| Craft {{Item|Tack Hammer}} x3 + {{Item|Delicate Tack Hammer}} x1  || {{Item|Xogrite Chunk}} x8
+|-
+| Craft {{Item|Grand Shaping Hammer}} x2 || {{Item|Xogrite Chunk}} x12
+|-
+| Craft {{Item|Astounding Armor Patch Kit}} x4 || {{Item|Xogrite Chunk}} x13
+|-
+| Craft {{Item|Bilge Hoop}} x4 || {{Item|Xogrite Chunk}} x4
+|-
+| Craft {{Item|Simple Armor Stake}} x4 + {{Item|Basic Armor Stake}} x4 || {{Item|Xogrite Chunk}} x8
+|-
+| Craft {{Item|Good Armor Stake}} x3 + {{Item|Expert-Quality Armor Stake}} x3 || {{Item|Xogrite Chunk}} x11
+|-
+| Craft {{Item|Masterwork Armor Stake}} x3 + {{Item|Amazing Armor Stake}} x3 || {{Item|Xogrite Chunk}} x16
+|-
+| Harvest {{Item|Astounding Metal Slab}} x2 || {{Item|Xogrite Chunk}} x6
+|-
+| Harvest {{Item|Superb Metal Slab}} x2 || {{Item|Xogrite Chunk}} x8
+|-
+| Harvest {{Item|Marvelous Metal Slab}} x2 || {{Item|Xogrite Chunk}} x10
+|}
+
+== Conversations ==  
+
+[[Category:NPCs]][[Category:NoRiShin]]

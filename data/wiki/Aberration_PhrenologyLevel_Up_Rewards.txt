@@ -1,0 +1,37 @@
+<noinclude>[[Category:Level Up Rewards]]</noinclude><includeonly>
+==[[Aberration Phrenology/Level Up Rewards|Aberration Phrenology Level Up Rewards]]==
+</includeonly>
+<!-- Updated on November 17, 2022 from v374 -->
+{| {{STDT| mw-collapsible<includeonly> mw-collapsed</includeonly>}}
+! Level || Reward
+|-
+| 1 || +1 to Phrenology
+|-
+| 6 || Mentalism/Psychology critical hit chance: +1%
+|-
+| 12 || Mentalism/Psychology critical hit chance: +1% (total 2%)
+|-
+| 15 || +1 to Phrenology
+|-
+| 18 || Mentalism/Psychology critical hit chance: +1% (total 3%)
+|-
+| 20 || +1 to Meditation
+|-
+| 24 || Mentalism/Psychology critical hit chance: +1% (total 4%)
+|-
+| 25 || +1 to Phrenology
+|-
+| 30 || Mentalism/Psychology critical hit chance: +1% (total 5%)
+|-
+| 35 || +1 to Psychology
+|-
+| 36 || Mentalism/Psychology critical hit chance: +1% (total 6%)
+|-
+| 42 || Mentalism/Psychology critical hit chance: +1% (total 7%)
+|-
+| 45 || +1 to Phrenology
+|-
+| 48 || Mentalism/Psychology critical hit chance: +1% (total 8%)
+|-
+| 50 || +1 to Mentalism
+|}

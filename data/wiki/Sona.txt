@@ -1,0 +1,169 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sona
+|image            = [[File:Sona.png|300px]]
+|caption          = She's measuring some powder.
+|zone             = Gazluk
+|town             = New Prestonbule Cave
+|location         = Back of central cavern.
+|anatomy          = Rakshasa
+|species          = Rakshasa
+|beastspeak       = Yes
+|beastlist        = All
+|skilltrainer     = [[Transmutation]]
+|vendor           = Yes
+|barter           = Yes
+|storage          = Yes
+}}
+[[Sona]] is a Rakshasa living in the [[New Prestonbule Cave]]. She once studied [[Transmutation]] under [[Makara]].
+== Location ==
+; [[Gazluk]]
+: Found past the campfire, behind the bookshelf inside [[New Prestonbule Cave]].
+== Shopkeeper ==
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Hang Outs ===
+{{Spoiler|Compare Transmutation notes (8 hours)|
+{{Quote|
+Wait, Makara wouldn't teach you the three-handed weave format? But that means you do not know the prism inversion techniques either?! Oh, I have so much to teach you!
+
+Makara would not teach the weave-forms to me either, at first. But I suppose I just sat and waited for long enough that she eventually agreed. How many years did you sit with her in the desert? ... oh. I see... well, that it explains it then.
+}}
+:80 favor
+:1000 [[Transmutation]] XP
+}}
+== Quests ==
+<dpl>
+category = Quests/Sona
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Transmutation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Transmutation{{pipe}}Unlock Transmutation Skill Levels 51-60
+ |skilllevel=50
+ |cost=18000 (estimated)
+ |favor=Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Transmutation{{pipe}}Unlock Transmutation Skill Levels 61-70
+ |skilllevel=60
+ |cost=45000
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Distill Simple Magical Item (61-90)
+ |skilllevel=61
+ |cost= 9832
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Distill Rare Magical Item (61-90)
+ |skilllevel=61
+ |cost= 9832
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Distill Exceptional Magical Item (61-90)
+ |skilllevel=65
+ |cost=9965
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Distill Epic or Legendary Magical Item (61-90)
+ |skilllevel=68
+ |cost=11400
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Repair Transmutation Damage 5
+ |skilllevel=70
+ |cost=11465
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Repair Transmutation Damage: Mastercrafted
+ |skilllevel=70
+ |cost=11465
+ |favor=Like Family
+}}
+|}
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Sona
+|favorrestriction =Comfortable
+|itemrestriction =Anything
+|neutral =0
+|comfortable =10
+|friends =20
+|closefriends =30
+|bestfriends =40
+|likefamily =50
+|soulmates =60
+}}
+
+==== Bartering ====
+Sona will give smaller prisms in exchange for larger ones.
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Large Prism}} x3 || {{Item|Medium Prism}} x4
+|-
+| {{Item|Medium Prism}} x3 || {{Item|Small Prism}} x4
+|-
+| {{Item|Large Prism}} || {{Item|Medium Prism}}
+|-
+| {{Item|Medium Prism}} || {{Item|Small Prism}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Large Prism}} x5
+|RiShin Family = {{Item|Large Prism}} x5,  1x (L70) Equip, one of: {{Item|Misery Trooper Hammer}}, {{Item|Scorpiclaw Suit}}, {{Item|Corrupted Blade}}, {{Item|Snowblood Misery Trooper Helm}}, {{Item|Scorpiclaw Mask}}
+}}
+== Conversations ==
+{{Quote|source=[[Sona]]|
+Welcome to our home, stranger. I am Sona. Are you running in terror from an orc band?
+;Um...no? I'm just exploring.
+Good! Then you are welcome here! You may stay in our cavern home for as long as you wish. You may even sleep here, or cook on our fire.
+;Thank you for your hospitality.
+Well, it started when I went on [[Su-falek]]. I snuck out and left [[Rahu]] a few years earlier than is normal because my parents were urging me to become a farmer. But I wished to be a magical scientist!
+
+I found a wise teacher in the [[Ilmari]] desert. [[Makara]] taught me much about [[Transmutation]], a new kind of magic. I am so honored to have been one of her pupils!
+;And then you moved to a cave?
+Wait. I am getting to that part. I spent nearly two years with Makara, learning all she would teach me. Then I tried to return home, but my parents refused to see me. And my old friends behaved oddly, saying I dishonored my parents by leaving at age sixteen. As if two years are so important in the eighty-year span of a life!
+
+I was angry. I did not want to start a whole new life there, so I left Rahu. I soon opened a magic stand in a tiny desert town called [[Amulna]].
+;...And THEN you moved to a cave? 
+No, obviously not yet! I was still in the desert! My magic stand become well known, as I could improve magical items in new ways. I suppose that my teacher's other students traveled far away to practice their new craft, but I alone remained in the desert, so there was no competition. My business began to grow. I rented out a building from a goblin that lives there. I had more business than I could deal with, so I hired assistants, putting all of my money back into the business.
+;So the cave part happens soon?
+Very well! I shall skip ahead. Late one night when I was closing the shop, I heard a cry for help in the desert. I rushed out to see what was wrong, and a pack of bandits were waiting for me. ''Sona begins to tear up, but shakes her head angrily and continues the story.'' I remember pain in my knees, in my ribs... they crushed my hands when I tried to defend myself, and stabbed me with blades when I fell.
+
+Then I saw them fall over, one after another, dead. A human I'd never seen before picked me up and carried me away.
+;...carried you to this cave?
+More or less, yes. Rick saved my life. He killed the bandits and carried my unconscious body far away, where they could not find me. Rick is a hero and I owe him my life.
+
+We have been here for a year now. I still suffer from my injuries, but I am largely functional again.
+;How long will you stay in the cave?
+I cannot go back to Amulna because we do not know who tried to have me killed. Rick says they covered their tracks well; the bandits did not even know who hired them. So we stay here.
+
+Rick says when we have saved enough money, we can move to [[Verta]]. For now it is just a distant dream...but dreams are important.
+;I hope your dream comes true. Thank you for sharing your story.
+}}
+
+[[Category:NPCs]]

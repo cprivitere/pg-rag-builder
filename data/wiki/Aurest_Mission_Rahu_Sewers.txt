@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+[[Lady Alethina]] in [[Red Wing Casino]] said, "Head to [[Rahu]] and find a way into their [[Rahu Sewers|sewer system]]. There is a problematic black-market poison merchant in the upper levels of the sewer; put an end to his evil schemes! Next, you'll need to figure out how to reach the lower levels of the place. I understand that there's a massive slime somewhere in the pipes and it's beginning to contaminate the city's water supply. If their water becomes unsafe, Rahu will be devastated and the area will become a warzone again. So go fix that. Finally, there is some sort of militant group of rat-people down there somewhere whose political alignment is problematic; depose their king and that should leave them in disarray.
+
+The sewers are relatively safe, so you can scout things out on your own... but you're going to need friends to kill these targets! They're tougher than the rest of the stuff down there."
+
+This [[Daily Quest]] can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lady Alethina]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Despised}} favor. This quest is only available to characters with at least two level 55 [[Skills|Combat Skills]].
+
+===Preface===
+Head to [[Rahu]] and find a way into their [[Rahu Sewers|sewer system]]. There is a problematic black-market poison merchant in the upper levels of the sewer; put an end to his evil schemes! Next, you'll need to figure out how to reach the lower levels of the place. I understand that there's a massive slime somewhere in the pipes and it's beginning to contaminate the city's water supply. If their water becomes unsafe, Rahu will be devastated and the area will become a warzone again. So go fix that. Finally, there is some sort of militant group of rat-people down there somewhere whose political alignment is problematic; depose their king and that should leave them in disarray.
+
+The sewers are relatively safe, so you can scout things out on your own... but you're going to need friends to kill these targets! They're tougher than the rest of the stuff down there.
+
+===Requirements===
+* Kill [[Tolmar the Snake Master]]
+* Kill [[Frothimir the Forever-Flan]]
+* Kill [[Ratkin King (SqUUeak)]]
+* Talk to [[Lady Alethina]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|The water supply is safe? Excellent. That's one more lever of control that the Hegemony can't use. And you've hopefully prevented a ratkin uprising for at least a few more months. Mortal politics are every bit as messy as fae politics!
+
+You appear to have applied your skills well; here is your payment.}}
+* 100 {{Favor|favor}}
+* 20000 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Lady Alethina]][[Category:Quests/AurestMission]]

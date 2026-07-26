@@ -1,0 +1,189 @@
+__NOTOC__
+{{NPC infobox
+|title            = Brugo the Wise
+|image            = [[File:BrugotheWise(npc).png|300px]]
+|caption          = ???
+|zone             = Povus
+|location         = Paleontology Clan Outpost
+|anatomy = Orc
+|species = Orc
+|beastspeak       = No
+|skilltrainer     = [[Whittling]]
+}}
+{{Quote|source=[[Brugo the Wise]]|
+These goblins are letting me study their work. But it is slow. In the meantime, I whittle.}}
+[[Brugo the Wise]] is an orc sage studying the art of [[Paleontology]] with [[Grakelsput]]'s clan. A working understanding of [[Orcish]] (Level 25) is required to converse with Brugo.
+== Location ==
+; [[Povus]] 
+: [[Brugo the Wise]] is found under a canopy at the Paleontologist Clan Outpost in northwest Povus.
+
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+[[Brugo the Wise]] rewards his friends with access to training, as well as the occasional item.
+{{Spoiler|Reward at {{Favor|Close Friends}}:|
+:{{Item|Brugo's Tattered Gloves}} (Level 85, Exceptional - Legendary rarity)
+}}
+
+=== Hang Outs ===<!--
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Hike to a remote meditation pillar(8h)|
+{{Quote|
+Echur said, "The scenery was great, wasn't it? Even if the meditation was kind of a drag. Well, not every meditation session goes as planned, you know? But we just come back to it tomorrow and try it again."
+}}
+:65 favor with [[Echur]]
+:300 Meditation XP
+}}
+-->
+
+== Quests ==
+[[Brugo the Wise]] offers some quests around the [[Povus]] region.
+<dpl>
+category = Quests/Brugo the Wise
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+[[Brugo]] will only train [[Whittling]] skills if you reach '''{{Favor|Comfortable}}''' favor and have at least Level 50 [[Carpentry]]. <!-- If needed, write a sentence about training requirements. -->
+<!-- List the abilities the NPC trains by skill. -->
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Whittling]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Whittling{{pipe}}Learn Whittling
+ |skilllevel = 0
+ |cost=
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe = Very Basic Whittling Practice
+ |skilllevel= 21
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |recipe = Basic Whittling Practice
+ |skilllevel= 32
+ |cost= ~2865
+ |favor= <Close Friends
+}}
+{{NPC training row
+ |recipe = Decent Whittling Practice
+ |skilllevel= 41
+ |cost=
+ |favor= <Close Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Whittling{{pipe}}Unlock Whittling Skill Levels 51-60
+ |skilllevel = 50
+ |cost= {{Item|Oak Wood}} x99 + 5000
+ |favor= <Close Friends
+}}
+{{NPC training row
+ |recipe = Good Whittling Practice
+ |skilllevel= 51
+ |cost= 6500
+ |favor= <Best Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Whittling{{pipe}}Unlock Whittling Skill Levels 61-70
+ |skilllevel = 60
+ |cost= {{Item|Maple Wood}} x99 + 10000
+ |favor= <Best Friends
+}}
+{{NPC training row
+ |recipe = Semi-Expert's Whittling Practice
+ |skilllevel= 61
+ |cost= ~9833
+ |favor= <Best Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Whittling{{pipe}}Unlock Whittling Skill Levels 71-80
+ |skilllevel = 70
+ |cost= {{Item|Cedar Wood}} x99 + 15000
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe = Expert's Whittling Practice
+ |skilllevel= 71
+ |cost= ~13165
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe = Semi-Master's Whittling Practice
+ |skilllevel= 81
+ |cost= ~18165
+ |favor= Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe = Simple Whittling Knife
+ |skilllevel= 0
+ |cost=
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe = Basic Whittling Knife
+ |skilllevel=20
+ |cost=
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe = Good Whittling Knife
+ |skilllevel=40
+ |cost= ~3132
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe = Expert's Whittling Knife
+ |skilllevel=60
+ |cost= 7800
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe = Master Whittling Knife
+ |skilllevel=80
+ |cost= ~15133
+ |favor= Like Family
+}}
+|}
+
+== Services == 
+N/A
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ???
+|RiShin Family = {{Item|Brugo's Tattered Gloves}} (Lv 85), {{Item|Expert's Whittling Knife}}, {{Item|Master Whittling Knife}}
+}}
+== Conversations == 
+{{Quote|source=[[Brugo the Wise]]|
+I am, of course, trained as a war mage, but I've come to realize that orcish war magic has its limitations. I'm seeking out unusual knowledge to find ways to improve our troops.
+}}
+{{Quote|source=[[Brugo the Wise]]|
+[[Grakelsput]] knows many esoteric sciences. And he says that this is not uncommon in the Gob Lands deep beneath the ground. But why? Do goblins hoard their knowledge? Do they sell their secrets to other races? It's still a mystery to me.}}
+{{Quote|source=[[Brugo the Wise]]|
+Whittling is a common orcish technique. It helps sharpen your reflexes with the knife! The resulting figurines are also entertaining.}}
+
+{{Quote|source=[[Brugo the Wise]] - Close Friends|
+I understand, now, that while you appear a warrior, you are also a sage. Do not worry. I won't tell anyone. Here: perhaps these will help you in your journeys. I have a better pair!}}
+
+[[Category:NPCs]]

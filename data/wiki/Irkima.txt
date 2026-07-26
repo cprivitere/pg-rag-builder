@@ -1,0 +1,253 @@
+__NOTOC__
+{{NPC infobox
+|title            = Irkima
+|image            = [[File:Irkima (npc).png|300px]] 
+|caption          = A bookish bug 
+|zone             = Red Wing Casino
+|location         = side room of the portal area
+|anatomy = Arthropod
+|species = Mantis
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Shamanic Infusion]]
+|vendor           = Yes
+}}
+{{Quote|source=[[Irkima]]|
+We use pigeons from [[Statehelm]] eggs currently, but we have begun breeding our own pigeons with weak psychic powers. So far, the results are... horrific and disturbing.
+}}
+[[Irkima]] is a Mantis vendor in a side room of the Portal area within the Red Wing Casino. He also teaches some Shamanic Infusion recipes
+== Location ==
+; [[Red Wing Casino]] <!-- List the Zone the npc is found in. -->
+: [[Irkima]] is a sideroom  of the Portal area  
+== Shopkeeper ==
+{{Vendor items sold}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Irkima]] rewards her friends with [[Red Wing Token]]s.
+{{Spoiler|Reward at {{Favor|Comfortable}}.|
+:{{Item|Red Wing Token}} x8
+}}
+{{Spoiler|Reward at {{Favor|Friends}}.|
+{{Quote|Thank you (playername). If you will be staying at the casino longer, I hope that you will stop by to visit occasionally.}}
+:{{Item|Red Wing Token}} x4
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}.|
+:{{Item|Red Wing Token}} x5
+}}
+{{Spoiler|Reward at {{Favor|Best Friends}}.|
+:{{Item|Red Wing Token}} x7
+}}
+{{Spoiler|Reward at {{Favor|Like Family}}.|
+:{{Item|Red Wing Token}} x10
+}}
+
+=== Hang Outs === 
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Talk about fun potions (3h)|
+:27 favor
+:1x {{Item|Necromancy Boost Potion 20%}}
+}}
+{{Spoiler|Cover for Irkima while he visits Tavilak for a mind-meld (6h) - [[Probing Tavilak's History]] completion required.|
+{{Quote|source=[[Irkima]]|
+I have mind-melded with Tavilak. At my insistence, she released the walls of her emotions and I felt her grief. I was unprepared. I am overcome with sorrow. I... suppose that I need time. Time to think. I apologize for taking too long; hopefully you did not encounter any trouble? Here: take the money in the cash box. Please just leave me alone for now!}}
+: 70 favor with [[Irkima]].
+: 1500 Councils.
+}}
+
+== Quests ==
+[[Irkima]] offers some quests around the ... region.
+<dpl>
+category = Quests/Irkima
+notcategory = Quests/Ri-Shin Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+===== Tree Decoration: Red Wing Casino=====
+During the Winter Holiday of Ri-Shin, [[Irkima]] offers additional quests to decorate a tree in the [[Red Wing Casino]].
+<dpl>
+category = Quests/Ri-Shin Quests
+category = Quests/Irkima
+mode = unordered
+columns = 1
+</dpl>
+
+== Training ==
+[[Irkima]] will train 18 recipes. Three levels (Beginner, Novice and Shaman) of Infusions for Chest, Hands, Leg, Shoes, Ring and Neck.  He also teaches the basics of [[Practical Summoning]] at {{Favor|Friends}}.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Shamanic Infusion]]
+! Ability/Recipe
+! Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Beginner's Chest Carapace Infusion
+ |skilllevel = 15
+ |cost = 888
+ |favor = ?
+}}
+{{NPC training row
+ | recipe= Novice's Chest Carapace Infusion
+ | skilllevel = 30
+ | cost = 1800
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe= Shaman's Chest Carapace Infusion
+ | skilllevel = 45
+ | cost = 4633
+ | favor = Close Friends
+}}
+{{NPC training row
+ |recipe= Beginner's Arachnid Hands Infusion
+ |skilllevel=23
+ |cost = 1500
+ |favor = Close Friends
+}}
+{{NPC training row
+ | recipe= Novice's Arachnid Hands Infusion
+ | skilllevel= 32
+ | cost = 3133
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe= Shaman's Arachnid Hands Infusion
+ | skilllevel= 46
+ | cost = 4800
+ | favor = Close Friends
+}}
+{{NPC training row
+ |recipe= Beginner's Wing-Leg Infusion
+ |skilllevel=19
+ |cost = 1100
+ |favor = ?
+}}
+{{NPC training row
+ | recipe= Novice's Wing-Leg Infusion
+ | skilllevel= 34
+ | cost = 2933
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe= Shaman's Wing-Leg Infusion
+ | skilllevel= 47
+ | cost = 4700
+ | favor = Best Friends
+}}
+{{NPC training row
+ |recipe= Beginner's Brain-Kicking Infusion
+ |skilllevel=19
+ |cost = 1100
+ |favor = ?
+}}
+{{NPC training row
+ | recipe= Novice's Brain-Kicking Infusion
+ | skilllevel= 36
+ | cost = 3000
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe= Shaman's Brain-Kicking Infusion
+ | skilllevel= 48
+ | cost = 4733
+ | favor = Best Friends
+}}
+{{NPC training row
+ |recipe= Beginner's Mind Ring Infusion
+ |skilllevel=21
+ |cost = 1500
+ |favor = Close Friends
+}}
+{{NPC training row
+ | recipe= Novice's Mind Ring Infusion
+ | skilllevel= 38
+ | cost = 3066
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe= Shaman's Mind Ring Infusion
+ | skilllevel= 49
+ | cost = 4766
+ | favor = Like Family
+}}
+{{NPC training row
+ |recipe= Beginner's Healthy Neck Infusion
+ |skilllevel =23
+ |cost = 1500
+ |favor = Close Friends
+}}
+{{NPC training row
+ | recipe= Novice's Healthy Neck Infusion
+ | skilllevel = 40
+ | cost = 3133
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe= Shaman's Healthy Neck Infusion
+ | skilllevel = 50
+ | cost = 4800
+ | favor = Like Family
+}}
+|}
+
+== Services == 
+==== Pigeon Mail ====
+{{Quote|source = [[Game updates/2021-05-24]]|
+Speak with [[Irkima]] in the [[Red Wing Casino]] to send a pigeon. The cost to starts at 100 Councils, and increases if you send multiple messages too close together. (The birds get tired!) Attaching an item costs an additional 100 Councils, but [[Irkima]] will waive the fee for his {{favor|Close Friends}}. If an item isn't delivered after 7 days, it is returned to you.
+
+You can't send messages to people who are ignoring you, of course, and you can turn off receiving mail entirely if you prefer in the 'Social' window, under 'Restrict'. ('Social' is the icon on the right-hand bar that looks like three little people.)
+}}
+{| class="wikitable"
+!Pigeon
+!Trait
+!Timer
+!Base Fee
+|-
+|Ace
+|Fastest Bird
+|1 hour
+|100 Councils
+|-
+|Bam Bam
+|Efficient Navigator
+|1 hour
+|100 Councils
+|-
+|Charles
+|Strongest Bird
+|1 hour
+|100 Councils
+|-
+|Dexter
+|Cutest Bird
+|2 hours
+|200 Councils
+|-
+|Earl
+|Friendliest Bird
+|2 hours
+|200 Councils
+|-
+|Francois
+|Stuck-up Bird
+|3 hours
+|300 Councils
+|-
+|Gregory Mushbottom III
+|Oldest Bird
+|4 hours
+|400 Councils
+|}
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Red Wing Token}} x10
+|RiShin Family = {{Item|Shaman's Safety Belt}}
+}}
+== Conversations == 
+
+[[Category: NPCs]]

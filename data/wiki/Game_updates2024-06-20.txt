@@ -1,0 +1,11 @@
+==Update Notes: June 20, 2024==
+This bugfix update has the following fixes:
+::- Fix memory leak in the new loot window, which should hopefully fix the freezes & crashes
+::- Fix various bugs with Inella's rewards in the new dungeon
+::- Fix bug causing inventory pack data to carry over between characters
+::- Fix logic bug with judgment lever that could cause the door to not open
+::- Dance skills can be used again while music volume is muted
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

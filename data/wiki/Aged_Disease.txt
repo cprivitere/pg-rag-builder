@@ -1,0 +1,11 @@
+{{DISEASE infobox
+| name = Aged
+| description = Your body feels unnaturally old. -5% Max Health, -5% Max Power This is a simple disease.
+| type = Basic
+}}
+[[Aged (Disease)]] is a [[Disease#Basic|Basic Disease]].
+==== Cures ====
+* Treated through [[First Aid]].
+==== Sources ====
+* [[Anhinda]]
+* [[Lady Eleanor]]

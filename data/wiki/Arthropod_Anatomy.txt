@@ -1,0 +1,50 @@
+__NOTOC__
+{{Skill infobox
+|title            = Arthropod Anatomy
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the physiology of the physiology of spiders, insects, and scorpions.
+|skilltype        = Anatomy Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy
+|skilltrainers    = None
+}}
+{{Quote|source=Loading screen|All hat-wearing mantises are intelligent to some degree.}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Arthropod Anatomy''' is a sub-skill of [[Anatomy]] that grants knowledge on the physiology of spiders, insects, and scorpions.
+=== In-Game Description ===
+Knowledge of the physiology of spiders, insects, and scorpions.
+==Known Creatures==
+===Friends===
+<dpl>
+ category = Arthropod&NPCs
+</dpl>
+
+===Bosses===
+<dpl>
+ category = Arthropod&Bosses
+ notcategory = NPCs
+</dpl>
+
+===Foes===
+<!-- the DPL lists creatures which already have a page and are categorized. -->
+<dpl>
+ category    = Arthropod
+ notcategory = Bosses
+ notcategory = NPCs
+</dpl>
+<!-- here we can manually add any creatures to keep track of missing/todo pages -->
+
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Maximum Level to Earn XP by Foe ===
+If the player exceeds this Level of {{msg:BASEPAGENAME}}, the foe in question will stop rewarding XP in {{msg:BASEPAGENAME}}.  This list is a work in progress.
+* [[Tor-Urak]] ([[Eltibule]]): 43
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+
+[[Category:Skills]][[Category:Anatomy Skills]]

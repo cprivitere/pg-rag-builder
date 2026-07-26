@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Lakrea told you to mine some iridium. Iridium can be found in the Kur Mountains and in caves beneath the mountains.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|Well, your diet is fine, but your magical aura is a bit off. I think some iridium will do the trick! Mine some iridium -- I hear you can find some in Kur -- and you'll be feeling different in no time.}}
+
+===Requirements===
+* Mine {{Item|Iridium}}
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: Mine Iridium|
+{{Quote|Hmm, your aura seems the same so far. Let's give it a little while to see if it helps or if you need to mine more.}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

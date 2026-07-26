@@ -1,0 +1,212 @@
+==Update Notes: October 10, 2022==
+
+Welcome to our latest update! There's a lot of important changes, so we'll dive right in. It was hard to prioritize all the different changes, so please at least skim over the topics to make sure you know what you need to know!
+
+If you find issues, please report them ASAP! Given the number of changes, we may need a quick hotfix to address any big problems. (And regardless, we'll do another update next week to start the Halloween event!)
+
+===Revised Zones: Eltibule & Kur Mountains===
+We've made large changes to Eltibule and Kur Mountains. 
+
+The changes to [[Eltibule]] are largely cosmetic in this update, replacing the ground map, trees, foliage, and many props. The map is roughly the same, although there are changes. The most important change is that the exit to Kur Mountains is now beyond [[Hogan's Keep]] -- you need to go through the Keep to reach it.
+
+The changes to [[Kur Mountains]] are broader: this will be the future home of the orc playable race, and the old map didn't work for that. This is a new terrain, and pretty much everything in the map has changed location. We tried to keep things in rough relative position, but please be careful when you first venture out! 
+
+Many areas of spawned monsters and foraged items have shifted or become larger. For example, you will likely run into more winterhue and rabbits during their respective times of day. You might also run into a lot more orcs. So please let us know if you run into trouble with areas that seem too sparse or too dense. The cold weather mechanics in Kur Mountains are unchanged.
+
+If you were logged out in either [[Eltibule]] or [[Kur Mountains]], you will be transported to the new entry point of that zone on login.
+
+===Treasure Cap for Uneven Active Skills===
+*'''Note: there was a problem with this new system and it was disabled at the last minute, except for the level cap on AH pets.  To repeat, this cap is NOT active right now. This is how the system will work in the future, though.'''
+We've tweaked the way that treasure effects on items behave when your active skills are more than 25 levels apart. Here's the rundown: If your two active skills are more than 25 levels apart, we automatically downgrade your equipped gear by temporarily lowering the treasure level until the mods are below the cap. So if you have Archery at 25 and Sword at 75, the Sword treasure mods  will be capped at 50: the lower-level skill plus 25. 
+: - The base effects of the gear ("white label effects") don't have any scaling info so they just stay the same all the time. 
+: - If no lower-tier effects are usable, that effect is just disabled.
+: - A new icon in the effect bar explains that they are downgraded, and lists which slots are affected.
+: - Equipped item tooltips display the correct downgraded information (or an indication that the enchantment is disabled) if the item is affected by skill level disparity. 
+: - Looking at the abilities themselves will also show that the capped effects are being used. 
+
+If one of your active skills is Animal Handling, we also cap your pet's level. If your Animal Handling skill is more than 25 levels higher than your other active skill, we automatically reduce the level of your pet to the lower-level skill plus 25. If a pet is already summoned and your skills are changed in a way that would result in its level lowering, it is automatically unsummoned. 
+
+===[[Necromancy]] Summon Change===
+Another important change we wanted to call out: Necromancers no longer need to be in a graveyard to raise standard skeletons. Instead, you need Necromancy Powder, which is created by powdering bone in a graveyard late at night.
+: - Necromancers automatically learn the recipe to do this at level 2.
+: - If you are already level 2 or higher in [[Necromancy]], the recipe has been automatically added to your recipe book.
+: - The recipe requires a femur or other large bone, and can only be performed in a graveyard during the in-game hours of 10pm and 4am.
+: - All tiers of the ability "Free-Summon Skeletal Archer" have been removed.
+: - All tiers of the ability "Raise Skeletal Ratkin Mage" are unchanged: these abilities still require you to be indoors and have a ratkin medallion.
+
+===New AoE Buff Logic===
+We had to cancel our recent Boss Invasion event due to server lag. We've made some internal optimizations to fix this, but one of the most important fixes has gameplay ramifications. (And it's something we should have fixed long ago... it just wasn't a priority until now.)
+
+The biggest performance problem was area-of-effect (AoE) buffs! When several hundred players (and their pets) were grouped into a tiny clump, these buffs would apply to hundreds of entities -- so many that it actually takes a noticeable amount of time on the server. When a bunch of players in this clump are all applying buffs at the same time, it generated lag.
+
+AoE buffs are balanced around the idea that they might apply to an entire hunting group of six players (and their pets). Definitely not hundreds! That's a performance problem as well as a game-balance problem. So we've tried to fix it. But we also want buffs to continue to work intuitively in 95% of day-to-day situations. 
+
+Here's the new rule: AoE buffs and heals affect at most seven players (and their pets). If there are more than 7 players in range, the caster and their group-mates are prioritized first. If the caster is targeting another player that isn't in their group, that player is also always included. (This is so you can continue to offer "drive by assistance" in dungeons.) After that, players are picked randomly until seven are chosen.
+
+For simplicity, we count seven players, and automatically include those players' pets. e.g. If a player and their pet are both within range, the pet will get buffed if the player does. If a pet is in range but the player isn't, that pet still counts as one player (for purposes of picking seven).
+
+We hope that this system will be invisible most of the time, only being a problem when there are more than six players fighting the same monster. (In those cases, the nerf is intentional.) If this rule causes unforeseen gameplay problems, we'll revisit it.
+
+===Monster Hatred Calculation Change===
+We wanted to call out a small but important change: Indirect damage effects (such as Damage-over-Time effects, Damage-Reflect effects, and Delayed-Damage effects) previously did not generate monster hatred, but now do. Each point of indirect damage generates as much hate as a point of direct damage. 
+
+This is an experimental change. We'll be watching closely, and we'd love to hear your feedback after you have a chance to play with this some.
+
+===Changes to Mentalism Treasure===
+We've made some relatively small changes to [[Mentalism]].
+: - "Electrify, System Shock, and Panic Charge restore 30 Health after a 15 second delay" => 53 Health after a 7 second delay
+: - "Mindreave taunt -500" => "Mindreave taunt -665"
+: - "Reconstruct restores +30 Health and causes the target to take 24 less damage from attacks for 10 seconds" -> "Reconstruct causes the target to take 18 less damage from attacks for 30 seconds"
+: - "Revitalize restores +30 Health and causes the target to take 30 less damage from Psychic and Nature attacks for 10 seconds" => "restores +30 Health and causes the target to take 26 less damage from Psychic and Nature attacks for 12 seconds"
+: - "Psi Health Wave heals all targets for 90 health after a 25 second delay" => "Psi Health Wave heals all targets for 109 health after a 15 second delay"
+: - "Psi Armor Wave and Psi Adrenaline Wave restore 202 armor to all targets after a 25 second delay" => restore 139 armor to all targets after a 15 second delay
+: - "Psi Power Wave and Psi Adrenaline Wave restore 70 power to all targets after a 25 second delay" => restore 56 power to all targets after a 15 second delay
+: - "Panic Charge boosts the damage of all your attacks +23 for 20 seconds" => +57 for 20 seconds
+: - Fixed several other treasure effects that didn't get more powerful after level 80.
+
+===Other Treasure Changes===
+There are various other treasure changes, including a nerf of [[Warden]]'s Privacy Field ability.
+: - [[Archery]]: New (Head, Main Hand): "Heavy Multishot boosts the damage of your Nice Attacks and Epic Attacks +167 for 10 seconds"
+: - [[Archery]]: "Acid Arrow Taunt -1260" => "Acid Arrow deals +280 damage to Armor"
+: - [[Shield]]: Display Fix: "When you are hit, all Shield abilities taunt +10 for 20 seconds (stacks up to 10 times)" now correctly states the stack count, "10 times", instead of "15 times". (It already stacked the correct number of times; this was a simple typo fix.)
+: - [[Spirit Fox]]: Display Fix: "While Blur Step is active, Soul Bite has a 33% chance to deal +7 damage and hit all targets within 7 meters" => +124 damage. (It already dealt this much damage, it was just incorrectly listed as +7.)
+: - [[Staff]]: "For 30 seconds after using Phoenix Strike, your Survival Utility and Major Heal abilities restore N Health to you" => Fixed bug that caused this to restore Power instead of Health as intended.
+: - Staff: "After using Headcracker, you take -N% damage from Psychic attacks for 15 seconds" will now stick around for the entire 15 seconds. In addition, we fixed a bug that caused the level 85 version to be weaker than the level 80 version.
+: - [[Warden]]: Privacy Field ability: reduced base damage at all tiers. (The highest tier changed from 275 => 196.)
+: - Warden: "Privacy Field deals +65% damage to melee attackers" => +48%
+: - Warden: "When Privacy Field deals damage, it also ignites the suspect, dealing 180 damage over 12 seconds" => 156 damage over 12 seconds
+: - Warden: Small tweaks to several other warden treasure. (These were formula revisions.)
+: - Minigolem abilities Healing Mist, Invigorating Mist, Haste Concoction, and Rage Mist have increased area-effect range.
+
+In addition, all treasure effects should now persist through zoning and logout. The following effects previously were not doing that and have been fixed:
+: - "While [[Unarmed]] skill is active: any time you Evade an attack, your next attack deals +X damage"
+: - "While Unarmed skill is active: you gain +4% Melee Evasion and any time you Evade a Melee attack you recover X Armor"
+: - "When you are hit, Finish It damage is +X for 20 seconds (stacks up to 10 times)"
+: - "When you are hit, all Shield abilities taunt +X for 20 seconds (stacks up to 10 times)"
+: - "When you are hit by a monster's Rage Attack, the current reuse timer of Stunning Bash is hastened by 1 second and your next Stunning Bash deals +X damage"
+: - "When you are hit by a monster's Rage Attack, Reinforce restores +X Armor for 60 seconds (stacks up to 10 times)"
+: - "Privacy Field causes you to recover X Power when a melee attack deals damage to you"
+
+===Mounts===
+All animals forms should now be able to ride horses or use a unique travel mode.
+: - [[Spider]] form has a new travel mode: Spider-Form Travel Mode can be learned from [[Legs]] at [[Animal Town]] in [[Sun Vale]].  You must be Comfortable with Legs. 
+: - Many animal forms can now ride horses, including: Hares, Foxes, Giant Bats, and Butterflies. Riding a horse in these forms behaves just as if you were riding in a bipedal form.
+
+<b>Mount Fixes & Tweaks:</b>
+: - Mounts now come to a stop more slowly, except when stopping to interact with something. Note that you can stop more quickly by holding the "move backward" key.
+: - Safe Fall no longer persists while mounted.
+: - Fixed a bug that allowed prevention of fall damage by mounting.
+: - Dying from a projectile while mounted should no longer let you walk around while dead.
+
+===Butterfly Changes===
+: - Player butterflies no longer have +25% Mentalism Base Damage; instead they have +10% Psychic Damage and +10% Nature Damage. 
+: - There is a new butterfly-only recipe which allows you to drink nectar from flowers (or flower arrangements). This consumes the flower and buffs your Health Wave, Armor Wave, and Power Wave abilities for 30 minutes. The potency of the buff depends on the quality of the flower(s). For now, this recipe can be learned from [[Yavazek]] in [[Sun Vale]].
+: - Butterfly dances are a bit more unique now with different particle effects for each move. And butterflies now float subtly while moving or dancing. Very pretty!
+
+===Other Animal Forms Tweaks & Fixes===
+: - Stuns should now properly affect all forms.
+: - Ducks can now fit into areas that all other forms can.
+: - Shrunk the pigeon hitbox.
+: - Your Persona window will now correctly update when you switch between forms.
+: - Most animal forms now adjust the camera so that the new form remains in the center of the screen.
+: - Foxes and spiders now "stick" to the ground, similar to hares.
+: - Polished deer animations, including new dance moves.
+: - Added new dance moves and color variations to fox dances.
+: - Spider dance variants B & C are now slower & faster versions of the base dances.
+: - Added new dance moves to giant bat dances.
+: - Spiders, foxes, and bunnies now all kinda-sorta look like they are swimming & flying.
+: - Added falling animations to giant bat, spider, & fox.
+: - Improved animations & visual effects of giant bat attacks.
+: - Spider abilities should now be quieter.
+: - Polished some spider attack particles.
+: - Sped up some Hare attacks. 
+: - Fixed the specularity on player cow texture.
+
+===VIP Challenge Limited Edition Vanity Pet : - The Ice Hen===
+The reward from the VIP Challenge is here! If you logged in during the Challenge, then you can collect your limited edition vanity pet from now until November 30th. The Ice Hen is our first interactive vanity pet, released in remembrance of The Great Egg Famine of 2018. Your personalized Ice Hen has a chance to lay eggs at a higher rate than wild chickens. Now you have the power (and the chicken) to help ensure we never run short of eggs ever again! 
+
+You can collect your pet in game by opening the Persona panel (it's the face icon towards the bottom of your right-hand bar) and then clicking the gift box icon at the bottom, or you can type /redeem in chat. Once you have redeemed your Ice Hen, you can summon it by clicking the "Manage Cosmetic Pets" button on your Persona panel. 
+
+Do not procrastinate collecting this gift, because after November 30th this pet will never be offered again!
+
+===More Backer Package Benefits===
+Many of the backer packages (from Kickstarter, IndieGoGo, or the Gorgon Shop) comes with small in-game benefits. In this update, we’ve hooked up a couple more of those features. Players who purchased a package that included free Lycanthropy/Teleportation skills, or the ability to create a stack of Duke's Cakes, can now access those rewards through the redemption panel. 
+
+Again, you can collect your rewards by opening the Persona panel (it's the face icon towards the bottom of your right-hand bar) and then clicking the gift box icon at the bottom, or you can type /redeem in chat. 
+
+Please note that the Teleportation rewards can be redeemed on *all* of your characters, while the Lycanthropy benefit can only be redeemed on a single character, so choose wisely! Redeeming the stack of Duke’s Cakes works very similarly to redeeming player title scrolls -- any character on the account can redeem the cakes, but only once a week.
+
+In addition, players who purchased a Grand Duke or Archduke backer package can now send out their proclamations and decrees all across the land – that is, make short world broadcasts. Each proclamation can be up to 255 characters long, you may make up to three proclamations, and each proclamation has a 7 day timeout period. A Council Proclamation Form can be found in [[Hulon]]’s house in [[Serbule Keep]]. 
+
+Player-broadcast proclamations are not considered official and do not have any effect on gameplay. They also include a short disclaimer so that they can easily be told apart from admin or game system broadcasts.
+
+===New Selection UI===
+We're working on a new selection UI, and in this update you can start helping us test it (if you want to)! The new UI changes the way that selected objects are highlighted and the way their information is displayed when they are selected. 
+
+You can switch to using the new selection UI by going to Settings->Special and adding the line "'''ExperimentalSelectionUI'''" (without quotes) to the special settings box. After you have done that, a new header will appear in Settings->GUI called "Experimental Selection UI". All new-UI settings will go under here, although there's currently only 1 setting. This is an experimental change, so please give it a try and then give us your feedback!
+
+===Other UI Changes===
+: - Chat tabs now turn green instead of italic when there are unread messages.
+: - Unread notifications can be turned off for chat tabs, in the "Edit Tab" menu (by right-clicking the tab itself).
+: - Tracked skills now persist through sessions.
+: - The "Hide Known Recipes" filter on vendors is now just "Hide Known", and applies to both recipes and abilities.
+: - The enter key can now be used to confirm item summons and splits.
+: - When summoning an item, the amount to summon is now automatically selected so you can quickly change it.
+: - Player-bestowed title messages will no longer show color tags in chat.
+: - Recipe tooltips now accurately state when an ingredient is not consumed, instead of "(% chance to consume)".
+: - Hovering over an effect when it wears off will now properly update the tooltip.
+: - Equipment gained from a barter will now show the proper level when hovered over in the barter window.
+: - The tooltip icon cooldown overlay should no longer appear on items.
+: - Fixed stretching icons in Player Work Order sign and crafting UI.
+: - Fixed rounding error in client display. Certain buffs could make it seem like you had 1 more Max Health than you did.
+: - Quests that cannot be abandoned now have a greyed-out "Abandon Quest" button with some informative text. This should make it clearer that this inability to abandon some quests is intended, and not a bug.
+: - More clearly delineated item attributes from the info below them when there's no enchantments.
+: - Optimized NPC vendor UI to remove freeze-up when first opening the UI or switching tabs when there are a lot of items present.
+: - Better handling of on-screen messages that display as soon as you enter a new area.
+
+===World Draw Distance Changes===
+Previously, several graphics settings were only supported in older areas (such as [[Serbule]]) and not newer areas (such as Povus). The following settings now work in both old and new areas: tree-draw distance, tree billboard distance, grass distance, and grass density. 
+: - Maximum tree-draw distance increased from 2000 meters to 3000 meters.
+: - Minimum tree-draw distance increased from 0 meters to 100 meters.
+: - Minimum grass density increased from 0% to 35%.
+
+All graphics presets have new default values for tree-draw distance, tree billboard distance, grass distance, and grass density. This may slightly impact FPS. Note that any overrides for tree-draw distance, tree billboard distance, grass distance, or grass density that you may have set have been reset to their default values, and will need to be re-adjusted.
+
+===Other Animation & Graphics Changes===
+: - Added a new Graphics setting, "Realistic Non-Bipedal Placement", which is like "Realistic Foot Placement" but for non-humanoids. This will make non-bipedals "stick" to the ground realistically, rather than just float above it. Currently only implemented for bunnies, foxes, spiders, and horses.
+: - Added animations when humanoids evade attacks.
+: - Added particle effects to recipes for [[Shamanic Infusion]] and [[Fire Magic]].
+: - Added a new visual effect to Take The Lead.
+: - Revamped [[Priest]] attacks (animations, visual effects, and some sounds). This has the effect of speeding up some attacks.
+: - Revised armor appearance to be less washed-out. This is most noticeable on metal armors.
+: - Numerous appearance loading improvements and fixes, which could cause the loading screen to hang or fail.
+
+===Other Bug Fixes & Tweaks===
+: - Rewrote water wells. Now instead of being a single-use interactible that fills one jug of water, it works in a delay loop, filling water repeatedly until you move away from the well (or run out of empty bottles). It starts slowly and then accelerates.
+: - Ursula's Curse: when Ursula appears, she immediately targets the cursed player.
+: - Equipped gear can no longer be transmuted.
+: - Show error messages when attempting to transmute equipped or low-rarity gear.
+: - Dropping items no longer stacks them on top of each other, they are spread out in a grid around the dropper.
+: - Increased chance of dropping [[Ilmari]] gems on all four types of [[Rahu]] mineral nodes.
+: - Added actual fire to static campfires (like those in [[Kur Mountains]]) when they are fed with wood.
+: - Projectiles will no longer stick around indefinitely when shot at ghosts.
+: - Dead humanoids should no longer skate around dead some of the time.
+: - Fixed recipe Secret Calligraphy: Hemorrhage to give the intended effect.
+: - "Astounding Cloth Shirt (Max-Enchanted)" and "Camouflaged Astounding Shirt (Max-Enchanted)" now have the proper pre-requisites.
+: - Changed effect name of Agonizing Speed Potions from Bleeding Speed to Agonizing Speed.
+: - Changed instances of "Amazingly" inks to "Amazing".
+: - Emptying bottles of water no longer counts for quest "Holistic Wellness: Drink Water".
+: - [[Serbule Hills]] outhouses are now easier to interact with, and have a more appropriate search animation.
+: - Added Pet owner's name to the name of some of the vanity pets : - Death on a Leash, Fae Dragon, Radish, Winter Beet (and the new Ice Hen).
+: - "Level 10-20 Event Loot Key"s are now properly called "Level 15-20 Event Loot Key"s.
+: - Fixed typo in [[Jumper]]'s quest "The Bridge Bully" that indicated the wrong direction (southeast instead of northeast).
+: - Fixed typo in Fist of the Green Man (wayword -> wayward).
+: - Fixed typo in quest "A great new calligraphy bench".
+: - Changed "Kill Toxic Frogs in Gazluk While Nude" to "Kill Toxic Frogs in Povus While Nude".
+: - In quest "Kill Barghests in Gazluk", fixed "klil" typo.
+: - Changed mushroom name from "Groxmak" to "Groxmax".
+: - Converted all quest titles containing 'Halloween Event:' to 'Zhia Lian Event:'.
+: - Assorted improvements to server and client performance. 
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

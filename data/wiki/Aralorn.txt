@@ -1,0 +1,359 @@
+__NOTOC__
+{{NPC infobox
+|title            = Aralorn
+|image            = [[File:Aralorn(npc).png|300px]]
+|caption          = Has a glow about him
+|zone             = Gazluk
+|location         = Animal Camp.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = Priest, Corpse Talking
+|barter = Yes
+}}
+{{Quote| 
+Have you come to bask in Arisetsu's warmth?
+}}
+[[Aralorn]] is a Priest of [[Arisetsu]].
+== Location ==
+; [[Gazluk]]
+: [[Aralorn]] is always found at the Northern Animal Camp.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+<!--
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Neutral}}.|
+:??
+}}
+{{Spoiler|Reward at {{Favor|Comfortable}}.|
+:??
+}}
+{{Spoiler|Reward at {{Favor|Friends}}.|
+:??
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}.|
+:??
+}}
+-->
+== Quests ==
+[[Aralorn]] offers no quests.
+<!--<dpl>
+category = Quests/Aralorn
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+-->
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Priest]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Priest{{pipe}}Unlock Priest Skill Levels 51-60
+ |skilllevel = 50
+ |cost= 18200
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Admonish 6
+ |skilllevel= 51
+ |cost= 8872
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Unfetter 2
+ |skilllevel= 52
+ |cost= 8918
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Corrupt Hate 6
+ |skilllevel= 53
+ |cost= 8963
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Castigate 6
+ |skilllevel= 54
+ |cost= 9009
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Exhilarate 4
+ |skilllevel= 54
+ |cost= 9009
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Mend Flesh 6
+ |skilllevel= 55
+ |cost= 9054
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Righteous Flame 6
+ |skilllevel= 56
+ |cost= 10465
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Remedy 6
+ |skilllevel= 51
+ |cost= 10556
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Invigorate 5
+ |skilllevel= 51
+ |cost= 10601
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Triage 6
+ |skilllevel= 51
+ |cost= 10647
+ |favor= Like Family
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Priest{{pipe}}Unlock Priest Skill Levels 61-70
+ |skilllevel = 60
+ |cost= 45500
+ |favor= Best Friends
+}}
+{{NPC training row
+ |ability=Admonish 7
+ |skilllevel= 61
+ |cost= 13422
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Corrupt Hate 7
+ |skilllevel= 63
+ |cost= 13513
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Invigorate 6
+ |skilllevel= 64
+ |cost= 13559
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Tether Soul 2
+ |skilllevel= 64
+ |cost= 13559
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Mend Flesh 7
+ |skilllevel= 65
+ |cost= 13604
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Righteous Flame 7
+ |skilllevel= 66
+ |cost= 15470
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Castigate 7
+ |skilllevel= 68
+ |cost= 15561
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Remedy 7
+ |skilllevel= 68
+ |cost= 15561
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Exhilarate 5
+ |skilllevel= 69
+ |cost= 15606
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Triage 7
+ |skilllevel= 70
+ |cost= 15652
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Admonish 8
+ |skilllevel= 71
+ |cost= 17972
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Corrupt Hate 8
+ |skilllevel= 73
+ |cost= 18063
+ |favor= XXX
+}}
+{{NPC training row
+ |ability=Mend Flesh 8
+ |skilllevel= 75
+ |cost= 18154
+ |favor= XXX
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Corpse Talking]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Corpse Talking{{pipe}}Unlock Corpse Talking Skill Levels 61-70
+ |skilllevel = 60
+ |cost= 45500
+ |favor=Close Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Lore]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Bright Emission Crystal
+ |skilllevel=0
+ |cost=165
+ |favor=XXX
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Textile Creation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Luminate Cloth Armor (Dim) 
+ |skilllevel=45
+ |cost=4632
+ |favor=XXX
+}}
+{{NPC training row
+ |recipe=Luminate Cloth Armor (Moderate)
+ |skilllevel=55
+ |cost=6632
+ |favor=XXX
+}}
+{{NPC training row
+ |recipe=Luminate Cloth Armor (Bright)
+ |skilllevel=65
+ |cost=9965
+ |favor=XXX
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Tanning]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Luminate Leather Armor (Dim) 
+ |skilllevel=45
+ |cost=4632
+ |favor=XXX
+}}
+{{NPC training row
+ |recipe=Luminate Leather Armor (Moderate)
+ |skilllevel=55
+ |cost=6632
+ |favor=XXX
+}}
+{{NPC training row
+ |recipe=Luminate Leather Armor (Bright)
+ |skilllevel=65
+ |cost=9965
+ |favor=XXX
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Blacksmithing]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Luminate Metal Armor (Dim) 
+ |skilllevel=45
+ |cost=4632
+ |favor=XXX
+}}
+{{NPC training row
+ |recipe=Luminate Metal Armor (Moderate)
+ |skilllevel=55
+ |cost=6632
+ |favor=XXX
+}}
+{{NPC training row
+ |recipe=Luminate Metal Armor (Bright)
+ |skilllevel=65
+ |cost=9965
+ |favor=XXX
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Luminate Organic Armor (Dim) 
+ |skilllevel=45
+ |cost=4632
+ |favor=XXX
+}}
+{{NPC training row
+ |recipe=Luminate Organic Armor (Moderate)
+ |skilllevel=55
+ |cost=6632
+ |favor=XXX
+}}
+{{NPC training row
+ |recipe=Luminate Organic Armor (Bright)
+ |skilllevel=65
+ |cost=9965
+ |favor=XXX
+}}
+|}
+== Services ==
+==== Bartering ====
+At {{Favor|Comfortable}}, Aralorn will offer to barter with you:
+{| {{STDT}}
+!Give
+!Receive 
+|-
+| {{Item|Glowy Yellow Crystal}} x5 {{Item|Lapis Lazuli}} x4 || {{Item|Quality Arisetsu Medallion}}
+|-
+| {{Item|Glowy Yellow Crystal}} x5 {{Item|Lapis Lazuli}} x5 || {{Item|Great Arisetsu Medallion}}
+|-
+| {{Item|Glowy Yellow Crystal}} x5 {{Item|Lapis Lazuli}} x3 || {{Item|Buckle of Arisetsu}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Great Arisetsu Medallion}} (Lv 70)
+}}
+== Conversations ==  
+[[Category:NPCs]]

@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Mope in Povus said, "Some of my fly amanita has spread beyond my locus of control. They are mine and I desire to have them."
+
+This Quest can be repeated after 10 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Mope]]''' in '''[[Povus]]'''. The quest is available at {{Favor|Friends}} favor. 
+
+===Preface===
+Some of my fly amanita has spread beyond my locus of control. They are mine and I desire to have them.
+
+===Requirements===
+* Obtain Fly Amanita x5
+* Talk to Mope
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|These are not my lost fly amanita! But they will be useful nonetheless. }}
+* 50 {{Favor|favor}}
+* {{Item|Xogrite Chunk}} x3
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Mope]]

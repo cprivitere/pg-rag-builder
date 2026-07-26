@@ -1,0 +1,319 @@
+__NOTOC__
+{{Skill infobox
+|title            = Treasure Cartography
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Just like surveying! Except instead of valuable gems, you can find..."treasure."
+|skilltype        = Trade Skill <!-- Combat Skill, Trade Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              =  <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Yasinda]] <!-- List skill trainers, 3 max -->
+}}
+
+{{Quote|
+Leave a quote about the skill here. This can be the in-game description, but that info must be placed below as well.  Adds a bit of flavor to the article as well.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+'''Treasure Cartography''' has you creating maps and running around to find buried treasure. Map creation relies on "rumors", found mainly from the mysterious statues in [[Eltibule]]. Another source of treasure rumors can be to dig up graves in Eltibule with a shovel, or to buy the rumors from vendors like [[Hulon]].
+
+=== In-Game Description ===
+Experience creating maps from old clues. The maps can lead to treasure... or tragedy.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Yasinda]] teaches Treasure Cartography after becoming Friends with you.  She also teaches the Eltibule maps.
+* [[Preta]] teaches the [[Sun Vale]] Treasure Cartography maps.
+* [[The Sand Seer]] teaches the [[Ilmari]] maps.
+
+==Connected Skills==
+'''Sub-Skills:'''
+* None
+'''Secondary Skills:'''
+* None
+'''Related Skills:'''
+* None
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== Eltibule {{msg:BASEPAGENAME}} Mechanics ==
+==== Eltibule's Weird Statues ====
+There are 8 statues around [[Eltibule]]. You can sacrifice at least two categories of items per statue per moon phase, for a total of 16 successful sacrifices in a phase. Moon phases are tied to real life [https://www.moongiant.com/phase/today/ moon phases] (GMT time zone).
+
+The primary, or first, statue (gem/drug statue) is the starting point, and the statues want specific things rotating clockwise from there. Sacrificing the wrong type of item returns nothing, while sacrificing the correct type returns a map. Sacrificing a moonstone to the wrong statue will return the moonstone instead of consuming it, making this a good way to find the first statue. The first statue is also the entrance to the [[Dark Chapel]]. 
+
+The first (gem/drugs) statue is 1.  2 is the next statue going clockwise, and so on.
+
+{| {{STDT}}
+!Position !! 1st Sacrifice !! 2nd Sacrifice
+|-
+|1||Gems||Drugs
+|-
+|2||Mushrooms||Animal Parts
+|-
+|3||Fish||Wood
+|-
+|4||Bones||Vegetable Seeds (including Cotton)
+|-
+|5||Potions||Flower Seeds
+|-
+|6||Flower||Jewelry (Rings/Amulets)
+|-
+|7||Fruits||Skulls
+|-
+|8||Recipes||Vegetables (Grown)
+|}
+
+Each statue yields a specific type/quality of map. Statues 1 & 5 give small maps, 2 & 6 give large, 3 & 7 give vast, 4 & 8 give incredible. Maps made with Small/Large usually give random junk, Vast gives 3 items, and Incredible gives 5, with a chance to fail based on map quality/your skill. Occasionally, a Vast or Incredible rumour will dig up a named boss monster, [[Olugax The Ever-Pudding]]. Lower-tiers will also sometimes produce [[Slime|Slimes]].
+
+Sacrifices are single items..sacrificing a stack will only sacrifice a single item and return the rest to you. The quality of the item doesn't effect results.
+
+==== Statue Locations ==== 
+[[File:Eltibule Statue Map.jpg|650px]]
+
+==Sun Vale {{msg:BASEPAGENAME}} Mechanics ==
+{{:Sun Vale/Treasure Cartography}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+===Treasure===
+Treasure is seemingly random, often consisting of gems, recipe scrolls, skill books, or equipment.  Level of equipment is determined by the wealth level of the rumor:
+*{{Item|Eltibule Treasure Map: Small Treasure}} - Level 30 equipment
+*{{Item|Eltibule Treasure Map: Large Treasure}} - Level 30 equipment
+*{{Item|Eltibule Treasure Map: Vast Riches}} - Level 40 equipment
+*{{Item|Eltibule Treasure Map: Incredible Wealth}} - Level 50 equipment
+
+
+{{Spoiler|Eltibule Small Treasure loot may include:|
+{{Spoiler|Unknown rumor quality:|
+*{{Item|Unarmed: Knee Kick 3}}
+*{{Item|Alchemy: Strong Antivenom}}
+*{{Item|Calligraphy: "Heat Death"}}
+*{{Item|Spirit Fox: Illusive Guise 2}}
+*{{Item|Recipe: Words of Power 2}}
+*{{Item|Werewolf: Pouncing Rend 3}}
+*{{Item|Knight's Armor}}
+}}
+{{Spoiler|Vague:|
+*{{Item|Recipe: Words of Power 2}}
+*{{Item|Cheesemaking: Firm Tofu}}
+*{{Item|Spool of Wire}}
+*{{Item|Good First Aid Kit}} x2
+*{{Item|Poppy Seeds}}
+*{{Item|Shoddy Forgery}}
+*{{Item|Student Painting}}
+}}
+{{Spoiler|Solid:|
+*{{Item|Spirit Fox: Illusive Guise 2}}
+*{{Item|Fae Phrenology Research 2}}
+*{{Item|Orc Phrenology Research 2}}
+*{{Item|Cheesemaking: Firm Tofu}}
+*{{Item|Good First Aid Kit}} x2
+*{{Item|Simple Armor Patch Kit}} x2
+*{{Item|Oak Wood}} x2
+*{{Item|Mandrake Root}}
+*{{Item|Saltpeter}}
+*{{Item|Guava}}
+*{{Item|Pansy Seeds}}
+}}
+{{Spoiler|Great:|
+*{{Item|Sword: Precision Pierce 4}}
+*{{Item|Spool of Wire}}
+*{{Item|Crossing Oil}}
+*{{Item|Good First Aid Kit}} x2
+*{{Item|Oak Wood}} x2
+*{{Item|Guava}}
+*{{Item|Marigold Seeds}}
+}}
+}}
+
+{{Spoiler|Eltibule Large Treasure loot may include:|
+{{Spoiler|Unknown rumor quality:|
+*{{Item|Unidentified Poetry Volume}}
+*{{Item|Alchemy: Imatia's Sight Potion}}
+*{{Item|Calligraphy: "Broken Open"}}
+*{{Item|Calligraphy: "Dire Secrets"}}
+*{{Item|Calligraphy: "Fist"}}
+*{{Item|Cheesemaking: Tofu}}
+*{{Item|Leatherworking: Quality Evasion Boots}}
+*{{Item|Orc Phrenology Research 2}}
+*{{Item|Orc Phrenology Research 3}}
+*{{Item|Rakshasa Phrenology Research 3}}
+*{{Item|Priest: Flamestrike 4}}
+*{{Item|Priest: Flamestrike 5}}
+*{{Item|Psychology: Mock 5}}
+*{{Item|Recipe: Magic Teapot}}
+*{{Item|Spirit Fox: Illusive Guise}}
+*{{Item|Spirit Fox: Illusive Guise 2}}
+*{{Item|Sword: Riposte 5}}
+*{{Item|Tailoring: Add Nature Damage to Cloth Shirt}}
+*{{Item|Tailoring: Add Nature Damage to Cloth Pants}}
+*{{Item|Tailoring: Add Psychic Damage to Cloth Pants}}
+*{{Item|Tailoring: Add Psychic Damage to Cloth Shirt}}
+*{{Item|Tailoring: Camouflaged Nice Shirt}}
+*{{Item|Tailoring: Quality Hats for Deer}}
+*{{Item|Unarmed: Bodyslam 2}}
+*{{Item|Unarmed: Knee Kick 3}}
+*{{Item|Unarmed: Knee Kick 4}}
+*{{Item|Unarmed: Jab 4}}
+*{{Item|Weather Witch: Summon Doomstorm 3}}
+*{{Item|Weather Witch: Summon Doomstorm 4}}
+*{{Item|Leatherworking: Nice Evasion Shirt}}
+*{{Item|Leatherworking: Quality Evasion Boots}}
+*{{Item|Orc Phrenology Research 3}}
+*{{Item|Malachite}}
+*{{Item|Citrine}}
+*{{Item|Fluorite}}
+*{{Item|Carnelian}}
+*{{Item|Moss Agate}}
+*{{Item|Moonstone}}
+*{{Item|Bloodstone}}
+*{{Item|Obsidian}}
+*{{Item|Diamond}}
+*{{Item|Shock Dust}}
+*{{Item|Shovel}}
+*{{Item|Simple Armor Patch Kit}}
+*{{Item|Republic Gloves}}
+*{{Item|Chainmail Shirt}}
+*{{Item|Knight's Armor}}
+*{{Item|Idealist's Skirts}}
+*{{Item|Nightmare Pants}}
+*{{Item|Pants of the Yearning Sea}}
+*{{Item|Hateboots}}
+*{{Item|Windstep Shoes}}
+*{{Item|Anguish Orb}}
+*{{Item|Balanced Battlestaff}}
+*{{Item|Elven Cestus}}
+*{{Item|Elven Shield}}
+*{{Item|Defender of the Frail}}
+*{{Item|Fist of the Green Man}}
+*{{Item|Splash Beaker}}
+*{{Item|Quality Ocarina}}
+*{{Item|Quality Sword}}
+*{{Item|Orcish Gladiator Cap}}
+*{{Item|Orcish Gladiator Gloves}}
+*{{Item|Cutting Crossbow}}
+*{{Item|Amulet of Max Armor +25}}
+*{{Item|Amulet of Max Health +30}}
+*{{Item|Amulet of Crushing Mitigation +5}}
+*{{Item|Amulet of Piercing Mitigation 5}}
+*{{Item|Arcane Ring}}
+*{{Item|Grand Ring}}
+*{{Item|Grounded Ring}}
+*{{Item|Elven Officer's Helm}}
+*{{Item|Elven Ceremonial Suit}}
+*{{Item|Elven Gauntlets}}
+*{{Item|Elven Plate Gauntlets}}
+*{{Item|Elven Plate Boots}}
+
+}}
+{{Spoiler|Vague:|
+*{{Item|Unidentified Poetry Chapbook}}
+*{{Item|Alchemy: Behold the Fire Shield}}
+*{{Item|Alchemy: Mercury}}
+*{{Item|Knife: Duelist's Slash 5}}
+*{{Item|Human Phrenology Research 3}}
+*{{Item|Orc Phrenology Research 3}}
+*{{Item|Weather Witching: Litany of Stillness}}
+*{{Item|Moonstone}}
+*{{Item|Blue Spinel}}
+*{{Item|Quartz}}
+*{{Item|Aquamarine}}
+*{{Item|Garnet}}
+*{{Item|Topaz}}
+}}
+{{Spoiler|Solid:|
+*{{Item|Unarmed: Headbutt 5}}
+*{{Item|Giant Phrenology Research 2}}
+*{{Item|Unarmed: Headbutt 4}}
+*{{Item|Weather Witch: Summon Doomstorm 4}}
+*{{Item|Orc Phrenology Research 2}}
+*{{Item|Cheesemaking: Tofu}}
+*{{Item|Cooking: Shepherd's Pie}}
+*{{Item|Tailoring: Camouflaged Quality Shirt}}
+*{{Item|Sardonyx}}
+*{{Item|Amethyst}}
+*{{Item|Peridot}}
+}}
+{{Spoiler|Great:|
+*{{Item|Bloodstone}}
+*{{Item|Aquamarine}}
+*{{Item|Priest: Flamestrike 4}}
+}}
+}}
+
+{{Spoiler|Eltibule Vast Riches loot may include:|
+{{Spoiler|Unknown rumor quality:|
+*{{Item|Glamour Berry}}
+*{{Item|Controller's Stiletto}}
+*{{Item|Basic War Claw}}
+*{{Item|Oakhorn}}
+*{{Item|War Flask}}
+*{{Item|Lopsided Flask}}
+*{{Item|Elven Dagger}}
+*{{Item|Idealist's Skirts}}
+*{{Item|Elven Officer's Helm}}
+*{{Item|Elven Ceremonial Suit}}
+*{{Item|Elven Plate Leggings}}
+*{{Item|Chainmail Shirt}}
+*{{Item|Desert Vagabond Shirt}}
+*{{Item|Orcish Gladiator Gloves}}
+*{{Item|Orcish Rugged Boots}}
+*{{Item|Amulet of Crushing Mitigation 5}}
+*{{Item|Amulet of Piercing Mitigation 5}}
+*{{Item|Ring of Snakelike Behavior}}
+*{{Item|Malachite}}
+*{{Item|Sardonyx}}
+*{{Item|Serpentine}}
+*{{Item|Tsavorite}}
+}}
+{{Spoiler|Vague:|
+*{{Item|Decoction of Compassion Knowledge}} x3
+*{{Item|Decoction of Gardening Knowledge}} x2
+*{{Item|Blue Spinel}}
+}}
+{{Spoiler|Solid:|
+*{{Item|Amethyst}}
+*{{Item|Lapis Lazuli}}
+}}
+}}
+
+{{Spoiler|Eltibule Incredible Wealth loot may include:|
+{{Spoiler|Unknown rumor quality:|
+*{{Item|Eternal Greens}}
+*{{Item|Topaz}}
+*{{Item|Moonstone}}
+*{{Item|Fluorite}}
+*{{Item|Citrine}}
+}}
+{{Spoiler|Vague:|
+*{{Item|Moss Agate}}
+*{{Item|Lapis Lazuli}}
+}}
+}}
+
+
+Eltibule treasure maps can also yield the following recipes. Loot submitted with type of map unknown.
+*{{Item|Alchemy: Behold the Fire Shield}}
+*{{Item|Art: Gold Gryphon Statues}}
+*{{Item|Cooking: Bacon-Lover's Omelet}}
+*{{Item|Human Phrenology Research 3}}
+*{{Item|Leatherworking: Nice Evasion Boots}}
+*{{Item|Leatherworking: Quality Evasion Leggings}}
+
+== Treasure Cartography Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Treasure Cartography|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+
+== Trivia ==
+Eltibule Large Treasure treasures contain equipment at level 30.
+
+Eltibule Incredible Wealth treasures contain equipment with mods up to level 50.
+
+Ilmari Incredible Wealth treasures contain equipment with mods up to level 60.
+
+== Gallery==
+
+[[Category:Skills]]

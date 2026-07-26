@@ -1,0 +1,69 @@
+__NOTOC__
+{{NPC infobox
+|title            = Norbert (Strange Pig)
+|image            = [[File:Norbert (npc).jpg|300px|]]
+|caption          = A little sullen, for a pig.
+|eventnpc = Yes
+|zone             = Serbule
+|town = Serbule Keep
+|location = Outside northern gate.
+|anatomy = Non-Ruminant Ungulate
+|species = Pig
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Cow]]
+}}
+<kbd> Strange Pig: A talking pig is standing just outside of Serbule. He has something to offer you. (Special Event). </kbd>
+{{Quote|
+Don't hit me! I'm a talking pig, not a regular one!
+}}
+[[Norbert]] is an intelligent pig who lives in the secret [[Animal Town]] somewhere in [[Sun Vale]]. [[Norbert]] was not [[Awakened]], but was struck by a bolt of lightning that increased his intelligence. To spread awareness about the plight of Awakened animals, Norbert traveled to [[Serbule]].
+
+If the player travels to Sun Vale during a Strange Pig event, Norbert will still be in Animal Town, unchanged. 
+
+== Location ==
+; [[Serbule]]
+: Found across the northern bridge of [[Serbule Keep]].
+
+== Training ==
+While in [[Serbule]], [[Norbert]] offers interested adventurers the chance to transform into an animal. Usually the offered form is a [[Cow]], however [[Pig]] is sometimes offered instead. 
+{{Quote |
+Don't hit me! I'm a talking pig, not a regular one! I'm here to educate people about the plight of sentient animals. Can you spare a moment? I have an interesting offer for you.
+; What's the offer?
+I want to let you become an animal for a little while -- Don't worry, I can change you back! Being an animal is the only to really understand how hard a sentient animal's life is.
+
+Each year, thousands of animals are Awakened by mages to serve as familiars. And who knows how many other animals, like myself, become sentient due to freak magical accidents? Probably a lot. And we animals have no rights. None at all! We get mocked, mistreated, and shooed out of stores. Life is very hard. They are definitely up sides to being a pig, but I wish humans and elves would treat us a little better.
+
+That's why I'm here: to turn you into an animal, and then turn you back, so you can really understand our plight.
+; What kind of animal would you turn me into?
+I have a potion that will turn you into a cow. And... this is a little awkward... but as it happens, my potion will turn you into a female cow. Not that it matters, really, because all talking bovines have a rough life! When you're tired to being a cow, I have another potion that will change you back. Are you interested?
+:; I was turned into a cow once. I already know how hard it is!
+:: Oh! Really? Sorry, have I already met you? You bipeds all kind of look alike to me. *Ahem* anyway, I don't have to tell you how hard life is for a cow! Please help spread the word about the hardships of talking animals!
+:; I have some questions first...
+:: Of course! What's your question?
+::; How long will the potion last?
+::: The potion will last forever, unless it's canceled out by my other potion. But don't worry, I'll be here for a week, so you'll have plenty of time to explore being an animal in complete safety.
+::; What if you leave and I get stuck as an animal forever?
+::: Don't be silly! I'm a very trustworthy pig! And I promise I'll be here for plenty of time. But if you did somehow miss me, well... you'd be stuck as an animal. And you'd adapt, maybe even thrive! And you could even come live with us in Animal Town, I guess!
+::; Where's Animal Town?
+::: Crap... I probably shouldn't have mentioned our city. It's a secret! All I can say is that all sentient animals are welcome there.
+::; Will I lose my intellect?
+::: No. The potion will leave your brain intact. You'll have some trouble forming words because of your new animal mouth, but with practice you'll be able to speak just fine. Of course, animals don't have hands, so some things are impossible... but other possibilities open up instead.
+::; Possibilities like what?
+::: You'll just have to change and see!
+::; Never mind, no more questions: I'm ready to become an animal.
+; Hell yes, cow-ify me!
+Okay. Close your eyes and I'll splash this potion on you. It won't hurt at all. Ready?
+}}
+
+If the player is in any animal form, Norbert will offer nothing. 
+{{Quote |
+Hey... you! Yeah, you. I know you're intelligent, I can see it in your eyes! Have we met? Anyway, it doesn't matter. I'm here as 'animal ambassador'. Daisy made some transmogrification potions, and I'm trying to convince humans to drink 'em and see what life is really like as an animal! But you're an animal already. So... I guess... I don't have anything else to say. Take care of yourself, okay? 
+}}
+
+If the player is an animal at or above favor level Comfortable with [[Norbert]], he will instead say
+{{Quote |
+Oh hi, (player). I wasn't expecting to see you way out here in Serbule! How are you? I'm here as 'animal ambassador'. Daisy made some transmogrification potions, and I'm trying to convince humans to drink 'em and see what life is really like as an animal! I'm really busy so I can't talk right now. But don't worry -- I covered your belongings with a LOT of mud before I left Animal Town, so they'll be fine! I'll talk to you later!
+}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

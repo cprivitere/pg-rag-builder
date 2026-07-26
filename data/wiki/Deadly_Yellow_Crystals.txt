@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Mox Warcut in New Prestonbule said, "I need a sample of the Vol's Kiss that can be found in Gazluk. Can you get it for me? It's a yellow crystal that's warm to the touch. You can find it all over the mountainside.
+
+But listen VERY carefully: carrying it will make you sick. So get the ore and then <i>run</i> back here to me as quick as you can. Don't dally! I only need three pieces, so don't get any more than that."
+
+===Prerequisites===
+To start this quest, talk to '''[[Mox Warcut]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I need a sample of the Vol's Kiss that can be found in Gazluk. Can you get it for me? It's a yellow crystal that's warm to the touch. You can find it all over the mountainside.
+
+But listen VERY carefully: carrying it will make you sick. So get the ore and then <i>run</i> back here to me as quick as you can. Don't dally! I only need three pieces, so don't get any more than that.}}
+
+===Requirements===
+* Obtain {{Item|Glowy Yellow Crystal}}s x3
+* Talk to Mox Warcut
+
+===Rewards===
+{{Spoiler|Rewards for Deadly Yellow Crystals|
+{{Quote|Thank you. I have a lead-lined box to hold these pieces. Are you feeling okay? Here. Take this to ease the discomfort. And here's a bounty for your hard work.}}
+
+* 200 {{Favor|favor}}
+* 4000 councils 
+* {{Item|Healing Potion Ultra}} x 2
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Mox Warcut]]

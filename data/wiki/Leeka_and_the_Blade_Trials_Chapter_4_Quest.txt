@@ -1,0 +1,36 @@
+__NOTOC__
+==Summary==
+Durstin Tallow in Serbule Hills said, "My wife's diary says one of the chapters is hidden at her favorite reading spot. I guess that'd be the old watchtower overlooking the Serbule Hunting Lodge. Not a very safe reading spot these days! It's on a hill. Go past the lodge and climb the hills a little south of it."
+
+===Prerequisites===
+To start this quest, talk to '''[[Durstin Tallow]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This quest requires that you have spoken to [[Durstin Tallow]] regarding his need of an adventurer to solve his book problem.
+
+You must have previously completed [['Leeka and the Blade Trials' Chapter 1]] in order to undertake this quest.
+
+===Preface===
+{{Quote|My wife's diary says one of the chapters is hidden at her favorite reading spot. I guess that'd be the old watchtower overlooking the Serbule Hunting Lodge. Not a very safe reading spot these days! It's on a hill. Go past the lodge and climb the hills a little south of it.}}
+
+===Requirements===
+* Find chapter near a watchtower
+* Talk to Durstin Tallow
+
+===Rewards===
+{{Spoiler|Rewards for 'Leeka and the Blade Trials' Chapter 4|}}
+{{Quote|Thanks. Soon we'll have them all, and I can put this part of my life behind me.}}
+
+* 100 {{Favor|favor}}
+* 250 councils
+
+===Finding the Location===
+
+The Watchtower is located along the same hill area as the Wooly Bastard.
+Going East from [[Trasen]]'s area, climb the hill until you see a square watchtower.
+There will be a turned-over cart, search under it to find the pages. You will likely need to zoom in to see the pages beneath the fallen cart. 
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Durstin Tallow]]
+
+===Location===
+
+[[File:Leeka Chapter 4.jpg]]

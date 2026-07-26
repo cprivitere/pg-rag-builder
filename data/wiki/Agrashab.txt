@@ -1,0 +1,49 @@
+{{Ambox
+|border=yellow
+|info=<span style="color:#c80000; font-weight:bold;">You may be looking for the [[Agrashab/Sun Vale|Agrashab]] in Sun Vale. <br/>
+You may be looking for the [[Agrashab/Fae Realm|Agrashab]] in the Fae Realm.</span>
+}}
+__NOTOC__
+{{Deity infobox
+|name            = Agrashab
+|image            = [[File:Agrashab.png|300px]]
+|caption          = He looks at you dispassionately.
+|title            = God of Trolls
+|location         = Alharth, Fae Realms
+|classification   = Class ?
+}}
+
+[[Agrashab]] is the god of Trolls, and a fae spirit that maintains an unusually broad active region of influence, extending to over 600 fae worlds. Agrashab maintains a seat on the [[Fairy Court]], but is in conflict with the [[Winter Queen]]. [[Agrashab]] presents himself through avatars in his various realms, including [[Agrashab/Sun Vale|Sun Vale]] and the [[Agrashab/Fae Realm|Fae Realm]].
+
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Lore ==
+[[Agrashab]] is an active spirit, spreading his influence wherever Trolls can be found. 
+==== Agrashab's Avatar of the Fae Realm ====
+{{Quote|source = [[Agrashab/Fae Realm|Agrashab]]|
+: Hello there little mortal. Welcome to my realm! You are welcome to stay here as long as you obey my rules.
+;: This is you realm?
+: You might say I "terraformed" this part of the fae realm. I made it habitable by my children, which also coincidentally makes it habitable to you.
+: My children call this land Sun Vale. But I understand your home world has a land with the same name...
+;: Is there an alternative name that's less confusing?
+: Well, my land was named [[Sun Vale]] first, so in the interest of inter-world harmony I believe you should rename your '[[Sun Vale]]' to something else. Your land is called "U39X" by the Fairy Courts. You could use that, or something more mortal-idiomatic... be original! Have fun with it!
+;: Well... I don't actually have the authority to rename Sun Vale...
+: Damn! I was hoping you were a ruler in your land. Well, you should take my message back to your ruler.
+: I suppose there is one other name you can use. Many of your U39X brethren call this land... "Troll-vale." I dislike this name. Humans have a wonderful word that explains why: It's "tacky." But you may use that if you wish. Just understand that there are almost 600 lands like this one, all full of trolls. They can't all be "Troll-vale!" But you are unlikely to ever see any of the others, so use whatever term you like.
+;: You have 600 lands? And you live in this one?
+: Yes, I live in this one... and in all the others. I can be in many places at once!
+;: Oh! You're the god of trolls, right?
+: Yes, I'm an inter-dimensional energy creature, the same as the gods of your world. Speaking of which...
+;: Yes?
+: How is [[Vol]]?
+;: Vol, as in the god of Death? I guess he's... fine?
+: Good, good. I like Vol. Up until a few cycles ago, he called himself Volzek, and he was an incredible ass. But he's much less problematic now. Weaker too, but power isn't always much fun. Speaking of incredible power and lack of fun, how is [[Laeth]]?
+;: Laeth?
+: She lives on your world these days right? Laeth, the "Goddess of Time?" She comes from the fae realm originally, you know! She and [[Cae-a-lee]].
+;: Oh. I don't know her personally, but... I'm sure she's fine.
+}}
+
+[[Category:Register of Lore]]

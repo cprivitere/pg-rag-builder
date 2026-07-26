@@ -1,0 +1,124 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Snare Arrow
+| description = Fire an arrow that entangles a target, lulling and confusing them. You must have a Beginner's Snare Arrow (or better) in your inventory.
+| level = 11
+| power cost = 13
+| reuse time = 30
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|SnareArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|SignatureDebuff}}
+| ragemulti = 0
+| damage = 21 Piercing
+| special = Target becomes mesmerized for 10 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Snare Arrow 2
+| description = Fire an arrow that entangles a target, lulling and confusing them. You must have a Basic Snare Arrow (or better) in your inventory.
+| level = 21
+| power cost = 17
+| reuse time = 30
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|SnareArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|SignatureDebuff}}
+| ragemulti = 0
+| damage = 40 Piercing
+| special = Target becomes mesmerized for 15 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Snare Arrow 3
+| description = Fire an arrow that entangles a target, lulling and confusing them. You must have an Advanced Snare Arrow (or better) in your inventory.
+| level = 32
+| power cost = 21
+| reuse time = 30
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|SnareArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|SignatureDebuff}}
+| ragemulti = 0
+| damage = 66 Piercing
+| special = Target becomes mesmerized for 20 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Snare Arrow 4
+| description = Fire an arrow that entangles a target, lulling and confusing them. You must have an Expert's Snare Arrow (or better) in your inventory.
+| level = 41
+| power cost = 24
+| reuse time = 30
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|SnareArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|SignatureDebuff}}
+| ragemulti = 0
+| damage = 98 Piercing
+| special = Target becomes mesmerized for 20 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Snare Arrow 5
+| description = Fire an arrow that entangles a target, lulling and confusing them. You must have a Masterwork Snare Arrow in your inventory.
+| level = 51
+| power cost = 27
+| reuse time = 30
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|SnareArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|SignatureDebuff}}
+| ragemulti = 0
+| damage = 149 Piercing
+| special = Target becomes mesmerized for 20 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Snare Arrow 6
+| description = Fire an arrow that entangles a target, lulling and confusing them. You must have a Masterwork Snare Arrow (or better) in your inventory.
+| level = 61
+| power cost = 31
+| reuse time = 30
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|SnareArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|SignatureDebuff}}
+| ragemulti = 0
+| damage = 201 Piercing
+| special = Target becomes mesmerized for 20 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Snare Arrow 7
+| description = Fire an arrow that entangles a target, lulling and confusing them. You must have an Amazing Snare Arrow (or better) in your inventory.
+| level = 71
+| power cost = 34
+| reuse time = 30
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|SnareArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|SignatureDebuff}}
+| ragemulti = 0
+| damage = 257 Piercing
+| special = Target becomes mesmerized for 20 seconds, or until attacked.
+}}
+|-
+|
+{{Ability infobox
+| name = Snare Arrow 8
+| description = Fire an arrow that entangles a target, lulling and confusing them. You must have an Astonishing Snare Arrow (or better) in your inventory.
+| level = 81
+| power cost = 38
+| reuse time = 30
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|SnareArrow}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|SignatureDebuff}}
+| ragemulti = 0
+| damage = 320 Piercing
+| special = Target becomes mesmerized for 20 seconds, or until attacked.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

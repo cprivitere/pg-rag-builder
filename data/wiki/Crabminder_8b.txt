@@ -1,0 +1,20 @@
+__NOTOC__
+{{NPC infobox
+|title            = Crabminder 8b
+|image            = [[File:Crabminder8b (NPC).png|400px]]
+|caption          = 
+|zone             = Statehelm
+|location         = Eastern beach
+|anatomy = Construct
+|species = Golem
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|source=[[Crabminder 8b]]|
+Do not interfere with the endangered mega-crabs. Their role in the ecosystem is critical. Touching them is bad. Killing them is: very bad.}}
+[[Crabminder 8b]] is a Council-produced automaton designed to supervise giant crabs in the wilds of [[Statehelm]].
+==Location==
+; [[Statehelm]]
+: Wanders the eastern beaches and bay floor.
+
+[[Category:NPCs]][[Category:NoRiShin]]

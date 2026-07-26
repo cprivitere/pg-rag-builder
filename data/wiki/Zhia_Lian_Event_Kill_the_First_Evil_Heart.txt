@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Even Tuvillus is using this opportunity to invade your world. He's the god of Jealousy and Envy, and he's creating massive jealousy-pumps in hidden places. They'll look like giant floating hearts! Gather an army... or at least a posse... and hunt the hearts! I'll lead you to each one!
+
+The first giant heart is in Eltibule, beneath the little keep there.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Even Tuvillus is using this opportunity to invade your world. He's the god of Jealousy and Envy, and he's creating massive jealousy-pumps in hidden places. They'll look like giant floating hearts! Gather an army... or at least a posse... and hunt the hearts! I'll lead you to each one!
+
+The first giant heart is in Eltibule, beneath the little keep there.
+
+===Requirements===
+* Kill the First Evil Heart
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|One heart down! Lots to go!}}
+* 2000 councils
+* {{Item|Level 40 Event Loot Key}}
+* random items
+}}
+
+===Notes===
+The heart is in the room with The Fog.
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

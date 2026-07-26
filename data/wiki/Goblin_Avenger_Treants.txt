@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Glortok in the Rahu Sewers said, "I don't understand why those trees are down here. And I hate that! The ratkin stay away from there, as if they know some secret. I hate that, too! Kill the trees!"
+
+This Quest can be repeated after 66 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Chief Glortok]]''' in the '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Goblin Avenger: Meat Snails]] in order to undertake this quest.
+
+===Preface===
+I don't understand why those trees are down here. And I hate that! The ratkin stay away from there, as if they know some secret. I hate that, too! Kill the trees!
+
+===Requirements===
+* Kill Treants x15
+* Talk to Glortok
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You struck a blow for goblinkind. Fine.}}
+* {{Item|Xedrite}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Chief Glortok]]

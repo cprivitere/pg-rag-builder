@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Therese has asked for some dinosaur scales. She thinks there are dinosaurs living deep in the crypt beneath Serbule.
+
+===Prerequisites===
+To start this quest, talk to '''[[Therese]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I've been working on a new fertilizer using some dinosaur scales I had delivered from Statehelm. It's not working yet, but I think I'm getting closer! But I need more scales.
+
+Say, I heard someone say there were dinosaurs in the crypt! You know, the crypt at the back of the graveyard? I only ever saw horrible spiders, but I didn't go in very far. Could you look?}}
+
+===Requirements===
+* Obtain 5x {{Item|Small Dinosaur Scale}}
+* Talk to Therese
+
+===Rewards===
+{{Spoiler|Rewards for Dinosaur Scales For Therese|
+{{Quote|Perfect! Scaly! I'm going to turn them into powder and try to grow things with them. Wish me luck! Oh, here, let me show you a handy gardening trick.}}
+
+* 200 {{Favor|favor}}
+* 250 XP in [[Gardening]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Therese]]

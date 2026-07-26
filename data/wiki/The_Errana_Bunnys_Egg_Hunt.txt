@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+[[The Errana Bunny]] has challenged you to an egg hunt! Find the blue, yellow and red Errana Eggs scattered throughout Eltibule and Serbule. Once you have found them all, return to The Errana Bunny to collect your prize. '''IMPORTANT:''' You must remain in bunny form for the duration of this quest! If you jump out of bunny form for any reason, this quest will fail and you will have to start over!
+
+===Prerequisites===
+To start this quest, talk to '''[[The Errana Bunny]]''' in '''[[Eltibule]]'''.  The quest is available only to [[Rabbit]] form characters. The quest is only available during the [[Errana]] event.
+
+===Preface===
+{{Quote|
+[[The Errana Bunny]] has challenged you to an egg hunt! Find the blue, yellow and red Errana Eggs scattered throughout Eltibule and Serbule. Once you have found them all, return to The Errana Bunny to collect your prize. '''IMPORTANT:''' You must remain in bunny form for the duration of this quest! If you jump out of bunny form for any reason, this quest will fail and you will have to start over!
+}}
+
+===Requirements===
+* Pick up 5 Blue Errana Eggs
+* Pick up 5 Yellow Errana Eggs
+* Pick up 5 Red Errana Eggs
+* Talk to [[The Errana Bunny]]
+
+===Rewards===
+{{Spoiler|Rewards for The Errana Bunny's Egg Hunt|
+{{Quote|
+Good job! Here's the dye recipe as promised and a little something extra! (You can find the recipe for this in your crafting recipes under Dye Making)
+}}
+* Live Event Credits x5
+* Title: Eggsellent Hunter
+* [[Dye Making]]: Dye My Rabbity Fur Royal Purple! 
+}}
+
+
+[[Category:Quests]][[Category:Quests/The Errana Bunny]][[Category:Quests/Eltibule Quests]][[Category:Quests/Event Quests]]

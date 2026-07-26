@@ -1,0 +1,6 @@
+__NOTOC__
+==Server Maintenance Notes: Jan 28, 2022==
+We had a hardware failure after yesterday's server relocation, and the game was offline until about 4pm EDT to replace hardware. We apologize for the inconvenience! This breaks our uptime streak -- we'd gone almost three years without any lengthy service outage (excluding Steam login outages). Here's hoping we can beat that record starting now!
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

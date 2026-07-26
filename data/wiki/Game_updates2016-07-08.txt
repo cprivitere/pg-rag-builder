@@ -1,0 +1,6 @@
+==<b>July 8 Note</b>==
+: The next update is not this weekend as was vaguely hoped. The new [[Druid]] events just aren't diverse enough yet -- I coded up two different events, which is enough to test the system, but only having two possible "druid emergencies" seems to give a weird impression of how things will work eventually. So I want to code up a few more. Also, I kinda disassembled [[Animal Handling]] and haven't completely put it back together yet. So let's shoot for next week!
+:'''In the mean time I hope you're finding fun things to do! Please send feedback and bug reports about anything you think needs feedbacking or bug-reporting.'''
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Ivyn in Serbule asked you to kill the Salmpo, a plant creature he accidentally grew. It's south of town.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ivyn]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Close Friends}} favor.
+
+===Preface===
+{{Quote|So... my grandmother had a cruel sense of humor. I've been trying to grow a Sampo from her ancient notes - it's supposed to create gold from salt! But instead I grew a Salmpo. You know, the walking plant monster? It's horribly dangerous. Can you kill it for me? It's deep in the wilderness, south of town.}}
+
+===Requirements===
+* Kill and Loot the Salmpo
+* Talk to Ivyn
+
+===Rewards===
+{{Spoiler|Rewards for Ivyn Made a Salmpo|
+{{Quote|You got it? Good! Did you get its heart?}}
+
+* 300 {{Favor|favor}}
+* {{Item|I.O.U. Quest Reward}}
+* 1000 XP in [[Gardening]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Ivyn]]

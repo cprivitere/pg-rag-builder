@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+''The Bat in the Hat:''  Hello again! Say, it looks like you could use a stylish hat for the season! Zhia Lian and I have been talking a lot recently and she has been teaching me some new tricks. Would you like a cool, stylish hat for the season? Then get me these items and I'll put something together for you. See you soon! Riiii!
+
+This Quest can be repeated after 60 days.
+
+===Preface===
+''The Bat in the Hat:''  Hello again! Say, it looks like you could use a stylish hat for the season! Zhia Lian and I have been talking a lot recently and she has been teaching me some new tricks. Would you like a cool, stylish hat for the season? Then get me these items and I'll put something together for you. See you soon! Riiii!
+
+===Requirements===
+* Collect {{Item|Evil Pumpkin}} x5
+* Collect {{Item|Tealight}} Candles x5
+* Collect {{Item|Rubywall Crystal}} x4
+* Talk to [[The Bat in the Hat]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>The Bat in the Hat:</i>  Excellent! Here's a wonderful, festive hat to enjoy the season! While this hat is stylish, it's not very functional. If you want a version of this hat that is more functional, we'll need to talk some more.}}
+* {{Item|Ever-Glaring Jack O' Lantern}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

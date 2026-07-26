@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Yogzi in Sun Vale wants evidence of snail armor. He believes an innkeeper in Eltibule can teach the technique. A simple pair of snail-shell boots should suffice.
+
+===Prerequisites===
+To start this quest, talk to '''[[Yogzi]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+To begin this quest you must have level 1 [[Toolcrafting]].
+
+You must have previously completed [[Fancier Knives]] in order to undertake this quest.
+
+===Preface===
+{{Quote|Some random wanderer told me that in a far off land, they make armor out of snail shells using the same techniques I use to make tools. Ridiculous, isn't it?
+
+Go find out if it's true. Search far and wide! Leave no stone unturned!
+
+Well, if you want a hint, sure... I heard that some inn keeper in Eltibule is an expert at using snail bits.}}
+
+===Requirements===
+* Obtain {{Item|Decent Snail Boots}}
+* Talk to Yogzi
+
+===Rewards===
+{{Spoiler|Rewards for Snail Armor|
+{{Quote|These boots are hideous! But I like them! You are industrious. Let me show you some clever toolcrafting techniques usually only taught to goblins.}}
+
+* 200 {{Favor|favor}}
+* 1000 XP in [[Toolcrafting]]
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Yogzi]]

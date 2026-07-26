@@ -1,0 +1,161 @@
+<div style="text-align:center; padding:1em 0 0; color:#c80000;">
+'''Turning into a Lycanthrope is a PERMANENT CHARACTER ALTERATION. YOU WILL NOT BE ABLE TO REMOVE THIS CURSE. EVER.'''
+</div>
+__NOTOC__
+{{Skill infobox
+|title            = Lycanthropy
+|image            = [[File:Werewolf (normal form).jpg|300px]]
+|caption          = Skill in fighting as a wolf beast. Also indicates your ability to control and suppress the beast mode.
+|skilltype        = Beast Form
+|maxlevel         = 100
+|req              = N/A
+|skilltrainers    = [[Harry the Wolf]], [[Sanja]], [[Noita the Green]], [[Altar of Norala]]
+|gem = {{Item|Moonstone}}
+}}
+{{Quote|
+Skill in fighting as a wolf beast. Also indicates your ability to control and suppress the beast mode.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+A [[Lycanthropy|Lycanthrope]]'s [[Beast Forms|Beast form]] makes for a very powerful animal form. '''You'll be able to change to and from wolf form at will''', with the following limitations:
+* Characters with Lycanthropy may become a wolf at any time, instantly. However, to become humanoid (or your alternate beast form) again, wolves must kill a certain number of enemies before their beast spirit will now allow them to un-transform. The higher your Lycanthropy level, the fewer enemies you need to kill to un-transform, until at Lycanthropy level 53, you can switch back and forth without any killing.
+* During the full moon, Lycans are forcefully turned into wolf form and cannot un-transform for the three days of the full moon. This happens once every lunar month, matching the real life moon cycles. If your Lycanthropy-infected character was not in wolf form and offline when the full moon began, during the full moon you will be transformed into the default brown-fur wolf form immediately upon logging in. If you have unlocked and want to be in the Winter Wolf or Dark Wolf form during the full moon, you need to be in that form ''before'' the full moon phase begins.
+* Remember that turning into a Lycanthrope is a '''PERMANENT CHARACTER ALTERATION THAT CANNOT BE UNDONE''' and '''will NEVER be made reversible''' (the developers have ''repeatedly'' confirmed this). For this reason, it is highly advised you carefully consider the pros and cons before making the decision. For three days every month, Lycans are forced to play as a wolf, and several NPCs and vendors will not speak to wolves. Some can be persuaded to speak with wolves after a particular bribe or a short quest, but a few will not offer any options at all. This situation can by mitigated by using an alternate character and the transfer chest to sell items or by finding similar vendors in other zones who will speak to you or have a wolf bribe quest. 
+
+===Advantages===
+*Lycanthropy is one of the only few animal forms that can shift in and out of their humanoid or alternate beast form at will (except during full moons). And the transformation is instantaneous.
+*The [[Beast Metabolism]] ability, in which you can consume the corpses of your defeated enemies rather than burying them, provides a unique temporary health regeneration buff and, when leveled, significant boosts in overall [[Metabolism]].
+*The [[Howling]] ability, which grants health regeneration boosts and damage boosts—a buff which can last for up to five hours if the howling is done with additional howling wolves present.
+*During the full moon you have unique quest objectives that serve as an interesting alternative to typical skill progression.
+*Like all beast forms, Lycans (when in wolf form) can learn and use the [[Warden]] combat skill.
+*Wolves can wear and benefit from crafted wolf-specific metal armor (see [[Armorsmithing]]).
+*Lycanthropes receive a 30% max hp boost for 7 days, 4 days before in any form and the 3 days of the full moon 
+*Some npcs such as [[Kodan]] are easier to talk while being a lycanthrope
+*Lycanthropes in wolf form have natural claws, which makes certain [[unarmed]] skills work naturally
+
+===Disadvantages===
+*Lycanthropy is an [[Animal Form]]. Like all animal forms, you have no hands and many NPCs will refuse to talk to you. A few animals (such as [[Red]] in [[Kur]]) may not talk to you either or lose favor if you try to speak with them because you are a scary animal. The defensive pylons at the Fox Camp in [[Kur]] will also attack you.
+*For the three days of the full moon you will be unable to return to your human form no matter what. Words of power will work for their duration.
+*You cannot chop wood or milk cows while in wolf form. (Again, having a humanoid alternate character to deal with these matters when you are in wolf form can be handy, pun intended.)
+*Secondary combat skills while in wolf form are limited to [[Animal Handling]], [[Mentalism]], [[Necromancy]], [[Priest]], [[Psychology]], [[Unarmed]], or [[Warden]] because all the other combat skills require a specific enabling held weapon. Weapons for other skills are not recognized as being equipped while in wolf form, although any bonuses or mods on the primary or secondary weapon items do still apply.
+
+=== In-Game Description ===
+Skill in fighting as a wolf beast. Also indicates the wolf's ability to control and suppress the beast mode.
+
+=== Obtain {{msg:BASEPAGENAME}} ===
+* [[Harry the Wolf]] in Serbule Keep may know a thing or two about Werewolves. {{Hint|Get to Comfortable favor level with Rita and Harry the wolf will speak to you.}}
+* {{Item|Werewolf Spit}} is contaminated spittle containing the [[Lycanthropy|Lycanthrope]] Disease. Drinking it will make you a werewolf instantly and forever! This is NO cure.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* Levels 51-60 and 61-70 can be unlocked at the [[Altar of Norala]] during the Full Moon for tokens, or by [[Sanja]] for councils.
+* [[Noita the Green]] can unlock levels 71-80.
+* Levels 81-90 are unlocked by [[Big Footed Jim]] deep beneath [[Povus]].
+* Levels 81-90, 91-100, and [[Prodigy Potential]] are unlocked by [[Jenny Foster]] inside the [[Statehelm Sewers]] during the Full Moon using either councils or [[Statehelm Renown]]. Abilities are unlocked with tokens.
+
+== Connected Skills ==
+===== Sub-Skills:=====
+* [[Howling]].
+
+===== Secondary Skills:=====
+* [[Beast Metabolism]] - Beast Metabolism represents your metabolic efficiency when consuming raw meats. 
+===== Related Skills:=====
+* [[Beast Speech]] - Beast Speech is a skill that all [[Lycanthropy|Lycanthropes]] learn.
+
+===== Synergy Levels =====
+Bonus [[Synergy Levels]] for [[Lycanthropy]] can be obtained from the following skills and levels:
+:; [[Animal Handling]]
+:: Level 60
+:; [[Butchering]]
+:: Level 34
+:; [[Canine Anatomy]]
+:: Level 19
+:; [[Giant Bat]]
+:: Level 25
+:; [[Howling]]
+:: Level 25, and Level 50
+:; [[Pig]]
+:: Level 70
+:; [[Rabbit]]
+:: Level 70
+:; [[Skinning]]
+:: Level 35
+:; [[Survival Instincts]]
+:: Level 33
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+* Once a player becomes a werewolf, they'll be especially vulnerable to silver and wolfsbane, both in humanoid and beast forms. Eating food with wolfsbane or holding a silver weapon will harm werewolves.
+
+* During the four days before and during the full moon, werewolves receive the '''Lunacy''' buff, which increases their max health by +30%. (Both in your humanoid and beast forms)
+
+* Wolves have the ability to feed on enemy corpses for a regeneration buff that becomes more powerful based on [[Beast Metabolism]] 
+
+* The ability to howl increases a wolf's (out and in) combat health regeneration and damage. It will last up to an hour for a single wolf  or  for example 5 hours for a group of 5 wolves. Werewolves that howl together boost both effects and max duration  by - +1h +2hp regen and +1 damage for each wolf howling in proximity. Repeatedly howling will also eventually get wolves experience on the [[Howling]] sub-skill.
+
+=== The Full Moon ===
+* During a real life full Moon players will be stuck as a werewolf. If players are in white wolf form before the full moon you still stay in this form which is preferable due to the form's cold weather mitigation.
+
+* If wolves try to change forms during the full moon they will be stuck as the default brown wolf. Players can not change from normal wolf form to white wolf form during the event.
+
+* The full moon is an event. Go to [[Kur Mountains]] zone and enter the [[Wolf Cave]] at the Far north and center of the map. Directly Inside the cave is an [[Altar of Norala]]. Completing the altar quests will earn tokens. These tokens disappear if not used during the current full moon. They unlock permanent buffs like 50-60 lycanthrope, 60-70 lycanthrope, and dark wolf form or unlock month long buffs like +%damage, +health, +armor and the coveted +12 run speed bonus buff.
+
+* It is advisable to unlock the dark wolf form last. The number of tokens is limited by the number of quests. Unlocking the level caps and werewolf abilities should be a priority since tokens are "time gated" by the full moon.
+
+=== Altar of Norala ===
+During the full moon, werewolves may now interact with the [[Altar of Norala]] placed at the entrance of the [[Wolf Cave]] in [[Kur Mountains]]. The Altar performs several tasks for the goddess of the hunt, which will earn them tokens they can then spend on special abilities, unlocks and boons. 
+
+*The tokens must be used during the full moon or they will disappear.
+*The Boons and Runspeed buffs that are unlocked with tokens will last until the next Real Life full moon. 
+
+
+Please go to the [[Altar of Norala]] page for more information
+
+{{:Altar of Norala/Token Unlocks}}
+
+=== Riding ===
+As a [[Beast Forms|Beast Form]], [[Lycanthropy|Lycanthropes]] are not able to use the traditional Horse mounts offered through [[Riding]]. Instead, [[Sanja]] in [[Kur Mountains]] teaches the wolf mount-form to Lycan players who are at least level 30 in Lycanthropy. ''Hunting Speed'' (1 through 3) are now Wolf mount abilities (they used to be sidebar abilities), and are activated in the usual way at the''' Altar of Norala''' each month at Full Moon.
+
+Completing a quest with [[Jace Soral]] to defeat [[Bleddyn]] the werewolf will grant you the following alternative shapeshifting ability:
+{| {{STDT|sortable}}
+!Ability Name
+!Description
+!Level
+|-
+| Become Winter Wolf || Become a wolf with a thick winter coat of fur. (Use again to attempt to stop being a wolf). (+5 indirect cold damage mitigation, -2 indirect fire damage mitigation) || 0
+|}
+
+
+=== Equipment ===
+
+<!--Assume there is a list of all armor here. {{:Lycanthropy/Armor}}-->
+
+<!-- Adding another comment here to see if I can save the edit. -->
+* {{belt|Belt of the Werewolf}} (Lycanthropy) {{Hint|Crafted through the toolcrafting skill, level 36. Requires 20 Lycanthropy to be equipped.}}
+* {{belt|Belt of the Pack Leader}} (Lycanthropy, [[Animal Handling]]) {{Hint|Sold by Harry the wolf.}}
+* {{belt|Belt of the Cunning Wolf}} (Lycanthropy, [[Psychology]]) {{Hint|Sold by Harry the wolf.}}
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Lycanthropy Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Lycanthropy|
+{{:Xptables/TypicalCombatSkill}}
+}}
+
+== Trivia ==
+* Lycanthropy has no cure! There will never, ever be a cure. Be 100% certain you want your character to be a Lycan before committing to it.
+
+==Notes==
+[[Sanja]] can unlock [[Lycanthropy]] levels 51-60 and 61-70 for councils. Alternatively (and rather less expensively), these level unlocks are also available at the [[Altar of Norala]] during the full moon for task reward tokens. Similarly, [[See Red 6]] and [[See Red 7]] are also available from Sanja for councils, or from the [[Altar of Norala]] during the full moon for tokens. You may want to schedule your training options accordingly.
+
+If your character is a [[Druid]] and can transform into a deer, assuming it is not the full moon, you can use that to speak freely with NPCs who will speak with animals but are afraid of scary wolves. Transforming directly from wolf to deer (and back again) still counts as being in continuous beast form in terms of the 3-hour in-game beast form status required to speak to most [[Animal Town]] residents. ([[Druid]] bird forms also work.)
+
+== Gallery ==
+<gallery mode="nolines" widths=200px>
+File:Werewolf (normal form).jpg|A player using Werewolf form.
+File:Werewolf (winter form).jpg| A player using Winter Werewolf Form.
+</gallery>
+
+[[Category:Skills]]

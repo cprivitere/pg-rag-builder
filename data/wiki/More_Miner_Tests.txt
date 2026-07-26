@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Bogaku in the Rahu Sewers said, "You said the skeleton miners were just like regular skeletons, right? But what about the NON-skeleton miners? Hmm? You didn't take notes on those, did you? Well go back and see if the living miners are weird in any way. Remember to search their guts for clues!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Bogaku]]''' in '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Friends}} favor. You must have previously completed [[Some Miner Tests]] in order to undertake this quest.
+
+===Preface===
+You said the skeleton miners were just like regular skeletons, right? But what about the NON-skeleton miners? Hmm? You didn't take notes on those, did you? Well go back and see if the living miners are weird in any way. Remember to search their guts for clues!
+
+===Requirements===
+* Kill Ratkin Miners x10
+* Talk to Bogaku
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Nothing? No clues at all? They were just regular ratkin?!
+
+I know you aren't lying, but I really feel like you aren't giving me your best effort. <i>[Bogaku sighs.]</i> No, it's not your fault. It's mine, for expecting too much. Here is your shiny.}}
+* 50 {{Favor|favor}}
+* {{Item|Xedrite}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Bogaku]]

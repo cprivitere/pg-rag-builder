@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Mope in Povus said, "You wish to aid me? Then exterminate the ratkin root-tenders that constantly try to unearth my fungus!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Mope]]''' in '''[[Povus]]'''. The quest is available at {{Favor|Tolerated}} favor. 
+
+===Preface===
+You wish to aid me? Then exterminate the ratkin root-tenders that constantly try to unearth my fungus!
+
+===Requirements===
+* Kill Ratkin Root-Tenders x10
+* Talk to Mope
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|I acknowledge your deeds, but still the ratkin attack! You have merely stunted their progress. But your efforts are noble nonetheless. Should you have the stomach to continue killing them, I would be grateful.}}
+* 50 {{Favor|favor}}
+* {{Item|Xogrite Chunk}} x3
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Mope]]

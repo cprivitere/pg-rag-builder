@@ -1,0 +1,85 @@
+__NOTOC__
+{{NPC infobox
+|title            = Lugnir
+|image            = [[File:Lugnir (npc).jpg|300px]]
+|caption          = He looks a little sneaky.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = By the training dummies<br>in [[Serbule Keep]].
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|
+Those are my offerings. What strikes your fancy?
+}}
+
+'''Lugnir''' is a an [[Elven]] refugee living in [[Serbule Keep]]. He offers a series of Golem-based Challenges. 
+
+==Location==
+; [[Serbule]]
+: He waits by the training dummies in the Keep.
+
+== Trivia ==
+: Despite claiming to have a beard in his text, Lugnir is clean shaven.
+
+== Lugnir's Challenges ==
+; Training Golem Mark 10
+: Cost - 10 Councils
+: Objective - Kill 1 Mark 10 in 60 second
+: Reward - 100 Councils
+;Training Golem Mark 25
+: Cost - 50 Councils 
+: Objective - Kill 1 Mark 25 in 60 seconds
+: Reward - 500 Councils
+; Three Training Golem Mark 10s
+: Cost - 100 Councils 
+: Objective - Kill 3 Mark 10s in 75 seconds
+: Reward - 1,000 Councils
+; Training Golem Mark 25 and Healer
+: Cost - 120 Councils
+: Objective - Kill the Mark 25 in 75 seconds
+: Reward - 1,200 Councils
+; Training Golem Mark 37
+: Cost - 150 Councils
+: Objective - Kill 1 Mark 37 in 60 seconds
+: Reward -1,500 Councils
+; Training Golem Mark 37 and Healer
+: Cost - 180 Councils
+: Objective - Kill the Mark 37 in 75 seconds
+: Reward - 1,800 Councils
+; Training Golem Mark 37 Fire Mode and Healer
+: Cost - 220 Councils
+: Objective - Kill the Mark 37 in 75 seconds
+: Reward - 2,200 Councils
+; Training Golem Mark 50
+: Cost - 250 Councils
+: Objective - Kill 1 Mark 50 in 60 seconds
+: Reward - 2,500 Councils
+; Training Golem Mark 50 and Two 37s
+: Cost - 280 Councils
+: Objective - Kill the Mark 50 in 75 seconds
+: Reward - 2,800 Councils
+; Three Training Golem Mark 50s
+: Cost - 300 Councils
+: Objective - Kill 3 Mark 50s in 75 seconds
+: Reward - 4,000 Councils
+; Training Golem Mark X
+: Cost - 400 Councils
+: Objective - Kill 1 Mark X in 90 seconds
+: Reward - 6,000 Councils
+; Three Training Golem Mark Xs
+: Cost - 500 Councils
+: Objective - Kill 3 Mark Xs in 120 seconds
+: Reward - 12,000 Councils
+
+==Golems==
+See [[:Category:Golems]] for a list of Lugnir's creations.
+
+==Quests==
+Lugnir offers no quests. Instead, he has a series of challenges.
+
+== Conversations ==
+
+[[Category:NPCs]][[Category:NoRiShin]]

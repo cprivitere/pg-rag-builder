@@ -1,0 +1,175 @@
+__NOTOC__
+{{NPC infobox
+|title            = Urzab
+|image            = [[File:Urzab.png|300px]]
+|caption          = Squinting at a gemstone.
+|zone             = Ilmari
+|town = Amulna
+|location         = In the town of [[Amulna]].
+|anatomy = Goblin
+|species = Goblin
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Mining]], [[Surveying]]
+|vendor           = Yes
+|augment = Yes
+}}
+{{Quote|Amulna is smalll now, but wait and see. Walt and see what a goblin merchant can do for this little town!}}
+[[Urzab]] is a [[Goblin]] with a family in [[Sedgewick Forest]]. Fluency in [[Goblinese]] (35) is required to trade to him. [[Goblinese]] (50) is required to access all other interactions such as gifting or training. Because of clan in-fighting he was forced to travel to [[Ilmari]] continue his business. He hopes to "make it big" in order to move his family to [[Ilmari]] as well. For the meantime, he sends resources to his wife that she can turn into weapons. 
+
+== Location ==
+;[[Ilmari]] 
+:Inside a shop building in the town of [[Amulna]]
+== Shopkeeper ==
+{{Vendor items sold}} 
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Friends}}:|
+:500 Councils}}
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Close Friends}}:|
+:1,000 Councils}}
+{{Spoiler|Reward at {{Favor|Best Friends}}:|
+:2,000 Councils}}
+{{Spoiler|Reward at {{Favor|Soul Mates}}:|
+:2,000 Councils}}
+
+== Quests ==
+<dpl>
+category = Quests/Urzab
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mining]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mining{{pipe}}Unlock Mining Skill Levels 51-60
+ | skilllevel= 50
+ | cost = 20000
+ | favor = Close Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mining{{pipe}}Unlock Mining Skill Levels 61-70
+ | skilllevel= 60
+ | cost = 50000
+ | favor = Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Surveying]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Surveying{{pipe}}Unlock Surveying Skill Levels 51-60
+ | skilllevel= 50
+ | cost = 20000
+ | favor = Close Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Surveying{{pipe}}Unlock Surveying Skill Levels 61-70
+ | skilllevel= 50
+ | cost = 50000
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe=Ilmari Expert Metal Motherlode Map
+ | skilllevel=48
+ | cost =4733
+ | favor =Close Friends
+}}
+{{NPC training row
+ | recipe=Ilmari Master's Metal Motherlode Map
+ | skilllevel=53
+ | cost =6566
+ | favor =Close Friends
+}}
+{{NPC training row
+ | recipe=Ilmari Amazing Metal Motherlode Map
+ | skilllevel=58
+ | cost =7733
+ | favor =???
+}}
+{{NPC training row
+ | recipe=Ilmari Astounding Metal Motherlode Map
+ | skilllevel=60
+ | cost =7800
+ | favor =Best Friends
+}}
+{{NPC training row
+ | recipe=Gazluk Astounding Metal Motherlode Map
+ | skilllevel=60
+ | cost =7800
+ | favor =Like Family
+}}
+{{NPC training row
+ | recipe=Gazluk Superb Metal Motherlode Map
+ | skilllevel=65
+ | cost =9966
+ | favor =Like Family
+}}
+|}
+
+== Services ==
+====Augmentation ====
+[[Urzab]] can install Level 41-60 Augments for 650 Councils.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Winterprize}} x5
+|RiShin Family = {{Item|Winterprize}} x5, Random Gem x3
+}}
+== Conversations ==
+
+{{Quote|source=[[Urzab]]|
+I'm not a slaver, okay? I knowawhat people say about goblins. But I don't own any slaves. Right now’. Why are people so hung up on this?...}}
+{{Quote|source=[[Urzab]]|
+The furballs wouldn't let me set up shop in Rahu, even though I had the money. ‘Your kind scares away the elves and humans’, they said. Bah. So much for standing up for the downtrodden!}}
+{{Quote|source=[[Urzab]]|
+Some Rakshasa own slaves and that's fine. But; some gobllns have slaves and suddenly the whole race is klll on sight! Hypocritical much?! Yes! It ls! Sorry. I'm stlll angry...}}
+
+Animal players only
+{{Quote|source=[[Urzab]]|
+Pay?! Animals don't get paid. You'd get free meals and you could sleep outside. And I'll make sure you get the necessary shots, a flea collar, a little hat to make visitors gawk. That sort of thing.
+:'''An 'interesting offer', but no thank you.'''
+}}
+
+First time conversation for Spiders
+{{Quote|source=[[Urzab]]|
+No no no! No animals indoors! Whose spider is this? Get it out of here!
+:'''I have money! I'm sentient!'''
+Oh ho ho, look at the talking insect! Another freak! I don't care what you are! I only care that you're tracking sand into my establishment. Don't deny it! I see it right there at your feet: sand!
+:'''It's a desert. Sand happens.'''
+Uh huh. So why aren't you gone, spider? Do I have to have you kicked out?
+:'''Look... maybe some coin would smooth this over?'''
+:Okay, okay, I'm going!
+Hm. 500 gold. ''And'' you have to promise to wipe your feet.
+:'''But nobody else wipes their feet!'''
+Every desert spider that shops here does. Deal or not?
+:'''500 coins? Fine.'''
+:'''No deal. I'll  take my business elsewhere!'''
+}}
+
+{{Spoiler|Comfortable favor level|
+{{Quote|source=[[Urzab]]|
+You've done a good thing. I acknowledge my small debt to you. (Debt value not redeemable for cash.)
+}}
+}}
+
+[[Category:NPCs]]

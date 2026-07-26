@@ -1,0 +1,36 @@
+__NOTOC__
+==Summary==
+Chirrra in  the Serbule Hills Ranalon Den said, "Hmm, fetch me some of the boletus mushrooms. Oh, and can you chop them for me? I'm more of a mage than a laborer, you understand... then bring me the boletus flakes."
+
+===Prerequisites===
+To start this quest, talk to '''[[Chirrra]]''' in '''[[Ranalon Den]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This quest requires the previous completion of a [[:Category:Quests/Chirrra Tier 1|Tier 1]] quest from Chirrra.
+
+This is a solo quest from Chirrra. You may have one solo quest from Chirrra at a time. You can take on a new solo quest 15 minutes after completing or canceling this quest.
+
+===Preface===
+{{Quote|Hmm, fetch me some of the boletus mushrooms. Oh, and can you chop them for me? I'm more of a mage than a laborer, you understand... then bring me the boletus flakes.}}
+
+This is a [[:Category:Quests/Chirrra Tier 2|Tier 2]] quest from Chirrra.
+
+===Requirements===
+* Harvest {{Item|Boletus Mushroom}}s x5
+* Craft {{Item|Boletus Mushroom Flakes}} x5
+* Talk to Chirrra
+
+{{Spoiler|Response to player|{{Quote|Flaked mushrooms, just as I asked!}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Ranalon Den: Collect Boletus Mushrooms|
+{{Quote|Well flaked! You could have been a food-preparer! Instead of... what, an assassin, I guess. But I'm happy you're an assassin. So let's move on. Here's your reward and I'll have a new scheme for you momentarily.}}
+
+XP Scaled to a maximum of level 17:
+* 321 at level 17
+
+This quest will reward 1-2 of the following loot randomly: 
+
+'''Equipment (Level 20)'''
+* {{Item|Chirrra's Enoyos Talisman}}
+}}
+[[Category:Quests]][[Category:Quests/Ranalon Den Quests]][[Category:Quests/Chirrra]][[Category:Quests/Chirrra Tier 2]]

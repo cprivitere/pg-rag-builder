@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+A roving band of flapskulls and other undead have found their way to town. They have no necromantic master, but they are led by the hideous Chuckleflap. You can activate the pagodas in town if you need some fresh air.
+
+(To receive a reward, make sure that you personally help defeat at least one Elite or Boss enemy.)
+
+This Quest can be repeated after 0 days.
+
+This quest is only available at night. 
+
+===Preface===
+A roving band of flapskulls and other undead have found their way to town. They have no necromantic master, but they are led by the hideous Chuckleflap. You can activate the pagodas in town if you need some fresh air.
+
+(To receive a reward, make sure that you personally help defeat at least one Elite or Boss enemy.)
+
+===Requirements===
+* Defeat Flapskulls x40
+* Defeat Chuckleflap
+* (Personally defeat an enemy)
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You've repelled the flapskulls! Visit the town Status board for a reward.}}
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Povus Safety]]

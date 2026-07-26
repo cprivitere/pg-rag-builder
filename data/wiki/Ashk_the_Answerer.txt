@@ -1,0 +1,284 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ashk the Answerer
+|image            = [[File:Ashk the Answerer (npc).png|300px]]
+|caption          = He's examining a piece of entrail.
+|zone             = Rahu
+|town             = Rahu City (peaceful)
+|location         = Near the main entrance.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       =Yes
+|beastlist = All
+|skilltrainer     = Meditation, Pathology, Carpentry, Lore
+|vendor           = Yes
+|storage = Yes
+|consignment = Yes
+}}
+{{Quote|source=[[Ashk]]|
+A visiting goblin taught me the basics of shamanism, and I knew at once that it could be combined with the power of the mind. After years of experimentation, I am proud to say that it works! I can read the future! Of course, I can only read the very near future right now... but some day I shall be able to auger years into the future
+}}
+[[Ashk]] is a Rakshasa soothsayer and merchant in [[Rahu]]. With appropriate favor, and unless you're already under the effect of one of the [[Soothsaying|soothsaying]] recipes, he will offer the following dialogue.
+{{Quote|
+Ah, Player, it's good to see you again! Do you need your fortune read? For you, it's free.
+; '''I would like you to tell me my future.'''
+For you, my friend, there is no charge. Stand perfectly still! Are you ready?
+; '''I'm ready!'''
+(Ashk begins to read your future)
+
+There you have it! If you wish for me to read your future again, come back another day.
+; '''Thanks!'''
+}}
+== Location ==
+; [[Rahu]]
+: Near the gate coming from the Ilmari Desert. On the left side as you enter the city.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Ashk the Answerer]] rewards his friends with [[Storage]], beginning at {{favor|Comfortable}} favor.
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Let Ashk evaluate your animal body for potential soothsaying knowledge (5h) {{Favor|Comfortable}} {{Hint|Requires animal form.(Raven form worked, as did Spider and Bunny.)}}|
+{{Quote|I hope that wasn't too embarrassing. I've collected all of your measurements. Assuming you're an average specimen of your species, it's safe to say that your kind is quite valuable for augury! Of course, you'd have to die first. Ha ha ha! Sorry. That was in poor taste. I have no intention of killing you! I might buy your corpse after you die, but that's it! Um, here, take these baubles. They're shiny, aren't they? Off you go now!}}
+* 42 [[favor]] with [[Ashk the Answerer|Ashk]]
+* {{Item|Medium Prism}} x3
+}}
+{{Spoiler|Help Ashk prepare animal guts for soothsaying (3h)|
+{{Quote|Is that the bucket of spleens? Good. I keep them separate. In your basic soothsaying, spleens are just like any other organ. But in my most advanced augury techniques, spleens are quite valuable! Thank you for everything. Here, keep one!}}
+* 27 [[favor]] with [[Ashk the Answerer|Ashk]]
+* {{Item|Spleen}}
+}}
+{{Spoiler|Let Ashk practice new soothsaying techniques on you (8h)|
+{{Quote|It worked! The long-form augury allowed me to choose a very specific future for you. I chose to make you more fleet of foot in the near future.
+
+This technique could be huge! Of course, since it took eight hours of you standing perfectly still while I used a dozen chickens' worth of entrails, it's not really a very practical business practice tool... but still, knowledge is always good.}}
+* Augury: Swift (1 hour) - (+3 out-of-combat sprint speed)
+* 80 [[favor]] with [[Ashk the Answerer|Ashk]]
+}}
+{{Spoiler| Be awkwardly intimate with Ashk (4h) {{Favor|Soulmates}} {{Hint|Possible only Rakasha.(Was Rakasha other races are untested.)}}|
+* ? [[favor]] with [[Ashk the Answerer|Ashk]]
+* Ashk's Tail-Ring of remembrance +20 health 10% chance to miraculously avoid death. {{Hint|This is Racial Jewelry.}}
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Ashk
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Pathology]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Pathology{{!}}Unlock Pathology Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20,000
+ | favor = Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Pathology{{!}}Unlock Pathology Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 50,000
+ | favor = ?
+}}
+|}
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Meditation]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Meditation{{!}}Unlock Meditation Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20,000
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #52
+ | skilllevel = 52
+ | cost = 6,010
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #53
+ | skilllevel = 53
+ | cost = 6,040
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #54
+ | skilllevel = 54
+ | cost = 6,072
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #55
+ | skilllevel = 55
+ | cost = 6,102
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #56
+ | skilllevel = 56
+ | cost = 7,052
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #57
+ | skilllevel = 57
+ | cost = 7,084
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #58
+ | skilllevel = 58
+ | cost = 7,114
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #59
+ | skilllevel = 59
+ | cost = 7,114
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #60
+ | skilllevel = 60
+ | cost = 7,176
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #61
+ | skilllevel = 61
+ | cost = 9,046
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #62
+ | skilllevel = 62
+ | cost = 9,076
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #63
+ | skilllevel = 63
+ | cost = 9,108
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #64
+ | skilllevel = 64
+ | cost = 9,138
+ | favor = Friends
+}}
+{{NPC training row 
+ | recipe = Meditation #65
+ | skilllevel = 65
+ | cost = 9,168
+ | favor = Friends
+}}
+|}
+==== Soothsaying Training ====
+At Close Friends, [[Ashk]] will offer you training in Augury recipes if you are able to defeat a creature for him, the [[Eye of Fate]].
+{{Quote|source=[[Ashk the Answerer]]|
+In the desert near Rahu, look for a giant skull embedded in the face of a cliff. Ignore the skull and look for a large staff in the sand near the base of the cliff. Stand near the staff and say something like, "I'm going to start soothsaying now!" That should get the eye to emerge. Be ready! It is no ordinary foe. You will likely need help. Slay the creature and you shall have my utmost appreciation.
+}}
+Once the summoned creature is defeated, Ashk will offer training of Augury recipes in his Training menu. Learning Augury requires [[Meditation]] 50 or [[Shamanic Infusion]] 50.
+
+[[Perceive Spawn Premonitions]]: the 2s requires [[Meditation]] 25 or [[Shamanic Infusion]] 25, while 4s requires [[Meditation]] 60 or [[Shamanic Infusion]] 60. (Favor lv will need confirmation)
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Lore]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Beginner's Augury
+ | skilllevel = 0
+ | cost = 2760
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Basic Augury
+ | skilllevel = 0
+ | cost = 8280
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Advanced Augury
+ | skilllevel = 0
+ | cost = 13800
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Expert Augury
+ | skilllevel = 0
+ | cost = 23000
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Perceive Spawn Premonitions (2 secs)
+ | skilllevel = 0
+ | cost = 2760
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Perceive Spawn Premonitions (4 secs)
+ | skilllevel = 0
+ | cost = 20000
+ | favor = Best Friends
+}}
+|}
+
+== Services ==
+==== Consignment ====
+; Ashk the Answerer offers [[Consignment]] at {{Favor|Friends}}.
+: Mark up fee of 10%, stocking fee of 50 Councils.
+: Max 2 active consignments (Equipment, corpse trophies, augmentation-related materials).
+: Max 4 consignments per week.
+
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Ashk the Answerer
+|favorrestriction =Comfortable
+|itemrestriction =Anything
+|neutral =0
+|comfortable =8
+|friends =16
+|closefriends =24
+|bestfriends =32
+|likefamily =40
+|soulmates =48
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Strong Psychic Resistance Potion}} x3
+|RiShin Family ={{Item|Strong Psychic Resistance Potion}} x3, + 2x Random Decoction of Knowledge <br>(ex. {{Item|Decoction of Pathology Knowledge}}, {{Item|Decoction of Pig Knowledge}}, {{Item|Decoction of Wind Performance Knowledge}})
+}}
+== Conversations ==
+{{Quote|source=[[Ashk]]|
+I read the future from different body parts depending on what seems most important at the time. Bones help augur safety, while a nice heart can help foresee whether you will find great treasures. A horn can ensure that you learn more from your lessons... and so forth.}}
+
+Upon reaching Favor level Close Friends:
+{{Quote|
+Ah (your name), we are good to each other. You keep me grounded in the now, and I keep you thinking about the future.
+}}
+
+[[Category:NPCs]]

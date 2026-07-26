@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Willem Fangblade in Red Wing Casino said, "I'm sorry to say this, but the last cheese didn't work out either. But this time I know exactly what's needed. I called in some expert help! I need a 'brunost' cheese, it's the best for the cheap wine I've been usin'. Guaranteed ta work this time. I fuckin' hope."
+
+===Prerequisites===
+To start this quest, talk to '''[[Willem Fangblade]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Neutral}} favor. You must also complete [[Better Cheese Needed]].
+
+===Preface===
+{{Quote|
+I'm sorry to say this, but the last cheese didn't work out either. But this time I know exactly what's needed. I called in some expert help! I need a 'brunost' cheese, it's the best for the cheap wine I've been usin'. Guaranteed ta work this time. I fuckin' hope.
+}}
+
+===Requirements===
+* Obtain {{Item|Brunost Cheese}} x1
+* Talk to Willem Fangblade
+
+===Rewards===
+{{Spoiler|Rewards for Still Better Cheese|
+{{Quote|
+Ugh, this is the rankest cheese ya've brought me yet! And hopefully the last! Dwarves weren't made to eat cheese, I tell ya!
+}}
+* 100 favor towards Willem Fangblade
+* 1000 Councils
+* {{Item|Red Wing Token}} X3
+}}
+
+[[Category:Quests]][[Category:Quests/Willem Fangblade]][[Category:Quests/Red Wing Casino Quests]]

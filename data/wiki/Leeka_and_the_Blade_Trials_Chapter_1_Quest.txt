@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Durstin Tallow in Serbule Hills said, "I know my wife gave one of the chapters to old Julius Patton. He lives on the farm nearby. He's not a bad sort; explain things to him and see if he'll give the chapter to you."
+
+===Prerequisites===
+To start this quest, talk to '''[[Durstin Tallow]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This quest requires that you have spoken to [[Durstin Tallow]] regarding his need of an adventurer to solve his book problem.
+
+===Preface===
+{{Quote|I know my wife gave one of the chapters to old Julius Patton. He lives on the farm nearby. He's not a bad sort; explain things to him and see if he'll give the chapter to you.}}
+
+===Requirements===
+* Talk to Julius Patton
+* Talk to Durstin Tallow
+
+{{Spoiler|Response to player|{{Quote|So Durstin's trying to put the book back together, huh? I guess it's part of the healing process.
+
+Yeah, Durstin really messed up! His wife was on her deathbed and he went and slept with her best friend. He was so ashamed. His wife forgave him before she died, though. And I guess he's forgiven himself now, too. Let me get those pages for ya.}} }}
+
+===Rewards===
+{{Spoiler|Rewards for 'Leeka and the Blade Trials' Chapter 1|
+{{Quote|Thanks. I have info on another chapter, if you're interested in helping more.}}
+
+* 100 {{Favor|favor}}
+* 250 councils 
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Durstin Tallow]]

@@ -1,0 +1,26 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Create Basic Golem
+| description = You concoct an automaton that can be given three commands.
+| level = 31
+| power cost = 50
+| reuse time = 90
+| range = 0 meters
+| skill = Battle Chemistry
+}}
+|-
+|
+{{Ability infobox
+| name = Create Basic Golem
+| description = You concoct an automaton that can be given eight commands.
+| level = 81
+| power cost = 50
+| reuse time = 90
+| range = 0 meters
+| skill = Battle Chemistry
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

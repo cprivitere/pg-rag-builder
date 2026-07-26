@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Sir Arif has asked you to kill the dinosaurs that roam the crypt.
+
+===Prerequisites===
+To start this quest, talk to '''[[Sir Arif]]''' in '''[[Khyrulek's Crypt]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|So we accidentally summoned a portal to an area infested with dinosaurs. And now this tomb is crawling with them! I've cleared out a bunch from this area, but can you hunt down some more?}}
+
+===Requirements===
+* Kill Dinosaurs
+* Talk to Sir Arif
+
+===Rewards===
+{{Spoiler|Rewards for Damned Dinosaurs|
+{{Quote|Thanks! Here, take this. It's not much, but it's a token.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Power Potion Extreme}} x 2
+}}
+[[Category:Quests]][[Category:Quests/Khyrulek's Crypt Quests]][[Category:Quests/Sir Arif]]

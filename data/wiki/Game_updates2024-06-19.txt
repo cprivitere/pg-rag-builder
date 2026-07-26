@@ -1,0 +1,243 @@
+==Update Notes: June 19, 2024==
+Summer is finally here -- and with it, another big update to the world of Project: Gorgon. This one took us a little longer than expected, but we think the results are worth it. New dungeon? Check! New skills? Multiple checks! Performance improvements? Also check! Ongoing QoL improvements? Major check! Combat balance? Progress made! Visual improvements? Looking good! Bug fixes? So many, many bugs have been fixed! In fact, we have a lot of stuff to talk about today -:- so let's get to it!
+
+===Price Drop===
+Before we get into the nuts and bolts of the update, though, we have a happy announcement: Project: Gorgon is now $20 on Steam. That's not a half-off sale - that's a permanent price drop! But there's a small catch: the $20 package only includes one character slot. We've created a new DLC package that adds three more permanent character slots to the basic account. Everyone who bought the game prior to the price drop automatically has this DLC for free, so those players will see no change: you still have four character slots. (Note that since you automatically own this DLC, you can't buy it again to get more.) The intent of this price change and structure is to lower the barrier to entry for new players, while still honoring the investment that earlier players already made.
+
+Looking for more than four character slots? Remember, VIP membership comes with access to another 4 additional slots while you are a VIP member! 
+
+===Elven Judgement===
+The Nightmare expands! Deep under Povus, beyond the frogs, beyond the warren of caves, past the horrific mummies, past even the confused bandits, there sits an elven bureaucrat with a question. 
+
+This new adventure is intended for a group of six players with level 90+ combat skills and equipment.
+
+===Combat & Treasure===
+=====Special Monster Buffs=====
+Sometimes in combat a monster will take a second (well, actually they take precisely 5 seconds) to buff itself before joining the fight, which displays as a green up-arrow bubble effect. We call these Special Monster Buffs, and in this update we have made some changes to how they work:
+
+:- Previously, most Special Monster Buffs only affected the monster that was buffing itself. Now it affects all monsters within 20 meters of the caster.
+:- The Special Monster Buff "Reflective" is now "Burst Reply" instead. It no longer reflects a percentage of damage back at attackers; instead, when the buffed target is hit by a Burst attack, they reply with a fixed amount of damage. The buff will react to the next 3 burst attacks (not infinite attacks, as Reflective did).
+:- Several of the Special Monster Buffs have unique particle effects to help quickly differentiate them.
+
+(By the way, did you know that during the 5-second window while a monster is casting a buff, you can stop their casting by stunning, mesmerizing, fearing, or knocking back the monster? This is a game-mechanic that we don't teach very well yet.)
+
+====="Thick Armor" replaced with "Resilient"=====
+Previously, some monsters had "Thick Armor", which caused them to take significantly reduced damage while their Armor was high. This effect has been replaced, and now all those monsters are instead "Resilient", which means that they take half damage from Indirect damage sources (such as damage-over-time).
+
+(By the way, did you know that indirect damage sources cancel out regeneration? This is one of the many game systems that we don't do a good job teaching yet. If a monster has Regeneration, any indirect damage you deal will cancel out an equivalent amount of regeneration. If you deal 10 damage, the monster will regenerate 10 less health than it otherwise would.)
+
+=====Ability Type Fixes=====
+In this update, we fixed a fairly subtle but widespread bug: some abilities weren't correctly marked as Melee, Burst, or Ranged attacks, which affects the buffs and debuffs that apply to them. 
+
+For background: every offensive ability has precisely one of the following keywords at any given time: Melee, Ranged, or Burst. If the ability has any area-of-effect radius, it's Burst. If a Melee ability gains an area-of-effect due to treasure, the ability would stop being Melee and start being Burst.
+
+:- Some abilities were incorrectly treated as Ranged attacks and are now Burst attacks: Panic Charge, Multishot, Heavy Multishot, Astral Strike.
+:- Some abilities were incorrectly treated as Ranged attacks and are now Melee attacks: Deathgaze, pet bee stinger attacks.
+:- Some abilities were incorrectly treated as Melee attacks and are now Burst attacks: King of the Forest, Deflective Spin, pet bee poison-debuffs.
+:- Some abilities were incorrectly treated as Melee attacks and are now Ranged attacks: Chill.
+:- Some monsters had abilities that incorrectly marked as Ranged or Melee instead of Burst: Hexapuses, high-level undead swordsmen, Electrified Pigs, goblin fire mages, Kuvou, orc fire-archers, watchers, Lamia, ratkin mentalists, spike traps, training golems, (and probably other one-off monsters that reuse the abilities of the above).
+:- Some monsters had Ranged attacks that are now Melee attacks: Vipers, Wasps (stabs).
+:- Some monsters had Melee attacks that are now Ranged attacks: ogres' boulder throws, electric-wizard skeletons, various fae, some spiderwebs, wasps (bullets), giant beetles, tentakillers.
+:- Some monsters had Burst attacks that are now Melee attacks: Minotaurs.
+:- Some bosses were affected similarly: Ratkin King, Lethargy Puck, Eye of Hate, Scion of Discord, Astarion, Sherzat, and probably others.
+
+=====Bard Treasure Changes=====
+:- [[Bard]] ability Virtuoso's Ballad: Reset time changed from 60 seconds to 50 seconds; minor treasure number changes as a result.
+:- (Legs, MainHand) "Virtuoso's Ballad restores 200 Armor" => "Virtuoso's Ballad restores 192 Health (or Armor if Health is Full)"
+:- New treasure effect: (Head, Feet): "Virtuoso's Ballad causes target's next attack to deal +376 damage"
+:- (Legs, Hands) "Blast of Fury deals 276 Armor damage and restores 43 Armor to you" => "Blast of Fury deals 440 Armor damage"
+:- (Feet) "Disharmony causes target to deal -10 damage with their next attack" => "Disharmony causes target's next attack to have a 16% chance to automatically Miss. (This effect does not stack with itself.)"
+:- (Ring) "Disharmony causes target to deal -10 damage with their next attack" => "Disharmony causes your next attack to deal +47 damage"
+:- (Head, Legs, OffHand) "Bard Blast-Ability Range +5" => "Bard Blast-Ability Range +5, Bard Blast-Ability Damage +84" (Note: previously there was only one tier of this treasure effect, which could be found starting at level 50 and up. There are now multiple tiers of the ability. If you had this effect on your high-level item already, the item will still have the level 50 version. You can use Transmutation to remove the treasure effect from the item and (eventually) re-roll it with a higher-tier effect.)
+
+=====Hammer Treasure Changes=====
+:- (Head, Chest) "Discharging Strike Power Cost -44" => this effect is now only available on Chest, not Head. Helmets with this treasure effect have now become Legacy. You can use the [[Transmutation]] skill to roll this effect off of the helmet and it will stop being Legacy. Alternatively you can speak to the Legacy Item Helper golem in [[Serbule]] for a randomized replacement item
+:- (Ring, Off-Hand): "Pound To Slag restores 144 health to you" => "Pound To Slag restores 144 Health (or Armor if Health is full)"
+:- (Chest, Feet) "Leaping Smash restores 64 Armor to you" => "Leaping Smash deals +100 Damage and restores 64 Armor to you after a 6-second delay"
+:- (OffHand, Necklace) "Seismic Impact restores 100 Armor to you" => "Seismic Impact deals +100 Damage and restores 100 Armor after a 6-second delay"
+:- (Feet, MainHand) "Rib Shatter restores 48 Health to you" => "Rib Shatter deals +100 Damage and restores 48 Armor after a 6-second delay"
+:- (Legs, Necklace) "Thunderstrike heals you for 51 health" => "Thunderstrike deals +60 Damage and restores 60 Armor after a 6-second delay"
+:- New treasure effect: (Head, Necklace): "Discharging Strike Damage +140"
+:- New treasure effect: (Chest): "Hammer abilities that restore Armor after a 6-second delay have +100% Armor restoration"
+:- New treasure effect: (Hands, Legs) "Hammer abilities that restore Armor after a 6-second delay also restore 25 Power, increased by 20% of the Armor restored"
+
+To assist [[Hammer]] players trying out these changes (along with the changes in the past couple of updates), Transmutation costs for Hammer will be reduced this month.
+
+=====Warden Treasure Changes=====
+:- (Feet): "Controlled Burn costs -33 Power" => "Controlled Burn and Aggression Deterrent cost -37 Power"
+:- (Feet, Ring): "Aggression Deterrent Power Cost -22; Aggression Deterrent Damage +43" => "Aggression Deterrent Range +5; Aggression Deterrent Damage +43"
+:- (Legs): "Marking Cut deals +60 damage and grants +85 Accuracy to your next Knife ability" : No changes to the displayed effect, but this treasure effect also quietly made Marking Cut prevent monster-shouts. A different treasure effect is supposed to do that (and does), so that's been removed from this one.
+:- (Legs, Necklace): "Apprehend costs -47 Power" => this treasure effect is now only available on Necklace. If you had this effect on Leg armor, that item has become Legacy. You can use a Transmutation Table to remove this effect and it will stop being Legacy. Alternatively you can speak with the Legacy Item Replacer golem in Serbule to get a new randomly-generated item.
+:- New treasure effect: (Legs): "Apprehend Damage +98. Non-Elite targets do not call for help."
+
+=====Other Abilities & Treasure Changes=====
+:- Abilities with longer attack times are no longer overridden by queued abilities (most notably, certain archery abilities).
+:- Archery: Fix ammo-related typos for Heavy Shot 8 & Multishot 7.
+:- [[Battle Chemistry]]: Fixed bug with golem's Self-Sacrifice ability potentially causing damage to the owner.
+:- [[Psychology]]: Soothe's critical damage is now affected by mods.
+:- Psychology: Fixed a bug with the mod "Psychoanalyze causes the target to be worth X% more XP if slain within 60 seconds"
+:- [[Deer]]: Deer Bash 8 now does the correct damage (288 -> 400).
+:- [[Fire Magic]]: The mod "Fire Breath and Super Fireball deal +X damage over 10 seconds" now does more damage at higher levels.
+:- Knife: Fixed bug with knife treasure effect: "Knife abilities with 'Cut' in their name cause all Knife abilities WITHOUT 'Cut' in their name to have a 48% chance to deal +39% damage for 10 seconds". This treasure was applying the buff for a different treasure effect.
+:- Knife: Bleeder Shiv now boosts trauma damage instead of poison.
+:- Knife: Fix the mod "Backstab deals +X direct damage. You recover X Health (or Armor, if Health is full) over 12 seconds". It now actually heals you.
+:- Knife: Surge Cut is now affected by mods that affect Minor Heals.
+:- [[Mentalism]]: Power Wave ability: Restores Power every 4 seconds instead of every 6 (effectively increasing Power recovery 50%)
+:- Mentalism: (Head, Hands): "System Shock restores 56 Armor to you" => "System Shock Damage +78, System Shock Critical-Hit Damage +40%"
+:- Mentalism: (MainHand, Ring): "System Shock boosts the damage of your Signature Debuffs by +116 for 6 seconds" => "... for 8 seconds"
+:- [[Priest]]: Give Warmth 6 now restores 35 body heat (up from 25).
+:- [[Spirit Fox]]: Power Glyph ability: the amount of Power restored by the glyph is increased; this is a display fix (the glyphs gave out this amount of Power before, but it was listed as less.) Also adjusted description to explain that group members can use the Power Glyph
+
+=====Other Combat Changes=====
+:- Based on feedback, we've made the Hardcore Living skill require more XP to level up. (As always when XP tables are changed, your current level in the skill is unchanged. But the amount you need to reach next level will be affected.)
+:- Fixed a bug that caused monsters to behave strangely when hit by Slow effects while already moving at high speed.
+:- Ranalon Guardians' blind attack is now actually a 20 meter Burst as intended.
+:- Yetis with a slowing-ice ranged attack now have a range of 20 meters as intended (instead of a range of 6 meters).
+:- Portal-summoning mantises no longer hurt themselves when they summon portals.
+:- Fixed a bug that could cause monsters to get stuck while wandering.
+:- Improved damage of higher-level explosion sigils, electricity sigils, and acid sigils. Electricity Sigil 4 and Acid Sigil 4 are a higher level as a side effect of rebalancing.
+
+===Off to the Races!===
+There's a new activity for Project Gorgon's most expert riders: horse races! These are checkpoint races through the wilds; to finish the race, you must ride through each glowy domed checkpoint in order. There are other glowing points to look out for as well: if you run through a speed-up pool, your horse will go faster but become more anxious and may suffer other negative effects, while other glowing pools can reduce anxiety and help counter the speed-up's negative effects. Oh, and most importantly: avoid monsters!
+
+You can get started by visiting one of the Race Flags: 
+:- Eltibule Circuit: In Eltibule, near Mythander.
+:- Amulna Grand Tour: In Ilmari, outside the north entrance to Amulna.
+:- Kur Mountain Debry: In Kur Mountains, just outside Syndra's barn. 
+
+You can also use the race flags to view the leaderboard for each race.
+
+===Quality of Life===
+One of our areas of focus over the past several updates has been on improving quality of life (QoL) and reducing friction: that is, smoothing out some of those small annoyances that make the game less fun. In this update we've done major work improving inventory management, especially as it pertains to corpses, as well as added some useful features like unread quests and notification dots.
+
+=====Corpse Management=====
+:- The corpse-looting window now displays other nearby corpses, and allows switching between them via Tab. This key is configurable in Settings > Keys > Contextual > Corpse: Select Next.
+:- "Take All" on corpses now loots items that you have partial stacks of in your inventory, even if your inventory is otherwise full.
+:- Using Take All on a corpse when other corpses are nearby will now auto-select the next corpse.
+:- Burying a corpse no longer closes the window if other corpses are nearby.
+:- The distance at which you can loot a corpse - your Corpse Loot Radius - can be increased! 
+:- Leveling Foraging increases this distance by a total of +3 meters at level 75. 
+:- Leveling Skinning, Butchering, and Survival Instincts increases this distance by a total of +2 meters each at level 80.
+:- Gain a total of +1 meter by maxing Werewolf Metabolism to 50 (as that is the level cap atm).
+
+=====Other Inventory Management=====
+:- Guild chests are now included in ctrl-f item searching (or /isearch).
+:- Item Search (ctrl-f or /isearch) now highlights items that it finds in your inventory.
+:- Storage Deposit All and Stow buttons now have hotkeys, configurable under Settings > Keys > Contextual. Defaults are G and Shift-G respectively.
+:- Withdrawing items from storage now deposits them into the currently-open inventory folder.
+:- Abilities that require an item to use now show the current amount of that item in your inventory in the tooltip.
+:- You can now Ability-Lock inventory folders, similar to Vendor-Locking them! This prevents items inside that folder from being used by abilities.
+:- New icons were added to the inventory window to denote when the current folder is Ability:- and/or Vendor-Locked.
+:- Abilities with ammunition now pull their ammo from the smallest stack in your inventory.
+:- You can now show the number of free inventory slots you have at all times as a small number on the Inventory button on your right-hand sidebar. Enable "Show HUD Inventory Space" under Settings > GUI > Windows & HUD > Other Windows Settings.
+:- The item info window now has a "SELL" tab that lets you view all NPCs that buy the item in question.
+:- Moved a few inventory settings from buttons in the bottom right of the window to the gear icon at the top right.
+:- Goblin Calling Cards and Orcish books now display their level requirements on the icons.
+:- Equipment icons now show their levels in the persona window.
+
+=====Other New QoL features=====
+:- When a Quest auto-completes (meaning it doesn't have to be turned in to anyone), its outcome now goes into a new section in the Quest Log, rather than being presented right away. Some quests, namely event-specific ones, are exempt from this behavior.
+:- When you have one or more unread auto-completed quest, the Quest sidebar button now shows a notification dot, and clicking on it takes you straight to the unread quests section.
+:- Tracking & untracking quests in the Quest Log is now more responsive.
+:- We now display a notification dot on the Persona button and Redeem button (in the Persona window) when a new redemption is available. 
+
+Even more UI bug fixes of a smaller sort can be found below in the UI section.
+
+===UI===
+:- New targeting settinng: Auto-Select Attackers. This setting can be found under Settings > GUI > Targeting > Tab Targeting (Experimental). It defaults to enabled.
+:- New targeting hotkey: Select Nearest Enemy. This keybind can be found under Settings > Keys > Targeting > underneath the keybind for "Select Previous Enemy".
+:- "Select Next Interactible" now prioritizes NPCs.
+:- The /target command now prioritizes non-corpses.
+:- Map pin labels now show on the minimap.
+:- Added party members' names above them on the map.
+:- Added Viedesi, Urglemarg, and Puffy Ben to the Sun Vale map.
+:- Willem Fangblade's map info now knows that he has a store, and shows his council count.
+:- NPC map icons will no longer overlap your own after first meeting them.
+:- Fixed a a bug causing party members and pets to sometimes disappear from the map.
+:- Fixed a bug that caused minimap buttons to become unreadable at different GUI zoom levels.
+:- Holding shift while viewing an item with enchantments now shows the enchantment levels.
+:- Extract Augment recipe descriptions are now clearer, and reference the new functionality of holding Shift.
+:- Polished the loading screen a bit, and added several new tips -:- many provided by players! A big thank you to everyone who contributed!
+:- Some hotkeys now have explanatory tooltips; those that do are marked with an asterisk (*).
+:- Fixed a bug causing XP values to sometimes wrap to the next line.
+:- Fixed a bug with gear sometimes disappearing in the persona preview window.
+:- Fixed a minor UI bug in Skills Window causing level numbers to sometimes wrap strangely.
+:- Fixed a bug causing UI elements to lose their locked status across multiple play sessions.
+:- Tooltips should no longer appear in their old position before quickly updating to their new position.
+:- Fixed a bug causing the horse window to not remember that it was closed when it closes itself after opening the saddlebag.
+:- Fixed a bug causing some face portraits to not display.
+:- Improved tooltip readability of certain items with long names (notably Crisp Mint Vanilla Cinnamon Coffee).
+:- Right-click options that are simple on/off settings have a new icon, and can be toggled without closing the context menu.
+:- Added some polish to the right-click menu.
+:- Standardize fonts, colors, and spacing across many UI windows with a focus on window titles.
+:- Item durability no longer rounds up, which resulted in the transmutation window sometimes not working.
+:- Update the transmutation window UI to be more in-line with the rest of the game's UI.
+:- Right-clicking an empty hotbar slot now lets you set that slot's ability (for primary and secondary skills).
+:- Item levels & rarities are now shown in the loot window.
+:- Werewolf Altar abilities are now visible en masse when their prerequisite level-uncap is purchased.
+:- Fix visual glitch on many elven hairs.
+:- Fix 'Show Player Stats Pane' GUI setting.
+
+===Other Changes & Fixes===
+=====Art=====
+:- Bard Armor is now dyeable!
+:- Snail Armor is no longer dyeable since it doesn't dye properly. 
+:- Mended Thentree Armor so your legs no longer peek through the skirt.
+:- Visual improvements to all Cloth armors.
+:- Visual improvements to all Leather armors.
+:- Visual improvements to several other armor sets, including: Thentree, Peltast and Steel Platemail.
+:- Improved animation for laying in a bed and subsequently waking up out of one.
+:- Added new animations to all butterfly dances.
+:- Added more particle effects to some pig dance variants.
+:- Added new animations to several spider dance variants.
+:- Sealed holes in spider model. 
+:- Fixed a few cases of infinite-looping animations.
+:- Swordsman's Elven Longsword offensive topology is now different and less offensive.
+:- Furniture in the Abandoned Sunvale Inn now has textures.
+:- Closed holes in Kur Tower.
+:- The lake bridge in Povus should no longer disappear when seen from certain spots. 
+:- Fixed the physics on rocks in Povus.
+:- Added better handling of NPCs in flight that can also swim. Also improved fly-follow logic for flying monsters, to further reduce jitter in the air.
+:- Improved minotaur animations.
+:- Improved animation, VFX, and SFX for summoning cosmetic pets.
+:- Fixed some gear that previously was supposed to glow but wasn't.
+:- A number of off-hand weapons have new more distinct icons.
+
+=====Gameplay=====
+:- The loot from defeating Knight Eggs is improved. 
+:- The guardians of the Knight Eggs, Gross Maggots, are no longer worth any XP.
+:- You now gain a synergy level of [[Civic Pride]] when reaching level 38 of [[Compassion]]. (This allows players to receive the final level-up benefit of Civic Pride which is obtained at level 51: "+1% Favor from Hangouts".)
+:- Many cosmetic pets and player titles are now shared across all the characters on an account. You will need to login the character who originally gained the pet/title once before being able to access it on other characters on the account. 
+:- New emote for everyone: /bow. In addition, the emotes /taunt and /thank have new animations.
+:- Current VIP members can also use two new emotes: /accuse and /monkey.
+:- You can no longer promote someone who has recently left your party.
+:- If you misplace a certain key related to a certain skull, you can now get a replacement from the thing that gave you it to begin with.
+:- Fished a missing skull button out of the wall (in a certain trap room that has a lot of skull buttons).
+:- Added missing skill-training unlock for [[Pathology]] 90.
+:- The recipes for Crafted Alchemist's Claws are no longer [[Blacksmithing]] recipes; they are now under a new skill. They are no longer trained by [[Kohan]].
+:- Crafting Caravan: All quest titles have been updated for better sorting in the Quest Log.
+:- Crafting Caravan: Prices for some items bartered by Orran have been reduced.
+:- "Awesome Bard Boots" are no longer erroneously called "Amazing Bard Boots".
+:- Fixed a typo on Birch Pants.
+:- Updated quest text for "Holistic Wellness: Yarn" to clarify the required number of yarns.
+:- Fairy Soul Anchors now bestow 3 seconds of invulnerability to protect against immediately re-dying.
+:- Increased drop rate of orcish wheat grinders.
+:- Fixed a typo in Sie Antry's dialog.
+:- You can no longer try to dance if no nearby music is playing.
+:- Changing equipment while using furniture now continues using the furniture afterward.
+:- You can no longer mount your horse while using furniture (chairs, beds).
+:- Mounts turn a bit slower in water.
+:- Fixed a bug causing horses to not jump if you aren't actively pressing forward. (As long as they still have momentum, they'll jump.)
+:- Fixed a bug that could cause multiple Hissy's to spawn in the desert.
+:- Fixed bugs that caused monsters in the Fae Realm to never spawn in pairs or trios as intended.
+:- Improved performance of monster and pet movement.
+:- Fixed the appearance of dice in Monsters and Mantids when game graphics are set extremely low
+:- baruti BaRuTi BARUTI
+
+===VIP Gifts===
+We're proud of our VIP program -- we believe we've managed to offer some fun (but not required!) benefits for players who want to offer us additional support. Part of those benefits are monthly VIP gifts: if you logged in as a VIP member during the month, you can redeem a VIP gift for that month. (Note that you don't have to be an active VIP member to redeem the gift; you just need to have logged in as a VIP sometime during the month.) And in a case like this update, the gift may not be immediately ready, but as long as you were a VIP during that month you will be able to redeem it when it becomes available. 
+
+The VIP gifts for May, June, and July contain some of our coolest gifts yet, including pets and titles and dyes ... and a rather strange and itchy Firefly Hat. In addition, current VIP members will also get access to two new emotes in this update: /accuse and /monkey.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

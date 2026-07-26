@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Venomstrike
+| description = A vicious attack that injects poison deep into the enemy's body.
+| level = 7
+| power cost = 20
+| reuse time = 10
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Venomstrike}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|NiceAttack}}{{KWAB|MeleeKnife}}
+| damage = 24 Poison initially and 4 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Venomstrike 2
+| description = A vicious attack that injects poison deep into the enemy's body.
+| level = 17
+| power cost = 27
+| reuse time = 10
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Venomstrike}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|NiceAttack}}{{KWAB|MeleeKnife}}
+| damage = 48 Poison initially and 8 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Venomstrike 3
+| description = A vicious attack that injects poison deep into the enemy's body.
+| level = 27
+| power cost = 33
+| reuse time = 10
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Venomstrike}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|NiceAttack}}{{KWAB|MeleeKnife}}
+| damage = 77 Poison initially and 12 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Venomstrike 4
+| description = A vicious attack that injects poison deep into the enemy's body.
+| level = 37
+| power cost = 40
+| reuse time = 10
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Venomstrike}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|NiceAttack}}{{KWAB|MeleeKnife}}
+| damage = 113 Poison initially and 16 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Venomstrike 5
+| description = A vicious attack that injects poison deep into the enemy's body.
+| level = 47
+| power cost = 45
+| reuse time = 10
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Venomstrike}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|NiceAttack}}{{KWAB|MeleeKnife}}
+| damage = 177 Poison initially and 20 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Venomstrike 6
+| description = A vicious attack that injects poison deep into the enemy's body.
+| level = 57
+| power cost = 50
+| reuse time = 10
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Venomstrike}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|NiceAttack}}{{KWAB|MeleeKnife}}
+| damage = 250 Poison initially and 24 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Venomstrike 7
+| description = A vicious attack that injects poison deep into the enemy's body.
+| level = 67
+| power cost = 56
+| reuse time = 10
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Venomstrike}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|NiceAttack}}{{KWAB|MeleeKnife}}
+| damage = 324 Poison initially and 28 Poison 6 times over 12 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Venomstrike 8
+| description = A vicious attack that injects poison deep into the enemy's body.
+| level = 77
+| power cost = 62
+| reuse time = 10
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Venomstrike}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|NiceAttack}}{{KWAB|MeleeKnife}}
+| damage = 408 Poison initially and 32 Poison 6 times over 12 seconds
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

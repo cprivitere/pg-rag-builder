@@ -1,0 +1,29 @@
+__NOTOC__
+{{NPC infobox
+|title = Garad
+|image = [[File:Garad (npc).png|300px]]
+|caption =
+|eventnpc = Yes
+|zone = Red Wing Casino
+|location = Around performance stage.
+|beastspeak = Yes
+|beastlist = All
+|anatomy =
+|species =
+}}
+[[Garad]] is the Blacksmith of the [[Crafting Caravan]]. The repeatable quests [[Garad]] offers give {{Item|Crafter's Guild Token}} as rewards. These tokens are bartered with [[Orran]] during the event.
+== Location ==
+; [[Red Wing Casino]]
+: [[Garad]] can be encountered during the [[Crafting Caravan]] event.
+
+==Quests==
+<dpl>
+category = Quests/Garad
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Conversations==
+
+[[Category:NPCs]] [[Category:Crafting Caravan NPCs]][[Category:NoRiShin]]

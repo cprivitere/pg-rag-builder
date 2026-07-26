@@ -1,0 +1,130 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Reckless Slam
+| description = Recklessly attack your enemy without regard for your own safety. You lose Armor, but not Power.
+| level = 2
+| power cost = 0
+| reuse time = 8
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RecklessSlam}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 12 Crushing
+| special = You lose 20 Armor (if you have that much remaining).
+}}
+|-
+|
+{{Ability infobox
+| name = Reckless Slam 2
+| description = Recklessly attack your enemy without regard for your own safety. You lose Armor, but not Power.
+| level = 13
+| power cost = 0
+| reuse time = 8
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RecklessSlam}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 25 Crushing
+| special = You lose 25 Armor (if you have that much remaining).
+}}
+|-
+|
+{{Ability infobox
+| name = Reckless Slam 3
+| description = Recklessly attack your enemy without regard for your own safety. You lose Armor, but not Power.
+| level = 22
+| power cost = 0
+| reuse time = 8
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RecklessSlam}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 37 Crushing
+| special = You lose 30 Armor (if you have that much remaining).
+}}
+|-
+|
+{{Ability infobox
+| name = Reckless Slam 4
+| description = Recklessly attack your enemy without regard for your own safety. You lose Armor, but not Power.
+| level = 32
+| power cost = 0
+| reuse time = 8
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RecklessSlam}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 54 Crushing
+| special = You lose 35 Armor (if you have that much remaining).
+}}
+|-
+|
+{{Ability infobox
+| name = Reckless Slam 5
+| description = Recklessly attack your enemy without regard for your own safety. You lose Armor, but not Power.
+| level = 42
+| power cost = 0
+| reuse time = 8
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RecklessSlam}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 80 Crushing
+| special = You lose 43 Armor (if you have that much remaining).
+}}
+|-
+|
+{{Ability infobox
+| name = Reckless Slam 6
+| description = Recklessly attack your enemy without regard for your own safety. You lose Armor, but not Power.
+| level = 52
+| power cost = 0
+| reuse time = 8
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RecklessSlam}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 117 Crushing
+| special = You lose 48 Armor (if you have that much remaining).
+}}
+|-
+|
+{{Ability infobox
+| name = Reckless Slam 7
+| description = Recklessly attack your enemy without regard for your own safety. You lose Armor, but not Power.
+| level = 62
+| power cost = 0
+| reuse time = 8
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RecklessSlam}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 154 Crushing
+| special = You lose 53 Armor (if you have that much remaining).
+}}
+|-
+|
+{{Ability infobox
+| name = Reckless Slam 8
+| description = Recklessly attack your enemy without regard for your own safety. You lose Armor, but not Power.
+| level = 72
+| power cost = 0
+| reuse time = 8
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RecklessSlam}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 194 Crushing
+| special = You lose 58 Armor (if you have that much remaining).
+}}
+|-
+|
+{{Ability infobox
+| name = Reckless Slam 9
+| description = Recklessly attack your enemy without regard for your own safety. You lose Armor, but not Power.
+| level = 82
+| power cost = 0
+| reuse time = 8
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|RecklessSlam}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 240 Crushing
+| special = You lose 65 Armor (if you have that much remaining).
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

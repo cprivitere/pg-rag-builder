@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Rappanel in Serbule Hills said, "Have you met Joeh over in Serbule? He's a dirty one, isn't he! I mean, I like to use food in the bedroom as much as the next elf, but his bacon fetish is... well, I shouldn't judge. I guess we all get a little crazy, so far from home! And I have to admit that some of his ideas sound intriguing. Did he tell you about the thing he does with the two boar tusks? It sounds painful to me, but I guess I have to try it: the bardic creed demands I gather lore! So... do you have any boar tusks, perchance?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Rappanel]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Have you met Joeh over in Serbule? He's a dirty one, isn't he! I mean, I like to use food in the bedroom as much as the next elf, but his bacon fetish is... well, I shouldn't judge. I guess we all get a little crazy, so far from home! And I have to admit that some of his ideas sound intriguing. Did he tell you about the thing he does with the two boar tusks? It sounds painful to me, but I guess I have to try it: the bardic creed demands I gather lore! So... do you have any boar tusks, perchance?}}
+
+===Requirements===
+* Obtain {{Item|Boar Tusk}}s x2
+* Talk to Rappanel
+
+===Rewards===
+{{Spoiler|Rewards for Boar Tusks For Bardic Lore|
+{{Quote|Ah, these tusks aren't as big as I'd feared! Okay, this won't be so bad. Did you want to join me in the lodge behind the inn? We can learn together... No? Well, suit yourself. Here. Take this money and stop judging!}}
+
+* 100 {{Favor|favor}}
+* 200 councils 
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Rappanel]]

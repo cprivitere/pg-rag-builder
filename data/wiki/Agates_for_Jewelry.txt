@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Umarak in Povus said, "I wish I could help Tryaka recover from the invasion. She has seemed distant. Even... I don't dare say it to her face... a bit afraid. I need to bring her mind back to practical matters! If I had some agates, I could convince her to return to jewelrycrafting."
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Umarak]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+I wish I could help Tryaka recover from the invasion. She has seemed distant. Even... I don't dare say it to her face... a bit afraid. I need to bring her mind back to practical matters! If I had some agates, I could convince her to return to jewelrycrafting.
+
+===Midway===
+If I had some agates, I think I could convince Tryaka to making jewelry again. It would be a good distraction for her.
+
+===Requirements===
+* Obtain Agates x3
+* Talk to Umarak
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|These agates are lovely. Did you mine these yourself? I hope that Tryaka likes them!}}
+* {{Item|Xogrite Chunk}} x4
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Umarak]]

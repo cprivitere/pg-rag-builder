@@ -1,0 +1,46 @@
+==<b>November 5 Update (Hotfix)</b>==
+: The blue flame in town is now dormant and monsters can no longer be summoned. However, undead throughout the world still drop Halloween loot and chest keys! ALL undead are now eligible, including skeletons, ghouls, ghosts, flapskulls, faces of death, and zombies (such as Frozen Corpses). All undead boss monsters also have a chance to drop them (on the first kill during a 3-hour period). If a boss looks undead, it probably is; for instance, the [[Bonfire Puck]] is undead.
+: Pre-existing Halloween keys can still be used in any of the Halloween chests, but new keys are tailored to a specific level of chest. For instance, level 20 skeletons drop keys for the level 20 Halloween chest.
+
+===<b>Ability Fixes</b>===
+::- Most harmless abilities (such as heals and buffs) were affected by buffs that boosted skill damage. For instance, if you had a buff that gave you +10 Psychology damage, your Pep Talk would deal 10 damage (before healing for the normal amount). This bug has been fixed for over 60 different abilities, so if you're wondering about a specific ability, the answer is probably: yes, it was bugged
+::- Jab indicated that it was a Basic Attack, but did not generate a Combat Refresh. In actuality it wasn't supposed to be marked as a Basic Attack (it has a 5 second cooldown... and costs Power...) but it seems more interesting with a Combat Refresh attached so we'll make it do that for now
+::- Blood of the Pack levels 1-4 could be learned in any order and did not share the same cooldown timer
+::- Bodyslam could not be substituted for Hip Throw in a few combos
+::- Deflective Spin is no longer marked as "harmless", since it does AoE damage now
+::- "Heart's Power" and "Spleen's Power" are no longer marked as ranged attacks. Or, in fact, as attacks of any kind
+::- "See Red" is now considered harmless (meaning that using it out of combat does not begin combat)
+::- Blocking Stance no longer benefits from buffs that make melee attacks cheaper (because it is not an attack)
+::- The abilities "Feed Pet" and "That'll Do" did not correctly display buffed healing numbers (although the healing was correctly buffed, just not displayed)
+::- Flesh to Fuel was fixed so that Fire Magic Damage no longer boosts its damage. This reduces the damage it does with typical high-level fire gear by a lot! However, the damage from Flesh to Fuel is still Fire damage, so buffs to the Fire damage-type still boost its damage. This is an intentional trade-off. (By making the ability do real Fire damage, your Fire Mitigation gear works on it, potentially reducing the damage to zero, but that also means it can deal more damage. It's supposed to be a tricky and slightly annoying balancing thing... and with the bug fixed it should work closer to the intention.) The terms are very similar here, so to be extremely clear: the term "Fire Magic" refers to the skill, but "Fire" by itself refers to the damage type. So things that boost "Fire Magic Damage" do not affect the ability anymore, but things that boost Fire Damage or Direct Fire Damage still do. (Things that boost Indirect Fire Damage do not, because it isn't an indirect fire source... it's directly burning you right when you press the button.)
+::- Similarly, the ability Restorative Arrow is no longer buffed by things that boost Archery damage. However, it does a tiny amount of Piercing damage, and things that boost Piercing will boost this number. (But the damage amounts are so small that it's just for flavor.)
+::- "You Were Adopted" could not be activated after using Tell Me About Your Mother. (Psychoanalyze still worked.)
+
+===<b>Loot Mod Fixes</b>===
+::- "Double Hit Ignites the Target, Dealing X Damage": was igniting the player instead
+::- "Debilitating Blow deals +X damage and causes your Core Attacks to deal +Y damage for 7 seconds": was buffing the monster's Core Attack damage instead
+::- "Tell Me About Your Mother boosts your Epic Attack Damage +10 and reduces the Power cost of your Epic Attacks -4 for 15 seconds": only lasted for 1 second
+::- "Calefaction causes target to take +X% damage from Cold for 12 seconds": had wrong icon
+::- Loot mod that made Fire Breath deal AoE damage did not make it an AoE attack
+::- Loot that boosted Jab damage didn't work
+::- "Skulk causes your next attack to deal +X% damage if it is a Slashing attack": now correctly describes it as a Crushing attack
+::- "Smell Fear deals +X% damage and further reduces Rage by Y": the Rage-reduction number was incorrectly displaying as 0. It did actually remove Rage, however
+::- "Positive Attitude boosts your out-of-combat sprint speed": was turning itself off if you didn't have the [[Staff]] skill active. It now requires the Psychology skill, as intended
+::- "Electrify generates no Rage and reduces Rage by X": X was always displayed as 0. (It did actually remove Rage, however.)
+::- "Mamba Strike and Front Kick deal X Trauma damage over 15 seconds": was incorrectly flagged as a [[Fire Magic]] effect. If you did not have Fire Magic active it would abort after 1 tick of damage
+::- "LOW_COMMUNITY_XP_EARNED_MOD" now has the correct label "XP Penalty When Feeling Lonely" (which, of course, only applies to Humans)
+
+===<b>Other Fixes</b>===
+::- Imbuing an item with [[Shamanic Infusion]] caused it to become Legacy. (These items should automatically stop being Legacy now. If they are still Legacy please check the golem to see why, and report if it is in error!)
+::- You can now get two more levels of Staff skill by raising Unarmed skill. (This allows Staff users to potentially reach 65 and access Phoenix Strike 4)
+::- Low-level deer should no longer be afraid of summoned pet deer
+::- Words of Power "whiny voice", "hateable face", and "disgusting body odor" are supposed to increase the Taunt of your attacks but were accidentally multiplying it by 0 afterwards, resulting in no taunt from attacks
+::- Renamed "[[Psychology]] Healing" to "Pep Talk Healing" to better describe what it does
+::- [[Velkort]] did not remember your Favor levels from before the update
+::- Magically-infused musical instruments now count as "equipment" for gift-giving purposes
+
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+You're killing ranalon gardeners in Serbule Hills.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Ranalon Gardeners</b>
+Perhaps the weakest caste of ranalon, but also the most numerous, are the gardeners. They scavenge the land for resources and can also be found deep in lakes, tending to their underwater gardens. They are fast -- VERY fast -- and can chase their prey long distances.
+
+===Requirements===
+* Kill Ranalon Gardeners x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 500 Combat XP for your active skills
+* 50 XP in Fish and Snail Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Hunting Quests]]
+=== Hunting Guide ===
+This [[Hunting Quests|Hunting Quest]] calls for the elimination of [[Ranalon Gardener]]s, a frequently encountered variety of Ranalon in [[Serbule Hills]].<br />
+'''+''' [[Ranalon Gardener]]s are found both underwater in the two lakes, and on the beaches around them.

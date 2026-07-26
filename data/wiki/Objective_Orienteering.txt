@@ -1,0 +1,11 @@
+__NOTOC__
+{{Ability infobox
+| name = Objective Orienteering
+| description = Intuit a path to the next objective in your active quest. Only works if the next objective is in the general vicinity.
+| level = 15
+| power cost = 10
+| reuse time = 10
+| range = 0 meters
+| skill = Foraging
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Lincha in Povus said, "The orcs destroyed all my beautiful furniture when they attacked Povus. I miss my meditation stool so badly! It was amazing! I would love to have a new one, but the furniture sold in Rahu is made by goblin slave-labor. Many in Rahu turn a blind eye to slavery, but I won't! My furniture has to be made by a crafter I know!"
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lincha]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+The orcs destroyed all my beautiful furniture when they attacked Povus. I miss my meditation stool so badly! It was amazing! I would love to have a new one, but the furniture sold in Rahu is made by goblin slave-labor. Many in Rahu turn a blind eye to slavery, but I won't! My furniture has to be made by a crafter I know!
+
+===Midway===
+I wish I had an amazing meditation stool...
+
+===Requirements===
+* Craft Amazing Meditation Stool
+* (Keep Amazing Meditation Stool)
+* Talk to Lincha
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|This is wonderful! And I see you've left your crafter's mark on it. I am delighted!}}
+* {{Item|Xogrite Chunk}} x13
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Lincha]]

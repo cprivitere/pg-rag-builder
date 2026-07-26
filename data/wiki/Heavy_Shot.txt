@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Heavy Shot
+| description = You fire an extra-heavy arrow at your opponent. You must have a Beginner's Dense Arrow (or better) in your inventory.
+| level = 1
+| power cost = 33
+| reuse time = 40
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|EpicAttack}}
+| damage = 29 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Heavy Shot 2
+| description = You fire an extra-heavy arrow at your opponent. You must have a Basic Dense Arrow (or better) in your inventory.
+| level = 15
+| power cost = 48
+| reuse time = 40
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|EpicAttack}}
+| damage = 90 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Heavy Shot 3
+| description = You fire an extra-heavy arrow at your opponent. You must have an Advanced Dense Arrow (or better) in your inventory.
+| level = 30
+| power cost = 65
+| reuse time = 40
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|EpicAttack}}
+| damage = 183 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Heavy Shot 4
+| description = You fire an extra-heavy arrow at your opponent. You must have an Expert's Dense Arrow (or better) in your inventory.
+| level = 50
+| power cost = 87
+| reuse time = 40
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|EpicAttack}}
+| damage = 418 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Heavy Shot 5
+| description = You fire an extra-heavy arrow at your opponent. You must have a Masterwork Dense Arrow (or better) in your inventory.
+| level = 65
+| power cost = 102
+| reuse time = 40
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|EpicAttack}}
+| damage = 645 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Heavy Shot 6
+| description = You fire an extra-heavy arrow at your opponent. You must have an Amazing Dense Arrow (or better) in your inventory.
+| level = 75
+| power cost = 114
+| reuse time = 40
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|EpicAttack}}
+| damage = 818 Piercing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

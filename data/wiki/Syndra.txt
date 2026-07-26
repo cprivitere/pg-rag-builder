@@ -1,0 +1,116 @@
+__NOTOC__
+{{NPC infobox
+|title            = Syndra
+|image            = [[File:Syndra.jpg|300px]]
+|caption          = She looks cold, tired, and worried.
+|zone             = Kur Mountains
+|location         = North of the large ravine, in a barn.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Armor Augmentation]]
+}}
+{{Quote|
+Well, I was in this... club. Not an illicit guild, though, ha ha! But anyway, things got out of hand and I decided I needed to move. This barn seemed like a perfect spot to lay low for a little while! But it's very, very drafty.
+}}
+'''Syndra''' is an [[Elven]] craftsman and [[Armor Augmentation]] trainer currently living in the [[Kur Mountains]]. Syndra was once part of [[Nightshade]]'s crafting crew in [[Verta]]. She brought a magic fire with her, but it seems to be broken. In the past, she maintained a research laboratory in [[Sinoca]] and was nicknamed the Frisky Ferret. 
+
+The barn is quite drafty, so Syndra is too cold to talk until the campfire next to her is lit.
+
+==Location==
+; [[Kur Mountains]]
+: West of the large ravine, inside  a barn.
+
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Syndra
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+;[[Armor Augmentation]] - Requires 25 [[Alchemy]] and [[Leatherworking]]
+: Syndra will teach you this skill once you have found her for [[Nightshade]] and returned to [[Nightshade]] to complete that quest.
+: Armor Augmentation is one of the many [[Augmentation]] skills unlocked by completing Nightshade's favors. 
+: See [[Armor Augmentation]] for detailed list of the Augments available. 
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Armor Augmentation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Armor Augmentation{{!}}Learn Armor Augment Brewing
+ | skilllevel = 0
+ | cost = ?
+ | favor =Neutral
+}}
+{{NPC training row
+ |recipe=Decompose Chest Armor
+ |skilllevel=1
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Extract Chest Augment (Level 0-30)
+ |skilllevel=8
+ |cost=368
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Decompose Leg Armor
+ |skilllevel=13
+ |cost=828
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Extract Leg Augment (Level 0-30)
+ |skilllevel=20
+ |cost=1,042
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Undo Augment on Chest Armor
+ |skilllevel=30
+ |cost=1,656
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Extract Chest Augment (Level 31-60)
+ |skilllevel=31
+ |cost=2,606
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Undo Augment on Leg Armor
+ |skilllevel=40
+ |cost=2,882
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Extract Leg Augment (Level 31-60)
+ |skilllevel=45
+ |cost=4,262
+ |favor=Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Medium Chest Bauble}} x20, {{Item|Large Chest Bauble}} x20, 
+}}
+== Conversations ==
+[[Category:NPCs]]

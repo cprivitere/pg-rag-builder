@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Torgan in New Prestonbule said, "The metal that humans use is weak and deficient. I use it to make horseshoes and tools, but never for armor. Armor requires the astounding metal found in the mines of Gazluk! In fact, it can often found exposed at the tops of mountains here. I will pay a bounty for a pile of it, for I must repair Vughal's helmet, and I will not use feeble metal!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Torgan]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|The metal that humans use is weak and deficient. I use it to make horseshoes and tools, but never for armor. Armor requires the astounding metal found in the mines of Gazluk! In fact, it can often found exposed at the tops of mountains here. I will pay a bounty for a pile of it, for I must repair Vughal's helmet, and I will not use feeble metal!}}
+
+===Requirements===
+* Obtain {{Item|Astounding Metal Slab}}s x5
+* Talk to Torgan
+
+===Rewards===
+{{Spoiler|Rewards for True Orcish Ore|
+{{Quote|Good! You are efficient. It seems you have orc blood in you.}}
+
+* 100 {{Favor|favor}}
+* 2000 councils 
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Torgan]]

@@ -1,0 +1,74 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Strike
+| description = Place your paw upon an enemy's pressure point, disrupting their breathing.
+| level = 15
+| power cost = 20
+| reuse time = 13
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|BunFuStrike}}{{KWAB|Melee}}{{KWAB|Attack}}
+| damage = 24 Slashing
+| special = Target is stunned after a 5 second delay.
+}}
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Strike 2
+| description = Place your paw upon an enemy's pressure point, disrupting their breathing.
+| level = 30
+| power cost = 25
+| reuse time = 13
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|BunFuStrike}}{{KWAB|Melee}}{{KWAB|Attack}}
+| damage = 51 Slashing
+| special = Target is stunned after a 5 second delay.
+}}
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Strike 3
+| description = Place your paw upon an enemy's pressure point, disrupting their breathing.
+| level = 45
+| power cost = 30
+| reuse time = 13
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|BunFuStrike}}{{KWAB|Melee}}{{KWAB|Attack}}
+| damage = 97 Slashing
+| special = Target is stunned after a 5 second delay.
+}}
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Strike 4
+| description = Place your paw upon an enemy's pressure point, disrupting their breathing.
+| level = 60
+| power cost = 35
+| reuse time = 13
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|BunFuStrike}}{{KWAB|Melee}}{{KWAB|Attack}}
+| damage = 164 Slashing
+| special = Target is stunned after a 5 second delay.
+}}
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Strike 5
+| description = Place your paw upon an enemy's pressure point, disrupting their breathing.
+| level = 75
+| power cost = 40
+| reuse time = 13
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|BunFuStrike}}{{KWAB|Melee}}{{KWAB|Attack}}
+| damage = 235 Slashing
+| special = Target is stunned after a 5 second delay.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

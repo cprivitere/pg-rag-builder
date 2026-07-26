@@ -1,0 +1,70 @@
+__NOTOC__
+{{NPC infobox
+|title            = Dog Ear
+|image            = [[File:Dog Ear (npc).png|300px]]
+|caption          = Seems wary.
+|zone             = Povus
+|location         = An island southwest of the City of Povus.
+|anatomy = Canine
+|species = Fox
+|beastspeak       = Yes
+|Beastlist = Animals Only
+|vendor           = Yes
+}}
+{{Quote|source=[[Dog Ear]]|
+Grr!}}
+[[Dog Ear]] is the last of the Wardens of [[Povus]].
+
+== Location ==
+; [[Povus]]
+: [[Dog Ear]] can be found on a small island to the southwest of the City of Povus. They are frightened of humanoids, and will run from them if they try to interact.
+
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+
+
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+<!--
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+[[Marna]] rewards her friends with [[Storage]] space and items.
+{{Spoiler|Reward at {{Favor|Comfortable}}:|
+:{{Item|Lembas Brick}} x2
+}}
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Hike to a remote meditation pillar(8h)|
+{{Quote|
+Echur said, "The scenery was great, wasn't it? Even if the meditation was kind of a drag. Well, not every meditation session goes as planned, you know? But we just come back to it tomorrow and try it again."
+}}
+:65 favor with [[Echur]]
+:300 Meditation XP
+}}
+-->
+
+== Quests ==
+[[Dog Ear]] offers some quests around the [[Povus]] region.
+<dpl>
+category = Quests/Dog Ear
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services == 
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Warden Boost Potion 20%}} x2
+|RiShin Family = {{Item|Warden Boost Potion 20%}} x5
+}}
+== Conversations ==
+==Trivia ==
+[[Dog Ear]] has an unusual favor mechanic. If you mention that you are a [[Warden]] while in a conversation with them, you automatically gain +50 Favor.
+
+[[Category:NPCs]]

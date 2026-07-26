@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Jaime Fatholm would appreciate if you killed a sheep that's humiliated her. She said, "He lives on a hill south of here. Not the hill immediately south, but the one past that, in between the Baroness and the old hunting lodge."
+
+===Prerequisites===
+To start this quest, talk to '''[[Jaime Fatholm]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Friends}} favor.
+
+To begin this quest you must have level 1 [[Mining]].
+
+===Preface===
+{{Quote|Look. We're friends so I'm gonna level with you. I'm... I'm a little scared to go back out there. There was a sheep that nearly killed me. Just a fuckin' <i>sheep</i>. But I couldn't outfight him and I couldn't outrun him. I'd feel a lot better if I knew he was gone. He lives on a hill south of here. Not the hill immediately south, but the one past that, in between the Baroness and the old hunting lodge.}}
+
+===Requirements===
+* Kill [[The Wooly Bastard]]
+* Talk to Jaime Fatholm
+
+===Rewards===
+{{Spoiler|Rewards for Kill That Wooly Bastard|
+{{Quote|You killed him?! Thank you so much! And now if you promise never to tell anyone I was scared of a sheep, I'll teach you some of my fanciest mining tricks.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Simple Metal Slab}} x 5
+* 250 XP in [[Mining]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Jaime Fatholm]]

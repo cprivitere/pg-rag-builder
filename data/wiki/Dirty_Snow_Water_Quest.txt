@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Ragabir in Red Wing Casino said, "Damn it all, I'm out of my secret ingredient! I need run-off water from stones in Kur. It's used in all my best potions! I'll pay well for it!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Ragabir]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+Damn it all, I'm out of my secret ingredient! I need run-off water from stones in Kur. It's used in all my best potions! I'll pay well for it!
+
+===Requirements===
+* Obtain Dirty Snow Water x3
+* Talk to Ragabir
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hmm, is this pure? It doesn't smell right. You got too many impurities in it! I'm sorry, but I have to dock your pay for that. Here's what you deserve.}}
+* 100 {{Favor|favor}}
+* 500 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Ragabir]]

@@ -1,0 +1,34 @@
+__NOTOC__
+''Previous quest (to unlock): [[Grasuul the Butler]]''
+
+==Summary==
+[[Truxartis]] asked me to bring him Large Hate Pearls. This is a repeatable daily quest offered on Sundays.
+
+===Prerequisites===
+To receive this quest, talk to '''[[Truxartis]]''' in '''[[Vidaria]]'''. The quest is available after completing [[Grasuul the Butler]] and is offered on Sundays.
+
+===Preface===
+{{Quote|I have need of large hate pearls. You can sometimes find them on the corpses of your victims. Speak with Grasuul to find the freshest blood today... that will also be your best chance for finding hate pearls.
+
+For this particular purpose I do not... care how fresh they are. You may use store-bought hate pearls for all I care. Just make certain they are extremely... hateful.}}
+
+===Requirements===
+* Obtain {{Item|Big Hate Pearl}} x5 (can be looted, purchased, or traded)
+* Talk to [[Truxartis]]
+
+===Rewards===
+{{Spoiler|Rewards for Large Hate Pearls|
+{{Quote|Astute work. I shall make use of these.}}
+
+* 50 {{Favor|favor}}
+* 10 Blood Oaths
+}}
+
+===Notes===
+{{Spoiler|Notes|
+[[Truxartis]] randomly assigns one daily Blood Oath quest per real-world day. Unlike the Small Hate Pearls quest, purchased or traded pearls are accepted.
+
+'''Note:''' Large Hate Pearls are currently the best favor item needed for turning in to [[Meghan Olliver]] in [[Statehelm]] for favor, which is required for the Vampirism level 91–100 cap unlock.
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Truxartis]]

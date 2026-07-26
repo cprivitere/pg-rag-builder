@@ -1,0 +1,97 @@
+__NOTOC__
+{{NPC infobox
+|title            = Grakelsput
+|image            = [[File:Grakelsput (npc).png|300px]]
+|caption          = Looking at bones and muttering
+|zone             = Povus
+|location         = Paleontologist Clan Outpost
+|anatomy = Goblin
+|species = Goblin
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Paleontology]], [[Corpse Talking]]
+|vendor           =
+}}
+{{Quote|source=[[Grakelsput]]|
+My clan is famous for its Paleontology expertise. ...what, you've never heard of it? It's a sub-science of Necromancy. we bring ancient bones back to life to see how they behaved.
+}}
+[[Grakelsput]] is the expedition leader of a paleontological expedition in the foothills of Povus.
+
+== Location ==
+; [[Povus]]
+: [[Grakelsput]] can be found at the Paleontology Clan Outpost in the northwest hills.
+
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards === 
+<!-- [[Category:Favor/Rewards]] -->
+
+=== Hang Outs ===
+<!-- [[Category:Favor/Hang Outs]] -->
+
+== Quests ==
+[[Grakelsput]] offers quests around the [[Povus]] region.
+<dpl>
+category = Quests/Grakelsput
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+[[Grakelsput]] will only train [[Paleontology]] to Level 50 [[Necromancy|Necromancers]].
+<!-- List the abilities the NPC trains by skill. -->
+:{| class = "sortable 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Paleontology{{pipe}}Learn Paleontology
+ |skilllevel = 50 Necromancy
+ |cost=42000
+ |favor=Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Corpse Talking{{pipe}}Unlock Corpse Talking Skill Levels 61-70
+ |skilllevel = 60
+ |cost= 50000
+ |favor=???
+}}
+|}
+
+== Services == 
+N/A
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Skeleton Dispersal Fluid}} x5
+|RiShin Family = {{Item|Skeleton Dispersal Fluid}} x5, {{Item|Alchemy: Skeleton Dispersal Fluid}}
+}}
+== Conversations ==  
+{{Quote|source=[[Grakelsput]]|
+:You can actually speak Goblinese? Who did you learn it from? Was it Olikar the Vocal? I bet it was!
+;:Who? No, I learned it through self-study.
+:I don't believe you. But it doesn't' matter. I emphatically do not care. I'm here on a scientific mission. A peaceful mission. So just stop with the killing, okay?
+;:What sort of scientific mission?
+:My clan is famous for its Paleontology expertise. ...what, you've never heard of it? It's a sub-science of Necromancy. we bring ancient bones back to life to see how they behaved.
+;:So how is that different from regular Necromancy?
+:[[Paleontology]] is harder because it uses fossils, not regular marrow-filled bones. But more importantly, we don't control the creatures. We use a special technique that makes the creature follow its natural behaviors, so we can study those behaviors.
+;:So the resurrected creatures are just like the normal ones?
+:Well yes, except they're skeletal and filled with unquenchable hatred of the dead. Part of the hard work is trying to decide which behaviors are natural and which are a side-effect of the resurrection process.
+;:And what is the point of this skill?
+:Hah! On, you're serious. Well, this might be a little beyond your comprehension as a member of the monstrous races, but goblin society values knowledge for its own sake. Sometimes something isn't immediately useful for murdering your enemies, but it's still worth knowing!
+;:You mean Paleontology has no purpose?
+;:I completely understand. But who is funding this research?
+
+:: That's complicated. My clan is funded by other goblin clans who repackage our research and sell it to other sages. The pay isn't great, but it beats being gutted by an angry human!
+:: I'm the expedition leader. That means I take notes when the other team members bring me findings. Oh, and I'm tutoring Brugo over there as a side gig. He's safe.
+}}
+{{Quote|source=[[Grakelsput]]|
+I hate being the expedition leader. It means watching over dozens of novice paleontologists. And taking notes! Notes suck.}}
+{{Quote|source=[[Grakelsput]]|Have you talked to [[Brugo]] much? He thinks so differently than a goblin would. It's been interesting teaching him. And I have to admit to learning a few things myself. I just wish he's clean up all his wood shavings!}}
+[[Category:NPCs]]

@@ -1,0 +1,135 @@
+__NOTOC__
+{{Skill infobox
+|title            = Spirit Fox
+|image            = [[File:SpiritFox_skill.png|300px]]
+|caption          = Mastery of the techniques of the spirit fox: an awakened fox with supernatural powers.
+|skilltype        = Beast Form
+|maxlevel         = 100
+|req              = N/A
+|skilltrainers    =[[Completely Normal Fox]], [[Mittens]], [[Noita the Green]], [[Big Footed Jim]], [[Smoke Tail]]
+|gem = {{Item|Spirit Fox Lapis}}
+}}
+{{Quote|
+Mastery of the techniques of the spirit fox: an awakened fox with supernatural powers.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+[[Spirit Fox]] is a [[Beast Forms|Beast Form]].
+
+=== In-Game Description ===
+Mastery of the techniques of the spirit fox: an awakened fox with supernatural powers.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Completely Normal Fox]]  in the [[Wolf Cave]] turns the player into a [[Spirit Fox]] and teaches [[Spirit Fox]] combat skill after gifting them a [[Spirit Stone]].
+* Another way to become a [[Spirit Fox]] and learn the ability is to trade a [[Spirit Stone]] to another player who is currently a [[Spirit Fox]]. Once you do that, they revert to their previous form and you become a [[Spirit Fox]].
+* [[Completely Normal Fox]] in the [[Wolf Cave]] will teach the Trick Fox ability line after reaching [[Spirit Fox]] Level 12. (You have to have been a [[Spirit Fox]] for at least 24 hours.)
+* [[Mittens]] in [[Kur Mountains]] unlocks the Level 51 - 60 and Level 61-70 skill caps.
+* [[Noita the Green]] in the [[Fae Realm]] unlocks the Level 71-80 skill cap.
+* Levels 81-90 are unlocked by [[Big Footed Jim]] deep beneath [[Povus]].
+* [[Smoke Tail]] in [[Statehelm Sewers]] unlocks the 91-100 skill cap and [[Prodigy Potential]].
+
+=== To Stop Being a {{msg:BASEPAGENAME}} ===
+
+There are only two ways to cease being a [[Spirit Fox]]. One is to have another player trade you a [[Spirit Stone]], transforming them into a [[Spirit Fox]] and reverting you to your previous form. The other way is by drinking a [[Minor Panacea]].
+
+== Connected Skills ==
+
+===== Unusable Skills: =====
+* Sword
+* Hammer
+* Staff
+* Fire Magic
+* Ice Magic
+* Druid
+* Archery
+* Shield
+* Knife Fighting
+* Battle Chemistry
+* Bard
+* Weather Witching
+
+===== Sub-Skills: =====
+* N/A
+
+===== Secondary Skills: =====
+* N/A
+
+===== Related Skills: =====
+* [[Unarmed]] - Spirit Fox and Unarmed work best as a melee-based skill set.
+* [[Warden]] - Spirit Fox and Warden work very well together as combined skills, with a significant amount of possible electricity and/or fire synergy.
+* [[Necromancy]] - Necromancy is possible if a Necromancy symbol is equipped (armor, clothing or jewelry only, Necro-enabled weapons do not work for this).
+* [[Priest]] - Priest is possible if an Arisetsu symbol is equipped (armor, clothing, or jewelry only, Priest-enabled weapons do not work for this).
+* [[Animal Handling]] - Spirit Fox and Animal Handling work well together.
+* [[Psychology]] - Spirit Fox and Psychology work well together also, and is commonly used for Fox-based speed-builds.
+
+=== Synergy Levels: ===
+Bonus [[Synergy Levels]] for [[Spirit Fox]] can be obtained from the following skills and levels:
+:; [[Canine Anatomy]]
+:: Level 23 and Level 47
+:; [[Fae Anatomy]]
+:: Level 29
+:; [[Fishing]]
+:: Level 37
+:; [[Foraging]]
+:: Level 47
+:; [[Gourmand]]
+:: Level 35
+:; [[Incorporeal Creature Anatomy]]
+:: Level 49
+:; [[Mentalism]]
+:: Level 30
+:; [[Myconic]]
+:: Level 40
+:; [[Psychology]]
+:: Level 51
+:; [[Unarmed]]
+:: Level 49
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+
+=== Spirit Items ===
+See Lorebook [[So You're a Spirit Fox]].
+; {{Item|Anchor Rune}}
+: If a [[Spirit Fox]] is gifted an Anchor Rune through a trade, they become [[Anchored]], preventing the use of any [[Spirit Fox]] abilities for 15 minutes.
+: If a [[Spirit Fox]] is mailed an Anchor Rune through [[Pigeon|Pigeon Mail]], they will not suffer the debuff.
+; {{Item|Spirit Stone}}
+: If a [[Spirit Fox]] is gifted a Spirit Stone through a trade, the gifter transforms into a Fox, and the receiver reverts to their previous form. The receiver must be in fox form while trading.
+: If a [[Spirit Fox]] purchases a Spirt Stone from a vendor, no transformation occurs.
+: If a [[Spirit Fox]] is mailed a Spirit Stone through [[Pigeon|Pigeon Mail]], no transformation occurs.
+
+=== Riding ===
+As a [[Beast Forms|Beast Form]], [[Spirit Fox]] are not able to use the traditional Horse mounts offered through [[Riding]]. Instead, [[Mittens]] in [[Kur Mountains]] teaches mount-form to Spirit Fox players who are at least level 25 and have '''{{Favor|Friends}}''' favor.
+===Equipment===
+Crafters producing equipment for use by [[Spirit Fox]] should obtain the [[Sigil Scripting]] recipe '''Spirit Fox Inscription,''' which allows for the creation of {{Item|Spirit Fox Lapis}}. 
+
+This attuned gemstone can be used in any recipe which calls for the use of [[:Category:Items/Crystal|Crystals]] to create equipment with [[Spirit Fox]] Treasure Effects.
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Spirit Fox Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Spirit Fox|
+{{:Xptables/TypicalCombatSkill}}
+}}
+
+== Trivia ==
+* [[Spirit Fox]] was added to the game as part of the [[Game updates/2020-07-16|July 16, 2020 Game Update]]!
+* Spirit foxes are small enough to use the Fae Realm to Sun Vale portal.
+* Spirit foxes have natural claws for skills in [[unarmed]]
+
+== Gallery==
+<!--
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+</gallery>
+-->
+
+[[Category:Skills]]

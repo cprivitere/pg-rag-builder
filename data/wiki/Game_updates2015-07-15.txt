@@ -1,0 +1,9 @@
+==<b>July 15 Update</b>==
+:- Fixed a serious bug with Grimalkin in the desert. They were causing lag when they tried to use their super speed escape power. The power didn't make them fast, but did make them immune to attacks for a bit, and also lagged the desert area :pretty badly
+:- Fixed a bug that kept Legendary items from ever appearing as random loot
+:- Fixed data error that kept cacti from appearing as often as intended
+:- Fixed bugs with the new flowers; Winterhues spawned too often and Desert Roses spawned too rarely. (Technically, the poor roses spawned in the day and then almost immediately wilted.)
+:- Fixed bug where buying Jesina's level-cap increase didn't actually raise your Foraging level cap. The fix is retroactive so if you already paid, you'll automatically be good to go when you log in.
+:- Incidentally, there are now more yetis in Kur. (This change is just a side effect of preparations for upcoming content.)
+Also, to answer a worried question I received: no, werewolves won't be stuck in wolf form forever when they level past 50. That'd be dumb -- they're were-wolves, not regular wolves! Player spiders and cows, on the other hand, will have to make a permanent choice if they want to level up their curse beyond 50. They'll get new NPC utility powers in return for doing so. At least that's the plan right now... feel free to discuss this more on the forum! I'm happy to entertain alternative designs.
+[[Category:Game updates]]

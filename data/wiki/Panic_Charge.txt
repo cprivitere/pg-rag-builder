@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Panic Charge
+| description = Fling bolts of electricity in all directions.
+| level = 26
+| power cost = 27
+| reuse time = 30
+| range = 18 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PanicCharge}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 52 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Panic Charge 2
+| description = Fling bolts of electricity in all directions.
+| level = 37
+| power cost = 33
+| reuse time = 30
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PanicCharge}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 82 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Panic Charge 3
+| description = Fling bolts of electricity in all directions.
+| level = 48
+| power cost = 38
+| reuse time = 30
+| range = 22 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PanicCharge}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 133 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Panic Charge 4
+| description = Fling bolts of electricity in all directions.
+| level = 58
+| power cost = 42
+| reuse time = 30
+| range = 24 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PanicCharge}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 185 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Panic Charge 5
+| description = Fling bolts of electricity in all directions.
+| level = 71
+| power cost = 49
+| reuse time = 30
+| range = 24 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PanicCharge}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 257 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Panic Charge 6
+| description = Fling bolts of electricity in all directions.
+| level = 81
+| power cost = 54
+| reuse time = 30
+| range = 24 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|PanicCharge}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 320 Electricity
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

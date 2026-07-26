@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Ensign Cricket aboard the Wintertide said, "Let me think. How would you assault a ship? I guess you could just attack the crew! Try attacking the ensigns! Heehee!
+
+Oh, uh, be aware they have death rays. Just a heads up."
+
+This Quest can be repeated after 30 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ensign Cricket]]''' in '''[[The Wintertide]]'''. The quest is available at {{Favor|Neutral}} favor. You must have previously completed [[Troll Troopers]] in order to undertake this quest. 
+
+===Preface===
+Let me think. How would you assault a ship? I guess you could just attack the crew! Try attacking the ensigns! Heehee!
+
+Oh, uh, be aware they have death rays. Just a heads up.
+
+===Requirements===
+* Kill Ensigns x10
+* Talk to Ensign Cricket
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You sent those ensigns back to their lifestones! It'll take them a few days to recover and catch a ride back here! So you're totally winning! This is very impressive!
+
+Here, keep this. I'm going to tell everyone that you tortured me for it!}}
+* 50 {{Favor|favor}}
+* {{Item|Royal Jelly}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm? Quests]][[Category:Quests/Ensign Cricket]]

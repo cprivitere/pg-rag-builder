@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Ivyn in Serbule wants butter.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ivyn]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I don't know how to make butter, can you believe it? And I'm a farmer! Heh! But I just grow crops. If I grew animals I'd be a rancher. So anyway, get me some butter?}}
+
+===Requirements===
+* Find some {{Item|Butter}}
+* Talk to Ivyn
+
+===Rewards===
+{{Spoiler|Rewards for Ivyn Needs Butter|
+{{Quote|Thanks! I owe you one! Here, this isn't really equivalent in value, but maybe you can use it.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Bottle of Fertilizer}}
+* 200 XP in [[Gardening]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Ivyn]]

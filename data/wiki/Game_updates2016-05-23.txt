@@ -1,0 +1,259 @@
+== May 23 Update ==
+'''Today's new update has some bugs! We apologize. This has come as a complete shock to us -- we were not expecting any problems since all previous major alpha updates have been pretty bug-free. Hahaha no but don't worry, we are working on an update to this update now. Known fixes coming:'''
+:- You can't easily unselect things, only change the selection
+:- The new healing sound effect is super loud and can be heard from anywhere
+
+'''<b>Reminder: if you see weird black blobs instead of trees:</b> this is a bug with a recent NVIDIA driver update; we're still unsure which specific cards are affected. We've heard that you can fix it by switching from full-screen to windowed mode or vice versa (it's an option in the Config window), then restarting the game. Once it's fixed, you can switch back to the mode you prefer.'''
+
+===<b>Camera Rewrite</b>===
+:The in-game camera has been rewritten to fix some persistent bugs and issues. The camera should no longer clip through walls, and it should no longer jump around when other players bump into it. It also behaves slightly differently in different scenarios -- it's entirely new code, after all -- so please play with it for a while, give yourself a little while to get used to it, and then let us know what you think.
+:Two things to be aware of: 
+::-	The camera configuration options in the Mouse and Movement Parameters (under Options) have been reset, so if you had manually adjusted them before you will need to do so again. (A little annoying, but the valid range of these parameters has changed and the old values couldn't be mapped to new values.)
+::-	The "Mouse Avatar Turn Speed" variable (also in Mouse and Movement Parameters) has also been reset.
+
+===<b>Player Work Orders</b>===
+:There is a new signboard near the entrance to the enclosed keep in [[Serbule]] (near the vendor stalls). You can post a request at this sign asking other players to provide you with certain items and set a price you will pay them for those items. For instance, you could place an order for 50 pieces of [[Oak Wood]] at a price of 1000 coins. Your 1000 coins will be deducted immediately. 
+:Any player can visit the sign and look through the orders. If they complete an order, they immediately receive the payment, and the items are mailed to you. If nobody completes your work order within a week, the order is canceled and your money is refunded (minus a small fee, of course).
+:The intended use is for crafters that want to order ingredients -- for instance, surveyors who want to order a specific gem, toolcrafters who want to order a certain blacksmith item, etc. But it can actually be used to order almost any kind of item EXCEPT for equipment, quest items, and imbued augments.
+:There's a bit more to the system, but hopefully the game explains everything else that you need to know ... so please try it out and see if you have problems. Note that at this time, you don't earn XP for completing these work orders, unlike NPC-provided work orders. (I couldn't think of any way to give out XP that wouldn't be trivially exploitable by someone with a few alt accounts. But if you have ideas please post them on the forums for discussion!)
+
+===<b>Monster Vision Fixes</b>===
+:We've been trying for a while to resolve a nasty bug: monsters were able to "see through walls" in many situations. This was not intentional, and proved hard to fix, so the entire monster-visibility system has been rewritten to correct it. Monsters should not see you through walls anymore.
+:However: I should explain about monster "hearing". Monsters can only see your character if there's a clear line of sight between you and the monster. BUT monsters can HEAR through walls, and that part is intentional. When you see an "!" icon over a monster's head, it means it has shouted for help and one or more monsters heard it. So it's not a bug if monsters run to help during a fight. But it IS a bug if you aren't in combat and monster just rushes out of some room and attacks you. 
+:But also note that some monsters randomly wander around. This can confuse the issue because sometimes a monster wanders out into a hallway, sees you, and attacks. But you can usually tell the difference between a wandering monster and on that saw you through a wall by how it moves: if a monster already knows you're there, it will make a beeline directly for you.
+:This new code needs testing! It has been quite tricky to get right and there may still be major bugs. For example, during internal testing we found this bug: "If I stand in this spot near this wall, monsters completely lose track of me and can't attack, even though they're just inches away from me." If you find bugs like this, PLEASE report them and don't abuse them. Abusing visibility bugs is considered abusing an exploit and is a bannable offense.
+:'''(Speaking of exploits: there are still a couple of visibility bugs that were reported before and haven't been fixed yet, such as one that involves shape-changing "into the middle of a wall". Using these older bugs is also considered abusing an exploit. We know about them and they will be fixed when we can, but in the mean time we need you to test for things we don’t know about. In short: please don't be a dick.)
+'''
+===<b>Guild Quests, Guild Levels, and Guild Credits</b>===
+:Guilds can now undertake quests -- communal tasks where everybody in the guild can chip in. The guild can only undertake one guild quest at a time, and no more than 3 guild quests per week. An NPC who starts a guild quest will have a Guild Quests option on the left-hand side of the NPC window. If you decide the quest is too hard, you can cancel it from the guild sign in Serbule or Rahu, under "Misc Settings."
+:Note that you will need to have the right permissions to accept guild quests on behalf of the guild. You will also need the right permissions to cancel guild quests. Both of these permissions default to guild ranks 9 and 10 but can be changed (assuming you have the right permissions to change permissions, of course).
+:Completing guild quests earns Guild XP which ultimately raises your guild's level. Guild Level determines things like the maximum number of people in the guild, the maximum storage slots you can have, where your guild can set its home-point, and other things. 
+:Well, I should say it WILL do all that. Right now the Guild Level does nothing. That's because I want to give existing guilds a chance to level up a bit. All guilds start at level 0, and level 0 guilds can only have 50 people in them (if the guild-level enforcement was activated). Several guilds have more than 50 people in them already, so that would be bad. So we'll wait a few months to let existing guilds level up a bit before we make the guild level do anything.
+:Completing guild quests also earns each member who logged in during the quest some Guild Credits. Guild Credits are a new pseudo-currency that can be exchanged for items and new recipes at the guild sign in Serbule or Rahu. ::(Why members who logged in? Because many quests involve crafting items and delivering them, and it's impossible for the game to know exactly who helped craft everything. So we just assume that if you logged in between when the quest starts and when it completes, you deserve some credit.)
+:Note that Guild Credits are tied to the guild, so if you leave your guild you lose any unspent credits. 
+
+===<b>Guild Quests: The Actual Quests</b>===
+:There are three versions of each guild quest: a 10-person version, a 25-person version, and a 50-person version. Those numbers are just a guide ... the idea is that if you have 50 guild mates helping out on the 50-person quest, it'll be a piece of cake. But if you have only twenty people helping, it'd take a long time. Similarly, a 10-person quest will be very easy for 10 people, and a slow slog for only one person.
+:You're free to choose whichever version you want, regardless of the number of people in your guild. But a few pointers:
+::-	The difficulties and rewards aren't linear. The 10-person quest earns 100 guild XP, while the 50-person quest earns 300 guild XP. If you've only got a few guild mates, it makes little sense to slog through the hardest versions -- they're 7x harder but give only 3x better XP.
+::-	On the other hand, you can only complete three guild quests per week, so don't intentionally pick too-easy versions either, or you'll miss out on guild XP!
+::-	Several guild quests unlock other guild quests upon completion (see below). They will only unlock the corresponding difficulty level of the next quest. For instance, completing the 25-person version of "Resupply Animal ::Town" unlocks the 25-person version of "Fox Outpost", but not the 10-person or 50-person versions of "Fox Outpost". So keep that in mind when you are choosing the quest version. 
+::-	Guild quests are intended to be repeatable monthly, but since there are currently so few quests, they are temporarily repeatable every two weeks.
+::Difficulty feedback is needed! If you find that, for instance, one 50-person quest is much easier than another 50-person quest, please send feedback about it. The quests are expected vary a bit in difficulty, but they should all be in the same general range. But none of these quests have been vetted for sanity, and some (or all) may be stupidly hard or stupidly easy. I dunno. Let me know.
+::In the future we'll add more guild quests without telling you exactly where each one is, but right now we want your help testing everything out! So here's a list of the available content:
+::-	Percy Evans in Eltibule: Completing this guild quest unlocks another quest (also given by Percy). He hints at a third quest, but it is not yet implemented.
+::-	Spot in Sun Vale: Completing this guild quest unlocks a quest with a new NPC named Red in Kur Mountains.
+::-	Nissim in Amulna: Completing this guild quest unlocks a quest with the Sand Seer in Amulna.
+::-	Nelson Ballard: This guild quest does not yet have any follow-up quest. 
+
+===<b>Guild Membership Requirements</b>===
+:Guilds can now enforce two "membership requirements" on all guild members: Hardcore Death Penalty and Permanent Animal Form. These settings can be "Allowed", "Disallowed", or "Required". Requiring either of these grants a bonus to earned Guild Credits from guild quests, but the bonus really doesn't really make up for the hardship … unless you wanted to play that way anyway.
+:New guild members cannot be recruited into the guild unless they meet the requirements. And if guild members STOP meeting the requirements, there are penalties to the entire guild until the situation is corrected:
+::-	The nonconforming guild member cannot earn Guild Credits. They always get zero credits from guild quests.
+::-	All guild members are unable to spend their Guild Credits at the guild sign.
+::-	All guild members are unable to undertake new Guild Quests.
+::-	No new guild members can be introduced into the guild.
+:The system checks these requirements every few minutes while you're logged in. If you don't meet the requirements, you'll see a big red error message. The intention is for these settings to be chosen when the guild is first made, but it's possible to change the settings at any time. In that case, the game assumes existing guild members meet the requirements until they log in and can be validated.
+:This is a work in progress and some simple improvements will be added in the future. (For instance, the hardcore penalty sign simply shouldn't let you change hardcore mode if it would break your guild's requirements!) We'll also add more kinds of guild requirements in the future; these two are just the prototypes.
+:By the way: the "animal form" requirement actually uses the same check that NPCs in Animal Town use, meaning that you need to "smell" like an animal. If you change out of animal form and back again, it will take 3 hours before you stop "smelling like a person" and register as an animal again.
+:A key purpose of this feature is to help players find like-minded guild mates. When we eventually have guild-advertising in game, players will be able to filter by these types of requirements.
+
+===<b>New Dungeon Area: Ilmari Desert</b>===
+:There are some new additions to the minotaur lair under the [[Ilmari]] desert. These additions are very bare-bones, like the rest of the dungeon, and there are some unused rooms and lots of little things I intend to add later. But :I hope that it's already an entertaining place for the highest-geared players. 
+:The first part of the new area is for level 60s and should be comparable to the rest of the dungeon in difficulty, but with more hegemonic storage chests than the first part has. (Oh and the old area has one new chest.)
+:The last new area is actually a level 65 area -- it is intended for a group of 4-6 level 65 players, which means it's hard as hell. But it should be doable if you have good gear and a good mix of abilities among the group ... theoretically, anyway. In this area I tried a slightly different monster mix, using fewer solo monsters and a broader mix of elite monsters. I'm hopeful that this makes combat a little less chaotic -- but still quite dangerous. :Feedback is appreciated!
+:A couple of notes: 
+::-	All of this dungeon should actually be a bit easier than before due to the fixes to monster visibility, but in any case, it is still intended for a group of 4-6 level 60 players.
+::-	There is a simple dungeon mechanic in the last area, but I don't want to spoil how it's "supposed" to work. It should be easy to figure out. If you find that you can't make sense of it, please let me know, as it may just be buggy
+::-	The lowest-level monsters and chests can occasionally drop a gem called "Vervadium". This is akin to Winterprize, but for level 70 crafting recipes - which are not in game yet. You can of course save it for later, or you can use it as fluorite in existing crafting recipes. Or, if you are Like Family with [[The Sand Seer]], you can trade your [[Vervadium]] to her in exchange for two pieces of [[Winterprize]].
+
+===<b>Other Dungeon Changes</b>===
+::-	The [[Winter Nexus]] dungeon has been revised a bit. This level 50 group dungeon now has actual group monsters in it! There are a reduced number of weaker monsters and the respawn rate has been slowed. In addition, mining [[Winterprize]] now requires the blood of the fae creatures that live in this dungeon, which is a relatively common item drop, especially from the elite ones. The intention of this change is to prevent players from running past monsters to loot the chests. You're supposed to kill the monsters!
+::-	A new named elite monster has been added to the back end of the [[Winter Nexus]]; it can drop a quest item needed by one of the new guild quests
+::-	The final boss of the [[Serbule Crypt]], [[Khyrulek's True Form]], has been added. This is a group encounter for 3 level 35 players. (This is completely un-play-tested. In fact, it’s not really very tested at all. So your feedback is needed!)
+::-	The [[Necromancy]] altar in the [[Serbule Crypt]] has been removed. You now receive the skill after killing Khyrulek's True Form.
+::-	The "foul air" debuff found in some dungeons now increases ability cost by +3 instead of +4, and it cannot stack with itself (which was only possible in weird situations anyway).
+
+===<b>Boss-Monster Loot Profile Changes</b>===
+:Boss monsters (and many named elite monsters) now have one set of loot when you kill them the first time and a different set of loot if you kill them again within 3 hours. (This is very similar to how [[Asterion]] already worked, but with different code internally.) The first loot profile is generally beefed up from before, while the second one is reduced from before. The point of this change is to make bosses more rewarding without having to "camp" them :-- and to discourage camping in general because it causes flow bottlenecks and unnecessary group contention.
+
+In the descriptions below, assume "first kill" always means "first kill in three hours" -- all of these reset after 3 hours.
+
+::- Ciervos now drops a large batch of level 40 gear, but only once per player per three hours. Repeat killing within three hours will only get you junk items.
+::- Crazy Terry now drops several pieces of level 50 gear the first time, but never more than one piece of gear the second time.
+::- Algapa the goblin boss drops his signature sword, his calling card, and 3 other items on the first kill; 2 items on repeat kills.
+::- Graz the bear drops his signature shackles and 2 jewelry on first kill; junk on repeat kills.
+::- Gruzark the goblin drops his poetry on first kill only. The rest of his loot profile remains unchanged.
+::- Haridius the Exemplary drops his Gulagra Orb on first kill along with several pieces of treasure; repeat kills drop no more than 1 equipment piece.
+::- Old Crusty drops his shield on first kill along with 1-2 pieces of equipment; repeat kills drop only misc items.
+::- Orloaka drops his staff and 1 other useful item on first kill; second kill is misc items.
+::- Scion of Discord drops his orb and 4 other items on first kill; second kill has no more than 1 equipment item.
+::- Lord Sedgewick drops his sword and 4 other items on first kill; second kill has no more than 1 equipment item.
+::- The Fog drops a new unique item and 1 or 2 pieces of jewelry on first kill; second kill has junk.
+::- Xegatis drops his beaker and several other items on first kill; second kill has junk.
+::- Algid Overseer drops his note and 3 items on first kill; second kill is unchanged (2 items, 50/50 equipment).
+::- Bonfire Puck drops his staff and extra items on first kill; second kill is 1 item.
+::- Dementia Puck drops his key and 3 items on first kill; second kill is 1 item.
+::- Gorgos drops 3 items and an ogre stomach on first kill; second kill is 1 item.
+::- Gravamux drops his key and 2-3 items on first kill; second kill is 1 item. The harp can only drop on first kill but has a much higher chance of dropping. I don't even remember why this ghoul has a harp, but I'm sure there was a reason.
+::- Karnag the Imaginary Wolf drops 3 items on first kill; second kill is 1 item.
+::- Keerla drops 2-3 items on first kill; second kill is 1 item. The harp can only drop on first kill but has a much higher chance of dropping. Oh yeah, I just gave some random monsters in the necro tower harps, didn't I? Well, that's fine then.
+::- Lomas drops 3 gear plus his skull (if appropriate) and possibly a harp on first drop. (Again, the chance is much higher now.) His second drop is 1 equipment item.
+::- Scion of Norala drops 3 gear on first kill; second drop is 1 item, usually gear.
+::- Timothy Elerimon drops his staff and 2 gear on first kill; second kill is 1 item.
+::- Bravius the Bewildered drops his nose ring 100% of the time along with 3 items on first kill; second kill is 1 item. (As if you could farm Bravius anyway... but hey, he's at least consistent, I guess.)
+::- The Geyser Slug drops 2 pieces plus sludge on first kill; second kill is 1 item, which is sometimes sludge.
+::- Hissy drops 3 items on first kill; second kill drops 1 item.
+::- Asterion drops his hammer and six items on first kill, second kill he drops 1 item.
+::- Striga Steward drops 3 items on first death and 1 item on second death.
+::- Fugorg drops 3 items on first kill and one on second. First kill has much less crap in loot table; second is unchanged.
+::- Bloodsoaker drops 3 items on first kill and one item thereafter.
+::- Chitterface drops 4 items on first kill and one item thereafter.
+::- Grottofang drops 4 items on first kill and one item thereafter.
+::- Urraghur drops 4 items on first kill and one item thereafter.
+::- Forgotten Loading Golem drops 4-5 items on first kill and one item thereafter.
+- Greta drops 3 items (guaranteed 1 Myconian Jelly) on first kill and one item thereafter. In addition, Greta and her entourage now have a 10-minute respawn instead of 5-::minute.
+::- Kiralem drops 3 items on first kill and one thereafter.
+::- Tidal drops his circlet plus 2 items on first kill and one item thereafter.
+::- Tremor drops his bow plus 2 items on first kill and one item thereafter.
+::- Venenae drops her harness plus 2 items on first kill and one item thereafter.
+::- General Pask drops 3 items on first kill and one item thereafter.
+::- Gajus the Big-Headed drops 3 items on first kill and one item thereafter.
+::- Maronesa drops 3 items, mostly equipment, on first kill and one item thereafter.
+::- The Flower Child drops her prodder plus 2 items on first kill and one item thereafter.
+::- Thorn of Decay drops his key plus 3 items on first kill and one item thereafter.
+::- Vurrkan drops 3 items on first kill and one item thereafter.
+::- The Big Slime drops its ring and 3 items on first kill and one item thereafter.
+::- Nameless Guardian drops his shield and 3 items on first kill and one item thereafter.
+::- Rhino Guardian drops 4 items on first kill and one item thereafter.
+::- Sherzat drops a ring of acid resistance and 3 items on first kill and one item thereafter.
+::- Khyrulek's First Form drops the Galvanizer plus 2 items on first kill and one item thereafter.
+::- Ursula drops 3 items on first kill (plus plush bear if appropriate) and one item thereafter.
+::- Snail Mother drops her, uh ... her face … plus 3 items on first kill and one item thereafter.
+::- Spiderlord drops her unique gauntlets plus 3 items on first kill and one item thereafter.
+::- Superspider drops 3 items on first kill and one thereafter. In addition, lots of junk was removed from this loot table.
+::- Megaspider drops 3 items on first kill and one thereafter. In addition, some junk was removed from this loot table.
+::- Omegaspider drops 3 items on first kill and one thereafter. In addition, some junk was removed from this loot table.
+
+Note: a few monsters can show up in multiple places, mainly the spider-bosses. Bosses with the same name all share the same 3-hour loot timer, no matter where they are.
+
+
+===<b>Generic Treasure Effects Improved</b>===
+Some of the oldest treasure effects had stopped being compelling and become nuisances; they've been revised as follows:
+::-	"Power Regeneration (Out of Combat) +12" => "Power from Combat Refresh Abilities +12"
+::-	"Armor Regeneration (Out of Combat) +12" => "Armor from Combat Refresh Abilities +30"
+::-	"Health Regeneration (Out of Combat) +12" => "Health from Combat Refresh Abilities +20"
+::-	"Electricity Mitigation +6" => "Direct Electricity Mitigation +20"
+::-	"Psychic Mitigation +6" => "Direct Psychic Mitigation +20"
+::-	"Chance of Uncommon Loot +12%" => "Chance of Uncommon Loot +24%"
+::-	"Chance of Rare Loot +3%" => "Chance of Rare Loot +9%"
+::-	"Max Inventory Slots +3" => "Max Inventory Slots +6"
+:Also related: The chances of these "generic" effects showing up on Epic and Legendary treasure items has been reduced. (The chances were too high due to how it was being calculated.)
+
+===<b>Inventory Sort Button Rewritten</b>===
+:The sort button is a bit more nuanced and (hopefully) more useful. Equipment comes first -- for each equipment slot, gear is sorted by rarity, then cash value, with worn items always listed first and broken items always last. :Non-equipment comes after and is organized into over 60 different categories (such as "barbed arrows" or "armor patch kits" or "crystals" or "skulls"). In each category, items are sorted by base value, with identical types of items always placed next to each other. Larger stacks should come before smaller stacks of the same item.
+:The code has been completely rewritten so that I can rapidly adjust the sort order based on your feedback about how things should be ordered. So if you have opinions, please send them in! And of course, this is all new code, so if you see it working differently than described above, then it's buggy and you should report it.
+:(PS: The ability to sort storage containers is on the to-do list! I just haven't finished it yet.)
+
+===<b>Negative Regeneration Fix</b>===
+:This update re-fixes the "negative regeneration" bug that was fixed in March 8 update and then partially UN-fixed in the April 13 update. The bug caused monsters and pets to take double damage from indirect damage sources (such as damage-over-time effects, delayed-damage explosions, etc.). This time, players were not taking double damage from DoTs, but monsters and pets were.
+:One notable side-effect of this bug was that bears could insta-kill pets. Bears' rage attack is "crush half to death", which reduces your current health by 50%. When you double that ... the pet probably dies.
+:If in the future you see a monster (or player!) that has died of "negative regeneration" - that's a bug! (Well, with one exception - see below.) Regeneration shouldn't hurt you, and so you shouldn't be able to die from "negative regeneration." If you see that, PLEASE report it!
+:The one exception is Shambling Corpses. These pets automatically lose health every 5 seconds, and that is currently implemented as negative regeneration. No other pets, monsters, or players should be able to suffer negative regen.
+:This bug made players' DoT abilities twice as effective as intended, and many high-level players use DoTs. This meant that our data-metrics on combat for the past six weeks were tainted by the bug and not useful. Without good data, I decided to postpone changes to monster/skill/ability/treasure balancing (except for what had already been implemented -- e.g. the druid changes noted below). We'll gather new data over the next few weeks before making more changes to combat.
+ 
+===<b>Pig Changes</b>===
+:[[Pig]] was one of the earliest animal forms and it has undergone many experiments as we tried to figure out how animal forms were supposed to work. At different points it's been a tank, a "scavenger" skill with low-combat capabilities, and a crowd-controller. None of the experiments were very successful, and none of them were fully cleaned up, so the pig's skills and equipment were a chaotic mix of random stuff, making it very hard to create fun :Pig builds. This update attempts to refocus the pig and clean up all of the old experiments.
+:Pig is now a support skill that shines in groups. In many ways the pig feels like an "animal bard", filling in whatever is missing from the group (except tank). In small groups the pig can be a healer/damager with emergency crowd control; in larger groups the pig's unique buffs become quite potent. The pig has only mediocre damage capabilities - enough to solo, but nothing to brag about - but it is pretty sturdy and can be hard to kill, especially given its penchant for deflecting aggro onto the group's tank.
+:Here’s the details:
+::-	Mudbath: This skill has been rewritten. It is now a heal that can be used on yourself or an ally. It is tagged as a "major heal" for purposes of equipment that boosts major heals.
+::-	New treasure for chest slot: "Mudbath causes target to take 26% less damage from all attacks for 10 seconds."
+::-	Other Mudbath treasure has been revised to affect the target, rather than always affecting the pig.
+::-	"Terror Dash" can now be placed on the sidebar.
+::-	New ability: "Porcine Alertness". Learned from Norbert in Animal Town. This ability gives you and nearby allies some Evasion against melee and burst attacks
+::-	New treasure effects add Accuracy, Armor healing, stun-resistance, and delayed healing to Porcine Alertness
+::-	Frenzy: This skill has been rewritten to: "Work yourself and your allies into a frenzy of violence. You and your allies' melee attacks deal +50 damage for 10 seconds." 30 second reset.
+::-	All treasure that boosted Frenzy has been revised so that it affects all group members, not just the pig.
+::-	Treasure that made Frenzy boost the pig's speed has been rewritten: "For 15 seconds, Frenzy boosts targets' receptivity to Major Heals for so that they restore +45 Health."
+::-	New treasure effect: "For 10 seconds, Frenzy boosts all targets' indirect damage +6."
+::-	"Sustaining Snack" has been replaced with "Grunt of Abeyance", a small group heal.
+::-	Treasure for Sustaining Snack (now Grunt of Abeyance) has been refactored to apply to the group.
+::-	"Truffle Sniff" is no longer a crucial part of the pig's survivability and is now just a small bonus feature of the pig. Reset time changed from 30 seconds to 180 seconds
+::-	The treasure effect "Truffle Sniff restores 120 health" has been replaced with: "Grunt of Abeyance grants all targets 21% mitigation from attacks, up to a maximum of 210 total mitigated damage."
+::-	Treasure effect that boosted trauma mitigation has been replaced => "Pig Rend has a 50% chance to deal +140% damage."
+::-	Treasure effect that boosted psychic mitigation has been replaced => "Pig Rend deals +126 Trauma damage over 15 seconds."
+::-	Treasure effect "Squeal has a 50% chance to deal +600% damage" => "Squeal deals 180 Trauma damage over 15 seconds."
+::-	Due to a severe lack of pig treasure effects for main-hand and off-hand slots, some of the old pig treasure effects had to be moved around to different equipment slots. Existing items with effects in the old slots will automatically become Legacy Items.
+::-	[[Norbert]] in [[Sun Vale|Animal Town]] can raise your Pig skill cap to 60.
+
+===<b>[[Druid]] Changes</b>===
+:These changes came about as part of some bug fixes. Testing the fixes led to other stuff that hadn't been properly cleaned up, which led to some loot tweaking. This is not a balance pass per se, although a few particularly unexciting treasure effects were rewritten because they bothered me. (I've grown dissatisfied with most treasure effects that have a "chance to apply" a buff on a 30-second cooldown ability -- it's too hard to plan around that sort of thing, and feels too unpredictable. So expect to see most of those phased out over time.)
+:Here’s the fixed and changes:
+::-	Brambleskin treasure mods that boost max armor/power/health:
+::-	These mods did not stack with themselves if you had the same one in two slots. This is now fixed.
+::-	These mods claimed to last 30 seconds but actually lasted 120 seconds; they last 30 seconds now.
+::-	The descriptions did not mention that they also heal you for the amount they raise your max by (so if it gives +50 max health it also heals 50 health). Fixed descriptions.
+::-	Enervate:
+::-	Enervate was being boosted by equipment that boosts Regrowth, making it impossible to balance one without over- or under-balancing the other (among other problems). This is now fixed.
+::-	Enervate has been renamed to Energize. ("Enervate" means "to make weak" and was originally the name of a debuff that didn't end up being used. When it became a heal, it was never renamed. Not to be confused with ::"Innervate", which is a healing-related spell in WoW, but that word means "to supply nerves" … which sounds pretty macabre. Probably some mutation battle chemists would have.)
+::-	Changed treasure effect: "Enervate has a 60% chance to conjure a magical field on the target that mitigates 20% of all physical damage they take for 1 minute (or until 200 damage is mitigated)." => "Energize heals + 36 health and conjures a magical field on the target that mitigates 10% of all physical damage they take for 1 minute (or until 100 damage is mitigated)."
+::-	Replaced treasure effect: "Enervate has a 50% chance to heal 250 armor to all targets." => "Energize heals 125 armor to all targets."
+::-	Regrowth now heals more health at higher tiers. (Max tier now heals 180 instead of 130.)
+::-	Hunter’s Stride:
+::-	Replaced treasure effect: " Hunter's Stride boosts targets' Out Of Combat Health Regeneration +24" => "Energize Heals +84" (now for both Necklace and off-hand slot).
+::-	Replaced treasure effect: "Hunter's Stride boosts targets' out-of-combat Power regeneration +24" => "Hunter's Stride causes targets' Combat Refresh Abilities to heal +12 Health."
+::-	Replaced treasure effect: "Hunter's Stride boosts targets' Out Of Combat Armor Regeneration +36" => "Hunter's Stride boosts targets' Armor Regeneration (in and out of combat) +12."
+::-	Fixed a bunch of Druid treasure effects that only buffed the druid instead of buffing the actual target(s).
+
+===<b>Animal-Handling Changes</b>===
+This skill is right in the middle of a lot of changes - a.ka. experiments - right now. For the moment, there is a new ability called Lock Target. This is a basic attack that is automatically learned at level 3 and automatically upgraded at 14, 24, 35, and 44. It does a little bit of damage and also "taunts" your pet onto the target of your choice. (In other words, the pet will switch targets and attack what you told it to attack until something else damages it enough or taunts it away.) This overrides the pet's combat mode, so even if they are in passive mode, this will cause them to attack the target. (It doesn't change the combat mode, though - it just sort of ignores it. :Like I said, it's an experiment!) There are also a few small tweaks to pet AI, but nothing super exciting yet.
+
+===<b>Other Changes/Fixes</b>===
+::-	GUI improvement: when you examine an item, its built-in properties are white and any enchantments or augments are green. This should help newbies understand how gear works a little easier and help experienced players compare two pieces of gear more efficiently.
+::-	Fixed a bug with training dummies that could keep you from regenerating health if you stood near them.
+::-	[[Nameless Guardian]]'s curse can happen again.
+::-	Fixed a bug with various GUI sounds not playing. (They were playing in 3D space about a mile from the player. Thanks, Unity upgrade!)
+::-	When scraping crystal fragments from the big red crystal in [[Serbule]], there is a limit of 5 crystal-summoned enemy deer at once -- this is intended to prevent mischief by high-level players. But this caused a problem because the dead deer still counted toward the limit, so once 5 corpses existed, no more could spawn until one dissolved. Fix: Deer corpses no longer count toward the 5-crystal-deer limit.
+::-	Removed collision physics from cheese barrels.
+::-	Pets: you cannot dismiss a pet while you are in active combat. (Your pet can still be in combat, but you yourself must not have attacked anyone or been attacked recently.) This change is intended to deter Animal Handlers from simply dismissing their pet when things get nasty.
+::-	Imbuing items with extracted Redwall enhancements will no longer cause the item to become Legacy.
+::-	Ichin will no longer train you in Ice Magic Research 55 or 60 until you have Ice Magic level 55 or 60, respectively.
+::-	The favor "Amutasa's Metal" now actually requires masterwork slabs as it claims.
+::-	The foreleg/hindleg guards of the werewolf armor were not dyeable; they are now. (But note that all of the set is only one-color dyeable.)
+::-	Dozens of smaller bugs in quests, NPC text, gear descriptions.
+::-	The [[Fire Magic]] level 15 research recipe taught the level 20 spell Ring of Fire. (But you couldn't actually use it until you got to level 20.) This spell is now taught by the level 20 fire magic research recipe.
+::-	Wood Glue items were supposed to stack in inventory but didn't. They now stack to 10.
+::-	[[Animal Handling]]: abilities that target your pet are now marked as "harmless". This prevents pet rats from Evading your buff abilities.
+::-	Rewrote slash-command logic to be more forgiving of extra spaces and capitalization. (This is new code so there may be new bugs with slash commands; if you find any please report them!) 
+::-	Lots of items and effects' descriptions cleaned up to try to make it more clear what they do. These did not involve any actual stat changes unless noted elsewhere in these notes. (As an example change, the description of basic bouquets makes it clearer that they boost combat refresh abilities -- meaning that you have to use a combat refresh ability to get the benefit.)
+::-	[[Goblin]] [[Necromancy]] Focus description said it had a necromancy gem in it, but it didn't really. Does now!
+::-	New slightly-less-annoying particles for healing effects.
+::-	Many treasure effects that provided minor healing no longer have a particle. (They were too visually noisy.)
+::-	Treasure that claimed to boost "Healing From First Aid" did not work. Fixed.
+::-	Treasure that claimed to boost "Tough Hoof Activation Healing" did not work. Fixed.
+::-	Treasure that claimed to boost "Patch Armor Efficacy" did not work. Fixed.
+::-	Treasure that claimed to boost "Healing from Sigils" did not work. Fixed.
+::-	Treasure that claimed to boost "Healing from Misc. Player Abilities" did not work for any abilities and was confusing and dumb. This effect has been rewritten to be "Healing Received from Major Healing Abilities".
+::-	Worked around Unity 5.3 bug with path-mapping (which caused right-click-move to sometimes only move you a few inches forward and then stop).
+::-	By request, added new configuration option to keep the game from auto-retargeting an attack when your current target is dead. Uncheck  "Auto-Retarget Attacks When Current Target is Dead" in the Configuration window under ::'''"Mouse and Movement Parameters". The expected use is from ranged attackers who want to make sure they never pull an extra monster in the thick of battle. (You can still press Tab to manually target the next enemy.)'''
+::-	Mr. Squeaky now drops his tiara, rather than it spawning near him. (It only drops when you have the quest to retrieve it.)
+::-	Mr. Squeaky's defenses have been nerfed. (But he's still Evasive, and his psi blasts are as dangerous as ever.)
+::-	Low-level Fire Sheep no longer drop stacks of 2-4 Fire Dust -- they drop 1 at a time, like the high-level fire sheep do.
+::-	[[General Pask]] has learned a new ranged attack.
+::-	Fixed a bug with all equipment effects that caused specific abilities to add/remove Taunt. They sometimes worked, but depending on various factors they would often simply not do anything. (NOTE: Note: at this point I suspect that all major aggro bugs involving players have been found. If there are still aggro bugs, the most likely cause would be pets, because pet aggro is still not heavily vetted. So if you suspect an aggro bug, see if you can isolate it to a pet!)
+::-	Removed the community donation chests from [[Eltibule]] and [[Serbule]]. They were constantly being ransacked by higher-level players just to make a few coins, and an empty charity box is much worse than no charity box at all in terms of making newbies feel welcome.
+::-	Many monsters have higher chances of dropping level 60 Hardcore armor, but only if you are flagged as Hardcore yourself. (There is still a chance to get hardcore gear even if you're not Hardcore yourself - that part is unchanged.)
+::-	There is now a hardcore-only shield in the loot tables.
+::-	Fixed several causes of framerate spikes. Probably the most noticeable spikes were caused when clicking on the ground to move or when tabbing between targets.
+::-	Group-monster loot profiles and treasure-chest loot profiles have improved chances of dropping higher-tier equipment, including Legendary gear.
+::-	[[Guardian Scorpion]]s should no longer attack the pets of animal-form players (unless the pets attack them).
+::-	Fixed a glitch in one of the audio tracks in Rahu's player-music song.
+::-	[[Kur Mountains]] has new background music (a/k/a the orc theme).
+::-	[[Yeti Cave]] has new background music ("Cave Crawl").
+::-	Due to reports of increased lag when the server has been up for over a week, there is a new chat-command "/status". This gives some very basic debugging info that may help us figure out where the lag comes from, or at least when it starts. If you report lag, please include pertinent info from that command!
+
+:Note: there was some forum communication about upcoming features and changes; as always, these patch notes supersede any other communication about the update. If it's not in these notes, it's not in the update! (Either because I decided not to do it or because I didn't get it finished in time.)
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

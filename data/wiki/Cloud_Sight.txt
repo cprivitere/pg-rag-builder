@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Cloud Sight
+| description = Cause tiny organisms to grow on the target's eyes, making it difficult for them to fight.
+| level = 12
+| power cost = 20
+| reuse time = 10
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|CloudSight}}{{KWAB|Melee}}
+| damage = 27 Nature
+| special = For 10 seconds, target's attacks have a 10% chance to miss. (This effect does not stack with other druids' castings.).
+}}
+|-
+|
+{{Ability infobox
+| name = Cloud Sight 2
+| description = Cause tiny organisms to grow on the target's eyes, making it difficult for them to fight.
+| level = 24
+| power cost = 26
+| reuse time = 10
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|CloudSight}}{{KWAB|Melee}}
+| damage = 54 Nature
+| special = For 10 seconds, target's attacks have a 10% chance to miss. (This effect does not stack with other druids' castings.).
+}}
+|-
+|
+{{Ability infobox
+| name = Cloud Sight 3
+| description = Cause tiny organisms to grow on the target's eyes, making it difficult for them to fight.
+| level = 36
+| power cost = 33
+| reuse time = 10
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|CloudSight}}{{KWAB|Melee}}
+| damage = 92 Nature
+| special = For 10 seconds, target's attacks have a 10% chance to miss. (This effect does not stack with other druids' castings.).
+}}
+|-
+|
+{{Ability infobox
+| name = Cloud Sight 4
+| description = Cause tiny organisms to grow on the target's eyes, making it difficult for them to fight.
+| level = 48
+| power cost = 38
+| reuse time = 10
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|CloudSight}}{{KWAB|Melee}}
+| damage = 157 Nature
+| special = For 10 seconds, target's attacks have a 10% chance to miss. (This effect does not stack with other druids' castings.).
+}}
+|-
+|
+{{Ability infobox
+| name = Cloud Sight 5
+| description = Cause tiny organisms to grow on the target's eyes, making it difficult for them to fight.
+| level = 60
+| power cost = 43
+| reuse time = 10
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|CloudSight}}{{KWAB|Melee}}
+| damage = 231 Nature
+| special = For 10 seconds, target's attacks have a 10% chance to miss. (This effect does not stack with other druids' castings.).
+}}
+|-
+|
+{{Ability infobox
+| name = Cloud Sight 6
+| description = Cause tiny organisms to grow on the target's eyes, making it difficult for them to fight.
+| level = 72
+| power cost = 49
+| reuse time = 10
+| range = 4 meters
+| skill = Druid
+| keywords = {{KWAB|Attack}}{{KWAB|Druid}}{{KWAB|CloudSight}}{{KWAB|Melee}}
+| damage = 309 Nature
+| special = For 10 seconds, target's attacks have a 10% chance to miss. (This effect does not stack with other druids' castings.).
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

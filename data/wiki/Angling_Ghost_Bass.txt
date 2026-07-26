@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+While angling near the town of Povus, a mysterious voice contacted you and asked for your help. Apparently "ghost bass" are causing havoc among the local fish and need to be removed. They can only be caught at night.
+
+===Prerequisites===
+To start this quest, angle by the town of '''[[Povus]]'''.
+===Preface===
+{{Quote|
+Welcome to my home, friend of nature. I am a sea treant and you are welcome here. But I could use your help. My homewater is overrun with ghost bass. They eat all the food, and then fade away at dawn, taking the food with them! Even worse, I am psychic and can feel their angst. These fish were maimed and tortured to death! They suffer. You must help them, and us. Please! The ghosts only come out at night.
+}}
+===Requirements===
+*Angle Ghost Fish x1.
+===Rewards===
+{{Spoiler|Rewards for Angling: Ghost Bass|
+{{Quote|
+Thank you for removing some of the ghost fish. I hope that this helps the area to recover. My name is Spotleaf. I may call upon you again some day.}}
+* 87950 XP in [[Angling]].
+* Recipe: Smoked Smallmouth Bass.
+* Good Bait x49.
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Angling Quests]]

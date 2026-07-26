@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Rappanel in Serbule Hills said, "So, do you have those filleted grapefish for me yet?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Rappanel]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+You must have previously completed [[The Grapefish Roundup]] in order to undertake this quest.
+
+===Preface===
+{{Quote|So, do you have those filleted grapefish for me yet?}}
+
+===Requirements===
+* Obtain {{Item|Grapefish Fillet}}s x5
+* Talk to Rappanel
+
+===Rewards===
+{{Spoiler|Rewards for The Grapefish Roundup, Part 2|
+{{Quote|Thank you. You cleaned these yourself? Huh. You learn fast! I could hardly do better myself, and I was a fisherman for a few decades in my youth! But I gave that all up for my art. <i>Sigh</i>, I guess I'll have to cook these fish myself, though. I have a recipe all picked out: eggs! They go with anything! Here, let me teach you my recipe.}}
+
+* 200 {{Favor|favor}}
+* Recipe: [[Grapefish and Eggs]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Rappanel]]

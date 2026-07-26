@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Gershok the Ranalon in Serbule Hills asked for some rat teeth.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gershok]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|During my lifetime, I have invented but a single category of shamanic infusion. All the others came to me in the egg, but my rat-totem belts are unique! I wish to prepare more of my belts for the new hatchlings, but I need totemic parts. Can you get rat teeth for me?}}
+
+===Requirements===
+* Obtain 5x Rat Teeth
+* Talk to Gershok
+
+===Rewards===
+{{Spoiler|Rewards for Rat Teeth for Gershok|
+{{Quote|This clump of bloody teeth will do well. You are resourceful! And so am I! Look what I found at the bottom of the lake. It is a gift for you.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Legacy Gloves}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Gershok]]

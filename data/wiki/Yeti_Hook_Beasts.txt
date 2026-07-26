@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Red in Kur Mountains said, "Oh good, you're here! There's a new threat to the wildlife of Kur: a huge swarm of hook beasts! They normally live in the yeti caves beneath the ground, but I guess food has become too scarce. You'll find them north and east of the yeti crevice."
+
+This Quest can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Red]]''' in the '''[[Kur Mountains]]'''. The quest is available at {{Favor|Despised}} favor. This quest is only available for Wardens. This quest is only available during an event in the area.
+
+===Preface===
+Oh good, you're here! There's a new threat to the wildlife of Kur: a huge swarm of hook beasts! They normally live in the yeti caves beneath the ground, but I guess food has become too scarce. You'll find them north and east of the yeti crevice.
+
+===Requirements===
+* Kill Marauding Hook Beasts x15
+* Talk to Red
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You took care of the hook beasts? Thank you! I know this was a tough request. Here: this is a necklace a friend made for me, but I think you'll have more use for it. You make me proud to have been a Warden.}}
+* 50 {{Favor|favor}}
+* 10 Warden Points
+* {{Item|Fierce Collar}}
+}}
+
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Red]][[Category:Quests/Warden Quests]]

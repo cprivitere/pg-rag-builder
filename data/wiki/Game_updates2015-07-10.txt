@@ -1,0 +1,4 @@
+==<b>July 10 Note:</b>==
+We have changed the master-server back to the pre-July 4th one. This seems to have better ping for a majority of users. There is no game update today -- that's coming a few days from now. <b>Addendum:</b> had a hiccup with the new setup, had to take things down for a few minutes, but back up now.
+
+[[Category:Game updates]]

@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Nishika in Rahu asked you to obtain a large amount of meat from grimalkins in the desert.
+
+===Prerequisites===
+To start this quest, talk to '''[[Nishika]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|My specialty is cat-meat recipes. A lot of visitors expect the meat to be disgusting, but with the right seasoning, it's quite good! And plentiful, too ... or at least it usually is. Right now I seem to be running low. If you have nothing better to do, maybe you could hunt and butcher up some grimalkin meat for me?}}
+
+===Requirements===
+* Obtain {{Item|Cat Meat}} x12
+* Talk to Nishika
+
+===Rewards===
+{{Spoiler|Rewards for Nishika's Meat Request|
+{{Quote|That stench can only mean one thing: you've got my cat meat! Thanks! Hey, as a thank-you, I'd be willing to teach you how I make my famous Orange Cat recipe.
+
+<i>[ Recipe 'Orange Cat' added to Nishika's Training menu. ]</i>}}
+
+* 100 {{Favor|favor}}
+* 250 XP in [[Cooking]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Nishika]]

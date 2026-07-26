@@ -1,0 +1,13 @@
+==<b>July 3 Update</b>==
+Well it's been an interesting evening! Our new ISP had sudden routing problems, and they aren't able to give an ETA on when it will be fixed. So we've switched back to the previous ISP we were testing earlier. There is also a new patch which should make the server work a bit better. Players complained of very slow loading times between zones; this patch should shorten those load times to just a few seconds for most users.
+;<b>Patch notes:</b>
+:- Fixed a major cause of lag while switching zones
+:- Fixed a bug with the mental-defense calculations of monsters. Most monsters were able to be mezzed 100% of the time and didn't have a chance to resist. They can resist now!
+:- Fixed the new NPC [[Arlan]]'s logic
+:- The poor Geyser Slug can get out of the water now
+:- Fixed some weird issues with desert lakes
+:- Monsters and pets no longer suffer speed penalties from dehydration. (!) [[Manticore]]s and [[Grimalkin]] were too thirsty to use their super speed!
+:- Manticores have been given some damage reflection, as a step toward making them worthy adversaries for a group
+:- Adjusted the illusory words of power so that they should overwrite the forced-form lycanthropy mode
+:- Just for the heck of it, added some new kinds of high level words of power
+[[Category:Game updates]]

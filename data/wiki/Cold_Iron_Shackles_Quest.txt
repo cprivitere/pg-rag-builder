@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Sammie Grimspine in Serbule Hills said, "I heard that goblins took the logging camps to the northeast... and that they're using fairies as slaves! So terrible! Now, I could never condone killing anybody, but IF a slave were to HAPPEN to perish, and if they had cold iron shackles in good condition, and IF those shackles made it back to me, I would be very grateful. Not that I want you to kill anybody, though! No no no. Just... be on the lookout for cold iron shackles. That's all."
+
+===Prerequisites===
+To start this quest, talk to '''[[Sammie Grimspine]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I heard that goblins took the logging camps to the northeast... and that they're using fairies as slaves! So terrible! Now, I could never condone killing anybody, but IF a slave were to HAPPEN to perish, and if they had cold iron shackles in good condition, and IF those shackles made it back to me, I would be very grateful. Not that I want you to kill anybody, though! No no no. Just... be on the lookout for cold iron shackles. That's all.}}
+
+===Requirements===
+* Obtain {{Item|Cold Iron Shackles}} x2
+* Talk to Sammie Grimspine
+
+===Rewards===
+{{Spoiler|Rewards for Cold Iron Shackles|
+{{Quote|Oh, these are cold iron all right. And just about dwarf-sized. Perfect! Thanks. What? Oh, no, I just wanted them for... um, a project I'm working on. A special ink! Right, they're for a special ink.
+
+Let me show you some sword techniques I learned back home.}}
+
+* 100 {{Favor|favor}}
+* 500 XP in [[Sword]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Sammie Grimspine]]

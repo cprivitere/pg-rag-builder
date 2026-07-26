@@ -1,0 +1,120 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sir Fisk
+|image            = [[File:Sir Fisk (npc).png|300px]] 
+|caption          = A sharp-eyed archer
+|zone             = Statehelm
+|town = Statehelm
+|location         = Training Ground, Barracks
+|anatomy = Human
+|species = Human
+|beastspeak       = No
+|skilltrainer     = [[Crossbow]]
+}}
+{{Quote|source=[[Sir Fisk]]| 
+A single well-placed arrow is worth a dozen poorly aimed.}}
+[[Sir Fisk]] is an trainer archer and crossbowman in the Council army. 
+== Location ==
+; [[Statehelm]]
+: [[Sir Fisk]] can be found in the Council army training ground during the day, often running around the perimeter of the training area.
+
+== Favor ==
+[[Sir Fisk]] is not willing to share his preferences with those at '''{{favor|Neutral}}''' favor.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Sir Fisk]] rewards his friends with __TBD__
+== Quests ==
+[[Sir Fisk]] offers everyone he meets (''{{favor|Neutral}}''' favor) two requests. Completing these requests will open up additional favors.
+<dpl>
+category = Quests/Sir Fisk
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Crossbow]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Crossbow{{pipe}}Unlock Crossbow Skill Levels 81-90
+ |skilllevel = 80
+ |cost=242 SR or ?
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Crossbow{{pipe}}Unlock Crossbow Skill Levels 91-100
+ |skilllevel = 90
+ |cost=404 SR or ?
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Crossbow{{pipe}}Unlock Crossbow Prodigy Potential
+ |skilllevel= 102
+ |cost=121 SR or ?
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Shoot Crossbow 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Knockback Bolt 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Knockback Bolt 12
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fiery Bolt 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fiery Bolt 12
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Acid Bolt 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Acid Bolt 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+|}
+
+== Services ==
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Sir Fisk]]| 
+I hate wearing this fucking platemail. Makes it harder to draw my bow. But looks are more important than usefulness, right? Fucking hell.}}
+{{Quote|source=[[Sir Fisk]]| 
+Precision and patience are what make a true marksman.}}
+
+[[Category:NPCs]]

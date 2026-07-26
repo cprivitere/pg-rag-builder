@@ -1,0 +1,34 @@
+__NOTOC__
+==Summary==
+Thedar said, "So, you want to be an Armorsmith do you? Let's move on to something more complex! Forge and bring me one full Quality Dwarven Plate suit and I will see what I can do to help you advance your craft!
+
+===Prerequisites===
+To start this quest, talk to '''[[Thedar]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Armorsmithing]] level 52. This quest is only available during a Crafting Caravan event.
+
+===Preface===
+So, you want to be an Armorsmith do you? Let's move on to something more complex! Forge and bring me one full Quality Dwarven Plate suit and I will see what I can do to help you advance your craft!
+
+===Requirements===
+* Craft a Quality Dwarven Plate Coat (Enchanted)
+* Possess a Quality Dwarven Plate Coat
+* Craft some Quality Dwarven Plate Greaves (Enchanted)
+* Possess some Quality Dwarven Plate Greaves
+* Craft a Quality Dwarven Plate Helm (Enchanted)
+* Possess a Quality Dwarven Plate Helm
+* Craft some Quality Dwarven Plate Gauntlets (Enchanted)
+* Possess some Quality Dwarven Plate Gauntlets
+* Craft some Quality Dwarven Plate Boots (Enchanted)
+* Possess some Quality Dwarven Plate Boots
+* Talk to Thedar
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you! I will study this suit in more detail later on. As promised, here's a little something to help advance your craft.
+
+<i>[You earn 10 favor with Orran the Caravan Leader]</i>
+<i>[You earn 4000 Armorsmithing Experience]</i>
+<i>[This task is repeatable every 20 hours.]</i>}}
+* {{Item|Crafter's Guild Token}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Thedar]][[Category:Quests/Crafting Caravan]]

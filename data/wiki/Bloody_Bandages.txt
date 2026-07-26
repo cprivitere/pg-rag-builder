@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Echur in Serbule has asked you for a strong bandage.
+
+===Prerequisites===
+To start this quest, talk to '''[[Echur]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Tolerated}} favor.
+
+===Preface===
+{{Quote|I was ... um... "sparring" with Joeh yesterday and things got out of hand. I've been having nosebleeds off and on ever since. And I can't stand blood! Can you get me a more potent bandage?}}
+
+===Requirements===
+* Obtain a {{Item|Good First Aid Kit}}
+* Talk to Echur
+
+===Rewards===
+{{Spoiler|Rewards for Bloody Bandages|
+{{Quote|Thanks! This should do the job. Here, take these leftover simple bandages. Don't worry, they're not used!}}
+
+* 100 {{Favor|favor}}
+* {{Item|Simple First Aid Kit}} x 5
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Echur]]

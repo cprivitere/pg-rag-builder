@@ -1,0 +1,56 @@
+__NOTOC__
+{{NPC infobox
+|title            = Asparagus
+|image            = [[File:PG-Asparagus2.png|300px]]
+|caption          = Definitely green-tinted
+|zone             = Statehelm
+|town = Statehelm
+|location         = Marketplace
+|anatomy = Orc
+|species = Orc
+|beastspeak       = Yes
+|beastlist = All
+|vendor = ?
+|skilltrainer     = ?
+}}
+{{Quote|source=[[Asparagus]]|Yes, I'm a human. I'm just sickly.
+}}
+
+[[Statehelm]].
+
+== Location ==
+; [[Statehelm]]
+:Asparagus can be found by the crate under the raised walkway in the afternoons. Very southeast corner of central/dangerous area (not where map indicates).
+== Shopkeeper ==
+...
+== Favor ==
+
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+ rewards  friends with __TBD__
+== Quests ==
+<!--
+<dpl>
+category = Quests/(name)
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+
+[[Making Friends with Asparagus]] available at Neutral
+
+== Training ==
+
+== Services ==
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Asparagus]]|Look, I respect animals, but I've got a business to run here.
+}}
+
+[[Category:NPCs]]

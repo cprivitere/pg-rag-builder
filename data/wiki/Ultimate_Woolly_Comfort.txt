@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Syndra in Kur Mountains asked for a trophy sheep skin.
+
+===Prerequisites===
+To start this quest, talk to '''[[Syndra]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Making armor isn't really my main thing, but I'm not terrible at it. I wish I had one of those big sheep skins -- a perfect one, a flawless one. I could make a <i>really</i> cozy jacket!}}
+
+===Requirements===
+* Obtain a {{Item|Trophy Sheep Skin}}
+* Talk to Syndra
+
+===Rewards===
+{{Spoiler|Rewards for Ultimate Woolly Comfort|
+{{Quote|Oh, wow. This will work great! I'm going to get started right now. Here... would you like my old coat? It's pretty warm.}}
+
+* 150 {{Favor|favor}}
+* {{Item|Syndra's Winter Coat}}
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Syndra]]

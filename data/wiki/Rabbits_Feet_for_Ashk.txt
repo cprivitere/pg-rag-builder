@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Ashk the Answerer in Rahu said, "Oh, drat it, now I'm out of rabbit's feet! I'll have to import some more... unless you happen to know where to get some?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Ashk]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Rat Tails for Ashk]] in order to undertake this quest.
+
+===Preface===
+{{Quote|Oh, drat it, now I'm out of rabbit's feet! I'll have to import some more... unless you happen to know where to get some?}}
+
+===Requirements===
+* Obtain 8 [[Rabbit's Foot|Rabbit's Feet]]
+* Talk to Ashk
+
+===Rewards===
+{{Spoiler|Rewards for Rabbit's Feet for Ashk|
+{{Quote|Wow, you found rabbit's feet! You're quite resourceful. Here, perhaps this will further improve your resourcefulness.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Ashk's Pendant}}
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Ashk]]

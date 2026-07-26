@@ -1,0 +1,147 @@
+__NOTOC__
+{{NPC infobox
+|title            = Arlan
+|image            = [[File:Arlan.png|300px]]
+|caption          = Scowling and gesticulating.
+|zone             = Ilmari
+|location         = An oasis towards the center of the region.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = Yes
+}}
+{{Quote|
+We're closed! Rakkies ruined everything. Go away.
+}}
+[[Arlan]] is a male [[Elven|Elf]] living in a small outpost in the [[Ilmari]] Desert. Around twenty years ago, [[Arlan]] and his wife Bonnie tried to open a boutique near a small oasis. It was planned to be called "Bonnie's Hot Springs." He claims that the resident [[Rakshasa]] went insane and killed Bonnie. For these past twenty years, [[Arlan]] has been wandering the world, only returning to the boutique recently. 
+== Location ==
+; [[Ilmari]]
+: A building found at the central Oasis, between the portal to [[Kur Mountains]] and the town of [[Amulna]]. 
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Arlan]] will offer access to Training and his Shop after +100 favor is earned by killing [[The Geyser Slug]].
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Help Arlan clean up the hot springs area (5 hours)|
+* 50 [[favor]]
+* {{Item|Lembas Brick}} x2
+}}
+{{Spoiler|Brainstorm a business plan for Arlan's shop (2 hours)|
+* 25 [[favor]]
+* {{Item|Recall Stone}}
+}}
+{{Spoiler|Let Arlan reminisce about his dead wife (1 hour) {{Favor|Comfortable}}|
+* {{Item|Bonnie's Earrings}}
+}}
+== Quests ==
+[[Arlan]] offers no quests.
+== Training ==
+{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Armor Patching]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Armor Patching{{pipe}}Unlock Armor Patching Skill Levels 51-60
+ |skilllevel = 50
+ |cost=50000
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Armor Patching{{pipe}}Unlock Armor Patching Skill Levels 61-70
+ |skilllevel = 60
+ |cost=100000
+ |favor=Close Friends
+}}
+
+{{NPC training row
+ |ability=Patch Armor 7
+ |skilllevel= 60
+ |cost= 11700
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Patch Armor 8
+ |skilllevel=70
+ |cost=17200
+ |favor=
+}}
+{{NPC training row
+ |recipe=Amazing Armor Patch Kit
+ |skilllevel=50
+ |cost=4800
+ |favor=
+}}
+{{NPC training row
+ |recipe=Astounding Armor Patch Kit
+ |skilllevel=70
+ |cost=11466
+ |favor=
+}}
+{{NPC training row
+ |recipe=Safety Wax: Basic Shellac
+ |skilllevel=55
+ |cost=
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Idiot-Proof Safety Wax #2
+ |skilllevel=55
+ |cost=6633
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Acidic Wax: Basic Flesh-Melter
+ |skilllevel=60
+ |cost=7800
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Safety Wax: Tough Shellac
+ |skilllevel=65
+ |cost=9966
+ |favor=
+}}
+|}
+
+== Services == 
+[[Arlan]] offers no NPC Services.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Recall Stone}} x2
+|RiShin Family = {{Item|Recall Stone}} x5
+}}
+
+== Conversations ==
+If the player is an animal
+{{Quote|source=Arlan|
+Oh fuck me, what now? Get out of here, you fleabag!
+; I don't have fleas!
+Oh great. It talks.
+; What's your problem?
+My problem? Rakkies ruined my life! The rakkies seemed like they were settling down, so Bonnie and me came to run a little boutique here at the springs. Then the rakkies just went insane. Killed everybody! 
+; How long ago was this?
+I dunno. Twenty years or so.
+; And you've been angry this whole time? I thought elves were forgiving.
+Elves are forgiving? Ha! That's rich. No... elves are hard to piss off. But once we're pissed off... I will never forgive rakkies for what they did. Not if I live a thousand years. 
+; Have you been staying in this hut for 20 years? 
+I came back a few months ago. Figured even though Bonnie was dead, maybe I could get the place going again. Just... I miss her, is all. But no. Wasn't here two weeks before rakkie scumballs put that horrible slug thing in the geyser.
+; What is that thing?
+It's a slug, I just said that! A huge, huge slug. It was small at first but it grew every day. I tried to kill it but couldn't. Now it's the size of a damned house!
+; I'll kill it for you.
+Ha! That I'd like to see.
+; You will!
+}}
+[[Category:NPCs]][[Category:Dead Wife]]

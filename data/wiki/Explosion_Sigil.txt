@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Explosion Sigil
+| description = Create a dangerous symbol that explodes when an enemy gets near. Requres one Basic Volatile Ink, with a 50% chance to consume it.
+| level = 0
+| power cost = 7
+| reuse time = 15
+| range = 4 meters
+| skill = Sigil Scripting
+| keywords = {{KWAB|SigilScripting}}{{KWAB|ExplosionSigil}}
+| special = Sigil explodes to deal 85 burst Fire damage plus 30 Fire damage over 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Explosion Sigil 2
+| description = Create a dangerous symbol that explodes when an enemy gets near. Requires one Advanced Volatile Ink, with a 50% chance to consume it.
+| level = 20
+| power cost = 11
+| reuse time = 15
+| range = 4 meters
+| skill = Sigil Scripting
+| keywords = {{KWAB|SigilScripting}}{{KWAB|ExplosionSigil}}
+| special = Sigil explodes to deal 155 burst Fire damage plus 45 Fire damage over 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Explosion Sigil 3
+| description = Create a dangerous symbol that explodes when an enemy gets near. Requires one Expert Volatile Ink, with a 33% chance to consume it.
+| level = 40
+| power cost = 16
+| reuse time = 15
+| range = 4 meters
+| skill = Sigil Scripting
+| keywords = {{KWAB|SigilScripting}}{{KWAB|ExplosionSigil}}
+| special = Sigil explodes to deal 225 burst Fire damage plus 60 Fire damage over 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Explosion Sigil 4
+| description = Create a dangerous symbol that explodes when an enemy gets near. Requires one Expert Volatile Ink, with a 50% chance to consume it.
+| level = 50
+| power cost = 18
+| reuse time = 15
+| range = 4 meters
+| skill = Sigil Scripting
+| keywords = {{KWAB|SigilScripting}}{{KWAB|ExplosionSigil}}
+| special = Sigil explodes to deal 285 burst Fire damage plus 75 Fire damage over 15 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Explosion Sigil 5
+| description = Create a dangerous symbol that explodes when an enemy gets near. Requires one Amazing Volatile Ink, with a 33% chance to consume it.
+| level = 60
+| power cost = 20
+| reuse time = 15
+| range = 4 meters
+| skill = Sigil Scripting
+| keywords = {{KWAB|SigilScripting}}{{KWAB|ExplosionSigil}}
+| special = Sigil explodes to deal 355 burst Fire damage plus 90 Fire damage over 15 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

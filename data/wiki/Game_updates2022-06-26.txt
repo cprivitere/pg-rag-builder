@@ -1,0 +1,23 @@
+==Update Notes: June 26, 2022==
+This is a minor update. It addresses the following bugs:
+
+:- Fix bug that could cause the loading screen to get "stuck" with a few remaining downloads
+:- Fix bug that caused queued ability icons' green highlight to stick around longer than it should
+:- Remove framerate stutter when opening the quest window (when it had hundreds of quests in it)
+:- Better error handling when reapplying particle effects
+:- Fix bug that prevented ghosts from loading correctly 
+:- Fix bug that caused hotkeys to break when an appearance failed to download (for any reason)
+:- Fix bug that caused the Skill Tracker to disappear if positioned on the left side of the screen
+:- Fix typo in instruments ("Enabled musical performance" -> "Enables musical performance")
+:- Add better handling of dynamic music; this should fix bugs with background music overlapping instrument music, and background music not playing at all
+:- Fixed bug that caused Ultra Item Rafflers to be counted toward an area's max-temporary-entities count. (Only this raffler was bugged)
+
+And non-bug changes that happened to be ready:
+- The player rabbit model now uses the new animation system instead of the legacy system. (This is in preparation for future content)
+- Player rabbits will now "stick" to the ground better, so it looks like they are on it (similar to how humanoids have realistic feet placement)
+- Removed the ability to select 'Set limit per customer' on Item Rafflers. This is now permanently set to 1 
+- Players can no longer buy a ticket for their own raffles
+- All Item Rafflers can now be used to raffle Event Loot Keys
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

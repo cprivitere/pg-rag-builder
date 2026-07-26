@@ -1,0 +1,24 @@
+__NOTOC__
+{{NPC infobox
+|title            = Casino Greeter
+|image            = [[File:Casino Greeter (npc).png|400px]]
+|caption          = A friendly bug
+|zone             = Red Wing Casino
+|location         = Found outside the arena, in the west hallway.
+|anatomy = Arthropod
+|species = Mantis
+|beastspeak       = Yes
+|beastlist = All
+|eventnpc = Yes
+}}
+{{Quote|source=[[Casino Greeter]]| 
+I hope you're enjoying your complementary game tickets!
+}}
+[[Casino Greeter]] is a Red Wing Casino employee who appears during the event <kbd> Free Game Tickets: Speak with the greeter in the Red Wing Casino to receive 5 free Monsters & Mantids game tickets! (Once per day while this special event runs.)</kbd>
+== Location ==
+; [[Red Wing Casino]]
+: [[Casino Greeter]] is found in the western hallway of the casino, outside the arena pit.
+== Events ==
+== Conversations == 
+{{Quote|source=[[Casino Greeter]]|Limit one redemption per game account per day.}}
+[[Category:NPCs]][[Category:NoRiShin]]

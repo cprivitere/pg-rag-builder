@@ -1,0 +1,81 @@
+==Update Notes: December 20, 2019==
+===Holiday Event===
+The Holiday event has begun! Talk to any NPC that you have "Friends" or higher Favor with to receive a present from them. In addition, each city (and some non-city areas) have a Ri-Shin tree that needs decorating. Look for the NPCs with red hats on to get started.
+
+
+===Sun Vale 2.0===
+This update includes a big change to the Sun Vale map. It has the same content and connections as before, but it looks quite a bit different. (And larger.)
+
+This is a 'soft launch' of the new Sun Vale. There's a lot of missing props and some odd graphical issues left to fix, but you can see the bones of the new place and how things are supposed to work together, and we need feedback on that! Sun Vale is for players in the 30-40 level range, so hopefully you can find things worth doing in any level of that range. (But as usual, you may have to explore around a bit to find them.)
+
+There are some new things to do, and the "Things to Do" list in your quest journal has been updated to get you started.
+
+We'll be doing another pass on Sun Vale soon to incorporate the upcoming playable fairy race. In the short term some Sun Vale NPCs have definitely had a downgrade of their homes -- in fact a bunch of the fairies no longer even have a roof over their heads, let alone any possessions -- but that's temporary. In this particular update we're most interested in game-mechanics feedback: is the combat is survivable? Is it worthwhile? How well do the new mechanics work, and are you able to figure out how everything fits together? That sort of thing.
+
+
+===Stun Trap Nerfs===
+Stun Trap was too overpowered and has been nerfed a bit.
+*Ability change: Stun Trap has a casting time of 2 seconds; being hit during the casting time aborts.
+*Ability change: Stun Trap cannot be reused while previous Stun Traps are still active. (You can manually dispel unneeded traps from the Pets window.)
+*Treasure change: "Stun Trap deals +85% damage to all nearby targets (when it activates)" => now +45% damage
+*Treasure change: "Stun Trap reuse timer is 16 seconds faster" => now 10 seconds faster
+
+
+===Sushi Roll Nerfs===
+Sushi Roll items have been reduced in effective food level. They’re intentionally higher-level than their ingredients would suggest... but they went too far, being so overpowered that they made most other cooking recipes irrelevant. They've been toned down a bit while still trying to retain their purpose:
+*Eel Sushi Roll: went from level 40 to level 30
+*Cavefish Sushi Roll: from 50 to 35
+*Shark Sushi Roll: from 60 to 45
+*Green Vexfish Sushi Roll: from 65 to 50
+*Crelpin's Sushi: from 72 to 60
+
+Note that the Nigiri recipes from Sushi Preparation have not been changed at this time, although they're also MUCH higher-level than their ingredients would suggest. (Nigiri is instant-healing food which is so good that it basically obsoletes healing potions at high level.) There are pros and cons to having a food item be better than healing potions. One of the cons is that we don't really have room to give Alchemists the ability to brew healing potions. Those potion recipes couldn't possibly be easier or more convenient than "slap two fish slices on storebought rice"! But on the other hand, it's fun flavor for sushi to be the best in-combat healing item. We're still considering the options, and leaving it alone for now.
+
+
+===Other Changes===
+*Fixed a bug that caused Electricity Elementals and Cold Elementals to have the same damage-type vulnerabilitites/strengths
+*Fixed a bug that caused Fire Rats and Pumpkin Mimics to have the same damage-type vulnerabilities/strengths
+*Giant bats can once again fly inside the Red Wing Casino
+*A few types of loot swords that were supposed to have holy symbols did not
+*Rugen in Rahu now trains Fishing up to level 70 (although note that the highest fishing recipe/req is currently 65)
+*Sushi Preparation now goes to 30 instead of 25. (And for technical reasons Ice Conjuration also goes to 30 instead of 25, although there are no new recipes for it yet)
+*Rabbit: the ability Long Ear can now be placed on the side ability bar
+*Newbie Island: added a gentle deterrent for new players who decide to try swimming off the island (which is a reasonable idea, but not successful here)
+*Ranalon lose their resistance to Nature damage
+*Higher-level Ranalon loot profiles improved
+*Added a few "Things to Do" entries for Sun Vale
+*Cow: new treasure: Head: Chew Cud increases your mitigation versus all attacks by Elites +14 for 10 seconds
+*Cow: new treasure: Necklace: Stampede boosts your Slashing/Crushing/Piercing Mitigation vs. Elites +6 for 30 seconds (stacks up to 5 times)
+*Cow: treasure change: "Stampede has a 50% chance to deal +56 damage" => "Stampede boosts the damage of future Stampede attacks by +38 damage for 60 seconds (stacks up to 15 times)"
+*Cow: treasure change: "Stampede Taunt +310" => +440
+*The archery ability Acid Arrow is no longer taught by The Wombat. It's now taught by Squidlips.
+*Recipes for Cavefish Sticks and Spicy Cavefish now use Cavefish Fillets (rather than un-fileted cavefish)
+*Water Lung Potion: this potion now boosts your Max Breath +10 seconds, instead of reducing your breath-consumption. The recipe now requires oyster meat instead of wool. (The potion's old effect is now granted by a new potion, the "Water Breathing Potion".)
+*Trollbane Oil: cash value reduced
+*Swimming Potion: this potion now requires Alchemy level 25 instead of 40. Duration is 30 minutes instead of 60. Recipe no longer requires flour or shark fillet, instead requiring an eel fillet
+*You now earn synergy levels in Fishing by reaching the following levels in other skills (previously only Knife Fighting 22 provided a synergy level):
+**Knife Fighting 22,
+**Knife Fighting 55,
+**Cooking 35,
+**Foraging 22,
+**Foraging 65,
+**Animal Handing 22,
+**Animal Handling 55,
+**Skinning 25,
+**Fish and Snail Anatomy 22,
+**Surveying 25,
+**Druid 65,
+**Nature Appreciation 22,
+**Sushi Preparation 25,
+**Psychology 22
+*Daisy now trains the recipe for Trollbane Oil. (It is also still dropped as a loot recipe)
+*Fixed bug that prevented Bounceweed from giving Giant Bats bonus flight speed
+*Fixed some base-stats of items (which were statted for the wrong level range):
+**Un-Tal bow: Archery Damage +10% -> +8%
+**Quality Cestus: Unarmed Damage +2 -> +5
+
+===Thanks!===
+Thanks for helping us make the game better with your feedback! If you type "/redeem DevGift2019" into the chat box (without the quotes) you'll receive a unique title and some XP potions. This is our way of saying thank-you for your patience and support! (If you've been around for many years you may have an additional novelty title to redeem; use "/redeem" to see a list of available redemptions.)
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

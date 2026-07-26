@@ -1,0 +1,73 @@
+==Update Notes: November 27, 2023==
+
+This is a pretty little update chock full of bug fixes and gameplay tweaks. Let's see what we've got!
+
+===Sword Skill Revamps===
+:- (Hands) "Decapitate Reuse Timer -12" => "Decapitate deals +250 damage and reuse timer is -12 seconds"
+:- (Head, Necklace) "Decapitate deals +525 damage to non-Elite targets" => +1200 to non-Elite targets
+:- (Legs) "Decapitate deals +255 damage and terrifies the target for 7 seconds" => "Decapitate deals +300 damage and the next attack you use stuns its target"
+:- (Feet, Ring) "Finishing Blow and Decapitate damage +190" => +264
+:- (Chest, OffHand) Finishing Blow deals 530 Psychic damage after a 4-second delay" => "Finishing Blow causes your next attack to deal +380 damage if it deals direct Psychic, Trauma, or Poison damage"
+:- (Legs) "Wind Strike causes your next attack to deal +142 damage" => "Wind Strike deals +142 damage and causes your next attack to deal +142 damage". In addition, this is now available on both Legs and Feet slots
+:- (Main Hand) "Wind Strike gives you +50% projectile evasion for 5 seconds" => for 10 seconds
+:- Wind Strike ability: increased amount of bonus damage added to the next attack
+:- New treasure effect: (Head, Necklace) "Indirect Poison Damage, Indirect Trauma Damage, and Indirect Psychic Damage +50% while Sword skill active"
+:- New treasure effect: (Off-Hand, Ring) "Parry and Riposte boost your Indirect Trauma Damage +24/tick for 30 seconds"
+:- New treasure effect: (Hands) "If Finishing Blow or Decapitate kills its target, you gain +63% direct damage for 15 seconds (this effect does not stack with itself)"
+:- New treasure effect: (MainHand) "Decapitate deals +165 damage. If the target is killed, Decapitate can be used again immediately."
+
+To help you adjust to these changes, transmutation costs for [[Sword]] will be reduced through December.
+
+
+===Group XP Changes===
+We've increased the bonus XP you earn for being in a group up to 100% for each participating group member. This means that if you're in a group of players that kill a monster, the monster is now worth 100% of its total XP to every group member!
+
+This is an experiment. The intent is to remove barriers to grouping -- now, it's inarguably mathematically better to group up than to compete for kills. Are there major down sides to this? We dunno -- guess we'll find out!
+
+This does not otherwise change how XP is calculated (in terms of XP dropoff, skill level discrepancies, personal XP bonuses, etc).
+
+===Other Bug-Fixes and Tweaks===
+:- All high-level skill unlocks now require that you also have already unlocked the previous tier. In other words, in order to unlock 'Skill 81-90', you must have already unlocked 'Skill 71-80' (in addition to your current skill being 80+). If you run into a skill that looks like it will let you unlock skill caps out of order, please let us know through the in-game bug report. (That's the '!' on the top of the right-hand sidebar.)
+:- Jewelry Crafting: Astounding Arisetsu Medallion actually taught the recipe for Astounding Enchanted Necklace. The recipe is right :- only the name of the recipe book was wrong. The new name is: Jewelry Crafting: Astounding Enchanted Necklace.
+:- Orcish Plate Gauntlets erroneously said in their description: "(Must be near a forge consecrated to Umrad.)" They now correctly say "(Must be near a forge consecrated to Tast.)"
+:- Fixed a bug causing your last-used emote to play again when you change gear.
+:- NPCs are now listed in their correct, precise area in the Quest Log & Item Info windows. This fixes some bugs that resulted from separate areas being located in the same zone technically, e.g. Carpal Tunnels being reported as Khyrulek's Crypt, or Winter Nexus reported as Kur Caves. If any NPCs are still wrong, please let us know ASAP through the in-game bug report. (That's the '!' on the top of the right-hand sidebar.)
+:- Unfetter 3 now lasts for 20 seconds.
+:- Galdyr's Tasty Energy Flask will now come with Battle Chemistry mods.
+:- The recipes Reliable Flask and Reliable Flask (Repair) now have a chance to consume their hammer ingredient.
+:- Updated the text displayed when you first learn Necromancy, to match how raising skeletons works now (via Necromancy Dust).
+:- "Mock and Ridicule deal +X% damage and taunt +Y" now properly affects Mock.
+:- Icons for Acid Bomb 10 & Mycotoxin Formula 10 now have the correct number.
+:- Fixed Triage 9, which was broken.
+:- Changed verbiage of whether Wanted Posters are usable or not, and hooked up verbiage properly.
+:- Update leveled requirements of new tailoring scrolls to match their associated recipes.
+:- [[Greta]] is no longer considered an arthropod.
+:- Added a basic dance animation to eagles.
+:- Fixed some quests that were giving out high-level items with low-level enchantments; most notably, several brand-new quests and Fae Realm Beehive quests.
+:- Fixed Mudbath 6 healing amount.
+:- Basilisk and Lamia slow abilities are now affected by Slow & Root immunity.
+:- Enchantments that can't be obtained via transmuting are no longer shown in the Transmutation window. 
+:- Fixed a typo in soybean sprout item description.
+:- Bug fix: "Rotskin deals 354 Trauma damage to health over 12 seconds": the ability tooltip listed this as 8 seconds, the treasure listed it as 12, and the actual DoT lasted 15 seconds. The correct duration is 12, and other values have been changed to match.
+:- Animal Handling pets may now earn XP past level 80.
+:- Fixed a typo in Ruxandra's Bite item.
+:- Small Fireworks now stack to 99 instead of 20. Recipe for Small Fireworks makes 99 instead of 20.
+:- You can now unlock [[Gardening]] 81-90, and [[Cooking]] 81-90 at a mysterious entity deep beneath [[Povus]].
+:- Fixed recipe ingredients for Awesome Werewolf gear.
+:- Fixed intermittent issue with mount anxiety bar not showing.
+:- Ruxandra's Bite is now augmentable.
+:- Recipes with no crafting time can now be used while sitting; this allows calligraphy benches to be used while being sat upon.
+:- If you can't craft a recipe, hovering over the button now tells you why.
+:- Altered Flaming swords' text (such as Flaming Gazluk Sword) to clarify the DoT damage they do.
+:- Removed references to Master Flopsy from Master Boop's text. 
+:- Fixed a typo in Meat Candy (tonue -> tongue).
+:- Fixed stats on crafted belt buckles that got messed up in an earlier November update.
+:- Fixed many treasure effects that didn't correctly scale past level 80. At this time we believe ALL treasure effects should correctly scale to level 100. If you come across one that doesn't, please report it through the in-game bug report. (That's the '!' on the top of the right-hand sidebar.) Please report this even if you've reported it in the past.
+:- Fix to Rabbit treasure: (OffHand, Necklace) "Thump causes the target to take +20% damage from Cold attacks for 10 seconds": this effect did not stack if you had it on both slots.
+:- Fix to Rabbit treasure: (Head, OffHand) "Bun-Fu Kick causes the target to take +18% damage from Trauma attacks for 20 seconds": this effect did not stack if you had it on both slots.
+:- Change to Knife treasure effect: (Hands, Ring) "Fending Blade restores 22 Power" => 44
+:- All (non-Demo) players should check their redemptions to see what special gifts they may have available this month! You can do that by typing /redeem in chat, or by checking the "View Redemptions" button on the bottom of the Persona panel, accessible from the right-hand sidebar. VIPs, you've got two!
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

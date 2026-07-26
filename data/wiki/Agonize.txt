@@ -1,0 +1,79 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Agonize
+| description = Corrupt the target's mind, ripping away their memories.
+| level = 15
+| power cost = 48
+| reuse time = 60
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|Agonize}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| ragemulti = 0
+| damage = 77 Psychic to health
+| special = Uniformly diminishes target's entire aggro list by 10%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts.
+}}
+|-
+|
+{{Ability infobox
+| name = Agonize 2
+| description = Corrupt the target's mind, ripping away their memories.
+| level = 30
+| power cost = 65
+| reuse time = 60
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|Agonize}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| ragemulti = 0
+| damage = 162 Psychic to health
+| special = Uniformly diminishes target's entire aggro list by 20%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts.
+}}
+|-
+|
+{{Ability infobox
+| name = Agonize 3
+| description = Corrupt the target's mind, ripping away their memories.
+| level = 45
+| power cost = 82
+| reuse time = 60
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|Agonize}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| ragemulti = 0
+| damage = 307 Psychic to health
+| special = Uniformly diminishes target's entire aggro list by 30%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts.
+}}
+|-
+|
+{{Ability infobox
+| name = Agonize 4
+| description = Corrupt the target's mind, ripping away their memories.
+| level = 60
+| power cost = 97
+| reuse time = 60
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|Agonize}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| ragemulti = 0
+| damage = 517 Psychic to health
+| special = Uniformly diminishes target's entire aggro list by 40%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts.
+}}
+|-
+|
+{{Ability infobox
+| name = Agonize 5
+| description = Corrupt the target's mind, ripping away their memories.
+| level = 75
+| power cost = 114
+| reuse time = 60
+| range = 20 meters
+| skill = Mentalism
+| keywords = {{KWAB|Attack}}{{KWAB|Mentalism}}{{KWAB|Agonize}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}{{KWAB|EpicAttack}}
+| ragemulti = 0
+| damage = 743 Psychic to health
+| special = Uniformly diminishes target's entire aggro list by 50%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

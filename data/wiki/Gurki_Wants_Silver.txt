@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Gurki asked you to obtain some unrefined silver ore.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gurki]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|Been working on a new tailoring technique where I inlay the cloth with silver. But I ain't got no silver left. Get me some?}}
+
+===Requirements===
+* Obtain Unrefined {{Item|Silver Ore}} x5
+* Talk to Gurki
+
+===Rewards===
+{{Spoiler|Rewards for Gurki Wants Silver|
+{{Quote|Yep, that's the stuff. Here, take this. It was my first attempt, but I think I can do better.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Silver-Threaded Shirt}}
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Gurki]]

@@ -1,0 +1,193 @@
+__NOTOC__
+{{NPC infobox
+|title            = Drummond Stonecurl
+|image            = 
+|caption          = Roasting something over the open fire
+|zone             = Vidaria
+|town = 
+|location         = Merry Bandit Camp
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Temporarily
+|skilltrainer     = [[Cooking]], [[Foraging]], [[Geology]]
+|vendor = Yes
+}}
+{{Quote|source=[[Drummond Stonecurl]]| <!-- This quote should be something informative about the NPC, or express their personality. The quote can be from the NPC, or another NPC talking about them.-->
+Hrmph.
+}}
+[[Drummond Stonecurl]] is an NPC in the eastern end of Vidaria. He trains Cooking, Foraging, and Geology.
+
+== Location ==
+; [[Vidaria]] <!-- List the Zone the NPC is found in. Be sure this matches the infobox! -->
+
+== Shopkeeper ==
+[[Drummond Stonecurl]] sells a rotating selection of seeds, one type per day.
+
+{{Vendor items sold}}
+
+== Favor ==
+[[Drummond Stonecurl]] has a special favor mechanic. Every time he is spoken to, favor is lost. This mechanic is disabled once '''{{favor|Friends}}''' favor is reached. 
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}<!-- Add an area displaying the favor categories the NPC claims to enjoy. -->
+
+=== Favor Rewards === <!-- Add a section describing rewards from leveling favor -->
+[[Drummond Stonecurl]] will sell his friends seeds for Vidaria renown.
+{{Spoiler|Rewards at {{favor|Best Friends}}|
+* 25 [[Drummond's Special Jerky]]
+}}
+=== Hang Outs ===<!-- List NPC Hang Outs. The collapse function will work properly on individual pages, but not this template page.-->
+{{Spoiler|Silently help Drummond cook dinner(1hr)|
+{{Quote|
+Drummond Stonecurl said, "[Drummond nods at you.]"
+}}
+:15 favor with [[Drummond Stonecurl]] <!-- 22.65 favor with 151% Favor Earned From Hanging Out -->
+:250 Cooking XP
+}}
+{{Spoiler|Learn the Simple Wild Salad recipe while foraging (6h)|
+{{Quote|
+Drummond Stonecurl said, "Yeah, you're right, it doesn't taste like much. But it's good for you."
+}}
+:35 favor with [[Drummond Stonecurl]] <!-- 52.85 favor with assumed 151% Favor Earned From Hanging Out -->
+:650 Cooking XP
+:Recipe: [[Simple Wild Salad]]
+}}
+{{Spoiler|Learn the Mulberry Salad recipe while foraging (6h)|
+{{Quote|
+Drummond Stonecurl said, "Like I said, putting it all together is the easy part - it's just a dressed salad. It's finding all the ingredients that's the tough part."
+}}
+:35 favor with [[Drummond Stonecurl]] <!-- 52.85 favor with 151% Favor Earned From Hanging Out -->
+:750 Cooking XP
+:Recipe: [[Mulberry Salad]]
+}}
+{{Spoiler|Learn Drummond's secret jerky recipe (?h)|
+{{Quote|
+Drummond Stonecurl said, "Now remember: you salt the venison and soak the pork in the oil. Under no circumstances should you apply oil to the venison or salt to the pork. This is very important."
+}}
+:35 favor with [[Drummond Stonecurl]]
+:500 Cooking XP
+:{{Item|Drummond's Special Jerky}} x10
+:Recipe: [[Drummond's Special Jerky]].
+}}
+
+== Quests ==
+<!-- Each quest should be added as an individual page with proper categories. Quests may be added automatically to the wiki every few months, but can also be manually added by consulting the current json files if required or requested. 
+Be aware that not every NPC's name in the quest json matches their in-game name!-->
+<dpl>
+category = Quests/Drummond Stonecurl
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+<!-- Prices were calculated from having 80% NPC training costs -->
+<!-- List the abilities the NPC trains by skill. -->
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Great Venison Jerky (Mass-Produce)
+ |skilllevel=71
+ |cost=13165
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Venison Jerky
+ |skilllevel=70
+ |cost=6120
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Deviled Egg
+ |skilllevel=20
+ |cost=1 [[Scroll of Demonic Research]] + 1132
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Demonic Roast
+ |skilllevel=40
+ |cost=2 [[Scroll of Demonic Research]] + 3132
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Infernal Soup
+ |skilllevel=60
+ |cost=3 [[Scroll of Demonic Research]] + 7800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Angel Food Cake
+ |skilllevel=75
+ |cost=4 [[Scroll of Demonic Research]] + 13300
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Human-Style Pizza with Souls
+ |skilllevel=85
+ |cost=5 [[Scroll of Demonic Research]] + 18300
+ |favor=Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Foraging]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Foraging{{pipe}}Unlock Foraging Skill Levels 81-90
+ |skilllevel = 80
+ |cost= 80 Vidaria renown + 0
+ |favor=Close Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Geology]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Maximized Emerald (via Winterprize)
+ |skilllevel=60
+ |cost=5 Vidaria renown + 5 [[Scroll of Demonic Research]] + 0
+ |favor=??
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Geology{{pipe}}Unlock Geology Skill Levels 51-60
+ |skilllevel = 50
+ |cost= 40 Vidaria renown + 10 [[Scroll of Demonic Research]] + 0
+ |favor=Close Friends
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Amazing Venison Jerky}} x25
+|RiShin Family = {{Item|Drummond's Special Jerky}} x25
+}}
+
+== Conversations ==  <!-- List any long and potentially important conversations the NPC may have. Even if there are none, you must include this header. -->
+
+<!-- == Tips == An optional header for short messages offering guidance. -->
+
+<!-- == Gallery == An optional header used if additional images need to be displayed. -->
+
+
+[[Category:NPCs]]
+
+<noinclude>
+[[Category:Sold/Carrot Seedling]]
+[[Category:Sold/Cantaloupe Seedling]]
+[[Category:Sold/Corn Seeds]]
+[[Category:Sold/Pea Seedling]]
+[[Category:Sold/Red-Leaf Lettuce Seedling]]
+[[Category:Sold/Soybean Sprout]]
+[[Category:Items sold]]
+</noinclude>

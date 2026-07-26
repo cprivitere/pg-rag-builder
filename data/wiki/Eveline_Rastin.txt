@@ -1,0 +1,390 @@
+__NOTOC__
+{{NPC infobox
+|title            = Eveline Rastin
+|image            = [[File:Eveline Rastin (npc).png|400px]] 
+|caption          = Elegant, young, and tired
+|zone             = Red Wing Casino
+|location         = East side room of the vendor area<br> (in the north of the casino)
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Tailoring]]
+|vendor           = Yes
+}}
+{{Quote|
+I keep getting caught up in Willem's eyes. They're such a lovely steely gray... I should make him a coat to match!
+}}
+[[Eveline Rastin]] is a vendor in a sideroom of the north Vendor area within the Red Wing Casino.  Her room is across from the hallway leading to the theater. 
+== Location ==
+; [[Red Wing Casino]] 
+: [[Eveline Rastin]] is in a sideroom on the eastside of the Vendor area (northern part of the Casino). 
+== Shopkeeper ==
+[[Eveline Rastin]] sells some items used in Textile  and Tailoring.
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+[[Category:Favor/Rewards]]
+===Favor Rewards=== 
+[[Eveline Rastin]] rewards her friends with ....
+-You must do the Fae felt quest to make her training visible
+
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Discuss the casino shops (2 hours)|
+{{Quote|The Red Wings let me open a shop in their new casino because the believed in me. At least, that's what I told myself. They turned down other applicants but they accepted me! That fact has gotten me through this first year: they're psychics, and they had studied me and they knew I could do it! So I knew I could, too.
+
+But I was talking to Irkima the other day... and I guess I was wrong. The Red Wings aren't even great psychics. he says they just knew I was being truthful: I thought I'd be great at selling fashion accessories, and the believed me because I believed me.
+
+Thing is, my self-confidence shattered after the first week. Actually, I was done after my first DAY. I'd never had any other job, and I was awful at this! So why did they let me stay on? Irkima thinks they just didn't realize how terrible I was, or they had bigger problems to worry about... but I've seen them fire shopkeepers before, so I don't buy it.
+
+The boss mantises saw something in me. I don't know what. But I plan to return the favor: I'll keep my show here open even after I get rich and famous! I won't keep running it, of course, but I'll keep my name on the shop... It's the least I can do.}}
+:25 favor
+:3 x {{Item|Red Wing Token}}
+}}
+{{Spoiler|Talk about Willem (Friends - 4 hours)|
+{{Quote|I know Willem and I shouldn't... we shouldn't be together. Dwarves can't marry non-dwarves and humans normally can't marry non-humans... but listen: I learned about something called a Diplomatic Marriage Waiver. The Council gives them out in cases where a cross-race marriage is in the best interests of humanity. Maybe I can get one, and Willem could come live with me in Statehelm! 
+
+There's only two problems: Willem would never want to live in Statehelm, and the Council would never give me a waiver for Wilem, since I'm a nobody and he's not really important in dwarven society. YET. But if I help him, I think I can make him famous enough he'd qualify! And if that doesn't work, I'll think of something else. I have time... Willem says he's staying here until he's 50, so I have almost a decade!
+
+Anyway, thanks for listening. I know I can trust you. Here: I made this for you!}}
+:35 favor with Eveline Rastin
+:{{Item|Eveline's Comfy Cowl}}
+}}
+
+== Quests ==
+[[Eveline Rastin]] offers some quests related to collecting [[Tailoring]] and [[Textile Creation]] items.
+<dpl>
+category = Quests/Eveline Rastin
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Tailoring]]
+! Ability/Recipe
+! Skill Level
+! Cost
+! Favor
+|-
+{{NPC training row
+ |recipe= Decent Nimble Coat
+ |skilllevel= 31
+ |cost= 2833
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Decent Nimble Coat (Max-Enchanted)
+ |skilllevel= 32
+ |cost= 2866
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Nice Nimble Coat
+ |skilllevel= 41
+ |cost= 4500
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Nice Nimble Coat (Max-Enchanted)
+ |skilllevel= 42
+ |cost= 4533
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Coat
+ |skilllevel= 51
+ |cost= 6500
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Coat (Max-Enchanted)
+ |skilllevel= 52
+ |cost= 6533
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Coat
+ |skilllevel= 61
+ |cost= 9833
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Coat (Max-Enchanted)
+ |skilllevel= 62
+ |cost= 9866
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Coat
+ |skilllevel= 71
+ |cost= 13166
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Coat (Max-Enchanted)
+ |skilllevel= 72
+ |cost= 13200
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Decent Nimble Pants
+ |skilllevel= 31
+ |cost= 2833
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Decent Nimble Pants (Max-Enchanted)
+ |skilllevel= 32
+ |cost= 2866
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Nice Nimble Pants
+ |skilllevel= 41
+ |cost= 4500
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Nice Nimble Pants (Max-Enchanted)
+ |skilllevel= 42
+ |cost= 4533
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Pants
+ |skilllevel= 51
+ |cost= 6500
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Pants (Max-Enchanted)
+ |skilllevel= 52
+ |cost= 6533
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Pants
+ |skilllevel= 61
+ |cost= 9833
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Pants (Max-Enchanted)
+ |skilllevel= 62
+ |cost= 9866
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Pants
+ |skilllevel= 71
+ |cost= 13166
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Pants (Max-Enchanted)
+ |skilllevel= 72
+ |cost= 13200
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Decent Nimble Shoes
+ |skilllevel= 31
+ |cost= 2833
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Decent Nimble Shoes (Max-Enchanted)
+ |skilllevel= 32
+ |cost= 2866
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Nice Nimble Shoes
+ |skilllevel= 41
+ |cost= 4500
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Nice Nimble Shoes (Max-Enchanted)
+ |skilllevel= 42
+ |cost= 4533
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Shoes
+ |skilllevel= 51
+ |cost= 6500
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Shoes (Max-Enchanted)
+ |skilllevel= 52
+ |cost= 6533
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Shoes
+ |skilllevel= 61
+ |cost= 9833
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Shoes (Max-Enchanted)
+ |skilllevel= 62
+ |cost= 9866
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Shoes
+ |skilllevel= 71
+ |cost= 13166
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Shoes (Max-Enchanted)
+ |skilllevel= 72
+ |cost= 13200
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Decent Nimble Gloves
+ |skilllevel= 31
+ |cost= 2833
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Decent Nimble Gloves (Max-Enchanted)
+ |skilllevel= 32
+ |cost= 2866
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Nice Nimble Gloves
+ |skilllevel= 41
+ |cost= 4500
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Nice Nimble Gloves (Max-Enchanted)
+ |skilllevel= 42
+ |cost= 4533
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Gloves
+ |skilllevel= 51
+ |cost= 6500
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Gloves (Max-Enchanted)
+ |skilllevel= 52
+ |cost= 6533
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Gloves
+ |skilllevel= 61
+ |cost= 9833
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Gloves (Max-Enchanted)
+ |skilllevel= 62
+ |cost= 9866
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Gloves
+ |skilllevel= 71
+ |cost= 13166
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Gloves (Max-Enchanted)
+ |skilllevel= 72
+ |cost= 13200
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Decent Nimble Cowl
+ |skilllevel= 31
+ |cost= 2833
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Decent Nimble Cowl (Max-Enchanted)
+ |skilllevel= 32
+ |cost= 2866
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Nice Nimble Cowl
+ |skilllevel= 41
+ |cost= 4500
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Nice Nimble Cowl (Max-Enchanted)
+ |skilllevel= 42
+ |cost= 4533
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Cowl
+ |skilllevel= 51
+ |cost= 6500
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Quality Nimble Cowl (Max-Enchanted)
+ |skilllevel= 52
+ |cost= 6533
+ |favor= Close Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Cowl
+ |skilllevel= 61
+ |cost= 9833
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Great Nimble Cowl (Max-Enchanted)
+ |skilllevel= 62
+ |cost= 9866
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Cowl
+ |skilllevel= 71
+ |cost= 13166
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Nimble Cowl (Max-Enchanted)
+ |skilllevel= 72
+ |cost= 13200
+ |favor= Like Family
+}}
+|}
+==== Interpretive Dance Variant ====
+[[Eveline Rastin]] is the teacher for [[Interpretive Dance|Dance 4 (variant C)]]. At least three musicians must be playing instruments near [[Eveline Rastin]] to convince them to demonstrate their dance.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Fae Felt}}
+|RiShin Family = {{Item|Elegant Cotton Skirt}} (Lv 50)
+}}
+== Conversations ==  
+{{Quote|source=[[Eveline Rastin]]|
+I know what they say about dwarves and humans. But Willem isn't like that! And even if he was, he's only forty. So that's ten years before he'd get married anyway. Isn't ten years of happiness worth fighting for? Um, I mean... if.... nevermind.}}
+{{Quote|source=[[Eveline Rastin]]|
+It doesn't even count as fooling around if it's with a dwarf! I mean... we can't conceive and we can't get married... so who cares? Right?! But please don't tell anybody! My mother would disown me. I guess she kind of already did, but I mean LITERALLY disown me.}}
+
+[[Category: NPCs]]

@@ -1,0 +1,218 @@
+__NOTOC__
+{{NPC infobox
+|title            = Yagreet
+|image            = [[File:Yagreet.png|300px]]
+|caption          = A dainty, calm demeanor barely masks her fatigue.
+|zone             = Sun Vale
+|town             = Great Tree
+|location         = Platform 4
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Alchemy]], [[First Aid]] <br>[[Mycology]]
+|vendor           = Yes
+|barter = Yes
+}}
+{{Quote|
+I've been watching the perimeter for hours. So tired. Just need to wait dusk, when Eleme takes over.
+}}
+[[Yagreet]] is a fairy standing by the giant tree in Sun Vale. She apparently doesn't know that 'dusk' does not exist in Project Gorgon.
+== Location ==
+; [[Sun Vale]]
+: [[Great Tree]] on the fourth platform.
+== Shopkeeper ==
+{{Vendor items sold}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Best Friends}}.|
+:{{Item|Yagreet's Staff}}
+}}
+== Quests ==
+<dpl>
+category = Quests/Yagreet
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Blood Mushroom Suspension
+ |skilllevel=30
+ |cost=1638
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Coral Mushroom Suspension
+ |skilllevel=40
+ |cost=2851
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Groxmax Mushroom Suspension
+ |skilllevel=47
+ |cost=4277
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Porcini Mushroom Suspension
+ |skilllevel=55
+ |cost=6036
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Black Foot Morel Suspension
+ |skilllevel=63
+ |cost=9009
+ |favor=???
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Amazing First Aid Kit
+ |skilllevel=55
+ |cost=6036
+ |favor=???
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[First Aid]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Amazing First Aid Kit (Combo Method)
+ |skilllevel=40
+ |cost=2851
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=First Aid 6
+ |skilllevel=50
+ |cost=6652
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Resuscitate
+ |skilllevel=45
+ |cost=6324
+ |favor=Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mycology]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Healing Potion Omega
+ |skilllevel=40
+ |cost=2851
+ |favor=Close Friends
+}}
+|}
+
+== Services ==
+==== Bartering ====
+{{favor|Comfortable}}
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Ambient Magic Sponge}} x1 || {{Item|Diamond}}
+|-
+| rowspan = "3" | {{Item|Heartshroom}} x1 || {{Item|Diamond}}
+|-
+| {{Item|Gur-Horta}}
+|-
+| {{Item|Enchanted Holly Seeds}}
+|-
+| rowspan = "4" | {{Item|Enchanted Holly Seeds}} x1 || {{Item|Gur-Horta}}
+|-
+| {{Item|Healing Potion Omega}}
+|-
+| {{Item|Armor Potion Omega}}
+|-
+| {{Item|Power Potion Extreme}}
+|-
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Diamond}} x4
+|RiShin Family = {{Item|Diamond}} x7
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Introduction|
+{{Quote|
+Look. We're tired, we're out of supplies. If you've come to kill us, can you do it quickly?
+
+'''I'm not here to hurt you.'''
+
+Well, good. I guess that means we get to live one more day. Hurray. This whole dimension is shit, I tell you. Just shit.
+
+'''What's going on?'''
+
+The camp the druids made for us is terrible. I mean, don't get me wrong, it's a lovely piece of... terrestrial flora. But we don't have any defenses here!
+:'''Wait. The druids did what now?'''
+:Druids grew this tree for us with a long ritual. It took like, a year. And we managed to get all moved in, but we haven't had time to create many defenses.
+::'''Where did you come from?'''
+::We're refugees from the [[Fae Realm|fae realm]]. We've been here for a few years now, and we've been lax on security. We tried, but... I just couldn't get us organized. And now it's too late! They're here!
+:'''Defenses from what?'''
+:Hunters from the [[Fae Realm|fae realm]] are appearing all the time. They're coming to send us back to be tortured! They're incredibly strong. We don't stand a chance.
+::'''Who's 'we'?'''
+::We're refugees from the [[Fae Realm|fae realm]]. We've been here for a few years now, and we've been lax on security. We tried, but... I just couldn't get us organized. And now it's too late! They're here!
+:::'''What do you need?'''
+:::Look, I appreciate the thought, but a mortal isn't exactly going to have a chance against the [[Winter Court]]. I already have enough deaths on my hands.
+:::'''I've come a long way, and I've survived this far. Let me be the judge of what I can and can't do.'''
+:::Well, if you wanted to do us a few favors, we would certainly appreciate it. Just don't go toe to toe with the [[Winter Court]]!
+}}
+}}
+{{Spoiler|Introduction (Werewolf)|
+{{Quote|
+You look like a monster, but you're not dumb like a monster, are you? So, are you going to hurt us or not?
+
+'''Yeah, probably.'''
+
+'''Gonna play it by ear and see.'''
+
+'''Of course not!'''
+}}
+}}
+{{Spoiler|Greeting|
+{{Quote|I've been watching the perimeter for hours. So tired. Just need to wait until dusk, when [[Eleme]] takes over.}}
+}}
+
+{{Spoiler|Like Family|
+{{Quote|You've done so much for us, and I have so little to offer in return. Here, it's just a token, but I want you to have it. {{Item|Yagreet's Staff}}
+}}}}
+
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|I just need a little bit of pineal juice to keep me going through the night. I have so much to do!}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|When we realized thousands of [[Fairy|fae]] had fled into this dimension, our queen sent a task force to help them build a city. I'm part of that task force. We didn't do so great of a job.}}
+}}
+
+[[Category:NPCs]]

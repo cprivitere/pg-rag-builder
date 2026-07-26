@@ -1,0 +1,5 @@
+==January 29, 2025: Steam Authentication Issue Resolved==
+Tonight Valve rolled out an update to their Steam Authentication APIs which (to be non-technical) has a bug. As of this writing, their API is still behaving incorrectly, but we've worked around the bug on our end, so you should be able to log in again. If you still have problems with Steam authentication please let us know in [[Discord]]!
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

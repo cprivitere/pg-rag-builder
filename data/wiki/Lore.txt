@@ -1,0 +1,81 @@
+__NOTOC__
+{{Skill infobox
+|title            = Lore
+|image            = [[File:Lore (skill).jpg|300px]]
+|caption          = Mastery of ancient knowledge.
+|skilltype        = Other Skill
+|maxlevel         = 50
+|req              = N/A
+|skilltrainers    = N/A
+}}
+{{Quote|source=[[History of Alharth: The Council]]|
+The lead wizards from each school met in secret, calling themselves The Council of Thirteen. Had the gorgons found them, we would still be under the yoke of the Crone Hegemony to this day! But under the cloak of magical secrecy they organized a rebellion.
+}}
+[[Lore]] is a skill linked to the mastery of '''Words of Power''' and the study of the world of [[Alharth]] and Beyond. Raising [[Lore]] unlocks small, permanent bonuses to elemental damage resistance and Max Power.
+=== In-Game Description ===
+Mastery of ancient knowledge.
+=== Training {{msg:BASEPAGENAME}} ===
+* Often learned by examining sparkling items in [[Serbule Keep]].
+* The first successful completion of an [[Altar]].
+* Complete the Hang-Out '''Research words of power''' with [[Marna]].
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* None
+===== Related Skills: =====
+* [[Art History]] - Understanding the rich history of art in Alharth.
+* [[Battle Chemistry]] - Battle Chemists will learn cross-discipline chemical concoctions if they are studious in [[Lore]].
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Lore]] can be obtained from the following skills and levels:
+:; [[Art History]]
+:: Level 20, Level 40
+:; [[Poetry Appreciation]]
+:: Level 40
+:; [[Gender Studies]]
+:: Level 40, Level 45, Level 50
+:; [[Teleportation]]
+:: Level 30
+:; [[Geology]]
+:: Level 50
+:; [[Compassion]]
+:: Level 30
+
+== Recipe Lists ==
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Soothsaying ===
+[[Soothsaying]] is a group of abilities in the [[Lore]] skill based around the viewing of '''Auguries'''. An adventurer can learn the four augury recipes (''Beginner's'', ''Basic'', ''Advanced'' and ''Expert Augury'') from [[Ashk the Answerer]]. [[Ashk]] will teach Augury abilities with appropriate favor, and after you complete some favor quests for him. You must have either [[Meditation]] or [[Shamanic Infusion]] at level 50 before you may learn these abilities.
+
+Each Augury recipe gives a one hour buff and a new Augury can be divulged every hour. The buff effect can be positive or negative depending on the foreseen outcome, and the level of Augury used. Not every effect is available as a result of each recipe.
+{{:Augury}}
+=== Lore Items of Alharth === 
+<!-- Commented out as information is outdated.
+{| {{STDT}} style="text-align:right;"
+! From !! XP
+|-
+| World Interactions || 6,450 
+|-
+| Quests || 450
+|-
+| Hang Outs || 345
+|-
+| Recipes || 1,800
+|-
+| colspan="2" style="border-top-style:dashed;" | Total: 9,045
+|}
+-->
+{{:{{msg:BASEPAGENAME}}/XP}}
+
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Lore Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Lore|
+{{:Xptables/Lore}}
+}}
+== Trivia ==
+* Prior to February 2, 2016, Players could continuously level up lore when receiving +1xp for completing Word of Power recipes.
+
+[[Category:Skills]][[Category:Other Skills]]

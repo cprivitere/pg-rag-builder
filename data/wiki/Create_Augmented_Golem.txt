@@ -1,0 +1,11 @@
+__NOTOC__
+{{Ability infobox
+| name = Create Augmented Golem
+| description = You concoct an automaton that can be given six commands.
+| level = 61
+| power cost = 50
+| reuse time = 90
+| range = 0 meters
+| skill = Battle Chemistry
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

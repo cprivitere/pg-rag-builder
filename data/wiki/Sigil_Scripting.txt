@@ -1,0 +1,119 @@
+__NOTOC__
+{{Skill infobox
+|title            = Sigil Scripting
+|image            = [[File:Empty_Placeholder.png]]
+|caption          =
+|skilltype        = Other Skill <!-- Combat Skill, Trade Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 60 <!-- List without bonus levels -->
+|req              =  <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Sir Arif]], [[Preta]], [[Kohan]] <!-- List skill trainers, 3 max -->
+}}
+
+{{Quote|
+Using magical inks and arcane rituals to create areas of power.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+'''Sigil Scripting''' is a kind of arcane trap-making skill taught by [[Sir Arif]] once you have 20 [[Calligraphy]]. The skill also includes some utility and beneficial symbols (also refered as "runes") such as one that knocks back enemies, and a restorative rune that heals nearby allies. Sigil Scripting does NOT go on one of your two main combat bars. Instead, all abilities can be placed on your sidebar.
+
+All Sigils require consumables, typically Inks. Sir Arif sells all of them, but they're also craftable through [[Alchemy]].
+
+Sigil Scripting also involves etching runes onto gems, or specifically, Malachite. This attunes Malachite to particular animal form, allowing you to craft gear for it. Such recipes are sold by [[Preta]].
+
+Note hands are required to place sigils.
+
+=== In-Game Description ===
+Using magical inks and arcane rituals to create areas of power.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Sir Arif]] teach Sigil Scripting
+* [[Preta]] teaches the attunement recipes
+* [[Kohan]] will unlock levels 51-60 and 51+ Sigils.
+* Level 60-70 is unlocked by defeating a fabled dragon of yore.
+* Levels 71-80 are unlocked by [[Serendipity Cheddar]] deep beneath [[Povus]].
+
+== Connected Skills ==
+'''Sub-Skills:'''
+* None
+'''Secondary Skills:'''
+* None
+'''Related Skills:'''
+* [[Alchemy]] - Creation of inks
+
+=== Synergy Levels: ===
+Bonus [[Synergy Levels]] for [[Sigil Scripting]] can be obtained from the following skills and levels:
+:; [[Battle Chemistry]]
+:: Level 11
+:; [[Calligraphy]]
+:: Level 10, and Level 30, and Level 45, and Level 60
+
+== {{msg:BASEPAGENAME}} Basic Abilities==
+As you level {{msg:BASEPAGENAME}}, you will learn the following abilities:
+{| class="sortable" style="width:100%; border:1px solid silver;margin:0 0 1em;" cellspacing="2" cellpadding="3" rules=all
+|- style="background: #ec81bf;"
+! align="left" style="width:200px" | <span style="cursor: pointer;">'''Ability'''</span> 
+! align="left" style="width:80px;" | <span style="cursor: pointer;">'''Req. Level'''</span> 
+! align="left" style="width:120px" | <span style="cursor: pointer;">'''Learn From'''</span> 
+! align="left" style="width:800px" | <span style="cursor: pointer;">'''Description'''</span>
+! align="left" style="width:120px" | <span style="cursor: pointer;">'''Damage Type'''</span> 
+! align="left" | '''Ability Type'''
+|-
+| '''Explosion Sigil''' (1-3) || 0/20/40 || [[Sir Arif]] || Create a dangerous symbol that explodes when an enemy gets near. Requres one Basic Volatile Ink, with a 50% chance to consume it. || Fire || 
+|-
+| '''Electricity Sigil''' (1-3) || 5/25/50 || [[Sir Arif]] || Create a symbol of power that shocks all creatures that get too close. Lasts 60 seconds. Consumes one Basic Volatile Ink. || N/A || 
+|-
+| '''Restorative Sigil''' (1-3) || 10/25/45 || [[Sir Arif]] || Create a symbol of health that heals nearby allies when danger is nearby. Lasts 60 seconds. Consumes one Basic Holistic Ink. || N/A || 
+|-
+| '''Acid Sigil''' (1-3) || 15/35/50 || [[Sir Arif]] || Create a symbol of bile that flings armor-destroying acid at targets. Lasts 60 seconds. Consumes one Basic Caustic Ink. || N/A || 
+|-
+| '''Repulsion Barrier''' 1 || 35 || [[Sir Arif]] || Create a symbol of repulsion; enemies that enter it will be flung away. Lasts 30 seconds. Consumes one Advanced Holistic Ink. || N/A || 
+|-
+| '''Health Glyph''' 1 || 50 || [[The Sand Seer]] || Trace a symbol in the air that restores tremendous health to you. Consumes one Amazing Holistic Ink and takes four seconds to cast. || N/A || 
+|-
+| '''Explosion Sigil''' 4 || 50 || [[Preta]] || Create a dangerous symbol that explodes when an enemy gets near. Requres one Expert Volatile Ink, with a 50% chance to consume it. || Fire ||
+|}
+
+=== {{msg:BASEPAGENAME}} Advanced Abilities===
+Upon reaching higher levels, experts of the {{msg:BASEPAGENAME}} Skill may learn the following abilities:
+{| class="sortable" style="width:100%; border:1px solid silver;margin:0 0 1em;" cellspacing="2" cellpadding="3" rules=all
+|- style="background: #ec81bf;"
+! align="left" style="width:200px" | <span style="cursor: pointer;">'''Ability'''</span> 
+! align="left" style="width:80px;" | <span style="cursor: pointer;">'''Req. Level'''</span> 
+! align="left" style="width:120px" | <span style="cursor: pointer;">'''Learn From'''</span> 
+! align="left" style="width:800px" | <span style="cursor: pointer;">'''Description'''</span>
+! align="left" style="width:120px" | <span style="cursor: pointer;">'''Damage Type'''</span> 
+! align="left" | '''Ability Type'''
+|-
+| '''Electricity Sigil''' 4 || 53 || [[Kohan]] || Create a symbol of power that shocks all creatures that get too close. Lasts 60 seconds. Consumes one Basic Volatile Ink. || N/A || 
+|-
+| '''Restorative Sigil''' 4 || 55 || [[Kohan]] || Create a symbol of health that heals nearby allies when danger is nearby. Lasts 60 seconds. Consumes one Basic Holistic Ink. || N/A || 
+|-
+| '''Acid Sigil''' 4 || 58 || [[Kohan]] || Create a symbol of bile that flings armor-destroying acid at targets. Lasts 60 seconds. Consumes one Basic Caustic Ink. || N/A || 
+|-
+| '''Explosion Sigil''' 5 || 60 || [[Kohan]] || Create a dangerous symbol that explodes when an enemy gets near. Requres one Basic Volatile Ink, with a 50% chance to consume it. || Fire || 
+|-
+| '''Teleportation Sigil''' 1 || 60 || [[Kohan]] || Create a symbol of movement that can be used by you and your allies (if they wish). Lasts 5 minutes. Consumes two Amazing Holistic Inks. || N/A || 
+|}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Active Sigils ===
+You can only have 3 active sigils at one time, and 2 of the same type. The Druid ability '''Healing Sanctuary''' counts towards this limit.
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/AuxCombatSkill}}
+}}
+
+== Trivia ==
+It is not possible to level this skill as an animal because using the sigils requires hands, illusion spells do not help. If you already are level 25 you could use the recipes to get more xp.
+
+== Gallery==
+
+[[Category:Skills]]

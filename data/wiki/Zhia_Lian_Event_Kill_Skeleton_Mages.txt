@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Okay, just asking you to fight "skeletons" was obviously silly. I should have specified: skeleton mages! The scary ones with the magic staves. Kill those.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Okay, just asking you to fight "skeletons" was obviously silly. I should have specified: skeleton mages! The scary ones with the magic staves. Kill those.
+
+===Requirements===
+* Kill Skeleton Mages x7
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Okay, that's not bad! But... still not really impressive. Hmm... I've got it!}}
+* 450 councils
+* {{Item|Level 10-20 Event Loot Key}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,71 @@
+==Update Notes: April 14, 2026==
+This is a bug-fix update with various improvements and adjustments thrown in.
+
+===Terminology Change: "Vulnerable"===
+Previously, the word "vulnerable" had two very different meanings in the game. Monsters could have vulnerabilities to certain types of damage, such as Fire Vulnerability. Monsters could also "Feel Vulnerable" spontaneously during combat (indicated by a purple sphere around them), during which certain abilities deal more damage to these "vulnerable targets". We've renamed this second meaning from "Vulnerable" to "Off-Guard". Where previously the word "VULNERABLE" would float by, you'll now see "OFF-GUARD". Ability and buff descriptions are updated similarly. No behavior changes, only terminology change.
+
+===Prodigy Adjustments===
+:- The "Prodigal Epiphany" buff from earning a Prodigy Level no longer stacks with itself
+::- While we don't consider this an illegal exploit, we do consider it a game-breaking exploit, since it let players get more than a year ahead of the intended power curve. We've decided to just deal with it for the players who earned a few dozen (!) levels this way. However, a few enterprising players worked to scale this exploit into the stratosphere, and those players' Prodigy levels have been reduced.
+:- earning a Prodigy Level no longer gives a flat payout of Combat Wisdom. It was too much. Instead, the Prodigal Epiphany Buff has a more potent boost to Combat Wisdom. (+100% for a half-hour instead of +50%)
+
+===Vampirism===
+:- Vampirism: Dominate: ability's reuse time is determined by the level of the ability. Previously this ranged from 70 seconds (at level 4) to 35 seconds (at level 124). Now it ranges from 60 seconds to 11 seconds
+:- Vampirism: changed treasure effect (Feet, Necklace) "Dominate Reuse Time -12; Dominate Duration +10" changed to => "Dominate Duration +24; Dominated Victim Direct Damage Bonus +24%"
+:- Vampirism: changed treasure effect (Legs, Feet) "While in Blood Mist form you gain Sprint Speed +7" => +12
+:- Vampirism: changed treasure effect (Chest, Hands) "If Blood Mist causes you to erupt in a fountain of vile blood, that eruption deals +160 Trauma damage over 8 seconds" => +200 over 8 seconds
+:- Fix bug enabling permanent Blood Mist form after dying
+:- Polish Blood Mist particle effects
+
+===Statehelm Stuff===
+:- fix shopkeepers and Statehelm "townsfolk" having the wrong name and description
+:- Many Statehelm NPCs can now phase through doors! This will prevent them from getting stuck. Hopefully at some point in the future, they'll be able to open doors.. but when you can phase through them, why bother?
+:- Statehelm doors can now be walked through while they're opening
+:- Statehelm Barracks NPCs now use their beds at night, instead of just staring at them
+:- Fix Tessa Starlight's storage numbers. Close Friends has gone from 48 -> 36, and Best Friends from 36 -> 48. If you are Close Friends with her, this will decrease your storage with her temporarily, until you favor her up
+:- Statehelm townsfolk are better at differentiating between vandals and people cleaning up the vandalism
+:- war bonds cannot be sent via pigeon mail
+:- Chancellor Algest is sold out of $10m war bonds (but still has unlimited $1m war bonds)
+:- some beach spawns in Statehelm (WIP)
+:- Dreadfin Absolum's activity spawns fewer copies of Dreadfin Absolum
+:- incremental refinements to Statehelm nighttime content (WIP)
+:- added Statehelm Blood Portal activity
+:- Skitters' rings are now appropriately imbued
+:- Fix typo in Jarasen's training: "Unlock Tailoring Skill Levels 81-90" -> "91-100"
+:- More work on Statehelm NPC training fixes and balancing
+
+===Audio Changes===
+:- New combat numbers setting: 'Use Combat Numbers for Enemies'. This lets you control which numbers appear above monsters' heads. Options are "Never", "Personal Attacks Only", and "All Attacks". Default is "All Attacks"
+:- New sound settings: Sound Sub-Types! Some sounds are now controllable on a more granular level, so you can tweak them to your liking. Eating SFX, wolf howls, high-pitched psychology pings, and more! Check them out under Settings > Sound > Sound Sub-Types
+:- Decrease volume of some spider, goblin, & scray sounds
+:- Adjust audio range falloff for: Pigs, Spiders, Nightmare Creatures, Goblins, & Skeletons
+
+===Localization===
+We've made more progress on exporting game strings for volunteer translators. I'll make a new discord thread with new info.
+
+===Everything Else===
+:- Crafting Caravan event has been updated to add some new higher level tiers on some skills. Also, some existing tasks have been altered to accommodate new level unlocks.
+:- the Ilmari horse race gives a lot more loot items due to being long and difficult
+:- the Kur horse race gives more loot items also
+:- New Advanced Items! These are level 100, 110 and 120 versions of the Enhanced items, but better! Visit your favorite Enhanced item NPC to check it out!
+::- All Enhanced and Advanced items are now attuned
+:- Somewhere in Vidaria, there is now a method to obtain a Flax Seed without visiting Kunax
+:- You can now search your quest log! The search includes the quest name, NPC, and location
+:- Floating numbers no longer appear all at once when a nameplate comes back onto screen
+:- Fix high level versions of the mod "Your Extra Toes mutation grants the target +X% Knockback Ignore Chance"
+:- Fold Lend Grace 6 in with the rest of the Lend Graces
+:- Fix eyebrows for new characters
+:- Item rafflers and dispensers now show an error instead of deploying when used in guild halls
+:- Reduce wind speed of weathers
+:- Move humanoid models closer to the ground
+:- the guardian scorpions near animal town are no longer attackable. They are now actual guards for the town and automatically attack encroaching ranalon and scray. Increased count to 4
+:- Fix bug causing small animal forms to sink into the ground
+:- Fix UI bug labeling baked snacks as Meals
+:- Move Chat Log settings from VIP to GUI
+:- Fix display of <<<quest_ID_Name>>> in popup titles and system messages
+:- "Invite to Party" in the Social window now works more intuitively. Previously, you could only use it if you were already in a party, and you were the party leader. Now you can use it to start a new party. This applies to both the Friends and Guild tabs
+:- Fix bug causing some particles to emit from the player's hair instead of their entire body on the new models
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+An avatar of Tast in Povus said, Kill in my name and you shall have the knowledge that you seek: schematics for armor that is strong enough even for you!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Tast]]''' in '''[[Povus]]'''. This quest is available at [[Armorsmithing]] level 50. You must have previously completed [[Forging Armor from Blood]] in order to undertake this quest. 
+
+===Preface===
+Kill in my name and you shall have the knowledge that you seek: schematics for armor that is strong enough even for you!
+
+===Requirements===
+* Kill Sentient Enemies x200
+* Talk to Tast, God of War
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Your prowess in battle is great, but watch that it does not eclipse your armorsmithing.}}
+* 3 {{Favor|favor}}
+* Recipe: Amazing Orcish Plate Boots (Enchanted)
+* Recipe: Amazing Orcish Plate Boots (Max-Enchanted)
+* Recipe: Amazing Orcish Plate Greaves (Enchanted)
+* Recipe: Amazing Orcish Plate Greaves (Max-Enchanted)
+* Recipe: Amazing Orcish Plate Coat (Enchanted)
+* Recipe: Amazing Orcish Plate Coat (Max-Enchanted)
+* Recipe: Amazing Orcish Plate Gauntlets (Enchanted)
+* Recipe: Amazing Orcish Plate Gauntlets (Max-Enchanted)
+* Recipe: Amazing Orcish Plate Helm (Enchanted)
+* Recipe: Amazing Orcish Plate Helm (Max-Enchanted)
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Tast]]

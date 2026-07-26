@@ -1,0 +1,126 @@
+__NOTOC__
+{{NPC infobox
+|title            = Echur
+|image            = [[File:Echur (npc).jpg|300px]]
+|caption          = His mind seems far away.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = near [[Serbule Keep]]'s garden
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Mentalism]]
+|vendor           = Yes
+}}
+{{Quote|
+Hello again, friend. I'm meditating right now; did you need anything urgently? If not, sit down and meditate with me.
+}}
+[[Echur]] is a martial artist who specializes in [[Unarmed]] and [[Mentalism]] abilities. He also has a certain interest in mind-altering compounds...
+== Location ==
+; [[Serbule]]
+: He stands by the [[Meditation Pillar]] in the south area of town.
+== Shopkeeper ==
+{{Vendor items sold}}
+== Favor ==
+
+You will lose Favor if you kill animals or creatures near Echur.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+[[Echur]] rewards his close acquaintances with items and knowledge.
+{{Spoiler|Reward at {{Favor|Friends}}:|
+:Teaches [[Mentalism]].
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}:|
+:Gives {{Item|Echur's Boots}}.
+}}
+{{Spoiler|Reward at {{Favor|Best Friends}}:|
+:Teaches {{Item|Cranium Balm}} recipe.
+}}
+
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Hike to a remote meditation pillar(8h)|
+{{Quote|The scenery was great, wasn't it? Even if the meditation was kind of a drag. Well, not every meditation session goes as planned, you know? But we just come back tomorrow and try again.}}
+:65 favor with Echur
+:300 Meditation XP
+}}
+{{Spoiler|Hike to a remote meditation pillar (8h) (unlocked after the first one)|
+:65 favor
+:450 Meditation XP
+}}
+{{Spoiler|Explore new mind-altering compounds(4h)|
+{{Quote|That one was too hallucinogenic for me. I prefer ones that focus the mind, not distract it. You keep the rest.}}
+:35 favor with Echur
+:25 Mycology XP
+:4 Blusher Mushroom
+}}
+{{Spoiler|{{repeatable}} Meditate with Echur(60m)|
+{{Quote|Now we're ready to face the day! Come back next week and meditate with me again.
+}}
+:12 favor with [[Echur]]
+:100 [[Meditation]] XP
+}}
+{{Spoiler|Share some cranium powder and have a deep discussion(60m)|
+{{Quote|I think I'm slowing down, so that's probably enough for me!}}
+:12 favor with Echur
+:50 Meditation XP
+:1 Cranium Powder
+}}
+{{Spoiler|Practice reading each others' minds (2h)|
+: 20 favor
+: 200 Meditation XP
+}}
+{{Spoiler|Take Echur up on his intimate invitation(8h) (unlocked after "Practice reading each others' minds")|
+:65 favor with Echur
+:400 Meditation XP
+:1 Ring of Telepathic Pestering (Level 30)
+:Recipe for Elven Infertility Cantrip
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Echur
+notcategory = Quests/Ri-Shin Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mentalism]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mentalism{{pipe}}Unlock Mentalism Skill
+ |skilllevel=0
+ |cost=0
+ |favor=Friends
+}}
+|}
+
+=== Tree Decoration: Serbule ===
+During the [[Winter Holiday]] of Ri-Shin, [[Echur]] offers additional quests to decorate a tree in [[Serbule]].
+<dpl>
+category = Quests/Ri-Shin Quests
+category = Quests/Echur
+mode = unordered
+columns = 1
+</dpl>
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Echur's Belt of the Mentalist}}
+|RiShin Family = {{Item|Echur's Belt of the Mentalist}}, One additional Jewelry: <br>{{Item|Ring of Arrows}} (Lv 20), {{Item|Amulet of Piercing Mitigation 3}} (Lv 20)
+}}
+== Conversations ==
+== Gallery ==
+[[File:Echur_Location.jpg|400px|thumb|right|'''Echur''', standing in front of the [[Meditation Pillar]] in [[Serbule]] right next to the stone archway entrance to [[Therese]].]]
+[[Category:NPCs]]

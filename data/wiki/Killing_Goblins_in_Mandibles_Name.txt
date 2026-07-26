@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Mandibles in [[Red Wing Casino]] said, "I miss my time in [[Sedgewick Forest]], when I worked with my brethren to keep goblin populations in check. Would you kill goblins in my name? As they perish, make sure to state, 'This is for Mandibles.'"
+
+===Prerequisites===
+To start this quest, talk to '''[[Mandibles]]''' in the '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|
+I miss my time in Sedgewick Forest, when I worked with my brethren to keep goblin populations in check. Would you kill goblins in my name? As they perish, make sure to state, 'This is for Mandibles.'
+}}
+===Requirements===
+* Kill 20 [[Goblin]]s.
+* Talk to Mandibles
+
+===Rewards===
+{{Spoiler|Rewards for Killing Goblins in Mandibles' Name|
+{{Quote|
+You bloodthirsty creature! I appreciate your efforts to keep my name in every evil goblin's heart. By the way please do not mention my anti-goblin comments to our resident goblin population. It has been a source of ... disagreement in the past. But we know the truth, do we not? Yes. We are kindred.
+}}
+* 100 favor towards [[Mandibles]]
+* 1000 Councils
+* {{Item|Red Wing Token}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Mandibles]]

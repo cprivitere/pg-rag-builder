@@ -1,0 +1,271 @@
+{{Ambox
+|border=blue
+|type='''Page Needs Attention.'''
+|info=<span style="color:#c80000; font-weight:bold;">This page potentially has something broken or inaccurate. <br/> Please see the [[Talk:Percussa|Talk Page]] for more details and to help resolve the issue. [[Category:Pages Needing Attention]] <br/></span>
+}}
+
+__NOTOC__
+{{NPC infobox
+|title            = Percussa
+|image            = [[File:Percussa (npc).png|300px]]
+|caption          = Confident in her skills.
+|zone             = Rahu
+|town             = Rahu City
+|location         = Outside dining hall.
+|wander = Returns to her home between <br>6 pm and 5 am.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Bard]], [[Leatherworking]]
+}}
+{{Quote| I've gone adventuring a few times to test out my bardic powers on evil Orcs. It was invigorating! But so much of the music is lost in the chaos of battle. For now, I'm happier just being a musician.
+}}
+[[Percussa]] is a Rakshasan [[Bard]] trying to make a living in [[Rahu]]. Her mother was a [[Haj-un-gu]], a Rakshasa voice-fighter. When she was young, her parents were killed in a skirmish with Orcs.
+== Location ==
+; [[Rahu]] <!-- List the Zone the npc is found in. -->
+: [[Percussa]] is usually found around [[Nishika]]'s restaurant during the day from 5am. 
+: Around 6pm, she returns to her home in the [[Onkara]] patrolled half of the city.
+[[Category:Rahu City (peaceful) NPCs]]
+[[Category:Rahu City (hostile) NPCs]]
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+=== Miscellaneous ===
+Tipping Percussa 10 councils will give a one time bonus of +5 Favor.
+
+== Quests ==
+<dpl>
+category = Quests/Percussa
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+[[Percussa]] will only train skills once you reach the proper favor level.
+;[[Bard]]
+; ''51-60 -   19000 councils'' -  10 Performance, 10 Vocabulary, 5 Poetry Appreciation.
+; ''61-70 -   99000 councils'' -  15 Vocabulary, 10 Poetry Appreciation, 10 Flower Arrangement.
+:'' ''Virtuoso's Ballad 4  - 11583 councils'' -  Comfortable Favor.
+:'' ''Moment of Resolve 5  - 7125 councils'' -  Comfortable Favor.
+:'' ''Blast of Fury 6  - 11583 councils'' -  Comfortable Favor.
+:'' ''Song of Resurgence 6  - 9850 councils'' -  Comfortable Favor.
+:'' ''Song of Discord 6  - 11533 councils'' -  Comfortable Favor.
+:'' ''Rally 6  - 11583 councils'' -  Comfortable Favor.
+:'' ''Song of Resurgence 6  - 9850 councils'' -  Comfortable Favor.
+:'' ''Entrancing Lullaby 4  - 14701 councils'' -  Comfortable Favor.''
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Leatherworking]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe= Quality Bard Boots (Enchanted)
+ |skilllevel= 50
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Quality Bard Boots (Max-Enchanted)
+ |skilllevel= 50
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Quality Bard Shirt (Enchanted)
+ |skilllevel= 53
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Quality Bard Shirt (Max-Enchanted)
+ |skilllevel= 53
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Quality Bard Cap (Enchanted)
+ |skilllevel= 53
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Quality Bard Cap (Max-Enchanted)
+ |skilllevel= 53
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Quality Bard Leggings (Enchanted)
+ |skilllevel= 50
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Quality Bard Leggings (Max-Enchanted)
+ |skilllevel= 50
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Quality Bard Gloves (Enchanted)
+ |skilllevel= 53
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Quality Bard Gloves (Max-Enchanted)
+ |skilllevel= 53
+ |cost= 
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Boots (Enchanted)
+ |skilllevel= 60
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Boots (Max-Enchanted)
+ |skilllevel= 60
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Shirt (Enchanted)
+ |skilllevel= 63
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Shirt (Max-Enchanted)
+ |skilllevel= 63
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Cap (Enchanted)
+ |skilllevel= 63
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Cap (Max-Enchanted)
+ |skilllevel= 63
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Leggings (Enchanted)
+ |skilllevel= 60
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Leggings (Max-Enchanted)
+ |skilllevel= 60
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Gloves (Enchanted)
+ |skilllevel= 63
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Great Bard Gloves (Max-Enchanted)
+ |skilllevel= 63
+ |cost= 
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Amazing Bard Boots (Enchanted)
+ |skilllevel= 70
+ |cost= 
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Bard Boots (Max-Enchanted)
+ |skilllevel= 70
+ |cost= 
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Bard Shirt (Enchanted)
+ |skilllevel= 73
+ |cost= 
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Bard Shirt (Max-Enchanted)
+ |skilllevel= 73
+ |cost= 
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Bard Cap (Enchanted)
+ |skilllevel= 73
+ |cost= 
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Bard Cap (Max-Enchanted)
+ |skilllevel= 73
+ |cost= 
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Bard Leggings (Enchanted)
+ |skilllevel= 70
+ |cost= 
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Bard Leggings (Max-Enchanted)
+ |skilllevel= 70
+ |cost= 
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Bard Gloves (Enchanted)
+ |skilllevel= 73
+ |cost= 
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe= Amazing Bard Gloves (Max-Enchanted)
+ |skilllevel= 73
+ |cost= 
+ |favor=Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Stabmaster}} (Lv 55)
+|RiShin Family = 2 items (incomplete): {{Item|Desert Vagabond Pants}} (Lv 55), {{Item|Solid Ilmari Treasure Rumor: Large Treasure}}, {{Item|Stabmaster}} (Lv 55), {{Item|Telka's Tail}}
+}}
+== Conversations ==
+{{Quote |
+: I am Percussa, master of all forms of music, at your service! No need to tip me for my music. I play just to get my name out there in the world. If you enjoy it, dance or play along with me! 
+:''' I like your name'''
+:: Thank you. It was [[Daniel Murderdark]]'s idea. He said that since Rakshasa are so unfamiliar with bards, changing my name would help them understand my true nature. My parents died years ago, so nobody minded when I changed my name from Percia to Percussa.
+:''' I like your drumming!'''
+:: Thank you! You're very kind. I hope to see you around again I'm at [[Nishika]]'s restaurant almost every day.
+:''' Your outfit is great! Who's your tailor?'''
+:: Oh, I make these clothes myself. A real elven bard taught me!
+:''' Can you play a song for me?'''
+:: Oh, I don't take requests, I'm sorry. When I play, I play from the heart, not from any song books! But if you stick around long enough, I'm sure you'll hear something you like.
+:''' Here's a tip (10 Councils)'''
+}}
+
+{{Spoiler|Like Family|{{Quote|source=Percussa|Have you thought more about what I said about Verta? When I leave in a few years, I'd be honored if you came with me. We could enroll in the same classes and be study buddies! It'll be great. Don't worry, you'll see!}}}}
+
+== Gallery ==
+[[File:Percussa.jpg]]
+[[Category:NPCs]]

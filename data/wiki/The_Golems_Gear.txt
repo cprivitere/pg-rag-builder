@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Leonard Allenson believes there are golems inside Borghild, and asked you to find a Cranial Gear from the head of one.
+
+===Prerequisites===
+To start this quest, talk to '''[[Leonard Allenson]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|An old tome I found said there was an entire system of automata in Borghild: robots! Lots of 'em! They'd be sealed off away from the rest of the place now, I suppose. And probably all broken. But if you find a broken one, can you see if it has a large gear in its head? The book talks about something called a Cranial Gear. I'd love to have one.}}
+
+===Requirements===
+* Obtain {{Item|Cranial Gear}}
+* Talk to Leonard Allenson
+
+===Rewards===
+{{Spoiler|Rewards for The Golem's Gear|
+{{Quote|Uh... that's a LOT bigger than I expected! You must have found a huge automaton! Thanks for grabbing the gear for me. And hey, good thing the automaton wasn't still functioning, huh?
+
+Hmm, I bet I could make a new kind of automaton with this! Come back later and I'll teach you what I discover.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Dwarf-Inspired Beaker}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Leonard Allenson]]

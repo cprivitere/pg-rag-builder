@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+You're killing Tentakillers in Povus.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Tentakillers</b>
+Rakshasa settlers brought fierce creatures called dwvon to act as guards and hunting companions, but they went feral after the War of Rahu. Their descendants were dubbed "tentakillers" by famous Povus settler "Fangy" Lim because they use their tentacles to shock and disorient their prey. And everything is prey: big or small, the tentakiller does not discriminate.
+
+===Requirements===
+* Kill Tentakillers x8
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 5000 Combat XP for your active skills
+* 250 XP in Reptile Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Hunting Quests]]

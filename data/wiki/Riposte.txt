@@ -1,0 +1,102 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Riposte
+| description = Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead.
+| level = 7
+| power cost = 12
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Riposte}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 16 Slashing + 48 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Riposte 2
+| description = Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead.
+| level = 16
+| power cost = 15
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Riposte}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 31 Slashing + 93 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Riposte 3
+| description = Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead.
+| level = 28
+| power cost = 19
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Riposte}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 56 Slashing + 168 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Riposte 4
+| description = Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead.
+| level = 39
+| power cost = 24
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Riposte}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 89 Slashing + 267 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Riposte 5
+| description = Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead.
+| level = 51
+| power cost = 27
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Riposte}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 149 Slashing + 447 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Riposte 6
+| description = Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead.
+| level = 63
+| power cost = 31
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Riposte}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 211 Slashing + 633 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Riposte 7
+| description = Defensive maneuver that diminishes enemy's Rage. For combos that require Parry, you can use Riposte instead.
+| level = 75
+| power cost = 35
+| reuse time = 10
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Parry}}{{KWAB|Riposte}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 282 Slashing + 846 if target is Vulnerable
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,382 @@
+__NOTOC__
+{{NPC infobox
+|title            = Skitters
+|image            = [[File:Skitters (npc).png|300px]]
+|caption          = A smallish spider with a hat
+|zone             = Statehelm
+|town = Statehelm
+|location         = School of Magic, ground floor.
+|anatomy = Arthropod
+|species = Spider
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer = [[Spider]], [[Warden]]
+|barter = Yes
+}}
+{{Quote|source=[[Skitters]]|It is rare for spiders to have long-term mates, even talking spiders like myself. But I beat the odds! I had a mate for four memorable seasons. 
+
+We quarreled over how (and whether) to raise our children and eventually she left me.
+
+I turned to my work, and when I began to fail that, I knew it was time to retire.}}
+[[Skitters]] is an intelligent Spider who lives in the city of [[Statehelm]] and works at the School of Magic.
+== Location ==
+; [[Statehelm]]
+: [[Skitters]] can be found on the first floor of the School of Magic during the day.
+
+== Favor ==
+Access to [[Skitters]] favor system is locked behind the first part of the quest [[The Frightened Animals of Statehelm]]. Once an item is delivered to [[Skitters]], his conversational options open up. 
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards ===
+[[Skitters]] rewards his friends with ???
+=== Hang Outs ===
+
+== Quests ==
+[[Skitters]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Skitters
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Spider]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Spider{{pipe}}Unlock Spider Skill Levels 81-90
+ |skilllevel = 80
+ |cost=300 SR or 600000 
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Spider{{pipe}}Unlock Spider Skill Levels 91-100
+ |skilllevel = 90
+ |cost=500 SR or 1000000 
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Spider{{pipe}}Unlock Spider Prodigy Potential
+ |skilllevel = 100
+ |cost=? 150 SR or 300000
+ |favor=?
+}}
+{{NPC training row
+ |ability=Spider Bite 11
+ |skilllevel= 100
+ |cost= 69840
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Spider Bite 12
+ |skilllevel= 110
+ |cost= 84120
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Inject Venom 8
+ |skilllevel= 110
+ |cost= 84120
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Gripjaw 8
+ |skilllevel= 99
+ |cost= 68520
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Gripjaw 9
+ |skilllevel= 109
+ |cost= 82560
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Premeditated Doom 8
+ |skilllevel= 100
+ |cost= 69840
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Premeditated Doom 9
+ |skilllevel= 110
+ |cost= 84120
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Terrifying Bite 9
+ |skilllevel= 105
+ |cost= 76680
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Terrifying Bite 10
+ |skilllevel= 115
+ |cost= 92160
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Grappling Web 8
+ |skilllevel= 100
+ |cost= 69840
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Grappling Web 9
+ |skilllevel= 110
+ |cost= 84120
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Spit Acid 9
+ |skilllevel= 104
+ |cost= 75240
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Spit Acid 10
+ |skilllevel= 114
+ |cost= 90480
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Incubate 8
+ |skilllevel= 97
+ |cost= 66000
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Incubate 9
+ |skilllevel= 107
+ |cost= 79560
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Infinite Legs 10
+ |skilllevel= 96
+ |cost= 64800
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Infinite Legs 11
+ |skilllevel= 106
+ |cost= 78120
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Infinite Legs 12
+ |skilllevel= 116
+ |cost= 93840
+ |favor= ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Warden]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Warden{{pipe}}Unlock Warden Skill Levels 81-90
+ |skilllevel = 80
+ |cost=300 SR or 600000
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Warden{{pipe}}Unlock Warden Skill Levels 91-100
+ |skilllevel = 90
+ |cost=500 SR or 1000000
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Warden{{pipe}}Unlock Warden Prodigy Potential
+ |skilllevel = 100
+ |cost=150 SR or 300000
+ |favor=?
+}}
+{{NPC training row
+ |ability=Warning Jolt 8
+ |skilllevel=100
+ |cost= 19 Waraden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Warning Jolt 9
+ |skilllevel=110
+ |cost= 23 Waraden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Conditioning Shock 8
+ |skilllevel= 101
+ |cost= 19 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Conditioning Shock 9
+ |skilllevel= 111
+ |cost= 23 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Apprehend 8
+ |skilllevel= 102
+ |cost= 19 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Apprehend 9
+ |skilllevel= 112
+ |cost= 23 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Lethal Force 8
+ |skilllevel= 103
+ |cost= 19 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Lethal Force 9
+ |skilllevel= 113
+ |cost= 23 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Stun Trap 7
+ |skilllevel= 98
+ |cost= 17 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Stun Trap 8
+ |skilllevel= 108
+ |cost= 20 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Privacy Field 8
+ |skilllevel= 104
+ |cost= 20 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Privacy Field 9
+ |skilllevel= 114
+ |cost= 23 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Pursuit Mode 4
+ |skilllevel= 100
+ |cost= 19 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Coordinated Assault 6
+ |skilllevel= 110
+ |cost= 23 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Aggression Deterrent 7
+ |skilllevel= 97
+ |cost= 17 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Aggression Deterrent 8
+ |skilllevel= 107
+ |cost= 22 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Controlled Burn 7
+ |skilllevel= 96
+ |cost= 17 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Controlled Burn 8
+ |skilllevel= 106
+ |cost= 22 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Controlled Burn 9
+ |skilllevel= 116
+ |cost= 24 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Call for Backup 7
+ |skilllevel= 101
+ |cost= 22 Warden Points & 0
+ |favor= ?
+}}
+{{NPC training row
+ |ability=Call for Backup 8
+ |skilllevel= 111
+ |cost= 24 Warden Points & 0
+ |favor= ?
+}}
+|}
+
+== Services ==
+==== [[Bartering]] ====
+{| {{STDT}}
+!Give
+!Receive 
+|-
+| Warden Points x30 || {{Item|Backup Ring}}
+|-
+| Warden Points x40 || {{Item|Grand Backup Ring}}
+|-
+| Warden Points x50 || {{Item|Ostentatious Backup Ring}}
+|-
+| councils x 5000|| {{Item|Friendly Spider Hat}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+
+== Conversations ==
+{{Quote|source=[[Skitters]] (When suit item is delivered)|
+Thank you for delivering my suit. I left it back home when I came to live in Statehelm. 
+
+You know, I told myself I'd never have to don this suit again. But I just can't stand by and watch as my intelligent animals in this city are killed. I am old for a spider, and this may be my final adventure, but... perhaps I was growing tired of retirement anyway.
+
+Give my thanks to [[Pumza]].
+
+'''Perhaps I can help you with this adventure?'''
+
+You are no weakling! Well, I work best alone. But I am an old spider. If you think you can take on a mission of great importance, you can go in my stead.
+}}
+{{Quote|source=[[Skitters]]|
+Have you ever heard of the [[Land of Singing Spiders]]? It's another realm. Spiders that serve [[Akhisa]] sometimes find themselves there after they die.
+
+I've served Akhisa from time to time. As I age I start to ponder whether rebirth in the Land of Singing Spiders would be good or bad. Returning to nothingness wouldn't be so bad, and it's a known outcome. What if we're forced to sing forever? It's called the Land of Singing Spiders, after all.
+
+I like an occasional song, but only in moderation. 
+}}
+
+{{Quote|source=[[Skitters]]|It is rare for spiders to have long term mates, even talking spiders like myself. But I beat the odds! I had a mate for four memorable seasons. 
+
+We quarreled over how (and whether) to raise our children and eventually she left me. 
+
+I turned to my work, and when I began to fail at that, I knew it was time to retire.}}
+
+[[Category:NPCs]]

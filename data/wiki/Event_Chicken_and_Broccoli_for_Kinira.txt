@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Kinira said, "Hello! We have been on the road for quite some time, so rations and cooking supplies got thin. If these guys have to eat beets again, they might riot! They need meat! Chicken! And something other then beets... maybe some broccoli? Bring me 20 plates of [[Chicken and Broccoli]], and maybe I can help you out somehow."
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Kinira]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Cooking]] level 30. This quest is only available during a Crafting Caravan event.
+
+===Preface===
+Hello! We have been on the road for quite some time, so rations and cooking supplies got thin. If these guys have to eat beets again, they might riot! They need meat! Chicken! And something other then beets... maybe some broccoli? Bring me 20 plates of [[Chicken and Broccoli]], and maybe I can help you out somehow.
+
+===Requirements===
+* Prepare 10 Chicken and Broccoli
+* Obtain 20 Chicken and Broccoli
+* Talk to Kinira
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Oh man! Thank you so much. I might have become the next thing served up for supper!
+
+<i>[You earn 10 favor with Orran the Caravan Leader]</i>
+
+<i>[This task is repeatable every 12 hours.]</i>}}
+* {{Item|Crafter's Guild Token}}
+* 4800 XP in Cooking
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Kinira]][[Category:Quests/Crafting Caravan]]

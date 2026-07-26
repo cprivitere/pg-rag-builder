@@ -1,0 +1,465 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sir Brooker
+|image            = [[File:Sir Brooker (npc).png|300px]] 
+|caption          = A grizzled weapons specialist
+|zone             = Statehelm
+|town = Statehelm
+|location         = Training Ground, Barracks
+|anatomy = Human
+|species = Human
+|beastspeak       = No
+|skilltrainer     = [[Sword]], [[Shield]]
+}}
+{{Quote|source=[[Sir Brooker]]| 
+I'm here to train the troops. Everything else is somebody else's problem.}}
+[[Sir Brooker]] is an established warrior who works for the Council. He regularly is called upon to train new recruits in the armies. 
+== Location ==
+; [[Statehelm]]
+: [[Sir Brooker]] can be found in the Council army training ground during the day. At night, he retreats to a room in the southwest corner of the second floor of the barracks. 
+
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Sir Brooker]] rewards his friends with __TBD__
+== Quests ==
+[[Sir Brooker]] offers everyone he meets (''{{favor|Neutral}}''' favor) two requests. Completing these requests will open up additional favors.
+<dpl>
+category = Quests/Sir Brooker
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Sword]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Sword{{pipe}}Unlock Sword Skill Levels 81-90
+ |skilllevel = 80
+ |cost=276 SR or 552,000
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Sword{{pipe}}Unlock Sword Skill Levels 91-100
+ |skilllevel = 90
+ |cost=460 SR or 920,000
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Sword{{pipe}}Unlock Sword Prodigy Potential
+ |skilllevel= 104
+ |cost=138 SR or 276,000
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Sword Slash 9
+ |skilllevel= ?
+ |cost= 73,195
+ |favor=?
+}}
+{{NPC training row
+ |ability=Many Cuts 9
+ |skilllevel= ?
+ |cost=64,252
+ |favor=?
+}}
+{{NPC training row
+ |ability=Parry 9
+ |skilllevel= ?
+ |cost=77,390
+ |favor=?
+}}
+{{NPC training row
+ |ability=Wind Strike 9
+ |skilllevel= ?
+ |cost=61,824
+ |favor=?
+}}
+{{NPC training row
+ |ability=Wind Strike 10
+ |skilllevel= ?
+ |cost=74,520
+ |favor=?
+}}
+{{NPC training row
+ |ability=Finishing Blow 7
+ |skilllevel= ?
+ |cost=61,824
+ |favor=?
+}}
+{{NPC training row
+ |ability=Finishing Blow 8
+ |skilllevel= ?
+ |cost=77,390
+ |favor=?
+}}
+{{NPC training row
+ |ability=Riposte 9
+ |skilllevel= ?
+ |cost=63,038
+ |favor=?
+}}
+{{NPC training row
+ |ability=Precision Pierce 9
+ |skilllevel= ?
+ |cost=63,038
+ |favor=?
+}}
+{{NPC training row
+ |ability=Precision Pierce 10
+ |skilllevel= ?
+ |cost=77,390
+ |favor=?
+}}
+{{NPC training row
+ |ability=Hacking Blade 7
+ |skilllevel= ?
+ |cost=70,545
+ |favor=?
+}}
+{{NPC training row
+ |ability=Debilitating Blow 7
+ |skilllevel= ?
+ |cost=64,252
+ |favor=?
+}}
+{{NPC training row
+ |ability=Decapitate 8
+ |skilllevel= ?
+ |cost=70,545
+ |favor=?
+}}
+{{NPC training row
+ |ability=Flashing Strike 9
+ |skilllevel= ?
+ |cost=63,038
+ |favor=?
+}}
+{{NPC training row
+ |ability=Flashing Strike 10
+ |skilllevel= ?
+ |cost=74,520
+ |favor=?
+}}
+{{NPC training row
+ |ability=Thrusting Blade 7
+ |skilllevel= ?
+ |cost=67,896
+ |favor=?
+}}
+{{NPC training row
+ |ability=Heart Piercer 9
+ |skilllevel= ?
+ |cost=64,252
+ |favor=?
+}}
+{{NPC training row
+ |ability=Heart Piercer 10
+ |skilllevel= ?
+ |cost=77,390
+ |favor=?
+}}
+{{NPC training row
+ |ability=Riposte 10
+ |skilllevel= ?
+ |cost=78,825
+ |favor=?
+}}
+{{NPC training row
+ |ability=Many Cuts 10
+ |skilllevel= ?
+ |cost=80,260
+ |favor=?
+}}
+{{NPC training row
+ |ability=Decapitate 9
+ |skilllevel= ?
+ |cost=86,332
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Shield]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Shield{{pipe}}Unlock Shield Skill Levels 81-90
+ |skilllevel = 80
+ |cost=? SR or
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Shield{{pipe}}Unlock Shield Skill Levels 91-100
+ |skilllevel = 90
+ |cost=? SR or
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Shield{{pipe}}Unlock Shield Prodigy Potential
+ |skilllevel= 104
+ |cost=? SR or
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Disrupting Bash 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Disrupting Bash 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Disrupting Bash 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Infuriating Bash 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Infuriating Bash 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Infuriating Bash 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Emergency Bash 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Emergency Bash 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Emergency Bash 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Strategic Preparation 6
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Strategic Preparation 7
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Elemental Ward 5
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Reinforce 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Reinforce 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Reinforce 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Bulwark Mode 4
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Quick Bash 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Quick Bash 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Quick Bash 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Take The Lead 7
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Take The Lead 8
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Take The Lead 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fire Shield 7
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fire Shield 8
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fire Shield 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fire Shield 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fight Me You Fools 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fight Me You Fools 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fight Me You Fools 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Shield Team 7
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Shield Team 8
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Shield Team 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Finish It 8
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Finish It 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Finish It 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Finish It 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Rapid Recovery 9
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Rapid Recovery 10
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability=Rapid Recovery 11
+ |skilllevel= ?
+ |cost=?
+ |favor=?
+}}
+|}
+
+== Services ==
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Sir Brooker]]| 
+Combat isn't about swinging hard; it's about outlasting your enemy.}}
+{{Quote|source=[[Sir Brooker]]| 
+Discipline and strength. Remember that every time you pick up a weapon.}}
+
+[[Category:NPCs]]

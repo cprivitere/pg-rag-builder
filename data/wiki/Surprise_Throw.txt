@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Surprise Throw
+| description = A thrown blade that attacks a vulnerable spot. Ineffective unless the enemy's focus is on a different assailant. Consumes 1 Simple Throwing Knife.
+| level = 8
+| power cost = 25
+| reuse time = 45
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|SurpriseThrow}}{{KWAB|Ranged}}{{KWAB|Special_WIthAggro_HalfDamage}}{{KWAB|KnifeNonCut}}
+| damage = 38 Piercing
+| special = Deals only half damage if target's focus is on you.
+}}
+|-
+|
+{{Ability infobox
+| name = Surprise Throw 2
+| description = A thrown blade that attacks a vulnerable spot. Ineffective unless the enemy's focus is on a different assailant. Consumes 1 Basic Throwing Knife.
+| level = 18
+| power cost = 33
+| reuse time = 45
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|SurpriseThrow}}{{KWAB|Ranged}}{{KWAB|Special_WIthAggro_HalfDamage}}{{KWAB|KnifeNonCut}}
+| damage = 75 Piercing
+| special = Deals only half damage if target's focus is on you.
+}}
+|-
+|
+{{Ability infobox
+| name = Surprise Throw 3
+| description = A thrown blade that attacks a vulnerable spot. Ineffective unless the enemy's focus is on a different assailant. Consumes 1 Good Throwing Knife.
+| level = 28
+| power cost = 40
+| reuse time = 45
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|SurpriseThrow}}{{KWAB|Ranged}}{{KWAB|Special_WIthAggro_HalfDamage}}{{KWAB|KnifeNonCut}}
+| damage = 121 Piercing
+| special = Deals only half damage if target's focus is on you.
+}}
+|-
+|
+{{Ability infobox
+| name = Surprise Throw 4
+| description = A thrown blade that attacks a vulnerable spot. Ineffective unless the enemy's focus is on a different assailant. Consumes 1 Expert's Throwing Knife.
+| level = 38
+| power cost = 48
+| reuse time = 45
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|SurpriseThrow}}{{KWAB|Ranged}}{{KWAB|Special_WIthAggro_HalfDamage}}{{KWAB|KnifeNonCut}}
+| damage = 181 Piercing
+| special = Deals only half damage if target's focus is on you.
+}}
+|-
+|
+{{Ability infobox
+| name = Surprise Throw 5
+| description = A thrown blade that attacks a vulnerable spot. Ineffective unless the enemy's focus is on a different assailant. Consumes 1 Master's Throwing Knife.
+| level = 48
+| power cost = 54
+| reuse time = 45
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|SurpriseThrow}}{{KWAB|Ranged}}{{KWAB|Special_WIthAggro_HalfDamage}}{{KWAB|KnifeNonCut}}
+| damage = 283 Piercing
+| special = Deals only half damage if target's focus is on you.
+}}
+|-
+|
+{{Ability infobox
+| name = Surprise Throw 6
+| description = A thrown blade that attacks a vulnerable spot. Ineffective unless the enemy's focus is on a different assailant. Consumes 1 Amazing Throwing Knife.
+| level = 58
+| power cost = 61
+| reuse time = 45
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|SurpriseThrow}}{{KWAB|Ranged}}{{KWAB|Special_WIthAggro_HalfDamage}}{{KWAB|KnifeNonCut}}
+| damage = 393 Piercing
+| special = Deals only half damage if target's focus is on you.
+}}
+|-
+|
+{{Ability infobox
+| name = Surprise Throw 7
+| description = A thrown blade that attacks a vulnerable spot. Ineffective unless the enemy's focus is on a different assailant. Consumes 1 Astounding Throwing Knife.
+| level = 68
+| power cost = 68
+| reuse time = 45
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|SurpriseThrow}}{{KWAB|Ranged}}{{KWAB|Special_WIthAggro_HalfDamage}}{{KWAB|KnifeNonCut}}
+| damage = 507 Piercing
+| special = Deals only half damage if target's focus is on you.
+}}
+|-
+|
+{{Ability infobox
+| name = Surprise Throw 8
+| description = A thrown blade that attacks a vulnerable spot. Ineffective unless the enemy's focus is on a different assailant. Consumes 1 Astounding Throwing Knife.
+| level = 78
+| power cost = 75
+| reuse time = 45
+| range = 30 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|SurpriseThrow}}{{KWAB|Ranged}}{{KWAB|Special_WIthAggro_HalfDamage}}{{KWAB|KnifeNonCut}}
+| damage = 638 Piercing
+| special = Deals only half damage if target's focus is on you.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,20 @@
+__NOTOC__
+==Summary==
+Riston said,"If you can help me out, I'll make as many rings for you as you want. As a brewer, the Queen has me brew up things to suit her "special needs" when I'm not out here handing out prizes. Could you bring me 20 hops? The time I save from that I can use to make you a ring!"
+===Prerequisites===
+To start this quest, talk to '''[[Riston]]''' in the '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Neutral}} favor.
+===Preface===
+{{Quote|
+"If you can help me out, I'll make as many rings for you as you want. As a brewer, the Queen has me brew up things to suit her "special needs" when I'm not out here handing out prizes. Could you bring me 20 hops? The time I save from that I can use to make you a ring!"}}
+===Requirements===
+* Collect {{Item|Hops}} x20
+* Talk to Riston
+===Rewards===
+{{Spoiler|Rewards for Riston Needs Hops|
+{{Quote|
+Excellent! Gather your base materials and come see me when you're ready for a ring!}}
+
+* {{Item icon|Live Event Memorabilia|32}} Live Event Credit x1
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Riston]]

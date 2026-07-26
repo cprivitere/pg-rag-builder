@@ -1,0 +1,65 @@
+__NOTOC__
+==Update Notes: November 10, 2023==
+It's here! After a rather longer wait than we intended, we are proud to share this new update with you. It's got everything -: - dungeons, skills, puzzles, and a scary holiday party.
+
+===Halloween===
+[[Alharth]] is not the real world, and [[Zhia Lian]] isn't the goddess of Halloween. Nevertheless it's always been our tradition to hold our scary holiday event at the end of October. But this year we ran into a long series of bugs, leading to a long delay in the update, and the scary holiday had to wait as well. 
+
+But never fear! [[Zhia Lian]] has finally poked her way into our world with her whimsical demands. The event begins now, and we'll be scheduling the Zhia Lian parties for later this month. Keep an eye on the event calendar or check our Discord #events channel for the latest dates and times.
+
+===New Dungeon===
+You can now enter [[Errruka]] the Benefactor's home in [[Povus]]. This is a very large dungeon with a great many things to discover. It's also probably tuned to be more difficult than we really want -- it hasn't been playtested too much. But we know you've got this. Good luck!
+
+===Skills & Abilities===
+: - [[Crossbow]]: Knockback Bolts 9 was using ammo one tier lower than intended; this is fixed.
+: - [[Floxie]] in the [[Fae Realm]] can now train Fletching to 70.
+: - Orcish Battle Cry: fixed bug that prevented this from working.
+: - [[Priest]]: Healing amounts for various abilities fluctuated by a few health points due to formula changes.
+: - Priest: Castigate 7 and 8 deal more damage to undead.
+: - [[Psychology]]: (OffHand, Necklace) "Mock and Ridicule deal +65 damage and taunt +200" => "Mock and Ridicule deal +43% damage and taunt +200"
+: - Psychology: new treasure effect: (Chest) "Ridicule damage +93 and range +10 meters"
+: - Psychology: new treasure effect: (Ring) "Ridicule damage +93 and target does not call for help"
+: - Psychology: (Chest, Legs) "Psychoanalyze restores 212 Armor to you" => "Psychoanalyze deals +100% damage and restores 130 Armor to you"
+: - Psychology: (Head, Legs) "Strike a Nerve generates no Rage and instead reduces Rage by 610." => "... It also deals +200 Armor damage"
+: - Psychology: (Feet, OffHand) "Strike a Nerve deals +236 armor damage" => "Strike a Nerve deals +100 damage and hastens the reuse timer of But I Love You -1.5 seconds"
+: - Psychology: (Chest, Hands) "Strike a Nerve deals between 60 and 200 extra damage" => "Strike a Nerve deals +80 damage, and has a 33% chance to deal double damage"
+: - Rabbit: "Play Dead boosts your Psychic attack damage +100 for 20 seconds" => +320
+
+===UI===
+: - Abilities that require specific animal forms now say so in their tooltips.
+: - Clicking a notepad tab now scrolls the text all the way to the top.
+: - Remaining hangout time should no longer show absurd amounts of seconds remaining.
+: - Updated map player indicators once again, to further clarify which direction you are facing.
+: - The old map player indicator styles are available via Settings > GUI > Windows & HUD > Map Player Indicator Styles.
+: - Fixed a bug causing the Performance Appreciation explanation effect to appear when it shouldn't.
+: - Skill Tracker should no longer move around the screen.
+: - Fixed item previews when opening the More Info screen and not clicking around.
+: - Pain Bubble will now show up in debuff lists on current target & party members.
+: - Freezing Mist tooltip now includes Bomb-related mods.
+: - Fixed a bug causing Shocking Grasp to show Spirit Bolt mods.
+: - Updated tooltip for music boxes to reflect the effective level of music supplied.
+
+===Other===
+: - New items! There are new high level items to discover in loot. Some of these are based on designs created by our early backers. Others are named after important community members as gifts to those players. (And others are just entirely made up by us.)
+: - [[Eternal Greens]] and [[Chalice of Life]] both now cause Resurrection Sickness. Resurrection Sickness prevents you from consuming more greens or a Chalice of Life for 15 minutes.
+: - Chalice of Life can now only be consumed by druids. 
+: - Chalice of Life now stacks to 3.
+: - Many crafted items have significantly boosted innate stats.
+: - Added missing behavior titles for career-long Foxes, Rabbits, and Butterflies. (Earned after staying in that form quite a long time, and lost if you leave the form.)
+: - For players who want to get their friends into the game faster, or players who just hate tutorials, you can use the chat command /leavetut to skip the tutorial island and appear in Serbule. (You can always go back to the island later.)
+: - Gain bonus levels in [[Brewing]] when you reach Alcohol Tolerance 80, Alchemy 49, Battle Chemistry 70, Cooking 70.
+: - Completing nightly [[Povus]] event quests earns a bit more Xogrite at each reward tier.
+: - When you Miraculously Avoid Death, you also instantly recover 10% of your Max Health. This amount can be changed through treasure and buffs.
+: - Purchasing items from [[Drima]] now costs 2 Sir Johnson Bucks instead of 3.
+: - Crafting Caravan: Added an option to purchase a legendary version of the Enhanced Windstep Shoes and Amulet of the Rugged Traveler for 2x the token cost.
+: - Adjusted leather armor so it blends into the world more.
+: - Moved [[Serbule Hills]] spawn point closer to the portal to [[Serbule]].
+: - Adjusted raven-form attack speeds for some archery attacks.
+: - Mummies are a little more dangerous.
+: - Polar bears now have Health Regeneration.
+: - Hook beasts attack faster.
+: - Donkeys and cattle now have an innate buff that knocks back any Burst attacker that hits it.
+: - Fixed a bug causing monsters to stop attacking their current targets when a subserver restarts.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

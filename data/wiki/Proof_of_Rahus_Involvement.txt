@@ -1,0 +1,39 @@
+__NOTOC__
+==Summary==
+Rick Snapley in New Prestonbule said, "First off: you're on my shit list for keeping me in the dark about all this. I can't believe you would go off and kill that sand rat Tal-Saka without me!
+
+But all signs do point to Rahu itself being involved. If that were true, there should be proof of it somewhere. The Onkara keep their records up on a hill in Rahu. Unfortunately, going there would be suicide. Even for me. Even for you! So for now, I guess that's where this mystery will stand."
+
+===Prerequisites===
+To start this quest, talk to '''[[Rick Snapley]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Despised}} favor.
+
+You must have previously completed [[Confronting Tal-Saka]] in order to undertake this quest.
+
+===Preface===
+{{Quote|First off: you're on my shit list for keeping me in the dark about all this. I can't believe you would go off and kill that sand rat Tal-Saka without me!
+
+But all signs do point to Rahu itself being involved. If that were true, there should be proof of it somewhere. The Onkara keep their records up on a hill in Rahu. Unfortunately, going there would be suicide. Even for me. Even for you! So for now, I guess that's where this mystery will stand.}}
+
+===Requirements===
+* Obtain Proof of Rahu Involvement
+* Talk to Rick Snapley
+
+===Rewards===
+{{Spoiler|Rewards for Proof of Rahu's Involvement|
+{{Quote|Well suck my balls and call me Remga, you found actual proof that the Onkara were involved! This is incredible!
+
+... No! It was authorized by Lt. Flakis... and he's dead! He was killed by an orcish terrorist last month. Damn it all!
+
+Well, there must be more to this. I'll head to Rahu soon and see if I can bribe some friendly rakkies until I get answers. You've done more than enough for us. Thank you. You're off my shit-list now. I don't have a lot of coin, but here's some merchandise I've come across.
+
+And hey. If you ever need to kill someone 'less than honorably', I can help you out with that. <i>[New Sales options added.]</i>}}
+
+* 100 {{Favor|favor}}
+* {{Item|Diamond}} x 4
+* {{Item|Garnet}} x 3
+* {{Item|Bloodstone}}
+* {{Item|Emerald}} x 7
+* {{Item|Vervadium}} x 6
+* {{Item|Malachite}} x 5
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Rick Snapley]]

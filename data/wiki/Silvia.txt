@@ -1,0 +1,279 @@
+__NOTOC__
+{{NPC infobox
+|title            = Silvia
+|image            =[[File:Silvia.png|300px]]
+|caption          =Graceful... but not too graceful.
+|zone             =Sun Vale
+|town             =Druid Camp
+|location         =  By the fire.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     =[[Druid]]
+|storage = Yes
+}}
+{{Quote|
+The winter court fairies are not behaving respectably. I understand having a blood feud or whatever with the other fairies, but they attack anything on sight! They are a pest. A powerful one.
+}}
+'''Silvia''' is an Elven druid.
+
+==Location==
+; [[Sun Vale]]
+: [[Druid Camp]] by the fire.
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+==Quests ==
+<dpl>
+category = Quests/Silvia
+notcategory = Quests/Fae Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+==== Fairy Quests ====
+[[Silvia]] offers quests only available to Fairy characters.
+<dpl>
+category = Quests/Silvia
+category = Quests/Fae Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Deer]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Deer{{pipe}}Unlock Deer-Form Travel Mode
+ |skilllevel=25
+ |cost=1000
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Bounding Speed
+ |skilllevel=25
+ |cost=2450
+ |favor=Friends
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Druid]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Fill With Bile
+ |skilllevel=15
+ |cost=1450
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Fill With Bile 2
+ |skilllevel=30
+ |cost=2700
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Fill With Bile 3
+ |skilllevel=45
+ |cost=6950
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Fill With Bile 4
+ |skilllevel=60
+ |cost=11700
+ |favor=Best Friends+
+}}
+{{NPC training row
+ |ability=Energize
+ |skilllevel=20
+ |cost=1700
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Energize 2
+ |skilllevel=40
+ |cost=4700
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Energize 3
+ |skilllevel=60
+ |cost=11700
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Trackless Steps
+ |skilllevel=4
+ |cost=400
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Trackless Steps 2
+ |skilllevel=34
+ |cost=4400
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Trackless Steps 3
+ |skilllevel=64
+ |cost=14900
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Toxinball
+ |skilllevel=5
+ |cost=450
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Toxinball 2
+ |skilllevel=15
+ |cost=1450
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Toxinball 3
+ |skilllevel=25
+ |cost=2450
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Toxinball 4
+ |skilllevel=35
+ |cost=4450
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Toxinball 5
+ |skilllevel=45
+ |cost=6950
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Toxinball 6
+ |skilllevel=55
+ |cost=9950
+ |favor=Like Family
+}}
+|}
+
+==Services==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Silvia
+|favorrestriction =Friends
+|itemrestriction =Anything
+|neutral =0
+|comfortable =0
+|friends =20
+|closefriends =24
+|bestfriends =28
+|likefamily =32
+|soulmates =36
+}}
+
+==== Acorn Trading ====
+Although not listed as a Barter option or mentioned in Small Talk, [[Silvia]] will accept {{Item|Treant Leaves}} as a gift. In return, 35.0 '''{{favor|Favor}}''' with [[Silvia]] and 1-3 {{Item|Golden Acorn}} will be awarded to the gifter.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Enchanted Mistletoe}} x3
+|RiShin Family ={{Item|Enchanted Mistletoe}} x5
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Questions|
+{{Quote|
+Welcome to our glade.
+
+'''Can you answer some questions for me?'''
+
+What question did you need answered?
+
+:'''History of this island.'''
+::I'm no sage, but I can recite what I was taught as a young elf: thousands of years ago, prior to the Elf-Orc wars, this was a pirate outpost. During the wars it was held by the orcs. After the war, it was abandoned for thousands of years, until it was claimed by priests of [[Arisetsu]].
+::The priests opened the portal to the [[Fae Realm|fae realm]].
+::'''The priests let the fairies in?'''
+::Yes. It's written in the books of [[Arisetsu]] that the goddess herself directed the creation of four fae portals in four isolated lands. This is one of them.
+::Once the portal opened, many kinds of fae came out. At first, these creatures were treated as guests by the priests. But after only a few decades, the priests left, never to return.
+::'''Why did the priests of Arisetsu leave?'''
+::I do not know. I am a Priest of [[Dreva]], not Arisetsu. Their concerns are not my concerns. Their hopes are not my hopes.
+::'''But surely you have a guess?'''
+::Perhaps the fairies proved too hostile. Perhaps Arisetsu herself called her priests away to some more important issue. All I know is that Dreva would NEVER have allowed this gateway to open, polluting our world with creatures from another realm. Nature from one land is not to be intertwined with the nature of another!
+:'''The fae portal'''
+::The Nexus portal was opened by priests of [[Arisetsu]], Goddess of the Sun, about four thousand years ago. The first arrivals were trolls and Autumn fairies, who apparently lived her in peace for a time. Then the priests left -- or were killed -- and the portal remained open.
+::'''Can the portal be closed?'''
+::No! Do not attempt to close it! You'll only make things worse!
+::The sages of [[Verta]] tried to close it a hundred years ago. No sooner had the portal collapsed than dozens of new portals erupted throughout [[Alharth]]! When those new portals were closed, yet more opened, and so on, until eventually the sages managed to reopen this portal.
+::The Fae Nexus presses heavily on our reality here, and that magical pressure must be released -- it cannot be contained. This island's portal acts as a pressure valve.
+::Many of those unintended portals remain open to this day, hidden in caves or beneath oceans. I believe those other portals could be closed, so long as this main portal remains open. But this one must not be damaged.
+::'''So the portal has remained open for thousands of years?'''
+::Yes, it was open, but largely dormant. The other side of the portal opens up into a maze of passages that often shift and change. We think the tunnels leading to this portal were blocked off for thousands of years. Some trolls managed to find their way here, as well as various fae flora and fauna, but no fairies came through. Until two years ago.
+:'''The fairies'''
+::The handful of fairies here are refugees. They came through the Nexus portal a few years ago and asked for asylum, which we eventually granted. They are sometimes difficult guests, but they are extremely respectful of nature.
+::'''What about the Winter fairies?'''
+::The [[Winter Court]] has taken control of the portal, and new Winter fairy troops arrive daily. They are dangerous enemies that attack any mortal on sight. But... the issue is under control, for now.
+::'''Under control? How?'''
+::The Winter Court has established a beachhead here, but they cannot easily expand. They are attacked by the [[Ranalon]] daily -- yes, the same Ranalon that are foes of [[Dreva]].
+:::'''So the Ranalon are warring against the Winter Court?'''
+:::The Ranalon simply want to control the island. They attack the Winter Court, but they also attack everyone else: us, Animal Town, even the wild trolls.
+:::So far, the Winter Court and the Ranalon are keeping each other busy. Both sides have a seemingly-endless supply of troops.
+:::We druids step in when one side or the other gains more ground, but otherwise we are content to let them waste resources on each other.
+:'''The Ranalon'''
+::These Ranalon are followers of [[Enoyos]], the cruel and crafty God of the Sea. They arrived here about eleven years ago, and immediately began construction and preparations for war. But at first they seemed friendly.
+::I should explain that there were no Ranalon on this continent yet, and the elves of [[Verta]] are peace-lovers to a fault. We had been warned about [[Ranalon]] from our brethren across the sea, but these creatures professed to be different from the Ranalon of [[Fosulf]]. They were friendly and seemed content to populate only a few of the smaller islands. There was even trade between the Ranalon and mainland Verta.
+::'''What happened next?'''
+::One day, the Ranalon attacked without warning. The handful of elves who lived on these islands were slain.
+::Soon, [[Dreva]] notified me of the need for [[Druid]] presence here, and so we came. For a few exhausting years, we fought to keep the Ranalon off the main island. Then fairies started coming out of the portal, and things became much more complicated.
+::'''More complicated?'''
+::The Winter Court also began attacking us, and soon we were no longer in full control of the island. We quickly became locked in a three-way battle for control: the Winter Court, the Ranalon, and us.
+::We druids are few in number, but we are each quite strong. We still control more than half of the island. And we have backup: hundreds of other druids can fly to our aid at a moment's notice.
+::It may sound odd, but this is actually a time of relative calm: our enemies fight among themselves more than they fight us. They each assume they can easily kill us later. In other words, they badly underestimate us. It is good to be underestimated!
+::Of course, this calm won't last forever, but nothing lasts forever. Life is always changing, and a druid takes pleasure in the moment.
+:'''Animal Town'''
+::Ah yes, '[[Animal Town]].' These talking animals are refugees from a world that does not accept them. Because they are respectful of nature, they are welcome to live here, the same as the fairy refugees are. Until the [[Winter Court]] and the [[Ranalon]] are run off, Animal Town is under our protection.
+::'''And what happens after the battles end?'''
+::When Dreva calls us to a new mission, we will leave this island, and the refugees will have to survive on their own. We're doing our best to prepare [[Animal Town]] not just to survive, but to thrive in the future.
+::But we speak of a nebulous time period -- it will likely take many years to completely eradicate the Ranalon and Winter Fae presence.
+:'''The Druids'''
+::We are the chosen warriors of [[Dreva]], the god of Balance. It's our job to make sure that nature isn't irrevocably altered by outside influence -- such as by other gods. We have unique powers, as well as unique responsibilities.
+::'''Could I become a Druid?'''
+::[Silvia looks you up and down.] Perhaps some day, yes, but you must first prove yourself to be a mighty warrior. You can use our altar over there: it will see into your past. When Dreva deems you worthy, you can become a Druid, and soon enough you'll be able to turn into a deer, and then a raven, and eventually more exotic creatures.
+::Be aware that this is a lifelong burden. Dreva will often call upon you to right wrongs, and you MUST come when summoned. And there is no way to stop being a Druid -- even in death you will be intertwined with Dreva's spirit.
+:'''That's all, thanks.'''
+}}
+}}
+{{Spoiler|Favor Level|
+{{Favor|Comfortable}}
+{{Quote|Although your presence is a disruption, it is not altogether unpleasant.}}
+}}
+
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|I've fought many ranalon in my time and I am confident that we can eventually run them out of [[Sun Vale]]. These [[Winter Court|winter court]] fairies, however... we can certainly defeat them, but they return to life quite quickly. That's proving to be a difficult challenge.}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|I've been mastering a new bird form -- a cormorant. The raven form is fast, but not so great on open ocean. Haven't quite got it working yet, though.}}
+}}
+{{Spoiler|Variation 3|
+{{Quote|We've yet to see tremendous benefits from our relationship with the [[Summer Court|summer court]]. But we don't do good deeds in hope of getting something back! We helped them so that they harm nature as little as possible with their presence.}}
+}}
+{{Spoiler|Variation 4|
+{{Quote|We druids have been here for several years, but until a few months ago our camp was further south. The fairies are so concerned about their safety that they asked us to move our camp closer.}}
+}}
+
+[[Category:NPCs]]

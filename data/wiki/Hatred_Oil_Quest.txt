@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Ragabir in Red Wing Casino said, \"Okay this is a secret, but I guess I have to trust somebody here, so congrats, it's you! Now don't fuck this up! For my best potions I need oil of hatred. HATRED. Not oil of malaise, not oil of greed, not oil of disgust. Oil of hatred! Can you handle that? No, I don't know where it comes from. Back home we just bought it at the market. Around here it's harder to find, but it's gotta be somewhere...\"
+
+===Prerequisites===
+To start this quest, talk to '''[[Ragabir]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+Okay this is a secret, but I guess I have to trust somebody here, so congrats, it's you! Now don't fuck this up! For my best potions I need oil of hatred. HATRED. Not oil of malaise, not oil of greed, not oil of disgust. Oil of hatred! Can you handle that? No, I don't know where it comes from. Back home we just bought it at the market. Around here it's harder to find, but it's gotta be somewhere...
+
+===Requirements===
+* Obtain [[Hatred Oil]] x1
+* Talk to Ragabir
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You finally did something right! Wait... the top's not sealed properly. How much of my hatred oil evaporated? Look, the bottle's partially empty! Everybody knows that hatred oil is supposed to be wax-sealed. This has been tampered with! We're going to have to renegotiate your pay... here's what I think you deserve.}}
+* 150 {{Favor|favor}}
+* 1500 councils}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Ragabir]]

@@ -1,0 +1,28 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Yetiskin
+| description = Apply matted hair to your cloth armor to repair it. (You must be wearing at least some cloth armor!)
+| level = 30
+| power cost = 17
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 325 Armor.
+}}
+|-
+|
+{{Ability infobox
+| name = Yetiskin 2
+| description = Apply matted hair to your cloth armor to repair it. (You must be wearing at least some cloth armor!)
+| level = 40
+| power cost = 20
+| reuse time = 30
+| range = 5 meters
+| skill = Armor Patching
+| special = Restore 350 Armor.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

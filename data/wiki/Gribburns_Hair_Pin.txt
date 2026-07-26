@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Gribburn in Hogan's Keep asked you for a goblin hairpin.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gribburn]]''' in '''[[Hogan's Basement]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|See Gorvessa over there? She's pretty amazing, huh? And I hear she's only 'temporarily' Malvol's consort. Which means I have a chance! I need a gift, though. Can you get me a goblin hairpin? I'll imbue it with magic and impress her.}}
+
+===Requirements===
+* Obtain a Goblin Hairpin
+* Talk to Gribburn
+
+===Rewards===
+{{Spoiler|Rewards for Gribburn's Hair Pin|
+{{Quote|This will do. Thank you. Now go! Don't let Gorvessa see you giving it to me! I need her to think I crafted it for her. Here, just take some money and shut up about this!}}
+
+* 100 {{Favor|favor}}
+* 200 councils 
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Gribburn]]

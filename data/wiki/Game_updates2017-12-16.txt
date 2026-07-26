@@ -1,0 +1,33 @@
+__noTOC__
+==<b>Dec 16 Update</b>==
+: Today's update includes a new winter holiday event, plus as many bug fixes as we could squeeze in. And, for some reason, keg taps.
+:: - The Christmas/New Years/Etc. event has started!
+:: - The brewing recipe "Tap Alcohol Keg" is learned automatically at brewing level 12. It requires a barrel of beer or hard liquor plus a keg tap
+:: - Yogzi sells the recipe for keg taps (Toolcrafting level 12, requires Comfortable favor)
+
+===Vendor GUI===
+: Made improvements to the vendor GUI screen. More improvements to come. (This is just what could be done before the holiday update deadline.)
+:: - Fixed most scenarios where the item list would scroll back to the top after a purchase
+:: - Made it a lot more obvious which item is selected; it's "VERY GREEN" instead of "vaguely gray-greenish"
+:: - Shift-clicking an item now reliably sets the stack-size box to its maximum amount
+:: - Compacted some GUI elements to make more vertical space
+:: - Added a "close" button to the NPC's vendor-welcome message (if applicable) to clear yet more vertical space
+:: - Fixed erroneous "the vendor doesn't like you enough to sell that" messages that could show up on vendors that don't use Favor
+:: - Vendor GUI now shows a context-relevant currency display at the bottom. Alternative currencies (i.e. Guild Credits or Dreva Tokens) are shown there when applicable. 
+:: - (Note: some parts of the vendor GUI still incorrectly display costs in Councils when they should show alternate currencies. For instance, items in the guild shop are listed with Council costs although they actually cost Guild Credits. These are only display bugs.)
+
+===Ability Tooltips Moved===
+:When you hover over abilities on your active ability bars, the ability tooltips will now be shown in the top-left corner of the screen, instead of near the player portrait. (This isn't a change for you unless you've moved the player portrait, because the player portrait defaults to the top-left corner of the screen.) You can change where the tips are anchored by adding special settings to the Special Settings window of the configuration screen. See the documentation there for AbilityTipsX and AbilityTipsY. As an example, adding AbilityTipsX=100 will move the tips to the top-right corner instead. Using the special value of -1 (AbilityTipsX=-1) will cause the tips to appear near the mouse, like they do in most other situations.
+
+===Other UI Fixes/Changes===
+:: - Many graphics settings would not be applied to new areas when you switched zones. On low-end computers, this could result in much-worse framerate than expected. Basically, the terrain and lighting for all areas defaulted to the "Good" settings until something was changed in the configuration screen
+:: - Fixed day/night cycle in Serbule and Serbule Hills
+:: - Fixed exploits that allowed you to switch active skills during combat
+:: - When you logout and log in with a different character, the crafting and Item Info GUI screens now reset appropriately instead of showing your data from the previous login
+:: - Fixed display errors in some special commands such as /behaviorreport
+:: - Added Max Breath to the General Stats list of the Persona window
+:: - The special setting "LogChat" has been temporarily disabled because it is still buggy under the new UI. You can leave it in your settings, but it does nothing right now.
+:: - If you scale your inventory icons down to < 32, the items' stack size text shrinks when necessary to show the full number.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

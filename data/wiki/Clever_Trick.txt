@@ -1,0 +1,64 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Clever Trick
+| description = Instruct your pet to perform its special trick ability. (Each type of pet has a trick ability. Their usefulness varies widely.)
+
+If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.
+| level = 10
+| power cost = 23
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|CleverTrick}}
+| special = Pet attempts to perform its pet-specific Clever Trick.
+}}
+|-
+|
+{{Ability infobox
+| name = Clever Trick 2
+| description = Instruct your pet to perform its special trick ability. It also recovers some Armor. (Each type of pet has a trick ability. Their usefulness varies widely.)
+
+If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.
+| level = 25
+| power cost = 32
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|CleverTrick}}
+| special = Pet recovers 25 Armor. Pet attempts to perform its pet-specific Clever Trick.
+}}
+|-
+|
+{{Ability infobox
+| name = Clever Trick 3
+| description = Instruct your pet to perform its special trick ability. It also recovers some Armor. (Each type of pet has a trick ability. Their usefulness varies widely.)
+
+If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.
+| level = 44
+| power cost = 40
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|CleverTrick}}
+| special = Pet recovers 50 Armor. Pet attempts to perform its pet-specific Clever Trick.
+}}
+|-
+|
+{{Ability infobox
+| name = Clever Trick 4
+| description = Instruct your pet to perform its special trick ability. It also recovers some Armor. (Each type of pet has a trick ability. Their usefulness varies widely.)
+
+If the pet is not yet engaged in combat, it will use your selected target as a suggested enemy.
+| level = 64
+| power cost = 51
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|CleverTrick}}
+| special = Pet recovers 100 Armor. Pet attempts to perform its pet-specific Clever Trick.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

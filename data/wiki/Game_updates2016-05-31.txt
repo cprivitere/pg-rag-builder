@@ -1,0 +1,7 @@
+==<b>May 31 Update</b>==
+:Released a client-only update to fix a crash-bug in last night's update. The server was not taken down, as only the client changed.
+:'''YOU HAVE TO RUN THE LAUNCHER to get the new update.''' If you have yesterday's update you can still log in (because the internal version number didn't change)... but you don't have the bug fix, so you'll crash a lot. This is why we suggest you always start from the launcher.
+:Have you run the launcher, downloaded this patch, and you're still getting crashes? That's bad, please zip up the crash folder and send it to eric@projectgorgon.com!
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

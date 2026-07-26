@@ -1,0 +1,172 @@
+{{About | Description = domesticated animal | Destination = Cow_(Domesticated Animal)}}
+
+__NOTOC__
+{{Skill infobox
+|title            = Cow
+|image            = [[File:Cow_(form).jpg|300px]]
+|caption          = Cows are fast and furious!
+|skilltype        = Beast Form
+|maxlevel         = 90 
+|req              =  
+|skilltrainers    = [[Suspicious Cow]], [[Raul]], [[Noita the Green]]
+|gem = {{Item|Cow Malachite}}, {{Item|Malachite}}
+}}
+{{Quote|
+Leave a quote about the skill here. This can be the in-game description, but that info must be placed below as well.  Adds a bit of flavor to the article as well.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Cow''' is a [[Beast Forms|Beast Form]] and a [[Curse]] bestowed by [[Maronesa]] in the [[Crystal Cavern]] or in the [[Dark Chapel]].
+
+Cows are able to collect [[Grass]] and [[Bottle of Milk|Milk]] periodically. They can consume grass for a heal, which turns out to be a cheap, potent self-healing mechanism.
+
+Being a cow means you look harmless to other animals, so deer and similar animals don’t run away from you.
+
+If you get tired of being a cow, kill [[Maronesa]] to remove the curse. You can also use a {{Item|Minor Panacea}}, though this is generally considered a very wasteful use of the item.
+
+For more information on how to navigate being turned into an animal visit the [[Beast Forms]] page for advice.
+
+=== In-Game Description ===
+The art of living and fighting as a cow.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* Being cursed by [[Maronesa]] will start a timer, turning you into a cow in 2 minutes
+* [[Suspicious Cow]] will train Clobbering Hoof
+* [[Raul]] will unlock levels 51-70 and train 51+ abilities
+* [[Noita the Green]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Big Footed Jim]] deep beneath [[Povus]].
+* Levels 91-100 Can be trained at [[Lucinnea]] at Best Friends for 1.2m or 870 Vidaria Rep.
+
+== Connected Skills ==
+
+=====Related Skills:=====
+* [[Cheesemaking]] - One of the most reliable ways to get the milk necessary for making cheese is to use the Cow ability '''[[Collect Milk]]'''.
+
+===== Synergy Levels =====
+Bonus [[Synergy Levels]] for [[Cow]] can be obtained from the following skills and levels:
+:; [[Cheesemaking]]
+:: Level 25, 45
+:; [[Foraging]]
+:: Level 26
+:; [[Gardening]]
+:: Level 51
+:; [[Gourmand]]
+:: Level 25
+:; [[Nature Appreciation]]
+:: Level 85
+:; [[Ruminant Anatomy]]
+:: Level 37
+:; [[Saddlery]]
+:: Level 15
+:; [[Survival Instincts]]
+:: Level 13, 70
+:; [[Unarmed]]
+:: Level 27
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+===Out-of-Combat Experience===
+Cows are kind of screwed with hooves instead of hands, meaning they can’t use a saw for [[Carpentry]], for instance. But with a little imagination we can envision a cow planting vegetables and growing a garden, so they can do that, and a few other things.
+
+=== Vegetarian Cows ===
+Cows that maintain a vegetarian diet can be milked by other players more often, as follows: newbie or non-vegetarian cow: once per hour (unchanged); low-level vegetarian cow: once every 45 minutes; vegetarian cow over level 24: once every 30 minutes; vegetarian cow over level 49: once every 15 minutes - Two higher-level versions of the Collect Milk ability are given out at Cow level 38 and 52. They have faster reset times, allowing you to collect milk more quickly. These versions only work if you have the [[Special Behavior Badges|Vegetarian badge]].
+=== Riding ===
+As a [[Beast Forms|Beast Form]], Cows are not able to use the traditional Horse mounts offered through [[Riding]]. Instead, [[Suspicious Cow]] in [[Eltibule]] and [[Raul]] in [[Animal Town]] teache mount-form to Cow players who are at least level 25. [[Raul]] also teaches a speed-up ability that consumes grass.
+
+===Equipment===
+Cow armor can be crafted through [[Blacksmithing]] (shoes) and [[Toolcrafting]] (champron and barding). The Champron (Head slot) gives extra resistance to Piercing and Slashing damage, while the Barding (Chest) gives resistance to just Piercing. Cow Shoes give you extra speed while sprinting.
+
+ Crafters producing equipment for use by [[Cow]]s should obtain the [[Sigil Scripting]] recipe '''Cow Inscription,''' which allows for the creation of {{Item|Cow Malachite}}. 
+
+This attuned gemstone can be used in any recipe which calls for the use of [[:Category:Items/Crystal|Crystals]] to create equipment with [[Cow]] Treasure Effects.
+
+==== Equipment Not Crafted ====
+
+* {{Item|Belt of The Bovine Battler}} - Increases Cow Skill Base Damage. Purchased from [[Suspicious Cow]].
+*{{Item|Cow Shoes}} - Level 5 horseshoes. Quest reward from [[Suspicious Cow]].
+*{{Item|Hooves of the Inamorata}} - 
+
+==== Blacksmithing Equipment ====
+*{{Item|Shoddy Cow Shoes}} - Level 5 horseshoes, but for a cow.
+*{{Item|Crude Cow Shoes}} -Level 10 horseshoes, but for a cow.
+*{{Item|Rough Cow Shoes}} - Level 20 horseshoes, but for a cow. Infused with magic. 
+*{{Item|Decent Cow Shoes}} - Level 30 horseshoes, but for a cow. Infused with magic.
+*{{Item|Nice Cow Shoes}} - Level 40 horseshoes, but for a cow. Infused with magic. 
+*{{Item|Quality Cow Shoes}} - Level 50 horseshoes, but for a cow. Infused with magic.
+*{{Item|Great Cow Shoes}} - Level 60 horseshoes, but for a cow. Infused with magic.
+*{{Item|Amazing Cow Shoes}} - Level 70 horseshoes, but for a cow. Infused with magic. 
+==== Carpentry Equipment ====
+Equipment which enables a Cow to use the [[Druid]] skill is crafted through [[Carpentry]].
+*{{Item|Shoddy Wooden Cow Shoes}} - Level 5 horseshoes, but for a cow, and made of wood.
+*{{Item|Crude Wooden Cow Shoes}} - Level 10 horseshoes, but for a cow, and made of wood.
+*{{Item|Rough Wooden Cow Shoes}} - Level 20 horseshoes, but for a cow, and made of wood.
+*{{Item|Decent Wooden Cow Shoes}} - Level 30 horseshoes, but for a cow, and made of wood.
+*{{Item|Nice Wooden Cow Shoes}} - Level 40 horseshoes, but for a cow, and made of wood.
+*{{Item|Quality Wooden Cow Shoes}} - Level 50 horseshoes, but for a cow, and made of wood.
+*{{Item|Great Wooden Cow Shoes}} - Level 60 horseshoes, but for a cow, and made of wood.
+*{{Item|Amazing Wooden Cow Shoes}} - Level 70 horseshoes, but for a cow, and made of wood.
+==== Toolcrafting Equipment ====
+Through [[Toolcrafting]], Cow equipment for the head slot (champrons) and chest slot (barding) can be crafted. Starting at Nice level, Max-Enchanted versions can be crafted.
+*{{Item|Decent Cow Champron}} - Level 30 COW-ONLY headwear, infused with magic.
+*{{Item|Decent Cow Barding}} - Level 30 COW-ONLY chest armor, infused with magic.
+*{{Item|Nice Cow Champron}} - Level 40 COW-ONLY headwear, infused with magic.
+*{{Item|Nice Cow Barding}} - Level 40 COW-ONLY chest armor, infused with magic.
+*{{Item|Quality Cow Champron}} - Level 50 COW-ONLY headwear, infused with magic.
+*{{Item|Quality Cow Barding}} - Level 50 COW-ONLY chest armor, infused with magic.
+*{{Item|Great Cow Champron}} - Level 60 COW-ONLY headwear, infused with magic.
+*{{Item|Great Cow Barding}} - Level 60 COW-ONLY chest armor, infused with magic.
+*{{Item|Amazing Cow Champron}} - Level 70 COW-ONLY headwear, infused with magic.
+*{{Item|Amazing Cow Barding}} - Level 70 COW-ONLY chest armor, infused with magic.
+*{{Item|Astounding Cow Champron}} - Level 80 COW-ONLY chest armor, infused with magic.
+*{{Item|Astounding Cow Barding}} - Level 80 COW-ONLY chest armor, infused with magic.
+*{{Item|Awesome Cow Champron}} - Level 90 COW-ONLY chest armor, infused with magic.
+*{{Item|Awesome Cow Barding}} - Level 90 COW-ONLY chest armor, infused with magic.
+
+==== Racial Slot ====
+: {{Item|Nose Ring of Inexhaustability}} - Designed to be worn in a cow's nose, this brass ring further enhances natural bovine strength.
+: {{Item|Nose Ring of The Seductive Cow}} - Designed to be worn in a cow's nose, this brass ring makes attractive cattle even more attractive.
+: {{Item|Nose Ring of Destructive Tendencies}} - Designed to be worn in a cow's nose, this brass ring aggravates bovine sensibilities, causing violence.
+: {{Item|Nose Ring of Foulness Protection}} - Designed for a ratkin's nose, but perhaps also wearable by a cow or pig.
+: {{Item|Nose Ring of Glowy Crystal Resistance}} - Designed to be worn in a cow or pig's nose, this ring helps protect against the sickness that comes from being too close to glowy yellow crystals.
+
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Cow Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Cow|
+{{:Xptables/TypicalCombatSkill}}
+}}
+== Trivia ==
+Originally, there was a mysterious bucket at the end of the tutorial cave. Drinking from this would turn you into a cow, and the main way to become human was by completing a quest from [[Harry the Wolf]]. Global chat was filled with moooooo!<br>
+Later on, the bucket was replaced by [[Maronesa]], still in the tutorial cave. The big warning message deterred some players, but it was still pretty common for newbies to emerge as cows.<br>
+Eventually Maronesa was moved to [[Crystal Cavern]], and [[Gajus the Big-Headed]] took her spot.
+
+== Gallery==
+<gallery mode="nolines" widths=200px>
+</gallery>
+
+<!--
+    Add the correct Categories to the skill page. Make sure to remove Category:Template guides.
+
+    Mandatory Categories:
+    * Category:Skills
+
+    These Categories will be automatically added if you filled in the infobox correctly:
+    * Category:Combat Skills
+    * Category:Trade Skills
+    * Category:Beast Skills
+    * Category:Beast Forms
+    * Category:Other Skills
+    * Category:Anatomy Skills     
+    
+    Note, If the Skill is a Beast Form, manually add:
+    * Category:Beast Skills
+-->
+[[Category:Skills]]

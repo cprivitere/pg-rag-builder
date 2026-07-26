@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Yogzi in Sun Vale wants you to make him a bunch of basic skinning knives.
+
+===Prerequisites===
+To start this quest, talk to '''[[Yogzi]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+To begin this quest you must have level 1 [[Toolcrafting]].
+
+You must have previously completed [[Simple Knives]] in order to undertake this quest.
+
+===Preface===
+{{Quote|Practice makes perfect! Practice practice practice! When you think you're ready, make me some basic skinning knives.}}
+
+===Requirements===
+* Obtain Basic Skinning Knives (5)
+* Talk to Yogzi
+
+===Rewards===
+{{Spoiler|Rewards for Fancier Knives|
+{{Quote|Good! You're faking enthusiasm a bit better now! Keep it up.}}
+
+* 100 {{Favor|favor}}
+* 500 XP in [[Toolcrafting]]
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Yogzi]]

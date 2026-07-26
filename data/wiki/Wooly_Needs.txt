@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Jace Soral in the Kur Mountains asked you for wool
+
+===Prerequisites===
+To start this quest, talk to '''[[Jace Soral]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|Can you go down into the lowlands below the forest and kill some of those idiot sheep for wool? I'm trying to make better equipment since apparently we're gonna be stuck here a while...}}
+
+===Requirements===
+* Obtain {{Item|Wool}} x10
+* Talk to Jace Soral
+
+===Rewards===
+{{Spoiler|Rewards for Wooly Needs|
+{{Quote|Thanks! Here, this is for you.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Ruggedized Gloves}}
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Jace Soral]]

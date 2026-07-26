@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Backfat in the Fae Realm said, "So that fairy over there -- yeah, that one, Pegast. He came over and asked for my help. Finally, recognition of my expertise! But did he want help getting fit and healthy? Nope. He just wanted explosive mushrooms. I gave him what I had, but he still needs more. So now I have to go foraging for this guy.
+
+Hey, you look like you could use some exercise... you ready for a jog into the wilds? Great! These are very tricky mushrooms to pick, so be careful!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Backfat]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+So that fairy over there -- yeah, that one, Pegast. He came over and asked for my help. Finally, recognition of my expertise! But did he want help getting fit and healthy? Nope. He just wanted explosive mushrooms. I gave him what I had, but he still needs more. So now I have to go foraging for this guy.
+
+Hey, you look like you could use some exercise... you ready for a jog into the wilds? Great! These are very tricky mushrooms to pick, so be careful!
+
+===Requirements===
+* Obtain Charged Mycelium x6
+* Talk to Backfat
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Great, you didn't explode! And you look a little fitter and leaner, too!
+
+That fairy is trying to use these mushrooms to recharge the wall turrets. Seems pretty insane, huh? But we did our part already! Now we can just watch. Marrowchomp's giving me 3-to-1 odds he explodes. Want in?}}
+* 100 {{Favor|favor}}
+* {{Item|Amulet of Cold Protection}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Backfat]]

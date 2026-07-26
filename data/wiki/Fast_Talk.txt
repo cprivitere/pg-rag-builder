@@ -1,0 +1,60 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Fast Talk
+| description = Explain away minor misunderstandings, causing the target to be less aggressive toward you.
+| level = 15
+| power cost = 10
+| reuse time = 12
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|FastTalk}}{{KWAB|PsychologyAttack}}{{KWAB|Ranged}}
+| ragemulti = 0
+| damage = 1 Psychic
+}}
+|-
+|
+{{Ability infobox
+| name = Fast Talk 2
+| description = Explain away minor misunderstandings, causing the target to be less aggressive toward you.
+| level = 30
+| power cost = 14
+| reuse time = 12
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|FastTalk}}{{KWAB|PsychologyAttack}}{{KWAB|Ranged}}
+| ragemulti = 0
+| damage = 1 Psychic
+}}
+|-
+|
+{{Ability infobox
+| name = Fast Talk 3
+| description = Explain away minor misunderstandings, causing the target to be less aggressive toward you.
+| level = 53
+| power cost = 19
+| reuse time = 12
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|FastTalk}}{{KWAB|PsychologyAttack}}{{KWAB|Ranged}}
+| ragemulti = 0
+| damage = 1 Psychic
+}}
+|-
+|
+{{Ability infobox
+| name = Fast Talk 4
+| description = Explain away minor misunderstandings, causing the target to be less aggressive toward you.
+| level = 70
+| power cost = 23
+| reuse time = 12
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|FastTalk}}{{KWAB|PsychologyAttack}}{{KWAB|Ranged}}
+| ragemulti = 0
+| damage = 1 Psychic
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

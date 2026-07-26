@@ -1,0 +1,16 @@
+__NOTOC__
+==Summary==
+Fainor the elf doesn't trust you since you're an animal. Collect 20 apples in the forest to convince him to do business with you.
+
+
+
+===Requirements===
+* Collect Apples x20
+* Talk to Fainor
+
+===Rewards===
+{{Spoiler|Rewards|
+* 50 XP in Beast Speech
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]]

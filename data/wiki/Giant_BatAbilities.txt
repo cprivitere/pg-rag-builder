@@ -1,0 +1,238 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Giant Bat/Abilities|Giant Bat Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v446 on Fri Jan 16 2026 02:06:39 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Rip|2}} || 1 || Rip || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 6 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Tear|2}} || 2 || Tear || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 14 Slashing || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Wing Vortex|2}} || 4 || Wing Vortex || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 13 Nature || <b>Power Cost:</b> 16<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Screech|2}} || 6 || Screech || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 19 Nature || <b>Power Cost:</b> 17<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Drink Blood|2}} || 7 || Drink Blood || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 28 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 20 Piercing || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Virulent Bite|2}} || 8 || Virulent Bite || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 17 Piercing || <b>Power Cost:</b> 11<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Bat Stability|2}} || 9 || Bat Stability || Use your wings and your incredible hearing to hold your ground even in extreme circumstances. || For 8 seconds you become immune to knockbacks and stuns.<br><b>Restore:</b> 25 Armor ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Bat Stability]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 2|2}} || 11 || Rip 2 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 11 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Sonic Burst|2}} || 13 || Sonic Burst || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 30 Nature || <b>Power Cost:</b> 24<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Wing Vortex 2|2}} || 14 || Wing Vortex 2 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 27 Nature || <b>Power Cost:</b> 22<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Tear 2|2}} || 15 || Tear 2 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 34 Slashing || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Deathscream|2}} || 15 || Deathscream || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 78 Nature || <b>Power Cost:</b> 43<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Deathscream]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Screech 2|2}} || 16 || Screech 2 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 44 Nature || <b>Power Cost:</b> 23<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Drink Blood 2|2}} || 17 || Drink Blood 2 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 36 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 45 Piercing || <b>Power Cost:</b> 32<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Virulent Bite 2|2}} || 18 || Virulent Bite 2 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 35 Piercing || <b>Power Cost:</b> 15<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Confusing Double|2}} || 19 || Confusing Double || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 14 seconds. ||  || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Bat: Confusing Double]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 3|2}} || 21 || Rip 3 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 20 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Sonic Burst 2|2}} || 23 || Sonic Burst 2 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 53 Nature || <b>Power Cost:</b> 30<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Wing Vortex 3|2}} || 24 || Wing Vortex 3 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 46 Nature || <b>Power Cost:</b> 27<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Tear 3|2}} || 25 || Tear 3 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 54 Slashing || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Screech 3|2}} || 26 || Screech 3 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 73 Nature || <b>Power Cost:</b> 28<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Drink Blood 3|2}} || 27 || Drink Blood 3 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 44 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 75 Piercing || <b>Power Cost:</b> 39<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Virulent Bite 3|2}} || 28 || Virulent Bite 3 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 57 Piercing || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Bat Stability 2|2}} || 29 || Bat Stability 2 || Use your wings and your incredible hearing to hold your ground even in extreme circumstances. || For 10 seconds you become immune to knockbacks and stuns.<br><b>Restore:</b> 50 Armor ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Bat Stability 2]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Deathscream 2|2}} || 30 || Deathscream 2 || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 163 Nature || <b>Power Cost:</b> 58<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Deathscream 2]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 4|2}} || 31 || Rip 4 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 32 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Sonic Burst 3|2}} || 33 || Sonic Burst 3 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 82 Nature || <b>Power Cost:</b> 37<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Wing Vortex 4|2}} || 34 || Wing Vortex 4 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 71 Nature || <b>Power Cost:</b> 33<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Tear 4|2}} || 35 || Tear 4 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 78 Slashing || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Screech 4|2}} || 36 || Screech 4 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 110 Nature || <b>Power Cost:</b> 34<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Drink Blood 4|2}} || 37 || Drink Blood 4 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 52 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 113 Piercing || <b>Power Cost:</b> 48<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Virulent Bite 4|2}} || 38 || Virulent Bite 4 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 86 Piercing || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Confusing Double 2|2}} || 39 || Confusing Double 2 || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 17 seconds. ||  || <b>Power Cost:</b> 35<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Bat: Confusing Double 2]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 5|2}} || 41 || Rip 5 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 49 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Sonic Burst 4|2}} || 43 || Sonic Burst 4 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 125 Nature || <b>Power Cost:</b> 43<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Wing Vortex 5|2}} || 44 || Wing Vortex 5 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 111 Nature || <b>Power Cost:</b> 38<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Tear 5|2}} || 45 || Tear 5 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 119 Slashing || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Deathscream 3|2}} || 45 || Deathscream 3 || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 308 Nature || <b>Power Cost:</b> 73<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Deathscream 3]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Screech 5|2}} || 46 || Screech 5 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 171 Nature || <b>Power Cost:</b> 38<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Drink Blood 5|2}} || 47 || Drink Blood 5 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 60 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 177 Piercing || <b>Power Cost:</b> 54<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Virulent Bite 5|2}} || 48 || Virulent Bite 5 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 134 Piercing || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Bat Stability 3|2}} || 49 || Bat Stability 3 || Use your wings and your incredible hearing to hold your ground even in extreme circumstances. || For 12 seconds you become immune to knockbacks and stuns.<br><b>Restore:</b> 100 Armor ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Bat Stability 3]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Confusing Double 3|2}} || 49 || Confusing Double 3 || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 20 seconds. ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Bat: Confusing Double 3]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 6|2}} || 51 || Rip 6 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 75 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Sonic Burst 5|2}} || 53 || Sonic Burst 5 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 188 Nature || <b>Power Cost:</b> 48<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Wing Vortex 6|2}} || 54 || Wing Vortex 6 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 164 Nature || <b>Power Cost:</b> 42<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Tear 6|2}} || 55 || Tear 6 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 171 Slashing || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Screech 6|2}} || 56 || Screech 6 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 244 Nature || <b>Power Cost:</b> 43<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Drink Blood 6|2}} || 57 || Drink Blood 6 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 68 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 250 Piercing || <b>Power Cost:</b> 60<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Virulent Bite 6|2}} || 58 || Virulent Bite 6 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 186 Piercing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Confusing Double 4|2}} || 59 || Confusing Double 4 || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 23 seconds. ||  || <b>Power Cost:</b> 45<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Bat: Confusing Double 4]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Deathscream 4|2}} || 60 || Deathscream 4 || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 518 Nature || <b>Power Cost:</b> 87<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Deathscream 4]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 7|2}} || 61 || Rip 7 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 101 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Sonic Burst 6|2}} || 63 || Sonic Burst 6 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 249 Nature || <b>Power Cost:</b> 54<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Wing Vortex 7|2}} || 64 || Wing Vortex 7 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 216 Nature || <b>Power Cost:</b> 47<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Tear 7|2}} || 65 || Tear 7 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 224 Slashing || <b>Power Cost:</b> 29<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Screech 7|2}} || 66 || Screech 7 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 317 Nature || <b>Power Cost:</b> 48<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Drink Blood 7|2}} || 67 || Drink Blood 7 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 75 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 324 Piercing || <b>Power Cost:</b> 67<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Virulent Bite 7|2}} || 68 || Virulent Bite 7 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 239 Piercing || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Bat Stability 4|2}} || 69 || Bat Stability 4 || Use your wings and your incredible hearing to hold your ground even in extreme circumstances. || For 12 seconds you become immune to knockbacks and stuns.<br><b>Restore:</b> 150 Armor ||  || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Bat Stability 4]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Confusing Double 5|2}} || 69 || Confusing Double 5 || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 25 seconds. ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Bat: Confusing Double 5]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Deathscream 5|2}} || 70 || Deathscream 5 || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 661 Nature || <b>Power Cost:</b> 96<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Deathscream 5]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 8|2}} || 71 || Rip 8 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 128 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Sonic Burst 7|2}} || 73 || Sonic Burst 7 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 317 Nature || <b>Power Cost:</b> 60<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Yavazek]]
+|-
+| {{Ability icon|Wing Vortex 8|2}} || 74 || Wing Vortex 8 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 275 Nature || <b>Power Cost:</b> 52<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Tear 8|2}} || 75 || Tear 8 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 283 Slashing || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Screech 8|2}} || 76 || Screech 8 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 401 Nature || <b>Power Cost:</b> 53<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Drink Blood 8|2}} || 77 || Drink Blood 8 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 84 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 408 Piercing || <b>Power Cost:</b> 75<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Virulent Bite 8|2}} || 78 || Virulent Bite 8 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 301 Piercing || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Confusing Double 6|2}} || 79 || Confusing Double 6 || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 27 seconds. ||  || <b>Power Cost:</b> 55<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Bat: Confusing Double 6]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Deathscream 6|2}} || 80 || Deathscream 6 || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 827 Nature || <b>Power Cost:</b> 107<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Deathscream 6]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 9|2}} || 81 || Rip 9 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 160 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Sonic Burst 8|2}} || 83 || Sonic Burst 8 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 391 Nature || <b>Power Cost:</b> 66<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Wing Vortex 9|2}} || 84 || Wing Vortex 9 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 338 Nature || <b>Power Cost:</b> 58<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Bat: Wing Vortex 9]]
+|-
+| {{Ability icon|Tear 9|2}} || 85 || Tear 9 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 346 Slashing || <b>Power Cost:</b> 36<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Bat: Tear 9]]
+|-
+| {{Ability icon|Screech 9|2}} || 86 || Screech 9 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 489 Nature || <b>Power Cost:</b> 59<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Bat: Screech 9]]
+|-
+| {{Ability icon|Drink Blood 9|2}} || 87 || Drink Blood 9 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 93 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 497 Piercing || <b>Power Cost:</b> 82<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Bat: Drink Blood 9]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Virulent Bite 9|2}} || 88 || Virulent Bite 9 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 365 Piercing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Bat: Virulent Bite 9]]
+|-
+| {{Ability icon|Bat Stability 5|2}} || 89 || Bat Stability 5 || Use your wings and your incredible hearing to hold your ground even in extreme circumstances. || For 12 seconds you become immune to knockbacks and stuns.<br><b>Restore:</b> 200 Armor ||  || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Bat Stability 5]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Confusing Double 7|2}} || 89 || Confusing Double 7 || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 30 seconds. ||  || <b>Power Cost:</b> 61<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Bat: Confusing Double 7]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Deathscream 7|2}} || 90 || Deathscream 7 || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 997 Nature || <b>Power Cost:</b> 117<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Bat: Deathscream 7]]<br><b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 10|2}} || 91 || Rip 10 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 192 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Bat: Rip 10]]
+|-
+| {{Ability icon|Sonic Burst 9|2}} || 93 || Sonic Burst 9 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 468 Nature || <b>Power Cost:</b> 73<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Bat: Sonic Burst 9]]
+|-
+| {{Ability icon|Wing Vortex 10|2}} || 94 || Wing Vortex 10 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 404 Nature || <b>Power Cost:</b> 63<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Bat: Wing Vortex 10]]
+|-
+| {{Ability icon|Tear 10|2}} || 95 || Tear 10 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 413 Slashing || <b>Power Cost:</b> 39<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Bat: Tear 10]]
+|-
+| {{Ability icon|Screech 10|2}} || 96 || Screech 10 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 581 Nature || <b>Power Cost:</b> 65<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Drink Blood 10|2}} || 97 || Drink Blood 10 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 102 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 589 Piercing || <b>Power Cost:</b> 90<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Virulent Bite 10|2}} || 98 || Virulent Bite 10 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 431 Piercing || <b>Power Cost:</b> 41<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Confusing Double 8|2}} || 99 || Confusing Double 8 || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 23 seconds. ||  || <b>Power Cost:</b> 66<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Deathscream 8|2}} || 100 || Deathscream 8 || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 1171 Nature || <b>Power Cost:</b> 129<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 11|2}} || 101 || Rip 11 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 226 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Sonic Burst 10|2}} || 103 || Sonic Burst 10 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 551 Nature || <b>Power Cost:</b> 79<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Wing Vortex 11|2}} || 104 || Wing Vortex 11 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 475 Nature || <b>Power Cost:</b> 69<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Tear 11|2}} || 105 || Tear 11 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 484 Slashing || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Screech 11|2}} || 106 || Screech 11 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 682 Nature || <b>Power Cost:</b> 71<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Drink Blood 11|2}} || 107 || Drink Blood 11 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 111 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 692 Piercing || <b>Power Cost:</b> 99<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Virulent Bite 11|2}} || 108 || Virulent Bite 11 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 507 Piercing || <b>Power Cost:</b> 44<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Bat Stability 6|2}} || 109 || Bat Stability 6 || Use your wings and your incredible hearing to hold your ground even in extreme circumstances. || For 15 seconds you become immune to knockbacks and stuns.<br><b>Restore:</b> 300 Armor ||  || <b>Power Cost:</b> 61<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Confusing Double 9|2}} || 109 || Confusing Double 9 || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 23 seconds. ||  || <b>Power Cost:</b> 72<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Deathscream 9|2}} || 110 || Deathscream 9 || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 1371 Nature || <b>Power Cost:</b> 141<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Rip 12|2}} || 111 || Rip 12 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 264 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Sonic Burst 11|2}} || 113 || Sonic Burst 11 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 640 Nature || <b>Power Cost:</b> 87<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Wing Vortex 12|2}} || 114 || Wing Vortex 12 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 551 Nature || <b>Power Cost:</b> 76<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Tear 12|2}} || 115 || Tear 12 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 560 Slashing || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Screech 12|2}} || 116 || Screech 12 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 788 Nature || <b>Power Cost:</b> 77<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Drink Blood 12|2}} || 117 || Drink Blood 12 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 120 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 797 Piercing || <b>Power Cost:</b> 107<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Duke of Flapbule]]
+|-
+| {{Ability icon|Virulent Bite 12|2}} || 118 || Virulent Bite 12 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 583 Piercing || <b>Power Cost:</b> 48<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Confusing Double 10|2}} || 119 || Confusing Double 10 || Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.<br><b>This is a Survival-Utility ability</b> || Summons a figment of you that taunts extremely aggressively. Lasts 23 seconds. ||  || <b>Power Cost:</b> 79<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Deathscream 10|2}} || 120 || Deathscream 10 || Focus an obliterating wave of noise on a single distant target.<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 1571 Nature || <b>Power Cost:</b> 153<br><b>Range:</b> 30<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Rip 13|2}} || 121 || Rip 13 || Slash an enemy with your winged talons.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 302 Slashing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Sonic Burst 12|2}} || 123 || Sonic Burst 12 || Scream at the top of your lungs, injuring all enemies within close earshot. || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 730 Nature || <b>Power Cost:</b> 94<br><b>AoE:</b> 15<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Wing Vortex 13|2}} || 124 || Wing Vortex 13 || Flap violently to disperse your enemies with a gust of wind. ||  || <b>Damage:</b> 627 Nature || <b>Power Cost:</b> 82<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Tear 13|2}} || 125 || Tear 13 || Tear into an enemy with your talon.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 636 Slashing || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Drink Blood 13|2}} || 125 || Drink Blood 13 || Sink your fangs into an enemy and consume their life force, healing yourself. || <b>Steal Health:</b> 135 Darkness<br><b>--Can Have--</b><br><b>Steal Health (indirect Darkness damage):</b> 0 Darkness, 6 times over 12 seconds || <b>Health Dmg:</b> 882 Piercing || <b>Power Cost:</b> 115<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Virulent Bite 13|2}} || 125 || Virulent Bite 13 || Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)<br><b>This is a Signature Debuff ability</b> || Applies Moderate Concussion status: target is prone to random self-stuns<br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds || <b>Damage:</b> 636 Piercing || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Screech 13|2}} || 125 || Screech 13 || Use your horrific voice to damage an enemy.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 6 times over 12 seconds<br><b>DoT:</b> 0 Nature, 4 times over 8 seconds || <b>Damage:</b> 883 Nature || <b>Power Cost:</b> 83<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|}

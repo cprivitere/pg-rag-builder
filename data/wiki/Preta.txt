@@ -1,0 +1,244 @@
+__NOTOC__
+{{NPC infobox
+|title            = Preta
+|image            = [[File:Preta.png|300px]]
+|caption          = She is fussing over papers covered in weird runes.
+|zone             = Sun Vale
+|town             = Great Tree
+|location         = Platform 1.
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Sigil Scripting]]
+|vendor           = Yes
+|consignment = Yes
+|augment = Yes
+}}
+{{Quote|
+I kind of like the manual labor part of writing books. I've never done this before, I've always just dictated. It's kind of fun!
+}}
+[[Preta]] is a [[Summer Court]] fairy living at the base of the giant tree in [[Sun Vale]]. She specializes in sigils and runes.  When she lived in the fae realm, Preta ran a library that cataloged the [[Words of Power]] of her realm. She is afraid of the torture cells her kin resurrect in when killed.
+== Location ==
+; [[Sun Vale]]
+: [[Great Tree]] on first platform.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[category:Favor/Small Talk]]
+==Quests==
+<dpl>
+category = Quests/Preta
+notcategory = Quests/Fae Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+==== Fairy Quests ====
+[[Preta]] offers quests only available to Fairy characters.
+<dpl>
+category = Quests/Preta
+category = Quests/Fae Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+Fairy Magic is only visible to Fairies.
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Sigil Scripting]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Explosion Sigil 4
+ |skilllevel=50
+ |cost=7200
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Cow Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Deer Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Pig Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Spider Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Bat Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Rabbit Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=First Aid Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Armor Patching Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Fairy Magic Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Spirit Fox Inscription
+ |skilllevel=25
+ |cost=1633
+ |favor=Like Family
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Treasure Cartography]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Sun Vale Treasure Map: Small Treasure
+ |skilllevel=10
+ |cost=466
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Sun Vale Treasure Map: Large Treasure
+ |skilllevel=18
+ |cost=1066
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Sun Vale Treasure Map: Vast Riches
+ |skilllevel=26
+ |cost=1666
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Sun Vale Treasure Map: Incredible Wealth
+ |skilllevel=32
+ |cost=2866
+ |favor=Like Family
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fairy Magic]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fairy Magic{{pipe}}Unlock Fairy Magic Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20000
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Fairy Fire 6
+ |skilllevel=51
+ |cost=9750
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Pixie Flare 6
+ |skilllevel=54
+ |cost=9900
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Astral Strike 4
+ |skilllevel=60
+ |cost=11700
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Fae Conduit 5
+ |skilllevel=60
+ |cost=11700
+ |favor=Close Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fairy Magic{{pipe}}Unlock Fairy Magic Skill Levels 61-70
+ |skilllevel = 60
+ |cost=100000
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Fairy Fire 7
+ |skilllevel=61
+ |cost=14750
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Pixie Flare 7
+ |skilllevel=64
+ |cost=14900
+ |favor=Best Friends
+}}
+|}
+
+== Services ==
+==== Consignment ====
+; Preta offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10%, stocking fee of 100 Councils.
+: Max 2 active consignments (Books, scrolls, recipes, parchment).
+: Max 4 consignments per week.
+
+==== Augmentation ====
+[[Preta]] can install Level 0-50 Augments for 350 Councils. You must be {{favor|Close Friends}} or better.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Expert Ink}} x5, {{Item|Amazing Ink}} x5
+|RiShin Family = {{Item|Expert Ink}} x5, {{Item|Amazing Ink}} x10
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Greeting|
+{{Quote|I'm trying to record our time here on your world's 'paper'. It's cumbersome.}}
+}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|I kind of like the manual labor part of writing books. I've never done this before, I've always just dictated. It's kind of fun!}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|I ran a small library in the [[Fae Realm|fae realm]]. It cataloged the power words of each epoch. But here in this world, words of power come and go almost instantly. You can't use any word more than once! How strange.}}
+}}
+
+[[Category:NPCs]]

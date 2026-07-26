@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Therese has asked for bone meal. She thinks it's most easily obtained in the crypt at the back of the small graveyard beneath Serbule.
+
+===Prerequisites===
+To start this quest, talk to '''[[Therese]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Hmm, running low on bone meal! Can you get me some more? The easiest way to get it is to rob tombs. Oh, it's okay, they aren't using it!
+
+Try the crypt at the back of the graveyard outside of town. It'll be pretty far in, since dumb old Marna already excavated all the easily-reached bone meal.}}
+
+===Requirements===
+* Obtain {{Item|Bone Meal}} x3
+* Talk to Therese
+
+===Rewards===
+{{Spoiler|Rewards for Bone Meal|
+{{Quote|Perfect! Thanks! You're good at this fetching stuff!
+
+Let me show you a couple little gardening tips.}}
+
+* 100 {{Favor|favor}}
+* 50 XP in [[Gardening]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Therese]]

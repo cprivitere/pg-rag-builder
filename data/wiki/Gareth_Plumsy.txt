@@ -1,0 +1,39 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gareth Plumsy
+|image            = [[File:Gareth Plumsy (npc).png|300px]]
+|caption          = Looks a little pained
+|zone             = Statehelm
+|town = Statehelm
+|location         = Council Grounds/Wandering
+|anatomy = human
+|species = human
+|beastspeak       = ?
+}}
+{{Quote|source=[[Gareth Plumsy]]|I wanted to be a bard to make people happy with my music. But I'm mostly learning how to make people dead. I guess I just need to grow up and accept reality: the world needs a lot of soldiers but it doesn't need a lot of tavern singers.}}
+[[Gareth Plumsy]] is a student at the Bard College in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Gareth Plumsy]] may be found wandering the city of Statehelm during the day. In the early morning, they are often spotted southwest of the Bard College.
+== Favor ==
+=== Small Talk ===
+[[Gareth Plumsy]] does not use the favor system.
+== Quests ==
+[[Gareth Plumsy]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Phantessa
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Services ==
+
+== Conversations ==
+{{Quote|source=[[Gareth Plumsy]]|
+I get such a headache at school. I have naturally sensitive hearing and I believe someone at the school is performing music at such a high pitch that I can only barely perceive it.}}
+{{Quote|source=[[Gareth Plumsy]]|
+Classes at the bard college are taught rather poorly and the tests are surprisingly violent. But the tuition was very cheap, so I can't really complain, can I?}}
+{{Quote|source=[[Gareth Plumsy]]|
+When you finally corner one of the professors at Tennenbrandt and get them to actually give you a lesson, they teach FAST. It feels like they're shoving knowledge at you faster than you can process it! But you know what helps? Pineal juice. Illegal here, of course. So I know you wouldn't have any on you. That's a shape because I have a pretty rough day of lessons coming up.}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

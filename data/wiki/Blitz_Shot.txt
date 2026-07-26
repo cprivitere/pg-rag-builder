@@ -1,0 +1,142 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Blitz Shot
+| description = You fire an arrow with unnatural speed. You must have a Beginner's Arrow (or better) in your inventory.
+| level = 1
+| power cost = 0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 13 Piercing
+| special = +13 if target vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blitz Shot 2
+| description = You fire an arrow with unnatural speed. You must have a Beginner Arrow (or better) in your inventory.
+| level = 10
+| power cost = 0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 17 Piercing
+| special = +17 if target vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blitz Shot 3
+| description = You fire an arrow with unnatural speed. You must have a Basic Arrow (or better) in your inventory.
+| level = 21
+| power cost =0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 21 Piercing
+| special = +21 if target vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blitz Shot 4
+| description = You fire an arrow with unnatural speed. You must have an Advanced Arrow (or better) in your inventory.
+| level = 30
+| power cost = 0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 25 Piercing
+| special = +25 if target vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blitz Shot 5
+| description = You fire an arrow with unnatural speed. You must have an Expert's Arrow (or better) in your inventory.
+| level = 42
+| power cost =0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 41 Piercing
+| special = +41 if target vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blitz Shot 6
+| description = You fire an arrow with unnatural speed. You must have a Masterwork Arrow (or better) in your inventory.
+| level = 51
+| power cost = 0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 60 Piercing
+| special = +60 if target vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blitz Shot 7
+| description = You fire an arrow with unnatural speed. You must have a Masterwork Arrow (or better) in your inventory.
+| level = 60
+| power cost = 0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 79 Piercing
+| special = +79 if target vulnerable
+}}
+{{Ability infobox
+| name = Blitz Shot 8
+| description = You fire an arrow with unnatural speed. You must have an Amazing Arrow (or better) in your inventory.
+| level =70
+| power cost = 0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 100 Piercing
+| special = +100 if target vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blitz Shot 9
+| description = You fire an arrow with unnatural speed. You must have an Astonishing Arrow (or better) in your inventory.
+| level = 80
+| power cost = 0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 126 Piercing
+| special = +126 if target vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Blitz Shot 9 (Energy Bow)
+| description = You fire an arrow with unnatural speed. You must have an Astonishing Arrow (or better) in your inventory.
+| level = 80
+| power cost = 0
+| reuse time = 1
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BlitzShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 126 Piercing
+| special = +126 if target vulnerable
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

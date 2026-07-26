@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+[[Backfat]] in the [[Fae Realm]] said, "I don't think fairies would appreciate normal tree ornaments. But Marrowchomp had a great idea for something much better! It's a pixie-dust shower. Almost completely safe! And we already have most of the parts. I just need some pixie dust, and some piping."
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Backfat]]''' in '''[[Fae Realm]]'''.
+
+===Preface===
+I don't think fairies would appreciate normal tree ornaments. But Marrowchomp had a great idea for something much better! It's a pixie-dust shower. Almost completely safe! And we already have most of the parts. I just need some pixie dust, and some piping.
+
+===Requirements===
+* Obtain {{Item|Pixie Dust}} x4
+* Obtain {{Item|Ratkin Pipe-Pipe}}
+* Talk to [[Backfat]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Haha, great, this is great! Okay, that's finished Marrowchomp's design. Let's power it up. It should go off every few seconds. Watch and see!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Backfat]][[Category:Quests/Ri-Shin Quests]]

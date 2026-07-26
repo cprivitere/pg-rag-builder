@@ -1,0 +1,227 @@
+__NOTOC__
+{{NPC infobox
+|title            = Deville Neth
+|image            = [[File:Deville Neth (npc).png|300px]] 
+|caption          = Baker
+|zone             = Statehelm
+|town = Statehelm
+|location         = Bakery
+|anatomy = Human
+|species = Human
+|beastspeak       = ?
+|skilltrainer     = [[Cooking]]
+|vendor= Yes
+}}
+{{Quote|source=[[Deville Neth]]|
+I've been running this bakery for forty years. There were three other bakeries in the city when I started. Well, one mostly did sandwiches, but they baked their own bread so I count 'em. I outlasted everyone through hard work and guile. Became a better baker along the way too.
+
+But the glory days of Statehelm's food culture are long over. I somehow went from being the triumphant victor to a sad hanger-on, hoping people remember that fresh bread exists.}}
+[[Deville Neth]] is a baker who runs a shop in the city of [[Statehelm]]. He is the father of [[Laura Neth]] and [[Ormond Neth]].
+== Location ==
+; [[Statehelm]]
+: [[Deville Neth]] is usually found in his shop, just south of the Church.
+== Shopkeeper ==
+{{Quote|source=[[Deville Neth]]|
+...}}
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+
+== Favor ==
+[[Deville Neth]] is not willing to share his preferences with individuals at '''{{favor|Neutral}}''' favor.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Deville Neth]] rewards his friends with __TBD__
+== Quests ==
+[[Deville Neth]] offers two quests to anyone willing to speak with him ('''{{favor|Neutral}}''' favor).
+<dpl>
+category = Quests/Deville Neth
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Cooking{{pipe}}Unlock Cooking Skill Levels 81-90
+ |skilllevel = 80
+ |cost=324 SR or ???
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Cooking{{pipe}}Unlock Cooking Skill Levels 91-100
+ |skilllevel = 90
+ |cost=485 SR or ???
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Basic Cornbread
+ |skilllevel= 40
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Cornbread Cheddar Biscuit
+ |skilllevel= 65
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Creamy Polenta
+ |skilllevel= 35
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Deville's Strawberry Skillet Cake
+ |skilllevel= 74
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Orange Polenta Cake
+ |skilllevel= 65
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Buttermilk Barley Biscuit
+ |skilllevel= 50
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Neth Bread
+ |skilllevel= 50
+ |cost=0
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe =Malt Loaf
+ |skilllevel= 65
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Deluxe Malt Loaf
+ |skilllevel= 80
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Sourdough Starter
+ |skilllevel= 35
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Rye Bread
+ |skilllevel= 45
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Beer Bread
+ |skilllevel= 75
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Simple Sourdough
+ |skilllevel= 35
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Pumpernickel Bread
+ |skilllevel= 90
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Honey Oat Muffin
+ |skilllevel= 75
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Oat Brownies
+ |skilllevel= 85
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Oatmeal
+ |skilllevel= 40
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Oat Pumpkin Bread
+ |skilllevel= 80
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Masterful Banana Bread
+ |skilllevel= 100
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe =Moon Muffins
+ |skilllevel= 100
+ |cost=?
+ |favor=Neutral
+}}
+|}
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Deville Neth]]| 
+I know who did this to my shop. But even if I could prove it, I'd gain nothing. So frustrating. If only there was some way...
+
+'''Who would do this to your shop?'''
+
+I know how this sounds, but this bug infestation was sabotage. And worse still, it was sabotage by a Chancellor -- [[Chancellor Vexford]]. So I have nowhere to turn. This won't be the end of it. He'll keep at it.
+
+'''Why would the Chancellor do this?'''
+
+I've been very vocal about the cornucopia. The old one created fresh fruits and vegetables. So what's the point of farming, if magic can do it for us? But at least you had to cook the vegetables. So cooking was still useful. Baking, on the other hand, was ruined, because the cornucopia gave out fresh loaves on demand! Piping hot. It wasn't an amazing recipe, but it was good enough for most people. 
+
+My bakery has never recovered.
+
+Once I was an acclaimed business. Now I"m one of those jerks who got the old cornucopia taken away. I don't feel bad about it. Free bread destroys the motivation to bake. Sure, a few hobbyists would make exotic bread for rich patrons, but most of the things a baker makes would be too complex for them. Tarts would simply never be made again and their knowledge would disappear from history.
+
+All that's the backdrop you need to understand my plight. But anyway the Chancellor hates me because i committed tax fraud.
+
+'''You what? Well, that complicates things...'''
+
+No it doesn't. I didn't have any money. Nobody was buying bread anymore, and taxes had gone up to help pay off the fucking cornucopia! It was either go out of business or rearrange some numbers in a ledger. I don't regret it. The city needs me! They need a master baker.
+
+I didn't give up hope. The council eventually heard of our petition and changed the cornucopia. A lot of our success was due to my organizing. IT took a ton of effort to get a bunch of farmers to agree on anything! If I'd been run out of business, the cornucopia would still be spitting out edible but uninspiring loaves. And the city would have no master baker. We would be an international laughingstock.
+
+Anyway that was my defense when they caught me. The Council made me pay it back and told me not to do it again. Because they know I"m right. This city needs me!
+
+The Chancellor disagrees on the importance of my business. Ever since he visited [[Rahu]] he goes on and on about their ice cream. And how the city should have an ice cream shop right around this part of town. I think... well, I have no proof, of course, but he plans to replace me.
+
+'''I see. That's a tough one.'''}}
+{{Quote|source=[[Deville Neth]]| 
+My daughter was going to take over the bakery, but she had other plans and ran away. She's grown into a good woman, so far as I can tell. I keep tabs. But I haven't seen her in years.}}
+{{Quote|source=[[Deville Neth]]|
+Have you met my son Ormond? He never liked baking, went into music instead. Became a bard.
+
+It's not a baker-level procession but bardery is an honest enough job. I'm reasonably proud of the git. I didn't think he'd amount to anything at all, really.}}
+
+[[Category:NPCs]]

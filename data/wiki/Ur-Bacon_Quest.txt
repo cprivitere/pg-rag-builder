@@ -1,0 +1,39 @@
+__NOTOC__
+==Summary==
+Fainor in Serbule wishes to know the secret of Ur-Bacon, but the recipe is known only to the undead.
+
+===Prerequisites===
+To start this quest, talk to '''[[Fainor]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|If you were a REAL friend, you would help me master the ancient recipe for forbidden bacon. Ur-Bacon is infused with the spirits of the dead. What a thrill it'd be to serve that! But of course, only the dead know the secret. You might find it written down somewhere, but it'd be incredibly rare. Sigh.}}
+
+===Requirements===
+* Obtain the Recipe for {{Item|Ur-Bacon}}
+* Talk to Fainor
+
+===Rewards===
+{{Spoiler|Rewards for Ur-Bacon|
+{{Quote|This is the recipe? Wait, does it say the bacon TALKS? Um... No thank you. I'm extremely susceptible to negative thoughts right now, what with my home exploding. Why don't you keep it?
+
+But I do appreciate the effort! Um, here: this is a recipe you might like.}}
+''
+Quest completion does not consume the Ur-Bacon recipe.''
+
+* 150 {{Favor|favor}}
+* {{Item|Tailoring: Add Cold Damage to Cloth Shirt}}
+* 300 XP in [[Cooking]]
+}}
+
+===Hint===
+{{Spoiler|Obtaining Recipe: [[Cooking: Ur-Bacon]]|
+Can be obtained as a drop from killing Goblin Slavers in the [[Boarded up Basement]], and mantises in the [[Goblin Dungeon]], in [[Eltibule]]
+
+Can be obtained as a drop in the [[Serbule Crypt]].
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Fainor]]
+
+===Trivia===
+Prior to release, this quest gave {{Item|I.O.U. Quest Reward}} as a reward. Fainor would tell you, "This... this is Ur-Bacon! You're a hero! I could kiss you! Thank you! Thank you! Here, take my [TBD]."
+
+This quest used to consume the Ur-Bacon recipe upon completion.

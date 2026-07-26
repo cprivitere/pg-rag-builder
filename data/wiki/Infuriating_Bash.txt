@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Infuriating Bash
+| description = A frustration-inducing bash to the face.
+| level = 3
+| power cost = 8
+| reuse time = 7
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|InfuriatingBash}}{{KWAB|Bash}}
+| damage = 10 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Bash 2
+| description = A frustration-inducing bash to the face.
+| level = 19
+| power cost = 11
+| reuse time = 7
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|InfuriatingBash}}{{KWAB|Bash}}
+| damage = 27 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Bash 3
+| description = A frustration-inducing bash to the face.
+| level = 32
+| power cost = 14
+| reuse time = 7
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|InfuriatingBash}}{{KWAB|Bash}}
+| damage = 47 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Bash 4
+| description = A frustration-inducing bash to the face.
+| level = 42
+| power cost = 17
+| reuse time = 7
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|InfuriatingBash}}{{KWAB|Bash}}
+| damage = 73 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Bash 5
+| description = A frustration-inducing bash to the face.
+| level = 53
+| power cost = 19
+| reuse time = 7
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|InfuriatingBash}}{{KWAB|Bash}}
+| damage = 113 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Bash 6
+| description = A frustration-inducing bash to the face.
+| level = 63
+| power cost = 21
+| reuse time = 7
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|InfuriatingBash}}{{KWAB|Bash}}
+| damage = 151 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Infuriating Bash 7
+| description = A frustration-inducing bash to the face.
+| level = 73
+| power cost = 23
+| reuse time = 7
+| range = 5 meters
+| skill = Shield
+| keywords = {{KWAB|Attack}}{{KWAB|Shield}}{{KWAB|Melee}}{{KWAB|InfuriatingBash}}{{KWAB|Bash}}
+| damage = 192 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

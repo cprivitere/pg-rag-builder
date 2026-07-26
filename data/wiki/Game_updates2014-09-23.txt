@@ -1,0 +1,25 @@
+==September 23, 2014==
+
+This is a small bug-fix update. The client did not change and no new download should be required.
+
+===Build Notes===
+
+* Fixed bug that caused monsters to become immobilized forever and/or delete themselves if they saw a player flying overhead
+* Sped up some monster respawns in sun vale. Slowed down some resource respawns
+
+* The Elite monsters in Sun Vale can no longer be buried or eaten. (So that everybody has a chance to get their loot)
+
+* Joeh now allows weapon and armor consignments (instead of just calligraphy—reIated ones)
+
+* Items that were supposed to boost Druid damage % were boosting Hammer damage instead. (Will be corrected when items are reequipped)
+
+* Added new belts associated with the Hammer and Druid skills. These are available for purchase from Agrashab (troll vendor)
+* Fixed issues with monsters moving through water in Sun Vale area
+
+* Removed Hardcore death penalty requirement from Summer Court armor
+
+* Fixed minor fairy scripting issues
+
+* Added more debugging to track down the cause of monsters becoming immobile
+
+[[Category:Game updates]]

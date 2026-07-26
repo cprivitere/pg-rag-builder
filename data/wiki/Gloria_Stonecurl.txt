@@ -1,0 +1,242 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gloria Stonecurl
+|image            = [[File:GloriaStonecurl(npc).png|300px]]
+|caption          = Smiling calmly.
+|zone             = Kur Mountains
+|town             = Northwestern Outpost
+|location         = Building across from [[Ukorga]]'s Inn.
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Priest]]
+}}
+{{Quote| 
+I've been meaning to clean Ukorga's basement. There's tons of mold down there!
+}}
+[[Gloria Stonecurl]] is a Priest of [[Arisetsu]].
+
+At {{Favor|Comfortable}}, [[Gloria Stonecurl]] will offer the vow of [[Priest]].
+== Location ==
+; [[Kur Mountains]]
+: [[Gloria Stonecurl]] is always found in the [[Kur Mountains]], in the building across from [[Ukorga]]'s Inn.
+
+==Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]==
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+==Favor Rewards==
+[[Category:Favor/Favor Rewards]]
+{{Spoiler|Reward at {{Favor|Neutral}}.|
+:{{Item|Simple Blanket}} x2
+}}
+{{Spoiler|Reward at {{Favor|Comfortable}}.|
+: Willing to train [[Priest]]
+}}
+{{Spoiler|Reward at {{Favor|Friends}}.|
+:{{Item|"The Gods, Vol. XI: Arisetsu"}}
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}.|
+:{{Item|Buckle of Arisetsu}}
+}}
+
+==Quests==
+[[Gloria Stonecurl]] offers some quests around the [[Kur Mountains]] region.
+<dpl>
+category = Quests/Gloria Stonecurl
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Priest]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Invigorate
+ |skilllevel= 9
+ |cost={{formatnum:650}}
+ |favor= Comfortable
+}}
+{{NPC training row
+ |ability=Relentless Hope
+ |skilllevel= 18
+ |cost={{formatnum:1600}}
+ |favor= Friends
+}}
+{{NPC training row
+ |ability=Give Warmth
+ |skilllevel= 20
+ |cost={{formatnum:1700}}
+ |favor= Friends
+}}
+{{NPC training row
+ |ability=Invigorate 2
+ |skilllevel= 24
+ |cost={{formatnum:2400}}
+ |favor= Friends
+}}
+{{NPC training row
+ |ability=Relentless Hope 2
+ |skilllevel= 34
+ |cost={{formatnum:4100}}
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability=Give Warmth 2
+ |skilllevel= 35
+ |cost={{formatnum:4450}}
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability=Invigorate 3
+ |skilllevel= 39
+ |cost={{formatnum:4650}}
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability=Tether Soul
+ |skilllevel= 40
+ |cost={{formatnum:4700}}
+ |favor= Best Friends
+}}
+{{NPC training row
+ |ability=Invigorate 4
+ |skilllevel= 47
+ |cost={{formatnum:7050}}
+ |favor= Best Friends
+}}
+{{NPC training row
+ |ability=Give Warmth 3
+ |skilllevel= 50
+ |cost={{formatnum:7200}}
+ |favor= Best Friends
+}}
+{{NPC training row
+ |ability=Relentless Hope 3
+ |skilllevel= 58
+ |cost={{formatnum:11600}}
+ |favor= Like Family
+}}
+{{NPC training row
+ |ability=Give Warmth 4
+ |skilllevel= 65
+ |cost={{formatnum:14950}}
+ |favor= ?
+}}
+|}
+
+== Services ==
+==== Bartering ====
+Available at {{Favor|Comfortable}}
+{| {{STDT}}
+!Give
+!Receive 
+|-
+| {{Item|Lapis Lazuli}} x2 || {{Item|Shoddy Arisetsu Medallion}}
+|-
+| {{Item|Lapis Lazuli}} x3 || {{Item|Rough Arisetsu Medallion}}
+|-
+| {{Item|Lapis Lazuli}} x4 || {{Item|Crude Arisetsu Medallion}}
+|-
+| {{Item|Lapis Lazuli}} x5 || {{Item|Decent Arisetsu Medallion}}
+|-
+| {{Item|Lapis Lazuli}} x6 || {{Item|Nice Arisetsu Medallion}}
+|}
+
+== Hang Outs ==
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Learn background information about Arisetsu (6h) (Must be a [[Priest]])|
+{{Quote|
+[[Arisetsu]] was super angry and she said to [[Vol]], "to protect Hope, I would end Death if I must. Do not doubt my conviction or my power," and so that started another fight, because Vol said... well, we're out of time and it doesn't matter what he said.
+
+To sum up, there's been a ''lot'' of lover's spats over the centuries, but amazingly, Vol, the god of Death, is ''still'' Arisetsu's lover, eighteen thousand years later! That's really weird, right? Hope and Death as lovers? I know!
+
+Have you ever heard the folk tale that says if your situation is truely hopeless and you pray to Arisetsu, you'll die in your sleep? Well, don't go spreading this around, but it's true! As a gift to Arisetsu, Vol changed reality so that you really will die peacefully in your sleep if your situation is truly hopeless. Arisetsu was pretty upset about that for a few hundred years, but she's gotten used to it.
+
+They say Arisetsu has made Vol kinder, but I think Vol has rubbed off on Arisetsu a lot more. Arisetsu hates the undead... really seriously HATES them... and I think it's all because Vol hates them. If she didn't care for Vol I don't think she'd care about the undead either.
+
+Okay.. that's enough for today. You did great!
+}}
+: 50 favor with Gloria Stonecurl
+: 500 [[Priest]] XP
+}}
+{{Spoiler|Learn the basics of being a Priest of Arisetsu (6h) (Must be a [[Priest]])|
+{{Quote|
+Gloria Stonecurl said, "Nope, you treat poison with the Remedy blessing, it works faster. Now don't get discouraged, you're learning really quickly! Just remember the acronyms I've taught you: W.A.R.M.T.H. for helping people, and B.U.R.N. for undead. Got it? Okay, that's enough for one lesson!"
+}}
+: 53.5 favor with Gloria Stonecurl
+: 600 [[Priest]] XP
+}}
+{{Spoiler|Learn advanced lifesaving Priest techniques (8h) (Must be a [[Priest]])|
+{{Quote|
+Gloria Stonecurl said, "...and it should go without saying that you NEVER use cauterizing heat on a patient without explicit permissions, unless they're unconscious and bleeding out.
+
+Okay that's probably enough for today. I know it's overwhelming, but you're doing fine. You've got the basic ideas. Now you just need some hands-on experience triaging battlefields!"
+}}
+: 69.55 favor with Gloria Stonecurl
+: 800 [[Priest]] XP
+}}
+{{Spoiler|Learn combat techniques for Priests (8h) (Must be a [[Priest]])|
+{{Quote|
+Gloria Stonecurl said, "You've got the basics of admonishing and castigating. Now, when it comes to undead, you want to use Castigation every time. It's super effective against them! In fact, the only thing more deadly to undead is a Flamestrike. I don't know that technique, but I've seen it done before. Boom! Exploded undead everywhere. Maybe you can learn that technique somewhere, but for now, stick with Castigation. It's tried and true and it always works.
+}}
+: 69.55 favor with Gloria Stonecurl
+: 1000 [[Priest]] XP
+}}
+
+== Conversations ==  
+{{Quote|source=[[Gloria Stonecurl]]|
+; Can you train me to be a [[Priest]] of [[Arisetsu]]?
+: Well, I trust you, and I think you have a personality that will work well in the priesthood. But there's a few other things you need to know.
+
+: First, there's a fee of 5000 Councils.
+
+: Second, you have to take a vow, and it's permanent.
+:; Nevermind for now.
+:; Tell me about the fee.
+:: It's really a 'cover my ass' fee. When I go back to the temple and tell them I trained a new priest in the field, they won't be happy. But if I bring your offering of 5000 Councils, that will help smooth everything over. I'm willing to stick my neck out for you, but only to a point! [[Arisetsu]] is a pragmatic god, after all, and that money will buy a lot of blankets.
+::; I see. And the vow?
+:; Tell me about the vow.
+:: Becoming a priest means becoming a Scion of Arisetsu. You will be a living point of Arisetsu's energy, a sort of organ for Arisetsu's will.
+:: Now, she's a very hands-off god so it's mostly a formality. But you will formally pledge your life to aid Arisetsu whenever 'Hope is fading from the world.'
+::; How often does 'hope fade from the world?'
+:: I'm fifty-six and I've never heard of anyone being summoned by Arisetsu. I certainly haven't! But it could happen some day: if a cataclysmic event happens, you'll be expected to drop everything and help save the world.
+; What do you do here again?
+
+::Oh, I was just passing through and decided to stay and help this little settlement for a week or two. I've collected firewood, killed bizarre exploding sheep, fished up some tasty food, re-insulated this barn... that sort of thing.
+::; That's nice of you.
+:: Well I saw the need. That rakkie can't do it all on his own! [[Ukorga]] I mean. He's overworked and very stressed out. He hides his fears, but he's worried. All these guests staying at his inn means there's a lot of mouths to feed, a lot of work to do. So I'm helping out.
+; So you're a follower of Arisetsu?
+
+:: Yes. When I was young, my life was saved by a priest of Arisetsu. It showed my true calling: I have basked in the glow of Arisetsu, the goddess of Hope and Warmth, and now I take her message of hope to frontier settlements like this one.
+::; How did you become a priest?
+:: I studied at the temple in [[Gravefell]]. The temple is a bright spot of hope in a gloomy city. If you're a devout follower of Arisetsu I'm sure they'd let you in! There's a four-year certification program.
+::; Is there a faster way to become a priest?
+:: Well... I mean, we always heard about hick priests in backwoods areas that never formally studied. They just learn from another priest. So I guess you could study under a priest like me... but...
+::; But?
+:: I could teach you some of the less subtle stuff, like creating physical warmth and healing wounds. But I'm not qualified to teach the more difficult tasks of a priest of Arisetsu, like comforting the grieving, bringing hope to a dying relationship, or alleviating depression. You'd have to learn all of that on your own. And I'm not sure it'd be in the priesthood's best interests to have another bush priest... why don't you just go to school instead? It's four years, but they'll fly by in the rapturous glow of Arisetsu
+::; Think of all the people I could be helping during those four years, thought! Do it for the people!
+:: Hmmm... well there are definitely too few priests of Arisetsu out here. I suppose if I was confident in your sincerity, and you paid a token amount, I could teach you the basics.
+; What does it mean to be a 'Priest?'
+
+:: Oh, don't get hung up on terminology. I mean, almost every god has worshipers that could be called 'priests.' But if you call yourself a priest in public, people are going to expect you to be a healer! So most people who use that word are priest of Arisetsu. Although there are a few others.
+::; Other gods with healer-priests?
+:: Yeah. Goblin healers worship [[Saledar]], the god of Empathy and Cooperation. Orthodox dwarven priests worship [[Kirad]], the god of Hearth and Home. And other gods have followers that don't call themselves 'priests,' but who heal. [[Dreva]]'s followers, the [[Druid|Druids]], can heal. [[Imatia]]'s Love Monks can heal too. [[Errana]]'s Harlots can heal. And so on. Beyond organized groups, many gods have a handful of individual Scions that can heal, too. Oh, and there's non-god-associated groups like the [[Council Surgeons]] or the [[Leafguard]].
+::; Sounds like there's a lot of healers!
+:: Not at all! Most of these groups have only a few thousand members, and there's billions of people who need help. There's actually a crushing shortage of healers in most of the world.
+
+}}
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Holy Warmth}} x3
+|RiShin Family ={{Item|Holy Warmth}} x10
+}}
+== Conversations ==
+
+[[Category:NPCs]]

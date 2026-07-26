@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Corey the Croaker in the Winter Nexus asked you for fairy wings.
+
+===Prerequisites===
+To start this quest, talk to '''[[Corey The Croaker]]''' in '''[[Winter Nexus]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I know it's taboo to carry around fairy wings. But that's why they're so great! Nothing can rile up an Autumn or Summer like a big old bed full of ripped-off wings. Get me some, I'm gonna do something gross.}}
+
+===Requirements===
+* Obtain {{Item|Fairy Wing}}s x10
+* Talk to Corey the Croaker
+
+===Rewards===
+{{Spoiler|Rewards for Corey Wants Wings|
+{{Quote|Hahaha okay this is gonna be great. You'll see. For now, here's a thing I found. Neat, huh?}}
+
+* 75 {{Favor|favor}}
+* {{Item|Ivory Horn}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Corey The Croaker]]

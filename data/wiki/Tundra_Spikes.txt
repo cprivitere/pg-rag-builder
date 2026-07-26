@@ -1,0 +1,102 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Tundra Spikes
+| description = Create huge frozen spikes that damage and immobilize enemies around you.
+| level = 15
+| power cost = 31
+| reuse time = 20
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|TundraSpikes}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 41 Cold
+| special = Targets are immobilized for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Tundra Spikes 2
+| description = Create huge frozen spikes that damage and immobilize enemies around you.
+| level = 25
+| power cost = 38
+| reuse time = 20
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|TundraSpikes}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 69 Cold
+| special = Targets are immobilized for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Tundra Spikes 3
+| description = Create huge frozen spikes that damage and immobilize enemies around you.
+| level = 35
+| power cost = 46
+| reuse time = 20
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|TundraSpikes}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 104 Cold
+| special = Targets are immobilized for 6 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Tundra Spikes 4
+| description = Create huge frozen spikes that damage and immobilize enemies around you.
+| level = 45
+| power cost = 53
+| reuse time = 20
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|TundraSpikes}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 162 Cold
+| special = Targets are immobilized for 6 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Tundra Spikes 5
+| description = Create huge frozen spikes that damage and immobilize enemies around you.
+| level = 55
+| power cost = 59
+| reuse time = 20
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|TundraSpikes}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 237 Cold
+| special = Targets are immobilized for 7 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Tundra Spikes 6
+| description = Create huge frozen spikes that damage and immobilize enemies around you.
+| level = 65
+| power cost = 66
+| reuse time = 20
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|TundraSpikes}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 309 Cold
+| special = Targets are immobilized for 7 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Tundra Spikes 7
+| description = Create huge frozen spikes that damage and immobilize enemies around you.
+| level = 75
+| power cost = 73
+| reuse time = 20
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|TundraSpikes}}{{KWAB|Burst}}{{KWAB|IceMagicAoE}}
+| damage = 392 Cold
+| special = Targets are immobilized for 7 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

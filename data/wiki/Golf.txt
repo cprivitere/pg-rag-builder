@@ -1,0 +1,53 @@
+__NOTOC__
+{{Skill infobox
+|title            = Golf
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Skill in golf-related games. Covers any game involving the propulsion of an object toward a designated goal on the landscape.
+|skilltype        = Other Skill 
+|maxlevel         = 100
+|req              = N/A
+|skilltrainers    = [[Pennoc]]
+}}
+{{Quote|
+Leave a quote about the skill here. This can be the in-game description, but that info must be placed below as well.  Adds a bit of flavor to the article as well.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Golf]] is the common term for a series of games played by Dwarves, Elves, and Humans.
+=== In-Game Description ===
+Skill in golf-related games. Covers any game involving the propulsion of an object toward a designated goal on the landscape.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* Completing a hole of [[Golf]] during [[Pennoc's Pennant]] rewards enough Golf XP to reach Level 1.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* N/A
+===== Secondary Skills: =====
+* [[Gaming]] - [[Golf]] is the sub-skill of [[Gaming]].
+===== Related Skills: =====
+* [[Surveying]] - Much like [[Golf]], [[Surveying]] involves lots of running! Increased sprint speed can be useful for both activities.
+===== Synergy Levels: =====
+There are no Bonus [[Synergy Levels]] for [[Golf]].
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Golf Tournaments ===
+==== Pennoc's Pennant ====
+{{:Pennoc's Pennant}}
+
+===Equipment===
+: {{Item|Pennoc's Pendant}} - A silver medallion etched with a simple drawing of a smiling elf's face. When your golf ball is used up, gain Non-combat Sprint Boost +2 for 120 seconds.
+: {{Item|Pennoc's Pendulous Pendant}} - A thick, cumbersome silver medallion etched with a simple drawing of a smiling elf's face. When your golf ball is used up, gain Non-combat Sprint Boost +2 for 120 seconds.
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Golf Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Skill|
+{{:Xptables/TypicalNoncombatSkill}}
+}}
+== Trivia ==
+*Golf was introduced through the [[Pennoc's Pennant]] event on May 3, 2021.
+== Gallery==
+<gallery mode="nolines" widths=200px>
+File:GolfGoal.png|A hole for Golf.
+</gallery>
+
+[[Category:Skills]]

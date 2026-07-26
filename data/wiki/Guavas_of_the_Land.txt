@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Hogan in Hogan's Keep asked you to collect some guavas.
+
+===Prerequisites===
+To start this quest, talk to '''[[Hogan]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I'm a bit of a fruit nut. (Do you get it?) I love the guavas that grow around here. Wish I had time to collect some.}}
+
+===Requirements===
+* Obtain {{Item|Guava}}s x10
+* Talk to Hogan
+
+===Rewards===
+{{Spoiler|Rewards for Guavas of the Land|
+{{Quote|Guavas! Thank you very much. Let me teach you a preparation technique for these.}}
+
+* 100 {{Favor|favor}}
+* Recipe: [[Guava Bowl]]
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Hogan]]

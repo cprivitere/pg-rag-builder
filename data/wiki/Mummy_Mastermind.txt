@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Mox Warcut in New Prestonbule said, "You know, I bet there's a master mummy in Foothills Cave. When a mummy remains alive for long enough, there's a chance it can regain its free will and rise up from its inherent bitterness. When that happens, it become VERY dangerous. They're usually yellowed or blackened with age. If you see one, RUN! You'd need a team of trained warriors to kill it!
+
+Of course, if you happen to have a few friends and wanted to kill the damned thing, I'd be happy to reward such heroism."
+
+===Prerequisites===
+To start this quest, talk to '''[[Mox Warcut]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|You know, I bet there's a master mummy in Foothills Cave. When a mummy remains alive for long enough, there's a chance it can regain its free will and rise up from its inherent bitterness. When that happens, it become VERY dangerous. They're usually yellowed or blackened with age. If you see one, RUN! You'd need a team of trained warriors to kill it!
+
+Of course, if you happen to have a few friends and wanted to kill the damned thing, I'd be happy to reward such heroism.}}
+
+===Requirements===
+* Kill a boss mummy in Foothills Cave
+* Talk to Mox Warcut
+
+===Rewards===
+{{Spoiler|Rewards for Mummy Mastermind|
+{{Quote|So there <i>was</i> a higher-order mummy in the cave! That's pretty scary. Where one mummy gains free will, it's only a matter of time before more start sparking to life. We still have a horrible mummy pit back home because of that. Can't get rid of the damned things!
+
+I'll make a full report when I get back New Aufghel... not that they'll be able to do anything about this cave! What with the war and all. So anything you can do to help is appreciated.}}
+
+* 200 {{Favor|favor}}
+* 12000 councils 
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Mox Warcut]]

@@ -1,0 +1,264 @@
+__NOTOC__
+{{NPC infobox
+|title            = The Sand Seer
+|image            = [[File:The Sand Seer.png|400px]]
+|caption          = She's studying something.
+|zone             = Ilmari
+|town = Amulna
+|location         = Sitting inside the northern entrance.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Fire Magic]], [[Treasure Cartography]], [[Sigil Scripting]]
+|barter = Yes
+}}
+{{Quote|
+My name? Oh, I suppose they call me that because I've spent over a hundred years in various deserts around the world. This one is especially interesting. There's all sorts of things buried beneath the sand!
+}}
+[[The Sand Seer]] is a mysterious [[Elven|Elf]] explorer currently living in the small town of [[Amulna]]. 
+{{Quote|
+I found a most interesting item yesterday, and entirely by chance. The tempestuous young Rakshasa that sells dyes -- I forget her name -- had a scroll for sale. This scroll is covered in geometric lines that closely resemble the area's [[Ley Lines| ley lines]]. It was quite warm to the touch, too. It's quite fascinating. I assumed it was the work of some sage, but she said they're very common in her home city and that many people there can make them. If you go to Rahu, see if you can find some for me.
+}}
+== Location ==
+; [[Ilmari]]
+: Found inside the town of [[Amulna]]. 
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/The Sand Seer
+notcategory = Quests/Guild Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+===== Guild Quests =====
+<dpl>
+category = Quests/The Sand Seer
+category = Quests/Guild Quests
+include = #Prerequisites,#Requirements
+mode = unordered
+columns = 1
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fire Magic]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fire Magic{{pipe}}Unlock Fire Magic Skill Levels 51-60
+ |skilllevel = 50
+ |cost= 20000
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe =Fire Magic Research Level 55
+ |skilllevel= 55
+ |cost= 6632
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe =Fire Magic Research Level 60
+ |skilllevel= 55
+ |cost= 28000
+ |favor=Best Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Fire Magic{{pipe}}Unlock Fire Magic Skill Levels 61-70
+ |skilllevel = 60
+ |cost= 100000
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe =Fire Magic Research Level 65
+ |skilllevel= 65
+ |cost= 33000
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe =Fire Magic Research Level 70
+ |skilllevel= 70
+ |cost= 37000
+ |favor=Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Treasure Cartography]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe = Ilmari Treasure Map: Small Treasure
+ |skilllevel= 22
+ |cost= 1532
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe = Ilmari Treasure Map: Large Treasure
+ |skilllevel= 30
+ |cost= 1800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe = Ilmari Treasure Map: Vast Riches
+ |skilllevel= 38
+ |cost=3100
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe = Ilmari Treasure Map: Incredible Wealth
+ |skilllevel= 44
+ |cost=4600
+ |favor=Like Family
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Sigil Scripting]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Health Glyph
+ |skilllevel= 50
+ |cost=Complete [[The Ink For Something Amazing]] & ???
+ |favor=???
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Weather Witching]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe = Summon Sandstorm
+ |skilllevel= 15
+ |cost=
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe = Summon Sandstorm 2
+ |skilllevel= 25
+ |cost=
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe = Summon Sandstorm 3
+ |skilllevel= 40
+ |cost=
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe = Summon Sandstorm 4
+ |skilllevel= 55
+ |cost= 9950
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe = Summon Sandstorm 5
+ |skilllevel= 70
+ |cost= 17199
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe = Summon Sandstorm 6
+ |skilllevel= 85
+ |cost= 27450
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe = Summon Sandstorm 7
+ |skilllevel= 100
+ |cost= 29699
+ |favor=
+}}
+|}
+
+== Services ==
+==== Bartering ====
+At {{Favor|Like Family}} The Sand Seer offers to barter with you:
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| {{Item|Tattered Red Book}} x3 || {{Item|Explosive Runestone}}
+|-
+| {{Item|Faded Blue Book}} x3 || {{Item|Orcish Spell Pouch}}
+|-
+| {{Item|Tattered Red Book}} x2<br> {{Item|Faded Blue Book}} x1 || rowspan = "3" | {{Item|Flame Nib}}
+|-
+| {{Item|Tattered Red Book}} x1<br> {{Item|Magic Tooth}} x2
+|-
+| {{Item|Ambient Magic Sponge}} x2<br> {{Item|Magic Sand}} x1
+|-
+| {{Item|Faded Blue Book}} x2<br> {{Item|Tattered Red Book}} x1 || rowspan = "3" |  {{Item|Frost Nib}}
+|-
+| {{Item|Ambient Magic Sponge}} x2<br> {{Item|Faded Blue Book}} x1
+|-
+| {{Item|Enchanted Mistletoe}} x1<br> {{Item|Magic Sand}} x1
+|-
+| {{Item|Tattered Red Book}} x1<br> {{Item|Enchanted Construction Nail}} x2 || rowspan = "3" |  {{Item|Shock Nib}}
+|-
+| {{Item|Faded Blue Book}} x1<br> {{Item|Enchanted Mistletoe}} x1
+|-
+| {{Item|Ambient Magic Sponge}} x1<br> {{Item|Tundra Lichen}} x2
+|-
+| {{Item|Vervadium}} x1 || {{Item|Winterprize}} x2
+|}
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Sun Warden}}(Lv 60)
+|RiShin Family = {{Item|Sun Warden}}(Lv 60) x2
+}}
+== Conversations ==
+{{Quote|
+Well, it's why I'm here. [[Sir Johnson]] hired me to help him search for them. What do you need to know?
+; What is their history?
+: There was a war here decades ago. Not an official war, mind you, but a war nonetheless. The rakshasa arrived from gods-know-where and started building their city. They claimed about 500 square miles of land for themselves and forced everyone out.
+: This is technically part of the Council Lands, and the Council considered the rakshasa to be "demonic invaders."
+:At first the rakshasa were amused... I don't think they were expecting much resistance to their arrival. But they stopped being amused pretty quickly.
+:The Council soon had them on the defensive... that's when the [[Crone Hegemony]] showed up to help.
+:; The crone Hegemony?
+: The Crone Hegemony was - and still is! -- always looking for opportunities to disrupt the Council. So they struck some sort of deal with [[Rahu]], and then Hegemony troops just appeared here. 
+: They arrived by sea, by land, by air. By magical teleportation that the Council swore was impossible. There were hundreds of thousands of them pretty quickly.
+: And the Crone Hegemony knows how to dig in for a long fight. They made bunkers all over the place. Those bunkers are what Sir Johnson calls "War Caches."
+: Most of the War Caches housed troops and supplies. There were two whole Legions of minotaur troops... don't worry, though: there's probably not many minotaurs left alive down there!
+: They held [[Ilmari]] for a few years, but the Council rallied incredible numbers of troops and magical beasts. And then the history gets a little fuzzy...
+:; What do you mean? 
+: Well, we aren't exactly sure of the order of events. Maybe the Hegemony just called it quits and left. Or maybe they had a falling out with [[Rahu]]. I don't really know. But one day most of the Hegemony troops just left. Presumably they left via teleportation... despite the incomprehensible cost of teleporting an entire army! Or maybe they snuck away somehow. Anyway, that's not important.
+: With the Hegemony gone, Rahu knew they couldn't hold out! So they destroyed the land.
+:; They destroyed the Ilmari desert?
+: Oh, no, you see, Ilmari was a pleasant green land back then. It was mostly grazing lands and farms, with only a few cities, but it certainly wasn't a desert!
+: Rahu used a device they called a '[[Naturesphere]]' to disrupt the weather patterns. They drummed up gigantic storms... storms which lasted for almost three years!
+:; They made a three-year storm?
+: Their magical storm just kept raining, year after yer. And lightning kept striking. Eventually everything burnable burned, and everything that could be washed away was washed away. And now we have a desert. 
+: Well, that's a bit reductive. There's much more to learn here, which is why I agreed to come work for Sir Johnson in the first place! I believe the windstorms are actually magically-induced. Could the naturesphere still be hidden in the desert somewhere? Now THAT would be a magnificent prize!
+:; I... see. Thank you for the info.
+; What will I find inside?
+: I've only personally explored a few of them. But I believe there are hundreds of bunkers still out there, and there's no way to predict what you'll find in each one.
+: Well, there are a few similarities. For instance, you'll probably find a [[Minotaur Vault]].
+:; What's a Minotaur Vault?
+: Well, to explain a [[Minotaur Vault]] is, we have to step back a moment. Have you met a Minotaur? They're unstoppable bull-men in battle. They're terrifying! But outside of battle, they're different. Minotaurs have incredible memories, and exceptional problem-solving skills. And they love puzzles, riddles, and mazes! And wherever Minotaur troops are found, there's bound to be puzzles.
+: The ones in the [[Ilmari]] had a system for storing their valuables in chests. I call them [[Minotaur Vault]]s, but they're just oversized storage crates with a magical lock.
+:; How do you open them?
+: Part of the Minotaurs' fun involved hiding the answer in plain sight. You need to look for the symbols used in the vault, and then you can figure out the answer.
+: Actually, if you're interested in opening [[Minotaur Vault]]s, I highly recommend you use my practice vault first.
+:; You have a practice Minotaur Vault?
+: Yes, it's in my bedroom, in the upstairs area above [[Drima]]. Feel free to experiment with it. My notes are on top of the vault, you may find them useful as well.
+:; Thank you.
+}}
+[[Category:NPCs]]

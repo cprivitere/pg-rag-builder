@@ -1,0 +1,317 @@
+__NOTOC__
+{{NPC infobox
+|title            = Rohina
+|image            = [[File:Rohina.png|300px]]
+|caption          = Scowling with determination.
+|zone             = Sun Vale
+|town             = Druid Camp
+|location         = Southwest of Grove
+|anatomy = Orc
+|species = Orc
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Mentalism]], [[Flower Arrangement]]
+}}
+{{Quote|
+I am the master of mind over matter. Or at least I thought I was, before becoming a druid.
+}}
+[[Rohina]] is a mentalist trainer in Sun Vale that is struggling with her life as a druid. She can train Mentalism 51-60 and abilities in that range. As an example of her skills, she grew a reasonably large tree in one day.
+== Location ==
+; [[Sun Vale]]
+: [[Druid Camp]], southwest of grove.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Quests ==
+N/A
+==== Fairy Quests ====
+[[Rohina]] offers quests only available to Fairy characters.
+<dpl>
+category = Quests/Rohina
+category = Quests/Fae Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mentalism]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mentalism{{pipe}}Unlock Mentalism Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20,000
+ |favor=Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mentalism{{pipe}}Unlock Mentalism Skill Levels 61-70
+ |skilllevel = 60
+ |cost=100,000
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Psi Health Wave 4
+ |skilllevel=51
+ |cost=9,750
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Electrify 3
+ |skilllevel=52
+ |cost=9,800
+ |favor=
+}}
+{{NPC training row
+ |ability=Reconstruct 4
+ |skilllevel=53
+ |cost=9,850
+ |favor=
+}}
+{{NPC training row
+ |ability=Psi Adrenaline Wave 3
+ |skilllevel=54
+ |cost=9,900
+ |favor=
+}}
+{{NPC training row
+ |ability=Psi Armor Wave 4
+ |skilllevel=54
+ |cost=11,650
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=System Shock 4
+ |skilllevel=55
+ |cost=9,950
+ |favor=
+}}
+{{NPC training row
+ |ability=Panic Charge 4
+ |skilllevel=54
+ |cost=11,700
+ |favor=
+}}
+{{NPC training row
+ |ability=Psi Armor Wave 4
+ |skilllevel=54
+ |cost=19,900
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Mindreave 5
+ |skilllevel=55
+ |cost=9900
+ |favor=
+}}
+{{NPC training row
+ |ability=Psi Health Wave 5
+ |skilllevel=63
+ |cost=14,850
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Reconstruct 5
+ |skilllevel=64
+ |cost=14,900
+ |favor=
+}}
+{{NPC training row
+ |ability=Psi Adrenaline Wave 4
+ |skilllevel=65
+ |cost=14,950
+ |favor=
+}}
+{{NPC training row
+ |ability=System Shock 5
+ |skilllevel=67
+ |cost=17,050
+ |favor=
+}}
+{{NPC training row
+ |ability=Electrify 4
+ |skilllevel=67
+ |cost=17,050
+ |favor=
+}}
+{{NPC training row
+ |ability=Psi Armor Wave 5
+ |skilllevel=69
+ |cost=17,150
+ |favor=
+}}
+{{NPC training row
+ |ability=Mindreave 6
+ |skilllevel=70
+ |cost=17,200
+ |favor=
+}}
+{{NPC training row
+ |ability=Panic Charge 5
+ |skilllevel=71
+ |cost=19,750
+ |favor=
+}}
+{{NPC training row
+ |ability=Psi Power Wave 5
+ |skilllevel=74
+ |cost=20,975
+ |favor=
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Flower Arrangement]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Flower Arrangement{{pipe}}Unlock Flower Arrangement Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20,000
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Mycologist's Arrangement #1
+ |skilllevel=7
+ |cost=366
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Mycologist's Display #1
+ |skilllevel=8
+ |cost=400
+ |favor=<Friends
+}}
+{{NPC training row
+ |recipe=Mycologist's Arrangement #2
+ |skilllevel=18
+ |cost=1,066
+ |favor=
+}}
+{{NPC training row
+ |recipe=Mycologist's Display #2
+ |skilllevel=19
+ |cost=1,146
+ |favor=
+}}
+{{NPC training row
+ |recipe=Mycologist's Arrangement #3
+ |skilllevel=28
+ |cost=1,732
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Mycologist's Display #3
+ |skilllevel=29
+ |cost=1,766
+ |favor=
+}}
+{{NPC training row
+ |recipe=Mycologist's Arrangement #4
+ |skilllevel=40
+ |cost=3,132
+ |favor=
+}}
+{{NPC training row
+ |recipe=Mycologist's Display #4
+ |skilllevel=41
+ |cost=4,500
+ |favor=
+}}
+{{NPC training row
+ |recipe=Mycologist's Arrangement #5
+ |skilllevel=46
+ |cost=4,730
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Mycologist's Display #5
+ |skilllevel=47
+ |cost=4,700
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Mycologist's Arrangement #6
+ |skilllevel=59
+ |cost=7,766
+ |favor=
+}}
+{{NPC training row
+ |recipe=Mycologist's Display #6
+ |skilllevel=60
+ |cost=7,800
+ |favor=
+}}
+{{NPC training row
+ |recipe=Elven Lily Bouquet
+ |skilllevel=55
+ |cost=6,632
+ |favor=
+}}
+{{NPC training row
+ |recipe=Winterhue Bouquet
+ |skilllevel=60
+ |cost=7800
+ |favor=
+}}
+{{NPC training row
+ |recipe=Desert Rose Bouquet
+ |skilllevel=65
+ |cost=9,966
+ |favor=Soul Mates
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Rohina's Mind Gem}} (Lv 50), <br><b>One additional item: </b> {{Item|Mallet of Obliteration}} (Lv 55),{{Item|Lopsided Flask}} (Lv 55), {{Item|Ravana Soldier Leggings}} (Lv 55), {{Item|Ravana Soldier Gloves}} (L 55)
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Introduction|
+{{Quote|Grow, damn you!
+
+'''Who, me?'''
+
+Not you! This tree! I'm losing to [[the Wombat]]!
+
+'''Beg pardon?'''
+
+The other [[Druid|druids]] were showing off. [[Silvia]] filled her home with flowers, [[Bernard]] grew a wall of palm trees to surround his bed. I showed off how quickly I could grow a tree. Grew this one in a day!
+
+'''Impressive!'''
+
+Except then [[the Wombat]] laughed and grew that other tree there, even taller than mine, in half the time. And... I can't make mine grow any more! Damn you, tree!
+
+'''Huh. Well, can I help?'''
+
+You're not even a [[druid]]! How could you help? No, no. Leave me to this! I can do it! Stop doubting me!
+
+'''Okay...'''
+}}
+}}
+{{Spoiler|Greeting|
+{{Quote|I'm trying to grow this tree right now... what is it?}}
+}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|I am the master of mind over matter. Or at least I thought I was, before becoming a [[druid]].}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|Everyone's better than me at growing plants. It's infuriating! I *will* grow this tree! Grow, damn you!}}
+}}
+{{Spoiler|Variation 3|
+{{Quote|Among orcs I am feared and respected for my psychic powers. But among [[Druid|druids]] I seem ... merely adequate. These elven druids can teach me much about control. It's a pity they're so annoying.}}
+}}
+
+[[Category:NPCs]]

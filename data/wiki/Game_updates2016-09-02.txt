@@ -1,0 +1,9 @@
+==<b>September 2 Hotfix</b>==
+: - Fixed a bug that allowed mallards to do full damage in combat. If you were a mallard when you logged out, you may need to switch out of bird form and back in order to be able to fly again
+: - Synchronized dancing moves that required you to say something in Nearby chat always told you to perform dance #1 instead of their intended dance move. (The icon was correct, however, just the text was wrong)
+: - Fixed display bugs with the quest for the new druid event in [[Serbule Hills|South Serbule]]
+: - Improved the wording on stone chests in the new druid event to help convey that they require multiple [[Druid]] desecrations in order to be destroyed
+: - Fixed a bug that caused you to take damage as you entered the [[Ilmari]] desert
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

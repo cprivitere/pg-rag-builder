@@ -1,0 +1,152 @@
+__NOTOC__
+{{NPC infobox
+|title            = Julius Patton
+|image            = [[File:JuliusPatton.png|350px]]
+|caption          = An older human
+|zone             = Serbule Hills
+|location         = His farm in the north west of [[Serbule Hills]]
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Cooking]]
+|vendor           = Yes
+|storage = Yes
+}}
+{{Quote|
+Used to have a bunch of chickens.  But goblins got into my coop.  This was a year ago, before the frog people showed up.  Hm, I don't even know if frog people eat chicken.  Probably. 
+
+Who doesn't eat chicken?  Anyway, I know some chickens escaped the goblins, so they're out there in the tall grass somewhere.  But they ain't comin'home.  Ungrateful birds, I tell you.**
+}}
+[[Julius Patton]] is a farmer in the fields of Serbule Hills. After the goblins drove out the loggers, he lost most of his crops to theft. 
+
+In the past, Julius made and sold wine.
+
+{{Quote|source=[[Brianna Willer]]| 
+'''Julius sent me to talk to you. I'm his friend.'''
+: Wait... Julius sent YOU? To see me? ... What for?
+'''He said you could teach me to brew alcohol. I'll pay for lessons.'''
+: That old coot knows as much about brewing as I do! He's made thousands of barrels of wine in his lifetime! What'd you do to him? Why's he pawning you off on me?
+'''Uh... well, he said he was retired from brewing.'''
+: Uh-huh. I bet he just wanted to get you off his property.
+}}
+== Location ==
+; [[Serbule Hills]] 
+: [[Julius Patton]] is always seen standing on the porch of his house in [[Serbule Hills]] looking over his farm.
+== Shopkeeper ==
+[[Julius Patton]] sells a selection of seeds and seedlings used in [[Gardening]]. He also sells [[Handsaw|Handsaws]] and [[Empty Bottle|Empty Bottles]].
+{{Vendor items sold}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+===Favor Rewards===
+{{Spoiler|Reward at {{Favor|Comfortable}}:|
+:Recipe for {{Item|Grape Juice}}.
+}}
+{{Spoiler|Reward at {{Favor|Friends}}:|
+{{Quote|Hey, you're a good kid. If you need any grapes, go ahead and them 'em off the vines out there. I don't use too many of 'em anymore. Oh, I thought of an important farming trick I can teach you, too.}}
+:Allows picking of Grapevines around his farm. After being picked, these vines take an hour for more grapes to ripen.
+}}
+{{Spoiler|Reward at {{Favor|Like Family}}:|
+:Recipe for {{Item|Mutton and Eggs}}.
+}}
+== Quests ==
+<dpl>
+category = Quests/Julius Patton
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+==Training==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]]
+! Recipe
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Bone Meal (from Any Bone)
+ | skilllevel = 0
+ | cost = 0
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Bone Meal (from Humanoid Skull)
+ | skilllevel = 0
+ | cost = 0
+ | favor = Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+! Recipe
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Grape Juice
+ | skilllevel = 13
+ | cost = 0
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Mutton and Eggs
+ | skilllevel = 28
+ | cost = 0
+ | favor = Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Gardening]]
+! Recipe
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Basic Fertilizer (from Dirt)
+ | skilllevel = 5
+ | cost = 0
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Basic Fertilizer (from Ground Flower Seeds)
+ | skilllevel = 15
+ | cost =  965
+ | favor = Close Friends 
+}}
+|}
+
+== Services == 
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Julius Patton
+|favorrestriction =Best Friends
+|itemrestriction =Food, Cooking, or Brewing Ingredients
+|neutral =0
+|comfortable =0
+|friends =0
+|closefriends =0
+|bestfriends =28
+|likefamily =32
+|soulmates =36
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Amulet of Competent Fire Magic}} (Lv20)
+|RiShin Family = 2 Random Jewelry (Lv 20): {{Item|Amulet of Max Health +15}}, {{Item|Amulet of Crushing Mitigation 3}}, {{Item|Ring of Arrows}}
+}}
+== Conversations ==
+{{Quote|source=[[Julius Patton]]|
+No free food! This is a farm, not a charity!
+;I don't want free food.
+Liar. But you're here too late. The damned loggers stole most of my supplies when they fled. Nothin' here now but grapes. And I need those. Maybe some potatoes, onions, the like. But I need those too!
+
+You want food so badly, YOU grow the damned crops!
+;Can you teach me how to grow crops?
+Oh... uh, I was being rhetorical. But hell... tell you what, if you wanna grow food, you can use my farm. I have some seedlings I can sell you.
+;Thanks.
+}}
+
+[[Category:NPCs]] [[Category:Favor/Small Talk]][[Category:Favor/Rewards]]

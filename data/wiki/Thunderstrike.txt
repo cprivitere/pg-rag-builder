@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Thunderstrike
+| description = Summon nature's wrath to wreak vengeance on your foes.
+| level = 18
+| power cost = 30
+| reuse time = 10
+| range = 20 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Burst}}{{KWAB|Thunderstrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 34 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Thunderstrike 2
+| description = Summon nature's wrath to wreak vengeance on your foes.
+| level = 29
+| power cost = 39
+| reuse time = 10
+| range = 20 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Burst}}{{KWAB|Thunderstrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 58 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Thunderstrike 3
+| description = Summon nature's wrath to wreak vengeance on your foes.
+| level = 44
+| power cost = 49
+| reuse time = 10
+| range = 20 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Burst}}{{KWAB|Thunderstrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 111 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Thunderstrike 4
+| description = Summon nature's wrath to wreak vengeance on your foes.
+| level = 58
+| power cost = 59
+| reuse time = 10
+| range = 20 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Burst}}{{KWAB|Thunderstrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 185 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Thunderstrike 5
+| description = Summon nature's wrath to wreak vengeance on your foes.
+| level = 70
+| power cost = 66
+| reuse time = 10
+| range = 20 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Burst}}{{KWAB|Thunderstrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 251 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Thunderstrike 6
+| description = Summon nature's wrath to wreak vengeance on your foes.
+| level = 82
+| power cost = 73
+| reuse time = 10
+| range = 20 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Burst}}{{KWAB|Thunderstrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 326 Electricity
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

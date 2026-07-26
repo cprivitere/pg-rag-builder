@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Gribburn in Hogan's Keep asked you for a bunch of long rubbery tongues from Ranalan Warriors. A tribe of them live in far-off Sun Vale, among other places.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gribburn]]''' in '''[[Hogan's Basement]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|So I was enchanting Ultashk's boots, and he mentioned that they keep slipping around on his foot. This is a common goblin problem because our armor is crafted by slaves with low morale. But I think I can fix it! I just need some ranalan flesh! You know, the frog people? They're super rubbery and gross. I think I could dry out their tongues and use them as foot padding. Can you get some for me?}}
+
+===Requirements===
+* Obtain {{Item|Rubbery Tongue}}s x5
+* Talk to Gribburn
+
+===Rewards===
+{{Spoiler|Rewards for Tongues for Shoes|
+{{Quote|Ewww, so gross! Hahaha! Good job. Here. These shoes are too big for goblins: no amount of padding will save them! But they might fit you.}}
+
+* 250 {{Favor|favor}}
+* {{Item|Tough Old Shoes}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Gribburn]]

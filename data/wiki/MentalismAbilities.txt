@@ -1,0 +1,258 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Mentalism/Abilities|Mentalism Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v446 on Fri Jan 16 2026 02:56:27 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Psi Health Wave|2}} || 1 || Psi Health Wave || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 4 Health every 4 seconds ||  || <b>Power Cost:</b> 8<br><b>AoE:</b> 15<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Mindreave|2}} || 3 || Mindreave || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 7 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Psi Armor Wave|2}} || 5 || Psi Armor Wave || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 4 Armor every 3 seconds ||  || <b>Power Cost:</b> 9<br><b>AoE:</b> 15<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|System Shock|2}} || 7 || System Shock || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 23 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 19<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Revitalize|2}} || 9 || Revitalize || Heal yourself or a selected ally.<br><b>This is a Minor Heal</b> || Slightly restores target's body heat in cold environments.<br><b>Restore:</b> 20 Health ||  || <b>Power Cost:</b> 12<br><b>Range:</b> 30<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Psi Power Wave|2}} || 10 || Psi Power Wave || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 4 Power every 4 seconds ||  || <b>Power Cost:</b> 9<br><b>AoE:</b> 15<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Reconstruct|2}} || 13 || Reconstruct || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 80 Health ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Agonize|2}} || 15 || Agonize || Corrupt the target's mind, ripping away their memories.<br><b>This is an Epic Attack</b> || Uniformly diminishes target's entire aggro list by 10%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Health Dmg:</b> 77 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 48<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Pain Bubble|2}} || 15 || Pain Bubble || Encase your enemy in a bubble that seems to protect them from direct damage. But when the bubble bursts, they take 150% of the damage they thought they avoided.<br><b>This is a Signature Debuff ability</b> || Bubble lasts for 5 seconds or until 200 damage is absorbed. || <b>Damage:</b> 1 Psychic || <b>Power Cost:</b> 26<br><b>Range:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Psi Adrenaline Wave|2}} || 16 || Psi Adrenaline Wave || You and nearby allies begin to do additional damage with every attack. || Direct attacks deal 3 extra damage. ||  || <b>Power Cost:</b> 12<br><b>AoE:</b> 15<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Mindreave 2|2}} || 18 || Mindreave 2 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 17 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Psi Health Wave 2|2}} || 20 || Psi Health Wave 2 || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 6 Health every 4 seconds ||  || <b>Power Cost:</b> 13<br><b>AoE:</b> 17<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Mindworm|2}} || 20 || Mindworm || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 10 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 45 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 25<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Yoy]]
+|-
+| {{Ability icon|Electrify|2}} || 22 || Electrify || Blast the target with electricity. Extremely effective against Vulnerable targets.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 68 Electricity<br><b>Dmg to Vulnerable:</b> 68 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 36<br><b>Range:</b> 30<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Reconstruct 2|2}} || 23 || Reconstruct 2 || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 100 Health ||  || <b>Power Cost:</b> 26<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Psi Armor Wave 2|2}} || 25 || Psi Armor Wave 2 || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 6 Armor every 3 seconds ||  || <b>Power Cost:</b> 15<br><b>AoE:</b> 17<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Panic Charge|2}} || 26 || Panic Charge || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 52 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 28<br><b>AoE:</b> 18<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Revitalize 2|2}} || 27 || Revitalize 2 || Heal yourself or a selected ally.<br><b>This is a Minor Heal</b> || Slightly restores target's body heat in cold environments.<br><b>Restore:</b> 35 Health ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 30<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|System Shock 2|2}} || 30 || System Shock 2 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 73 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 29<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Agonize 2|2}} || 30 || Agonize 2 || Corrupt the target's mind, ripping away their memories.<br><b>This is an Epic Attack</b> || Uniformly diminishes target's entire aggro list by 20%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Health Dmg:</b> 162 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 65<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Pain Bubble 2|2}} || 30 || Pain Bubble 2 || Encase your enemy in a bubble that seems to protect them from direct damage. But when the bubble bursts, they take 175% of the damage they thought they avoided.<br><b>This is a Signature Debuff ability</b> || Bubble lasts for 6 seconds or until 300 damage is absorbed. || <b>Damage:</b> 1 Psychic || <b>Power Cost:</b> 35<br><b>Range:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Mindworm 2|2}} || 30 || Mindworm 2 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 16 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 73 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 30<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Yoy]]
+|-
+| {{Ability icon|Psi Power Wave 2|2}} || 33 || Psi Power Wave 2 || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 6 Power every 4 seconds ||  || <b>Power Cost:</b> 14<br><b>AoE:</b> 17<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Mindreave 3|2}} || 35 || Mindreave 3 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 30 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Electrify 2|2}} || 36 || Electrify 2 || Blast the target with electricity. Extremely effective against Vulnerable targets.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 126 Electricity<br><b>Dmg to Vulnerable:</b> 126 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 47<br><b>Range:</b> 30<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Panic Charge 2|2}} || 37 || Panic Charge 2 || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 82 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 34<br><b>AoE:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Psi Health Wave 3|2}} || 38 || Psi Health Wave 3 || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 9 Health every 4 seconds ||  || <b>Power Cost:</b> 19<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Psi Adrenaline Wave 2|2}} || 40 || Psi Adrenaline Wave 2 || You and nearby allies begin to do additional damage with every attack. || Direct attacks deal 5 extra damage. ||  || <b>Power Cost:</b> 19<br><b>AoE:</b> 17<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Mindworm 3|2}} || 40 || Mindworm 3 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 25 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 110 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 36<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Yoy]]
+|-
+| {{Ability icon|Reconstruct 3|2}} || 43 || Reconstruct 3 || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 130 Health ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Psi Armor Wave 3|2}} || 45 || Psi Armor Wave 3 || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 9 Armor every 3 seconds ||  || <b>Power Cost:</b> 20<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Agonize 3|2}} || 45 || Agonize 3 || Corrupt the target's mind, ripping away their memories.<br><b>This is an Epic Attack</b> || Uniformly diminishes target's entire aggro list by 30%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Health Dmg:</b> 307 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 82<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Revitalize 3|2}} || 45 || Revitalize 3 || Heal yourself or a selected ally.<br><b>This is a Minor Heal</b> || Slightly restores target's body heat in cold environments.<br><b>Restore:</b> 47 Health ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 30<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Pain Bubble 3|2}} || 45 || Pain Bubble 3 || Encase your enemy in a bubble that seems to protect them from direct damage. But when the bubble bursts, they take 200% of the damage they thought they avoided.<br><b>This is a Signature Debuff ability</b> || Bubble lasts for 7 seconds or until 500 damage is absorbed. || <b>Damage:</b> 1 Psychic || <b>Power Cost:</b> 44<br><b>Range:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|System Shock 3|2}} || 47 || System Shock 3 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 150 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 37<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Panic Charge 3|2}} || 48 || Panic Charge 3 || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 133 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 39<br><b>AoE:</b> 22<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Psi Power Wave 3|2}} || 49 || Psi Power Wave 3 || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 9 Power every 4 seconds ||  || <b>Power Cost:</b> 16<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Mindreave 4|2}} || 50 || Mindreave 4 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 58 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Mindworm 4|2}} || 50 || Mindworm 4 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 39 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 170 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 40<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sem]]
+|-
+| {{Ability icon|Psi Health Wave 4|2}} || 51 || Psi Health Wave 4 || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 12 Health every 4 seconds ||  || <b>Power Cost:</b> 22<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Electrify 3|2}} || 52 || Electrify 3 || Blast the target with electricity. Extremely effective against Vulnerable targets.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 248 Electricity<br><b>Dmg to Vulnerable:</b> 248 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 57<br><b>Range:</b> 30<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Reconstruct 4|2}} || 53 || Reconstruct 4 || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 160 Health ||  || <b>Power Cost:</b> 42<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Psi Adrenaline Wave 3|2}} || 54 || Psi Adrenaline Wave 3 || You and nearby allies begin to do additional damage with every attack. || Direct attacks deal 4% extra damage. ||  || <b>Power Cost:</b> 23<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Psi Armor Wave 4|2}} || 54 || Psi Armor Wave 4 || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 12 Armor every 3 seconds ||  || <b>Power Cost:</b> 23<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|System Shock 4|2}} || 55 || System Shock 4 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 200 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 40<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Revitalize 4|2}} || 57 || Revitalize 4 || Heal yourself or a selected ally.<br><b>This is a Minor Heal</b> || Slightly restores target's body heat in cold environments.<br><b>Restore:</b> 60 Health ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 30<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Panic Charge 4|2}} || 58 || Panic Charge 4 || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 185 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 44<br><b>AoE:</b> 24<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Psi Power Wave 4|2}} || 59 || Psi Power Wave 4 || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 12 Power every 4 seconds ||  || <b>Power Cost:</b> 16<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Mindreave 5|2}} || 60 || Mindreave 5 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 79 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Agonize 4|2}} || 60 || Agonize 4 || Corrupt the target's mind, ripping away their memories.<br><b>This is an Epic Attack</b> || Uniformly diminishes target's entire aggro list by 40%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Health Dmg:</b> 517 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 97<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Pain Bubble 4|2}} || 60 || Pain Bubble 4 || Encase your enemy in a bubble that seems to protect them from direct damage. But when the bubble bursts, they take 225% of the damage they thought they avoided.<br><b>This is a Signature Debuff ability</b> || Bubble lasts for 8 seconds or until 700 damage is absorbed. || <b>Damage:</b> 1 Psychic || <b>Power Cost:</b> 52<br><b>Range:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Mindworm 5|2}} || 60 || Mindworm 5 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 53 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 231 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 45<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sem]]
+|-
+| {{Ability icon|Psi Health Wave 5|2}} || 63 || Psi Health Wave 5 || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 15 Health every 4 seconds ||  || <b>Power Cost:</b> 25<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Reconstruct 5|2}} || 64 || Reconstruct 5 || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 180 Health ||  || <b>Power Cost:</b> 47<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Psi Adrenaline Wave 4|2}} || 65 || Psi Adrenaline Wave 4 || You and nearby allies begin to do additional damage with every attack. || Direct attacks deal 5% extra damage. ||  || <b>Power Cost:</b> 26<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Electrify 4|2}} || 67 || Electrify 4 || Blast the target with electricity. Extremely effective against Vulnerable targets.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 376 Electricity<br><b>Dmg to Vulnerable:</b> 376 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 67<br><b>Range:</b> 30<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|System Shock 5|2}} || 67 || System Shock 5 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 274 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 45<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Psi Armor Wave 5|2}} || 69 || Psi Armor Wave 5 || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 15 Armor every 3 seconds ||  || <b>Power Cost:</b> 27<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Revitalize 5|2}} || 70 || Revitalize 5 || Heal yourself or a selected ally.<br><b>This is a Minor Heal</b> || Slightly restores target's body heat in cold environments.<br><b>Restore:</b> 75 Health ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 30<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Mu]]
+|-
+| {{Ability icon|Mindreave 6|2}} || 70 || Mindreave 6 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 100 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Mindworm 6|2}} || 70 || Mindworm 6 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 67 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 295 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 50<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sem]]
+|-
+| {{Ability icon|Panic Charge 5|2}} || 71 || Panic Charge 5 || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 257 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 51<br><b>AoE:</b> 24<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Electrify 5|2}} || 73 || Electrify 5 || Blast the target with electricity. Extremely effective against Vulnerable targets.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 433 Electricity<br><b>Dmg to Vulnerable:</b> 433 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 72<br><b>Range:</b> 30<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Psi Power Wave 5|2}} || 74 || Psi Power Wave 5 || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 15 Power every 4 seconds ||  || <b>Power Cost:</b> 18<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Rohina]]
+|-
+| {{Ability icon|Agonize 5|2}} || 75 || Agonize 5 || Corrupt the target's mind, ripping away their memories.<br><b>This is an Epic Attack</b> || Uniformly diminishes target's entire aggro list by 50%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Health Dmg:</b> 743 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 114<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Pain Bubble 5|2}} || 75 || Pain Bubble 5 || Encase your enemy in a bubble that seems to protect them from direct damage. But when the bubble bursts, they take 250% of the damage they thought they avoided.<br><b>This is a Signature Debuff ability</b> || Bubble lasts for 8 seconds or until 1000 damage is absorbed. || <b>Damage:</b> 1 Psychic || <b>Power Cost:</b> 61<br><b>Range:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Psi Health Wave 6|2}} || 75 || Psi Health Wave 6 || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 18 Health every 4 seconds ||  || <b>Power Cost:</b> 28<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|System Shock 6|2}} || 75 || System Shock 6 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 332 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 49<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Reconstruct 6|2}} || 75 || Reconstruct 6 || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 200 Health ||  || <b>Power Cost:</b> 53<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Psi Adrenaline Wave 5|2}} || 78 || Psi Adrenaline Wave 5 || You and nearby allies begin to do additional damage with every attack. || Direct attacks deal 6% extra damage. ||  || <b>Power Cost:</b> 29<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Mindreave 7|2}} || 80 || Mindreave 7 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 126 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Mindworm 7|2}} || 80 || Mindworm 7 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 84 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 369 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 56<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Mope]]
+|-
+| {{Ability icon|Psi Armor Wave 6|2}} || 81 || Psi Armor Wave 6 || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 18 Armor every 3 seconds ||  || <b>Power Cost:</b> 30<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Panic Charge 6|2}} || 81 || Panic Charge 6 || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 320 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 56<br><b>AoE:</b> 24<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Revitalize 6|2}} || 82 || Revitalize 6 || Heal yourself or a selected ally.<br><b>This is a Minor Heal</b> || Slightly restores target's body heat in cold environments.<br><b>Restore:</b> 86 Health ||  || <b>Power Cost:</b> 35<br><b>Range:</b> 30<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Raina]]
+|-
+| {{Ability icon|Psi Power Wave 6|2}} || 84 || Psi Power Wave 6 || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 18 Power every 4 seconds ||  || <b>Power Cost:</b> 21<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Mentalism: Psi Power Wave 6]]
+|-
+| {{Ability icon|Electrify 6|2}} || 85 || Electrify 6 || Blast the target with electricity. Extremely effective against Vulnerable targets.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 557 Electricity<br><b>Dmg to Vulnerable:</b> 557 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 81<br><b>Range:</b> 30<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Mentalism: Electrify 6]]
+|-
+| {{Ability icon|Psi Health Wave 7|2}} || 86 || Psi Health Wave 7 || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 21 Health every 4 seconds ||  || <b>Power Cost:</b> 32<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Mentalism: Psi Health Wave 7]]
+|-
+| {{Ability icon|Reconstruct 7|2}} || 86 || Reconstruct 7 || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 230 Health ||  || <b>Power Cost:</b> 59<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Mentalism: Reconstruct 7]]
+|-
+| {{Ability icon|System Shock 7|2}} || 87 || System Shock 7 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 421 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 54<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Mentalism: System Shock 7]]
+|-
+| {{Ability icon|Agonize 6|2}} || 90 || Agonize 6 || Corrupt the target's mind, ripping away their memories.<br><b>This is an Epic Attack</b> || Uniformly diminishes target's entire aggro list by 55%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Health Dmg:</b> 996 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 132<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Mentalism: Agonize 6]]
+|-
+| {{Ability icon|Pain Bubble 6|2}} || 90 || Pain Bubble 6 || Encase your enemy in a bubble that seems to protect them from direct damage. But when the bubble bursts, they take 275% of the damage they thought they avoided.<br><b>This is a Signature Debuff ability</b> || Bubble lasts for 9 seconds or until 1500 damage is absorbed. || <b>Damage:</b> 1 Psychic || <b>Power Cost:</b> 71<br><b>Range:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Mentalism: Pain Bubble 6]]
+|-
+| {{Ability icon|Mindreave 8|2}} || 90 || Mindreave 8 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 151 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Mentalism: Mindreave 8]]
+|-
+| {{Ability icon|Mindworm 8|2}} || 90 || Mindworm 8 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 101 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 445 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 61<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Mope]]
+|-
+| {{Ability icon|Panic Charge 7|2}} || 92 || Panic Charge 7 || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 391 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 62<br><b>AoE:</b> 24<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Mentalism: Panic Charge 7]]
+|-
+| {{Ability icon|Psi Armor Wave 7|2}} || 94 || Psi Armor Wave 7 || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 21 Armor every 3 seconds ||  || <b>Power Cost:</b> 34<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Mentalism: Psi Armor Wave 7]]
+|-
+| {{Ability icon|Psi Adrenaline Wave 6|2}} || 94 || Psi Adrenaline Wave 6 || You and nearby allies begin to do additional damage with every attack. || Direct attacks deal 7% extra damage. ||  || <b>Power Cost:</b> 34<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Mentalism: Psi Adrenaline Wave 6]]
+|-
+| {{Ability icon|Revitalize 7|2}} || 95 || Revitalize 7 || Heal yourself or a selected ally.<br><b>This is a Minor Heal</b> || Slightly restores target's body heat in cold environments.<br><b>Restore:</b> 95 Health ||  || <b>Power Cost:</b> 39<br><b>Range:</b> 30<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Mentalism: Revitalize 7]]
+|-
+| {{Ability icon|Psi Power Wave 7|2}} || 95 || Psi Power Wave 7 || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 21 Power every 4 seconds ||  || <b>Power Cost:</b> 24<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Mentalism: Psi Power Wave 7]]
+|-
+| {{Ability icon|System Shock 8|2}} || 95 || System Shock 8 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 484 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 58<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Mentalism: System Shock 8]]
+|-
+| {{Ability icon|Electrify 7|2}} || 96 || Electrify 7 || Blast the target with electricity. Extremely effective against Vulnerable targets.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 674 Electricity<br><b>Dmg to Vulnerable:</b> 674 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 89<br><b>Range:</b> 30<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Psi Health Wave 8|2}} || 97 || Psi Health Wave 8 || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 24 Health every 4 seconds ||  || <b>Power Cost:</b> 35<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Reconstruct 8|2}} || 97 || Reconstruct 8 || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 260 Health ||  || <b>Power Cost:</b> 65<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Mindreave 9|2}} || 100 || Mindreave 9 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 178 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Mindworm 9|2}} || 100 || Mindworm 9 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 119 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 523 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 67<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Panic Charge 8|2}} || 103 || Panic Charge 8 || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 468 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 69<br><b>AoE:</b> 24<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Psi Adrenaline Wave 7|2}} || 105 || Psi Adrenaline Wave 7 || You and nearby allies begin to do additional damage with every attack. || Direct attacks deal 7% extra damage. ||  || <b>Power Cost:</b> 38<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Agonize 7|2}} || 105 || Agonize 7 || Corrupt the target's mind, ripping away their memories.<br><b>This is an Epic Attack</b> || Uniformly diminishes target's entire aggro list by 60%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Health Dmg:</b> 1270 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 151<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Pain Bubble 7|2}} || 105 || Pain Bubble 7 || Encase your enemy in a bubble that seems to protect them from direct damage. But when the bubble bursts, they take 250% of the damage they thought they avoided.<br><b>This is a Signature Debuff ability</b> || Bubble lasts for 10 seconds or until 2000 damage is absorbed. || <b>Damage:</b> 1 Psychic || <b>Power Cost:</b> 81<br><b>Range:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Psi Power Wave 8|2}} || 105 || Psi Power Wave 8 || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 24 Power every 4 seconds ||  || <b>Power Cost:</b> 28<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Psi Armor Wave 8|2}} || 107 || Psi Armor Wave 8 || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 24 Armor every 3 seconds ||  || <b>Power Cost:</b> 38<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|System Shock 9|2}} || 107 || System Shock 9 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 586 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 64<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Revitalize 8|2}} || 107 || Revitalize 8 || Heal yourself or a selected ally.<br><b>This is a Minor Heal</b> || Slightly restores target's body heat in cold environments.<br><b>Restore:</b> 105 Health ||  || <b>Power Cost:</b> 44<br><b>Range:</b> 30<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Psi Health Wave 9|2}} || 108 || Psi Health Wave 9 || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 27 Health every 4 seconds ||  || <b>Power Cost:</b> 39<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Reconstruct 9|2}} || 108 || Reconstruct 9 || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 280 Health ||  || <b>Power Cost:</b> 72<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Electrify 8|2}} || 108 || Electrify 8 || Blast the target with electricity. Extremely effective against Vulnerable targets.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 815 Electricity<br><b>Dmg to Vulnerable:</b> 815 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 99<br><b>Range:</b> 30<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Mindreave 10|2}} || 110 || Mindreave 10 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 208 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Mindworm 10|2}} || 110 || Mindworm 10 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 140 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 613 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 73<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Psi Armor Wave 9|2}} || 111 || Psi Armor Wave 9 || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 27 Armor every 3 seconds ||  || <b>Power Cost:</b> 40<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Panic Charge 9|2}} || 114 || Panic Charge 9 || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 551 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 76<br><b>AoE:</b> 24<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Psi Adrenaline Wave 8|2}} || 115 || Psi Adrenaline Wave 8 || You and nearby allies begin to do additional damage with every attack. || Direct attacks deal 7% extra damage. ||  || <b>Power Cost:</b> 41<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|System Shock 10|2}} || 115 || System Shock 10 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 657 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 69<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Psi Power Wave 9|2}} || 116 || Psi Power Wave 9 || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 27 Power every 4 seconds ||  || <b>Power Cost:</b> 31<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Sage Festoon]]
+|-
+| {{Ability icon|Psi Health Wave 10|2}} || 119 || Psi Health Wave 10 || You and nearby allies begin to heal every few seconds. || <b>Restore:</b> 30 Health every 4 seconds ||  || <b>Power Cost:</b> 42<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Reconstruct 10|2}} || 119 || Reconstruct 10 || Heal yourself or a selected ally.<br><b>This is a Major Heal</b> || <b>Restore:</b> 300 Health ||  || <b>Power Cost:</b> 79<br><b>Range:</b> 20<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Revitalize 9|2}} || 119 || Revitalize 9 || Heal yourself or a selected ally.<br><b>This is a Minor Heal</b> || Slightly restores target's body heat in cold environments.<br><b>Restore:</b> 120 Health ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 30<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Mindreave 11|2}} || 120 || Mindreave 11 || You rip at the target's synapses. Bypasses armor.<br><b>This is a Basic Attack</b> ||  || <b>Health Dmg:</b> 239 Psychic<br><b>Enrages:</b> 200%<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 0<br><b>Range:</b> 10<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Agonize 8|2}} || 120 || Agonize 8 || Corrupt the target's mind, ripping away their memories.<br><b>This is an Epic Attack</b> || Uniformly diminishes target's entire aggro list by 65%, making them less locked in to their aggro choices and more easily susceptible to additional taunts and detaunts<br><b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Health Dmg:</b> 1570 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 171<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Electrify 9|2}} || 120 || Electrify 9 || Blast the target with electricity. Extremely effective against Vulnerable targets.<br><b>This is a Nice Attack</b> ||  || <b>Damage:</b> 962 Electricity<br><b>Dmg to Vulnerable:</b> 962 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 110<br><b>Range:</b> 30<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Pain Bubble 8|2}} || 120 || Pain Bubble 8 || Encase your enemy in a bubble that seems to protect them from direct damage. But when the bubble bursts, they take 250% of the damage they thought they avoided.<br><b>This is a Signature Debuff ability</b> || Bubble lasts for 11 seconds or until 2500 damage is absorbed. || <b>Damage:</b> 1 Psychic || <b>Power Cost:</b> 92<br><b>Range:</b> 20<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Mindworm 11|2}} || 120 || Mindworm 11 || Infest the target's mind with lingering unwanted thoughts. || <b>DoT:</b> 160 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 702 Psychic<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 79<br><b>Range:</b> 20<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Psi Armor Wave 10|2}} || 124 || Psi Armor Wave 10 || You and nearby allies begin to recover lost armor every few seconds. || <b>Restore:</b> 30 Armor every 3 seconds ||  || <b>Power Cost:</b> 44<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Psi Adrenaline Wave 9|2}} || 125 || Psi Adrenaline Wave 9 || You and nearby allies begin to do additional damage with every attack. || Direct attacks deal 7% extra damage. ||  || <b>Power Cost:</b> 45<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|System Shock 11|2}} || 125 || System Shock 11 || Fling a bolt of electricity with your mind.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 6 times over 12 seconds || <b>Damage:</b> 747 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 74<br><b>Range:</b> 30<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Panic Charge 10|2}} || 125 || Panic Charge 10 || Fling bolts of electricity in all directions. ||  || <b>Damage:</b> 635 Electricity<br><b>Crit Chance:</b> Phrenology<br><b>Crit Mult:</b> 1.25 || <b>Power Cost:</b> 83<br><b>AoE:</b> 24<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Psi Power Wave 10|2}} || 128 || Psi Power Wave 10 || You and nearby allies begin to recover lost power every few seconds. || <b>Restore:</b> 30 Power every 4 seconds ||  || <b>Power Cost:</b> 35<br><b>AoE:</b> 20<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|}

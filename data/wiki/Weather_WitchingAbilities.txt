@@ -1,0 +1,264 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Weather Witching/Abilities|Weather Witching Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v446 on Fri Jan 16 2026 03:16:03 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|(Internal)|2}} || 0 || (Internal) || Internal ability that triggers when Cloud Trick is activated. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 0 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Dampen|2}} || 1 || Dampen || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 9 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 1
+|-
+| {{Ability icon|Lightning Bolt|2}} || 1 || Lightning Bolt || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 12 Electricity || <b>Power Cost:</b> 9<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 1
+|-
+| {{Ability icon|Hailstorm|2}} || 5 || Hailstorm || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 16 Cold || <b>Power Cost:</b> 16<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 5
+|-
+| {{Ability icon|Calm Skies 1|2}} || 5 || Calm Skies 1 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 12 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 4<br><b>Cooldown:</b> 40 || Weather Witching Research Level 5
+|-
+| {{Ability icon|Wind Ward|2}} || 5 || Wind Ward || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 48 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 5
+|-
+| {{Ability icon|Shocking Grasp|2}} || 5 || Shocking Grasp || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 18 Electricity || <b>Power Cost:</b> 10<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || Weather Witching Research Level 5
+|-
+| {{Ability icon|Dampen 2|2}} || 10 || Dampen 2 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 14 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 10
+|-
+| {{Ability icon|Lightning Bolt 2|2}} || 10 || Lightning Bolt 2 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 26 Electricity || <b>Power Cost:</b> 12<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 10
+|-
+| {{Ability icon|Deluge|2}} || 10 || Deluge || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 48 Nature || <b>Power Cost:</b> 20<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 10
+|-
+| {{Ability icon|Cloud Trick|2}} || 10 || Cloud Trick || Create a cloud which can hold onto a thread of your life force.<br><b>This is a Survival-Utility ability</b> || If your health is reduced to 0 during the next 15 seconds and you are within 25 meters of your cloud, you blink back to the cloud location instead of dying.<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health when you Teleport<br><b>Restore:</b> 0 Power when you Teleport ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 10
+|-
+| {{Ability icon|Tsunami 1|2}} || 15 || Tsunami 1 || Cover the entire area in wind, rain, and death!<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 7 times over 7 seconds || <b>Damage:</b> 91 Electricity || <b>Power Cost:</b> 37<br><b>AoE:</b> 30<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 15
+|-
+| {{Ability icon|Summon Tornado|2}} || 15 || Summon Tornado || Create a sentient microclimate of volatile wind which attacks foes. Although the tornado takes cues from your behavior, you do not directly control the tornado. || Summoned tornado exists for 30 seconds or until destroyed. It can knock back foes and deals Nature damage. ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 15
+|-
+| {{Ability icon|Summon Sandstorm|2}} || 15 || Summon Sandstorm || Create a sentient microclimate of wind-blasted sand. This alternate version of Summon Tornado does not knock back foes, but deals extra armor damage. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Training:</b> [[The Sand Seer]]
+|-
+| {{Ability icon|Summon Doomstorm|2}} || 15 || Summon Doomstorm || Create a sentient cloud of undead dust and angry bone fragments. This alternate version of Summon Tornado does not knock back foes. It deals Darkness damage instead of Nature damage. || Summoned doomstorm exists for 30 seconds or until destroyed. It deals Darkness damage. It is considered an undead pet for purposes of buffs and debuffs. ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Item:</b> [[Weather Witch: Summon Doomstorm]]
+|-
+| {{Ability icon|Wind Ward 2|2}} || 15 || Wind Ward 2 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 64 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 22<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 15
+|-
+| {{Ability icon|Shocking Grasp 2|2}} || 15 || Shocking Grasp 2 || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 35 Electricity || <b>Power Cost:</b> 14<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || Weather Witching Research Level 15
+|-
+| {{Ability icon|Dampen 3|2}} || 20 || Dampen 3 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 21 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 20
+|-
+| {{Ability icon|Lightning Bolt 3|2}} || 20 || Lightning Bolt 3 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 44 Electricity || <b>Power Cost:</b> 15<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 20
+|-
+| {{Ability icon|Hailstorm 2|2}} || 20 || Hailstorm 2 || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 53 Cold || <b>Power Cost:</b> 25<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 20
+|-
+| {{Ability icon|Tempest Flight|2}} || 20 || Tempest Flight || Alter the air currents so that you can fly. Only works outdoors, and consumes both regular Power and Tempest Energy. || Automatically ends when you run out of Tempest Energy. (Use ability again to stop consuming Tempest Energy.)<br>Cur Tempest Energy 0 <br>Max Tempest Energy 0 <br>Bonus Flight Speed 1 <br>Cost 3 Power/Sec while Flying<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Weather Witching Research Level 20
+|-
+| {{Ability icon|Deluge 2|2}} || 25 || Deluge 2 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 111 Nature || <b>Power Cost:</b> 27<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 25
+|-
+| {{Ability icon|Tsunami 2|2}} || 25 || Tsunami 2 || Cover the entire area in wind, rain, and death!<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 7 times over 7 seconds || <b>Damage:</b> 150 Electricity || <b>Power Cost:</b> 45<br><b>AoE:</b> 30<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 25
+|-
+| {{Ability icon|Summon Tornado 2|2}} || 25 || Summon Tornado 2 || Create a sentient microclimate of volatile wind which attacks foes. Although the tornado takes cues from your behavior, you do not directly control the tornado. || Summoned tornado exists for 30 seconds or until destroyed. It can knock back foes and deals Nature damage. ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 25
+|-
+| {{Ability icon|Summon Sandstorm 2|2}} || 25 || Summon Sandstorm 2 || Create a sentient microclimate of wind-blasted sand. This alternate version of Summon Tornado does not knock back foes, but deals extra armor damage. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Training:</b> [[The Sand Seer]]
+|-
+| {{Ability icon|Summon Doomstorm 2|2}} || 25 || Summon Doomstorm 2 || Create a sentient cloud of undead dust and angry bone fragments. This alternate version of Summon Tornado does not knock back foes. It deals Darkness damage instead of Nature damage. || Summoned doomstorm exists for 30 seconds or until destroyed. It deals Darkness damage. It is considered an undead pet for purposes of buffs and debuffs. ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Item:</b> [[Weather Witch: Summon Doomstorm 2]]
+|-
+| {{Ability icon|Calm Skies 2|2}} || 25 || Calm Skies 2 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 12 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 4<br><b>Cooldown:</b> 35 || Weather Witching Research Level 25
+|-
+| {{Ability icon|Storm Shield|2}} || 25 || Storm Shield || Protect a pet with a barrier of energized air. || The next attack that hits the pet will be absorbed and deal 0 damage. ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 25
+|-
+| {{Ability icon|Dampen 4|2}} || 30 || Dampen 4 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 31 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 30
+|-
+| {{Ability icon|Lightning Bolt 4|2}} || 30 || Lightning Bolt 4 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 68 Electricity || <b>Power Cost:</b> 19<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 30
+|-
+| {{Ability icon|Wind Ward 3|2}} || 30 || Wind Ward 3 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 88 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 30
+|-
+| {{Ability icon|Shocking Grasp 3|2}} || 30 || Shocking Grasp 3 || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 68 Electricity || <b>Power Cost:</b> 19<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || Weather Witching Research Level 30
+|-
+| {{Ability icon|Deluge 3|2}} || 35 || Deluge 3 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 165 Nature || <b>Power Cost:</b> 34<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 35
+|-
+| {{Ability icon|Hailstorm 3|2}} || 35 || Hailstorm 3 || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 104 Cold || <b>Power Cost:</b> 34<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 35
+|-
+| {{Ability icon|Calm Skies 3|2}} || 35 || Calm Skies 3 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 12 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 35
+|-
+| {{Ability icon|Cloud Trick 2|2}} || 35 || Cloud Trick 2 || Create a cloud which can hold onto a thread of your life force.<br><b>This is a Survival-Utility ability</b> || If your health is reduced to 0 during the next 20 seconds and you are within 30 meters of your cloud, you blink back to the cloud location instead of dying.<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health when you Teleport<br><b>Restore:</b> 0 Power when you Teleport ||  || <b>Power Cost:</b> 46<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 35
+|-
+| {{Ability icon|Dampen 5|2}} || 40 || Dampen 5 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 43 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 40
+|-
+| {{Ability icon|Lightning Bolt 5|2}} || 40 || Lightning Bolt 5 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 99 Electricity || <b>Power Cost:</b> 22<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 40
+|-
+| {{Ability icon|Tsunami 3|2}} || 40 || Tsunami 3 || Cover the entire area in wind, rain, and death!<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 7 times over 7 seconds || <b>Damage:</b> 277 Electricity || <b>Power Cost:</b> 59<br><b>AoE:</b> 30<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 40
+|-
+| {{Ability icon|Summon Tornado 3|2}} || 40 || Summon Tornado 3 || Create a sentient microclimate of volatile wind which attacks foes. Although the tornado takes cues from your behavior, you do not directly control the tornado. || Summoned tornado exists for 30 seconds or until destroyed. It can knock back foes and deals Nature damage. ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 40
+|-
+| {{Ability icon|Summon Sandstorm 3|2}} || 40 || Summon Sandstorm 3 || Create a sentient microclimate of wind-blasted sand. This alternate version of Summon Tornado does not knock back foes, but deals extra armor damage. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Training:</b> [[The Sand Seer]]
+|-
+| {{Ability icon|Summon Doomstorm 3|2}} || 40 || Summon Doomstorm 3 || Create a sentient cloud of undead dust and angry bone fragments. This alternate version of Summon Tornado does not knock back foes. It deals Darkness damage instead of Nature damage. || Summoned doomstorm exists for 30 seconds or until destroyed. It deals Darkness damage. It is considered an undead pet for purposes of buffs and debuffs. ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Item:</b> [[Weather Witch: Summon Doomstorm 3]]
+|-
+| {{Ability icon|Deluge 4|2}} || 45 || Deluge 4 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 254 Nature || <b>Power Cost:</b> 38<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 45
+|-
+| {{Ability icon|Tempest Flight 2|2}} || 45 || Tempest Flight 2 || Alter the air currents so that you can fly. Only works outdoors, and consumes both regular Power and Tempest Energy. || Automatically ends when you run out of Tempest Energy. (Use ability again to stop consuming Tempest Energy.)<br>Cur Tempest Energy 0 <br>Max Tempest Energy 0 <br>Bonus Flight Speed 2 <br>Cost 3 Power/Sec while Flying<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Weather Witching Research Level 45
+|-
+| {{Ability icon|Wind Ward 4|2}} || 45 || Wind Ward 4 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 112 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 45
+|-
+| {{Ability icon|Shocking Grasp 4|2}} || 45 || Shocking Grasp 4 || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 123 Electricity || <b>Power Cost:</b> 23<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || Weather Witching Research Level 45
+|-
+| {{Ability icon|Dampen 6|2}} || 50 || Dampen 6 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 64 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 50
+|-
+| {{Ability icon|Lightning Bolt 6|2}} || 50 || Lightning Bolt 6 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 150 Electricity || <b>Power Cost:</b> 25<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 50
+|-
+| {{Ability icon|Hailstorm 4|2}} || 50 || Hailstorm 4 || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 200 Cold || <b>Power Cost:</b> 40<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 50
+|-
+| {{Ability icon|Calm Skies 4|2}} || 50 || Calm Skies 4 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 14 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 50
+|-
+| {{Ability icon|Deluge 5|2}} || 55 || Deluge 5 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 368 Nature || <b>Power Cost:</b> 43<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 55
+|-
+| {{Ability icon|Tsunami 4|2}} || 55 || Tsunami 4 || Cover the entire area in wind, rain, and death!<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 7 times over 7 seconds || <b>Damage:</b> 500 Electricity || <b>Power Cost:</b> 71<br><b>AoE:</b> 30<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 55
+|-
+| {{Ability icon|Summon Tornado 4|2}} || 55 || Summon Tornado 4 || Create a sentient microclimate of volatile wind which attacks foes. Although the tornado takes cues from your behavior, you do not directly control the tornado. || Summoned tornado exists for 30 seconds or until destroyed. It can knock back foes and deals Nature damage. ||  || <b>Power Cost:</b> 59<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 55
+|-
+| {{Ability icon|Summon Sandstorm 4|2}} || 55 || Summon Sandstorm 4 || Create a sentient microclimate of wind-blasted sand. This alternate version of Summon Tornado does not knock back foes, but deals extra armor damage. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 59<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Training:</b> [[The Sand Seer]]
+|-
+| {{Ability icon|Summon Doomstorm 4|2}} || 55 || Summon Doomstorm 4 || Create a sentient cloud of undead dust and angry bone fragments. This alternate version of Summon Tornado does not knock back foes. It deals Darkness damage instead of Nature damage. || Summoned doomstorm exists for 30 seconds or until destroyed. It deals Darkness damage. It is considered an undead pet for purposes of buffs and debuffs. ||  || <b>Power Cost:</b> 59<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Item:</b> [[Weather Witch: Summon Doomstorm 4]]
+|-
+| {{Ability icon|Wind Ward 5|2}} || 55 || Wind Ward 5 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 128 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 43<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 55
+|-
+| {{Ability icon|Storm Shield 2|2}} || 55 || Storm Shield 2 || Protect a pet with a barrier of energized air. || The next 2 attacks that hit the pet will be absorbed and deal 0 damage. ||  || <b>Power Cost:</b> 59<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 55
+|-
+| {{Ability icon|Dampen 7|2}} || 60 || Dampen 7 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 85 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 60
+|-
+| {{Ability icon|Lightning Bolt 7|2}} || 60 || Lightning Bolt 7 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 202 Electricity || <b>Power Cost:</b> 28<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 60
+|-
+| {{Ability icon|Hailstorm 5|2}} || 60 || Hailstorm 5 || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 273 Cold || <b>Power Cost:</b> 45<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 60
+|-
+| {{Ability icon|Shocking Grasp 5|2}} || 60 || Shocking Grasp 5 || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 202 Electricity || <b>Power Cost:</b> 28<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || Weather Witching Research Level 60
+|-
+| {{Ability icon|Deluge 6|2}} || 65 || Deluge 6 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 479 Nature || <b>Power Cost:</b> 48<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 65
+|-
+| {{Ability icon|Calm Skies 5|2}} || 65 || Calm Skies 5 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 16 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 48<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 65
+|-
+| {{Ability icon|Wind Ward 6|2}} || 65 || Wind Ward 6 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 144 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 48<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 65
+|-
+| {{Ability icon|Cloud Trick 3|2}} || 65 || Cloud Trick 3 || Create a cloud which can hold onto a thread of your life force.<br><b>This is a Survival-Utility ability</b> || If your health is reduced to 0 during the next 25 seconds and you are within 35 meters of your cloud, you blink back to the cloud location instead of dying.<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health when you Teleport<br><b>Restore:</b> 0 Power when you Teleport ||  || <b>Power Cost:</b> 66<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 65
+|-
+| {{Ability icon|Dampen 8|2}} || 70 || Dampen 8 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 106 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 70
+|-
+| {{Ability icon|Lightning Bolt 8|2}} || 70 || Lightning Bolt 8 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 257 Electricity || <b>Power Cost:</b> 31<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 70
+|-
+| {{Ability icon|Tsunami 5|2}} || 70 || Tsunami 5 || Cover the entire area in wind, rain, and death!<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 7 times over 7 seconds || <b>Damage:</b> 732 Electricity || <b>Power Cost:</b> 83<br><b>AoE:</b> 30<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 70
+|-
+| {{Ability icon|Summon Tornado 5|2}} || 70 || Summon Tornado 5 || Create a sentient microclimate of volatile wind which attacks foes. Although the tornado takes cues from your behavior, you do not directly control the tornado. || Summoned tornado exists for 30 seconds or until destroyed. It can knock back foes and deals Nature damage. ||  || <b>Power Cost:</b> 69<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 70
+|-
+| {{Ability icon|Summon Sandstorm 5|2}} || 70 || Summon Sandstorm 5 || Create a sentient microclimate of wind-blasted sand. This alternate version of Summon Tornado does not knock back foes, but deals extra armor damage. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 69<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Training:</b> [[The Sand Seer]]
+|-
+| {{Ability icon|Summon Doomstorm 5|2}} || 70 || Summon Doomstorm 5 || Create a sentient cloud of undead dust and angry bone fragments. This alternate version of Summon Tornado does not knock back foes. It deals Darkness damage instead of Nature damage. || Summoned doomstorm exists for 30 seconds or until destroyed. It deals Darkness damage. It is considered an undead pet for purposes of buffs and debuffs. ||  || <b>Power Cost:</b> 69<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Item:</b> [[Weather Witch: Summon Doomstorm 5]]
+|-
+| {{Ability icon|Tempest Flight 3|2}} || 70 || Tempest Flight 3 || Alter the air currents so that you can fly. Only works outdoors, and consumes both regular Power and Tempest Energy. || Automatically ends when you run out of Tempest Energy. (Use ability again to stop consuming Tempest Energy.)<br>Cur Tempest Energy 0 <br>Max Tempest Energy 0 <br>Bonus Flight Speed 3 <br>Cost 2 Power/Sec while Flying<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Weather Witching Research Level 70
+|-
+| {{Ability icon|Deluge 7|2}} || 75 || Deluge 7 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 606 Nature || <b>Power Cost:</b> 53<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 75
+|-
+| {{Ability icon|Wind Ward 7|2}} || 75 || Wind Ward 7 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 160 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 53<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 75
+|-
+| {{Ability icon|Shocking Grasp 6|2}} || 75 || Shocking Grasp 6 || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 288 Electricity || <b>Power Cost:</b> 33<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || Weather Witching Research Level 75
+|-
+| {{Ability icon|Storm Shield 3|2}} || 75 || Storm Shield 3 || Protect a pet with a barrier of energized air. || The next 3 attacks that hit the pet will be absorbed and deal 0 damage. ||  || <b>Power Cost:</b> 73<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 75
+|-
+| {{Ability icon|Dampen 9|2}} || 80 || Dampen 9 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 132 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 80
+|-
+| {{Ability icon|Lightning Bolt 9|2}} || 80 || Lightning Bolt 9 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 320 Electricity || <b>Power Cost:</b> 34<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 80
+|-
+| {{Ability icon|Hailstorm 6|2}} || 80 || Hailstorm 6 || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 436 Cold || <b>Power Cost:</b> 56<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 80
+|-
+| {{Ability icon|Calm Skies 6|2}} || 80 || Calm Skies 6 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 18 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 56<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 80
+|-
+| {{Ability icon|Deluge 8|2}} || 85 || Deluge 8 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 741 Nature || <b>Power Cost:</b> 58<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 85
+|-
+| {{Ability icon|Tsunami 6|2}} || 85 || Tsunami 6 || Cover the entire area in wind, rain, and death!<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 7 times over 7 seconds || <b>Damage:</b> 1007 Electricity || <b>Power Cost:</b> 96<br><b>AoE:</b> 30<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 85
+|-
+| {{Ability icon|Summon Tornado 6|2}} || 85 || Summon Tornado 6 || Create a sentient microclimate of volatile wind which attacks foes. Although the tornado takes cues from your behavior, you do not directly control the tornado. || Summoned tornado exists for 30 seconds or until destroyed. It can knock back foes and deals Nature damage. ||  || <b>Power Cost:</b> 81<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 85
+|-
+| {{Ability icon|Summon Sandstorm 6|2}} || 85 || Summon Sandstorm 6 || Create a sentient microclimate of wind-blasted sand. This alternate version of Summon Tornado does not knock back foes, but deals extra armor damage. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 81<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Training:</b> [[The Sand Seer]]
+|-
+| {{Ability icon|Summon Doomstorm 6|2}} || 85 || Summon Doomstorm 6 || Create a sentient cloud of undead dust and angry bone fragments. This alternate version of Summon Tornado does not knock back foes. It deals Darkness damage instead of Nature damage. || Summoned doomstorm exists for 30 seconds or until destroyed. It deals Darkness damage. It is considered an undead pet for purposes of buffs and debuffs. ||  || <b>Power Cost:</b> 81<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Item:</b> [[Weather Witch: Summon Doomstorm 6]]
+|-
+| {{Ability icon|Wind Ward 8|2}} || 85 || Wind Ward 8 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 176 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 58<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 85
+|-
+| {{Ability icon|Dampen 10|2}} || 90 || Dampen 10 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 157 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 90
+|-
+| {{Ability icon|Lightning Bolt 10|2}} || 90 || Lightning Bolt 10 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 385 Electricity || <b>Power Cost:</b> 38<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 90
+|-
+| {{Ability icon|Hailstorm 7|2}} || 90 || Hailstorm 7 || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 526 Cold || <b>Power Cost:</b> 61<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 90
+|-
+| {{Ability icon|Shocking Grasp 7|2}} || 90 || Shocking Grasp 7 || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 385 Electricity || <b>Power Cost:</b> 38<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || Weather Witching Research Level 90
+|-
+| {{Ability icon|Cloud Trick 4|2}} || 90 || Cloud Trick 4 || Create a cloud which can hold onto a thread of your life force.<br><b>This is a Survival-Utility ability</b> || If your health is reduced to 0 during the next 30 seconds and you are within 40 meters of your cloud, you blink back to the cloud location instead of dying.<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health when you Teleport<br><b>Restore:</b> 0 Power when you Teleport ||  || <b>Power Cost:</b> 85<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 90
+|-
+| {{Ability icon|Deluge 9|2}} || 95 || Deluge 9 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 882 Nature || <b>Power Cost:</b> 64<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 95
+|-
+| {{Ability icon|Tempest Flight 4|2}} || 95 || Tempest Flight 4 || Alter the air currents so that you can fly. Only works outdoors, and consumes both regular Power and Tempest Energy. || Automatically ends when you run out of Tempest Energy. (Use ability again to stop consuming Tempest Energy.)<br>Cur Tempest Energy 0 <br>Max Tempest Energy 0 <br>Bonus Flight Speed 4 <br>Cost 2 Power/Sec while Flying<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 64<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || Weather Witching Research Level 95
+|-
+| {{Ability icon|Calm Skies 7|2}} || 95 || Calm Skies 7 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 20 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 64<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 95
+|-
+| {{Ability icon|Wind Ward 9|2}} || 95 || Wind Ward 9 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 192 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 64<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 95
+|-
+| {{Ability icon|Storm Shield 4|2}} || 95 || Storm Shield 4 || Protect a pet with a barrier of energized air. || The next 4 attacks that hit the pet will be absorbed and deal 0 damage. ||  || <b>Power Cost:</b> 89<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 95
+|-
+| {{Ability icon|Dampen 11|2}} || 100 || Dampen 11 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 184 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 100
+|-
+| {{Ability icon|Lightning Bolt 11|2}} || 100 || Lightning Bolt 11 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 451 Electricity || <b>Power Cost:</b> 41<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 100
+|-
+| {{Ability icon|Tsunami 7|2}} || 100 || Tsunami 7 || Cover the entire area in wind, rain, and death!<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 7 times over 7 seconds || <b>Damage:</b> 1295 Electricity || <b>Power Cost:</b> 111<br><b>AoE:</b> 30<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 100
+|-
+| {{Ability icon|Summon Tornado 7|2}} || 100 || Summon Tornado 7 || Create a sentient microclimate of volatile wind which attacks foes. Although the tornado takes cues from your behavior, you do not directly control the tornado. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 93<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 100
+|-
+| {{Ability icon|Summon Sandstorm 7|2}} || 100 || Summon Sandstorm 7 || Create a sentient microclimate of wind-blasted sand. This alternate version of Summon Tornado does not knock back foes, but deals extra armor damage. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 93<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Training:</b> [[The Sand Seer]]
+|-
+| {{Ability icon|Summon Doomstorm 7|2}} || 100 || Summon Doomstorm 7 || Create a sentient cloud of undead dust and angry bone fragments. This alternate version of Summon Tornado does not knock back foes. It deals Darkness damage instead of Nature damage. || Summoned doomstorm exists for 30 seconds or until destroyed. It deals Darkness damage. It is considered an undead pet for purposes of buffs and debuffs. ||  || <b>Power Cost:</b> 93<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 100
+|-
+| {{Ability icon|Hailstorm 8|2}} || 100 || Hailstorm 8 || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 618 Cold || <b>Power Cost:</b> 67<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 100
+|-
+| {{Ability icon|Shocking Grasp 8|2}} || 100 || Shocking Grasp 8 || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 451 Electricity || <b>Power Cost:</b> 41<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || Weather Witching Research Level 100
+|-
+| {{Ability icon|Deluge 10|2}} || 105 || Deluge 10 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 1033 Nature || <b>Power Cost:</b> 70<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 105
+|-
+| {{Ability icon|Calm Skies 8|2}} || 105 || Calm Skies 8 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 22 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 70<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 105
+|-
+| {{Ability icon|Wind Ward 10|2}} || 105 || Wind Ward 10 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 208 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 70<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 105
+|-
+| {{Ability icon|Storm Shield 5|2}} || 105 || Storm Shield 5 || Protect a pet with a barrier of energized air. || The next 4 attacks that hit the pet will be absorbed and deal 0 damage. ||  || <b>Power Cost:</b> 97<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 105
+|-
+| {{Ability icon|Dampen 12|2}} || 110 || Dampen 12 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 214 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || Weather Witching Research Level 110
+|-
+| {{Ability icon|Lightning Bolt 12|2}} || 110 || Lightning Bolt 12 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 527 Electricity || <b>Power Cost:</b> 45<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || Weather Witching Research Level 110
+|-
+| {{Ability icon|Hailstorm 9|2}} || 110 || Hailstorm 9 || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 723 Cold || <b>Power Cost:</b> 73<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 110
+|-
+| {{Ability icon|Shocking Grasp 9|2}} || 110 || Shocking Grasp 9 || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 527 Electricity || <b>Power Cost:</b> 45<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || Weather Witching Research Level 110
+|-
+| {{Ability icon|Deluge 11|2}} || 115 || Deluge 11 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 1195 Nature || <b>Power Cost:</b> 76<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || Weather Witching Research Level 115
+|-
+| {{Ability icon|Tsunami 8|2}} || 115 || Tsunami 8 || Cover the entire area in wind, rain, and death!<br><b>This is an Epic Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 7 times over 7 seconds || <b>Damage:</b> 1625 Electricity || <b>Power Cost:</b> 126<br><b>AoE:</b> 30<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 115
+|-
+| {{Ability icon|Summon Tornado 8|2}} || 115 || Summon Tornado 8 || Create a sentient microclimate of volatile wind which attacks foes. Although the tornado takes cues from your behavior, you do not directly control the tornado. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 106<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 115
+|-
+| {{Ability icon|Summon Sandstorm 8|2}} || 115 || Summon Sandstorm 8 || Create a sentient microclimate of wind-blasted sand. This alternate version of Summon Tornado does not knock back foes, but deals extra armor damage. || Summoned sandstorm exists for 30 seconds or until destroyed. It deals Nature damage, and deals extra damage to armor. ||  || <b>Power Cost:</b> 106<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 115
+|-
+| {{Ability icon|Summon Doomstorm 8|2}} || 115 || Summon Doomstorm 8 || Create a sentient cloud of undead dust and angry bone fragments. This alternate version of Summon Tornado does not knock back foes. It deals Darkness damage instead of Nature damage. || Summoned doomstorm exists for 30 seconds or until destroyed. It deals Darkness damage. It is considered an undead pet for purposes of buffs and debuffs. ||  || <b>Power Cost:</b> 106<br><b>Range:</b> 4<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || Weather Witching Research Level 115
+|-
+| {{Ability icon|Calm Skies 9|2}} || 115 || Calm Skies 9 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 24 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 76<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || Weather Witching Research Level 115
+|-
+| {{Ability icon|Wind Ward 11|2}} || 115 || Wind Ward 11 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 216 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 76<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || Weather Witching Research Level 115
+|-
+| {{Ability icon|Storm Shield 6|2}} || 115 || Storm Shield 6 || Protect a pet with a barrier of energized air. || The next 4 attacks that hit the pet will be absorbed and deal 0 damage. ||  || <b>Power Cost:</b> 106<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Weather Witching Research Level 115
+|-
+| {{Ability icon|Dampen 13|2}} || 120 || Dampen 13 || Throw a big ball of water at your enemy.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 245 Nature || <b>Power Cost:</b> 0<br><b>Range:</b> 20<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Lightning Bolt 13|2}} || 120 || Lightning Bolt 13 || Hurl lightning at your enemy.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 603 Electricity || <b>Power Cost:</b> 49<br><b>Range:</b> 30<br><b>Cooldown:</b> 9 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Hailstorm 10|2}} || 120 || Hailstorm 10 || Whip freezing winds against your enemy, leaving them cold and slow.<br><b>This is a Signature Debuff ability</b> || Target is slowed for 5 seconds<br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 829 Cold || <b>Power Cost:</b> 79<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Tempest Flight 5|2}} || 120 || Tempest Flight 5 || Alter the air currents so that you can fly. Only works outdoors, and consumes both regular Power and Tempest Energy. || Automatically ends when you run out of Tempest Energy. (Use ability again to stop consuming Tempest Energy.)<br>Cur Tempest Energy 0 <br>Max Tempest Energy 0 <br>Bonus Flight Speed 5 <br>Cost 2 Power/Sec while Flying<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 79<br><b>Range:</b> 4<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Cloud Trick 5|2}} || 120 || Cloud Trick 5 || Create a cloud which can hold onto a thread of your life force.<br><b>This is a Survival-Utility ability</b> || If your health is reduced to 0 during the next 35 seconds and you are within 45 meters of your cloud, you blink back to the cloud location instead of dying.<br><b>--Can Have--</b><br><b>Restore:</b> 0 Health when you Teleport<br><b>Restore:</b> 0 Power when you Teleport ||  || <b>Power Cost:</b> 110<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Deluge 12|2}} || 125 || Deluge 12 || Create a storm over target enemy. Deals nature damage immediately, and continuously for a few seconds.<br><b>This is a Nice Attack</b> || <b>DoT:</b> 5 Nature, 7 times over 7 seconds || <b>Damage:</b> 1356 Nature || <b>Power Cost:</b> 83<br><b>Range:</b> 30<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Calm Skies 10|2}} || 125 || Calm Skies 10 || Create an area of perfect weather. You and allies can stand in it to avoid being knocked around. || Summoned climate exists for 26 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health every 2 secs<br><b>Restores:</b> 0 Armor every 2 secs<br><b>Restores:</b> 0 Power every 3 secs ||  || <b>Power Cost:</b> 83<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Wind Ward 12|2}} || 125 || Wind Ward 12 || Protect yourself in a column of air. || Absorbs 25% of all direct damage you suffer (until absorption cap is reached). Use the ability again to prematurely abort the buff.<br>Absorption Cap 240 Damage<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health if Cap is reached<br><b>Restores:</b> 0 Armor on expiration (if Cap is NOT reached) ||  || <b>Power Cost:</b> 83<br><b>Range:</b> 4<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Shocking Grasp 10|2}} || 125 || Shocking Grasp 10 || Transfer the mighty power of a thunderstorm into a nearby enemy. ||  || <b>Damage:</b> 641 Electricity || <b>Power Cost:</b> 51<br><b>Range:</b> 4<br><b>Cooldown:</b> 9 || <b>Unknown Source:</b> Not Found
+|}

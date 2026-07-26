@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+A monstrosity named Yalox asked you for a really good bandage.
+
+===Prerequisites===
+To start this quest, talk to '''[[Yalox]]''' in '''[[Goblin Dungeon]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Dalvos gave us healing! The power to heal! But magical healing cannot stop the pain! I need mundane healing! Bring it to me!}}
+
+===Requirements===
+* Obtain an {{Item|Expert's First Aid Kit}}
+* Talk to Yalox
+
+===Rewards===
+{{Spoiler|Rewards for Bandage The Soul|
+{{Quote|Yes. <i>Yalox eats the bandage.</i> It does nothing! NOTHING!}}
+
+* 100 {{Favor|favor}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Yalox]]

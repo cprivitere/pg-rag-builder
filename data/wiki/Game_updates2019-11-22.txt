@@ -1,0 +1,54 @@
+==November 22 Update==
+This is a bug-fix update, more or less. (The Fae Realm changes might not be "bug fixes" exactly, but close enough!)
+
+===Water Fixes===
+Fixed water in [[Serbule Sewers]] not reaching far enough
+
+Fixed some unexpectedly swimmable areas in [[Wolf Cave]] dungeon
+
+Removed some places in [[Eltibule]] where cows could graze underwater
+
+The river in [[Sun Vale]] doesn't work well with our new deep-water system, so for now it's using our older "puddle" system. The entire river is now treated as a giant puddle, which means you can splash in the river, and fill bottles from it, but you can't drown... even if the water goes over your head. (The new terrain for Sun Vale is in development, so this is a temporary band-aid for the existing terrain.)
+
+===Flight Changes===
+{{Item|Flight Potion}}s, Flight [[Word of Power|Words of Power]], and all other forms of flying no longer work in dungeons. (The flight effect is suppressed indoors but will resume when you go back outdoors.)
+
+[[Giant Bat]]s can no longer fly indoors. (But they still retain other wing-related benefits such as turning mid-jump and not taking damage from falls.)
+
+Fixed flight-behavior anomalies for giant bats that turn into [[Raven Form|raven]]s
+
+===Fae Realm===
+[[Lethargy Puck]] gives [[Notoriety]] XP on first kill (or your next kill, if you've already killed him before)
+
+[[Felmer]] in the [[Fae Realm]] now teaches recipes for Astounding Winter leather gear
+
+There are now a bunch more milkable [[Fae Mollusc]]s in the Fae Realm (10 total instead of 4), but the timeout before you can re-milk is now a day instead of an hour. The intent is to make "slime-collection runs" more practical
+
+===UI Fixes===
+UI: fixed bug where the "[[Combat Refresh]] Ready" icon would flash and beep at incorrect times
+
+UI: fixed bug where the blue border around basic attacks would not reappear when combat refresh was ready again
+
+UI: fixed situations where mouse cursor could get stuck as a resize-handle cursor if a window closed while the mouse was over resize-grips
+
+UI: fixed bug where an Effect tooltip would get "stuck" on the mouse cursor if the cursor was over the Effect icon right as the Effect ended
+
+===Other Fixes===
+Fixed typo that caused the [[Guild Quests|Guild Quest]] "Fox Outpost (25-member)" to require slightly more grapes than intended
+
+Fixed spurious "blank" error message when using the ability [[Druid/Abilities|Rotflesh]]
+
+Fixed bug where you could lose your empty bottle if you were interrupted while collecting {{Item|Dirty Snow Water}} from a [[Foraging#Other|Snow-Covered Rock]]
+
+Fixed typos in a few recipe names
+
+Fixed a few quest directions which were inaccurate
+
+Fixed a few recipe descriptions that claimed they served 2 when they serve 1
+
+{{Item|Amazing Venison}} is now interpreted as raw venison for gifting purposes
+
+Increased maximum number of temporary entities allowed in the [[Red Wing Casino]] (to prevent vegetables from disappearing when a bunch of players are farming simultaneously)
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

@@ -1,0 +1,301 @@
+__NOTOC__
+{{NPC infobox
+|title = Sanja
+|image = [[File:Sanja.jpg|250px]]
+|caption = She glares at you with cunning eyes.
+|zone = Kur Mountains
+|location = North-West Campfire <br>with [[Jace Soral]]
+|anatomy = Canine
+|species = Wolf
+|beastspeak = Yes
+|beastlist = All
+|skilltrainer = [[Lycanthropy]]
+}}
+{{Quote|Welcome, youngling.  I am Sanja, alpha of my pack.
+}}
+[[Sanja]] is a werewolf that teaches advanced abilities for [[Lycanthropy]].  As such, she's a vital necessity for players that want to play in werewolf form consistently.
+== Location ==
+; [[Kur Mountains]]
+: Near the North-Westernmost point on the map that isn't in the ocean, next to a campfire and [[Jace Soral]].
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Hunt for werewolves (6h)|
+:50 favor with Sanja
+:500 Lycanthropy XP
+}}
+{{Spoiler|Hunt for more werewolves (7h) -- requires {{Favor|Friends}}|
+:57 favor
+:750 Lycanthropy XP
+}}
+{{Spoiler|Hunt for yet more werewolves (8h) -- requires {{Favor|?}}|
+:65 favor
+:1500 Lycanthropy XP
+:{{Item|Amulet of Competent Lycanthropy}} (Level 40)
+}}
+{{Spoiler|Groom each other (2h) -- requires {{Favor|Friends}}|
+:20 favor
+:100 Lycanthropy XP
+:{{Item|Dirt Shield Potion}}
+}}
+{{Spoiler|Race each other (30m) -- requires finishing 'Groom each other' hang out|
+:5 favor
+:{{Item|Wolfen Speed Juice}}
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Sanja
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+==Training==
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Lycanthropy]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Lycanthropy{{pipe}}Unlock Lycanthropy Skills Levels - 51-60 (Alternate method!)
+ |skilllevel = 50
+ |cost=
+ |favor=
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Lycanthropy{{pipe}}Unlock Lycanthropy Skills Levels - 61-70 (Alternate method!)
+ |skilllevel = 60
+ |cost=
+ |favor=
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Lycanthropy{{pipe}}Unlock Werewolf-Form Travel Mode
+ |skilllevel = 30
+ |cost=3840
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=See Red
+ |skilllevel= 9
+ |cost=
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=See Red 2
+ |skilllevel= 19
+ |cost=
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=See Red 3
+ |skilllevel= 29
+ |cost=
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=See Red 4
+ |skilllevel= 39
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |ability=See Red 5
+ |skilllevel= 49
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |ability=Double Claw
+ |skilllevel= 13
+ |cost=
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Double Claw 2
+ |skilllevel= 22
+ |cost=
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Double Claw 3
+ |skilllevel= 42
+ |cost= 6392
+ |favor=
+}}
+{{NPC training row
+ |ability=Double Claw 4
+ |skilllevel= 52
+ |cost= 9212
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Double Claw 5
+ |skilllevel= 62
+ |cost= 13912
+ |favor=
+}}
+{{NPC training row
+ |ability=Sanguine Fangs
+ |skilllevel= 8
+ |cost=
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Sanguine Fangs 2
+ |skilllevel= 18
+ |cost=
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Sanguine Fangs 3
+ |skilllevel= 29
+ |cost=
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Sanguine Fangs 4
+ |skilllevel= 44
+ |cost= 6486
+ |favor=
+}}
+{{NPC training row
+ |ability=Sanguine Fangs 5
+ |skilllevel= 54
+ |cost= 9306
+ |favor=
+}}
+{{NPC training row
+ |ability=Smell Fear
+ |skilllevel=
+ |cost=
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Smell Fear 2
+ |skilllevel=
+ |cost=
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Smell Fear 3
+ |skilllevel=
+ |cost= 6345
+ |favor=
+}}
+{{NPC training row
+ |ability=Smell Fear 4
+ |skilllevel= 
+ |cost= 9165
+ |favor=
+}}
+{{NPC training row
+ |ability=Skulk
+ |skilllevel=
+ |cost= 4183
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Skulk 2
+ |skilllevel=
+ |cost= 6533
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Skulk 3
+ |skilllevel=
+ |cost= 9353
+ |favor=
+}}
+{{NPC training row
+ |ability=Blood of the Pack
+ |skilllevel=
+ |cost=
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Blood of the Pack 2
+ |skilllevel=
+ |cost= 4418
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Blood of the Pack 3
+ |skilllevel=
+ |cost= 6768
+ |favor=
+}}
+{{NPC training row
+ |ability=Blood of the Pack 4
+ |skilllevel=
+ |cost= 10998
+ |favor=
+}}
+|}
+: {| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Survival Instincts]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Survival Instincts{{pipe}}Unlock Survival Instincts Levels - 51-60
+ |skilllevel = 50
+ |cost=
+ |favor=
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Survival Instincts{{pipe}}Unlock Survival Instincts Levels - 60-70
+ |skilllevel = 60
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |ability=Lend Grace
+ |skilllevel= 8
+ |cost=
+ |favor=
+}}
+{{NPC training row
+ |ability=Lend Grace 2
+ |skilllevel= 28
+ |cost= 2444
+ |favor=
+}}
+{{NPC training row
+ |ability=Lend Grace 3
+ |skilllevel= 48
+ |cost= 6674
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Lend Grace 4
+ |skilllevel= 68
+ |cost= 16073
+ |favor=
+}}
+{{NPC training row
+ |ability=Toughen Up 8
+ |skilllevel= 70
+ |cost= 16167
+ |favor=
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends =
+|RiShin Family = {{Item|Ring of Wolfen Terror}} (Lv 40), One (Lv 40) jewelry: {{Item|Arcane Ring}}, {{Item|Amulet of Slashing Mitigation 5}}
+}}
+== Conversations ==
+
+[[Category:NPCs]]

@@ -1,0 +1,13 @@
+__NOTOC__
+{{Ability infobox
+| name = Chillball
+| description = Throw an essentially-harmless ball of cold.
+| level = 5
+| power cost = 5
+| reuse time = 3
+| range = 30 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|Frostball}}{{KWAB|FireMagicAttack}}{{KWAB|Ranged}}
+| damage = 8 Cold
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

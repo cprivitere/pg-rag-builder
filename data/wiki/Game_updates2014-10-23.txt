@@ -1,0 +1,5 @@
+==October 23, 2014==
+
+-Server-side update to fix problems with creating new accounts from guest accounts.
+
+[[Category:Game updates]]

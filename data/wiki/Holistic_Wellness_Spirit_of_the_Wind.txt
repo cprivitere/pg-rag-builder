@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Lakrea directed you to stand in a sandstorm. There are sandstorms in the Ilmari Desert. (You must be within 65 meters of the center of the storm to advance the quest.)
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|Your mind will never fly free while your thoughts stay so firmly planted on the ground. You need to start thinking like the wind! Hmm, I know -- why don't you go think <i>in</i> the wind? In a sandstorm! Now don't get crazy -- just stay in the sand storm for a few seconds at a time, or you might get hurt!}}
+
+===Requirements===
+* Stay in a Sandstorm
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: Spirit of the Wind|
+{{Quote|You look ... sandy. It's not a good look for you. We should work on your complexion next!}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

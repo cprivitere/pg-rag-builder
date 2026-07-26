@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Thrusting Blade
+| description = A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.
+| level = 18
+| power cost = 0
+| reuse time = 3
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|ThrustingBlade}}{{KWAB|SwordSlash}}{{KWAB|BasicAttack}}
+| damage = 28 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Thrusting Blade 2
+| description = A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.
+| level = 33
+| power cost = 0
+| reuse time = 3
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|ThrustingBlade}}{{KWAB|SwordSlash}}{{KWAB|BasicAttack}}
+| damage = 49 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Thrusting Blade 3
+| description = A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.
+| level = 48
+| power cost = 0
+| reuse time = 3
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|ThrustingBlade}}{{KWAB|SwordSlash}}{{KWAB|BasicAttack}}
+| damage = 95 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Thrusting Blade 4
+| description = A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.
+| level = 62
+| power cost = 0
+| reuse time = 3
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|ThrustingBlade}}{{KWAB|SwordSlash}}{{KWAB|BasicAttack}}
+| damage = 147 Piercing
+}}
+|-
+|
+{{Ability infobox
+| name = Thrusting Blade 5
+| description = A quick attack. For equipment and combos that require Sword Slash, you can use Thrusting Blade instead.
+| level = 75
+| power cost = 0
+| reuse time = 3
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|Melee}}{{KWAB|ThrustingBlade}}{{KWAB|SwordSlash}}{{KWAB|BasicAttack}}
+| damage = 202 Piercing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+[[Jesina]] asked you to find her sister's backpack full of clothes. They're somewhere near an abandoned home.
+
+===Prerequisites===
+To start this quest, talk to '''[[Jesina]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Friends}} favor.
+
+You must have previously completed [[Save Sarina]] in order to undertake this quest. The item needed for the quest is [[Sarina's Backpack]], which is found in the [[Boarded up Basement]] dungeon.
+
+===Preface===
+{{Quote|When the Council was planning out the new town that never happened here, they built a model home to try to attract settlers. It's just past that hill over there.
+
+So here's the thing: [[Sarina]] used to live there, alone, until goblins kidnapped her in the basement one day. She says she's never going anywhere near there again. But her clothes are there, and she's stretching out all my blouses! Can you go find her stuff?}}
+
+===Requirements===
+* Obtain {{Item|Sarina's Backpack}}
+* Talk to [[Jesina]]
+
+===Rewards===
+{{Spoiler|Rewards for Sarina's Lost Clothes|
+{{Quote|Yep, that's Sarina's stuff. I bet she'll be happy to see it! Or else she'll be shocked and saddened by the memories these conjure. Hmm. Well, I'll broach it carefully. Thank you.}}
+
+* 250 {{Favor|favor}}
+* {{Item|Banana}} x 4
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Jesina]]

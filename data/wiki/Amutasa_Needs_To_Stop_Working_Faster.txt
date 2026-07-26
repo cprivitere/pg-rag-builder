@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Amutasa requested some Cranium Balm to overcome her addiction to Cranium Powder.
+
+===Prerequisites===
+To start this quest, talk to '''[[Amutasa]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Amutasa Wants To Work Faster]] in order to undertake this quest.
+
+===Preface===
+{{Quote|I need to ask for your help. I am quite addicted to cranium powder. The powder you brought me was so wondrous, so efficacious, that I quickly completed my backlog. But then more orders came pouring in, and I needed more of the powder. I found a nefarious rakshasa merchant who sold me more -- at ridiculously high prices! -- but now I need even more... and I realize that I have been a fool. Please, before this gets even worse, can you help me break this cycle? My contact claims that the only way to cure this headache is more cranium powder, but I know there must be a balm or ointment that can sooth my brow until I can feel normal again.}}
+
+===Requirements===
+* Obtain {{Item|Cranium Balm}}
+* Talk to Amutasa
+
+===Rewards===
+{{Spoiler|Rewards for Amutasa Needs To Stop Working Faster|
+{{Quote|Is this it? Thank you! Oh, thank you so much. I can already feel it working... I can think straight! You've been a good friend. Here, let me give you something in return.}}
+
+* 300 {{Favor|favor}}
+* 500 councils 
+* {{Item|Amutasa's Organ Knife}}
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Amutasa]]

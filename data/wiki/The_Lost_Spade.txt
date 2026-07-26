@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Julius Patton in Serbule Hills said, "I loaned old Vera my best garden spade a year ago. Then, of course, she was killed and horrifically eaten by goblins. But my spade might still be in her house! If I was braver, I'd go look for it.
+
+Vera's farm is northeast of here."
+
+===Prerequisites===
+To start this quest, talk to '''[[Julius Patton]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I loaned old Vera my best garden spade a year ago. Then, of course, she was killed and horrifically eaten by goblins. But my spade might still be in her house! If I was braver, I'd go look for it.
+
+Vera's farm is northeast of here.}}
+
+===Requirements===
+{{Spoiler|Obtain Julius' Lost Spade|
+Vera's farm is the abandoned farm just south of the spider cave entrance.  The spade can be found in a chest on the property.
+}}
+{{Spoiler|Talk to Julius Patton|
+{{Quote|Spadey! You found Spadey! Thank you! I made a new spade, of course, but it's just not the same. Here, you can keep Spadey II. And let me give you some gardening tips to go with it!}}
+}}
+
+===Rewards===
+{{Spoiler|Rewards for The Lost Spade|
+
+* 200 {{Favor|favor}}
+* {{Item|Shovel}}
+* 500 XP in [[Gardening]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Julius Patton]]

@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Rita in Serbule asked for a flawless giant snail shell. "They're really hard to get. I heard you have to kill dozens to find one. But you're so strong and brave, I'm sure it'll only take you a second!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Rita]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Close Friends}} favor.
+
+===Preface===
+{{Quote|Oh I have a really big favor to ask! It's really hard but I'll totally make it worth your while. Can you get me a flawless giant snail shell? They're really hard to get. I heard you have to kill dozens to find one. But you're so strong and brave, I'm sure it'll only take you a second!}}
+
+===Requirements===
+* Obtain a {{Item|Perfect Giant Snail Shell}}
+* Talk to Rita
+
+===Rewards===
+{{Spoiler|Rewards for Rita's Shell Request|
+{{Quote|WOO THAT'S IT! You got it for me! Thank you so much! You're the best! Oh, and here's some potions! Remember to save one for my next orgy, I may just invite you!}}
+
+* 200 {{Favor|favor}}
+* {{Item|Cranium Gel}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Rita]]

@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+A rakshasa named Zealo asked you to collect mana sponges that she placed in jars all through the area.
+
+===Prerequisites===
+To start this quest, talk to '''[[Zealo]]''' in '''[[Carpal Tunnels]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Can you go collect my mana sponges? They're in jars all through the area. If you bring me six, you can keep any others you find. And I'll teach you a recipe that uses them.}}
+
+===Requirements===
+* Obtain {{Item|Ambient Magic Sponge}}s x6
+* Talk to Zealo
+
+===Rewards===
+{{Spoiler|Rewards for Mana Sponges|
+{{Quote|Thanks. Let me teach you a recipe that uses these! }}
+
+* 100 {{Favor|favor}}
+* Recipe: [[Ferocity Juice]]
+}}
+[[Category:Quests]][[Category:Quests/Khyrulek's Crypt Quests]][[Category:Quests/Zealo]]

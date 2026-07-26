@@ -1,0 +1,41 @@
+__NOTOC__
+==Summary==
+Cleo Conyer needs somebody to recover her books from a wagon that crashed in [[Ranalon]] territory. 
+
+===Prerequisites===
+To start this quest, talk to '''[[Cleo Conyer]]''' in the '''[[Tapestry Inn]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|When the ranalon ran my cart off the road, I just fled in a panic. I should have grabbed my papers! I'm kicking myself for leaving them behind. Those books are key to my business!
+
+I'm sure the ranalon have stolen all the valuable stuff from my cart, but the books don't look valuable. Could you go look for them?
+
+Follow the road south until you reach a crossroads, then head east into Ranalon territory. The road will go along a strip of land separating two lakes. My cart was run off the road right near there! It rolled down towards the southern lake. It didn't go into the water, though, so maybe my papers are still intact! You've gotta check. Please?}}
+
+===Requirements===
+* Obtain [[Cleo's Books]]
+* Talk to [[Cleo Conyer]]
+
+===Spoiler===
+<div class="mw-collapsible mw-collapsed">
+<div class="mw-collapsible-content">
+[[File:Cleos_Lost_Books.png|200px]]
+</div>
+</div>
+
+===Rewards===
+{{Spoiler|Rewards for Cleo's Lost Books|
+{{Quote|You found them! Oh, no, they got wet...
+
+Well, still, better than nothing, right? I'll start blotting each page dry. I bet i can salvage most of it! Thank you so much!
+
+In exchange, let me teach you some useful goblinese words and phrases. Goblins may not seem like they're better than the frog-people, but they are. Goblins honor trade agreements! So here's what you say if you meet a goblin trader.}}
+
+* 200 {{Favor|favor}}
+* 500 xp in [[Goblinese]]
+}}
+
+===Trivia===
+The quest description previously said to "move West at the crossroads." You actually need to move East. The books are located at the Northern coast of the Southern lake.
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Cleo Conyer]]

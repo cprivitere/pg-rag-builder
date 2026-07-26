@@ -1,0 +1,67 @@
+__NOTOC__
+'''This Blog Post was part of the Gorgon Website blog. It was posted by Citan on Monday, August 17, 2020.''' 
+: Previous Post: [[Dev Blog: Say Hello to Playable Fairies]]
+: Next Post: [[All About the VIP Membership Program]]
+'''Additional Blog entries can be found on the [[Developers]] page or in [[:Category:Game Blogs]] '''
+
+===What are Guides?===
+You may have seen Guides in-game before and wondered who they were. Guides are volunteers who help keep the game's public chat rooms civil. Elder Games, LLC is a tiny company and our employees can't monitor chat in real-time 24/7, so Guides act as our first line of moderation. They're also knowledgeable about the game and enjoy helping others, so you'll often see them answering newbie questions.
+===What Can Guides Do?===
+As chat moderators, Guides have several powers available to them. They can gag you from speaking for a few minutes (or even a few hours). They can kick players offline if they're being unruly, and can even ban players from logging back in for an hour or two -- a power that they rarely need to use, thankfully. Any use of their powers is recorded in an audit log, which we review.
+
+Guides can also assist guilds and groups in throwing parties or other events. They have a special ability that creates a pillar of light around their character, to help players find them in busy areas. They also have access to a special chest of party supplies, including beer, fireworks, that sort of thing. (Not all guilds need help throwing a party, but when a small guild is trying to do something big and needs a boost, Guides can help out.)
+
+But that's the extent of their powers. Guides are players, not admins. They can't create items, spawn monsters, activate game events, teleport themselves or others, create event portals, or anything like that. Even the "party supplies chest" is carefully monitored to prevent abuse.
+===Please Be Kind to Guides===
+Being a Guide is a largely thankless job, but one that is really important: keeping chat civil. Because any large, unmoderated chat room on the internet inevitably becomes an unbearable hellscape. We've all been on the internet long enough to know this truth.
+
+So why do I care if players are mean to Guides? Mainly for the obvious reason: they don't deserve it. But I also have to be cognizant that abuse can have an ulterior motive. It's a classic troll tactic to denigrate a forum's moderators until they're considered bad, tainted, lesser members of the community. Then the volunteers quit and the trolls win.
+
+This isn't the dawn of the internet era. We all know the tricks of the trolls. So I have an obligation to do my best to prevent that stuff from working. That's why I won't let the Guides be conflated with nazis or cheaters or spies or any of that.
+
+I have to protect the Guides, because otherwise the Guides will leave, and chat will be hell. So please be respectful to the Guides.
+===Reviewing Complaints about Guides===
+Before we end, I want to talk about some complaints I've heard about Guides.
+====="Guides can't take a joke."=====
+We have a strict chat policy of "no insults". In fact, it's our most important rule. We don't even allow "joke" insults. Jokes can hurt feelings and create anger just as quickly as any other kind of insult. And, of course, "I was just joking" is a classic catch-all defense. (To be clear, lots of people really do intend their insults as a funny-haha type of joke -- and occasionally they're actually funny -- but for our purposes it just doesn't matter.)
+
+So in this respect, the complaint is true: we've asked the Guides to be fairly strict about insults, even if they're jokes. That's not on them, that's on us. It's on me, mainly: I wrote the rules for the Guides, and this is how I want things to be run.
+====="I apologized to Guide X, and they said it was fine, but a few hours later I was banned!"=====
+This happens because of the logistics of our operation. Guides deal with immediate problems, but they can't see the chat logs, so they can't see patterns of abuse. Only employees can read your chat history, and our reaction time can be delayed a bit.
+
+Suppose you do something inappropriate, and a Guide asks you not to. You apologize and that's it. (95% of the time, things end there.)
+
+But suppose you do that inappropriate thing AGAIN a few hours later. A different Guide, Guide B, asks you not to, and that seems to be the end of it. Then you do it again, and got off with yet another warning from Guide C. But the next day you find you've been banned for a few days. Why is Guide C so mean?
+
+The Guides had nothing to do with your ban. What happened was an employee reviewed the logs and decided a ban was in order. In fact, since Guides can only ban for a couple of hours at most, here's an ironclad rule: if you've been banned for a day or more, your ban came from an employee, not a Guide.
+====="The Guides have secret game knowledge and are using it to get rich."=====
+This sort of thing is especially dangerous because it's WAY out of touch with the unglamorous work of a Guide. Guides don't have early access to game updates. They don't discover what's in the patch until it goes live. And, of course, they don't have any special game powers that would aid discovery.
+
+We do have a Discord channel where I can give Guides information, but that amounts to information about server outages, ETAs on when an update may go live, and other kinds of logistics info. I can't think of a case where I told Guides anything spoilery that they could use to get rich. (At least, nothing that didn't also show up on twitter!) It's just not that sort of communication channel.
+
+In fact, the Guide discord is mainly for information flowing the other way: Guides telling us stuff. For example, if a player tells a Guide about an exploit, the Guide messages us about it in Discord. (By the way, we generally prefer you to use the bug-report feature in the game to report bugs and exploits. But sometimes talking to a Guide is easier, especially if there are language barriers.)
+====="Guide X is spying on me."=====
+Guides can't read any chat that a regular player couldn't read: they can't read your private messages to other players, or what your Guild is saying (unless they're in the Guild), or what you say in Group chat (unless they're in the Group), etc. Thus, Guides only monitor public chat rooms.
+
+In fact, if you want to have a more laid-back place to chat with your friends, we encourage you to create one! Guild chat, Group chat, and custom private chat rooms are all places where a few off-kilter jokes between friends aren't going to get anybody in trouble.
+
+However, even in private, you still can't outright attack other players. If someone feels attacked, they can send an Abuse report, which is seen by an employee. Employees do have the power to read your private chat, and we'll take action if you're way out of line.
+
+But the important point here is this: if you start insulting someone via private messages and get banned for it, it wasn't a Guide. It was an employee.
+====="Guide X deleted my Abuse report to cover for their friend."=====
+Only employees can see Abuse reports. Guides have no access to our reporting system.
+====="Guide X hates me and asked the admins to ban me."=====
+This has never happened, and it would be really weird if a Guide asked for someone to be banned, because Guides aren't really involved with that. For practical and privacy reasons, Guides aren't included in our internal discussions about punishments. In fact, most of the time Guides aren't even aware of ban decisions.
+===Guides are Players, First===
+I know that our no-insult rule can feel stifling. And we employees do make our share of mistakes when dealing with behavior problems. Sometimes we overreact to a small issue, making it a big one; other times we use the wrong volume. We shout when we should whisper, or whisper when we should shout, metaphorically speaking. These are things we'll keep working on. But my point is that I can understand why some players would be annoyed with us. (But you still can't call us names: no insults!)
+
+However, the Guides are some of the nicest people in the game. That's why they're Guides! They're volunteering their time to help make the community a friendly place, and they don't deserve abuse.
+
+===In Conclusion, Thank-You!===
+I wanted to make this blog post to dispel any myths about Guides, and to serve as a reference in the future if players have questions. For the most part, Guides are just players. And I'm happy that they rarely need to use their moderation powers, and can mostly just play the game. And that's thanks to you! The vast majority of the game's players are extraordinarily well-behaved in chat, for which I am personally grateful.
+
+When I see players having fun in the game, that's a powerful motivator to me; sometimes it's literally what gets me out of bed. It really means a lot to me that you're participating in this particular escapist fantasy universe. Thank you. Keep it up!
+
+PS - We've recently added a couple of new volunteers to the Guides program, so you may see a few new faces with the -GUIDE- tag. If you're interested in becoming a Guide in the next batch (a few months from now), please let us know by emailing guideapplications@projectgorgon.com .
+
+[[Category:Game Blogs]]

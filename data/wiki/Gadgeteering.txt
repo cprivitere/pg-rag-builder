@@ -1,0 +1,54 @@
+__NOTOC__
+{{Skill infobox
+|title            = Gadgeteering
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = The ability to create elaborate contraptions that automate complex tasks.
+|skilltype        = Trade Skill <!-- Pick the first correct one: Beast Form, Combat Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Anatomy Skill, Phrenology Skill, Trade Skill, Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 60 <!-- List without bonus levels -->
+|req              = <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Kohan]], [[Ufkar]] <!-- List skill trainers, 3 max -->
+}}
+{{Quote|
+... a weird device.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Gadgeteering]] is taught by [[Kohan]] and [[Ufkar]], two Gadgeteers living in the Rakshasan City of [[Rahu]] The two are staunch rivals, and when you raise favor with one, you lose favor with the other.
+:Requires Carpentry 25 and Alchemy 25, and use the talk option on either [[Kohan]] or [[Ufkar]].
+=== In-Game Description ===
+The ability to create elaborate contraptions that automate complex tasks.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Kohan]] Teaches Item Dispenser and Item Vendor Gadgeteering Recipes.
+* [[Ufkar]] Teaches Item Raffler Gadgeteering Recipes.
+* [[Engineer Crall]] in [[Vidaria]] unlocks levels 51-60.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* None
+===== Related Skills: =====
+* [[Carpentry]] - Many [[Gadgeteering]] recipes require wooden crafted items.
+===== Synergy Levels: =====
+There are no Bonus [[Synergy Levels]] for [[Gadgeteering]].
+== Recipe Lists ==
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Augmentation Repair ===
+At Level 20 [[Gadgeteering]], it is possible to try and salvage {{Item|Broken Augment}} items. If successful, one or more of the following items may be obtained.
+===== Salvaged Items =====
+* {{Item|Fire Dust}}
+* {{Item|Goshenite}}
+* {{Item|Piece of Green Glass}}
+* {{Item|Strange Dirt}}
+
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Gadgeteering Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Gadgeteering|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+
+[[Category:Skills]][[Category:Trade Skills]]

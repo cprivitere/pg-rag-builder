@@ -1,0 +1,573 @@
+__NOTOC__
+{{NPC infobox
+|title            = Jake the Buckler
+|image            = [[File:Jake_The_Buckler.png|300px]]
+|caption          = A bear of a human with a hearty laugh.
+|zone             = Sun Vale
+|town             = Druid Camp
+|location         = Southwest of grove.
+|anatomy = Human
+|species = Human
+|skilltrainer     = [[Buckle Artistry]]
+|beastspeak       = Yes
+|beastlist = Cows, Pigs, Wolves, Deer, Bats.
+}}
+{{Quote|source=[[Jake the Buckler]]|
+Worst thing about buckles? The paint gets all faded and chipped after you wear it for too long. Then you have to make another one.
+}}
+[[Jake the Buckler]] resides at the [[Druid Camp]]. He spends the majority of his time crafting belt buckles. The belt buckles are not magical in any way, they just remind you of "killing shit". Jake claims that when he was young, women would never go around baring their ankles. He seems to want to sleep with [[Silvia]].  He enjoys beer. 
+==Location==
+; [[Sun Vale]]
+: At the [[Druid Camp]] immediately soutwest of the grove.
+
+==Favor==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Hang Outs===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Trade badass warrior stories (4 hours) {{Favor|Comfortable}}|
+{{Quote|That's a great story! Man, I don't know if I can top your amnesia island story, but I'll give it a shot. 
+
+One time I was fighting this wizard-priest, right? I was pretty young then and my catch phrase was 'I AM IMMORTAL!' So this priest hears my catch phrase and his eyes grow wide and he says some angry words right as I pound his skull in. Next thing I know. I'm surrounded by rose petals swirling all around, and I go flying into the sky. 
+
+This scary voice says 'YOU DARE DEFY DEATH? THEN TASTE WHAT YOUR HUBRIS HAS WROUGHT!' Something like that. And then, no shit, I was sent to some sort of hell dimension where nobody ages. 
+
+I was in there for, oh, 3000 years, maybe? Something like that. Met a lot of  fun people. But mostly that time is a blur and I can barely remember anything. I don't think my brain was working right in there. Anyway, one day I found this huge bell floating in limbo and I hit it with my hammer, and apparently I destroyed the entire prison dimension and reappeared here! 
+
+A lot of the gods are different now and I guess they don't fuck with people as much anymore, or at least not so directly. Which is nice. 
+
+Oh yeah: I had to learn a new language, because my old homeland had been wiped off the map. And of course everybody I'd ever known was dead, which was pretty depressing. But besides that it's been mostly the same: hitting shit until it dies, making buckles, getting drunk. Oh, also I don't seem to age anymore, which is pretty great. Okay, your turn for a story!}}
+:Hear [[Jake the Buckler's Story]]
+: 35 Favor
+: 50 Lore XP
+}}
+{{Spoiler|Watch Jake work on his masterpiece buckle (2 hours)|
+{{Quote|Next I'll add a tiny seagull in the corner. The seagull represents killing shit. And... look, can we stop? Your staring is making me nervous! I guess painting is supposed to be a solo thing.}}
+: 25 favor
+: 200 [[Buckle Artistry]] XP
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Jake The Buckler
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+==Training==
+===With Buckle Artistry===
+;[[Buckle Artistry]]
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Buckle Artistry]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Buckle Artistry{{pipe}}Learn Buckle Artistry
+ |skilllevel=
+ |cost=0
+ |favor=???
+}} !Requires quest completion
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Buckle Artistry{{pipe}} Buckle Artistry (51-60)
+ |skilllevel=50
+ |cost=20,000
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Basic Hammering
+ |skilllevel=10
+ |cost=465
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Competent Hammering
+ |skilllevel=20
+ |cost=1,133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Impressive Hammering
+ |skilllevel=30
+ |cost=1,1,800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Masterful Hammering
+ |skilllevel=40
+ |cost=3,133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Astounding Hammering
+ |skilllevel=50
+ |cost=4,800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Ludicrous Hammering
+ |skilllevel=60
+ |cost=7,800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Swift Slagging
+ |skilllevel=15
+ |cost=965
+ |favor=???
+}}
+{{NPC training row
+ |recipe= Buckle of Hastened Slagging
+ |skilllevel=30
+ |cost=965
+ |favor=???
+}}
+{{NPC training row
+ |recipe= Buckle of Fast Slagging
+ |skilllevel=45
+ |cost=4,633
+ |favor=???
+}}
+{{NPC training row
+ |recipe= Buckle of Slagging Blurs
+ |skilllevel=60
+ |cost=7,800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Lightened Hammering
+ |skilllevel=12
+ |cost=865
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Unburdened Hammering
+ |skilllevel=24
+ |cost=1,133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Easy Hammering
+ |skilllevel=36
+ |cost=1,1,600
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Featherweight Hammering
+ |skilllevel=48
+ |cost=4,733
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Flowing Hammering
+ |skilllevel=60
+ |cost=7,800
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 1
+ |skilllevel=6
+ |cost=333
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 2
+ |skilllevel=11
+ |cost=833
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 3
+ |skilllevel=16
+ |cost=1,000
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 4
+ |skilllevel=21
+ |cost=333
+ |favor=1,500
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 5
+ |skilllevel=26
+ |cost=1,665
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 6
+ |skilllevel=31
+ |cost=2,833
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 7
+ |skilllevel=6
+ |cost=3000
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 8
+ |skilllevel=41
+ |cost=4,500
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 9
+ |skilllevel=46
+ |cost=4.665
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 10
+ |skilllevel=51
+ |cost=6,500
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 11
+ |skilllevel=56
+ |cost=7,665
+ |favor= Like Family
+}}
+{{NPC training row
+ |recipe=Buckle of Hardy Combat 12
+ |skilllevel=61
+ |cost=9828
+ |favor=???
+}}
+|}
+
+===Without Buckle Artistry===
+;[[Carpentry]]
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Carpentry]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Shoddy Wooden Cow Shoes
+ |skilllevel=3
+ |cost=233
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Rough Wooden Cow Shoes
+ |skilllevel=13
+ |cost=900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Wooden Cow Shoes (Enchanted)
+ |skilllevel=23
+ |cost=1,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Decent Wooden Cow Shoes (Enchanted)
+ |skilllevel=33
+ |cost=2,900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Wooden Cow Shoes (Enchanted)
+ |skilllevel=43
+ |cost=4,566
+ |favor=,???
+}}
+{{NPC training row
+ |recipe=Quality Wooden Cow Shoes (Enchanted)
+ |skilllevel=53
+ |cost=6,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Shoddy Wooden Deer Shoes
+ |skilllevel=3
+ |cost=1,233
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Rough Wooden Deer Shoes
+ |skilllevel=13
+ |cost=900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Wooden Deer Shoes (Enchanted)
+ |skilllevel=23
+ |cost=1,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Decent Wooden Deer Shoes (Enchanted)
+ |skilllevel=33
+ |cost=2,900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Wooden Deer Shoes (Enchanted)
+ |skilllevel=43
+ |cost=4,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Quality Wooden Cow Deer (Enchanted)
+ |skilllevel=53
+ |cost=6,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Shoddy Club
+ |skilllevel=1
+ |cost=166
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Shoddy Club (Enchanted)
+ |skilllevel=3
+ |cost=233
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Rough Club
+ |skilllevel=10
+ |cost=466
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Rough Club (Enchanted)
+ |skilllevel=13
+ |cost=900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Club
+ |skilllevel=20
+ |cost=1,133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Club (Enchanted)
+ |skilllevel=10
+ |cost=1,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Club (Enchanted)
+ |skilllevel=23
+ |cost=1,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Decent Club (Enchanted)
+ |skilllevel=33
+ |cost=2,900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Club (Enchanted)
+ |skilllevel=43
+ |cost=4,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Club (Max-Enchanted)
+ |skilllevel=43
+ |cost=4,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Quality Club (Enchanted)
+ |skilllevel=53
+ |cost=6,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Shoddy Melee Staff
+ |skilllevel=1
+ |cost=166
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Shoddy Melee Staff (Enchanted)
+ |skilllevel=3
+ |cost=233
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Rough Melee Staff
+ |skilllevel=10
+ |cost=466
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Rough Melee Staff (Enchanted)
+ |skilllevel=13
+ |cost=900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Melee Staff
+ |skilllevel=20
+ |cost=1,133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Melee Staff (Enchanted)
+ |skilllevel=10
+ |cost=1,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Melee Staff (Enchanted)
+ |skilllevel=23
+ |cost=1,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Decent Melee Staff (Enchanted)
+ |skilllevel=33
+ |cost=2,900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Melee Staff (Enchanted)
+ |skilllevel=43
+ |cost=4,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Melee Staff (Max-Enchanted)
+ |skilllevel=43
+ |cost=4,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Quality Melee Staff (Enchanted)
+ |skilllevel=53
+ |cost=6,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Shoddy Combat Staff
+ |skilllevel=1
+ |cost=166
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Shoddy Melee Staff (Enchanted)
+ |skilllevel=3
+ |cost=233
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Rough Combat Staff
+ |skilllevel=10
+ |cost=466
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Rough Combat Staff (Enchanted)
+ |skilllevel=13
+ |cost=900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Combat Staff
+ |skilllevel=20
+ |cost=1,133
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Combat Staff (Enchanted)
+ |skilllevel=10
+ |cost=1,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Combat Staff (Max-Enchanted)
+ |skilllevel=43
+ |cost=4,566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Quality Melee Staff (Enchanted)
+ |skilllevel=53
+ |cost=6,566
+ |favor=???
+}}
+|}
+;[[Staff]]
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Staff]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Suppress
+ |skilllevel=15
+ |cost=1,450
+ |favor=???
+}}
+{{NPC training row
+ |ability=Suppress 2
+ |skilllevel=30
+ |cost=2,700
+ |favor=???
+}}
+{{NPC training row
+ |ability=Suppress 3
+ |skilllevel=45
+ |cost=6.950
+ |favor=???
+}}
+{{NPC training row
+ |ability=Suppress 4
+ |skilllevel=60
+ |cost=11,700
+ |favor=???
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Jake's Semi-Masterpiece}}
+|RiShin Family = {{Item|Jake's Semi-Masterpiece}} and {{Item|Thentree Boots}} (Lv 30)
+}}
+== Conversations ==
+{{Quote|source=[[Jake the Buckler]]|
+: Hey. You a druid? 'Cuz I'm not!
+: ''' I'm not a druid either.'''
+: These guys are great. They pretend like they're nature-loving pacifists, but they love hammers and crafting weapons and killing shit. My kind of people!
+: ''' Well, they do love nature... '''
+: Yeah, yeah. Anyway, what brings you out here? Hunting trolls?
+: ''' Just passing through.'''
+: Oh, fair enough. I'm just hanging with these guys for a few days while I work on my masterpiece.
+: ''' What's your masterpiece?'''
+: A belt buckle! I make some of the best buckles you'll ever see. See this one I'm wearing? The lion represents killing shit. And see the eagle? That represents killing shit, too.
+: ''' And the bear? '''
+: The bear represents killing shit.
+: ''' Ah, I should have guessed. '''
+: Anyway, my next masterpiece is coming along, but it's missing something. If you can do me a favor and get it, I'll teach you a bit about [[Buckle Artistry]].
+: ''' What's the point of Buckle Artistry?'''
+: Power, of course! Buckles represent everything good about fighting. Hitting, killing shit, murder, and so on.
+: ''' Are these buckles magical?'''
+: No, they aren't fuckin' magical. It's psychology! You fill the buckle with symbols that remind you what a bad-ass you are. And it works! Well... it works if you like hammers or clubs.
+: ''' So buckles are only good for hammer fighters?'''
+: Well, that's the only kind I know how to make. I guess there might be other buckles for other weapons. But whatever. They're not important. Hammers are important!
+: ''' Do you sell spare belt buckles?'''
+: No, artistic buckles aren't for sellin'! They're a personal thing. The symbols only have meaning to the creator, so only the creator can get anything from wearing them. Sorry, but you've gotta craft your own!
+: So year, if you help me get the dye I need, I'll teach you how to make your own buckles.
+: ''' Okay. Thanks for the offer.'''
+}}
+{{Quote|source=[[Jake the Buckler]]| That little gobby [[Yogzi]] is pretty good at makin' belt, too! His belts are more utilitarian though, with little boring buckles. Mine are art!}}
+[[Category:NPCs]]

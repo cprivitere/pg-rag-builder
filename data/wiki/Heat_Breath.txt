@@ -1,0 +1,15 @@
+__NOTOC__
+{{Ability infobox
+| name = Heat Breath
+| description = Spit flame at a nearby foe.
+| level = 5
+| power cost = 38
+| reuse time = 12
+| range = 5 meters
+| skill = Fire Magic
+| keywords = {{KWAB|Attack}}{{KWAB|FireMagic}}{{KWAB|FireMagicAttack}}{{KWAB|FireBreath}}{{KWAB|Melee}}{{KWAB|NiceAttack}}{{KWAB|FireSpell}}
+| ragemulti = 2
+| damage = 40 Fire initially and 4 Fire 6 times over 12 seconds
+| special = Restores 1 Body Heat in cold environments.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,12 @@
+__NOTOC__
+{{Ability infobox
+| name = Shutdown Automaton
+| description = Constructs are stunned. (Has no effect on other types of targets.)
+| level = 0
+| power cost = 10
+| reuse time = 30
+| range = 5 meters
+| skill = Unknown
+| keywords = {{KWAB|Melee}}{{KWAB|Attack}}
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

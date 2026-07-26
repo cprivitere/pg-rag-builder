@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> You're so cute as a bat, I love it! So bizarre! But in a whimsical way. If bats need a patron god, I'm on it! Hey... You know, maybe I could actually get that job. Hmmm... but do I even really <i>want</i> that job?
+
+Well, what do I know about bats? They hate bugs, right? Go check that idea: eat some size-appropriate wasps. Tell me how they taste.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> You're so cute as a bat, I love it! So bizarre! But in a whimsical way. If bats need a patron god, I'm on it! Hey... You know, maybe I could actually get that job. Hmmm... but do I even really <i>want</i> that job?
+
+Well, what do I know about bats? They hate bugs, right? Go check that idea: eat some size-appropriate wasps. Tell me how they taste.
+
+===Requirements===
+* Kill wasps as a bat x5
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Did you eat their corpses? Oh, you... like your meat cooked? I didn't think bats cooked. That's whimsical, I guess, but also uninformative.}}
+* 1000 councils
+* {{Item|Level 40 Event Loot Key}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

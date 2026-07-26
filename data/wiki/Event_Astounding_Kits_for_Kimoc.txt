@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Kimoc said, "We are low on our first aid supplies and need to restock our high-end first aid kits. Sure, we could make them ourselves, but we don't want to steal all the fun!  If you would be so kind as to deliver 10 [[Astounding First Aid Kit]]s to me, I would be forever grateful! Honestly we're just low on materials, but I can help you advance your craft in exchange for your trouble. Also, be sure to use the proper toolcrafting method for making these kits. We don't want the cheap knockoffs!"
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Kimoc]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Toolcrafting]] level 60. This quest is only available during a Crafting Caravan event.
+
+===Preface===
+We are low on our first aid supplies and need to restock our high-end first aid kits. Sure, we could make them ourselves, but we don't want to steal all the fun!  If you would be so kind as to deliver 10 [[Astounding First Aid Kit]]s to me, I would be forever grateful! Honestly we're just low on materials, but I can help you advance your craft in exchange for your trouble. Also, be sure to use the proper toolcrafting method for making these kits. We don't want the cheap knockoffs!
+
+===Requirements===
+* Craft 10 Astounding First Aid Kits
+* Obtain 10 Astounding First Aid Kits
+* Talk to Kimoc
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you! This will help us along for a while. I might need your services again later on, so be sure to stop by again later!
+
+<i>[You earn 10 favor with Orran the Caravan Leader]</i>
+
+<i>[This task is repeatable every 18 hours.]</i>}}
+* {{Item|Crafter's Guild Token}}
+* 9600 XP in Toolcrafting
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Kimoc]][[Category:Quests/Crafting Caravan]]

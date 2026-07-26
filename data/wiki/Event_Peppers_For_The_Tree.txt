@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Kelim]] in [[Amulna]] said, "The tree needs bright shiny red things... and now you see why I took on this stupid job! I need a lot of hot peppers.  A lot. Do you need some seeds? I still have some for sale!"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Kelim]]''' in the '''[[Ilmari Desert]]'''.
+
+===Preface===
+The tree needs bright shiny red things... and now you see why I took on this stupid job! I need a lot of hot peppers.  A lot. Do you need some seeds? I still have some for sale!
+
+===Requirements===
+* Obtain {{Item|Red Pepper}} x10
+* Talk to [[Kelim]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Couldn't grow them better myself! Thanks. And hopefully their prominence on the tree will encourage people to eat more peppers.}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/Kelim]][[Category:Quests/Ri-Shin Quests]]

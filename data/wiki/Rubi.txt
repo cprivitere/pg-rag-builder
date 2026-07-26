@@ -1,0 +1,39 @@
+__NOTOC__
+{{NPC infobox
+|title            = Rubi
+|caption          = 
+|zone             = Kur Mountains
+|town = Sacred Grotto
+|location         = Near the fire.
+|anatomy = Canine
+|species = Fox
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = 
+|vendor           = 
+}}
+[[Rubi]] is a young fox living in the [[Sacred Grotto]].
+== Location ==
+; [[Sacred Grotto]]
+: Found near the campfire.
+== Favor ==
+[[Rubi]] is initially untrusting of other animals. Every 24 hours, speaking to [[Rubi]] will result in +10 favor. Another way to gain favor with Rubi is to leave quantities raw meat in the Warden storage chest, which she and the other foxes and [[Pickles]] will eat at random intervals, leaving gnawed bone piles behind. If she consumes your meat, you will see a favor increase next time you speak with her and she'll thank you for leaving it for her. The foxes and Pickles generally prefer quality meats over cheap. [[Rubi]] appears to prefer steak meat over other kinds.
+
+It is not possible to gift meat directly to either [[Rubi]] or [[Cassie]].
+
+Speaking to [[Rubi]] as a [[Lycanthropy|Lycanthrope]] will result in -100 favor.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Dead Vole}}
+|RiShin Family = {{Item|Dead Vole}} and {{Item|Foxtail Ring of Flow}}
+}}
+== Conversations ==
+{{Quote|
+:I don't talk to strangers.
+}}
+[[Category:NPCs]]

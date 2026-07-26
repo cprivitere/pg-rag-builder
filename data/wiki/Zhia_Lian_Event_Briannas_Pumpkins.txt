@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Brianna Willer in Serbule Hills said, "My entire pumpkin patch is infested with evil monsters! I've never seen anything like 'em! Luckily I'd already harvested half the pumpkins, but the remaining ones are rotted inside. Even the seeds inside them are bad!
+
+And now I'm worried they're gonna wander off and hurt somebody that can't take care of themselves, like the Duchess. Tell you what: kill 'em off and I'll give you some of my earlier pumpkin harvest."
+
+This Quest can be repeated after 60 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Brianna Willer]]''' in '''[[Serbule Hills]]'''.
+
+===Preface===
+My entire pumpkin patch is infested with evil monsters! I've never seen anything like 'em! Luckily I'd already harvested half the pumpkins, but the remaining ones are rotted inside. Even the seeds inside them are bad!
+
+And now I'm worried they're gonna wander off and hurt somebody that can't take care of themselves, like the Duchess. Tell you what: kill 'em off and I'll give you some of my earlier pumpkin harvest.
+
+===Requirements===
+* Kill Pumpkin Mimics x15
+* Talk to Brianna Willer
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thanks. Here's some edible pumpkins for ya. I swear, this neighborhood just gets worse and worse. First the ranalon and now this! Pah.}}
+* 100 {{Favor|favor}}
+* {{Item|Pumpkin}} x10
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Brianna Willer]][[Category:Quests/Halloween Quests]]

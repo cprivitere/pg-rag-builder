@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+There's an undecorated tree in a house near Ukorga's inn in Kur Mountains. Nightshade is in charge of decorating it. When fully decorated, townsfolk will leave you presents under the tree each day during the holiday season.
+
+This Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Nightshade]]''' in the '''[[Kur Mountains]]'''.
+
+===Requirements===
+* Get Tundra Lichen for Decorations
+* Get Cinnamon for Candy Canes
+* Get Matted Hair for the Tree
+* Get Ice Cores for the Tree-Topper
+* Talk to [[Nightshade]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|We've done it! A holiday tree that meets minimum expectations. And now I can stop worrying about this nonsense. Oh, but I placed a gift under the tree for you, as thanks. And I'm sure the rest of these ingrates will chip in on gifts too... even if I have to strongarm them a bit.}}
+}}
+
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Nightshade]][[Category:Quests/Ri-Shin Quests]]

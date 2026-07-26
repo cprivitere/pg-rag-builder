@@ -1,0 +1,107 @@
+==Update Notes: April 6, 2023, part 2==
+In this bug-fixing update:
+:- Items should no longer erroneously report stack sizes of 1.
+:- Fixed alcohol becoming Legacy. (Any booze that went Legacy is un-Legacied.)
+:- Fixed crafted Uncommon belts having three treasure effects -- belts are still only supposed to have 1. (Any existing 3-effect crafted belts have become Legacy.)
+:- Remove text from cosmetic pet icons.
+:- Cows now use a subtler animation for many non-cow abilities.
+:- Added rank numbers to spontaneous fireballs.
+
+===Known Bugs===
+Some items are being shown as Legacy when they shouldn't:
+:- We're investigating reports that shield wax can make a shield become Legacy -- but only until the wax wears off
+:- Max-enchanted non-Legendries are being reported as Legacy because they have more effects than they're supposed to. In the next update, we'll improve the Legacy Item Helper golem so that it can fix these items by increasing their rarity. (e.g. the fix for a max-enchanted purple is to turn it into a normal yellow.) Hold on to those items for now.
+:- Item rewards in the quest panel display the wrong number of items (all of them say 5) and the wrong name (Item: Item Name Here).
+
+If you run into another situation where an item unexpectedly becomes Legacy, please report it in-game, and include the item in your bug report. (Including the item is very important!) We'll fix these issues before the 30 day Legacy timer winds down, so after reporting the bug, you can just continue using the item like normal.
+
+==Update Notes: April 6, 2023==
+Welcome to update #383! Today we have some more tweaks and additions that expand upon the major changes we made in the last update. Plus, as usual, a bunch of bug fixes. Let's get to it!
+
+===Changes to Uncommon and Rare Equipment===
+We've made an experimental change to the lowest-rarity magic loot:
+:- Uncommon (green) items now have two additional generic powers (for a total of 3 powers, but only 1 is specific to a skill).
+:- Rare (blue) items now have one additional generic power (for a total of 3 powers, but only 2 are specific to skills).
+:- In addition, we've created new generic treasure effects aimed at improving low:- and mid-level player capabilities.
+
+===Mastercrafted Items===
+In the last major update, we temporarily removed the concept of "over-maximized" gear -:- that is, Legendary max-enchanted items which were effectively "Legendary+". In this update, we've brought this concept back (but at a much lower power level). We've also set up the groundwork to allow us to improve these items in the future when overall high-level balance is in better shape.
+
+These "max-enchanted-beyond-Legendary" items are now called "Mastercrafted" items, and have the following benefits over regular Legendary items:
+:- Mastercrafted items have 40 more Crafting Points than non-Mastercrafted items.
+:- There is a new recipe that lets you restore a Mastercrafted item's transmutation durability as often as desired (for a hefty cost in prisms). The recipe can be learned from Sona in Gazluk.
+
+Newly-crafted Mastercrafted items will have these benefits. (This replaces the "get a second free Legendary" reward used in the last update.)
+
+Pre-existing (legacy) Mastercrafted items also have these benefits, but they still have the OLD benefit too (of an extra treasure effect). The Legacy Item Helper can remove that extra power, and then the pre-existing items won't be legacy anymore -:- they'll be just like newly-crafted items.
+
+===Legacy Item Helper===
+Pre-existing Mastercrafted items still have one too many treasure effects on them, and in this patch they're marked as Legacy items. This means that you can continue to use them for 30 days, after which they stop being wearable. (NOTE: they will not *be deleted* after 30 days -- they just *stop being wearable* until you have the item repaired.)
+
+We've beefed up the old "Legacy Item Replacer" golem in Serbule -:- giving it a new name, the "Legacy Item Helper". Hand your Legacy item to this golem and it will explain why the item is Legacy and offer ways to fix it:
+:- If the item can be fixed by removing a power from it (because it's got more than the prescribed number of powers), the golem prompts the user for which power they want to remove, and removes that power. 
+:- If the item can be fixed by just transmuting a power off of the item, the golem tells the player this. The player can choose to go and transmute the item, or just get a replacement from the golem (like before).
+:- For any other causes of Legacyness, the golem can only replace the item with a new one as before (for now). Hopefully, though, the new wording and warnings will make this less scary and error-prone!
+
+Remember: The golem can work with broken items, so even if you don't get a chance to fix your legacy item before it breaks - **don't** throw it away!
+
+===Other Crafting Tweaks/Fixes===
+:- There are new recipes that let you reset a piece of armor's crafting points by wiping the item's enhancements, pockets, augments, etc. These are difficult high-level recipes. For now they can be trained from Felmer in the Fae Realm.
+:- Revised some "rubywall" generic treasure mods to be less terrible. (They still don't scale very well, by intention. They're just less terrible than before.)
+:- Fixed a bug where an item could have the same skill for both chosen skills, resulting in an item with bonuses for only one skill, causing it to immediately become a Legacy item.
+:- Drima, Sir Johnson's assistant, has raised the price on all equipment from 2 "Sir Johnson Bucks" to 3. The items are now guaranteed to be Epic+ rarity (instead of Exceptional+).
+:- Fixed a bug that prevented you from taking off equipment when your skills were temporarily down-ranked to the point that you no longer met the equip reqs of the item. (This could also generate errors when trying to use loadouts.)
+
+===Ability UI Improvements===
+Abilities now automatically change their rank when skills change, when either entering or exiting a skill level disparity. For example: 
+:- If you change from Necro 60/Bard 60 to Necro 60/Shield 10, all Necro abilities on your hotbar will de-rank to level 35 abilities.
+:- If you change from Necro 60/Shield 10 to Necro 60/Staff 55, all Necro abilities on your hotbar will up-rank to level 60 abilities.
+:- If you change from Necro 60/Bard 60 to Necro 60/Staff 55, Necro abilities on your hotbar will not change ranks.
+
+This new auto-reranking of abilities can be disabled quickly by right-clicking the Ability hotbar and choosing Settings > Disable Ability Auto Re-Rank. It can also be toggled in the Settings panel, under GUI > Features > Abilities & Items > Auto Re-Rank Abilities.
+
+In addition:
+:- Individual abilities on your hotbar can now be changed quickly by right-clicking an ability and selecting "Change Ability". 
+:- You can now disable the display of the hotkey assigned to that hotbar slot.
+:- The rank of an ability is now displayed on its ability icon. 
+
+You can toggle all of these options by right-clicking the ability hotbar and choosing Settings > Show Ability Ranks or Settings > Show Hotbar Hotkeys. These options can also be accessed in the Settings panel, under the GUI > Features > Abilities & Items submenu.
+
+===More UI Fixes===
+:- Pressing alt will now show any currently-hidden overhead labels in the new UI.
+:- Changed the names of some ability groups in the Skills and Abilities window so they are more generic, such as "Tame Rat" -> "Tame Animal".
+:- Polished lots of ability tooltips to rearrange how some data is presented on them, mostly the Special effects.
+:- Many abilities cannot be used in the air. Attempting to do so will now behave like any other cannot-use-ability case: the icon will gray out and the error will display in the tooltip.
+:- The "Search Corpse" button on pets now properly updates to "Check" when the pet is revived.
+:- Combat Info no longer shows Player levels (which were always showing as 0 anyway).
+:- Fixed a UI bug that would cause all items to display as sellable if the vendor reset timer somehow goes negative.
+:- Fixed a bug causing items to sometimes not float to the correct location when the inventory is open and any bag besides the first one is selected.
+:- Added a new beta command, **/reloadchar**, that will reload your character's appearance. This should fix many animation issues that arise because it re-initializes the whole character, including their animations. (You should still report any bugs you run into, but this command is a quick way to fix yourself :- after you send in a report!)
+
+===Other Fixes & Tweaks===
+:- Fixed issue that could cause players to fall through the world when using the new selection system.
+:- Fixed a rare bug when switching areas that could cause a player character to effectively "roll back" to a version of their character that is about 1 minute in the past, losing any progress from the previous minute.
+:- The mod "Reconstruct causes the target to take X less damage from attacks for 30 seconds" now correctly states 10 seconds.
+:- Butchering an Ice Runner now gives the player a Raw Paralytic Chicken instead of a plain Raw Chicken. Note that the butchering requirement has been raised from 10 to 35 (to match Ice Runners' target level). In addition, Ice Runners have a small chance of dropping Raw Paralytic Chicken as loot.
+:- Tyler Green in Serbule Hills will now install low-level augments at Neutral favor. (Before it required Friends.)
+:- Moved the Council Proclamation Form to its own fancy little table on the other side of the room so it won't be in Hulon's way.
+:- Animal illusion forms can no longer milk cows.
+:- Bulwark Mode now turns off when you change form.
+:- Summoning recipe ingredients now takes your saddlebag into account.
+:- Fixed a bug causing HP to sometimes get out of sync when hit by projectiles.
+:- The special teleportation scroll "Teleportation: Recall Gazluk Animal Camp", which can now be found rarely in loot, was teaching the special teleport destination "Recall Serbule Docks" instead. This has been fixed.
+:- Ukorga's tanning rack can be selected. This fix also fixes items falling through the floors in the houses in Kur Mountains.
+:- It's no longer freezing inside Ukorga's house.
+:- The quest "Cleo's Lost Books" from Cleo Conyers now tells the player to go east, not west. 
+:- Newbie players can find a free butcher knife at the top of Elmetaph's tower. (Previously there was a small chance to find a butcher knife in Lawara's chest; this has been removed)
+:- There has been a small change to the flow in the Anagoge Records Facility (the dungeon on the newbie island). There's a new barrier between the second and third floors that requires the player to talk to Elmetaph. This should not affect existing players who have already made it to Serbule Hills.
+:- Added a new emote! /kneel
+:- Added new dance animations for Cow, Pig, and Wolf dance variants. Cows speed up or slow down depending on the variant. Pig dances now involve a lot more mud. And some Wolf variants now come with glowy eyes!
+:- Polished Cow, Pig, and Wolf animations in general, adding some new ones and making them flow together more smoothly.
+:- Fixed grass pop-in issues in several zones.
+:- Fixed a bug where channeling while jumping breaks your character.
+:- Fixed a bug causing the Unarmed combat stance to sometimes show up when it shouldn't (for example, while playing a Bard song).
+:- Failure to revive a pet no longer plays the kick animation.
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

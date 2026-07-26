@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+George Madler has asked you to kill a goblin named Algapa. George thinks this goblin can be found in the dungeons beneath Eltibule Keep.
+
+===Prerequisites===
+To start this quest, talk to '''[[George Madler]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|The second goblin was the ship captain that held my wife as a slave. But that ship sank. So instead, I'll take revenge on his son, Algapa. Seems fair, right?
+
+And best of all, his son is right here! He's trying to make a name for himself under Eltibule Keep! I bet it'll be no trouble to kill him. Well... probably a <i>little</i> trouble. But it would help me sleep at night.}}
+
+===Requirements===
+* Kill the Goblin named Algapa
+* Talk to George Madler
+
+===Rewards===
+{{Spoiler|Rewards for Revenge For Slavery, Pt. 2|
+{{Quote|Algapa is dead? Hah! If only his father was still alive to weep for him. But no matter. Thank you. Here, let me give you what I can.}}
+
+* 250 {{Favor|favor}}
+* 1000 councils 
+* 1000 XP in [[Textile Creation]]
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/George Madler]]

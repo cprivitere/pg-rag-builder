@@ -1,0 +1,11 @@
+__NOTOC__
+{{Ability infobox
+| name = Deer Form
+| description = Become a deer.
+| level = 0
+| power cost = 30
+| reuse time = 10
+| range = 5 meters
+| skill = Unknown
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

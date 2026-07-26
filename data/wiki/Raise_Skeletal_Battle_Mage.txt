@@ -1,0 +1,76 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Battle Mage
+| description = Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. (You must be in a graveyard to use this ability. It consumes two Femurs.)
+| level = 12
+| power cost = 50
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonMage}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonSwordsmanOrMage}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Battle Mage 2
+| description = Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. (You must be in a graveyard to use this ability. It consumes two Femurs.)
+| level = 28
+| power cost = 75
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonMage}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonSwordsmanOrMage}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Battle Mage 3
+| description = Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. (You must be in a graveyard to use this ability. It consumes two Femurs.)
+| level = 42
+| power cost = 125
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonMage}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonSwordsmanOrMage}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Battle Mage 4
+| description = Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. (You must be in a graveyard to use this ability. It consumes two Femurs.)
+| level = 53
+| power cost = 150
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonMage}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonSwordsmanOrMage}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Battle Mage 5
+| description = Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. (You must be in a graveyard to use this ability. It consumes two Femurs.)
+| level = 64
+| power cost = 150
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonMage}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonSwordsmanOrMage}}
+}}
+|-
+|
+{{Ability infobox
+| name = Raise Skeletal Battle Mage 6
+| description = Raise a skeletal fire mage from death to serve you. Skeletal battle mages shoot fireballs at distant enemies and use area-effect burst attacks on close enemies. (You must be in a graveyard to use this ability. It consumes two Femurs.)
+| level = 75
+| power cost = 150
+| reuse time = 5
+| range = 3 meters
+| skill = Necromancy
+| keywords = {{KWAB|Necromancy}}{{KWAB|SummonSkeleton}}{{KWAB|SummonSkeletonMage}}{{KWAB|SummonSkeletonArcherOrMage}}{{KWAB|SummonSkeletonSwordsmanOrMage}}
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

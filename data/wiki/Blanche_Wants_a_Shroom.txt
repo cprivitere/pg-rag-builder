@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Blanche in Serbule wants some Boletus Mushrooms.
+
+===Prerequisites===
+To start this quest, talk to '''[[Blanche]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I need some mushrooms. But I don't want to deal with Jack today. He's such a goon. Can you get them for me?}}
+
+===Requirements===
+* Obtain {{Item|Boletus Mushroom}}s x3
+* Talk to Blanche
+
+===Rewards===
+{{Spoiler|Rewards for Blanche Wants a Shroom|
+{{Quote|Thanks! Did you pick these yourself? You're so talented! I'm only good at geology. But, um, here! Have some powdered geology remnants.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Sulfur}} x 5
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Blanche]]

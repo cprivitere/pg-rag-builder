@@ -1,0 +1,63 @@
+__NOTOC__
+{{NPC infobox
+|title            = Milton
+|image            = [[File:Milton.png|303px]]
+|caption          = A harried Sheep
+|zone = Kur Mountains
+|town = Sacred Grotto
+|location         = Found near the campfire
+|anatomy = Ruminant
+|species = Sheep
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = Yes
+}}
+{{Quote|
+...
+}}
+[[Milton]] is a Sheep living inside the [[Sacred Grotto]] Warden base in the [[Kur Mountains]].
+== Location ==
+;[[Sacred Grotto]]
+: Found inside this Warden refuge in the [[Kur Mountains]].
+== Shopkeeper ==
+[[Milton]] sells a selection of items in exchange for Warden Points.
+{{Vendor items sold}}
+
+'''Note''': It should be noted that at the present time, the animal 'disguise' kits do not actually do anything other than trick you into perhaps thinking they actually work. They do not. Nobody is fooled. However, the symbol of Arisetsu in each does work, meaning you can use the disguise kit to enable [[Priest]] abilities.
+
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Comfortable}}|
++2 Warden Points, +3 Warden Storage Slots}}
+{{Spoiler|Reward at {{Favor|Friends}}|
++4 Warden Points, +3 Warden Storage Slots
+}}
+{{Spoiler|Reward at {{Favor|Close Friends}}|
++6 Warden Points, +3 Warden Storage Slots
+}}
+{{Spoiler|Reward at {{Favor|Best Friends}}|
++8 Warden Points, +3 Warden Storage Slots
+{{Item|Classic Warden Ring}}
+}}
+{{Spoiler|Reward at {{Favor|Like Family}}|
++10 Warden Points, +3 Warden Storage Slots
+}}
+
+=== Hang Outs ===
+[[Milton]] has no Hang Outs.
+
+== Quests ==
+[[Milton]] does not offer any quests.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends =
+|RiShin Family = {{Item|Milton's Hat}} (Lv 65)
+}}
+== Conversations ==
+
+[[Category:NPCs]]

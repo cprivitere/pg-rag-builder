@@ -1,0 +1,70 @@
+==Update Notes: March 10, 2026==
+This is primarily a tech update: we've changed major versions of the Unity engine to address some crash bugs. But of course there's lots of other stuff too:
+
+===New Unity Version===
+To fix some issues, we've upgraded to Unity 6.3 LTS. This is a major version upgrade (though hopefully the last one for a year or so). All Unity version upgrades are scary and prone to cause (or reveal) exciting new bugs; please report any that you see!
+
+In conjunction with this change we have made significant changes to the vegetation and environmental render pipeline. It's expected that there will be some minor issues (such as weird color grading) here -- again, please report problems.
+
+===Redwing Casino Changes===
+We've added a new shopping mall to the Red Wing Casino! This is sort of a "sneak peek" version: it's still being fleshed out, but it's nice enough already that we wanted to get feedback and, more importantly, give people access to all the new stalls. There are 200 new player-vendor stalls here, in addition to the existing 50 stalls that were previously in other parts of the casino. The upper floor of the casino requires only that you have Retail Management trained; the lower floor requires Retail Management 10 to hire.
+
+We've also nade other changes to the casino:
+:- Cashfall Match-3 gives out a bit more money for chain reactions
+:- Lootmaster Match-3 mode now costs 450c per game rather than 500c
+:- the "Lootmaster Deluxe" match-3 game was previously only found in the advanced gaming room. It can now also be found on the regular casino floor.
+:- A new match-3 game variant called "Sea of Gems" can only be found in the advanced gaming room
+:- when betting on arena battles, your max-bet used to be 5000 plus an additional 2500 for every 9 levels of Gaming you have. This has changed to be 5000 plus 2500 for every 5 levels. This changes the max bet at level 50 from 17500 to 30,000
+:- When betting on arena battles, only one character per account can bet at a time
+:- added a spotlight in the arena that turns on while battles are happening
+
+===Search Golem Improvements===
+We've also made changes to shop-search golems. (These apply to the shop golems in all areas, not just the casino):
+:- after getting search results, there is a new "pop out results into new window" button. this button opens a new GUI window that can remain open even after you stop talking to the golem. You can click on shop names in this window and a glowing path will guide you to that shop
+:- changes to golem search: if no equipment slots are selected, assume ALL slots are desired. If no skills are selected, assume ALL skills are selected. And so on. Default to nothing selected, to make it easier to customize as needed
+:- when searching for an item by name, we previously omitted equipment. (Because there is a separate equipment search that allows more specialized searching.) This behavior feels surprising so equipment is no longer omitted
+:- search results were previously fully randomized. They are now randomized by grouping, meaning that all the stalls that are in the same stall-group are listed together. The stall groups are still ordered randomly, but they are weighted such that stall groups with more matching stalls are more likely to be listed first. In the long term, this subtly encourages players to open stalls in the same stall-group as similar stalls. (And is also a side-effect of how we coded it, but it seemed beneficial so we're calling it a feature.)
+
+===Boss Timing Changes===
+We've increased respawn rate of bosses used by casino dailies. In most cases this means they now respawn 60 seconds after their corpse disappears. This was not a trivial change because the boss' allies and "adds" (that is, their buddies that appear mid-combat) were scripted with the expectation that the boss wouldn't respawn more than once every 5 minutes. These encounters had to be revised in various ways. A common revision was to make some of the boss' entourage respawn immediately the moment the boss respawns, to ensure the boss is never alone.
+
+In addition, some non-boss spawners were sped up in affected dungeons. These were mostly for spawners that seemed pointlessly slow in the modern game.
+
+===Monster Recovery Changes===
+Elite monsters can be "locked" to a particular group that first attacks them. This "locked" status doesn't get reset until the monster has recovered ALL of their health. However, in the modern version of the game, most monsters regenerate at the insanely low rate of 1 health per 5 seconds out of combat. This meant that monsters could remain locked for a VERY long time, even though the people who locked it had long since left (or died).
+
+As of this update, monsters who have been out of combat for a while (10-15 seconds, not including time spent being crowd-controlled) will automatically recover all their Health and Armor. This allows Elite monsters to clear their lock status and other combat history quickly.
+
+(Note: it is intentional that monsters do NOT lose their accumulated Rage when they reset like this. They can still be pissed off about the earlier attack, and their feelings are valid.)
+
+===Everything Else===
+:- Fix for more instances of the "desync bug" causing entities to not appear to be where they actually are
+:- More scenery changes to Serbule, Eltibule, Ilmari
+:- Optimize vegetation in Serbule
+:- Flesh Lumps are worth significantly fewer Councils (25 instead of 75). They are still the same amounts of chewy and regenerating and shameful, though.
+:- Bread snacks and Bread meals no longer stack with other types of snacks and meals. This was a bug that was pretty OP but we wanted to let people have fun with it for a bit. But time's up
+:- The quests "Statehelm: Ratkin Muggers" and "Statehelm: Myconian Vagabonds" could previously be completed every game-night. They can now be completed once every 8 realtime hours
+:- Added new favor quests for Sourgum in Statehelm
+:- Windows: using the /wiki command in-game now opens the browser in a way that doesn't cause Steam to think your browser is a part of Project: Gorgon. (This could cause your Steam game time to be inflated, because Steam counted the time your browser was open even after the game was closed.)
+:- the Scion of Discord once again has his group-chat curse on his rage attack
+:- Fix bug causing some raffles to not display their cash prize
+:- Creatures can now start in their dead animation, rather than appearing and animating dead despite being already-dead for quite some time
+:- Improve UI and animations for character deletion
+:- Humanoid characters now enter into an optimized state at a certain distance, controlled by 2 settings: "LOD Bias" and "Character LOD Bias"
+:- Optimize nameplate update logic to reduce framerate spikes
+:- Disable shadow casting for fae foliage and jewelry
+:- Decrease animation processing for humanoids that are currently not visible
+:- Adjust cloud visuals so it's more obvious when there is sun vs no sun, for fletching boxes & vampires
+:- Fix bug causing titles to sometimes display a tag (e.g. "&lt;color=cyan&gt;")
+:- Fixed incorrect requirement to train Battle Chemistry Prodigy
+:- Fix bug causing some bald characters to sink into the ground and stop animating
+:- The "Placeholder NPC" for Battle Chemistry has a name and no longer offers to teach Battle Chemistry for free "to help test it". It now costs 10,000 Councils to learn (in addition to needing Alchemy 50.)
+:- Minigolem targeting logic change: for attacks like Taunting Punch, the golem previously attacked the enemy that did the most damage to it. Now, it tries to attack its owner's selected target (if that target is an enemy, not dead, and not mesmerized). If that doesn't work it falls back to attacking the enemy that did the most damage to it.
+:- Strom Farblood can now train Battle Chemistry golem abilities above level 80
+:- tweak bipedal animation issue with the transition from jumping to landing
+
+
+We'll be back soon with more changes and improvements!
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

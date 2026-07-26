@@ -1,0 +1,86 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[First Aid/Abilities|First Aid Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v401 on Fri Jan 12 2024 10:35:52 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|First Aid|2}} || 1 || First Aid || Use a Simple First Aid Kit (or better) to heal yourself or an ally. There is a 10% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 50 Health ||  || <b>Power Cost:</b> 12<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|First Aid Bomb|2}} || 1 || First Aid Bomb || Use a Simple First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 40 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 8<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|First Aid 2|2}} || 10 || First Aid 2 || Use a Basic First Aid Kit (or better) to heal yourself or an ally. There is a 10% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 70 Health ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|First Aid Bomb 2|2}} || 10 || First Aid Bomb 2 || Use a Basic First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 60 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 11<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Treat Disease|2}} || 15 || Treat Disease || Use a Basic First Aid Kit (or better) to remove one basic disease from yourself or an ally. The First Aid Kit is used up. ||  ||  || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|First Aid 3|2}} || 20 || First Aid 3 || Use a Good First Aid Kit (or better) to heal yourself or an ally. There is a 10% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 90 Health ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|First Aid Bomb 3|2}} || 20 || First Aid Bomb 3 || Use a Good First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 80 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 13<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Field Surgery|2}} || 25 || Field Surgery || Use 3 Good First Aid Kits (or better) to heal yourself or an ally. The First Aid Kits are used up. || Restores 200 Health. ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 2 || <b>Training:</b> [[Yalox]]
+|-
+| {{Ability icon|First Aid 4|2}} || 30 || First Aid 4 || Use an Expert's First Aid Kit (or better) to heal yourself or an ally. There is a 10% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 110 Health ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Moss Bone Repair|2}} || 30 || Moss Bone Repair || Use a Tundra Lichen to repair a broken bone. || Repairs 1 broken bone. ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Gift:</b> [[Glowing Sphere]]
+|-
+| {{Ability icon|First Aid Bomb 4|2}} || 30 || First Aid Bomb 4 || Use an Expert's First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 100 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 16<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Treat Disease 2|2}} || 35 || Treat Disease 2 || Use a Good First Aid Kit (or better) to remove one complex disease from yourself or an ally. The First Aid Kit is used up. ||  ||  || <b>Power Cost:</b> 28<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|First Aid 5|2}} || 40 || First Aid 5 || Use a Master First Aid Kit to heal yourself or an ally. There is a 10% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 130 Health ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|First Aid Bomb 5|2}} || 40 || First Aid Bomb 5 || Use a Master First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 120 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 19<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Resuscitate|2}} || 45 || Resuscitate || Bring a seemingly-dead ally back to life. Consumes 2 Diamonds. The ally will return with 1 Health. (And may die again immediately if they are in a dangerous environment!) ||  ||  || <b>Power Cost:</b> 73<br><b>Range:</b> 5<br><b>Cooldown:</b> 900 || <b>Training:</b> [[Yagreet]]
+|-
+| {{Ability icon|First Aid 6|2}} || 50 || First Aid 6 || Use an Amazing First Aid Kit to heal yourself or an ally. There is a 10% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 150 Health ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Yagreet]]
+|-
+| {{Ability icon|Treat Disease 3|2}} || 50 || Treat Disease 3 || Use an Expert's First Aid Kit (or better) to remove one advanced disease from yourself or an ally. The First Aid Kit is used up. ||  ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Field Surgery 2|2}} || 50 || Field Surgery 2 || Use 3 Expert's First Aid Kits (or better) to heal yourself or an ally. The First Aid Kits are used up. || Restores 250 Health and regenerates 8 Health per second for 30 seconds. ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 3 || <b>Training:</b> [[Yalox]]
+|-
+| {{Ability icon|First Aid Bomb 6|2}} || 50 || First Aid Bomb 6 || Use an Amazing First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 140 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 22<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Norbert]]
+|-
+| {{Ability icon|Resuscitate 2 (Guild)|2}} || 50 || Resuscitate 2 (Guild) || Bring a seemingly-dead ally back to life. The ally will return with half of their Max Health. Consumes 3 Guild Credits. ||  ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 3600 || <b>Item:</b> [[First Aid: Resuscitate 2 (Guild)]]
+|-
+| {{Ability icon|Resuscitate 2 (Hardcore, Guild)|2}} || 50 || Resuscitate 2 (Hardcore, Guild) || Bring a seemingly-dead ally back to life. The ally will return with half of their Max Health. Consumes 1 Guild Credit. You must be Hardcore to use this ability. ||  ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 3600 || <b>Item:</b> [[First Aid: Resuscitate 2 (Hardcore, Guild)]]
+|-
+| {{Ability icon|Resuscitate 2 (Animal, Guild)|2}} || 50 || Resuscitate 2 (Animal, Guild) || Bring a seemingly-dead ally back to life. The ally will return with half of their Max Health. Consumes 2 Guild Credits. You must be in a long-term animal form to use this ability. ||  ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 3600 || <b>Item:</b> [[First Aid: Resuscitate 2 (Animal, Guild)]]
+|-
+| {{Ability icon|Treat Cold Exposure|2}} || 55 || Treat Cold Exposure || Use an Expert's First Aid Kit (or better) to counteract the effects of cold exposure such as frostbite and hypothermia. Restores 100 Body Heat. ||  ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 3600 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Set Broken Bone|2}} || 55 || Set Broken Bone || Use a Master First Aid Kit (or better) to heal a broken bone. There is a 33% chance the First Aid Kit will be used up. || Repairs 1 broken bone. ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Resuscitate 2|2}} || 60 || Resuscitate 2 || Bring a seemingly-dead ally back to life. Consumes 2 Diamonds. The ally will return with half of their Max Health. ||  ||  || <b>Power Cost:</b> 87<br><b>Range:</b> 5<br><b>Cooldown:</b> 900 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|First Aid 7|2}} || 60 || First Aid 7 || Use an Amazing First Aid Kit to heal yourself or an ally. There is a 25% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 175 Health ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Soberize|2}} || 60 || Soberize || Use an Amazing First Aid Kit (or better) to help someone suffering from alcohol poisoning. || For 15 minutes, the target's liver metabolizes alcohol twice as fast as normal. ||  || <b>Power Cost:</b> 52<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|First Aid Bomb 7|2}} || 60 || First Aid Bomb 7 || Use an Amazing First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 165 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 24<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Item:</b> [[First Aid: First Aid Bomb 7]]
+|-
+| {{Ability icon|Treat Disease 4|2}} || 65 || Treat Disease 4 || Use a Master First Aid Kit (or better) to remove one serious disease from yourself or an ally. The First Aid Kit is used up. ||  ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Leah Bowman]]
+|-
+| {{Ability icon|Field Surgery 3|2}} || 70 || Field Surgery 3 || Use 3 Amazing First Aid Kits (or better) to heal yourself or an ally. The First Aid Kits are used up. || Restores 500 Health and regenerates 12 Health per second for 30 seconds. ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 3 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|First Aid 8|2}} || 70 || First Aid 8 || Use an Astounding First Aid Kit to heal yourself or an ally. There is a 10% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 200 Health ||  || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|Emergency Alcohol Treatment|2}} || 70 || Emergency Alcohol Treatment || Use an Astounding First Aid Kit (or better) to help someone suffering from severe alcohol poisoning. This treatment can only be used periodically, so is best saved for emergencies. || Instantly reduce target's blood alcohol level by one tier. For 15 minutes, the target's liver metabolizes alcohol three times faster than normal. ||  || <b>Power Cost:</b> 58<br><b>Range:</b> 5<br><b>Cooldown:</b> 3600 || <b>Training:</b> [[Mox Warcut]]
+|-
+| {{Ability icon|First Aid Bomb 8|2}} || 70 || First Aid Bomb 8 || Use an Astounding First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 190 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 27<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Item:</b> [[First Aid: First Aid Bomb 8]]
+|-
+| {{Ability icon|Field Prophylactic|2}} || 80 || Field Prophylactic || Use an Astounding First Aid Kit (or better) to prepare someone for entering a hazardous medical environment. || For 60 minutes, target gains +5 Trauma Mitigation, +5 Psychic Mitigation, and +5 Poison Mitigation ||  || <b>Power Cost:</b> 64<br><b>Range:</b> 5<br><b>Cooldown:</b> 900 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|First Aid 9|2}} || 80 || First Aid 9 || Use an Astounding First Aid Kit to heal yourself or an ally. There is a 25% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 225 Health ||  || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|First Aid Bomb 9|2}} || 80 || First Aid Bomb 9 || Use an Astounding First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 215 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 30<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Item:</b> [[First Aid: First Aid Bomb 9]]
+|-
+| {{Ability icon|Resuscitate 3|2}} || 90 || Resuscitate 3 || Bring a seemingly-dead ally back to life. Consumes 2 Diamonds. The ally will return with all of their Max Health. ||  ||  || <b>Power Cost:</b> 117<br><b>Range:</b> 5<br><b>Cooldown:</b> 900 || <b>Item:</b> [[First Aid: Resuscitate 3]]
+|-
+| {{Ability icon|First Aid 10|2}} || 90 || First Aid 10 || Use an Astounding First Aid Kit to heal yourself or an ally. There is a 25% chance the First Aid Kit will be used up.<br><b>This is a Major Heal</b> || <b>Restore:</b> 250 Health ||  || <b>Power Cost:</b> 52<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[First Aid: First Aid 10]]
+|-
+| {{Ability icon|First Aid Bomb 10|2}} || 90 || First Aid Bomb 10 || Use an Astounding First Aid Bomb (or better) to heal yourself and all nearby allies. Only animals can use this ability.<br><b>This is a Major Heal</b> || <b>Restore:</b> 240 Health to You and Nearby Allies ||  || <b>Power Cost:</b> 33<br><b>AoE:</b> 15<br><b>Cooldown:</b> 30 || <b>Item:</b> [[First Aid: First Aid Bomb 10]]
+|-
+| {{Ability icon|Field Surgery 4|2}} || 90 || Field Surgery 4 || Use 3 Astounding First Aid Kits (or better) to heal yourself or an ally. The First Aid Kits are used up. || Restores 750 Health and regenerates 15 Health per second for 30 seconds. ||  || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 3 || <b>Item:</b> [[First Aid: Field Surgery 4]]
+|}

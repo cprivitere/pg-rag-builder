@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Eveline Rastin in Red Wing Casino said, "Fairies have a kind of cloth called fae felt. There's also a drug called fae felt, so it gets kind of confusing... but I really want some of the cloth. Just to understand what it feels like, looks like, smells like. If you find some, can you bring it to me?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Eveline Rastin]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|
+Fairies have a kind of cloth called fae felt. There's also a drug called fae felt, so it gets kind of confusing... but I really want some of the cloth. Just to understand what it feels like, looks like, smells like. If you find some, can you bring it to me?
+}}
+
+===Requirements===
+* Obtain {{Item|Fae Felt}} x1
+* Talk to [[Eveline Rastin]]
+
+===Rewards===
+{{Spoiler|Rewards for Fae Felt (Quest)|
+{{Quote|
+Oh my... this is the softest material I've ever felt! I'm in love with this felt!\n\nIn fact... this is the perfect ingredient for the clothing I've been designing!
+}}
+* New Tailoring Recipes Available
+* 200 favor towards Eveline Rastin
+* {{Item|Red Wing Token}} X3
+}}
+
+[[Category:Quests]][[Category:Quests/Eveline Rastin]][[Category:Quests/Red Wing Casino Quests]]

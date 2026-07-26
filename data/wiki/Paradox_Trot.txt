@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Paradox Trot
+| description = Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you.
+| level = 12
+| power cost = 25
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|ParadoxTrot}}
+| special = Sprint Speed 0 (out of combat). Gain +10 Universal Indirect Mitigation for 60 seconds or until you enter combat.
+}}
+|-
+|
+{{Ability infobox
+| name = Paradox Trot 2
+| description = Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you.
+| level = 24
+| power cost = 32
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|ParadoxTrot}}
+| special = Sprint Speed 0 (out of combat). Gain +20 Universal Indirect Mitigation for 60 seconds or until you enter combat.
+}}
+|-
+|
+{{Ability infobox
+| name = Paradox Trot 3
+| description = Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you.
+| level = 36
+| power cost = 40
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|ParadoxTrot}}
+| special = Sprint Speed 0 (out of combat). Gain +30 Universal Indirect Mitigation for 60 seconds or until you enter combat.
+}}
+|-
+|
+{{Ability infobox
+| name = Paradox Trot 4
+| description = Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you.
+| level = 48
+| power cost = 46
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|ParadoxTrot}}
+| special = Sprint Speed 0 (out of combat). Gain +40 Universal Indirect Mitigation for 60 seconds or until you enter combat.
+}}
+|-
+|
+{{Ability infobox
+| name = Paradox Trot 5
+| description = Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you.
+| level = 60
+| power cost = 52
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|ParadoxTrot}}
+| special = Sprint Speed 0 (out of combat). Gain +50 Universal Indirect Mitigation for 60 seconds or until you enter combat.
+}}
+|-
+|
+{{Ability infobox
+| name = Paradox Trot 6
+| description = Protect yourself from environmental extremes by paradoxically existing in both the real world and the ghost world at the same time. This effect ends if an enemy sees you.
+| level = 72
+| power cost = 58
+| reuse time = 30
+| range = 4 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|ParadoxTrot}}
+| special = Sprint Speed 0 (out of combat). Gain +60 Universal Indirect Mitigation for 60 seconds or until you enter combat.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,102 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Mangling Shot
+| description = Hit your enemy with a precision attack on a vulnerable spot. You must have a Beginner's Long Arrow (or better) in your inventory.
+| level = 20
+| power cost = 48
+| reuse time = 20
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|ManglingShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|NiceAttack}}
+| damage = 71 Piercing + 71 if target is Vulnerable
+| special = Target is stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Mangling Shot 2
+| description = Hit your enemy with a precision attack on a vulnerable spot. You must have a Basic Long Arrow (or better) in your inventory.
+| level = 30
+| power cost = 58
+| reuse time = 20
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|ManglingShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|NiceAttack}}
+| damage = 115 Piercing + 115 if target is Vulnerable
+| special = Target is stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Mangling Shot 3
+| description = Hit your enemy with a precision attack on a vulnerable spot. You must have an Advanced Long Arrow (or better) in your inventory.
+| level = 40
+| power cost = 69
+| reuse time = 20
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|ManglingShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|NiceAttack}}
+| damage = 175 Piercing + 175 if target is Vulnerable
+| special = Target is stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Mangling Shot 4
+| description = Hit your enemy with a precision attack on a vulnerable spot. You must have an Expert's Long Arrow (or better) in your inventory.
+| level = 50
+| power cost = 77
+| reuse time = 20
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|ManglingShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|NiceAttack}}
+| damage = 270 Piercing + 270 if target is Vulnerable
+| special = Target is stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Mangling Shot 5
+| description = Hit your enemy with a precision attack on a vulnerable spot. You must have a Masterwork Long Arrow (or better) in your inventory.
+| level = 60
+| power cost = 87
+| reuse time = 20
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|ManglingShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|NiceAttack}}
+| damage = 367 Piercing + 367 if target is Vulnerable
+| special = Target is stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Mangling Shot 6
+| description = Hit your enemy with a precision attack on a vulnerable spot. You must have an Amazing Long Arrow (or better) in your inventory.
+| level = 70
+| power cost = 96
+| reuse time = 20
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|ManglingShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|NiceAttack}}
+| damage = 468 Piercing + 468 if target is Vulnerable
+| special = Target is stunned.
+}}
+|-
+|
+{{Ability infobox
+| name = Mangling Shot 7
+| description = Hit your enemy with a precision attack on a vulnerable spot. You must have an Astonishing Long Arrow (or better) in your inventory.
+| level = 80
+| power cost = 107
+| reuse time = 20
+| range = 30 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|ManglingShot}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}{{KWAB|NiceAttack}}
+| damage = 587 Piercing + 587 if target is Vulnerable
+| special = Target is stunned.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Pennoc in Serbule told you to eat lots of prepared foods.
+
+===Prerequisites===
+To start this quest, talk to '''[[Pennoc]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|Hmm, go and, and... eat! Eat a ton of cooked food all at once!}}
+
+===Requirements===
+* Eat Prepared Food
+* Talk to Pennoc
+
+===Rewards===
+{{Spoiler|Rewards for Entertain Me: Gorging on Food|
+{{Quote|You aren't nearly as incapacitated as I'd have expected from someone who just ate 12 meals. Boring. But I guess you tried.}}
+
+* 150 councils
+This quest will reward random loot. This may include items with 25 level mods.}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Entertain Me]][[Category:Quests/Pennoc]]

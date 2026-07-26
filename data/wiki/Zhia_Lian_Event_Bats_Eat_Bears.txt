@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> I need to know how great bats really are. Can you fly in a snowstorm? And how dangerous are you, really? Hmm... Let's find out: go kill polar bears as a bat!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> I need to know how great bats really are. Can you fly in a snowstorm? And how dangerous are you, really? Hmm... Let's find out: go kill polar bears as a bat!
+
+===Requirements===
+* Kill polar bears as a bat x5
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> I guess it didn't look more absurd than usual. Okay, I'm still a fan of bats!
+
+But I can only really have one symbolic animal association... I really need to see something impressive here.}}
+* 2000 councils
+* {{Item|Event Loot Key (Universal)}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

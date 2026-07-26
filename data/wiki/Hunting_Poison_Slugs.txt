@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+You're killing poison slugs in the lakes of Eltibule.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Poison Slugs</b>
+The lakes of Eltibule are infested with these gigantic venomous slugs. With no natural predators, their growth is unchecked.
+
+===Requirements===
+* Kill Poison Slugs x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 600 Combat XP for your active skills
+* 50 XP in Fish and Snail Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Hunting Quests]]

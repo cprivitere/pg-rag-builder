@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Furlak in Rahu asked you to bring him some Dwarven N Cores. He claims they can be found in ruins deep in the Ilmari desert.
+
+===Prerequisites===
+To start this quest, talk to '''[[Furlak]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|When I was an active general, I was given a gift by a visiting dwarven emissary. It's a mechanical back-scratching arm. It was my prized possession for years, until it broke.
+
+Ufkar says it's not really broken, though, just out of magic. I need something called an 'N Core'. Two of them, actually. I've heard of adventurers finding them in the desert. Usually in those ruins from the war.}}
+
+===Requirements===
+* Obtain {{Item|Dwarven N Core}}s x2
+* Talk to Furlak
+
+===Rewards===
+{{Spoiler|Rewards for Powering The Back-Scratcher|
+{{Quote|Just looking at these, I can almost feel the back scratcher running up and down my back... ahh, this is going to feel so good. Excuse me, please.}}
+
+* 100 {{Favor|favor}}
+* 1000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Furlak]]

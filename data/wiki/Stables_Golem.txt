@@ -1,0 +1,33 @@
+<!-- Minimal NPC Template for minimal function.
+{{Ambox
+|border=blue
+|type='''Page Needs Attention.'''
+|info=<span style="color:#c80000; font-weight:bold;">This page does not meet the [[NPC Template]] standard. <br/>[[Category:Pages Needing Attention]] <br/></span>
+}}
+-->
+__NOTOC__
+{{NPC infobox
+|title            = Stables Golem
+|image            = [[File:Stables_Golem.png]]
+|caption          = This little automaton stares at you blankly.
+|zone             = Serbule Hills
+|town             = Tapestry Inn
+|location         = In front of barn next to the inn
+|anatomy          = Construct
+|species          = Golem
+|beastspeak       = ?
+|beastlist        = ?
+}}
+{{Quote |
+"It stares at you with a blank expression"
+}}
+
+==Location==
+[[Serbule Hills]], in front of the barn beside the [[Tapestry Inn]].
+
+==Services==
+This golem is a stable keeper for the [[Animal Handling]] skill and is used to manage pets.
+
+Interacting with this golem provides a menu for '''renaming''' and '''releasing''' stored pets.
+[[Category:NPCs]]
+[[Category:Stablemaster]][[Category:NoRiShin]]

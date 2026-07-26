@@ -1,0 +1,116 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sir Taggart
+|caption          = His eyes periodically dart to the skies.
+|zone             = Vidaria
+|town = 
+|location         = South-Central Council Camp.
+|anatomy = Human
+|species = Human
+|beastspeak       = ???
+}}
+{{Quote|source=[[Sir Taggart]]|
+I'm technically a Captain in the Third Column. But it's not much of a Column anymore. We're all just doing our best.
+}}
+[[Sir Taggart]] is Council soldier stationed in Vidaria.
+== Location ==
+; [[Vidaria]]
+: [[Sir Taggart]] can be found inside a tent at the south-central council encampment. 
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+* [[Sir Taggart]] is not willing to reveal his likes to individuals with '''{{favor|Neutral}}''' favor.
+{{:{{msg:BASEPAGENAME}}/Small_talk}}<!-- Add an area displaying the favor categories the NPC claims to enjoy. -->
+=== Favor Rewards === <!-- 
+[[Marna]] rewards her friends with [[Storage]] space and items.
+{{Spoiler|Reward at {{Favor|Comfortable}}:|
+:{{Item|Lembas Brick}} x2
+}}
+{{Spoiler|Reward at {{Favor|Friends}}:|
+:{{Item|Flower Dainties}} (with random enchant).
+}}-->
+
+=== Hang Outs ===<!-- 
+{{Spoiler|Hike to a remote meditation pillar(8h)|
+{{Quote|
+Echur said, "The scenery was great, wasn't it? Even if the meditation was kind of a drag. Well, not every meditation session goes as planned, you know? But we just come back to it tomorrow and try it again."
+}}
+:65 favor with [[Echur]]
+:300 Meditation XP
+}} -->
+
+== Quests ==
+[[Sir Taggart]] offers quests around the Council Camps of [[Vidaria]]. 
+<dpl>
+category = Quests/Sir Taggart
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services == 
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Potion of Undead Detection}}
+|RiShin Family = ???
+}}
+
+== Conversations == 
+{{Quote|source=[[Sir Taggart]]|
+As if the demons weren't bad enough, now we've got undead attacking too! Plus the opportunistic orc attacks. And the growing bandit problem. The odds are starting to feel out of favor.}}
+{{Quote|source=[[Sir Taggart]]|
+Don't let undead into my camp! Remember the [[Gunich Incident]]? If bits of undead get into our food or water supply, everybody gets sick.
+
+'''What's going on here?'''
+
+Have you spotted the giant floating rock yet? That's what's going on. Made a giant hole in the ground, and now monsters are coming out. 
+
+I'm in charge of keeping this disaster contained. If you want to do us a favor and help our, I'm not going to say no. Otherwise, just don't jump in the hole, okay? It's not a magical portal to riches, it's a deathtrap. You wouldn't believe it, but we've already had 229 deaths due to people jumping. It's been a real problem. Don't be a statistic.
+
+'''How did this floating rock thing happen?'''
+
+You ask a lot of questions ''Sir Taggart takes a crystal from his pocket and waves it near you.''
+
+Bullshit.
+
+'''I asked two questions. That's not a lot. And what's bullshit?'''
+
+Says here's you're a ... 'Agent Provocateur.' Whatever the hell that is. So you're in good with the Council, eh?
+
+'''Um... yes.'''
+
+Well. It's about time they sent some ground support! So they sent you out here unbriefed? Typical.
+
+'''I'm afraid so.'''
+
+I'll go over it quickly. Not two weeks ago, the demons somehow managed to burrow under the central control sphere and attack it. We were taken by surprise and couldn't get ahold of the situation, so we did the unthinkable: we asked the Council mages to help.
+
+And hour later, the control sphere and all the land around it were ripped out of the ground, and a beam of light brighter than the sun itself poured into the hole.
+
+The next day the Mage-Engineers came out and set up an anti-magic barrier. So that should have been the end of it.
+
+'''But it's not the end of it?'''
+
+Well, the control sphere is still up in the air where it's pretty difficult to protect. I asked the Mage-Engineers when the island would come down, and they just shrugged and laughed. General consensus was spells like this typically last either a year and day, or twenty thousand years. One or the other. 
+
+But the bigger problem right now is the hole. 
+
+'''Demons can still come through the hole?'''
+
+No, we found that rubywall breach and filled it, and we've since collapsed all their underground tunnels. The problem isn't demons. It's undead!
+
+I don't know what's down there, but the energy blast awoke something bad down there. Something long buried. And its evil is leaching out of the hold and manifesting in undead.
+
+So theoretically this outpost was for protecting the control sphere, but since it's pretty high up now, we're trying to keep the undead from overrunning the place. If they get a foothold and can amass large numbers, they'll be a serious problem.
+
+'''So you're constantly killing undead? What's the long-term plan?'''
+
+Look, Agent Provocatator, you surely know more about the master plan than I do!
+
+I guess the official plan is that once the demons are dealt with, the army can come put an end to this menace. Or something. 
+
+Realistically, we stay here for as long as it takes, and we keep this from becoming a major problem. If it becomes a major problem we'll have to ask the Council mages for help again. And we do NOT want to do that. They always have a quick solution that just creates new problems.
+
+'''I see. Thanks for the info.'''}} <!-- Yes, he says Provocatator the second time, not Provocateur -->
+[[Category:NPCs]]

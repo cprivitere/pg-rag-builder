@@ -1,0 +1,62 @@
+__NOTOC__
+{{Skill infobox
+|title            = Bladesmithing
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = A specialization of Blacksmithing. Although bladesmiths can craft excellent weapons, they are often more preoccupied with maintaining blades at peak performance.
+|skilltype        = Trade Skill 
+|maxlevel         = 100
+|req              =  50 blacksmithing 
+|skilltrainers    = [[Inella]], [[Dunahain Broadarm]], [[Winston Veilmoor]]
+}}
+{{Quote|
+A specialization of Blacksmithing. Although bladesmiths can craft excellent weapons, they are often more preoccupied with maintaining blades at peak performance.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+'''Bladesmithing''' is used to craft bladed weapons like swords, knives, dirks, claws, and tuneup kits.
+
+=== In-Game Description ===
+A specialization of Blacksmithing. Although bladesmiths can craft excellent weapons, they are often more preoccupied with maintaining blades at peak performance.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Inella]] in [[Elven Judgement]] will teach Bladesmithing after you defeat [[Kunax the Dread]].
+* Levels 71-80 and 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+* [[Winston Veilmoor]] in [[Statehelm]]'s market district unlocks Levels 81-90 and 91-100.
+
+== Connected Skills ==
+====Parent skill====
+[[Blacksmithing]]
+
+====Synergy Levels====
+Bonus [[Synergy Levels]] for [[Bladesmithing]] can be obtained from the following skills and levels:
+:; [[Armor Patching]]
+:: Level 95
+:; [[Blacksmithing]]
+:: Level 100
+:; [[Knife]]
+:: Level 110
+:; [[Knife Fighting]]
+:: Level 58
+:; [[Meditation]]
+:: Level 55
+:; [[Sushi Preparation]]
+:: Level 30
+:; [[Sword]]
+:: Level 60, Level 110
+:; [[Toolcrafting]]
+:: Level 100
+:; [[Transmutation]]
+:: Level 80
+:; [[Weapon Augmentation]]
+:: Level 40, Level 80
+
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill}}
+}}
+
+[[Category:Skills]]

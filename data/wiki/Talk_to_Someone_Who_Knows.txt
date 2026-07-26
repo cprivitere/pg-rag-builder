@@ -1,0 +1,15 @@
+__NOTOC__
+==Summary==
+Maybe you should talk to Harry about how to fix your unfortunate cow-hood. If there's one person who knows animal transformation curses, it's Harry.
+
+
+
+===Requirements===
+* Talk to Harry
+
+===Rewards===
+{{Spoiler|Rewards|
+* 25 XP in Cow
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]]

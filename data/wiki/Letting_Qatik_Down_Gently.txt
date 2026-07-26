@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Irkima in Red Wing Casino said, "It was a mistake to speak with my superior about personal matters. While conversing amicably to my boss, [[Qatik]], I mentioned my attraction to [[Tavilak]]. Qatik became emotional and demanded that I never mate with Tavilak. I suspect Qatik wants to mate with me herself. I enjoy Qatik's company more than any other Red Wing mantis, but I am not interested in mating with her. Could you explain this to Qatik for me? Make it seem like the topic is entirely your idea."
+
+===Prerequisites===
+To start this quest, talk to '''[[Irkima]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|
+It was a mistake to speak with my superior about personal matters. While conversing amicably to my boss, [[Qatik]], I mentioned my attraction to [[Tavilak]]. Qatik became emotional and demanded that I never mate with Tavilak. I suspect Qatik wants to mate with me herself. I enjoy Qatik's company more than any other Red Wing mantis, but I am not interested in mating with her. Could you explain this to Qatik for me? Make it seem like the topic is entirely your idea.
+}}
+
+===Requirements===
+* Speak with [[Qatik]] about [[Tavilak]]
+* Talk to Irkima
+===Midway Text===
+{{Spoiler|Response from [[Qatik]]|
+What? Did [[Irkima]] put you up to this? Look, I don't want to mate with Irkima. I am busy wooing a Red Wing general and do not need to add further complexity to my relationships! I simply need him to pick a different mate than [[Tavilak]]. She is a good worker and a dangerous warrior, but she is not a good mate for Irkima. Tell him that I will be happy to find a nice willing mate for him... one that doesn't kill their partners!
+}}
+===Rewards===
+{{Spoiler|Rewards for Letting Qatik Down Gently|
+{{Quote|
+Oh. Qatik does not wish to mate with me? And Tavilak has eaten her mating partners in the past?! That is the piece of information I needed. Qatik's behavior now makes sense, although I still do not like it! Please, I need another favor of you...
+}}
+* 100 favor towards Irkima
+* {{Item|Red Wing Token}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Irkima]][[Category:Quests/Red Wing Casino Quests]]

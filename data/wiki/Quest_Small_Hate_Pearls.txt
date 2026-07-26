@@ -1,0 +1,33 @@
+__NOTOC__
+''Previous quest (to unlock): [[Grasuul the Butler]]''
+
+==Summary==
+[[Truxartis]] asked me to loot Small Hate Pearls from living creatures and bring them to him. This is a repeatable daily quest offered on Wednesdays and Saturdays.
+
+===Prerequisites===
+To receive this quest, talk to '''[[Truxartis]]''' in '''[[Vidaria]]'''. The quest is available after completing [[Grasuul the Butler]] and is offered on Wednesdays and Saturdays.
+
+===Preface===
+{{Quote|I have need of small hate pearls. But they must be extraordinarily... fresh, and must come from a living creature. I can't use those worthless manufactured hate pearls!
+
+Speak with Grasuul to learn what blood is fresh today. Hunt those creatures. But be warned -- some creatures are more hateful than others. I am content to wait a day or two if necessary.}}
+
+===Requirements===
+* Loot {{Item|Small Hate Pearl}} x5 from living creatures (must be looted — crafted or purchased pearls are not accepted)
+* Keep the Small Hate Pearls in your inventory
+* Talk to [[Truxartis]]
+
+===Rewards===
+{{Spoiler|Rewards for Small Hate Pearls|
+{{Quote|And these all came from the still-beating hearts of living, or at least un-living, creatures? Good... good. You may go.}}
+
+* 50 {{Favor|favor}}
+* 10 Blood Oaths
+}}
+
+===Notes===
+{{Spoiler|Notes|
+[[Truxartis]] randomly assigns one daily Blood Oath quest per real-world day. Speak with [[Grasuul]] for guidance on which blood targets are freshest today.
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Truxartis]]

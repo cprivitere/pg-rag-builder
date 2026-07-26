@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Psychoanalyze
+| description = You attempt to unravel the target's rage, making it more difficult for them to use their Rage attacks. (Chances of success are based on your Psychology skill and the enemy's mental proficiency.)
+| level = 1
+| power cost = 14
+| reuse time = 30
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|Psychoanalyze}}{{KWAB|PsychologyAttack}}{{KWAB|PhrenologyCriticals}}{{KWAB|SignatureDebuff}}{{KWAB|Ranged}}
+| damage = 16 Psychic
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Psychoanalyze 2
+| description = You attempt to unravel the target's rage, making it more difficult for them to use their Rage attacks. (Chances of success are based on your Psychology skill and the enemy's mental proficiency.)
+| level = 16
+| power cost = 22
+| reuse time = 30
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|Psychoanalyze}}{{KWAB|PsychologyAttack}}{{KWAB|PhrenologyCriticals}}{{KWAB|SignatureDebuff}}{{KWAB|Ranged}}
+| damage = 46 Psychic
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Psychoanalyze 3
+| description = You attempt to unravel the target's rage, making it more difficult for them to use their Rage attacks. (Chances of success are based on your Psychology skill and the enemy's mental proficiency.)
+| level = 31
+| power cost = 30
+| reuse time = 30
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|Psychoanalyze}}{{KWAB|PsychologyAttack}}{{KWAB|PhrenologyCriticals}}{{KWAB|SignatureDebuff}}{{KWAB|Ranged}}
+| damage = 64 Psychic
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Psychoanalyze 4
+| description = You attempt to unravel the target's rage, making it more difficult for them to use their Rage attacks. (Chances of success are based on your Psychology skill and the enemy's mental proficiency.)
+| level = 47
+| power cost = 37
+| reuse time = 30
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|Psychoanalyze}}{{KWAB|PsychologyAttack}}{{KWAB|PhrenologyCriticals}}{{KWAB|SignatureDebuff}}{{KWAB|Ranged}}
+| damage = 128 Psychic
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Psychoanalyze 5
+| description = You attempt to unravel the target's rage, making it more difficult for them to use their Rage attacks. (Chances of success are based on your Psychology skill and the enemy's mental proficiency.)
+| level = 60
+| power cost = 43
+| reuse time = 30
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|Psychoanalyze}}{{KWAB|PsychologyAttack}}{{KWAB|PhrenologyCriticals}}{{KWAB|SignatureDebuff}}{{KWAB|Ranged}}
+| damage = 231 Psychic
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|-
+|
+{{Ability infobox
+| name = Psychoanalyze 6
+| description = You attempt to unravel the target's rage, making it more difficult for them to use their Rage attacks. (Chances of success are based on your Psychology skill and the enemy's mental proficiency.)
+| level = 74
+| power cost = 50
+| reuse time = 30
+| range = 10 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|Psychoanalyze}}{{KWAB|PsychologyAttack}}{{KWAB|PhrenologyCriticals}}{{KWAB|SignatureDebuff}}{{KWAB|Ranged}}
+| damage = 323 Psychic
+| special = Target needs 50% more Rage to fill their Rage Meter.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

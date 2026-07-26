@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Positive Attitude
+| description = Use the power of optimism to recover from your injuries.
+| level = 18
+| power cost = 0
+| reuse time = 60
+| range = 3 meters
+| skill = Psychology
+| keywords = {{KWAB|Psychology}}{{KWAB|PositiveAttitude}}{{KWAB|PsychologyHeal}}{{KWAB|SurvivalUtility}}
+| special = Restore 30 Health. Restore 30 Armor. Restore 30 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Positive Attitude 2
+| description = Use the power of optimism to recover from your injuries.
+| level = 33
+| power cost = 0
+| reuse time = 60
+| range = 3 meters
+| skill = Psychology
+| keywords = {{KWAB|Psychology}}{{KWAB|PositiveAttitude}}{{KWAB|PsychologyHeal}}{{KWAB|SurvivalUtility}}
+| special = Restore 50 Health. Restore 50 Armor. Restore 50 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Positive Attitude 3
+| description = Use the power of optimism to recover from your injuries.
+| level = 56
+| power cost = 0
+| reuse time = 60
+| range = 3 meters
+| skill = Psychology
+| keywords = {{KWAB|Psychology}}{{KWAB|PositiveAttitude}}{{KWAB|PsychologyHeal}}{{KWAB|SurvivalUtility}}
+| special = Restore 70 Health. Restore 70 Armor. Restore 70 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Positive Attitude 4
+| description = Use the power of optimism to recover from your injuries.
+| level = 71
+| power cost = 0
+| reuse time = 60
+| range = 3 meters
+| skill = Psychology
+| keywords = {{KWAB|Psychology}}{{KWAB|PositiveAttitude}}{{KWAB|PsychologyHeal}}{{KWAB|SurvivalUtility}}
+| special = Restore 90 Health. Restore 90 Armor. Restore 80 Power.
+}}
+|-
+|
+{{Ability infobox
+| name = Positive Attitude 5
+| description = Use the power of optimism to recover from your injuries.
+| level = 82
+| power cost = 0
+| reuse time = 60
+| range = 3 meters
+| skill = Psychology
+| keywords = {{KWAB|Psychology}}{{KWAB|PositiveAttitude}}{{KWAB|PsychologyHeal}}{{KWAB|SurvivalUtility}}
+| special = Restore 110 Health. Restore 110 Armor. Restore 90 Power.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

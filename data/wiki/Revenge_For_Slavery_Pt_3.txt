@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+George Madler asked you to kill a bear named Graz. He doesn't know where Graz lives, though, except that it's likely in a cave filled with goblins.
+
+===Prerequisites===
+To start this quest, talk to '''[[George Madler]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|The third person I need revenge on isn't really a goblin at all. It's a bear. A bear named Graz, famous for eating disobedient slaves. I lost track of where they'd moved Graz. There were some cave-ins around here recently, and the tribe that owned him is missing. Hell, Graz may be dead already. I just need to know Graz will never hurt another slave. Can you make sure of that?}}
+
+===Requirements===
+* Kill the bear named Graz
+* Talk to George Madler
+
+===Rewards===
+{{Spoiler|Rewards for Revenge For Slavery, Pt. 3|
+{{Quote|Graz is dead? Graz is dead! Yes! That's wonderful news! Thank you so much!}}
+
+* 300 {{Favor|favor}}
+* 1000 councils 
+* 1000 XP in [[Textile Creation]]
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/George Madler]]

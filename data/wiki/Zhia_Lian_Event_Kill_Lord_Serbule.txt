@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> You've faced ghosts, but can you face the most dangerous ghost in Serbule... Lord Serbule himself?! Get your friends. Lord Serbule has grown strong from his sorrow.
+
+I'm not sure where he's hiding right now, but I do remember overhearing this: "Instead of a femur, offer a skull." I dunno what it means. Figure it out and kill him!
+
+<i>[Lord Serbule is an encounter for a group of 6 players with level 30-40 combat skills.]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> You've faced ghosts, but can you face the most dangerous ghost in Serbule... Lord Serbule himself?! Get your friends. Lord Serbule has grown strong from his sorrow.
+
+I'm not sure where he's hiding right now, but I do remember overhearing this: "Instead of a femur, offer a skull." I dunno what it means. Figure it out and kill him!
+
+<i>[Lord Serbule is an encounter for a group of 6 players with level 30-40 combat skills.]</i>
+
+===Requirements===
+* Kill Lord Serbule
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Good job. I bet Lord Serbule will be sent back here as soon as Ilth notices he's returned to Chalice, but you bought us some time. And that's all mortality is anyway: borrowed time! So let's move on.}}
+* 1000 councils
+* {{Item|Event Loot Key (Universal)}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

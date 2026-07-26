@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Deer Kick
+| description = Kick your enemy.
+| level = 3
+| power cost = 11
+| reuse time = 8
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|Kick}}{{KWAB|DeerKick}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 19 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Kick 2
+| description = Kick your enemy.
+| level = 18
+| power cost = 16
+| reuse time = 8
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|Kick}}{{KWAB|DeerKick}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 41 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Kick 3
+| description = Kick your enemy.
+| level = 27
+| power cost = 19
+| reuse time = 8
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|Kick}}{{KWAB|DeerKick}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 57 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Kick 4
+| description = Kick your enemy.
+| level = 33
+| power cost = 22
+| reuse time = 8
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|Kick}}{{KWAB|DeerKick}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 71 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Kick 5
+| description = Kick your enemy.
+| level = 43
+| power cost = 25
+| reuse time = 8
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|Kick}}{{KWAB|DeerKick}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 106 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Kick 6
+| description = Kick your enemy.
+| level = 53
+| power cost = 28
+| reuse time = 8
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|Kick}}{{KWAB|DeerKick}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 159 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Kick 7
+| description = Kick your enemy.
+| level = 63
+| power cost = 31
+| reuse time = 8
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|Kick}}{{KWAB|DeerKick}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 211 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Kick 8
+| description = Kick your enemy.
+| level = 73
+| power cost = 35
+| reuse time = 8
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|Kick}}{{KWAB|DeerKick}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 268 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

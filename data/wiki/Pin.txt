@@ -1,0 +1,74 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Pin
+| description = Stab the enemy's leg, briefly immobilizing them.
+| level = 16
+| power cost = 18
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffPin}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 31 Piercing
+| special = Target's speed is reduced by 90% for 5 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Pin 2
+| description = Stab the enemy's leg, briefly immobilizing them.
+| level = 33
+| power cost = 26
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffPin}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 69 Piercing
+| special = Target's speed is reduced by 90% for 8 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Pin 3
+| description = Stab the enemy's leg, briefly immobilizing them.
+| level = 50
+| power cost = 33
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffPin}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 144 Piercing
+| special = Target's speed is reduced by 90% for 11 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Pin 4
+| description = Stab the enemy's leg, briefly immobilizing them.
+| level = 62
+| power cost = 37
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffPin}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 206 Piercing
+| special = Target's speed is reduced by 90% for 11 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Pin 5
+| description = Stab the enemy's leg, briefly immobilizing them.
+| level = 74
+| power cost = 42
+| reuse time = 15
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|StaffPin}}{{KWAB|StaffAttack}}{{KWAB|Melee}}{{KWAB|SignatureDebuff}}
+| damage = 275 Piercing
+| special = Target's speed is reduced by 90% for 11 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

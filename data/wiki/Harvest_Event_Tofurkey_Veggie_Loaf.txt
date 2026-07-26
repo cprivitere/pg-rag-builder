@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Ricatu in Povus said, "Kelim was telling me about a turkey meatloaf he ate recently, and it sounded really good. Think you can do the same thing with tofurkey? You'll have to find the recipe yourself."
+===Prerequisites===
+To start this quest, talk to '''[[Ricatu]]''' in '''[[Povus]]'''.  The quest is available during the [[Fall Harvest]]. The quest [[Harvest Event: Tofurkey!]] must be completed.
+
+===Preface===
+{{Quote|
+Kelim was telling me about a turkey meatloaf he ate recently, and it sounded really good. Think you can do the same thing with tofurkey? You'll have to find the recipe yourself.
+}}
+
+===Requirements===
+* Make {{Item|Tofurkey Veggie Loaf}}
+* Talk to Ricatu
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Tofurkey Veggie Loaf|
+{{Quote|
+Eh, this is okay I guess. Doesn't really make the tofurkey shine, but you did what you could. Thanks.
+}}
+* Live Event Credit x1
+* {{Item|Xogrite Chunk}} x15
+* 1500 XP Cooking
+}}
+
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ricatu]][[Category:Quests/Fall Harvest]]

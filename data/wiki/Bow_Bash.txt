@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Bow Bash
+| description = Whack a nearby enemy with your bow.
+| level = 2
+| power cost = 8
+| reuse time = 3
+| range = 5 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BowBash}}{{KWAB|Melee}}{{KWAB|AnatomyCriticals}}
+| damage = 9 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bow Bash 2
+| description = Whack a nearby enemy with your bow.
+| level = 16
+| power cost = 10
+| reuse time = 3
+| range = 5 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BowBash}}{{KWAB|Melee}}{{KWAB|AnatomyCriticals}}
+| damage = 22 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bow Bash 3
+| description = Whack a nearby enemy with your bow.
+| level = 33
+| power cost = 15
+| reuse time = 3
+| range = 5 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BowBash}}{{KWAB|Melee}}{{KWAB|AnatomyCriticals}}
+| damage = 49 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bow Bash 4
+| description = Whack a nearby enemy with your bow.
+| level = 49
+| power cost = 18
+| reuse time = 3
+| range = 5 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BowBash}}{{KWAB|Melee}}{{KWAB|AnatomyCriticals}}
+| damage = 99 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bow Bash 5
+| description = Whack a nearby enemy with your bow.
+| level = 58
+| power cost = 20
+| reuse time = 3
+| range = 5 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BowBash}}{{KWAB|Melee}}{{KWAB|AnatomyCriticals}}
+| damage = 132 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bow Bash 6
+| description = Whack a nearby enemy with your bow.
+| level = 69
+| power cost = 22
+| reuse time = 3
+| range = 5 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BowBash}}{{KWAB|Melee}}{{KWAB|AnatomyCriticals}}
+| damage = 174 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Bow Bash 7
+| description = Whack a nearby enemy with your bow.
+| level = 78
+| power cost = 25
+| reuse time = 3
+| range = 5 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|BowBash}}{{KWAB|Melee}}{{KWAB|AnatomyCriticals}}
+| damage = 214 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

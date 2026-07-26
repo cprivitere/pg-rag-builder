@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Kleave]] in [[Eltibule]] said, "The top of the tree must be a beautiful beacon of strength and honor. [[Kalaba]] has been working on an appropriately beautiful blade to sit atop the tree. My contribution is to light it on fire with harmless decorative flames. I know a rakshasa recipe for decorative fire, but I need a large amount of fire dust!"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Kleave]]''' in '''[[Eltibule]]'''.
+
+===Preface===
+The top of the tree must be a beautiful beacon of strength and honor. Kalaba has been working on an appropriately beautiful blade to sit atop the tree. My contribution is to light it on fire with harmless decorative flames. I know a rakshasa recipe for decorative fire, but I need a large amount of fire dust!
+
+===Requirements===
+* Obtain {{Item|Fire Dust}} x6
+* Talk to [[Kleave]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Very good. Kalaba has finished the blade. Let this weapon declare our presence to the heavens! We are not afraid of judgment! We are worthy of gifts!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Kleave]][[Category:Quests/Ri-Shin Quests]]

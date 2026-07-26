@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+There's a barren festival tree near Echur in Serbule. When fully decorated, townsfolk will leave you presents under the tree each day during the holiday season.
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Echur]]''' in '''[[Serbule]]'''.
+
+===Requirements===
+* Get Apples for Decorations
+* Get Gingerbread Humans for Decoration
+* Get Decorations from Nelson Ballard
+* Get Tree-Topper from Mr. Squeaky
+* Talk to [[Echur]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|I think that will do it! It looks hideous to my elven eyes, but I presume humans think this sort of thing is beautiful.
+
+And since we're guests here, we're happy to honor human rites, including the presentation of gifts! We'll be taking turns placing gifts beneath the eyesore, and you should stop by every day in case there's presents for you! In fact, there's a little gift under there already, from me to you. Enjoy.}}
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Echur]][[Category:Quests/Ri-Shin Quests]]

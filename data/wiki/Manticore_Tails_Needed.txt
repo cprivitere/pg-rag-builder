@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Urzab in Amulna asked for Manticore tail spikes.
+
+===Prerequisites===
+To start this quest, talk to '''[[Urzab]]''' in '''[[Ilmari Desert]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|This is a perfect spot for a jewelry shop because those hideous manticores love jewelry! If you kill them, bring their jewelry here to sell. And if you really want to get on my good side, bring me their tail spikes. I'm shipping them home for my wife to turn into powerful poison knives!}}
+
+===Requirements===
+* Obtain {{Item|Manticore Tail Tip}}s x5
+* Talk to Urzab
+
+===Rewards===
+{{Spoiler|Rewards for Manticore Tails Needed!|
+{{Quote|Thank you. Pashub will turn these into horrific stilettos! Here, this is one of her earlier works.}}
+
+* 50 {{Favor|favor}}
+* {{Item|Gouging Stiletto}}
+}}
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/Urzab]]

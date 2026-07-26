@@ -1,0 +1,49 @@
+{{Ambox
+| info = Information on the Myconian race can be found on the  '''[[Myconian]]''' page. '''
+| border = yellow
+}}
+__NOTOC__
+{{Skill infobox
+|title            = Fungoid Anatomy
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the physiology of fungus people, slime monsters, overgrown bacteria, and ooze beasts.
+|skilltype        = Anatomy Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy<!-- Any other skills needed to gain this skill -->
+|skilltrainers    = None
+}}
+{{Quote|source=Source|
+Needs a quote
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Fungoid Anatomy''' is a sub-skill of [[Anatomy]] that explores the physiology of fungus people, slime monsters, overgrown bacteria, and ooze beasts.
+=== In-Game Description ===
+Knowledge of the physiology of fungus people, slime monsters, overgrown bacteria, and ooze beasts.
+==Known Creatures==
+
+===Friends===
+<dpl>
+ category = Fungoid&NPCs
+</dpl>
+
+===Bosses===
+<dpl>
+ category = Fungoid&Bosses
+</dpl>
+
+===Foes===
+<!-- the DPL lists creatures which already have a page and are categorized. -->
+<dpl>
+ category    = Fungoid
+ notcategory = NPCs
+ notcategory = Bosses
+</dpl>
+<!-- here we can manually add any creatures to keep track of missing/todo pages -->
+
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+[[Category:Skills]][[Category:Anatomy Skills]]

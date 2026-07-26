@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>[This quest is just for gardeners. It requires Gardening 15 to grow an evil pumpkin!]</i>
+
+<i>Zhia Lian:</i> You can never have enough exploding pumpkins! Well, I can't. Take the seeds from the evil pumpkins and grow me some evil fruit! Pumpkin is a fruit, right? Well, whatever. Just grow them already!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>[This quest is just for gardeners. It requires Gardening 15 to grow an evil pumpkin!]</i>
+
+<i>Zhia Lian:</i> You can never have enough exploding pumpkins! Well, I can't. Take the seeds from the evil pumpkins and grow me some evil fruit! Pumpkin is a fruit, right? Well, whatever. Just grow them already!
+
+===Requirements===
+* Grow Evil Pumpkins x3
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Eh. I'm kind of sick of pumpkins. You keep them.}}
+* 400 councils
+* {{Item|Level 10-20 Event Loot Key}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

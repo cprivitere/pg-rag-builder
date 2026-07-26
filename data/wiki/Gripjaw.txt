@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Gripjaw
+| description = Lock your jaws onto your enemy, stunning them briefly.
+| level = 8
+| power cost = 18
+| reuse time = 10
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|Gripjaw}}{{KWAB|SpiderAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 24 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Gripjaw 2
+| description = Lock your jaws onto your enemy, stunning them briefly.
+| level = 25
+| power cost = 26
+| reuse time = 10
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|Gripjaw}}{{KWAB|SpiderAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 50 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Gripjaw 3
+| description = Lock your jaws onto your enemy, stunning them briefly.
+| level = 45
+| power cost = 36
+| reuse time = 10
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|Gripjaw}}{{KWAB|SpiderAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 117 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Gripjaw 4
+| description = Lock your jaws onto your enemy, stunning them briefly.
+| level = 59
+| power cost = 43
+| reuse time = 10
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|Gripjaw}}{{KWAB|SpiderAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 190 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Gripjaw 5
+| description = Lock your jaws onto your enemy, stunning them briefly.
+| level = 69
+| power cost = 48
+| reuse time = 10
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|Gripjaw}}{{KWAB|SpiderAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 244 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Gripjaw 6
+| description = Lock your jaws onto your enemy, stunning them briefly.
+| level = 79
+| power cost = 53
+| reuse time = 10
+| range = 5 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|Gripjaw}}{{KWAB|SpiderAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 307 Crushing
+| special = Stuns opponent.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

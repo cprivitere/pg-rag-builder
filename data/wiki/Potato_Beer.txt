@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Brianna Willer in Serbule Hills said, "My bitchy old friend Gretchen taught me a special brewing recipe. I'm eager to try it, but it needs potatoes. I hate growing potatoes! You do it."
+
+===Prerequisites===
+To start this quest, talk to '''[[Brianna Willer]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|My bitchy old friend Gretchen taught me a special brewing recipe. I'm eager to try it, but it needs potatoes. I hate growing potatoes! You do it.}}
+
+===Requirements===
+* Obtain {{Item|Potato}}es x5
+* Talk to Brianna Willer
+
+===Rewards===
+{{Spoiler|Rewards for Potato Beer?|
+{{Quote|Thanks. If you want to know how to make the stuff, I'm sure Gretchen in Eltibule can teach you. Just hang out and help her chop potatoes some time.
+
+Oh, here, this is for you. Hold on to these! You need 'em for brewing beer.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Hops}} x 4
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Brianna Willer]]

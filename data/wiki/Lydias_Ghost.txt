@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Percy in Eltibule asked you to talk to a goblin named Jumjab on behalf of his dead wife. You'll need to know some Goblinese to do so.
+
+===Prerequisites===
+To start this quest, talk to '''[[Percy Evans]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|There's this goblin off a long way from here. Met him? Named Jumjab. He says he can talk to dead people. I want him to visit here and tell me if he can sense my Lydia in the ground. I dunno why. Just... to know. Oh, you know goblinese, right?}}
+
+===Requirements===
+* Speak with Jumjab
+* Talk to Percy
+
+{{Spoiler|Response to player|{{Quote|Percy? Old human near the fairy bears? Ugh. Wants me to tell him his dead wife is "at peace." Tell him I'll come by, but it will cost him. I've sensed his wife's spirit. She's not "at peace." But I'll think of something to tell him...}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Lydia's Ghost|
+{{Quote|Jumjab said he'd come, but expects payment? Well, of course. No goblin works for free. And you shouldn't have to, either. Here's some coin for your trouble.}}
+
+* 100 {{Favor|favor}}
+* 500 councils 
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Percy Evans]]

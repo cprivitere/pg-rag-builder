@@ -1,0 +1,276 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Vampirism/Abilities|Vampirism Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v419 on Thu Feb 20 2025 21:24:41 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Giant Bat Form|2}} || 0 || Giant Bat Form || Become a giant vampire bat. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 3 || <b>Unknown Source:</b> Not Found<br><b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Overwhelming Bite|2}} || 1 || Overwhelming Bite || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 10 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || Leveling
+|-
+| {{Ability icon|Withering Shroud 1|2}} || 2 || Withering Shroud 1 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 9 Darkness || <b>Power Cost:</b> 13<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +25% || Leveling
+|-
+| {{Ability icon|Dominate|2}} || 4 || Dominate || Take control of an enemy for a moment, forcing them to fight for you. Using the ability again prematurely dispels the effect. || Elite targets are immune. Target's chance of resistance is based on their mental proficiency vs. your Vampirism skill.<br>Charm Duration 15 <br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 70<br><b>Channel Time:</b> 3 || Leveling
+|-
+| {{Ability icon|Blood Mist|2}} || 4 || Blood Mist || Reduce yourself to a bloody mist to escape harm. You can't use most attacks, but you are resistant to harm. (Use this ability again to prematurely end Blood Mist.) || For 10 seconds: you can only use Psychic abilities, and all incoming damage of types Slashing, Crushing, Piercing, Acid, Poison, and Trauma are reduced by 34%<br><b>Every 2 seconds burst 8 meters:</b> 7 Trauma, 1 times over 1 seconds ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 3<br><b>Cooldown:</b> 60 || <b>Unknown Source:</b> Not Found<br><b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Blood Mist Burst|2}} || 4 || Blood Mist Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 7 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist Burst|2}} || 4 || Blood Mist Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 7 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist Burst|2}} || 4 || Blood Mist Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 7 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Embrace of Despair|2}} || 5 || Embrace of Despair || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 25 Psychic || <b>Power Cost:</b> 22<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Necrotic Grasp|2}} || 6 || Necrotic Grasp || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 28 Darkness || <b>Power Cost:</b> 28<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Lifedrain|2}} || 7 || Lifedrain || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 32 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 23 Trauma || <b>Power Cost:</b> 15<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Willbreaker 1|2}} || 7 || Willbreaker 1 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 2 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 12 Psychic || <b>Power Cost:</b> 9<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found<br><b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Eclipse of Shadows|2}} || 8 || Eclipse of Shadows || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 38 Darkness || <b>Power Cost:</b> 35<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Ripple of Amnesia|2}} || 9 || Ripple of Amnesia || Emanate a wave of forgetfulness that prevents enemies from detecting or attacking you. This effect can be broken if you attack them. || For 10 seconds: target chooses not to attack you. This effect is prematurely broken if they are attacked by you.<br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 19<br><b>AoE:</b> 10<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found<br><b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Exsanguinate|2}} || 9 || Exsanguinate || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 2 Trauma, 4 times over 8 seconds || <b>Damage:</b> 23 Trauma || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Enthrall|2}} || 10 || Enthrall || Flood your target's mind with visions of what it most desires. || Target becomes mesmerized for 10 seconds, or until attacked.<br><b>Suppresses Monster Shout</b> || <b>Health Dmg:</b> 14 Psychic || <b>Power Cost:</b> 12<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Accuracy:</b> +25% || Leveling
+|-
+| {{Ability icon|Overwhelming Bite 2|2}} || 11 || Overwhelming Bite 2 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 19 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || Leveling
+|-
+| {{Ability icon|Withering Shroud 2|2}} || 12 || Withering Shroud 2 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 27 Darkness || <b>Power Cost:</b> 17<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +35% || Leveling
+|-
+| {{Ability icon|Embrace of Despair 2|2}} || 15 || Embrace of Despair 2 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 53 Psychic || <b>Power Cost:</b> 31<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Necrotic Grasp 2|2}} || 16 || Necrotic Grasp 2 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 66 Darkness || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Lifedrain 2|2}} || 17 || Lifedrain 2 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 42 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 44 Trauma || <b>Power Cost:</b> 20<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Willbreaker 2|2}} || 17 || Willbreaker 2 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 4 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 27 Psychic || <b>Power Cost:</b> 13<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Eclipse of Shadows 2|2}} || 18 || Eclipse of Shadows 2 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 81 Darkness || <b>Power Cost:</b> 46<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Ripple of Amnesia 2|2}} || 19 || Ripple of Amnesia 2 || Emanate a wave of forgetfulness that prevents enemies from detecting or attacking you. This effect can be broken if you attack them. || For 10 seconds: target chooses not to attack you. This effect is prematurely broken if they are attacked by you.<br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 24<br><b>AoE:</b> 11<br><b>Cooldown:</b> 29 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Exsanguinate 2|2}} || 19 || Exsanguinate 2 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 5 Trauma, 4 times over 8 seconds || <b>Damage:</b> 42 Trauma || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Blood Mist 2|2}} || 20 || Blood Mist 2 || Reduce yourself to a bloody mist to escape harm. You can't use most attacks, but you are resistant to harm. (Use this ability again to prematurely end Blood Mist.) || For 12 seconds: you can only use Psychic abilities, and all incoming damage of types Slashing, Crushing, Piercing, Acid, Poison, and Trauma are reduced by 40%<br><b>Every 2 seconds burst 8 meters:</b> 27 Trauma, 1 times over 1 seconds ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 3<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Enthrall 2|2}} || 20 || Enthrall 2 || Flood your target's mind with visions of what it most desires. || Target becomes mesmerized for 13 seconds, or until attacked.<br><b>Suppresses Monster Shout</b> || <b>Health Dmg:</b> 27 Psychic || <b>Power Cost:</b> 15<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Accuracy:</b> +25% || Leveling
+|-
+| {{Ability icon|Blood Mist 2 Burst|2}} || 20 || Blood Mist 2 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 27 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 2 Burst|2}} || 20 || Blood Mist 2 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 27 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 2 Burst|2}} || 20 || Blood Mist 2 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 27 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Overwhelming Bite 3|2}} || 21 || Overwhelming Bite 3 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 29 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || Leveling
+|-
+| {{Ability icon|Withering Shroud 3|2}} || 22 || Withering Shroud 3 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 49 Darkness || <b>Power Cost:</b> 22<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +45% || Leveling
+|-
+| {{Ability icon|Dominate 2|2}} || 24 || Dominate 2 || Take control of an enemy for a moment, forcing them to fight for you. Using the ability again prematurely dispels the effect. || Elite targets are immune. Target's chance of resistance is based on their mental proficiency vs. your Vampirism skill.<br>Charm Duration 16 <br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 52<br><b>Range:</b> 5<br><b>Cooldown:</b> 65<br><b>Channel Time:</b> 2.5 || Leveling
+|-
+| {{Ability icon|Embrace of Despair 3|2}} || 25 || Embrace of Despair 3 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 86 Psychic || <b>Power Cost:</b> 38<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Necrotic Grasp 3|2}} || 26 || Necrotic Grasp 3 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 110 Darkness || <b>Power Cost:</b> 46<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Lifedrain 3|2}} || 27 || Lifedrain 3 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 52 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 70 Trauma || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Willbreaker 3|2}} || 27 || Willbreaker 3 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 6 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 45 Psychic || <b>Power Cost:</b> 15<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Eclipse of Shadows 3|2}} || 28 || Eclipse of Shadows 3 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 134 Darkness || <b>Power Cost:</b> 56<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Exsanguinate 3|2}} || 29 || Exsanguinate 3 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 7 Trauma, 4 times over 8 seconds || <b>Damage:</b> 64 Trauma || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Overwhelming Bite 4|2}} || 31 || Overwhelming Bite 4 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 44 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || Leveling
+|-
+| {{Ability icon|Withering Shroud 4|2}} || 32 || Withering Shroud 4 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 78 Darkness || <b>Power Cost:</b> 27<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +55% || Leveling
+|-
+| {{Ability icon|Embrace of Despair 4|2}} || 35 || Embrace of Despair 4 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 126 Psychic || <b>Power Cost:</b> 46<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Blood Mist 3|2}} || 36 || Blood Mist 3 || Reduce yourself to a bloody mist to escape harm. You can't use most attacks, but you are resistant to harm. (Use this ability again to prematurely end Blood Mist.) || For 14 seconds: you can only use Psychic abilities, and all incoming damage of types Slashing, Crushing, Piercing, Acid, Poison, and Trauma are reduced by 46%<br><b>Every 2 seconds burst 8 meters:</b> 56 Trauma, 1 times over 1 seconds ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 3<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Necrotic Grasp 4|2}} || 36 || Necrotic Grasp 4 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 166 Darkness || <b>Power Cost:</b> 56<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Blood Mist 3 Burst|2}} || 36 || Blood Mist 3 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 56 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 3 Burst|2}} || 36 || Blood Mist 3 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 56 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 3 Burst|2}} || 36 || Blood Mist 3 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 56 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Lifedrain 4|2}} || 37 || Lifedrain 4 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 62 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 102 Trauma || <b>Power Cost:</b> 29<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Willbreaker 4|2}} || 37 || Willbreaker 4 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 9 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 68 Psychic || <b>Power Cost:</b> 19<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Eclipse of Shadows 4|2}} || 38 || Eclipse of Shadows 4 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 203 Darkness || <b>Power Cost:</b> 67<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Ripple of Amnesia 3|2}} || 39 || Ripple of Amnesia 3 || Emanate a wave of forgetfulness that prevents enemies from detecting or attacking you. This effect can be broken if you attack them. || For 10 seconds: target chooses not to attack you. This effect is prematurely broken if they are attacked by you.<br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 35<br><b>AoE:</b> 12<br><b>Cooldown:</b> 28 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Exsanguinate 4|2}} || 39 || Exsanguinate 4 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 11 Trauma, 4 times over 8 seconds || <b>Damage:</b> 95 Trauma || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Enthrall 3|2}} || 40 || Enthrall 3 || Flood your target's mind with visions of what it most desires. || Target becomes mesmerized for 16 seconds, or until attacked.<br><b>Suppresses Monster Shout</b> || <b>Health Dmg:</b> 67 Psychic || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Accuracy:</b> +25% || Leveling
+|-
+| {{Ability icon|Overwhelming Bite 5|2}} || 41 || Overwhelming Bite 5 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 63 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || Leveling
+|-
+| {{Ability icon|Withering Shroud 5|2}} || 42 || Withering Shroud 5 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 120 Darkness || <b>Power Cost:</b> 31<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +65% || Leveling
+|-
+| {{Ability icon|Dominate 3|2}} || 44 || Dominate 3 || Take control of an enemy for a moment, forcing them to fight for you. Using the ability again prematurely dispels the effect. || Elite targets are immune. Target's chance of resistance is based on their mental proficiency vs. your Vampirism skill.<br>Charm Duration 17 <br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 72<br><b>Range:</b> 5<br><b>Cooldown:</b> 60<br><b>Channel Time:</b> 2.5 || Leveling
+|-
+| {{Ability icon|Embrace of Despair 5|2}} || 45 || Embrace of Despair 5 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 194 Psychic || <b>Power Cost:</b> 53<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Necrotic Grasp 5|2}} || 46 || Necrotic Grasp 5 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 260 Darkness || <b>Power Cost:</b> 64<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || Leveling
+|-
+| {{Ability icon|Lifedrain 5|2}} || 47 || Lifedrain 5 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 72 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 156 Trauma || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || Leveling
+|-
+| {{Ability icon|Willbreaker 5|2}} || 47 || Willbreaker 5 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 15 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 106 Psychic || <b>Power Cost:</b> 21<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Eclipse of Shadows 5|2}} || 48 || Eclipse of Shadows 5 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 317 Darkness || <b>Power Cost:</b> 76<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Exsanguinate 5|2}} || 49 || Exsanguinate 5 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 17 Trauma, 4 times over 8 seconds || <b>Damage:</b> 145 Trauma || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Overwhelming Bite 6|2}} || 51 || Overwhelming Bite 6 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 94 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || Leveling
+|-
+| {{Ability icon|Blood Mist 4|2}} || 52 || Blood Mist 4 || Reduce yourself to a bloody mist to escape harm. You can't use most attacks, but you are resistant to harm. (Use this ability again to prematurely end Blood Mist.) || For 16 seconds: you can only use Psychic abilities, and all incoming damage of types Slashing, Crushing, Piercing, Acid, Poison, and Trauma are reduced by 52%<br><b>Every 2 seconds burst 8 meters:</b> 110 Trauma, 1 times over 1 seconds ||  || <b>Power Cost:</b> 41<br><b>Range:</b> 3<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Withering Shroud 6|2}} || 52 || Withering Shroud 6 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 181 Darkness || <b>Power Cost:</b> 35<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +75% || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Blood Mist 4 Burst|2}} || 52 || Blood Mist 4 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 110 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 4 Burst|2}} || 52 || Blood Mist 4 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 110 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 4 Burst|2}} || 52 || Blood Mist 4 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 110 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Embrace of Despair 6|2}} || 55 || Embrace of Despair 6 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 281 Psychic || <b>Power Cost:</b> 59<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Necrotic Grasp 6|2}} || 56 || Necrotic Grasp 6 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 373 Darkness || <b>Power Cost:</b> 71<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Lifedrain 6|2}} || 57 || Lifedrain 6 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 82 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 218 Trauma || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Willbreaker 6|2}} || 57 || Willbreaker 6 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 21 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 150 Psychic || <b>Power Cost:</b> 24<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Eclipse of Shadows 6|2}} || 58 || Eclipse of Shadows 6 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 440 Darkness || <b>Power Cost:</b> 85<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Ripple of Amnesia 4|2}} || 59 || Ripple of Amnesia 4 || Emanate a wave of forgetfulness that prevents enemies from detecting or attacking you. This effect can be broken if you attack them. || For 10 seconds: target chooses not to attack you. This effect is prematurely broken if they are attacked by you.<br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 45<br><b>AoE:</b> 13<br><b>Cooldown:</b> 27 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Exsanguinate 6|2}} || 59 || Exsanguinate 6 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 24 Trauma, 4 times over 8 seconds || <b>Damage:</b> 196 Trauma || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Enthrall 4|2}} || 60 || Enthrall 4 || Flood your target's mind with visions of what it most desires. || Target becomes mesmerized for 19 seconds, or until attacked.<br><b>Suppresses Monster Shout</b> || <b>Health Dmg:</b> 140 Psychic || <b>Power Cost:</b> 28<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Accuracy:</b> +25% || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Overwhelming Bite 7|2}} || 61 || Overwhelming Bite 7 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 124 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Withering Shroud 7|2}} || 62 || Withering Shroud 7 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 242 Darkness || <b>Power Cost:</b> 39<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +85% || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Dominate 4|2}} || 64 || Dominate 4 || Take control of an enemy for a moment, forcing them to fight for you. Using the ability again prematurely dispels the effect. || Elite targets are immune. Target's chance of resistance is based on their mental proficiency vs. your Vampirism skill.<br>Charm Duration 18 <br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 91<br><b>Range:</b> 5<br><b>Cooldown:</b> 55<br><b>Channel Time:</b> 2 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Embrace of Despair 7|2}} || 65 || Embrace of Despair 7 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 365 Psychic || <b>Power Cost:</b> 66<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Necrotic Grasp 7|2}} || 66 || Necrotic Grasp 7 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 485 Darkness || <b>Power Cost:</b> 80<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Lifedrain 7|2}} || 67 || Lifedrain 7 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 92 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 280 Trauma || <b>Power Cost:</b> 41<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Willbreaker 7|2}} || 67 || Willbreaker 7 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 27 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 194 Psychic || <b>Power Cost:</b> 26<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Blood Mist 5|2}} || 68 || Blood Mist 5 || Reduce yourself to a bloody mist to escape harm. You can't use most attacks, but you are resistant to harm. (Use this ability again to prematurely end Blood Mist.) || For 18 seconds: you can only use Psychic abilities, and all incoming damage of types Slashing, Crushing, Piercing, Acid, Poison, and Trauma are reduced by 58%<br><b>Every 2 seconds burst 8 meters:</b> 170 Trauma, 1 times over 1 seconds ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 3<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Eclipse of Shadows 7|2}} || 68 || Eclipse of Shadows 7 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 567 Darkness || <b>Power Cost:</b> 94<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Blood Mist 5 Burst|2}} || 68 || Blood Mist 5 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 170 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 5 Burst|2}} || 68 || Blood Mist 5 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 170 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 5 Burst|2}} || 68 || Blood Mist 5 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 170 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Exsanguinate 7|2}} || 69 || Exsanguinate 7 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 31 Trauma, 4 times over 8 seconds || <b>Damage:</b> 250 Trauma || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Overwhelming Bite 8|2}} || 71 || Overwhelming Bite 8 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 157 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Withering Shroud 8|2}} || 72 || Withering Shroud 8 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 309 Darkness || <b>Power Cost:</b> 43<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +95% || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Embrace of Despair 8|2}} || 75 || Embrace of Despair 8 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 461 Psychic || <b>Power Cost:</b> 73<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Necrotic Grasp 8|2}} || 76 || Necrotic Grasp 8 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 613 Darkness || <b>Power Cost:</b> 88<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Lifedrain 8|2}} || 77 || Lifedrain 8 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 102 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 352 Trauma || <b>Power Cost:</b> 46<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Willbreaker 8|2}} || 77 || Willbreaker 8 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 34 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 245 Psychic || <b>Power Cost:</b> 29<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Eclipse of Shadows 8|2}} || 78 || Eclipse of Shadows 8 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 714 Darkness || <b>Power Cost:</b> 105<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Ripple of Amnesia 5|2}} || 79 || Ripple of Amnesia 5 || Emanate a wave of forgetfulness that prevents enemies from detecting or attacking you. This effect can be broken if you attack them. || For 10 seconds: target chooses not to attack you. This effect is prematurely broken if they are attacked by you.<br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 55<br><b>AoE:</b> 14<br><b>Cooldown:</b> 26 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Exsanguinate 8|2}} || 79 || Exsanguinate 8 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 38 Trauma, 4 times over 8 seconds || <b>Damage:</b> 313 Trauma || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Enthrall 5|2}} || 80 || Enthrall 5 || Flood your target's mind with visions of what it most desires. || Target becomes mesmerized for 22 seconds, or until attacked.<br><b>Suppresses Monster Shout</b> || <b>Health Dmg:</b> 224 Psychic || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Accuracy:</b> +25% || <b>Training:</b> [[Bendith the Banished]]
+|-
+| {{Ability icon|Overwhelming Bite 9|2}} || 81 || Overwhelming Bite 9 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 194 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || <b>Item:</b> [[Vampirism: Overwhelming Bite 9]]
+|-
+| {{Ability icon|Withering Shroud 9|2}} || 82 || Withering Shroud 9 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 383 Darkness || <b>Power Cost:</b> 48<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +105% || <b>Item:</b> [[Vampirism: Withering Shroud 9]]
+|-
+| {{Ability icon|Dominate 5|2}} || 84 || Dominate 5 || Take control of an enemy for a moment, forcing them to fight for you. Using the ability again prematurely dispels the effect. || Elite targets are immune. Target's chance of resistance is based on their mental proficiency vs. your Vampirism skill.<br>Charm Duration 19 <br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 111<br><b>Range:</b> 5<br><b>Cooldown:</b> 50<br><b>Channel Time:</b> 2 || <b>Item:</b> [[Vampirism: Dominate 5]]<br><b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Blood Mist 6|2}} || 84 || Blood Mist 6 || Reduce yourself to a bloody mist to escape harm. You can't use most attacks, but you are resistant to harm. (Use this ability again to prematurely end Blood Mist.) || For 20 seconds: you can only use Psychic abilities, and all incoming damage of types Slashing, Crushing, Piercing, Acid, Poison, and Trauma are reduced by 64%<br><b>Every 2 seconds burst 8 meters:</b> 242 Trauma, 1 times over 1 seconds ||  || <b>Power Cost:</b> 58<br><b>Range:</b> 3<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Blood Mist 6 Burst|2}} || 84 || Blood Mist 6 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 242 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 6 Burst|2}} || 84 || Blood Mist 6 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 242 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 6 Burst|2}} || 84 || Blood Mist 6 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 242 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Embrace of Despair 9|2}} || 85 || Embrace of Despair 9 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 563 Psychic || <b>Power Cost:</b> 81<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Vampirism: Embrace of Despair 9]]
+|-
+| {{Ability icon|Necrotic Grasp 9|2}} || 86 || Necrotic Grasp 9 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 748 Darkness || <b>Power Cost:</b> 97<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Item:</b> [[Vampirism: Necrotic Grasp 9]]
+|-
+| {{Ability icon|Lifedrain 9|2}} || 87 || Lifedrain 9 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 112 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 427 Trauma || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Vampirism: Lifedrain 9]]
+|-
+| {{Ability icon|Willbreaker 9|2}} || 87 || Willbreaker 9 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 41 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 298 Psychic || <b>Power Cost:</b> 32<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Truxartis]]
+|-
+| {{Ability icon|Eclipse of Shadows 9|2}} || 88 || Eclipse of Shadows 9 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 867 Darkness || <b>Power Cost:</b> 115<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Item:</b> [[Vampirism: Eclipse of Shadows 9]]
+|-
+| {{Ability icon|Exsanguinate 9|2}} || 89 || Exsanguinate 9 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 47 Trauma, 4 times over 8 seconds || <b>Damage:</b> 377 Trauma || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Vampirism: Exsanguinate 9]]
+|-
+| {{Ability icon|Overwhelming Bite 10|2}} || 91 || Overwhelming Bite 10 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 232 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Withering Shroud 10|2}} || 92 || Withering Shroud 10 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 460 Darkness || <b>Power Cost:</b> 53<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +115% || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Embrace of Despair 10|2}} || 95 || Embrace of Despair 10 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 670 Psychic || <b>Power Cost:</b> 89<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Necrotic Grasp 10|2}} || 96 || Necrotic Grasp 10 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 889 Darkness || <b>Power Cost:</b> 107<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Lifedrain 10|2}} || 97 || Lifedrain 10 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 122 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 505 Trauma || <b>Power Cost:</b> 55<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Willbreaker 10|2}} || 97 || Willbreaker 10 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 48 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 353 Psychic || <b>Power Cost:</b> 35<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Eclipse of Shadows 10|2}} || 98 || Eclipse of Shadows 10 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 1024 Darkness || <b>Power Cost:</b> 126<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Ripple of Amnesia 6|2}} || 99 || Ripple of Amnesia 6 || Emanate a wave of forgetfulness that prevents enemies from detecting or attacking you. This effect can be broken if you attack them. || For 10 seconds: target chooses not to attack you. This effect is prematurely broken if they are attacked by you.<br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 66<br><b>AoE:</b> 15<br><b>Cooldown:</b> 25 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Exsanguinate 10|2}} || 99 || Exsanguinate 10 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 55 Trauma, 4 times over 8 seconds || <b>Damage:</b> 443 Trauma || <b>Power Cost:</b> 56<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 7|2}} || 100 || Blood Mist 7 || Reduce yourself to a bloody mist to escape harm. You can't use most attacks, but you are resistant to harm. (Use this ability again to prematurely end Blood Mist.) || For 22 seconds: you can only use Psychic abilities, and all incoming damage of types Slashing, Crushing, Piercing, Acid, Poison, and Trauma are reduced by 70%<br><b>Every 2 seconds burst 8 meters:</b> 318 Trauma, 1 times over 1 seconds ||  || <b>Power Cost:</b> 67<br><b>Range:</b> 3<br><b>Cooldown:</b> 60 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Enthrall 6|2}} || 100 || Enthrall 6 || Flood your target's mind with visions of what it most desires. || Target becomes mesmerized for 25 seconds, or until attacked.<br><b>Suppresses Monster Shout</b> || <b>Health Dmg:</b> 318 Psychic || <b>Power Cost:</b> 41<br><b>Range:</b> 5<br><b>Cooldown:</b> 30<br><b>Accuracy:</b> +25% || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 7 Burst|2}} || 100 || Blood Mist 7 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 318 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 7 Burst|2}} || 100 || Blood Mist 7 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 318 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blood Mist 7 Burst|2}} || 100 || Blood Mist 7 Burst || - || <b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 318 Trauma || <b>Power Cost:</b> 0<br><b>AoE:</b> 5<br><b>Cooldown:</b> 1 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Overwhelming Bite 11|2}} || 101 || Overwhelming Bite 11 || Bite a target.<br><b>This is a Basic Attack</b> || <b>Suppresses Monster Shout</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds<br><b>--Can Have--</b><br>Heal 0 Health || <b>Damage:</b> 268 Trauma || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 2.5 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Withering Shroud 11|2}} || 102 || Withering Shroud 11 || Enshroud your victim in unlife. It is extremely difficult to evade the Withering Shroud. || <b>--Can Have--</b><br><b>DoT:</b> 0 Psychic, 4 times over 8 seconds || <b>Damage:</b> 523 Darkness || <b>Power Cost:</b> 57<br><b>Range:</b> 20<br><b>Cooldown:</b> 10<br><b>Accuracy:</b> +125% || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Dominate 6|2}} || 104 || Dominate 6 || Take control of an enemy for a moment, forcing them to fight for you. Using the ability again prematurely dispels the effect. || Elite targets are immune. Target's chance of resistance is based on their mental proficiency vs. your Vampirism skill.<br>Charm Duration 20 <br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 129<br><b>Range:</b> 5<br><b>Cooldown:</b> 45<br><b>Channel Time:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Embrace of Despair 11|2}} || 105 || Embrace of Despair 11 || Teleport to target and ensorcel them, sapping their will. They are unable to attack you for a time, even if you attack them.<br><b>This is a Signature Debuff ability</b> || Non-Elite targets cannot attack you directly for 5 seconds<br><b>Suppresses Monster Shout</b> || <b>Damage:</b> 723 Psychic || <b>Power Cost:</b> 93<br><b>Range:</b> 20<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Necrotic Grasp 11|2}} || 106 || Necrotic Grasp 11 || Inflict pure unlife upon your foe.<br><b>This is a Nice Attack</b> || If target dies within 20 seconds, this ability can be used again immediately. || <b>Damage:</b> 946 Darkness || <b>Power Cost:</b> 111<br><b>Range:</b> 5<br><b>Cooldown:</b> 20 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Lifedrain 11|2}} || 107 || Lifedrain 11 || Drink your enemy.<br><b>This is a Minor Heal</b> || Recover 125 Health (or Armor if Health is full)<br><b>--Can Have--</b><br>Recover 0 Health (or Armor if Health is full) 4x over 8 secs<br>Recover 0 Power 4x over 8 secs<br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 529 Trauma || <b>Power Cost:</b> 57<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Willbreaker 11|2}} || 107 || Willbreaker 11 || Fill your foe's mind with visions of loss. || <b>DoT:</b> 51 Psychic, 4 times over 8 seconds || <b>Health Dmg:</b> 371 Psychic || <b>Power Cost:</b> 36<br><b>Range:</b> 20<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Eclipse of Shadows 11|2}} || 108 || Eclipse of Shadows 11 || Spread a cloud of envy turned to life-destroying hate.<br><b>This is an Epic Attack</b> ||  || <b>Damage:</b> 1059 Darkness || <b>Power Cost:</b> 129<br><b>AoE:</b> 10<br><b>Cooldown:</b> 45 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Exsanguinate 11|2}} || 109 || Exsanguinate 11 || Tear gashes into your enemy, spilling their blood.<br><b>This is a Core Attack</b> || <b>DoT:</b> 56 Trauma, 4 times over 8 seconds || <b>Damage:</b> 451 Trauma || <b>Power Cost:</b> 57<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|}

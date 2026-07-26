@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Jaime Fatholm]] asked for some hard-boiled eggs.
+
+===Prerequisites===
+To start this quest, talk to '''[[Jaime Fatholm]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I'm gonna head out and do some mining soon, but need to get some supplies in. Can you help? I want some hard-boiled eggs. Good travelling food.}}
+
+===Requirements===
+* Obtain {{Item|Hard-Boiled Egg}}s x6
+* Talk to [[Jaime Fatholm]]
+
+===Rewards===
+{{Spoiler|Rewards for Eggs for The Road|
+{{Quote|Thanks! Mm, smell that sulfury goodness.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Rubywall Crystal}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Jaime Fatholm]]

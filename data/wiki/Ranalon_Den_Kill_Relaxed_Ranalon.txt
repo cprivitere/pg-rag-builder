@@ -1,0 +1,68 @@
+__NOTOC__
+==Summary==
+Chirrra in  the Serbule Hills Ranalon Den said, "Why don't you assassinate the ranalon that are off duty? They'll be in the lounge and resting areas. And they definitely won't be expecting you!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Chirrra]]''' in '''[[Ranalon Den]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This is a solo quest from Chirrra. You may have one solo quest from Chirrra at a time. You can take on a new solo quest 15 minutes after completing or canceling this quest.
+
+===Preface===
+{{Quote|Why don't you assassinate the ranalon that are off duty? They'll be in the lounge and resting areas. And they definitely won't be expecting you!}}
+
+This is a [[:Category:Quests/Chirrra Tier 1|Tier 1]] quest from Chirrra.
+
+===Requirements===
+* Kill Relaxed Ranalon
+* Talk to Chirrra
+
+===Rewards===
+{{Spoiler|Rewards for Ranalon Den: Kill Relaxed Ranalon|
+{{Quote|Did you manage to kill them in their sleep? No? Oh. I'd kind of hoped... well, anyway, good job. Here's your reward!}}
+
+This quest will reward random loot. This may include items with level 20 mods.
+
+==== Recipes ====
+Has a chance to reward with any of the following recipes:
+
+{{Spoiler|[[Alchemy]]|
+* {{Item|Alchemy: Energy Resistance Potion}}
+* {{Item|Alchemy: Gillpuncher Ointment}}
+}}
+
+{{Spoiler|[[Calligraphy]]|
+* {{Item|Calligraphy: "Enoyos"}}
+}}
+
+{{Spoiler|[[Cooking]]|
+* {{Item|Cooking: Basic Shark-Fin Soup}}
+* {{Item|Cooking: Fried Boletus Bites}}
+* {{Item|Cooking: Fried Lungfish}}
+* {{Item|Cooking: Fried Potato Sticks}}
+* {{Item|Cooking: Lungfish Kabob}}
+* {{Item|Cooking: Lungfish Roll}}
+* {{Item|Cooking: Mokapok Stew}}
+* {{Item|Cooking: Ranalon Salad}}
+* {{Item|Cooking: Succulent Pork Chops}}
+}}
+
+{{Spoiler|[[Fishing]]|
+* {{Item|Fishing: Lungfish Fillet}}
+}}
+
+{{Spoiler|[[Shamanic Infusion]]|
+* {{Item|Shamanic Infusion: Beginner's Scray Headgear Infusion}}
+* {{Item|Shamanic Infusion: Beginner's Scray Leg Infusion}}
+* {{Item|Shamanic Infusion: Novice's Scray Headgear Infusion}}
+* {{Item|Shamanic Infusion: Novice's Scray Leg Infusion}}
+* {{Item|Shamanic Infusion: Shaman's Scray Headgear Infusion}}
+* {{Item|Shamanic Infusion: Shaman's Scray Leg Infusion}}
+}}
+
+}}
+
+
+[[Category:Quests]]
+[[Category:Quests/Ranalon Den Quests]]
+[[Category:Quests/Chirrra]]
+[[Category:Quests/Chirrra Tier 1]]

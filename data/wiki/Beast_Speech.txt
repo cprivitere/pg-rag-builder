@@ -1,0 +1,46 @@
+__NOTOC__
+{{Skill infobox
+|title            = Beast Speech
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Skill in speaking while in the form of an animal or monstrous beast.
+|skilltype        = Beast Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Any Beast Form 
+|skilltrainers    = None
+}}
+
+[[File:Beast Speech (skill).jpg|thumb|right|400px|This player needs to work on their Beast Speech.]]
+{{Quote| source="A player who stumbled onto [[Maronesa]]"|
+Help Mooo get Mooo in Mooo Mooo I need Moooo! 
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Beast Speech''' is a skill that helps you make sense when you chat with other players while in beast form. When the skill is low, random words spoken in chat will be replaced by an animal sound of the same length. For example "help" might become "mooo", which is rather inconvenient!
+=== In-Game Description ===
+Skill in speaking while in the form of an animal or monstrous beast.
+=== Training {{msg:BASEPAGENAME}} ===
+* Send a chat message while in a [[Beast Forms|Beast Form]].
+* [[Corpse Talking]] - A player who was once transformed into a [[Beast Forms|Beast Form]] but did not speak in chat may learn the skill through Corpse Talking.
+* Completing bribery quests with humanoid npcs before they will allow a beast to use their services. ie (5 Ancient Bronze Coins for Hulon granted 50 Beast Speech XP)
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* [[Beast Forms]] - All Adventurers in a Beast Form will learn '''Beast Speech.'''
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Improving Beast Speech ===
+'''Beast Speech''' will continue to randomly gain experience over time as you continue to talk in chat. Gradually, less words will be replaced by beastly sounds.
+
+'''Beast Speech''' can be raised rapidly be spamming the chat with any character until the experience is obtained and displayed in chat. There is a cool down of one minute before another experience gain can occur.
+
+=== Level up Rewards ===
+There are no level up rewards for Beast Speech.
+
+== Beast Speech Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Beast Speech|
+{{:Xptables/BeastSpeech}}
+}}
+== Trivia ==
+It was once common for Beast Speech to be one of the first skills a player obtained. When the Tutorial Cave was the new-player experience, [[Maronesa]] had the honor of being the first boss players encountered.
+
+[[Category:Skills]][[Category:Beast Skills]]

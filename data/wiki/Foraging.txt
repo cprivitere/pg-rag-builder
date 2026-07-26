@@ -1,0 +1,256 @@
+__NOTOC__
+{{Skill infobox
+|title            = Foraging
+|image            = [[File:Foraging (skill).jpg|300px]]
+|caption          = The art of picking things up.
+|skilltype        = Trade Skill
+|maxlevel         = 90
+|req              = N/A
+|skilltrainers    = [[Jesina]], [[Spot]], [[Dunahain Broadarm]] <!-- List skill trainers, 3 max -->
+}}
+{{Quote|
+The art of picking things up. Except mushrooms, those are special for some reason. Experts at Foraging are also experts at tracking down stationary items and locations (such as many Quest Objectives).
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Foraging]] is a skill measuring a person's ability to gather useful resources, including fruits, flowers, and wild plants. It also governs the level of wood logs that can be harvested.
+
+The skill eventually unlocks '''Seek Objective''' (level 5) and '''Objective Orienteering''' (level 15); both of which help with locating quest objectives.
+=== In-Game Description ===
+The art of picking things up. Except mushrooms, those are special for some reason. Experts at Foraging are also experts at tracking down stationary items and locations (such as many Quest Objectives).
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Foraging]] is easily learned by picking things up. {{Item|Red Apple}}, {{Item|Bluebell Seeds}}, or {{Item|Oak Wood}} are traditional starting points.
+* [[Jesina]] in [[Eltibule]] can unlock levels 51-60 and 61-70.
+* [[Spot]] in [[Animal Town]] offers alternative [[Foraging]] based crafting recipes for {{Item|Emergency Warmth Fire}} and {{Item|Basic Campfire}}.
+* Levels 71-80 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]] and [[Drummond Stonecurl]] in the eastern end of [[Vidaria]].
+* Levels 81-90 are unlocked by [[Drummond Stonecurl]] in the eastern end of [[Vidaria]].
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Carpentry]] - Wood collected through [[Foraging]] is an integral component in most [[Carpentry]] recipes.
+===== Related Skills: =====
+[[Gardening]] - [[Foraging]] is one method used to collect flower seeds for [[Gardening]].
+[[Cooking]] - [[Foraging]] provides a method to gather many useful fruits.
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Foraging]] can be obtained from the following skills and levels:
+:; [[Carpentry]] 
+:: Level 20
+:; [[Cooking]]
+:: Level 40
+:; [[Druid]]
+:: Level 22
+:; [[Gardening]]
+:: Level 20, Level 50
+:; [[Mining]]
+:: Level 25
+:; [[Pig]]
+:: Level 26
+:; [[Surveying]]
+:: Level 20, Level 37
+== Harvestables == 
+===== Seeds =====
+{| {{STDT|sortable}} 
+|-
+! Item Name || Foraging Level || Foraging XP || Locations || Notes
+|-
+| {{Item|Bluebell Seeds}} || 0 || 50|| [[Serbule]], [[Serbule Hills]], [[Eltibule]] ||
+|-
+| {{Item|Red Aster Seeds}} || 15  || 90 || [[Serbule]], [[Eltibule]] ||
+|-
+| {{Item|Violet Seeds}} || 25 || 130 || [[Eltibule]] ||
+|-
+| {{Item|Dahlia Seeds}} || 30 || 150|| [[Eltibule]] ||
+|-
+| {{Item|Daisy Seeds}} || 35 || 170|| [[Sun Vale]] ||
+|-
+| {{Item|Pansy Seeds}} || 40 || 190 || [[Sun Vale]] ||
+|-
+| {{Item|Marigold Seeds}} || 45 || 210 || [[Sun Vale]], [[Povus]] ||
+|-
+| {{Item|Poppy Seeds}} || 50 || 230 || [[Sun Vale]] ||
+|-
+| {{Item|Winterhue Seeds}} || 50  || 230 || [[Kur Mountains]], [[Gazluk]] ||
+|-
+| {{Item|Red Rose Seeds}} || 55 || 250 || [[Necromancer's Courtyard]], [[Rahu]]  ||
+|-
+| {{Item|Desert Rose Seeds}} || 55 || 250 || [[Ilmari]] ||
+|-
+| {{Item|Dandelion Seeds}} || 60 || 250 || [[Fae Realm]], [[Povus]], [[Vidaria]] ||
+|-
+| {{Item|Fae Mysotis Seeds}} || 65 || 250 || [[Fae Realm]] ||
+|-
+| {{Item|Basil Seedling}} || 67 || 320 || [[Fae Realm]] ||
+|-
+| {{Item|Tulip Seeds}} || 70 || 250 || [[Fae Realm]], [[Vidaria]] ||
+|-
+| {{Item|Cantaloupe Seedling}} || 70 || 360 || [[Fae Realm]] ||
+|-
+| {{Item|Paleblood Seeds}} || 75 || 250 || [[Gazluk]] ||
+|-
+| {{Item|Hyacinth Seeds}} || 80 || 275 || [[Povus]] ||
+|-
+| {{Item|Swamp Lily Seeds}} || 85 || 275 || [[Povus]] ||
+|-
+| {{Item|Red-Leaf Lettuce Seedling}} || 85 || 500 || [[Vidaria]] || harvesting has a chance of yielding a random [[:Category:Items/Weed|weed]] or [[Daisy Seeds]] instead
+|}
+
+===== Fruits =====
+{| {{STDT|sortable}} 
+|-
+! Item Name || Foraging Level || Foraging XP || Locations || Notes
+|-
+| {{Item|Red Apple}} || 0 || 20 || [[Anagoge]], [[Serbule]], [[Serbule Hills]], [[Vidaria]] ||
+|-
+| {{Item|Large Strawberry}} || 5 || 40 || [[Serbule]], [[Serbule Hills]], [[Vidaria]] ||
+|-
+| {{Item|Grapes}} || 10 || 70 || [[Serbule]], [[Serbule Hills]] ||
+|-
+| {{Item|Orange}} || 20 || 110 || [[Eltibule]] ||
+|-
+| {{Item|Guava}} || 30|| 160 || [[Eltibule]], [[Sun Vale]] ||
+|-
+| {{Item|Banana}} || 40|| 190 || [[Sun Vale]] ||
+|-
+| {{Item|Lemon}} || 50 || 230 || [[Ilmari]], [[Vidaria]] ||
+|-
+| {{Item|Pear}} || 60 || 330 || [[Fae Realm]] ||
+|-
+| {{Item|Mulberries}} || 65 || 360 || [[Vidaria]] ||
+|-
+| {{Item|Sprigganberries}} || 65 || 360 || [[Fae Realm]], [[Vidaria]] || harvesting has a small chance of yielding a {{Item|Large Strawberry}} instead
+|-
+| {{Item|Walnuts}} || 65 || 360 || [[Vidaria]] ||
+|-
+| {{Item|Peach}} || 65 || 380 || [[Fae Realm]] ||
+|-
+| {{Item|Coffee Beans}} || 70 || 420 || [[Povus]] ||
+|-
+| {{Item|Soybeans}} || 70 || 420 || [[Povus]] || only appear during New Moon or [[Fall Harvest]]
+|-
+| {{Item|Swamp Gourd}} || 70 || 450 || [[Povus]] ||
+|-
+| {{Item|Evu Fruit}} || 85 || 600 || [[Errruka's Cave]] ||
+|}
+
+===== Wood =====
+[[Foraging]] wood requires a {{Item|Handsaw}} or {{Item|Cutting Blade Necklace}}.
+{| {{STDT|sortable}} 
+|-
+! Item Name || Foraging Level || Foraging XP || Locations || Special condition
+|-
+| {{Item|Oak Wood}} || 0 || 20(log) / 20(fruit tree) || [[Serbule]], [[Serbule Hills]], [[Eltibule]], [[Apple]] Tree, [[Orange]] trees || none
+|-
+| {{Item|Perfect Oak Wood}} || 0 || 20 || [[Serbule]], [[Serbule Hills]], [[Eltibule]] || none
+|-
+| {{Item|Moonless Oak}} || ? || ? ||  [[Apple]] Tree, [[Orange]] trees || during New Moon
+|-
+| {{Item|Maple Wood}} || 20 || 110 || [[Serbule Hills]], [[Eltibule]], [[Kur Mountains]], [[Guava]] trees, [[Povus]] (3x) || none
+|-
+| {{Item|Perfect Maple Wood}} || 20 || 110 || [[Serbule Hills]], [[Eltibule]], [[Kur Mountains]], [[Guava]] trees || none
+|-
+| {{Item|Hardy Mapple}} || ? || ? || [[Guava]] trees || Not wearing Head-slot or chest-slot item as have 3+ diseases
+|-
+| {{Item|Cedar Wood}} || 40 || 190(log) / 190(fruit tree)|| [[Eltibule]], [[Kur Mountains]], [[Gazluk]], [[Lemon]] trees, [[Banana]] trees || none
+|-
+| {{Item|Perfect Cedar Wood}} || 40 || 190(log) / 190(fruit tree) || [[Eltibule]], [[Kur Mountains]], [[Gazluk]], [[Lemon]] trees || none
+|-
+| {{Item|Cursed Cedar}} || ? || ?|| [[Lemon]] trees, [[Banana]] trees || Have 3+ curses
+|-
+| {{Item|Spruce Wood}} || 50 || 250(log) / 45(fruit tree) || [[Gazluk]], [[Povus]], [[Pear]] trees, [[Peach]] trees, [[Walnuts|Walnut]] trees || none
+|-
+| {{Item|Perfect Spruce Wood}} || XX || 250 || [[Gazluk]] || none
+|-
+| {{Item|Yew Wood}} || 60 || 250(log) / 55(fruit tree) || [[Vidaria]], [[Mulberries|Mulberry]] trees || none
+|-
+| {{Item|Perfect Yew Wood}} || XX || 250 || [[Vidaria]] || none
+|}
+TODO: Verify if 'special type' wood can be harvest from log or only trees
+
+===== Other =====
+{| {{STDT|sortable}} 
+|-
+! Item Name || Foraging Level || Foraging XP ||Locations
+|-
+| {{Item|Egg}} || 0 || 1|| [[Serbule Keep]], anywhere chickens are
+|-
+| {{Item|Dirty Snow Water}} || 0 || 20 || [[Kur Mountains]]
+|-
+| {{Item|Grass}} from Haystack || 0 || 20 || various
+|-
+| {{Item|Cotton}} || 0 || 90|| [[Eltibule]]
+|-
+| {{Item|Oregano}} || 30 || 150|| [[Eltibule]]
+|-
+| {{Item|Wolfsbane}} || 30 || 150 || [[Kur Mountains]], [[Gazluk]]
+|-
+| {{Item|Seaweed}} || 35 || 170 || [[Sun Vale]], [[Rahu]]
+|-
+| {{Item|Tundra Lichen}} || 37 || 170 || [[Kur Mountains]], [[Gazluk]]
+|-
+| {{Item|Cinnamon}} || 50 || 230|| [[Kur Mountains]], [[Gazluk]]
+|-
+| {{Item|Cactus Juice}} || 55 || 240 || [[Ilmari]]
+|-
+| Fairy Puff (for [[Fairy Puff Goo]] quest) || 65 || 0 || [[Fae Realm]]
+|-
+| {{Item|Shimmerwing Wings}} || 70 || 408 || [[Fae Realm]]
+|-
+| {{Item|Icebreeze Moth Wings}} || 75 || 450 || [[Fae Realm]]
+|-
+| {{Item|Crimsonfelt Wings}} || 78 || 460 || [[Fae Realm]]
+|-
+| {{Item|Infernal Egg}} || 80 || 300 || [[Vidaria]]
+|}
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== Recipe Lists ==
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+===Leveling Guide===
+{{Spoiler|Put on your adventurer's cap and explore! Been there, done that? |
+; Level 1
+: Apple in starting dungeon and in cart on way to town.
+
+; Level 1-10
+: Northwest of Serbule : Oak Wood. (Be sure to get a [[Handsaw]].)
+
+; Level 10-15
+: [[File:SerbuleStumpRoute.png|thumb|left|150px|Serbule stump gathering route]] Northwest area of Serbule : Grapes, Oak Wood, Wild Bluebells. 
+: You can level here easily until you are around level 25-30.
+{{clear}}
+
+; Level 15-20
+: Around Eltibule Keep : look for Cotton, Wild Bluebells, Wild Red Asters (you may want to use one of the targetting keyboard shortcuts as the cottons are not easy to see).
+
+; Level 20-30
+: Near the garden area in Eltibule keep, Maple Wood and Wild Cotton giving great exp.
+
+; Level 30-40
+: Near Hogan´s Keep are spawning many Oranges, Guavas, and Violets
+
+; Level 40+
+: In Sun Vale there's a huge amount of easily harvestable fruits and seeds.
+
+; Level 50+
+: Desert Roses, and Peppers can be harvested in the [[Ilmari]] Desert.
+}}
+
+===Objective Orienteering===
+The [[Objective Orienteering]] ability can be a bit quirky, especially when used underwater, where it can only be used if you swim all the way to the sea floor. Also, it may appear not to function if used while facing away from the objective, so make sure you orient yourself before orienteering!
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Foraging Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Foraging|
+{{:Xptables/GatheringSkill}}
+}}
+
+[[Category:Skills]][[Category:Trade Skills]]
+
+== Gallery==
+<gallery mode="nolines" widths=200px>
+File:Obj_enj.png| A beam of light rising in the distance after Seek Objective skill usage.
+
+</gallery>

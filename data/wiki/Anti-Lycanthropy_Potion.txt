@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Malgath in the werewolf den asked you to obtain some wolfsbane for him.
+
+===Prerequisites===
+To start this quest, talk to '''[[Malgath]]''' in '''[[Wolf Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I was once a professional alchemist, and I'm certain there's a formula that will help me keep my sanity when the full moon comes. The secret is those horrible flowers that grow out in the snow: wolfsbane. But it's hard for me to pick them, because they're very toxic to me now. Can you get some for me?}}
+
+===Requirements===
+* Obtain {{Item|Wolfsbane}} x10
+* Talk to Malgath
+
+===Rewards===
+{{Spoiler|Rewards for Anti-Lycanthropy Potion|
+{{Quote|Augh! Irhetsu bless my nose! The stench of those flowers! Haha, the secret has to be locked in these! Thank you. Here. This was one of my demonstration weapons when I used to sell weapons door to door.}}
+
+* 75 {{Favor|favor}}
+* {{Item|Malgath's Demo Bow}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Malgath]]

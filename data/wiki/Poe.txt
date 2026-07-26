@@ -1,0 +1,110 @@
+__NOTOC__
+{{NPC infobox
+|title            = Poe
+|image            = [[File:Poe.jpg|300px]]
+|caption          = A Myconian.
+|zone = Serbule
+|dungeon = Myconian Cave
+|location         = In the second western branch.
+|anatomy = Fungoid
+|species = Myconian
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Jewelry Augmentation]]
+}}
+{{Quote|
+When Tidal broke from Mu, I followed Tidal because I thought it would let me return to the surface world. But in truth Tidal wishes only to destroy the surface world, not explore it. He cannot succeed, but he can cause great misery in his attempt.
+}}
+[[Poe]] is a [[Myconian]] craftsman found deep in the [[Myconian Cave]]. Poe once worked alongside [[Nightshade]]'s crafting guild. Other Myconians view Poe as an outcast because he wishes to return to and explore the surface world. After he returned to the Myconian Cave, he initially sided with [[Tidal]] in rebellion of [[Mu]], but realized his mistake.
+
+Note: Poe requires you to be more fluent in [[Myconic]] than the average Myconian in the caves. {{Hint|You need level 11 Myconic to speak with Poe}}
+== Location ==
+; [[Myconian Cave]]
+: In the second western branch going north through the cave, at the end of the northern split in the water.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Quests ==
+<dpl>
+category = Quests/Poe
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+; [[Jewelry Augmentation]] - Requires 25 [[Alchemy]] and [[Toolcrafting]]
+: Poe will teach you this skill once you have found him for [[Nightshade]] and returned to [[Nightshade]] to complete that quest. Learning from Poe only requires {{Favor|Comfortable}}.
+: ''Necklace Augments ''
+: ''Ring Augments ''
+: Jewelry Augmentation is one of the many [[Augmentation]] skills unlocked by completing Nightshade's favors.
+: See '''[[Jewelry Augmentation]]''' for detailed list of Necklace and Ring Augments available.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Jewelry Augmentation]]
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Jewelry Augmentation{{!}}Learn Jewelry Augment Brewing
+ | skilllevel = 0
+ | cost = 1000
+ | favor = Comfortable
+}}
+{{NPC training row
+ |recipe=Decompose Ring
+ |skilllevel=1
+ |cost=165
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Extract Ring Augment (Level 0-30)
+ |skilllevel=8
+ |cost=400
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Decompose Necklace
+ |skilllevel=13
+ |cost=900
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Extract Necklace Augment (Level 0-30)
+ |skilllevel=20
+ |cost=1132
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Extract Ring Augment (Level 31-60)
+ |skilllevel=31
+ |cost=2832
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Extract Necklace Augment (Level 31-60)
+ |skilllevel=45
+ |cost=4632
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Undo Augment on Ring
+ |skilllevel=30
+ |cost=1800
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Undo Augment on Necklace
+ |skilllevel=40
+ |cost=3132
+ |favor=Best Friends
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Medium Necklace Ornament}} x20
+|RiShin Family =  Gem x3
+}}
+== Conversations ==
+{{Quote|[[Tidal]] thinks he can flood the surface world because he does not comprehend the amount of water that would require. He has never been to the surface. You are permitted to mock him. But do not underestimate his power in battle.}}
+
+[[Category:NPCs]]

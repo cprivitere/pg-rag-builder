@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Rappanel in Serbule Hills said, "I need new catgut for my lute strings! Most catgut is made from sheep intestine, but I'm an artist, not some slob. I need actual cat gut! You're a lover of the arts, right? Don't do this for me. Do this for art. Find a tiger out there, kill it, and use your butcher knife to scoop up the guts. You do have a butcher knife, right? Because I don't! But I'm sure Fainor in Serbule town would..."
+
+===Prerequisites===
+To start this quest, talk to '''[[Rappanel]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+To begin this quest you must have level 1 [[Bard]].
+
+===Preface===
+{{Quote|I need new catgut for my lute strings! Most catgut is made from sheep intestine, but I'm an artist, not some slob. I need actual cat gut! You're a lover of the arts, right? Don't do this for me. Do this for art. Find a tiger out there, kill it, and use your butcher knife to scoop up the guts. You do have a butcher knife, right? Because I don't! But I'm sure Fainor in Serbule town would...}}
+
+===Requirements===
+* Obtain {{Item|Sinewy Cat Meat}}
+* Talk to Rappanel
+
+===Rewards===
+{{Spoiler|Rewards for Real Catgut|
+{{Quote|Oh gods they stink so bad! Augh! You didn't clean them?! No, no, it's fine. I'll have Lana do it for me. And here: I was going to give this to you. It's made of a goat's horn! Impressive, isn't it? I made it myself.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Blowing Horn}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Rappanel]]

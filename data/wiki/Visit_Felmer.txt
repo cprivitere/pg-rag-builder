@@ -1,0 +1,44 @@
+__NOTOC__
+==Summary==
+[[Raina]] in the [[Fae Realm]] said, "[[Felmer]] can be a handy person to know when things get... Um... chaotic. You should say hello."
+
+This quest is only available to [[Fairy|Fae]]. 
+
+===Preface===
+[[Felmer]] can be a handy person to know when things get... Um... chaotic. You should say hello.
+===Prerequisites===
+To start this quest, talk to '''[[Raina]]''' in '''[[Fae Realm]]''' after receiving the quest [[Re-Awakening]]. This quest is only available to [[Fairy|Fae]].
+===Requirements===
+* Talk to [[Felmer]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|
+Hello, fellow fairy!
+
+'''Hello!'''
+
+Another new fairy! I love all these new faces. The elves most, of course, but the other mortals and the fairies are fun too. Where did you come from? Have you been here long?
+
+'''I'm not sure. I don't really remember anything.'''
+
+Another one of those? It might be better not to remember, you know. Everyone can use some amnesia every couple of Seasons. 
+
+[Felmer looks far away for a moment, then snaps back.]
+
+Hey, are you planning to go out of town? Before you go out: Do you remember how to heal yourself? That's important.
+
+'''I don't know. Can you remind me?'''
+
+Of course! But I'm kind of stuck on this wing sash I'm working on and I can't help you until I finish that. Unless ...
+
+'''Yes?''' (Completes [[Visit Felmer]] and starts [[Felmer's First Aid]].)
+
+Unless you can help with it! I want to try shaping some pierced dinosaur scales into buttons. I know, I know - so rustic. But if you're going to be rustic you might as push all the way to primitive! Or that's what I tell myself. Anyway, how about you get me some dinosaur scales so I can get this wing sash finished and teach you First Aid?
+
+'''Okay.'''
+}}
+* 0 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Fae Quests]][[Category:Quests/Raina]]

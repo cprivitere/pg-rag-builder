@@ -1,0 +1,11 @@
+==Update Notes: March 27, 2020==
+This is another quick bug-fix update. We'll be back with the next regular update in just a few weeks!
+
+*Fixed situation where monsters could "see" players through walls
+*Fixed issue with a handful of loot items that didn't automatically stack when looted from certain monsters
+*Removed all levels of Fae racial skill for non-Fae
+*Fixed bug that prevented certain delayed debuffs from applying in certain situations. (This includes the debuffs that turn you into a cow or bat after a certain amount of time.)
+*Addressed problems with some old game accounts that could not awaken the fairies in the "Free Tortured Fairies" quest
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

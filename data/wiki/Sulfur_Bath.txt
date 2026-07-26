@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Willem Fangblade in Red Wing Casino said, "I need more sulfur for my gem-cleaning solution, but for some reason sulfur is very rare around here, which makes no sense. None at all. Anyway if you find some, bring it here!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Willem Fangblade]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|
+I need more sulfur for my gem-cleaning solution, but for some reason sulfur is very rare around here, which makes no sense. None at all. Anyway if you find some, bring it here!
+}}
+
+===Requirements===
+* Obtain {{Item|Sulfur}} x2
+* Talk to Willem Fangblade
+===Rewards===
+{{Spoiler|Rewards for Sulfur Bath|
+{{Quote|
+Yep, that's sulfur. Here's some gems for the trouble.
+}}
+* 100 favor towards Willem Fangblade
+* {{Item|Agate}} x3
+* {{Item|Onyx}} x3
+* {{Item|Red Wing Token}} X1
+}}
+
+[[Category:Quests]][[Category:Quests/Willem Fangblade]][[Category:Quests/Red Wing Casino Quests]]

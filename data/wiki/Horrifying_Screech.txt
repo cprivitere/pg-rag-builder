@@ -1,0 +1,12 @@
+__NOTOC__
+{{Ability infobox
+| name = Horrifying Screech
+| description = Screech in a manner that will startle and terrify lesser ratkin. (Trained soldiers will be unaffected.)
+| level = 0
+| power cost = 30
+| reuse time = 60
+| range = 10 meters
+| skill = Unknown
+| keywords = {{KWAB|Burst}}{{KWAB|Attack}}{{KWAB|Fear}}
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Spit Acid
+| description = Spit armor-melting acid at a distant target.
+| level = 24
+| power cost = 26
+| reuse time = 12
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|SpiderAcid}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}
+| damage = 46 Acid to armor initially and 8 Acid 5 times over 9 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Spit Acid 2
+| description = Spit armor-melting acid at a distant target.
+| level = 34
+| power cost = 32
+| reuse time = 12
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|SpiderAcid}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}
+| damage = 71 Acid to armor initially and 15 Acid 5 times over 9 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Spit Acid 3
+| description = Spit armor-melting acid at a distant target.
+| level = 44
+| power cost = 36
+| reuse time = 12
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|SpiderAcid}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}
+| damage = 111 Acid to armor initially and 25 Acid 5 times over 9 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Spit Acid 4
+| description = Spit armor-melting acid at a distant target.
+| level = 54
+| power cost = 41
+| reuse time = 12
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|SpiderAcid}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}
+| damage = 164 Acid to armor initially and 50 Acid 5 times over 9 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Spit Acid 5
+| description = Spit armor-melting acid at a distant target.
+| level = 64
+| power cost = 45
+| reuse time = 12
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|SpiderAcid}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}
+| damage = 216 Acid to armor initially and 80 Acid 5 times over 9 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Spit Acid 6
+| description = Spit armor-melting acid at a distant target.
+| level = 74
+| power cost = 50
+| reuse time = 12
+| range = 30 meters
+| skill = Spider
+| keywords = {{KWAB|Attack}}{{KWAB|Spider}}{{KWAB|SpiderAcid}}{{KWAB|SpiderAttack}}{{KWAB|Ranged}}{{KWAB|NiceAttack}}
+| damage = 275 Acid to armor initially and 110 Acid 5 times over 9 seconds
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

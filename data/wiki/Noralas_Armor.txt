@@ -1,0 +1,35 @@
+__NOTOC__
+==Summary==
+An avatar of Tast in Povus said, I can teach you to craft wolf armor of astounding quality, blessed by my consort Norala. For while her wolves are strong, her smiths are weak! And weakness is not tolerated long in war. You will aid them to be war-worthy.
+
+But Norala's boon requires the death of the largest, most horrific creatures. No ordinary orc or human shall do!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Tast]]''' in '''[[Povus]]'''. This quest is available at [[Armorsmithing]] level 75. You must have previously completed [[No Ordinary Blacksmith's Challenge]] in order to undertake this quest. 
+
+===Preface===
+I can teach you to craft wolf armor of astounding quality, blessed by my consort Norala. For while her wolves are strong, her smiths are weak! And weakness is not tolerated long in war. You will aid them to be war-worthy.
+
+But Norala's boon requires the death of the largest, most horrific creatures. No ordinary orc or human shall do!
+
+===Requirements===
+* Kill Elite Enemies x50
+* Talk to Tast, God of War
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Norala blesses you thus. And both of us shall be watching you.}}
+* 3 {{Favor|favor}}
+* Recipe: Astounding Werewolf Hind Leg Guards (Enchanted)
+* Recipe: Astounding Werewolf Hind Leg Guards (Max-Enchanted)
+* Recipe: Astounding Werewolf Hindguard (Enchanted)
+* Recipe: Astounding Werewolf Hindguard (Max-Enchanted)
+* Recipe: Astounding Werewolf Barding (Enchanted)
+* Recipe: Astounding Werewolf Barding (Max-Enchanted)
+* Recipe: Astounding Werewolf Foreguards (Enchanted)
+* Recipe: Astounding Werewolf Foreguards (Max-Enchanted)
+* Recipe: Astounding Werewolf Champron (Enchanted)
+* Recipe: Astounding Werewolf Champron (Max-Enchanted)
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Tast]]

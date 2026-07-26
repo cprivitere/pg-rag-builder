@@ -1,0 +1,63 @@
+__NOTOC__
+{{NPC infobox
+|title            = Richter
+|image            = [[File:Richter (npc).png|300px]]
+|caption          = He's reading something from a notebook.
+|zone             = Heavenly Sewers
+|location         = At Entrance 
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = Yes
+}}
+{{Quote|Ah, another death. Well, worse things happen at sea, isn't that what they say? You'll do better next time... wait... can you hear me?!}}
+'''Richter''' is an elf who you can interact with in some kind of sewers room that is reached by "Entering the Light" (one of the options that unlocks with the [[Dying]] skill).
+
+The area he is in has no map. It features portals to Serbule Keep and Rahu (both usable with 8 hours cooldown) and a random portal that can be used as often as you have to.
+Richter sells various utility items such as Potions, Inks, basic equipment, Dye Pot and Gem Crusher.
+
+== Location ==
+; [[Heavenly Sewers]]
+: When dead, use the "Enter the Light" option.
+
+== Shopkeeper ==
+Richter sells various utility items.
+{{Vendor items sold}}
+
+== Conversations ==
+{{Quote|
+
+Ah, another death. Well, worse things happen at sea, isn't that what they say? You'll do better next time... wait... can you hear me?!
+
+'''Where am I?'''
+
+Uh... uh... you're awake! This shouldn't happen... this is bad! Are you... angry?
+
+'''Should I be angry?'''
+
+No. No! I saved you! Yet again! I'm like... your guardian angel. Yes! You see, I'm your guardian angel, and I save you from death, teleporting your near-lifeless corpse back here, where I fix it up and send you on your way.
+
+'''My guardian angel lives in a sewer?'''
+
+Ah... heh. Well... yes. Yes I do live in a sewer. Okay, fine! Look, I can't tell you what's going on. It'd be bad for both of us. Just trust me that I'm your friend, and I'm helping you. 
+
+'''Why should I trust you?'''
+
+Do you have any idea how many times you've nearly died?! Precisely (???) times! But you're still here. Nobody has that much luck. It was me! I've been pulling you from death's door. I'm your chum!
+
+'''And you won't tell me anything else?'''
+
+I'm sorry. It wouldn't be prudent. The knowledge could deform your skull with its incredible impact. Now THAT is some good hyperbole, I should write that one down!
+
+'''Then what happens now?'''
+
+Well... there's an exit over there. Take that and go about your life as if this never happened! Ooh, or hey, do you need supplies?
+
+'''Let me see your wares.'''
+
+'''I guess I'll leave now...'''
+
+}}
+
+[[Category:NPCs]]

@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Gasu'um in New Prestonbule said, "To repair my necklace, I need pyrite. Obtain for me the finest pyrite! I will reward you."
+
+===Prerequisites===
+To start this quest, talk to '''[[Gasu'um]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Sentimental Jewelry]] in order to undertake this quest.
+
+===Preface===
+{{Quote|To repair my necklace, I need pyrite. Obtain for me the finest pyrite! I will reward you.}}
+
+===Requirements===
+* Obtain {{Item|Pyrite}} Ore x5
+* Talk to Gasu'um
+
+===Rewards===
+{{Spoiler|Rewards for The Chain of Gasu'um's Necklace|
+{{Quote|Good. This pyrite will serve.
+
+I will tell you a secret: I once made jewelry. My mother taught me. And I have a necklace stored away that is ugly. So it would be perfect for you! Here. Take it! Wear it proudly!}}
+
+* 100 {{Favor|favor}}
+* 250 councils 
+* {{Item|Gasu'um's Old Necklace}}
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Gasuum]]

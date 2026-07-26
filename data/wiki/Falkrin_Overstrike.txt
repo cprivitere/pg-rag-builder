@@ -1,0 +1,278 @@
+__NOTOC__
+{{NPC infobox
+|title            = Falkrin Overstrike
+|image            = [[File:Falkrin Overstrike (npc).png|300px]] 
+|caption          = He's not written yet.
+|zone             = Ilmari
+|town = Amulna
+|location         = Near the northern gate.
+|wander = Seeks shelter during sandstorms.
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Hammer]] [[Blacksmithing]]
+}}
+{{Quote|
+This isn't Rahu! ...Great. I'm not implemented yet!
+}}
+[[Falkrin Overstrike]] is a Human [[Hammer]] expert temporarily located in [[Amulna]]. He actually lives in [[Rahu]].
+== Location ==
+; [[Ilmari]]
+: Found inside the town of [[Amulna]].  He lives in the room above Selaxi's shop.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Hammer]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Hammer{{pipe}}Unlock Hammer Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20000
+ |favor= Friends
+}}
+{{NPC training row
+ |ability=Reckless Slam 6
+ |skilllevel=52
+ |cost=9800
+ |favor=?
+}}
+{{NPC training row
+ |ability=Seismic Impact 5
+ |skilllevel=53
+ |cost=9850
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pound 5
+ |skilllevel=54
+ |cost=9900
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pound To Slag 4
+ |skilllevel=55
+ |cost=9950
+ |favor=?
+}}
+{{NPC training row
+ |ability=Rib Shatter 4
+ |skilllevel=56
+ |cost=11500
+ |favor=?
+}}
+{{NPC training row
+ |ability=Leaping Smash 5
+ |skilllevel=57
+ |cost=11550
+ |favor=?
+}}
+{{NPC training row
+ |ability=Reverberating Strike 6
+ |skilllevel=59
+ |cost=11650
+ |favor=?
+}}
+{{NPC training row
+ |ability=Look At My Hammer 6
+ |skilllevel=60
+ |cost=11700
+ |favor=?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Hammer{{pipe}}Unlock Hammer Skill Levels 61-70
+ |skilllevel = 60
+ |cost=100000
+ |favor= Close Friends
+}}
+{{NPC training row
+ |ability=Reckless Slam 7
+ |skilllevel=62
+ |cost=14800
+ |favor=?
+}}
+{{NPC training row
+ |ability=Rib Shatter 5
+ |skilllevel=66
+ |cost=17000
+ |favor=?
+}}
+{{NPC training row
+ |ability=Seismic Impact 6
+ |skilllevel=63
+ |cost=14850
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pound 6
+ |skilllevel=64
+ |cost=14900
+ |favor=?
+}}
+{{NPC training row
+ |ability=Pound To Slag 5
+ |skilllevel=65
+ |cost=14950
+ |favor=?
+}}
+{{NPC training row
+ |ability=Leaping Smash 6
+ |skilllevel=67
+ |cost=17050
+ |favor=?
+}}
+{{NPC training row
+ |ability=Reverberating Strike 7
+ |skilllevel=69
+ |cost=17150
+ |favor=?
+}}
+{{NPC training row
+ |ability=Look At My Hammer 7
+ |skilllevel=70
+ |cost=17200
+ |favor=?
+}}
+{{NPC training row
+ |ability=Thunderstrike 5
+ |skilllevel=70
+ |cost=17200
+ |favor=?
+}}
+{{NPC training row
+ |ability=Reckless Slam 8
+ |skilllevel=72
+ |cost=19800
+ |favor=?
+}}
+{{NPC training row
+ |ability=Discharging Strike 5
+ |skilllevel=73
+ |cost=~19850
+ |favor=?
+}}
+{{NPC training row
+ |ability=Seismic Impact
+ |skilllevel=73
+ |cost=~19850
+ |favor=?
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Blacksmithing]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Blacksmithing{{pipe}}Unlock Blacksmithing Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20000
+ |favor=Close Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Blacksmithing{{pipe}}Unlock Blacksmithing Skill Levels 61-70
+ |skilllevel = 60
+ |cost=50000
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Great Cow Shoes
+ |skilllevel=63
+ |cost=9900
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cow Shoes
+ |skilllevel=73
+ |cost=13233
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Great Deer Shoes
+ |skilllevel=63
+ |cost=9900
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Deer Shoes
+ |skilllevel=73
+ |cost=13233
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Shoddy Horseshoes
+ |skilllevel=1
+ |cost=?
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Rough Horseshoes
+ |skilllevel=10
+ |cost=?
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Crude Horseshoes
+ |skilllevel=20
+ |cost=?
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Decent Horseshoes
+ |skilllevel=30
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Nice Horseshoes
+ |skilllevel=40
+ |cost=~3133
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Quality Horseshoes
+ |skilllevel=50
+ |cost=4800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Great Horseshoes
+ |skilllevel=60
+ |cost=7800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Horseshoes
+ |skilllevel=70
+ |cost=11466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Astounding Horseshoes
+ |skilllevel=80
+ |cost=15133
+ |favor=Like Familiy
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Archcudgel}} (Lv 50)
+|RiShin Family = {{Item|Archcudgel}} (Lv 60), 2x Items from list (incomplete): {{Item|Pottery Shard}}, {{Item|Hope Oil}}, {{Item|Magic Sand}}, {{Item|On Becoming Great Again}}
+}}
+== Conversations ==
+
+[[Category:NPCs]]

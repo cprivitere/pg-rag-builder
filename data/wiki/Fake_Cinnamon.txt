@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Mox Warcut in New Prestonbule said, "The 'cinnamon' that grows in Council Lands isn't the same plant that we have growing overtop Mt. Aufghel. I need to collect some of the stuff for a report back home. Can you help me collect it? It grows on trees in the snow out there."
+
+===Prerequisites===
+To start this quest, talk to '''[[Mox Warcut]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|The 'cinnamon' that grows in Council Lands isn't the same plant that we have growing overtop Mt. Aufghel. I need to collect some of the stuff for a report back home. Can you help me collect it? It grows on trees in the snow out there.}}
+
+===Requirements===
+* Obtain {{Item|Cinnamon}} x8
+* Talk to Mox Warcut
+
+===Rewards===
+{{Spoiler|Rewards for Fake Cinnamon|
+{{Quote|Yes! See, this cinnamon bark is actually a kind of <i>cassia</i> tree bark. It works fine as a spice, but it's not the same thing at an alchemical level! It's not a kind of cassia I recognize, either. Very interesting. Thank you. On behalf of the Aufghel Naturists Society, I present this bounty.}}
+
+* 100 {{Favor|favor}}
+* 2500 councils 
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Mox Warcut]]

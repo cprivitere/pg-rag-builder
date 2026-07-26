@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Front Kick
+| description = Violently kick your enemies.
+| level = 2
+| power cost = 11
+| reuse time = 8
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Kick}}{{KWAB|CowFrontKick}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 18 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Front Kick 2
+| description = Violently kick your enemies.
+| level = 14
+| power cost = 14
+| reuse time = 8
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Kick}}{{KWAB|CowFrontKick}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 34 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Front Kick 3
+| description = Violently kick your enemies.
+| level = 25
+| power cost = 18
+| reuse time = 8
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Kick}}{{KWAB|CowFrontKick}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 53 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Front Kick 4
+| description = Violently kick your enemies.
+| level = 36
+| power cost = 23
+| reuse time = 8
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Kick}}{{KWAB|CowFrontKick}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 80 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Front Kick 5
+| description = Violently kick your enemies.
+| level = 45
+| power cost = 25
+| reuse time = 8
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Kick}}{{KWAB|CowFrontKick}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 117 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Front Kick 6
+| description = Violently kick your enemies.
+| level = 55
+| power cost = 29
+| reuse time = 8
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Kick}}{{KWAB|CowFrontKick}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 170 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Front Kick 7
+| description = Violently kick your enemies.
+| level = 65
+| power cost = 32
+| reuse time = 8
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Kick}}{{KWAB|CowFrontKick}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 223 Crushing
+}}
+|-
+|
+{{Ability infobox
+| name = Front Kick 8
+| description = Violently kick your enemies.
+| level = 75
+| power cost = 35
+| reuse time = 8
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Kick}}{{KWAB|CowFrontKick}}{{KWAB|CowAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|CoreAttack}}
+| damage = 282 Crushing
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

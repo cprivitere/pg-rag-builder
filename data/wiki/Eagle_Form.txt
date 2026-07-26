@@ -1,0 +1,12 @@
+__NOTOC__
+{{Ability infobox
+| name = Eagle Form
+| description = Become an eagle.
+| level = 50
+| power cost = 50
+| reuse time = 10
+| range = 5 meters
+| skill = Unknown
+| special = Eagle flies faster than a raven. Automatically dispelled when indoors.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,19 @@
+[[AI Pet Profile]]s (AIP) are provided in the AI.json file, giving the internal name of both a profile name and the internal ability names used by that profile.
+
+Pages placed in the AIP namespace use [[Template:Combat Ability]]  and [[Template:Combat Ability Rage]] to swap the internal names for the icons and ability descriptions seen by players in-game.
+
+Profiles for Wild Monsters can be found in the category [[:Category:AI Profile]] and listed on the [[AI Profile]] page.
+==== Pet Profiles ====
+Profiles for Tamed Pets are placed in [[:Category:Pet Profile]].
+{{ #dpl:
+ | category   = Pet Profile
+ | columns = 1
+}}
+<!-- This one breaks things. Don't uncomment unless fixable
+{{ #dpl:
+ | category   = Pet Profile
+ | include    = *
+ | columns = 1
+ | table      = class="sortable wikitable" style="width:100%",Profile Name
+}}
+-->

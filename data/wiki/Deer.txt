@@ -1,0 +1,179 @@
+__NOTOC__
+{{Skill infobox
+|title            = Deer
+|image            = [[File:Deer_form.jpg|300px]]
+|caption          = A majestic stag and doe.
+|skilltype        = Beast Form <!-- Combat Skill, Beast Form, Anatomy Skill, Trade Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 100 <!-- List without bonus levels -->
+|req              =  <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Jumper]], [[Noita the Green]], [[Parella]] <!-- List skill trainers, 3 max -->
+|gem = {{Item|Deer Malachite}}, {{Item|Malachite}}
+}}
+{{Quote|
+... Oh deer, we seem to be missing a proper quote for this page!
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Deer''' is a common [[Beast Forms|Beast Form]]. Druids eventually unlock the ability to shift in and out of Deer Form at will, and other players can transform themselves with [[Deer Juice]]/[[Un-Deer Juice]]. The last option for becoming a deer is taking a rage attack from [[Ciervos The Shadow]], and defeating him will uncurse you.
+
+Deer are typically solid bruisers/offtanks. They can provide decent self-healing and have the ability to summon a deer pet. Deer also have access to potent movement speed buffs.
+
+Being a deer means you look harmless to other animals, so enemy deer and similar animals don’t run away from you.
+
+For more information on how to navigate being turned into an animal visit the [[Beast Forms]] page for advice.
+
+=== In-Game Description ===
+The art of living and fighting as a deer.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* The '''[[Deer Form]]''' ability is unlocked automatically by [[Druid|Druids]] at level 25
+* The dark elk [[Ciervos The Shadow]] will curse deer form unto anyone hit by his rage attack
+* Drinking a [[Deer Juice]] will turn you into a deer. [[Yetta]] in Eltibule Keep sells both the [[Deer Juice]] and [[Un-Deer Juice]], but it should be noted that she will not speak to animals. Thus, if you are a deer in need of an [[Un-Deer Juice]], you may need a humanoid friend to buy it from her for you.
+* [[Jumper]] will unlock levels 51-70 and train 51+ abilities
+* [[Noita the Green]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Big Footed Jim]] deep beneath [[Povus]].
+* [[Parella]] in [[Statehelm]] unlocks levels 81-100, [[Prodigy Potential]], and trains 90+ abilities.
+
+Note: Druids looking to train deer skills with Jumper will need to stay in [[Deer]] (or other beast-form, not including bird forms) for at least three in-game hours before Jumper will speak with you.
+
+== Connected Skills ==
+=====Sub-Skills:=====
+
+=====Secondary Skills:=====
+*[[Druid]]
+===== Related Skills:=====
+*[[Beast Speech]]
+*[[Survival Instincts]]
+
+===== Synergy Levels =====
+Bonus [[Synergy Levels]] for [[Deer]] can be obtained from the following skills and levels:
+:; [[Animal Handling]]
+:: Level 24
+:; [[Cow]]
+:: Level 26
+:; [[Foraging]]
+:: Level 25
+:; [[Gardening]]
+:: Level 80
+:; [[Nature Appreciation]]
+:: Level 95
+:; [[Psychology]]
+:: Level 17
+:; [[Ruminant Anatomy]]
+:: Level 17
+:; [[Survival Instincts]]
+:: Level 18, 85
+:; [[Unarmed]]
+:: Level 16
+:; [[Warden]]
+:: Level 85
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Lack of Hands ===
+Playing as a deer you lack the ability to cut wood, milk cows or use [[Sigil Scripting]], like a deer needs to do those things anyway.
+
+=== NPC Communication ===
+Some NPCs may interact with harmless animals (eg Deer), but a considerable number flat-out refuse to speak with any non-humanoids. Others may require a bribe or favor to open their minds to the fact you're more than some filthy animal. A list showing what NPC's will and will not communicate with you can be found on the [[Beast Forms]] page.
+=== Riding ===
+As a [[Beast Forms|Beast Form]], Deer are not able to use the traditional Horse mounts offered through [[Riding]]. Instead, [[Silvia]] in [[Sun Vale]] teaches a mount-form to [[Deer]] players who are at least level 25, as well as a speed-up ability that reduces mount anxiety and increases jump height.
+=== Diet ===
+Currently what you eat doesn't really change your experience as a deer, though eating meals prepared from deer meat may leave you with a guilty conscious but they probably deserved it anyway so enjoy.
+=== Drugs & Enhancements ===
+As an animal, there's a number of items you're able to consume to help you become the best deer possible. One of these magical substances is known as [[Drugs|Bounceweed]] and has no negative effects what so ever...unless you stop taking it. If your tiny ruminant mind is tired and overwhelmed with bounceweed addiction a friendly mantis called [[Yavazek]] will barter you some [[Drugs|Calmweed]] putting you on the road to recovery.
+
+=== Jumping ===
+The ability [[Bounding Escape]] gives deer a considerable boost in jumping capability, allowing you to reach ledges, avoid obstacles or hungry predators.
+
+=== Summon Deer ===
+A PC deer can summon one companion deer at level 12 using the skill [[Summon Deer]].  This ability can be used out of deer form, but the Deer skillset must be active.
+
+{| {{STDT|sortable}}
+!Level
+!Ability
+!Armor
+!Health
+!Rage
+!Base Damage
+!Rage Damage
+|-
+| 12 || Summon Deer 1 || 90 || 108 || 110 || 12 || 24
+|-
+| 26 || Summon Deer 2 || 154 || 177 || 336 || 29 || 41
+|-
+| 42 || Summon Deer 3 || 298 || 266 || 640 || 52 || 74
+|-
+| 56 || Summon Deer 4 || 544 || 386 || 880 || 78 || 100
+|}
+
+===Equipment===
+Crafters producing equipment for use by [[Deer]] should obtain the [[Sigil Scripting]] recipe '''Deer Inscription,''' which allows for the creation of {{Item|Deer Malachite}}. 
+
+This attuned gemstone can be used in any recipe which calls for the use of [[:Category:Items/Crystal|Crystals]] to create equipment with [[Deer]] Treasure Effects.
+* {{Item|Belt of The Forest King}} - Increases Base Damage dealt with Deer by 10%. Can be bought from [[Suspicious Cow]]. {{Hint|can be found wandering around Eltibule's central keep.}}
+* {{Item|Deer Shoes}} - Purchased from [[Flia]].
+* {{Item|White-Tail Ring}} {{Hint|Hangout with Daisy (and Jumper).}}
+* {{Item|Black-Tail Ring}}
+* {{Item|Alicorn}}  {{Hint|Rare drop from most level 60 mobs.}}
+* {{Item|Dark Alicorn}} {{Hint|Barter from Torgan who lives in New Prestonbule Cave.}}
+* {{Item|Greenberg's Horn}} {{Hint|Obtained from Sugar during Ri-Shin.}}
+* {{Item|Deer's Disguise Kit}}{{Hint|Buy from the guild shop for 42 points.}}
+==== Deer Shoes ====
+While basic {{Item|Deer Shoes}} can be purchased from NPCs, [[Deer]] seeking stronger footwear should seek out shoes crafted through [[Carpentry]] or [[Blacksmithing]].
+===== Carpentry Shoes =====
+*{{Item|Shoddy Wooden Deer Shoes}} - Level 5 horseshoes, but for a deer, and made of wood.
+*{{Item|Rough Wooden Deer Shoes}} - Level 10 horseshoes, but for a deer, and made of wood.
+*{{Item|Crude Wooden Deer Shoes}} - Level 20 horseshoes, but for a deer, and made of wood.
+*{{Item|Decent Wooden Deer Shoes}} -  Level 30 horseshoes, but for a deer, and made of wood.
+*{{Item|Nice Wooden Deer Shoes}} - Level 40 horseshoes, but for a deer, and made of wood.
+*{{Item|Quality Wooden Deer Shoes}} - Level 50 horseshoes, but for a deer, and made of wood.
+*{{Item|Great Wooden Deer Shoes}}- Level 60 horseshoes, but for a deer, and made of wood.
+*{{Item|Amazing Wooden Deer Shoes}} - Level 70 horseshoes, but for a deer, and made of wood.
+===== Blacksmithing Shoes =====
+*{{Item|Shoddy Deer Shoes}} - Level 5 horseshoes, but for a deer.
+*{{Item|Rough Deer Shoes}} - Level 10 horseshoes, but for a deer.	
+*{{Item|Crude Deer Shoes}} - Level 20 horseshoes, but for a deer. Infused with magic.
+*{{Item|Decent Deer Shoes}} - Level 30 horseshoes, but for a deer. Infused with magic.
+*{{Item|Nice Deer Shoes}} - Level 40 horseshoes, but for a deer. Infused with magic.
+*{{Item|Quality Deer Shoes}} - Level 50 horseshoes, but for a deer. Infused with magic.
+*{{Item|Great Deer Shoes}} - Level 60 horseshoes, but for a deer. Infused with magic.
+*{{Item|Amazing Deer Shoes}} - Level 70 horseshoes, but for a deer. Infused with magic.
+
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Deer Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Deer|
+{{:Xptables/TypicalCombatSkill}}
+}}
+== Trivia ==
+
+== Gallery==
+<gallery mode="nolines" widths=200px>
+</gallery>
+
+<!--
+    Add the correct Categories to the skill page. Make sure to remove Category:Template guides.
+
+    Mandatory Categories:
+    * Category:Skills
+
+    These Categories will be automatically added if you filled in the infobox correctly:
+    * Category:Combat Skills
+    * Category:Trade Skills
+    * Category:Beast Skills
+    * Category:Beast Forms
+    * Category:Other Skills
+    * Category:Anatomy Skills     
+    
+    Note, If the Skill is a Beast Form, manually add:
+    * Category:Beast Skills
+-->
+[[Category:Skills]]

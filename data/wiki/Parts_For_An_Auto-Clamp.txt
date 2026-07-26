@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Tremmond Blackhammer in Povus said, "I'm no gadgeteer or trinket-smith, but I was thinking about building a simple automated holder-arm. Nothin' fancy, just something a little smarter than a C-clamp!
+
+I don't want to ask Stephie for the parts, though, because that would go on our ledger. This isn't business, it's just an old dwarf messin' around! ... Say, maybe you could help me out? Here's some of the stuff I need. There's more, but this is the hard stuff."
+
+===Prerequisites===
+To start this quest, talk to '''[[Tremmond Blackhammer]]''' in '''[[Povus]]'''. The quest is available at {{Favor|Neutral}} favor. 
+
+===Preface===
+I'm no gadgeteer or trinket-smith, but I was thinking about building a simple automated holder-arm. Nothin' fancy, just something a little smarter than a C-clamp!
+
+I don't want to ask Stephie for the parts, though, because that would go on our ledger. This isn't business, it's just an old dwarf messin' around! ... Say, maybe you could help me out? Here's some of the stuff I need. There's more, but this is the hard stuff.
+
+===Requirements===
+* Obtain Dwarven N Core
+* Obtain Dwarven Weight
+* Obtain Metal Claw
+* Talk to Tremmond Blackhammer
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|So I see you've delivered an N core, still chargable; a size 4 golem claw, used; and what about the... oh, there it is, the programmable counterweight! You've done well. Here is your payment.
+
+I could use help with one other bit of this little project, though. Whenever you next have time to do me a favor.}}
+* 200 {{Favor|favor}}
+* {{Item|Xogrite Chunk}} x10
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Tremmond Blackhammer]]

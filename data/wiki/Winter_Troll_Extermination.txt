@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Pegast in the Fae Realm said, "The Winter Trolls south of here are a real pest. They're not native to this area! Only the green ones are! Remember: green good, blue bad.
+
+The Winter Court uses trolls as laborers and guards everywhere, but here they also use them to spread misinformation throughout troll society. If you see one, execute it!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Pegast]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+The Winter Trolls south of here are a real pest. They're not native to this area! Only the green ones are! Remember: green good, blue bad.
+
+The Winter Court uses trolls as laborers and guards everywhere, but here they also use them to spread misinformation throughout troll society. If you see one, execute it!
+
+===Requirements===
+* Kill Winter Trolls x8
+* Talk to Pegast
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Great work on the troll-slaying. And trolls are true immortals, so killing them isn't even that big of a deal. They'll be reborn in just a few years! Hopefully they'll make better decisions next time.}}
+* 100 {{Favor|favor}}
+* {{Item|Fairy Dagger}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Pegast]]

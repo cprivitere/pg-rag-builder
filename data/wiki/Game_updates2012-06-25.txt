@@ -1,0 +1,4 @@
+== Game Update 6/25/2012 ==
+* Player Cows no longer fall through the world after transformation.
+* Random Loot generation works properly.
+[[Category:Game updates]]

@@ -1,0 +1,33 @@
+__NOTOC__
+==Summary==
+Truxartis asked me to bring him two jars of Acur Blood.
+
+===Prerequisites===
+To start this quest, find and interact with the coffin in the [[Vidaria]] trapdoor tower in the northeast corner of the zone. No prior quests are required.
+
+===Preface===
+{{Quote|I have a... magical illness.
+
+I need a rare substance known as Acur Blood. I know ...not... where one such as... yourself... would find this thing. Perhaps seek out sages or ...mystics. In any case, I grant you no hope. But if you succeed, I shall reward you handsomely.
+Wait! Actually, make it two jars of Acur Blood.}}
+
+===Requirements===
+* Obtain {{Item|Acur Blood}} x2
+* Return to the Coffin
+
+===Rewards===
+{{Spoiler|Rewards for The Man In The Coffin|
+{{Quote|A hand came out of the coffin and snatched the Acur Blood. A moment later, a pale human stepped out.}}
+
+* 50 {{Favor|favor}}
+* 10,000 Councils
+}}
+
+===Notes===
+{{Spoiler|Notes|
+Acur Blood drops from completing world events: the ''[[Close The Portal]]'' event in [[Eltibule]] (1 AM in-game) and [[Sun Vale]] (3 AM in-game), and the ''[[Cultist Uprising]]'' event in [[Statehelm]] (5 AM in-game).
+
+If Truxartis is not present in the coffin, try logging out and back in to the zone.
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Truxartis]]

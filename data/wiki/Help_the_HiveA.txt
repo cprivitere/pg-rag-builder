@@ -1,0 +1,41 @@
+{{Ambox
+|border=yellow
+|info=<span style="color:#c80000; font-weight:bold;">This quest is given by Beehive A.
+
+For a list of all Help the Hive quests, see: [[Help the Hive]].<br/></span>
+}}
+__NOTOC__
+==Summary==
+A beehive in the Fae Realm said, "Bzz. BzzZZzzz ...
+We need your help, fairy. The nibbling sprouts burrow under the ground.
+
+Bzz. ZzzZzzZzzBz ... zzzBzt!
+They ambush us while we pollinate. You must kill them!
+
+BzzRtxl!"
+
+This Quest can be repeated after 5 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Beehive]] A''' in '''[[Fae Realm]],''' completing the quests [[Meet the Hive]] and [[Pollinate]]. This quest is only available to Fae.
+
+===Preface===
+Bzz. BzzZZzzz ...
+We need your help, fairy. The nibbling sprouts burrow under the ground.
+
+Bzz. ZzzZzzZzzBz ... zzzBzt!
+They ambush us while we pollinate. You must kill them!
+
+BzzRtxl!
+
+===Requirements===
+* Kill Nibbling Sprouts x10
+* Talk to the Bee Hive
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|BzzZz! [Which you think means, 'Thanks!']}}
+* {{Item|Fairy Soul Anchor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/BeeHive]][[Category:Quests/Fae Quests]]

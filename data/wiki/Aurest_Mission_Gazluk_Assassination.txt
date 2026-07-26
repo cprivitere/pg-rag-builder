@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+[[Lady Alethina]] in [[Red Wing Casino]] said, "Far from here, on a freezing plateau in [[Gazluk]], there is a city of orcs. Find this place and sneak into their keep. I need you to assassinate some important people... and creatures... for political reasons. This will be dangerous; bring allies that you trust. Here's a list of those who must die. Remember, all of these are on the top floor of the keep. You don't need to go into the lower level."
+
+This [[Daily Quest]] can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lady Alethina]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Despised}} favor. This quest is only available during an event in the area. 
+
+===Preface===
+Far from here, on a freezing plateau in [[Gazluk]], there is a city of orcs. Find this place and sneak into their keep. I need you to assassinate some important people... and creatures... for political reasons. This will be dangerous; bring allies that you trust. Here's a list of those who must die. Remember, all of these are on the top floor of the keep. You don't need to go into the lower level.
+
+===Requirements===
+* Kill [[Lieutenant Umaive]]
+* Talk to [[Lady Alethina]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You slew them all? Very well done! I am impressed. The orcs of Gazluk will now be much more responsive when I... oh, hrm, I'm so sorry to prattle on about things that aren't relevant to you! Here is your blood money. Cheers.}}
+* 100 {{Favor|favor}}
+* 30000 councils
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Lady Alethina]][[Category:Quests/AurestMission]]

@@ -1,0 +1,76 @@
+__NOTOC__
+{{NPC infobox
+|title            = Uriana
+|image            = [[File:Uriana.png|300px]]
+|caption          = Looking at her hands with interest
+|zone             = Fae Realm
+|location         = Inside ruins protected by the Glowing Sphere
+|anatomy = Fae
+|species = Pixie
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|Petulant gods with their words of pity but no... ... Words in the winter are worse than nothing. I remember that from somewhere.
+}}
+[[Uriana]] is a female Pixie being used in an experiment by a [[Glowing Sphere]]. 
+==Location==
+; [[Fae Realm]]
+: Ruins protected by Glowing Sphere.
+
+== Quests ==
+[[Uriana]] offers a selection of quests in the [[Fae Realm]].  When you receive a quest from Urania, it is selected randomly, but you will not receive the same quest again if you have completed it in the last 72 hours.
+{{Quote|source= [[Uriana]]|
+Your current task is (quest). You must complete this quest, and wait an hour, to get a new one. If you don't want to complete this quest, you can cancel it from the Quest window, although you'll still have to wait an hour to get a new one.
+}}
+<dpl>
+category = Quests/Uriana
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+=== Possible Rewards ===
+<div style="column-count:1;-moz-column-count:1;-webkit-column-count:1"> <!-- Increase column counts when appropriate-->
+*{{Item|Royal Jelly}} (1-3)
+*{{Item|Amazing Armor Patch Kit}}
+*{{Item|Turquoise}}
+*{{Item|Winter Court Battle-Greaves}} (Lvl 80)
+*{{Item|Master First Aid Kit}}
+*{{Item|Minor Panacea}}
+</div>
+
+== Conversations ==
+{{Quote|source=[[Uriana]]|
+;: Hello, the orb sent me to help you.
+: Are you a mortal?
+;: Yes.
+: What is your name, mortal?
+;: I"m an adventurer.
+: I'm [[Uriana]]. Now we are friends, adventurer, so we mustn't fight. Fighting is for enemies, adventurer. Do you understand?
+;: No fighting. I completely understand.
+: And now... you can help me! I have so many questions but the orb says I cannot travel.
+;: How can I help?
+: It is difficult to remember what beast is a true immortal and what is not. But I have invented something in the human tongue to help! Bury bears. Because they are mortal, you see? "Bury bears?" Go and practice until this tick is burned into your mind.
+;: Okay... I'll give it a shot.
+}}
+
+
+{{Quote|source=Uriana|There is a secret in the wind: it can speak! It says 'whhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh whhhhhhhhhhhhhhhhhhhhhhh' It means 'I am angry.'
+}}
+
+{{Quote|source=Uriana|The Winter Queen. The Winter Queen! I saw her in a vision.}}
+
+{{Quote|source=Uriana|But where does the butterfly go when it can't be seen? Does it exist? Did I create it? I have felt great power... such power... perhaps...}}
+
+{{Quote|source=Uriana|I eat cats. And I eat bears. But I do not eat barghests. Do you know why? Do I know why?}}
+
+{{Quote|source=Uriana|Petulant gods with their words of pity but no... ... Words in winter are worse than nothing. I remember that from somewhere.}}
+
+{{Quote|source=Uriana|You're him/her! The one who appeared! The ugly one! Have you been existing this whole time?}}
+
+{{Quote|source=Uriana|Trailing into the night is the daytime, flush with opportunities. Damned by the darkness is the light! That sounds like an important saying...}}
+
+{{Quote|source=Uriana|The orb would have me stay here, but I travel. Yes. I travel. It feels good!}}
+
+
+
+[[Category:NPCs]][[Category:NoRiShin]]

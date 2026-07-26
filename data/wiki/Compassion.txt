@@ -1,0 +1,58 @@
+__NOTOC__
+{{Skill infobox
+|title            = Compassion
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = The ability to feel empathy, even for creatures not at all like yourself.
+|skilltype        = Other Skill 
+|maxlevel         = 50
+|req              = N/A
+|skilltrainers    = N/A
+}}
+{{Quote|
+The ability to feel empathy, even for creatures not at all like yourself
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Compassion]] is an introductory skill almost every character will quickly learn, and gives small bonuses to other skills.
+=== In-Game Description ===
+The ability to feel empathy, even for creatures not at all like yourself.
+=== Training {{msg:BASEPAGENAME}} ===
+[[Compassion]] can be unlocked by:
+* Using a {{Item|Shovel}} to bury a monster corpse.
+* Mourning at a character's [[Tombstone]].
+[[Compassion]] can be leveled by:
+* Burying corpses with a {{Item|Shovel}}.
+* Mourning at character [[Tombstone]]s.
+* Burying a character [[Tombstone]].
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* None
+===== Related Skills: =====
+* [[Corpse Talking]] - Allows proper communication with the dead, beyond mourning at their grave.
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Compassion]]<!-- Skill Name --> can be obtained from the following skills and levels:
+:; [[Gender Studies]]
+:: Level 20
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Burying Corpses ===
+{{Item icon|Shovel}} [[Shovel]]s are used to bury  monster corpses. Once buried, the respawn time for a creature will become much faster. It is considered courteous to bury monsters in outside areas and crowded lower-level dungeons. 
+=== Burying Player Tombstones===
+[[Tombstone]]s of killed characters can be buried after the tombstone has been mourned by other characters. Bonus [[Compassion]] XP will be rewarded to those who bury tombstones, but the bonus experience can only be earned once per hour.
+{{Quote|source="[[Game updates/2020-03-09]]"|
+The number of people that need to mourn the tombstone (before it can be buried) depends on several factors, including some randomness. Spammy deaths (such as "Suicide by Poison") can be buried after only a few mourners, whereas unusual deaths require more mourning.
+
+Hardcore deaths (by non-suicidal means) require more mourners than non-hardcore deaths. But in any case, hardcore players should remember that their tombstone is just a convenience: you can still repair your items even if the tombstone is gone. Just stand in the general area where your tombstone was and double-click your broken items to repair them.
+}}
+===Equipment===
+* {{Item|Shovel}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+
+== Trivia ==
+* Players appreciate those who bury corpses!
+
+[[Category:Skills]]

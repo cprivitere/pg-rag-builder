@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+You found a wild horse and learned a lot from watching its movements. If you were to interact with enough horses, you're confident that you'd learn to ride and tame them.
+
+===Prerequisites===
+To start this quest, interact with a [[Wild Horse]]. {{Hint | Several are found roaming the hills in southern Serbule.}} 
+
+===Preface===
+{{Quote|
+It's a majestic wild horse!
+
+'''Pet Horse'''
+}}
+
+===Requirements===
+* Pet 10 [[Wild Horse]]s.
+
+===Rewards===
+{{Spoiler|Rewards for Learning the Ways of Horses|
+
+{{Quote|
+You've picked up the very basics of horse handling. You should  be able to tame a wild horse now, but it would need to be a very calm horse... and you'd need a special treat for the horse!
+
+You found weird seeds near one of the horses... perhaps whatever grows from these would work?
+}}
+
+* 400 XP in [[Riding]]
+* {{Item|Horse Apple Seedling}} x3
+}}
+
+
+[[Category:Quests]][[Category:Quests/Other]]<!-- Remove this and include [[Category:Quests]] and categories for the NPC and area, e.g. [[Category:Quests/Serbule Hills Quests]], [[Category:Quests/Paul Vaughn]]-->

@@ -1,0 +1,58 @@
+__NOTOC__
+{{NPC infobox
+|title            = Unora Veilmoor
+|image            = [[File:Unora Veilmoor (npc).png|300px]]
+|caption          = A quiet, bookish Ice Magic with a haunted look in her eyes
+|zone             = Statehelm
+|town = Statehelm
+|location         = School of Magic
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|skilltrainer = [[Ice Magic]]
+}}
+{{Quote|source=[[Unora Veilmoor]]|I read the same texts again and again. Perhaps someday they'll offer different answers.}}
+[[Unora Veilmoor]] is a human living in the city of [[Statehelm]]. 
+== Location ==
+; [[Statehelm]]
+: [[Unora Veilmoor]] may be found on the first floor of the School of Magic.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}<!-- Add an area displaying the favor categories the NPC claims to enjoy. -->
+=== Favor Rewards ===
+[[Unora Veilmoor]] has little trust for others, and offers no options or opinions to individuals at '''{{favor|Neutral}}''' favor.
+
+== Quests ==
+[[Unora Veilmoor]] does not initially offer quests.
+<!--
+[[Unora Veilmoor]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Unora Veilmoor
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Services ==
+== Training ==
+Once enrolled in the [[Statehelm School of Magic]], [[Unora Veilmoor]] will entertain the idea of training... somewhat.
+{{Quote|source=[[Unora Veilmoor]] (Enrolled Student)|
+I'm much too busy to train you personally. But I've prepared something for you. Go and visit my old training ground in [[Gazluk]]. I've left training programs there, and I'll walk you through them via sending stone.
+
+How would you find the camp? Let me think. It's on the plateau. There's a useless lookout tower somewhat nearby. From the camp you can look down over the cliff and see a lot of trees. Does that narrow it down? You'll know you're in the right place when you see iron dodecahedrons hammered into the cold earth. There'll be a building with a sending stone, contact me from there.}}
+The training grounds and sending stone in Gazluk can be found north of the tower and south from the Animal Camp.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Unora Veilmoor]]|
+All inquiries should be made with... somebody else. Thank you.}}
+{{Quote|source=[[Unora Veilmoor]]| It's true my husband's death was not accident. But magic leaves traces, even the coldest kind.}}
+{{Quote|source=[[Unora Veilmoor]] (Enrolled Student)|
+Head to Gazluk to find my old training grounds. Don't worry, it can't be too hard to find. I sent a student there just a month ago. She abandoned her training quite quickly, but she DID find the training grounds first. If that dullard could find it, surely you can.}}
+
+[[Category:NPCs]]

@@ -1,0 +1,522 @@
+__NOTOC__
+{{NPC infobox
+|title            = Jurl Blackhammer
+|image            = [[File:Jurl Blackhammer (npc).png|300px]] 
+|caption          = Squinty and dirty
+|zone             = Statehelm
+|town = Statehelm
+|location         = Marketplace
+|anatomy = Dwarf
+|species = Dwarf
+|beastspeak       = Yes
+|beastlist = No scary animals
+|vendor = Yes
+|consignment = Yes
+|barter = Yes
+|skilltrainer = [[Toolcrafting]], [[Armor Patching]]
+}}
+{{Quote|source=[[Jurl Blackhammer]]|
+If you need tools, you're where you need to be.}}
+[[Jurl Blackhammer]] is a dwarven merchant working in the city of [[Statehelm]].
+== Location ==
+; [[Statehelm]]
+: Found in the eastern marketplace.
+== Shopkeeper ==
+{{Quote|source=[[Jurl Blackhammer]]|
+Get the famous Blackhammer quality you need, at prices that would be criminal in [[Iatholme]].}}
+{{Vendor_purchase_info}}
+== Favor ==
+TODO (need finish few to unlock bartening)
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Jurl Blackhammer]] rewards his friends with __TBD__
+== Quests ==
+<!--
+<dpl>
+category = Quests/(name)
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Toolcrafting{{pipe}}Unlock Toolcrafting Skill Levels 81-90
+ |skilllevel = 80
+ |cost=242 SR or ?
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Toolcrafting{{pipe}}Unlock Toolcrafting Skill Levels 91-100
+ |skilllevel = 90
+ |cost=404 SR or ?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe = Basic Blowpipe
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Fancy Blowpipe
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Extra-Fancy Blowpipe
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Boots (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Boots (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Boots (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Boots (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Coat (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Coat (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Coat (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Coat (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Gauntlets (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Gauntlets (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Gauntlets (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Gauntlets (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Helm (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Helm (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Helm (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Helm (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Cow Porkpie Hat (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Cow Porkpie Hat (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Cow Porkpie Hat (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Cow Porkpie Hat (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Deer Porkpie Hat (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Deer Porkpie Hat (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Deer Porkpie Hat (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Deer Porkpie Hat (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Pig Porkpie Hat (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Pig Porkpie Hat (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Pig Porkpie Hat (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Pig Porkpie Hat (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Spring Fairy Shoes (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Spring Fairy Shoes (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Spring Fairy Shoes (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Spring Fairy Shoes (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Spring Fairy Top (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Spring Fairy Top (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Spring Fairy Top (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Spring Fairy Top (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Greaves (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Snail Greaves (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Greaves (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Snail Greaves (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Spring Fairy Leggings (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Spring Fairy Leggings (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Spring Fairy Leggings (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Spring Fairy Leggings (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Cow Barding (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Cow Barding (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Cow Barding (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Cow Barding (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Cow Champron (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Cow Champron (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Cow Champron (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Cow Champron (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Spider Casing (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Spider Casing (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Spider Casing (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Spider Casing (Max-Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Arachnid Mechaharness (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Arachnid Mechaharness (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Aerosolizing Bat Harness (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Aerosolizing Bat Harness (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Incredible Arachnid Harness (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Marvelous Arachnid Harness (Enchanted)
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Armor Patching]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Armor Patching{{pipe}}Unlock Armor Patching Skill Levels 81-90
+ |skilllevel = 80
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Armor Patching{{pipe}}Unlock Armor Patching Skill Levels 91-100
+ |skilllevel = 90
+ |cost=?
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe = Incredible Armor Patch Kit
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability = Patch Armor 11
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+{{NPC training row
+ |ability = Patch Armor 12
+ |skilllevel=?
+ |cost=?
+ |favor=?
+}}
+|}
+== Services ==
+==== [[Consignment]] ====
+Unlocks at {{favor|Close Friends}}.
+==== Bartering ====
+Unlocks after completing a quest.
+{| {{STDT}}
+!Give
+!Receive 
+|-
+| {{Item|Ruined Metal Flask}} x1<br> {{Item|Marvelous Metal Slab}} x2 || {{Item|Blackhammer Whisky}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Jurl Blackhammer]]|
+Did you hear that gal? She asked if I know [[Tremmond Blackhammer]], a hick dwarf in Povus. As if every Blackhammer knows every other one. It's one of the biggest clans!
+
+And I do know him, he's my cousin, which just makes everything more frustrating.}}
+
+{{Quote|source=[[Jurl Blackhammer]]|
+A bunch of us Blackhammers spread out to start shops in different cities, to spread the word of Blackhammer clan quality. I'm doing okay myself. Poor Tremmond over in Povus has had much worse luck.}}
+{{Quote|source=[[Jurl Blackhammer]]|
+I don't hate making armor or whatever but I really do love making tools. It's the best audience to work for! You sell armor to a soldier and they'll never truly recognize your craftsmanship. But other smiths know quality tools when they see 'em.}}
+
+[[Category:NPCs]]

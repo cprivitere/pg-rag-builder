@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Sem the Myconian (in a cave in New Prestonbule) said, "Although my species is generally able to cohabit with slimes and fungi of all types, there exist herein a species that reduces the ambient temperature. This is clearly unacceptable behavior. Please extinguish these slimes before they make the environment uninhabitable!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Sem]]''' in '''[[Gazluk|Gazluk Dungeons]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Although my species is generally able to cohabit with slimes and fungi of all types, there exist herein a species that reduces the ambient temperature. This is clearly unacceptable behavior. Please extinguish these slimes before they make the environment uninhabitable!}}
+
+===Requirements===
+* Kill Huge Ice Slicks in Sem's Cave
+* Talk to Sem
+
+===Rewards===
+{{Spoiler|Rewards for Inconsiderate Slime Organisms|
+{{Quote|At last! Now perhaps it will be possible to lie dormant without needing to expend energy to maintain core temperature! Ha ha! Oh, that is not a joke in your language. ... Nevermind.
+
+There is a way to use the remnants of those slimes, combined with myconian give-offs, to enhance your own safety. Let me show you the method. Perhaps it will be useful to you in a future moon cycle.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Myconian Jelly}}
+* Recipe: [[Toxin Resistance Potion]]
+}}
+[[Category:Quests]][[Category:Quests/Gazluk Dungeons Quests]][[Category:Quests/Sem]]

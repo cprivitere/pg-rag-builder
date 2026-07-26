@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Song of Bravery
+| description = Play a song that reduces Power costs for all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 6
+| power cost = 10
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfBravery}}
+| special = Lowers Power Costs -3 For All Nearby Allies. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Bravery 2
+| description = Play a song that reduces Power costs for all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 16
+| power cost = 15
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfBravery}}
+| special = Lowers Power Costs -4 For All Nearby Allies. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Bravery 3
+| description = Play a song that reduces Power costs for all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 26
+| power cost = 21
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfBravery}}
+| special = Lowers Power Costs -5 For All Nearby Allies. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Bravery 4
+| description = Play a song that reduces Power costs for all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 36
+| power cost = 26
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfBravery}}
+| special = Lowers Power Costs -6 For All Nearby Allies. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Bravery 5
+| description = Play a song that reduces Power costs for all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 46
+| power cost = 31
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfBravery}}
+| special = Lowers Power Costs -7 For All Nearby Allies. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Bravery 6
+| description = Play a song that reduces Power costs for all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 56
+| power cost = 35
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfBravery}}
+| special = Lowers Power Costs -9 For All Nearby Allies. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Bravery 7
+| description = Play a song that reduces Power costs for all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 66
+| power cost = 39
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfBravery}}
+| special = Lowers Power Costs -10 For All Nearby Allies. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Bravery 8
+| description = Play a song that reduces Power costs for all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 76
+| power cost = 43
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfBravery}}
+| special = Lowers Power Costs -11 For All Nearby Allies. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

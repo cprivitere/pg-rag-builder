@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Brugo in Povus said, "I still need more bones! I will pay you the same amount for another ten."
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Brugo the Wise]]''' in '''[[Povus]]'''. You must have previously completed [[Bones For Inspection]] in order to undertake this quest. 
+
+===Preface===
+I still need more bones! I will pay you the same amount for another ten.
+
+===Requirements===
+* Obtain Paleontology Bones x10
+* Talk to Brugo
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Nicely excavated. Here is your pay! Come back tomorrow, I'm sure I'll need more.}}
+* 100 {{Favor|favor}}
+* {{Item|Xogrite Chunk}} x7
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Brugo the Wise]]

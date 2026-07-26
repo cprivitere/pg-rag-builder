@@ -1,0 +1,11 @@
+__NOTOC__
+{{Ability infobox
+| name = Trigger Golem
+| description = This ability does nothing on its own. It is possible to program golems to behave differently when this ability is active, however. (Use the ability again to turn the trigger off.)
+| level = 30
+| power cost = 0
+| reuse time = 1
+| range = 0 meters
+| skill = Battle Chemistry
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

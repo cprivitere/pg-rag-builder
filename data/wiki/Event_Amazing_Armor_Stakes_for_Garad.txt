@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Garad said, "You look like the Blacksmithy type! I'm hoping you can help me out. I need to restock on a few things before we get back out on the road. I could really use some more armor stakes to repair suits. If you could bring me 10 [[Amazing Armor Stake]]s, that would be great! I'll be happy to share a few tips and tricks in exchange."
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Garad]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Blacksmithing]] level 60. This quest is only available during a Crafting Caravan event.
+
+===Preface===
+You look like the Blacksmithy type! I'm hoping you can help me out. I need to restock on a few things before we get back out on the road. I could really use some more armor stakes to repair suits. If you could bring me 10 [[Amazing Armor Stake]]s, that would be great! I'll be happy to share a few tips and tricks in exchange.
+
+===Requirements===
+* Craft 10 Amazing Armor Stakes
+* Obtain 10 Amazing Armor Stakes
+* Talk to Garad
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you so much. This will help me save my metals to do repairs on the road. Oh yes, here's those tips I promised!
+
+<i>[You earn 10 favor with Orran the Caravan Leader]</i>
+
+<i>[This task is repeatable every 18 hours.]</i>}}
+* {{Item|Crafter's Guild Token}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Garad]][[Category:Quests/Crafting Caravan]]

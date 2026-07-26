@@ -1,0 +1,212 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Cow/Abilities|Cow Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v478 on Sun Jul 05 2026 02:52:34 GMT-0600 (Mountain Daylight Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Stampede|2}} || 1 || Stampede || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 7 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Front Kick (Cow)|2}} || 2 || Front Kick (Cow) || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 18 Crushing || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Bash|2}} || 3 || Bash || Bash your enemy, stunning them.<br><b>This is a Signature Debuff ability</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 20 Crushing || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Graze|2}} || 5 || Graze || Collect grass from the environment. Can only be used outdoors. || You obtain 1 Grass.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 5<br><b>Range:</b> 5<br><b>Cooldown:</b> 50 || Leveling
+|-
+| {{Ability icon|Clobbering Hoof|2}} || 6 || Clobbering Hoof || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 26 Crushing<br><b>Dmg to Off-Guard:</b> 26 Crushing<br><b>Taunts:</b> 60 || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Chew Cud|2}} || 7 || Chew Cud || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 33 Health ||  || <b>Power Cost:</b> 11<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Stampede 2|2}} || 10 || Stampede 2 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 12 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Moo of Determination|2}} || 11 || Moo of Determination || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 10 sprint speed for 10 seconds.<br>Attack Damage Boost 5 for 10 seconds ||  || <b>Power Cost:</b> 12<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Deadly Emission|2}} || 12 || Deadly Emission || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 27 Nature<br><b>Taunts:</b> 25 || <b>Power Cost:</b> 21<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Front Kick (Cow) 2|2}} || 14 || Front Kick (Cow) 2 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 34 Crushing || <b>Power Cost:</b> 13<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Tough Hoof|2}} || 15 || Tough Hoof || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 10 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 34 Crushing || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Moo of Calm|2}} || 15 || Moo of Calm || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 40 Armor<br><b>Restore:</b> 10 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Clobbering Hoof 2|2}} || 16 || Clobbering Hoof 2 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 41 Crushing<br><b>Dmg to Off-Guard:</b> 41 Crushing<br><b>Taunts:</b> 120 || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Collect Milk|2}} || 18 || Collect Milk || Collect milk. Requires an empty bottle. || You collect milk in an empty bottle.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 300 || Leveling
+|-
+| {{Ability icon|Stampede 3|2}} || 20 || Stampede 3 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 15 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Deadly Emission 2|2}} || 24 || Deadly Emission 2 || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 54 Nature<br><b>Taunts:</b> 50 || <b>Power Cost:</b> 27<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Front Kick (Cow) 3|2}} || 25 || Front Kick (Cow) 3 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 53 Crushing || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Clobbering Hoof 3|2}} || 26 || Clobbering Hoof 3 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 57 Crushing<br><b>Dmg to Off-Guard:</b> 57 Crushing<br><b>Taunts:</b> 180 || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Chew Cud 2|2}} || 28 || Chew Cud 2 || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 100 Health ||  || <b>Power Cost:</b> 18<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Tough Hoof 2|2}} || 30 || Tough Hoof 2 || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 20 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 67 Crushing || <b>Power Cost:</b> 35<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Stampede 4|2}} || 30 || Stampede 4 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 28 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Moo of Determination 2|2}} || 31 || Moo of Determination 2 || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 11 sprint speed for 10 seconds.<br>Attack Damage Boost 10 for 10 seconds ||  || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Bash 2|2}} || 33 || Bash 2 || Bash your enemy, stunning them.<br><b>This is a Signature Debuff ability</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 69 Crushing || <b>Power Cost:</b> 32<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Moo of Calm 2|2}} || 35 || Moo of Calm 2 || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 60 Armor<br><b>Restore:</b> 20 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Front Kick (Cow) 4|2}} || 36 || Front Kick (Cow) 4 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 80 Crushing || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Clobbering Hoof 4|2}} || 36 || Clobbering Hoof 4 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 78 Crushing<br><b>Dmg to Off-Guard:</b> 78 Crushing<br><b>Taunts:</b> 240 || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Deadly Emission 3|2}} || 36 || Deadly Emission 3 || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 92 Nature<br><b>Taunts:</b> 100 || <b>Power Cost:</b> 34<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Collect Milk 2|2}} || 37 || Collect Milk 2 || Collect milk. Requires an empty bottle. This higher-level version requires you to follow a vegetarian diet. || You collect milk in an empty bottle.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 240 || Leveling
+|-
+| {{Ability icon|Chew Cud 3|2}} || 39 || Chew Cud 3 || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 125 Health ||  || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || Leveling
+|-
+| {{Ability icon|Stampede 5|2}} || 40 || Stampede 5 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 37 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Moo of Determination 3|2}} || 43 || Moo of Determination 3 || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 12 sprint speed for 10 seconds.<br>Attack Damage Boost 20 for 10 seconds ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Front Kick (Cow) 5|2}} || 45 || Front Kick (Cow) 5 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 117 Crushing || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Tough Hoof 3|2}} || 45 || Tough Hoof 3 || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 30 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 120 Crushing || <b>Power Cost:</b> 44<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Bash 3|2}} || 46 || Bash 3 || Bash your enemy, stunning them.<br><b>This is a Signature Debuff ability</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 122 Crushing || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || Leveling
+|-
+| {{Ability icon|Clobbering Hoof 5|2}} || 46 || Clobbering Hoof 5 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 122 Crushing<br><b>Dmg to Off-Guard:</b> 122 Crushing<br><b>Taunts:</b> 300 || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Suspicious Cow]]
+|-
+| {{Ability icon|Moo of Calm 3|2}} || 48 || Moo of Calm 3 || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 75 Armor<br><b>Restore:</b> 30 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Deadly Emission 4|2}} || 48 || Deadly Emission 4 || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 157 Nature<br><b>Taunts:</b> 250 || <b>Power Cost:</b> 39<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Stampede 6|2}} || 50 || Stampede 6 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 58 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Collect Milk 3|2}} || 52 || Collect Milk 3 || Collect milk. Requires an empty bottle. This higher-level version requires you to follow a vegetarian diet. || You collect milk in an empty bottle.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 52<br><b>Range:</b> 5<br><b>Cooldown:</b> 180 || Leveling
+|-
+| {{Ability icon|Front Kick (Cow) 6|2}} || 55 || Front Kick (Cow) 6 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 170 Crushing || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Chew Cud 4|2}} || 55 || Chew Cud 4 || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 150 Health ||  || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Clobbering Hoof 6|2}} || 56 || Clobbering Hoof 6 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 175 Crushing<br><b>Dmg to Off-Guard:</b> 175 Crushing<br><b>Taunts:</b> 360 || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Moo of Determination 4|2}} || 59 || Moo of Determination 4 || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 13 sprint speed for 10 seconds.<br>Attack Damage Boost 35 for 10 seconds ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Stampede 7|2}} || 60 || Stampede 7 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 79 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Tough Hoof 4|2}} || 60 || Tough Hoof 4 || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 40 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 198 Crushing || <b>Power Cost:</b> 52<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Deadly Emission 5|2}} || 60 || Deadly Emission 5 || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 231 Nature<br><b>Taunts:</b> 500 || <b>Power Cost:</b> 45<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Bash 4|2}} || 61 || Bash 4 || Bash your enemy, stunning them.<br><b>This is a Signature Debuff ability</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 201 Crushing || <b>Power Cost:</b> 46<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Moo of Calm 4|2}} || 62 || Moo of Calm 4 || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 100 Armor<br><b>Restore:</b> 40 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Front Kick (Cow) 7|2}} || 65 || Front Kick (Cow) 7 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 223 Crushing || <b>Power Cost:</b> 29<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Clobbering Hoof 7|2}} || 66 || Clobbering Hoof 7 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 228 Crushing<br><b>Dmg to Off-Guard:</b> 228 Crushing<br><b>Taunts:</b> 420 || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Chew Cud 5|2}} || 67 || Chew Cud 5 || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 175 Health ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Moo of Determination 5|2}} || 69 || Moo of Determination 5 || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 13 sprint speed for 10 seconds.<br>Attack Damage Boost 60 for 10 seconds ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Stampede 8|2}} || 70 || Stampede 8 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 100 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Tough Hoof 5|2}} || 70 || Tough Hoof 5 || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 50 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 253 Crushing || <b>Power Cost:</b> 58<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Moo of Calm 5|2}} || 71 || Moo of Calm 5 || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 125 Armor<br><b>Restore:</b> 50 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Bash 5|2}} || 71 || Bash 5 || Bash your enemy, stunning them.<br><b>This is a Signature Debuff ability</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 257 Crushing || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Deadly Emission 6|2}} || 72 || Deadly Emission 6 || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 309 Nature<br><b>Taunts:</b> 750 || <b>Power Cost:</b> 51<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Raul]]
+|-
+| {{Ability icon|Front Kick (Cow) 8|2}} || 75 || Front Kick (Cow) 8 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 282 Crushing || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Clobbering Hoof 8|2}} || 76 || Clobbering Hoof 8 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 288 Crushing<br><b>Dmg to Off-Guard:</b> 288 Crushing<br><b>Taunts:</b> 480 || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Collect Milk 4|2}} || 77 || Collect Milk 4 || Collect milk. Requires an empty bottle. This higher-level version requires you to follow a vegetarian diet. || You collect milk in an empty bottle.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 77<br><b>Range:</b> 5<br><b>Cooldown:</b> 120 || <b>Item:</b> [[Cow: Collect Milk 4]]
+|-
+| {{Ability icon|Chew Cud 6|2}} || 79 || Chew Cud 6 || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 200 Health ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Moo of Determination 6|2}} || 79 || Moo of Determination 6 || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 13 sprint speed for 10 seconds.<br>Attack Damage Boost 90 for 10 seconds ||  || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Stampede 9|2}} || 80 || Stampede 9 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 126 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Tough Hoof 6|2}} || 80 || Tough Hoof 6 || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 60 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 316 Crushing || <b>Power Cost:</b> 64<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Moo of Calm 6|2}} || 82 || Moo of Calm 6 || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 150 Armor<br><b>Restore:</b> 60 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Bash 6|2}} || 83 || Bash 6 || Bash your enemy, stunning them.<br><b>This is a Signature Debuff ability</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 332 Crushing || <b>Power Cost:</b> 57<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Noita the Green]]
+|-
+| {{Ability icon|Deadly Emission 7|2}} || 84 || Deadly Emission 7 || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 398 Nature<br><b>Taunts:</b> 1000 || <b>Power Cost:</b> 58<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Cow: Deadly Emission 7]]
+|-
+| {{Ability icon|Front Kick (Cow) 9|2}} || 85 || Front Kick (Cow) 9 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 345 Crushing || <b>Power Cost:</b> 36<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Cow: Front Kick 9]]
+|-
+| {{Ability icon|Clobbering Hoof 9|2}} || 86 || Clobbering Hoof 9 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 352 Crushing<br><b>Dmg to Off-Guard:</b> 352 Crushing<br><b>Taunts:</b> 540 || <b>Power Cost:</b> 36<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Cow: Clobbering Hoof 9]]
+|-
+| {{Ability icon|Moo of Determination 7|2}} || 89 || Moo of Determination 7 || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 13 sprint speed for 10 seconds.<br>Attack Damage Boost 120 for 10 seconds ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Cow: Moo of Determination 7]]
+|-
+| {{Ability icon|Stampede 10|2}} || 90 || Stampede 10 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 151 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Cow: Stampede 10]]
+|-
+| {{Ability icon|Tough Hoof 7|2}} || 90 || Tough Hoof 7 || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 70 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 381 Crushing || <b>Power Cost:</b> 71<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Cow: Tough Hoof 7]]
+|-
+| {{Ability icon|Moo of Calm 7|2}} || 91 || Moo of Calm 7 || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 175 Armor<br><b>Restore:</b> 70 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Cow: Moo of Calm 7]]
+|-
+| {{Ability icon|Chew Cud 7|2}} || 93 || Chew Cud 7 || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 225 Health ||  || <b>Power Cost:</b> 39<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Cow: Chew Cud 7]]
+|-
+| {{Ability icon|Front Kick (Cow) 10|2}} || 95 || Front Kick (Cow) 10 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 412 Crushing || <b>Power Cost:</b> 39<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Cow: Front Kick 10]]
+|-
+| {{Ability icon|Bash 7|2}} || 95 || Bash 7 || Bash your enemy, stunning them.<br><b>This is a Signature Debuff ability</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 412 Crushing || <b>Power Cost:</b> 64<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Cow: Bash 7]]
+|-
+| {{Ability icon|Clobbering Hoof 10|2}} || 96 || Clobbering Hoof 10 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 418 Crushing<br><b>Dmg to Off-Guard:</b> 418 Crushing<br><b>Taunts:</b> 600 || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Deadly Emission 8|2}} || 96 || Deadly Emission 8 || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 492 Nature<br><b>Taunts:</b> 1250 || <b>Power Cost:</b> 65<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Moo of Determination 8|2}} || 99 || Moo of Determination 8 || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 13 sprint speed for 10 seconds.<br>Attack Damage Boost 160 for 10 seconds ||  || <b>Power Cost:</b> 41<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Stampede 11|2}} || 100 || Stampede 11 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 178 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Tough Hoof 8|2}} || 100 || Tough Hoof 8 || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 80 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 447 Crushing || <b>Power Cost:</b> 77<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Moo of Calm 8|2}} || 102 || Moo of Calm 8 || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 200 Armor<br><b>Restore:</b> 80 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Chew Cud 8|2}} || 104 || Chew Cud 8 || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 258 Health ||  || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Front Kick (Cow) 11|2}} || 105 || Front Kick (Cow) 11 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 483 Crushing || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Clobbering Hoof 11|2}} || 106 || Clobbering Hoof 11 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 490 Crushing<br><b>Dmg to Off-Guard:</b> 490 Crushing<br><b>Taunts:</b> 660 || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Bash 8|2}} || 107 || Bash 8 || Bash your enemy, stunning them.<br><b>This is a Signature Debuff ability</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 498 Crushing || <b>Power Cost:</b> 71<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Deadly Emission 9|2}} || 108 || Deadly Emission 9 || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 595 Nature<br><b>Taunts:</b> 1250 || <b>Power Cost:</b> 72<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Moo of Determination 9|2}} || 109 || Moo of Determination 9 || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 13 sprint speed for 10 seconds.<br>Attack Damage Boost 200 for 10 seconds ||  || <b>Power Cost:</b> 45<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Stampede 12|2}} || 110 || Stampede 12 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 208 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Tough Hoof 9|2}} || 110 || Tough Hoof 9 || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 80 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 523 Crushing || <b>Power Cost:</b> 84<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Moo of Calm 9|2}} || 111 || Moo of Calm 9 || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 225 Armor<br><b>Restore:</b> 90 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Front Kick (Cow) 12|2}} || 115 || Front Kick (Cow) 12 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 559 Crushing || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Chew Cud 9|2}} || 115 || Chew Cud 9 || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 280 Health ||  || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Clobbering Hoof 12|2}} || 116 || Clobbering Hoof 12 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 566 Crushing<br><b>Dmg to Off-Guard:</b> 566 Crushing<br><b>Taunts:</b> 720 || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Training:</b> [[Lucinnea]]
+|-
+| {{Ability icon|Moo of Determination 10|2}} || 119 || Moo of Determination 10 || Moo to summon your inner bull, gaining stampede speed and bonus damage. || You gain 13 sprint speed for 10 seconds.<br>Attack Damage Boost 250 for 10 seconds ||  || <b>Power Cost:</b> 49<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Bash 9|2}} || 119 || Bash 9 || Bash your enemy, stunning them.<br><b>This is a Signature Debuff ability</b> || Stuns opponent<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 589 Crushing || <b>Power Cost:</b> 79<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Stampede 13|2}} || 120 || Stampede 13 || Trample your enemies.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 239 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Tough Hoof 10|2}} || 120 || Tough Hoof 10 || Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water. || <b>Restore:</b> 80 Health each time target attacks and damages you (for 8 seconds)<br><b>--Can Have--</b><br>For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage || <b>Damage:</b> 599 Crushing || <b>Power Cost:</b> 92<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Deadly Emission 10|2}} || 120 || Deadly Emission 10 || Fire a burst of deadly gas, hitting all nearby enemies. || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 702 Nature<br><b>Taunts:</b> 1250 || <b>Power Cost:</b> 79<br><b>AoE:</b> 8<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Moo of Calm 10|2}} || 122 || Moo of Calm 10 || Moo to calm yourself, reaching a zen-like state of readiness.<br><b>This is a Survival-Utility ability</b> || <b>Restore:</b> 250 Armor<br><b>Restore:</b> 100 Power ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Front Kick (Cow) 13|2}} || 125 || Front Kick (Cow) 13 || Violently kick your enemies.<br><b>This is a Core Attack</b> ||  || <b>Damage:</b> 635 Crushing || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Chew Cud 10|2}} || 125 || Chew Cud 10 || Eat grass to heal yourself. || Consumes 1 Grass<br><b>Restore:</b> 300 Health ||  || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Clobbering Hoof 13|2}} || 125 || Clobbering Hoof 13 || Smash your enemy with a violent strike. Does extra damage if the target is Off-Guard. This attack is considered a Kick.<br><b>This is a Nice Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Nature, 5 times over 10 seconds || <b>Damage:</b> 635 Crushing<br><b>Dmg to Off-Guard:</b> 635 Crushing<br><b>Taunts:</b> 780 || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|}

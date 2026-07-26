@@ -1,0 +1,34 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Okay this is another personal favor to me. This one's not even on the same mortal plane as you, but I just... I really hate him. He's such a dick!
+
+There's this skeleton that got himself powered up with fairy magic. He lives in a junction between the fae realm and your realm. He's called the Bonfire Puck. You should kill him!
+
+Oh, let me help you find him. It looks like there's an entrance from a little island called "Sun Vale." You'll probably need some backup.
+
+<i>[The Winter Nexus is recommended for a group of 3+ players with level 50 combat skills.]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Okay this is another personal favor to me. This one's not even on the same mortal plane as you, but I just... I really hate him. He's such a dick!
+
+There's this skeleton that got himself powered up with fairy magic. He lives in a junction between the fae realm and your realm. He's called the Bonfire Puck. You should kill him!
+
+Oh, let me help you find him. It looks like there's an entrance from a little island called "Sun Vale." You'll probably need some backup.
+
+<i>[The Winter Nexus is recommended for a group of 3+ players with level 50 combat skills.]</i>
+
+===Requirements===
+* Kill Bonfire Puck
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Oh good! That jerk really made me look bad. I did ONE little favor for him by giving him free will. I hoped he'd become a funny skeleton juggler or something. But he immediately ran off and joined the fairies in a scheme to freeze our world in ice! That dick! Ilth Hale never stopped making fun of me about it. Thanks for taking care of the problem.}}
+* 1000 councils
+* {{Item|Event Loot Key (Universal)}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> You've proven you're a skilled gardener AND a skilled cook. Now take on a tougher challenge: Pumpkin Spice Tea. You'll need to find the recipe from an undead!
+
+This Quest can be repeated after 60 days.
+
+You must have previously completed [[Zhia Lian Event: Pumpkin Smoothie]] or [[Zhia Lian Event: Grow Pumpkins]] in order to undertake this quest. 
+
+===Preface===
+<i>Zhia Lian:</i> You've proven you're a skilled gardener AND a skilled cook. Now take on a tougher challenge: Pumpkin Spice Tea. You'll need to find the recipe from an undead!
+
+===Requirements===
+* Make Pumpkin Spice Tea
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Mm, savor that aroma! Good work.}}
+* 1000 councils
+* {{Item|Grape-Strawberry Candy}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Kill 10 spiders and return to Oritania.
+
+===Prerequisites===
+To start this quest, talk to '''[[Oritania]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|To be added}}
+
+===Requirements===
+* Kill 10 spiders
+* Talk to Oritania
+
+===Rewards===
+{{Spoiler|Rewards for Kill Spiders|
+{{Quote|Very good! As a reward I will teach you some techniques of pathology. Are you ready for your next assignment? I need you to go kill 30 goblins.}}
+
+* 1000 [[Pathology]] XP
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Oritania]]

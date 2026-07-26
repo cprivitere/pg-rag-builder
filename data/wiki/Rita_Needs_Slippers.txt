@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Rita in Serbule asked you to obtain a pair of comfy slippers. She mentioned Goblin Slippers are the most comfortable kind, but she's not picky.
+
+===Prerequisites===
+To start this quest, talk to '''[[Rita]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|Oh my birthday is coming up... in like six or eight months... and I thought of a great early present you could get me! Goblin Slippers! They supposedly make the most comfortable slippers of any race! I want green ones, but I'm not picky. You pick the color!}}
+
+===Requirements===
+* Obtain a pair of {{Item|Goblin Slippers}}
+* Talk to Rita
+
+===Rewards===
+{{Spoiler|Rewards for Rita Needs Slippers|
+{{Quote|Well these look unusual... but thanks! I'll try these out tonight!}}
+
+* 250 {{Favor|favor}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Rita]]

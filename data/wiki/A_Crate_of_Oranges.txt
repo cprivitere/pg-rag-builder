@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Umarak in Povus said, "All our supplies are gone, so I've had lots of trouble feeding Tryaka and myself. We're making due, but I really miss having an orange for breakfast each morning. And our gums are starting to bleed... I fear that's somehow related."
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Umarak]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+All our supplies are gone, so I've had lots of trouble feeding Tryaka and myself. We're making due, but I really miss having an orange for breakfast each morning. And our gums are starting to bleed... I fear that's somehow related.
+
+===Midway===
+I wish oranges grew around here...
+
+===Requirements===
+* Obtain Oranges x24
+* Talk to Umarak
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Oranges! Thank you! They're like liquid sunshine on a cloudy day. And hopefully my gums will stop bleeding!}}
+* {{Item|Xogrite Chunk}} x6
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Umarak]]

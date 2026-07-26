@@ -1,0 +1,49 @@
+__NOTOC__
+{{Skill infobox
+|title            = Armor Augmentation
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the techniques for creating Chest-Armor Augments and Leg-Armor Augments. (Augments for other types of equipment are covered by other skills).
+|skilltype        = Trade Skill
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              = 25 Alchemy, 25 Leatherworking
+|skilltrainers    = [[Syndra]], [[Nightshade]]
+}}
+{{Quote|
+Leave a quote about the skill here. 
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Armor Augmentation''' is an [[Augmentation]] skill that focuses on Chest-Armor Augments and Leg-Armor Augments.
+=== In-Game Description ===
+Knowledge of the techniques for creating Chest-Armor Augments and Leg-Armor Augments. (Augments for other types of equipment are covered by other skills).
+=== Training {{msg:BASEPAGENAME}} ===
+* After speaking with [[Nightshade]] in [[Kur Mountains|Kur]] and completing a task for him, '''Armor-Augmentation''' can be learned from [[Syndra]].
+
+'''Armor-Augmentation''' is broken into three tiers of recipes:
+* Levels 1-30 & 31-60 are learned from Syndra in Kur Mts.
+* Level 61-70 recipes are taught by Kohan in Rahu.
+* Levels 71-80 and 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+* Levels 81-90 and 91-100 are available to unlock from [[Corinth]].
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary:=====
+* [[Alchemy]] - '''Armor Augmentation''' requires Level 25 Alchemy.
+* [[Leatherworking]] - '''Armor Augmentation''' requires Level 25 Leatherworking.
+* [[Jewelry Augmentation]] - Another type of [[Augmentation]].
+* [[Weapon Augmentation]] - Another type of [[Augmentation]].
+* [[Ancillary-Armor Augmentation]] - Another type of [[Augmentation]].
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== How to Augment ===
+See the page on [[Augmentation]] for instructions on Using Augmentation.
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== Armor Augmentation Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Armor Augmentation|
+{{:Xptables/AugmentBrewingSkill}}
+}}
+== Trivia ==
+'''Armor Augmentation''' used to be part of a combined Augmentation skill, until a major overhaul of the system!
+[[Category:Skills]][[Category:Trade Skills]]

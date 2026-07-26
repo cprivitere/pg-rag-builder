@@ -1,0 +1,97 @@
+__NOTOC__
+{{Skill infobox
+|title            = Tailoring
+|image            = [[File:Tailoring.png|150px]]
+|caption          =
+|skilltype        = Trade Skill <!-- Combat Skill, Trade Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              = [[Textile Creation]] <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Thimble Pete]], [[Legs]], [[Shirogin]], [[Eveline Rastin]], [[Felmer]]
+|gem = {{Item|Maximized Sardonyx}}, {{Item|Sardonyx}} 
+}}
+{{Quote|
+Tailoring has two aspects: first, you use it to turn textiles into
+clothing. Second, you can use tailoring to make clothing and leather
+armor more comfortable, more useful, or more stylish.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Tailoring''' is the craft that turns raw textiles into cloth equipment. You can also give certain enhancements to cloth and leather gear, such as pockets (extra inventory space) and elemental damages.
+
+=== In-Game Description ===
+Tailoring has two aspects: first, you use it to turn textiles into clothing. Second, you can use tailoring to make clothing and leather armor more comfortable, more useful, or more stylish.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Thimble Pete]] will teach you Tailoring
+* [[Legs]] will teach Tailoring recipes to players in animal form for Spider Casings. She also teaches textile recipes for various spider silk.
+* [[Shirogin]] will unlock levels 51-60 and levels 61-70 and teaches 51+ Tailoring recipes.
+* [[Elaina]] can also unlock levels 51-60 and 61-70, as well as teach many Tailoring recipes.
+* [[Gurki]] can teach you how to make camo clothing and add pockets to clothes.
+* [[Eveline Rastin]] can teach you how to make nimble clothing.
+* [[Felmer]] will unlock levels 71-80 and teaches 80+ Tailoring recipes.
+* Levels 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+* [[Jerasen]] in Statehelm will unlock levels 91-100 and teaches 90+ Tailoring recipes.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* N/A
+===== Secondary Skills: =====
+* [[Textile Creation]] - Used in the creation of many ingredients used by [[Tailoring]].
+===== Related Skills: =====
+* [[Spider]] - Many spiders are natural tailors.
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Tailoring]] can be obtained from the following skills and levels:
+:; [[Ancillary-Armor Augmentation]]
+:: Level 90
+:; [[Buckle Artistry]]
+:: Level 55
+:; [[Elven Anatomy]]
+:: Level 49
+:; [[Leatherworking]]
+:: Level 30, Level 45
+:; [[Sigil Scripting]]
+:: Level 70
+:; [[Tanning]]
+:: Level 40, Level 70
+:; [[Textile Creation]]
+:: Level 30, Level 50
+:; [[Toolcrafting]]
+:: Level 45
+:; [[Transmutation]]
+:: Level 85
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Ending up with extra textiles ===
+Because multiple Textile Creation recipes create and use odd amounts of fabric (Cotton Thread creates 4 every time, but most recipes using it only require 1), you'll often end up with extra materials while Tailoring. For most equipment recipes, the magic number is 8: every 8 pieces of gear, you'll have no materials left.
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Tailoring Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Tailoring|
+{{:Xptables/TypicalNoncombatSkill}}
+}}
+
+== Trivia ==
+'''Write a little about this history of the skill, or things that don't belong in above areas'''
+
+== Gallery==
+Be prepared to grow a lot of cotton! You'll also be carding a lot, making thread and yarn. Higher quality clothes look better, have higher armor level and can be enchanted. Dyeing can also enhance the look of your clothes. Not much difference in appearance between Shoddy and Rough clothes; Decent is definitely a jump in aesthetics. Camouflaged shirt/pants have a different look.
+<gallery mode="nolines" widths=100px>
+File:ShoddyClothClothes.png| Shoddy set
+File:RoughClothClothes.png|  Rough set
+File:DecentClothClothes.png|  Decent set (default colors)
+File:CamouflagedDecent.png|  Camouflaged (default)
+File:ThreeDyedDecent.png| Decent sets-dyed 3 colors
+File:CamouflagedNice.png| Camouflaged Nice Pants/Shirt
+</gallery>
+[[Category:Skills]]
+
+
+
+Pocket gears: Only purple and yellow will proc plus 8 pocket gear as a mod, which then allows you to get 28 slots on each piece for the top and skirt.
+
+To do the pocket gear for cloth you add bloodstone at the top as primary and for auxiliary slot you add a rubywall gem. then you craft till you hit purple or yellow to get the plus 8 slot mod.
+
+To get the plus 20 slots with the plus 8 mod you go to tailoring and click where it says add pockets to top or legs, drop the gear in to the slot and you add pockets 10 times, 2 per interaction up to 10 times for the plus 20 pockets.

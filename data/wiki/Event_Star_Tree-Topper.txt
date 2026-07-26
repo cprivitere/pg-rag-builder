@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+[[Echur]] in [[Serbule]] said, "Okay, I need a bit of discreet help. Nelson gave me a decoration to put atop the tree, but I lost it! And I never lose things! So you know what this means: it was stolen. And I know who did it.
+
+There's a certain rodent who's made my life miserable ever since I accidentally gave him super-intelligence. His name is Mister Squeaky and he lives somewhere northwest of town. Please bring back the star he stole!"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Echur]]''' in '''[[Serbule]]'''.
+
+===Preface===
+Okay, I need a bit of discreet help. Nelson gave me a decoration to put atop the tree, but I lost it! And I never lose things! So you know what this means: it was stolen. And I know who did it.
+
+There's a certain rodent who's made my life miserable ever since I accidentally gave him super-intelligence. His name is [[Mr. Squeaky|mister squeaky]] and he lives somewhere northwest of town. Please bring back the star he stole!
+
+===Requirements===
+* Get {{Item|Stolen Tree Star}}
+* Talk to [[Echur]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Ah, you found it! Thank you! I feel bad about Mister Squeaky. He's a horrible little thing, but it's not his fault... it's mine. Anyway, onto the tree this goes!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Echur]][[Category:Quests/Ri-Shin Quests]]

@@ -1,0 +1,129 @@
+__NOTOC__
+{{NPC infobox
+|title            = Chancellor Algest
+|image            = [[File:Chancellor Algest (npc).png|300px]]
+|caption          = Bored and disinterested
+|zone             = Statehelm
+|town = Statehelm
+|location         = Statehelm Mint
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|storage = Yes
+|vendor = Yes
+}}
+{{Quote|source=[[Chancellor Algest]]|
+I like my job. It's important and it keeps me busy. Would that all the chancellors knew how to keep busy. Perhaps there wouldn't be some much drama and unrest with... certain citizens.}}
+[[Chancellor Algest]] is a Chancellor of the city of [[Statehelm]]. They operate the Statehelm Mint and Bank.
+== Location ==
+; [[Statehelm]]
+: [[Chancellor Algest]] is always found behind the desk at the Stathelm Mint, just south of the central fountain.
+== Shopkeeper ==
+[[Chancellor Algest]] is willing to sell and purchase [[Council Certificate]]s, but this service is only offered to individuals who have an active a Business License.
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk ===
+[[Chancellor Algest]] does not use a visible favor system, but there are a few actions which raise favor with him.
+=== Hang Outs ===
+{{Spoiler|Fill out business paperwork (3 hours) - (After paying 25,000 Councils for a Business License)|
+{{Quote|"And sign your secret sigil here. And here.
+
+Prick yourself here. Dab blood here. And here.
+
+You are hereby bound to serve the greater good of Statehelm proper. You will obey the tax requirements decreed by the Chancellor of Taxation. That's me.
+
+That's it. You're registered as a business owner for a full year.}}
+*45 {{Favor|favor}} with Chancellor Algest
+}}
+== Quests ==
+[[Chancellor Algest]] does not offer quests.
+<!--
+[[Chancellor Algest]] offers Helping Townsfolk/Statehelm Citizen Quests.
+<dpl>
+category = Quests/Chancellor Algest
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>-->
+== Services ==
+{{Quote|source=[[Chancellor Algest]]|No animals! No animals allowed in the bank, I'm afraid. The only exception is for certified animal assistants.}}
+Animals will need to register as an assistant with Chancellor Algest in order to access almost all services within Statehelm. This includes all NPC shops and all training. Both the animal player and the humanoid player claiming them as an assistant will need to be present at the same time. The humanoid must pay a registration fee of 5000 councils, and both they and their assistant will be fined if the assistant commits any crimes within the city. Spider and fox players are not able to use their humanoid illusions to be their own owner. 
+
+Spiders, bats, and werewolves are too scary and will need to acquire a magic item elsewhere in [[Statehelm]] in order to speak to Chancellor Algest. 
+
+==== [[Storage]] ====
+[[Chancellor Algest]] offers storage to everyone.
+He offers 8 slots of storage which can hold any type of item.
+{{NPC STORAGE
+|npcname = Chancellor Algest
+|favorrestriction = Neutral
+|itemrestriction =Anything
+|neutral =8
+|comfortable =8
+|friends = 8
+|closefriends = 8
+|bestfriends = 8
+|likefamily = 8
+|soulmates = 8
+}}
+==== War Bonds ====
+{{Quote|source=[[Chancellor Algest]]|
+You're a business owner, so I won't bullshit you about patriotism. The fact is that War Bonds are a bet -- a bet on the survival of our fair city. We have five of the strongest mages in the world. They've weathered hundreds of storms over their hundreds of years of life. So I would say this is a very safe bet indeed. But I'm not your financial adviser. 
+
+I cannot redeem War Bonds early, no matter the reason. So make sure you don't leave yourself cash-starved. Invest only what you can spare for a year!}}
+'''War Bonds''' are a service offered only to individuals with an active business license. War Bonds are purchasable investments which mature and double in value after 365 real-world days. Before they mature, they are essentially worthless.
+;Types of War Bonds
+* 1,000,000 Councils maturing to 2,000,000 Councils in 1 year.
+* 10,000,000 Councils maturing to 20,000,000 (Sold out on April 14, 2026).
+==== Banking ====
+...
+== Conversations ==
+{{Quote|source=[[Chancellor Algest]] (Not a Business)|
+Yes. What is it?
+
+'''About Council Certificates...'''
+
+:The creation and redemption of [[Council Certificate]]s is one of the services we provide to Statehelm businesses. Unfortunately, you're not a business.
+
+:'''Well, how would I become a business?'''
+
+:Become a business?! You're a person, not a business. You mean to ask how you can create a business, with you as the sole proprietor.
+
+:'''Yes. That.'''
+
+:I can certainly help you with that. There are quite a few forms to fill out, but more relevantly, there is the annual fee of 25,000 Councils. Payable up front.
+
+:'''That's a lot! But here you are. (Pay 25,000 Councils)'''
+
+:'''That's a lot! Let me ask about something else.'''
+
+'''About a Business Permit...'''
+
+'''Deposit/Withdraw...'''
+
+:You can safely deposit Councils here. The funds will be available to both you and your associates during business hours. (Deposits to the Statehelm Bank are accessible from all characters on your account).
+
+'''War Bonds...'''
+
+:I can redeem mature war bonds to you. I can also create War Bonds for you, but only if you were a valid Statehelm business.
+
+:'''Redeem War Bond.'''
+
+'''I'm here to register an Animal Assistant...'''
+
+:I'm sorry, only registered business owners can have animal assistants. You aren't a business.
+
+'''About Demerits.'''
+
+:Let's see. You don't have any Demerits. You've been an ethical citizen; good work!
+
+:Demerits are given out for relatively minor crimes. You can pay off Demerits here at a rate of 10 Councils per Demerit. Having any Demerits permits you from using most shops and services in town.
+}}
+{{Quote|source=[[Chancellor Algest]]|
+The Council stipulates very strict bookkeeping procedures, but then doesn't actually refer to all the paperwork very often. But I know there will come a day when all these perfectly-maintained ledgers will be the key to solving a crime or mystery of some sort. And I already know that I won't get any credit for my years of hard work, but nonetheless I look forward to it.}}
+
+{{Quote|source=[[Chancellor Algest]]|
+There's so many talking animals these days. They defecate everywhere and most can barely hold a conversation. Might as well be goblins, right? Hah!}}
+[[Category:NPCs]][[Category:NoRiShin]]

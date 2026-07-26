@@ -1,0 +1,20 @@
+__NOTOC__
+==Summary==
+You've found Miss Fire! She's asked that you help her gather some supplies before she returns home.
+
+This Quest can be repeated after 15 days.
+
+You must have previously completed [[Event: Lost Scapegoats]] in order to undertake this quest. This quest is only available during a Lost Scapegoats event. 
+
+===Requirements===
+* Obtain 10 Fire Dust
+* Obtain 10 Salt
+* Speak with Miss Fire
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|This should do the trick! Thanks a bunch! I'll be heading back as soon as I finish this recipe. Oh, and before you go, take this. It may help you in the future.}}
+* {{Item|Pure Heart of Flame}}
+}}
+
+[[Category:Quests]]

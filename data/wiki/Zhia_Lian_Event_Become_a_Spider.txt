@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Hey, I detect interference from my old friend Akhisa in the Serbule Crypt! Find the talking spider and set it free, then convince it to make you into a spider. It'll be fun! Trust me! You still have those allies handy from killing Ursula, right? Hmm, actually, you might need some better friends...
+
+Oh hey. When you talk to the spider, remember to buy his special powers!
+
+<i>[You must defeat dangerous Elite creatures to complete this quest. Recommended for a group of 5+ level 25 players.]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Hey, I detect interference from my old friend Akhisa in the Serbule Crypt! Find the talking spider and set it free, then convince it to make you into a spider. It'll be fun! Trust me! You still have those allies handy from killing Ursula, right? Hmm, actually, you might need some better friends...
+
+Oh hey. When you talk to the spider, remember to buy his special powers!
+
+<i>[You must defeat dangerous Elite creatures to complete this quest. Recommended for a group of 5+ level 25 players.]</i>
+
+===Requirements===
+* Become a spider and use Spider Bite x5
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> See? See?! Isn't having eight legs great? But a word of caution: you CAN go too far. Once I turned into a 48-legged spider, and that's too much. Stick with eight, it's easier to manage. You look great, by the way!}}
+* 2000 councils
+* {{Item|Un-Spider Juice}}
+* {{Item|Level 10-20 Event Loot Key}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

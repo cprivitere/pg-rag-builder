@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Joeh in Serbule asked you to retrieve a bunch of shoddy leather rolls.
+
+===Prerequisites===
+To start this quest, talk to '''[[Joeh]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Close Friends}} favor.
+
+===Preface===
+{{Quote|You're a good sort. I should let you in on something: I'm fond of leather parties. Everyone wears amazing custom leather clothes, and it's exquisite! I'm throwing one soon, and I need a bunch of leather. Shoddy leather will do; these are costumes that will only be worn once, after all.}}
+
+===Requirements===
+* Get {{Item|Shoddy Leather Roll}}s x50
+* Talk to Joeh
+
+===Rewards===
+{{Spoiler|Rewards for Leather Party|
+{{Quote|Very nice! I'd invite you to the party, but... well, maybe next time!}}
+
+* 200 {{Favor|favor}}
+* 1000 councils 
+* 1000 XP in [[Sword]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Joeh]]

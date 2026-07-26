@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Uriana in the Fae Realm said, "I remember a thing! It is called a Pixie Pocket. So named by cruel mortals! Or... perhaps named by cruel fairies... I do not remember. But I think I remember the formula! Here: my notes. Make the Pixie Pocket. Tell me if my formula works."
+
+===Prerequisites===
+To start this quest, talk to [[Uriana]] in the [[Fae Realm]]. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|
+I remember a thing! It is called a Pixie Pocket. So named by cruel mortals! Or... perhaps named by cruel fairies... I do not remember. But I think I remember the formula! Here: my notes. Make the Pixie Pocket. Tell me if my formula works.
+}}
+
+===Requirements===
+* Cook a {{Item|Pixie Pocket}} x1
+* Talk to Uriana.
+
+===Rewards===
+{{Spoiler|Rewards for Pixie's Whim: Pixie Pocket|
+{{Quote|
+It worked! So the Pixie Pocket is as I remembered: a slurry of peaches and coagulated goat emissions. ... Well, this was definitely named by mortals, then. Take it away before its stench angers me.
+}}
+* Random item.
+}}
+
+[[Category:Quests]][[Category:Quests/Uriana]][[Category:Quests/Fae Realm Quests]]

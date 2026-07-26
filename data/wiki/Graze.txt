@@ -1,0 +1,13 @@
+__NOTOC__
+{{Ability infobox
+| name = Graze
+| description = Collect grass from the environment. Can only be used outdoors.
+| level = 5
+| power cost = 20
+| reuse time = 50
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Graze}}
+| special = You obtain 1 Grass.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

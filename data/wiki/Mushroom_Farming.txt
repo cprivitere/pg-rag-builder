@@ -1,0 +1,175 @@
+__NOTOC__
+{{Skill infobox
+|title            = Mushroom Farming
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = The specialized skill of growing mushrooms in grow-boxes.
+|skilltype        = Trade Skill
+|maxlevel         = 60 <!-- List without bonus levels -->
+|req              = [[Mycology]] 60 <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Hemmit Magmagrip]]
+}}
+
+{{Quote|
+The specialized skill of growing mushrooms in grow-boxes.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+'''Mushroom Farming''' is a skill introduced July 2017. This skill requires [[Mycology]] of 60 to learn. 
+
+TLDR workflow: place mushroom box, add 1x mushroom (not powder) to box, add 1+ substrate to box (quantity required depends on box type), wait, harvest.
+
+=== In-Game Description ===
+The specialized skill of growing mushrooms in grow-boxes.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Hemmit Magmagrip]] will teach Mushroom Farming at ''Friends''.
+* [[Hemmit Magmagrip]] unlocks Levels 51-60 [[Mushroom Farming]] at ''Like Family''.
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None.
+=====Secondary Skills:=====
+* [[Mycology]] - Mycology is the Parent skill of [[Mushroom Farming]].
+* [[Carpentry]] - Carpentry is needed to make the mushroom grow-boxes
+* [[Alchemy]] - Mushroom suspensions made by alchemy are needed to make the mushroom grow-boxes
+
+=====Related Skills:=====
+* [[Myconic]] - Myconic is another Mushroom related skill.
+<!--
+== Harvestables == 
+'''If the skill includes a gathering component (Foraging, Fishing, Gardening), add this heading.'''
+''' See [[Fishing]] or [[Mycology]] for examples.
+
+== {{msg:BASEPAGENAME}} Basic Abilities==
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+-->
+== Recipe Lists ==
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+
+=== Substrates ===
+
+
+Each mushroom grows better in a specific substrate. It grows adequately in one of the low level substrates (Dirt, Bone or Meat), and very well in one of the high level substrates (Organs, Limbs or Exotic).
+
+Some substrates can be produced from any item with a certain keyword:
+*Meat Substrate: [[:Category:Items/Meat]]
+*Organ Substrate: [[:Category:Items/BodyOrgan]]
+*Limb Substrate: [[:Category:Items/CorpseLimb]]
+
+Some higher level mushroom boxes require multiple doses of substrate, instead of just one.
+
+=== Moon Phases ===
+Mushrooms also grow robustly if harvested during two (specific to the mushroom) out of the eight moon phases, and poorly in two others. Moon phase in game matches real life, based on GMT time zone. The current moon phase can be checked with the Moon Phase Check [[Lore]] recipe.
+
+=== Mushroom Boxes ===
+Mushroom boxes are made with [[Carpentry]] and [[Mushroom Farming]] recipes. 
+Lucky boxes have a 33% chance for harvesting a second type of mushroom and can last once, 12 hours or 24 hours. 
+Practice boxes have a slower grow time, but yield more XP per mushroom. 
+Fast boxes grow mushrooms 20% faster than normal, but have a -50% XP penalty per mushroom. 
+
+==== Box Duration and Clearing Boxes ====
+Some mushroom boxes have a duration (other boxes typically grow only a single crop).  For these boxes, the player will be able to start a new cycle as long as there is any time left on the box.  If this new cycle uses up the remaining time on the box, the in-game interface will inform you that this will be the last crop this box will be fit to grow.
+
+At any time, the player may opt to clean out a mushroom box.  For a box with duration remaining, a new crop may then be started, requiring a new starter mushroom, and a new dose of substrate (or multiple doses, depending on box type).  
+
+==== Number of Boxes ====
+A number of boxes can be placed simultaneously, depending on [[Mushroom Farming]] level:
+* Two boxes to start
+* Three boxes at Level 41
+
+==== Locations ====
+*Some locations where mushrooms can be farmed: [[Crystal Cavern]], [[Myconian Cave]], [[Brain Bug Cave]], [[New Prestonbule Cave]], [[Wolf Cave]], [[Serbule Hills Spider Cave]].
+*Some locations where mushrooms cannot be farmed: [[Rahu Sewer]], [[Yeti Cave]], [[Boarded up Basement]]
+
+=== Growing Time ===
+<div style="overflow: hidden">[[File:Mushroom_Farming_Chart.png|right|256px|link={{filepath:Mushroom_Farming_Chart.png}}]]
+The table below summarizes the best substrates, appropriate moon phases and normal growing time for all mushrooms. Mycology requirement is the level required to seed a box; attempting to seed a box with an unharvestable mushroom variety yields a warning in the user interface: "Error: Picking a <Fly Amanita> requires Mycology <77>, and your skill is only <64>. You wouldn't be able to pick the mushrooms you grew!"
+
+Or click the thumbnail to the right for a chart of the moon phases.
+
+{| class="sortable" style="width:100%; border:1px solid silver;margin:0 0 1em;" cellspacing="2" cellpadding="3" rules=all
+! align="left"   style="width:110px" | <span style="cursor: pointer;">'''Mushroom'''</span> 
+! align="center" style="width:70px"  | <span style="cursor: pointer;">'''Mycology Req'''</span> 
+! align="center" style="width:70px"  | <span style="cursor: pointer;">'''Growing Time'''</span> 
+! align="center" style="width:70px"  | <span style="cursor: pointer;">'''Adequate in'''</span> 
+! align="center" style="width:70px"  | <span style="cursor: pointer;">'''Very well in'''</span> 
+! align="center" style="width:160px" | <span style="cursor: pointer;">'''Moon phase (robustly)'''</span>
+! align="center" style="width:160px" | <span style="cursor: pointer;">'''Moon phase (poorly)'''</span> 
+|-
+| {{Item|Parasol Mushroom}} || N/A || 02 hrs || Dirt || Organs || Full Moon, Waning Crescent Moon || New Moon, Waxing Gibbous Moon
+|-
+| {{Item|Mycena Mushroom}} || 05 || 03 hrs  || Bone || Limbs || Waxing Crescent Moon, First-Quarter Moon || Waning Gibbous Moon, Last-Quarter Moon
+|-
+| {{Item|Boletus Mushroom}} || 10 || 04 hrs  || Meat || Exotic || New Moon, Waning Gibbous Moon || Waxing Crescent Moon, Full Moon
+|-
+| {{Item|Field Mushroom}} || 15 || 05 hrs  || Bone || Organs || Waxing Gibbous Moon, Last-Quarter Moon || First-Quarter Moon, Waning Crescent Moon
+|-
+| {{Item|Goblin Puffball}} || 12 || 05 hrs  || Dirt || Exotic || New Moon, Waxing Gibbous Moon || Full Moon, Waning Crescent Moon
+|-
+| {{Item|Blusher Mushroom}} || 20 || 06 hrs  || Meat || Exotic || New Moon, Waning Gibbous Moon || Waxing Crescent Moon, Full Moon
+|-
+| {{Item|Milk Cap Mushroom}} || 25 || 07 hrs  || Dirt || Organs || Full Moon, Waning Crescent Moon || New Moon, Waxing Gibbous Moon
+|-
+| {{Item|Blastcap Mushroom}} || 33 || 08 hrs  || Meat || Organs || Full Moon, Waning Gibbous Moon || New Moon, Waxing Crescent Moon
+|-
+| {{Item|Blood Mushroom}} || 30 || 08 hrs  || Dirt || Limbs || Waxing Crescent Moon, Last-Quarter Moon || First-Quarter Moon, Waning Gibbous Moon
+|-
+| {{Item|Coral Mushroom}} || 40 || 09 hrs  || Meat || Limbs || First-Quarter Moon, Waxing Gibbous Moon || Last-Quarter Moon, Waning Crescent Moon
+|-
+| {{Item|Iocaine Mushroom}} || 40 || 10 hrs  || Bone || Limbs || Waxing Crescent Moon, First-Quarter Moon || Waning Gibbous Moon, Last-Quarter Moon
+|-
+| {{Item|Groxmax Mushroom}} || 47 || 11 hrs  || Bone || Organs || Waxing Gibbous Moon, Last-Quarter Moon || First-Quarter Moon, Waning Crescent Moon
+|-
+| {{Item|Porcini Mushroom}} || 55 || 12 hrs  || Meat || Exotic || Full Moon, Waning Gibbous Moon || New Moon, Waxing Crescent Moon
+|-
+| {{Item|False Agaric}} || 57 || 12 hrs  || Bone || Limbs || Waning Crescent Moon, Last-Quarter Moon || First-Quarter Moon, Waxing Gibbous Moon
+|-
+| {{Item|Black Foot Morel}}  || 64 || 13 hrs  || Dirt || Exotic || New Moon, Waning Crescent Moon || Full Moon, Waxing Gibbous Moon
+|-
+| {{Item|Pixie's Parasol}} || 70 || 14 hrs  || Meat || Organs || First-Quarter Moon, Waxing Gibbous Moon || Last-Quarter Moon, Waning Crescent Moon
+|-
+| {{Item|Fly Amanita}} || 77 || 15 hrs  || Bone || Organs || Waxing Crescent Moon, Full Moon || New Moon, Waning Gibbous Moon
+|-
+| {{Item|Wizard's Mushroom}} || 75 || 16 hrs  || Bone || Organs || Waxing Crescent Moon, First-Quarter Moon || Waxing Gibbous Moon, Last-Quarter Moon
+|-
+| {{Item|Charged Mycelium}} || 80 || 16 hrs || Meat || Exotic ||New Moon, Waxing Gibbous Moon || Waning Crescent Moon, Full Moon
+|-
+| {{Item|Granamurch Mushroom}} || 85 || 17 hrs || Dirt || Limbs ||Full Moon, New Moon || Waning Gibbous Moon, Last-Quarter Moon, Waning Crescent Moon, First-Quarter Moon
+|-
+| {{Item|Ghostshroom}} || 90 || 18 hrs || Exotic || Meat ||Full Moon, New Moon || Last-Quarter Moon, Waxing Crescent Moon, First-Quarter Moon, Waxing Gibbous Moon
+|-
+| {{Item|Mortaferus Mushroom}} || 95 || 19 hrs || ?? || Organs ||Waning Gibbous Moon, Last-Quarter Moon || Waxing Crescent Moon
+|}
+
+=== Example ===
+I head to New Prestonbule Cave, and remove some {{Item|Maple Wood}} from storage. I use a [[Carpentry]] recipe to produce two {{Item|Maple Mushroom Box Frame}}. I also remove some {{Item|Blood Mushroom Powder}} from storage and along with the water and dirt in my inventory, i'm able to produce the other intermediate ingredients and finally two {{Item|High-Yield Mushroom Box (48 hours)}}.
+
+Having already checked that it is the Full Moon (and consulted an online reference so I know it will still be the Full Moon at harvest time when it counts), I plan to grow {{Item|Fly Amanita}}, as these grow robustly during the Full Moon.  They grow best in {{Item|Mushroom Substrate (Organs)}}, so I pull a stack of that out of storage, along with a couple of Fly Amanitas to get the boxes started.
+
+I choose a location a little out of the way near a wall, where I will remember where my boxes are. I deploy both boxes, adding one mushroom to each, along with the two doses of substrate the interface informs me each box requires. I can now see that the boxes have 48 hours remaining and that this crop will be done in 22.5 hours (the 15 hour base * 150% because High Yield Boxes have 50% slower growth).
+
+I make a note of the time window. I need to come back after 22.5 hours so the crop will be ready, but ideally with another 22.5 hours still "on the clock".  From the 48 hour total, this gives me 28 - 2 * 22.5 = a 3 hour window. If I make it back in time, i'll be able to grow a second crop, and then a third if I again harvest that second crop before the 48 hours has expired. If I harvest the first crop after 25.5 hours, there will be less than 22.5 hours left, and I will only be able to produce one more crop of Fly Amanita with these boxes.
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Mushroom Farming Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Mushroom Farming|
+{{:Xptables/TypicalNoncombatSkill}}
+}}
+
+== Trivia ==
+*[[Mushroom Farming]] was actually one of the first skills planned for the game, at Skill ID #7.
+*There is a bug upon first learning the skill. Two recipes, Mushroom Box and Mushroom Substrate: Dirt, are supposed to be added to the player's arsenal. But Mushroom Substrate: Dirt recipe is not added (in many players' experiences). After quitting and restarting the game, the recipe appears normally.
+
+== Gallery==
+<!--
+''' Include a small gallery of players using the skill, or abilities of the skill. Try to keep it under six images. This example Gallery is from the Serbule Page.'''
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+File:Serbule Gallery (abandoned cart).jpg|An abandoned cart.
+File:Serbule Gallery 2.jpg|A very dangerous place...
+</gallery>
+-->
+[[Category:Skills]]

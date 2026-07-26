@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Three Bun-Fu Masters have come into the area to help train their fellow bunnies in the ways of the carrot. Visit Lopsy in the [[Serbule Keep]] garden, Flopsy outside of the [[Kur Mountains]] Inn and Boop outside of the [[New Prestonbule Cave]] in [[Gazluk]] to complete your training! You think you know Bun-Fu? Show me!
+
+[<i> These quests require you to be in [[rabbit|bunny form]] to advance. A free bunny transformation will be available at all quest NPCs. </i>]
+
+This Quest can be repeated after 15 days.
+
+This quest is only available during a BunFu event. 
+
+===Preface===
+Three Bun-Fu Masters have come into the area to help train their fellow bunnies in the ways of the carrot. Visit Lopsy in the [[Serbule Keep]] garden, Flopsy outside of the [[Kur Mountains]] Inn and Boop outside of the [[New Prestonbule Cave]] in [[Gazluk]] to complete your training! You think you know Bun-Fu? Show me!
+
+[<i> These quests require you to be in [[rabbit|bunny form]] to advance. A free bunny transformation will be available at all quest NPCs. </i>]
+
+===Requirements===
+* [[Event: Bun-Fu Training with Lopsy|Complete training with Lopsy]]
+* [[Event: Bun-Fu Training with Flopsy|Complete training with Flopsy]]
+* [[Event: Bun-Fu Training with Boop|Complete training with Boop]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You did it! You completed all three tasks! It's safe to say you know the basics of Bun-Fu and are on your way to becoming a great Bun-Fu Master!}}
+* {{Item|Event Loot Key (Universal)}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Bun-Fu Training Quests]][[Category:Quests/Event Quests]]

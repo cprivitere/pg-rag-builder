@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Furlak in Rahu asked you to find a perfume called Telka's Tail. He suggested rakshasa bandits might have it.
+
+===Prerequisites===
+To start this quest, talk to '''[[Furlak]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|I have been invited to the execution party this month, but I'm not feeling my old confident self. What I need is something to bolster my righteousness. Telka's Tail! It's a perfume. Could you find a bottle? Rakshasa bandits might have it.}}
+
+===Requirements===
+* Obtain {{Item|Telka's Tail}}
+* Talk to Furlak
+
+===Rewards===
+{{Spoiler|Rewards for Telka's Tail for Furlak|
+{{Quote|Ah, smell that? Yes. Yes! How <i>dare</i> that General Tremal think she can make me obsolete? I will show them! All of them! Let them tremble at my claws!
+
+... Hmm, this is much more potent than I remembered. I'll have to dilute it down a bit or I might make an ass of myself. But I will make it work. Thank you.}}
+
+* 50 {{Favor|favor}}
+* 500 councils 
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Furlak]]

@@ -1,0 +1,37 @@
+__NOTOC__
+''Previous quest: [[Remnants of the First Thrall]]''
+
+==Summary==
+[[Truxartis]] sent me to a safehouse entrance in [[Rahu]] to collect blood from lost thralls and recover several items. Completing this quest rewards the [[Blood Mist]] ability.
+
+===Prerequisites===
+To start this quest, talk to '''[[Truxartis]]''' in '''[[Vidaria]]'''. The quest is available after completing [[Remnants of the First Thrall]].
+
+===Preface===
+{{Quote|The bones of the First Thrall have been sucked dry, but they are still valuable. I just need... Refresh them! Yes. This could work.
+
+I have located another entrance to a secret basement beneath Statehelm. I believe this to be a storehouse for vampiric thralls that are... too far gone to live on the street. "Lost thralls," they're called, but their blood is... potent. After years or even decades of vampiric feeding, they've become delectable and potent vessels. Not as delectable as my poor First Thrall, of course. ... But good enough to recharge these bones.
+
+The entrance is in Rahu. I recall it being in a small house overlooking a lake.
+
+Oh, while you are in there, I need a few other items.}}
+
+===Requirements===
+* Touch Vampire Rune in [[Rahu]] (in a small house near a lake)
+* Obtain {{Item|Fresh Thrall Blood}} x4
+* Obtain {{Item|Nice Blood Diffuser}} x1
+* Obtain {{Item|Recipe for Blood Whiskey}} x1
+* Talk to [[Truxartis]]
+
+===Rewards===
+{{Spoiler|Rewards for Blood of Lost Thralls|
+{{Quote|I'll soak the First Thrall's bones in this fresh blood. With luck ... Well, luck has nothing to do with it! We need but wait. And partake of some of this delicious blood ... while it's still drinkable.
+
+For your service, I shall teach you a blood-related vampiric power. Relish it, for it is your bloodrite!}}
+
+* 50 {{Favor|favor}}
+* 10 Blood Oaths
+* {{Ability icon|Blood Mist}} Unlocks the '''Blood Mist''' ability
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Truxartis]]

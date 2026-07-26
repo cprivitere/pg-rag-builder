@@ -1,0 +1,81 @@
+__NOTOC__
+{{NPC infobox
+|title            = Sheyna
+|image            = [[File:Sheyna.png|250px]]
+|caption          = She's muttering to herself.
+|zone             = Rahu
+|town             = Rahu City (peaceful)
+|location         = Docks.
+|anatomy = Rakshasa
+|species = Rakshasa
+| beastspeak       = Yes
+|beastlist = All
+|skilltrainer = [[Industry]]
+}}
+[[Sheyna]] is a Rakshasa merchant who accepts [[Industry|Work Orders]]. She is willing to let you on a ship, but the drop-off point changes depending on the phase of the moon (EST time zone).
+
+{{Quote|
+Who are you? Wait, I don't care. Get off my dock. This area is for loading and unloading only.
+: '''I heard you could teach me more about industry.'''
+: No time for that! Well... money talks. If you've got enough money, I will give you pointers. After that, you'll finally get off my docks, right?
+: '''Can you get me on a ship out of here?'''
+: As a passenger? Hmm, let me check the schedule... and cross-reference with the lunar calendar... [Available destinations change over time.]
+::... I could get you on a ship to [[Verta]]. Oh, but Verta doesn't allow visitors. I guess the ship could drop you off on an island somewhere. You'd be stuck there though.
+::... I could get you on an orcish freighter. They could drop you off in the [[Kur Mountains]]. Unless you've got Orcish blood in you though, that's pretty much the middle of nowhere.
+::... nope, sorry. The only appropriate ship coming in would take you to a miserable little Council duchy called '[[Serbule|Serbool]]' or 'Ser-bewl'... something like that. I'm not really sure how to pronounce it. But it's the middle of nowhere.
+: '''That's fine, I'll take it.'''
+: '''Oh well. Maybe another day.'''
+}}
+==Location==
+; [[Rahu]]
+: Standing near the Work Orders board on the docks in the city.
+
+==Training==
+; [[Industry]]
+: {|
+|-
+! Ability/Recipe
+! Level
+! Cost
+! Favor
+|-
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Industry{{!}}Unlock Industry Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20000
+ | favor = Neutral
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Industry{{!}}Unlock Industry Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 50000
+ | favor = Neutral
+}}
+|}
+==== Interpretive Dance Variant ====
+[[Sheyna]] is the teacher for [[Interpretive Dance|Dance 1 (variant C)]]. At least three musicians must be playing instruments near [[Sheyna]] to convince them to demonstrate their dance.
+
+==Travel Information==
+{| {{STDT}}
+!Moon Phase !! Destination !! Cost
+|-
+| New || Serbule || 300
+|-
+| Waxing Crescent || Serbule || 300
+|-
+| First Quarter || Serbule || 300
+|-
+| Waxing Gibbous || Kur || 300
+|-
+| Full || Kur || 300
+|-
+| Waning Gibbous || Kur || 300
+|-
+| Last Quarter || Sun Vale || 300
+|-
+| Waning Crescent || Sun Vale || 300
+|}
+
+[[Category:NPCs]][[Category:NoRiShin]]

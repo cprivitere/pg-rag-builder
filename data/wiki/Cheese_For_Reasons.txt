@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Willem Fangblade in Red Wing Casino said, "Do ya know what 'cheshire' is? It's a kinda cheese. Look, I can't explain why, but it's important that I find some. I need ta appear cultured."
+
+===Prerequisites===
+To start this quest, talk to '''[[Willem Fangblade]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|
+Do ya know what 'cheshire' is? It's a kinda cheese. Look, I can't explain why, but it's important that I find some. I need ta appear cultured.
+}}
+
+===Requirements===
+* Obtain {{Item|Cheshire Cheese}} x1
+* Talk to Willem Fangblade
+
+===Rewards===
+{{Spoiler|Rewards for Cheese For Reasons|
+{{Quote|
+This is cheshire? Smells disgusting! But I bet she'll like it. Thanks!
+}}
+* 150 favor towards Willem Fangblade
+* 500 Councils
+* {{Item|Red Wing Token}} X3
+}}
+
+[[Category:Quests]][[Category:Quests/Willem Fangblade]][[Category:Quests/Red Wing Casino Quests]]

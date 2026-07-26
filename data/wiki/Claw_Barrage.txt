@@ -1,0 +1,46 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Claw Barrage
+| description = A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.)
+| level = 51
+| power cost = 36
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|BarrageOfBlades}}{{KWAB|Barrage}}{{KWAB|ClawBarrage}}{{KWAB|BarrageOnly}}
+| damage = 175 Slashing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Claw Barrage 2
+| description = A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.)
+| level = 63
+| power cost = 42
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|BarrageOfBlades}}{{KWAB|Barrage}}{{KWAB|ClawBarrage}}{{KWAB|BarrageOnly}}
+| damage = 248 Slashing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Claw Barrage 3
+| description = A flurry of blows that will leave an opponent briefly stunned. This is a variant of Barrage. (You must be wielding two unarmed weapons or be an empty-handed animal with claws.)
+| level = 74
+| power cost = 47
+| reuse time = 10
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|BarrageOfBlades}}{{KWAB|Barrage}}{{KWAB|ClawBarrage}}{{KWAB|BarrageOnly}}
+| damage = 323 Slashing
+| special = Stuns opponent.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

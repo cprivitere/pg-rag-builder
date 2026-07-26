@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> You know how Kajich hates Tast? Because of the... nevermind. Not important. Anyway, listen: there's a very dangerous semi-undead hag underneath an orcish city called Gazluk Keep. She's sleeping in a coffin inside a hidden room. That should be easy enough to find, right? Get a bunch of friends, and find this hag before she awakens and takes over the whole keep!
+
+<i>[Gazluk Keep is a dungeon for a group of 5 players with level 70 combat skills.]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> You know how Kajich hates Tast? Because of the... nevermind. Not important. Anyway, listen: there's a very dangerous semi-undead hag underneath an orcish city called Gazluk Keep. She's sleeping in a coffin inside a hidden room. That should be easy enough to find, right? Get a bunch of friends, and find this hag before she awakens and takes over the whole keep!
+
+<i>[Gazluk Keep is a dungeon for a group of 5 players with level 70 combat skills.]</i>
+
+===Requirements===
+* Kill Anhinda
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> You killed Anhinda? Now that IS impressive! Nice going!}}
+* 10000 councils
+* {{Item|Event Loot Key (Universal)}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

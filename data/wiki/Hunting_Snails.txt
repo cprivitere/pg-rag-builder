@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+You're killing giant snails in Eltibule.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Snails</b>
+Snails seem especially adept at consuming the ambient magic of their surroundings. Many varieties grow to incomprehensible size and if left unhindered, they can become so large that only an army of druids can take them down.
+
+===Requirements===
+* Kill Giant Snails x10
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 600 Combat XP for your active skills
+* 50 XP in Fish and Snail Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Hunting Quests]]

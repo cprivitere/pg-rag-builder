@@ -1,0 +1,12 @@
+==December 2, 2014==
+Small bug-fix update today. Question for you though, did anybody notice a significant framerate increase in the last update when we switched to DirectX 11 support?  I heard from a few people who experienced major framerate decreases, but I haven't heard from anyone who benefited from it.
+
+===Bug Fixes:===
+* Fixed various missing-body-part issues.
+* Fixed looting and XP-giving logic for pets that explode themselves (e.g. explosion sigils).
+* Bug fix: Wind Strike no longer passively boosts your DoTs prior to using your next attack.
+* Treasure bugs: fixed a bunch of buggy treasure effects.
+* Arachnid Harnesses can no longer be worn by non-arachnids
+* Just FYI: equipment that requires the Cow skill and boosts regeneration stats will eventually require the Cow form, meaning it won't work for "former cows." We just don't have that bit coded yet. (The rule of thumb: if something is supposed to work for a "former" animal, it will explicitly say so, otherweise it's a bug or missing tech.)
+
+[[Category: Game updates]]

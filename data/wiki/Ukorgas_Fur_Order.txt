@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Ukorga in the Kur Mountains asked you for Tufts of Fur.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ukorga]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I'm trying to fill this order for fur-lined coats. I don't get many orders, you know? Pretty satisfying knowing my reputation's getting around. Trouble is, I'm out of fur to finish the last one. Can you get me some?}}
+
+===Requirements===
+* Obtain {{Item|Tuft of Fur}} x5
+* Talk to Ukorga
+
+===Rewards===
+{{Spoiler|Rewards for Ukorga's Fur Order|
+{{Quote|Thanks! Uh, here, take these as trade.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Crude Leather Roll}} x 5
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Ukorga]]

@@ -1,0 +1,35 @@
+__NOTOC__
+==Summary==
+Lumpfuzz in the Ilmari Desert said, "Okay, so the rakkies in the southwest have been breeding sand dogs. You need to kill those.
+
+Look, I know what this sounds like and I don't want to hear it. Those sand dogs aren't like us... they're not even mammals! They're dinosaurs or something! Wardens hate dinosaurs, right? Well... they aren't native to here! They're disrupting the natural order and shit.
+
+Look, the bandits were already a big problem for Amulna, and now they're much worse. And those sand dogs creep me out. Just fill out the forms however you need to, but those freaks need to go."
+
+This Quest can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lumpfuzz]]''' in the '''[[Ilmari Desert]]'''. The quest is available at {{Favor|Despised}} favor. This quest is only available for Wardens. This quest is only available during an event in the area.
+
+===Preface===
+Okay, so the rakkies in the southwest have been breeding sand dogs. You need to kill those.
+
+Look, I know what this sounds like and I don't want to hear it. Those sand dogs aren't like us... they're not even mammals! They're dinosaurs or something! Wardens hate dinosaurs, right? Well... they aren't native to here! They're disrupting the natural order and shit.
+
+Look, the bandits were already a big problem for Amulna, and now they're much worse. And those sand dogs creep me out. Just fill out the forms however you need to, but those freaks need to go.
+
+===Requirements===
+* Kill Sand Dogs x15
+* Talk to Lumpfuzz
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thanks. We're fighting the good fight here. And don't worry, most of those sand dogs are dumb as shit. And the ones that can talk? Super racist. Against werewolves, at least.
+
+I'll clean up the rest when the sun sets. You can get outta here.}}
+* 50 {{Favor|favor}}
+* 10 Warden Points
+* {{Item|Vervadium}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/Lumpfuzz]][[Category:Quests/Warden Quests]]

@@ -1,0 +1,47 @@
+__NOTOC__
+{{MOB infobox
+| title = Algid Overseer
+| type   = Fae
+| armor  = 950
+| health = 5062
+| rage   = 1555
+| effective = Crushing, Nature
+| vineffective = Darkness
+| immune = Cold
+}}
+[[Algid Overseer]] are [[Winter Court]] Fairy torturing Summer Court fae in the [[Winter Nexus]].  They are an Elite Mob. One notable Overseer is Algid Overseer Winterhue.
+== Locations ==
+{{MOB Location
+| area = Winter Nexus
+| location = East of the entrance.
+| health = 5062
+| armor  = 950
+| rage   = 1555
+}}
+==Combat Abilities==
+'''Elite'''
+{{:AIP:WinterCourtFey}}
+
+==Miscellaneous==
+* Skin: None
+* Meat: None
+* Skull: [[Fae Skull]]
+
+==Reported Loot==
+{{MOB First Kill
+|firstitem= Note to Algid Overseer Winterhue
+|fktext = 3 miscellaneous items.
+|rktext= 2 items (50/50 equipment).
+}}
+''' Level XX Equipment '''
+{|
+| {{Loot|Coat of the Winter Court}}
+| {{Loot|Gemshorn}}
+|}
+
+''' General Loot '''
+{|
+| {{Loot|Fairy Wing}}
+| {{Loot|Saltpeter}}
+| {{Loot|Expert's First Aid Kit}}
+|}

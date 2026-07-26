@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Helena Veilmoor in Hogan's Keep asked you to obtain some obsidians so she can pay off her debtors before they cut off her head and lay eggs down her neck. But no rush.
+
+===Prerequisites===
+To start this quest, talk to '''[[Helena Veilmoor]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I... kind of have a gambling problem. <i>Had</i> a gambling problem. I'm better now! But there's these mantises that I owe money to. Like, several million councils. Don't look at me like that! How was I supposed to know they were psychics?!
+
+So, yeah. They're gonna rip off my head and lay eggs in my neck unless I get them their money. But they said they'd give me more time if I got them some gems they want. I've gotten a lot of them, but I need a few more. If you happened upon some obsidian, save them for me?}}
+
+===Requirements===
+* Obtain {{Item|Obsidian}} x3
+* Talk to Helena Veilmoor
+
+===Rewards===
+{{Spoiler|Rewards for Paying Debts|
+{{Quote|You got it? Whew! You saved my life for another month! Let me get you something.}}
+
+* 250 {{Favor|favor}}
+* {{Item|Quality Shield}}
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Helena]]

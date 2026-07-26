@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Mope in Povus said, "I need new types of fungus to improve my fungal forest. These species do not grow natively here, so I must ask for assistance."
+
+===Prerequisites===
+To start this quest, talk to '''[[Mope]]''' in '''[[Povus]]'''. 
+
+===Preface===
+I need new types of fungus to improve my fungal forest. These species do not grow natively here, so I must ask for assistance.
+
+===Requirements===
+* Obtain a Charged Mycelium
+* Obtain a Wizard's Mushroom
+* Talk to Mope
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Your specimens are acceptable, and my gratitude is significant.}}
+* 100 {{Favor|favor}}
+* {{Item|Xogrite Chunk}} x3
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Mope]]

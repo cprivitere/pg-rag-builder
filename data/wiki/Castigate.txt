@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Castigate
+| description = Summon Arisetsu's displeasure to rebuke your foe. Most effective against the undead.
+| level = 4
+| power cost = 13
+| reuse time = 8
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|Castigate}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 17 Psychic
+| special = Undead take +20% damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Castigate 2
+| description = Summon Arisetsu's displeasure to rebuke your foe. Most effective against the undead.
+| level = 14
+| power cost = 17
+| reuse time = 8
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|Castigate}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 32 Psychic
+| special = Undead take +40% damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Castigate 3
+| description = Summon Arisetsu's displeasure to rebuke your foe. Most effective against the undead.
+| level = 24
+| power cost = 22
+| reuse time = 8
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|Castigate}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 51 Psychic
+| special = Undead take +60% damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Castigate 4
+| description = Summon Arisetsu's displeasure to rebuke your foe. Most effective against the undead.
+| level = 32
+| power cost = 25
+| reuse time = 8
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|Castigate}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 71 Psychic
+| special = Undead take +80% damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Castigate 5
+| description = Summon Arisetsu's displeasure to rebuke your foe. Most effective against the undead.
+| level = 47
+| power cost = 31
+| reuse time = 8
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|Castigate}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 133 Psychic
+| special = Undead take +100% damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Castigate 6
+| description = Summon Arisetsu's displeasure to rebuke your foe. Most effective against the undead.
+| level = 54
+| power cost = 34
+| reuse time = 8
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|Castigate}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 169 Psychic
+| special = Undead take +100% damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Castigate 7
+| description = Summon Arisetsu's displeasure to rebuke your foe. Most effective against the undead.
+| level = 68
+| power cost = 40
+| reuse time = 8
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|Castigate}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 243 Psychic
+| special = Undead take +100% damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Castigate 8
+| description = Summon Arisetsu's displeasure to rebuke your foe. Most effective against the undead.
+| level = 80
+| power cost = 45
+| reuse time = 8
+| range = 15 meters
+| skill = Priest
+| keywords = {{KWAB|Attack}}{{KWAB|Priest}}{{KWAB|PriestAttack}}{{KWAB|Castigate}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 319 Psychic
+| special = Undead take +100% damage.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

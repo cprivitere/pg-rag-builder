@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Sona in New Prestonbule said, "I've been trying to convince Mox that Transmutation can revolutionize mining. But he won't listen. So I need your help. It will be dangerous... but worthwhile! I need a piece of the evil yellow crystals that can be found outside, plus some high-quality phlogiston. I believe I can make the crystal safe for transit!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Sona]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I've been trying to convince Mox that Transmutation can revolutionize mining. But he won't listen. So I need your help. It will be dangerous... but worthwhile! I need a piece of the evil yellow crystals that can be found outside, plus some high-quality phlogiston. I believe I can make the crystal safe for transit!}}
+
+===Requirements===
+* Obtain a {{Item|Glowy Yellow Crystal}}
+* Obtain {{Item|Nice Phlogiston}} x4
+* Talk to Sona
+
+===Rewards===
+{{Spoiler|Rewards for Safer Crystal Transport|
+{{Quote|Excellent. Let me work quickly... yes! I knew it! These yellow crystals are just a kind of enchanted hassium, which phlogiston renders relatively safe! Wait until I show Mox!
+
+Unfortunately the technique does not seem to be very cost-effective, but I believe I can improve the ratios a bit...
+
+Here. You seem to be more open-minded about learning from a 'child' than Mox is. Here is my improved crystal transit formula. It may be too expensive to use routinely, but I hope that some day it proves useful.}}
+
+* 200 {{Favor|favor}}
+* Recipe: [[Lore|Coat Glowy Yellow Crystals]]
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Sona]]

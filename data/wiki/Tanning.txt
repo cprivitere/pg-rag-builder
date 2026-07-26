@@ -1,0 +1,82 @@
+__NOTOC__
+{{Skill infobox
+|title            = Tanning
+|image            = [[File:Tanning.png|300px]]
+|caption          = Tanning rack in Serbule
+|skilltype        = Trade Skill
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              =  
+|skilltrainers    = [[Kleave]], [[Sirine]], [[Felmer]]
+|gem = {{Item|Onyx}}
+}}
+{{Quote|
+Leave a quote about the skill here. This can be the in-game description, but that info must be placed below as well.  Adds a bit of flavor to the article as well.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Tanning''' lets you turn animal skins into Rolls, which are primarily used in Leatherworking. You also need Tanning for dyeing leather equipment. It requires you to be near a Tanning Rack
+
+=== In-Game Description ===
+The craft of turning disgusting animal skins, furs, and hides into leather, fleece, and other material ready to be used in clothing and armor.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* [[Kleave]] teaches Tanning and beginner Tanning recipes
+** You must complete the [[Power Potions!]] Quest for [[Kleave]], which grants 200 [[Tanning]] experience and raises Tanning to Level 2, to be able to train Tanning recipes. You must also be at {{favor|Comfortable}} or above.
+* [[Sirine]] in [[Rahu]] will unlock levels 51-60 and 61-70, and teaches 51+ Tanning recipes
+* [[Felmer]] in [[Fae Realm]] will unlock levels 71-80.
+* Levels 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]] or [[Grim Jim]] at [[Statehelm]].
+* Levels 91-100 are unlocked by [[Grim Jim ]] at [[Statehelm]].
+
+==Connected Skills==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* None
+===== Related Skills: =====
+* [[Skinning]]
+* [[Leatherworking]]
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Tanning]] can be obtained from the following skills and levels:
+:; [[Candle Making]]
+:: Level 5
+:; [[Skinning]]
+:: Level 10, Level 30, Level 50
+
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Tanning Rack Locations ===
+Almost all Tanning recipes will require you to be near a Tanning Rack.
+; [[Serbule]]
+: In the walled area south of town, next to the blacksmith [[Tadion]]. You can buy Tannin powder from [[Therese]] in the nearby garden.
+: A second one in the house next to Joeh's house.  Convenient if you are offloading crafted armor to [[Joeh]].
+; [[Eltibule]]
+: Next to [[Kleave]] in Eltibule Keep (central castle) and next to [[Thimble Pete]] in [[Hogan's Keep]] (south castle).
+; [[Sun Vale]]
+: Behind [[Legs]] in [[Animal Town]].
+; [[Kur Mountains]]
+: Next to [[Ukorga]].
+: In [[Syndra]]'s house.
+; [[Rahu]]
+: In the raised central area. There's another one next to Sirine's house.
+; [[New Prestonbule Cave]]
+: To the right of the entrance
+; [[Fae Realm]]
+: In the Fel-Dasculan Ruins, near [[Noita the Green]]
+
+=== List of Skins ===
+<Include link to coming-soon list of skins page>
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Tanning Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Tanning|
+{{:Xptables/CorpseActionSkillExt}}
+}}
+
+== Trivia ==
+'''Write a little about this history of the skill, or things that don't belong in above areas'''
+
+== Gallery==
+
+[[Category:Skills]]

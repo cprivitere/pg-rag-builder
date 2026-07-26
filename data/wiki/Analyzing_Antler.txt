@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Preta]] in [[Sun Vale]] said, "The spider legs you brought me were a lot of fun to study! Will you bring me some antlers from the local deer population? Be careful - some of them are rabid."
+
+===Prerequisites===
+To start this quest, talk to '''[[Preta]]''' in '''[[Sun Vale]]'''. You must have previously completed [[Analyzing Chitin]] in order to undertake this quest. This quest is only available to [[Fairy|Fae]]. 
+
+===Preface===
+{{Quote|The spider legs you brought me were a lot of fun to study! Will you bring me some antlers from the local deer population? Be careful - some of them are rabid.}}
+
+===Requirements===
+* Obtain Deer {{Item|Antler}}s x10
+* Talk to [[Preta]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hmm. These are just bone. I guess it's interesting that deer grow massive bones from their skulls, but it's still just bone. Oh, well. Thanks anyway!}}
+*25 {{Favor|favor}}
+*[[Pathology]] raised to Level 30.
+}}
+
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Preta]][[Category:Quests/Fae Quests]]

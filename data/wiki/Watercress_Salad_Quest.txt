@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Julius Patton in Serbule Hills said, "Man, I wish I had a watercress salad for lunch! The spice, with a hint of vinegar dressing... delicious! But I'm just getting myself worked up for nothing. I don't have any of the ingredients on hand!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Julius Patton]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|Man, I wish I had a watercress salad for lunch! The spice, with a hint of vinegar dressing... delicious! But I'm just getting myself worked up for nothing. I don't have any of the ingredients on hand!}}
+
+===Requirements===
+* Obtain a {{Item|Watercress Salad}}
+* Talk to Julius Patton
+
+===Rewards===
+{{Spoiler|Rewards for Watercress Salad|
+{{Quote|You made me a watercress salad? That was... weirdly kind of you. Thank you. Well, here. You like grapes?}}
+
+* 100 {{Favor|favor}}
+* {{Item|Grapes}} x 5
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Julius Patton]]

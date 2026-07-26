@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Joeh in Serbule asked you to kill a tiger called "Old Fangsworth", rumored to live somewhere north of Serbule.
+
+==Prerequisites==
+To start this quest, talk to [[Joeh]] in [[Serbule]].  The quest is available at {{Favor|Friends}} favor.
+
+==Preface==
+{{Quote|Damn it, he's still out there! Mocking me! The only tiger to escape my blade! Old Fangsworth is a crafty beast; I admit he bested me when I was younger. I could kill him now, but I no longer have the time to stalk him and take him out.}}
+
+==Requirements==
+* Kill [[Old Fangsworth]] {{Hint| Old Fangsworth can be found in the northeastern part of Serbule, close to the road that leads to the port.|}}
+* Talk to [[Joeh]]
+
+==Rewards==
+{{Spoiler|Rewards for Old Fangsworth|
+{{Quote|You... you killed Old Fangsworth? For me? Well, I really needed to kill him myself. For the honor, you know? But I guess knowing that he's no longer out there mocking me is good, too. Thanks!}}
+
+:250 [[favor]]
+}}
+
+[[Category:Quests]][[Category:Quests/Joeh]]

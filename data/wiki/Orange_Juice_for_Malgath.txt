@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Malgath in the werewolf den asked you to obtain orange juice.
+
+===Prerequisites===
+To start this quest, talk to '''[[Malgath]]''' in '''[[Wolf Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|For my alchemical experiments, I need a liquid that's sweet and full of citric acid. Orange juice should work. But, of course, this is Kur! No oranges for thousands of miles! What should I do?}}
+
+===Requirements===
+* Obtain {{Item|Orange Juice}}
+* Talk to Malgath
+
+===Rewards===
+{{Spoiler|Rewards for Orange Juice for Malgath|
+{{Quote|You got orange juice! But how? You're quite adroit at obtaining unusual things, aren't you? Here. I'll trade you for a few of these unusual coins I found lying around the cave.}}
+
+* 150 {{Favor|favor}}
+* {{Item|Ancient Gold Coin}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Malgath]]

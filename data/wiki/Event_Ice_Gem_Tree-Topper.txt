@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+[[Nightshade]] in [[Kur]] said, "Landri is a master ice-wizard. I've talked her into preparing a beautiful ice-gem to top the tree. She just needs a bit of magical ice. An 'ice core', she said. Better get two, in case I need to have her remake it in a different shape."
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Nightshade]]''' in the '''[[Kur Mountains]]'''.
+
+===Preface===
+Landri is a master ice-wizard. I've talked her into preparing a beautiful ice-gem to top the tree. She just needs a bit of magical ice. An 'ice core', she said. Better get two, in case I need to have her remake it in a different shape.
+
+===Requirements===
+* Obtain {{Item|Ice Core}} x2
+* Talk to [[Nightshade]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Wow, they're quite cold. And not very interesting to look at, are they? But don't worry. Landri can work her magic and we'll get a nice tree-topper out of it, I'm sure!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Nightshade]][[Category:Quests/Ri-Shin Quests]]

@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Irkima in Red Wing Casino said, "Please speak to Tavilak about her previous mates -- the ones she killed. Why did she do it? Is this why she is unwilling to mate with me?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Irkima]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Comfortable}} favor. The quest [[Letting Qatik Down Gently]] must have been completed.
+
+===Preface===
+{{Quote|
+Please speak to Tavilak about her previous mates -- the ones she killed. Why did she do it? Is this why she is unwilling to mate with me?
+}}
+
+===Requirements===
+* Speak with [[Tavilak]] about her previous mates
+* Talk to [[Irkima]]
+===Midway Text===
+{{Spoiler|Response from [[Tavilak]]|
+Oh, Irkima. Even asking me these questions causes emotional pain. Tell him that I have indeed killed my mate before. I was unable to control my instincts. I will not make the same mistake again. Tell him to find a different mate!
+}}
+===Rewards===
+{{Spoiler|Rewards for Probing Tavilak's History|
+{{Quote|
+But I do not want a different mate than Tavilak! Surely there is a resolution to this. She could simply refrain from killing me, for instance... I need to meld with Tavilak and understand her concerns. Could you cover my storefront for a few minutes while I see her? It shouldn't take too long.
+}}
+* New Hangout with [[Irkima]] -- What hangout?  Is this bugged or does it require favor?
+* 100 favor towards Irkima
+* {{Item|Red Wing Token}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Irkima]][[Category:Quests/Red Wing Casino Quests]]

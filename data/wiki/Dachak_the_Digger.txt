@@ -1,0 +1,172 @@
+__NOTOC__
+{{NPC infobox
+|title            = Dachak the Digger
+|image            = [[File:Dachak the Digger (npc).png|300px]]
+|caption          = Dirty and unhappy
+|zone             = Povus 
+|town             = City of Povus
+|location         = Old Town, in the building immediately adjacent to the Town Status Board
+|anatomy          = Rakshasa
+|species          = Rakshasa
+|beastspeak       = All 
+|vendor           = yes
+|skilltrainer     = [[Surveying]], [[Mining]]
+}}
+{{Quote|source=[[Dachak the Digger]]|
+Well, I like to dig, so I used to sell vegetables and mushrooms. But then I started digging metal for the armorsmiths in town. And then the town died, so I started growing vegetables again.
+}}
+[[Dachak the Digger]] is a rakshasa living in the City of Povus. He enjoys digging.
+
+== Location ==
+; [[Povus]]
+: [[Dachak the Digger]] can be found in Old Town, in the building immediately adjacent to the Town Status Board, when the Povus town level is at least ?.
+
+== Shopkeeper ==
+[[Dachak the Digger]] opens his shop, selling a variety of good including gardening and brewing supplies, when Povus is a minimum level of ?.
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+<!-- === Favor Rewards ===
+[[Category:Favor/Rewards]]
+[[Dachak the Digger]] rewards his friends with ?.
+{{Spoiler|Reward at {{Favor|Comfortable}}:|
+:{{Item|Lembas Brick}} x2
+}}
+{{Spoiler|Reward at {{Favor|Friends}}:|
+:{{Item|Flower Dainties}} (with random enchant).
+}} -->
+<!-- === Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Hike to a remote meditation pillar(8h)|
+{{Quote|
+Echur said, "The scenery was great, wasn't it? Even if the meditation was kind of a drag. Well, not every meditation session goes as planned, you know? But we just come back to it tomorrow and try it again."
+}}
+:65 favor with [[Echur]]
+:300 Meditation XP
+}} -->
+
+== Quests ==
+<dpl>
+category = Quests/Dachak the Digger
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mining]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Mining{{pipe}}Unlock Mining Levels 71-80
+ |skilllevel = 70
+ |cost= {{Item|Xogrite Chunk}} x20 + 0
+ |favor= Close Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Surveying]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Surveying{{pipe}}Unlock Surveying Levels 71-80
+ |skilllevel = 70
+ |cost= {{Item|Xogrite Chunk}} x20 + 0
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe= Povus Astounding Mining Survey Map
+ |skilllevel= 70
+ |cost= {{Item|Xogrite Chunk}} x6 + 0
+ |favor= Comfortable
+}}
+{{NPC training row
+ |recipe= Povus Superb Mining Survey Map
+ |skilllevel= 75
+ |cost= {{Item|Xogrite Chunk}} x7 + 0
+ |favor= Best Friends
+}}
+{{NPC training row
+ |recipe= Povus Marvelous Mining Survey Map
+ |skilllevel= 80
+ |cost= {{Item|Xogrite Chunk}} x7 + 0
+ |favor= Like Family
+}}
+|}
+
+== Services == 
+=== Currency Exchange ===
+Dachak will purchase {{Item|Xogrite Chunk}}s for 150 councils per chunk.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item| Shoveler's Boots}} (Lv 80)
+|RiShin Family = {{Item| Shoveler's Boots}} (Lv 85)
+}}
+== Conversations ==
+{{Quote|source = [[Dachak the Digger]]|
+:Augh! Don't sneak up on me like that! There's orcs!
+;:Um, sorry. Orc problems?
+:Swamp orcs. Soldiers without an army. Sometimes they get organized enough to raid town. Though... admittedly not as much anymore. There's not much town left.
+;:Can I ask you some questions?
+:I guess so. What are your questions?
+;: What do you do here?
+
+:: Well, I like to dig, so I used to sell vegetables and mushrooms. But then I started digging metal for the armorsmiths in town. And then the town died, so I started growing vegetables again.
+
+;: Is there somewhere I can rest for the night?
+
+:: No, no, no! Get out before nightfall, that's what I tell people. The nights here are too dangerous for sleeping! The inn is closed forever. The tavern's been closed a while, too.
+
+;:: What happens at night?
+
+:: It seems like every night some sort of mosnter shows up! Whether it's ratkin squatters or just hoards of undead coming in with the fog, it's always something. We used to have a town guard, and trap masters to keep everyone safe at night. Now it's every rakshasa for himself!
+
+;: Isn't Povus famous for its smithing?
+
+:: It was, yes. But I think that time has gone.
+
+;: Where is everybody?
+
+:: Well...
+:: Dachak rubs his ear nervously.
+:: Well, there was an environmental incident. And some orcs were unhappy with us and attacked while we slept. Killed about a third of our population that first night. After that, most everyone who could leave has left.
+
+;:: What sort of 'incident?'
+
+::: It's not my story to tell. It's not my fault, either! It's not! I knew it was a bad idea!
+
+;:: I didn't mean to upset you. Let's change the subject...
+
+;:: Well, at least tell me if there's still danger from this... incident?
+
+:::You could say there's still danger, yes. That's why you should stay here. I know you're here looking for adventure and fortune, but the 'adventures' here are deadly and the fortune's long gone.
+
+;: How many people used to live here?
+
+:: When, three years ago? We were growing as fast as we could back then. That was our peak! There were hundreds here, both in town and camping outside, waiting for their home to be made. We were growing from an outpost into a real town. And given the environment, we were pretty damned proud.
+
+;: Can you tell me about the town layout?
+
+:: Town layout? Well, the town's broken up into walled areas. You're in Old Town, which includes this area and the one immediately south. Wrapping around Old Town is the Sprawl district. At least that's what we ended up calling it. East of the Sprawl is New Town. And New Town is surrounded by the Annex. Most of the Annex was never finished, but the bit direction south of New Town used to have some residents.
+}}
+{{Quote|source = [[Dachak the Digger]]|
+I knew Fangy. Fangy Lim? That was his nickname. Because of the fang. He was our mayor for almost twenty years. I liked him. I'm glad he isn't here to see Povus now.}}
+{{Quote|source = [[Dachak the Digger]]|
+Mining's impossible these days, what with all the ratkin popping out of the ground. And don't even think about mining at night! Or chopping trees, for that matter.}}
+{{Quote|source = [[Dachak the Digger]]|
+Back when I used to mine, I'd see one or two ratkin a day. They'd hear the vibration of my pick and come up to see what I was doing. but now there's so many! And they just attack on sight! And at night, there's even more of 'em!}}
+{{Quote|source = [[Dachak the Digger]]|
+I grew up here, back when Povus was little more than a fortified campground. I got to see the town's rise and fall.}}
+
+[[Category:NPCs]]

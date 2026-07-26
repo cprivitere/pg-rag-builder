@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Lakrea told you to make your own cheese. She suggested avoiding the fancier cheese recipes that require aging.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|You need a hobby. Why not cheese making? It's delicious and might even make you some money. Of course, the fanciest kinds have to be aged in a cave for a long time, but you should start with one of the easy cheeses that don't take so long.}}
+
+===Requirements===
+* Make Cheese
+* Talk to Lakrea
+
+Butter and sour cream do not count as a cheese.
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: Cheesemaking|
+{{Quote|So, have you caught Cheese Fever yet? Me too! I'm glad you like the hobby.}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

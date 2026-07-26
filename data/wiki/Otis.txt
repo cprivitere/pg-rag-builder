@@ -1,0 +1,64 @@
+__NOTOC__
+{{NPC infobox
+|title            = Otis
+|image            = [[File:Otis (npc).png|300px]] 
+|caption          = Is he angry? Hard to say
+|zone             = Red Wing Casino
+|location         = North wing, near Kib, room <br>across from the meditation pillar
+|anatomy = Giant
+|species = Ogre
+|beastspeak       = Yes
+|beastlist = All
+|vendor           = Yes
+|storage = Yes
+
+}}
+{{Quote|
+YOU STEAL YOU DIE!  BIPED OUTREACH PROGRAM!
+}}
+[[Otis]] is a vendor in a side room of the arena area within the Red Wing Casino. 
+== Location ==
+; [[Red Wing Casino]] 
+: [[Otis]] is a room on the northside of the Vendor area, next to [[Kib the Unkillable]].
+== Shopkeeper ==
+[[Otis]] sells First Aid Kits and Armor Patches.
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Otis]] offers storage at {{favor|Comfortable}}
+== Quests ==
+<dpl>
+category = Quests/Otis
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Otis
+|favorrestriction =Comfortable
+|itemrestriction =Anything
+|neutral =0
+|comfortable =8
+|friends =16
+|closefriends =24
+|bestfriends =32
+|likefamily =40
+|soulmates =48
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Otis's Gift Club}} (Lv 50)
+|RiShin Family = {{Item|Otis's Gift Club}} (Lv 50)
+}}
+== Conversations ==
+
+[[Category: NPCs]]

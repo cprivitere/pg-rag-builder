@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Bendith in the Fae Realm said, "My... studies... require icebreeze moth wings. They are one of the only insects immune to cold, and so they are quite common back home. I'm sure plenty have flown through the portal to this land; look for areas where the Winter Court has taken control."
+
+===Prerequisites===
+To start this quest, talk to '''[[Bendith the Banished]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+My... studies... require icebreeze moth wings. They are one of the only insects immune to cold, and so they are quite common back home. I'm sure plenty have flown through the portal to this land; look for areas where the Winter Court has taken control.
+
+===Requirements===
+* Obtain Icebreeze Moth Wings x7
+* Talk to Bendith
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Excellent. These are quite valuable for alchemy.
+
+(Psst, don't worry, I'll get that curse off of you soon!)}}
+* 150 {{Favor|favor}}
+* {{Item|Winter Court Battle-Gauntlets}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Bendith the Banished]]

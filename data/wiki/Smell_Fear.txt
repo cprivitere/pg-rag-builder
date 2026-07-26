@@ -1,0 +1,154 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Smell Fear
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 14
+| power cost = 17
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 28 Crushing + 28 if target is Off-Guard
+| special = Rage -100
+}}
+|-
+|
+{{Ability infobox
+| name = Smell Fear 2
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 27
+| power cost = 23
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 57 Crushing + 57 if target is Off-Guard
+| special = Rage -170
+}}
+|-
+|
+{{Ability infobox
+| name = Smell Fear 3
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 41
+| power cost = 29
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 98 Crushing + 98 if target is Off-Guard
+| special = Rage -260
+}}
+|-
+|
+{{Ability infobox
+| name = Smell Fear 4
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 51
+| power cost = 33
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 149 Crushing + 149 if target is Off-Guard
+| special = Rage -400
+}}
+|-
+|
+{{Ability infobox
+| name = Smell Fear 5
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 63
+| power cost = 38
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 211 Crushing + 211 if target is Off-Guard
+| special = Rage -500
+}}
+|-
+|
+{{Ability infobox
+| name = Smell Fear 6
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 75
+| power cost = 43
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 282 Crushing + 282 if target is Off-Guard
+| special = Rage -600
+}}
+|-
+|
+{{Ability infobox
+| name = Smell Fear 7
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 87
+| power cost = 50
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 358 Crushing + 358 if target is Off-Guard
+| special = Rage -700
+}}
+|-
+|
+{{Ability infobox
+| name = Smell Fear 8
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 99
+| power cost = 56
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 437 Crushing + 437 if target is Off-Guard
+| special = Rage -800
+}}
+|-
+|
+{{Ability infobox
+| name = Smell Fear 9
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 111
+| power cost = 62
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 528 Crushing + 528 if target is Off-Guard
+| special = Rage -900
+}}
+|-
+|
+{{Ability infobox
+| name = Smell Fear 10
+| description = Launch into a vicious attack that sows seeds of doubt in the target's mind.
+| level = 123
+| power cost = 69
+| reuse time = 8
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|SmellFear}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 620 Crushing + 620 if target is Off-Guard
+| special = Rage -1000
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

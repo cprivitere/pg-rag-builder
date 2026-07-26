@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> It takes a brave adventurer to even sip from a Cauldron of Vile Thoughts. And you're clearly brave! But the heartiest adventurers can GUZZLE from the Cauldron, yielding more dramatic results. Are you Guzzle-Level Brave?
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> It takes a brave adventurer to even sip from a Cauldron of Vile Thoughts. And you're clearly brave! But the heartiest adventurers can GUZZLE from the Cauldron, yielding more dramatic results. Are you Guzzle-Level Brave?
+
+===Requirements===
+* Guzzle from a Cauldron of Vile Thoughts x3
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Wow! Good work! Okay, enough drinking things.}}
+* 250 councils
+* {{Item|Auk Gur-Horta}} x3
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

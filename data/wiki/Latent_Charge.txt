@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Latent Charge
+| description = Hit an enemy with your charged weapon. Moments later, they feel the shock.
+| level = 13
+| power cost = 30
+| reuse time = 10
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|LatentCharge}}{{KWAB|HammerAttack}}{{KWAB|HammerNonBasic}}
+| damage = 35 Crushing initially and 29 Electricity 1 time over 5 seconds
+| special = Note: the electricity damage is dispersed harmlessly if if target is in water when the latent charge ends.
+}}
+|-
+|
+{{Ability infobox
+| name = Latent Charge 2
+| description = Hit an enemy with your charged weapon. Moments later, they feel the shock.
+| level = 26
+| power cost = 38
+| reuse time = 10
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|LatentCharge}}{{KWAB|HammerAttack}}{{KWAB|HammerNonBasic}}
+| damage = 72 Crushing initially and 61 Electricity 1 time over 5 seconds
+| special = Note: the electricity damage is dispersed harmlessly if if target is in water when the latent charge ends.
+}}
+|-
+|
+{{Ability infobox
+| name = Latent Charge 3
+| description = Hit an enemy with your charged weapon. Moments later, they feel the shock.
+| level = 39
+| power cost = 47
+| reuse time = 10
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|LatentCharge}}{{KWAB|HammerAttack}}{{KWAB|HammerNonBasic}}
+| damage = 123 Crushing initially and 104 Electricity 1 time over 5 seconds
+| special = Note: the electricity damage is dispersed harmlessly if if target is in water when the latent charge ends.
+}}
+|-
+|
+{{Ability infobox
+| name = Latent Charge 4
+| description = Hit an enemy with your charged weapon. Moments later, they feel the shock.
+| level = 52
+| power cost = 54
+| reuse time = 10
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|LatentCharge}}{{KWAB|HammerAttack}}{{KWAB|HammerNonBasic}}
+| damage = 214 Crushing initially and 181 Electricity 1 time over 5 seconds
+| special = Note: the electricity damage is dispersed harmlessly if if target is in water when the latent charge ends.
+}}
+|-
+|
+{{Ability infobox
+| name = Latent Charge 5
+| description = Hit an enemy with your charged weapon. Moments later, they feel the shock.
+| level = 65
+| power cost = 61
+| reuse time = 10
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|LatentCharge}}{{KWAB|HammerAttack}}{{KWAB|HammerNonBasic}}
+| damage = 309 Crushing initially and 262 Electricity 1 time over 5 seconds
+| special = Note: the electricity damage is dispersed harmlessly if if target is in water when the latent charge ends.
+}}
+|-
+|
+{{Ability infobox
+| name = Latent Charge 6
+| description = Hit an enemy with your charged weapon. Moments later, they feel the shock.
+| level = 77
+| power cost = 68
+| reuse time = 10
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|LatentCharge}}{{KWAB|HammerAttack}}{{KWAB|HammerNonBasic}}
+| damage = 408 Crushing initially and 346 Electricity 1 time over 5 seconds
+| special = Note: the electricity damage is dispersed harmlessly if if target is in water when the latent charge ends.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

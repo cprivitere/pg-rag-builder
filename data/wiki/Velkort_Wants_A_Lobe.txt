@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Velkort in Serbule wants you to obtain a Brain Bug Lobe. He says they can occasionally be found from Brain Bugs.
+
+===Prerequisites===
+To start this quest, talk to '''[[Velkort]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|My research has hit a stumbling block. I need a specific item: the pulsing lobe of a Brain Bug. If only I had time to go out into the wilderness and search for them...}}
+
+===Requirements===
+* Obtain a {{Item|Brain Bug Lobe}}
+* Talk to Velkort
+
+===Rewards===
+{{Spoiler|Rewards for Velkort Wants A Lobe|
+{{Quote|Why, thank you! And still pulsing. It's perfect. Here. Have some fire dust, it will help you in your studies.}}
+
+* 150 {{Favor|favor}}
+* {{Item|Fire Dust}} x 3
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Velkort]]

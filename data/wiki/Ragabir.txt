@@ -1,0 +1,225 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ragabir
+|image            = [[File:Ragabir (npc).jpg|300px]]
+|caption          = Attempting to look friendly 
+|zone             = Red Wing Casino
+|location         = Side room of the arena area
+|anatomy = Goblin
+|species = Goblin
+|beastspeak       = Yes
+|beastlist        = All
+|skilltrainer     = [[Alchemy]]
+|vendor           = Yes
+|storage = Yes
+}}
+{{Quote| 
+no quote yet for Ragabir
+}}
+[[Ragabir]] is a goblin vendor in a side room of the arena area within the Red Wing Casino. He also teaches some Alchemy recipes. He requires 30 [[Goblinese]] to understand.
+== Location ==
+; [[Red Wing Casino]]
+: [[Ragabir]] is a room on the southside of the Arena area  
+== Shopkeeper ==
+[[Ragabir]] sells some Extreme armor, health and power potions. 
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+[[Ragabir]] rewards their friends with additional Storage.
+== Quests ==
+[[Ragabir]] offers some quests around the ... region.
+<dpl>
+category = Quests/Ragabir
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+[[Ragabir]] trains 25 recipes for Potions that Boost Damage for Specific Skills 
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Necromancy Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Druid Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Fire Magic Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Ice Magic Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Mentalism Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Psychology Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Priest Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Sword Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Knife Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Unarmed Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Staff Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Hammer Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Battle Chemistry Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Archery Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Bard Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Shield Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Animal Handling Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Werewolf Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Spider Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Soul Mates
+}}
+{{NPC training row
+ |recipe=Pig Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Soul Mates
+}}
+{{NPC training row
+ |recipe=Deer Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Soul Mates
+}}
+{{NPC training row
+ |recipe=Cow Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Soul Mates
+}}
+{{NPC training row
+ |recipe=Giant Bat Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Soul Mates
+}}
+{{NPC training row
+ |recipe=Rabbit Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Soul Mates
+}}
+{{NPC training row
+ |recipe=Warden Boost Potion 20%
+ |skilllevel=40
+ |cost=3133
+ |favor=Soul Mates
+}}
+|}
+
+== Services == 
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Ragabir
+|favorrestriction =Comfortable
+|itemrestriction =Potions and Alchemy Ingredients
+|neutral =0
+|comfortable =10
+|friends =20
+|closefriends =30
+|bestfriends =40
+|likefamily =50
+|soulmates =60
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Recuperative Honey Potion}} x5
+|RiShin Family ={{Item|Healing Eternal Potion}} x5
+}}
+== Conversations ==
+
+[[Category:NPCs]]

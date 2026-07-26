@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+[[Floxie]] in the [[Fae Realm]] said, "I've found a way to take my mind off my fear: cooking! I've been experimenting with vegetarian food from the nearby mortal realm, and they have something called a [[lemon]] which is VERY sour, and it's given me lots of dessert ideas. It's probably considered poisonous to mortals due to their simplistic digestive systems, but I can eat lemons just fine!
+
+I'm growing some lemon trees now but it seems like it might take years before they yield fruit...? That's super weird. I think I might hate mortal trees. Anyway, long story short, I really need some lemons!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Floxie]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Comfortable}} favor. (Requires 25 [[Fae (Race_Skill)]] as a Fae)
+
+===Preface===
+I've found a way to take my mind off my fear: [[cooking]]! I've been experimenting with vegetarian food from the nearby mortal realm, and they have something called a lemon which is VERY sour, and it's given me lots of dessert ideas. It's probably considered poisonous to mortals due to their simplistic digestive systems, but I can eat lemons just fine!
+
+I'm growing some lemon trees now but it seems like it might take years before they yield fruit...? That's super weird. I think I might hate mortal trees. Anyway, long story short, I really need some lemons!
+
+===Requirements===
+* Obtain [[Lemon]] x5
+* Talk to Floxie
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Oh these are perfect! Give them to me! I'm going to make so many sour things!
+
+Here: this recipe isn't too sour, so your mortal frame should be able to survive it.}}
+* 100 {{Favor|favor}}
+* Recipe: Lemon Puffs
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Floxie]]

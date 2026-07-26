@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+[[Backfat]] in the [[Fae Realm]] said, "A Ri-Shin tree has to reflect its people. Hah, I know: wouldn't butterflies look great?! Representational, kinda. And also the fairies love 'em. But there's a catch: they have to be alive. Dead butterflies would upset a lot of the fae here.
+
+Crimsonfelt butterflies would look nicest, but they eat cinders out of the air, and there's no way I'm feeding 'em cinders every day. How about some nice pretty rose-mourning butterflies? They're a little smaller, but they can survive on sugar water.
+
+Go catch a whole bunch of 'em! [[Rose-Mourning Butterfly Net|Here's a net]]."
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Backfat]]''' in '''[[Fae Realm]]'''.
+
+===Preface===
+A Ri-Shin tree has to reflect its people. Hah, I know: wouldn't butterflies look great?! Representational, kinda. And also the fairies love 'em. But there's a catch: they have to be alive. Dead butterflies would upset a lot of the fae here.
+
+Crimsonfelt butterflies would look nicest, but they eat cinders out of the air, and there's no way I'm feeding 'em cinders every day. How about some nice pretty rose-mourning butterflies? They're a little smaller, but they can survive on sugar water.
+
+Go catch a whole bunch of 'em! Here's a net.
+
+===Requirements===
+* Obtain {{Item|Stunned Rose-Mourning Butterfly}} x20
+* Talk to [[Backfat]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|These are nice ones. Did you explain to them what's happening? ... Oh, you don't speak Fae Insect at all? Huh. Well, don't worry about it. I'll get 'em situated.}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Backfat]][[Category:Quests/Ri-Shin Quests]]

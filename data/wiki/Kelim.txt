@@ -1,0 +1,122 @@
+__NOTOC__
+{{NPC infobox
+|title            = Kelim
+|image            = [[File:Kelim.png|300px]]
+|caption          = Checking on some plants.
+|zone             = Ilmari
+|town = Amulna
+|location         = The garden.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Gardening]]
+|vendor           = Yes
+}}
+{{Quote|
+You know, I don't even much like the spicy peppers. Too spicy. Not flavorful enough. But I grow 'em anyways. Humans love 'em
+}}
+[[Kelim]] is a male [[Rakshasa]] living in the walled town of [[Amulna]] in the [[Ilmari]] Desert. He stands in a small garden plot in the corner of the city and sells gardening supplies, as well as providing training for gardening 51-60 and 61-70.
+Kelim purchased a caravan of dirt to support his pepper growing operation. He expects to be able to pay off his debt in ten to fifteen years.
+== Location ==
+; [[Ilmari]]
+: Found in the central market of the town of [[Amulna]]. 
+== Shopkeeper ==
+{{Vendor items sold}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+== Quests ==
+===== Fall Harvest =====
+As part of a quest chain during the [[Fall Harvest]], [[Kelim]] can offer quests related to Tofu. Completing [[Harvest Event: Cranberries!]] unlocks a barter option.
+<dpl>
+category = Quests/Fall Harvest
+category = Quests/Kelim
+mode = unordered
+columns = 1
+</dpl>
+
+===== Tree Decoration: Ilmari=====
+During the Winter Holiday of Ri-Shin, [[Kelim]] offers quests to decorate a tree in [[Ilmari]].
+<dpl>
+category = Quests/Ri-Shin Quests
+category = Quests/Kelim
+mode = unordered
+columns = 1
+</dpl>
+
+==Training==
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Gardening]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Gardening{{pipe}}Unlock Gardening Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20000
+ |favor=Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Gardening{{pipe}}Unlock Gardening Skill Levels 61-70
+ |skilllevel = 60
+ |cost=43500
+ |favor=Best Friends
+}}
+{{NPC training row
+ | recipe = Basic Fertilizer (from Ground Flower Seeds)
+ | skilllevel = 15
+ | cost =  900
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Basic Fertilizer (from Rotten Meat)
+ |skilllevel= 40
+ |cost=3133
+ |favor=Best Friends
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Alchemy]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Rotten Meat
+ |skilllevel= 13
+ |cost=900
+ |favor=Close Friends
+}}
+|}
+
+== Services == 
+==== Bartering ==== 
+During the [[Fall Harvest]], [[Kelim]] offers barters. The quest [[Harvest Event: Cranberries!]] must be completed to unlock the barter options.
+{| class="wikitable"
+!Give
+!Receive 
+|-
+| rowspan = "1" | {{Item|Plump Raw Turkey}} x1 || {{Item|Harvest Spices}} x1
+|-
+| rowspan = "1" | {{Item|Raw Turkey}} x3 || {{Item|Harvest Spices}} x1
+
+|}
+
+== Events ==
+===== Fall Harvest =====
+Completing quests during the [[Fall Harvest]] allows access to [[Kelim]]'s barter options.
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends =  {{item|Desert Rose Seeds}} x2
+|RiShin Family = 2 items (not complete): {{Item|Faded Blue Book}}, {{Item|Telka's Teeth ("Molar" Variety)}}
+}}
+== Conversations ==
+
+[[Category:NPCs]]

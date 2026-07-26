@@ -1,0 +1,108 @@
+__NOTOC__
+{{Skill infobox
+|title            = Milling
+|image            = [[File:Grindstone.png|400px]]
+|caption          = Skill in properly operating a grainmill.
+|skilltype        = Trade Skill
+|maxlevel         = 50
+|req              =
+|skilltrainers    = Grindstones inside windmills.
+}}
+{{Quote|
+Milling'
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Milling]] is a skill that determines success and yield when milling items, such as barley into flour.
+=== In-Game Description ===
+Skill in properly operating a grainmill.
+
+=== Training {{msg:BASEPAGENAME}} ===
+* Learned automatically after milling an item at a Grainmill's Grindstone.
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Foraging]] - Foraging is needed to gather the seeds required for [[Milling]].
+* [[Gardening]] - Gardening is needed to grow the plants milled into various flours using [[Milling]].
+===== Related Skills: =====
+* [[Cooking]] - Flour produced with [[Milling]] can be used in various [[Cooking]] recipes.
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+==== Grainmill Yields ====
+Each item compatible with [[Milling]] has a fixed Difficulty Level and XP gain for a successful mill. The average yield (how many milled outputs are received for an input) of an item is variable and improves as [[Milling]] levels are raised. 
+'''{{Item|Flax Seeds}}''' - Difficulty Level 1, 25 Milling XP per success.
+* Milled into {{Item|Ground Flaxseed}}.
+* x3.00 yield at level 40.
+'''{{Item|Barley}}''' - Difficulty Level 5, 50 Milling XP per success.
+* Milled into {{Item|Barley Flour}}.
+* x1.00 yield at Milling level 0.
+'''{{Item|Sugarcane}}''' - Difficulty Level 5, 50 Milling XP per success.
+* Milled into {{Item|Sugar}}.
+* x7.10 yield at Milling level 36.
+* x7.50 yield at Milling level 40.
+'''[[:Category:Items/Seed|Flower Seeds]]''' - Difficulty Level 10, 75 Milling XP per success.
+* Milled into {{Item|Ground Flower Seeds}}.
+* x0.50 yield at Milling level 0.
+* x2.20 yield at Milling level 17.
+* x3.00 yield at Milling level 25.
+* x3.00 yield at Milling level 36.
+'''{{Item|Tundra Rye}}''' - Difficulty Level 15, 100 Milling XP per success.
+* Milled into {{Item|Rye Flour}}.
+* x3.00 yield at Milling level 40.
+* x3.00 yield at Milling level 45.
+'''{{Item|Almonds}}''' - Difficulty Level 18, 110 Milling XP per success.
+* Milled into {{Item|Almond Flour}}.
+* x3.00 yield at Milling level 40.
+* x3.00 yield at Milling level 45.
+'''{{Item|Oat Groats}}''' - Difficulty Level 25, 150 Milling XP per success.
+* Milled into {{Item|Oat Flour}}.
+* x0.25 yield at Milling level 0.
+* x0.70 yield at Milling level 17.
+* x1.50 yield at Milling level 25.
+* x3.00 yield at Milling level 36.
+* x3.00 yield at Milling level 45.
+'''{{Item|Corn}}''' - Difficulty Level 30, 250 Milling XP per success.
+* Milled into {{Item|Cornmeal}}.
+* x0.00 yield until ~Milling level 22.
+* x2.10 yield at Milling level 36.
+* x2.50 yield at Milling level 40.
+'''{{Item|Orcish Wheat}}''' - Difficulty Level 35, 500 Milling XP per success.
+* Milled into {{Item|Orcish Flour}}.
+* x0.00 yield until ~Milling level 22.
+* x2.00 yield at Milling level 40.
+* x2.50 yield at Milling level 45.
+'''{{Item|Cocoa Beans}}''' - Difficulty Level 45, 750 Milling XP per success.
+* Milled into {{Item|Primitive Cocoa Powder}}.
+* x0.25 yield at Milling level 36.
+* x0.50 yield at Milling level 40.
+
+
+'''{{Item|Chia Seeds}}''' - Difficulty Level ?, ? Milling XP per success.
+* Milled into {{Item|Ground Chia Seeds}}.
+'''{{Item|Moonspelt}}''' - Difficulty Level ?, ? Milling XP per success.
+* Milled into {{Item|Moonspelt Flour}}.
+
+==== Grindstones ====
+Grindstones are intractable objects inside Grainmills which are used in the milling process.
+* [[Serbule]] - Inside the base of a windmill at Serbule Keep.
+* [[Vidaria]] - Inside the base of a windmill on the southwestern farms.
+==== Notes on Output ====
+* A single stack of [[Barley]] can take a character from Level 0 to Level 17 and may result in about 220 [[Barley Flour]].
+==== List of Millable Items ====
+<dpl>
+  category   = Items/Millable
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}}
+  allowcachedresults=true
+</dpl>
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== Milling Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Milling|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+== Trivia ==
+* [[Milling]] was introduced in September 2025.
+
+[[Category:Skills]]

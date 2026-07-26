@@ -1,0 +1,16 @@
+==Update Notes: February 2, 2026==
+This is a small bug-fix update:
+:- Fix bug causing monsters to camp player corpses
+:- Fix bug allowing players to loot corpses they shouldn't (!)
+:- Further performance improvements to client assets, including a new approach to horse texture management:
+::- Convert horse texture algorithm from the CPU to the GPU. This is obviously much quicker, and lets us compress the textures so they're much smaller now too - win/win!
+:- Fix bug causing people to sometimes play instruments while they're sheathed
+:- Party Members now get their own nameplate color! Defaults to green. To change it, go to Settings > GUI > Colors > Nameplates
+:- Update default positions for Quest Tracker, XP Tracker, and Party Frames
+:- Fix bug preventing buffs/debuffs with a number counter from being hovered over
+:- raise demo player level cap on Cartography and Gourmand from 15 to 25 (so they can't accidentally lose irretrievable XP due to the cap)
+:- more server performance optimizations
+:- added a shovel you can find on the beach of the newbie island
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

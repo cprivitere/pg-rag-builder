@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Yogzi in Sun Vale wants a bunch of Good Metal Slabs.
+
+===Prerequisites===
+To start this quest, talk to '''[[Yogzi]]''' in '''[[Sun Vale]]'''. The quest is available at {{Favor|Friends}} favor.
+
+To begin this quest you must have level 1 [[Toolcrafting]].
+
+===Preface===
+{{Quote|I need to make fancy tools, but it's hard to find good metal on this island. Can you head to the mainland and survey some good metal slabs for me?}}
+
+===Requirements===
+* Obtain {{Item|Good Metal Slab}}s x5
+* Talk to Yogzi
+
+===Rewards===
+{{Spoiler|Rewards for Slabs for Yogzi|
+{{Quote|Perfect, perfect. This is good! Hmm, let me see what I can give you in return. Oh, I have a bunch of useless firewood. Here. Take it! Oh, sure, I can teach you a few toolcrafting tricks too, if you like.}}
+
+* 300 {{Favor|favor}}
+* {{Item|Oak Wood}} x 30
+* 1500 XP in [[Toolcrafting]]
+}}
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Yogzi]]

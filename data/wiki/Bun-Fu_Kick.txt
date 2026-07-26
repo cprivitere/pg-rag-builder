@@ -1,0 +1,87 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Kick
+| description = Leap into the air and kick the enemy in a vital organ. A moment later, the enemy notices the impact.
+| level = 3
+| power cost = 15
+| reuse time = 12
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|BunFuKick}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}{{KWAB|Kick}}
+| damage = 18 Crushing initially and 9 Trauma 1 time over 8 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Kick 2
+| description = Leap into the air and kick the enemy in a vital organ. A moment later, the enemy notices the impact.
+| level = 13
+| power cost = 20
+| reuse time = 12
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|BunFuKick}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}{{KWAB|Kick}}
+| damage = 32 Crushing initially and 16 Trauma 1 time over 8 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Kick 3
+| description = Leap into the air and kick the enemy in a vital organ. A moment later, the enemy notices the impact.
+| level = 28
+| power cost = 28
+| reuse time = 12
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|BunFuKick}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}{{KWAB|Kick}}
+| damage = 66 Crushing initially and 33 Trauma 1 time over 8 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Kick 4
+| description = Leap into the air and kick the enemy in a vital organ. A moment later, the enemy notices the impact.
+| level = 43
+| power cost = 36
+| reuse time = 12
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|BunFuKick}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}{{KWAB|Kick}}
+| damage = 124 Crushing initially and 62 Trauma 1 time over 8 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Kick 5
+| description = Leap into the air and kick the enemy in a vital organ. A moment later, the enemy notices the impact.
+| level = 58
+| power cost = 42
+| reuse time = 12
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|BunFuKick}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}{{KWAB|Kick}}
+| damage = 217 Crushing initially and 109 Trauma 1 time over 8 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Bun-Fu Kick 6
+| description = Leap into the air and kick the enemy in a vital organ. A moment later, the enemy notices the impact.
+| level = 73
+| power cost = 50
+| reuse time = 12
+| range = 5 meters
+| skill = Rabbit
+| keywords = {{KWAB|Attack}}{{KWAB|Rabbit}}{{KWAB|BunFuKick}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|NiceAttack}}{{KWAB|Kick}}
+| damage = 316 Crushing initially and 158 Trauma 1 time over 8 seconds
+}}
+|}
+<noinclude>
+==== Trivia ====
+During [[Game updates/2017-06-15]], Bun-Fu Kick was renamed to Bun-Fu Blitz. Three years later, that change was intentionally reversed in [[Game updates/2020-11-06]].
+
+
+[[Category:Abilities]]</noinclude>

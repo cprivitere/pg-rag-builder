@@ -1,0 +1,164 @@
+__NOTOC__
+==Update Failed: Punting to Monday, June 22==
+We have more knowledge of the problem, but we have run out of time to make a successful build for this weekend. This weekend's MEGA raffles have been cancelled and next week's Writ Challenge has been bumped by one day.
+<!--
+==Update Notes: June 19, 2026==
+This is a big one, with new content, new game systems, and new rendering changes. We're calling it "the June 18 Patch Update". As always, we don't go into too much detail about new content because we want to let you discover it. But we'll point you in the right directions:
+
+===New Dungeon: Statehelm Crypt===
+The Statehelm Crypt has been redone with new artwork, and the previously perma-locked door to the group-dungeon area can now be opened! (You have to pull a lever at the end of the solo part of the Crypt to open the group door. But the solo part's pretty short.) This is a new level 100 experience for a group of 6 players. It's intended to be "tough but fair". We'll see how you feel about it and make changes if necessary. 
+
+'''Important''': because this dungeon was completely redesigned, when you log in you may be stuck in a wall or other geometry. Don't panic; first try the command `/stuck` in chat to fix yourself. If that doesn't work, send a "Stuck" bug report. This will teleport you back to the newbie island so you can continue playing.
+
+===Revised Dungeon: Statehelm Sewer===
+The Statehelm Sewer dungeon isn't new, but it has had a lot of issues fixed. This is a solo-oriented level 100 dungeon, a bit on the hard side, but not impossible to solo. There are also several group bosses in this dungeon now. They are on the weaker side (as far as bosses go) and are intended for a group of 3 or 4-ish players. The hope is that players can create pick-up groups in the sewer to tackle these challenges.
+
+'''Important:''' as part of completing the Statehelm Sewer, the dungeon had to be "moved" internally. If you logged out in the sewer, you will login to empty space and fall to your death. Don't worry, your death will be painless and if you are in hardcore mode, you will not be penalized. However, when you respawn, you will find yourself in the Statehelm Crypt instead. Do not panic; simply leave the crypt and return to the sewers to continue your sewer adventures.
+
+===New Statehelm City Content===
+There is more to do and more to kill in Statehelm at night. There are dozens of new favor-quests as well!
+
+===The Secret of Luminence===
+Aralorn in Gazluk now offers a new questline.
+
+===Shieldwright Skill===
+you can learn the new [[Shieldwright]] skill from a new NPC named Nolan Coldsteel in Statehelm. It requires level 50 in Blacksmithing, Carpentry, and Sigil Scripting. The skill begins at level 50. The standard shield-crafting recipes focus on making Shield skill users better tanks. But there are also a bunch of other shield recipes intended for different purposes.
+
+(There's actually a second new skill in this update, [[Magical Roasting]], but it's pretty niche so we'll just let you discover it and the associated content.)
+
+===New Weekly Event Buffs===
+Visit Barbran in Serbule to take on a new random quest each week. Completing this quest will give you either one Live-Event Credit or a random buff that lasts 6 days.
+
+===New Game System: Mastery Sparks===
+Mastery Sparks are a new way to improve your gear. You can find Mastery Sparks in many ways. The most obvious one is via random loot. Different Mastery Sparks fit into different types of items (e.g. some sparks only go into Organic Armor, or Cloth Hats, or Wooden Clubs, etc.) These are relatively rare-drop items that can be found on most monsters above level 50. Different types of creatures tend to drop the same kind of Spark. (For example, deer tend to drop Mastery Sparks that go into wands, whereas tigers tend to drop sparks for blades.) All boss monsters over level 50 can drop more generic sparks, too.
+
+=====Spark Buffs=====
+Once you find a Mastery Spark, you can take it to the armor shop in Statehelm. There's a workbench in the back where you can imbue your equipment with the Mastery Spark. Then you can use that same workbench to "spend" your Mastery Spark on a small permanent item buff. 
+
+Spending a Spark costs you 100 Combat Wisdom. You'll choose a category, such as Knife Damage, and then randomly receive a buff such as "+1 Knife Damage", "+1% Slashing Damage", "+3% Knife Base Damage", etc. These are modest buffs but they stack up pretty quickly when you have a bunch of Sparks.
+
+Different items have different choices available, but in general, Main-Hand weapons, Off-Hand weapons, Rings and Necklaces have offensive bonuses, whereas armor-slot equipment is more defensive. But there are exceptions. Right now the options are somewhat limited; we expect to add more esoteric build-specific buffs over time.
+
+In addition to loot Sparks, you can also find Mastery Sparks as rewards at the end of dungeons. (Well, currently just one dungeon.) These sparks behave the same, but they're capped differently: an item can have up to 40 loot-drop Mastery Sparks plus up to 10 dungeon-boss Mastery Sparks.
+
+And if the item is Mastercrafted or Foretold of in Prophecy, you can use special recipes to add up to 60 more Mastery Sparks!
+
+=====Mastercrafting/Foretold Sparks=====
+In late beta we added a system called "Mastercrafting Recipes" which let you add damage to Prophecied or Mastercrafted weapons. That implementation ended up being way too powerful, so those recipes were disabled until we could revise things. Which happens today! Those recipes have been repurposed to add Mastery Sparks to items instead.
+
+Here's the gist: if you have a Prophecied or Mastercrafted weapon or piece of armor, you'll want to find the recipe "Energize Mastercrafted or Prophecied X", where X is the type of thing it is (e.g. Hammer, Leather Armor, etc.). These recipes can be found as extremely-high-level loot scrolls.
+
+Next, to use the recipes, you'll need an exotic crafting component (such as Weapons-Grade Sandpaper and Jeweler's Maintenance Kits). To craft those, you'll need to find their toolcrafting recipes, or buy them from other players. (Tip: there are two reward bundles in the Elven Judgment experience that helps with this part: one gives all the Toolcrafting recipes for weapon sparks and the other for armor sparks.)
+
+You can use these recipes on a Mastercrafted/Foretold item up to 60 times each. (Each use costs 1 crafting point, and Mastercrafted/Prophecied weapons have 160 crafting points, which is exactly enough for an Augment and 60 uses of this recipe.) These Sparks are tracked separately from Sparks obtained by loot items or dungeon rewards.
+
+As you can tell by all the different recipes needed, Mastercrafting is a high-level thing. But the loot-droppable Sparks can be used at much lower level. "Won't that be wasting your spark if you put it on low-level gear?" you ask. No, because you can transfer sparks!
+
+=====Spark Transfer=====
+When it's time to replace your item, you can siphon out the Sparks and put them into a different item. You do this from the same workstation used to spend sparks. There are a bunch of caveats (which you can read in-game), but to summarize: 
+- The original item is destroyed.
+- Only 80% (rounded up) of the Sparks survive the transfer; the rest are lost. 
+- The transfer can't cause the new item to overflow the Spark limits -- overflowing Sparks are lost.
+- It costs 1000 Combat Wisdom.
+- Both the old and new items must go in the same equipment slot (e.g. main-hand weapons, feet armor, rings)
+- Both "spent" and "unspent" Sparks are transferred, and they become unspent Sparks in the new item. You can then spend them however you like.
+
+=====Other things to know=====
+- There's another set of recipes, "Infuse Combat Wisdom into Prophesied X" which grant a Mastery Spark to an item, same as the Energize recipes do, but these only work on Prophesied items, not Mastercrafted one. In the beta system these recipes cost 1000 Combat Wisdom; they now cost 500 Combat Wisdom. (The benefit is that they don't require exotic crafting ingredients.)
+
+=====Goodbye to the Old System=====
+On Arisetsu server (the server that existed during beta), there are approximately 400 players with items that have the old Mastercrafting buffs on them. These items have been converted to the new system as best as possible. For each point of Universal Direct Damage on the item, it now has 1 Mastery Spark. But the item can't have more than 60  Mastery Sparks, so if you had more bonus damage than that, it's lost.
+
+Although we said at the time that we'd need to nerf these recipes, we know it's never fun to be nerfed. We're sorry. A silver lining: those items aren't even max-level anymore! You can use the Spark Transfer feature to move those Sparks to a new weapon.
+
+One weird caveat: the old recipes didn't <i>always</i> cost a crafting point -- it was a random chance. When your items were converted, we didn't bother trying to figure out how much crafting points your item should have; it's just been left alone. This means you may have 60 Mastery Sparks and still have leftover crafting points. That's fine; you can spend those points on other buffs as you see fit. (The Spark recipes have an internal limit of 60, so you can't go over that cap even if you have extra crafting points.)
+
+===Engine Changes===
+You may have noticed this update is huge! That's because you had to re-download everything. We changed how assets are streamed. This change should mean that scenes load noticeably faster if you have an old-school hard drive, or even a classic PCIe SSD. (It doesn't improve M.2 SSD very much, though.)
+
+In addition, this change lets us stream assets faster during gameplay, which should result in fewer FPS hiccups.
+
+There are many new settings related to loading-screen performance available in the Settings menu, for people who want to really fiddle with settings to get optimum performance.
+
+===Everything Else===
+There's so much more to cover! Some of these things are pretty major. Some are just bug fixes.
+
+: - Level 100+ equipment-crafting recipes now cost small amounts of Combat Wisdom to create. (Level 100 recipes cost 150 Combat Wisdom, or 225 for the Mastercrafted version.) This cost isn't intended to be huge -- it's just part of our effort to make Combat Wisdom a relevant currency.
+: - added all missing Prodigy altars for combat skills
+: - bugfix: the highest levels Premeditated Doom ability were the same as earlier levels
+: - Christina Fells now trains Saddlery level unlocks to 100
+: - added new loot-drop recipes for saddlery 100+
+: - added new loot-drop recipes for jewelrycrafting 100+
+: - added level cap unlocks up to level 100 Riding; see Sir Abbley in Statehelm
+: - Now wearing 3 pieces of Fae Military equipment gives you +100% Death Avoidance stat (Death Avoidance normally resets every 15 minutes)
+: - fixed modestly-exploitable effect timeouts of abilities Fire Shield, Brambleskin, Molten Veins, Toxic Flesh, Phoenix Strike
+: - fix: Molten Veins 7+ didn't do anything
+: - fix: Molten Veins levels 2+ deal a bit more reply damage (formula correction)
+: - display fix: "Animal Handling pets deal +65% damage when they critically hit": removed tooltip reference to animal handling pets' Rage Attacks, since they don't have those. All their attacks are non-Rage attacks. (UI change only)
+: - systemic change to flaming swords. Previously: "Sword Slash, Riposte, Windstrike, and Finishing Blow deal direct Fire damage. All Sword abilities apply Flaming Sword damage for 10 seconds." now: "Sword Slash, Riposte, Windstrike, Finishing Blow, Debilitating Blow and Heart Piercer deal direct Fire damage. All Sword abilities apply Flaming Sword damage for 10 seconds."
+: - Staff ability Redirect: reuse timer changed from 30s to 20s. (Some treasure effects modestly changed as a result.) The built-in detaunt is significantly more potent at most tiers
+: - Shield ability Rapid Recovery: Reuse time changed from 30s to 10s. In-combat casting time changed from 4s to 2s.
+: - Item Anti-Mind-Control Shield now grants +10% stun ignore chance, rather than taking away 10%
+: - More environmental refinements to Serbule area
+: - Heavier refinements to Ilmari Desert and the Desert Dream desert
+: - new training reward option when killing Kunax: trains all the armor-improving toolcrafting recipes in a bundle (similar to the already existing bundle of weapon-improving toolcrafting). Requires Toolcrafting 85+ in order to select this reward.
+: - add Korean font for translators to access
+: - sex-change machine in Statehelm can now be used (with some finagling)
+: - Fix item name: "Staff of Frigid Winds" has actually been a wand this whole time and is now called "Wand of Frigid Winds"
+: - When a training option has multiple requirements, they are all displayed in a hover tooltip and a small dot is displayed on the button to indicate that there's more than 1 requirement
+: - many high-level loot-drop equipment base-effects rebalanced. (Almost all of them upwards.)
+: - revised stats on crafted staves
+: - Lots of new UI windows are localizable: the Persona, Mount, Pets, Cosmetic Pets, & Redemptions windowsm Death Box, Inventory UI, and various other minor windows
+: - Sigil Scripting recipes were previous filed as Lore recipes; they are now filed under Sigil Scripting
+: - bugfix: yew wood was incorrectly tagged as spruce wood for certain abilities and recipes
+: - Finesse Targe: bugfix: now deals +11% Shield Damage instead of +11% Shield Base Damage
+: - gain bonus synergy levels in Cheesemaking by reaching Cow 85, Alchemy 75, Cooking 75, Gourmand 65, Fungoid Anatomy 49
+: - Decrease default sky quality for high-end quality levels. You must now manually select "Insane" for sky quality, no quality levels default to it any longer
+: - Decrease volumetric cloud "steps" for every quality level, and increase downsampling for lower quality levels. This should have a big impact on GPU performance in outdoor zones
+: - Fix some quests requiring a higher minimum-favor level than intended. Most notably, Aurest Missions by Alethina
+: - New camera setting: "Vertical Camera Offset". Find it in Settings > Controls > Advanced > Camera Settings
+: - Fix bug with holding in right-click while closing a window in Action Mode camera
+: - Increase range of Shield's Quick Bash to match other melee attacks (from 3m to 5m)
+: - Reduce Honey Oat Muffin's level from 90 to 75
+: - Statehelm Sewer: added missing lever to open a door to a spider area. (If you've found the switch to open the nearby closet area, but the closet area was weirdly empty, there's now a switch in there)
+: - trying to equip a broken item while within its repair range will now repair it before equipping it
+: - Mara Woodwright no longer teaches the Incredible Leather Roll recipe
+: - Thrusting Blade is no longer affected by Lamia Debuff
+: - Fancying the Frostbelches, pt 2 can no longer be abandoned, to remove a potential exploit with it
+: - Fix typos in recipe names "Empty Classic Wine Bottle" and "Empty Fancy Wine Bottle"
+: - Fae wing rings now have a visual!
+: - Fae and humans can now adjust their piercing arrangements. They can choose between both ears/wings, left only, and right only. Larsan in Serbule can change your piercing arrangement once you become Friends with him, for a small fee.
+: - NPCs can now sheathe their weapons
+: - Emissive armors can now be modified! Certain armors emit light, whose color and brightness can now be altered with certain recipes. To get started, find someone who would know a thing or two about glowiness.
+: - Add post-processing to the item preview window, so it can show glowing items
+: - Spirit Fox: Power Glyph: fixed bug that broke all treasure effects for this ability
+: - Spirit Fox: Power Glyph: previously you needed to select and use the Power Glyph to activate it. This is cumbersome in combat so we're trying a suggested fix: the Power Glyph is no longer selectable. Simply standing on the glyph for a moment will activate it. Once spawned, it waits 3 seconds before arming, to give the fox time to move away if desired.
+: - Spirit Fox: new treasure effect: (Head, Legs) "When touched, Power Glyph grants +30 Accuracy and +25% Universal Direct Damage to the recipient's next ability"
+: - Spirit Fox: changed treasure effect: (Chest, Ring) "Power Glyph restores +100 Power when touched" => "Power Glyph increases Max Power +100 for 60 seconds and restores +100 Power when touched"
+: - Fae Navy armor now has unique visuals and is dyeable
+: - Rita's Lucky Underpants are now actually underpants
+: - bug fix: auxiliary-combat skills such as First Aid and Armor Patching did not apply monster scaling to earned XP. They now scale in the same way that regular combat skills do (if the monster's level is higher than the skill's level, you earn reduced XP).
+: - added more purchasable Paragon level-up rewards for all combat skills
+: - Leon Dasterre now trains recipes for inscribed huge gems
+: - Meghan Olliver now trains the recipe for huge hematic opals
+: - Pitre Ferrence, the Husbandry trainer, was temporarily offering training of a few armor patching and first aid recipes; these are redundant now that Statehelm trainers exist so Pitre has stopped training them
+: - Farsight Flemmings now trains the recipes for Starforged Transfermium
+: - Rebeccah the Whisperer now teaches a recipe for a difficult toolcrafting item that can help you collect Hellblasted Sand
+: - Note for JSON parsers: the objects in advancementtables.json can now include Keywords arrays which depart from the format of the other keys in this file; some minor parsing adjustments may be necessary
+: - quest "Meet Me Under the Full Moon" no longer requires you to go back and talk to the human version of Jenny to complete the quest
+: - Spirit fox training is no longer offered by The Duke of Flapbule. It is instead offered by new NPC Smoke Tail
+: - added loading-screen time optimizations
+: - Statehelm: Steven Poplar has some barters to/from sun tokens
+: - Pitre Ferrence's Animal Husbandry hangout now actually requires Animal Husbandry
+: - "Combo: Forest Call" no longer causes the last attack to burst
+: - Bread baked in Serbule no longer spawns in bed
+: - Decrease volume of the armor-hitting sound effect
+: - New setting: Graphics > Advanced > Water > Shoreline - turns certain shoreline-specific effects on and off.
+::  - ATTENTION MAC USERS: if you are experiencing issues in Statehelm, try disabling this setting
+: - Fae now learn Ice Magic abilities up to level 100. At level 101+ they must begin researching them like non-fae
+: - new jewelry keywords: jewelry can be marked as Gaudy, Subtle, or Elegant. These keywords have no effect on the item itself, they're just descriptors that make certain recipes/effects/etc. work on certain jewelry
+: - Povus nightly event - monsters and rewards have a significant chance to drop Mnemosynes (a/k/a Bags o' Combat Wisdom)
+: - Temporarily lowered favor requirements to unlock Prodigy training: dropped from Like Family to Best Friends. (This change will be reverted when more favor quests are available for some of the NPCs)
+-->
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

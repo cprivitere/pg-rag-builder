@@ -1,0 +1,144 @@
+==Update Notes #2: January 28, 2026==
+This is a quick-fix update to today's 1.0 launch.
+
+===New Character Models===
+:- If you would like to revise your character's appearance: after logging in, use the command <b>/iwannaredo</b> in chat. The next time you log in you can change your appearance. This is a temporary command while people get situated. Use as often as needed. (But also note fixes to skin color below)
+:- Fix skin and hair color discrepancies between character creator and in-game
+:- NOTE: When you log in, your character will auto-update to the correct colors. Your first time viewing the choose-character screen will still show the old colors.
+:- Fix invisible clothing/bodyparts
+:- Fix certain clothing turning you into a white cube
+:- Better resizing of the character creator for widescreen monitors (more improvements in this regard to come later)
+
+===Statehelm===
+:- Fix capping error with gifting a stack of extremely-high-favor items to Statehelm NPCs
+:- fix issues with the day/night pathing of soldiers at the barracks
+:- Pinging the map in Statehelm now works correctly
+:- improve pathing for fickle fairy NPCs in Statehelm
+:- Sir Brooker and Sir Hughes no longer give +1 favor for seeing you destroy a training dummy. (But they still think it's cool.)
+:- move ominous floating sewer entrance to a new temporary location that's not in the middle of the street
+
+===Other===
+:- Riston now sells the Invisible Helm cosmetic for 5 LEC (if you want your hat to be invisible)
+:- For now, we've doubled the spawns of monsters and loot items on the newbie island
+
+We've heard some of your suggestions (and bug reports!) and are working on more improvements to come soon.
+
+==Update Notes: January 28, 2026==
+
+Welcome to the 1.0 version of Project: Gorgon! With this update we will be leaving Steam Early Access. We appreciate everyone's support along the way, it's been a long and winding road to get here, but we made it! The 1.0 update includes all-new character models, a new city, level 100 skill unlocks, and more. 
+
+Note for those not watching our wiki: there is no character wipe planned. Your characters are all still fine. For new players wanting a fresh start, we'll be opening a second server shard next week, so sit tight just a bit longer. (Or play a character on the existing server shard for a bit! But note that characters are not transferrable between server shards.)
+
+With the 1.0 update also come some gameplay changes, which we'll get into below.
+
+===Statehelm Arrives===
+The capitol city of Statehelm is finally accessible in-game. This sprawling map has:
+:- over 200 new quests
+:- training to level 100 AND BEYOND for all combat skills and most crafting skills
+:- over 750 unlockable storage spots
+:- new skills and game systems like [REDACTED-SPOILERS] for combat and [REDACTED-SPOILERS] for those who wish to make Statehelm their hub city
+
+Statehelm is by far the largest and most complex map we've ever made. This will be the hub for max-level players, as well as the jumping-off point for a bunch of new content that'll be coming in the future months. We're also still working hard to optimize the city, including improving loading times and framerate issues. 
+
+As you probably know by now, there's never really a "done" point when making an MMO: it grows as long as the game lives. So long live Statehelm!
+
+And stay safe at night.
+
+
+===Changes to Vendor Stalls===
+We've changed the price calculation for player-run vendor stalls in Serbule. Previously the cost was calculated based on how many days you'd rented as stall in the past month. Now it's calculated based on your rental history for the last 90 days. The cost-per-day increases nonlinearly after the first 30 days, so by the end of 90 days the price is exorbitant (> $100k a day).
+
+The intent of this change is to retain the "flea market" feel that's intended for Serbule: it's a place for intermediate players to open a stall for a few days and sell their stuff. With the old system, high-level players were able to keep their stall open year-round, leaving fewer and fewer spots for newbies to sell their wares.
+
+For the players that want a more permanent (or semi-permanent) stall, the new stalls in Statehelm are for you. Their price is based on your rentals for the past 30 days, at which point the price is steep ($13k-$22k/day depending on location) but fixed. These stalls have much higher level requirements (Retail Management 50-60) and are intended for experienced players.
+
+The casino is somewhere in the middle -- here they check price history for 45 days, making it probably impractical for a permanent stall, but perhaps as the economy changes that won't always be true.
+
+=====And end of an era=====
+We know that many long-term players have "permanent" stalls in Serbule and we're sorry for the inconvenience of this change. Don't be too discouraged, though: Statehelm is set up to support longer-term stalls, and we can add more stalls there as needed. Statehelm will be the high-level player hub, as well as the location of player housing (soon: housing not included in this update). Your old store is gone, but new vistas arise. If you build it, they will come.
+
+
+===Combat Wisdom Changes===
+The main way you earn Combat Wisdom is by defeating named boss monsters. (You can kill each up to once every three hours, and earn Combat Wisdom equal to their level.) That hasn't changed. In addition, you previously had a chance to earn 1 Combat Wisdom when you defeated an Elite monster. The chance was based on the monster's level, so a level 100 elite had a 100% chance of giving you 1 Combat Wisdom. At high level, this is very spammy, giving you a lousy 1 point after every kill. 
+
+Since we want to add more Combat Wisdom to the game anyway, we've revised this. Now, a non-named Elite monster has a 3% chance to give you Combat Wisdom equal to its level. This change gives more Combat Wisdom on average (300% more for level 100 monsters) but isn't as spammy.
+
+In addition:
+:- The base 3% chance can be temporarily enhanced via items
+:- Mnemosyne items (found rarely in loot) can be consumed to earn 1000 Combat Wisdom
+:- There are additional ways to earn Combat Wisdom, such as Crafting Epiphanies; see below
+
+
+===Crafting Epiphanies===
+As crafters become masters at their trade, they will sometimes have epiphanies that grant them Combat Wisdom and a powerful crafting buff. Here's how it works.
+
+There are new gems to find called Massive Crystals. There's a Massive version of every existing gem (e.g. Massive Topaz, Massive Serpentine, etc.). High-level recipes require these massive gems, but these can also be used in lower-level recipes if desired (after all, they're still valid Topazes or Serpentines or whatever, so they work in any recipe that uses those). 
+
+When you use one of these Massive Crystals in an item-creation recipe, there is a 2% base chance that you'll have an epiphany. When you have an epiphany, you earn Combat Wisdom equal to 5 x the crafted item level, plus a 15-minute buff. When you craft an item with this buff active, the item's Rarity will be rolled twice and the better result will be used. (For max-enchanted recipes, this means a second chance for a Mastercrafted item.)
+
+Epiphanies don't stack. You can't have another epiphany (and earn more Combat Wisdom) until the current epiphany buff expires.
+
+
+===Casino Portal Changes===
+The dynamic transit portal in the Red Wing Casino is finally dynamic. The destination varies between Rahu and Statehelm depending on the phase of the moon. The portal attendant in the Casino can teleport you to the opposite destination (Statehelm if the portal goes to Rahu, or vice versa) at a cost of 1000 councils, with a limit of once per 24 hours.
+
+We realize that the portal to Rahu has been "non-dynamic" for a long time during beta, so players treated it as a permanent portal. We're sorry for the shock to those players! But we do think this design is for the best as it helps to create the sense of distance we wanted to convey.
+
+
+===Touch-Ups to Cartography Levels===
+We've recalculated the percent-completable amount of each map based on further data analysis. The goal was to fix errors and reduce the amount of "wall licking" necessary to get 100% on the maps. Since some maps are now worth more/less XP than before, and the XP table has changed, your level in Cartography may have gone up or down a bit.
+
+Thank you to those that helped with this project, especially Chompy Nibblers and Fennal for their invaluable input. 
+
+
+===New Synergy Levels===
+Gain a new synergy level in each of these skills by reaching a level in other skills:
+:- Armosmithing: Bladesmithing 90, REDACTED 80, Jewelry Crafting 80, Armor Augmentation 40, Armor Augmentation 80, Ancillary-Armor Augmentation 40, Ancillary-Armor Augmentation 80, Carpentry 55, Tailoring 55
+:- Blacksmithing: Endurance 90, Geology 75, Toolcrafting 95, Bladesmithing 85, Armorsmithing 75, Mining 75, Fire Magic 78, Battle Chemistry 78, Shield 78, Hammer 75
+:- Bladesmithing: Sword 110, Knife 110, Blacksmithing 100, Toolcrafting 100, Weapon Augmentation 40, Weapon Augmentation 80, Transmutation 80, Meditation 55, Armor Patching 95
+:- Bowyery: Whittling 60, Whittling 90, Carpentry 80, Textiles 83, Tailoring 73, Sigilscripting 75, Spider 75, Archery 105, Bladesmithing 55, Angling 55
+:- Carpentry: Whittling 70, Toolcrafting 85, Holistic Wellness 44, Shamanic Infusion 56, Druid 85, Nature Appreciation 73, Whittling 45, Bowyery 80, Staff 80
+:- Fletching: Carpentry 65, Carpentry 95, Archery 70, Archery 95, Whittling 55, Whittling 85, Anatomy 45, Anatomy 75, Carpentry 75
+:- Leatherworking: Cow 65, Cow 95, Skinning 85, Tanning 100, Textiles 68, Ruminant Anatomy 49, Ungulate Anatomy 49, Armor Augmentation 75, Ancillary Armor Augmentation 75, Transmutation 75
+:- Tailoring: Gardening 85, Tanning 70, Elven Anatomy 49, Sigil Scripting 70, Ancillary-Armor Augmentation 50, Ancillary-Armor Augmentation 90, Armor Augmentation 70, Buckle Artistry 55
+:- Toolcrafting: Blacksmithing 90, Alchemy 80, Fletching 80, Textiles 78, Jewelrycrafting 75, REDACTED 75, REDACTED 45
+
+
+===Everything Else===
+:- Skeletons are no longer contortionists
+:- fix bug that allowed Flamestrike reaction mod to trigger when Priest skill wasn't active
+:- fixed issue with "gold radiation" pole visual effect when angling (you didn't know it was gold radiation though because it was previously invisible radiation)
+:- Improve handling of Voice Chat disconnections (which could cause "phantom group members" in the UI)
+:- Fix bug that caused other players to sometimes be collidable with each other
+:- Crater smoke in Vidaria turns off at Quality Setting "Bad" and below
+:- Remove crazy-bright sun reflection from Eltibule water
+:- Adjust visuals of Tundra Spikes to make them less intrusive and significantly more performant (they no longer cast shadows)
+:- Adjust horses in stable view, so they are more visible. Especially large horses
+:- Slightly decrease animation time for spellcasting animation used by Fire Wall, Tundra Spikes, and others
+:- Add waves to Vidaria water
+:- Polish the Training UI
+:- Change the title of most interaction windows to include the current NPC's name
+:- Adjust Barter UI so it fits in the smallest window
+:- Change currency display for Vidaria Renown
+:- Increase minimum size of Dialog window, from 550 -> 600
+:- Add waves back to water in Kur, Rahu, & Sun Vale
+:- Fix navigation issue with Serbule Keep's corner towers
+:- Add waves back to water in Serbule & Eltibule
+:- Reduced the respawn times for enemies needed for daily quests. All bosses now respawn 5 minutes after their corpse disappears. (Most already did, but some respawned 10 minutes later instead.)
+:- Fletching boxes must be placed in direct sunlight. (It doesn't have to stay sunny the whole time they're drying, it just has to be sunny at the start.)
+:- Fixed some data errors pertaining to what ammo goes with which Archery ability
+:- Fix bug that caused Fletching recipe XP to never drop off even when you complete them at high level
+:- Fletching: new: collecting a completed box of dried arrowshafts now rewards some Fletching XP. This XP intentionally doesn't drop off as you level up.
+:- Recipe Jeweler's Maintenance Kit (Crone Method) requires an additional ingredient: Spool of Wire
+:- Recipe Reweighting Kit (Elven Method) requires one less ingredient: Masterwork Metal SLab
+:- remove subservers from chat channel count ("There are N other users here." message previously included sub-servers that were listening to chat. Now only real players are counted)
+:- Add a "settings" button to stables pet previews to adjust the brightness and background color of the preview
+:- Azalak sells a necromancy-enabling ring for necromancers who lose the beginner necromantic items (or want a ring specifically)
+:- foxes are small enough to go through the smallish portal in the fae realm
+
+As always, we've tried to keep the patch notes spoiler-free. There are many other things to discover and we hope you enjoy finding them. We'll be back soon with more!
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

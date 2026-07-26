@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Deer Bash
+| description = Bash your head into an enemy, stunning them briefly.
+| level = 5
+| power cost = 16
+| reuse time = 10
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|DeerBash}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 18 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Bash 2
+| description = Bash your head into an enemy, stunning them briefly.
+| level = 14
+| power cost = 21
+| reuse time = 10
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|DeerBash}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 27 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Bash 3
+| description = Bash your head into an enemy, stunning them briefly.
+| level = 25
+| power cost = 26
+| reuse time = 10
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|DeerBash}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 50 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Bash 4
+| description = Bash your head into an enemy, stunning them briefly.
+| level = 34
+| power cost = 32
+| reuse time = 10
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|DeerBash}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 71 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Bash 5
+| description = Bash your head into an enemy, stunning them briefly.
+| level = 45
+| power cost = 36
+| reuse time = 10
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|DeerBash}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 117 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Bash 6
+| description = Bash your head into an enemy, stunning them briefly.
+| level = 56
+| power cost = 41
+| reuse time = 10
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|DeerBash}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 175 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Bash 7
+| description = Bash your head into an enemy, stunning them briefly.
+| level = 66
+| power cost = 46
+| reuse time = 10
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|DeerBash}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 228 Crushing
+| special = Stuns opponent.
+}}
+|-
+|
+{{Ability infobox
+| name = Deer Bash 8
+| description = Bash your head into an enemy, stunning them briefly.
+| level = 76
+| power cost = 51
+| reuse time = 10
+| range = 5 meters
+| skill = Deer
+| keywords = {{KWAB|Attack}}{{KWAB|Deer}}{{KWAB|DeerBash}}{{KWAB|DeerAttack}}{{KWAB|Melee}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}
+| damage = 288 Crushing
+| special = Stuns opponent.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

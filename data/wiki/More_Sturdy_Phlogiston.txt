@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+Kalaba in Eltibule said, "I've sent the phlogiston off to my buyer, and now she wants some more! I need the same grade of phlogiston as before. Are you up for it?"
+===Prerequisites===
+To start this quest, talk to '''[[Kalaba]]''' in '''[[Eltibule]]'''.  The quest is available at {{Favor|Neutral}} favor. The quest [[Sturdy Phlogiston]] must be completed.
+
+===Preface===
+{{Quote|
+I've sent the phlogiston off to my buyer, and now she wants some more! I need the same grade of phlogiston as before. Are you up for it?
+}}
+
+===Requirements===
+* Collect {{Item|Crude Phlogiston}} x15
+* Talk to Quest Kalaba
+
+===Rewards===
+{{Spoiler|Rewards for More Sturdy Phlogiston.|
+{{Quote|
+Excellent work. Here's some more prisms and some more money. Come back in a week and I'll probably need more!
+
+Oh, and by the way, I've learned some more Transmutation techniques. When you're ready, come see me for more training.
+}}
+* 50 favor towards Kalaba
+* 500 XP in [[Transmutation]]
+* 500 Councils
+* {{Item|Small Prism}} x15
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Kalaba]]

@@ -1,0 +1,116 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Virulent Bite
+| description = Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)
+| level = 8
+| power cost = 12
+| reuse time = 10
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|VirulentBite}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}{{KWAB|Bite}}
+| damage = 17 Piercing
+| special =  Applies Moderate Concussion status: target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Virulent Bite 2
+| description = Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)
+| level = 18
+| power cost = 16
+| reuse time = 10
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|VirulentBite}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}{{KWAB|Bite}}
+| damage = 35 Piercing
+| special =  Applies Moderate Concussion status: target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Virulent Bite 3
+| description = Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)
+| level = 28
+| power cost = 19
+| reuse time = 10
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|VirulentBite}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}{{KWAB|Bite}}
+| damage = 57 Piercing
+| special =  Applies Moderate Concussion status: target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Virulent Bite 4
+| description = Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)
+| level = 38
+| power cost = 23
+| reuse time = 10
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|VirulentBite}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}{{KWAB|Bite}}
+| damage = 86 Piercing
+| special =  Applies Moderate Concussion status: target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Virulent Bite 5
+| description = Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)
+| level = 48
+| power cost = 26
+| reuse time = 10
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|VirulentBite}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}{{KWAB|Bite}}
+| damage = 134 Piercing
+| special =  Applies Moderate Concussion status: target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Virulent Bite 6
+| description = Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)
+| level = 58
+| power cost = 30
+| reuse time = 10
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|VirulentBite}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}{{KWAB|Bite}}
+| damage = 186 Piercing
+| special =  Applies Moderate Concussion status: target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Virulent Bite 7
+| description = Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)
+| level = 68
+| power cost = 33
+| reuse time = 10
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|VirulentBite}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}{{KWAB|Bite}}
+| damage = 239 Piercing
+| special =  Applies Moderate Concussion status: target is prone to random self-stuns.
+}}
+|-
+|
+{{Ability infobox
+| name = Virulent Bite 8
+| description = Sink your disease-infested fangs into an enemy, causing dizziness and disorientation. (And if you bite other players, they may catch Fevered Trismus.)
+| level = 78
+| power cost = 36
+| reuse time = 10
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|Attack}}{{KWAB|GiantBat}}{{KWAB|Melee}}{{KWAB|VirulentBite}}{{KWAB|BodypartAttack}}{{KWAB|SignatureDebuff}}{{KWAB|Bite}}
+| damage = 301 Piercing
+| special =  Applies Moderate Concussion status: target is prone to random self-stuns.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

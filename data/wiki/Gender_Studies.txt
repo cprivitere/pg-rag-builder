@@ -1,0 +1,58 @@
+__NOTOC__
+{{Skill infobox
+|title            = Gender Studies
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = A careful exploration of gender roles and sexuality, focusing on Human, Elven, and Rakshasa cultures. This knowledge is not directly applicable to combat or crafting, but it helps you to be a well-rounded individual.
+|skilltype        = Other Skill
+|maxlevel         = 50
+|req              = N/A
+|skilltrainers    = N/A
+}}
+
+{{Quote|
+A careful exploration of gender roles and sexuality, focusing on Human, Elven, and Rakshasa cultures. This knowledge is not directly applicable to combat or crafting, but it helps you to be a well-rounded individual.
+}}
+
+== {{msg:BASEPAGENAME}} Overview==
+[[Gender Studies]] is a partially implemented skill.
+
+=== In-Game Description ===
+A careful exploration of gender roles and sexuality, focusing on Human, Elven, and Rakshasa cultures. This knowledge is not directly applicable to combat or crafting, but it helps you to be a well-rounded individual.
+
+=== Training {{msg:BASEPAGENAME}} ===
+[[Gender Studies]] may be discovered through a number of random experience granting methods.
+* Earning experience through a {{Item|Lost Notus Record}}
+* Earning experience through [[Corpse Talking]]
+* From a lemon during the [[Suspicious Lemons]] event
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* N/A
+===== Secondary Skills: =====
+* N/A
+===== Related Skills: =====
+* N/A
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Gender Studies]] can be obtained from the following skills and levels:
+:; [[Nature Appreciation]]
+:: Level 50
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Gender Studies Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Gender Studies|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+
+== Trivia ==
+[[Gender Studies]] was added at the same time as [[Demon Anatomy]].
+
+== Gallery==
+<!--
+<gallery mode="nolines" widths=200px>
+File:Serbule docks area.jpg|The docks area.
+File:Serbule Gallery (abandoned cart).jpg|An abandoned cart.
+File:Serbule Gallery 2.jpg|A very dangerous place...
+</gallery>
+-->
+[[Category:Skills]][[Category:Other Skills]]

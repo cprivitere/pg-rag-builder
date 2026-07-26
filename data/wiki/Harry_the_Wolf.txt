@@ -1,0 +1,48 @@
+__NOTOC__
+{{NPC infobox
+|title            = Harry the Wolf
+|image            = [[File:Harry the Wolf.png|400px]]
+|caption          = Seems to be a wolf.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = [[Serbule Keep]]'s garden
+|anatomy = Canine
+|species = Wolf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Lycanthropy]]
+|vendor           = Yes
+}}
+{{Quote|
+I have bad news for you; that curse didn't just change your species.
+}}
+[[Harry the Wolf]] is a quest NPC and vendor for animal form players, and players seeking [[Lycanthropy]]. [[Harry the Wolf|Harry]] holds a distaste for most humanoids, and will refuse to speak to them unless he receives assurances that they are trustworthy from an existing friend. 
+== Location ==
+; [[Serbule]]
+: In the Serbule Keep garden, near to [[Therese]]
+== Shopkeeper ==
+[[Harry the Wolf]] sells [[First Aid]] and [[Armor Patching]] kits, as well as various potions and armor for players who can't avail themselves of [[Joeh]]'s and [[Marna]]'s services. He also sells belts for [[Lycanthropy]].
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+
+== Favor ==
+{{Spoiler| Befriending [[Harry the Wolf]]|
+Although [[Harry the Wolf|Harry]] does not use a visible favor system, you must receive his trust if you want to access his shop or take the [[Lycanthropy]] trial. To encourage him to be talkative, befriend [[Rita]] to '''{{Favor|Comfortable}}''' favor. }}
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+<!-- Insert [[Category:Favor/Small Talk]] when there is info in sub page -->
+
+== Quests ==
+<dpl>
+category = Quests/Limited Quests
+notcategory=Quests/Hulon
+notcategory=Quests/Leonard Allenson
+notcategory=Quests/Dungeons Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Events ==
+== Conversations == 
+[[Category:NPCs]][[Category:NoRiShin]]

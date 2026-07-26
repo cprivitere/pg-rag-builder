@@ -1,0 +1,5 @@
+* Loves Fairy Wings {{Hint|+22.5}}
+* Loves Magic Clubs {{Hint|+18 to +23, NOT HAMMERS, Red +20.0% value, Blue + 14.8% value, Green + 10.0% value, White +8.0% value}} {{Hint| If working on gifts for Agrashab, Wombat and Silvia, make druid-specced clubs with carpentry.  You can use them for all three npcs.}}
+* Loves Ancient Coins {{Hint|Bronze Coin +8, Silver Coin +18, Gold Coin +42, Lost Currency +68.4}}
+* Hates Troll Flesh
+<noinclude>[[Category:Small talk]]</noinclude>

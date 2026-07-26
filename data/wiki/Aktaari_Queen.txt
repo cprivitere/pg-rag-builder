@@ -1,0 +1,46 @@
+{{MOB infobox
+| title = Aktaari Queen
+| type   = Arthropod
+| health = 205700
+| armor  = 71150
+| rage   = 14392
+| notoriety = 1600
+| effective = TODO
+| veffective = TODO
+| ineffective = TODO
+| vineffective = TODO
+| immune = TODO
+}}
+The [[Aktaari Queen]] is a rare variety of [[Aktaari]], that is only found in the [[Aktaari Cave]] during the [[Egg Run]] event.
+
+{{MOB Location
+| area = Aktaari Cave
+| location = [[Egg Run]]
+| lootlevel = 95
+}}
+
+== Reported Loot ==
+==== General Loot ====
+; Level 90 - 95 Equipment
+{|
+{{Header|Common|4}}
+|-
+|{{Loot|Aktaari Claw}}
+|-
+|{{Loot|Umrad Boots}}
+|-
+|{{Loot|Umrad Gloves}}
+|-
+|{{Loot|Umrad Leggings}}
+|-
+|{{Loot|Umrad Coat}}
+|-
+|{{Loot|Umrad Helm}}
+|-
+|{{Loot|Umrad Shield}}
+|-
+{{Header|Rare|4}}|-
+|{{Loot|Icesnake}}
+|}
+
+[[Category:Bosses]]

@@ -1,0 +1,13 @@
+__NOTOC__
+{{Ability infobox
+| name = Webspin
+| description = Spin a bundle of webbing, useful for crafting.
+| level = 60
+| power cost = 35
+| reuse time = 900
+| range = 4 meters
+| skill = Spider
+| keywords = {{KWAB|Spider}}
+| special = Create one Spiderweb.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

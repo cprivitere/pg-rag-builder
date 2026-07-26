@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+There's an undecorated tree in the New Prestonbule cave. When fully decorated, townsfolk will leave you presents under the tree each day during the holiday season.
+
+This Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Rick Snapley]]''' in '''[[New Prestonbule Cave]]'''.
+
+===Requirements===
+* Get Red Gems for the Tree
+* Get Stencils for the Tree
+* Get Potions for the Tree
+* Get Tea Lights for the Tree
+* Talk to [[Rick Snapley]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Well, can't say that tree'd win any beauty prizes, but it feels homey. Thank you. You're part of the family here too, so we got ya something under the tree.}}
+}}
+
+[[Category:Quests]][[Category:Quests/Gazluk Caves Quests]][[Category:Quests/Rick Snapley]][[Category:Quests/Ri-Shin Quests]]

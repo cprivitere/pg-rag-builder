@@ -1,0 +1,376 @@
+__NOTOC__
+{{NPC infobox
+|title            = Braigon
+|image            = [[File:Braigon.png|300px]]
+|caption          = He's immaculately dressed, but smells like feet.
+|zone             = Eltibule
+|town = Eltibule Keep
+|location         = Inside a tent along the southern wall.
+|anatomy = Elven
+|species = Elf
+|skilltrainer     = [[Cheesemaking]]
+|beastspeak       = Yes
+|beastlist = Only Cow
+|vendor           = Yes
+}}
+{{Quote|
+People need to make time for cheese In their life.
+}}
+[[Braigon]] is an Elven cheesemaker found in the courtyard of [[Eltibule Keep]].
+== Location ==
+; [[Eltibule]]
+: Eltibule Keep (center of the map)
+== Shopkeeper ==
+{{Vendor items sold}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+{{Spoiler|Reward at {{Favor|Comfortable}}|
+{{Quote|I like you. You know what, i'm going to teach you the secrets of my trade. On the house! Now, if you'd like to learn some recipes for specific cheeses, I may have to charge you a little bit...}}
+Unlocks training.}}
+{{Spoiler|Reward at {{Favor|Close Friends}}|
+{{Item|Firkin}} x3
+}}
+{{Spoiler|Reward at {{Favor|Best Friends}}|
+{{Item|Kilderkin}} x3
+}}
+{{Spoiler|Reward at {{Favor|Like Family}}|
+{{Item|Barrel}} x3
+}}
+
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Skim the whey off the latest batch of Neufchatel (4 hours)|
+:35 favor with Braigon
+:{{Item|Bottle of Whey}} x2
+}}
+{{Spoiler|Experiment with new varieties of raclette cheese (4 hours)|
+{{Quote|
+Oh gods, it's like a smelly foot exploded! The stench is unbearable!
+
+Let's call this batch a failure. But I learned something today. Did you?}}
+:35 favor with Braigon
+:500 Cheesemaking XP
+}}
+{{Spoiler|Go with Braigon to milk cows (60 min)|
+:12 favor with Braigon
+:{{Item|Grass}} x1
+}}
+{{Spoiler|Help Prepare basic whey (4 hours)|
+{{Quote|You know, the whey cheeses are some of the best cooking cheeses, and they're so simple to make! Let me show you how to make cream cheese, it's extremely versatile.}}
+:35 favor with Braigon
+:Recipe for Cream Cheese
+}}
+{{Spoiler|Let Braigon milk you [cow only] (15 min)|
+:5 favor with Braigon
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Braigon
+notcategory = Quests/Fall Harvest
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+Braigon offers many Cheesemaking recipes, and the Mycology recipes to make rennet, an ingredient made from {{Item|Stomach}}s and used in most cheeses.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cheesemaking]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Cheesemaking{{pipe}}Unlock Cheesemaking
+ |skilllevel = 0
+ |cost=0
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Cheesemaking{{pipe}}Unlock Cheesemaking Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20,000
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Butter
+ |skilllevel=0
+ |cost=166
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Cottage Cheese
+ |skilllevel=4
+ |cost=266
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Prim Cheese
+ |skilllevel=6
+ |cost=333
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe= Laressa's Cheese
+ |skilllevel=9
+ |cost=433
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe= Urda Cheese
+ |skilllevel=10
+ |cost=466
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Neufchatel Cheese
+ |skilllevel=12
+ |cost=866
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Mild Cheddar Cheese
+ |skilllevel=14
+ |cost=933
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Ricotta Cheese
+ |skilllevel=16
+ |cost=1000
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Cheshire Cheese
+ |skilllevel=18
+ |cost=1066
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Gloucester Cheese
+ |skilllevel=19
+ |cost=1100
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Brunost Cheese
+ |skilllevel=20
+ |cost=1133
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Cantal Cheese
+ |skilllevel=22
+ |cost=1533
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Sharp Cheddar Cheese
+ |skilllevel=24
+ |cost=1600
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Brocciu Cheese
+ |skilllevel=26
+ |cost=1666
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Brie Cheese
+ |skilllevel=28
+ |cost=1733
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Raclette Cheese
+ |skilllevel=30
+ |cost=1800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Havarti Cheese
+ |skilllevel=32
+ |cost=2866
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Camembert Cheese
+ |skilllevel=34
+ |cost=2933
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Parmesan Cheese
+ |skilllevel=36
+ |cost=3000
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Mozzarella Cheese
+ |skilllevel=38
+ |cost=3066
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Emmentaler Cheese
+ |skilllevel=40
+ |cost=3133
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Pepper Jack Cheese
+ |skilllevel=42
+ |cost=4533
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Limburger Cheese
+ |skilllevel=44
+ |cost=4600
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Haerel Cheese
+ |skilllevel=46
+ |cost=4666
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe= Danablu Cheese
+ |skilllevel=48
+ |cost=4733
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Appenzeller Cheese
+ |skilllevel=50
+ |cost=4800
+ |favor=Best Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Cheesemaking{{pipe}}Unlock Cheesemaking Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20,000
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Edam Cheese
+ |skilllevel=52
+ |cost=6533
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Roquefort Cheese
+ |skilllevel=54
+ |cost=6600
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Ricotta Forte
+ |skilllevel=56
+ |cost=7666
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Sirine Cheese
+ |skilllevel=58
+ |cost=7733
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Grasgot Cheese
+ |skilllevel=60
+ |cost=7800
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Gouda Cheese
+ |skilllevel=74
+ |cost=13,266
+ |favor=Like Family
+}}
+{{NPC training row
+ |recipe=Stilton Cheese
+ |skilllevel=76
+ |cost=15,000
+ |favor=Like Family
+}}
+<!-- This one is here because Braigon has it at the bottom of his list :( -- is this still true? yes as of 02-15-2022 -->
+{{NPC training row
+ |recipe=Sour Cream
+ |skilllevel=2
+ |cost=200
+ |favor = Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Cooking]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Beginner's Buttermilk
+ |skilllevel=5
+ |cost=280
+ |favor=Comfortable
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mycology]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Basic Rennet
+ |skilllevel=10
+ |cost = 466
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Strong Rennet
+ |skilllevel=20
+ |cost = 1133
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Pungent Rennet
+ |skilllevel=30
+ |cost = 1800
+ |favor=Friends
+}}
+|}
+
+== Events ==
+===== Fall Harvest =====
+During the [[Fall Harvest]], [[Braigon]] can offer Tofu-related quests.
+<dpl>
+category = Quests/Braigon
+category = Quests/Fall Harvest
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Neufchatel Cheese}}
+|RiShin Family ={{Item|Neufchatel Cheese}}, {{Item|Stomach}}
+}}
+== Conversations ==
+{{Quote|source=[[Braigon]]|
+I've been on the lookout for a good Esgarion cheese. I wish I'd learned it in my homeland before I left. It's one of the few blue cheeses with a pleasant smell! It tastes super bland, but I'd still like some.
+}}
+{{Quote|source=[[Braigon]]|
+You know [[Chumak]], the Orc who saved [[Statehelm]]? Rumor is he ate a Scamorza every week, and it kept his inherently evil nature at bay. The day he died, a greedy cheesemaker had sold him a mozzarella and told him it was a Scamorza. Coincidence? I think not.}}
+
+[[Category:NPCs]]

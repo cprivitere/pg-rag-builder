@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Bring 4 bones to [[Lawara]].
+
+===Prerequisites===
+To start this quest, talk to '''[[Lawara]]''' in '''[[Anagoge Island]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Hey, you've been killing those damned skeletons, right? Got any good, strong femurs? I need a half-dozen for this project I'm working on.}}
+
+===Requirements===
+* Collect [[:Category:Items/Bone|Bones]] x4
+* Talk to [[Lawara]]
+
+===Rewards===
+{{Spoiler|Rewards for Find Bones|
+{{Quote|Thanks, these will work great for my marionettes!}}
+
+* 200 Favor towards Lawara
+}}
+
+===Tips===
+{{Spoiler|Where to find bones|The {{Item|Femur}}s collected from skeletons on [[Anagoge Island]] will work.}}
+[[Category:Quests]][[Category:Quests/Anagoge Island Quests]][[Category:Quests/Lawara]]

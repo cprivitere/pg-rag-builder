@@ -1,0 +1,30 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Wind Instruments/Abilities|Wind Instruments Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v400 on Tue Dec 19 2023 02:50:21 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Ocarina 1|2}} || 1 || Ocarina 1 || Play an ocarina or similar wind instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Ocarina 2|2}} || 2 || Ocarina 2 || Play an ocarina or similar wind instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Ocarina 3|2}} || 4 || Ocarina 3 || Play an ocarina or similar wind instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Ocarina 4|2}} || 6 || Ocarina 4 || Play an ocarina or similar wind instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Ocarina 5|2}} || 8 || Ocarina 5 || Play an ocarina or similar wind instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Ocarina 6|2}} || 10 || Ocarina 6 || Play an ocarina or similar wind instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Tuba 1|2}} || 11 || Tuba 1 || Play a tuba or similar brass instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Tuba 2|2}} || 12 || Tuba 2 || Play a tuba or similar brass instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Tuba 3|2}} || 14 || Tuba 3 || Play a tuba or similar brass instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Tuba 4|2}} || 16 || Tuba 4 || Play a tuba or similar brass instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Tuba 5|2}} || 18 || Tuba 5 || Play a tuba or similar brass instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|-
+| {{Ability icon|Tuba 6|2}} || 20 || Tuba 6 || Play a tuba or similar brass instrument. ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 1<br><b>Cooldown:</b> 3 || Leveling
+|}

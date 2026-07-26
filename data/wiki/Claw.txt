@@ -1,0 +1,147 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Claw
+| description = Claw your enemy.
+| level = 0
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 4 Slashing + 8 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 2
+| description = Claw your enemy.
+| level = 15
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 12 Slashing + 24 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 3
+| description = Claw your enemy.
+| level = 30
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 25 Slashing + 50 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 4
+| description = Claw your enemy.
+| level = 48
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 53 Slashing + 106 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 5
+| description = Claw your enemy.
+| level = 58
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 74 Slashing + 148 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 6
+| description = Claw your enemy.
+| level = 70
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 100 Slashing + 200 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 7
+| description = Claw your enemy.
+| level = 82
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 130 Slashing + 260 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 8
+| description = Claw your enemy.
+| level = 94
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 202 Slashing + 404 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 9
+| description = Claw your enemy.
+| level = 106
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 245 Slashing + 490 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 10
+| description = Claw your enemy.
+| level = 118
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 291 Slashing + 582 if target is Vulnerable
+}}
+|-
+|
+{{Ability infobox
+| name = Claw 11
+| description = Claw your enemy.
+| level = 125
+| power cost = 0
+| reuse time = 2
+| range = 5 meters
+| skill = Lycanthropy
+| keywords = {{KWAB|Attack}}{{KWAB|Werewolf}}{{KWAB|WerewolfAttack}}{{KWAB|WerewolfClaw}}{{KWAB|Claw}}{{KWAB|Melee}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}
+| damage = 317 Slashing + 634 if target is Vulnerable
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

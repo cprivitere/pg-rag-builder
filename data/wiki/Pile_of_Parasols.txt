@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+[[Midge]] in the [[Fae Realm]] said, "If I can make a potion to fix my mind, it might fix yours too! Can you bring me some ingredients I'm missing?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Midge the Apothecary]]''' in '''[[Fae Realm]]'''. This quest is only available to Fae. 
+
+===Preface===
+If I can make a potion to fix my mind, it might fix yours too! Can you bring me some ingredients I'm missing?
+
+===Requirements===
+* Harvest {{Item|Parasol Mushroom}} x6
+* Talk to [[Midge]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|This is a good start! We're on our way to... Umm. What are we doing?}}
+* 10 {{Favor|favor}}
+* Recipe: Parasol Mushroom Flakes
+* Recipe: Pick-Me-Up Juice
+* Recipe: Rotten Strawberry
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Midge the Apothecary]][[Category:Quests/Fae Quests]]

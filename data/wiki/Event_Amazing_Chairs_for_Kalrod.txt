@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Kalrod said, "Ho there! In a mood to build something? A lot of our chairs were broken on the way here because of the rough ride, even our really good chairs. If you can provide us with 10 [[Amazing Chair]]s, I can show you a few tricks to help with building better ones in the future!"
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Kalrod]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Carpentry]] level 70. This quest is only available during a Crafting Caravan event.
+
+===Preface===
+Ho there! In a mood to build something? A lot of our chairs were broken on the way here because of the rough ride, even our really good chairs. If you can provide us with 10 [[Amazing Chair]]s, I can show you a few tricks to help with building better ones in the future!
+
+===Requirements===
+* Craft 10 Amazing Chairs
+* Obtain 10 Amazing Chairs
+* Talk to Kalrod
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you so much. These chairs are... amazing! No really, nice work! I'm gonna swipe one of these to use in my tent!
+
+<i>[You earn 10 favor with Orran the Caravan Leader]</i>
+
+<i>[This task is repeatable every 18 hours.]</i>}}
+* {{Item|Crafter's Guild Token}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Kalrod]][[Category:Quests/Crafting Caravan]]

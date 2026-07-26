@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+An avatar of Tast in Povus said, Since you are no ordinary warsmith, you deserve a challenge worthy of you! Slay 100 sentient creatures in the name of war. Then I shall teach you the secrets you seek."
+
+===Prerequisites===
+To start this quest, talk to '''[[Tast]]''' in '''[[Povus]]'''. This quest is available at [[Armorsmithing]] level 50. 
+
+===Preface===
+Since you are no ordinary warsmith, you deserve a challenge worthy of you! Slay 100 sentient creatures in the name of war. Then I shall teach you the secrets you seek.
+
+===Requirements===
+* Kill Sentient Enemies x100
+* Talk to Tast, God of War
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You are cruel and deadly. Make sure that your armor is, as well.}}
+* 3 {{Favor|favor}}
+* Recipe: Quality Orcish Plate Boots (Enchanted)
+* Recipe: Quality Orcish Plate Boots (Max-Enchanted)
+* Recipe: Quality Orcish Plate Greaves (Enchanted)
+* Recipe: Quality Orcish Plate Greaves (Max-Enchanted)
+* Recipe: Quality Orcish Plate Coat (Enchanted)
+* Recipe: Quality Orcish Plate Coat (Max-Enchanted)
+* Recipe: Quality Orcish Plate Gauntlets (Enchanted)
+* Recipe: Quality Orcish Plate Gauntlets (Max-Enchanted)
+* Recipe: Quality Orcish Plate Helm (Enchanted)
+* Recipe: Quality Orcish Plate Helm (Max-Enchanted)
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Tast]]

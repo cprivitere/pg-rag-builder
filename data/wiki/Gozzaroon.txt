@@ -1,0 +1,33 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gozzaroon
+|image            = [[File:Gozzaroon(npc).png|300px]] 
+|caption          = Studiously ignoring you.
+|zone             = Sun Vale
+|dungeon = Sacrificial Sea Cave
+|location         = Near the [[Sacrificial Snail]].
+|anatomy = Fish and Snail
+|species = Ranalon
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|source=[[Message Starfish]]|
+You hear a froggy voice say, "Remember, true disciples, that the sacrificial creatures in the far rooms are kept VERY HUNGRY. If they think you are a meal, they will chase you to your doom! That's why our least-competent acolyte is on feeding duty. Yes, I'm talking about you, [[Gozzaroon]]. Everyone else, clear out!"
+}}
+[[Gozzaroon]] is a Ranalon chosen to guard the sacrificial creatures of the [[Sacrificial Sea Cave]].
+
+== Location ==
+; [[Sacrificial Sea Cave]]
+: [[Gozzaroon]] is found underwater in a passage towards the back of the cave.
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+===Favor Rewards=== 
+[[Gozzaroon]] does not use the favor system.
+=== Hang Outs ===
+[[Gozzaroon]] offers no hang outs at this time.
+== Quests ==
+[[Gozzaroon]] offers no quests at this time.
+== Conversations == 
+
+[[Category:NPCs]][[Category:NoRiShin]]

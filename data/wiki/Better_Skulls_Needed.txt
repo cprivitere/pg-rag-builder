@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Glajur, a goblin you met under a tower in Kur Mountains, asked you to bring him some impressive humanoid skulls.
+
+===Prerequisites===
+To start this quest, talk to '''[[Glajur]]''' in '''[[Kur Tower]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|I need better skulls to further my study. Look for humanoids that are especially brave, or daring, or horrifying. Pop out their skulls after you kill them, and see if the skulls look impressive.}}
+
+===Requirements===
+* Obtain 5 {{ItemCategory|ImpressiveHumanoidSkull}}
+* Talk to Glajur
+
+===Rewards===
+{{Spoiler|Rewards for Better Skulls Needed|
+{{Quote|Wow, these are better than I expected.
+
+But enough about that. I noticed that you didn't have much compunction about ripping the skulls out of your fellow creatures using a small knife. You must have a <i>fucked up</i> past! What? No memory? Well, here. This might help you remember things better.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Memory Enhancer}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Glajur]]

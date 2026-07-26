@@ -1,0 +1,98 @@
+__NOTOC__
+{{Skill infobox
+|title            = Shield
+|image            = [[File:Disrupting_Bash.png|128px]]
+|caption          = Expertise in the use of a shield, both as a weapon and as a defensive tool.
+|skilltype        = Combat Skill 
+|maxlevel         = 100 
+|req              = N/A
+|skilltrainers    = [[Tyler Green]], [[Gorvessa]], [[Sir Johnson]], [[Pegast]]
+|gem = {{Item|Onyx}}
+}}
+{{Quote|
+Expertise in the use of a shield, both as a weapon and as a defensive tool.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Shield''' is a defensive skill that focuses on damage mitigation and holding aggro.
+=== In-Game Description ===
+Expertise in the use of a shield, both as a weapon and as a defensive tool.
+
+== Training {{msg:BASEPAGENAME}} ==
+* [[Tyler Green]] teaches Shield at {{Favor|Comfortable}}.
+* [[Nelson Ballard]] teaches Rapid Recovery 1-6 and Fire Shield 1-4.
+* [[Gorvessa]] in [[Hogan's Keep]] teaches many Shield abilities, see the ability table below.
+* [[Sir Johnson]] will unlock Shield levels 51-60, 61-70, and teaches level 51+ abilities.
+* [[Pegast]] unlocks 71-80, and teaches the corresponding abilities.
+* Levels 81-90 are unlocked by [[Emersil the Ever-Gloating]] deep beneath [[Povus]]. The abilities for these levels are all dropped from Nightmare Caves, or bartered from [[Errruka]].
+* [[Sir Brooker]] in [Statehelm]] unlocks 81-90, 91-100, [[Prodigy Potential]], and teaches level 90+ abilities.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* None
+===== Related Skills: =====
+* [[Armor Patching]]
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Shield]] can be obtained from the following skills and levels:
+:; [[Armorsmithing]]
+:: Level 48, 85
+:; [[Armor Patching]]
+:: Level 25, 45, 85
+:; [[Compassion]]
+:: Level 45
+:; [[Endurance]]
+:: Level 35
+:; [[Hoplology]]
+:: Level 10
+:; [[Orcish]]
+:: Level 15
+:; [[Staff]]
+:: Level 32
+:; [[Sword]]
+:: Level 44
+:; [[Weapon Augmentation]]
+:: Level 45
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+
+=== Weapons ===
+<dpl>
+  category   = Items/Shield
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+=== Equipment ===
+*{{Item|Belt of the Shielder}} increases Base Damage dealt with Shield by 8%.
+
+*{{Item|Belt of The Defender}} increases Base Damage dealt with Shield and [[Staff]] combat skills by 6%.
+
+*{{Item|Belt of The Soldier}} increases Base Damage dealt with Shield and [[Sword]] combat skills by 6%.
+
+*{{Item|Belt of The Barbarian}} increases Base Damage dealt with Shield and [[Hammer]] combat skills by 6%.
+
+*{{Item|Belt of The Skirmish Mage}} increase Base Damage dealt with Shield and [[Fire Magic]] combat skills by 6%.
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Shield Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Shield|
+{{:Xptables/TypicalCombatSkill}}
+}}
+== Trivia ==
+'''Vigorous Defense''' (an ability replaced by '''Bulwark Mode''' in the [[Game_updates/2020-11-06|November 6, 2020 update]]) used to share an ability icon with '''Rapid Recovery'''.
+<!--
+== Gallery==
+-->
+[[Category:Skills]]

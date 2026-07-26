@@ -1,0 +1,84 @@
+__NOTOC__
+{{Skill infobox
+|title            = Armor Patching
+|image            = [[File:ArmorPatching_skill.png|300px]]
+|caption          = The ability to use repair kits to fix up your armor.
+|skilltype        = Other Skill 
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              = None <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Tyler Green]], [[Arlan]], [[Pegast]]
+|gem = {{Item|Armor Patching Onyx}}, {{Item|Onyx}}
+}}
+{{Quote|
+Leave a quote about the skill here.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Armor Patching''' is a common skill used by almost all armor-wearing races across [[Alharth]]. Various types of [[Simple Armor Patch Kit|Armor Patch Kits]] are used by this skill. 
+=== In-Game Description ===
+The ability to use repair kits to fix up your armor.
+=== Training {{msg:BASEPAGENAME}} ===
+* Learning the art of '''Armor Patching''' is simple (talk to [[Marna]], an elf living in the Town of [[Serbule]]). She also sells [[Simple Armor Patch Kit]]s, a required item for beginner '''Armor Patchers'''. To use an Armor Patch Kit, find the Patch Armor ability under the Special Abilities menu and drag it to the sidebar.
+* [[Tyler Green]] in [[Serbule Hills]] teaches the production of Armor Patch Kits and Shield Wax recipes.
+* [[Arlan]] in the [[Ilmari]] Desert will unlock levels 51-60 and 61-70.
+* [[Pegast]] in the [[Fae Realm]] will unlock levels 71-80.
+* Levels 81-90 are unlocked by [[Serendipity Cheddar]] deep beneath [[Povus]].
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* [[Blacksmithing]] - Adventurers wishing to learn Blacksmithing must first obtain Level 25 Armor Patching.
+===== Related Skills:=====
+* [[First Aid]] - Just as '''Armor Patching''' allows armor to be repaired, First Aid is used to recover Health.
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Armor Patching]] can be obtained from the following skills and levels:
+:; [[Anatomy]] 
+:: Level 20, Level 40
+:; [[Armorsmithing]] 
+:: Level 15, Level 45, Level 70
+:; [[Blacksmithing]] 
+:: Level 35, Level 50
+:; [[Endurance]] 
+:: Level 20
+:; [[First Aid]] 
+:: Level 25
+:; [[Toolcrafting]] 
+:: Level 35
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== Recipe Lists ==
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Repairing Armor ===
+Skill in '''Armor Patching ''' can be gained by using Armor Patch Kits, through the Patch Armor abilities. Use of any version of Patch Armor will grant you experience for kills within one minute of the activation of the ability. If Patch Armor is used after defeating a monster, you can still get experience for a short period of time. Armor Patch Kits are only consumed 10% of the time.
+
+===Equipment===
+Crafters producing equipment which improves [[Armor Patching]] should obtain the [[Sigil Scripting]] recipe '''Armor Patching Inscription,''' which allows for the creation of {{Item|Armor Patching Onyx}}. 
+
+This attuned gemstone can be used in any recipe which calls for the use of [[:Category:Items/Crystal|Crystals]] to create equipment with [[Armor Patching]] Treasure Effects.
+
+: {{Item|Simple Armor Patch Kit}} - This Armor Patch Kit is used by '''Patch Armor 1.'''
+: {{Item|Basic Armor Patch Kit}} - This Armor Patch Kit is used by '''Patch Armor 2.'''
+: {{Item|Good Armor Patch Kit}} - This Armor Patch Kit is used by '''Patch Armor 3.'''
+: {{Item|Expert's Armor Patch Kit}} - This Armor Patch Kit is used by '''Patch Armor 4.'''
+: {{Item|Master Armor Patch Kit}} - This Armor Patch Kit is used by '''Patch Armor 5.'''
+: {{Item|Amazing Armor Patch Kit}} - This Armor Patch Kit is used by '''Patch Armor 6.'''
+: {{Item|Matted Hair}} - This item is used by the '''Yetiskin''' Armor Patching ability set.
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+<!-- {{:{{msg:BASEPAGENAME}}/Stat Bonuses}} -->
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Armor Patching Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Armor Partching|
+{{:Xptables/AuxCombatSkill}}
+}}
+
+== Trivia ==
+Armor Patching has been in the game for a long time!
+
+[[Category:Skills]][[Category:Other Skills]]

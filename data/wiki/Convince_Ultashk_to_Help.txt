@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Ultashk demanded animal fat before he will open the gate into the further reaches of Hogan's 'basement'.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ultashk]]''' in '''[[Hogan's Basement]]'''.
+
+===Preface===
+You rub my feet enough, I might rub yours. Not feet, though - more like bring me some premium candle-quality fat. Then we'll see if I let you in.
+===Requirements===
+* Obtain {{Item|Filthy Animal Fat}} x3
+* Talk to Ultashk
+
+===Rewards===
+{{Spoiler|Rewards for Convince Ultashk to Help|
+{{Quote|Is this premium fat? It looks like shitty fat to me. And it stinks! Ugghh... this is disgusting! This is how you make candles!? Screw this!
+
+}}
+}}
+
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Ultashk]]

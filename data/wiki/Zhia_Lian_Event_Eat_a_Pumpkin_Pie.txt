@@ -1,0 +1,34 @@
+__NOTOC__
+==Summary==
+<i>[Note: this quest is for gourmands. Pumpkin pie requires Gourmand 35!]</i>
+
+<i>Zhia Lian:</i> Everybody loves pumpkin pie. (Yes, you do.) So eat one!
+
+You can find the recipe on the undead, or you might be able to obtain a pumpkin pie from another hero.
+
+<i>[This quest will reward you with 1000 Councils, so even if you pay that much for a pie, you won't lose money.]</i>
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>[Note: this quest is for gourmands. Pumpkin pie requires Gourmand 35!]</i>
+
+<i>Zhia Lian:</i> Everybody loves pumpkin pie. (Yes, you do.) So eat one!
+
+You can find the recipe on the undead, or you might be able to obtain a pumpkin pie from another hero.
+
+<i>[This quest will reward you with 1000 Councils, so even if you pay that much for a pie, you won't lose money.]</i>
+
+===Requirements===
+* Eat a pumpkin pie
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> See? Everybody loves pumpkin pie!}}
+* 1000 councils
+* {{Item|Event Loot Key (Universal)}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

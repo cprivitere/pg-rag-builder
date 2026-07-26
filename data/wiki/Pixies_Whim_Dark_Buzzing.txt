@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Uriana in the Fae Realm said, "Listen for the buzz of bees at night. You will see that it is not bees who dwell in the night, it is wasps! Wasps who bask in the power the Winter Queen! They sting all who oppose her. You know what to do."
+
+===Prerequisites===
+To start this quest, talk to [[Uriana]] in the [[Fae Realm]].  The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|
+Listen for the buzz of bees at night. You will see that it is not bees who dwell in the night, it is wasps! Wasps who bask in the power the Winter Queen! They sting all who oppose her. You know what to do.
+}}
+
+===Requirements===
+<!-- Add requirements here. Use {{Item}} template for items, and link mobs. -->
+* Kill Giant Wasps x5 at Night {{hint|Blinding Wasp and Turret Wasp spawn at night}}
+* Talk to Uriana.
+
+===Rewards===
+{{Spoiler|Rewards for Pixie's Whim: Dark Buzzing|
+{{Quote|
+For the bees' crimes, only death would suffice. It is justice. But I pity you, executioner. For you are now as corrupt as any wasp. ''Uriana seems lost in thought. She absentmindedly hands you an item from her hoard.''
+}}
+* Random item.
+}}
+
+[[Category:Quests]][[Category:Quests/Uriana]][[Category:Quests/Fae Realm Quests]]

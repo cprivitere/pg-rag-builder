@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+You're killing Hexapuses in Povus.
+
+This Quest can be repeated after 0 hours.
+
+
+
+===Preface===
+<b>Hunting: Hexapuses</b>
+Local stories say that the hexapus comes from the Rakshasa home-world -- although their original name is lost. They lay their eggs on the underside of vessels, and supposedly the original rakshasa ships were coated in eggs that eventually hatched and tried to kill everyone.
+
+Hexapuses are unnervingly intelligent and are happy both on land and water -- although they prefer to be immersed when they sleep. They are a menace that can't be allowed to proliferate.
+
+===Requirements===
+* Kill Hexapuses x8
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Hunting Quest Completed!}}
+* 5000 Combat XP for your active skills
+* 250 XP in Fish and Snail Anatomy
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Hunting Quests]]

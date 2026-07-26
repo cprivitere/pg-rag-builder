@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+Lady Windsong in Rahu said, "There are crystals down in the sewer which remove filth, salt, and any other contaminants from the water. Quite amazing magic! But we do not know how long the magic will last, so each year we test the water. Can you do it this year?
+
+Here is the special beaker I was given. I counted ten pools of water with functioning crystal fountains. Wade into each pool and test the water in the center of the room. The beaker will hum if the water is clean and screech horribly if there is a problem."
+
+===Prerequisites===
+To start this quest, talk to '''[[Lady Windsong]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor. This quest is available at [[Druid]] level 1. This quest is only available after a speech interaction. Also, you need to have already unlocked the upper level shortcut access door next to the Weird Leaves in the '''[[Rahu Sewers]]''' by defeating the '''[[Treant Guardian]]''' and looting his key. Until then, '''[[Lady Windsong]]''' will not offer this quest.
+
+===Preface===
+There are crystals down in the sewer which remove filth, salt, and any other contaminants from the water. Quite amazing magic! But we do not know how long the magic will last, so each year we test the water. Can you do it this year?
+
+Here is the special beaker I was given. I counted ten pools of water with functioning crystal fountains. Wade into each pool and test the water in the center of the room. The beaker will hum if the water is clean and screech horribly if there is a problem.
+
+===Requirements===
+* Sample All Crystal Rooms' Water x10
+* Talk to Lady Windsong
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|All of the water samples were clean? No screeches from the bottle? Oh, good. I have no idea what we'd do if they weren't working!
+
+Did you happen to notice if the treants are looking well? They were happy to see me last year! Wait.. wait, you aren't a friend of treants! How is that possible? Did the treants attack you?!
+
+I apologize. I should have thought of this earlier: Dreva's boons are not quite the same as Ri-Shin's boons, are they? But fear not, because I believe I can share this one with you.
+
+<i>[Lady Windsong hops around you, and you feel something changing. Sewer treants will no longer be aggressive to you.]</i>}}
+* 100 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Lady Windsong]]

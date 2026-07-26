@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Braigon in Eltibule said, "Now you know the most bland, basic tofu dish. Take that back to your rakshasa and see what he thinks.
+
+And if you want to know how to make fancier kinds of tofu, I suppose I could trade that fancy knowledge for some fancy cheese..." 
+===Prerequisites===
+To start this quest, talk to '''[[Braigon]]''' in '''[[Eltibule]]'''.  The quest is available during the [[Fall Harvest]]. The quest [[Harvest Event: Rennet for Braigon]] must be completed first.
+
+===Preface===
+{{Quote|
+Now you know the most bland, basic tofu dish. Take that back to your rakshasa and see what he thinks.
+
+And if you want to know how to make fancier kinds of tofu, I suppose I could trade that fancy knowledge for some fancy cheese...
+}}
+
+===Requirements===
+* Cook a Tofu Dish for [[Ricatu]].
+* Deliver the Dish.
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Not Quite Meat|
+{{Quote|
+This is the fake meat? Hmm ... It's a bit bland. Doesn't really taste like turkey. Maybe chicken, though ...
+}}
+* 1000 Councils.
+* 1000 XP Cooking.
+}}
+
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Braigon]][[Category:Quests/Fall Harvest]]

@@ -1,0 +1,13 @@
+__NOTOC__
+{{Ability infobox
+| name = Death Trooper's Battle Cry
+| description = You are undefeatable, and your shout reinforces this fact.
+| level = 0
+| power cost = 0
+| reuse time = 180
+| range = 4 meters
+| skill = Unknown
+| keywords = {{KWAB|MajorHeal}}
+| special = Restore 350 Health. This ability can only be used when you are wearing four or more pieces of Gazluk Death Trooper Armor.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

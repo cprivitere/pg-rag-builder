@@ -1,0 +1,26 @@
+__NOTOC__
+{{NPC infobox
+|title            = Jurl the Boatman
+|image            = [[File:juritheboatman.png|300px]]
+|caption          = A boatman
+|zone             = Serbule
+|location         = On the docks to the northeast.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|
+Hey, a repeat customer! Heading to Sun Vale? Cost is 200.
+}}
+
+
+'''Jurl the Boatman''' offers you a ferry to the strange island of [[Sun Vale]]. His dialogue options will tell you a little bit about the place.
+
+If the player asks ''"Where else can you take me?"'', the '''Boatman''' can return the player to [[Anagoge Island]] by going through the dialogue prompts for 300 Councils. First time travelling to either location as an animal will incur an additional one time fee.
+==Location==
+; [[Serbule]]
+: By the docks to the northeast.
+
+
+[[Category:NPCs]][[Category:NoRiShin]]

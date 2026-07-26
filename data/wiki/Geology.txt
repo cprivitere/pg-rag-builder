@@ -1,0 +1,115 @@
+__NOTOC__
+{{Skill infobox
+|title            = Geology
+|image            = [[File:Geology (skill).jpg|242px]]
+|caption          = Garnet, Blue Spinel, Moss Agate, Citrine and Emerald
+|skilltype        = Trade Skill <!-- Pick the first correct one: Beast Form, Combat Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Anatomy Skill, Phrenology Skill, Trade Skill, Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 80 <!-- List without bonus levels -->
+|req              = [[Surveying]] <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Jaime Fatholm]], [[Fazzi]], [[Drummond Stonecurl]]<!-- List skill trainers, 3 max -->
+|gem = {{Item|Tsavorite}}
+}}
+{{Quote|Digging crystals out of the ground, and knowing what they do.}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Geology]] allows the collection of [[gems]] which are used for crafting and the [[teleportation]] skill. In order to raise this skill a player must first obtain the associated [[Surveying]] skill from [[Jaime Fatholm]], and use a '''Mineral Survey'''.
+* Mineral Surveys are named for both a region and color of gemstone. A [[Eltibule Orange Mineral Survey]] must be used in [[Eltibule]] and will only reward standard gems tagged with [[:Category:Items/OrangeCrystal]]. Some gems are less common than others, for example Obsidians are not as common when making Blue Mineral Surveys.
+* Speed bonus gems can be obtained if you collect another gem deposit shortly after collecting a previous gem deposit. Speed bonus loot table is based on the location and include some of the rarest gems in game.
+* Gems are used in various crafting recipes to create Enchanted equipment. They are placed into the Primary Crystal and Secondary Crystal slots as a method to determine what skills equipment will have when crafted.
+* Many NPCs like minerals as favor. Some will prefer specific gems, some will like colors categories, and a few will accept any of them.
+* Blue Mineral Surveys leading to [[Amethyst]]s and Green Mineral Surveys leading to [[Aquamarine]]s are quite popular due to their use in [[Teleportation]].
+=== In-Game Description ===
+Digging crystals out of the ground, and knowing what they do.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Jaime Fatholm]] teaches [[Surveying]], which is needed to level [[Geology]].
+* [[Drummond Stonecurl]] unlocks Geology Skill Levels 51-60.
+* [[Farsight Flemmings]] unlocks Geology Skill Levels 61-70 and 71-80.
+
+=== Massive Gems ===
+
+At [[Geology]] level 60, [[Farsight Flemmings]] can teach the ability to survey for massive gems. This will give all normal surveys created a 10% chance to be a massive gem survey instead of a normal gem survey. Massive gems can also be awarded from the Povus and Vidaria Mineshaft surveys taught by [[Sourgum]]. These require 85/90/95 [[Surveying]] and 70/75/80 [[Geology]], as well as consuming massive gems to create.
+
+== Connected Skills ==
+===== Secondary Skills: =====
+* [[Surveying]]
+* [[Mining]]
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Geology]] can be obtained from the following skills and levels:
+:; [[Mining]]
+:: Level 50
+:; [[Foraging]]
+:: Level 50
+:; [[Surveying]]
+:: Level 10, Level 44
+
+<!-- transclusing tables for easier edits/updates -->
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+== Geology Mechanics ==
+==== Types of Minerals and Common Terminology ====
+The [[Geology]] skill aids in the collection of multiple types of mineral items. Every Gem is a Crystal but not every Crystal is a Gem.
+* {{Item|Agate}} is both a Gem and a Crystal.
+* {{Item|Rubywall Crystal}} is a Crystal but not a Gem.
+* {{Item|Glowy Yellow Crystal}} is an Irradiated Crystal. Although these are a type of Crystal, they sometimes require [[Mining]] or [[Foraging]] to gather. This type can sometimes be hazardous to carry.
+* {{Item|Cow Malachite}} is an Attuned Gem crafted through a [[Sigil Scripting]] recipe.
+* {{Item|Maximized Sardonyx}} is a Catalyst Gem crafted through [[Geology]].
+* {{Item|Sapphire}} is an "Ilmari Gem," a name given to a group of ten gems added at the same time as the [[Ilmari]] zone. Ilmari Gems are often obtained as a Speed Bonus through [[Surveying]].
+
+Collecting gems and crystals is often accomplished through the use of Mineral Surveys crafted through [[Surveying]]. Once crafted, a specific level of [[Geology]] is required to understand each map.
+{{:Surveying/Geology Survey Maps}}
+
+==== Speed Bonus ====
+Whenever you finish a survey, a short timer starts. If you finish another survey within that time, you are rewarded with a speed bonus that gives you random minerals, ores, or other ingredients. The pool of random options depends on what zone you are in and what type of survey you're doing (mineral or mining). For example, completing a mineral survey in Serbule will be more likely to reward green or blue minerals, while Eltibule will likely reward orange and white. If you want to take advantage of the bonus, it is recommended to create a few Surveys, take a look at their locations, and plan which one should be done first, second, third, etc. in fast succession.
+
+For Serbule and Eltibule, the timer is randomly chosen from a number between 1.5-3.5 minutes. In Kur, it's 2.5-4.5. 
+
+{| {{STDT}}
+|-
+! Location !! Bonus
+|-
+| Serbule Hills<br>Serbule  || Blue or Green Gems, Pieces of Green Glass and, more rarely, 'Ilmari' gems
+|-
+| Eltibule<br>Kur || Orange or White Gems and, more rarely, 'Ilmari' gems. Bonus Ilmari gems - poor return in Eltibule; best return is Kur Green surveys.
+|}
+
+====Gem Tiers====
+{{:Gems}}
+
+==== Crystal Nodes ====
+Across [[Alharth]], crystal nodes can be discovered and mined for crystals or gemstones. They are often found deep in dungeons.
+{| {{STDT}}
+! style="width:150px;"| Deposit !! Geology Required || XP Gained || Locations
+|-
+| Blue Crystal || ??? || 80 || [[Borghild]]
+|-
+| Green Crystal || 20 || 80 || [[Borghild]]
+|-
+| Orange Crystal || ??? || 80 || [[Borghild]]
+|-
+| White Crystal || 40 || ??? || [[Necromancer's Courtyard]] 
+|-
+| [[Glowy Yellow Crystal]] || 45 || ??? || [[Gazluk]] Plateau 
+|-
+| Pulsing Crystal (drop semi-real hassium) || 50 || 150 || [[Gazluk]] Plateau 
+|-
+| Orange Crystals || 70 || ??? || [[Vidaria]]
+|}
+
+==== Crafting with Gems ====
+Gems are used in various crafting recipes to create Enchanted equipment. Gems can be placed into the Primary Crystal and Auxiliary Crystal slots in a recipe to determine what skills an item will have when crafted.
+* {{Item|Goshenite}} and {{Item| Sunstone}} are two Ilmari Gems which are intended to generate Generic treasure effects ([[All_Skills/Treasure_Effects]]). (Confirmed by Citan in [[Game_updates/2018-06-20]]).
+* {{Item|Danburite}} can currently be used for [[Endurance]] treasure effects ([[Endurance/Treasure_Effects]]), possibly including extraction of augments. <sup>Needs confirmation</sup>.
+* {{Item|Opal}}, {{Item|Goshenite}}, {{Item|Danburite}}, {{Item|Tiger's Eye}}, {{Item|Turquoise}}, {{Item|Emerald}}, {{Item|Sunstone}}, and {{Item|Morganite}} are eight Ilmari Gems used in [[Saddlery]] recipes.
+* {{Item|Ruby}} and {{Item|Sapphire}} are the only Ilmari Gems currently not used in Saddlery.
+* {{Item|Amethyst}} and {{Item|Aquamarine}} are used in [[Teleportation]].
+* {{Item|Diamond}} is useful for resurrection abilities through [[First Aid]] as well as [[Necromancy]] recipes. 
+* [[Dye Making]] uses gemstones, including the Ilmari Gems, in the creation of specific dyes.
+
+* The other "Ilmari" gems and Rubywall Crystals are currently set to Generic mods<sup>Needs confirmation</sup> .
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Geology Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Geology|
+{{:Xptables/Surveying}}
+}}
+
+[[Category:Skills]][[Category:Trade Skills]]

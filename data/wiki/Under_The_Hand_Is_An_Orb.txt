@@ -1,0 +1,37 @@
+__NOTOC__
+==Summary==
+Merriana in Serbule Hills said, "My new ally, the human Arif, has given me two excellent leads on where to find the sphere. I know you have questions about this sphere, but I dare not speak of it. Simply find it and return it to me!
+
+It should be quite simple to find. Arif says that he discovered a tunnel underneath a giant stone hand. Inside were letters and notes, which he left untouched. In a box, he said there was a magical crystal.
+
+Go! I shall reward you for it!"
+===Prerequisites===
+To start this quest, talk to '''[[Merriana]]''' in '''[[Serbule Hills]]'''.  The quest is available at {{Favor|Tolerated}} favor. The quest [[The Sewer Man]] must be completed first.
+
+===Preface===
+My new ally, the human Arif, has given me two excellent leads on where to find the sphere. I know you have questions about this sphere, but I dare not speak of it. Simply find it and return it to me!
+
+It should be quite simple to find. Arif says that he discovered a tunnel underneath a giant stone hand. Inside were letters and notes, which he left untouched. In a box, he said there was a magical crystal.
+
+Go! I shall reward you for it!
+===Requirements===
+* Collect {{Item|Strange Crystal Ball}} x1 (The one cold to touch)
+* Talk to Merriana
+
+===Rewards===
+{{Spoiler|Rewards for Under The Hand Is An Orb|
+{{Quote|
+Well, this orb is definitely intended to be a Naturesphere! The runes are right. But it's just a frost orb, it doesn't... Hmm.
+
+''[Merriana studies the orb.]''
+
+Whoever made this didn't fully know how to make a Naturesphere -- but they've figured out the first part! We must not let a Naturesphere fall into the wrong hands. The wizard who made this is going to be a problem.
+
+But first I have another lead from Arif, when you're ready. He claims a fully-working Naturesphere can be found near Serbule.
+}}
+* 100 favor towards [[Merriana]].
+* {{Item|Fulgurite}} x1
+* {{Item|Sulfur}} x1
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]], [[Category:Quests/Merriana]]

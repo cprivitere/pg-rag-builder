@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Mirraverre has asked you to find three pieces of a nightmare hidden in the ghost town to the north.
+
+===Prerequisites===
+To start this quest, talk to '''[[Mirraverre]]''' in the '''[[Phantom Ilmari Desert]]'''.  This quest is available at '''{{Favor|Despised}}''' favor and the quest [[Weakening the Dreamscape]] must be completed first.
+
+===Preface===
+{{Quote|
+Mirraverre has asked you to find three pieces of a nightmare hidden in the ghost town to the north.}}
+===Requirements===
+* Obtain Nightmare Piece x3 ({{Item|Nightmare of Gulagra's Visage}})
+* Talk to Mirraverre
+
+===Rewards===
+{{Spoiler|Rewards for Awakening the Nightmare|
+{{Quote|
+These are his fear? Let us see. Yes, this will work, for the dreamer's nightmare is our salvation: he fears Gulagra!
+
+It is done. As anticlimactic as that! Gulagra has been repelled. But I shall not end this dream. No, that would be too kind. The mortal who dared to dream it shall never awaken; this will stay in this nightmare until his body perishes.
+
+You have my gratitude! If you need to leave now, please go with my blessing. If you had a bit more time, there's one remaining clean up task to see to...
+}}
+* 5 favor towards [[Mirraverre]].
+* 850 Councils
+* Unlocks Quest [[The Anxiety Propagators]]
+}}
+
+
+[[Category:Quests]][[Category:Quests/Phantom Ilmari Desert Quests|02]][[Category:Quests/Mirraverre|02]]

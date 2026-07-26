@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Glortok in the Rahu Sewers said, "The ratkin seem all too comfortable... probably because of those soldiers who wander around protecting them. Kill the soldiers, and surely their morale will falter!"
+
+This Quest can be repeated after 66 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Chief Glortok]]''' in the '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Goblin Avenger: Necro Rats]] in order to undertake this quest.
+
+===Preface===
+The ratkin seem all too comfortable... probably because of those soldiers who wander around protecting them. Kill the soldiers, and surely their morale will falter!
+
+===Requirements===
+* Kill Ratkin Soldiers x15
+* Talk to Glortok
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You struck a blow for goblinkind. Impeccable.}}
+* {{Item|Xedrite}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Chief Glortok]]

@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Glajur, a goblin you met under a tower in Kur Mountains, asked for humanoid skulls in order to continue his phrenological research.
+
+===Prerequisites===
+To start this quest, talk to '''[[Glajur]]''' in '''[[Kur Tower]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I had hoped to master the phrenological areas of humans and elves from the corpses in this crypt, but I didn't find nearly enough skulls. Could you find some humanoid skulls for me? There should be a few lying around in here. Or heck, if you have some from elsewhere, I'd take those too. I just need to continue my studies!}}
+
+===Requirements===
+* Obtain 5 [[:Category:Items/HumanoidSkull|Humanoid Skulls]]
+* Talk to Glajur
+
+===Rewards===
+{{Spoiler|Rewards for Looking at Skulls|
+{{Quote|Great! Look, see this bump here? <i>He points to an almost imperceptible bump on one of the skulls.</i> Associated with feelings of neglect. And here, this skull has the same rise! All of the people here seem to have had low self esteem. How odd, I have to study this further.
+
+ Oh, right after you left, I remembered there's a <i>much</i> easier way to get skulls. You can just use a skull extractor on corpses! Here, you can take mine.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Skull Extractor}}
+}}
+[[Category:Quests]][[Category:Quests/Dungeons Quests]][[Category:Quests/Glajur]]

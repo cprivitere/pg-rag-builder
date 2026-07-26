@@ -1,0 +1,102 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Many Cuts
+| description = A flurry of attacks that leave the enemy disoriented and disheveled.
+| level = 3
+| power cost = 11
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|ManyCuts}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 10 Slashing
+| special = Target takes 10 Armor damage over 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Many Cuts 2
+| description = A flurry of attacks that leave the enemy disoriented and disheveled.
+| level = 15
+| power cost = 15
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|ManyCuts}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 31 Slashing
+| special = Target takes 20 Armor damage over 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Many Cuts 3
+| description = A flurry of attacks that leave the enemy disoriented and disheveled.
+| level = 27
+| power cost = 19
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|ManyCuts}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 45 Slashing
+| special = Target takes 30 Armor damage over 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Many Cuts 4
+| description = A flurry of attacks that leave the enemy disoriented and disheveled.
+| level = 40
+| power cost = 24
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|ManyCuts}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 78 Slashing
+| special = Target takes 50 Armor damage over 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Many Cuts 5
+| description = A flurry of attacks that leave the enemy disoriented and disheveled.
+| level = 52
+| power cost = 28
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|ManyCuts}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 128 Slashing
+| special = Target takes 70 Armor damage over 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Many Cuts 6
+| description = A flurry of attacks that leave the enemy disoriented and disheveled.
+| level = 64
+| power cost = 32
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|ManyCuts}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 180 Slashing
+| special = Target takes 90 Armor damage over 10 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Many Cuts 7
+| description = A flurry of attacks that leave the enemy disoriented and disheveled.
+| level = 76
+| power cost = 36
+| reuse time = 8
+| range = 5 meters
+| skill = Sword
+| keywords = {{KWAB|Attack}}{{KWAB|Sword}}{{KWAB|ManyCuts}}{{KWAB|Melee}}{{KWAB|CoreAttack}}
+| damage = 240 Slashing
+| special = Target takes 110 Armor damage over 10 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

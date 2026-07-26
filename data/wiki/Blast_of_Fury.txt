@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Blast of Fury
+| description = You blast anger through your horn's song. You must have a horn equipped.
+| level = 4
+| power cost = 15
+| reuse time = 12
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfFury}}
+| damage = 20 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Fury 2
+| description = You blast anger through your horn's song. You must have a horn equipped.
+| level = 14
+| power cost = 21
+| reuse time = 12
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfFury}}
+| damage = 43 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Fury 3
+| description = You blast anger through your horn's song. You must have a horn equipped.
+| level = 24
+| power cost = 26
+| reuse time = 12
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfFury}}
+| damage = 70 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Fury 4
+| description = You blast anger through your horn's song. You must have a horn equipped.
+| level = 34
+| power cost = 32
+| reuse time = 12
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfFury}}
+| damage = 105 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Fury 5
+| description = You blast anger through your horn's song. You must have a horn equipped.
+| level = 44
+| power cost = 36
+| reuse time = 12
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfFury}}
+| damage = 160 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Fury 6
+| description = You blast anger through your horn's song. You must have a horn equipped.
+| level = 54
+| power cost = 41
+| reuse time = 12
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfFury}}
+| damage = 234 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Fury 7
+| description = You blast anger through your horn's song. You must have a horn equipped.
+| level = 64
+| power cost = 45
+| reuse time = 12
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfFury}}
+| damage = 306 Nature
+}}
+|-
+|
+{{Ability infobox
+| name = Blast of Fury 8
+| description = You blast anger through your horn's song. You must have a horn equipped.
+| level = 74
+| power cost = 50
+| reuse time = 12
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|Attack}}{{KWAB|Bard}}{{KWAB|Ranged}}{{KWAB|BardBlast}}{{KWAB|BlastOfFury}}
+| damage = 388 Nature
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

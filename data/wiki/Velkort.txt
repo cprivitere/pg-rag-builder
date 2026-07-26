@@ -1,0 +1,229 @@
+__NOTOC__
+{{NPC infobox
+|title            = Velkort
+|image            = [[File:Velkort(npc).png|300px]]
+|caption          = He seems aloof.
+|zone             = Serbule
+|town = Serbule Keep
+|location         = Near [[Serbule Keep]]'s well.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Lore]], [[Fire Magic]], [[Archery]]
+|vendor           = Yes
+}}
+{{Quote|
+Fire Magic is my heart, but I believe there's something beyond it. Something even more deadly. If only I had time to do more research.
+}}
+[[Velkort]] lives in a house in [[Serbule]], and he is found walking around near the well. He is easily noticed as there is usually a Sentient Flame creature nearby (possibly one of his creations, neato!). Speak with him, and he may share the secrets of [[Fire Magic]].
+
+[[Velkort]] seems to harbor feelings for [[Blanche]].
+
+See [[Fire Dust]].
+
+== Location ==
+[[Serbule Keep]]
+:Usually walking around his Sentient Flame.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+[[Category:Favor/Rewards]]
+At {{Favor|Comfortable}} Velkort offers to hang-out.
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Practice basic magic drills (3h) {{Favor|Neutral}}|
+{{Quote|No, no, no, the index finger goes up and down rhythmically while the middle finger goes side to side. This is not complicated! And the pinky rotates simultaneously... right.
+
+Well, you at least understand the theory. Now just practice twenty thousand fireballs and you'll get the hang of it. Here. '''Velkort takes off his gloves.''' You need these more than I do. They'll smooth over all small errors in your prestidigitation.}}
+:27 favor with Velkort
+:50 [[Fire Magic]] XP
+:{{Item|Velkort's Classy Gloves}}
+}}
+{{Spoiler|Help develop superior fire techniques (16h)|
+:125 favor with Velkort
+:200 [[Fire Magic]] XP
+:{{Item|Pure Heart of Flame}}
+}}
+{{Spoiler|Practice throwing and dodging fireballs (2h)|
+{{Quote|
+Hah! You're quite agile for a neophyte. I hope your eyebrows grow back quickly. 
+}}
+:20 favor with Velkort
+:250 [[Fire Magic]] XP
+}}
+{{Spoiler|Collect fire dust from the forest (4h)|
+{{Quote|A truly tedious task, I know. But your moderately tolerable company made it less annoying.}}
+:35 favor with Velkort
+:100 [[Fire Magic]] XP
+:{{Item|Fire Dust}} x3
+}}
+{{Spoiler|Discuss magical theory (4h)|
+{{Quote|Well... you haven't convinced me that undead energy and elemental power come from the same source, but your theories are quite intriguing. Thank you for the discussion, it's far deeper than I had expected. Oh, no, take the leftover snacks with you. Otherwise I'd just feed them to Flamey.}}
+:35 favor with Velkort
+:50 [[Lore]] XP
+:{{Item|Mild Cheddar Cheese}}
+}}
+{{Spoiler|Play with Velkort's sentient flame (60m) {{Favor|Best}}|
+{{Quote|No, I don't really know what he eats. He's not undead, and he's not really an Elemental. The reason I kept him around was because he was so mysterious... now, though, I keep him around because he's so cute. Aren't you, little guy? Yes you are! Ahem.}}
+:10 favor with Velkort
+:25 [[Lore]] XP
+}}
+
+== Quests ==
+<dpl>
+category = Quests/Velkort
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Lore]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Word of Power Scroll
+ |skilllevel=0
+ |cost=500
+ |favor=Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Fire Magic]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Introductory Fire Magic Research
+ |skilllevel=0
+ |cost=166
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 5
+ |skilllevel=5
+ |cost=300
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 10
+ |skilllevel=10
+ |cost=466
+ |favor=Neutral
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 15
+ |skilllevel=15
+ |cost=966
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 20
+ |skilllevel=20
+ |cost=1133
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 25
+ |skilllevel=25
+ |cost=1220
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 30
+ |skilllevel=30
+ |cost=9359
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 35
+ |skilllevel=35
+ |cost=11363
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 40
+ |skilllevel=40
+ |cost=14400
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 45
+ |skilllevel=45
+ |cost=17400
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Fire Magic Research Level 50
+ |skilllevel=50
+ |cost=20640
+ |favor=Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Archery]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Fire Arrow
+ |skilllevel=5
+ |cost=450
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Fire Arrow 2
+ |skilllevel=15
+ |cost=1450
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Fire Arrow 3
+ |skilllevel=25
+ |cost=2450
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fire Arrow 4
+ |skilllevel=35
+ |cost=4450 
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Fire Arrow 5
+ |skilllevel=45
+ |cost=6950
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fire Arrow 6
+ |skilllevel=55
+ |cost=9950
+ |favor=?
+}}
+{{NPC training row
+ |ability=Fire Arrow 7
+ |skilllevel=65
+ |cost=14950
+ |favor=?
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Pure Heart of Flame}}
+|RiShin Family = {{Item|Pure Heart of Flame}} x3
+}}
+== Conversations ==
+
+[[Category:NPCs]]

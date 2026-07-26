@@ -1,0 +1,12 @@
+==Update Notes: July 6, 2023<==
+Another quick update:
+:- Rebalanced all abilities and treasure effects that generate/restore Power. We have a list of specific changes, but it's quite long so we'll save that for the discord-linked patch notes. The short version is that all such abilities and treasure effects are more potent to varying degrees. In many cases the Power restoration increase is pretty dramatic.
+:- Fixed a bug that sometimes caused gathering animations to not play.
+:- Skeletons now play the correct attack animations again.
+:- Fixed sit/nap animations for [[Nightshade]]'s bed, a moldy bed in the [[Carpal Tunnels]], and Utimak's chairs.
+:- Fixed an invisible boulder in [[Eltibule]].
+:- Added an Elite Training Dummy with 100k hit points to [[Serbule]].
+:- Lowered cost of Glamour Berries on [[Riston]] from 20 LEC to 5 LEC each (but they are now account-bound upon purchase)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

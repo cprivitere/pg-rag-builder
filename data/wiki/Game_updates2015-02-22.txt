@@ -1,0 +1,71 @@
+==Feb 22 Update #2==
+:Rebooted the server to fix some missing storage options and to add an exit to the goblin dungeon. 
+:There's a bug with the feedback form in-game where you can't change the bug type back if you change it -- this will be fixed in an update soon. (Have to build a new client, so it will be fixed overnight.)
+
+==Feb 22 Update==
+Lots of stuff in this update! Some combat nerfs, some storage buffs, some new content, a million fixes.
+=== Note:=== 
+:I've seen reports about several NPCs missing their storage. (They are generally the ones out in the middle of nowhere.) This is unintentional and will be corrected soon! You should still have access to all your items regardless. (The bugged NPCs will just shrink their storage down as you remove the items, so you won't be able to put stuff back in.)
+
+===<b>High-Level Combat Changes, part 1</b>===
+As I've mentioned in the forums, players at high level are killing things WAY too fast. I need to make level 50 combats last longer. This is important for all aspects of gameplay. Right now, monsters die in just literally two or three seconds, which means crowd control is pointless, healing is of dubious use, area-effect attacks are insanely overpowered, and... basically, the whole game gets out of whack.
+:There are a lot of things that need to change in order to make combat last longer: player damage needs to go down, monster damage needs to go down, Power costs need to go down (so you can fight longer), and XP amounts need to go up (because you won't be killing as many monsters as before). I also need to take care not to make low-level combat harder, because this is primarily a level 40's-50's problem. So this is a big project!
+:I'll be slowly pivoting things towards that goal. I've made a few small steps in this update:
+: - Slightly lowered Power costs. This is most noticeable at high level. (And some skills are more noticeable than others.)
+: - Equipment stacking change: equipment that boosts a skill's entire damage by some percent now only boost's the ability's base damage by that amount. Basically, the effect no longer "stacks" with other treasure buffs -- it only buffs the abilities' natural damage, not every piece of equipment you have. This will noticeably lower your damage output. (At high level, it might lower it by as much as 25%, depending on your gear and setup.)
+: - Non-Elite, non-boss monsters with high damage for their level (e.g. [[Hook Beast|Hook Horrors]], [[Yeti Thrower|Yeti Throwers]], [[Deinonychus|Deinonychuses]], etc.) have had their damage reduced by around 15%
+: - A few monster tweaks, e.g. [[Snail (mob)|Snails]] have had their armor reduced a little bit
+
+===<b>New Launcher (soon)</b>===
+A new version of the launcher will be released later today (or early tomorrow). It is backwards-compatible with the current launcher. All it does is add some new features, such as the ability to choose an installation directory.
+: - If you were one of the few people who got a performance boost from DirectX 11 mode, you can manually turn it on in the new Launcher before the game begins
+: - New launcher has an option "Safe Mode" which resets some common resolution settings to sane defaults; useful if you are having trouble getting the game to run
+: - The new launcher correctly communicates with the game to retain your screen shots. If you use the new launcher, your old screen shots will no longer be automatically deleted whenever you start the game
+
+===<b>"[[Dark Chapel]]" Extension</b>===
+By request (and because it sounded fun) (and because I want more data about large group combat) there is a large new addition to the [[Dark Chapel]]. It includes numerous new sub-bosses, one new (theoretically) epic boss, and a handful of one-day-repeat loot chests. Please give feedback on this extension!
+
+===<b>[[Goblin Dungeon]] Revision</b>===
+The goblin dungeon underneath [[Eltibule]] keep was originally designed for small groups of level 20 players. But most players who ventured into the dungeon were about level 30, and soloing it. So I've re-statted the dungeon to be more soloable. The monsters are only a little tougher, actually, but have much better loot and slower respawn rates.
+: - Added another wing to the goblin dungeon
+: - Added a half-dozen loot chests that can be used daily
+: - Goblin equipment is higher-quality, with better innate stats and better randomly-generated effects. NOTE: a few pieces of goblin equipment now have a requirement of Endurance level 20. If you are wearing this type of armor when you log in and your [[Endurance]] is below 20, it will become un-equipped. Apologies.
+: - The effect of the yellow fog in the goblin dungeon has been toned down
+: - The effect of The Fog's curse has been toned down. (Doesn't affect people who currently have the curse)
+: - Nerfed the everliving crap out of the "green and red annexes" of the goblin dungeon under [[Eltibule Keep]]. They now should actually be a fun and achievable activity for a group of 3 level 35 players. (Theoretically.) Improved the odds of better drops in the chests, too. Please give this a shot if you're in that level range and send feedback! (A tip: on the red side, destroy the crystals in the room ASAP!) (Another tip: don't let [[Ciervos_The_Shadow|Ciervos]] rage if you can help it.)
+
+===<b>Other Changes</b>===
+: - Removed the icy floor from most of the [[Winter Nexus]]. This creates its own visual issues, but hopefully fixes most exploit scenarios
+: - NPC storage now scales with your Favor level, giving you more slots the higher Favor you are. You can now get MUCH more storage on most storage NPCs.
+: - Some NPCs now have restrictions on what you can put in their storage. These NPCs typically have more slots available than "general" storage NPCs. The most prominent NPC of this type is [[Joeh]], who only lets you store Equipment. (If you already had items in storage that don't meet the new requirements, you can still take those items out of storage, but you won't be able to put them back in.)
+: - Many storage chests (such as [[Ivyn]]'s Storage Chest) can now hold more stuff
+: - [[Marna]] in Serbule now has a Storage option to give newbies some more storage space
+: - Fixed missing bump mapping from player werewolves
+: - Winter [[Lycanthropy|Werewolf]] form once again has a white-furred werewolf appearance!
+: - The Winter Coat buff from Winter Wolf form only lasted 30 minutes, which was dumb. It is now a permanent effect while in Winter Wolf form: +5 indirect cold mitigation, -2 indirect fire mitigation
+: - Adjusted the formula for [[Howling]]
+: - Cranked the brightness down on [[Serbule]]'s sun by 20% or so. Less dramatic on max settings, but less washed-out and freakish on low settings
+: - Treasure that said it worked on Debilitating Blow actually worked on Hacking Blade
+: - Hacking Blade equipment that boosted bleed damage actually caused the PLAYER to bleed that amount instead
+: - The /stuck command has been removed. Instead, there is an option on the Send Report page to explain how you got stuck, and that will teleport you after you send the report.
+: - There is a new option to report abusive players in the bug-report page. The monitoring tools are still being worked out and may take a while to get settled, but it's a better option than nothing atm
+: - Re-re-fixed the damned arrow recipe.
+: - Examining golems no longer shows a super-long combat card
+: - Cows now longer moo when they take damage
+: - Fixed bugs with skeletal archers' sound effects
+: - [[Ursula]] has her laugh sound effects back
+: - Fixed bugs keeping you from using bottles of water if you were holding Gulagra's Sigil Key (or other unique keys) in your inventory
+: - Various pieces of equipment were missing the ability to have crafting augments (including Orcish Gladiator items and Spring Fae items); these items have been retroactively fixed
+: - Removed the light source from monster fireballs. This should help with lag when there are a lot of fire-blasting monsters on-screen
+: - The [[Kur Tower]] dungeon is undergoing revision, but the new additions won't be visible until the next update. However, the scale of the dungeon has changed (it's larger). If you logged out while inside the Kur Tower, you may find that you are not actually in the dungeon when you log in. This is not a big deal: you will simply fall through the empty nothingness until you die, and then you can respawn as normal. (If you are using Hardcore Mode, don't worry, this will not break your items -- you never get broken items from "falling off the world" deaths.)
+: - [[Hardcore Mode|Hardcore]] players can now learn a simple recipe (available from the Hardcore death penalty sign in Serbule) that lets them teleport back to the entrance of dungeons or zones.
+: - The level 20 [[Teleportation]] spell, "Recall Beginnings", no longer has any chance to consume its ingredients
+: - Repaired [[Cow]] animations that had gotten broken (or had never worked right). This includes their /wave, /dance, and /laugh emotes. (They also have /howl and /sit animations.)
+: - Lowered the resolution of the "Screenshot: High-Res" command so that it doesn't crash on cards with modest ram
+: - When you take a screenshot, the filename of that screenshot is now put into the chat history
+: - If the game is unable to download critical configuration files due to a persistent networking error, it will now display a large permanent error message to let you know why the game is acting wonky. (Previously, it showed no errors unless you looked at the log screen.)
+: - Fullscreen mode issues addressed:
+: - - Your in-game graphics settings are applied on the login screen, instead of waiting until you log a character into the game
+: - - If you enter/leave full-screen mode via a method other than the Options screen (such as by pressing Alt+Enter), the game now notices this and doesn't revert your changes when you enter a new area
+: - - The game no longer screws up your preferred resolution when you first manually enter full screen mode
+[[Category:Game updates]]

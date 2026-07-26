@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Tough Hoof
+| description = Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water.
+| level = 15
+| power cost = 26
+| reuse time = 12
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Melee}}{{KWAB|CowAttack}}{{KWAB|ToughHoof}}{{KWAB|BodypartAttack}}
+| damage = 34 Crushing
+| special = For 8 seconds, each time target attacks and damages you, heal 10 Health. For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Tough Hoof 2
+| description = Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water.
+| level = 30
+| power cost = 35
+| reuse time = 12
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Melee}}{{KWAB|CowAttack}}{{KWAB|ToughHoof}}{{KWAB|BodypartAttack}}
+| damage = 67 Crushing
+| special = For 8 seconds, each time target attacks and damages you, heal 20 Health. For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Tough Hoof 3
+| description = Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water.
+| level = 45
+| power cost = 44
+| reuse time = 12
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Melee}}{{KWAB|CowAttack}}{{KWAB|ToughHoof}}{{KWAB|BodypartAttack}}
+| damage = 120 Crushing
+| special = For 8 seconds, each time target attacks and damages you, heal 30 Health. For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Tough Hoof 4
+| description = Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water.
+| level = 60
+| power cost = 52
+| reuse time = 12
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Melee}}{{KWAB|CowAttack}}{{KWAB|ToughHoof}}{{KWAB|BodypartAttack}}
+| damage = 198 Crushing
+| special = For 8 seconds, each time target attacks and damages you, heal 40 Health. For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Tough Hoof 5
+| description = Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water.
+| level = 70
+| power cost = 58
+| reuse time = 12
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Melee}}{{KWAB|CowAttack}}{{KWAB|ToughHoof}}{{KWAB|BodypartAttack}}
+| damage = 253 Crushing
+| special = For 8 seconds, each time target attacks and damages you, heal 50 Health. For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage.
+}}
+|-
+|
+{{Ability infobox
+| name = Tough Hoof 6
+| description = Focus your efforts on defeating a single enemy, letting their attacks roll off of you like water.
+| level = 80
+| power cost = 64
+| reuse time = 12
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|Attack}}{{KWAB|Cow}}{{KWAB|Melee}}{{KWAB|CowAttack}}{{KWAB|ToughHoof}}{{KWAB|BodypartAttack}}
+| damage = 316 Crushing
+| special = For 8 seconds, each time target attacks and damages you, heal 60 Health. For 8 seconds, each time target attacks and damages you, they suffer 0 Trauma damage.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Ice Nova
+| description = Blast all nearby enemies with a numbing wave of cold.
+| level = 5
+| power cost = 17
+| reuse time = 10
+| range = 2 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceNova}}{{KWAB|Burst}}{{KWAB|NiceAttack}}{{KWAB|IceMagicAoE}}
+| damage = 18 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Nova 2
+| description = Blast all nearby enemies with a numbing wave of cold.
+| level = 20
+| power cost = 26
+| reuse time = 10
+| range = 2 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceNova}}{{KWAB|Burst}}{{KWAB|NiceAttack}}{{KWAB|IceMagicAoE}}
+| damage = 52 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Nova 3
+| description = Blast all nearby enemies with a numbing wave of cold.
+| level = 35
+| power cost = 35
+| reuse time = 10
+| range = 2 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceNova}}{{KWAB|Burst}}{{KWAB|NiceAttack}}{{KWAB|IceMagicAoE}}
+| damage = 88 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Nova 4
+| description = Blast all nearby enemies with a numbing wave of cold.
+| level = 45
+| power cost = 40
+| reuse time = 10
+| range = 2 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceNova}}{{KWAB|Burst}}{{KWAB|NiceAttack}}{{KWAB|IceMagicAoE}}
+| damage = 137 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Nova 5
+| description = Blast all nearby enemies with a numbing wave of cold.
+| level = 60
+| power cost = 48
+| reuse time = 10
+| range = 2 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceNova}}{{KWAB|Burst}}{{KWAB|NiceAttack}}{{KWAB|IceMagicAoE}}
+| damage = 231 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Nova 6
+| description = Blast all nearby enemies with a numbing wave of cold.
+| level = 70
+| power cost = 53
+| reuse time = 10
+| range = 2 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceNova}}{{KWAB|Burst}}{{KWAB|NiceAttack}}{{KWAB|IceMagicAoE}}
+| damage = 295 Cold
+}}
+|-
+|
+{{Ability infobox
+| name = Ice Nova 7
+| description = Blast all nearby enemies with a numbing wave of cold.
+| level = 80
+| power cost = 58
+| reuse time = 10
+| range = 2 meters
+| skill = Ice Magic
+| keywords = {{KWAB|Attack}}{{KWAB|IceMagic}}{{KWAB|IceNova}}{{KWAB|Burst}}{{KWAB|NiceAttack}}{{KWAB|IceMagicAoE}}
+| damage = 369 Cold
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

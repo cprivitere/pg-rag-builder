@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+This quest is a level 30 Druidic Emergency occurring in [[Serbule]] with multiple variations depending on the number of Druids online at the start of the event. Druids will receive the '''Druidic Emergency''' debuff, granting +10% Base Druid Damage while blocking earned combat experience, crafting experience, and combat wisdom. This debuff stays until the event has been completed.
+
+===Prerequisites===
+To participate in this quest, the player must be a [[Druid]]. An hour before the beginning of the event, all Druids will receive a '''Druidic Premonition''' indicating the coming of a Druidic Emergency.
+
+===Preface===
+{{Quote|Druids, assemble in [[Serbule]] immediately. Multiple [[Kraken Hatchling|kraken eggs]] have been spotted there, along with several [[Young Kraken|young adults]]. Krakens are not indigenous to this continent and represent a terrible threat to nature. Defeat them now, before they become the size of cities!}}
+
+===Requirements===
+{{Spoiler|Expected Participants: 10|
+* Kill 2 Young Krakens
+* Kill 15 Kraken Eggs and Hatchlings}}
+{{Spoiler|Expected Participants: 20|
+* Kill 4 Young Krakens
+* Kill 30 Kraken Eggs and Hatchlings}}
+{{Spoiler|Expected Participants: 30|
+* Kill 8 Young Krakens
+* Kill 60 Kraken Eggs and Hatchlings}}
+===Rewards===
+{{Spoiler|Rewards for The Krakens Are Hatching!|
+{{Quote|Good work, my druids. The kraken incursion seems to be over. Just clean up any loose ends and then return to your peaceful lives with Dreva's blessing.}}
+
+*Dreva's Blessings (Druidic Currency)
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Druidic Emergencies]]

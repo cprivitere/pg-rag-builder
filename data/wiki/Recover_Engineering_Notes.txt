@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Engineer Crall sent me to recover his notes from the mining camp.
+
+===Prerequisites===
+To start this quest, talk to '''[[Engineer Crall]]''' in '''[[Vidaria]]'''. The quest is available at ?? favor.
+
+===Preface===
+{{Quote|When I left the mining camp, I did so in a hurry. Rock-Wrecker and I got into... let's just say, we did not see eye-to-eye. At any rate, I left behind some valuable notes on a new mining device I was working on. I would hate for them to pick up the design where I left off, and use it for their nefarious goals. If you happen upon their camp, could you retrieve my notes while you're there? I wouldn't be surprised if Rock-Wrecker seized them for himself already.}}
+
+===Requirements===
+* Obtain {{Item|Crall's Mining Device Notes}}
+* Talk to Engineer Crall
+
+===Rewards===
+{{Spoiler|Rewards for Recover Engineering Notes|
+{{Quote|My notes! You found them! This is wonderful news.
+
+Ah, it looks like one of the other engineers picked up where I've left off, which is what I feared. I hope they didn't- hm, wait a minute. Oh, they swapped the gear ratios, and moved the crystal to there.. that just might work!}}
+
+* 100 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Engineer Crall]]

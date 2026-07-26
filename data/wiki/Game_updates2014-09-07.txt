@@ -1,0 +1,22 @@
+==September 7, 2014==
+
+Bug fixes, and some tweaks relating to the changes from yesterday.
+
+* Slowed down respawn times in dungeons based on feedback. This is probably most dramatically noticeable in goblin dungeons
+* Increased the duration of flower appreciation to 1 hour, same as food, so that it's a little less hassle to use flowers
+
+* (If you're running out of Power, consider appreciating flowers! They can give you surprisingly large Power boosts at higher flower levels. Drinks are very useful also.)
+
+* Adjusted the rats in Serbule so that you can tame them as soon as you have Animal Handling. (We added level requirements to tame higher-level pets, and the rats in Serbule were too high for level 1 animal handlers — people had to go all the way back to the newbie cave to tame their first rat.)
+
+* "Red rooms" of new dungeon: dropped the wall-mounted turrets to the floor, as it was apparently very hard to tell where the damage was coming from. (They were supposed to require ranged attacks, but now they can be melee'd... oh well.) Also reduced their number from 6 to 3.
+
+* Increased the production cost of Chicken Drumsticks, Mystery Jerky, and Venison Jerky (they didn‘t require any wood chips)
+* Cheese casks can now be placed in every "cave-like" dungeon, not just a couple
+* Added the next two tiers of mushroom smoothies. Their recipes are available from Jaw the Myconian
+
+* Since Kalaba doesn't talk to animals, the Suspicious Cow now sells "Push Onward" ability to cows/pigs/deer. Still need a vendor for wolves/spiders
+
+* The forge near Tadion works again (just open your crafting window near it and you can forge or cook)
+
+[[Category:Game updates]]

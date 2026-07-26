@@ -1,0 +1,60 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Marking Cut
+| description = A quick attack that hinders your enemy's ability to avoid subsequent attacks.
+| level = 8
+| power cost = 8
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|MarkingCut}}{{KWAB|Melee}}{{KWAB|KnifeCut}}{{KWAB|MeleeKnife}}
+| damage = 14 Slashing
+| special = Target's Evasion is reduced by 10 for 10 seconds. (This effect stacks with itself.).
+}}
+|-
+|
+{{Ability infobox
+| name = Marking Cut 2
+| description = A quick attack that hinders your enemy's ability to avoid subsequent attacks.
+| level = 28
+| power cost = 13
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|MarkingCut}}{{KWAB|Melee}}{{KWAB|KnifeCut}}{{KWAB|MeleeKnife}}
+| damage = 40 Slashing
+| special = Target's Evasion is reduced by 11 for 15 seconds. (This effect stacks with itself.).
+}}
+|-
+|
+{{Ability infobox
+| name = Marking Cut 3
+| description = A quick attack that hinders your enemy's ability to avoid subsequent attacks.
+| level = 48
+| power cost = 18
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|MarkingCut}}{{KWAB|Melee}}{{KWAB|KnifeCut}}{{KWAB|MeleeKnife}}
+| damage = 95 Slashing
+| special = Target's Evasion is reduced by 12 for 15 seconds. (This effect stacks with itself.).
+}}
+|-
+|
+{{Ability infobox
+| name = Marking Cut 4
+| description = A quick attack that hinders your enemy's ability to avoid subsequent attacks.
+| level = 68
+| power cost = 22
+| reuse time = 8
+| range = 4 meters
+| skill = Knife Fighting
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|MarkingCut}}{{KWAB|Melee}}{{KWAB|KnifeCut}}{{KWAB|MeleeKnife}}
+| damage = 170 Slashing
+| special = Target's Evasion is reduced by 15 for 15 seconds. (This effect stacks with itself.).
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

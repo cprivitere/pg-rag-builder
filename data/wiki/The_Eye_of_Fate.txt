@@ -1,0 +1,45 @@
+__NOTOC__
+==Summary==
+Ashk in Rahu believes that a [[Eye of Fate|gigantic eyeball]] is hunting him whenever he uses his augury powers.
+
+Ashk said, "In the desert near Rahu, look for a giant skull embedded in the face of a cliff. Ignore the skull and look for a large staff in the sand near it. Stand near the staff and say something like, 'I'm going to start soothsaying now!' That should get the eye to emerge. Be ready! It is no ordinary foe. You will likely need help. Slay the creature and you shall have my utmost appreciation!"
+
+'''Note: this is a difficult encounter that will require a small group.'''
+
+===Prerequisites===
+To start this quest, talk to '''[[Ashk]]''' in '''[[Rahu]]'''.
+
+===Preface===
+{{Quote|
+Oh, adventurer<!-- Insert your name here -->... you seem a strong warrior. Is that true? I have a delicate matter that I need assistance with.
+
+'''What do you need?'''
+
+There is a malevolent spirit nearby that I seem to have attracted the attention of. When I soothsay, I can sense it staring at me. Each time it comes a tiny step closer. I would like to pass on my techniques to an eager student some day, but until that creature is gone, it is too risky.
+
+'''You want me to kill this spirit?'''
+
+Yes. I have tried some techniques for dissuasion of evil entities but it is not deterred. It needs to stop bothering me! I think killing it is the only option. It is a gigantic evil eye... quite unpleasant.
+
+'''Okay. Where is it? How do I kill it?'''
+
+In the desert near Rahu, look for a giant skull embedded in the face of a cliff. Ignore the skull and look for a large staff in the sand near the base of the cliff. Stand near the staff and say something like, 'I'm going to start soothsaying now!' That should get the eye to emerge. Be ready! It is no ordinary foe. You will likely need help. Slay the creature and you shall have my utmost appreciation!
+
+'''What's the staff for? And how do I kill the beast?'''
+
+The staff is a sort of totem that I installed. It helps me see deeper into the beyond. But perhaps it is a two-way vision, for the creature found me soon after. As for killing it, my visions suggest that it abhors cold -- hence the desert home. The giant exposed eyeball means it is also vulnerable to arrows, and I suspect bees or insects or the like could seriously harm it. Fire will do very little to it. Oh, and it is quite dangerous -- you will want to bring a companion or two. I would join you, but my martial skills are nil.
+
+'''I'm off to kill the creature!'''
+}}
+
+===Requirements===
+* Kill the [[Eye of Fate]]
+* Talk to Ashk
+
+===Rewards===
+{{Spoiler|Rewards for The Eye of Fate|
+{{Quote|To be added.}}
+
+* {{Item|Coinpurse}} x5
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Ashk]]

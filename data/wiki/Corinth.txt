@@ -1,0 +1,212 @@
+__NOTOC__
+{{NPC infobox
+|title            = Corinth
+|image            = [[File:Corinth (npc).png|300px]]
+|caption          = Speaking aloud to himself as he writes
+|zone             = Statehelm
+|town = Statehelm
+|location         = Bard College
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist        = No scary animals
+|skilltrainer     = [[Armor Augmentation]], [[Ancillary-Armor Augmentation]],<br>[[Weapon Augmentation]], [[Jewelry Augmentation]]
+}}
+{{Quote|source=[[Corinth]]|...and here bardic magic works similarly to augmentation, for success is very much a matter of restraint. Even in... oh!}}
+[[Corinth]] is the Head Augmenter of the [[Augmenter's Guild of Statehelm]], a guild of craftsman in [[Statehelm]] dedicated to mastering [[Augmentation]] and helping the willing use Augments. 
+
+He wrote the widely distributed instructional book [[Augments for Everyone]].
+== Location ==
+; [[Statehelm]]
+: [[Corinth]] can be found in an office at the Bard College.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards ===
+[[Corinth]] rewards his friends with additional training options.
+=== Hang Outs ===
+<!--
+{{Spoiler|Explore new mind-altering compounds(4h)|
+{{Quote|
+Echur said, "That one was too hallucinogenic for me. I prefer ones that focus the mind, not distract it. You keep the rest."
+}}
+:35 favor with [[Echur]]
+:25 [[Mycology]] XP
+:4 x {{Item|Blusher Mushroom}}
+}}
+-->
+== Quests ==
+[[Corinth]] does not offer any quests at '''{{favor|Neutral}}''' favor.
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Armor Augmentation]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Armor Augmentation{{pipe}}Unlock Armor Augmentation Skill Levels 81-90
+ |skilllevel = 80
+ |cost=400 SR or 800000
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Extract Chest Augment (Level 91-120)
+ |skilllevel= 81
+ |cost= 47640
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Extract Leg Augment (Level 91-120)
+ |skilllevel= 85
+ |cost= 51960
+ |favor= Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Armor Augmentation{{pipe}}Unlock Armor Augmentation Skill Levels 91-100
+ |skilllevel = 90
+ |cost=600 SR or 1200000
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Ancillary-Armor Augmentation]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Ancillary-Armor Augmentation{{pipe}}Unlock Ancillary-Armor Augmentation Skill Levels 81-90
+ |skilllevel = 80
+ |cost=400 SR or 800000
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Extract Helm Augment (Level 91-120)
+ |skilllevel= 81
+ |cost= 47640
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Extract Boot Augment (Level 91-120)
+ |skilllevel= 85
+ |cost= 51960
+ |favor= Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Ancillary-Armor Augmentation{{pipe}}Unlock Ancillary-Armor Augmentation Skill Levels 91-100
+ |skilllevel = 90
+ |cost=600 SR or 1200000
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Weapon Augmentation]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Weapon Augmentation{{pipe}}Unlock Weapon Augmentation Skill Levels 81-90
+ |skilllevel = 80
+ |cost=400 SR or 800000
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Extract Main-Hand Augment (Level 91-120)
+ |skilllevel= 81
+ |cost= 47640
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Extract Off-Hand Augment (Level 91-120)
+ |skilllevel= 85
+ |cost= 51960
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Extract Glove Augment (Level 91-120)
+ |skilllevel= 90
+ |cost= 57600
+ |favor= ?
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Weapon{{pipe}}Unlock Weapon Augmentation Skill Levels 91-100
+ |skilllevel = 90
+ |cost=600 SR or 1200000
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Jewelry Augmentation]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Jewelry Augmentation{{pipe}}Unlock Jewelry Augmentation Skill Levels 81-90
+ |skilllevel = 80
+ |cost=400 SR or 800000
+ |favor=?
+}}
+{{NPC training row
+ |recipe = Extract Ring Augment (Level 91-120)
+ |skilllevel= 81
+ |cost= 47640
+ |favor= Friends
+}}
+{{NPC training row
+ |recipe = Extract Necklace Augment (Level 91-120)
+ |skilllevel= 85
+ |cost= 51960
+ |favor= Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Jewelry Augmentation{{pipe}}Unlock Jewelry Augmentation Skill Levels 91-100
+ |skilllevel = 90
+ |cost=600 SR or 1200000
+ |favor=?
+}}
+|}
+
+== Services ==
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Corinth]]|
+Hello. I am Corinth, the Head of Augmentation for the Statehelm School of Magic.
+
+'''Do you teach any courses?'''
+
+Here at the Bard school? Oh no no, I'm not a bard. I'm just visiting from the School of Magic.
+
+Although I'm also not teaching any courses there at the moment either. But I have taken on tutelage roles in the past. 
+
+But you must understand that my time is precious, so I charge quite high fees, and can work only with the truly wise.
+
+If there's nothing else? I'm sorry to be brusque; I simply have so much work to do!
+
+'''I won't keep you. Goodbye.'''}}
+{{Quote|source=[[Corinth]]|
+We all know that intent can directly invoke a simple attuned enchantment. But what if I told you that you could convert wisdom itself into power? No, no, too enticing. The first sentence of a book should be dull so that it scares away the unworthy.
+
+I'm sorry, I'm working on my new book. Do you need something?}}
+{{Quote|source=[[Corinth]]|
+To imbue an instrument with magic is to amplify the voice of the soul that wields it. That soul must, of course, be worthy of the power they try to wield.
+
+Sadly, weak souls can only command weak enchantments. A weak soul is not a mark of shame. It's simply a matter of fate.}}
+
+[[Category:NPCs]]

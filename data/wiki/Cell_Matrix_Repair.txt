@@ -1,0 +1,12 @@
+__NOTOC__
+{{Ability infobox
+| name = Cell Matrix Repair
+| description = Activate microscopic automatons in your suit to repair physical damage.
+| level = 0
+| power cost = 50
+| reuse time = 120
+| range = 4 meters
+| skill = Unknown
+| special = Restore 15 Health Per Second. Restore 20 Armor Per Second. For 15 seconds, regain health and armor every second. This ability can only be used when you are wearing four or more pieces of Fae Navy Armor.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

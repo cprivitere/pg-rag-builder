@@ -1,0 +1,4 @@
+==Update Notes: July 19, 2020==
+Client-only patch to tweak the movement physics of fox players.
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

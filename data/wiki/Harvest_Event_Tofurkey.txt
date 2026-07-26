@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+Kelim in Amulna said, "If Ricatu thinks my spices will help his fake turkey, more power to him. Why don't you cook him a fake turkey meal and ask him how it tastes?
+
+I don't have any recipes for that -- you'll have to find one yourself!"
+===Prerequisites===
+To start this quest, talk to '''[[Kelim]]''' in '''[[Ilmari]]'''.  The quest is available during the [[Fall Harvest]]. The quest [[Harvest Event: Cranberries!]] must be completed.
+
+===Preface===
+{{Quote|
+If Ricatu thinks my spices will help his fake turkey, more power to him. Why don't you cook him a fake turkey meal and ask him how it tastes?
+
+I don't have any recipes for that -- you'll have to find one yourself!
+}}
+
+===Requirements===
+* Make a [[:Category:Items/TofurkeyDish|Tofurkey Dish]] for [[Ricatu]]
+* Deliver the Dish
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Tofurkey!|
+{{Quote|
+Hmm ... Hmm! Yeah, this will do! It's not quite right but it isn't horrible. Thanks!
+
+I think I'll call it tofurkey. It's a pun, or play on words, see?
+}}
+* {{Item|Xogrite Chunk}} x10
+* 1000 XP Cooking
+}}
+
+
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/Kelim]][[Category:Quests/Fall Harvest]]

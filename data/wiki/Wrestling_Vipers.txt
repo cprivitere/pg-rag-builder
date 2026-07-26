@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+[[Sir Hughes]] in [[Statehelm]] asked you to defeat 8 [[Swamp Viper]] in [[Povus]].
+
+===Prerequisites===
+To start this quest, talk to '''[[Sir Hughes]]''' in '''[[Statehelm]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|You want to get better at hand-to-hand combat fast? I know just the thing. Wrestle giant snakes. It works! Of course, you need a certain level of skill beforehand. That's why we don't use this technique with raw recruits. But you're not raw, are you? Show me what you can do against the massive vipers in Povus.}}
+
+===Requirements===
+* Defeat 8 [[Swamp Viper]] in [[Povus]]
+* Talk to [[Sir Hughes]]
+(You must have the [[Unarmed]] skill active to advance this quest.)
+
+===Rewards===
+{{Spoiler|Rewards for Wrestling Vipers|
+{{Quote|[insert quote here once quest is completed]}}
+
+* 50 {{Favor|favor}}
+* 500 Councils
+* 25 [[Statehelm Renown]]
+}}
+=== Tips ===
+
+[[Category:Quests]][[Category:Quests/Statehelm Quests]][[Category:Quests/Sir Hughes]]

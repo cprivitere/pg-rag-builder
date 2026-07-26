@@ -1,0 +1,40 @@
+__NOTOC__
+==Summary==
+[[Qatik]] in [[Red Wing Casino]] said, "Recently while tuning up our portal system, we accidentally connected to a series of caves beneath [[Eltibule]]. These oddly-dark caves are inaccessible except via teleportation, yet there are numerous bipedal denizens! I believe there is significant magical power hidden in the caves, but the Queen won't allow me to send a mantis assault team in, fearing they'd just be outnumbered and killed. That's why we need you!
+
+Since you and your friends are roughly bipedal, perhaps you can blend in with the other bipeds and scout out the place. Barring that, of course, you should fight desperately for your lives, because the bipeds seem to be mentally ill and quite homicidal.
+
+I have located a few potential sources of magical energy in the caves, so go retrieve them! The teleportation attendant can send you into these caves if you ask him early enough today.
+
+<i>[A group of 4+ level 40+ players recommended.]</i>"
+
+This [[Daily Quest]] can be repeated after 1 day.
+
+===Prerequisites===
+To start this quest, talk to '''[[Qatik]]''' in the '''[[Red Wing Casino]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+Recently while tuning up our portal system, we accidentally connected to a series of caves beneath [[Eltibule]]. These oddly-dark caves are inaccessible except via teleportation, yet there are numerous bipedal denizens! I believe there is significant magical power hidden in the caves, but the Queen won't allow me to send a mantis assault team in, fearing they'd just be outnumbered and killed. That's why we need you!
+
+Since you and your friends are roughly bipedal, perhaps you can blend in with the other bipeds and scout out the place. Barring that, of course, you should fight desperately for your lives, because the bipeds seem to be mentally ill and quite homicidal.
+
+I have located a few potential sources of magical energy in the caves, so go retrieve them! The [[teleportation attendant]] can send you into these caves if you ask him early enough today.
+
+<i>[A group of 4+ level 40+ players recommended.]</i>
+
+===Requirements===
+* Travel to the [[Dark Chapel]]. The [[Teleportation Attendant]] in the [[Red Wing Casino]] will teleport you directly there while the daily quest is being offered.
+* Kill [[Lord Sedgewick]] and Retrieve {{Item|Ghostly Handkerchief}}
+* Kill [[Haridius The Exemplary]] and Retrieve {{Item|Spoon of Necromancy}}
+* Kill [[Scion of Discord]] and Retrieve {{Item|Tassels of Gulagra}}
+* Talk to [[Qatik]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Wonderful work. You are a truly adequate biped. Please accept this as payment.}}
+* 100 {{Favor|favor}}
+* 10000 councils
+* {{Item|Red Wing Token}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Qatik]]

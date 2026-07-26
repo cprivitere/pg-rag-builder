@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Silvia]] in [[Sun Vale]] said, "Most of the deer around here are healthy, but a number are rabid. Do me a favor and take care of that problem, would you?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Silvia]]''' in '''[[Sun Vale]]'''. This quest is only available to [[Fairy|Fae]]. 
+
+===Preface===
+{{Quote|Most of the deer around here are healthy, but a number are rabid. Do me a favor and take care of that problem, would you?}}
+
+===Requirements===
+* Kill [[Rabid Deer]] or [[Rabid Island Deer]] x3
+* Talk to [[Silvia]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Excellent work. The fewer rabid deer, the less we have to worry about it spreading to other creatures. }}
+* 25 {{Favor|favor}}
+*[[Butchering]] raised to Level 15.
+}}
+
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Silvia]][[Category:Quests/Fae Quests]]

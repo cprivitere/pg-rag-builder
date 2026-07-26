@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> I've located another envy pump. It's in Gazluk, in a cave. There are undead nearby. It's next to a pool of water.
+
+This one doesn't seem especially dangerous to fight, but it has tremendous regenerative powers. Good luck.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> I've located another envy pump. It's in Gazluk, in a cave. There are undead nearby. It's next to a pool of water.
+
+This one doesn't seem especially dangerous to fight, but it has tremendous regenerative powers. Good luck.
+
+===Requirements===
+* Kill the Fourth Evil Heart
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Yet another heart defeated! Just a few more...}}
+* 8000 councils
+* {{Item icon|Live Event Memorabilia|1}} [[Live Event Credit]] x1
+* {{Item|Event Loot Key (Universal)}}
+* random items
+}}
+
+===Notes===
+The heart is by the water pools directly south of the northern entrance to the caves.
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

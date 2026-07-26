@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Brianna Willer in Serbule Hills said, "Go over to the Tapestry Inn and ask Durstin what beer he wants to order for next month."
+
+===Prerequisites===
+To start this quest, talk to '''[[Brianna Willer]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Go over to the Tapestry Inn and ask Durstin what beer he wants to order for next month.}}
+
+===Requirements===
+* Speak with Durstin Tallow
+* Talk to Brianna Willer
+
+{{Spoiler|Response to player|{{Quote|My beer order? Oh, Brianna sent you. Hmm... Let me check.
+
+I need a cheap lager for the regulars, a brown ale for Mr. Song-and-Dance Elf over there, and let me get a keg of goblin ale. Just in case it comes in handy.}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Collecting Keg Orders|
+{{Quote|Three barrels? Sounds like Durstin's business is picking up! Finally, some good news!
+
+Hold on to these hops. You need a ton of them for brewing.}}
+
+* 50 {{Favor|favor}}
+* {{Item|Hops}} x 4
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Brianna Willer]]

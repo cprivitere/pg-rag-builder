@@ -1,0 +1,25 @@
+==Update Notes: June 17, 2025==
+Another bugfix update. Some of these issues are related to upgrading to Unity 6; others are just regular bugs.
+:- Fix bug causing spiders to break the character select screen
+:- Fix collider issues in Serbule
+:- Fae knowledge buffs do not stack with themselves
+:- Sidebar icons now respect the "AbilityTipsX" and "AbilityTipsY" special settings
+:- The Work Stove in Rahu can now be used to cook
+:- Fix bug in Sun Vale causing animal forms to fall under the ground when recalling to the teleport circle
+:- Fix spot in southern Vidaria cliffside where monsters would get stuck in the wall
+:- Fix bug in Serbule letting creatures walk into bushes and trees
+:- Fix another instance of demons spawning inside the rubywall in Vidaria
+:- Fix swimmable lake area in Kur
+:- Fix the mod "Bite attacks deal +X% damage and hasten the current reuse timer of Blood Mist by Y second", it now properly hastens the reuse timer
+:- Trick Fox 6 can now be learned from the Completely Normal Fox
+:- Pets no longer try to teleport to you while you're in the air
+:- Fix rhino animations
+
+===Bard: Entrancing Lullaby Changes===
+We've redesigned the treasure for bard's mesmerize ability, Entrancing Lullably, to be more practical. We'll evaluate these changes for a while and may make similar adjustments to other skills' mesmerize abilities in the future.
+:- Bard ability Entrancing Lullaby: this ability no longer deals direct damage. Instead, it deals damage when the mesmerize effect wears off or is broken. The amount of damage is increased slightly, and it's now indirect psychic damage instead of direct psychic damage.
+:- Treasure effect: "Entrancing Lullaby Damage +156%" => "Entrancing Lullaby Delayed Damage +156%"
+:- Treasure effect: "Entrancing Lullaby deals 590 Trauma damage after a 20 second delay" => "Entrancing Lullaby Delayed Damage +590". (Note: damage type is now Psychic so that it stacks with the base damage from the ability)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

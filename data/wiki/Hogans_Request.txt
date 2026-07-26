@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+Hogan the staff fighter has requested some items as payment for teaching you staff combat.
+
+==Prerequisites==
+To start this quest, talk to [[Hogan]] in [[Hogan's Keep]].  The quest is available at {{Favor|Neutral}} favor.
+*Hogan will not offer the dialogue under the Talk tab to begin this quest to players in an animal form.
+
+==Preface==
+{{Quote|Make yourself comfortable in my courtyard.
+
+'''Can you teach me Staff fighting?'''
+
+Yes. But I only want serious students. If you're willing to show your interest by performing a few small tasks for me, I'd be delighted to teach you.}}
+
+==Requirements==
+
+*Obtain {{Item|Ancient Bronze Coin}} x2
+*Obtain {{Item|Giant Snail Shell}} x2 {{Hint|Perfect Giant Snail Shells work also}}
+*Obtain [[:Category:Items/Poetry|Poetry]] {{Hint| Gruzark's Chapbook, Unidentified Poetry Book, Elven Poetry, Goblin Poetry, and possibly other items work too.}}
+*Talk to [[Hogan]]
+
+==Rewards==
+{{Spoiler|
+{{Quote|TThank you! I'm glad you're really serious about the staff. It's a marvelously versatile weapon. Let me teach you the basics.}}
+
+*Learn Ability [[Staff]]
+*100 [[Staff]] XP
+}}
+
+[[Category:Quests]] [[Category:Quests/Hogan]][[Category:Quests/Eltibule Quests]]

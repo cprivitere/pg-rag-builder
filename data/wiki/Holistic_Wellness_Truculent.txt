@@ -1,0 +1,32 @@
+'
+__NOTOC__
+==Summary==
+Lakrea told you to work the word 'truculent' into your next conversation.
+
+Truculent: adjective: eager to argue or quick to start a fight. Similar to 'belligerent' but with an implication of cruelty or savagery.
+
+(Note: if you use the word out of context, the game won't know, but <i>you'll</i> know that you lost 10,000 Roleplay Points.)
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+You must have previously completed [[Holistic Wellness: 'Confidant']] in order to undertake this quest.
+
+===Preface===
+{{Quote|You need to expand your useful vocabulary. Not your total vocabulary, your <i>useful</i> vocabulary. You know thousands of words that you never think to use in daily life. Am I right? Of course I'm right. Here's a word to use: 'truculent'.
+
+<i>[ Truculent: adjective: eager to argue or quick to start a fight. Similar to 'belligerent' but with an implication of cruelty or savagery. ]</i>
+
+Just find a place to work that into your next conversation. But don't use it out of context! Use it right!}}
+
+===Requirements===
+* Use 'Truculent' In a Conversation
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: 'Truculent'|
+{{Quote|I hope you didn't <i>act</i> truculent when you used the word! Warm and friendly conversations are so much more effective than getting angry and shouting.}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Fae Conduit
+| description = Open a conduit to a realm of fae energy. Allies within the conduit area regain Power every few seconds. The conduit closes after 30 seconds. (Note: Fae Conduit disables Power-recovery from Power Wave while targets are in the conduit area.)
+| level = 12
+| power cost = 44
+| reuse time = 60
+| range = 4 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Mentalism}}{{KWAB|FaeConduit}}
+| special = Allies recover 15 Power every 5 seconds while in area.
+}}
+|-
+|
+{{Ability infobox
+| name = Fae Conduit 2
+| description = Open a conduit to a realm of fae energy. Allies within the conduit area regain Power every few seconds. The conduit closes after 30 seconds. (Note: Fae Conduit disables Power-recovery from Power Wave while targets are in the conduit area.)
+| level = 25
+| power cost = 59
+| reuse time = 60
+| range = 4 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Mentalism}}{{KWAB|FaeConduit}}
+| special = Allies recover 19 Power every 5 seconds while in area.
+}}
+|-
+|
+{{Ability infobox
+| name = Fae Conduit 3
+| description = Open a conduit to a realm of fae energy. Allies within the conduit area regain Power every few seconds. The conduit closes after 30 seconds. (Note: Fae Conduit disables Power-recovery from Power Wave while targets are in the conduit area.)
+| level = 36
+| power cost = 73
+| reuse time = 60
+| range = 4 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Mentalism}}{{KWAB|FaeConduit}}
+| special = Allies recover 23 Power every 5 seconds while in area.
+}}
+|-
+|
+{{Ability infobox
+| name = Fae Conduit 4
+| description = Open a conduit to a realm of fae energy. Allies within the conduit area regain Power every few seconds. The conduit closes after 30 seconds. (Note: Fae Conduit disables Power-recovery from Power Wave while targets are in the conduit area.)
+| level = 48
+| power cost = 85
+| reuse time = 60
+| range = 4 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Mentalism}}{{KWAB|FaeConduit}}
+| special = Allies recover 27 Power every 5 seconds while in area.
+}}
+|-
+|
+{{Ability infobox
+| name = Fae Conduit 5
+| description = Open a conduit to a realm of fae energy. Allies within the conduit area regain Power every few seconds. The conduit closes after 30 seconds. (Note: Fae Conduit disables Power-recovery from Power Wave while targets are in the conduit area.)
+| level = 60
+| power cost = 97
+| reuse time = 60
+| range = 4 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Mentalism}}{{KWAB|FaeConduit}}
+| special = Allies recover 31 Power every 5 seconds while in area.
+}}
+|-
+|
+{{Ability infobox
+| name = Fae Conduit 6
+| description = Open a conduit to a realm of fae energy. Allies within the conduit area regain Power every few seconds. The conduit closes after 30 seconds. (Note: Fae Conduit disables Power-recovery from Power Wave while targets are in the conduit area.)
+| level = 72
+| power cost = 110
+| reuse time = 60
+| range = 4 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Mentalism}}{{KWAB|FaeConduit}}
+| special = Allies recover 35 Power every 5 seconds while in area.
+}}
+|-
+|
+{{Ability infobox
+| name = Fae Conduit 7
+| description = Open a conduit to a realm of fae energy. Allies within the conduit area regain Power every few seconds. The conduit closes after 30 seconds. (Note: Fae Conduit disables Power-recovery from Power Wave while targets are in the conduit area.)
+| level = 84
+| power cost = 124
+| reuse time = 60
+| range = 4 meters
+| skill = Fairy Magic
+| keywords = {{KWAB|Mentalism}}{{KWAB|FaeConduit}}
+| special = Allies recover 39 Power every 5 seconds while in area.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

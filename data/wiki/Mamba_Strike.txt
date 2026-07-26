@@ -1,0 +1,88 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Mamba Strike
+| description = Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos.
+| level = 7
+| power cost = 5
+| reuse time = 6
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|MambaStrike}}{{KWAB|Melee}}{{KWAB|SerpentStrike}}{{KWAB|BodypartAttack}}
+| damage = 15 Trauma to health
+| special = Deals +33% Trauma damage if target's armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Mamba Strike 2
+| description = Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos.
+| level = 27
+| power cost = 10
+| reuse time = 6
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|MambaStrike}}{{KWAB|Melee}}{{KWAB|SerpentStrike}}{{KWAB|BodypartAttack}}
+| damage = 37 Trauma to health
+| special = Deals +33% Trauma damage if target's armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Mamba Strike 3
+| description = Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos.
+| level = 47
+| power cost = 15
+| reuse time = 6
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|MambaStrike}}{{KWAB|Melee}}{{KWAB|SerpentStrike}}{{KWAB|BodypartAttack}}
+| damage = 75 Trauma to health
+| special = Deals +33% Trauma damage if target's armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Mamba Strike 4
+| description = Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos.
+| level = 53
+| power cost = 16
+| reuse time = 6
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|MambaStrike}}{{KWAB|Melee}}{{KWAB|SerpentStrike}}{{KWAB|BodypartAttack}}
+| damage = 93 Trauma to health
+| special = Deals +33% Trauma damage if target's armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Mamba Strike 5
+| description = Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos.
+| level = 65
+| power cost = 19
+| reuse time = 6
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|MambaStrike}}{{KWAB|Melee}}{{KWAB|SerpentStrike}}{{KWAB|BodypartAttack}}
+| damage = 131 Trauma to health
+| special = Deals +33% Trauma damage if target's armor is below 33%.
+}}
+|-
+|
+{{Ability infobox
+| name = Mamba Strike 6
+| description = Jab a vital organ, causing traumatic injury. If the opponent's armor is weak, they will take additional damage. You can use Mamba Strike instead of Cobra Strike in combos.
+| level = 77
+| power cost = 21
+| reuse time = 6
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|MambaStrike}}{{KWAB|Melee}}{{KWAB|SerpentStrike}}{{KWAB|BodypartAttack}}
+| damage = 173 Trauma to health
+| special = Deals +33% Trauma damage if target's armor is below 33%.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

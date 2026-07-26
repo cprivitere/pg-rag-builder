@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+Irkima in Red Wing Casino said, "I need the assistance of a Red Wing named [[Mandibles]]. She will only aid me if I produce something called 'paralytic chicken meat.'
+
+The meat of several different bird-like creatures would work, but Mandibles said the most accessible meat is in a tower in Kur. I cannot go to Kur, it is too cold. She knows this and she taunts me with knowledge I cannot use! Please aid me?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Irkima]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|
+I need the assistance of a Red Wing named Mandibles. She will only aid me if I produce something called 'paralytic chicken meat.'
+
+The meat of several different bird-like creatures would work, but Mandibles said the most accessible meat is in a tower in Kur. I cannot go to Kur, it is too cold. She knows this and she taunts me with knowledge I cannot use! Please aid me?
+}}
+
+===Requirements===
+* Obtain {{Item|Raw Paralytic Chicken}} x1
+* Talk to Irkima
+
+===Rewards===
+{{Spoiler|Rewards for Paralytic Chicken Meat|
+{{Quote|
+This is the meat? It stinks of toxins! Mandibles feeds this to guests?! Interesting. Thank you for your kindness -- here, I have stashed some currency away for such an occasion.
+}}
+* 150 favor towards Irkima
+* 750 Councils
+* {{Item|Red Wing Token}} x5
+}}
+
+[[Category:Quests]][[Category:Quests/Irkima]][[Category:Quests/Red Wing Casino Quests]]

@@ -1,0 +1,91 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ensign Cricket
+|image            = [[File:EnsignCricket(npc).png|300px]]
+|caption          = Tugging at his uniform
+|zone             = Fae Realm 
+|dungeon = The Wintertide
+|location         = Hidden in a storage locker.
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|source=[[Ensign Cricket]]|
+I'm Ensign Cricket, Sanitation Specialist, and I'm happy to tell you all the secrets! What secret do you want?
+}}
+[[Ensign Cricket]] is a Spring Fairy hiding on [[The Wintertide]].
+
+== Location ==
+; [[Fae Realm]] - [[The Wintertide]]
+: [[Ensign Cricket]] is a fairy hiding inside a storage compartment near the entrance of [[The Wintertide]]. To access his compartment, a security door must be hold open using a Security Door Override.
+== Favor ==
+[[Ensign Cricket]] does not use the Favor system.
+== Quests ==
+[[Ensign Cricket]] offers a handful of quests involving the infiltration of [[The Wintertide]].
+<dpl>
+category = Quests/Ensign Cricket
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ???
+|RiShin Family = ???
+}}
+== Conversations == 
+{{Quote|source=[[Ensign Cricket]]|
+You scared me! I thought I was caught! But you're from the ground, right? You're invading!
+;Drop your weapon and surrender!
+;Hey, how are you? Yep, I'm invading.
+: Great! I'll help! I am sooooo bored, you wouldn't believe! Do you know how long we've been floating over this stupid world?
+;: No?
+: Me either. It's been a long time! Possibly years! The sun rises and sets down there, over and over. And I'm stuck here, doing nothing! This is an exploration ship! It's meant to explore! Or it was, until Winter commandeered it.
+;: Hmm. I have many questions.
+: I'm Ensign Cricket, Sanitation Specialist, and I'm happy to tell you all the secrets! What secret do you want?
+;: What is this place?
+
+:: This place? It's a storage closet for emergency medical supplies.
+
+;:: I meant this... ship. What is it?
+
+:: This is the WNS Wintertide. Well, that's its name now. It's a nethership! It can travel in any realspace or even in structured spacetime windows created by gods. It's not very fast, but it can carry a lot of stuff.
+:: Last season, it was the SAV Murderberry, and we explored the multiverse seeking adventure and technology! It was AMAZING! But most of my Spring crew were sent home and now Winter controls everything. There's a few other Spring fae aboard, but they're assimilating. Boring!
+
+;:: Who made the ship in the first place?
+
+:: You mean WHAT made the ship. Space bugs!
+:: A long time ago some mortals invaded the fae. They weren't prepared for fairies though. We took their ships, and for a while we managed to keep their space bugs alive to grow new ships. But that was a long time ago. Most Fae ships are pretty old now. We know how to keep them working though.
+:: And...! I hear the Winter Queen has plans to get new ships this season! It should be very exciting!
+
+;: What's going on here?
+
+:: You mean... in this closet?
+:: Just kidding. I know you mean 'what is your ship's mission.' Thing is, I don't really know. We were here to transport troops, and we've dumped a bunch off. But why are we STILL here? We just sit in orbit up here. Sometimes we help the crew on the ground, but they're just waiting too.
+:: Spring Fairies get bored easily. But Winter Fairies have more patience. So whatever they're doing, it probably will take a long time. And they don't mind!
+
+;:: So you have no idea why this ship is here?
+
+:: Well, I'm pretty sure the [[Winter Queen]] is communicating with a mortal wizard to create a superpowered army. But other than that, not a clue!
+
+;:: A superpowered army?
+
+:: Ugh. Yeah! They're horrible. They're not happy soldiers, let's just say. Actually, let's not talk about it, okay?
+}}
+{{Quote|source=[[Ensign Cricket]]|
+Non-officer fairies? Oh, yeah, we used to have some of those... I think? It was a very long time ago. But eventually even the biggest fuck-up fae, like me, reached the rank of Ensign. Which means there's nobody lower than Ensign anymore except the trolls. And even some trolls are becoming officers now.
+
+Nobody talks about it, but being immortal causes SERIOUS rank inflation!
+}}
+{{Quote|source=[[Ensign Cricket]]|
+I miss back when this ship was the Murderberry. On Spring Court ships, the crew gets to vote on the name. But on Winter Court ships, the captain gets to pick the name. I'm just surprised she didn't name it the Evergloam.
+}}
+{{Quote|source=[[Ensign Cricket]]|
+We have an [[Arcta Hippogriff]] breeding program on board. Which means parts of the ship are kept even colder than usual. Winter Fae don't mind, but for Spring Fae like me, it's kind of irritating!
+}}
+== Tips ==
+* To reach [[Ensign Cricket]], you may need to find another Adventurer to hold the door open!
+ [[Category:NPCs]][[Category:NoRiShin]].

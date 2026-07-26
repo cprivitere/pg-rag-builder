@@ -1,0 +1,34 @@
+__NOTOC__
+==Summary==
+The troubled valleys of Eltibule are even more dangerous than they should be. Droaches have leaked out of the dark places in the ground to cause mayhem to the surface ecologies. Druids, go now and make it right.
+
+Fire droaches flow from the dwarven statues and congregate near the central keep. Defeat them to lure out the more calculating electric droaches, and then defeat those as well.
+
+''This quest is a level 50 Druidic Emergency occurring in [[Eltibule]] with multiple variations depending on the number of Druids online at the start of the event. Druids will receive the '''Druidic Emergency''' debuff, granting +10% Base Druid Damage while blocking earned combat experience, crafting experience, and combat wisdom. This debuff stays until the event has been completed.''
+
+===Prerequisites===
+To participate in this quest, the player must be a [[Druid]]. An hour before the beginning of the event, all Druids will receive a '''Druidic Premonition''' indicating the coming of a Druidic Emergency.
+
+===Preface===
+{{Quote|The troubled valleys of [[Eltibule]] are even more dangerous than they should be. Droaches have leaked out of the dark places in the ground to cause mayhem to the surface ecologies. Druids, go now and make it right.
+
+[[Fire Droach|Fire droaches]] flow from the dwarven statues and congregate near the central keep. Defeat them to lure out the more calculating [[Angry Sparking Droach|electric droaches]], and then defeat those as well.}}
+
+===Requirements===
+{{Spoiler|Expected Participants: 10|
+* Kill 12 Fire Droach
+* Kill 8 Sparking Droach}}
+{{Spoiler|Expected Participants: 20|
+* Kill 35 Fire Droach
+* Kill 15 Sparking Droach}}
+{{Spoiler|Expected Participants: 30|
+* Kill 60 Fire Droach
+* Kill 30 Sparking Droach}}
+===Rewards===
+{{Spoiler|Rewards for Droach Invasion|
+{{Quote|Excellent work. Most of the droaches are now defeated.
+You have stymied the schemes of a foul and perverse god who I shall not name. Trust that your actions here were worth the price. Go now with Dreva's blessing.}}
+
+*Dreva's Blessings (Druidic Currency)
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Druidic Emergencies]]

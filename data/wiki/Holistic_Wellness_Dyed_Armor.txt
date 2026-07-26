@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Lakrea told you to dye suits of armor.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|You need a new look! And you need to make that look happen all on your own. You'll feel so much more confident! Just pick a color -- any color -- and then dye your clothes that color. Easy as cake.}}
+
+===Requirements===
+* Dye Equipment (5)
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: Dyed Armor|
+{{Quote|You look... colorblind. Wow. Well, you're helping me look beyond my innate sense of fashion, and for that I thank you.}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

@@ -1,0 +1,252 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Staff/Abilities|Staff Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v446 on Fri Jan 16 2026 03:16:03 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Smash|2}} || 1 || Smash || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 7 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Double Hit|2}} || 4 || Double Hit || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 24 Crushing || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Lunge|2}} || 6 || Lunge || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 20 Piercing<br><b>Armor Dmg:</b> 20 Piercing || <b>Power Cost:</b> 10<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Strategic Thrust|2}} || 8 || Strategic Thrust || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 26 Piercing<br><b>Dmg to Vulnerable:</b> 26 Piercing || <b>Power Cost:</b> 21<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +5% || Leveling
+|-
+| {{Ability icon|Deflective Spin|2}} || 10 || Deflective Spin || Spin your staff in a deflective stance. || You take 10% less damage from all attacks for 10 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health<br><b>Restores:</b> 0 Health every 3 seconds for 15 seconds || <b>Damage:</b> 23 Crushing || <b>Power Cost:</b> 20<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || Leveling
+|-
+| {{Ability icon|Heed The Stick|2}} || 12 || Heed The Stick || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 19 Crushing<br><b>Taunts:</b> 80 || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Blocking Stance|2}} || 15 || Blocking Stance || Take a defensive posture.<br><b>This is a Survival-Utility ability</b> || Reduces any physical damage you suffer (Crushing, Slashing, or Piercing) for 30 seconds, with extra protection against Elites. For the first 3 seconds you are immune to physical damage!<br>Mitigates 5 Physical Damage<br>Mitigates 5 Additional Physical Damage from Elites ||  || <b>Power Cost:</b> 14<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Suppress|2}} || 15 || Suppress || Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage. || <b>Suppresses Monster Shout</b> || <b>Damage:</b> 24 Crushing<br><b>Enemy Rage:</b> -100 || <b>Power Cost:</b> 22<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[The Wombat]]
+|-
+| {{Ability icon|Pin|2}} || 16 || Pin || Stab the enemy's leg, briefly immobilizing them.<br><b>This is a Signature Debuff ability</b> || Target's speed is reduced by 90% for 5 seconds || <b>Damage:</b> 31 Piercing || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Staff: Pin]]<br><b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Safe Fall|2}} || 18 || Safe Fall || Use your staff skills to avoid taking as much damage from falls. (Staff skill must be active.) || You take 33% less damage from falls for 5 minutes<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 5<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Smash 2|2}} || 20 || Smash 2 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 17 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Headcracker|2}} || 24 || Headcracker || Clobber an enemy. Vulnerable targets are also stunned.<br><b>This is a Nice Attack</b> || Vulnerable targets are stunned || <b>Damage:</b> 64 Crushing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Double Hit 2|2}} || 25 || Double Hit 2 || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 69 Crushing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Heed The Stick 2|2}} || 26 || Heed The Stick 2 || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 38 Crushing<br><b>Taunts:</b> 120 || <b>Power Cost:</b> 13<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Strategic Thrust 2|2}} || 28 || Strategic Thrust 2 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 91 Piercing<br><b>Dmg to Vulnerable:</b> 91 Piercing || <b>Power Cost:</b> 33<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +10% || Leveling
+|-
+| {{Ability icon|Redirect|2}} || 30 || Redirect || Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.) || Target is knocked backwards<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 51 Crushing<br><b>Taunts:</b> -200 || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Suppress 2|2}} || 30 || Suppress 2 || Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage. || <b>Suppresses Monster Shout</b> || <b>Damage:</b> 51 Crushing<br><b>Enemy Rage:</b> -200 || <b>Power Cost:</b> 30<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[The Wombat]]
+|-
+| {{Ability icon|Safe Fall 2|2}} || 31 || Safe Fall 2 || Use your staff skills to avoid taking as much damage from falls. (Staff skill must be active.) || You take 50% less damage from falls for 5 minutes, and you can change direction in mid-air (during long falls)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 6<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Lunge 2|2}} || 33 || Lunge 2 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 69 Piercing<br><b>Armor Dmg:</b> 69 Piercing || <b>Power Cost:</b> 20<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Pin 2|2}} || 33 || Pin 2 || Stab the enemy's leg, briefly immobilizing them.<br><b>This is a Signature Debuff ability</b> || Target's speed is reduced by 90% for 8 seconds || <b>Damage:</b> 69 Piercing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Staff: Pin 2]]<br><b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Deflective Spin 2|2}} || 35 || Deflective Spin 2 || Spin your staff in a deflective stance. || You take 11% less damage from all attacks for 10 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health<br><b>Restores:</b> 0 Health every 3 seconds for 15 seconds || <b>Damage:</b> 88 Crushing || <b>Power Cost:</b> 34<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || Leveling
+|-
+| {{Ability icon|Phoenix Strike|2}} || 35 || Phoenix Strike || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 30 Fire || <b>Damage:</b> 196 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 80<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Blocking Stance 2|2}} || 37 || Blocking Stance 2 || Take a defensive posture.<br><b>This is a Survival-Utility ability</b> || Reduces any physical damage you suffer (Crushing, Slashing, or Piercing) for 30 seconds, with extra protection against Elites. For the first 3 seconds you are immune to physical damage!<br>Mitigates 10 Physical Damage<br>Mitigates 10 Additional Physical Damage from Elites ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Heed The Stick 3|2}} || 40 || Heed The Stick 3 || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 67 Crushing<br><b>Taunts:</b> 200 || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Headcracker 2|2}} || 42 || Headcracker 2 || Clobber an enemy. Vulnerable targets are also stunned.<br><b>This is a Nice Attack</b> || Vulnerable targets are stunned || <b>Damage:</b> 141 Crushing || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Smash 3|2}} || 43 || Smash 3 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 42 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || Leveling
+|-
+| {{Ability icon|Safe Fall 3|2}} || 44 || Safe Fall 3 || Use your staff skills to avoid taking damage from falls. (Staff skill must be active.) || You take no damage from falls for 5 minutes, and gravity affects you less, allowing you to steer during long falls<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 7<br><b>Range:</b> 3<br><b>Cooldown:</b> 5 || Leveling
+|-
+| {{Ability icon|Double Hit 3|2}} || 45 || Double Hit 3 || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 162 Crushing || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Suppress 3|2}} || 45 || Suppress 3 || Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage. || <b>Suppresses Monster Shout</b> || <b>Damage:</b> 97 Crushing<br><b>Enemy Rage:</b> -300 || <b>Power Cost:</b> 38<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[The Wombat]]
+|-
+| {{Ability icon|Phoenix Strike 2|2}} || 45 || Phoenix Strike 2 || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 60 Fire || <b>Damage:</b> 307 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 90<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Redirect 2|2}} || 46 || Redirect 2 || Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.) || Target is knocked backwards<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 102 Crushing<br><b>Taunts:</b> -350 || <b>Power Cost:</b> 24<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || Leveling
+|-
+| {{Ability icon|Strategic Thrust 3|2}} || 48 || Strategic Thrust 3 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 215 Piercing<br><b>Dmg to Vulnerable:</b> 215 Piercing || <b>Power Cost:</b> 45<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +15% || Leveling
+|-
+| {{Ability icon|Lunge 3|2}} || 50 || Lunge 3 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 144 Piercing<br><b>Armor Dmg:</b> 144 Piercing || <b>Power Cost:</b> 25<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || Leveling
+|-
+| {{Ability icon|Pin 3|2}} || 50 || Pin 3 || Stab the enemy's leg, briefly immobilizing them.<br><b>This is a Signature Debuff ability</b> || Target's speed is reduced by 90% for 11 seconds || <b>Damage:</b> 144 Piercing || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Staff: Pin 3]]<br><b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Pinning Slash|2}} || 51 || Pinning Slash || Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.) || <b>DoT:</b> 10 Trauma, 6 times over 12 seconds || <b>Damage:</b> 124 Slashing || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Blocking Stance 3|2}} || 52 || Blocking Stance 3 || Take a defensive posture.<br><b>This is a Survival-Utility ability</b> || Reduces any physical damage you suffer (Crushing, Slashing, or Piercing) for 30 seconds, with extra protection against Elites. For the first 3 seconds you are immune to physical damage!<br>Mitigates 18 Physical Damage<br>Mitigates 18 Additional Physical Damage from Elites ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Headcracker 3|2}} || 53 || Headcracker 3 || Clobber an enemy. Vulnerable targets are also stunned.<br><b>This is a Nice Attack</b> || Vulnerable targets are stunned || <b>Damage:</b> 220 Crushing || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Hogan]]<br><b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Heed The Stick 4|2}} || 53 || Heed The Stick 4 || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 113 Crushing<br><b>Taunts:</b> 300 || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Smash 4|2}} || 54 || Smash 4 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 66 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Deflective Spin 3|2}} || 55 || Deflective Spin 3 || Spin your staff in a deflective stance. || You take 12% less damage from all attacks for 10 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health<br><b>Restores:</b> 0 Health every 3 seconds for 15 seconds || <b>Damage:</b> 200 Crushing || <b>Power Cost:</b> 43<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Phoenix Strike 3|2}} || 55 || Phoenix Strike 3 || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 90 Fire || <b>Damage:</b> 448 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 102<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Lunge 4|2}} || 57 || Lunge 4 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 180 Piercing<br><b>Armor Dmg:</b> 180 Piercing || <b>Power Cost:</b> 27<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Strategic Thrust 4|2}} || 58 || Strategic Thrust 4 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 298 Piercing<br><b>Dmg to Vulnerable:</b> 298 Piercing || <b>Power Cost:</b> 51<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +18% || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Double Hit 4|2}} || 60 || Double Hit 4 || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 273 Crushing || <b>Power Cost:</b> 45<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Suppress 4|2}} || 60 || Suppress 4 || Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage. || <b>Suppresses Monster Shout</b> || <b>Damage:</b> 164 Crushing<br><b>Enemy Rage:</b> -520 || <b>Power Cost:</b> 45<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[The Wombat]]
+|-
+| {{Ability icon|Pinning Slash 2|2}} || 61 || Pinning Slash 2 || Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.) || <b>DoT:</b> 20 Trauma, 6 times over 12 seconds || <b>Damage:</b> 168 Slashing || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Pin 4|2}} || 62 || Pin 4 || Stab the enemy's leg, briefly immobilizing them.<br><b>This is a Signature Debuff ability</b> || Target's speed is reduced by 90% for 11 seconds || <b>Damage:</b> 206 Piercing || <b>Power Cost:</b> 39<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Lunge 5|2}} || 63 || Lunge 5 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 211 Piercing<br><b>Armor Dmg:</b> 211 Piercing || <b>Power Cost:</b> 29<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Headcracker 4|2}} || 64 || Headcracker 4 || Clobber an enemy. Vulnerable targets are also stunned.<br><b>This is a Nice Attack</b> || Vulnerable targets are stunned || <b>Damage:</b> 300 Crushing || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Hogan]]<br><b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Phoenix Strike 4|2}} || 65 || Phoenix Strike 4 || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 125 Fire || <b>Damage:</b> 586 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 113<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Smash 5|2}} || 65 || Smash 5 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 89 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Blocking Stance 4|2}} || 65 || Blocking Stance 4 || Take a defensive posture.<br><b>This is a Survival-Utility ability</b> || Reduces any physical damage you suffer (Crushing, Slashing, or Piercing) for 30 seconds, with extra protection against Elites. For the first 3 seconds you are immune to physical damage!<br>Mitigates 26 Physical Damage<br>Mitigates 26 Additional Physical Damage from Elites ||  || <b>Power Cost:</b> 29<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Redirect 3|2}} || 65 || Redirect 3 || Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.) || Target is knocked backwards<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 185 Crushing<br><b>Taunts:</b> -500 || <b>Power Cost:</b> 29<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Heed The Stick 5|2}} || 66 || Heed The Stick 5 || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 163 Crushing<br><b>Taunts:</b> 300 || <b>Power Cost:</b> 22<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Strategic Thrust 5|2}} || 68 || Strategic Thrust 5 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 384 Piercing<br><b>Dmg to Vulnerable:</b> 384 Piercing || <b>Power Cost:</b> 57<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +18% || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Double Hit 5|2}} || 70 || Double Hit 5 || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 348 Crushing || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Deflective Spin 4|2}} || 70 || Deflective Spin 4 || Spin your staff in a deflective stance. || You take 13% less damage from all attacks for 10 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health<br><b>Restores:</b> 0 Health every 3 seconds for 15 seconds || <b>Damage:</b> 295 Crushing || <b>Power Cost:</b> 50<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Pinning Slash 3|2}} || 71 || Pinning Slash 3 || Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.) || <b>DoT:</b> 30 Trauma, 6 times over 12 seconds || <b>Damage:</b> 214 Slashing || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Furlak]]
+|-
+| {{Ability icon|Lunge 6|2}} || 72 || Lunge 6 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 262 Piercing<br><b>Armor Dmg:</b> 262 Piercing || <b>Power Cost:</b> 32<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Pin 5|2}} || 74 || Pin 5 || Stab the enemy's leg, briefly immobilizing them.<br><b>This is a Signature Debuff ability</b> || Target's speed is reduced by 90% for 11 seconds || <b>Damage:</b> 275 Piercing || <b>Power Cost:</b> 44<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Roshun the Traitor]]
+|-
+| {{Ability icon|Phoenix Strike 5|2}} || 75 || Phoenix Strike 5 || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 160 Fire || <b>Damage:</b> 743 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 126<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Hogan]]
+|-
+| {{Ability icon|Suppress 5|2}} || 75 || Suppress 5 || Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage. || <b>Suppresses Monster Shout</b> || <b>Damage:</b> 235 Crushing<br><b>Enemy Rage:</b> -640 || <b>Power Cost:</b> 53<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Headcracker 5|2}} || 75 || Headcracker 5 || Clobber an enemy. Vulnerable targets are also stunned.<br><b>This is a Nice Attack</b> || Vulnerable targets are stunned || <b>Damage:</b> 392 Crushing || <b>Power Cost:</b> 53<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Smash 6|2}} || 76 || Smash 6 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 115 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Blocking Stance 5|2}} || 77 || Blocking Stance 5 || Take a defensive posture.<br><b>This is a Survival-Utility ability</b> || Reduces any physical damage you suffer (Crushing, Slashing, or Piercing) for 30 seconds, with extra protection against Elites. For the first 3 seconds you are immune to physical damage!<br>Mitigates 34 Physical Damage<br>Mitigates 34 Additional Physical Damage from Elites ||  || <b>Power Cost:</b> 33<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Strategic Thrust 6|2}} || 78 || Strategic Thrust 6 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 484 Piercing<br><b>Dmg to Vulnerable:</b> 484 Piercing || <b>Power Cost:</b> 63<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +18% || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Heed The Stick 6|2}} || 79 || Heed The Stick 6 || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 219 Crushing<br><b>Taunts:</b> 300 || <b>Power Cost:</b> 25<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Double Hit 6|2}} || 80 || Double Hit 6 || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 436 Crushing || <b>Power Cost:</b> 56<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Lunge 7|2}} || 80 || Lunge 7 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 314 Piercing<br><b>Armor Dmg:</b> 314 Piercing || <b>Power Cost:</b> 34<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Redirect 4|2}} || 81 || Redirect 4 || Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.) || Target is knocked backwards<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 266 Crushing<br><b>Taunts:</b> -500 || <b>Power Cost:</b> 35<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Pinning Slash 4|2}} || 81 || Pinning Slash 4 || Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.) || <b>DoT:</b> 40 Trauma, 6 times over 12 seconds || <b>Damage:</b> 266 Slashing || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Pegast]]
+|-
+| {{Ability icon|Heed The Stick 7|2}} || 84 || Heed The Stick 7 || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 242 Crushing<br><b>Taunts:</b> 300 || <b>Power Cost:</b> 27<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Staff: Heed The Stick 7]]
+|-
+| {{Ability icon|Phoenix Strike 6|2}} || 85 || Phoenix Strike 6 || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 200 Fire || <b>Damage:</b> 909 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 139<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Staff: Phoenix Strike 6]]
+|-
+| {{Ability icon|Headcracker 6|2}} || 86 || Headcracker 6 || Clobber an enemy. Vulnerable targets are also stunned.<br><b>This is a Nice Attack</b> || Vulnerable targets are stunned || <b>Damage:</b> 488 Crushing || <b>Power Cost:</b> 59<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Staff: Headcracker 6]]
+|-
+| {{Ability icon|Smash 7|2}} || 87 || Smash 7 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 143 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Item:</b> [[Staff: Smash 7]]
+|-
+| {{Ability icon|Pin 6|2}} || 87 || Pin 6 || Stab the enemy's leg, briefly immobilizing them.<br><b>This is a Signature Debuff ability</b> || Target's speed is reduced by 90% for 11 seconds || <b>Damage:</b> 358 Piercing || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Item:</b> [[Staff: Pin 6]]
+|-
+| {{Ability icon|Strategic Thrust 7|2}} || 88 || Strategic Thrust 7 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 587 Piercing<br><b>Dmg to Vulnerable:</b> 587 Piercing || <b>Power Cost:</b> 69<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +18% || <b>Item:</b> [[Staff: Strategic Thrust 7]]
+|-
+| {{Ability icon|Blocking Stance 6|2}} || 89 || Blocking Stance 6 || Take a defensive posture.<br><b>This is a Survival-Utility ability</b> || Reduces any physical damage you suffer (Crushing, Slashing, or Piercing) for 30 seconds, with extra protection against Elites. For the first 3 seconds you are immune to physical damage!<br>Mitigates 42 Physical Damage<br>Mitigates 42 Additional Physical Damage from Elites ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Staff: Blocking Stance 6]]
+|-
+| {{Ability icon|Double Hit 7|2}} || 90 || Double Hit 7 || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 526 Crushing || <b>Power Cost:</b> 61<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Staff: Double Hit 7]]
+|-
+| {{Ability icon|Lunge 8|2}} || 90 || Lunge 8 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 379 Piercing<br><b>Armor Dmg:</b> 379 Piercing || <b>Power Cost:</b> 38<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || <b>Item:</b> [[Staff: Lunge 8]]
+|-
+| {{Ability icon|Suppress 6|2}} || 90 || Suppress 6 || Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage. || <b>Suppresses Monster Shout</b> || <b>Damage:</b> 315 Crushing<br><b>Enemy Rage:</b> -760 || <b>Power Cost:</b> 61<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Staff: Suppress 6]]
+|-
+| {{Ability icon|Pinning Slash 5|2}} || 91 || Pinning Slash 5 || Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.) || <b>DoT:</b> 50 Trauma, 6 times over 12 seconds || <b>Damage:</b> 321 Slashing || <b>Power Cost:</b> 33<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Item:</b> [[Staff: Pinning Slash 5]]
+|-
+| {{Ability icon|Redirect 5|2}} || 95 || Redirect 5 || Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.) || Target is knocked backwards<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 343 Crushing<br><b>Taunts:</b> -500 || <b>Power Cost:</b> 39<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Staff: Redirect 5]]
+|-
+| {{Ability icon|Deflective Spin 5|2}} || 95 || Deflective Spin 5 || Spin your staff in a deflective stance. || You take 14% less damage from all attacks for 10 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health<br><b>Restores:</b> 0 Health every 3 seconds for 15 seconds || <b>Damage:</b> 484 Crushing || <b>Power Cost:</b> 64<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Item:</b> [[Staff: Deflective Spin 5]]
+|-
+| {{Ability icon|Phoenix Strike 7|2}} || 95 || Phoenix Strike 7 || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 240 Fire || <b>Damage:</b> 1083 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 153<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Staff: Phoenix Strike 7]]
+|-
+| {{Ability icon|Headcracker 7|2}} || 97 || Headcracker 7 || Clobber an enemy. Vulnerable targets are also stunned.<br><b>This is a Nice Attack</b> || Vulnerable targets are stunned || <b>Damage:</b> 589 Crushing || <b>Power Cost:</b> 65<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Heed The Stick 8|2}} || 97 || Heed The Stick 8 || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 303 Crushing<br><b>Taunts:</b> 300 || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Smash 8|2}} || 98 || Smash 8 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 172 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Strategic Thrust 8|2}} || 98 || Strategic Thrust 8 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 694 Piercing<br><b>Dmg to Vulnerable:</b> 694 Piercing || <b>Power Cost:</b> 76<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +18% || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Double Hit 8|2}} || 100 || Double Hit 8 || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 618 Crushing || <b>Power Cost:</b> 67<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Pin 7|2}} || 100 || Pin 7 || Stab the enemy's leg, briefly immobilizing them.<br><b>This is a Signature Debuff ability</b> || Target's speed is reduced by 90% for 11 seconds || <b>Damage:</b> 445 Piercing || <b>Power Cost:</b> 57<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Lunge 9|2}} || 100 || Lunge 9 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 445 Piercing<br><b>Armor Dmg:</b> 445 Piercing || <b>Power Cost:</b> 41<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Blocking Stance 7|2}} || 101 || Blocking Stance 7 || Take a defensive posture.<br><b>This is a Survival-Utility ability</b> || Reduces any physical damage you suffer (Crushing, Slashing, or Piercing) for 30 seconds, with extra protection against Elites. For the first 3 seconds you are immune to physical damage!<br>Mitigates 50 Physical Damage<br>Mitigates 50 Additional Physical Damage from Elites ||  || <b>Power Cost:</b> 42<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Pinning Slash 6|2}} || 101 || Pinning Slash 6 || Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.) || <b>DoT:</b> 60 Trauma, 6 times over 12 seconds || <b>Damage:</b> 377 Slashing || <b>Power Cost:</b> 36<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Suppress 7|2}} || 105 || Suppress 7 || Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage. || <b>Suppresses Monster Shout</b> || <b>Damage:</b> 402 Crushing<br><b>Enemy Rage:</b> -880 || <b>Power Cost:</b> 70<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Phoenix Strike 8|2}} || 105 || Phoenix Strike 8 || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 280 Fire || <b>Damage:</b> 1270 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 167<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Smash 9|2}} || 107 || Smash 9 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 199 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Strategic Thrust 9|2}} || 108 || Strategic Thrust 9 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 815 Piercing<br><b>Dmg to Vulnerable:</b> 815 Piercing || <b>Power Cost:</b> 83<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +18% || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Double Hit 9|2}} || 110 || Double Hit 9 || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 723 Crushing || <b>Power Cost:</b> 73<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Deflective Spin 6|2}} || 110 || Deflective Spin 6 || Spin your staff in a deflective stance. || You take 15% less damage from all attacks for 10 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health<br><b>Restores:</b> 0 Health every 3 seconds for 15 seconds || <b>Damage:</b> 613 Crushing || <b>Power Cost:</b> 73<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Redirect 6|2}} || 110 || Redirect 6 || Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.) || Target is knocked backwards<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 434 Crushing<br><b>Taunts:</b> -500 || <b>Power Cost:</b> 45<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Headcracker 8|2}} || 110 || Headcracker 8 || Clobber an enemy. Vulnerable targets are also stunned.<br><b>This is a Nice Attack</b> || Vulnerable targets are stunned || <b>Damage:</b> 723 Crushing || <b>Power Cost:</b> 73<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Lunge 10|2}} || 110 || Lunge 10 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 521 Piercing<br><b>Armor Dmg:</b> 521 Piercing || <b>Power Cost:</b> 45<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Heed The Stick 9|2}} || 111 || Heed The Stick 9 || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 377 Crushing<br><b>Taunts:</b> 300 || <b>Power Cost:</b> 34<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Pinning Slash 7|2}} || 111 || Pinning Slash 7 || Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.) || <b>DoT:</b> 60 Trauma, 6 times over 12 seconds || <b>Damage:</b> 440 Slashing || <b>Power Cost:</b> 40<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Blocking Stance 8|2}} || 113 || Blocking Stance 8 || Take a defensive posture.<br><b>This is a Survival-Utility ability</b> || Reduces any physical damage you suffer (Crushing, Slashing, or Piercing) for 30 seconds, with extra protection against Elites. For the first 3 seconds you are immune to physical damage!<br>Mitigates 58 Physical Damage<br>Mitigates 58 Additional Physical Damage from Elites ||  || <b>Power Cost:</b> 46<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Pin 8|2}} || 113 || Pin 8 || Stab the enemy's leg, briefly immobilizing them.<br><b>This is a Signature Debuff ability</b> || Target's speed is reduced by 90% for 11 seconds || <b>Damage:</b> 544 Piercing || <b>Power Cost:</b> 63<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Phoenix Strike 9|2}} || 115 || Phoenix Strike 9 || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 320 Fire || <b>Damage:</b> 1470 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 182<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Smash 10|2}} || 116 || Smash 10 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 227 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Strategic Thrust 10|2}} || 116 || Strategic Thrust 10 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 913 Piercing<br><b>Dmg to Vulnerable:</b> 913 Piercing || <b>Power Cost:</b> 89<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +18% || <b>Training:</b> [[Sourgum]]
+|-
+| {{Ability icon|Double Hit 10|2}} || 120 || Double Hit 10 || Strike an enemy twice with your staff.<br><b>This is a Core Attack</b> || <b>--Can Have--</b><br><b>DoT:</b> 0 Fire, 6 times over 12 seconds || <b>Damage:</b> 829 Crushing || <b>Power Cost:</b> 79<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Suppress 8|2}} || 120 || Suppress 8 || Spin your staff in a disorienting and alarming arc, hitting all nearby enemies and causing them to lose Rage. || <b>Suppresses Monster Shout</b> || <b>Damage:</b> 497 Crushing<br><b>Enemy Rage:</b> -880 || <b>Power Cost:</b> 79<br><b>AoE:</b> 10<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Lunge 11|2}} || 120 || Lunge 11 || Lunge at an enemy with your staff. This attack does extra damage to armor. ||  || <b>Damage:</b> 597 Piercing<br><b>Armor Dmg:</b> 597 Piercing || <b>Power Cost:</b> 49<br><b>Range:</b> 7<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Pinning Slash 8|2}} || 121 || Pinning Slash 8 || Jab the enemy's leg with your staff, briefly immobilizing them, then rip them to pieces. This is a variant of Pin. (You must be wielding a staff and a claw weapon.) || <b>DoT:</b> 60 Trauma, 6 times over 12 seconds || <b>Damage:</b> 504 Slashing || <b>Power Cost:</b> 43<br><b>Range:</b> 5<br><b>Cooldown:</b> 12 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Smash 11|2}} || 125 || Smash 11 || Strike an enemy with your staff.<br><b>This is a Basic Attack</b> ||  || <b>Damage:</b> 254 Crushing || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Deflective Spin 7|2}} || 125 || Deflective Spin 7 || Spin your staff in a deflective stance. || You take 16% less damage from all attacks for 10 seconds.<br><b>--Can Have--</b><br><b>Restores:</b> 0 Health<br><b>Restores:</b> 0 Health every 3 seconds for 15 seconds || <b>Damage:</b> 747 Crushing || <b>Power Cost:</b> 83<br><b>AoE:</b> 10<br><b>Cooldown:</b> 16 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Blocking Stance 9|2}} || 125 || Blocking Stance 9 || Take a defensive posture.<br><b>This is a Survival-Utility ability</b> || Reduces any physical damage you suffer (Crushing, Slashing, or Piercing) for 30 seconds, with extra protection against Elites. For the first 3 seconds you are immune to physical damage!<br>Mitigates 66 Physical Damage<br>Mitigates 66 Additional Physical Damage from Elites ||  || <b>Power Cost:</b> 51<br><b>Range:</b> 3<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Redirect 7|2}} || 125 || Redirect 7 || Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.) || Target is knocked backwards<br><b>Suppresses Monster Shout</b><br><b>--Can Have--</b><br><b>DoT:</b> 0 Trauma, 4 times over 8 seconds || <b>Damage:</b> 529 Crushing<br><b>Taunts:</b> -500 || <b>Power Cost:</b> 51<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Strategic Thrust 11|2}} || 125 || Strategic Thrust 11 || Take careful aim at an enemy's weakness, jabbing with your staff. Does extra damage to targets that are Vulnerable. ||  || <b>Damage:</b> 1024 Piercing<br><b>Dmg to Vulnerable:</b> 1024 Piercing || <b>Power Cost:</b> 96<br><b>Range:</b> 7<br><b>Cooldown:</b> 12<br><b>Accuracy:</b> +18% || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Pin 9|2}} || 125 || Pin 9 || Stab the enemy's leg, briefly immobilizing them.<br><b>This is a Signature Debuff ability</b> || Target's speed is reduced by 90% for 11 seconds || <b>Damage:</b> 635 Piercing || <b>Power Cost:</b> 70<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Headcracker 9|2}} || 125 || Headcracker 9 || Clobber an enemy. Vulnerable targets are also stunned.<br><b>This is a Nice Attack</b> || Vulnerable targets are stunned || <b>Damage:</b> 882 Crushing || <b>Power Cost:</b> 83<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Heed The Stick 10|2}} || 125 || Heed The Stick 10 || Surprise an enemy that's been ignoring you, encouraging them to face you. ||  || <b>Damage:</b> 453 Crushing<br><b>Taunts:</b> 300 || <b>Power Cost:</b> 38<br><b>Range:</b> 5<br><b>Cooldown:</b> 8 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Phoenix Strike 10|2}} || 125 || Phoenix Strike 10 || Summon your inner fire to obliterate an enemy and turn the tides in a dangerous situation.<br><b>This is an Epic Attack</b> || <b>For 15 seconds, melee attackers suffer:</b> 360 Fire || <b>Damage:</b> 1670 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 197<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Unknown Source:</b> Not Found
+|}

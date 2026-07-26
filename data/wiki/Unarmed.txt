@@ -1,0 +1,128 @@
+__NOTOC__
+{{Skill infobox
+|title            = Unarmed
+|image            = [[File:Unarmed_skill.png|111px]]
+|caption          = The skill of fighting with your body and minimal weapons.
+|skilltype        = Combat Skill <!-- Combat Skill, Trade Skill, Beast Skill (EX: Beast Speech, but NOT Lycanthropy), Other Skill (Used for skills that don't fit the other categories) -->
+|maxlevel         = 100 <!-- List without bonus levels -->
+|req              =  <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Flia]], [[Hogan]], [[Furlak]], [[Pegast]] <!-- List skill trainers, 3 max -->
+|gem = {{Item|Agate}}
+}}
+{{Quote|
+Leave a quote about the skill here. This can be the in-game description, but that info must be placed below as well.  Adds a bit of flavor to the article as well.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Unarmed''' is a melee attack skill that focuses on crowd control and damage. Most abilities involve, punching, kicking, or throwing your opponent. 
+
+Many Unarmed abilities will require you to actually be unarmed. This means no staff, beaker, bow, orb, flask, shield, etc. There are two exceptions: a Cestus (MainHand) or a Claw (OffHand). Neither of these will count as you being 'armed.' Animals can use all Unarmed abilities, but not if they have weapons (other than Cestus and Claw) equipped. Check Trivia at the bottom of page for exceptions to the above statement!
+ 
+=== In-Game Description ===
+Mastery of the martial arts. Not especially damaging, but with great controlling and stunning abilities. Generally requires one or both hands to be empty, although you can use kicks even with other items wielded.
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+All players start with Unarmed on [[Anagoge]] (the tutorial island). 
+
+* [[Flia]] teaches Headbutt 1-3 and Bodyslam 1-3.
+* [[Hogan]] teaches Mamba Strike 1-3 and Bruising Blow 1-3.
+* [[Furlak]] will unlock levels 51-60, 61-70, and teaches level 51+ abilities.
+* [[Pegast]] unlocks 71-80.
+* Levels 81-90 are unlocked by [[Emersil the Ever-Gloating]] deep beneath [[Povus]].
+* [[Sir Hughes]] in [[Statehelm]] unlocks 81-90, 91-100, [[Prodigy Potential]], and teaches level 80+ abilities.
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Meditation]]
+: Meditation is Unarmed's secondary, or supplementary skill. Meditating at Meditation Pillars scattered around the world will give you the ability to use a certain [[Meditation_Combos|combo]], based on which recipe you use, as well one or two random combos that change daily. For example, the Level 3 Meditation recipe will grant "Combo: Fists of Rage". If you use Punch+Punch+Barrage in that order, the final step (Barrage) will deal 10 extra damage. 
+: The duration of Meditation buffs can be extended by meditating on Meditation Stools, learned through [[Carpentry]].
+===== Related Skills: =====
+* None
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Unarmed]] can be obtained from the following skills and levels:
+:; [[Cow]]
+:: Level 75
+:; [[Deer]]
+:: Level 75
+:; [[Endurance]]
+:: Level 30, and Level 45, and Level 60
+:; [[Giant Bat]]
+:: Level 75
+:; [[Hoplology]]
+:: Level 30
+:; [[Interpretive Dance]]
+:: Level 59
+:; [[Lycanthropy]]
+:: Level 75
+:; [[Pig]]
+:: Level 75
+:; [[Rabbit]]
+:: Level 75
+:; [[Staff]]
+:: Level 19, and Level 39, and Level 60
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+===Combos===
+<Add list of Unarmed combos here>
+=== Weapons ===
+==== Main-hand ====
+<dpl>
+  category   = Items/UnarmedWeapon
+  category = Items/MainHand
+  reset      = categories
+  columns = 5
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+==== Off-hand ====
+<dpl>
+  category   = Items/UnarmedWeapon
+  category = Items/OffHand
+  reset      = categories
+  columns = 5
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+===Other Equipment===
+<!-- Special equipment that is intended to be used by the skill goes here, including belts. -->
+{{belt|Belt of the Unarmed Fighter}} increases the Base Damage dealt with Unarmed by 8%. Can be created with [[Toolcrafting]] 22.
+
+{{belt|Belt of the Monk}} increases Base Damage dealt with Unarmed and [[Mentalism]] combat skills by 6%. Can be bought from Echur.
+
+{{belt|Belt of the Sneak}} increases Base Damage dealt with Unarmed and [[Psychology]] combat skills by 6%. Can be bought from Echur.
+
+{{belt|Belt of the Wraith}} increases Base Damage dealt with Unarmed and [[Necromancy]] combat skills by 6%. Can be found through rare drops and chests.
+
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Unarmed Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Unarmed|
+{{:Xptables/TypicalCombatSkill}}
+}}
+== Trivia ==
+There are some unarmed skills that require 1 free hand, and some that can be used with 2 equipped weapons.
+
+;Those skills are as follows:
+:
+;Requires 2 hands (empty or cestus/claw):
+:Hip Throw, Cobra/Mamba Strike, (Claw) Barrage
+;Requires 1 hand (with either nothing or cestus/claw) to use:
+:Punch, Jab, Infuriating Fist, Bruising Blow
+;Requires no hands (can have anything equipped):
+:Front Kick, Headbutt, Knee Kick, Body Slam
+
+Unarmed is the oldest skill, id 1.
+
+[[Category:Skills]]

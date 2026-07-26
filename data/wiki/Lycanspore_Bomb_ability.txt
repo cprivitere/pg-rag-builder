@@ -1,0 +1,14 @@
+__NOTOC__
+{{Ability infobox
+| name = Lycanspore Bomb
+| description = Toss a Lycanspore Bomb to damage nearby enemies. Does extra damage to vulnerable targets.
+| level = 30
+| power cost = 24
+| reuse time = 10
+| range = 8 meters
+| skill = Mycology
+| keywords = {{KWAB|Attack}}{{KWAB|Bomb}}{{KWAB|SporeBomb}}{{KWAB|Burst}}{{KWAB|CraftingAttack}}
+| damage = 116 Nature + 75 if target is Vulnerable
+| special = Deals +100 damage over 10 seconds to wolfsbane-vulnerable targets.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,551 @@
+__NOTOC__
+{{NPC infobox
+|title            = Elaina
+|image            = [[File:Elaina.png|300px|]]
+|caption          = She's looking around nervously, mumbling 'bzz' to herself.
+|zone             = Sun Vale
+|town = Animal Town
+|location = Near the garden.
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Tailoring]]
+}}
+{{Quote|I was an accomplished dress maker back home. But in this realm all the textiles are gross and horrible, so I'm having to learn all over again.}}
+[[Elaina]] is a fairy that's managed to sneak in to Animal Town under the guise of a fae-bee. Most of the residents can see through her illusion, but Spot still believes her, due to a glamour Elaina is using.
+
+As a resident of [[Animal Town]], [[Elaina]] is only willing to hold conversations with characters that have transformed into a [[Beast Forms|Beast Form]]. [[Elaina]] does not require the usual 180 real-world minute wait time required by the other residents, and is willing to speak with recently shape-changed travelers.
+== Location ==
+; [[Sun Vale]]
+: [[Animal Town]] (located in the southeastern part of [[Sun Vale]], at the mountainous area.)<br/>Can be found in the middle of the town, under the tent with black stripes.
+== Favor ==
+If you speak to '''Elaina''' with [[Fairy Wing]] in your inventory, you will incur a loss of 1 favor and will be unable to interact with her until the wing is no longer carried.
+
+''Oh. Oh! That wing! Grosssss, get it away! You're a monster!''
+
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Elaina
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Tailoring]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Tailoring{{pipe}}Learn Tailoring
+ |skilllevel=0
+ |cost=0
+ |favor=Comfortable
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Tailoring{{pipe}}Unlock Tailoring Skill Levels 51-60
+ |skilllevel=50
+ |cost=20000
+ |favor=Close Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Tailoring{{pipe}}Unlock Tailoring Skill Levels 61-70
+ |skilllevel=60
+ |cost=50000
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Beginner's Tailoring Practice (Spider Silk)
+ |skilllevel=4
+ |cost=266
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Neophyte's Tailoring Practice
+ |skilllevel=5
+ |cost=300
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Novice's Tailoring Practice
+ |skilllevel=10
+ |cost=466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Pants
+ |skilllevel=1
+ |cost=166
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Pants (Enchanted)
+ |skilllevel=3
+ |cost=233
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Shirt
+ |skilllevel=1
+ |cost=166
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Shirt (Enchanted)
+ |skilllevel=3
+ |cost=233
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Slippers
+ |skilllevel=1
+ |cost=166
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Slippers (Enchanted)
+ |skilllevel=3
+ |cost=233
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Gloves
+ |skilllevel=1
+ |cost=166
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Gloves (Enchanted)
+ |skilllevel=3
+ |cost=233
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Cowl
+ |skilllevel=1
+ |cost=166
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Shoddy Cloth Cowl (Enchanted)
+ |skilllevel=3
+ |cost=233
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Cloth Pants
+ |skilllevel=10
+ |cost=466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Cloth Pants (Enchanted)
+ |skilllevel=13
+ |cost=900
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Cloth Shirt
+ |skilllevel=10
+ |cost=466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Cloth Shirt (Enchanted)
+ |skilllevel=13
+ |cost=900
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Cloth Slippers
+ |skilllevel=10
+ |cost=466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Cloth Slippers (Enchanted)
+ |skilllevel=13
+ |cost=900
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Cloth Gloves
+ |skilllevel=10
+ |cost=466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Cloth Gloves (Enchanted)
+ |skilllevel=13
+ |cost=900
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Rough Cloth Cowl
+ |skilllevel=10
+ |cost=466
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Rough Cloth Cowl (Enchanted)
+ |skilllevel=13
+ |cost=900
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Pants
+ |skilllevel=20
+ |cost=1133
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Pants (Enchanted)
+ |skilllevel=23
+ |cost=1566
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Shirt
+ |skilllevel=20
+ |cost=1133
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Shirt (Enchanted)
+ |skilllevel=23
+ |cost=1566
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Slippers
+ |skilllevel=20
+ |cost=1133
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Slippers (Enchanted)
+ |skilllevel=23
+ |cost=1566
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Gloves
+ |skilllevel=20
+ |cost=1133
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Gloves (Enchanted)
+ |skilllevel=23
+ |cost=1566
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Cowl
+ |skilllevel=20
+ |cost=1133
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Crude Cloth Cowl (Enchanted)
+ |skilllevel=24
+ |cost=1600
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Decent Cloth Pants (Enchanted)
+ |skilllevel=30
+ |cost=1800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Decent Cloth Shirt (Enchanted)
+ |skilllevel=30
+ |cost=1800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Decent Cloth Slippers (Enchanted)
+ |skilllevel=30
+ |cost=1800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Decent Cloth Gloves (Enchanted)
+ |skilllevel=33
+ |cost=2900
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Decent Cloth Cowl (Enchanted)
+ |skilllevel=34
+ |cost=2933
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Nice Cloth Pants (Enchanted)
+ |skilllevel=40
+ |cost=3133
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Nice Cloth Shirt (Enchanted)
+ |skilllevel=40
+ |cost=3133
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Nice Cloth Slippers (Enchanted)
+ |skilllevel=40
+ |cost=3133
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Nice Cloth Gloves (Enchanted)
+ |skilllevel=43
+ |cost=4566
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Nice Cloth Cowl (Enchanted)
+ |skilllevel=44
+ |cost=4600
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Shirt (Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Shirt (Max-Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Pants (Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Pants (Max-Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Slippers (Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Slippers (Max-Enchanted)
+ |skilllevel=50
+ |cost=4800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Gloves (Enchanted)
+ |skilllevel=53
+ |cost=4800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Gloves (Max-Enchanted)
+ |skilllevel=55
+ |cost=4800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Cowl (Enchanted)
+ |skilllevel=54
+ |cost=4800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Quality Cloth Cowl (Max-Enchanted)
+ |skilllevel=55
+ |cost=6600
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Cloth Pants (Enchanted)
+ |skilllevel=60
+ |cost=7800
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Cloth Pants (Max-Enchanted)
+ |skilllevel=60
+ |cost=7800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Cloth Slippers (Enchanted)
+ |skilllevel=60
+ |cost=7800
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Cloth Slippers (Max-Enchanted)
+ |skilllevel=60
+ |cost=7800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Cloth Shirt (Enchanted)
+ |skilllevel=60
+ |cost=7800
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Cloth Shirt (Max-Enchanted)
+ |skilllevel=60
+ |cost=7800
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Cloth Gloves (Enchanted)
+ |skilllevel=63
+ |cost=9900
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Cloth Gloves (Max-Enchanted)
+ |skilllevel=65
+ |cost=9966
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Cloth Cowl (Enchanted)
+ |skilllevel=64
+ |cost=9933
+ |favor=Best Friends
+}}
+{{NPC training row
+ |recipe=Great Cloth Cowl (Max-Enchanted)
+ |skilllevel=65
+ |cost=9966
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Cloth Cowl (Enchanted)
+ |skilllevel=64
+ |cost=9933
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Great Cloth Cowl (Max-Enchanted)
+ |skilllevel=65
+ |cost=9966
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Pants (Enchanted)
+ |skilllevel=70
+ |cost=11466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Pants (Max-Enchanted)
+ |skilllevel=70
+ |cost=11466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Slippers (Enchanted)
+ |skilllevel=70
+ |cost=11466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Slippers (Max-Enchanted)
+ |skilllevel=70
+ |cost=11466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Shirt (Enchanted)
+ |skilllevel=70
+ |cost=11466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Shirt (Max-Enchanted)
+ |skilllevel=70
+ |cost=11466
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Gloves (Enchanted)
+ |skilllevel=73
+ |cost=13233
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Gloves (Max-Enchanted)
+ |skilllevel=75
+ |cost=13300
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Cowl (Enchanted)
+ |skilllevel=74
+ |cost=13266
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Amazing Cloth Cowl (Max-Enchanted)
+ |skilllevel=75
+ |cost=13300
+ |favor=?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Textile Creation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Dye Cloth Armor (1 color)
+ |skilllevel=5
+ |cost=300
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe=Dye Cloth Armor (2 colors)
+ |skilllevel=25
+ |cost=1633
+ |favor=?
+}}
+{{NPC training row
+ |recipe=Dye Cloth Armor (3 colors)
+ |skilllevel=50
+ |cost=4800
+ |favor=?
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Fae Felt}} x5
+|RiShin Family = {{Item|Fae Felt}} x10
+}}
+== Conversations ==
+
+[[Category:NPCs]]

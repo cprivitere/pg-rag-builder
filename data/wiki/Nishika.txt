@@ -1,0 +1,291 @@
+__NOTOC__
+{{NPC infobox
+|title            = Nishika
+|image            = [[File:Nishika.jpg|300px]]
+|caption          = Cooking something smelly.
+|zone             = Rahu
+|town             = Rahu City (peaceful)
+|location         = Inside the Tasty Cat restaurant.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Cooking]], [[Butchering]], [[Skinning]]
+|vendor           = Yes
+|storage = Yes
+}}
+{{Quote|
+'''Welcome to the Tasty Cat!'''
+}}
+[[Nishika]] is a cook based in the town of [[Rahu]]. She specializes in cat meat recipes. She also trains [[Butchering]] and [[Skinning]] levels 51-60 and 61-70.
+== Location ==
+; [[Rahu]]
+: Inside the inn.
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Help Nishika prepare the Generals meal (4h). {{Favor|Friends}}|
+{{Quote|source=[[Nishika]]|Do you think he'll really come eat here? General Pask, I mean. I hope not. The doors aren't even tall enough for him. I kinda wish those old first-gen Rakshasa would finally kick off and die! They're so powerful, but so.. set in their ways, you know? Anyways if he does come tonight, he's gonna love this Spicy Lemon Cat dish! Thanks for your help preparing the meat. Oh, hey, if you want to learn to make this recipe yourself, I'd be willing to train you."}}
+*44 favor
+*2x Red Pepper
+*unlocks training the Spicy Lemon Cat recipe
+}}
+{{Spoiler|Help Nishika prepare tomorrow's stew (2h). {{Favor|Comfortable}}|
+{{Quote|source=[[Nishika]]|Aw, crap, I broke the tenderizer. Let's stop; I think that's enough meat for the stew, don't you? Thank you so much for your hard work!"}}
+*25 favor
+*Recipe for Cat Stew Cup
+}}
+{{Spoiler|Do the dishes at Nishika's restaurant (4h). {{Favor|Neutral}}|
+*40 favor
+*2x House Cat
+}}
+{{Spoiler|Help Nishika process junk meat (6h). {{Favor|Friends}}|
+{{Quote|source=[[Nishika]]|I use cheap meat in as many ways as possible, but inedible meat always ends up going to waste. I have a special way of disposing of it, though. Would you like to see?
+
+There, now we remove this scum on top. It's fat, suitable for candles. Better than rotting, at least, no?"}}
+* 75 Favor with Nishika
+* Recipe for Collect Filthy Animal Fat
+}}
+{{Spoiler|Help Nishika process tons of junk meat (8h). {{Favor|Close Friends}}|
+{{Quote|source=[[Nishika]]|
+This entire pile of meat has gone bad already. The desert heat is not kind to meat. Well, help me prepare it for fat retrieval! When we have this much garbage meat, it's possible to collect slightly higher-quality fat. This is the best fat that can possibly be retrieved from cheap meat. And somebody somewhere will want this fat, right? Here: you keep it. It smells vile beyond words.
+}}
+* 85 Favor with [[Nishika]].
+* {{Item|Lumpy Animal Fat}}
+* Recipe for [[Candle Making|Collect Lumpy Animal Fat]]
+}}
+
+==  Quests  ==
+<dpl>
+category = Quests/Nishika
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+;[[Cooking]]
+: ''Uses a system where recipes only show up to train after completing the relevant quest or hang out option.''
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Skinning]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Skinning{{!}}Unlock Skinning Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20000
+ | favor = Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Skinning{{!}}Unlock Skinning Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 44500
+ | favor = Best Friends
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Butchering]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training row
+ | recipe = Butcher Sinewy Cat Meat
+ | skilllevel = 3
+ | cost = 64
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Butcher Sinewy Dog Meat
+ | skilllevel = 6
+ | cost = 103
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Butcher Sinewy Dinosaur Meat
+ | skilllevel = 9
+ | cost = 142
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Butcher Sinewy Beast Meat
+ | skilllevel = 12
+ | cost = 182
+ | favor = Neutral
+}}
+{{NPC training row
+ | recipe = Butcher Sinewy Insect Meat
+ | skilllevel = 15
+ | cost = 221
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Butcher Chicken
+ | skilllevel = 17
+ | cost = 247
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Butcher Pork Shoulder
+ | skilllevel = 18
+ | cost = 260
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe =Butcher Venison
+ | skilllevel = 21
+ | cost = 320
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Butcher Steak
+ | skilllevel = 24
+ | cost = 379
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Butcher Rabbit Meat
+ | skilllevel = 27
+ | cost = 439
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Butcher Stringy Cat Meat
+ | skilllevel = 30
+ | cost = 513
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Butcher Stringy Dog Meat
+ | skilllevel = 33
+ | cost = 595
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe =Butcher Stringy Dinosaur Meat
+ | skilllevel = 36
+ | cost = 675
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Butcher Stringy Beast Meat
+ | skilllevel = 39
+ | cost = 762
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Butcher Stringy Insect Meat
+ | skilllevel = 42
+ | cost = 862
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe =Safely Prepare Paralytic Chicken
+ | skilllevel = 45
+ | cost = 961
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Butcher Great Venison
+ | skilllevel = 48
+ | cost = 1060
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Butcher Great Steak
+ | skilllevel = 50
+ | cost = 1139
+ | favor = Best Friends
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Butchering{{!}}Unlock Butchering Skill Levels 51-60
+ | skilllevel = 50
+ | cost = 20000
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Butcher Great Rabbit Meat
+ | skilllevel = 52
+ | cost = 1220
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Butcher Cat Meat
+ | skilllevel = 54
+ | cost = 1300
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Butcher Dog Meat
+ | skilllevel = 56
+ | cost = 1379
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Butcher Dinosaur Meat
+ | skilllevel = 58
+ | cost = 1460
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Butcher Beast Meat
+ | skilllevel = 60
+ | cost = 1553
+ | favor = ?
+}}
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Butchering{{!}}Unlock Butchering Skill Levels 61-70
+ | skilllevel = 60
+ | cost = 44500
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Butcher Insect Meat
+ | skilllevel = 62
+ | cost = 1466
+ | favor = ?
+}}
+|}
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Nishika
+|favorrestriction =Comfortable
+|itemrestriction =Food or Cooking Ingredients
+|neutral =0
+|comfortable =10
+|friends =20
+|closefriends =30
+|bestfriends =40
+|likefamily =50
+|soulmates =60
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|House Cat}} x5, 2 items (incomplete): {{Item|Icon=Flower Arrangement: Gardening Display #C|Flower Arrangement: Gardening Display C}}, {{Item|Telka's Tail}}, {{Item|On Becoming Great Again}}, {{Item|Work Order for Concentrated Wolfen Speed Juices (Alchemy)}}, {{Item|Ancient Stencil}}
+}}
+== Conversations ==
+{{Quote|source=[[Nishika]]|
+I mostly sell to visitors when ships come in. I only have a few regulars. But I catered for [[General Pask]] last month and he liked my food! I hope his endorsement will turn my fortunes around.
+}}
+{{Quote|source=[[Nishika]]|
+I know, I know. Foreigners always think "Tasty Cat" is in bad taste. But I always tell people: cats are not our friends! Rakshasa do not have a special bond with grimalkins. It's not immoral to eat them!
+}}
+{{Quote|source=[[Nishika]]|
+Five years ago I ran a stall selling fried meat on sticks to sailors. But I was finally able to open my own restaurant! I've been open for about half a year now.}}
+[[Category:NPCs]]

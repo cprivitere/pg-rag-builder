@@ -1,0 +1,273 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gorvessa
+|image            = [[File:Gorvessa.jpg|300px]]
+|caption          = She's stirring stew and thinking about something else.
+|zone             = Eltibule
+|dungeon = Hogan's Basement
+|anatomy = Goblin
+|species = Goblin
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Shield]], [[Candlemaking]]
+}}
+{{Quote|
+I want to become a teacher of the Shield arts. I developed so many techniques in my years, and they're all going to waste! Perhaps you'd like to pay to be taught some techniques?
+}}
+[[Gorvessa]] is a former warrior (turned harem girl!) who now cooks stew for the band of goblins led by [[Malvol]]. Fluency in [[Goblinese]] (30) is required to talk to her.
+== Location ==
+; [[Hogan's Basement]]
+: Found standing near her stew pot.
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+{{Spoiler|Gorvessa gives the following rewards at transition to the indicated favor levels|
+At {{Favor|Comfortable}}
+*{{Item|Healing Potion}} x3
+At {{Favor|Friends}}
+*{{Item|Healing Potion Extreme}} x3
+At {{Favor|Close Friends}}
+*{{Item|Healing Potion Omega}} x3
+At {{Favor|Best Friends}}
+*{{Item|Steroid Drink}} x3
+}}
+== Quests ==
+<dpl>
+category = Quests/Gorvessa
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Shield]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+<!-- the dialogue option that reveals her shield expertise may require 28-30 Goblinese, to be confirmed -->
+{{NPC training row
+ |ability=Infuriating Bash
+ |skilllevel=3
+ |cost=350
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Infuriating Bash 2
+ |skilllevel=19
+ |cost=1,650
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Infuriating Bash 3
+ |skilllevel=32
+ |cost=4,300
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Infuriating Bash 4
+ |skilllevel=42
+ |cost=6,800
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Infuriating Bash 5
+ |skilllevel=53
+ |cost=9,850
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Elemental Ward
+ |skilllevel=21
+ |cost=2,250
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Elemental Ward 2
+ |skilllevel=39
+ |cost=4,650
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Elemental Ward 3
+ |skilllevel=55
+ |cost=9,950
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Fire Shield
+ |skilllevel=7
+ |cost=550
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Fire Shield 2
+ |skilllevel=27
+ |cost=2,550
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Fire Shield 3
+ |skilllevel=47
+ |cost=7,050
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Fire Shield 4
+ |skilllevel=57
+ |cost=11,550
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Fire Shield 5
+ |skilllevel=67
+ |cost=17,050
+ |favor=Like Family
+}}
+{{NPC training row
+ |ability=Fight Me You Fools
+ |skilllevel=7
+ |cost=550
+ |favor=Neutral
+}}
+{{NPC training row
+ |ability=Fight Me You Fools 2
+ |skilllevel=19
+ |cost=1,650
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Fight Me You Fools 3
+ |skilllevel=29
+ |cost=2,650
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Fight Me You Fools 4
+ |skilllevel=39
+ |cost=4,650
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Fight Me You Fools 5
+ |skilllevel=49
+ |cost=7,150
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Fight Me You Fools 6
+ |skilllevel=59
+ |cost=11,650
+ |favor=Above Best Friends
+}}
+{{NPC training row
+ |ability=Fight Me You Fools 7
+ |skilllevel=69
+ |cost=17,150
+ |favor=
+}}
+{{NPC training row
+ |ability=Shield Team
+ |skilllevel=15
+ |cost=1,450
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Shield Team 2
+ |skilllevel=30
+ |cost=2,700
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Shield Team 3
+ |skilllevel=45
+ |cost=6,950
+ |favor=Above Best Friends
+}}
+{{NPC training row
+ |ability=Shield Team 4
+ |skilllevel=60
+ |cost=11,700
+ |favor=
+}}
+{{NPC training row
+ |ability=Shield Team 5
+ |skilllevel=72
+ |cost=19,800
+ |favor=
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Candle Making]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Shield{{pipe}}Unlock Candle Making Skill
+ |skilllevel = 0
+ |cost=4,700
+ |favor=Comfortable
+}}
+{{NPC training row
+ |recipe= Head Candle
+ |skilllevel= 35
+ |cost= 2,966
+ |favor= Friends
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Candle Making{{pipe}}Unlock Candle Making Skill Levels 51-60
+ |skilllevel = 50
+ |cost=20,000
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe= Quality Brisk Candle
+ |skilllevel= 54
+ |cost= 6,600
+ |favor= 
+}}
+{{NPC training row
+ |recipe= Great Tallow
+ |skilllevel= 55
+ |cost= 6,633
+ |favor= 
+}}
+{{NPC training row
+ |recipe= Quality Woodland Candle
+ |skilllevel= 56
+ |cost= 7,666
+ |favor= 
+}}
+{{NPC training row
+ |recipe= Quality Floral Candle
+ |skilllevel= 58
+ |cost= 7,733
+ |favor= 
+}}
+{{NPC training row
+ |recipe= Great Wick
+ |skilllevel= 60
+ |cost= 7,800
+ |favor= 
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Jeweled Goblin Hairpin}}
+|RiShin Family = {{Item|Jeweled Goblin Hairpin}}, {{Item|Goblin Stew}} x3
+}}
+== Conversations ==
+
+{{Spoiler|Best Friends|{{Quote|source=Gorvessa|We should go hunting together, shield and spear like the old days. When my legs are fully healed, I'd like that.}}}}
+
+{{Spoiler|Like Family|{{Quote|source=Gorvessa|We were meant for each other, you know? But you're not really my type, sexually. I hope you aren't offended. And anyway, I'm already in a harem! But we should be best platonic lovers!}}
+
+[[Category:NPCs]]

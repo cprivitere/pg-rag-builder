@@ -1,0 +1,43 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Collect Milk
+| description = Collect milk. Requires an empty bottle.
+| level = 18
+| power cost = 75
+| reuse time = 300
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|CollectMilk}}
+| special = You collect milk in an empty bottle.
+}}
+|-
+|
+{{Ability infobox
+| name = Collect Milk 2
+| description = Collect milk. Requires an empty bottle. This higher-level version requires you to follow a vegetarian diet.
+| level = 37
+| power cost = 70
+| reuse time = 240
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|CollectMilk}}
+| special = You collect milk in an empty bottle.
+}}
+|-
+|
+{{Ability infobox
+| name = Collect Milk 3
+| description = Collect milk. Requires an empty bottle. This higher-level version requires you to follow a vegetarian diet.
+| level = 52
+| power cost = 65
+| reuse time = 180
+| range = 5 meters
+| skill = Cow
+| keywords = {{KWAB|CollectMilk}}
+| special = You collect milk in an empty bottle.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,31 @@
+__NOTOC__
+''Previous quest (to unlock): [[Grasuul the Butler]]''
+
+==Summary==
+[[Truxartis]] asked me to loot Fresh Hematic Ichor from creatures and bring it to him. This is a repeatable daily quest offered on Tuesdays and Fridays.
+
+===Prerequisites===
+To receive this quest, talk to '''[[Truxartis]]''' in '''[[Vidaria]]'''. The quest is available after completing [[Grasuul the Butler]] and is offered on Tuesdays and Fridays.
+
+===Preface===
+{{Quote|My experiments require fresh hematic ichor. It can be hard to find, but just keep drinking people and... you'll find it eventually. Grasuul will know the best places to look today.}}
+
+===Requirements===
+* Loot {{Item|Hematic Ichor}} x5 from creatures (must be looted, not purchased)
+* Keep the Hematic Ichor in your inventory
+* Talk to [[Truxartis]]
+
+===Rewards===
+{{Spoiler|Rewards for Fresh Hematic Ichor|
+{{Quote|Good, it hasn't gotten too... crusty yet.}}
+
+* 50 {{Favor|favor}}
+* 10 Blood Oaths
+}}
+
+===Notes===
+{{Spoiler|Notes|
+[[Truxartis]] randomly assigns one daily Blood Oath quest per real-world day. Speak with [[Grasuul]] for guidance on suitable blood targets today.
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Truxartis]]

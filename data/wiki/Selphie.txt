@@ -1,0 +1,73 @@
+__NOTOC__
+{{NPC infobox
+|title            = Selphie
+|image            = [[File:selphie.png|300px]]
+|caption          = Her gaze is unnerving.
+|zone             = Serbule
+|town = Serbule Keep
+|location = Market building.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Retail Management]]
+}}
+[[Selphie]] teaches the [[Retail Management]] skill. Having that skill, allows a player to rent one of the vendor-stalls in the Keep. A player can place items in the vendor-stall that she wants to sell to other players and set the price for those items.
+
+She also offers some conversation options that aid in the management of your player owned shop.
+
+- If you leave a note for a shop-owner, that shop-owner has the option to reply to you. Selphie offers a way to read the replies from show-owners to you.
+
+- After a shop closes, Selphie offers some options to do some post-shop clean-up help.
+
+==Location==
+; [[Serbule]]
+: Just inside the entrance of [[Serbule Keep]]'s Keep.
+
+==Training==
+: Selphie has two options to learn the skill. If you already have the [[Industry]] skill to level 25 or above, she can teach you Retail Management for a reduced price (1,000).
+: If you lack the required Industry skill, Selphie offers you to teach you [[Retail Management]] for 20,000.
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Industry]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Retail Management{{pipe}}Unlock Retail Management Skill
+ |skilllevel=25
+ |cost=1000
+ |favor=
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Retail Management{{pipe}}Unlock Retail Management Skill
+ |skilllevel=0
+ |cost=20000
+ |favor=
+}}
+|}
+
+== Introduction ==
+{{Quote|
+Name? Let me check... no. There are no messages from shopkeepers here for you.
+: '''Who are you? What's going on?'''
+I am Selphie, the facility manager for this keep. I oversee all these slack-jawed morons that you can hire for a day's work. If any of them give you trouble, report them to me. Do not get into a fight with them, or you'll be banned from the building, understood? 
+
+Now, feel free to visit the stalls and see if there's anything you like.
+: '''You said something about me not having any 'notes?' 
+If you leave a note for a shopkeeper, they may want to get back in touch with you. They would do that by leaving a note with me. But you do not have any such notes, so you should move along. Good day.
+: '''Do you offer training?'''
+(See Training above)
+: '''I need post-shop clean-up help.'''
+Your closed shop has X Councils.
+
+There are X item stacks in the shop inventory.
+
+There are X unread customer-notes for you to read.
+
+There's nothing I can help you with, Adventurer.
+}}
+
+[[Category:NPCs]][[Category:NoRiShin]]

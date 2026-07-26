@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> You know what we don't see enough of? Dancing skeletons! If you're ever a skeleton, would you dance for me?
+
+This Quest can be repeated after 60 days.
+
+
+===Preface===
+<i>Zhia Lian:</i> You know what we don't see enough of? Dancing skeletons! If you're ever a skeleton, would you dance for me?
+
+===Requirements===
+* Dance While Skeletal x5
+=== Completing Zhia Lian Event: Skeleton Dance ===
+{{Spoiler|Click expand to learn how to dance as a skeleton|
+To complete this quest, interact and use a {{Item|Lich Illusion Candle}}. This will transform the user into a skeletal form. From there, find music and dance!}}
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Hah, your arms are so WRONG when you do that!
+
+I loved your stupid little dance. Thank-you for performing it for me.}}
+* 1000 councils
+* {{Item icon|Live Event Memorabilia|1}} [[Live Event Credit]] x1
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

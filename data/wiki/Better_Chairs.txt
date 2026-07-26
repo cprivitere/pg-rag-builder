@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Ukorga in the Kur Mountains asked you to procure some nice chairs.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ukorga]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|Nobody likes sitting on the stools in here. I wish I had better chairs. Real nice ones! But I don't know how to make those.}}
+
+===Requirements===
+* Obtain {{Item|Nice Chair}} x10
+* Talk to Ukorga
+
+===Rewards===
+{{Spoiler|Rewards for Better Chairs|
+{{Quote|You did it, thank you! I'll just take these into the back and let them sit for a few days while I pretend to make them. No offense, I just have to keep up appearances! But here. This is something I did make.}}
+
+* 250 {{Favor|favor}}
+* {{Item|Ukorga's Furry Fistwraps}}
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Ukorga]]

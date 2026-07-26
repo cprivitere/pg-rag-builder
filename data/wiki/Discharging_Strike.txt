@@ -1,0 +1,69 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Discharging Strike
+| description = Electrify your enemy.
+| level = 7
+| power cost = 22
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|DischargingStrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 29 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Discharging Strike 2
+| description = Electrify your enemy.
+| level = 27
+| power cost = 32
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|DischargingStrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 84 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Discharging Strike 3
+| description = Electrify your enemy.
+| level = 47
+| power cost = 42
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|DischargingStrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 186 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Discharging Strike 4
+| description = Electrify your enemy.
+| level = 60
+| power cost = 48
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|DischargingStrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 282 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Discharging Strike 5
+| description = Electrify your enemy.
+| level = 73
+| power cost = 55
+| reuse time = 9
+| range = 5 meters
+| skill = Hammer
+| keywords = {{KWAB|Attack}}{{KWAB|Hammer}}{{KWAB|Melee}}{{KWAB|DischargingStrike}}{{KWAB|HammerNonBasic}}{{KWAB|HammerAttack}}
+| damage = 382 Electricity
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

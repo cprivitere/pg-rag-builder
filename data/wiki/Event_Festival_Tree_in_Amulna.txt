@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+There's an undecorated tree in Amulna, a town in the Ilmari desert. Kelim is in charge of decorating it. When fully decorated, townsfolk will leave you presents under the tree each day during the holiday season.
+
+This Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Kelim]]''' in the '''[[Ilmari Desert]]'''.
+
+===Requirements===
+* Get Red Peppers for Decorations
+* Get Telka's Tails for Decorations
+* Get Manticore Manes for the Tree
+* Get Scorpion Stingers for the Tree-Topper
+* Talk to [[Kelim]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Well, that's all we need. Apparently if you put too many decorations on the tree, it becomes tacky, so we should stop here. Thanks for your help! And I put a present for you under the tree.}}
+}}
+
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/Kelim]][[Category:Quests/Ri-Shin Quests]]

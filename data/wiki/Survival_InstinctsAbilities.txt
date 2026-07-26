@@ -1,0 +1,56 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Survival Instincts/Abilities|Survival Instincts Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v400 on Tue Dec 19 2023 01:27:33 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Toughen Up|2}} || 1 || Toughen Up || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 50 Armor ||  || <b>Power Cost:</b> 7<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Toxic Flesh|2}} || 3 || Toxic Flesh || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 7 poison damage to the attacker. ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Lend Grace|2}} || 8 || Lend Grace || Enhance the movements of yourself or an ally with grace and efficiency. || Target has a 10% chance to evade all attacks, and regains 80 Power over 10 seconds. ||  || <b>Power Cost:</b> 11<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sanja]]
+|-
+| {{Ability icon|Toughen Up 2|2}} || 10 || Toughen Up 2 || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 75 Armor ||  || <b>Power Cost:</b> 9<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Toxic Flesh 2|2}} || 13 || Toxic Flesh 2 || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 21 poison damage to the attacker. ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Toughen Up 3|2}} || 20 || Toughen Up 3 || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 110 Armor ||  || <b>Power Cost:</b> 11<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Toxic Flesh 3|2}} || 23 || Toxic Flesh 3 || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 37 poison damage to the attacker. ||  || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Lend Grace 2|2}} || 28 || Lend Grace 2 || Enhance the movements of yourself or an ally with grace and efficiency. || Target has a 10% chance to evade all attacks, and regains 140 Power over 10 seconds. ||  || <b>Power Cost:</b> 18<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sanja]]
+|-
+| {{Ability icon|Toughen Up 4|2}} || 30 || Toughen Up 4 || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 150 Armor ||  || <b>Power Cost:</b> 14<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Toxic Flesh 4|2}} || 33 || Toxic Flesh 4 || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 57 poison damage to the attacker. ||  || <b>Power Cost:</b> 32<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Toughen Up 5|2}} || 40 || Toughen Up 5 || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 200 Armor ||  || <b>Power Cost:</b> 17<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Toxic Flesh 5|2}} || 43 || Toxic Flesh 5 || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 88 poison damage to the attacker. ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Lend Grace 3|2}} || 48 || Lend Grace 3 || Enhance the movements of yourself or an ally with grace and efficiency. || Target has a 10% chance to evade all attacks, and regains 180 Power over 10 seconds. ||  || <b>Power Cost:</b> 24<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sanja]]
+|-
+| {{Ability icon|Toughen Up 6|2}} || 50 || Toughen Up 6 || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 250 Armor ||  || <b>Power Cost:</b> 19<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || Leveling
+|-
+| {{Ability icon|Toxic Flesh 6|2}} || 53 || Toxic Flesh 6 || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 132 poison damage to the attacker. ||  || <b>Power Cost:</b> 42<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Toughen Up 7|2}} || 60 || Toughen Up 7 || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 300 Armor ||  || <b>Power Cost:</b> 21<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Sanja]]
+|-
+| {{Ability icon|Toxic Flesh 7|2}} || 63 || Toxic Flesh 7 || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 176 poison damage to the attacker. ||  || <b>Power Cost:</b> 47<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Lend Grace 4|2}} || 68 || Lend Grace 4 || Enhance the movements of yourself or an ally with grace and efficiency. || Target has a 10% chance to evade all attacks, and regains 230 Power over 10 seconds. ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Sanja]]
+|-
+| {{Ability icon|Toughen Up 8|2}} || 70 || Toughen Up 8 || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 350 Armor ||  || <b>Power Cost:</b> 23<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Sanja]]
+|-
+| {{Ability icon|Toxic Flesh 8|2}} || 73 || Toxic Flesh 8 || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 224 poison damage to the attacker. ||  || <b>Power Cost:</b> 52<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Backfat]]<br><b>Training:</b> [[Mittens]]
+|-
+| {{Ability icon|Toughen Up 9|2}} || 80 || Toughen Up 9 || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 400 Armor ||  || <b>Power Cost:</b> 26<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Toxic Flesh 9|2}} || 83 || Toxic Flesh 9 || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 276 poison damage to the attacker. ||  || <b>Power Cost:</b> 57<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Training:</b> [[Backfat]]
+|-
+| {{Ability icon|Lend Grace 5|2}} || 88 || Lend Grace 5 || Enhance the movements of yourself or an ally with grace and efficiency. || Target has a 10% chance to evade all attacks, and regains 280 Power over 10 seconds. ||  || <b>Power Cost:</b> 37<br><b>Range:</b> 20<br><b>Cooldown:</b> 60 || <b>Item:</b> [[Survival Instincts: Lend Grace 5]]
+|-
+| {{Ability icon|Toughen Up 10|2}} || 90 || Toughen Up 10 || Tap into your inherent fear of death, restoring your armor. || Restoration is boosted by items that boost Patch Armor<br><b>Restore:</b> 450 Armor ||  || <b>Power Cost:</b> 28<br><b>Range:</b> 5<br><b>Cooldown:</b> 45 || <b>Item:</b> [[Survival Instincts: Toughen Up 10]]
+|-
+| {{Ability icon|Toxic Flesh 10|2}} || 93 || Toxic Flesh 10 || Flood your veins with harmful chemicals to poison those that would try to eat you. || For 30 seconds, melee attacks that damage you deal 331 poison damage to the attacker. ||  || <b>Power Cost:</b> 63<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Survival Instincts: Toxic Flesh 10]]
+|}

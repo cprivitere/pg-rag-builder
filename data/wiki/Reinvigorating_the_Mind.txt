@@ -1,0 +1,33 @@
+__NOTOC__
+''Previous quest: [[Khyrulek's Planar Planner]] — first quest of Chain B (runs in parallel with Chain A)''
+
+==Summary==
+[[Truxartis]] asked me to find a Tuvillic Rune in [[Povus]] beneath a giant mushroom and retrieve the Mnemonic Index. This quest becomes available after completing [[Khyrulek's Planar Planner]] and can run in parallel with the rest of Chain A.
+
+===Prerequisites===
+To start this quest, talk to '''[[Truxartis]]''' in '''[[Vidaria]]'''. The quest is available after completing [[Khyrulek's Planar Planner]].
+
+===Preface===
+{{Quote|My mind is... Fuzzy. I need to realign it. Yes! I know what to do.
+
+You should find a Tuvillic Rune in Povus, beneath a giant mushroom. Touch the rune and retrieve the Mnemonix Index. When you enter the caves, turn left and you should see it.}}
+
+===Requirements===
+* Touch Vampire Rune beneath a Giant Mushroom in [[Povus]]
+* Obtain {{Item|Mnemonic Index}}
+* Talk to [[Truxartis]]
+
+===Rewards===
+{{Spoiler|Rewards for Reinvigorating the Mind|
+{{Quote|Ah, my Mnemonic Index. It is my own creation, you know. It allows me to... Well, I needn't explain myself to a bloodling. Suffice to say that... you have done well, but there is more to do before I... regain my powers of the mind.}}
+
+* 50 {{Favor|favor}}
+* 10 Blood Oaths
+}}
+
+===Notes===
+{{Spoiler|Notes|
+The Mnemonic Index is found in [[Fungal Fortress]], located beneath the giant mushroom in southeastern [[Povus]]. The fungoid NPC [[Mope]], who sits on top of the mushroom, will teleport you into [[Fungal Fortress]] if you have at least Friend-level favor with him.
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Truxartis]]

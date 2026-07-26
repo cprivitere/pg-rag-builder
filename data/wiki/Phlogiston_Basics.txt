@@ -1,0 +1,32 @@
+__NOTOC__
+==Summary==
+Kalaba in Eltibule taught you the basics of [[Transmutation]]. He asked you to find weak magical items ("Uncommon" rarity items, with a green label) and turn them into Phlogiston. You learned a Transmutation recipe to do this -- it's in your Recipes menu.
+===Prerequisites===
+To start this quest, talk to '''[[Kalaba]]''' in '''[[Eltibule]]'''.  The quest is available at {{Favor|Neutral}} favor.
+===Preface===
+{{Quote|
+Since I already taught you Transmutation, you're ready to go find weak magical items and turn them into phlogiston for me. Bring me some low-grade packets of Phlogiston.
+
+As a Transmutation beginner, you'll need to find Uncommon (green-label) magic items that are no higher than level 30. Use the Transmutation recipe you learned to distill these items to Phlogiston.
+}}
+
+===Requirements===
+* Distill Simple Magic Items Into Phlogiston x4
+* Collect Some of the Resulting Phlogiston x7
+* Talk to Kalaba
+
+===Rewards===
+{{Spoiler|Rewards for Phlogiston Basics|
+{{Quote|
+You did it! I knew I was a great teacher! I'll teach you the next technique now. This lets you distill slightly better magic items! Oh and here: take these prisms. Sometimes they break, so you need a lot of them.
+
+I actually need a lot more phlogiston than this -- but don't worry, I'm not asking you to work free! When you're ready to help more, let me know.}}
+
+* 100 favor towards Kalaba
+* Unlocks new Favor Quest
+* Raises [[Transmutation]] skill to Level 5.
+* Recipe: Distill Rare Magical Item.
+* {{Item|Small Prism}} x10
+}}
+
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Kalaba]]

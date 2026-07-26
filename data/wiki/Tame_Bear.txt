@@ -1,0 +1,11 @@
+__NOTOC__
+{{Ability infobox
+| name = Tame Bear
+| description = Tame a wild bear into becoming your permanent pet. Requires a perch.
+| level = 1
+| power cost = 100
+| reuse time = 10
+| range = 5 meters
+| skill = Animal Handling
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

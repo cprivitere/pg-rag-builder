@@ -1,0 +1,69 @@
+__NOTOC__
+{{Skill infobox
+|title            = Crossbow
+|image            = [[File:Sword_skill.png|300px]]
+|caption          = Pew pew pew.
+|skilltype        = Combat Skill 
+|maxlevel         = 100 <!-- List without bonus levels -->
+|req              = <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Bellema Deftwhisper]], [[Floxie]], [[Sir Fisk]] <!-- List skill trainers, 3 max -->
+}}
+{{Quote|
+I cast gun
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Crossbow''' is a special combat sidebar skill that can be used together with 2 other 'main' skills.  It requires you to be holding a crossbow in your Offhand.  It offers decent damage with long cooldowns.
+=== In-Game Description ===
+Knowledge of crossbows including how to fire and reload them, as well as how to maintain them in peak condition.
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Bellema Deftwhisper]] will teach you at '''Comfortable''' favor level. She also unlocks levels 51-60 and teaches the various Crossbow abilities.
+* [[Floxie]] unlocks levels 61-70 and levels 71-80.
+* Levels 81-90 are unlocked by [[Serendipity Cheddar]] deep beneath [[Povus]].
+* [[Sir Fisk]] in [[Statehelm]] unlocks levels 81-90, 91-100, and [[Prodigy Potential]].
+
+== Connected Skills ==
+=== Related Skills ===
+* [[Fletching]] - You need this to craft the arrows that Crossbow abilities consume.
+
+===== Synergy Levels =====
+Bonus [[Synergy Levels]] for [[Crossbow]] can be obtained from the following skills and levels:
+:; [[Archery]]
+:: Level 32, and Level 58
+:; [[Endurance]]
+:: Level 85
+:; [[Fletching]]
+:: Level 21, and Level 34, and Level 53
+:; [[Gadgeteering]]
+:: Level 15, and Level 45
+
+{{:{{msg:BASEPAGENAME}}/AbilityOverview}}
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+
+===Equipment===
+<dpl>
+  category   = Items/Crossbow
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/AuxCombatSkill}}
+}}
+
+== Trivia ==
+* This is the only sidebar skill that is used for ONLY damage.
+
+== Gallery==
+<gallery mode="nolines" widths=200px>
+</gallery>
+
+[[Category:Skills]]

@@ -1,0 +1,8 @@
+==December 6, 2014==
+Yesterday's update broke character-creation.  Oops. This is fixed now!
+
+Today's update also has some monster re-balancing, because I happened to be working on that today. These changes are extremely experimental... I haven't even play tested them myself yet. But they should be mild.
+
+Many monsters above level 35-ish will have more armor and do more damage. And all bosses now do a bit more damage.  Theoretically, it won't be a dramatic change.
+
+[[Category: Game updates]]

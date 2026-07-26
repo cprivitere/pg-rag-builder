@@ -1,0 +1,74 @@
+__NOTOC__
+{{MOB infobox
+| title = Aktaari Princess
+| image = [[File:Aktaari_Princess.png|180px]]
+| type   = Arthropod
+| health = 156596
+| armor  = 54770
+| rage   = 11663
+| notoriety = 1800
+| effective = Piercing, Trauma
+| ineffective = Fire, Cold, Nature, Electricity
+| vineffective = Acid
+}}
+The [[Aktaari Princess]] is a rare variety of [[Aktaari]], that is only found in the [[Aktaari Cave]] during the [[Egg Run]] event. 
+
+It has double the Mitigation at Max Armor of most Aktaari.
+== Locations ==
+{{MOB Location
+| area = Aktaari Cave
+| location = [[Egg Run]]
+| health = 156596
+| armor  = 54770
+| rage   = 11663
+| lootlevel = 95
+| mitigation =40%
+}}
+
+== Combat Abilities ==
+'''Burst Damage Reflection'''
+
+Slashing Damage, Slashing Damage, Heavy Poison Damage
+<!--
+:{{AIP:GiantRat}} -->
+== Miscellaneous ==
+{|
+{{Header|[[Skinning]]}}
+|-
+|None
+|-
+{{Header|[[Butchering]]}}
+|-
+|???
+|-
+{{Header|[[Butchering|Skull Extraction]]}}
+|-
+|???
+|}
+== Reported Loot ==
+==== General Loot ====
+; Level 90 - 95 Equipment
+{|
+{{Header|Common|4}}
+|-
+|{{Loot|Aktaari Claw}}
+|-
+|{{Loot|Umrad Boots}}
+|-
+|{{Loot|Umrad Gloves}}
+|-
+|{{Loot|Umrad Leggings}}
+|-
+|{{Loot|Umrad Coat}}
+|-
+|{{Loot|Umrad Helm}}
+|-
+|{{Loot|Umrad Shield}}
+|-
+{{Header|Rare|4}}|-
+|{{Loot|Icesnake}}
+|-
+|{{Loot|Awesome Familiar Controller}}
+|}
+
+[[Category:Bosses]]

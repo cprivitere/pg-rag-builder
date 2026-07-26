@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Chirrra in  the Serbule Hills Ranalon Den said, "Take out the scray resting in pools around the den. Those scray are precious to our front-line assault against the goblins! You can find them in any pool in the den... oh, except the pools in the legling area, I suppose."
+
+===Prerequisites===
+To start this quest, talk to '''[[Chirrra]]''' in '''[[Ranalon Den]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This quest requires the previous completion of a [[:Category:Quests/Chirrra Tier 1|Tier 1]] quest from Chirrra.
+
+This is a solo quest from Chirrra. You may have one solo quest from Chirrra at a time. You can take on a new solo quest 15 minutes after completing or canceling this quest.
+
+===Preface===
+{{Quote|Take out the scray resting in pools around the den. Those scray are precious to our front-line assault against the goblins! You can find them in any pool in the den... oh, except the pools in the legling area, I suppose.}}
+
+This is a [[:Category:Quests/Chirrra Tier 2|Tier 2]] quest from Chirrra.
+
+===Requirements===
+* Kill Scray
+* Talk to Chirrra
+
+===Rewards===
+{{Spoiler|Rewards for Ranalon Den: Kill Scray|
+{{Quote|I sort of hate having to see the scray die. They're good pets. They don't really understand... no, stop! No time for sentiment! We have murders to scheme! Here's your reward. Let me figure out the next scheme -- give me a minute.}}
+
+This quest will reward random loot. This may include items with level 20 mods.}}
+[[Category:Quests]][[Category:Quests/Ranalon Den Quests]][[Category:Quests/Chirrra]][[Category:Quests/Chirrra Tier 2]]

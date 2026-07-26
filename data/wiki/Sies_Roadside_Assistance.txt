@@ -1,0 +1,28 @@
+__NOTOC__
+==Summary==
+Hogan in Hogan's Keep asked you to visit Sie Antry at her home southwest of Hogan's Keep.
+
+===Prerequisites===
+To start this quest, talk to '''[[Hogan]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|My friend Sie Antry and I share the duty of keeping the monster population thinned out. But recently I feel that Sie's been shirking her duties. Perhaps she's overwhelmed. Can you visit her and see?}}
+
+===Requirements===
+* Speak with Sie Antry
+* Talk to Hogan
+
+{{Spoiler|Response to player|{{Quote|Oh, don't you start with me! Hogan hasn't killed a single damned Tor-Urak in months! If it's not right outside his castle gate, he doesn't give a crap about it. I work my ass off, and he has the gall to suggest...
+
+Sorry, kid. I don't mean to get you mixed up in this. I'll take it up with him tomorrow.}} }}
+
+===Rewards===
+{{Spoiler|Rewards for Sie's Roadside Assistance|
+{{Quote|Well, I'm glad she wasn't hurt or anything. Still, she'll have to listen to reason: I spend several days every week clearing the roads, and I've never seen her out there.
+
+You don't suppose she works evenings while I work mornings, do you? Hah, no, that's the sort of misunderstanding you'd read in a bad adventure poem!}}
+
+* 50 {{Favor|favor}}
+* 250 councils 
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Hogan]]

@@ -1,0 +1,38 @@
+==pdate Notes: April 18, 2026==
+This update is primarily for one thing: to try to stop Windows Defender Firewall from blocking our game. The game's ability to connect to our server is being blocked for some users (but not all -- including us; we can't reproduce this). We haven't changed any code related to our networking in <i>years</i> so we presume this behavior is due to some new requirement that Microsoft is enforcing. Looking at our code, we make an HTTP web call at startup instead of an HTTPS web call. We've fixed this, and are hoping it appeases Microsoft's inscrutible filter. If it doesn't, remember that you can always whitelist the game yourself. If you want to whitelist by port, the game needs HTTPS access as well as TCP port 9003 access to *.projectgorgon.com.
+
+But we also have a nice allotment of other fixes!
+
+===Statehelm fixes:===
+:- You can now cook in the Goblin's Armpit!
+:- Fix post office wall that lets you walk through it
+:- Fix some areas where the camera zooms in randomly
+:- Chancellor Algest is now easier to click on
+:- Replace duplicate cow "Flowers"
+:- Fix bug causing Dice Games in Statehelm to pay out 0 councils
+
+===Eltibule fixes:===
+:- Improve placement of horse race checkpoints & speed boosts
+:- Lift drawbridge up out of the dirt
+:- Align wall torches to their walls
+
+===Other Fixes:===
+:- Fix high level scaling of the following abilities: Toxic Flesh, Sic 'Em, First Aid, Doe Eyes, Lend Grace, Toughen Up, Song of Bravery, Rally, & Anthem of Avoidance
+:- Fix quests that require killing specific-leveled enemies with specific abilities; most notably Entrancement Practice and Demon Blasting
+:- The Quest Log should now always open to the correct quest
+:- The quest "Blasted Louis" is now given by Denton instead of Fisk
+:- Marvelous Winter Leggings are now level 110, down from an unreachable level 1100
+:- Fix electricity resistance dance buff (0.25 mitigation -> 25% resistance)
+:- Wild Endurance now stacks in the ability context menu
+:- Fix typos in: Sir Brooker preference, "Mastering Mushrooms" quest, Ice Armor enchantment
+:- Summoned Baby Spiders and Zombies no longer despawn when you mount
+:- A chime now plays when you receive a Tell from another player. You can adjust what sound plays, when it plays, and its volume via Settings > GUI > Chat
+:- Adjust spider footstep sounds to remove a sound that stood out
+:- Fix sideways-facing particles for some Bat abilities
+:- Necromancy-raised Flapskulls no longer hurt players; their rage attack is now a one-time AOE that applies a DoT and increases Max Rage by 10%
+:- Embrace of Despair no longer deselects your target
+:- Necrotic Grasp now resets if it is the ability that kills the target
+:- Fix the character create screen showing "RacialValue" and "SkinDetail" instead of the correct labels
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

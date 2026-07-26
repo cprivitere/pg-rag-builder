@@ -1,0 +1,319 @@
+__NOTOC__
+==Update Notes: June 10, 2022==
+
+Welcome to our 364th update! This one is '''jammed''' full of new features and bug fixes. Let's take a look!
+
+===Animal Travel Mode===
+Since our recent addition of mounts, animal-form players have been asking for their own mounts. But some types of animals should really be able to travel on their own! In this update, we've given those quadrupeds a new "travel mode" which makes them behave as their own horse.
+
+Once a player meets the requirements, they can learn the appropriate technique from a trainer. After that, the Mount UI will appear (even if they don't have a horse in their stable), and they can "mount up" while in that animal form. This also lets these characters equip a saddlebag, if they have one. They can also earn [[Riding]] XP by "riding themselves." Don't think too hard about it.
+
+A couple things to note:
+:- Bounceweed now has a new effect on these animals, increasing their animal-form top "travel speed".
+:- The particle on the animal form's footsteps while traveling is a placeholder.
+:- Not all animal forms have a travel mode yet; others' travel methods are coming soon!
+
+===Werewolf===
+:- [[Sanja]] in Kur teaches wolf players to enter travel mode. This requires [[Werewolf]] level 40.
+:- The werewolf Hunting Speed abilities (1 through 3) are no longer sidebar abilities. They are now Riding abilities, meaning that you should place them on your ability bar while "riding yourself" as a wolf. They are still unlocked via the werewolf altar as before.
+  
+===Deer===
+:- [[Silvia]] in [[Sun Vale]] teaches deer players to enter travel mode.
+:- [[Silvia]] also teaches Bounding Speed, a deer-only [[Riding]] ability.
+
+===Cow===
+:- Both [[Raul]] and the [[Suspicious Cow]] train player cows how to enter travel mode. This requires Cow 25 and Comfortable favor.
+:- Both [[Raul]] and the [[Suspicious Cow]] train Cud Speed, a cow-only [[Riding]] ability.
+
+===Pig===
+:- [[Norbert]] trains player pigs how to enter travel mode. 
+:- [[Norbert]] teaches Porcine Speed, a pig-only [[Riding]] ability.
+
+
+===Archery Changes===
+[[Archery]] is a combat skill that can be learned early. It's not the easiest skill to get into (as you must either learn to make your own arrows or buy them), but the intent is that the skill rewards the extra effort: it has strong damage plus a lot of battlefield control (e.g. stun/mezz/movement). Archery was a very popular skill in alpha, but fell off in popularity over time. The skill had only a couple of great skill pairings, and its treasure hasn't been as exciting as some newer skills' offerings.
+
+In order to make Archery more appealing, we've kept the existing builds and skill pairings intact, and added a bunch more treasure effects. Some of the new effects synergize with older Archery treasure effects. Others were added to make the skill a better companion to other high-damage skills. We've also fixed some bugs in the skill's high-level treasure effects.
+
+===Removal of Basic Shot===
+Archery's Basic Shot was about as standard as a basic-attack could be, but there was a variant version called Blitz Shot. Blitz Shot was faster, but had reduced range and increased Power cost. These two abilities have been combined into one, taking the best features of both.
+
+Internally, we renamed Basic Shot to Blitz Shot, and deleted the old version of Blitz Shot. So if you were using Basic Shot before, you'll now see Blitz Shot on your ability bar. If you were using Blitz Shot before, there will be an empty spot on your ability bar... just put Blitz Shot back into the slot, and you're good to go. 
+
+But note: there's two new tiers of Blitz Shot! Previously there were 7 tiers (ranging from level 1 to 80). We've added two more tiers, for a total of 9. This way players get a new tier of Blitz Shot every 10 levels or so. The only down side is that if you're high-level in Archery, you'll need to learn these new tiers. They are trained by [[Floxie]] in the [[Fae Realm]]. This also affects Faebows: you'll need to learn the newest tiers of Blitz Shot before you can use "Blitz Shot (Energy Bow)".
+
+Also note: as a minor side-effect, the level requirement for Long Shot 1 was changed from level 12 to 13. This will only matter if you happen to be exactly level 12 in archery: in that case, you've already learned Aimed Shot 1 prior to this update. Your character will still know the ability, but you won't be able to use it again until you reach level 13.
+
+===Note on minor Changes===
+Many of Archery's treasure effects were bugged such that they didn't correctly scale past level 80 (or in some cases past level 70.) These bugs have been fixed, and pre-existing high level Archery gear will automatically have the corrected stats. 
+
+We also made lots of small changes to older treasure effects. All small number changes have been omitted for brevity, but all substantial changes are listed below. (As always, the most up-to-date numbers are available in the game's JSON data, so third-party tools will have all the latest numbers after they update.)
+
+Also note that most of the numbers here are for the hypothetical level 100 versions.
+
+===Treasure and Ability Changes===
+::- Changed treasure effect: "Long Shot boosts your Armor Regeneration (in-combat) +16 for 15 seconds" => "Long Shot and Hook Shot Damage +121"
+::- Changed treasure effect: "Restorative Arrow restores an additional 126 Health over 30 seconds" => "Restorative Arrow restores 58 Power"
+::- Changed treasure effect: "Restorative Arrow boosts target's Nice Attack and Epic Attack Damage +188 for 10 seconds" => "Restorative Arrow covers the target in a barrier that mitigates 40 damage from Crushing, Slashing, Piercing, Acid, and Fire attacks. Lasts for 20 seconds or until it has absorbed 200 total damage."
+::- New treasure effect for off-hand: "Restorative Arrow targets yourself and all allies within 30 meters and restores +52 Health, but reuse time is +10 seconds"
+::- New treasure effect for off-hand: "Hook Shot Damage +132. Non-Elite targets do not call for help."
+::- New treasure effect for feet, necklace: "Long Shot increases target's vulnerability to Trauma and Acid +10% for 20 seconds. (Max of 2 stacks.)"
+::- New treasure effect for hands, necklace: "Hook Shot increases target's vulnerability to Fire and Poison +10% for 20 seconds. (Max of 2 stacks.)"
+::- New treasure effect for head, feet: "Hook Shot and Bow Bash deal +200% damage to Stunned targets."
+::- new treasure effect for legs, ring: "Poison Arrow deals +480 Poison damage over 12 seconds"
+::- New treasure effect for head: "Blitz Shot deals +59 damage, and the damage type becomes Poison."
+::- New treasure effect for ring: "Direct Poison and Acid Damage +124 while Archery skill active."
+::- New treasure effect for necklace: "Direct Fire Damage +124 and Indirect Fire Damage +16 (per tick) while Archery skill active."
+::- New treasure effect for hands: "Multishot deals +99 damage, and the damage type becomes Fire."
+::- Buffed effect: "Aimed Shot deals 132 additional health damage over 12 seconds" => 270 over 12 seconds.
+::- Buffed effect: "Multishot restores 90 Health to you after a 15 second delay" => 132 health after an 8 second delay.
+::- Buffed effect: "Long Shot restores 61 health to you after a 15 second delay" => 86 health after an 8 second delay.
+::- Buffed effect: "Fire Arrow suddenly deals an additional 400 indirect Fire damage after a 12 second delay" => 500 after a 6-second delay.
+::- Ability change: Hook Shot base damage increased slightly at all tiers.
+
+===[[Cow]] Changes===
+::- Chew Cud, Moo of Calm, Stampede: these abilities can be used while stunned.
+::- Changed treasure: "Stampede boosts your Slashing/Crushing/Piercing Mitigation vs. Elites +8 for 30 seconds (stacks up to 5 times)" => +16
+::- Changed treasure: (Hands, Feet) "Chew Cud increases your mitigation versus Crushing, Slashing, and Piercing attacks +18 for 10 seconds" => "Chew Cud increases your mitigation versus Crushing, Slashing, Piercing, and Fire attacks +18 for 10 seconds. Against Elite enemies, mitigates +18 more"
+::- Changed treasure: (Chest, Ring) "Chew Cud increases your mitigation versus Crushing, Slashing, and Piercing attacks +18 for 10 seconds" => "Chew Cud increases your mitigation versus Crushing, Slashing, Piercing, and Cold attacks +18 for 10 seconds. Against Elite enemies, mitigates +18 more"
+::- Changed treasure: "Stampede boosts your Slashing/Crushing/Piercing Mitigation vs. Elites +8 for 30 seconds (stacks up to 5 times)" => +20
+::- New treasure: (Ring): "Stampede boosts your Fire/Cold/Electricity Mitigation vs. Elites +20 for 30 seconds (stacks up to 5 times)"
+::- New treasure: (Necklace): "Stampede deals +860% damage if used while you are stunned"
+::- Changed treasure: "Cow's Bash heals you for 66 health" => "Cow's Bash heals you for 66 health and reuse timer is -1 second"
+::- Changed treasure: "While Cow skill is active, you regenerate +40 Health every 5 seconds and resist +20 damage from Elite Crushing, Slashing, or Piercing attacks" => now resist all Elite damage types (not just Crushing/Slashing/Piercing)
+::- Changed treasure: "Chew Cud's chance to consume grass is -42%" => "Chew Cud restores +80 Armor. Chance to consume grass is -42%"
+::- Changed treasure: "Graze boosts your out-of-combat sprint speed by 8.5 for 30 seconds" => "Graze boosts your out-of-combat sprint speed by 3 for 50 seconds"
+::- New treasure: (Necklace) "Stampede deals +1050% damage if used while you are stunned"
+
+===[[Psychology]] Changes===
+::- Ability change: Soothe: all tiers have higher base damage; reuse timer changed from 15s to 13s; Power cost increased
+::- Ability change: Cause Terror: all tiers have higher base damage
+::- Ability change: But I Love you: all tiers have higher base damage
+::- New treasure: (hands) "Fast Talk targets all enemies within 10 meters and Power cost is -18"
+::- New treasure: (chest and feet) "But I Love You and Cause Terror Damage +58%"
+::- Changed treasure: "Fast Talk heals you for 74 armor" => "Fast Talk reduces target's rage by -1190 and reuse timer is -2 seconds"
+::- Changed treasure: "Inspire Confidence restores +104 Health after an 8 second delay" => "Inspire Confidence restores 60 Power over 9 seconds to all targets"
+::- Changed treasure: "Soothe further reduces target's Rage by 1210" => "Soothe reuse timer is -1 second and it further reduces Rage by 1370"
+::- Changed treasure: "Fast Talk taunts -540 and reduces Rage by 900" => "Fast Talk taunts -2196"
+::- Changed treasure: "Inspire Confidence increases the damage of all targets' attacks +16 for 30 seconds" => +69 for 30 seconds
+::- Changed treasure: "Tell Me About Your Mother restores 177 Armor to you" => "Tell Me About Your Mother restores 123 Health (or Armor if Health is full)"
+::- Changed treasure: "Soothe boosts the healing from your Major Healing abilities +56 for 10 seconds" => "For 10 seconds after using Soothe, your Major Healing abilities restore +68 Health and your attacks generate -30% Rage"
+::- Changed treasure: "But I Love You boosts your Nice and Epic Attack Damage +91 for 8 seconds" => 10 seconds (fixes description typo; actual effect was already 10 seconds)
+::- Changed treasure: "Cause Terror Damage +214" => "Cause Terror deals +214 damage and restores 46 Health to you" 
+
+===[[Staff]] Changes===
+::- Blocking Stance: Reduced bonus mitigation vs. elites by 50%. Thus Blocking Stance 1 now mitigates +5 and +5 more vs. elites; previously it mitigated +5 and +10 more vs. elites.
+::- Changed treasure: "Deflective Spin restores 82 Health instantly and provides +58 Mitigation from all Elite attacks for 15 seconds" => restores 82 health and provides +37 mitigation from all Elite attacks for 10 seconds
+::- Changed treasure: "Blocking Stance mitigates +15 physical damage (Crushing, Slashing, Piercing) for 30 seconds. Against Elite enemies, mitigates +30 more" => "... Against Elite enemies, mitigates +15 more"
+::- Deflective Spin ability: "You take X% less damage from all attacks for 15 seconds." => 10 seconds
+::- Changed treasure: "Deflective Spin costs -11 Power and mitigates +13 damage from each attack for 15 seconds" => "Deflective Spin damage +100. Targets' next attack deals -10% damage"
+
+===[[Shield]] Changes===
+::- Shield: "While Bulwark Mode is enabled you recover X Power per second" -> "While Bulwark Mode is enabled, abilities cost -X Power to use"
+::- Shield: "Elemental Ward mitigates +40 elemental damage (Fire, Cold, and Electricity) for 30 seconds" => "Elemental Ward mitigates +40 elemental damage (Fire, Cold, and Electricity) for 30 seconds. Against Elite attackers, mitigates +40 more"
+::- Shield: "Slashing Mitigation +8, Piercing Mitigation +7, Crushing Mitigation +7 while Shield skill active" => "While Shield skill active: Mitigate Slashing +16, Piercing +14, and Crushing +14. Versus Elite attackers, these values are doubled"
+::- Take the Lead abilities: now boost sprint less. (Take the Lead 6 was +10.5, now +6.5)
+::- "Take the Lead boosts your sprint speed by an additional +5 and you recover 48 Power after a 15 second delay" => "Take the Lead boosts your movement speed +3 and you recover 58 Power after a 15 second delay"
+
+===[[Ice Magic]] Changes===
+::- Ice Armor: now has reduced mitigation vs. elites. (Was 27 and 54 more vs. Elites; is now 27 and 27 more vs. Elites)
+::- New treasure: (Chest, Hands) "Blizzard Damage +150 and you gain Elite Resistance +10% for 20 seconds"
+::- "Ice Spear heals you for 58 health after a 15-second delay" => "Ice Spear heals you for 80 health after a 7-second delay"
+::- (head, feet) "Frostbite causes all target's attacks to deal -22 damage (this effect does not stack with itself)" => "Frostbite causes all target's attacks to deal -22 damage, and their Rage attacks are further reduced by 10%"
+::- Ice Veins, Ice Armor, Cryogenic Freeze: these abilities can be used while stunned
+
+
+===Other Balance Changes/Fixes===
+::- [[Animal Handling]]: treasure effect "Animal Handling pets recover +X Armor every five seconds" now actually recovers the armor.
+::- [[Bard]]: Fixed bugs that allowed abusable "stacking" of bard song healing.
+::- Bard: Added damage type (trauma) to Song of Discord description.
+::- [[Fairy Magic]]: The treasure mod 'Fae Conduit's Power cost is -X and reuse timer is -Y seconds' now actually reduces the reuse time.
+::- [[First Aid]]: Reset time changed from 30s to 20s for Treat Disease [1-4], Set Broken Bone, Moss Bone Repair, and Soberize.
+::- [[Rabbit]]: effects that change Bun-Fu Blast and Bun-Fu Strike damage to cold will no longer revert the damage type later on.
+::- [[Unarmed]]: New treasure effect: (Hands): "Cobra Strike, Mamba Strike, and Slashing Strike deal +50 damage and can be used while stunned. Doing so removes the stun effect from you."
+::- All metal armor has been rebalanced to give slightly less Max Armor and slightly less Armor recovery from combat refresh. In exchange, it now has modest Power recovery from combat refresh.
+::- Pulling a target toward you (with E.G. Hook Shot) will no longer fling the target off into the distance if you are standing on top of one another.
+::- Bonus pet health and armor from treasure effects will now persist through the pet's death.
+::- After zoning, pets will now have the correct state selected in the UI instead of always Follow.
+::- The werewolf altar buffs to increase physical mitigation have been changed into percentage-based vulnerability buffs.
+::- [[Transmutation]] costs will be reduced for the next month for Archery, Cow, Staff, Psychology, Shield, and Ice Magic skills
+
+===Boss Encounter Revisions===
+Some high-level boss encounters have been tweaked as follows:
+
+====Gazluk Healing Suit Tester:====
+:- The healing crystals now have a much more pronounced effect on the boss's regeneration. When all 8 crystals are up, he recovers 100% of missing health every 5 seconds.
+:- Healing Crystals now have 8000 max health each instead of 125.
+:- Destroyed crystals respawn more quickly.
+:- Nearby "Healing Suit Technicians" are now Elite.
+
+====Gazluk Clutchmaster:====
+:- More eggs spawn at the beginning of the encounter.
+:- Eggs have more health (but still not all that much).
+:- When eggs hatch, they now spawn an Elite urak that wanders.
+:- Eggs respawn more quickly.
+
+====Productivity Expert:====
+:- The expert's assistants are now Elite, and more numerous.
+
+====Arkura:====
+:- Arkura has been upgraded from a named Elite to a Sub-Boss, with commensurate bonuses to health, damage, and annual compensation.
+:- Some of Arkura's skeleton minions have been replaced by (elite) Mutterer Cabalists.
+:- Arkura and her minions have exceptional help-shouting capability.
+
+====Shower Slime:====
+:- Has more health and lots more regeneration.
+
+====Zukelmux the Intransigent:====
+:- Zukelmux's summoned backup are now Elite.
+
+====Beakhorse:====
+:- Beakhorse is a bit more powerful (especially the beak).
+
+====Captain Evergloam's Bridge:====
+:- The captain and her crew have all been promoted one or two tiers of potency. This makes Captain Evergloam an Epic Boss.
+:- This does not change their loot, because their loot was already epic-tier for some reason.
+
+====Coldfeather:====
+:- Security crystals have more health (but remain extremely vulnerable to knockback).
+
+====Hotfeather:====
+:- Hotfeather has more health and offensive power.
+:- Hotfeather and friends have larger help-shout radii.
+
+====Dalvos's Astral Projection:====
+:- Summoned assistants are more powerful and numerous.
+
+====Chet Thunder:====
+:- Chet Thunder is stronger.
+
+====Gue and Wormback:====
+:- Both have been promoted from Elites to Basic Bosses.
+
+====Eeaeiikik and Funguile:====
+:- Eeaeiikik has been promoted from Elite to Basic Boss.
+:- Funguile is a bit stronger.
+
+====Everhorn and Shockybug:====
+:- Both have been promoted from Elites to Basic Bosses.
+
+====Vemuta's Area:====
+:- Vemuta has been promoted from Basic Boss to Epic Boss.
+:- Some of the myconian students in each teaching cluster are now elites. (Randomly picked, with higher chances of elites in Vemuta's cluster.)
+
+====Imarak:====
+:- Imarak has been promoted from Basic Boss to Epic Boss.
+:- Imarak's adds are a bit stronger.
+:- Young mantises in general are stronger.
+
+====Guzyerp:====
+:- Guzyerp has been promoted to Epic Boss, with commensurate loot improvements.
+:- Nearby bears are a bit tougher.
+
+====Peacemaster Guztok:====
+:- Guztok's hobgoblins are a bit tougher in general.
+:- Guztok is more epic.
+:- Guztok now calls for Elite backup after taking a little damage.
+
+===Deathcore Penalty===
+The Death Penalty sign in Serbule Keep now lets you switch to "DEATHCORE" death penalty. DEATHCORE death penalty is not really intended for regular use; it's for special situations, such as a guild all agreeing to participate together. 
+
+In DEATHCORE penalty, you simply cannot respawn at all. If other players know how to resurrect people, they can still resurrect you, and special items such as Eternal Greens can still respawn you. Other than that, though, if you die, you will stay dead forever! 
+
+There are no additional benefits for using DEATHCORE over Hardcore. There will never be any extra reason to enter DEATHCORE mode except for the challenge and the bragging rights.
+
+
+===Discord Integration===
+If you use Discord a lot, you'll be excited to know that we've added some basic Discord integration. 
+
+There is a new "Discord Integration" tab in Preferences where players can decide what info is displayed about them in Discord (while they are playing the game): their character name, guild name, and/or general location. The default setting is to not display any info in Discord, so if you're not interested in this feature you can just ignore it. 
+
+There's also a new chat command <kbd>/discord</kbd> to quickly join the official Project: Gorgon Discord server!
+
+
+===UI Improvements/Fixes===
+::- Skills can now be tracked, similar to Quests. Click the star in the Skills & Abilities window to track a specific skill. Tracking a skill makes it always visible in the HUD, showing the current level and XP bar. The HUD can be right-clicked to quickly jump to the skill.
+::- When XP is gained in a non-combat skill, the skill will briefly show in the HUD to display the amount of XP gained and the skill's current level.
+::- Fixed XP bar and level display for phrenology recipes.
+::- Right-click to select combat skills now splits the UI at 20 skills instead of 25.
+::- Active Skill XP bars (at the bottom of the screen) now animate XP gains, and show the number of XP gained.
+::- Separated out "Action" emotes from regular emotes. Action Emotes are emotes that are part of a gameplay action, such as burying or eating a corpse. They can now be filtered differently from non-action emotes (for example /wave or /em emotes) in the chat window. By default, they are enabled in any tab that had emotes enabled.
+::- Added tooltip functionality to the list of chat channels when editing a tab. Currently only Action Emotes have a tooltip; everything else is pretty self-explanatory.
+::- Removed extra whitespace in front of some emotes.
+::- Overhead rage meters now flash pink when they are full.
+::- The "Examine" button will now appear when you select yourself.
+::- Non-fiction books now properly display colored text instead of a color code.
+::- Item attributes are now displayed in a vertical list in tooltips.
+::- Tooltips that are too large to fit on the screen can now be scrolled by a key. This defaults to Shift + V.
+::- Long player-written book titles should now fit in the item tooltip.
+::- All equipped items should now update properly in the persona window.
+::- Item short descriptions should no longer overlap their names in tooltips.
+::- Fixed bug that caused items with expiration dates to always show April 4.
+::- Tooltips for equipment in barters now correctly indicate the rarity of the resultant item.
+::- Non-repeatable completed quests now have their own tab in the Quest Log.
+::- Storages can be manually reordered again.
+::- Recipe complete text no longer covers up ingredients, and fades out more quickly.
+::- Fix bug that would sometimes cause map pins to swap their north/south coordinates.
+::- Prevented casting bar from resizing too small and effectively disappearing.
+::- Meal and snack levels are now highlighted in tooltips, and displayed in the food's effect description.
+::- We now check that a progress bar is actually active before trying to animate it.
+::- The "Overhead Name Fade Distance" slider is back, which allows you to control how far away something must be before its name disappears. The slider is in Settings > GUI > Overhead Labels.
+::- Modified XP bar animation when a skill levels up ::- it will now fade out instead of drain.
+::- There is a new contextual keybind for crafting: Use Current Recipe. It only works when the crafting window is open, and defaults to the X key.
+::- Crafting recipe hotkey is now part of the button itself instead of off to the side.
+::- Handled error when a child skill is obtained before its parent skill is.
+::- Fixed bug that sometimes caused "FAVOR LEVEL UP!" to stick around forever.
+::- Fixed bug that would break the chat window with some unclosed tags, E.G. by typing "<a href="
+
+===Entity Appearance Range (Visual Optimization)===
+The entity appearance-range optimization is no longer an "Experimental Optimization"; it is now a regular optimization and is enabled by default. You can configure it like other advanced graphics settings (in the Settings window under Graphics). The relevant slider is now called "Maximum Entity Simulation Distance" to better describe what it does. 
+
+While this option was experimental, it was always set to 100 meters (unless you used the AppearanceRange special setting to change it). The default range is still 100 meters for most graphics settings, but if you're using "Amazing" or "Ultra" graphics settings, it now defaults to 200 meters. Note that this is more expensive than before, so if you're using Amazing or Ultra graphics, your framerate may be reduced from the last update! You can easily return to the FPS you had before, though: just set the "Maximum Entity Simulation Distance" slider to 100.
+
+For super-powered computers: if you want to be able to see entities more than 400 meters away, you can use the new special setting '''InfiniteEntitySimulation'''. Adding this to your Special Settings window will cause all entities to be simulated regardless of distance from you. (This is equivalent to turning off "Experimental Optimizations" prior to this update.) Note that this will tank your framerate unless your machine is quite powerful! To stop using infinite range, remove this setting from the Special Settings window, save settings, then restart the game. 
+
+Note: the AppearanceRange special setting no longer does anything. It can be removed from your Special Settings list.
+
+
+===Other Stuff===
+::- Removed the "Experimental Optimizations" check-box for now (because there are currently no experiments running).
+::- Fixed some Exceptions that could cause memory leaks if an appearance fails to load. 
+::- Visually re-equip all weapons when a character leaves combat. Weapons will appear/disappear during combat to account for certain attacks (you can't pull a bow string back with your sword in hand, for instance), but they would often remain permanently invisible. They should now reset after combat.
+::- [[Phrenology]] recipes no longer perform the "sit" animation.
+::- Sped up some hammer animations, so the attacks land quicker.
+::- Sped up "Fight Me You Fools" animation.
+::- Revamped [[Animal Handling]] animations.
+::- Revamped "ouch" animation (which plays when taking DoT).
+::- Sped up Armor Patch & [[First Aid]] abilities, so their effects trigger sooner in the animation.
+::- Effects with particles that don't last the entire duration will no longer re-show their particles after the initial display; previously they would display again every time a character's appearance changed, for example when you equipped a new piece of gear or mounted your horse.
+::- Added particles to most teleport recipes.
+::- Added particle effects to all distilling recipes.
+::- Added particle effects to transmutation repair recipes.
+::- Spirit foxes no longer float above the ground.
+::- Improved appearance loading, which should reduce lag in Serbule related to the merchants loading in.
+::- The '''MaxAppearanceLoads''' special setting now controls more of the appearance-loading code path, meaning that it has more effect. If you use this setting, you may want to remove it or change its value after this update, as the old values are probably not optimal for you anymore!
+::- We now properly account for ingredient durability when crafting. If an item does not meet the ingredient durability requirement, it cannot be used. For example, you cannot use a Firkin with 10% durability remaining to make a cheese that requires 15% durability.
+::- When summoning an ingredient, durability is now taken into account (when applicable). The lowest-durability item that still meets the ingredient requirement will be summoned first. If no items in storage meet the durability requirement, items with remaining disabilities lower than the requirement will be summoned. For example, if you have no Firkins with 15%+ durability, any Firkins with <15% durability will be summoned.
+::- Stackable items can now be sent to mystic saddlebags even when the saddlebag inventory is full (as long as the item in question has enough room left in its stack)
+::- There is a new NPC in [[Serbule Hills]]. [[Cleo Conyer]] is a newbie vendor in the Tapestry Inn. Cleo has one Favor quest at the moment.
+::- [[Yurra]] the hag now shows up in front of the Serbule Hills newbie exit to give direction to newbies who escape the island via the caves.
+::- [[Kalaba]]'s quests now correctly reference "Crude Phlogiston" instead of "Rough Phlogiston".
+::- The [[Serbule]] stage now counts toward the Halloween event, "Staged Death".
+::- Fae Navy Shield now counts towards the Cell Matrix Repair requirement.
+::- Some quests in the log that were missing NPC names now have them.
+::- Shields can now be glamoured (into other shields).
+::- We now set the correct levels of musical conch recipe results.
+::- Fixed bug where playing your own music via instrument would prevent zone music from ever playing again.
+::- Repeatedly messaging someone who is ignoring you will now return an error to inform you that you've been blocked.
+::- Adjusted portal selection boxes so they are more reasonably sized.
+::- A human's 'Current Community' can now increase beyond 100 if their Max Community is greater than 100. Previously, a bug prevented Current Community from going above 100.
+::- Monsters that flee will no longer be considered fleeing when they return to their original position.
+::- Fixed a problem with werewolf buffs expiring before the next full moon.
+::- Fixed a bug on the item info panel: the list of vendors for an item is supposed to prioritize vendors in the current area, but didn't actually put them at the top of the list as intended.
+::- Reduced barter price for Pitch Black Dyes on [[Orran]] to 15 Crafter's Guild Tokens (previously 20).
+::- Added Orcish Steel and Orichalcum to the list of Orran barters.
+::- Added The [[Fungal Fortress]] to the Civil Service event.
+::- The Hardcore Altar in [[Gazluk]] now buffs +10% Max Health and damage (up from +5%)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

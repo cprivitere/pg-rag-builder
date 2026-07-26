@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Irkima in Red Wing Casino said, "I have a pigeon with a broken wing, and I am in need of some supplies to try and heal it. There is a special realm where Phoenixes dwell that is occupied by the Fae.
+Go there and kill these creatures until you can get a good, undamaged phoenix feather. I can use the feather's regenerative abilities to help accelerate the healing process. Bring the feather back to me as soon as you can! I need it as fresh as possible."
+
+===Prerequisites===
+To start this quest, talk to '''[[Irkima]]''' in '''[[Red Wing Casino]]'''.
+
+===Preface===
+{{Quote|
+
+}}
+
+===Requirements===
+* Loot a {{Item|Icon=Phoenix Feather|Phoenix Feather{{pipe}}phoenix feather}} from a phoenix
+* Keep phoenix feather for Irkima
+* Talk to Irkima
+
+===Rewards===
+{{Spoiler|Rewards for Broken Wings|
+* 100 favor towards Irkima
+* {{Item|Red Wing Token}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Irkima]][[Category:Quests/Red Wing Casino Quests]]

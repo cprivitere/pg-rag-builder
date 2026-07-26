@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Ricatu in Povus said, "Plain old tofurkey is ... plain. Bring me a better one! One with some bite! Maybe some citrus to cut the savory some. But you'll have to find the recipe yourself."
+===Prerequisites===
+To start this quest, talk to '''[[Ricatu]]''' in '''[[Povus]]'''.  The quest is available during the [[Fall Harvest]]. The quest [[Harvest Event: Tofurkey!]] must be completed.
+
+===Preface===
+{{Quote|
+Plain old tofurkey is ... plain. Bring me a better one! One with some bite! Maybe some citrus to cut the savory some. But you'll have to find the recipe yourself.
+}}
+
+===Requirements===
+* Make {{Item|Lemon-Glazed Tofurkey}}
+* Talk to Ricatu
+
+===Rewards===
+{{Spoiler|Rewards for Harvest Event: Lemon-Glazed Tofurkey|
+{{Quote|
+This is great -- thanks!
+}}
+* Live Event Credit x1
+* {{Item|Xogrite Chunk}} x12
+* 1200 XP Cooking
+}}
+
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ricatu]][[Category:Quests/Fall Harvest]]

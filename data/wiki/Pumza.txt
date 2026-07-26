@@ -1,0 +1,98 @@
+__NOTOC__
+{{NPC infobox
+|title            = Pumza
+|image            = [[File:Pumza (npc).png|300px]] 
+|caption          = Weapons Vendor
+|zone             = Statehelm
+|town = Statehelm
+|location         = Marketplace
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = Yes
+|beastlist = All
+|vendor = Yes
+|consignment = Yes
+}}
+{{Quote|source=[[Pumza]]|
+Buy my wares! Do it!}}
+[[Pumza]] is a Rakshasa merchant vending in the city of [[Statehelm]].
+== Location ==
+; [[Statehelm]]
+: Found on the south side of the market.
+== Shopkeeper ==
+{{Quote|source=[[Pumza]]|
+Due to human racism I am forced to offer unreasonable deals simply to compete.}}
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+[[Pumza]] is not willing to share her preferences at (''{{favor|Neutral}}''' favor. 
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+Pumza rewards her friends with __TBD__
+== Quests ==
+[[Pumza]] offers individuals with '''{{favor|Neutral}}''' favor one quest, [[The Frightened Animals of Statehelm]].
+<dpl>
+category = Quests/Pumza
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+
+== Services ==
+==== [[Consignment]] ====
+Unlocks at '''{{favor|Close Friends}}'''.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Pumza]]|
+Wares for the warrior. Wares for the afraid. Wares for the righteous. Which are you?
+
+'''I am a warrior'''
+
+:Then I offer you a warrior's embrace. (Pumza awkwardly hugs you).
+
+:I too am a warrior; you will find excellent weapons here. Though I admit that I cater more to the afraid than the brave.
+
+:'''What do you mean?'''
+
+'''I am righteous'''
+
+:The righteous are the true heroes of this world. I too am righteous, and I know that justice sometimes requires violence. You can trust in my weapons.
+
+:Many of my customers could use your help.
+
+:'''What do you mean?'''
+
+''' I am righteous''' (If Beast Form)
+
+: The righteous are the true heroes of this world. Even righteous animals can be justicars!
+
+: I too am righteous, and I know that justice sometimes requires violence. You can trust my weapons.
+
+:'''What do you mean?'''
+
+'''I am... afraid?'''
+
+'''Hi. your sales pitch needs work; it's creepy.'''
+
+'''What do you mean?'''
+
+:I help those who suffer from oppression in this cursed city. I have learned it is my fate to do so. One of the ways I do this is by guiding the valiant towards the oppressed. I am a conduit. I reward the valiant with the best weaponry I have. These items are not for sale; they are held in secret for those worthy of them.
+
+:'''Do you need help with something specific?'''
+
+:The most pressing issue is with the talking animals of the city. Their concerns are not taken seriously, but they are dying! If you can aid them, I have more details.
+
+:[Favor available: The Frightened Animals of Statehelm]}}
+{{Quote|source=[[Pumza]]|
+It's frustrating to work in the shadow of the Veilmoor store. I have been forced to target the mid-price buyer despite my wares being quite good. But this is where the customers are, so I abide.}}
+{{Quote|source=[[Pumza]]|
+Something is wrong with [[Classic Jim]]. He is a produce seller, but he smells of desert and magic and disdain. [[Grim Jim]] doesn't smell like he once did, either. But something about Classic Jim puts my hairs on end.}}
+[[Category:NPCs]]

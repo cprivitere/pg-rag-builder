@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+<i>[This quest is just for gardeners. It requires Gardening 50 to grow a healthy pumpkin!]</i>
+
+<i>Zhia Lian:</i> It's all well and good to find a pumpkin on a zombie, but I want really fresh pumpkins, so you should grow some for me. Find seedlings from undead and grow them in a garden.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>[This quest is just for gardeners. It requires Gardening 50 to grow a healthy pumpkin!]</i>
+
+<i>Zhia Lian:</i> It's all well and good to find a pumpkin on a zombie, but I want really fresh pumpkins, so you should grow some for me. Find seedlings from undead and grow them in a garden.
+
+===Requirements===
+* Grow pumpkins x3
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Now those are fresh pumpkins! Hm, I guess I don't know why I wanted fresh pumpkins. Keep 'em.}}
+* 400 councils
+* {{Item|Level 50 Event Loot Key}}
+* {{Item|Gardenmaster Potion}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

@@ -1,0 +1,65 @@
+__NOTOC__
+{{NPC infobox
+|title            = Captain Gregory
+|image            = [[File:Captain Gregory (npc).png|300px]]
+|caption          = Disciplined and intense
+|zone             = Statehelm
+|town = Statehelm 
+|location         = Soldier Barracks Courtyard 
+|anatomy = Human
+|species = Human
+|beastspeak       = Yes
+|beastlist = No scary animals
+|storage = Yes
+}}
+{{Quote|source=[[Captain Gregory]]|
+Statehelm is far from perfect, but it's the best city humans have made. It's worth fighting for.}}
+[[Captain Gregory]] is a military official in the Council army based out of [[Statehelm]].
+== Location ==
+; [[Statehelm]]
+: [[Captain Gregory]] can be found in the courtyard of the Soldier Barracks in the southwest corner of the city of [[Statehelm]].
+== Favor ==
+[[Captain Gregory]] is not willing to share her preferences with strangers.
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards ===
+[[Captain Gregory]] rewards her friends with ???
+=== Hang Outs ===
+== Quests ==
+[[Captain Gregory]] offers a daily request for specialized ammunition each day, beginning at '''{{favor|Neutral}}''' favor.
+<dpl>
+category = Quests/Captain Gregory
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Captain Gregory
+|favorrestriction = Friends
+|itemrestriction =Anything
+|neutral =0
+|comfortable =0
+|friends = 24
+|closefriends = 36
+|bestfriends = 48
+|likefamily = 60
+|soulmates = 72
+}}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Captain Gregory]]|
+We have a team of fletching golems working continuously to replenish our ammunition supply but we still need more. We ALWAYS need more. And we're paying extortionate rates to buy them from freelancers. But better to lose money than lives, right?}}
+{{Quote|source=[[Captain Gregory]]|
+Statehelm may look peaceful, but threats lurk beyond every gate. And, frankly, inside the gates too. especially at night. But that's a problem for the Chancellors to fix; I'm focused on all the external threats.}}
+
+
+
+[[Category:NPCs]]

@@ -1,0 +1,175 @@
+__NOTOC__
+{{NPC infobox
+|title            = Lisi
+|image            = [[File:Lisi.png|300px]]
+|caption          = She looks pained.
+|zone             = Sun Vale
+|town             = Great Tree
+|location         = Platform 2
+|anatomy  = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Knife Fighting]]
+|vendor           = Yes
+}}
+{{Quote|
+...'''Not right now! I'm practicing flying now that my wing is healed again!'''
+}}
+'''Lisi''' is the advanced trainer for the [[Knife Fighting]] skill.
+==Location==
+; [[Sun Vale]]
+: [[Great Tree]] on the second platform.
+== Shopkeeper ==
+{{Vendor items sold}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}} 
+[[category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Lisi
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Knife Fighting]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Poisoner's Cut
+ |skilllevel=15
+ |cost=1,450
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Poisoner's Cut 2
+ |skilllevel=30
+ |cost=2,700
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Poisoner's Cut 3
+ |skilllevel=45
+ |cost=6,950
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Poisoner's Cut 4
+ |skilllevel=60
+ |cost=11,700
+ |favor=
+}}
+
+{{NPC training row
+ |ability=Backstab
+ |skilllevel=10
+ |cost=700
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Backstab 2
+ |skilllevel=20
+ |cost=1,700
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Backstab 3
+ |skilllevel=30
+ |cost=2,700
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Backstab 4
+ |skilllevel=40
+ |cost=4.700
+ |favor=Close Friends
+}}
+{{NPC training row 
+ |ability=Backstab 5
+ |skilllevel=50
+ |cost=7,200
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Backstab 6
+ |skilllevel=60
+ |cost=11,700
+ |favor=
+}}
+{{NPC training row
+ |ability=Backstab 7
+ |skilllevel=70
+ |cost=17,200
+ |favor=
+}}
+
+{{NPC training row
+ |ability=Surprise Throw
+ |skilllevel=8
+ |cost=600
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Surprise Throw 2
+ |skilllevel=18
+ |cost=1,600
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Surprise Throw 3
+ |skilllevel=28
+ |cost=2,600
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Surprise Throw 4
+ |skilllevel=38
+ |cost=4,600
+ |favor=Close Friends
+}}
+{{NPC training row
+ |ability=Surprise Throw 5
+ |skilllevel=48
+ |cost=7,100
+ |favor=Best Friends
+}}
+{{NPC training row
+ |ability=Surprise Throw 6
+ |skilllevel=58
+ |cost=11.600
+ |favor=
+}}
+{{NPC training row
+ |ability=Surprise Throw 7
+ |skilllevel=68
+ |cost=17,100
+ |favor=
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Amazing Throwing Knife}} x10
+|RiShin Family = {{Item|Amazing Throwing Knife}} x20
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Greeting 1|
+{{Quote|Not right now! I'm practicing flying now that my wing is healed again!}}
+}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|[[Fairy|Fairies]] are smaller than humans, so you might think the best plan of attack is with very long weapons. But not so! Small weapons like daggers let us use our speed to full advantage.}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|I nearly died getting out of the [[Fae Realm|fairy realm]]. [[Preta]] saved me when my wing was mangled. But I dropped my beloved knife. I made this replacement, but it's not the same.}}
+}}
+
+[[Category:NPCs]]

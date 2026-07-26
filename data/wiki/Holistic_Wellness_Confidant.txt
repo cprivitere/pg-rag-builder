@@ -1,0 +1,32 @@
+'
+__NOTOC__
+==Summary==
+Lakrea told you to work the word 'confidant' into your next conversation.
+
+Confidant: noun: a person entrusted with secrets, such as a friend or co-conspirator. Note: do not confuse with the word 'confident', which is totally different.
+
+(Note: if you use the word out of context, the game won't know, but <i>you'll</i> know that you lost 10,000 Roleplay Points.)
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+You must have previously completed [[Holistic Wellness: 'Cajole']] in order to undertake this quest.
+
+===Preface===
+{{Quote|You need to expand your useful vocabulary. Not your total vocabulary, your <i>useful</i> vocabulary. You know thousands of words that you never think to use in daily life. Am I right? Of course I'm right. Here's a word to use: 'confidant'.
+
+<i>[ Confidant: noun: a person entrusted with secrets, such as a friend or co-conspirator. Note: do not confuse with the word 'confident', which is totally different. ]</i>
+
+Just find a place to work that into your next conversation. But don't use it out of context! Use it right!}}
+
+===Requirements===
+* Use 'Confidant' In a Conversation
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: 'Confidant'|
+{{Quote|Wonderful! I know we aren't close enough to be confidants yet, but if you stick with my lessons I'm sure we'll get there. I have many secrets to tell, and I'm sure you do, too!}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

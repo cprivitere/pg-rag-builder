@@ -1,0 +1,34 @@
+__NOTOC__
+==Summary==
+Gasu'um in New Prestonbule said, "There is a necklace I wish to have returned to me. It was my mother's, and she gave it to me. To ME! Because I was her favorite! My worthless brother stole it from me... and then... I had to leave it behind.
+
+Leave this cave and venture right. You will see the camp of the feckless Aguva clan... go past them. Continue right until you find the camp on a hill.  That camp is what remains of the Uga'th clan. The necklace is in there somewhere."
+
+===Prerequisites===
+To start this quest, talk to '''[[Gasu'um]]''' in '''[[New Prestonbule Cave]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|There is a necklace I wish to have returned to me. It was my mother's, and she gave it to me. To ME! Because I was her favorite! My worthless brother stole it from me... and then... I had to leave it behind.
+
+Leave this cave and venture right. You will see the camp of the feckless Aguva clan... go past them. Continue right until you find the camp on a hill.  That camp is what remains of the Uga'th clan. The necklace is in there somewhere.}}
+
+===Requirements===
+* Find {{Item|Gasu'um's Necklace}}
+* Talk to Gasu'um
+
+===Rewards===
+{{Spoiler|Rewards for Sentimental Jewelry|
+{{Quote|It is mine again! Mine! As it should be! Wait... it is broken!
+
+You fool! How could you break... no! I will control my anger! Remember the past, Gasu'um! Remember!
+
+<i>[Gasu'um glares at you a while until she regains her composure.]</i>
+
+Thank you. Here is coin for your... for your effort.
+
+I can repair the necklace. You will help me, and I will reward you.}}
+
+* 75 {{Favor|favor}}
+* 250 councils 
+}}
+[[Category:Quests]][[Category:Quests/New Prestonbule Cave Quests]][[Category:Quests/Gasuum]]

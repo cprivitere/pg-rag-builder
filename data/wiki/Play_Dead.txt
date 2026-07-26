@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Play Dead
+| description = Pretend to die of fright. Nearby enemies will ignore you for a while, even when you stand back up -- but will notice you again if you attack them.
+| level = 9
+| power cost = 18
+| reuse time = 60
+| range = 15 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|PlayDead}}{{KWAB|SurvivalUtility}}
+| special = Targets decide not to attack you for about 9 seconds (unless you attack them first).
+}}
+|-
+|
+{{Ability infobox
+| name = Play Dead 2
+| description = Pretend to die of fright. Nearby enemies will ignore you for a while, even when you stand back up -- but will notice you again if you attack them.
+| level = 19
+| power cost = 23
+| reuse time = 55
+| range = 15 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|PlayDead}}{{KWAB|SurvivalUtility}}
+| special = Targets decide not to attack you for about 11 seconds (unless you attack them first).
+}}
+|-
+|
+{{Ability infobox
+| name = Play Dead 3
+| description = Pretend to die of fright. Nearby enemies will ignore you for a while, even when you stand back up -- but will notice you again if you attack them.
+| level = 34
+| power cost = 32
+| reuse time = 50
+| range = 15 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|PlayDead}}{{KWAB|SurvivalUtility}}
+| special = Targets decide not to attack you for about 13 seconds (unless you attack them first).
+}}
+|-
+|
+{{Ability infobox
+| name = Play Dead 4
+| description = Pretend to die of fright. Nearby enemies will ignore you for a while, even when you stand back up -- but will notice you again if you attack them.
+| level = 48
+| power cost = 38
+| reuse time = 45
+| range = 15 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|PlayDead}}{{KWAB|SurvivalUtility}}
+| special = Targets decide not to attack you for about 15 seconds (unless you attack them first).
+}}
+|-
+|
+{{Ability infobox
+| name = Play Dead 5
+| description = Pretend to die of fright. Nearby enemies will ignore you for a while, even when you stand back up -- but will notice you again if you attack them.
+| level = 64
+| power cost = 45
+| reuse time = 40
+| range = 15 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|PlayDead}}{{KWAB|SurvivalUtility}}
+| special = Targets decide not to attack you for about 17 seconds (unless you attack them first).
+}}
+|-
+|
+{{Ability infobox
+| name = Play Dead 6
+| description = Pretend to die of fright. Nearby enemies will ignore you for a while, even when you stand back up -- but will notice you again if you attack them.
+| level = 79
+| power cost = 53
+| reuse time = 35
+| range = 15 meters
+| skill = Rabbit
+| keywords = {{KWAB|Rabbit}}{{KWAB|PlayDead}}{{KWAB|SurvivalUtility}}
+| special = Targets decide not to attack you for about 19 seconds (unless you attack them first).
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,138 @@
+__NOTOC__
+{{NPC infobox
+|title            = Voo
+|image            = [[File:MyconianNPC.png|300px]]
+|caption          =A Myconian
+|zone = Serbule
+|dungeon = Myconian Cave
+|location         = Left after entering.
+|anatomy = Fungoid
+|species = Myconian
+|beastspeak       = Yes
+|beastlist        = All
+|skilltrainer     = [[Mycology]]
+|vendor           = 
+}}
+{{Quote|
+...
+}}
+[[Voo]] is a [[Myconian]] located in the [[Myconian Cave]].  [[Voo]] likes to experiment with [[Alchemy]]. 
+
+Note: [[Voo]] requires you to be slightly more fluent in [[Myconic]] compared to the other friendly Myconians in the cave. You need 11 [[Myconic]] to speak to [[Voo]].
+== Location ==
+; [[Myconian Cave]]
+: Go left after entering.
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+== Quests ==
+<dpl>
+category = Quests/Voo
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Mycology]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Blood Mushroom Powder
+ |skilllevel=30
+ |cost=1800
+ |favor=Neutral
+}} 
+{{NPC training row
+ |recipe=Coral Mushroom Powder
+ |skilllevel=40
+ |cost=3133
+ |favor=Neutral
+}} 
+{{NPC training row
+ |recipe=Iocaine Powder
+ |skilllevel=40
+ |cost=3133
+ |favor=Neutral
+}} 
+{{NPC training row
+ |recipe=Iocaine Practice Dose
+ |skilllevel=40
+ |cost=3133
+ |favor=Comfortable
+}} 
+{{NPC training row
+ |recipe=Poisoned Glazed Beets
+ |skilllevel=35
+ |cost=2966
+ |favor=Friends
+}} 
+{{NPC training row
+ |recipe=Poisoned Banana Bread
+ |skilllevel=37
+ |cost=3033
+ |favor=Friends
+}} 
+{{NPC training row
+ |recipe=Poisoned Apple Juice
+ |skilllevel= 39
+ |cost=3100
+ |favor=Close Friends
+}} 
+{{NPC training row
+ |recipe=Poisoned Grilled Chicken
+ |skilllevel= 41
+ |cost=4500
+ |favor=Close Friends
+}} 
+{{NPC training row
+ |recipe=Poisoned Fried Banana
+ |skilllevel= 43
+ |cost=4566
+ |favor=Best Friends
+}} 
+{{NPC training row
+ |recipe=Poisoned Cheesy Veggie Delight
+ |skilllevel= 45
+ |cost=4633
+ |favor=Best Friends
+}} 
+{{NPC training row
+ |recipe=Poisoned Crab Roll
+ |skilllevel= 47
+ |cost=4700
+ |favor=Best Friends
+}} 
+{{NPC training row
+ |recipe=Groxmax Powder
+ |skilllevel= 47
+ |cost=4700
+ |favor=Best Friends
+}} 
+{{NPC training row
+ |recipe=Porcini Mushroom Flakes
+ |skilllevel= 55
+ |cost=6633
+ |favor=Like Family
+}} 
+{{NPC training row
+ |recipe=Black Foot Morel Flakes
+ |skilllevel= 63
+ |cost=9900
+ |favor=Like Family
+}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = Gem x3
+}}
+== Conversations ==
+
+[[Category:NPCs]]

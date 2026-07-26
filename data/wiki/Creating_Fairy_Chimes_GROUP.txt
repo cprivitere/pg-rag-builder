@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+
+
+===Prerequisites===
+To start this quest, talk to '''[[Felmer]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+Fairy characters need 25 Fae (Race Skill) to start this quest.
+*Other races do not have this requirement
+
+===Preface===
+
+
+===Requirements===
+* Obtain [[Fiery Sound Crystal]]
+* Obtain [[Icy Sound Crystal]]
+* Obtain [[Natural Sound Crystal]]
+* Talk to Felmer
+
+===Rewards===
+
+[[Fairy Chimes]]
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Felmer]]

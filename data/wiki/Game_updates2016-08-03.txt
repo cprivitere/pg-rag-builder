@@ -1,0 +1,14 @@
+==<b>August 3 Note</b>==
+: We have a lead on one of the reasons that monster and pet movement has been erratic and will be addressing it shortly.
+: We are also aware that some users are crashing when they switch zones. This is a bug with the new Unity, and we expect it to be addressed soon. In the mean time, users are able to keep playing by lowering their graphics settings and/or by switching into or out of full-screen mode. (We aren't sure which is actually the fix due to some conflicting reports.) So! If you keep crashing when you try to log into a character, please log in to a different character that is not stuck, and do this:
+:: - lower the graphics settings to "Good"
+:: - uncheck the "Auto-adjust graphics settings" checkbox
+:: - if you have graphics overrides enabled, turn them off
+:: - if you normally play in full-screen, uncheck that
+:: - if you normally don't play in full-screen, try turning that on
+: Then log into your other character and see if it helps.
+: '''PS - the problem seems to be intermittent based on what is nearby when you log in, so even if you do none of the above you MIGHT be able to log back in with your old settings. However, that doesn't mean the bug is fixed. We'll let you know when we have a real fix. Thanks!'''
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

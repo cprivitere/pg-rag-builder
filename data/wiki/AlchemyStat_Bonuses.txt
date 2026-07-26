@@ -1,0 +1,17 @@
+<noinclude>[[Category:Stat Bonuses]]</noinclude><includeonly>
+==[[Alchemy/Stat Bonuses|Alchemy Stat Bonuses]]==
+</includeonly>
+<!-- Updated on November 17, 2022 from v374 -->
+{| {{STDT| mw-collapsible<includeonly> mw-collapsed</includeonly>}}
+! Level || Bonus || Totals
+|-
+| 10 || <b>Max Power</b> +1 || <b>Max Power</b> +1
+|-
+| 20 || <b>Max Power</b> +1 || <b>Max Power</b> +2
+|-
+| 30 || <b>Max Power</b> +1 || <b>Max Power</b> +3
+|-
+| 40 || <b>Max Power</b> +1 || <b>Max Power</b> +4
+|-
+| 50 || <b>Max Power</b> +1 || <b>Max Power</b> +5
+|}

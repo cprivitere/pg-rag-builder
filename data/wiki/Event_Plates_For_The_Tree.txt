@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+[[Spot]] in [[Animal Town]] said, "We need round things for the tree! Round... round... like plates. Plates! Get some plates. This many. <i>[Spot holds up a varying number of fingers, changing her mind every few seconds. You decide that a half-dozen plates will do.]</i>"
+
+This [[Winter Holiday|Ri-Shin Winter Celebration]] Quest can be repeated after 91 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Spot]]''' in '''[[Sun Vale]]'''. This quest is only available to long time animals.
+
+===Preface===
+We need round things for the tree! Round... round... like plates. Plates! Get some plates. This many. <i>[Spot holds up a varying number of fingers, changing her mind every few seconds. You decide that a half-dozen plates will do.]</i>
+
+===Requirements===
+* Obtain {{Item icon|Plate|1}}[[:Category:Items/Plate|Dinner Plates]] x6
+* Talk to [[Spot]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Plates? For the tree?! That's silly!
+
+Ohhhh... because they're round! Good idea! Okay I'll put them on the tree. I have more plates, too! We'll put plates all over the tree!}}
+* 25 {{Favor|favor}}
+}}
+
+[[Category:Quests]][[Category:Quests/Sun Vale Quests]][[Category:Quests/Spot]][[Category:Quests/Ri-Shin Quests]]

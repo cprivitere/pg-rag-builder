@@ -1,0 +1,106 @@
+__NOTOC__
+{{NPC infobox
+|title            = Records Golem C
+|image            = [[File:Recordsgolemc.png|300px]]
+|caption          = A little automaton that seems a bit damaged.
+|zone = Anagoge
+|dungeon = Anagoge Records Facility
+|location         = The entrance room.
+|anatomy = Construct
+|species = Golem
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|
+Hello, sir or madam. Fallback mode: I am unable to process visual input. Please identify yourself.
+}}
+This '''Records Golem''' is an automaton reprogrammed by [[Dalvos]]. It has a corrupted memory, but can be coaxed to reveal some information, depending on who you identify as.
+==Location==
+; [[Anagoge Records Facility]]
+: Found in the entrance room of the Facility.
+
+== Enter: Your Character Name==
+{{Quote |
+Greetings, (entered name). Alumni are only allowed to visit with proper supervision. Please leave immediately.
+:'''Oh, don't worry. I'm being supervised.'''
+:Very good. How may I be of service?
+::'''Who are you and what is this place?'''
+::Location uncertain. I am a records custodian. My place of work is: Records Hall, [[Stronmar Academy]]. I have been moved to an undisclosed location by an authorized representative of [[Stronmar Academy]].
+:::'''Huh. Okay. I have another question.'''
+::'''You said I am an alumni?'''
+::Correct. (player name) attended [[Stronmar Academy]].
+:::'''Did I do well in school? '''
+:::No grade information is available. Please visit the Records Hall at [[Stronmar Academy]] for this information.
+::::'''Well, do you have any useful records about me?'''
+::::I have attendance information which indicates that (player name) did not attend his/her year's graduation ceremony.
+:::::'''Why not?'''
+:::::Conjecture: you may have been indisposed at the time. You may have failed to graduate. You may have refused to attend for petty emotional reasons. You may have been killed prior to the ceremony.
+::::::'''Well I'm not killed.'''
+::::::Thank you for the information. It has been recorded.
+:::::::'''I had another question.'''
+::'''So you were stolen from this academy?'''
+::I was moved by an authorized representative of [[Stronmar Academy]]. I am under strict orders not to return to [[Stronmar Academy]] for any reason.
+:::'''Why not?'''
+:::Conjecture: the academy grounds may be dangerous. I may have been expelled due to misbehavior. I may be leaking dangerous magic that could harm others.
+::::'''Wait, are you leaking dangerous magic?!'''
+::::I am not capable of determining the answer to this question. All self-diagnostic tools are broken.
+:::::'''Great. Well, I had another question.'''
+}}
+
+== Enter: Elmetaph ==
+{{Quote|
+: Greetings, [[Elmetaph|proctor Elmetaph]]. Your voice has changed. I hope you are feeling well.
+:'''I'm fine, thanks. I need some information.'''
+:Yes proctor?
+::'''What did I do at the university?'''
+::Originally the head of the Teleportation Magics division, you were later relegated to the task of proctor for the final exams. Your teleportation expertise made you perfect for this job, because students needed to be teleported to and from the exam location, which was a small uninhabited island.
+:::'''Why was I demoted to proctor?'''
+:::Conjecture: you may have angered an important head of the university. You may have proved incompetent. You may have volunteered for the role for personal reasons.
+::::'''I see. I had another question.'''
+}}
+
+== Enter: Lawyr ==
+{{Quote|
+: Greetings [[Lawara|Lawyr]]. Visiting dignitaries may not access the records of Stronmar Academy. This is a private, secret university.
+: ''' It's okay. I'm being supervised.'''
+: Very good. However, you are still not authorized to access records.
+: ''' Damn.'''
+}}
+== Enter: Dalvos ==
+{{Quote|
+:Greetings, [[Dalvos]]. Your voice has changed. I hope you are feeling well. Please provide an update on experiment HEAD-1.
+:'''What's this about an experiment?'''
+:You have instructed me to retain records about your experiment, identified as HEAD-1. Six previous records are stored.
+::'''Let me hear the earlier records.'''
+::Please indicate which record to replay.
+:::'''Entry #1'''
+:::Entry #1
+
+:::My brain enhancement gems work on animals, and I believe they can work on humans, too. Found a hapless test subject. The hags cleared away most of his intelligence so it should become easy to see if he becomes smarter. Gem slivers have been injected into his forehead, and now we wait and see.
+:::'''Entry #2'''
+:::Entry #2
+
+::: ... clearly smarter, but unintended physical deformity...
+:::'''Entry #3'''
+:::Entry #3
+
+:::I have been able to teach the subject some rudimentary fire magic, which he has taken to with ease...
+:::'''Entry #4'''
+:::Entry #4
+
+:::... attempted to infest me with my own brain-growth crystals, screaming that he would make me a freak like he is. Had to put him down.
+:::'''Entry #5'''
+:::Entry #5
+
+:::... decided to reanimate the test subject. As I suspected, the intelligence is permanent, even through death! If I could just correct the hideous disfigurement, I would have a miracle treatment!
+:::'''Entry #6'''
+:::Entry #6
+
+:::... must leave cave. Test subject can fend for itself.
+
+:::There are no further records. Please provide a new entry for experiment HEAD-1.
+::::''' Uh, not right now. Goodbye.'''
+:::'''That's enough.'''
+}}
+
+[[Category:NPCs]][[Category:Register of Lore]][[Category:NoRiShin]]

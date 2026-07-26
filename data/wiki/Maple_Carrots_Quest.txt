@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+Ailred in Povus said, "I'm terribly sorry if I offended you by seating myself. But you didn't have to keep me waiting so long! I guess you weren't open yet?
+
+Well, let's put that behind us. I would like your maple carrots please. And not too sweet."
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ailred]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+I'm terribly sorry if I offended you by seating myself. But you didn't have to keep me waiting so long! I guess you weren't open yet?
+
+Well, let's put that behind us. I would like your maple carrots please. And not too sweet.
+
+===Midway===
+Can I have the maple carrots, please? I ordered them a while ago...
+
+===Requirements===
+* Craft Maple Carrots
+* (Keep Maple Carrots)
+* Talk to Ailred
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Perfectly cooked carrots! My compliments to the chef.}}
+* {{Item|Xogrite Chunk}} x6
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ailred]]

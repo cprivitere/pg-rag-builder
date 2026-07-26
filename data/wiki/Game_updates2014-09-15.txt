@@ -1,0 +1,48 @@
+==September 15, 2014==
+
+This is a bug fix update because a lot of players were getting stuck due to a bug with the Cow model. This is a large download but there isn't any new accessible content in it yet, sorry for the hassle! There are lots of bug fixes, and some small gameplay changes, see below. The content update is still on the way for late this week.
+
+===Changes===
+
+* Battle Chemistry's "Mutation" buffs now last an hour, or until the caster stops having Battle Chemistry active, or you switch areas. (Previously they lasted 5 minutes, making them tedious to use.)
+
+* Dev Note: remember that Battle Chemists can inject mutations into other people, not just themselves! These buffs are pretty powerful, too. If you're grouped with a high level Battle Chemist and don't have a Mutation, ask them for "Extra Skin", a general purpose defensive buff, or "Extra Heart", a power regen buff. Quadrupeds would probably prefer "Knee Spikes." When fighting yetis or ghosts, "Stretchy Spine" is amazing.
+
+* There is no longer a "Become Normal" ability for werewolves. You can just press the "Become Werewolf" ability again to turn it off
+
+* Changed treasure generation so that it's far less likely for an item to have more than two skill requirements on it.
+
+* If a monster drops a plot-token that is needed for a quest (and is only useful for that quest), the monster now has a copy of this item on their corpse for every player that examines the corpse (if they're on the quest). In other words, an entire group can get the plot token from a single kill. This affects the following monsters: The Mauler, Gruzark the poet, Ursula, Salmpo, Strange Deer, Skeleton Gardener, and the spider that has Way's Yo-Yo
+
+* Fixed level requirements on Acid Resistance Potion I Strong Acid Resistance Potion (they were backwards)
+* Maronesa no longer drops Sulfur, it's too high level for such a low-level boss
+
+* Fixed treasure effects that claimed to give health/power regen to the Scintillating Frostl Scintillating Flame abilities (they accidentally worked on Defensive Burst/Ring of Fire/Defensive Chill instead!)
+
+* Perfect Cotton is once again stackable
+
+* Removed physics collision from the wooden posts and roof of the bridges in Eltibule, as you could get stuck in between the wood and the stones
+
+* Added some planks in the sewer mini-dungeon so that poor pet rats can keep up with their owners
+* Fixed up the Loading Screen so that it shows when you're first logging in, not just when you switch areas
+* When turning into a deer, female characters no longer have antlers (Existing deer are unaffected).
+
+* Slightly lengthened the duration of Stun effects, and made it take one more use before the diminishing returns make the stuns do nothing. (If you hit the same enemy with the same stun repeatedly, it lasts shorter and shorter duration.)
+
+* Fixed bug that kept fist weapons (e.g. Cestus) from having many of the random treasure effects they were supposed to be able to have
+
+* Treasure items that claimed to increase Shield attack damage did not work
+* Several Shield abilities were broken due to a missing animation
+
+* Battle Chemistry treasure that boosted the power of Healing Mist only boosted it for the battle chemist, not any allies that were nearby
+
+* A few additional treasure effects have been added for Battle Chemistry to augment its support role
+
+* Made brass items a little more attractive to NPCs that love brass gifts
+
+* Clobbering Hoof is now a kick (for purposes of activating treasure that boosts kick damage, or completes combos)
+* Treasure that boosted baby spiderlings incorrectly required Deer skill levels
+
+* Added Words of Power that briefly make animal-cursed players look like a civilized humanoid (human, elf, rakshasa). They exist in levels 3, 4, and 5.
+
+[[Category:Game updates]]

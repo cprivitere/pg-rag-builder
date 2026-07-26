@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Lana Songtree in Serbule Hills asked you for wool so she can make a sweater. Wool comes from sheep. Sheep that you murder.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lana Songtree]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Do you have any wool? I love wool clothing! I've been trying to make my own sweater. You'd think having all those sheep out in the meadow would make it easy, but they aren't tame. At all. I can't even get near them! Well, anyway, if you have some wool, I would buy it from you!}}
+
+===Requirements===
+* Obtain {{Item|Wool}} x10
+* Talk to Lana Songtree
+
+===Rewards===
+{{Spoiler|Rewards for The Sweater|
+{{Quote|Thank you so much! I don't know how you managed to shear the sheep without getting hurt. You must be pretty agile! Here's the money I owe you.}}
+
+* 100 {{Favor|favor}}
+* 500 councils 
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Lana Songtree]]

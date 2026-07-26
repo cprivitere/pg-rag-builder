@@ -1,0 +1,87 @@
+__NOTOC__
+{{Skill infobox
+|title            = Endurance
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = The ability to endure heavy loads and uncomfortable situations without getting tired.
+|skilltype        = Other Skill
+|maxlevel         = 100 <!-- List without bonus levels -->
+|req              = N/A
+|skilltrainers    = [[Lamashu]], [[Backfat]], [[Kalaba]]
+}}
+{{Quote|
+The ability to endure heavy loads and uncomfortable situations without getting tired. Your endurance increases the speed of your armor regeneration between fights, among other things. This ability permanently raises your armor regeneration rate.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Endurance]] is a skill about withstanding great amounts of pain. Endurance XP is automatically gained after killing a monster, depending on the amount of Armor damage you took during the fight (or possibly from that monster itself).
+
+Endurance provides useful bonuses like extra inventory slots, in- and out of- combat armor regeneration, maximum metabolism, and maximum underwater held breath.  It also provides access to the sidebar skill Dig Deep, which can restore Power.
+
+=== In-Game Description ===
+The ability to endure heavy loads and uncomfortable situations without getting tired. Your Endurance increases the speed of your armor regeneration between fights, among other things.
+
+(The most common way to raise Endurance is simply to take armor damage in combat.)
+
+=== Training {{msg:BASEPAGENAME}} ===
+<!-- A list of methods to learn and level the skill -->
+* The player typically learns the Endurance skill quite early on.  Simply equipping a piece of gear that grants some Armor, taking damage from an enemy, and killing it will grant the player the Endurance skill.
+* [[Kalaba]] in [[Eltibule]] teaches the [[Push Onward]] ability. Animals seeking this ability should speak with the [[Suspicious Cow]].
+* [[Lamashu]] in the [[Kur Mountains]] can unlock levels 51-60, and 61-70, and teaches higher levels of Dig Deep.
+* [[Backfat]] in the [[Fae Realm]] can unlock 71-80, and also teaches a higher level of Dig Deep.
+* Levels 81-90 are unlocked by [[Serendipity Cheddar]] deep beneath [[Povus]].
+* Levels 81-90 and 91-100 are available to unlock from [[Burl]].
+
+== Connected Skills ==
+==== Sub-Skills ====
+N/A
+==== Secondary Skills ====
+N/A
+==== Related Skills ====
+* ...
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Endurance]] can be obtained from the following skills and levels:
+:; [[Alcohol Tolerance]]
+:: Level 70
+:; [[Deer]]
+:: Level 11, Level 31
+:; [[Foraging]]
+:: Level 60
+:; [[Holistic Wellness]]
+:: Level 13
+:; [[Iocaine Resistance]]
+:: Level 20, Level 40
+:; [[Oratory]]
+:: Level 40
+:; [[Orcish]]
+:: Level 50
+:; [[Interpretive Dance]]
+:: Level 39
+:; [[Shield]]
+:: Level 21, Level 41
+:; [[Survival Instincts]]
+:: Level 15
+:; [[Sword]]
+:: Level 34
+:; [[Unarmed]]
+:: Level 23
+
+{{:{{msg:BASEPAGENAME}}/Abilities}}
+
+===Mechanics===
+When you enter combat, a meter tracks how much armor damage you take. When you kill a monster, you gain Endurance XP based on how much armor damage you took, capped based on the level of the monster you killed. The meter tracking the armor damage then resets.
+
+Implications include:
+*You won't continue to gain Endurance XP if you allow one monster to deal damage to you indefinitely, because the amount of XP you get is capped at some point.
+*If you fight two enemies at once that damage your armor, you will get the Endurance XP from the total armor damage both of them deal when you kill one of them. However, upon securing this kill, the meter will reset, so you won't get the same amount of XP when you kill the second enemy.
+*Fighting low level enemies won't give you much Endurance XP per kill even if the enemies have abilities that deal high armor damage, since you're more likely to hit the XP cap.
+*It can be time consuming to brute force grind Endurance XP, but a relatively efficient way to do it is by fighting large groups of mobs a little bit below your level, which have abilities that specifically damage your armor. Then kill them one by one, rather than using an AoE to kill all of them at once.
+
+<!-- transclusing tables for easier edits/updates -->
+{{:{{msg:BASEPAGENAME}}/Treasure Effects}}
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Endurance Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Endurance|
+{{:Xptables/TypicalCombatSkill}}
+}}
+[[Category:Skills]][[Category:Other Skills]]

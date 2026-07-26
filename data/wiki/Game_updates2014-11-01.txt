@@ -1,0 +1,46 @@
+==November 1st, 2014==
+The new dungeon was delayed a week so that I could squash a whole bunch of really annoying bugs in the game. Next week should have the new dungeon as well as some interesting content revisions!
+
+Already found a new bug, though: when you chat, an extra blank line is being added to the end of every message. This also screws up the slash commands like /who all. We'll have this fixed later today.
+
+===Loot Permission===
+When you kill a monster now, you will have first dibs on the monster's loot. Other players will not be able to loot, skin, bury, eat, etc. the corpse until you open and close the loot window.
+The exception is in groups -- if you're in a group, looting is free-for-all like before. (But only amongst members of the group, of course.)
+We'll eventually have multiple different loot modes (especially group-loot modes). This is just the first step, designed to cut down on ninja-looting griefers.
+
+===Boss Monster Change===
+* Boss monsters are now tougher to kill, and have group-loot. That is to say, every player can loot the monster and get their own set of loot.
+* A few named non-boss monsters behave this way now, too.
+* The following monsters now work this way: Algapa, Graz, The Fog, Xegatis, Insane Matriarch (!), Timothy Elerimon, Fugorg, Bleddyn, Vulka The Snarl, Warmaster Juk, Greta, Kiralem, Tidal, Tremor, the bear in the barn (!), The Flower Child, Thorn of Decay, Tyxr the Guardian Elemental, Big Slime, Nameless Guardian, Rhino Guardian, Sherzat, Khyrulek's First Form, Ursula, Maronesa, Omegaspider, and various placeholder bosses
+* All official bosses (with warning screens), as well as placeholders for future official bosses, are all uniformly on 10 minute respawns. Others have been tweaked upwards to make them less camp-worthy.
+
+===Word Game Tweaks===
+* You now earn Vocabulary XP when you play the word hunt game. Vocabulary skill will be a prerequisite for Oratory skill, which will unlock various social activities and will ultimately be a prerequisite for bard-related abilities. But in the short term, Vocabulary skill is just a number that goes up if you play.
+* Made the NPCs who play the word game a little less amazing at it
+* If you hover over the name of someone on the word game score screen, you'll see their longest word found during that game
+* Note for new players: the score is based on the length of the words you find. Short words are worth very little, and long words are worth a ton. So often times you can get a much bigger score by taking your time and looking for a couple of big words, rather than typing in every small word you think of.
+
+===Bug fixes and changes===
+* Fixed water rendering in front of trees
+* Added missing collision to low walls near Serbule
+* Attempted to fix the "missing water" bug in Eltibule where parts of the lakes don't appear to have water. I can't actually repro this on any local machine so I have no idea if it's actually fixed, but I think I know what caused it.
+* Toned down the brightness of the sky in Eltibule
+* Changed the sky and intense brightness of [[Kur Mountains]]
+* Brightened up [[Myconian Cave]]s
+* NOTE: the portal from Serbule to Eltibule has moved! Slightly. It is now at the end of one of the two paths that run north of Serbule. It used to be a bit off the path, which made no sense and made it incredibly hard to find.
+* Fixed the "combat music" playing overtop the regular music when you first enter the Wolf Cave or the Necromancer Lair
+* Monster chatter is now localized to the monster's area instead of being broadcast all over the zone
+* Normalized the size of status effect icons
+* Reorganized the first few abilities of Necromancy, so that you have an active ability to raise XP with right at level 1.
+* Cleaned up resizing of Map window a bit
+* Fixed various bugs and issues related to the Recipe window
+* Fixed bug that kept Rakshasa from recovering peaceableness so they can stop being Dead Inside after killing sentient creatures. It's a low-percentage chance that it will increase every few seconds, so it will take a while to go away, since most Rakshasa are probably completely bottomed out right now due to the bug.
+* Auto-run is no longer turned off if you jump
+* Removed the underlines under monsters you aren't selecting or hovering over
+* There is a new keyboard command, "Turn On/Off GUI Windows", which can be used to hide the GUI for screenshots. You will need to assign a key to it in the config window
+* Deer in Serbule are now considered lower-level for the purposes of butchering and skinning. This is to let you more easily get started with skinning, rather than having to seek out the low-level rats to skin
+* Worgs are now much easier to skin and have lower-level skins
+* Changed the default billboard distance of trees at lower display-quality levels. This may cause performance issues for some lower-end machines, but for most laptop users, trees should look a lot less pixelly and weird, without much performance impact. If you do have sudden performance problems, you can change it back -- go to Options->Graphics Options->Advanced, and change the "Tree Billboard Distance" to 30 or 50. (That's what it used to be for the "Fastest" quality setting and "Good" quality settings, respectively.)
+* Fixed bug with advanced overrides that conflated tree-draw distance with tree billboard distance, making it impossible to set one without accidentally setting the other
+
+[[Category:Game updates]]

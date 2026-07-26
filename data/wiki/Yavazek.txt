@@ -1,0 +1,210 @@
+__NOTOC__
+{{NPC infobox
+|title            = Yavazek
+|image            = [[File:Yavazek.png|300px|]]
+|caption          = He chitters at you in an apparent friendly greeting.
+|zone             = Sun Vale
+|town = Animal Town
+|location = Near the garden.
+|anatomy = Arthropod
+|species = Mantis
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Giant Bat]]
+|vendor           = Yes
+|barter = Yes
+}}
+{{Quote|I am a visiting diplomat from the Grand City of Insects. I should explain that it is not actually a grand city yet. However, we have grand plans, so it made sense to choose a name that we could grow into.}}
+[[Yavazek]] is a Mantis diplomat sent to Animal Town to help the animals survive. He says he's an ambassador between insects and talking animals, but something is fishy about his story.
+
+As a resident of [[Animal Town]], [[Yavazek]] is only willing to hold conversations with characters that have transformed into a [[Beast Forms|Beast Form]] over 180 real-world minutes prior to the conversation attempt. If you loose track of the time you last transformed, [[Norbert]] is willing to tell you how long you have until the other residents will tolerate talking with you. [[Yavazek]] believes this policy is pointless, but follows it to stay on [[Spot]]'s good side.
+==Location==
+; [[Sun Vale]]
+: Animal Town (located in the southeastern part of [[Sun Vale]], at the mountainous area.)<br/>Can be found in the middle of the town.
+== Shopkeeper ==
+[[Yavazek]] specializes in selling First Aid kits and Armor Patching kits, as well as parchments and ink.
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+
+{{Spoiler|Close Friends|
+I continue to acknowledge your actions. Furthermore I wish to report a sense of comfort when you are present. It is atypical, but presumably not harmful.}}
+
+== Quests ==
+<dpl>
+category = Quests/Yavazek
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Giant Bat]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Giant Bat{{pipe}}Unlock Giant Bat Skill Levels 51-60
+ |skilllevel=50
+ |cost=20000
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Rip 6
+ |skilllevel= 51
+ |cost=9750
+ |favor=???
+}}
+{{NPC training row
+ |ability=Sonic Burst 5
+ |skilllevel=53
+ |cost=9850
+ |favor=???
+}}
+{{NPC training row
+ |ability=Wing Vortex 6
+ |skilllevel=54
+ |cost=9900
+ |favor=???
+}}
+{{NPC training row
+ |ability=Tear 6
+ |skilllevel=55
+ |cost=9950
+ |favor=???
+}}
+{{NPC training row
+ |ability=Screech 6
+ |skilllevel=56
+ |cost=11500
+ |favor=???
+}}
+{{NPC training row
+ |ability=Drink Blood 6
+ |skilllevel=57
+ |cost=11550
+ |favor=???
+}}
+{{NPC training row
+ |ability=Virulent Bite 6
+ |skilllevel=58
+ |cost=11600
+ |favor=???
+}}
+{{NPC training unlock row
+ |Icon=Unlock
+ |item=Giant Bat{{pipe}}Unlock Giant Bat Skill Levels 61-70
+ |skilllevel=60
+ |cost=100000
+ |favor=???
+}}
+{{NPC training row
+ |ability=Rip 7
+ |skilllevel=61
+ |cost=14750
+ |favor=???
+}}
+{{NPC training row
+ |ability=Sonic Burst 6
+ |skilllevel=63
+ |cost=14850
+ |favor=???
+}}
+{{NPC training row
+ |ability=Wing Vortex 7
+ |skilllevel=64
+ |cost=14900
+ |favor=???
+}}
+{{NPC training row
+ |ability=Tear 7
+ |skilllevel=65
+ |cost=14950
+ |favor=???
+}}
+{{NPC training row
+ |ability=Drink Blood 7
+ |skilllevel=67
+ |cost=17050
+ |favor=???
+}}
+{{NPC training row
+ |ability=Screech 7
+ |skilllevel=66
+ |cost=17000
+ |favor=???
+}}
+{{NPC training row
+ |ability=Virulent Bite 7
+ |skilllevel=68
+ |cost=17100
+ |favor=???
+}}
+{{NPC training row
+ |ability=Rip 8
+ |skilllevel=71
+ |cost=19750
+ |favor=???
+}}
+{{NPC training row
+ |ability=Sonic Burst 7
+ |skilllevel=73
+ |cost=19850
+ |favor=???
+}}
+
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Lore]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+
+{{NPC training row
+ |recipe=Drink Nectar (as a Butterfly)
+ |skilllevel=0
+ |cost=166
+ |favor=Comfortable
+}}
+|}
+
+== Services == 
+==== Bartering ====
+{| class="wikitable mw-collapsible mw-collapsed"
+!Give
+!Receive
+|-
+| {{Item|Bounceweed}} || {{Item|Sharpen}}
+|-
+| {{Item|Northern Bounceweed}} || {{Item|Super Sharpen}}
+|-
+| {{Item|Pure Bounceweed}} || {{Item|Ultra Sharpen}}
+|-
+| {{Item|Augmented Bounceweed}} || {{Item|Perfect Sharpen}}
+|-
+| {{Item|Pure Bounceweed}}<br> {{Item|Bounceweed}} || {{Item|Calmweed}}
+|-
+| {{Item|Pure Bounceweed}}<br> {{Item|Northern Bounceweed}} || {{Item|Calmweed}}
+|-
+| {{Item|Augmented Bounceweed}} || {{Item|Calmweed}}
+|}
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Perfect Sharpen}} x5
+}}
+== Conversations ==
+
+{{Spoiler|Soul Mates|
+{{Quote|After some analysis I have decided that the sense of comfort and mild pleasure that occurs when I see you is ''not'' a disorder. Raul tells me that this is, in fact, "friendship." It is quite an unusual sensation. 
+}}}}
+
+[[Category:NPCs]]

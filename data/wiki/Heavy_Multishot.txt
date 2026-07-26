@@ -1,0 +1,74 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Heavy Multishot
+| description = You fire extra-heavy arrows at all nearby targets. You must have five Beginner's Dense Arrows (or better) in your inventory.
+| level = 8
+| power cost = 40
+| reuse time = 30
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyMultiShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 40 Piercing
+| special = Hits all targets within range. (But always consumes exactly 5 arrows.).
+}}
+|-
+|
+{{Ability infobox
+| name = Heavy Multishot 2
+| description = You fire extra-heavy arrows at all nearby targets. You must have five Basic Dense Arrows (or better) in your inventory.
+| level = 25
+| power cost = 53
+| reuse time = 30
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyMultiShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 110 Piercing
+| special = Hits all targets within range. (But always consumes exactly 5 arrows.).
+}}
+|-
+|
+{{Ability infobox
+| name = Heavy Multishot 3
+| description = You fire extra-heavy arrows at all nearby targets. You must have five Advanced Dense Arrows (or better) in your inventory.
+| level = 43
+| power cost = 71
+| reuse time = 30
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyMultiShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 225 Piercing
+| special = Hits all targets within range. (But always consumes exactly 5 arrows.).
+}}
+|-
+|
+{{Ability infobox
+| name = Heavy Multishot 4
+| description = You fire extra-heavy arrows at all nearby targets. You must have five Expert's Dense Arrows (or better) in your inventory.
+| level = 59
+| power cost = 86
+| reuse time = 30
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyMultiShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 405 Piercing
+| special = Hits all targets within range. (But always consumes exactly 5 arrows.).
+}}
+|-
+|
+{{Ability infobox
+| name = Heavy Multishot 5
+| description = You fire extra-heavy arrows at all nearby targets. You must have five Amazing Dense Arrows (or better) in your inventory.
+| level = 75
+| power cost = 102
+| reuse time = 30
+| range = 20 meters
+| skill = Archery
+| keywords = {{KWAB|Attack}}{{KWAB|Archery}}{{KWAB|HeavyMultiShot}}{{KWAB|HeavyArchery}}{{KWAB|Ranged}}{{KWAB|AnatomyCriticals}}
+| damage = 600 Piercing
+| special = Hits all targets within range. (But always consumes exactly 5 arrows.).
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Raina in the Fae Realm said, "I've stopped accepting special orders for fresh body parts. It's just too existentially painful. But orders for fresh mushrooms should be fine!
+
+I need some extremely fresh Pixie's Parasols. I'd pick them myself, but... well, I'm scared of pixies."
+
+===Prerequisites===
+To start this quest, talk to '''[[Raina]]''' in '''[[Fae Realm]]'''. The quest is available at {{Favor|Neutral}} favor. You must have previously completed [[Freshest Shimmerwing Wings]] in order to undertake this quest.
+
+===Preface===
+I've stopped accepting special orders for fresh body parts. It's just too existentially painful. But orders for fresh mushrooms should be fine!
+
+I need some extremely fresh Pixie's Parasols. I'd pick them myself, but... well, I'm scared of pixies.
+
+===Requirements===
+* Harvest Pixie's Parasols x5
+* (Keep the mushrooms) x5
+* Talk to Raina
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you for the fresh mushrooms! You know, I asked my buyer why she needed super fresh mushrooms particularly, since mushrooms last a really long time in storage. You know what she said? "I don't eat anything that's been dead for more than a week." Isn't that just the height of entitlement? I mean, for an immortal. Oops... not that she's immortal. Might be, might not be... okay fine, it's Midge. And she has brain damage, so don't you be mean to her!}}
+* 50 {{Favor|favor}}
+* {{Item|Royal Jelly}}
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Raina]]

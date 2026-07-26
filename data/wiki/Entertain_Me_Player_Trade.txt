@@ -1,0 +1,20 @@
+__NOTOC__
+==Summary==
+Pennoc in Serbule told you to trade with another player. (Use the Trade option when examining another player. You don't have to actually trade items -- just so long as one or the other of you gets at least one item, that'll count.)
+
+===Prerequisites===
+To start this quest, talk to '''[[Pennoc]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|Serbule desperately needs more traveling circuses to show up. But we're too small. So we need to facilitate trade! Go: go trade! Trade with other adventurers like yourself, so that the word starts to spread.}}
+
+===Requirements===
+* Trade With Another Player
+* Talk to Pennoc
+
+===Rewards===
+{{Spoiler|Rewards for Entertain Me: Player Trade|
+{{Quote|Great trading! After a few thousand more trades, I'm sure the news will reach the circuses! I hope it doesn't take more than a few years...}}
+
+This quest will reward random loot. This may include items with 25 level mods.}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Entertain Me]][[Category:Quests/Pennoc]]

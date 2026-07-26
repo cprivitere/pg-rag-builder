@@ -1,0 +1,71 @@
+__NOTOC__
+{{Skill infobox
+|title            = Dwarf Anatomy
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the physiology of dwarves.
+|skilltype        = Anatomy Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy<!-- Any other skills needed to gain this skill -->
+|skilltrainers    = None
+}}
+{{Quote|source=Source|
+Knowledge of the physiology of dwarves.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Dwarf Anatomy]] is a sub-skill of [[Anatomy]] that explores the physiology of Dwarves.
+=== In-Game Description ===
+Knowledge of the physiology of dwarves.
+==Known Creatures==
+===Friends===
+<dpl>
+ category = Dwarf&NPCs
+</dpl>
+===Bosses===
+<dpl>
+ category = Dwarf&Bosses
+ notcategory = NPCs
+</dpl>
+
+===Foes===
+<dpl>
+ category    = Dwarf
+ notcategory = Bosses
+ notcategory = NPCs
+</dpl>
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+== Lore ==
+Dwarves are not as long-lived as elves, but culturally are just as ancient. Dwarven civilization is advanced, with craftsman producing technologies which long outpaced the development by most other races. Despite their knowledge and superiority in non-magical weaponry, there is no vast Dwarven empire anymore. Over the centuries the Dwarves of Alharth have formed powerful empires which which spread and waged war against other races, but those empires fell just as quickly. The remaining dwarven controlled areas are home to comfortable fortress cities hidden on or inside mountains from where they continue to fight numerous foes including Orcs, Goblins, and other subterranean species. Dwarves are proficient miners, capable of gathering and manipulating rocks and minerals other races are either unable to forge or are unable to harvest.
+
+Dwarven marriages are often planned long in advance by two families who create a contract to betroth a member of each family together, and the process begins with a thirty year engagement once the Dwarves involved are born and reach adulthood (around age 50). 
+
+{{Quote|source = Dev Blog June 7, 2017|Stereotypical words that other races use to describe dwarves include patience, wisdom, directness, and compassion. They're very socially conservative, and they're extremely blunt with their opinions, which can cause some problems with other races. But they are fiercely loyal to their friends and family, and their sense of honor and friendship usually overcomes other qualms. For instance, they call elves disgusting perverts and make fun of them constantly, yet the dwarves are the elves' staunchest allies on this continent, and have been for over a thousand years.
+}}
+
+:- Kot Bhenul is a well known Dwarven artist.
+{{Quote|source=Reproduction of "Fortress Five"|
+A signed and numbered copy of the famous painting by Go Hakomi, a dwarven master.  He recently passed away, increasing this painting's value significantly.
+}}
+{{Quote|source="Wheat"|
+A well-known painting by the dwarven artist Kot Bhenul. Signed and numbered! This is a great find.
+}}
+{{Quote|source="Last Autumn Sunset"|
+It's the little-known masterpiece by dwarven artist Kot Bhenul. Note the beautiful use of real gold in the paint.
+}}
+: Dwarves leave Preservation Runes in tombs of the dead. These runes are not magical, and are just a traditional practice.
+{{Quote|source= Elven Plate Leggings|
+During the Elf-Dwarf wars, Dwarven mages created leather-evaporation magic, rendering elves usual armor obsolete. These ceremonial plate leggings were hurried into battle. Although they're impressively protective, they're still pretty uncomfortable.
+}}
+{{Quote|source= Gammo's "Legions of Stone"|
+A musty tome of poetry from the dwarven master Gammo. It has both the original Dwarven rhyming couplets and a Human translation. Perfect for the poetry lover in your life.
+}}
+{{Quote|source= "Collected Works of Gammo" |
+A heavy volume of poems by the dwarven master Gammo. It even includes the poem "My Penis is the Sunstone," which has been censored by the Dwarven Culture Group for over 500 years! This is a great find for poetry lovers, though dwarves may find it too embarrassing to own. Less prudish individuals tend to find Gammo's works uplifting and enervating.
+}}
+: One thousand years ago, the Dwarven Stalwarts were powerful fighters that wore ornate but sturdy armor. <ref> Stalwart Helmet item </ref>
+
+[[Category:Skills]]

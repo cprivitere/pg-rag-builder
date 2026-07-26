@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Therese has asked for some hash browns.
+
+===Prerequisites===
+To start this quest, talk to '''[[Therese]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|You know what I could go for? Some venison hash browns! But it's a secret family recipe. I guess regular old hash browns would do, too.
+
+If you happen to be cooking, could you fry me up some Hash Browns? Don't go to any trouble on my account, though.}}
+
+===Requirements===
+* Obtain {{Item|Hash Browns}}
+* Talk to Therese
+
+===Rewards===
+{{Spoiler|Rewards for Therese Wants Hash Browns|
+{{Quote|Mmm, smells delicious! Thanks!
+
+Let me show you a couple little gardening tips.}}
+
+* 100 {{Favor|favor}}
+* 50 XP in [[Gardening]]
+}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Therese]]

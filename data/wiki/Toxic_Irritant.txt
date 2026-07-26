@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Toxic Irritant
+| description = Splash harmful chemicals on an enemy.
+| level = 5
+| power cost = 0
+| reuse time = 5
+| range = 5 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|BattleChemistryAttack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}{{KWAB|ToxicIrritant}}
+| damage = 10 Acid
+}}
+|-
+|
+{{Ability infobox
+| name = Toxic Irritant 2
+| description = Splash harmful chemicals on an enemy.
+| level = 15
+| power cost = 0
+| reuse time = 5
+| range = 5 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|BattleChemistryAttack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}{{KWAB|ToxicIrritant}}
+| damage = 17 Acid
+}}
+|-
+|
+{{Ability infobox
+| name = Toxic Irritant 3
+| description = Splash harmful chemicals on an enemy.
+| level = 26
+| power cost = 0
+| reuse time = 5
+| range = 5 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|BattleChemistryAttack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}{{KWAB|ToxicIrritant}}
+| damage = 26 Acid
+}}
+|-
+|
+{{Ability infobox
+| name = Toxic Irritant 4
+| description = Splash harmful chemicals on an enemy.
+| level = 35
+| power cost = 0
+| reuse time = 5
+| range = 5 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|BattleChemistryAttack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}{{KWAB|ToxicIrritant}}
+| damage = 35 Acid
+}}
+|-
+|
+{{Ability infobox
+| name = Toxic Irritant 5
+| description = Splash harmful chemicals on an enemy.
+| level = 45
+| power cost = 0
+| reuse time = 5
+| range = 5 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|BattleChemistryAttack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}{{KWAB|ToxicIrritant}}
+| damage = 52 Acid
+}}
+|-
+|
+{{Ability infobox
+| name = Toxic Irritant 6
+| description = Splash harmful chemicals on an enemy.
+| level = 55
+| power cost = 0
+| reuse time = 5
+| range = 5 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|BattleChemistryAttack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}{{KWAB|ToxicIrritant}}
+| damage = 73 Acid
+}}
+|-
+|
+{{Ability infobox
+| name = Toxic Irritant 7
+| description = Splash harmful chemicals on an enemy.
+| level = 65
+| power cost = 0
+| reuse time = 5
+| range = 5 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|BattleChemistryAttack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}{{KWAB|ToxicIrritant}}
+| damage = 94 Acid
+}}
+|-
+|
+{{Ability infobox
+| name = Toxic Irritant 8
+| description = Splash harmful chemicals on an enemy.
+| level = 75
+| power cost = 0
+| reuse time = 5
+| range = 5 meters
+| skill = Battle Chemistry
+| keywords = {{KWAB|BattleChemistry}}{{KWAB|BattleChemistryAttack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|Melee}}{{KWAB|ToxicIrritant}}
+| damage = 118 Acid
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

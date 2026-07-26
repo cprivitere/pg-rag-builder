@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Sie Antry wants you to kill Giant Snails near her homestead.
+
+===Prerequisites===
+To start this quest, talk to '''[[Sie Antry]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Kill Giant Mantises]] in order to undertake this quest.
+
+===Preface===
+{{Quote|Oh for fuck's sake. Now the snails are gettin' too close! Go clear those out too, okay?}}
+
+===Requirements===
+* Kill Giant Snails (10)
+* Talk to Sie Antry
+
+===Rewards===
+{{Spoiler|Rewards for Kill Giant Snails|
+{{Quote|Thanks! You're a kipper. Here's something for your trouble. And let me tell you some gardening tips, too.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Skullcap}}
+* 500 XP in [[Gardening]]
+Rewards for this quest will be generated with 35 level mods.
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Sie Antry]]

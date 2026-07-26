@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Pennoc in Serbule told you to cook some fish dishes.
+
+===Prerequisites===
+To start this quest, talk to '''[[Pennoc]]''' in '''[[Serbule]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|I hate the smell of raw fish, but I sometimes like the smell of fried fish. Weird, right?
+
+Hmm, go and cook some fish. Maybe the smell will waft towards me.}}
+
+===Requirements===
+* Cook Fish Dishes
+* Talk to Pennoc
+
+===Rewards===
+{{Spoiler|Rewards for Entertain Me: Cooking Fish|
+{{Quote|Well... the smell of fried fish isn't as pleasant as I remembered.}}
+
+* 500 councils
+This quest will reward random loot. This may include items with 25 level mods.}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Entertain Me]][[Category:Quests/Pennoc]]

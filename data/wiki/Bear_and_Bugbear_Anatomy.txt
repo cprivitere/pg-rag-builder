@@ -1,0 +1,47 @@
+__NOTOC__
+{{Skill infobox
+|title            = Bear and Bugbear Anatomy
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the physiology of bears. Bugbears, which are half-goblin and half-bear, are also covered by this skill, as they take after their bear side more than the goblin side.
+|skilltype        = Anatomy Skill
+|maxlevel         = 50 <!-- List without bonus levels -->
+|req              = Anatomy
+|skilltrainers    = None
+}}
+{{Quote|
+Needs a quote. Try someone in Eltibule.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Bear and Bugbear Anatomy''' is a sub-skill of [[Anatomy]] that explores physiology of bears and Bugbears.
+=== In-Game Description ===
+Knowledge of the physiology of bears. Bugbears, which are half-goblin and half-bear, are also covered by this skill, as they take after their bear side more than the goblin side.
+==Known Creatures==
+
+===Friends===
+<dpl>
+ category = Bear and Bugbear&NPCs
+</dpl>
+
+===Bosses===
+<dpl>
+ category = Bear and Bugbear&Bosses
+ notcategory = NPCs
+</dpl>
+
+===Foes===
+<!-- the DPL lists creatures which already have a page and are categorized. -->
+<dpl>
+ category    = Bear and Bugbear
+ notcategory = Bosses
+ notcategory = NPCs
+</dpl>
+<!-- here we can manually add any creatures to keep track of missing/todo pages -->
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/CorpseActionSkill}}
+}}
+
+[[Category:Skills]][[Category:Anatomy Skills]]

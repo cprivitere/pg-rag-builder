@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Umarak in Povus said, "My stash of cooking herbs wasn't found by the orc invaders! But sadly I am now out of basil, and I need that for many of the meals I prepare. I can tell Tryaka is less happy with my cooking, but what can I do?!"
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Umarak]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+My stash of cooking herbs wasn't found by the orc invaders! But sadly I am now out of basil, and I need that for many of the meals I prepare. I can tell Tryaka is less happy with my cooking, but what can I do?!
+
+===Midway===
+I wish I had fresh basil...
+
+===Requirements===
+* Obtain Basil x3
+* Talk to Umarak
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Oh! Fresh basil! You found some!! Here. You are too kind!}}
+* {{Item|Xogrite Chunk}} x4
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Umarak]]

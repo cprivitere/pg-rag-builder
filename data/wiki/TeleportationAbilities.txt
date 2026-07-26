@@ -1,0 +1,8 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Teleportation/Abilities|Teleportation Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v400 on Tue Dec 19 2023 02:50:21 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Organ Displacement|2}} || 25 || Organ Displacement || Teleport the target's innards to another location far away. Requires an Aquamarine gem, which is usually consumed, but sometimes ends up inside the monster.<br><b>This is an Epic Attack</b> ||  || <b>Health Dmg:</b> 300 Trauma || <b>Power Cost:</b> 38<br><b>Range:</b> 30<br><b>Cooldown:</b> 90 || <b>Training:</b> [[Ratuk the Thinker]]
+|}

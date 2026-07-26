@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> Ghouls are rarer undead. Urtigal used to make tons of them, but he's dead now. So I don't know who keeps making new ones... but anyway, you should kill them! Let's see... you can find some deep in the dungeon beneath the ruined Kur Tower. And you might want to bring a friend or two: it looks pretty dangerous in there!
+
+This Quest can be repeated after 60 days.
+
+
+
+===Preface===
+<i>Zhia Lian:</i> Ghouls are rarer undead. Urtigal used to make tons of them, but he's dead now. So I don't know who keeps making new ones... but anyway, you should kill them! Let's see... you can find some deep in the dungeon beneath the ruined Kur Tower. And you might want to bring a friend or two: it looks pretty dangerous in there!
+
+===Requirements===
+* Kill ghouls x8
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Good. I hate ghouls. So gross.}}
+* 1000 councils
+* {{Item|Super Speed Potion}} x2
+* {{Item|Recall Stone}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

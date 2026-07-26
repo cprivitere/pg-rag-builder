@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = You Were Adopted
+| description = Reveal something so surprising that the target's heart briefly stops. (Only works on targets who have been recent victims of Psychoanalyze or Tell Me About Your Mother.)
+| level = 18
+| power cost = 46
+| reuse time = 30
+| range = 20 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|YouWereAdopted}}{{KWAB|EpicAttack}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 101 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = You Were Adopted 2
+| description = Reveal something so surprising that the target's heart briefly stops. (Only works on targets who have been recent victims of Psychoanalyze or Tell Me About Your Mother.)
+| level = 34
+| power cost = 63
+| reuse time = 30
+| range = 20 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|YouWereAdopted}}{{KWAB|EpicAttack}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 190 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = You Were Adopted 3
+| description = Reveal something so surprising that the target's heart briefly stops. (Only works on targets who have been recent victims of Psychoanalyze or Tell Me About Your Mother.)
+| level = 44
+| power cost = 72
+| reuse time = 30
+| range = 20 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|YouWereAdopted}}{{KWAB|EpicAttack}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 283 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = You Were Adopted 4
+| description = Reveal something so surprising that the target's heart briefly stops. (Only works on targets who have been recent victims of Psychoanalyze or Tell Me About Your Mother.)
+| level = 57
+| power cost = 84
+| reuse time = 30
+| range = 20 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|YouWereAdopted}}{{KWAB|EpicAttack}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 448 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = You Were Adopted 5
+| description = Reveal something so surprising that the target's heart briefly stops. (Only works on targets who have been recent victims of Psychoanalyze or Tell Me About Your Mother.)
+| level = 69
+| power cost = 95
+| reuse time = 30
+| range = 20 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|YouWereAdopted}}{{KWAB|EpicAttack}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 601 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = You Were Adopted 6
+| description = Reveal something so surprising that the target's heart briefly stops. (Only works on targets who have been recent victims of Psychoanalyze or Tell Me About Your Mother.)
+| level = 83
+| power cost = 110
+| reuse time = 30
+| range = 20 meters
+| skill = Psychology
+| keywords = {{KWAB|Attack}}{{KWAB|Psychology}}{{KWAB|YouWereAdopted}}{{KWAB|EpicAttack}}{{KWAB|Ranged}}{{KWAB|PhrenologyCriticals}}
+| damage = 809 Trauma
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

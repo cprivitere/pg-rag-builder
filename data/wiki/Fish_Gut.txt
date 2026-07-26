@@ -1,0 +1,74 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Fish Gut
+| description = Gut your enemy like a fish. Requires a skinning knife. (There is a 5% chance the knife will be destroyed.)
+| level = 5
+| power cost = 13
+| reuse time = 12
+| range = 5 meters
+| skill = Fishing
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Gut}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|CoreAttack}}{{KWAB|MeleeKnife}}{{KWAB|FishGut}}{{KWAB|CraftingAttack}}
+| damage = 28 Nature
+| special = Creatures with Fish anatomy take double damage. You must have hands to use this ability. This is considered a (non-bleed-inducing) variant of Gut for purposes of equipment and combos.
+}}
+|-
+|
+{{Ability infobox
+| name = Fish Gut 2
+| description = Gut your enemy like a fish. Requires a skinning knife. (There is a 5% chance the knife will be destroyed.)
+| level = 15
+| power cost = 18
+| reuse time = 12
+| range = 5 meters
+| skill = Fishing
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Gut}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|CoreAttack}}{{KWAB|MeleeKnife}}{{KWAB|FishGut}}{{KWAB|CraftingAttack}}
+| damage = 53 Nature
+| special = Creatures with Fish anatomy take double damage. You must have hands to use this ability. This is considered a (non-bleed-inducing) variant of Gut for purposes of equipment and combos.
+}}
+|-
+|
+{{Ability infobox
+| name = Fish Gut 3
+| description = Gut your enemy like a fish. Requires a skinning knife. (There is a 5% chance the knife will be destroyed.)
+| level = 25
+| power cost = 22
+| reuse time = 12
+| range = 5 meters
+| skill = Fishing
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Gut}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|CoreAttack}}{{KWAB|MeleeKnife}}{{KWAB|FishGut}}{{KWAB|CraftingAttack}}
+| damage = 85 Nature
+| special = Creatures with Fish anatomy take double damage. You must have hands to use this ability. This is considered a (non-bleed-inducing) variant of Gut for purposes of equipment and combos.
+}}
+|-
+|
+{{Ability infobox
+| name = Fish Gut 4
+| description = Gut your enemy like a fish. Requires a skinning knife. (There is a 5% chance the knife will be destroyed.)
+| level = 45
+| power cost = 31
+| reuse time = 12
+| range = 5 meters
+| skill = Fishing
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Gut}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|CoreAttack}}{{KWAB|MeleeKnife}}{{KWAB|FishGut}}{{KWAB|CraftingAttack}}
+| damage = 189 Nature
+| special = Creatures with Fish anatomy take double damage. You must have hands to use this ability. This is considered a (non-bleed-inducing) variant of Gut for purposes of equipment and combos.
+}}
+|-
+|
+{{Ability infobox
+| name = Fish Gut 5
+| description = Gut your enemy like a fish. Requires a skinning knife. (There is a 5% chance the knife will be destroyed.)
+| level = 60
+| power cost = 36
+| reuse time = 12
+| range = 5 meters
+| skill = Fishing
+| keywords = {{KWAB|Attack}}{{KWAB|Knife}}{{KWAB|Gut}}{{KWAB|Melee}}{{KWAB|KnifeNonCut}}{{KWAB|CoreAttack}}{{KWAB|MeleeKnife}}{{KWAB|FishGut}}{{KWAB|CraftingAttack}}
+| damage = 318 Nature
+| special = Creatures with Fish anatomy take double damage. You must have hands to use this ability. This is considered a (non-bleed-inducing) variant of Gut for purposes of equipment and combos.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

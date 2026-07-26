@@ -1,0 +1,47 @@
+__NOTOC__
+{{Skill infobox
+|title            = Buckle Artistry
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = A description of the skill.
+|skilltype        = Trade Skill
+|maxlevel         = 60 <!-- List without bonus levels -->
+|req              = None <!-- Any other skills needed to gain this skill -->
+|skilltrainers    = [[Jake the Buckler]]
+}}
+{{Quote|source ="[[Jake the Buckler]]"|
+If  you help me get the dye I need, I'll teach you the basics of buckle artistry. After that, I can teach you some special designs I've invented.
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Buckle Artistry''' is a skill based around the creation of belt buckles. These buckles are not magical in any way. Only the individual who crafts a buckle may equip it. Over time, belt buckles will decay and break.
+=== In-Game Description ===
+
+=== Training {{msg:BASEPAGENAME}} ===
+* [[Jake the Buckler]], a Human living in [[Sun Vale]], will teach the skill to anyone willing to help him complete a few tasks (specifically the quest [[Lemony Dye]]). Jake can be found near the Druid Camp.
+* [[Jake the Buckler]] can also raise the [[Buckle Artistry]] level cap to Level 60.
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* [[Hammer]] - Most introductory Buckles are intended to augment the capabilities of Hammer wielders.
+=====Related Skills:=====
+* [[Toolcrafting]] - Toolcrafters can create belts.
+* [[Shamanic Infusion]] - Belts can also be created by those proficient in Shamanic Infusion.
+== Recipe Lists ==
+(Under Construction!)
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Buckle Decay===
+{{Quote| source ="Citan the [[Developers|Developer]]" - [[Game_updates/2015-12-14]]|
+Crafted belt buckles get damaged in combat and eventually break, requiring you to make a new one. The rate of decay is going to have to be experimented with. Theoretically the buckles will last for an average of 5 hours of combat (that is, being "in combat" for 18,000 seconds) before they break.
+}}
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== {{msg:BASEPAGENAME}} Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for {{msg:BASEPAGENAME}}|
+{{:Xptables/TypicalNoncombatSkill}}
+}}
+
+== Trivia ==
+The developers have suggested that a potential replacement character model may one day be added to the game, and that this model might display both belts, and buckles.
+
+[[Category:Skills]][[Category:Trade Skills]]

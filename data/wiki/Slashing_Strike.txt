@@ -1,0 +1,56 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Slashing Strike
+| description = A punch with a claw weapon (or animal claws).
+| level = 51
+| power cost = 19
+| reuse time = 5
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|SlashingStrike}}
+| damage = 124 Slashing initially and 10 Trauma 6 times over 6 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Slashing Strike 2
+| description = A punch with a claw weapon (or animal claws).
+| level = 61
+| power cost = 22
+| reuse time = 5
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|SlashingStrike}}
+| damage = 168 Slashing initially and 20 Trauma 6 times over 6 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Slashing Strike 3
+| description = A punch with a claw weapon (or animal claws).
+| level = 71
+| power cost = 25
+| reuse time = 5
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|SlashingStrike}}
+| damage = 214 Slashing initially and 30 Trauma 6 times over 6 seconds
+}}
+|-
+|
+{{Ability infobox
+| name = Slashing Strike 4
+| description = A punch with a claw weapon (or animal claws).
+| level = 81
+| power cost = 28
+| reuse time = 5
+| range = 5 meters
+| skill = Unarmed
+| keywords = {{KWAB|Attack}}{{KWAB|Unarmed}}{{KWAB|Melee}}{{KWAB|SlashingStrike}}
+| damage = 266 Slashing initially and 40 Trauma 6 times over 6 seconds
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

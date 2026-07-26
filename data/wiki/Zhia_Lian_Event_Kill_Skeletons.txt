@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+<i>Zhia Lian:</i> The undead are extra active right now, so you need to slay them! Start by killing skeletons. You can find them in a graveyard. Or lots of other places, really.
+
+Oh, and if you're freaked out about murder, don't worry: it doesn't count as murder when you kill the undead! You can trust me. I'm a god.
+
+This Quest can be repeated after 60 days.
+
+
+
+===Requirements===
+* Kill skeletons x5
+* Loot a bone from a skeleton
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|<i>Zhia Lian:</i> Excellent work! Now maybe you're ready for some tougher undead.}}
+* 100 councils
+* {{Item|Level 10-20 Event Loot Key}}
+}}
+
+[[Category:Quests]][[Category:Quests/Halloween Quests]]

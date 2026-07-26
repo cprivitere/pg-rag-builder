@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Ratuk the Thinker asked for some orcish spell pouches, which can occasionally be found on orcish wizards.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ratuk]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Friends}} favor.
+
+===Preface===
+{{Quote|I have a ... delicate request to make. You see, my spell pouch is depleted, and I cannot take the time to travel all the way home to replenish it. But there are other orcish wizards in the area, and some of them have spell pouches. Could you choose some of the stupider ones and kill them for their pouches? Make it look like an accident, if you can.}}
+
+===Requirements===
+* Obtain {{Item|Orcish Spell Pouch}}es x5
+* Talk to [[Ratuk the Thinker|Ratuk]]
+
+===Rewards===
+{{Spoiler|Rewards for Killing Kin|
+{{Quote|Hmm. Well these are low on sulfur, but they will do. Thank you, my friend. We shall not speak of this again, but when the time comes, I will remember who my friends are.}}
+
+* 250 {{Favor|favor}}
+* 2000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Ratuk]]

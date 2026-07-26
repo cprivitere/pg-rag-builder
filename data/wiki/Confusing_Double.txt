@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Confusing Double
+| description = Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.
+| level = 19
+| power cost = 23
+| reuse time = 60
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|ConfusingDouble}}{{KWAB|SurvivalUtility}}
+| special = Summons a figment of you that taunts extremely aggressively. Lasts 14 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Confusing Double 2
+| description = Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.
+| level = 39
+| power cost = 34
+| reuse time = 60
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|ConfusingDouble}}{{KWAB|SurvivalUtility}}
+| special = Summons a figment of you that taunts extremely aggressively. Lasts 17 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Confusing Double 3
+| description = Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.
+| level = 49
+| power cost = 38
+| reuse time = 60
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|ConfusingDouble}}{{KWAB|SurvivalUtility}}
+| special = Summons a figment of you that taunts extremely aggressively. Lasts 20 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Confusing Double 4
+| description = Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.
+| level = 59
+| power cost = 43
+| reuse time = 60
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|ConfusingDouble}}{{KWAB|SurvivalUtility}}
+| special = Summons a figment of you that taunts extremely aggressively. Lasts 23 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Confusing Double 5
+| description = Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.
+| level = 69
+| power cost = 48
+| reuse time = 60
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|ConfusingDouble}}{{KWAB|SurvivalUtility}}
+| special = Summons a figment of you that taunts extremely aggressively. Lasts 25 seconds.
+}}
+|-
+|
+{{Ability infobox
+| name = Confusing Double 6
+| description = Behave so disorientingly that enemies cannot tell where you are. They perceive a second version of you for a short while.
+| level = 79
+| power cost = 53
+| reuse time = 60
+| range = 5 meters
+| skill = Giant Bat
+| keywords = {{KWAB|GiantBat}}{{KWAB|ConfusingDouble}}{{KWAB|SurvivalUtility}}
+| special = Summons a figment of you that taunts extremely aggressively. Lasts 27 seconds.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

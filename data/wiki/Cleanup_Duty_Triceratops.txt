@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Grakelsput in Povus said, "Do you think you can take out the pointy-faced dinosaurs? Those were called triceratops, and they lived a very long time ago. Try not to get knocked off a cliff!"
+
+This Quest can be repeated after 5 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Grakelsput]]''' in '''[[Povus]]'''.
+
+===Preface===
+Do you think you can take out the pointy-faced dinosaurs? Those were called triceratops, and they lived a very long time ago. Try not to get knocked off a cliff!
+
+===Requirements===
+* Kill Skeletal Triceratops x10
+* Talk to Grakelsput
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Excellent work. Come back later; I'm sure we'll need your services again.}}
+* 50 {{Favor|favor}}
+* 1500 Gold
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Grakelsput]]

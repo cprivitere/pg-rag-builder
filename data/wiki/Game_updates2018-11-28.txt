@@ -1,0 +1,72 @@
+== Nov 28 Update ==
+Today's update contains a huge array of new features, bugfixes, and quality of life improvements.
+
+===Crafting UI===
+<b>Practical Summoning:</b> You can now learn "Practical Summoning", an advanced [[Teleportation]] technique that allows you to teleport recipe ingredients from nearby storage vaults into your inventory while you are crafting. 
+
+When you learn [[Practical Summoning]], it adds a special feature to the Crafting UI. If you don't have an ingredient on hand, the Crafting UI will display a "Summon" button. Pressing this button will attempt the teleport. You can also right-click a recipe ingredient and choose Summon Ingredient. 
+
+To learn this technique you will need [[Teleportation]] level 12. For now, [[Irkima]] in the [[Red Wing Casino]] teaches this to his Friends for a price of 10,000 councils. (It will likely be moved in the future when more practical summoning techniques are added.)
+
+===Auto-Repeat & Recipe Delay:===
+We've tweaked auto-repeat crafting: the "repeating recipe" progress bar, which is displayed to give players a few seconds to cancel the recipe, will no longer be shown if the recipe already has a suitable built-in delay. For instance, carding cotton at a cotton gin takes 3 seconds, so the "repeating recipe" progress bar isn't needed -- there's already time for you to abort the auto-repeat.
+
+We've also removed the inherent recipe delay from many intermediate recipes, including most tool-creation recipes and all textile-creation recipes except for carding cotton. In addition, the inherent recipe delay of in-the-field decomposition recipes changed from 5 seconds to 3.
+
+'''Other:'''
+: - You can now sort your recipe list in three ways: alphabetically, by recipe level, or by most-used recipes. There is no button for this UI feature yet; to access it, just right-click the name of a recipe in the list in the Crafting UI.
+: - You can now mark recipes as Favourites by right-clicking the recipe name in the list. There is a new drop-down option at the top of the list to show only favorite recipes.
+: - When crafting an enchanted item, the crafting window now shows info about the base item (the unenchanted version of the resulting item).
+
+===Inventory UI===
+'''Vendor Lock:''' If you've unlocked at least 1 extra inventory folder, you can now right-click the folder and choose "Vendor Lock" to keep the contents of that folder hidden from the vendor sales screen. Items from vendor-locked folders simply won't be shown in the sales list at all, just as items used in a Loadout are not shown.
+
+'''Inventory Hints:''' The inventory panel now offers you hints about items that are useful for your current situation. For example, when you are giving a gift to an NPC, the UI will highlight appropriate gifts in the inventory window with an animated overlay.
+
+Similarly, when you are viewing a storage vault that can only store certain types of items, items you are allowed to store in that vault are highlighted. Likewise with consignment: the items you are allowed to consign with that vendor are highlighted.
+
+'''Sorting Tweaks:''' We've refined the Inventory Sort button to automatically recognize new categories of items. The goal is for similar types of items to clump together when sorted. For example: mushrooms now sort next to each other, different stages of cotton sort together, silk sorts together, skinning knives appear near other tools, throwing knives sort together, and many more.
+
+'''Other:'''
+: - Added an "Update this Loadout" button to loadout window; this button just replaces the contents of the loadout with the currently-active abilities and gear.
+: - Added a spot on the inventory window that you can drag items onto to get More Info. This is the same as right-clicking the item and choosing More Info.
+: - Fixed several subtle mouse-click bugs with the inventory window. Most notably, you couldn't drag items around in inventory while you were "in combat".
+: - Cleaned up confusing error messages and sometimes-buggy behavior with the Split Stack window. (BTW, did you know you can quickly split a stack of items by clicking the inventory item while holding down the SHIFT key?)
+
+===Main UI ===
+'''Drag Lock:''' If you want to prevent accidentally messing up your ability bars, there's a new option for you in the Settings window under the GUI tab. Just disable the option "Allow dragging things off of ability bars". You'll still be able to drag icons from the Abilities window ONTO your bars; you just won't be able to drag them OFF of the bars.
+
+'''Effect Wiggle:''' Beneficial effects that last more than 5 minutes will now "wiggle" when the effect is nearly over. This is intended to alert you that important buffs (such as Food) are wearing off, and that you had probably better do something about that.
+
+''' Other:'''
+- Added a new setting to let you turn off the player stats bar that's usually in the top-left corner. This is for players who would prefer to just use the stats globes to track their health/armor/etc.
+- The sidebar now has a right-click menu item to bring up the Special Abilities list, similar to the option already available on the bottom bars.
+- Fixed bugs with the sidebar's contents getting changed or lost when using potions and effects that increased the number of sidebar slots (such as Gur-Horta)
+- Fixed bug where changing the horizontal/vertical layout of the ability bars was not always saved in the settings for the next time the game started.
+- On the character selection screen, if the character is not Hanging Out with someone, it instead shows the area the character is in.
+
+=== Miscellaneous ===
+'''Steam Family Sharing:''' We no longer support Steam's Family Sharing feature, which lets other family members "borrow" your games while you aren't playing them. This was being used by a few people to create extra "mule" characters for free.
+
+Very few players are affected by this change, but if you are affected and you need help sorting things out, just drop us an e-mail at support@projectgorgon.com. (And remember that if you want to let someone try out the game, you just can point them at the free demo!)
+
+'''BookSaveToFile:''' Remember the old save-reports-to-file feature that was lost when we replaced the UI? No? Well, we've re-implemented it. If you add '''BookSaveToFile''' to your special settings, the "book" UI window will have a button that saves the contents to a file on your hard drive. This feature is intended to let players save reports such as the results from '''isearch''' or '''guild who''' so they can reference this information outside of the game. (Please note that this convenience feature may eventually be restricted to people who have the VIP subscriber plan.)
+
+'''Other:'''
+- At the Guild Management Sign, the Roster option can now be sorted by rank/name (the default, as before) or by Last Time Online. 
+- When using the Eject Guild Members option, that popup list is sorted by Last Time Online. (We assume that if you're making room in the roster, you probably want to eject people who haven't been online recently.)
+- Fixed a bug with {{Item|Dwarven Fixer}}: It did not correctly block the bright-lights screen effect of Delerium Tremens (the nastiest withdrawal state of an alcoholic). If you have Dwarven Fixer in your system already, you may need to drink another dose to get the fixed effect.
+- {{Item|Dwarven Fixer}} now lasts 3 hours instead of 1.
+- Fixed several scripted scenarios where the game said you were lit on fire, but you weren't actually lit on fire (such as when trying to break into [[Ivyn]]'s chest or when giving the wrong answer to the creepy crystal).
+- Fixed various scripting bugs that caused players to receive items with impossibly-high stack sizes instead of receiving multiple stacks of the item.
+- Fixed bugs when using the '''/leave''' command to leave a chat room that was in use in more than one chat channel.
+- Improved the heuristics for closing chat tabs automatically.
+- Fixed bug that caused the Group window to sometimes lose track of a party member (showing blank health/armor/power bars for them).
+- Miscellaneous performance optimizations related to the user interface.
+- Added new icons for resource items that are commonly confused with other resource items.
+- Added missing titles from player packages. If your account still doesn't have a title and it should, please e-mail support@projectgorgon.com ASAP so we can get you sorted out.
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Kib the Unkillable in Red Wing Casino said, "I learned something fascinating yesterday: there are relatively low-cost fire resistance potions on this continent. Those are quite rare in my homeland. Sadly they don't see much use here in the casino. I bought Ragabir's stock, but I have more tests to run. Can you bring me several doses?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Kib the Unkillable]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|
+I learned something fascinating yesterday: there are relatively low-cost fire resistance potions on this continent. Those are quite rare in my homeland. Sadly they don't see much use here in the casino. I bought Ragabir's stock, but I have more tests to run. Can you bring me several doses?
+}}
+
+===Requirements===
+* Obtain {{Item|Fire Resistance Potion}} x3
+* Talk to [[Kib the Unkillable]]
+===Rewards===
+{{Spoiler|Rewards for Kib Wants Fire Resistance|
+{{Quote|
+I graciously accept your gift of potions! Did you make these yourself? It can't be that difficult, then!
+
+If this works out, it could be just the thing to survive the heat of the deserts back home. Not that my people need heat protection, of course, but I can sell it to less-hardy species! I bet the ranalons will pay well for it...
+}}
+* 150 favor towards [[Kib the Unkillable]]
+* {{Item|Red Wing Token}} X5
+}}
+
+[[Category:Quests]][[Category:Quests/Kib the Unkillable]][[Category:Quests/Red Wing Casino Quests]]

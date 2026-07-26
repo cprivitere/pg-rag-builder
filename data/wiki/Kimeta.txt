@@ -1,0 +1,55 @@
+__NOTOC__
+{{NPC infobox
+|title            = Kimeta
+|image            = [[File:Kimeta(npc).jpg|150px]] 
+|caption          = 
+|zone             = Povus
+|location         = Sprawl
+|anatomy = Incorporeal Creature
+|species = Incorporeal Creature
+|beastspeak       = Yes
+|beastlist = All
+}}
+{{Quote|source=[[Kimeta]]|
+It's not possible. He would never do that! He was murdered!
+}}
+[[Kimeta]] is deceased Rakshasa from the City of Povus. Her anger and regrets at the time of her death caused her spectral form to haunt the town. 
+== Location ==
+; [[Povus]]
+: [[Kimeta]] only appears in her former house under specific conditions. This house is located near the Southern Wall of the town, in the Sprawl District, next to a pond.
+
+== Favor ==
+[[Kimeta]] does not use the favor system.
+
+== Finding Kimeta and Providing Proof== 
+[[Kimeta]]'s ghost will only appear with the right conditions.
+* It must be nighttime in Povus. She will not spawn before 8:00pm.
+* Ghosts must be spawning in the Sprawl district of the city. This condition is not met every night.
+* She will despawn at 1:15am.
+The first time [[Kimeta]] is spoken to, she asks for an item. This is not a quest.
+{{Quote|source=[[Kimeta]]|
+: It's not possible. He would never do that! He was murdered!
+; Can you hear me? What are you talking about?
+: I'm telling you Tumak would never do that! I lived with him for eight years, through countless tragedies, and he never --never! -- hurt anyone! Even when I wanted him to!
+; He never hurt... who?
+: If you're so certain of his guilt, then surely you can provide proof, right?
+}}
+{{Spoiler|Delivering Proof|
+If a {{Item|Ghostly Letter}} is shown to [[Kimeta]], she will return a {{Item|Ghostly Key}}.
+{{Quote|source=[[Kimeta]]|
+;"Kimeta reads the letter and then weeps."
+My poor Tumak. What foolishness did you get involved in?
+
+And that means... my Kar-Get was... murder! I have followed evil with evil. I surrender to your wrath. You may execute me. here; I leave everything to my brother.
+;"She hands you something and then stiffens, her gaze far away."
+; Execute you? Were you executed?
+; "Kimeta does not seem to hear you. After a few moments of silence, she catches your gaze."
+I was following the old law of Kar-Get! You killed an innocent! Tumak was innocent!
+; Not this again...
+}}
+}}
+
+== See Also ==
+* [[Project Gorgon Genetics Research By Kaskrim]] — In-depth genetics research and breeding guides by Kaskrim
+
+[[Category:NPCs]][[Category:NoRiShin]]

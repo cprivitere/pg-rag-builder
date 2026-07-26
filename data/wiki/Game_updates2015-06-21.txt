@@ -1,0 +1,95 @@
+==June 21 Update==
+Some sub-servers are not patching correctly, still investigating. There may be some lag in some dungeons and in Sun Vale.
+
+This is a very "raw" (untested) update. Report bugs right away! I can do another update tomorrow if there are serious issues found.
+
+
+
+Newbie-Experience Changes:
+
+- Replaced the old cow curse with a new curse that is less horrific for newbies
+
+- Moved the cow curse to an additional room at the end of the dungeon under the crystal... hopefully it's all intact!
+
+- Nerfed the [[Omegaspider]] a bit
+
+- Improved quest text on some favors
+
+- Players now start with 8 more inventory slots
+
+- [[Endurance]] now gives more inventory slots as you level it up. By level 50 it gives +18 slots (instead of +6)
+
+- Sometimes low-level mushrooms would give you dirt when you picked them up instead of mushrooms. This confused people, so now mushrooms always give you mushrooms, and there are mounds of dirt that give you dirt
+
+- [[Velkort]]'s quests and favors now all give out Fire Dust as a reward. This should help newbie fire mages get their basic spells. You'll still have to hunt down advanced components on your own, though.
+
+- You no longer fail to charm/tame a pet if you get attacked by it
+
+
+
+[[Fletching]] Changes:
+
+- Revised fletching to make it less like a trade skill and more of a solo-adventurer activity
+
+- Lowered the level requirements on the fletching-related Carpentry recipes. You can now make the first two tiers of arrows with Carpentry level 5 and the third tier with Carpentry level 10
+
+- The higher-tier fletching boxes dry much more quickly now. (Top tier takes 20 minutes instead of 8 hours)
+
+- Fire Arrow recipes no longer require you to know Fire Magic to learn them. You just need favor with Velkort
+
+- Poison Arrow recipes no longer require you to know [[Battle Chemistry]] to learn them. You just need favor with [[Marna]]
+
+- The recipes for Acid Arrow have moved from [[Elahil]] (in [[Serbule]]) to [[The Wombat]] (in [[Sun Vale]])
+
+- [[Chicken]]s now have much higher chances of dropping feathers. (And they can still be skinned to get additional feathers)
+
+- Poisonous spiders (which, btw, are the only kinds that can drop feathers!) now have higher chances of dropping feathers
+
+- [[Elahil]] sells prepared fletching (at an exorbitant markup) in cases where you can't find feathers
+
+- Lowered ingredient requirements. Snare arrows require fewer spider webs, dense arrows require fewer antlers, etc.
+
+- High-level arrows now have lower chances of being retrieved in corpses (especially fancier arrows like heavy arrows and long arrows). Newbie arrows are unchanged
+
+- Please let me know if you see out-of-whack item prices! If a recipe is dramatically more or less lucrative than similar recipes, it's a bug.
+
+
+
+New Config Options:
+
+- New option in Config window (under "GUI and Windows") that lest you hide error messages that show up when you can't use an ability
+
+- Added a new screen in the Config window where you can type in special settings. I'm going to use this to add all the weird special things people keep asking for, so that I don't have to make GUI boxes and sliders for stuff that only one of two people even want. Right now you can put the following options in the settings box (on separate lines, or separated by spaces):
+
+  - DisableScreenFlash - this prevents the screen from flashing blue or red when you are attacked
+
+  - SuperScreenShotRes=3 - this makes the "Screen Shot: High-Res" keyboard command take pictures that are 3x bigger than normal (usually high res means 2x bigger.) Higher numbers than 3 are possible, but the higher it is, the bigger the chance for your graphics card to run out of memory and the game to crash. 4 is usually safe if your computer is beefy.
+
+  - NonCinematicColors - this is an experimental option that disables the HDR color filter. The net result is that the brights are dimmer and the darks are lighter, with a more washed-out look.
+
+
+
+Other Changes:
+
+- Did some optimization to Serbule town buildings. Hopefully this improves framerate a bit while in town, and may prevent crashing on some PCs
+
+- Note: the changes to [[Serbule]] caused every building, stone, wall, etc. to be moved slightly -- just a few feet in one direction or another. If you see weird stuff (like walls cutting into houses, for example) please report it!
+
+- Added river and ocean sounds to [[Sun Vale]]
+
+- Fixed the GUI interaction sound effects (conversion bug from Unity 5)
+
+- Added distant-land facade to Serbule. By default it is on for higher-level quality settings. There is a new advanced override to enable/disable it. This distant terrain is visible in some parts near the borders of Serbule, and is especially visible while flying. Note that if your view distance is low you won't see much of it, but if you crank the view distance way up, you'll no longer be on an island floating in space.
+
+- Mushrooms and fruits are now marked as ingredients for purposes of storage (e.g. in Laura Neths' storage area)
+
+- When you have GUI turned off, floating numbesr and FPS counter are now turned off as well
+
+
+==<b>June 21 Update:</b> ==
+The new test server is not behaving. So... no test server build today. Fuck it, we'll do it live! Expect a game update this evening at some point. (Possibly in the wee hours.)
+
+==June 21==
+A note for the test-server team: the test server should come up this afternoon with a new build to try out. I'll post here and on twitter when it's up!
+
+[[Category:Game updates]]

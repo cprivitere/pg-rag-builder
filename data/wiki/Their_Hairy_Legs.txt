@@ -1,0 +1,34 @@
+__NOTOC__
+==Summary==
+[[Marna]] wants me to collect a ton of spider legs for her medicinal recipes. In exchange, she'll teach me one of her secret recipes.
+
+==Prerequisite==
+*Read the note just inside the entrance of [[Serbule Crypt]].
+
+==Preface==
+{{Quote|
+So you've seen the spiders in the tomb, huh? Pretty scary, right?
+:'''Uh, sure, pretty scary.'''
+:Well, I'll sell you some antivemon, it will help. But the REALLY good way to protect yourself from spiders is an Alchemical secret. I can teach it to you... but you need to do something for me first. Go into the crypt and obtain a million spider legs. I need them for my work.
+::'''A million spider legs?'''
+::Yes. But don't worry, it won't take long. Spiders have lots of legs. Usually you can get several from their corpses.
+:::'''But a million!?'''
+:::It was hyperbole! I just need a vast quantity. Okay, let's say... 50.
+::::'''50 sounds tolerable.''' (Starts [[Their Hairy Legs]].}
+::::Great! Oh, and get some legs for yourself, too. The recipe I'm gonna teach you uses them as an ingredient.
+:::::'''Right, will do.'''
+}}
+
+==Requirements==
+*Collect {{Item|Spider Leg}}s x50
+*Talk to [[Marna]].
+
+==Rewards==
+{{Spoiler|Rewards for Their Hairy Legs|
+{{Quote|
+Hah! A million billion spider legs! Thanks! Here's the recipe I mentioned. This stuff takes the oomph out of spider bites and makes the weaker poisons basically harmless! It's amazing. Oh, and don't tell anybody the formula.
+
+... damn, I should have made you pinky swear to silence BEFORE I taught you the formula. Oh well.
+}}
+* {{Item|Poison Resistance Potion}} recipe}}
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Marna]]

@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Agrashab in the Fae Realm said, "I've tried indirect methods of dealing with the phoenix issue, but the threat grows ever hotter. My subjects have even given a name to the birds' stolen home: 'firebird mountain.' It is not a comforting name to fire-averse trolls. Please resolve this issue by removing the phoenices."
+
+===Prerequisites===
+To start this quest, talk to [[Agrashab/Fae Realm|Agrashab]] in the [[Fae Realm]].  The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|
+I've tried indirect methods of dealing with the phoenix issue, but the threat grows ever hotter. My subjects have even given a name to the birds' stolen home: 'firebird mountain.' It is not a comforting name to fire-averse trolls. Please resolve this issue by removing the phoenices.
+}}
+
+===Requirements===
+<!-- Add requirements here. Use {{Item}} template for items, and link mobs. -->
+* Kill 10 [[Phoenix]].
+* Talk to Agrashab.
+
+===Rewards===
+{{Spoiler|Rewards for Agrashab's Bounty: Phoenices|
+{{Quote|
+You did well, but the phoenices are already beginning to reappear! They must somehow be bound here, to my domain! That is entirely unacceptable! Hmm. Begone now, please. I am uncertain as to where to direct my wrath.
+}}
+* 10000 Councils
+* {{Item|Royal Jelly}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Agrashab/Fae Realm]][[Category:Quests/Fae Realm Quests]]

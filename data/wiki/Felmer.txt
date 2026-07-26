@@ -1,0 +1,438 @@
+__NOTOC__
+{{NPC infobox
+|title            = Felmer
+|image            = [[File:Felmer.png|300px]]
+|caption          = Looking at some cloth
+|zone             = Fae Realm
+|town = Fel-Dasculan Ruins
+|location         = Northeast corner of the ruins.
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = All
+|skilltrainer     = [[Leatherworking]], [[Skinning]], [[Tailoring]], <br>[[Tanning]], [[Toolcrafting]]
+|vendor           = Yes
+}}
+{{Quote|
+What can I do for you today, my non-elf friend.
+}}
+[[Felmer]] is a fairy who likes to travel.
+== Location ==
+; [[Fae Realm]]
+: Fel-Dasculan Ruins
+== Shopkeeper ==
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+===Favor Rewards===
+[[Category:Favor/Rewards]]
+[[Felmer]] rewards his '''{{favor|Friends}}''' with access to additional Training.
+=== Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Watch Felmer make fae silk from mollusc slime (4h)|
+* Requires quest [[Precious Buckets of Slime]]
+* 40 [[favor]]
+* Recipe for {{Item|Fae Silk}}
+}}
+== Quests ==
+<dpl>
+category = Quests/Felmer
+notcategory = Quests/Fae Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+==== Fairy Quests ====
+[[Felmer]] offers quests only available to Fairy characters.
+<dpl>
+category = Quests/Felmer
+category = Quests/Fae Quests
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Training ==
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Skinning]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Skinning{{!}}Unlock Skinning Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}} x3 & 200000
+ | favor = Comfortable
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Tanning]]
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Tanning{{!}}Unlock Tanning Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}} x3 & 200000
+ | favor = Comfortable
+}}
+{{NPC training row
+ | recipe = Astounding Leather Roll
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 &15133
+ | favor = <= Close Friends
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Leatherworking]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Leatherworking{{!}}Unlock Leatherworking Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}} x3 & 200000
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Astounding Leather Boots (Enchanted)
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Leather Boots (Max-Enchanted)
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Leather Leggings (Enchanted)
+ | skilllevel = 82
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Leather Leggings (Max-Enchanted)
+ | skilllevel = 82
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Leather Gloves (Enchanted)
+ | skilllevel = 83
+ | cost = {{Item|Royal Jelly}} x1 & 18233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Leather Gloves (Max-Enchanted)
+ | skilllevel = 83
+ | cost = {{Item|Royal Jelly}} x1 & 18233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Leather Helmet (Enchanted)
+ | skilllevel = 83
+ | cost = {{Item|Royal Jelly}} x1 & 18233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Leather Helmet (Max-Enchanted)
+ | skilllevel = 83
+ | cost = {{Item|Royal Jelly}} x1 & 18233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Leather Shirt (Enchanted)
+ | skilllevel = 83
+ | cost = {{Item|Royal Jelly}} x1 & 18233
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Astounding Leather Shirt (Max-Enchanted)
+ | skilllevel = 83
+ | cost = {{Item|Royal Jelly}} x1 & 18233
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Astounding Winter Boots (Enchanted)
+ | skilllevel = 77
+ | cost = {{Item|Royal Jelly}} x1 & 15033
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Astounding Winter Boots (Max-Enchanted)
+ | skilllevel = 77
+ | cost = {{Item|Royal Jelly}} x1 & 15033
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Astounding Winter Leggings (Enchanted)
+ | skilllevel = 78
+ | cost = {{Item|Royal Jelly}} x1 & 15066
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Astounding Winter Leggings (Max-Enchanted)
+ | skilllevel = 78
+ | cost = {{Item|Royal Jelly}} x1 & 15066
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Astounding Winter Gloves (Enchanted)
+ | skilllevel = 77
+ | cost = {{Item|Royal Jelly}} x1 & 15033
+ | favor = Close Friends
+}}
+{{NPC training row
+ | recipe = Astounding Winter Gloves (Max-Enchanted)
+ | skilllevel = 77
+ | cost = {{Item|Royal Jelly}} x1 & 15033
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Astounding Winter Hood (Enchanted)
+ | skilllevel = 79
+ | cost = {{Item|Royal Jelly}} x1 & 15100
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Astounding Winter Hood (Max-Enchanted)
+ | skilllevel = 79
+ | cost = {{Item|Royal Jelly}} x1 & 15100
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Astounding Winter Coat (Enchanted)
+ | skilllevel = 79
+ | cost = {{Item|Royal Jelly}} x1 & 15100
+ | favor = Like Family
+}}
+{{NPC training row
+ | recipe = Astounding Winter Coat (Max-Enchanted)
+ | skilllevel = 79
+ | cost = {{Item|Royal Jelly}} x1 & 15100
+ | favor = Like Family
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Tailoring]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Tailoring{{!}}Unlock Tailoring Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}} x3 & 200000
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Slippers
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Slippers (Max-Enchanted)
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Pants
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Pants (Max-Enchanted)
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Shirt (Enchanted)
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Shirt (Max-Enchanted)
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Gloves (Enchanted)
+ | skilllevel = 83
+ | cost = {{Item|Royal Jelly}} x1 & 18233
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Gloves (Max-Enchanted)
+ | skilllevel = 83
+ | cost = {{Item|Royal Jelly}} x1 & 18300
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Cowl (Enchanted)
+ | skilllevel = 81
+ | cost = {{Item|Royal Jelly}} x1 & 18266
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Cloth Cowl (Max-Enchanted)
+ | skilllevel = 81
+ | cost = {{Item|Royal Jelly}} x1 & 18300
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Saddlery]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Saddlery{{!}}Unlock Saddlery Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}} x3 & 200000
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Reins
+ | skilllevel = 81
+ | cost = 18,166
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Saddlebag
+ | skilllevel = 884
+ | cost = 18,266
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Saddle
+ | skilllevel = 83
+ | cost = 18,233
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Toolcrafting]]
+! Unlock
+! Level
+! Cost
+! Favor
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Toolcrafting{{!}}Unlock Toolcrafting Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}} x3 & 200000
+ | favor = CLose Friends
+}}
+{{NPC training row
+ | recipe = Astounding Spring Fairy Shoes
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Spring Fairy Shoes (Max-Enchanted)
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Spring Fairy Leggings
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Spring Fairy Leggings (Max-Enchanted)
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Spring Fairy Top
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+{{NPC training row
+ | recipe = Astounding Spring Fairy Top (Max-Enchanted)
+ | skilllevel = 80
+ | cost = {{Item|Royal Jelly}} x1 & 15133
+ | favor = ?
+}}
+|}
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Weather Witching]]
+{{NPC training unlock row
+ | Icon = Unlock
+ | item = Weather Witching{{!}}Unlock Weather Witching Skill Levels 71-80
+ | skilllevel = 70
+ | cost = {{Item|Royal Jelly}} x3 & 400000
+ | favor = Friends
+}}
+{{NPC training row
+ | recipe = Weather Witching Research Level 75
+ | skilllevel = 75
+ | cost = 13,300
+ | favor = Best Friends
+}}
+{{NPC training row
+ | recipe = Weather Witching Research Level 80
+ | skilllevel = 80
+ | cost = 15,133
+ | favor = Like Family
+}}
+|}
+==== Interpretive Dance Variant ====
+[[Felmer]] is the teacher for [[Interpretive Dance|Dance 1 (variant B)]]. At least three musicians must be playing instruments near [[Felmer]] to convince them to demonstrate their dance.
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends ={{Item|Felmer's Famous Fingerfangles}} (Lv 75)
+|RiShin Family = {{Item|Felmer's Famous Fingerfangles}} (Lv 75)
+}}
+== Conversations ==
+=== Talk ===
+{{Spoiler|Greeting|
+{{Quote|What can I do for you today, my non-elf friend?}}
+}}
+{{Spoiler|Favor Levels|
+{{Favor|Comfortable}}
+{{Quote|Thanks for everything. Some of the other fairies here can be weirdly judgemental. I guess they're just worked up about the torture stuff! But anyway, I'm glad you weren't put off by whatever gossip they spread about me.}}
+}}
+{{Favor|Best Friends|
+{{Quote|Thank you for all your hard work. You're my very best mortal-but-non-elven friend!}}}}
+=== Small Talk ===
+{{Spoiler|Variation 1|
+{{Quote|Oh, no, I didn't choose this realm as my hiding place JUST to see elves again. The trolls of U39 are known for their excellent fae mollusc silk. I've already collected quite a bit of it, and it truly is excellent material.}}
+}}
+{{Spoiler|Variation 2|
+{{Quote|I don't like the term 'mortal-tourist'. It makes me sound like some kind of cad who takes advantage of mortals. And I try to be better than that!
+
+And anyway, I'm not a tourist right now, am I? I'm practically a refugee here! Look: I'm making my own clothes. Does that sound posh to you? No. So just lay off!}}
+}}
+{{Spoiler|Variation 3|
+{{Quote|I had such fun back when I last visited the mortal world that I just had to come back again. I'm hoping to get a chance to visit the elves! I just have to wait for all the fairy fighting to die down a bit.}}
+}}
+{{Spoiler|Variation 4|
+{{Quote|We use the silk of the fae mollusc to create fae silk. Not fae felt, that's a different thing entirely! Of course, I love fae felt too... in fact I've never fae-felt better! Hah! ... That's a fairy joke. Because of the other meaning of the word? ... Nevermind.}}
+}}
+
+[[Category:NPCs]]

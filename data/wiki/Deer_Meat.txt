@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Sanja in the Kur Mountains asked you to bring her some raw venison.
+
+===Prerequisites===
+To start this quest, talk to '''[[Sanja]]''' in '''[[Kur Mountains]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I hunger. I should go kill deer... but I need to stay here for a bit longer. Can you bring me a few carcasses?}}
+
+===Requirements===
+* Obtain {{Item|Venison}} x3
+* Talk to Sanja
+
+===Rewards===
+{{Spoiler|Rewards for Deer Meat|
+{{Quote|Thank you. Do you use potions? I don't, but Jace brought a supply for me anyway. Here, take this.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Steroid Drink}}
+}}
+[[Category:Quests]][[Category:Quests/Kur Mountains Quests]][[Category:Quests/Sanja]]

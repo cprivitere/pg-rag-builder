@@ -1,0 +1,195 @@
+==<b>Update Notes: May 9, 2017</b>==
+
+
+===<b>Graphics:</b>===
+
+Serbule has had a great deal of its art overhauled and improved. As a side-effect, some items and NPCs are in slightly different places. But everything should still exist. (Please report it if it doesn't!)
+
+There are also many code optimizations that should help with performance. These should help everywhere - not just Serbule - but you are more likely to run into problems in Serbule. 
+
+<B>THERE ARE SEVERAL GRAPHICS PROBLEMS YOU SHOULD KNOW ABOUT:</b>
+
+: 1: If your game crashes after the update (or takes 3+ minutes to load the area, which is a kind of crash), try this work-around FIRST:
+
+:: Open the Options menu. This is gear-shaped icon towards the bottom of the right-hand sidebar.
+:: Hit the button for Graphics, then the Advanced Overrides button at the bottom of that panel.
+:: Click the Override checkbox next to "Water Quality" and move the slider to 2.
+:: The higher values of Water Quality -- quality levels 3 and 4 -- can cause crashes on some video drivers, and this is the current workaround. (You are basically disabling reflections in the water.)
+
+
+:: If the game crashes immediately after you log in, leaving you unable to change the configuration settings before it crashes, USE A DIFFERENT CHARACTER, OR start the game in Safe Mode from the launcher. 
+
+:: It can also be helpful to reboot after a crash, because video drivers are crap.
+
+:: If your game continues to crash after you try this work-around, please follow the steps on the wiki for reporting a client crash: http://wiki.projectgorgon.com/wiki/H...a_Client_Crash
+
+
+: 2: If you are running on Fantastic and get a severe framerate hiccup every few seconds, you need to turn off "sky reflection probes" in the advanced options:
+
+:: Open the Options menu. This is gear-shaped icon towards the bottom of the right-hand sidebar.
+:: Hit the button for Graphics, then the Advanced Overrides button at the bottom of that panel.
+:: Click the Override checkbox next to "Sky Reflection Probles" and click the Enable button so that it is disabled.
+
+
+
+: 3: If the game is too dark at night, enable "Brighter World":
+
+:: Open the Options menu. This is gear-shaped icon towards the bottom of the right-hand sidebar.
+:: Hit the button for Graphics.
+:: Check the "Brighter World" checkbox. 
+
+
+
+: 4: Graphics have changed. For general performance problems, try turning off all your old overrides and set your graphics quality to at least Good. You can bump up the quality and test out the overrides from there. 
+
+:: (Also note that there are now several more intermediary levels of "Water Quality". If you had manually overridden your water quality to be at max value, you should change it, because the old max value is now just mediocre.)
+
+
+: BONUS 5: "Help, my character is stuck and I can't log in!" 
+
+:: Normally the best thing to do here is to log in with a DIFFERENT character (or make a new one -- the newbie island's graphics requirements are intentionally low), then lower your graphics and turn off all advanced overrides, and then try to log in again with your stuck character. But if nothing works and you really want to un-stick your character, you can use the special /unstickchar command. Log in with a different character, and type this into the chat box (no quotes): "/unstickchar OtherPerson", where OtherPerson is the name of your stuck character. That character will be teleported to the newbie island, 
+
+
+: 6 Having issues related to FPS? Your frame rate is highly tied to your resolution. To improve your FPS, you can try one or more of the following:
+
+:: Lowering the full-screen resolution within Project: Gorgon.
+:: Setting Project: Gorgon to 'Windowed Mode' and adjusting the window size manually.
+
+
+
+
+===Brewing:===
+
+This update introduces the new skill of [[Brewing]]!
+
+[[Brianna Willer]] teaches Brewing. She lives in a makeshift farm in [[Serbule Hills|South Serbule]]. (It's makeshift because South Serbule is going to get a graphical revamp soon, so her house is very temporary.) 
+
+HOWEVER, she hates strangers and won't talk to new people right off the bat. When you have reached Close Friends with [[Therese]] in Serbule, Therese will give you an introduction to Brianna. 
+
+(If you were already Close Friends or better with Therese, just speak with her to get your character flagged with the necessary permission to speak with Brianna.) 
+
+Brewing requires [[Gardening]] level 35. By that point, you will likely already have Therese's favor high enough to secure an introduction. (If you are already well above level 35 gardening and do not have Close Friends favor with Therese, we would like to know that as feedback.)
+
+Also note: Beer taps and wine creation are not yet implemented for Brewing.
+
+===Skill, Ability, Recipe Changes:===
+
+The druid altar now requires you to have at least one combat skill at level 50 to become a [[druid]]. This is to prevent new players from taking the sacred vow of druidism just for the convenient travel powers, then getting angry or frustrated at the requirements of druidism. There will be other means of travel in the game, including mounts, other types of flight, teleportation, and more. Druidism is not for everyone.
+
+- Druids can earn new bonus skill levels by reaching Deer level 21, Deer level 61, Staff level 47, and Shamanic Infusion level 25.
+
+- Bards can earn a bonus level by reaching Dance level 9.
+
+- Battle Chemists can earn a new bonus skill level by reaching Sigil Scripting 25.
+
+- Giant Bats can gain new bonus levels by reaching Necromancy 45 and Nature Appreciation 24.
+
+- Animal Handling can gain new bonus levels by reaching Anatomy 15, Anatomy 25, and Compassion 25.
+
+- A few abilities that could not really be learned yet (due to their high level) have been removed from trainers to prevent confusion.
+
+- Kelim in Amulna can raise your Gardening level cap to 70.
+
+- You now earn less Transmutation XP when distilling high-rarity items. (Instead of 500xp for distilling top-tier items, it now caps out at 250xp.)
+
+::Note: if you are trying to transmute something that is higher than level 50, it is likely to fail because the skill is still capped at 50. The skill's level cap will be fixed in the next snapshot.
+
+- Malvol in Hogan's Keep's Inner Sanctum trains Thrusting Blade 4 (level req 62).
+
+- Mox Warcut can now train two new First Aid abilities for treating alcohol poisoning
+
+- The training cost for food recipes has been lowered by about a third at high level. (For instance, a level 50 food recipe used to cost 4800 and now costs 3300.)
+
+- Laura Neth's recipe training costs now use the usual price scale instead of all costing 5000. Also, she has two new vegan meal recipes.
+
+- George Madler trains the recipes for advanced types of spider-silk textiles
+
+- Changed recipes for spider silk textiles to require fewer expensive ingredients
+
+- Fixed incorrect favor-requirements to learn meditation recipes from Ashk the Answerer. (All meditations previously required Like Family.)
+
+- The suspicious cow has a new utility recipe available.
+
+- Kohan and Ufkar in Rahu can train levels 51-70 of the various augmentation crafting skills. They each have skills they're good at, which are taught at the usual price. The ones they're bad at cost much more to train.
+
+- The old recipe for "Boring Fruit Cocktail" has changed and is lower-level. A new recipe, "Slightly Sub-Par Fruit Cocktail", takes its place as a level 15 food recipe.
+
+
+
+===Loot Profile Notes:===
+
+Loot-profile changes: "Nature" treasure profiles have been redone. This affects most herbivorous animals and some types of omnivores.
+
+The general idea is that a particular type of thing (for instance, pears or nutmeg or red aster seeds) will appear on monsters in a range of about 30 levels. Previously, some items could be found at all levels, and some could only be found on a few select monsters -- it was completely arbitrary. Hopefully this change makes hunting for specific items more rewarding, once you find the level range where the item now drops. 
+
+But changing loot profiles is an iterative process and some items may now be too rare or too common; if so, please report them. (But note that carnivore loot is only somewhat overhauled -- that's coming soon.)
+
+
+===Other Stuff:===
+
+For performance reasons, Gazluk Keep has been moved to a new internal area. If you were in Gazluk Keep prior to the update, you will log in and fall to your death. When you respawn, you should be in the dungeon under the Ilmari desert, quite far from Gazluk, so you will have to travel back to Gazluk Keep. (Hardcore players, do not be alarmed; your items do not break from deaths of this type.)
+
+
+Improved the game's texture manager to allow it to unload armor textures when they are no longer being used by anyone in the area. (Previously this only occurred when switching areas, and players with low-end machines who stayed in Serbule for too long could run out of memory and crash.)
+
+
+- Gear mods that caused Song of Bravery to boost basic attacks, core attacks, or armor refresh only worked on the bard, not allies.
+
+- Moo of Calm 5 had identical stats to Moo of Calm 4.
+
+- Some treasure mods for Song of Discord did not display on the ability's tooltip. (They still worked, they just did not display.)
+
+- Hired shopkeepers in Serbule's keep now show their location identifier, such as "A-4" or "C-12". This can be used by shop owners to advertise where their shop is.
+
+- The /zapresources emergency-fix-it command has been updated to handle casks of alcohol
+
+- Addiction to cranium powder, bounceweed, and pineal juice now recedes at a much faster rate. (Although it still takes real-time days for serious addiction to be broken.)
+
+- The in-game advancement notes for cheesemaking now indicate that at level 40 you gain the ability to age a third barrel of cheese. (This was undocumented before.)
+
+- You can no longer plant both 2x green pepper bushes and 2x red pepper bushes at the same time -- they share the same slot, so you can plant up to 2 total of either kind. (This will also be true of similar-typed vegetables in the future; for instance, scallions and onions will share the same slot. Those other vegetables just aren't in-game yet.)
+
+- Melandria in Gazluk Keep is now implemented with favors, hangouts, etc.
+
+- Gazluk special abilities required 5 pieces of armor from the suit, not 4 as specified.
+
+- Daniel Murderdark's skeleton now has the barter options he was supposed to have.
+
+- Removed spurious "You can't do that: the entity no longer exists" errors.
+
+- Triffids look like triffids again.
+
+- Most "town" enemies in the back parts of Rahu have reduced help-shout distance.
+
+- Hydration Punch has only a 25% chance to use up the manticore tail tip, instead of a 100% chance.
+
+- Improved the distribution of resource spawns in Serbule woods. In addition, there are new types of spawns for apples, grapes, and strawberries.
+
+- You can now see two rows of effect icons at the top of the screen instead of just one (allowing a total of 20 effect icons to be seen).
+
+- You no longer earn XP for dissecting (or otherwise mucking with) the corpses of dead pets.
+
+- Fixed an aggro bug that could cause elite and boss monsters to hate the wrong player, ignoring taunts and damage done.
+
+- Blankets could remove some aspects of hypothermia, but not all.
+
+- Blankets can no longer be used while you are in water.
+
+- Gazluk Trooper Shields look less wrong when equipped on your character.
+
+- Brain-bugs had a very eclectic assortment of droppable items. They are now more like other non-carnivorous animals. (For instance, they drop seeds and fruit and sometimes junk-items.)
+
+- Drums no longer use the lute icon.
+
+- Zoning and logging out no longer break ownership of your plants when gardening.
+
+- The elite snails in the depths of Gazluk Keep no longer cause boss-music to play.
+
+- Work orders should now correctly display what type of storage crate they require.
+
+
+
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

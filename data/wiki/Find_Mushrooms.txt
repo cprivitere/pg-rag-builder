@@ -1,0 +1,68 @@
+__NOTOC__
+==Summary==
+Bring 10 mushroom to Mushroom Jack.
+
+==Prerequisites==
+To start this quest, talk to [[Mushroom Jack]].  The quest is available at {{Favor|Neutral}} favor.
+
+==Preface==
+{{Quote|
+So you've picked a shroomy huh? Pretty great feeling wasn't it? Yanking the life right out of the ground?
+
+;Is... this a trick question?
+
+:Ha ha ha! Of course it is!
+
+;It's just a plant... no need for melodrama.
+
+:Just a plant?! Mushrooms are the offspring of a long-dead race! When the Myconians come back, they'll use those mushrooms to destroy... you don't believe me, do you.
+
+;:I'm listening. Tell me more.
+
+:I don't have anything to prove to you! When the Myconians return, you'll beg me to tell you my secrets!
+
+;:You're trying my patience.
+
+:I'm sorry. Look, I'll tell you more if you do me a favor.
+
+;Indeed! I've murdered mushrooms, and I'll murder again!
+
+:So you know about the Myconians, eh? Eh? Yes! A kindred spirit! Nobody else believes us! Just keep it between you and me. Say, do me a favor?
+
+;A favor? What do you need?
+
+Bring me 10 mushrooms and I'll tell you more. Maybe. If you aren't a Myconian spy!
+
+;Okay
+}}
+
+==Requirements==
+*Collect 10 {{ItemCategory|Mushroom}} (of any kind) {{Hint|Often, there are mushrooms right around his shack. Otherwise, try in the Serbule Sewers, or far east Serbule, near where you arrived from Anagoge Island.}}
+*Give mushrooms to [[Mushroom Jack]].
+
+==Rewards==
+{{Spoiler|
+{{Quote|
+Nice! Nice! Okay, you're obviously not a spy. You wanna buy somethin'?
+
+;Wait, that's it? What about the plot?
+
+Myconians are an ancient race of fungal people that some say still walk the land. They seek justice against those who eat their delicious offspring. In other words, they hunt people like me. And now that you've murdered so many of their kin, they'll be seeking you, too!
+
+;That was low, abducting me into your cause!
+
+Abduct you? I didn't do crap to you! You'd better learn real quick that sometimes following the instructions of strange me in shacks can have unexpected repercussions. But it's too late now, the Myconians will hunt you for the rest of your life!
+
+;You're completely crazy, aren't you?
+
+That's what some people say. So maybe I am. In that case, you got nothin' to worry about. You can just take advantage of my great fungi supplies at rock-bottom prices.
+
+;Okay. Show me what you have for sale.
+}}
+
+==Rewards==
+* 50 [[Mycology]] XP
+* Access to his shop
+}}
+
+[[Category:Quests]][[Category:Quests/Serbule Quests]][[Category:Quests/Mushroom Jack]]

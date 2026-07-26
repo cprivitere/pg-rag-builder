@@ -1,0 +1,23 @@
+__NOTOC__
+==Summary==
+Percussa in Rahu said, "Do you like my clothes? A wandering elven bard taught me how to make them! They're much stronger than they look, too. One of the secrets is spider silk, a cloth that's made from spiderwebs. I buy it from Shirogin, but he's been out of stock for months. If you find some spider silk, I'd love to buy it from you."
+
+===Prerequisites===
+To start this quest, talk to '''[[Percussa]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|Do you like my clothes? A wandering elven bard taught me how to make them! They're much stronger than they look, too. One of the secrets is spider silk, a cloth that's made from spiderwebs. I buy it from Shirogin, but he's been out of stock for months. If you find some spider silk, I'd love to buy it from you.}}
+
+===Requirements===
+* Obtain {{Item|Spider Silk}} x4
+* Talk to Percussa
+
+===Rewards===
+{{Spoiler|Rewards for Spiderwebs for Beautiful Clothes|
+{{Quote|Oh thank you! This spider silk is enough to make a new pair of pants. Here's your money. And hey, take my old pair of pants, too. There's a hole in the crotch, but nobody will notice.}}
+
+* 150 {{Favor|favor}}
+* 500 councils 
+* {{Item|Quality Bard Leggings}}
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Percussa]]

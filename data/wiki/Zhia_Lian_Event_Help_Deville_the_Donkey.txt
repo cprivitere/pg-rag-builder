@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Brandon Mellus in the Red Wing Casino said, "[[Deville]] got turned into a donkey. And that pretty much ruined his life. He couldn't talk at all for a long time and his parents wouldn't believe me that he was still in there! They decided he was just a donkey and their real son was dead, so they held a funeral for him. He really has no home to go back to now. But he still doesn't want to stay a donkey!
+
+I've tried all kinds of schemes to cure Deville and Rick, but nothing worked. Deville eventually got fed up and left. A few months later, a talking bird stopped by to tell me Deville was living in Animal Town now. I've tried to figure out where that is, and my best guess is an island called "Sun Vale". See if you can find him!"
+
+This Quest can be repeated after 60 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Brandon Mellus]]''' in the '''[[Red Wing Casino]]'''.
+
+===Preface===
+Deville got turned into a donkey. And that pretty much ruined his life. He couldn't talk at all for a long time and his parents wouldn't believe me that he was still in there! They decided he was just a donkey and their real son was dead, so they held a funeral for him. He really has no home to go back to now. But he still doesn't want to stay a donkey!
+
+I've tried all kinds of schemes to cure Deville and Rick, but nothing worked. Deville eventually got fed up and left. A few months later, a talking bird stopped by to tell me Deville was living in Animal Town now. I've tried to figure out where that is, and my best guess is an island called "Sun Vale". See if you can find him!
+
+===Requirements===
+* Help Deville in Sun Vale
+* Talk to Brandon Mellus
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Deville is transformed back?! That's amazing news! Thank you!
+
+I wonder what he's going to do now... I don't think he'll want to speak to his family again, not after how they acted... but I guess that's a problem for another day. We've still got a party to prepare for!}}
+* 4000 councils
+* {{Item|Event Loot Key (Universal)}} x4
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Brandon Mellus]][[Category:Quests/Halloween Quests]]

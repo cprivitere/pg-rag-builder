@@ -1,0 +1,48 @@
+__NOTOC__
+{{Skill infobox
+|title            = Ancillary-Armor Augmentation
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Knowledge of the techniques for creating Helm Augments and Shoes Augments. (Augments for other types of equipment are covered by other skills).
+|skilltype        = Trade Skill
+|maxlevel         = 90 <!-- List without bonus levels -->
+|req              = 25 Alchemy, 25 Tailoring
+|skilltrainers    = [[Gribburn]], [[Nightshade]]
+}}
+{{Quote|
+Leave a quote about the skill here. 
+}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Ancillary-Armor Augmentation''' is an [[Augmentation]] skill that focuses on Helm Augments and Shoe Augments.
+=== In-Game Description ===
+Knowledge of the techniques for creating Helm Augments and Shoes Augments. (Augments for other types of equipment are covered by other skills).
+=== Training {{msg:BASEPAGENAME}} ===
+* After speaking with [[Nightshade]] in [[Kur Mountains|Kur]] and completing a task for him, '''Ancillary-Armor-Augmentation''' can be learned from [[Gribburn]].<br>It requires 25 [[Alchemy]] and 25 [[Tailoring]] to learn.
+* [[Kohan]] or [[Ufkar]] will unlock levels 51-60, and 61-70.
+* Levels 71-80 and 81-90 are unlocked by [[Dunahain Broadarm]] deep beneath [[Povus]].
+* Levels 81-90 and 91-100 are available to unlock from [[Corinth]].
+
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* [[Alchemy]] - '''Ancillary-Armor Augmentation''' requires Level 25 Alchemy.
+* [[Tailoring]] - '''Ancillary-Armor Augmentation''' requires Level 25 Tailoring.
+* [[Jewelry Augmentation]] - Another type of [[Augmentation]].
+* [[Weapon Augmentation]] - Another type of [[Augmentation]].
+* [[Armor Augmentation]] - Another type of [[Augmentation]].
+<!--
+=====Related Skills:=====
+-->
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== How to Augment ===
+See the page on [[Augmentation]] for instructions on Using Augmentation.
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== Ancillary-Armor Augmentation Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Ancillary-Armor Augmentation|
+{{:Xptables/AugmentBrewingSkill}}
+}}
+== Trivia ==
+'''Ancillary-Armor Augmentation''' used to be part of a combined Augmentation skill, until a major overhaul of the system!
+[[Category:Skills]][[Category:Trade Skills]]

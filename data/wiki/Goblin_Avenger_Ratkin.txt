@@ -1,0 +1,31 @@
+__NOTOC__
+==Summary==
+Glortok in the Rahu Sewers said, "Blast it all, how can you have killed hundreds of the enemy, and yet the path home is still full of the creeps?!
+
+I bet that they're at their breaking point. Just go and kill another hundred of 'em. Doesn't matter what kind: living or dead, just kill ratkin!"
+
+This Quest can be repeated after 66 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Chief Glortok]]''' in the '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Goblin Avenger: Sewer Rats]] in order to undertake this quest.
+
+===Preface===
+Blast it all, how can you have killed hundreds of the enemy, and yet the path home is still full of the creeps?!
+
+I bet that they're at their breaking point. Just go and kill another hundred of 'em. Doesn't matter what kind: living or dead, just kill ratkin!
+
+===Requirements===
+* Kill Ratkin x100
+* Talk to Glortok
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You... killed a hundred ratkin?!
+
+Hey, Grommewik, is it safe to go home? ... There are HOW many ratkin in the hallway? ARGH! How can they breed this fast?!}}
+* {{Item|Xedrite}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Chief Glortok]]

@@ -1,0 +1,45 @@
+__NOTOC__
+''Previous quest: [[The Stolen Lens]] first quest of Chain A''
+
+==Summary==
+[[Truxartis]] sent me to [[Khyrulek's Crypt]] beneath [[Serbule]] to find a Tuvillic Rune and retrieve Khyrulek's Planar Planner. Completing this quest also unlocks Chain B.
+
+===Prerequisites===
+To start this quest, talk to '''[[Truxartis]]''' in '''[[Vidaria]]'''. The quest is available after completing [[The Stolen Lens]] and receiving the Vampirism skill from [[Truxartis]].
+
+===Preface===
+{{Quote|Listen carefully.
+
+Seek a lich named Khyrulek underneath a town called Serbule. The lich... isn't there. But there may be... guardians.
+
+This lich had a planar guide which I need. It will be hidden in a trove of Tuvillus artifacts.
+
+If I recall... you can find it in her sleeping quarters.
+
+Look for a rune of Tuvillus -- a red sigil. It will be... on the wall.
+
+Touch it to reveal the hoard. Bring me back Khyrulek's Planar Planner.}}
+
+===Requirements===
+* Touch Vampire Rune in [[Khyrulek's Crypt]] (beneath [[Serbule]])
+* Obtain {{Item|Khyrulek's Planar Planner}}
+* Talk to [[Truxartis]]
+
+===Rewards===
+{{Spoiler|Rewards for Khyrulek's Planar Planner|
+{{Quote|Yes! This is her precious book of...wait...it's in code. Can you read this?
+
+Nor can I. We have more work to do. Let me... think.}}
+
+* 50 {{Favor|favor}}
+* 10 Blood Oaths
+* Unlocks [[Deciphering the Planar Planner]] (Chain A continues)
+* Unlocks [[Reinvigorating the Mind]] (Chain B — can run in parallel with Chain A)
+}}
+
+===Notes===
+{{Spoiler|Notes|
+The Tuvillic Rune is in the lich's sleeping quarters area of [[Khyrulek's Crypt]], a red sigil on the wall. Touch it to reveal the hidden cache.
+}}
+
+[[Category:Quests]][[Category:Quests/Vidaria Quests]][[Category:Quests/Truxartis]]

@@ -1,0 +1,16 @@
+==Update Notes: March 30==
+This is a quick bug-fix patch to address some issues in the March 25 update:
+::- NPCs will no longer appear to be dancing even after they have stopped.
+::- The Redemptions window will no longer tell you about redemptions that you are not eligible for.
+::- Your mouse cursor will no longer sometimes stay locked and hidden after you change zones.
+::- The Quest Tracker will no longer refuse to remove certain quests after they are completed.
+::- The Trade window will no longer fail to disappear after a trade. 
+::- Sandstorms no longer use the new distance optimization, meaning they can once again be seen from more than 100m away.
+::- Fixed animation issues when interacting with things that have a usage delay (such as mining, meditation, and chopping lumber).
+::- Fixed bugs with head-look when looking at certain in-scene entities (such as wells, item workbenches, and inscription tables).
+::- Tweaked movement animations a bit.
+
+Lastly, a reminder: enable '''Experimental Optimizations''' in the Settings->Graphics window to turn on a '''significant new optimization!''' (Even if you had enabled Experimental Optimizations before, you will need to re-enable it, because you are "opted out" of new experiments.)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

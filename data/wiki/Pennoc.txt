@@ -1,0 +1,36 @@
+__NOTOC__
+{{NPC infobox
+|title            = Pennoc
+|image            = [[File:Pennoc.png|300px|]]
+|caption          = He looks bored.
+|zone             = Serbule
+|town = Serbule Keep
+|location = House near Hardcore sign.
+|anatomy = Elven
+|species = Elf
+|beastspeak       = Yes
+|beastlist =All
+}}
+{{Quote|source=[[Nelson Ballard]]|
+That fool elf Pennoc invited a traveling circus from [[Sinoca]] to come visit here. We're much too small for a circus to normally bother with, but he promised them an exceptionally friendly welcome, in Elven style, and he even promised free room and board for weeks. I would have had Pennoc thrown in the dungeon if we had a dungeon.
+}}
+[[Pennoc]] is an Elven merchant living in [[Serbule Keep]]. He is a rich trader who has been stuck in the town due to being waylaid on the road. Naturally, being rich and cooped up in the small town of [[Serbule]] has made him restless. As such, he is willing to offer a number of mundane quests to passing travelers to satiate his boredom. 
+
+==Location==
+; [[Serbule]]
+: Inside a building just south of the well in [[Serbule Keep]]. [[File:Pennoc_Location.jpg|400px|thumb|right|[[Pennoc]], inside his home located in [[Serbule Keep]]. [[Elahil]] can also be found in this house, or wandering just outside.]]
+
+==Entertain Me Quests ==
+Pennoc offers a large selection of seemingly random quests. You may only learn one of Pennoc's quests at a time. When you receive a quest from Pennoc, it is selected randomly, but you will not receive the same quest again if you have completed it in the last 12 hours.
+<dpl>
+category = Quests/Entertain Me
+mode = unordered
+columns = 3
+</dpl>
+
+==Possible Rewards==
+
+You may receive level 25 equipment, potions, and decoctions. 
+
+
+[[Category:NPCs]][[Category:NoRiShin]]

@@ -1,0 +1,49 @@
+==<b>July 1 Update</b>==
+==<b>Werewolf Content</b>==
+:The [[Altar of Norala]] now works! This is werewolf-only content that is only active during the full moon - and it's the full moon today! (And the next two days after.) The altar is located in the werewolf cave, right at the entrance. It will give you quests. If you complete the quests, you get tokens that you can use to buy different buffs. The buffs last until just before the next full moon. Some of the buffs enhance werewolf-specific abilities, but other buffs (like Max Health Increase) are generic and will work in whatever form you're in.
+:You can only do the quests (and buy the buffs) during the full moon. When the next full moon comes around, everything will have reset and you can do it again.
+:The idea here is to encourage werewolves to play together during the full moon and to "run in a pack" to get things done. For that reason, the quests are pretty grindy - if you were soloing them, that is. As a small group they should be more tolerable.
+:Werewolves, please test this out during the full moon and give feedback! We'll add different quests in the future, along with some other rewards you can buy, but first we want to make sure the basic idea is going to work okay.
+	
+==<b>Trade GUI</b>==
+If you select someone and examine them there is a "Trade" option which will bring up a trading screen. It should be pretty self-explanatory... if it isn't, please let me know. This has been tested internally for a while, but it's rather complicated and there may still be bugs or exploits... please report any that you find right away!
+
+==<b>Level 60 Skill Cap</b>==
+We're rolling out level-cap increases for each skill one by one. (The first combat skills to be raised will be the ones with fleshed-out treasure profiles.) It's not automatic, though: each skill has a trainer NPC that can raise the cap for you... if they like you enough.
+:- You can now unlock the ability to raise [[Sword]] skill to level 60. See the new NPC in Kur (in the building next to the inn)
+:- You can now unlock [[Endurance]] to 60. See [[Lamashu]] in the forests of Kur
+:- You can now unlock [[Unarmed]] to 60. The trainer is currently in a very inconvenient place, I'm afraid - it's [[Furlak]], the rakshasa in the [[Winter Nexus]]. (Note: the abilities that Furlak previously sold are now level 51 instead of level 50)
+:- You can now unlock [[Psychology]] to 60. The trainer is in [[Amulna]] (a tiny town in the new desert). You can't miss him since there's only two NPCs in town so far.
+
+==<b>[[Ilmari|Ilmari Desert]] Preview</b>==
+The new level 51-60 area, the [[Ilmari|Ilmari Desert]], is open. There's a portal in Kur near the mountains. Look for the sign near the huge ravine to point you in the right direction.
+:Consider this a "preview version" because I'm still actively building this area. The reason it's opened now is to get feedback on the group-monsters in the middle of the desert. (Look for the weird white prism things. The monsters there are very tough.) The goal is to for this be an old-fashioned EQ-style outdoor hunting spot, where three or four high-level players can get together, murder the crap out of tough monsters, and get good loot and XP. I need feedback: is the fight tough enough? Interesting enough? (They're pretty generic, as far as monsters go.) Is this type of encounter area something you'd like to see more of? Does it need something to make it work better? Etc.
+:If you don't have a large group, you might look for the two small outposts that are overrun with [[Rakshasa]] bandits. The bandit encounters are extremely untested, but hopefully they're fun and challenging.
+
+==<b>Seasonal Content</b>==
+Here's a little thing to help you celebrate the 4th of July: goblins have a small chance to drop a recipe book that lets you create fireworks. After this month the recipe won't drop anymore, but if you already have recipe it will remain usable permanently.
+
+==<b>[[Deer]] Changes</b>==
+Made some changes to deer form to make it a bit more entertaining to play and less annoying to level.
+Pet changes:
+:- Summon Deer now only allows you to summon a single deer, but the deer is much more powerful
+:- Summoned Deer now have very high taunt power built-in, so they can sometimes pull agro (especially with equipment that further boosts their taunt)
+:- Equipment that enhances summoned deer will now be more potent. (If you're wearing it now, take the equipment off and put it back on to update the effect.)
+:- Summon Deer 1 now requires you to be in deer form (just as Summon Deer 2 and 3 already did)
+;Bounding Escape:
+:- Bounding Escape now has a shorter reset time and shorter duration (10sec duration, 30sec reset)
+:- Although Bounding Escape previously had some (undocumented) jump-height boost, this is now further enhanced and allows in-air-steering control as well
+:- A new Bounding Escape 3 has been added at level 51 with extreme jumping power
+;Other:
+:- Made sure different deer abilities don't reuse the same icon
+:- You can gain synergy levels in Deer by leveling Foraging and/or Animal Handling to 25
+:- Added some more intermediate levels of Cuteness Overload and Deer Bash. This makes it a little smoother to level up the skill. The highest level versions are the same as before, this just adds more intermediate steps
+
+==<b>Bug fixes/misc changes:</b>==
+:- Fixed the winter werewolf appearance so it's not transparent
+:- Note: there are new gems that drop in the desert. These are gems for high-level skills that aren't yet implemented. The gems were added early so that their associated dye colors could be made. (You can learn those dye recipes from an NPC in the desert.) If you don't have interest in those dyes, I would recommend selling the gems, because they won't have any additional function for many months.
+:- Fixed the timer on a chest in [[Borghild]] dungeon
+:- The death-penalty timer now "forgets" about deaths much more quickly so that you don't wait as long after dying
+:- Orcish Gladiator Helm has become a leather helmet (that matches the rest of the orcish suit) instead of chain mail. Sorry if you were wearing one! Yours will magically change after you log in
+:- Note: several people sent bug reports about [[Laura Neth]] not accepting ingredients for storage, but it works fine here. It may have been a data synchronization problem, or I may be missing something. If you still have the problem please re-bug it and mention exactly what you're trying to store. Thanks!
+[[Category:Game updates]]

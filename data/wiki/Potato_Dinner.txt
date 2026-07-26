@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Jesina asked for a dozen potatoes.
+
+===Prerequisites===
+To start this quest, talk to '''[[Jesina]]''' in '''[[Eltibule]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|I've been so worried about my sister that I've barely grown enough food to keep us fed. Would you mind bringing me some potatoes? I'll give you a fair trade for them.}}
+
+===Requirements===
+* Obtain {{Item|Potato}}es x12
+* Talk to Jesina
+
+===Rewards===
+{{Spoiler|Rewards for Potato Dinner|
+{{Quote|Thank you so much! Let me repay you with knowledge of gardening. Oh, and if that isn't adequate, here, you can have this pair of uncomfortable gardening gloves, too.}}
+
+* 100 {{Favor|favor}}
+* {{Item|Spiked Gloves}}
+* 500 XP in [[Gardening]]
+Rewards for this quest will be generated with 20 level mods.
+}}
+[[Category:Quests]][[Category:Quests/Eltibule Quests]][[Category:Quests/Jesina]]

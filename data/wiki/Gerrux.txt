@@ -1,0 +1,125 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gerrux
+|image            = [[File:Gerrux (npc).png|300px]]
+|caption          = A shopkeeper
+|zone             = Povus 
+|town             = City of Povus
+|location         = Old Town, south of the Town Status Board
+|anatomy          = Rakshasa
+|species          = Rakshasa
+|beastspeak       = yes
+|vendor           = yes
+|consignment = yes
+|barter = yes
+}}
+{{Quote|source=[[Gerrux]]|
+Sorry, the shop isn't open today. See, I only trade in weapons. Not armor. Fuck armor!
+The smiths here mostly like to make armor, so until the town is busier, there's just not enough business.
+}}
+[[Gerrux]] is a weapons dealer in the city of Povus.
+
+<!-- Add other information about the NPC. Lore, relationships, ect. -->
+== Location ==
+; [[Povus]]
+: [[Gerrux]] can be found in Old Town, south of the Town Status Board, at any town level.
+
+== Shopkeeper ==
+[[Gerrux]] opens his weapons shop when the Povus Town Level is at least 7.
+{{Vendor_purchase_info}}
+
+== Favor ==
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+[[Category:Favor/Small Talk]]
+=== Favor Rewards ===
+[[Category:Favor/Rewards]]
+[[Gerrux]] rewards his friends with Weapons.
+{{Spoiler|Reward at {{Favor|Soul Mates}}:|
+:{{Item|Bedazzled Spatha}} (Level 75)
+}}
+
+<!-- === Hang Outs ===
+[[Category:Favor/Hang Outs]]
+{{Spoiler|Hike to a remote meditation pillar(8h)|
+{{Quote|
+Echur said, "The scenery was great, wasn't it? Even if the meditation was kind of a drag. Well, not every meditation session goes as planned, you know? But we just come back to it tomorrow and try it again."
+}}
+:65 favor with [[Echur]]
+:300 Meditation XP
+}} -->
+
+== Quests ==
+<dpl>
+category = Quests/Gerrux
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+
+== Services ==
+==== Consignment ====
+; Gerrux offers [[Consignment]] at {{Favor|Friends}}.
+: Mark-up fee of 10% and 75 Councils, stocking fee of 100 Councils.
+: Max 2 active consignments (Weapons, Augments).
+: Max 4 consignments per week.
+==== Bartering ==== 
+[[Gerrux]] only offers barters to individuals who have completed the quest [[Kimeta's Key (Quest)]].
+{| class="wikitable mw-collapsible mw-collapsed"
+!Give
+!Receive 
+|-
+| {{Item|Xogrite Chunk}} x2 || {{Item|Arthropod Genetics Analyzer}}
+|-
+| {{Item|Xogrite Chunk}} x4 || {{Item|Beginner's Arthropod Genetics Analyzer}}
+|-
+| {{Item|Xogrite Chunk}} x3 || {{Item|Ungulate Genetics Analyzer}}
+|-
+| {{Item|Xogrite Chunk}} x5 || {{Item|Beginner's Ungulate Genetics Analyzer}}
+|-
+| {{Item|Xogrite Chunk}} x10 || {{Item|Secrets of the Ungulates}}
+|}
+
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = {{Item|Bedazzled Dagger}} (Lv 80)
+|RiShin Family = {{Item|Bedazzled Dagger}} (Lv 85)
+}}
+== Conversations ==
+{{Quote|source=[[Gerrux]]|
+I knew the traitor personally! Tumak was mated to my sister Kimeta. She believed in him even unto death. Poor thing.
+
+I meant 'poor Kimeta,' not 'poor Tumak.' Fuck Tumak!}}
+{{Quote|source=[[Gerrux]]|
+Back before the poisoning, my sister ray an alchemy shop. Afterwards, [[Justin Fargold]] changed his art gallery into an alchemy shop! Humans are cruel in business.
+
+But ultimately it was humorous, because there's no town left to sell anything to. He can run whatever kind of shop he likes and it won't change that.}}
+{{Quote|source=[[Gerrux]]|
+Why do weapons have to be ugly, anyway? They don't! I fix up ugly weapons in my spare time. I don't even charge much extra for it.}}
+{{Quote|source=[[Gerrux]]|
+Kimeta was so angry after we -- after the town executed her mate. She refused to believe Tumak would betray us.
+
+At the time, I was only mostly sure he was guilty... but recently I've actually seen his fucking ghost wandering around lamenting his actions.
+
+Human laws say that repeated ghostly lamentations are admissions of guilt, and I have to agree!}}
+{{Quote|source=[[Gerrux]]|
+Justin Fargold was here yesterday and said that my artistic weapon improvements were 'gods-curslingly awful.' I think they're pretty, and it's my shop, so fuck Justin!
+
+...Though I have to admit, the bedazzling doesn't seem to help my weapons sell. Maybe I should be a bit more subtle with my art?}}
+{{Spoiler|Conversation after gifting a key.|
+{{Quote|source=[[Gerrux]]|
+:What is this? It's a slime key! Wait, where did you get this?
+;:A ghost gave it to me. She said she left 'everything' to her brother. And I think that's you.
+:You... she did? Well, the only thing of hers I still have is her stupid magic box. I hid it when they were hunting for her. But without the key, it's just a memento of my sister. It's been cursed so if anyone tries to open it without the key, everything inside shatters!
+:And this is the key. Except not really.
+;:Do you know where the real key is?
+:I do. Kimeta gave it to me just before she was killed, and told me to throw it into the river. Which I did. I didn't realize what I was throwing away at the time.
+:I used to think I was doing her a favor, but now I realize she was punishing me for siding with the others.
+;:So... the key is lost?
+:It is definitely lost. But some lost things are found again, right?
+:Hey, I've heard of a friendly ranalon trader who collects river treasures. Maybe if you found them, they'd know more.
+;:that's not much to go on, but I'll see what I can do. Bye.
+}}
+}}
+[[Category:NPCs]]

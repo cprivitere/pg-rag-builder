@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Chirrra in  the Serbule Hills Ranalon Den said, "Deep in the legling training area is the mage training section. Right now they're mostly doing stone-shaping, so look for the poorly-worked stones. You definitely want to take these mages out before they fully master their abilities!"
+
+===Prerequisites===
+To start this quest, talk to '''[[Chirrra]]''' in '''[[Ranalon Den]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This is a solo quest from Chirrra. You may have one solo quest from Chirrra at a time. You can take on a new solo quest 15 minutes after completing or canceling this quest.
+
+===Preface===
+{{Quote|Deep in the legling training area is the mage training section. Right now they're mostly doing stone-shaping, so look for the poorly-worked stones. You definitely want to take these mages out before they fully master their abilities!}}
+
+===Requirements===
+* Kill Legling Stone-Shapers
+
+===Rewards===
+{{Spoiler|Rewards for Ranalon Den: Kill Legling Stone-Shapers|
+{{Quote|You killed legling mages. At my request. I guess it's really sinking in how evil I've become. I... need a minute. Here, take this and let me think about what I've done.}}
+
+Rewards for this quest will be generated with level 20 mods.
+This quest will reward random loot. This may include items with level 20 mods.}}
+[[Category:Quests]][[Category:Quests/Ranalon Den Quests]][[Category:Quests/Chirrra]]

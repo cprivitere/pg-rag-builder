@@ -1,0 +1,182 @@
+<noinclude>[[Category:Abilities]]</noinclude><includeonly>
+==[[Unknown/Abilities|Unknown Complete Ability List]]==
+</includeonly><noinclude><!-- Updated to v401 on Fri Jan 12 2024 10:35:52 GMT-0700 (Mountain Standard Time) using FoxnEagle's auto-wiki-generator --></noinclude>
+{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style="width:100%;"
+! Icon !! Level !! Name !! style="width: 25%;" | Description !! style="width: 25%;" | Special !! style="width: 11%;" | Effects !! style="width: 11%;" | Stats !! style="width: 9%;" | Source
+|-
+| {{Ability icon|Become Wolf|2}} || 0 || Become Wolf || Become a wolf. (Use again to attempt to stop being a wolf.) ||  ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 3<br><b>Cooldown:</b> 10 || 
+|-
+| {{Ability icon|Become Winter Wolf|2}} || 0 || Become Winter Wolf || Become a wolf with a thick winter coat of fur. (Use again to attempt to stop being a wolf.) || +5 Indirect Cold Mitigation, -2 indirect Fire Mitigation ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Charm Rat|2}} || 0 || Charm Rat || Befriend a rat. The rat will fight for you as long as you remain in the rat's natural home zone. Requires a cheese. ||  ||  || <b>Power Cost:</b> 40<br><b>Range:</b> 10<br><b>Cooldown:</b> 60<br><b>Channel Time:</b> 3 || <b>Item:</b> [[Instructions for Rat Taming]]
+|-
+| {{Ability icon|Vile Recuperation|2}} || 0 || Vile Recuperation || Consume Nightmare Flesh to heal your wounds. || You recover 50 Health. ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Yalox]]
+|-
+| {{Ability icon|Vile Recuperation 2|2}} || 0 || Vile Recuperation 2 || Consume Nightmare Flesh to heal your wounds. || You recover 90 Health. ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Yalox]]
+|-
+| {{Ability icon|Vile Recuperation 3|2}} || 0 || Vile Recuperation 3 || Consume Nightmare Flesh to heal your wounds. || You recover 130 Health. ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 60 || <b>Training:</b> [[Yalox]]
+|-
+| {{Ability icon|Brain Scrub|2}} || 0 || Brain Scrub || Dispels up to three stacks of the Brain Fog debuff. ||  ||  || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Gift:</b> [[AntiBrainBugSpellBook]]
+|-
+| {{Ability icon|Shutdown Automaton|2}} || 0 || Shutdown Automaton || Constructs are stunned. (Has no effect on other types of targets.) ||  ||  || <b>Power Cost:</b> 10<br><b>Range:</b> 5<br><b>Cooldown:</b> 30 || <b>Item:</b> [[Automatons and Their Weaknesses]]
+|-
+| {{Ability icon|Familiar's Recall|2}} || 0 || Familiar's Recall || Sends you back to your master. You must be a long-term animal with a bonded master, and you must be wearing a Familiar Recall Collar. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 1800 || 
+|-
+| {{Ability icon|Horrifying Screech|2}} || 0 || Horrifying Screech || Screech in a manner that will startle and terrify lesser ratkin. (Trained soldiers will be unaffected.) || <b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 30<br><b>AoE:</b> 10<br><b>Cooldown:</b> 60<br><b>Accuracy:</b> +20% || <b>Training:</b> [[Bogaku]]
+|-
+| {{Ability icon|Spider Punt|2}} || 0 || Spider Punt || Kick spiders, scorpions, and other arthropods away from you. (You can only use this ability while under the influence of Spider Punt Potion.) || Arthropods are knocked backwards.<br><b>Can Be On Sidebar</b> || <b>Damage:</b> 50 Crushing || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 15 || 
+|-
+| {{Ability icon|Study Skeleton|2}} || 0 || Study Skeleton || Immobilize a skeletal creature so that you have time to study it. || Non-Elite skeletal creatures are mesmerized for 30 seconds.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 30<br><b>Cooldown:</b> 60 || <b>From Skill:</b> Paleontology
+|-
+| {{Ability icon|Disperse Skeleton|2}} || 0 || Disperse Skeleton || Flings skeletal creatures away from you and stuns them. (You can only use this ability while under the effects of Skeleton Dispersal Fluid.) || Skeletons are knocked backwards and stunned.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 30<br><b>AoE:</b> 5<br><b>Cooldown:</b> 15 || 
+|-
+| {{Ability icon|Collect Grizlark|2}} || 0 || Collect Grizlark || Scoop kuvou spit off of your face and put it in a jar. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 60<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || 
+|-
+| {{Ability icon|Dwarven Mettle|2}} || 0 || Dwarven Mettle || You follow the dwarven credo: when things go bad, remember to not die.<br><b>This is a Major Heal</b> || You recover 50% of your Max Armor, boosted by any effects that increase Major Healing amounts. This ability can only be used when you are wearing four or more pieces of Dwarven Plate Armor.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 35<br><b>Range:</b> 4<br><b>Cooldown:</b> 75 || 
+|-
+| {{Ability icon|Orcish Battle Cry|2}} || 0 || Orcish Battle Cry || You are unstoppable, and with a shout, you ignore your opponents' defensive techniques.<br><b>This is a Survival-Utility ability</b> || You gain 100% Stun Evasion and 100% Knockback Evasion for 10 seconds. This ability can only be used when you are wearing four or more pieces of Orcish Plate Armor.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 4<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Death Trooper's Battle Cry|2}} || 0 || Death Trooper's Battle Cry || You are undefeatable, and your shout reinforces this fact.<br><b>This is a Major Heal</b> || This ability can only be used when you are wearing four or more pieces of Gazluk Death Trooper Armor.<br><b>Restore:</b> 350 Health<br><b>Restore:</b> 350 Armor<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || <b>Item:</b> [[Gazluk: Death Trooper's Battle Cry]]
+|-
+| {{Ability icon|Misery Trooper's Battle Cry|2}} || 0 || Misery Trooper's Battle Cry || With a shout, you move like a whirlwind, dodging and strafing any projectiles.<br><b>This is a Survival-Utility ability</b> || You gain +50% Projectile Evasion for 20 seconds. This ability can only be used when you are wearing four or more pieces of Gazluk Misery Trooper Armor.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 25<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || <b>Item:</b> [[Gazluk: Misery Trooper's Battle Cry]]
+|-
+| {{Ability icon|Treachery Trooper's Battle Cry|2}} || 0 || Treachery Trooper's Battle Cry || You shout your fury at an opponent, shaking and bewildering them.<br><b>This is an Epic Attack</b> || This ability can only be used when you are wearing four or more pieces of Gazluk Treachery Trooper Armor.<br><b>Can Be On Sidebar</b> || <b>Health Dmg:</b> 500 Psychic<br><b>Dmg to Vulnerable:</b> 500 Psychic<br><b>Enemy Rage:</b> -1000 || <b>Power Cost:</b> 35<br><b>Range:</b> 10<br><b>Cooldown:</b> 90 || <b>Item:</b> [[Gazluk: Treachery Trooper's Battle Cry]]
+|-
+| {{Ability icon|Gazluk Officer's Battle Cry|2}} || 0 || Gazluk Officer's Battle Cry || You are unstoppable, and with a shout, you ignore your opponents' defensive techniques.<br><b>This is a Survival-Utility ability</b> || You gain 100% Stun Evasion and 100% Knockback Evasion for 10 seconds. This ability can only be used when you are wearing four or more pieces of Gazluk Officer Armor.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 4<br><b>Cooldown:</b> 80 || <b>Item:</b> [[Gazluk: Gazluk Officer's Battle Cry]]
+|-
+| {{Ability icon|War Wizard's Battle Cry|2}} || 0 || War Wizard's Battle Cry || You are a magical powerhouse. With a mere shout, you are ready to continue fighting.<br><b>This is a Survival-Utility ability</b> || This ability can only be used when you are wearing four or more pieces of Gazluk War-Wizard Armor.<br><b>Restore:</b> 300 Power<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 180 || <b>Item:</b> [[Gazluk: War Wizard's Battle Cry]]
+|-
+| {{Ability icon|Necromancer's Mutter|2}} || 0 || Necromancer's Mutter || You are a master of the secret arts. With a sinister word, you unravel an enemy's spirit.<br><b>This is an Epic Attack</b> || This ability can only be used when you are wearing four or more pieces of Mutterer Necromancer Armor.<br><b>Can Be On Sidebar</b> || <b>Damage:</b> 750 Darkness || <b>Power Cost:</b> 35<br><b>Range:</b> 30<br><b>Cooldown:</b> 90 || <b>Item:</b> [[Gazluk: Necromancer's Mutter]]
+|-
+| {{Ability icon|Cabalist's Mutter|2}} || 0 || Cabalist's Mutter || Your powers are unfathomable and unknowable. With a mere whisper, you wipe yourself from an enemy's mind.<br><b>This is a Minor Heal</b> || You regain health, and your target decides not to attack you for 5-10 seconds (even if you attack it during that time). This ability can only be used when you are wearing four or more pieces of Mutterer Cabalist Armor.<br><b>Restore:</b> 135 Health (to yourself)<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 35<br><b>Range:</b> 30<br><b>Cooldown:</b> 150 || <b>Item:</b> [[Gazluk: Cabalist's Mutter]]
+|-
+| {{Ability icon|Cell Matrix Repair|2}} || 0 || Cell Matrix Repair || Activate microscopic automatons in your suit to repair physical damage. || For 15 seconds, regain health and armor every second. This ability can only be used when you are wearing four or more pieces of Fae Navy Armor.<br><b>Restore:</b> 15 Health/Sec<br><b>Restore:</b> 20 Armor Per Second<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 4<br><b>Cooldown:</b> 120 || <b>Gift:</b> [[TrainingStation1]]
+|-
+| {{Ability icon|Targeting Overlay|2}} || 0 || Targeting Overlay || Your suit helps guide your movements, increasing your precision in myriad tiny ways. || For 12 seconds gain +20 Accuracy, +10% Direct Damage for attacks that deal Darkness, Fire, or Electricity. This ability can only be used when you are wearing four or more pieces of Fae Navy Armor.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 4<br><b>Cooldown:</b> 45 || <b>Gift:</b> [[TrainingStation2]]
+|-
+| {{Ability icon|Breath Glyph|2}} || 0 || Breath Glyph || A glyph on James Eltibule's armor can fill your lungs with fresh air. || This ability can only be used when you are wearing three or more pieces of James Eltibule's Armor.<br><b>Restore:</b> 60 Power<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Visage of Kajich 1|2}} || 0 || Visage of Kajich 1 || You call upon the god of fear, Kajich, to spook your foe. This version is effective against very weak enemies. || If target succumbs to fear, it flees for 6 seconds. You must be wearing a Shoddy Kajich Medallion to use this ability.<br><b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 11<br><b>Range:</b> 10<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Visage of Kajich 2|2}} || 0 || Visage of Kajich 2 || You call upon the god of fear, Kajich, to spook your foe. This version is effective against weak enemies. || If target succumbs to fear, it flees for 6 seconds. You must be wearing a Rough Kajich Medallion to use this ability.<br><b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 10<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Visage of Kajich 3|2}} || 0 || Visage of Kajich 3 || You call upon the god of fear, Kajich, to spook your foe. This version is effective against mediocre enemies. || If target succumbs to fear, it flees for 7 seconds. You must be wearing a Crude Kajich Medallion to use this ability.<br><b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 20<br><b>Range:</b> 10<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Visage of Kajich 4|2}} || 0 || Visage of Kajich 4 || You call upon the god of fear, Kajich, to spook your foe. This version is effective against reasonably dangerous enemies. || If target succumbs to fear, it flees for 7 seconds. You must be wearing a Decent Kajich Medallion to use this ability.<br><b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 24<br><b>Range:</b> 10<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Visage of Kajich 5|2}} || 0 || Visage of Kajich 5 || You call upon the god of fear, Kajich, to spook your foe. This version is effective against dangerous enemies. || If target succumbs to fear, it flees for 8 seconds. You must be wearing a Nice Kajich Medallion to use this ability.<br><b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 10<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Visage of Kajich 6|2}} || 0 || Visage of Kajich 6 || You call upon the god of fear, Kajich, to spook your foe. This version is effective against very dangerous enemies. || If target succumbs to fear, it flees for 9 seconds. You must be wearing a Quality Kajich Medallion to use this ability.<br><b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 29<br><b>Range:</b> 10<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Visage of Kajich 7|2}} || 0 || Visage of Kajich 7 || You call upon the god of fear, Kajich, to spook your foe. This version is effective against dangerous and powerful enemies. || If target succumbs to fear, it flees for 10 seconds. You must be wearing a Great Kajich Medallion to use this ability.<br><b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 10<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Visage of Kajich 8|2}} || 0 || Visage of Kajich 8 || You call upon the god of fear, Kajich, to spook your foe. This version is effective against dangerous and very powerful enemies. || If target succumbs to fear, it flees for 10 seconds. You must be wearing an Amazing Kajich Medallion to use this ability.<br><b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 33<br><b>Range:</b> 10<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Visage of Kajich 9|2}} || 0 || Visage of Kajich 9 || You call upon the god of fear, Kajich, to spook your foe. This version is effective against dangerous and very powerful enemies. || If target succumbs to fear, it flees for 11 seconds. You must be wearing an Astounding Kajich Medallion to use this ability.<br><b>Can Be On Sidebar</b><br><b>Suppresses Monster Shout</b> ||  || <b>Power Cost:</b> 35<br><b>Range:</b> 10<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Ilth Hale's Kiss 1|2}} || 0 || Ilth Hale's Kiss 1 || You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.<br><b>This is a Major Heal</b> || After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Shoddy Ilth Hale Ring to use this ability.<br><b>Restore:</b> 40 Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 11<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || 
+|-
+| {{Ability icon|Ilth Hale's Kiss 2|2}} || 0 || Ilth Hale's Kiss 2 || You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.<br><b>This is a Major Heal</b> || After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Rough Ilth Hale Ring to use this ability.<br><b>Restore:</b> 70 Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 16<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || 
+|-
+| {{Ability icon|Ilth Hale's Kiss 3|2}} || 0 || Ilth Hale's Kiss 3 || You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.<br><b>This is a Major Heal</b> || After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Crude Ilth Hale Ring to use this ability.<br><b>Restore:</b> 90 Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 20<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || 
+|-
+| {{Ability icon|Ilth Hale's Kiss 4|2}} || 0 || Ilth Hale's Kiss 4 || You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.<br><b>This is a Major Heal</b> || After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Decent Ilth Hale Ring to use this ability.<br><b>Restore:</b> 110 Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 24<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || 
+|-
+| {{Ability icon|Ilth Hale's Kiss 5|2}} || 0 || Ilth Hale's Kiss 5 || You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.<br><b>This is a Major Heal</b> || After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Nice Ilth Hale Ring to use this ability.<br><b>Restore:</b> 130 Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 27<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || 
+|-
+| {{Ability icon|Ilth Hale's Kiss 6|2}} || 0 || Ilth Hale's Kiss 6 || You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.<br><b>This is a Major Heal</b> || After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Quality Ilth Hale Ring to use this ability.<br><b>Restore:</b> 150 Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 29<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || 
+|-
+| {{Ability icon|Ilth Hale's Kiss 7|2}} || 0 || Ilth Hale's Kiss 7 || You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.<br><b>This is a Major Heal</b> || After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing a Great Ilth Hale Ring to use this ability.<br><b>Restore:</b> 170 Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 31<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || 
+|-
+| {{Ability icon|Ilth Hale's Kiss 8|2}} || 0 || Ilth Hale's Kiss 8 || You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.<br><b>This is a Major Heal</b> || After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing an Amazing Ilth Hale Ring to use this ability.<br><b>Restore:</b> 190 Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 33<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || 
+|-
+| {{Ability icon|Ilth Hale's Kiss 9|2}} || 0 || Ilth Hale's Kiss 9 || You call upon the god of sorrow, Ilth Hale, to help you endure more suffering.<br><b>This is a Major Heal</b> || After using this ability, you take 15% more damage from all attacks for 10 seconds. You must be wearing an Astounding Ilth Hale Ring to use this ability.<br><b>Restore:</b> 210 Health<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 35<br><b>Range:</b> 4<br><b>Cooldown:</b> 90 || 
+|-
+| {{Ability icon|Guide Beacon - Red|2}} || 0 || Guide Beacon - Red || Create a pillar of particles that lasts for 30 seconds. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Gift:</b> [[ModeratorToolbox]]
+|-
+| {{Ability icon|Guide Beacon - Green|2}} || 0 || Guide Beacon - Green || Create a pillar of particles that lasts for 30 seconds. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Gift:</b> [[ModeratorToolbox]]
+|-
+| {{Ability icon|Guide Beacon - Yellow|2}} || 0 || Guide Beacon - Yellow || Create a pillar of particles that lasts for 30 seconds. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Gift:</b> [[ModeratorToolbox]]
+|-
+| {{Ability icon|Guide Beacon - Rainbow|2}} || 0 || Guide Beacon - Rainbow || Create a pillar of particles that lasts for 30 seconds. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Gift:</b> [[ModeratorToolbox]]
+|-
+| {{Ability icon|Guide Beacon - Flowers|2}} || 0 || Guide Beacon - Flowers || Create a pillar of particles that lasts for 30 seconds. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 30 || <b>Gift:</b> [[ModeratorToolbox]]
+|-
+| {{Ability icon|Test Zap B|2}} || 0 || Test Zap B || Test Zap! || <b>Restore:</b> 0 Power<br><b>Can Be On Sidebar</b> || <b>Damage:</b> 6 Cold || <b>Power Cost:</b> 9<br><b>Range:</b> 30<br><b>Cooldown:</b> 2 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Analyze Arthropod Genes|2}} || 0 || Analyze Arthropod Genes || Use a genetics analyzer on a live arthropod to examine their genetic code. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 100<br><b>Range:</b> 20<br><b>Cooldown:</b> 30<br><b>Channel Time:</b> 5 || <b>From Skill:</b> Genetics_Arthropods
+|-
+| {{Ability icon|Spontaneous Warmthball|2}} || 0 || Spontaneous Warmthball || Throw a vaguely painful ball of warmth. You do not need to be wielding an implement to cast this spell, or even have Fire Magic active. This spell goes on your Miscellaneous ability bar. ||  || <b>Damage:</b> 8 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 3<br><b>Range:</b> 30<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Spontaneous Fireball|2}} || 0 || Spontaneous Fireball || Throw a ball of fire. You do not need to be wielding an implement to cast this spell, or even have Fire Magic active. This spell goes on your Miscellaneous ability bar. ||  || <b>Damage:</b> 14 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 3<br><b>Range:</b> 30<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Spontaneous Fireball 2|2}} || 0 || Spontaneous Fireball 2 || Throw an intensely painful ball of fire. You do not need to be wielding an implement to cast this spell, or even have Fire Magic active. This spell goes on your Miscellaneous ability bar. ||  || <b>Damage:</b> 23 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 3<br><b>Range:</b> 30<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Spontaneous Fireball 3|2}} || 0 || Spontaneous Fireball 3 || Throw a potently damaging ball of fire. You do not need to be wielding an implement to cast this spell, or even have Fire Magic active. This spell goes on your Miscellaneous ability bar. ||  || <b>Damage:</b> 33 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 3<br><b>Range:</b> 30<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Spontaneous Fireball 4|2}} || 0 || Spontaneous Fireball 4 || Throw a grievously harmful ball of fire. You do not need to be wielding an implement to cast this spell, or even have Fire Magic active. This spell goes on your Miscellaneous ability bar. ||  || <b>Damage:</b> 60 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 3<br><b>Range:</b> 30<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Spontaneous Fireball 5|2}} || 0 || Spontaneous Fireball 5 || Throw a grievously harmful ball of fire. You do not need to be wielding an implement to cast this spell, or even have Fire Magic active. This spell goes on your Miscellaneous ability bar. ||  || <b>Damage:</b> 80 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 3<br><b>Range:</b> 30<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Spontaneous Fireball 6|2}} || 0 || Spontaneous Fireball 6 || Throw a grievously harmful ball of fire. You do not need to be wielding an implement to cast this spell, or even have Fire Magic active. This spell goes on your Miscellaneous ability bar. ||  || <b>Damage:</b> 101 Fire<br><b>Enrages:</b> 200% || <b>Power Cost:</b> 3<br><b>Range:</b> 30<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Echolocation|2}} || 0 || Echolocation || Use your horrible squeaks and giant ears to interpret your environment. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>From Skill:</b> GiantBat
+|-
+| {{Ability icon|Combat Echolocation|2}} || 0 || Combat Echolocation || Use your horrible squeaks and giant ears to interpret your environment and evade enemies, but at slight cost to your movement speed. || You evade 7% of all attacks. Your movement speed is -1.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Bat: Combat Echolocation]]<br><b>Training:</b> [[Happy-Go-Lucky Bat]]
+|-
+| {{Ability icon|Raven Form|2}} || 0 || Raven Form || Become a raven. This is a travel form that can only be used outdoors. || Automatically dispelled when indoors.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 3 || <b>From Skill:</b> Druid
+|-
+| {{Ability icon|Deer Form|2}} || 0 || Deer Form || Become a deer. || <b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 30<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 3 || <b>From Skill:</b> Druid
+|-
+| {{Ability icon|Owl Form|2}} || 0 || Owl Form || Become an owl. This is a travel form that can only be used outdoors. || Owl has nightvision. Automatically dispelled when indoors.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 3 || <b>Training:</b> [[Strange Altar]]
+|-
+| {{Ability icon|Snow Raven Form|2}} || 0 || Snow Raven Form || Become a snow raven. This is a travel form that can only be used outdoors. || Snow raven has +4 indirect cold mitigation and -2 indirect fire mitigation. Automatically dispelled when indoors.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 3 || <b>Training:</b> [[Strange Altar]]
+|-
+| {{Ability icon|Mallard Form|2}} || 0 || Mallard Form || Become a duck. This is a travel form that can only be used outdoors. || Mallard has enhanced swim speed. Automatically dispelled when indoors.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 3 || <b>Training:</b> [[Strange Altar]]
+|-
+| {{Ability icon|Eagle Form|2}} || 0 || Eagle Form || Become an eagle. This is a travel form that can only be used outdoors. || Eagle flies faster than a raven. Automatically dispelled when indoors.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 50<br><b>Range:</b> 5<br><b>Cooldown:</b> 10<br><b>Channel Time:</b> 3 || <b>Gift:</b> [[NPC_Rixie]]
+|-
+| {{Ability icon|Become Dark Wolf|2}} || 0 || Become Dark Wolf || Become a wolf attuned to darkness -- both the absence of light and the force of undeath. (Use again to attempt to stop being a wolf.) || Darkvision, +5 Darkness Mitigation, -2 Nature Mitigation ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 10 || <b>Gift:</b> [[Altar of Norala]]
+|-
+| {{Ability icon|Vendor Fox in a Box|2}} || 0 || Vendor Fox in a Box || It's a fox. In a box. Summon him up to sell your stocks! A familiar fox created by a powerful wizard and trained in the ways of industry then magically stuffed in a pocket-sized box. The fox will slowly bond to you over time and use allowing better service. Your vendor fox can only be summoned once every 2 hours of in-game time. You must have a wooden box in your inventory to use this ability. (Storage crates work well. The item will not be consumed) || Summons a Vendor Fox for 5 minutes.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 7200 || <b>Item:</b> [[Event: Vendor Fox in a Box]]
+|-
+| {{Ability icon|Small Box of Space|2}} || 0 || Small Box of Space || A small, reusable, pocket-sized box that encases a tiny pocket dimension. This storage is not tied to conventional crafted storage crates (Each player that accesses the box can store their own items). This box can only be deployed once every 90 minutes of in-game time. || Deploys a 20 slot storage box for 5 minutes.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 5400 || <b>Item:</b> [[Event: Small Box of Space]]
+|-
+| {{Ability icon|Summon a Death on a Leash|2}} || 0 || Summon a Death on a Leash || Summon a Death on a Leash cosmetic pet || Summons a pet Face of Death.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Cosmetic Pet: Summon Death on a Leash]]
+|-
+| {{Ability icon|Summon a Radish|2}} || 0 || Summon a Radish || Summon a Radish cosmetic pet || Summons a pet Radish.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Gift:</b> [[Snowleaf]]
+|-
+| {{Ability icon|Summon a Kraken Pet|2}} || 0 || Summon a Kraken Pet || Summon a Kraken cosmetic pet || Summons a pet Kraken.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Cosmetic Pet: Summon Kraken]]
+|-
+| {{Ability icon|Summon a Worghest|2}} || 0 || Summon a Worghest || Summon a Worghest cosmetic pet || Summons a pet Worghest.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Cosmetic Pet: Summon Worghest]]
+|-
+| {{Ability icon|Summon a Gargoyle|2}} || 0 || Summon a Gargoyle || Summon a Gargoyle cosmetic pet || Summons a pet Gargoyle.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Cosmetic Pet: Summon Gargoyle]]
+|-
+| {{Ability icon|Summon a Fae Dragon|2}} || 0 || Summon a Fae Dragon || Summon a Fae Dragon cosmetic pet || Summons a pet Fae Dragon.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Item:</b> [[Cosmetic Pet: Summon Fae Dragon]]
+|-
+| {{Ability icon|Summon a Winter Beet|2}} || 0 || Summon a Winter Beet || Summon a Winter Beet cosmetic pet || Summons a pet Winter Beet.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Gift:</b> [[Snowleaf]]
+|-
+| {{Ability icon|Fireworks Launcher|2}} || 0 || Fireworks Launcher || Launch a barrage of fireworks into the sky. || Launches 10 fireworks into the sky<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 4<br><b>Cooldown:</b> 60 || 
+|-
+| {{Ability icon|Summon a Chicken|2}} || 0 || Summon a Chicken || Summon a Chicken cosmetic pet that has a chance to lay an egg. || Summons a pet Chicken.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || 
+|-
+| {{Ability icon|Summon a Mini-Reindeer|2}} || 0 || Summon a Mini-Reindeer || Summon a miniature Reindeer cosmetic pet || Summons a pet Mini-Reindeer.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Gift:</b> [[Snowleaf]]
+|-
+| {{Ability icon|Summon a Snow Leaper|2}} || 0 || Summon a Snow Leaper || Summon a miniature Snow Leaper cosmetic pet || Summons a pet Snow Leaper.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || 
+|-
+| {{Ability icon|Summon a Brain Bug|2}} || 0 || Summon a Brain Bug || Summon a miniature Brain Bug cosmetic pet || Summons a pet Brain Bug.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Summon a Fire Sheep|2}} || 0 || Summon a Fire Sheep || Summon a miniature Fire Sheep cosmetic pet || Summons a pet Fire Sheep.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || 
+|-
+| {{Ability icon|Summon a Scapegoat|2}} || 0 || Summon a Scapegoat || Summon a miniature Scapegoat cosmetic pet || Summons a pet Scapegoat.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Summon a Pudding|2}} || 0 || Summon a Pudding || Summon a miniature Pudding cosmetic pet || Summons a pet Pudding.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Summon a Festive Maggot|2}} || 0 || Summon a Festive Maggot || Summon a festive-colored maggot cosmetic pet || Summons a pet Maggot.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Gift:</b> [[Snowleaf]]
+|-
+| {{Ability icon|Summon a Death Adder|2}} || 0 || Summon a Death Adder || Summon a green viper cosmetic pet || Summons a pet Viper.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Summon a Happy Carrot|2}} || 0 || Summon a Happy Carrot || Summon a sentient carrot cosmetic pet || Summons a pet Carrot.<br><b>Can Be On Sidebar</b> ||  || <b>Power Cost:</b> 0<br><b>Range:</b> 5<br><b>Cooldown:</b> 10 || <b>Unknown Source:</b> Not Found
+|-
+| {{Ability icon|Demonic Blast|2}} || 90 || Demonic Blast || Fire a beam of demonic energy from your gauntlets. || <b>Restore:</b> 0 Power<br><b>Can Be On Sidebar</b> || <b>Damage:</b> 379 Demonic || <b>Power Cost:</b> 38<br><b>Range:</b> 30<br><b>Cooldown:</b> 5 || <b>Unknown Source:</b> Not Found
+|}

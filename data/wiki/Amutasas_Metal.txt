@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+Amutasa in Rahu asked you to get Masterwork Metal Slabs for her.
+
+===Prerequisites===
+To start this quest, talk to '''[[Amutasa]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+===Preface===
+{{Quote|My tools are only as good as the materials they're made of. This metal is "good", but it's not great. I need masterwork metal! Do you know any miners who might have some?}}
+
+===Requirements===
+* Obtain {{Item|Masterwork Metal Slab}}s x6
+* Talk to Amutasa
+
+===Rewards===
+{{Spoiler|Rewards for Amutasa's Metal|
+{{Quote|With this metal I shall be able to finish the order of tack hammers for that fool Ufkar. Your aid is much appreciated.}}
+
+* 150 {{Favor|favor}}
+* 1000 councils 
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Amutasa]]

@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Wave of Darkness
+| description = Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. Does no damage to undead.
+| level = 24
+| power cost = 22
+| reuse time = 18
+| range = 10 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|WaveOfDarkness}}{{KWAB|Burst}}
+| damage = 46 Darkness
+}}
+|-
+|
+{{Ability infobox
+| name = Wave of Darkness 2
+| description = Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. Does no damage to undead.
+| level = 34
+| power cost = 27
+| reuse time = 18
+| range = 10 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|WaveOfDarkness}}{{KWAB|Burst}}
+| damage = 71 Darkness
+}}
+|-
+|
+{{Ability infobox
+| name = Wave of Darkness 3
+| description = Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. Does no damage to undead.
+| level = 44
+| power cost = 30
+| reuse time = 18
+| range = 10 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|WaveOfDarkness}}{{KWAB|Burst}}
+| damage = 111 Darkness
+}}
+|-
+|
+{{Ability infobox
+| name = Wave of Darkness 4
+| description = Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. Does no damage to undead.
+| level = 54
+| power cost = 34
+| reuse time = 18
+| range = 10 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|WaveOfDarkness}}{{KWAB|Burst}}
+| damage = 164 Darkness
+}}
+|-
+|
+{{Ability infobox
+| name = Wave of Darkness 5
+| description = Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. Does no damage to undead.
+| level = 64
+| power cost = 38
+| reuse time = 18
+| range = 10 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|WaveOfDarkness}}{{KWAB|Burst}}
+| damage = 216 Darkness
+}}
+|-
+|
+{{Ability infobox
+| name = Wave of Darkness 6
+| description = Open a pocket of darkness around each target within 10 meters, causing great pain and a need for revenge. Does no damage to undead.
+| level = 74
+| power cost = 42
+| reuse time = 18
+| range = 10 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|WaveOfDarkness}}{{KWAB|Burst}}
+| damage = 275 Darkness
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

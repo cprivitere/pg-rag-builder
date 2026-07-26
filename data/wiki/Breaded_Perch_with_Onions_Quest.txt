@@ -1,0 +1,24 @@
+__NOTOC__
+==Summary==
+Gershok the Ranalon in Serbule Hills asked for a meal of Breaded Perch with Onions.
+
+===Prerequisites===
+To start this quest, talk to '''[[Gershok]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|My people are not imaginative with their cooking. We pickle fish. That is what we do. But I yearn for more. I yearn for the delicacy known as Breaded Perch... With Onions. I crave it!}}
+
+===Requirements===
+* Obtain {{Item|Breaded Perch with Onions}}
+* Talk to Gershok
+
+===Rewards===
+{{Spoiler|Rewards for Breaded Perch with Onions|
+{{Quote|This... is far too oniony. The breading is nice, though. Why did they have to add onion?! It would have been perfect with some lemon instead. I am somewhat disappointed. But at least I have finally eaten this famous dish. Thank you.
+
+Here, do you want this? I found it on a goblin that got too close to the river.}}
+
+* 200 {{Favor|favor}}
+* {{Item|Cheap Goblin Chain Shirt}}
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Gershok]]

@@ -1,0 +1,19 @@
+== April 18 Update ==
+:This is a bug fix update. There is one new feature as well: logs for guild storage vaults.
+
+===Guild Vault Logs===
+:If you have permission to "configure" a guild vault, you can now also view logs of everything added/removed from that vault. Do this from the configuration station (looks like a table). You can view up to 10 days of logs.
+:'''IMPORTANT NOTE: in the future, guilds will have levels, and viewing vault logs will require higher than a level 1 guild. (And viewing 10 days' worth of vault logs will require higher than just viewing 3 days' worth.) But since guilds can't earn levels yet, all guilds have this functionality for now.'''
+
+===Bug Fixes:===
+:-Door to leave [[Borghild]] didn't work (bullshit Unity bug due to upgrade)
+:-Door to enter [[Eltibule Crypt]] didn't work (bullshit Unity bullshit)
+:- Winterprize crystals couldn't be targeted
+:Note: the new version of Unity is being a huge asshole about line-of-sight detection. There were undocumented changes to the engine which I will have to work around, but for now I've done my best to make winterprize crystals work via the old system. This involved fidgeting the position of each crystal until it seems to work. Theoretically they all work now, but if some still don't work, just let me know which specific ones. (Your character's coordinates are included in your bug reports, so stand as close to the bugged crystal as you can and just report that "the crystal near me can't be clicked" and I'll be able to find it.)
+:-Added a reminder on the vendor-stall screen that you can press SHIFT to buy multiple items at once
+:-The [[Hoplology]] recipe did not give XP
+:-The cost to send shop notes was based on how many notes you'd RECEIVED, instead of how many notes you'd SENT
+:-	
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

@@ -1,0 +1,71 @@
+'''This Blog Post was part of the Gorgon Website blog. It was posted by srand on Saturday, January 21, 2017.''' 
+: Previous Post: [[Dev Notes, January 16]]
+: Next Post: [[Dev Blog, Oct 18 2017: The New UI Is Coming!]]
+'''Additional Blog entries can be found on the [[Developers]] page or in [[:Category:Game Blogs]] '''
+
+: [Edit: Citan has usually done these blog posts, but today we have a different author: srand.]
+
+: We have a lot of new people trying out Project: Gorgon these days, getting involved with the game and the community, reporting bugs and giving us feedback.
+
+: That is amazing and wonderful! We love you, and we are very glad you are here.
+
+: But PG isn’t quite the sort of game you may be used to - and I’m not just talking about Rita and Blanche here. We are a weird little team building a weird little game in the best way we know how, but it’s ... did I say weird already? Let’s go with ‘different’... and that can lead to some confusion for new testers.
+
+: So, just to make sure we are all on the same page, I wanted to give you all some more context.
+
+
+: “Alpha”
+
+: First, let’s talk about alpha. PG is in an alpha stage of development because we are still very actively writing and re-writing the underlying game systems. Big, big changes!
+
+: But in some ways, PG is far ahead of a normal alpha game. Alpha for many MMOs involves ‘Friends & Family’ only. It can mean that the server is only up on weekends for organized stress tests. It usually means a lot of client and server crashes. It may involve character wipes on a regular basis.
+
+: PG, on the other hand, is open to the public. The server is up 24/7 and relatively stable. We do have client crashes, of course, but relatively few for an alpha. And we are definitely not wiping characters.
+
+: So are we just calling it alpha? Is it really a beta in disguise, just to make us look better? And honestly, that confusion is natural.
+
+: But we call this stage of development alpha for very specific reasons. Here’s how we see things:
+
+: Alpha: Major, major things can change. All your equipment may go Legacy and need to be replaced. Skills may be merged; skills may be split up into multiple parts; skills may even be abandoned if they aren’t any fun.
+
+: Content is patchy - too many dungeons in one place, not enough in another, and big spaces with not a lot to do yet. Some skills and quests are really just tech prototypes and don’t make a lot of sense yet.
+
+: And even though we ask you to report any bugs you see - and goodness knows there are enough of them! - we can’t fix them all right now. We concentrate on the bugs that are most pertinent to what we’re currently developing, and bugs that are especially disruptive or confusing.
+
+: Beta: The bones of the gameplay - things like combat, advancement , and favor - are in place and settled. We’re adding more content: more races, more dungeons, more NPCs, more curses, more skills (because PG will always have more skills). Existing content is also being fleshed out and fixed. Placeholder NPCs get personalities; dungeons get more levels, more bosses, and more puzzles.
+
+: We’re fixing bugs large and small, and adding polish left and right.
+
+: Release: Now the game has solid bones and a good layer of flesh, so to speak. Now it’s a matter of expanding on that, growing the world, and moving the storyline along.
+
+
+: We Need You!
+
+: But we’re not there yet - obviously! We’re still in alpha. And that means that a lot of really annoying bugs and polish problems aren’t being addressed yet. Worse, it means the broken mod on your sword isn’t getting fixed for weeks, and what are you supposed to do in the meantime? So should you even bother reporting bugs?
+
+: Yes. Yes, report the bugs. Yes, report *all* the bugs.
+
+: Even if we know about it, we can get valuable information from your report. (This is one of the reasons an in-game report is important - it has info about your character attached.)
+
+: Even more importantly, knowing how many people are being affected lets us prioritize the bugs and make the most of our development time. Prioritizing our development time is incredibly important right now - so any help you can give us with that is invaluable!
+
+: And please, report bugs through the in-game bug report form. Feedback and suggestions can go on the forums, especially if you’d like feedback on your feedback from other players. But it is very important to report the bugs in-game. That’s how we track them and make sure they get fixed.
+
+: You are our QA team. You test; you report; we fix - and if we say it’s fixed and it’s not, you should re-report it! We make mistakes and we rely on you to catch them.
+
+: And that is ultimately the deal we have with you: We keep the alpha server up, we don’t wipe your characters, and you tell us what’s wrong so we can eventually fix it.
+
+
+: A Personal Note
+
+: It’s pretty common knowledge that we are a minuscule team, but I think that doesn’t sink in sometimes. Silvonis and I do our respective things, and we have contractors helping with code, graphics, and music ... but ultimately right now, the bulk of the game system design and coding comes down to Citan.
+
+: When we launch to acclaim and success - and I have every confidence that we will - we will of course hire more people. But where we are now, we are a lean, mean, development machine. And if we weren’t - if we had started this project with a larger team - we would never have made it this far.
+
+: So keep that in mind, if you would. When you are frustrated with a bug, fuming over a bad design choice, pounding out angry feedback - we get it. We are so, so grateful that you are helping us make this game better. But we’re still just a tiny team, and it’s going to take some time.
+
+
+: TL;DR:
+
+: We’re in alpha, which means we’re working on the bones of the game. There are a lot of bugs that aren’t getting fixed yet - but we need to know about *all* the bugs so we can prioritize our development time.
+[[Category:Game Blogs]]

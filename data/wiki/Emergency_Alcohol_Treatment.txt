@@ -1,0 +1,12 @@
+__NOTOC__
+{{Ability infobox
+| name = Emergency Alcohol Treatment
+| description = Use an Astounding First Aid Kit (or better) to help someone suffering from severe alcohol poisoning. This treatment can only be used periodically, so is best saved for emergencies.
+| level = 70
+| power cost = 58
+| reuse time = 3600
+| range = 5 meters
+| skill = First Aid
+| special = Instantly reduce target's blood alcohol level by one tier. For 15 minutes, the target's liver metabolizes alcohol three times faster than normal.
+}}
+<noinclude>[[Category:Abilities]]</noinclude>

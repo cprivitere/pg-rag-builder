@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Lincha in Povus said, "I used to have a beautiful little table where I could leave my paintings to dry. Do you want to know a secret? It was actually a repurposed calligraphy table! I would buy a replacement in an instant, as long as I was confident it wasn't made by goblin slave-labor."
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Lincha]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+I used to have a beautiful little table where I could leave my paintings to dry. Do you want to know a secret? It was actually a repurposed calligraphy table! I would buy a replacement in an instant, as long as I was confident it wasn't made by goblin slave-labor.
+
+===Midway===
+I wish I had a great calligraphy bench...
+
+===Requirements===
+* Craft Great Callgraphy Bench
+* (Keep Great Calligraphy Bench)
+* Talk to Lincha
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|This will fit my needs perfectly! And it's locally crafted! Perfect!}}
+* {{Item|Xogrite Chunk}} x11
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Lincha]]

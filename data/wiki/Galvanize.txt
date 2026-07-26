@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Galvanize
+| description = Assist your allies by selflessly routing Power to them via the spirit realm.
+| level = 5
+| power cost = 50
+| reuse time = 45
+| range = 20 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Galvanize}}{{KWAB|SignatureSupport}}
+| special = Restores 50 Power to allies. Restores 0 Health to allies.
+}}
+|-
+|
+{{Ability infobox
+| name = Galvanize 2
+| description = Assist your allies by selflessly routing Power to them via the spirit realm.
+| level = 15
+| power cost = 75
+| reuse time = 45
+| range = 20 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Galvanize}}{{KWAB|SignatureSupport}}
+| special = Restores 75 Power to allies. Restores 0 Health to allies.
+}}
+|-
+|
+{{Ability infobox
+| name = Galvanize 3
+| description = Assist your allies by selflessly routing Power to them via the spirit realm.
+| level = 24
+| power cost = 100
+| reuse time = 45
+| range = 20 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Galvanize}}{{KWAB|SignatureSupport}}
+| special = Restores 100 Power to allies. Restores 0 Health to allies.
+}}
+|-
+|
+{{Ability infobox
+| name = Galvanize 4
+| description = Assist your allies by selflessly routing Power to them via the spirit realm.
+| level = 35
+| power cost = 125
+| reuse time = 45
+| range = 20 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Galvanize}}{{KWAB|SignatureSupport}}
+| special = Restores 125 Power to allies. Restores 0 Health to allies.
+}}
+|-
+|
+{{Ability infobox
+| name = Galvanize 5
+| description = Assist your allies by selflessly routing Power to them via the spirit realm.
+| level = 44
+| power cost = 152
+| reuse time = 45
+| range = 20 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Galvanize}}{{KWAB|SignatureSupport}}
+| special = Restores 152 Power to allies. Restores 0 Health to allies.
+}}
+|-
+|
+{{Ability infobox
+| name = Galvanize 6
+| description = Assist your allies by selflessly routing Power to them via the spirit realm.
+| level = 56
+| power cost = 178
+| reuse time = 45
+| range = 20 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Galvanize}}{{KWAB|SignatureSupport}}
+| special = Restores 178 Power to allies. Restores 0 Health to allies.
+}}
+|-
+|
+{{Ability infobox
+| name = Galvanize 7
+| description = Assist your allies by selflessly routing Power to them via the spirit realm.
+| level = 64
+| power cost = 204
+| reuse time = 45
+| range = 20 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Galvanize}}{{KWAB|SignatureSupport}}
+| special = Restores 204 Power to allies. Restores 0 Health to allies.
+}}
+|-
+|
+{{Ability infobox
+| name = Galvanize 8
+| description = Assist your allies by selflessly routing Power to them via the spirit realm.
+| level = 76
+| power cost = 229
+| reuse time = 45
+| range = 20 meters
+| skill = Spirit Fox
+| keywords = {{KWAB|Galvanize}}{{KWAB|SignatureSupport}}
+| special = Restores 229 Power to allies. Restores 0 Health to allies.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

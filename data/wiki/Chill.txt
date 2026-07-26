@@ -1,0 +1,82 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Chill
+| description = Lower an enemy's body temperature, causing mild trauma.
+| level = 1
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|IceMagic}}{{KWAB|Chill}}{{KWAB|Melee}}{{KWAB|Attack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|IceMagicSingleTarget}}
+| damage = 7 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Chill 2
+| description = Lower an enemy's body temperature, causing mild trauma.
+| level = 25
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|IceMagic}}{{KWAB|Chill}}{{KWAB|Melee}}{{KWAB|Attack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|IceMagicSingleTarget}}
+| damage = 22 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Chill 3
+| description = Lower an enemy's body temperature, causing mild trauma.
+| level = 45
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|IceMagic}}{{KWAB|Chill}}{{KWAB|Melee}}{{KWAB|Attack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|IceMagicSingleTarget}}
+| damage = 47 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Chill 4
+| description = Lower an enemy's body temperature, causing mild trauma.
+| level = 60
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|IceMagic}}{{KWAB|Chill}}{{KWAB|Melee}}{{KWAB|Attack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|IceMagicSingleTarget}}
+| damage = 79 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Chill 5
+| description = Lower an enemy's body temperature, causing mild trauma.
+| level = 70
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|IceMagic}}{{KWAB|Chill}}{{KWAB|Melee}}{{KWAB|Attack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|IceMagicSingleTarget}}
+| damage = 100 Trauma
+}}
+|-
+|
+{{Ability infobox
+| name = Chill 6
+| description = Lower an enemy's body temperature, causing mild trauma.
+| level = 80
+| power cost = 0
+| reuse time = 2
+| range = 10 meters
+| skill = Ice Magic
+| keywords = {{KWAB|IceMagic}}{{KWAB|Chill}}{{KWAB|Melee}}{{KWAB|Attack}}{{KWAB|BasicAttack}}{{KWAB|CombatRefresh}}{{KWAB|IceMagicSingleTarget}}
+| damage = 126 Trauma
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

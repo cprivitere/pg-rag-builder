@@ -1,0 +1,29 @@
+__NOTOC__
+==Summary==
+The Sand Seer in Amulna asked for some very particular, very amazing ink. She is attempting to reproduce the Rakshasas' Geometric Rune Charts with higher-quality materials.
+
+===Prerequisites===
+To start this quest, talk to '''[[The Sand Seer | Sand Seer]]''' in '''[[Ilmari Desert]]'''. The quest is available at {{Favor|Comfortable}} favor.
+
+You must have previously completed [[A Stencil to Make Runes]] in order to undertake this quest.
+
+===Preface===
+{{Quote|I may have figured out what the rune charts are for, but I need to make one more -- a really powerful one. Hmm... I have some very high-quality paper, but I really need some amazing ink. Holistic ink would do well here, I think. Yes. Do you have any amazing holistic ink in that huge backpack of yours?}}
+
+===Requirements===
+* Obtain {{Item|Amazing Holistic Ink}}
+* Talk to Sand Seer
+
+===Rewards===
+{{Spoiler|Rewards for The Ink For Something Amazing|
+{{Quote|Oh, the ink, thank you. I hope it wasn't any trouble! Let's see what happens when I use it to create a geometric chart.
+
+<i>[ You wait for the Sand Seer to work. ]</i>
+
+Oh my. Did you see that? I felt that healing wave all the way to my toes! Hah! It's a sigil! Quite unusual, too. If you're skilled enough in the art of sigil scripting, I'd be happy to show you how to make it.
+
+<i>[ Ability 'Health Glyph' added to Sand Seer's Training menu. ]</i>}}
+
+* 100 {{Favor|favor}}
+}}
+[[Category:Quests]][[Category:Quests/Ilmari Desert Quests]][[Category:Quests/The Sand Seer]]

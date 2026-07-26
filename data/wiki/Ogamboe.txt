@@ -1,0 +1,26 @@
+__NOTOC__
+{{NPC infobox
+|title            = Ogamboe
+|image            = [[File:Ogamboe.png|250px]]
+|caption          = Trying to look approachable
+|zone             = Fae Realm
+|location         = Near the Southern [[Mushroom Circle]].
+|anatomy = Giant
+|species = Giant
+|beastspeak       = Yes
+|beastlist = All
+}}
+[[Ogamboe]] is giant who pays councils in exchange for the completion of [[Industry|Work Orders]] in the [[Fae Realm]].  The associated Work Order Board is far to the north, in the [[Fae Realm#Fel-Dasculan Ruins|Fel-Dasculan Ruins]]. He is only present at night.
+
+{{Quote|Hello! I am Ogamboe the Deal Hunter. You may have heard of my famous boutique, but I'm not here to sell things. I'm here to buy things! In particular, I am buying very special orders for my customers.
+
+I've set up a work order board near the fairies north of here. If you have any of the things I need, bring them to me! Don't worry, I pay in "Councils"!
+
+Oh, but I can't stay here during the day. I don't want to get on the Winter Queen's bad side! I'll show up whenever the queen's nighttime reappears. Wait for me here.
+}}
+
+==Location==
+; [[Fae Realm]]
+: In the ruins just west of the zone's southern [[Mushroom Circle]].
+
+[[Category:NPCs]][[Category:NoRiShin]]

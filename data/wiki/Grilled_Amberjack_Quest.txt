@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Ailred in Povus said, "I've had a VERY long time to look at the menu, so yes, I'm ready to place my food order! I saw that you have fresh amberjack on the fish list. How is that even possible?! I guess amberjack is native to here? Well, I simply must try this dish."
+
+This Quest can be repeated after 1 hour.
+
+===Prerequisites===
+To start this quest, talk to '''[[Ailred]]''' in '''[[Povus]]'''. This quest is only available during daytime. 
+
+===Preface===
+I've had a VERY long time to look at the menu, so yes, I'm ready to place my food order! I saw that you have fresh amberjack on the fish list. How is that even possible?! I guess amberjack is native to here? Well, I simply must try this dish.
+
+===Midway===
+Where's my grilled amberjack? And can I get a refill on my water?
+
+===Requirements===
+* Craft Grilled Amberjack
+* (Keep Grilled Amberjack)
+* Talk to Ailred
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|A little fishy. I think it could have used another minute on the grill. No, no, it's fine, I'll eat it. It's not bad!}}
+* {{Item|Xogrite Chunk}} x8
+}}
+
+[[Category:Quests]][[Category:Quests/Povus Quests]][[Category:Quests/Ailred]]

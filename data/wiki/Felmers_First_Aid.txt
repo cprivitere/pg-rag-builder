@@ -1,0 +1,22 @@
+__NOTOC__
+==Summary==
+[[Felmer]] in the [[Fae Realm]] said, "If you bring me dinosaur scales to make buttons, I'll show you how to use First Aid."
+
+===Prerequisites===
+To start this quest, talk to '''[[Felmer]]''' in '''[[Fae Realm]]'''. This quest is only available to [[Fairy|Fae]]. 
+
+===Preface===
+If you bring me [[Small Dinosaur Scale|dinosaur scales]] to make buttons, I'll show you how to use [[First Aid]].
+
+===Requirements===
+* Obtain [[Small Dinosaur Scale|Small Dinosaur Scales]] x2
+* Talk to [[Felmer]]
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|These are just what I wanted. Thank you! Now hand me that kit and I'll show you the best way to wrap bandages. This works for bondage as well as injuries.}}
+* 25 {{Favor|favor}}
+* [[First Aid]] raised to Level 10.
+}}
+
+[[Category:Quests]][[Category:Quests/Fae Realm Quests]][[Category:Quests/Felmer]][[Category:Quests/Fae Quests]]

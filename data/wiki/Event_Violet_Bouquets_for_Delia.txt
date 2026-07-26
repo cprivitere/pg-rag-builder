@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Delia said, "Hi! I am flat exhausted from traveling so much. The smell of violets always brings me back to life! Can you make me 10 [[Violet Bouquet]]s? I will gladly give you some new ideas to expand your arrangement choices for it."
+
+This Quest can be repeated after 20 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Delia]]''' in the '''[[Red Wing Casino]]'''. This quest is available at [[Flower Arrangement]] level 13. This quest is only available during a Crafting Caravan event.
+
+===Preface===
+Hi! I am flat exhausted from traveling so much. The smell of violets always brings me back to life! Can you make me 10 [[Violet Bouquet]]s? I will gladly give you some new ideas to expand your arrangement choices for it.
+
+===Requirements===
+* Make 10 Violet Bouquets
+* Obtain 10 Violet Bouquets
+* Talk to Delia
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Thank you so much! I could sit here and sniff these all day long!
+
+<i>[You earn 5 favor with Orran the Caravan Leader]</i>
+
+<i>[This task is repeatable every 12 hours.]</i>}}
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Delia]][[Category:Quests/Crafting Caravan]]

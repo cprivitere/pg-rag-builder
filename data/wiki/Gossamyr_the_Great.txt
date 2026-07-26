@@ -1,0 +1,75 @@
+__NOTOC__
+{{NPC infobox
+|title            = Gossamyr the Great
+|image            = [[File:Gossamyr_the_Great.png]]
+|caption          = Studying some cards
+|zone             = Statehelm
+|town = Statehelm
+|location         = 'Marketplace' 
+|anatomy = Fae
+|species = Fairy
+|beastspeak       = Yes
+|beastlist = No scary animals
+|storage = Yes
+}}
+{{Quote|source=[[Gossamyr the Great]]|...
+}}
+[[Gossamyr the Great]] is a respected fairy fortune teller currently living in [[Statehelm]].
+== Location ==
+; [[Statehelm]]
+: [[Gossamyr the Great]] is found at East Part of Town behind [[Farsight Flemmings]]'s stall.
+== Favor ==
+[[Gossamyr the Great]] will not share his preferences with those of '''{{favor|Neutral}}''' favor. Paying Gossamyr for a fortune increases favor by 25 points. 
+
+=== Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+=== Favor Rewards === 
+[[Gossamyr the Great]] rewards his friends with Storage.
+* There are no rewards for reaching '''{{favor|Comfortable}}''' favor.
+
+== Services ==
+==== [[Storage]] ====
+{{NPC STORAGE
+|npcname = Gossamyr the Great
+|favorrestriction = Friends
+|itemrestriction =Anything
+|neutral =0
+|comfortable = 0
+|friends = 20
+|closefriends = 35
+|bestfriends = 50
+|likefamily =65
+|soulmates =80
+}}
+
+==== Fortune Telling ====
+;Hypochondriac Elf
+:When you collect flowers in the wild, you'll often find extra seeds... but you might be pricked by a thorn instead.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = ?
+|RiShin Family = ?
+}}
+== Conversations ==
+{{Quote|source=[[Gossamyr the Great]]|
+I knew you would come to see me. I am Gossamyr the Great, and I can see your future.
+
+For a very small fee of 250 Councils, I will predict your fate with extraordinary accuracy, honed from centuries of practice.
+
+Interested?
+
+'''What sort of futures can you see?'''
+
+A wise question, for you surely know that fortune-tellers often have a specific area of focus. But I am unknowable years old, so I have learned to focus my vision on all the important things, but none of the unimportant ones
+
+:'''That sounds promising.'''
+
+'''Please read my future (Pay 250 Councils).'''
+
+(Gossamyr provides a fortune)
+
+I have spoken. What I have predicted will come to pass. Come back tomorrow and I can look again.
+}}
+
+[[Category:NPCs]]

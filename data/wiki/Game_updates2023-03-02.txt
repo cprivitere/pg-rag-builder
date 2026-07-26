@@ -1,0 +1,160 @@
+==Update Notes: March 2, 2023==
+As winter winds its way towards spring, we have another exciting update full of bug fixes, improvements, and big changes. The experimental selection UI is finally becoming a real boy, XP curves are getting lots of work done, and there's a brand new combat skill to learn.
+===Preface: Bugs!===
+We already know about several bugs and are working on a fix for them:
+:- the Give Gift menu option doesn't work for most NPCs. We will fix this within 24 hours.
+:- nameplates in the new UI get "stuck" when you switch on/off the new UI system. We will fix this within 24 hours -:- in the short term you can fix it by restarting the game.
+:- new beds in [[Serbule Hills]] look weird when you sleep in them. We wil fix this in a future update.
+===Combat XP Changes===
+We've made lots of improvements to how combat XP is earned. We'll discuss the changes and the reasons for them next.
+===XP Curve Rework===
+We've adjusted the combat XP level-curve so that you need a LOT more XP to level up each level, and monsters are worth dramatically more XP with each level, too. The goal here is to encourage players to fight monsters closer to their level. The number of same-level monsters you need to kill hasn't changed (much). In other words, when you're level 80, killing a hundred level 80 monsters will advance the XP bar just as much (or more likely, more) towards level 81 as before. 
+
+So what's changed? Previously, instead of killing those 100 level 80 monsters, you could kill 250 level 40 monsters to get the same amount of XP. Players often found this to be much easier and faster than fighting monsters of your same level, so players tended to stay in the same low-level hunting areas for way too long. This causes lots of problems: your gear doesn't keep up with your level, for one thing. And it's super boring to grind the same dungeon for 40 levels, too!
+
+NOTE: Your existing skill levels are unchanged. This affects earning XP going forward and is not retroactive.
+===Monster XP Values Rework===
+We've also done lots of work to make monster XP awards more logical and fair. The XP amounts for monsters were pretty arbitrary before, mostly focusing on the amount of Health the monster has. This caused "glass cannon" monsters, which are some of the deadliest, to be worth pitiful amounts of XP, while damage-sponge monsters were worth 200% to 300% more. All monster XP values have been revised to take health, armor, damage, and special features (such as evasion) into account.
+===XP Scaling Changes===
+Now that monster XP scales non-linearly, we also need a cutoff for earning XP above your level. Why? Consider the case of a high-level player grouping with a newbie: high level monsters are now worth so much XP that the newbie would insta-level by 10+ levels per monster defeated! We don't think it's bad for high level players to "carry" newbies, but there need to be reasonable limits. 
+
+Now, if the monster you defeat is more than 5 levels higher than one (or both) of your active combat skills, the amount of XP you earn in that skill is reduced. If the monster is 25+ levels above your skill level, you earn 0 XP in that skill.
+===Treasure-Effect Scaling Changes===
+We've also re-enabled a feature we implemented last year. (It was buggy so we had to turn it off.) If your two active combat skills are more than 25 levels apart, your equipment's random treasure effects will now downscale automatically. For instance, if your active skills are level 50 and level 1, that's more than 25 levels apart. Your "effective gear level" is your lower skill plus 25, so in this case any treasure effects that have level requirements above 26 will be reduced to lower-level versions where available. 
+
+This does not yet affect "white-label" effects, that is, the innate features of your gear. So in the previous example, your treasure effects would downscale to level 26, but you would still have all the Max Armor of a level 50 player. This makes you functionally invincible against level 26 creatures, of course, so it's something we'll be slowly working on over additional updates.
+
+===Feedback Needed===
+With this many changes, we expect there to be problems. Bugs with some XP tables, perhaps, or special scenarios we haven't thought of. Please let us know what you run into and we'll get things fixed up. In the short term if you are unsure of whether an XP-curve issue is a bug or a feature, you can communicate with the devs via the discord channel. (Normally we ask that you submit bugs via the in-game bug-report button... and we STILL want you to do that! But if you aren't sure if something is a bug, feel free to ask.)
+
+We also realize that this change will push players to find new hunting grounds, and some level ranges may not have adequate dungeons available. That's a good thing! We need to know where those problem areas are so we can fix them.
+
+===Weather Witching===
+With all these combat-XP changes, it seemed like a good time for a new combat skill. [[Weather Witching]] was planned long ago, then was scrapped, but now it's back! This is a chaotic magical skill that requires a bit of finesse to use optimally. But most importantly, it's a lot of fun. To get started, find a pair of elves in [[Serbule Hills]] -- they're camping in an old hunting lodge.
+
+For animal players, first the bad news: Weather Witching is unavailable to most animals. But the good news: several animals saw improvements this update, including [[Spirit Fox]] and [[Werewolf]]. (See below.) Butterflies are the special case: they ''can'' use weather witching via a magical item that can be purchased from [[Yavazek]] in [[Animal Town]].
+
+===New Buff/Debuff Requirement: Keep It On Your Bar===
+If a buff or debuff effect is applied due to an ability, that effect will now be dispelled if you take that ability off your ability bar. The goal is to prevent players from gaining the benefits of too many abilities at the same time (by switching load-outs between fights). This restriction does not apply when you are on a mount.
+
+===Max-Enchanted Recipe Change===
+The meaning of "Max Enchanted" recipes has changed. Previously, these recipes increased the number of powers on the item by 1. Now, they increase the Rarity of the item by one tier. Since each rarity level increases the number of powers by 1, this is effectively the same thing, except for when the item is naturally a Legendary item.
+
+Since a Legendary item can't have its rarity increased, we give an alternative reward: the crafter creates two Legendary items instead of one. (We're working on something more exciting for the future, possibly giving the max-enchanted Legendary an additional 20 crafting points, or something like that.)
+
+Existing Max-Enchanted Legendary items, meaning items that have 1 power more than is now possible to obtain, will eventually be obsoleted -- you can think of them as Legacy items. However, we haven't yet marked them as Legacy items because that would start a 30-day countdown before the items break, and that's sooner than we need them gone. Before we mark them as "officially Legacy", we'll add a way to let players "demote" these overpowered items (by removing a power) so that they can still use them.
+
+(We will also auto-upgrade existing max-enchanted non-Legendary items so that the have a higher rarity in the future, normalizing things so that 1 rarity tier = 1 ability mod.)
+
+===Channeled Ability Changes===
+In the past, the [[Priest]] skill's channeled abilities had a weird unintended side-effect: you could cast another ability ''while'' you were channeling the first ability, so long as the other ability was fast and didn't require movement. This was unintentional, and that "feature" was mostly lost when animations changed.
+
+However, it does seem like a fun idea and we want to try it officially! Since Weather Witching also has some channeled abilities, this seemed like the right time to try this mechanic out.
+
+So now if you use a channeled ability, and you time it right, you can perform another ability while the channeling is happening. The second ability can't require movement, and not all abiltiies can work this way, but most can.
+
+This is an experiment where we're looking for fun gameplay, not balance per se. It's likely that this change makes Priest overpowered, and also makes some Priest treasure-effects pretty useless. We can revise that kind of stuff if the idea seems worth keeping.
+===[[Spirit Fox]] Changes===
+:- Power Glyph: this is now correctly marked as a Survival Utility ability (bug fix).
+:- New treasure effect: (Chest) "Galvanize Reuse Timer -10.5 secs"
+:- New treasure effect: (Necklace, Legs) "Galvanize boosts targeted pets' non-Rage attacks +X for 45 seconds" 
+:- New ability: Infectious Instincts: usable only on an allied pet, this boost's the damage of the pet's next attack. Learnable from a Completely Normal Fox deep beneath Kur.
+:- New treasure effect: (Head, Ring) Infectious Instincts boosts target pet's next attack +160
+:- New treasure effect: (Chest, OffHand) Infectious Instincts boosts target pet's non-Rage Attack damage +58 for 12 seconds
+:- New treasure effect: (Hands, Feet) Infectious Instincts grants target pet +43 Mitigation vs. elemental (fire, cold, and electricity) damage for 20 seconds
+:- New treasure effect: (Legs, Necklace) Infectious Instincts grants target pet +29 Mitigation vs. physical (slashing, crushing, and piercing) damage for 20 seconds
+:- New treasure effect: (Necklace): "Galvanize grants pets Health (or Armor if Health is full) equal to the amount of Power generated +105"
+:- After one too many complaints from stablemasters, we've decided that Spirit Foxes are no longer allowed to ride horses. Instead, they should seek out [[Mittens]] in Kur to learn how to fast-travel directly as a spirit fox. (Requires Spirit Fox 25, Friends, 1000g)
+
+===Skills & Abilities===
+:- Getting stunned should no longer interrupt an attack that's usable while stunned.
+:- [[Fire Magic]]: There are only two "Flare Fireball" abilities, but they were numbered "Flare Fireball 2" and "Flare Fireball 4". Renumbered to 1 and 2, respectively.
+:- Fire Magic: The ability "Flare Fireball 4" (now renamed to "Flare Fireball 2") was a level 50 ability learned at level 55. Ability is now level 55 (with slightly higher base damage).
+:- [[Ice Magic]]: Cold Spheres now have a small amount of Armor.
+:- [[Lycanthropy]]: New treasure effect (Necklace): "If you are reduced to 0 health while Shadow Feint is active, it automatically triggers and cancels the damage. In addition, Shadow Feint boosts your accuracy +N until triggered."
+:- Lycanthropy: New Altar of Norala options: "+1 Non-Combat Sprint Speed" (costs 3). Purchasing this unlocks the second tier version "+1 Non-Combat Sprint Speed & +1 Movement Speed" (costs 3).
+:- Lycanthropy Pro Tip: Stat boosts from the Altar of Norala work in any form, not just in wolf form
+:- Removed ability-usage delay for butterflies.
+:- Added contextual hotkey for Analyze Genes.
+===Everything Else===
+===Selection UI===
+After months of gathering feedback and making changes, we have officially promoted the new selection UI :- it's no longer experimental! The setting to use the new UI is enabled by default, but you can change this in the Settings panel, under GUI > Mouse Selection > Use New Selection UI. (In a future patch, after we're certain we have any major bugs dealt with, this setting (and the old UI) will be removed completely.)
+
+===Target of Target===
+Another exciting change in this update: You can now see your target's target!
+:- At Anatomy level 25 (for each sub-anatomy, E.G. "Fae Anatomy"), you'll be able to see your target's current target, as well as their current health, armor, and if they are enraged. Clicking on the target will select it.
+:- The existing Target UI has been adjusted a bit to fit the new target-of-target UI. Most notably, Real-Time Effects and the Combat Info button have been moved.
+:- Seeing Real-Time Effects on a target has been moved from sub-Anatomy level 25 to 35.
+
+===Chat Commands===
+We have slightly revamped how custom chatroom chatting works:
+:- '/c <message>' no longer exists.
+:- '/c <room>' sets your current chatroom to <room>.
+:- '/c <room> <message>' sets current chatroom to <room> and sends <message> to it.
+:- '/cc <room> <message>' sends <message> to <room> without setting it to the current chatroom.
+:- 'global', 'nearby', and 'guild' can now all be used with the /c commands.
+    
+We've also added a help button to the chat window :- a little question mark in the upper right - which shows the same info as typing /help.
+
+===Other UI Stuff===
+:- The strength of the highlight when hovering over an entity can now be controlled via GUI > Mouse Selection > Overlays > Hover Highlight Strength.
+:- New selection UI now shows distance to current target when you hold in alt.
+:- New selection UI now handles the "Hold to Bypass Clicking Players & Pets" key.
+:- New Selection UI now respects all of the "Overhead Info" settings.
+:- Improved the new click-selection algorithm, so entities should be easier to click on.
+:- Updated selection hitboxes & facecam avatars for a long, long list of creatures.
+:- Fixed a bug that caused the cursor graphic to get stuck if a nameplate disappears while you're hovering over it.
+:- Added "Show/Hide Hotbar Globes" to hotbar & player stats right-click menus.
+:- Added "Show/Hide Metabolism Bar" to player stats right-click menu.
+:- Organized Graphics settings and changed several sliders to dropdowns.
+:- Right-clicking on the active-skill hotbar is now easier; if you click the space between ability icons it will still show the full context menu.
+:- Ability Tooltips now show multiple "Other" effects in a more concise format.
+:- Fixed bugs that prevented some Privacy Field mods from showing up in the Ability Tooltip.
+:- When you use an ability on a party member, that ability's icon will once again appear on their party frame to indicate that it went through.
+:- Party frames can now be resized and re-padded, under "Settings/GUI/Features/Party Frames", "Party Frame Scale" and "Party Frame Spacing".
+:- Fixed bug that prevented right-clicking on a party member who is not in the same area as you.
+:- Added outlines to party names.
+:- Added max-use info to recipe window.
+:- Right-clicking a craftable item in a quest objective now shows the "Jump to Recipe" option for Enchanted recipes.
+:- Moved the settings "Scale Names with Distance" and "Overhead Name Fade Distance" under a new section, "Old Selection UI", which is only visible when using the old selection UI.
+:- Added button to GUI Settings that resets all window positions & sizes to their default, in case a window goes off-screen or any other GUI weirdness happens.
+
+===Graphics & Such===
+:- Fixed several instances of armor being invisible on one side (such as being able to "see through" the inside of a helmet, or spring fairy leggings).
+:- Fixed some helmets that would allow the wearer's scalp to poke through.
+:- Fixed bug that caused some particles to appear on invisible creatures.
+:- Personal Rainstorm effect is now easier on the eyes.
+:- Added mount trails to Cow & Pig.
+:- Fixed bug with fae feet when chopping wood.
+:- Added turning-while-standing-still animation to humanoids (out of combat only).
+:- Added smoke VFX to hags.
+:- Revamped Fire Rat visual; they now glow and have a flame at the end of their tail.
+:- New visuals for Fire Sheep.
+:- Fixed Biting Vines death animation.
+:- Fixed graphical glitch with Drakeworms.
+:- Faces of Death now stop animating when they die.
+:- NPC hares should no longer sink into the ground.
+:- Wolves no longer float above the ground.
+:- Fixed bug causing dead players to stand back up.
+
+===Other===
+:- Bottled items in stacks now have a right-click option to "Empty All Bottles" (if their stack size is greater than 1).
+:- When crafting, fillable ingredients are now highlighted in your inventory.
+:- Fixed a bug that prevented work order cancels from returning councils.
+:- Fixed a bug preventing level 0-10 Industry and Foraging textbooks from being read when you don't have those skills yet.
+:- Gifts of equipment to NPCs are now worth notably less Favor.
+:- You can now deploy ice fishing gear properly on the lake near the Necromancer's Tower in [[Kur Mountains]].
+:- Ice fishing lakes in Kur Mountains once again give a variety of fish, including some species that weren't available there before.
+:- Campfires in Kur are a little safer now to cut down on campfire murders. (Does not include the orc camp fires.)
+:- Northern, Pure, & Augmented Bounceweed now affect foxes.
+:- Lowered council value of fairy starter gear.
+:- Removed coin purses from Fae Newbie Chest and moved them to a reward for completing the Fae starter arc.
+:- Fire Sheep are more deadly when they explode.
+:- Fixed bug that prevented players from seeing a notification message when an item gets used up in combat.
+:- The JSON file npcs.json has a bit of new information in it: item preferences now have a "Desire" field which will be "Love", "Like", "Neutral", "Dislike", or "Hate". This information corresponds to what is displayed in-game when you learn an NPC's likes and dislikes. (You could kinda-sorta figure this out before from the "Pref" value, but that's becoming less and less accurate -:- in fact, the "Pref" field will eventually be removed from npcs.json when the client stops referencing it. If you're using that field, please switch to using the "Desire" field where possible.)
+:- A number of JSON files have had changes to their format: sources_items.json, sources_recipes.json, sources_abilities.json. They now include additional information, some of which is not yet used by the client (but will be in the future)
+:- The JSON file sources_items.json is now documented in the CDN's help page. (The file format is now reasonably stable. Yay!)
+
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

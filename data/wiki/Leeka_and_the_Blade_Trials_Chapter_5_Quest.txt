@@ -1,0 +1,30 @@
+__NOTOC__
+==Summary==
+Durstin Tallow in Serbule Hills said, "That old bi-- err, old biddy Brianna Willer has one of the chapters. But she won't give it to me. Says my wife deserved... well, she won't give it to me. Can you snoop around her farm, see if you can find it?"
+
+===Prerequisites===
+To start this quest, talk to '''[[Durstin Tallow]]''' in '''[[Serbule Hills]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+This quest requires that you have spoken to [[Durstin Tallow]] regarding his need of an adventurer to solve his book problem.
+
+You must have previously completed [['Leeka and the Blade Trials' Chapter 2]] in order to undertake this quest.
+
+===Preface===
+{{Quote|That old bi-- err, old biddy Brianna Willer has one of the chapters. But she won't give it to me. Says my wife deserved... well, she won't give it to me. Can you snoop around her farm, see if you can find it?}}
+
+===Requirements===
+* Find chapter on Brianna Willer's farm
+* Talk to Durstin Tallow
+
+===Location===
+Found in the barn on Brianna Willer's farm. 
+
+
+===Rewards===
+{{Spoiler|Rewards for 'Leeka and the Blade Trials' Chapter 5|
+{{Quote|Thanks. I'm glad you could find it. Brianna's stubborn, but I guess in her own way, she's dutiful to her friends.}}
+
+* 100 {{Favor|favor}}
+* 250 councils 
+}}
+[[Category:Quests]][[Category:Quests/Serbule Hills Quests]][[Category:Quests/Durstin Tallow]]

@@ -1,0 +1,52 @@
+==<b>November 18 Update</b>==
+: Although the last update took months of work and had tons of changes, we normally like to update much more often. So we're going back to doing "snapshot" builds every two weeks. Snapshot builds contain whatever stuff we've managed to get ready in time. They usually aren't very polished, but the benefit is that you can see this stuff while it's being developed, and give feedback very early in the process. So please do!
+
+===<b>Hammer and Ice Magic Revisions</b>===
+: - [[Hammer]] and [[Ice Magic]] have had significant changes to their gear mods, and a few changes to their abilities (such as different power costs and reset times). In addition, there are three new Hammer abilities: Hurl Lightning, Latent Charge, and Way of the Hammer. These are TEMPORARILY taught by [[Agrashab]] the troll. In the future, the electricity-oriented hammer powers will all be taught by a separate NPC. (This sort of thing is the bailiwick of dwarven electricians, not trolls.)
+:- Because Ice Magic and Hammer gear mods were heavily revised in this update, many old items have become Legacy. We apologize for the hassle this causes! You can hand your Legacy items to the legacy item replacement golem in [[Serbule]]. If your Legacy items have prerequisites for either of these two skills, the golem will give you 5 replacement items instead of just 1.
+:- (Note: if you receive a replacement item that is itself Legacy, you can hand it back to the golem, but will only get 1 replacement for the replacement, not 5. This is to prevent any kind of mass-item-manufacturing exploits. : '''But if you get a new item that's already marked as Legacy, please report it before you replace it! We need to know the item type and what mods are on it in order to find and fix the data error that caused it to become Legacy.)'''
+
+===<b>Rahu NPCs</b>===
+: Some of the NPCs in [[Rahu]] have been revised and reworked. (More will be reworked in the future.) Your Favor Level with these NPCs has not changed, but their texts, their likes and dislikes, and so on may have changed.
+::- Ashk now calls himself "[[Ashk the Answerer]]" and has new favors, hangouts, services, and training available
+::- [[Furlak]] has new quests and hangouts. Note that Furlak's likes/dislikes are almost completely different
+::- New hangouts for [[Amutasa]]
+::- [[Ichin the Ice Master]] has new hangouts, skills, and things to learn. (But no favors yet)
+::- [[Shirogin]] has new quests and hangouts
+::- [[Sirine]] has new quests and hangouts
+::- A few NPCs in [[Rahu]] can now move around and interact with each other
+
+===<b>Tailoring Recipes</b>===
+[[Tailoring]] recipes for cloth gloves, slippers, and cowls have been added, which means it's now possible to craft cloth armor for all armor slots. The low-level recipes can be learned from [[Thimble Pete]] in [[Eltibule]] (or [[Elaina]] in Animal Town) and the high-level ones can be learned from [[Shirogin]] in [[Rahu]]. A few variants are in loot as rare-drop scrolls.
+These recipes were finished just a few hours prior to the patch cutoff time, so they have not been tested much. Please report bugs or bad data!
+
+===<b>Other Changes and Fixes</b>===
+::- Some unarmed combos were no longer really usable anymore due to changes in ability reuse timers. These combos now have a wildcard ("Any Melee") step in place of the problematic step. A few really stupid combos (e.g. Punch+Punch+Punch+Punch) have been revised as well
+::- recipe for owl jack-o-lantern once again requires a pumpkin (!)
+::- shuffled around the recipes for various [[Carpentry]] items so that the ingredient cost of lower-level items are always cheaper than the ingredient cost of higher-level items. For related reasons, the value of cedar and maple wood has increased slightly
+::- All monsters in [[Kur Mountains]] de-spawn (and are replaced) if they are not killed within a few hours. This is an experiment to see if it helps circumvent the pathmapping bug found in this area. (It can't be reproduced locally, so we have to try things and see how it affects live performance after a week or so.)
+::- Cleaned up some pathmapping problems in Kur Mountains, such as the ability to auto-move over water
+::- Lore note: The [[Rahu]] military is now named the [[Onkara]] instead of the Ankara. This is more phonetically accurate, and more importantly, Rahu already had way too many proper nouns that started with A
+::- Introduced the first "meltable" ice-magic items. If an item says it can melt, it's not joking... it really can melt, disappearing from your inventory! Melting happens especially quickly in hot areas. Cold areas like Kur Mountains completely prevent melting. Being hit by fire attacks, or being lit on fire, greatly increases the chance of melting. Items in storage do not melt. This game mechanic is obviously very niche, and will only be used for a handful of things. Because otherwise it'd be super irritating
+::- Many item-crafting recipes now use a hammering animation instead of just making the player sit on the ground
+::- The treasure mod that made Heart Piercer turn extra rage into damage didn't work
+::- Broccoli Florets, which require butter, are now flagged as having Dairy (for purposes of veganism and, inexplicably, gift-giving. "You like dairy foods? Then here's some broccoli... it has butter on it!" Yep, seems reasonable to me!)
+::- You cannot equip, unequip, or drop items while dead
+::- Load-outs that contained musical instruments would always put the musical instrument's skill in the first skill bar, rather than the skill you actually wanted
+::- Shambling Corpses lose health automatically again. That's three times they've broken due to small changes in other systems, so I've recoded them to lose health in a completely different way that should be much less breakable. (They have a perma-DoT on them now.)
+::- Recipes that require low-quality Humanoid Skulls can now accept higher-quality skulls instead. (Of course, this is often a waste of a "good" skull but sometimes it's what you want to do)
+::- Crafting recipes for cow-shoes and deer-shoes had incorrectly trivial ingredients; they are a bit more complex now
+::- Removed extraneous cloud of smoke from the farm fields of [[Serbule]].
+::- Even though the time between [[Blanche]] and [[Rita]]'s discussions was random, it was often streaky, making it feel like Blanche and Rita were chatting constantly. There is now a 5-miute minimum timeout between their chats
+::- the corpse bits that were added for [[Shamanic Infusion]] now have appropriate tags for gifting, e.g. rat teeth are considered teeth for NPCs that like teeth as gifts
+::- Revised spawns on the very beginning bit of the newbie island to be less deadly
+::- Added torches on the island that lead up to the lighthouse (players seemed to not realize there was a lighthouse up there at all, especially when it's dark)
+
+===<b>Word-Search Scoring</b>===
+: We've changed the scoring on the word-search mini-game. Longer words still give a much higher score than smaller words, but the difference is smaller. Now you can sometimes get better scores by typing a bunch of 5-letter words than you can by typing one or two 8-letter words. The goal is to lower the incentive to cheat. It's always possible for players to cheat by going to a word-search website, and there's no way for us to detect that. So the new scoring is intended to make that less appealing: it takes time to go type the word into a website, and in the mean time your competitors are typing in smaller words! The down side of this change is that your typing speed is much more important than it was before, but I guess that's the lesser of two evils.
+: (As I've said before, we don't plan to use the Vocabulary skill for much because of its potential for exploitation. The Bard will get a benefit from Vocabulary 25. Nothing will ever need a Vocabulary level higher than that -- levels beyond 25 are just for fun.)
+: As a curious side effect of the scoring change, the NPCs that play the word game will now have very different scores. The NPCs' scores are simulated based on their [imaginary] skill in three categories: word-entry speed, word-hunting speed, and vocabulary. As an example, Sir Coth is a master of entering words quickly, but his vocabulary is very poor and he usually only finds short words. After this change, his score will go up. Zeratak the mantis, on the other hand, is very slow at entering words, but has an incredible vocabulary. She usually only manages to enter one or two words, but they're very long. Her score will go down due to this change.
+: Also, a little-known trick: interacting with NPCs that play the game causes them to drop out of the next game (so they can talk to you). This trick can be used to kick NPCs out of the scoring for a round, if you really need to feel superior to a bot. (And that's why Sir Coth rarely shows up on the scoreboard -- he's busy talking.)
+
+'''[[Game updates|Click here to return to the Game Updates page.]]'''
+[[Category:Game updates]]

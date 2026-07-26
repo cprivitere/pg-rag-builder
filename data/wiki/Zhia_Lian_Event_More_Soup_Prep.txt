@@ -1,0 +1,27 @@
+__NOTOC__
+==Summary==
+Brandon Mellus in the Red Wing Casino said, "I think we need a backup soup in case the eyeball soup doesn't go over well. Can you get these ingredients?"
+
+This Quest can be repeated after 60 days.
+
+===Prerequisites===
+To start this quest, talk to '''[[Brandon Mellus]]''' in the '''[[Red Wing Casino]]'''. You must have previously completed [[Halloween Event: Soup Prep]] in order to undertake this quest.
+
+===Preface===
+I think we need a backup soup in case the eyeball soup doesn't go over well. Can you get these ingredients?
+
+===Requirements===
+* Obtain Maggoty Ham x3
+* Obtain Carrots x3
+* Obtain Muntok Peppercorns x3
+* Talk to Brandon Mellus
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|Perfect! Zhia will either hate this or love it, but she won't be bored by it! And that's really the safest way you can party with Zhia Lian. Here's the recipe, in case you want to make some for a different party.}}
+* Recipe: Maggot Soup
+* 3000 councils
+* {{Item|Level 40 Event Loot Key}} x2
+}}
+
+[[Category:Quests]][[Category:Quests/Red Wing Casino Quests]][[Category:Quests/Brandon Mellus]][[Category:Quests/Halloween Quests]]

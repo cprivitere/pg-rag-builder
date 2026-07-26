@@ -1,0 +1,21 @@
+__NOTOC__
+==Summary==
+Lakrea told you to smith some hoops. She didn't seem to care what kind of hoops you smithed. (Blacksmithing is the skill used to make hoops for barrels and casks.)
+
+===Prerequisites===
+To start this quest, talk to '''[[Lakrea]]''' in '''[[Rahu]]'''. The quest is available at {{Favor|Despised}} favor.
+
+===Preface===
+{{Quote|You need to work with metal more. Why don't you hit the forge and make some hoops?}}
+
+===Requirements===
+* Forge Hoops (12)
+* Talk to Lakrea
+
+===Rewards===
+{{Spoiler|Rewards for Holistic Wellness: Forge Hoops|
+{{Quote|Those blisters on your hands will help keep you down-to-earth, so your ideas don't get too far away from your abilities.}}
+
+* 50 XP in [[Holistic Wellness]]
+}}
+[[Category:Quests]][[Category:Quests/Rahu Quests]][[Category:Quests/Holistic Wellness]][[Category:Quests/Lakrea]]

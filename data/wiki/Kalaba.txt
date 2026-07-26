@@ -1,0 +1,176 @@
+__NOTOC__
+{{NPC infobox
+|title            = Kalaba
+|image            = [[File:Kalaba.jpg|300px]]
+|caption          =
+|zone             = Eltibule
+|town = Eltibule Keep
+|location         = [[Eltibule Keep]]'s courtyard forge.
+|anatomy = Rakshasa
+|species = Rakshasa
+|beastspeak       = No
+|skilltrainer     = [[Blacksmithing]], [[Endurance]], [[Transmutation]]
+|vendor           = Yes
+|consignment = Yes
+|augment = Yes
+}}
+{{Quote|source=[[Kalaba]]|
+In [[Povus]] you'd have to rent time on a forge from one of the Forgemasters. But this one was free! We just had to kill some goblins that were using it.
+}}
+[[Kalaba]] is a [[Rakshasa]] Blacksmith from the city of [[Povus]]. He is not particularly fond of dealing with unfamiliar faces, and will not offer merchant related services to anyone who has not proved themselves worthy of his sturdy equipment. Once a few favors are completed ([[Kill Panthers]] and [[Kill Fey Panthers]]), the services he offers will open. Kalbala will be willing to purchase weapons and armor, and begins selling armor. The prices he offers are generally better than what Yetta will pay for the same item. He will also offer a conversation to teach [[Transmutation]] at this time.
+== Location ==
+; [[Eltibule]]
+: In the Eltibule Keep courtyard (the castle in the center of the zone).
+== Shopkeeper ==
+Kalaba sells a set of "sturdy" weapons and armor, which appears to be between "basic" available from [[Joeh]], and "quality" available from [[Helena Veilmoor]].
+{{Vendor items sold}}
+{{Vendor_purchase_info}}
+== Favor ==
+===Small Talk [[{{msg:BASEPAGENAME}}/Small_talk|<span style="font-size:50%"><sup>[view/edit]</sup></span>]]===
+{{:{{msg:BASEPAGENAME}}/Small_talk}}
+== Quests ==
+<dpl>
+category = Quests/Kalaba
+mode = unordered
+columns = 1
+include = #Prerequisites,#Requirements
+</dpl>
+== Training ==
+<!-- List the abilities the NPC trains by skill. -->
+[[Transmutation]] is taught after starting a conversation. Basic recipes are learned through the quest Phlogiston Basics.
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Endurance]] 
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |ability=Push Onward
+ |skilllevel=10
+ |cost=700
+ |favor=Comfortable
+}}
+{{NPC training row
+ |ability=Push Onward 2
+ |skilllevel=20
+ |cost=1700
+ |favor=Friends
+}}
+{{NPC training row
+ |ability=Push Onward 3
+ |skilllevel=30
+ |cost=2700
+ |favor=???
+}}
+{{NPC training row
+ |ability=Push Onward 4
+ |skilllevel=40
+ |cost=4700
+ |favor=???
+}}
+{{NPC training row
+ |ability=Push Onward 5
+ |skilllevel=50
+ |cost=7200
+ |favor=???
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Blacksmithing]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Shoddy Deer Shoes
+ |skilllevel=3
+ |cost=233
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Rough Deer Shoes
+ |skilllevel=13
+ |cost=900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Crude Deer Shoes
+ |skilllevel=23
+ |cost=1566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Decent Deer Shoes
+ |skilllevel=33
+ |cost=2900
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Nice Deer Shoes
+ |skilllevel=43
+ |cost=4566
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Quality Deer Shoes
+ |skilllevel=53
+ |cost=6566
+ |favor=Best Friends
+}}
+|}
+
+:{| class = "sortable mw-collapsible mw-collapsed"
+|+ style="white-space:nowrap;" | [[Transmutation]]
+! Unlock
+! Skill Level
+! Cost
+! Favor
+{{NPC training row
+ |recipe=Distill Rare Magical Item (0-30)
+ |skilllevel=5
+ |cost=300
+ |favor=???
+}}
+{{NPC training row
+ |recipe=Repair Transmutation Damage 1
+ |skilllevel=10
+ |cost=466
+ |favor=Friends
+}}
+{{NPC training row
+ |recipe=Repair Transmutation Damage 2
+ |skilllevel=15
+ |cost=966
+ |favor=Close Friends
+}}
+{{NPC training row
+ |recipe=Distill Exceptional or Better Magical Item (0-30)
+ |skilllevel=20
+ |cost=1133
+ |favor=Comfortable
+}}
+|}
+
+==== Interpretive Dance Variant ====
+[[Kalaba]] is the teacher for [[Interpretive Dance|Dance 2 (variant C)]]. At least three musicians must be playing instruments near [[Kalaba]] to convince them to demonstrate their dance.
+
+== Services ==
+==== Consignment ====
+; Kalaba offers [[Consignment]] at {{Favor|Close Friends}}.
+: Mark-up fee of 10%, stocking fee of 50 Councils.
+: Max 3 active consignments (Equipment).
+: Max 5 consignments per week.
+
+==== Augmentation ====
+[[Kalaba]] can install Level 21-40 Augments for 250 Councils.
+== Events ==
+===== Winter Celebration =====
+{{HOLIDAY
+|RiShin Friends = 
+|RiShin Family = {{Item|Extra-Sturdy Shirt}} (Lv 30). Another item which may be: {{Item|Goblin Chain Shirt}} (Lv 30), {{Item|Goblin Fist Wraps}} (Lv 30)
+}}
+== Conversations ==
+
+[[Category:NPCs]]

@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Feed Pet
+| description = Give your pet a quick snack to bolster it in the middle of combat.
+| level = 3
+| power cost = 11
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|FeedPet}}
+| special = Restores 15 Health (or Armor if Health is full) to Pet.
+}}
+|-
+|
+{{Ability infobox
+| name = Feed Pet 2
+| description = Give your pet a quick snack to bolster it in the middle of combat.
+| level = 13
+| power cost = 14
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|FeedPet}}
+| special = Restores 35 Health (or Armor if Health is full) to Pet.
+}}
+|-
+|
+{{Ability infobox
+| name = Feed Pet 3
+| description = Give your pet a quick snack to bolster it in the middle of combat.
+| level = 23
+| power cost = 18
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|FeedPet}}
+| special = Restores 70 Health (or Armor if Health is full) to Pet.
+}}
+|-
+|
+{{Ability infobox
+| name = Feed Pet 4
+| description = Give your pet a quick snack to bolster it in the middle of combat.
+| level = 33
+| power cost = 22
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|FeedPet}}
+| special = Restores 105 Health (or Armor if Health is full) to Pet.
+}}
+|-
+|
+{{Ability infobox
+| name = Feed Pet 5
+| description = Give your pet a quick snack to bolster it in the middle of combat.
+| level = 43
+| power cost = 25
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|FeedPet}}
+| special = Restores 150 Health (or Armor if Health is full) to Pet.
+}}
+|-
+|
+{{Ability infobox
+| name = Feed Pet 6
+| description = Give your pet a quick snack to bolster it in the middle of combat.
+| level = 53
+| power cost = 28
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|FeedPet}}
+| special = Restores 190 Health (or Armor if Health is full) to Pet.
+}}
+|-
+|
+{{Ability infobox
+| name = Feed Pet 7
+| description = Give your pet a quick snack to bolster it in the middle of combat.
+| level = 63
+| power cost = 31
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|FeedPet}}
+| special = Restores 240 Health (or Armor if Health is full) to Pet.
+}}
+|-
+|
+{{Ability infobox
+| name = Feed Pet 8
+| description = Give your pet a quick snack to bolster it in the middle of combat.
+| level = 73
+| power cost = 35
+| reuse time = 30
+| range = 20 meters
+| skill = Animal Handling
+| keywords = {{KWAB|FeedPet}}
+| special = Restores 280 Health (or Armor if Health is full) to Pet.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

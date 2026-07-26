@@ -1,0 +1,26 @@
+__NOTOC__
+==Summary==
+Otis in Red Wing Casino said, "NEED STINGER OF SCORPION. NOT TELL REASON."
+
+===Prerequisites===
+To start this quest, talk to '''[[Otis]]''' in '''[[Red Wing Casino]]'''.  The quest is available at {{Favor|Comfortable}} favor.
+
+===Preface===
+{{Quote|
+NEED STINGER OF SCORPION. NOT TELL REASON.
+}}
+
+===Requirements===
+* Obtain a {{Item|Scorpion Stinger}}
+* Talk to Otis
+
+===Rewards===
+{{Spoiler|Rewards for NEED STINGER|
+{{Quote|
+HEH HEH HEH HEH. WILL HIDE STINGER IN VIZLARK BED. VIZLARK ASSHOLE BUG. WILL MAKE MAD! HEH HEH HEH!
+}}
+* 200 favor towards Otis
+* 1000 Councils
+}}
+
+[[Category:Quests]][[Category:Quests/Otis]][[Category:Quests/Red Wing Casino Quests]]

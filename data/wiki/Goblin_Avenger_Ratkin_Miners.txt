@@ -1,0 +1,25 @@
+__NOTOC__
+==Summary==
+Glortok in the Rahu Sewers said, "Go to the caves and destroy the living ratkin miners. With only undead miners left, their necromancers will be overwhelmed, and we can strike!"
+
+This Quest can be repeated after 66 hours.
+
+===Prerequisites===
+To start this quest, talk to '''[[Chief Glortok]]''' in the '''[[Rahu Sewer]]'''. The quest is available at {{Favor|Neutral}} favor.
+
+You must have previously completed [[Goblin Avenger: Off-Duty Ratkin Miners]] in order to undertake this quest.
+
+===Preface===
+Go to the caves and destroy the living ratkin miners. With only undead miners left, their necromancers will be overwhelmed, and we can strike!
+
+===Requirements===
+* Kill Ratkin Miners x15
+* Talk to Glortok
+
+===Rewards===
+{{Spoiler|Rewards|
+{{Quote|You struck a blow for goblinkind. Decent.}}
+* {{Item|Xedrite}}
+}}
+
+[[Category:Quests]][[Category:Quests/Rahu Sewer Quests]][[Category:Quests/Chief Glortok]]

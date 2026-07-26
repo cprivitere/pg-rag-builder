@@ -1,0 +1,152 @@
+__NOTOC__
+{{Skill infobox
+|title            = Poetry Appreciation
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = Skill in finding the meaning of poems, especially difficult and tedious ones.
+|skilltype        = Other Skill 
+|maxlevel         = 50 
+|req              = N/A
+|skilltrainers    = N/A
+}}
+{{Quote|
+Everybody's a critic!}}
+== {{msg:BASEPAGENAME}} Overview==
+'''Poetry Appreciation''' is the ability to interpret and appreciate poetry. 
+=== In-Game Description ===
+Skill in finding the meaning of poems, especially difficult and tedious ones.
+=== Training {{msg:BASEPAGENAME}} ===
+Learning [[Poetry Appreciation]] can be accomplished through two methods.
+* Read an appraised Poetry Book which requires Level 0 [[Poetry Appreciation]].
+* Stand near a Poetry Podium while another character reads a Poetry Book and provide a rating for the read poem.
+Continue leveling [[Poetry Appreciation]] through:
+* Reading appraised Poetry Books.
+* Listening to Poetry Books read by others at a Poetry Podium, and providing ratings for the poems read.
+== Connected Skills ==
+=====Sub-Skills:=====
+* None
+=====Secondary Skills:=====
+* None
+=====Related Skills:=====
+* [[Oratory]] - A skill that can be leveled by reading poetry to others.
+* [[Art History]] - A skill required for the identification of looted poetry books.
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Unidentified Poetry Books ===
+Poetry Books can be found across [[Alharth]], usually in an unidentified form. Rudimentary knowledge of [[Art History]] is required to appraise an unidentified poetry book. After appraisal, the discovered Poetry Book will require a specific level of [[Poetry Appreciation]] to read. Poetry Books have a chance of dropping from any creature that drops scrolls, so [[Undead Anatomy|Undead]] and [[Arthropod Anatomy|Arthropods]] are usually targeted by prospective '''Poetry Appreciators'''. In particular, the Undead [[Face of Death]] in [[Borghild]] and the stronger [[Visage of Demise]] found across [[Rahu]] tend to drop many scrolls and recipes, including poetry books.
+{|{{STDT|sortable}}
+!Unidentified Book
+!Skill to Appraise
+!Potential Results
+|-
+|{{Item|Unidentified Poetry Book}}
+|[[Art History]] 20
+|{{Item|Poetry Primer}}, {{Item|"Worm Food"}}, {{Item|"The Magic Belt"}}, {{Item|"The Fall of Man" by Zini}}, {{Item|Gammo's "Legions of Stone"}}
+|-
+|{{Item|Unidentified Poetry Chapbook}}
+|[[Art History]] 25
+|{{Item|"Who Loves Mort?"}}, {{Item|"Rain Dances of the Lost Tribe"}}, {{Item|"Why Are There Bees" by Jim Hatcher}}, {{Item|"Battle of Fok"}}, {{Item|"Sunsets" by Enst}}
+|-
+|{{Item|Unidentified Poetry Volume}}
+|[[Art History]] 30
+|{{Item|"Till The Land By Moonlight"}}, {{Item|"Commentary on Slavery"}}, {{Item|"Horse, Carry My Topaz"}}, {{Item|"Collected Works of Gammo"}}, {{Item|"Kur Hauntings" by Zuk-Ghu}}
+|-
+|{{Item|Unidentified Poetry Book}}
+|[[Art History]] 35
+|{{Item|"Song of Ir-Hetsu"}}, {{Item|"The Tonsils of Truth" by Su-Moltik}}, {{Item|"The Face of Umrad" by Gammo}}, {{Item|"In Defense of Rakshasa Food"}}, {{Item|"The Harpy Lands" by Rosedriah}}
+|}
+=== Previously Identified Poetry ===
+While most poetry is found in the form of unidentified books, a few items can be found that do not require identification.
+*{{Item|Burial Poem}} - Does not grant [[Poetry Appreciation]] experience. Often collected for favor.
+*{{Item|Elven Verse}} - Does not grant [[Poetry Appreciation]] experience. Often collected for favor.
+*{{Item|Translated Goblin Poetry}} - Does not grant [[Poetry Appreciation]] experience. Often collected for favor.
+*{{Item|Goblin Poetry}} - Does not grant [[Poetry Appreciation]] experience. Often collected for favor.
+*{{Item|Rakshasa Poetry}} -Does not grant [[Poetry Appreciation]] experience. Often collected for favor.
+*{{Item|Gruzark's Chapbook}} - A consistent drop from the aspiring Goblin poet [[Gruzark]]. This item is recommended for aspirating poets who plan to attend a Poetry Jam.
+=== Poetry Book Bonuses ===
+*Note that some of the poetry book buffs below may be outdated.
+{| {{STDT|sortable}}
+!Poetry Name
+!Buff
+!Poetry Level
+!XP Earned
+|-
+|{{Item|Poetry Primer}} || None || 0 || 500
+|-
+|{{Item|"Worm Food"}} || +4% Combat XP || 0 || 50
+|-
+|{{Item|Gruzark's Chapbook}} || +25% Psychic Mitigation || 5 || 50
+|-
+|{{Item|"The Magic Belt"}} || +2% Direct Damage || 5 || 75
+|-
+|{{Item|"The Fall of Man" by Zini}} || +4% Combat XP || 5 || 75
+|-
+|{{Item|Gammo's "Legions of Stone"}} || +25% Psychic Mitigation || 10 || 100
+|-
+|{{Item|"Who Loves Mort?"}} || +50 Max Armor || 0 || 50
+|-
+|{{Item|"Rain Dances of the Lost Tribe"}} || +25% Psychic Mitigation || 3 || 75
+|-
+|{{Item|"Why Are There Bees" by Jim Hatcher}} || +2% Crafting XP || 15 || 200
+|-
+|{{Item|"Battle of Fok"}} || +100 Max Armor || 20 || 400
+|-
+|{{Item|"Sunsets" by Enst}}|| +50% Psychic Mitigation || 35 || 750
+|-
+|{{Item|"Till The Land By Moonlight"}} || +4% Direct Damage || 10 || 100
+|-
+|{{Item|"Commentary on Slavery"}} || +4% Direct Damage || 25 || 500
+|-
+|{{Item|"Horse, Carry My Topaz"}} || +3.5% Crafting XP || 30 || 600
+|-
+|{{Item|"Collected Works of Gammo"}} || +75% Psychic Mitigation || 35 || 750
+|-
+|{{Item|"Kur Hauntings" by Zuk-Ghu}} || +150 Max Armor || 45 || 1000
+|-
+|{{Item|"Song of Ir-Hetsu"}} || +2% Direct Damage || 0 || 50
+|-
+|{{Item|"The Tonsils of Truth" by Su-Moltik}} || +8% Combat XP || 7 || 200
+|-
+|{{Item|"The Face of Umrad" by Gammo}} || +5% Crafting XP || 23 || 400
+|-
+|{{Item|"In Defense of Rakshasa Food"}} || +12% Combat XP || 38 || 500
+|-
+|{{Item|"The Harpy Lands" by Rosedriah}} || 6% Direct Damage || 48 || 1000
+|}
+
+=== Complete list of Poetry Items===
+<dpl>
+  category   = Items/Poetry
+  reset      = categories
+  columns = 3
+  mode = userformat
+  format = ,\n* {{Item|%PAGE%}},,
+  allowcachedresults=true
+</dpl>
+=== Poetry Podium ===
+{{Quote|source=Serbule Poetry Podium|
+Here you can recite poetry. You'll need a poetry book (which is destroyed in the process). When you recite a poem aloud, you only earn 1/3 of the [[Poetry Appreciation]] XP that you'd get by reading it privately, but all other nearby players will ALSO earn that much [[Poetry Appreciation]] XP. You will also earn [[Oratory]] XP based on the number of people listening.
+
+Instead of actually forcing players to read an entire book of poems, you will be prompted to enter a short poem yourself. You can write your own poetry or copy-and-paste poetry from elsewhere. (If you use others' poems, make sure to credit them!)
+
+Nearby players will see your poem and can vote on whether they like it or not. You'll get general feedback about how your poem was received, but that feedback has no game-play effects. (Because everybody's a critic).
+}}
+'''Poetry Podiums''' are public locations where poetry can be read aloud to others. It has become common for [[Guilds]] to work together to host public weekly Poetry Jam events.
+===== Podium Locations =====
+; [[Serbule]]
+: The Chortling Beaver ([[Fainor]]'s Inn).
+; [[Red Wing Casino]]
+: Public stage.
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+
+== Poetry Appreciation Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Poetry Appreciation|
+{{:Xptables/TypicalNoncombatSkill_CappedAt50}}
+}}
+
+== Trivia ==
+Poetry Appreciation is probably a reference to [https://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy The Hitchhiker's Guide to the Galaxy]], given that the Vogons used "Poetry Appreciation Chairs", and the fact that all the Poetry books have descriptions talking about how awful they are.
+
+== Gallery==
+
+[[Category:Skills]]

@@ -1,0 +1,13 @@
+==June 9 Update==
+This is a small bug fix update.
+:- Fixed invisible water in [[Tutorial Cave]]
+:- Fixed invisible cinnamon trees
+:- Fixed invisible Frost Spear projectiles
+:- Fixed fairy wings
+:- Fixed the overly-large physics on some trees in Sun Vale
+:- Remade the missing exit-crystal from the cave under the crystal in [[Serbule]]
+:- Raised the water level in one of the lakes in [[Eltibule]]
+:- Serbule fountain water is less solid
+:- We now abort interaction window if you die while examining a corpse
+
+[[Category:Game updates]]

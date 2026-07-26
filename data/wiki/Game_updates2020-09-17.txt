@@ -1,0 +1,21 @@
+==Update Notes: Sept 17, 2020==
+===Bug Fixes/Gameplay Tweaks:===
+:: - Fixed a bug that disabled several framerate optimizations (such as Culling Distance Multiplier)
+:: - Fixed label problem on candles: they said they lasted 45 minutes, but actually last 90
+:: - Fixed bug that let you place 2 buffing candles at once (this is mainly a sanity-check mechanism since players can only have one candle buff at a time anyway)
+:: - Fixed bug that let you place 6 decorative tealights instead of 5 (which was wildly exploitable)
+:: - [[Ultashk]] now demands [[Filthy Animal Fat]] instead of [[Candle Stump]]s to get past his gate
+:: - Some rats had gained the ability to fly; this is fixed
+:: - [[Winter Court Frostmaker]]s didn't advance quests requiring you to kill Winter Court troops in the [[Fae Realm]]
+:: - Made Fae [[Ensign]]s' consoles opaque for purposes of line-of-sight checks (which also means they can't shoot through them)
+:: - Some Fae [[Ensign]]s were unable to hear calls for help
+:: - Fae [[Ensign]]s are more susceptible to mesmerisation
+:: - [[Coldfeather]] is a bit tougher
+:: - [[Captain Evergloam]] is a bit tougher
+:: - Fixed some more treasure buffs that kept working after switching combat skills
+:: - Fixed coloring on named grimalkin "[[Hissy]]" and "[[Chopjaw]]" (this is a temp patch until animal genetics are enabled, at which point each instance of these creatures will have a slightly different color chosen by their genetics; for now their coloration is always max-intensity)
+:: - Improved the new "Alarmer" behavior, which is used by [[Captain Evergloam]] (and entourage), as well as by security aboard the Wintertide. (Creatures with this behavior will have "Alarmer" listed in their portrait tags when selected.) Previously, Alarmers called for help whenever they used an ability. Now, they call for help as soon as they enter combat and every 4 seconds during combat, except when stunned, mezzed, or feared. (Note that this change makes Fearing an Alarmer creature very dangerous: they won't actually shout for help while fleeing, but they will shout as soon as they return to normal combat. So watch out for that.)
+:: - Changed which animals can drop animal fat. (The intent is that mammalian-type animals will drop fat as an organ.) Some creatures such as bees and dinosaurs were dropping fat, and no longer are. Other creatures such as fae bears and entourage panthers did not drop fat, and now do. A few creatures have changed what type of fat they drop. (The type of fat is based on the level and the general role of the creature; meat animals such as cows, goats, and deer will have the best fat drops for their level.)
+
+<noinclude>'''[[Game updates|Click here to return to the Game Updates page.]]'''</noinclude>
+[[Category:Game updates]]

@@ -1,0 +1,95 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Spark of Death
+| description = Blast the target with electricity.
+| level = 5
+| power cost = 9
+| reuse time = 8
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|SparkOfDeath}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 14 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Spark of Death 2
+| description = Blast the target with electricity.
+| level = 14
+| power cost = 12
+| reuse time = 8
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|SparkOfDeath}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 22 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Spark of Death 3
+| description = Blast the target with electricity.
+| level = 27
+| power cost = 16
+| reuse time = 8
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|SparkOfDeath}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 45 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Spark of Death 4
+| description = Blast the target with electricity.
+| level = 37
+| power cost = 19
+| reuse time = 8
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|SparkOfDeath}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 68 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Spark of Death 5
+| description = Blast the target with electricity.
+| level = 51
+| power cost = 22
+| reuse time = 8
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|SparkOfDeath}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 124 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Spark of Death 6
+| description = Blast the target with electricity.
+| level = 65
+| power cost = 26
+| reuse time = 8
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|SparkOfDeath}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 185 Electricity
+}}
+|-
+|
+{{Ability infobox
+| name = Spark of Death 7
+| description = Blast the target with electricity.
+| level = 77
+| power cost = 30
+| reuse time = 8
+| range = 20 meters
+| skill = Necromancy
+| keywords = {{KWAB|Attack}}{{KWAB|Necromancy}}{{KWAB|SparkOfDeath}}{{KWAB|CoreAttack}}{{KWAB|Ranged}}
+| damage = 245 Electricity
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

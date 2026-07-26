@@ -1,0 +1,64 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Redirect
+| description = Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.)
+| level = 30
+| power cost = 20
+| reuse time = 30
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Redirect}}{{KWAB|StaffAttack}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 51 Crushing
+| special = Target is knocked backwards.
+}}
+|-
+|
+{{Ability infobox
+| name = Redirect 2
+| description = Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.)
+| level = 46
+| power cost = 26
+| reuse time = 30
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Redirect}}{{KWAB|StaffAttack}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 102 Crushing
+| special = Target is knocked backwards.
+}}
+|-
+|
+{{Ability infobox
+| name = Redirect 3
+| description = Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.)
+| level = 65
+| power cost = 32
+| reuse time = 30
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Redirect}}{{KWAB|StaffAttack}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 185 Crushing
+| special = Target is knocked backwards.
+}}
+|-
+|
+{{Ability infobox
+| name = Redirect 4
+| description = Use your staff to knock an enemy back, making it easier for an ally to take over the fight. (The enemy is likely to choose a different target if one is nearby.)
+| level = 81
+| power cost = 38
+| reuse time = 30
+| range = 5 meters
+| skill = Staff
+| keywords = {{KWAB|Attack}}{{KWAB|Staff}}{{KWAB|Redirect}}{{KWAB|StaffAttack}}{{KWAB|Melee}}
+| ragemulti = 0
+| damage = 266 Crushing
+| special = Target is knocked backwards.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

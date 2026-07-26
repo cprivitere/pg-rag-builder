@@ -1,0 +1,108 @@
+__NOTOC__
+{| width=100%
+|-
+|
+{{Ability infobox
+| name = Song of Resurgence
+| description = Play a song that restores health to all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 2
+| power cost = 13
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfResurgence}}
+| special = Restores 7 Health to Nearby Allies Every 4 seconds. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Resurgence 2
+| description = Play a song that restores health to all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 12
+| power cost = 17
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfResurgence}}
+| special = Restores 9 Health to Nearby Allies Every 4 seconds. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Resurgence 3
+| description = Play a song that restores health to all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 25
+| power cost = 22
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfResurgence}}
+| special = Restores 11 Health to Nearby Allies Every 4 seconds. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Resurgence 4
+| description = Play a song that restores health to all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 33
+| power cost = 26
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfResurgence}}
+| special = Restores 13 Health to Nearby Allies Every 4 seconds. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Resurgence 5
+| description = Play a song that restores health to all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 45
+| power cost = 31
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfResurgence}}
+| special = Restores 15 Health to Nearby Allies Every 4 seconds. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Resurgence 6
+| description = Play a song that restores health to all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 55
+| power cost = 34
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfResurgence}}
+| special = Restores 17 Health to Nearby Allies Every 4 seconds. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Resurgence 7
+| description = Play a song that restores health to all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 65
+| power cost = 38
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfResurgence}}
+| special = Restores 19 Health to Nearby Allies Every 4 seconds. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|-
+|
+{{Ability infobox
+| name = Song of Resurgence 8
+| description = Play a song that restores health to all nearby allies. You must have a lute equipped. You can only have one 'Song' ability active at a time.
+| level = 75
+| power cost = 43
+| reuse time = 2
+| range = 30 meters
+| skill = Bard
+| keywords = {{KWAB|BardSong}}{{KWAB|SongOfResurgence}}
+| special = Restores 21 Health to Nearby Allies Every 4 seconds. Effect continues for 60 seconds, or until you move or use a different Song.
+}}
+|}
+<noinclude>[[Category:Abilities]]</noinclude>

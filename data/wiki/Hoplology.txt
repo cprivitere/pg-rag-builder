@@ -1,0 +1,54 @@
+__NOTOC__
+{{Skill infobox
+|title            = Hoplology
+|image            = [[File:Empty_Placeholder.png]]
+|caption          = The study of weapons and armor, with a focus on the benefits and weaknesses of different kinds of equipment. As the skill increases, Staff users will find that their combat abilities also restore Armor.
+|skilltype        = Other Skill
+|maxlevel         = 100
+|req              = N/A
+|skilltrainers    = N/A
+}}
+{{Quote|
+The Book begins, "I am slowly going mad from the lycan disease. I am writing down everything I know of the art of combat. It is so much deeper than most people realize! Each piece of armor and weaponry has subtle distinctions, and mastering these distinctions gives you tremendous leverage in battle.
+
+I would be pleased and honored if whoever reads this were to follow my lessons and learn my life's work. It may not apply to all warriors, but I at least guarantee you will become a better staff fighter!"
+}}
+== {{msg:BASEPAGENAME}} Overview==
+[[Hoplology]] is secondary non-combat skill for [[Staff]] fighting.
+=== In-Game Description ===
+The study of weapons and armor, with a focus on the benefits and weaknesses of different kinds of equipment. As the skill increases, Staff users will find that their combat abilities also restore Armor.
+=== Training {{msg:BASEPAGENAME}} ===
+* Learned from reading a skill-book on the ground in [[Timothy Elerimon]]'s part of [[Wolf Cave]].
+* To track your personal progress studying items, you can make a copy of this checklist:
+** https://docs.google.com/spreadsheets/d/1KKzUHJoDxwgL3aZmvnRly6CQpSbZ3aExsweB85_3ZmE/edit?usp=sharing
+
+== Connected Skills ==
+===== Sub-Skills: =====
+* None
+===== Secondary Skills: =====
+* [[Staff]] - [[Hoplology]] provides bonuses to users of [[Staff]] fighting.
+===== Related Skills: =====
+* None
+===== Synergy Levels: =====
+Bonus [[Synergy Levels]] for [[Hoplology]] can be obtained from the following skills and levels:
+:; [[Safecracking]]
+:: Level 40
+== Recipe Lists ==
+{{:{{msg:BASEPAGENAME}}/Recipes}}
+
+== {{msg:BASEPAGENAME}} Mechanics ==
+=== Leveling Hoplology ===
+* [[Hoplology]] is leveled when a new base item classified as equipment is identified using the skill. After successfully studying a new item, there is a five minute cooldown on the recipe.
+* Treasure effects are ignored by [[Hoplology]]. A <span class="extimage32px">{{Item icon|Basic Sword}}</span> '''Basic Sword of Many Cuts''' is the same item as a <span class="extimage32px">{{Item icon|Basic Sword}}</span> '''Basic Sword of  the Wind.''' Both are classified as a {{Item|Basic Sword}}.
+
+{{:{{msg:BASEPAGENAME}}/Stat Bonuses}}
+
+{{:{{msg:BASEPAGENAME}}/Level Up Rewards}}
+== Hoplology Experience Table ==
+{{Spoiler|Click Expand to view the Experience Table for Hoplology|
+{{:Xptables/Hoplology}} 
+}}
+== Trivia ==
+* In January 2015, the training book temporarily vanished due to a bug!
+
+[[Category:Skills]]
