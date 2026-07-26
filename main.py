@@ -17,7 +17,7 @@ def main():
 
     import json
 
-    with open("documents.json", "w", encoding="utf-8") as f:
+    with open("data/documents.json", "w", encoding="utf-8") as f:
         json.dump(
             documents,
             f,
@@ -26,19 +26,6 @@ def main():
         )
 
     print("Saved documents.json")
-
-    query = "Bunny Juice"
-
-    matches = [
-        doc for doc in documents
-        if query.lower() in doc["text"].lower()
-    ]
-
-    print(f"Found {len(matches)} matches")
-
-    for doc in matches[:5]:
-        print("\n---")
-        print(doc["text"])
 
     print(f"Created {len(documents)} documents")
 

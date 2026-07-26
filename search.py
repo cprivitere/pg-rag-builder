@@ -2,7 +2,7 @@ import json
 
 
 def load_documents():
-    with open("documents.json", "r", encoding="utf-8") as f:
+    with open("data/documents.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
 def search_documents(documents, query, doc_type=None):

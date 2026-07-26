@@ -17,6 +17,9 @@ Internal Name:
 Keywords:
 {', '.join(item.get('Keywords', []))}
 
+Usage:
+{item.get('Description', '')}
+
 Description:
 {item.get('Description', '')}
 
@@ -33,7 +36,8 @@ Value:
             "text": text.strip(),
             "metadata": {
                 "source": "cdn",
-                "table": "items"
+                "table": "items",
+                "name": item.get("Name", item_id)
             }
         })
 
@@ -133,5 +137,22 @@ def build_documents(db):
 
     documents.extend(build_item_documents(db))
     documents.extend(build_recipe_documents(db))
+
+    for doc in documents:
+        doc.setdefault("metadata", {})
+
+        doc["metadata"]["type"] = doc["type"]
+
+        if "name" not in doc["metadata"]:
+            lines = doc["text"].splitlines()
+
+            for line in lines:
+                if line.startswith("Item: "):
+                    doc["metadata"]["name"] = line.replace("Item: ", "")
+                    break
+
+                if line.startswith("Recipe: "):
+                    doc["metadata"]["name"] = line.replace("Recipe: ", "")
+                    break
 
     return documents
