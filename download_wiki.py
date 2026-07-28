@@ -1,3 +1,4 @@
+import json
 import os
 import time
 import random
@@ -5,6 +6,8 @@ import requests
 from mwclient import Site
 from mwclient import errors as mw_errors
 from config import WIKI_DIR
+
+META_FILE = WIKI_DIR / ".meta.json"
 
 WIKI_HOST = "wiki.projectgorgon.com"
 WIKI_PATH = "/w/"
@@ -74,6 +77,32 @@ def download_page(page, file_path):
     return False
 
 
+def load_metadata():
+    if META_FILE.exists():
+        return json.loads(META_FILE.read_text())
+    return {}
+
+
+def save_metadata(meta):
+    META_FILE.parent.mkdir(parents=True, exist_ok=True)
+    META_FILE.write_text(json.dumps(meta, indent=2))
+
+
+def batch_fetch_touched(site, page_names):
+    touched = {}
+    for i in range(0, len(page_names), 50):
+        batch = page_names[i:i+50]
+        result = site.api(
+            action="query",
+            titles="|".join(batch),
+            prop="info",
+        )
+        for pid, info in result.get("query", {}).get("pages", {}).items():
+            if int(pid) > 0 and "touched" in info:
+                touched[info["title"]] = info["touched"]
+    return touched
+
+
 def main():
     WIKI_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -108,20 +137,42 @@ def main():
     total_count = len(pages_to_download)
     print(f"Queue verified. Found {total_count} unique items to evaluate.")
 
+    meta = load_metadata()
+    all_titles = [p.name for p in pages_to_download]
+    print("Fetching page timestamps for freshness check...")
+    touched_map = batch_fetch_touched(site, all_titles)
+
+    new_count = 0
+    updated_count = 0
+    skipped_count = 0
+
     for index, page in enumerate(pages_to_download, 1):
         filename = get_safe_filename(page.name, index)
         file_path = os.path.join(WIKI_DIR, filename)
 
-        if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
-            print(f"[{index}/{total_count}] Skipping (Already Downloaded): {page.name}")
+        stored_touched = meta.get(page.name)
+        current_touched = touched_map.get(page.name)
+        file_exists = os.path.exists(file_path) and os.path.getsize(file_path) > 0
+
+        if file_exists and stored_touched == current_touched:
+            print(f"[{index}/{total_count}] Skipping (unchanged): {page.name}")
+            skipped_count += 1
             time.sleep(random.uniform(0.1, 0.2))
             continue
 
-        print(f"[{index}/{total_count}] Downloading: {page.name}")
-        download_page(page, file_path)
+        if not file_exists:
+            print(f"[{index}/{total_count}] Downloading (new): {page.name}")
+            new_count += 1
+        else:
+            print(f"[{index}/{total_count}] Downloading (updated): {page.name}")
+            updated_count += 1
+
+        if download_page(page, file_path):
+            meta[page.name] = current_touched
         time.sleep(random.uniform(BASE_DELAY, BASE_DELAY * 2))
 
-    print(f"Complete. Data saved to '{WIKI_DIR}' directory.")
+    save_metadata(meta)
+    print(f"Complete. {new_count} new, {updated_count} updated, {skipped_count} skipped. Saved to '{WIKI_DIR}'.")
 
 
 if __name__ == "__main__":
