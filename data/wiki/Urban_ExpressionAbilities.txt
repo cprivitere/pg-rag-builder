@@ -1,8 +1,0 @@
-<noinclude>[[Category:Abilities]]</noinclude><includeonly>
-==[[{{msg:BASEPAGENAME}}/Abilities|{{msg:BASEPAGENAME}} Complete Ability List]]==
-</includeonly>
-Click "Expand" on the box below to view a complete list of Abilities for the {{msg:BASEPAGENAME}} skill.
-{| {{STDT|sortable mw-collapsible<includeonly> mw-collapsed</includeonly>}} style='width:100%;'
-! Level !! Name !! Description !! Special !! style="width: 11%; text-align: center;" | Damage !! style="width: 11%; text-align: center;" | Stats !! Gear Required !! style="width: 5%; text-align: center;" |
-|-
-|}

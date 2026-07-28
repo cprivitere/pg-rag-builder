@@ -1,8 +1,0 @@
-==<b>August 17 Update</b>==
-;Just some bug fixes:
-:- Fixed some bad specular maps on thatched roofs
-:- Fixed portal into [[Serbule Crypt]]
-:- Fixed the lore items in the brain bug cave
-:- Winter Worgs are visible again (not the correct blue appearance... but at least visible)
-:- Improved moderation tools
-[[Category:Game updates]]

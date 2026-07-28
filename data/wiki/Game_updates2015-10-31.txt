@@ -1,7 +1,0 @@
-==<b>Oct 31 Note - Happy Halloween!</b>==
-:As mentioned earlier, the Halloween update did not happen on time due to Reasons. I expect an update to land on the live server next weekend, but it may or may not have the Halloween content (depending on if I can get it done). If it doesn't have the Halloween stuff, that'll come the next weekend after.
-===<b>Important Warning About The Next Update:</b>===
-:One of the many changes in the next update is a complete revision of the Augment Brewing skills. You will retain your level in these skills, but '''any augmentation recipe books or unused oils will disappear when the next update arrives.'''
-: '''You should sell them or use them right away.'''
-:The new augmentation system has a way for master craftsmen to undo an augment so that you can apply a different augment to it. However, the old-style oils that are in the game right now cannot be undone, because they weren't coded to support it. So if you use an existing oil, it will be permanent. Keep that in mind when deciding whether to use or sell your stockpiles of oils!
-[[Category:Game updates]]

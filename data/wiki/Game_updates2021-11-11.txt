@@ -1,9 +1,0 @@
-==Hotfix Notes: November 11==
-We updated the game client on Steam to fix a couple of UI problems:
-: - fixed issues with the group window still sometimes losing track of group members
-: - fixed issues with errant effect icons when examining monsters
-
-The Halloween event has ended! We'll have some new Thanksgiving-ish activities for you in an update next week.
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

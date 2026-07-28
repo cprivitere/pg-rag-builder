@@ -1,6 +1,0 @@
-==Update Notes: Oct 9, 2024==
-Server was rebooted to address issues some users have when loading into new areas. This is a temp fix that should resolve the issue while we search for the underlying client issues.
-
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

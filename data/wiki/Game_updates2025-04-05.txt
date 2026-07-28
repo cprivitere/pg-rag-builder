@@ -1,7 +1,0 @@
-==News: April 5, 2025==
-Thank you to the people who emailed us player logs! We've located the problem that causes the "An asset failed to load, continuing anyway" bug, and believe we have a fix for it. It will roll out in another bug-fix update soon.
-
-So at this time we don't need more logs for this bug. Thanks again!
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

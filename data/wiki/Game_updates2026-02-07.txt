@@ -1,6 +1,0 @@
-==Update Notes: February 7, 2026==
-:- Increased respawn rate for most spawners in Serbule, Serbule Hills, and Eltibule. These spawners will now maintain a minimum number of live spawns, preventing too much overall zone depletion.
-:- Similarly increased respawn in newbie dungeons, but to less dramatic extent
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

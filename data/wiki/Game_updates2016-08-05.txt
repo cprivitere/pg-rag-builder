@@ -1,7 +1,0 @@
-==<b>August 5 Note</b>==
-: Some users are apparently unable to fix their stuck characters with the work-around below. While we wait for Unity to patch the bug, we have added another work-around. Log in with a DIFFERENT character that is not stuck and use the chat command "/unstickchar Bob", where Bob is the name of the stuck character. This will move your stuck character to Anagoge Island, where we do not have any reports of stuck characters. '''Please do not abuse this temporary tool. Just use it to get un-stuck.'''
-:: - Rebooted the server to install this feature at 5am EDT
-:: - Also fixed cheese barrels
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

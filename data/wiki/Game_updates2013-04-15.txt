@@ -1,4 +1,0 @@
-;Wiki Editor Note - The precise day of this update is unknown, but it happened between 4/13/2013 and 4/17/2013.
-== Bug Fix 4/15/2013 ==
-* Player Cows can be milked.
-[[Category:Game updates]]

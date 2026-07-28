@@ -1,7 +1,0 @@
-== March 5th Update==
-===Calling Test-Server Players!===
-If you have been given an account on the test server, your services are once again required for the betterment of Alharth. There are many changes to give feedback on, including boss changes, crowd control changes, and more. Thanks!
-
-=== March 5th Note ===
-- The recent update changed how the "Hang Out" NPC option is displayed -- it disappears unless there are actual hang-outs available. This is apparently very confusing, so it will be reverted in the next update!
-[[Category:Game updates]]

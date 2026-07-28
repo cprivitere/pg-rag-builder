@@ -1,3 +1,0 @@
-==Feb 19 Note==
-:We had some lag and connectivity problems tonight. I caused some of them with an ill-timed SQL command, and then our service provider had a hardware failure. So it's been fun. Should be back up and working well now, sorry for the troubles!
-[[Category:Game updates]]

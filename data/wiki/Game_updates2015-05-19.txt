@@ -1,5 +1,0 @@
-==May 19 Note==
-
-Calling all test-server testers! Please log into the test server and check things out. The new version uses Unity 5, so all the rendering and lighting is new. Please let me know how it's working! (There are detailed notes in the test server login screen.)
-
-[[Category:Game updates]]

@@ -1,7 +1,0 @@
-==Feb 8 Note==
-:I had to ban several people today for using speed hacks, including one user who had been very helpful in the past. This makes me very sad. But as I've said repeatedly, cheating is even MORE problematic now than it will be in the final game! When the game is launched, it's just cheating. But right now, it's also ruining all my data collection, making it much harder to improve the game.
-
-:The server records lots of information, and I can look at the logs and spot speed-hacking with pretty high confidence. Eventually I'll write code that automatically detects this, but it's complicated to automate, so I haven't gotten to it yet. That doesn't mean it's okay to speed hack in the mean time.
-
-:Next update is still in the works, will have happier news soon!
-[[Category:Game updates]]

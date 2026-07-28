@@ -1,5 +1,0 @@
-===Update Notes: November 21, 2022===
-Linux users have a new version of the game that fixes the "super brightness bug". (If you are still experiencing this bug please make sure you actually have the patch -- you may need to restart Steam to see it.)
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

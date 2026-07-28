@@ -1,7 +1,0 @@
-==Update: Aug 21, 2024==
-This was a server-only update, no new Steam download needed.
-:- Fixed stability issue with combat which could cause monsters and players to behave oddly
-:- Ended an experiment from previous update, the "Burst Radius Bonus" system (see below). This let burst attacks have more than 3 full-damage targets depending on the radius-size of the burst. This was a powerful buff to both players and monsters, and was an interesting experiment, but needs more study. We'll be back with more combat experiments soon.
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

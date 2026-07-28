@@ -1,4 +1,0 @@
-==June 17==
-Server is back up from maintenance! We changed the DNS, and while it should have propagated already, if you have problems connecting to the server, please give it an hour for your DNS to catch up. (Rebooting your machine often helps also.)
-Thanks for your patience as we work through these issues! Next actual update is scheduled for early next week.
-[[Category:Game updates]]

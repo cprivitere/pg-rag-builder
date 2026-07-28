@@ -1,9 +1,0 @@
-==Update Notes: January 21, 2026==
-We've temporarily disabled the following treasure effect because it has an exploitable bug:
-
-;"Flamestrike deals +X direct damage. When you have Flamestrike on your ability bar and you're injured by an enemy attack, that enemy is struck by Flamestrike X. The cooldown on this effect is the same as your reuse time for Flamestrike."
-
-In the very short term, this effect has changed so that it causes confetti to rain on the target rather than dealing damage. We apologize for the inconvenience. This will be fixed in the next real game update (in a few days).
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

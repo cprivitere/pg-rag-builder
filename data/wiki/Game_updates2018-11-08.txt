@@ -1,7 +1,0 @@
-=== Nov 8 Update ===
-This is a small bug-fix update.
-: - Turned off the Halloween event
-: - Fixed some bugs with water disappearing while using the new experimental '''SphereCull''' feature
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

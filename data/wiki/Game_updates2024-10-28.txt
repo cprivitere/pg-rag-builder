@@ -1,7 +1,0 @@
-==Update Notes: October 28, 2024==
-Minor client fix to improve stability. There is one new very minor feature: if you hold down the SHIFT key on your keyboard while pressing the Quit button in-game, the game will open an Explorer window to the folder that contains the game's log file. If you are experiencing problems logging in, we may ask you for your player log, and this is an easier way to find it.
-
-Note: this bugfix update was client-only, meaning that Steam updated, but the game server was not taken offline. If you are reading this early on Oct 28, you may need to restart Steam to detect the update. (If you're concerned, you can check the Settings screen in-game: it should say that the current version is "0.4.255 Improved Edition". If it just says "0.4.255", you still need to get the patch through Steam.)
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

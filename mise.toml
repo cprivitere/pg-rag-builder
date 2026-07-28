@@ -1,2 +1,17 @@
 [tools]
 python = "latest"
+
+[tasks.test]
+run = "uv run python -m pytest tests/"
+description = "Run test suite"
+alias = "t"
+
+[tasks.refresh]
+run = "uv run python main.py && uv run python -m vectorstore.build_index"
+description = "Rebuild documents from CDN/wiki data, then update vectorstore index"
+alias = "r"
+
+[tasks.validate]
+run = "uv run python -m vectorstore.health_check && echo 'Index healthy' || (echo 'Rebuilding...' && uv run python -m vectorstore.build_index)"
+description = "Validate vectorstore health; rebuild if issues found"
+alias = "v"

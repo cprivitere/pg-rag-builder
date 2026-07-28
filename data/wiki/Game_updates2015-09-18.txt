@@ -1,5 +1,0 @@
-==<b>September 18 Note</b>==
-:There is a new patcher available on the website. This new version starts up much faster when there are no new patches to download.''' It's backwards compatible so you don't HAVE to download it, but I recommend it! '''(It will start being faster on the second time you start it; during the first run it has to cache some numbers.)
-:This version also has a new button under "Options", which lets you validate that your installation is downloaded correctly.
-:On an unrelated note, we have switched to a new content delivery network after many complaints about Amazon's CDN. (They also have outrageously high bills!) Hopefully this new one will speed up downloads a bit. We'll see more after the next game update, coming soon.
-[[Category:Game updates]]

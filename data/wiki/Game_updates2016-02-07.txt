@@ -1,5 +1,0 @@
-==Feb 7 Update==
-: Just a quick reboot to fix the broken cotton gin in [[Eltibule]].
-: Other known bugs will be fixed later: delivery quests are auto-completing as soon as you receive them; [[Battle Chemistry]] golems are not always standing close enough to their owner to use some of their abilities
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

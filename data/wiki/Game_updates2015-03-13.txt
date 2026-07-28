@@ -1,3 +1,0 @@
-== March 13: Test Server Updated Again! ==
-Test-server players, there's one more update live now. This one completely redoes a bunch of game mechanics, and I'm gonna put it live Sunday, so if you have a half hour to poke at it and spot any really stupid bugs or design flaws, I'd appreciate it!
-[[Category:Game updates]]

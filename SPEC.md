@@ -28,6 +28,7 @@ coll: `project_gorgon` → ChromaDB collection name
 cmd: `uv run python -m tests.test_retrieval` → interactive Chroma similarity search (stdio)
 cmd: `uv run python -m tests.test_embedding` → manual embedding vector inspect (stdio)
 cmd: `uv run python -m tests.test_similarity` → manual cosine similarity print (stdio)
+cmd: `uv run python vectorstore/health_check.py` → validate existing ChromaDB index, exit 0 if OK, exit 1 with report on issues
 
 ## §V — Invariants
 
@@ -44,6 +45,9 @@ V10: Collection embedding dimension stable ∀ build passes. On build start: que
 V11: Document before hash: `id` ∈ keys ∧ `text` ∈ keys. ⊥ pass malformed doc to hash — ⊥ partial index state on crash.
 V12: Embedding vector validated before ChromaDB upsert. ∀ vector: non-empty, list of float, length matches expected dimension. ⊥ pass untyped/empty/mismatched vector.
 V13: On build start: query existing collection embedding dimension, assert match against expected, abort on mismatch.
+V14: Full build pipeline validated via integration test against a temp ChromaDB — verify docs upserted, dims match, deleted docs purged, metadata-only updates skip re-embed. ⊥ changes to build_index without integration test.
+V15: Health-check/audit command exists to validate existing ChromaDB index outside the build process. Check: embedding dim matches config, doc count vs expected, no orphaned metadata.
+V16: Health-check verifies hash integrity of every indexed doc — embedding_hash(id+text) and metadata_hash(metadata sans type/hash fields) compared against stored values. ⊥ corrupted hash passes health-check.
 
 ## §T — Tasks
 
@@ -63,6 +67,10 @@ V13: On build start: query existing collection embedding dimension, assert match
 | T12 | x | Build wiki documents from `db.wiki` — parse wiki markup via mwparserfromhell, section-split, match V6 metadata shape | V6, I.wiki_loader |
 | T13 | x | Validate embedding response shape before upsert — non-empty, list of float, consistent length | V12, B3 |
 | T14 | x | Check ChromaDB collection dimension at build start — abort on mismatch | V13, B4 |
+| T15.1 | x | Integration test: build_index against temp ChromaDB, verify docs upserted with correct dim | V14 |
+| T15.2 | x | Integration test: deleted doc purged from ChromaDB after build | V14 |
+| T15.3 | x | Integration test: metadata-only change uses update, not re-embed | V14 |
+| T16 | x | Add health-check/audit script to validate existing ChromaDB index — check dim, doc count, orphaned metadata | V15 |
 
 ## §B — Bugs
 

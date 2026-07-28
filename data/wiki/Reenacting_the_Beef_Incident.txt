@@ -1,9 +1,0 @@
-==Summary==
-[[Farsight Flemmings]] wants you to re-enact the events in Vidaria surrounding the sentient steak. (NOTE: you MUST use the downstairs fireplace in the inn to cook the Burnt Steak. The upstairs will complete the first step but will NOT trigger the second step)
-
-
-===Requirements===
-* Cook [[Burnt Steak]] at the Inn in Vidaria 
-* Defend yourself (0/3)
-
-[[Category:Quests]][[Category:Quests/Statehelm Quests]][[Category:Quests/Farsight Flemmings]]

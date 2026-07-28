@@ -16,16 +16,19 @@ def load_documents():
 def _get_existing_dim(collection):
     # lightweight — fetches full vector only to check its length
     existing = collection.get(limit=1, include=["embeddings"])
-    if existing["ids"] and existing["embeddings"] and existing["embeddings"][0]:
-        return len(existing["embeddings"][0])
+    if len(existing["ids"]) > 0 and len(existing["embeddings"]) > 0:
+        emb = existing["embeddings"][0]
+        if emb is not None and len(emb) > 0:
+            return len(emb)
     return None
 
 
-def build_index():
-    documents = load_documents()
+def build_index(documents=None, chroma_path="data/chroma"):
+    if documents is None:
+        documents = load_documents()
 
     client = chromadb.PersistentClient(
-        path="data/chroma"
+        path=chroma_path
     )
 
     collection = client.get_or_create_collection(

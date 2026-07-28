@@ -1,5 +1,0 @@
-==Update Notes: November 23, 2024==
-- Server was rebooted to fix an issue with Combat Wisdom being given out for incorrect monsters.
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

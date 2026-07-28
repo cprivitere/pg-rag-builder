@@ -1,7 +1,0 @@
-== March 1st Pre-patch message ==
-The following bugs will be fixed shortly:
-: - Druids cannot become ravens in [[Eltibule]]
-: - [[Oritania]] does not accept her delivery from [[Larsan]]'s new Favor task
-:  - Characters are not showing up during character-creation or character-selection screen
-The patch update will be late tonight (Sunday), probably in the wee hours of the morning.
-[[Category:Game updates]]

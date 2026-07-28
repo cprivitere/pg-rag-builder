@@ -1,6 +1,0 @@
-==December 5, 2014==
-Added some new server metrics logging, which caused some stability problems for a little bit, but I think I've got it all working now.
-
-This update also fixed some buggy item effects, but shouldn't otherwise have any noticeable changes.
-
-[[Category: Game updates]]

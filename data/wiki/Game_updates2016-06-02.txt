@@ -1,8 +1,0 @@
-==<b>June 2 Update</b>==
-We pushed out a tiny  server-only hotfix to fix a bug that was causing members of a particular guild to be unplayable.
-:Also included in this hotfix:
-::- [[Pig]] Rend effects should no longer cause damage to the pig instead of the target.
-::- The drop rate of Lost Notus Records have been tweaked slightly. 
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

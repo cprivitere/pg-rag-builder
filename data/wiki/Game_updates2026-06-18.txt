@@ -1,5 +1,0 @@
-===Update Failed: Trying Again Tomorrow===
-We took the servers offline for an update, but there was a technical problem and we couldn't actually do the update. Game is same as before for now; we'll hopefully update tomorrow!
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

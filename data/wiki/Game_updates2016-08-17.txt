@@ -1,7 +1,0 @@
-==<b>August 17 Update</b>==
-: This is a client update to alleviate the crashing in [[Kur Mountains]]. We finally found a graphics card that can repro the constant crash that some users experienced. (Our regular test cards, both nvidia and amd, handled Kur fine.) : The changes in this update resolve the issue for the card we could test on, so I suspect it will resolve the problem for other similar cards, too.
-: I believe there are still some crashing bugs in Unity 5.4, but they should be a lot less prevalent.
-: There are no other changes in this update.
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

@@ -1,6 +1,0 @@
-==<b>Feb 23 Note</b>==
-:Hi guys, the update is slowly but steadily coming! (Probably another week.) It's a big one. And it has many gear changes, as well as some skill and monster changes. I know those can be very tough on you guys, especially high-level players, so I've been looking for ways to make it a little easier to revise your character. What we'll do in the next update is give you unlimited Transmutation rolls for a limited time. So, basically, if you decide your hammer sucks after the update, and you have a lot of phlogiston, you'll be able to re-roll the hammer as often as needed. We'll do unlimited re-rolls for a week or so. I'm not sure if this will be a thing we do more than once, but we'll see how it goes. I mention it now so that you can save up phlogiston if you want to. 
-:There are a couple of other changes to [[Transmutation]] after the update, too: transmutation consumes a bit more phlogiston than it did before, but you can no longer get repeated downgrade "cascades" that cause your item to become junk.
-:Excited about the update, it's finally starting to come together and I think you'll enjoy it.
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]

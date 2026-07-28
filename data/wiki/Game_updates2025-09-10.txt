@@ -1,5 +1,0 @@
-==Update Notes: September 10, 2025==
-We rebooted the sub-servers to address some issues with pets getting stuck. If there are still problems, we could use your data! If you have an Animal Handling pet that stops moving, please Examine the pet, scroll to the bottom of the examination window and take a screen shot of the Debug Info at the bottom. Then paste that into the discord thread about pet problems. Thanks!
-
-'''[[Game updates|Click here to return to the Game Updates page.]]'''
-[[Category:Game updates]]
