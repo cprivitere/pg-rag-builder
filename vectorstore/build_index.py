@@ -1,12 +1,24 @@
 import json
 import chromadb
 
-from embeddings.llama_embeddings import embed_batch
-from vectorstore.hashes import document_hash
+from embeddings.llama_embeddings import embed_batch, validate_embeddings
+from vectorstore.hashes import embedding_hash, metadata_hash
+
+BATCH_SIZE = 5000
+EMBED_BATCH_SIZE = 1000
+
 
 def load_documents():
     with open("data/documents.json", "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def _get_existing_dim(collection):
+    # lightweight — fetches full vector only to check its length
+    existing = collection.get(limit=1, include=["embeddings"])
+    if existing["ids"] and existing["embeddings"] and existing["embeddings"][0]:
+        return len(existing["embeddings"][0])
+    return None
 
 
 def build_index():
@@ -20,6 +32,12 @@ def build_index():
         name="project_gorgon"
     )
 
+    expected_dim = _get_existing_dim(collection)
+    if expected_dim is not None:
+        print(f"Existing collection dimension: {expected_dim}")
+    else:
+        print("No existing collection — skipping dimension check")
+
     existing = collection.get(
         include=["metadatas"]
     )
@@ -30,8 +48,11 @@ def build_index():
         existing["ids"],
         existing["metadatas"]
     ):
-        existing_hashes[doc_id] = metadata["hash"]
-
+        if "embedding_hash" in metadata:
+            existing_hashes[doc_id] = {
+                "embedding_hash": metadata["embedding_hash"],
+                "metadata_hash": metadata["metadata_hash"],
+            }
 
     current_ids = set(
         doc["id"] for doc in documents
@@ -53,39 +74,72 @@ def build_index():
         print("No deleted documents found")
 
     documents_to_embed = []
+    metadata_only_updates = []
 
     for doc in documents:
         doc_id = doc["id"]
-        doc_hash = document_hash(doc)
+        doc_embed_hash = embedding_hash(doc)
+        doc_meta_hash = metadata_hash(doc)
 
-        if existing_hashes.get(doc_id) == doc_hash:
-            continue
+        existing = existing_hashes.get(doc_id)
+
+        if existing is not None:
+            existing_embed_hash = existing.get("embedding_hash")
+            existing_meta_hash = existing.get("metadata_hash")
+
+            if existing_embed_hash == doc_embed_hash and existing_meta_hash == doc_meta_hash:
+                continue
+
+            if existing_embed_hash == doc_embed_hash and existing_meta_hash != doc_meta_hash:
+                metadata_only_updates.append(doc)
+                continue
 
         documents_to_embed.append(doc)
 
     print(
-        f"Need to embed {len(documents_to_embed)} "
-        f"of {len(documents)} documents"
+        f"Need to embed {len(documents_to_embed)} of {len(documents)} documents"
     )
+
+    if metadata_only_updates:
+        print(f"Metadata-only updates: {len(metadata_only_updates)} documents")
+
+        meta_ids = []
+        meta_metadatas = []
+
+        for doc in metadata_only_updates:
+            metadata = dict(doc["metadata"])
+            metadata["type"] = doc["type"]
+            metadata["embedding_hash"] = embedding_hash(doc)
+            metadata["metadata_hash"] = metadata_hash(doc)
+
+            meta_ids.append(doc["id"])
+            meta_metadatas.append(metadata)
+
+        for i in range(0, len(meta_ids), BATCH_SIZE):
+            print(
+                f"Updating metadata {i} - {min(i + BATCH_SIZE, len(meta_ids))}"
+            )
+
+            collection.update(
+                ids=meta_ids[i:i + BATCH_SIZE],
+                metadatas=meta_metadatas[i:i + BATCH_SIZE]
+            )
 
     ids = []
     embeddings = []
     texts = []
     metadatas = []
 
-    batch_size = 1000
-
     if not documents_to_embed:
         print("No documents need embedding.")
-
     else:
         print(
             f"Embedding {len(documents_to_embed)} documents..."
         )
 
-        for start in range(0, len(documents_to_embed), batch_size):
+        for start in range(0, len(documents_to_embed), EMBED_BATCH_SIZE):
 
-            batch = documents_to_embed[start:start + batch_size]
+            batch = documents_to_embed[start:start + EMBED_BATCH_SIZE]
 
             print(
                 f"Embedding {start}/{len(documents_to_embed)}"
@@ -94,6 +148,9 @@ def build_index():
             batch_embeddings = embed_batch(
                 [doc["text"] for doc in batch]
             )
+
+            if expected_dim is not None:
+                validate_embeddings(batch_embeddings, expected_dim=expected_dim)
 
             for doc, embedding in zip(batch, batch_embeddings):
 
@@ -106,21 +163,20 @@ def build_index():
                 )
 
                 metadata["type"] = doc["type"]
-                metadata["hash"] = document_hash(doc)
+                metadata["embedding_hash"] = embedding_hash(doc)
+                metadata["metadata_hash"] = metadata_hash(doc)
 
                 metadatas.append(metadata)
 
-    BATCH_SIZE = 5000
+        for i in range(0, len(ids), BATCH_SIZE):
+            print(f"Adding vectors {i} - {min(i+BATCH_SIZE, len(ids))}")
 
-    for i in range(0, len(ids), BATCH_SIZE):
-        print(f"Adding vectors {i} - {min(i+BATCH_SIZE, len(ids))}")
-
-        collection.upsert(
-            ids=ids[i:i+BATCH_SIZE],
-            embeddings=embeddings[i:i+BATCH_SIZE],
-            documents=texts[i:i+BATCH_SIZE],
-            metadatas=metadatas[i:i+BATCH_SIZE]
-        )
+            collection.upsert(
+                ids=ids[i:i+BATCH_SIZE],
+                embeddings=embeddings[i:i+BATCH_SIZE],
+                documents=texts[i:i+BATCH_SIZE],
+                metadatas=metadatas[i:i+BATCH_SIZE]
+            )
 
     print("Done.")
 

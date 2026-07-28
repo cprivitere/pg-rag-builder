@@ -2,13 +2,23 @@ import hashlib
 import json
 
 
-def document_hash(document):
+def embedding_hash(document):
     content = json.dumps(
-        document,
+        {"id": document["id"], "text": document["text"]},
         sort_keys=True,
         ensure_ascii=False
     )
+    return hashlib.sha256(
+        content.encode("utf-8")
+    ).hexdigest()
 
+
+def metadata_hash(document):
+    content = json.dumps(
+        document.get("metadata", {}),
+        sort_keys=True,
+        ensure_ascii=False
+    )
     return hashlib.sha256(
         content.encode("utf-8")
     ).hexdigest()

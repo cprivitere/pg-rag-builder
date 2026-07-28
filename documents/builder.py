@@ -1,4 +1,6 @@
 from processors.resolver import GameResolver
+from documents.wiki_builder import build_wiki_documents
+from documents.chunking import chunk_all_documents
 
 
 def build_item_documents(db):
@@ -67,21 +69,19 @@ def build_recipe_documents(db):
                 )
 
             elif "ItemKeys" in ingredient:
-                ingredients.append(
-                    f"- {ingredient.get('Desc', 'Unknown ingredient')} "
-                    f"(category: {', '.join(ingredient['ItemKeys'])}) "
-                    f"x{ingredient.get('StackSize', 1)}"
-                )
-
-            # Keyword/group ingredient
-            elif "ItemKeys" in ingredient:
-
+                desc = ingredient.get("Desc")
                 keys = ", ".join(ingredient["ItemKeys"])
-
-                ingredients.append(
-                    f"- Any item matching: {keys} "
-                    f"x{ingredient.get('StackSize', 1)}"
-                )
+                if desc:
+                    ingredients.append(
+                        f"- {desc} "
+                        f"(category: {keys}) "
+                        f"x{ingredient.get('StackSize', 1)}"
+                    )
+                else:
+                    ingredients.append(
+                        f"- Any item matching: {keys} "
+                        f"x{ingredient.get('StackSize', 1)}"
+                    )
 
             else:
                 ingredients.append(
@@ -137,6 +137,7 @@ def build_documents(db):
 
     documents.extend(build_item_documents(db))
     documents.extend(build_recipe_documents(db))
+    documents.extend(build_wiki_documents(db))
 
     for doc in documents:
         doc.setdefault("metadata", {})
@@ -155,4 +156,4 @@ def build_documents(db):
                     doc["metadata"]["name"] = line.replace("Recipe: ", "")
                     break
 
-    return documents
+    return chunk_all_documents(documents)

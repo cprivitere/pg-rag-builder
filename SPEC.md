@@ -1,494 +1,74 @@
-```markdown
-# Project Gorgon RAG Builder - SPEC.md
-
-## Project Goal
-
-Build a local RAG (Retrieval Augmented Generation) assistant for Project Gorgon game data.
-
-The system ingests game data from CDN exports and wiki sources, converts them into searchable documents, creates embeddings locally, stores them in ChromaDB, retrieves relevant context, and uses a local LLM to answer player questions.
-
-The goal is a durable knowledge assistant that can answer questions like:
-
-- "How do I become a rabbit?"
-- "What recipes use Fairy Honey?"
-- "How do I make butter?"
-- "Where do I get this item?"
-- "What skills are required?"
-
-The system must support frequent game data updates without requiring a full rebuild.
-
----
-
-# Current Architecture
-
-```
-
-Project Gorgon Data
-|
-v
-loaders/
-|
-v
-Database object
-|
-v
-documents/builder.py
-|
-v
-data/documents.json
-|
-v
-vectorstore/build_index.py
-|
-v
-ChromaDB
-|
-v
-rag/retriever.py
-|
-v
-rag/pipeline.py
-|
-v
-Local LLM (llama.cpp server)
-
-```
-
----
-
-# Data Flow
-
-## 1. Data Loading
-
-Source:
-
-```
-
-data/cdn/
-data/wiki/
-
-```
-
-Currently loaded CDN tables:
-
-- abilities
-- items
-- recipes
-- quests
-- skills
-- NPCs
-- lore
-- areas
-- attributes
-- and others
-
-Database loading is handled by existing loaders.
-
----
-
-# Document Generation
-
-Location:
-
-```
-
-documents/builder.py
-
-````
-
-Documents are generated from game data.
-
-Current document format:
-
-```json
-{
-  "id": "item_96",
-  "type": "item",
-  "text": "Item: Bunny Juice...",
-  "metadata": {
-    "source": "cdn",
-    "table": "items",
-    "name": "Bunny Juice (White Fur)",
-    "type": "item"
-  }
-}
-````
-
----
-
-# Metadata Contract
-
-Every document should eventually contain:
-
-```json
-{
-  "source": "cdn|wiki",
-  "table": "items|recipes|quests|...",
-  "type": "item|recipe|quest|...",
-  "name": "Human readable name"
-}
-```
-
-Metadata is important because it will later allow:
-
-* filtering
-* ranking
-* citations
-* better answers
-* debugging retrieval
-
----
-
-# Vector Store
-
-Technology:
-
-```
-ChromaDB
-```
-
-Active database:
-
-```
-data/chroma
-```
-
-IMPORTANT:
-
-There was an old duplicate database:
-
-```
-vectorstore/chroma
-```
-
-It has been removed.
-
-All code uses:
-
-```python
-chromadb.PersistentClient(
-    path="data/chroma"
-)
-```
-
----
-
-# Embeddings
-
-Location:
-
-```
-embeddings/
-```
-
-Embedding server:
-
-```
-llama.cpp embedding endpoint
-```
-
-Documents are embedded in batches.
-
-Current batch size:
-
-```
-1000 documents
-```
-
----
-
-# Index Building
-
-Location:
-
-```
-vectorstore/build_index.py
-```
-
-Responsibilities:
-
-* Load documents.json
-* Connect to Chroma
-* Detect existing documents
-* Delete removed documents
-* Detect changed documents
-* Embed changed documents
-* Upsert vectors
-
-Current behavior:
-
-```
-Document changed:
-    re-embed
-
-Document unchanged:
-    skip
-```
-
----
-
-# Current Hash System
-
-Location:
-
-```
-vectorstore/hashes.py
-```
-
-Current implementation:
-
-```python
-hash(json.dumps(document))
-```
-
-This currently hashes the entire document.
-
-Consequence:
-
-Metadata-only changes trigger re-embedding.
-
-Future improvement:
-
-Hash only:
-
-```python
-{
-    "id": document["id"],
-    "text": document["text"]
-}
-```
-
-Metadata changes should update Chroma metadata without requiring new embeddings.
-
----
-
-# Retrieval
-
-Location:
-
-```
-rag/
-```
-
-Current pipeline:
-
-```
-Question
- |
- v
-Embedding
- |
- v
-Chroma similarity search
- |
- v
-Retrieved documents
- |
- v
-Prompt construction
- |
- v
-Local LLM answer
-```
-
----
-
-# Current LLM
-
-Running with llama.cpp:
-
-Example:
-
-```
-llama-server
-```
-
-Model:
-
-```
-unsloth/gemma-4-26B-A4B-it-qat-GGUF
-```
-
-Server:
-
-```
-localhost:8080
-```
-
----
-
-# Current Capabilities
-
-Working examples:
-
-## Rabbit transformation
-
-Question:
-
-```
-How do I become a rabbit?
-```
-
-Answer:
-
-```
-You can become a rabbit by using Bunny Juice (White Fur).
-This consumable/exotic potion transforms you into a rabbit,
-and the transformation is permanent until dispelled.
-```
-
----
-
-## Recipe lookup
-
-Question:
-
-```
-What recipes use Fairy Honey?
-```
-
-Answer correctly identifies:
-
-```
-Trearclaw
-```
-
-with ingredients.
-
----
-
-# Current Known Issues
-
-## 1. Retrieval ranking
-
-Some irrelevant documents appear:
-
-Example:
-
-Question:
-
-```
-How do I become a rabbit?
-```
-
-Retrieved:
-
-* Bunny Juice ✅
-* Rabbit dye recipe ⚠️
-* Rabbit textbooks ⚠️
-
-Future improvements:
-
-* metadata filtering
-* reranking
-* better chunking
-* hybrid search
-
----
-
-## 2. Metadata-only updates cause re-embedding
-
-Planned improvement:
-
-Separate:
-
-```
-embedding hash
-```
-
-from:
-
-```
-metadata hash
-```
-
-so metadata updates are cheap.
-
----
-
-## 3. Retrieval citations
-
-Currently sources show:
-
-```
-item_96 {...metadata...}
-```
-
-Future:
-
-Display:
-
-```
-Bunny Juice (White Fur)
-Source: CDN item database
-```
-
----
-
-# Testing
-
-Tests:
-
-```
-tests/
-```
-
-Run:
-
-```powershell
-uv run python -m tests.test_rag
-```
-
-Example:
-
-```
-Question:
-How do I become a rabbit?
-```
-
----
-
-# Development Rules
-
-Important:
-
-1. Make one change at a time.
-2. Preserve incremental indexing.
-3. Avoid unnecessary full rebuilds.
-4. Do not modify multiple architectural layers at once.
-5. Prefer durable fixes over quick patches.
-
----
-
-# Immediate Next Task
-
-Improve indexing efficiency.
-
-Goal:
-
-Metadata changes should not force embeddings.
-
-Change:
-
-Current:
-
-```
-document_hash()
-    hashes entire document
-```
-
-Future:
-
-```
-embedding_hash()
-    hashes id + text
-
-metadata_hash()
-    hashes metadata
-```
-
-Then:
-
-* text change -> embed
-* metadata change -> update metadata only
-* unchanged -> skip
+# Project Gorgon RAG Builder — cavekit spec
+
+## §G — Goal
+
+Local RAG assistant for Project Gorgon game data. Ingest CDN/wiki exports → embed → ChromaDB. Retrieve context → local LLM answers player questions. Survive frequent data updates w/o full rebuild.
+
+## §C — Constraints
+
+C1. Local only — ⊥ cloud APIs for embedding or LLM
+C2. Embedding server: llama.cpp @ `:8081`
+C3. LLM server: llama.cpp @ `:8080` (OpenAI-compat `/v1/chat/completions`)
+C4. Vector store: ChromaDB PersistentClient @ `data/chroma`
+C5. Incremental indexing — ⊥ full rebuild on data update
+C6. Python ≥3.14. Deps: chromadb, requests, mwparserfromhell
+
+## §I — Interfaces
+
+cmd: `uv run python main.py` → writes `data/documents.json`
+cmd: `uv run python vectorstore/build_index.py` → build/update ChromaDB index
+cmd: `uv run python search.py` → interactive substring search on documents.json (stdio)
+cmd: `uv run python -m tests.test_rag` → interactive RAG Q&A (stdio)
+api: POST `:8081/embedding` → embedding vector (llama.cpp)
+api: POST `:8080/v1/chat/completions` → LLM response (llama.cpp)
+db: `data/chroma` → ChromaDB persistent store
+db: `data/documents.json` → generated JSON corpus
+cfg: `config.py` → DATA_DIR, CDN_DIR, WIKI_DIR, OUTPUT_DIR, KNOWLEDGE_DIR
+coll: `project_gorgon` → ChromaDB collection name
+cmd: `uv run python -m tests.test_retrieval` → interactive Chroma similarity search (stdio)
+cmd: `uv run python -m tests.test_embedding` → manual embedding vector inspect (stdio)
+cmd: `uv run python -m tests.test_similarity` → manual cosine similarity print (stdio)
+
+## §V — Invariants
+
+V1: Pipeline order: load CDN → build documents → index vectors. ⊥ index before documents exist.
+V2: Chroma path ≡ `data/chroma`. ∀ reference uses `PersistentClient(path="data/chroma")`. Old path `vectorstore/chroma` gone.
+V3: Embedding hash ⊥ include metadata. `embedding_hash()` = sha256(`{id, text}`). `metadata_hash()` = sha256(metadata). Separate concerns.
+V4: Metadata-only change → `collection.update(metadatas=...)` only. Skip re-embed. Implemented in `build_index.py:79-81`.
+V5: Embed batch ≤ 1000 docs (`EMBED_BATCH_SIZE`). Chroma upsert batch ≤ 5000 (`BATCH_SIZE`). Tune per embedding server context: `-np 1 -c 32000` for wiki-length texts.
+V6: ∀ document: `{id, type, text, metadata}`. Metadata: `{source, table, name?, type, embedding_hash, metadata_hash}`.
+V7: Deleted documents purged from ChromaDB each build pass. `collection.delete(ids=deleted_ids)` in `build_index.py:56-57`.
+V8: ChromaDB collection name ≡ `project_gorgon`. ∀ reference uses same name. ⊥ drift between build & retrieve.
+V9: Embedding response ∀ entry: shape `{embedding: [[float]]}`, embed vec len = known dimension. ⊥ pass unvalidated response to ChromaDB upsert.
+V10: Collection embedding dimension stable ∀ build passes. On build start: query existing Dim, assert match, abort on mismatch.
+V11: Document before hash: `id` ∈ keys ∧ `text` ∈ keys. ⊥ pass malformed doc to hash — ⊥ partial index state on crash.
+V12: Embedding vector validated before ChromaDB upsert. ∀ vector: non-empty, list of float, length matches expected dimension. ⊥ pass untyped/empty/mismatched vector.
+V13: On build start: query existing collection embedding dimension, assert match against expected, abort on mismatch.
+
+## §T — Tasks
+
+| id | status | task | cites |
+|----|--------|------|-------|
+| T1 | x | Fix dead code: merge duplicate `elif "ItemKeys"` branches in `documents/builder.py:69` & `:77` | B1 |
+| T2 | x | Implement wiki loader — fill `loaders/wiki_loader.py` stub | I.wiki_loader |
+| T3 | x | Add connectivity error handling — fail visible on :8081/:8080 unreachable (⊥ silent crash) | C2,C3 |
+| T4 | x | Add metadata filtering to `rag/retriever.py` — filter by table/source to reduce noise | V6 |
+| T5 | x | Improve citation display — show human-readable name + source table instead of raw `item_96 {...}` | |
+| T6 | x | Remove orphan `processors/document_builder.py` — calls undefined `db` | |
+| T7 | x | Add test framework (pytest) + assertion-based tests covering pipeline, hash, retrieval | V1-V11 |
+| T8 | x | Update SPEC.md to reflect hash split already implemented (code ahead of spec) | B2 |
+| T9 | x | Add reranking step after Chroma similarity search — improve top-k relevance | V6 |
+| T10 | x | Add hybrid search (dense + keyword BM25) for broader recall | V6 |
+| T11 | x | Improve chunking strategy — split large item/recipe text into smaller chunks | V6 |
+| T12 | x | Build wiki documents from `db.wiki` — parse wiki markup via mwparserfromhell, section-split, match V6 metadata shape | V6, I.wiki_loader |
+| T13 | x | Validate embedding response shape before upsert — non-empty, list of float, consistent length | V12, B3 |
+| T14 | x | Check ChromaDB collection dimension at build start — abort on mismatch | V13, B4 |
+
+## §B — Bugs
+
+| id | date | cause | fix |
+|----|------|-------|-----|
+| B1 | 2026-07-26 | Duplicate `elif "ItemKeys"` at `documents/builder.py:77` — same condition as line 69 → dead code. Second branch intended for keyword group ingredients | T1 |
+| B2 | 2026-07-26 | SPEC.md out of date — describes hash split as "future improvement." Code in `vectorstore/hashes.py` already implements separate `embedding_hash()`/`metadata_hash()` | T8 |
+| B3 | 2026-07-27 | Embedding response shape not validated before upsert. `llama_embeddings.py:24` trusts `item["embedding"][0]` blindly — silent garbage vector corrupts index | V12 |
+| B4 | 2026-07-27 | No ChromaDB dimension check at build start. Model config change → build succeeds with mismatched dim, corrupting index without abort | V13 |

@@ -3,9 +3,9 @@ from rag.prompts import build_prompt
 from rag.llm import generate
 
 
-def ask(question):
+def ask(question, metadata_filter=None):
 
-    results = retrieve(question)
+    results = retrieve(question, metadata_filter=metadata_filter)
 
     documents = results["documents"][0]
     ids = results["ids"][0]
@@ -29,7 +29,8 @@ def ask(question):
             {
                 "id": doc_id,
                 "distance": distance,
-                "metadata": metadata
+                "metadata": metadata,
+                "citation": f"{metadata.get('name', doc_id)} ({metadata.get('table', 'unknown')})"
             }
             for doc_id, distance, metadata in zip(
                 ids,
