@@ -16,6 +16,7 @@ C7. OpenCode superpowers/agent config — `.agents/`, `skills-lock.json`, `docs/
 
 ## §I — Interfaces
 
+cmd: `uv run python download_cdn.py` → fetch latest CDN JSON from `cdn.projectgorgon.com` to `data/cdn/`
 cmd: `uv run python main.py` → writes `data/documents.json`
 cmd: `uv run python vectorstore/build_index.py` → build/update ChromaDB index
 cmd: `uv run python search.py` → interactive substring search on documents.json (stdio)
@@ -33,7 +34,7 @@ cmd: `uv run python vectorstore/health_check.py` → validate existing ChromaDB 
 
 ## §V — Invariants
 
-V1: Pipeline order: load CDN → build documents → index vectors. ⊥ index before documents exist.
+V1: Pipeline order: download CDN → load CDN → build documents → index vectors. ⊥ index before documents exist. ⊥ build before CDN data downloaded.
 V2: Chroma path ≡ `data/chroma`. ∀ reference uses `PersistentClient(path="data/chroma")`. Old path `vectorstore/chroma` gone.
 V3: Embedding hash ⊥ include metadata. `embedding_hash()` = sha256(`{id, text}`). `metadata_hash()` = sha256(metadata). Separate concerns.
 V4: Metadata-only change → `collection.update(metadatas=...)` only. Skip re-embed. Implemented in `build_index.py:79-81`.
@@ -72,6 +73,7 @@ V16: Health-check verifies hash integrity of every indexed doc — embedding_has
 | T15.2 | x | Integration test: deleted doc purged from ChromaDB after build | V14 |
 | T15.3 | x | Integration test: metadata-only change uses update, not re-embed | V14 |
 | T16 | x | Add health-check/audit script to validate existing ChromaDB index — check dim, doc count, orphaned metadata | V15 |
+| T17 | x | Add CDN download script — fetch latest game data from `cdn.projectgorgon.com` before build pipeline | C5 |
 
 ## §B — Bugs
 
