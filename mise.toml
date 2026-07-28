@@ -7,8 +7,8 @@ description = "Run test suite"
 alias = "t"
 
 [tasks.refresh]
-run = "uv run python main.py && uv run python -m vectorstore.build_index"
-description = "Rebuild documents from CDN/wiki data, then update vectorstore index"
+run = "uv run python download_cdn.py && uv run python main.py && uv run python -m vectorstore.build_index"
+description = "Download CDN data, rebuild documents, then update vectorstore index"
 alias = "r"
 
 [tasks.validate]
