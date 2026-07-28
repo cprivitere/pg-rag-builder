@@ -17,6 +17,7 @@ C7. OpenCode superpowers/agent config — `.agents/`, `skills-lock.json`, `docs/
 ## §I — Interfaces
 
 cmd: `uv run python download_cdn.py` → fetch latest CDN JSON from `cdn.projectgorgon.com` to `data/cdn/`
+cmd: `uv run python download_wiki.py` → fetch wiki page text from `wiki.projectgorgon.com` to `data/wiki/` via mwclient
 cmd: `uv run python main.py` → writes `data/documents.json`
 cmd: `uv run python vectorstore/build_index.py` → build/update ChromaDB index
 cmd: `uv run python search.py` → interactive substring search on documents.json (stdio)
@@ -34,13 +35,13 @@ cmd: `uv run python vectorstore/health_check.py` → validate existing ChromaDB 
 
 ## §V — Invariants
 
-V1: Pipeline order: download CDN → load CDN → build documents → index vectors. ⊥ index before documents exist. ⊥ build before CDN data downloaded.
+V1: Pipeline order: download CDN + wiki → load CDN + wiki → build documents → index vectors. ⊥ index before documents exist. ⊥ build before data downloaded.
 V2: Chroma path ≡ `data/chroma`. ∀ reference uses `PersistentClient(path="data/chroma")`. Old path `vectorstore/chroma` gone.
 V3: Embedding hash ⊥ include metadata. `embedding_hash()` = sha256(`{id, text}`). `metadata_hash()` = sha256(metadata). Separate concerns.
-V4: Metadata-only change → `collection.update(metadatas=...)` only. Skip re-embed. Implemented in `build_index.py:79-81`.
+V4: Metadata-only change → `collection.update(metadatas=...)` only. Skip re-embed. Implemented in `build_index.py:126`.
 V5: Embed batch ≤ 1000 docs (`EMBED_BATCH_SIZE`). Chroma upsert batch ≤ 5000 (`BATCH_SIZE`). Tune per embedding server context: `-np 1 -c 32000` for wiki-length texts.
 V6: ∀ document: `{id, type, text, metadata}`. Metadata: `{source, table, name?, type, embedding_hash, metadata_hash}`.
-V7: Deleted documents purged from ChromaDB each build pass. `collection.delete(ids=deleted_ids)` in `build_index.py:56-57`.
+V7: Deleted documents purged from ChromaDB each build pass. `collection.delete(ids=deleted_ids)` in `build_index.py:68-74`.
 V8: ChromaDB collection name ≡ `project_gorgon`. ∀ reference uses same name. ⊥ drift between build & retrieve.
 V9: Embedding response ∀ entry: shape `{embedding: [[float]]}`, embed vec len = known dimension. ⊥ pass unvalidated response to ChromaDB upsert.
 V10: Collection embedding dimension stable ∀ build passes. On build start: query existing Dim, assert match, abort on mismatch.
