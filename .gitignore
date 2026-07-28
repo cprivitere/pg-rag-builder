@@ -221,3 +221,8 @@ __marimo__/
 
 data/
 .vscode/
+
+# OpenCode superpowers/agent config — never commit
+.agents/
+skills-lock.json
+docs/superpowers/

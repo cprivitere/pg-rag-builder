@@ -12,6 +12,7 @@ C3. LLM server: llama.cpp @ `:8080` (OpenAI-compat `/v1/chat/completions`)
 C4. Vector store: ChromaDB PersistentClient @ `data/chroma`
 C5. Incremental indexing — ⊥ full rebuild on data update
 C6. Python ≥3.14. Deps: chromadb, requests, mwparserfromhell
+C7. OpenCode superpowers/agent config — `.agents/`, `skills-lock.json`, `docs/superpowers/` — ⊥ commit to git. Local-only tooling, not project assets.
 
 ## §I — Interfaces
 
