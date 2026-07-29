@@ -63,3 +63,18 @@ def test_build_documents_derives_name_from_text_when_missing():
     docs = build_documents(db)
     item_doc = next(d for d in docs if d["id"] == "item_1")
     assert item_doc["metadata"]["name"] == "Bunny Juice"
+
+
+def test_build_documents_includes_summaries():
+    from documents.builder import build_documents
+
+    recipes = {
+        "r1": {"Name": "Cheese A", "Skill": "Cheesemaking", "SkillLevelReq": 10, "Ingredients": [], "ResultItems": []},
+        "r2": {"Name": "Cheese B", "Skill": "Cheesemaking", "SkillLevelReq": 50, "Ingredients": [], "ResultItems": []},
+    }
+    db = _make_db(recipes=recipes)
+    docs = build_documents(db)
+    summaries = [d for d in docs if d["type"] == "summary"]
+    assert len(summaries) >= 1
+    cheesemaking_summary = next(s for s in summaries if "Cheesemaking" in s["metadata"]["name"])
+    assert "Cheese B (50)" in cheesemaking_summary["text"]

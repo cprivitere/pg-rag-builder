@@ -1,6 +1,7 @@
-from processors.resolver import GameResolver
+from documents.resolver import GameResolver
 from documents.wiki_builder import build_wiki_documents
 from documents.chunking import chunk_all_documents
+from documents.summaries import build_summary_documents
 
 
 def build_item_documents(db):
@@ -155,5 +156,8 @@ def build_documents(db):
                 if line.startswith("Recipe: "):
                     doc["metadata"]["name"] = line.replace("Recipe: ", "")
                     break
+
+    summaries = build_summary_documents(documents)
+    documents.extend(summaries)
 
     return chunk_all_documents(documents)
