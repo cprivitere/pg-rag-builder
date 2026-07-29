@@ -1,3 +1,4 @@
+from rag.query_classifier import classify_query
 from rag.retriever import retrieve
 from rag.prompts import build_prompt
 from rag.llm import generate
@@ -5,7 +6,9 @@ from rag.llm import generate
 
 def ask(question, metadata_filter=None):
 
-    results = retrieve(question, metadata_filter=metadata_filter)
+    query_type = classify_query(question)
+
+    results = retrieve(question, metadata_filter=metadata_filter, query_type=query_type)
 
     documents = results["documents"][0]
     ids = results["ids"][0]
@@ -17,7 +20,8 @@ def ask(question, metadata_filter=None):
 
     prompt = build_prompt(
         question,
-        context
+        context,
+        query_type=query_type
     )
 
     answer = generate(prompt)
@@ -25,6 +29,7 @@ def ask(question, metadata_filter=None):
     return {
         "answer": answer,
         "documents": documents,
+        "query_type": query_type,
         "sources": [
             {
                 "id": doc_id,
