@@ -133,3 +133,41 @@ def test_retrieve_hybrid_routes_to_bm25(mock_load, mock_client, mock_embed):
 
     bm25_model.search.assert_called_once_with("test", k=3 * HYBRID_MULTIPLIER)
     assert len(results["ids"][0]) == 3
+
+
+@patch("rag.retriever.embed_text")
+@patch("rag.retriever.chromadb.PersistentClient")
+def test_retrieve_comparison_uses_higher_count(mock_client, mock_embed):
+    mock_embed.return_value = [0.1] * 128
+    mock_col = MagicMock()
+    mock_client.return_value.get_collection.return_value = mock_col
+    mock_col.query.return_value = {
+        "ids": [["a"] * 20],
+        "documents": [["t"] * 20],
+        "metadatas": [[{"s": "c"}] * 20],
+        "distances": [[0.1] * 20],
+    }
+
+    results = retrieve("highest level cheese", count=3, query_type="comparison", rerank=False)
+
+    call_kwargs = mock_col.query.call_args[1]
+    assert call_kwargs["n_results"] == 20
+
+
+@patch("rag.retriever.embed_text")
+@patch("rag.retriever.chromadb.PersistentClient")
+def test_retrieve_general_uses_default_count(mock_client, mock_embed):
+    mock_embed.return_value = [0.1] * 128
+    mock_col = MagicMock()
+    mock_client.return_value.get_collection.return_value = mock_col
+    mock_col.query.return_value = {
+        "ids": [["a", "b", "c"]],
+        "documents": [["t1", "t2", "t3"]],
+        "metadatas": [[{"s": "c"}] * 3],
+        "distances": [[0.1, 0.2, 0.3]],
+    }
+
+    results = retrieve("tell me about cheese", count=3, query_type="general", rerank=False)
+
+    call_kwargs = mock_col.query.call_args[1]
+    assert call_kwargs["n_results"] == 3

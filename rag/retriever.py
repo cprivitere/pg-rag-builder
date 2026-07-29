@@ -76,7 +76,7 @@ def _hybrid_fuse(dense_ids, dense_texts, dense_metadatas, dense_distances,
     return ids, texts, metas, dists
 
 
-def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False):
+def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False, query_type="general"):
     client = chromadb.PersistentClient(
         path="data/chroma"
     )
@@ -87,7 +87,9 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False)
 
     embedding = embed_text(question)
 
-    dense_count = count
+    effective_count = 20 if query_type == "comparison" else count
+
+    dense_count = effective_count
     if hybrid:
         dense_count *= HYBRID_MULTIPLIER
     if rerank and not hybrid:
@@ -111,7 +113,7 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False)
     if hybrid:
         from rag.bm25 import load_bm25_index
         bm25_model, all_docs = load_bm25_index()
-        bm25_indices, _ = bm25_model.search(question, k=count * HYBRID_MULTIPLIER)
+        bm25_indices, _ = bm25_model.search(question, k=effective_count * HYBRID_MULTIPLIER)
         bm25_ids = [all_docs[i]["id"] for i in bm25_indices]
 
         fused_ids, fused_texts, fused_metas, fused_dists = _hybrid_fuse(
@@ -121,20 +123,20 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False)
             results["distances"][0],
             bm25_ids,
             all_docs,
-            count,
+            effective_count,
         )
         results["ids"] = [fused_ids]
         results["documents"] = [fused_texts]
         results["metadatas"] = [fused_metas]
         results["distances"] = [fused_dists]
-    elif rerank and len(results["ids"][0]) > count:
+    elif rerank and len(results["ids"][0]) > effective_count:
         ids, docs, metas, dists = _rerank(
             question,
             results["ids"][0],
             results["documents"][0],
             results["metadatas"][0],
             results["distances"][0],
-            count,
+            effective_count,
         )
         results["ids"] = [ids]
         results["documents"] = [docs]
