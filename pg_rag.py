@@ -15,7 +15,7 @@ import os
 import sys
 from pathlib import Path
 
-PG_ROOT = Path(__file__).parent
+PG_ROOT = Path(r"F:\ProjectGorgon\pg-rag-builder")
 if str(PG_ROOT) not in sys.path:
     sys.path.insert(0, str(PG_ROOT))
 
