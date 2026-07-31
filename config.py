@@ -7,7 +7,3 @@ DATA_DIR = PROJECT_ROOT / "data"
 CDN_DIR = DATA_DIR / "cdn"
 
 WIKI_DIR = DATA_DIR / "wiki"
-
-OUTPUT_DIR = PROJECT_ROOT / "output"
-
-KNOWLEDGE_DIR = OUTPUT_DIR / "knowledge"

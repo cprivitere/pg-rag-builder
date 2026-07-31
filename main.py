@@ -16,14 +16,17 @@ def main():
     documents = build_documents(db)
 
     import json
+    import os
 
-    with open("data/documents.json", "w", encoding="utf-8") as f:
+    tmp = "data/documents.json.tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(
             documents,
             f,
             indent=2,
             ensure_ascii=False
         )
+    os.replace(tmp, "data/documents.json")
 
     print("Saved documents.json")
 

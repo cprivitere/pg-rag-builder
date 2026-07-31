@@ -5,15 +5,12 @@ def load_documents():
     with open("data/documents.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
-def search_documents(documents, query, doc_type=None):
+def search_documents(documents, query):
     query = query.lower().strip()
 
     results = []
 
     for doc in documents:
-
-        if doc_type and doc.get("type") != doc_type:
-            continue
 
         text = doc["text"].lower()
 

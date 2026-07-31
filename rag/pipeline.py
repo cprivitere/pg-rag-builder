@@ -5,6 +5,8 @@ from rag.query_classifier import classify_query
 from rag.retriever import retrieve
 from rag.prompts import build_prompt
 from rag.llm import generate
+from rag.synthesis_detector import should_synthesize
+from rag.synthesis_generator import synthesize_answer
 
 
 def _find_matching_summary(question):
@@ -34,11 +36,27 @@ def ask(question, metadata_filter=None):
     documents = results["documents"][0]
     ids = results["ids"][0]
     distances = results["distances"][0]
+    metadatas = results["metadatas"][0]
 
     if query_type == "comparison":
         summary = _find_matching_summary(question)
         if summary:
             documents = [summary] + documents
+
+    # Check if synthesis should be triggered
+    result_dicts = [
+        {"text": doc, "metadata": meta, "distance": dist}
+        for doc, meta, dist in zip(documents, metadatas, distances)
+    ]
+    
+    if should_synthesize(result_dicts, query_type):
+        # Synthesize scattered results
+        try:
+            synthesized = synthesize_answer(question, result_dicts[:3])  # Limit to 3 sources
+            # Use synthesized as context instead of raw docs
+            documents = [synthesized]
+        except Exception:
+            pass  # Fall through to normal flow
 
     context = "\n\n---\n\n".join(
         documents
@@ -66,7 +84,7 @@ def ask(question, metadata_filter=None):
             for doc_id, distance, metadata in zip(
                 ids,
                 distances,
-                results["metadatas"][0]
+                metadatas
             )
         ]
     }

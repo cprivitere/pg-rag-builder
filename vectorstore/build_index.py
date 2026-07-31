@@ -80,6 +80,10 @@ def build_index(documents=None, chroma_path="data/chroma"):
     metadata_only_updates = []
 
     for doc in documents:
+        if "id" not in doc or "text" not in doc:
+            raise ValueError(
+                f"Document missing required keys 'id'/'text': {doc.get('id', 'unknown')}"
+            )
         doc_id = doc["id"]
         doc_embed_hash = embedding_hash(doc)
         doc_meta_hash = metadata_hash(doc)

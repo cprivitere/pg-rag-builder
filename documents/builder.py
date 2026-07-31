@@ -2,6 +2,37 @@ from documents.resolver import GameResolver
 from documents.wiki_builder import build_wiki_documents
 from documents.chunking import chunk_all_documents
 from documents.summaries import build_summary_documents
+from pathlib import Path
+
+
+def build_curated_documents():
+    """Load curated documents from data/wiki/curated/ directory."""
+    documents = []
+    curated_dir = Path("data/wiki/curated")
+    
+    if not curated_dir.exists():
+        return documents
+    
+    for txt_file in curated_dir.glob("*_curated.txt"):
+        try:
+            content = txt_file.read_text(encoding="utf-8")
+            
+            doc_id = f"curated_{txt_file.stem}"
+            
+            documents.append({
+                "id": doc_id,
+                "type": "curated",
+                "text": content,
+                "metadata": {
+                    "source": "curated",
+                    "table": "curated",
+                    "name": txt_file.stem.replace("_curated", "").replace("_", " ").title()
+                }
+            })
+        except Exception as e:
+            print(f"Warning: Failed to load curated doc {txt_file}: {e}")
+    
+    return documents
 
 
 def build_item_documents(db):
@@ -139,6 +170,7 @@ def build_documents(db):
     documents.extend(build_item_documents(db))
     documents.extend(build_recipe_documents(db))
     documents.extend(build_wiki_documents(db))
+    documents.extend(build_curated_documents())
 
     for doc in documents:
         doc.setdefault("metadata", {})

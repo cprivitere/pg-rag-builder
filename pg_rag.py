@@ -27,6 +27,8 @@ from rag.query_classifier import classify_query
 from rag.retriever import retrieve
 from rag.prompts import build_prompt
 from rag.llm import generate
+from rag.synthesis_detector import should_synthesize
+from rag.synthesis_generator import synthesize_answer
 
 
 class Pipe:
@@ -61,6 +63,24 @@ class Pipe:
             return f"Retrieval error: {e}"
 
         docs = results["documents"][0]
+        metadatas = results["metadatas"][0]
+        distances = results["distances"][0]
+
+        # Check if synthesis should be triggered
+        result_dicts = [
+            {"text": doc, "metadata": meta, "distance": dist}
+            for doc, meta, dist in zip(docs, metadatas, distances)
+        ]
+        
+        synthesis_used = False
+        if should_synthesize(result_dicts, query_type):
+            try:
+                synthesized = synthesize_answer(query, result_dicts[:3])  # Limit to 3 sources
+                # Use synthesized as context instead of raw docs
+                docs = [synthesized]
+                synthesis_used = True
+            except Exception:
+                pass  # Fall through to normal flow
 
         context = "\n\n---\n\n".join(docs)
         prompt = build_prompt(query, context, query_type=query_type)
@@ -81,5 +101,10 @@ class Pipe:
             sources.append(f"- {name} ({table})")
 
         source_block = "\n".join(sources) if sources else "No sources found."
+        
+        # Add synthesis status if used
+        synthesis_note = ""
+        if synthesis_used:
+            synthesis_note = "\n\n*Note: Answer synthesized from multiple scattered sources.*"
 
-        return f"{answer}\n\n---\n**Sources:**\n{source_block}"
+        return f"{answer}\n\n---\n**Sources:**\n{source_block}{synthesis_note}"

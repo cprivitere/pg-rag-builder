@@ -10,7 +10,7 @@ from config import WIKI_DIR
 META_FILE = WIKI_DIR / ".meta.json"
 
 WIKI_HOST = "wiki.projectgorgon.com"
-WIKI_PATH = "/w/"
+WIKI_PATH = "/"
 
 TARGET_CATEGORIES = ["Game updates", "Game Blogs", "NPCs", "Skills"]
 
@@ -145,9 +145,11 @@ def main():
     new_count = 0
     updated_count = 0
     skipped_count = 0
+    current_filenames = set()
 
     for index, page in enumerate(pages_to_download, 1):
         filename = get_safe_filename(page.name, index)
+        current_filenames.add(filename)
         file_path = os.path.join(WIKI_DIR, filename)
 
         stored_touched = meta.get(page.name)
@@ -170,6 +172,14 @@ def main():
         if download_page(page, file_path):
             meta[page.name] = current_touched
         time.sleep(random.uniform(BASE_DELAY, BASE_DELAY * 2))
+
+    current_page_names = {p.name for p in pages_to_download}
+    meta = {k: v for k, v in meta.items() if k in current_page_names}
+    for f in os.listdir(WIKI_DIR):
+        if f.endswith(".txt") and f not in current_filenames:
+            stale_path = os.path.join(WIKI_DIR, f)
+            os.remove(stale_path)
+            print(f"  Removed stale: {f}")
 
     save_metadata(meta)
     print(f"Complete. {new_count} new, {updated_count} updated, {skipped_count} skipped. Saved to '{WIKI_DIR}'.")
