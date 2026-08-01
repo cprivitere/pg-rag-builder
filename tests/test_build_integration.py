@@ -5,11 +5,12 @@ from unittest.mock import patch
 import chromadb
 import pytest
 
+from config import EMBEDDING_DIM
 from vectorstore.build_index import build_index
 
 
 def fake_embed_batch(texts):
-    return [[0.1, 0.2, 0.3, 0.4] for _ in texts]
+    return [[0.1] * EMBEDDING_DIM for _ in texts]
 
 
 TMP_KW = {"ignore_cleanup_errors": True}
@@ -29,7 +30,7 @@ def test_build_upserts_docs_with_correct_dim(mock_embed):
         assert coll.count() == 2
         result = coll.get(include=["embeddings", "metadatas"])
         assert set(result["ids"]) == {"a", "b"}
-        assert len(result["embeddings"][0]) == 4
+        assert len(result["embeddings"][0]) == EMBEDDING_DIM
 
 
 @patch("vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
@@ -79,8 +80,27 @@ def test_build_dimension_mismatch_aborts():
     ]
     with tempfile.TemporaryDirectory(**TMP_KW) as tmp:
         chroma_path = str(Path(tmp) / "chroma")
-        with patch("vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2, 0.3, 0.4]]):
+        with patch("vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2, 0.3, 0.4]]), \
+             patch("vectorstore.build_index.EMBEDDING_DIM", 4):
             build_index(documents=docs_first, chroma_path=chroma_path)
-        with patch("vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2]]):
+        with patch("vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2]]), \
+             patch("vectorstore.build_index.EMBEDDING_DIM", 4):
             with pytest.raises(Exception, match="expected 4"):
+                build_index(documents=docs_second, chroma_path=chroma_path)
+
+
+def test_v23_build_start_aborts_on_dim_mismatch():
+    docs_first = [
+        {"id": "a", "type": "item", "text": "alpha", "metadata": {"source": "cdn", "table": "items"}},
+    ]
+    docs_second = [
+        {"id": "b", "type": "item", "text": "beta", "metadata": {"source": "cdn", "table": "items"}},
+    ]
+    with tempfile.TemporaryDirectory(**TMP_KW) as tmp:
+        chroma_path = str(Path(tmp) / "chroma")
+        with patch("vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2, 0.3, 0.4]]), \
+             patch("vectorstore.build_index.EMBEDDING_DIM", 4):
+            build_index(documents=docs_first, chroma_path=chroma_path)
+        with patch("vectorstore.build_index.embed_batch", side_effect=AssertionError("must not embed")):
+            with pytest.raises(ValueError, match="EMBEDDING_DIM"):
                 build_index(documents=docs_second, chroma_path=chroma_path)

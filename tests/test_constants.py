@@ -5,6 +5,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def test_v23_embedding_dim_in_config():
+    from config import EMBEDDING_DIM
+    assert isinstance(EMBEDDING_DIM, int) and EMBEDDING_DIM > 0
+
+
 def test_v2_chroma_path_consistent():
     from vectorstore.build_index import build_index
     import rag.retriever

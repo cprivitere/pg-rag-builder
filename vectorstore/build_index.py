@@ -1,6 +1,7 @@
 import json
 import chromadb
 
+from config import EMBEDDING_DIM
 from embeddings.llama_embeddings import embed_batch, validate_embeddings
 from vectorstore.hashes import embedding_hash, metadata_hash
 
@@ -37,32 +38,37 @@ def build_index(documents=None, chroma_path="data/chroma"):
 
     expected_dim = _get_existing_dim(collection)
     if expected_dim is not None:
+        if expected_dim != EMBEDDING_DIM:
+            raise ValueError(
+                f"Existing collection dimension {expected_dim} != EMBEDDING_DIM {EMBEDDING_DIM}. "
+                "Aborting — model config changed."
+            )
         print(f"Existing collection dimension: {expected_dim}")
     else:
         print("No existing collection — skipping dimension check")
 
-    existing = collection.get(
-        include=["metadatas"]
-    )
-
     existing_hashes = {}
+    existing_ids = set()
 
-    for doc_id, metadata in zip(
-        existing["ids"],
-        existing["metadatas"]
-    ):
-        if "embedding_hash" in metadata:
-            existing_hashes[doc_id] = {
-                "embedding_hash": metadata["embedding_hash"],
-                "metadata_hash": metadata["metadata_hash"],
-            }
+    for start in range(0, collection.count(), BATCH_SIZE):
+        batch = collection.get(
+            limit=BATCH_SIZE,
+            offset=start,
+            include=["metadatas"]
+        )
+        for doc_id, metadata in zip(
+            batch["ids"],
+            batch["metadatas"]
+        ):
+            existing_ids.add(doc_id)
+            if "embedding_hash" in metadata:
+                existing_hashes[doc_id] = {
+                    "embedding_hash": metadata["embedding_hash"],
+                    "metadata_hash": metadata["metadata_hash"],
+                }
 
     current_ids = set(
         doc["id"] for doc in documents
-    )
-
-    existing_ids = set(
-        existing["ids"]
     )
 
     deleted_ids = existing_ids - current_ids
@@ -156,8 +162,7 @@ def build_index(documents=None, chroma_path="data/chroma"):
                 [doc["text"] for doc in batch]
             )
 
-            if expected_dim is not None:
-                validate_embeddings(batch_embeddings, expected_dim=expected_dim)
+            validate_embeddings(batch_embeddings, expected_dim=EMBEDDING_DIM)
 
             for doc, embedding in zip(batch, batch_embeddings):
 

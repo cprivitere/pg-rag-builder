@@ -3,6 +3,7 @@ import sys
 
 import chromadb
 
+from config import EMBEDDING_DIM
 from vectorstore.hashes import embedding_hash, metadata_hash
 
 CHROMA_PATH = "data/chroma"
@@ -81,6 +82,11 @@ def health_check(chroma_path=CHROMA_PATH, collection_name=COLLECTION_NAME,
         if emb is not None and len(emb) > 0:
             dim = len(emb)
             print(f"Embedding dimension: {dim}")
+            if dim != EMBEDDING_DIM:
+                issues.append(
+                    f"Embedding dimension mismatch: collection={dim}, "
+                    f"EMBEDDING_DIM={EMBEDDING_DIM}"
+                )
         else:
             issues.append("No embedding data in collection")
     else:
