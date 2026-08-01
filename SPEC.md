@@ -112,7 +112,7 @@ V25: Curator rebuild order: curated file write → main.py (documents.json) → 
 | T35 | x | Update build pipeline — load curated docs from `data/wiki/curated/` into documents.json | V20, T31 |
 | T36 | x | Add synthesis detector — `rag/synthesis_detector.py` identify scattered answers (multiple sources, low scores) | V21 |
 | T37 | x | Add synthesis generator — `rag/synthesis_generator.py` use LLM to create curated docs from retrieved chunks | V21, T36 |
-| T38 | ~ | Integrate synthesis into pipeline — `rag/pipeline.py` trigger synthesis on scattered answers, store in ChromaDB | V21, T36, T37 |
+| T38 | x | Integrate synthesis into pipeline — `rag/pipeline.py` trigger synthesis on scattered answers, persist via curated txt (T44) | V21, T36, T37, V24 |
 | T39 | x | Add curator agent — `scripts/curator.py` background process scans wiki, identifies fragmented knowledge, creates curated docs | V22 |
 | T40 | ~ | Add curator scheduler — periodic runs (daily/weekly), diff detection, rebuild index after changes | V22, T39 |
 | T41 | x | Test curated doc loading — verify curated docs indexed correctly, queries return consolidated answers | V20, T35 |
