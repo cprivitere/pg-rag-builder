@@ -83,25 +83,27 @@ def _fallback_synthesis(query: str, results: list) -> str:
     return "\n\n".join(parts)
 
 
-def create_curated_doc(query: str, results: list) -> dict:
+def create_curated_doc(query: str, results: list, synthesized_text: str = None) -> dict:
     """Create a curated document from synthesized results.
-    
+
     Args:
         query: Original user query
         results: List of search result documents
-        
+        synthesized_text: Pre-synthesized text; if None, synthesize first
+
     Returns:
         Document dict ready for indexing
     """
-    synthesized = synthesize_answer(query, results)
-    
+    if synthesized_text is None:
+        synthesized_text = synthesize_answer(query, results)
+
     # Create doc ID from query
     doc_id = "synthesized_" + query.lower().replace(" ", "_")[:50]
-    
+
     return {
         "id": doc_id,
         "type": "synthesized",
-        "text": synthesized,
+        "text": synthesized_text,
         "metadata": {
             "source": "synthesized",
             "table": "synthesized",

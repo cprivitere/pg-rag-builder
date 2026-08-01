@@ -38,6 +38,7 @@ cmd: `uv run python -m scripts.similarity` → manual cosine similarity print (s
 cmd: `uv run python vectorstore/health_check.py` → validate existing ChromaDB index, exit 0 if OK, exit 1 with report on issues
 cmd: `uv run python check_services.py` → service status checker for mise status command
 cmd: `uv run python -m scripts.curator` → background curator agent — scan wiki for scattered info, create curated documents
+cmd: `uv run python -m scripts.curator_scheduler` → curator run w/ change detection + index rebuild
 api: POST `:8080/v1/chat/completions` → LLM synthesis for auto-generating curated documents
 
 ## §V — Invariants
@@ -57,13 +58,16 @@ V12: Embedding vector validated before ChromaDB upsert. ∀ vector: non-empty, l
 V13: On build start: query existing collection embedding dimension, assert match against expected, abort on mismatch.
 V14: Full build pipeline validated via integration test against a temp ChromaDB — verify docs upserted, dims match, deleted docs purged, metadata-only updates skip re-embed. ⊥ changes to build_index without integration test.
 V15: Health-check/audit command exists to validate existing ChromaDB index outside the build process. Check: embedding dim matches config, doc count vs expected, no orphaned metadata.
-V16: Health-check verifies hash integrity of every indexed doc — embedding_hash(id+text) and metadata_hash(metadata sans type/hash fields) compared against stored values. ⊥ corrupted hash passes health-check.
+V16: Health-check verifies hash integrity of every indexed doc — embedding_hash(id+text) and metadata_hash(metadata sans hash fields; type ∈ hash) compared against stored values. ⊥ corrupted hash passes health-check.
 V17: documents.json write atomic — temp file then `os.replace()`. ⊥ partial/corrupt documents.json reaches build.
 V18: Wiki download purge .txt files for pages gone from target category. ⊥ stale wiki docs persist in index.
 V19: Comparison/aggregation queries (highest/lowest/best/most) trigger adaptive retrieval — count=20 instead of default. Pre-computed summary docs stored in ChromaDB, retrieved semantically. Prompt includes comparison reasoning instructions.
 V20: Curated documents stored in `data/wiki/curated/` with `_curated` suffix. Auto-generated from wiki page synthesis. Rebuilt during index pass.
 V21: Synthesis capability — pipeline detects scattered answers (multiple sources, low relevance scores) and triggers LLM synthesis to create curated summary documents.
 V22: Background curator agent runs periodically, scans wiki for fragmented knowledge (area levels, skill progressions, crafting chains), creates curated documents, rebuilds index.
+V23: EMBEDDING_DIM constant exists in config.py. Build start: existing collection dim ≠ EMBEDDING_DIM → abort. Health-check: dim vs EMBEDDING_DIM compared, mismatch → issue.
+V24: Synthesis result persisted — pipeline writes synthesized doc to `data/wiki/curated/synthesized_*_curated.txt`, loaded by builder (V20), survives purge (V7). ⊥ inline-only synthesis, ⊥ Chroma upsert (V7 purges ids ∉ documents.json), ⊥ dead `create_curated_doc()`.
+V25: Curator rebuild order: curated file write → main.py (documents.json) → build_index. ⊥ build_index direct after curator — new curated docs ⊥ reach index.
 
 ## §T — Tasks
 
@@ -108,12 +112,17 @@ V22: Background curator agent runs periodically, scans wiki for fragmented knowl
 | T35 | x | Update build pipeline — load curated docs from `data/wiki/curated/` into documents.json | V20, T31 |
 | T36 | x | Add synthesis detector — `rag/synthesis_detector.py` identify scattered answers (multiple sources, low scores) | V21 |
 | T37 | x | Add synthesis generator — `rag/synthesis_generator.py` use LLM to create curated docs from retrieved chunks | V21, T36 |
-| T38 | x | Integrate synthesis into pipeline — `rag/pipeline.py` trigger synthesis on scattered answers, store in ChromaDB | V21, T36, T37 |
+| T38 | ~ | Integrate synthesis into pipeline — `rag/pipeline.py` trigger synthesis on scattered answers, store in ChromaDB | V21, T36, T37 |
 | T39 | x | Add curator agent — `scripts/curator.py` background process scans wiki, identifies fragmented knowledge, creates curated docs | V22 |
-| T40 | x | Add curator scheduler — periodic runs (daily/weekly), diff detection, rebuild index after changes | V22, T39 |
+| T40 | ~ | Add curator scheduler — periodic runs (daily/weekly), diff detection, rebuild index after changes | V22, T39 |
 | T41 | x | Test curated doc loading — verify curated docs indexed correctly, queries return consolidated answers | V20, T35 |
 | T42 | x | Test synthesis flow — verify scattered answers trigger synthesis, new docs improve future queries | V21, T38 |
 | T43 | x | Update Open WebUI pipe — surface synthesis status in answers ("synthesized from X sources") | V21, T38 |
+| T44 | x | Persist synthesis — pipeline writes `data/wiki/curated/synthesized_*_curated.txt` | V24, T38 |
+| T45 | . | Fix curator rebuild — scheduler runs main.py before build_index | V25, T40 |
+| T46 | . | Add EMBEDDING_DIM to config.py, assert at build start + health-check compare | V23 |
+| T47 | x | Gathering summaries — group items by gathering skill level (CDN + wiki) | V19, T25 |
+| T48 | . | Curator refresh — regenerate stale curated docs on source change, ⊥ `if not exists` skip | V20, V25 |
 
 ## §B — Bugs
 
@@ -126,3 +135,6 @@ V22: Background curator agent runs periodically, scans wiki for fragmented knowl
 | B5 | 2026-07-27 | main.py writes documents.json directly — crash mid-write corrupts file, next build_index fails on json.load | V17, T18 |
 | B6 | 2026-07-27 | download_wiki.py never deletes .txt for removed/renamed pages → stale documents persist in index forever | V18, T19 |
 | B7 | 2026-07-29 | Scattered knowledge across wiki pages causes "I do not know" responses — area-level info exists but fragmented across game updates, dungeon pages, area pages | V20-V22, T31-T43 |
+| B8 | 2026-08-01 | curator_scheduler.py:96 rebuild runs `vectorstore.build_index` direct — skips main.py → curated docs ⊥ in documents.json → never indexed | V25 |
+| B9 | 2026-08-01 | `create_curated_doc()` dead (0 callers) — pipeline.py:52-59 synthesize inline only, ⊥ persist → T42 "new docs improve future queries" false | V24 |
+| B10 | 2026-08-01 | V24 draft "upsert synthesized doc to ChromaDB" — conflicts V7 (purge ids ∉ documents.json) + V15 (orphan flag) → synthesized docs deleted next build | V24 |
