@@ -2,17 +2,37 @@
 python = "latest"
 
 [tasks.test]
-run = "uv run python -m pytest tests/"
+run = "uv run -m pytest tests/"
 description = "Run test suite"
 alias = "t"
 
 [tasks.refresh]
-run = "uv run python download_cdn.py && uv run python download_wiki.py && uv run python main.py && uv run python -m vectorstore.build_index"
-description = "Download CDN + wiki data, rebuild documents, then update vectorstore index"
+run = "mise run refresh::cdn && mise run refresh::documents && mise run refresh::vectors"
+description = "Fast refresh: CDN data + rebuild documents + update vectorstore (skips slow wiki fetch)"
 alias = "r"
 
+[tasks."refresh::full"]
+run = "mise run refresh::cdn && mise run refresh::wiki && mise run refresh::documents && mise run refresh::vectors"
+description = "Full refresh: CDN + wiki data + rebuild documents + update vectorstore"
+
+[tasks."refresh::cdn"]
+run = "uv run python download_cdn.py"
+description = "Download CDN data to data/cdn/"
+
+[tasks."refresh::wiki"]
+run = "uv run python download_wiki.py"
+description = "Download wiki pages to data/wiki/ (slow)"
+
+[tasks."refresh::documents"]
+run = "uv run python main.py"
+description = "Build data/documents.json from CDN + wiki data"
+
+[tasks."refresh::vectors"]
+run = "uv run -m vectorstore.build_index"
+description = "Upsert documents into ChromaDB index"
+
 [tasks.validate]
-run = "uv run python -m vectorstore.health_check && echo 'Index healthy' || (echo 'Rebuilding...' && uv run python -m vectorstore.build_index)"
+run = "uv run -m vectorstore.health_check && echo 'Index healthy' || (echo 'Rebuilding...' && uv run -m vectorstore.build_index)"
 description = "Validate vectorstore health; rebuild if issues found"
 alias = "v"
 
@@ -47,8 +67,8 @@ description = "Start embedding server — production (4 slots, 8k context) with 
 alias = "se"
 
 [tasks.stop-embed]
-run = "powershell -NoProfile -Command \"Get-Process llama-server -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue; exit 0\""
-description = "Stop embedding server (port 8081)"
+run = "powershell -NoProfile -Command \"$port = 8081; $process = Get-NetTCPConnection -LocalPort $port -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique; if ($process) { Stop-Process -Id $process -Force -ErrorAction SilentlyContinue; Write-Host ('Stopped embedding server (port ' + $port + ')') } else { Write-Host ('No process found on port ' + $port) }\""
+description = "Stop embedding server (kills process on port 8081)"
 alias = "xe"
 
 # --- LLM server ---
@@ -70,8 +90,8 @@ description = "Start LLM server (gemma-4-26B on :8080) with logging"
 alias = "sl"
 
 [tasks.stop-llm]
-run = "powershell -NoProfile -Command \"Get-Process llama-server -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue; exit 0\""
-description = "Stop LLM server (port 8080)"
+run = "powershell -NoProfile -Command \"$port = 8080; $process = Get-NetTCPConnection -LocalPort $port -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique; if ($process) { Stop-Process -Id $process -Force -ErrorAction SilentlyContinue; Write-Host ('Stopped LLM server (port ' + $port + ')') } else { Write-Host ('No process found on port ' + $port) }\""
+description = "Stop LLM server (kills process on port 8080)"
 alias = "xl"
 
 # --- Open WebUI ---

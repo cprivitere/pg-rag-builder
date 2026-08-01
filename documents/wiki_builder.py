@@ -1,6 +1,20 @@
+import re
+
 import mwparserfromhell
 
 MIN_SECTION_CHARS = 50
+
+# Templates whose first argument is a meaningful name that gets
+# destroyed by strip_code().  We rewrite them to plain text first.
+_TEMPLATE_PATTERN = re.compile(
+    r"\{\{(Item|NPC|Quest|Skill|Area|Recipe|LoreBook|Ability)"
+    r"\|([^}|]+)(?:\|[^}]*)?\}\}"
+)
+
+
+def _preserve_template_names(wikicode_text):
+    """Replace {{Template|Name|...}} with just Name before stripping."""
+    return _TEMPLATE_PATTERN.sub(r"\2", wikicode_text)
 
 
 def build_wiki_documents(db):
@@ -24,7 +38,8 @@ def build_wiki_documents(db):
                 heading = h_clean
                 break
 
-            text = section.strip_code(
+            text = _preserve_template_names(str(section))
+            text = mwparserfromhell.parse(text).strip_code(
                 normalize=False, collapse=True
             ).strip()
 

@@ -1,11 +1,14 @@
 import json
 import os
+import sys
 import time
 import random
 import requests
 from mwclient import Site
 from mwclient import errors as mw_errors
 from config import WIKI_DIR
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 META_FILE = WIKI_DIR / ".meta.json"
 
