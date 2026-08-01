@@ -144,3 +144,4 @@ V26: Builder ∀ nested CDN value access — isinstance guard before `.get()`/`i
 | B10 | 2026-08-01 | V24 draft "upsert synthesized doc to ChromaDB" — conflicts V7 (purge ids ∉ documents.json) + V15 (orphan flag) → synthesized docs deleted next build | V24 |
 | B11 | 2026-08-01 | builder.py:769 `ab_data.get()` unguarded — AI Abilities value non-dict → AttributeError crash mid-build. Same at :186 `rewards.keys()` | V26 |
 | B12 | 2026-08-01 | summaries.py:183 `int()` on wiki level cell — non-numeric cell ("varies", "??") → ValueError kills build | V26 |
+| B13 | 2026-08-01 | builder.py xptable `amounts[:30]` — real tables have ≤125 entries → levels 31+ silently dropped → "XP to level N" answers garbage | T50 |
