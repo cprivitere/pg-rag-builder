@@ -1,3 +1,6 @@
+import mwparserfromhell
+from pathlib import Path
+
 from documents.resolver import GameResolver
 from documents.wiki_builder import build_wiki_documents
 from documents.chunking import chunk_all_documents
@@ -188,11 +191,16 @@ def build_skill_documents(db):
             hints = {}
 
         reward_lines = []
-        for level in sorted(rewards.keys(), key=lambda x: int(x) if str(x).isdigit() else 0):
+        for level in sorted(rewards.keys(), key=lambda x: int(x.split("_")[0]) if x.split("_")[0].isdigit() else 0):
             r = rewards[level]
             if isinstance(r, dict):
+                display_level = level
+                if "_" in str(level):
+                    parts = str(level).split("_", 1)
+                    if parts[0].isdigit() and parts[1]:
+                        display_level = f"{parts[0]} ({parts[1]})"
                 for rk, rv in r.items():
-                    reward_lines.append(f"- Level {level}: {rk} = {rv}")
+                    reward_lines.append(f"- Level {display_level}: {rk} = {rv}")
 
         hint_lines = []
         for level in sorted(hints.keys(), key=lambda x: int(x) if str(x).isdigit() else 0):
@@ -487,7 +495,6 @@ def build_lorebook_documents(db):
         if not text_content:
             continue
 
-        import mwparserfromhell
         clean_text = mwparserfromhell.parse(text_content).strip_code(
             normalize=False, collapse=True
         ).strip()
@@ -591,6 +598,9 @@ Internal ID: {area_id}"""
 
 def build_itemuse_documents(db):
     documents = []
+
+    resolver = GameResolver(db)
+
     itemuses = db.tables.get("itemuses", {})
 
     for item_id, use_data in itemuses.items():
@@ -601,7 +611,9 @@ def build_itemuse_documents(db):
         if not recipes:
             continue
 
-        text = f"""Item Usage: {item_id}
+        name = resolver.item_name(item_id.removeprefix("item_"))
+
+        text = f"""Item Usage: {name}
 
 Used in {len(recipes)} recipes:
 Recipe IDs: {', '.join(str(r) for r in recipes)}"""
@@ -613,7 +625,7 @@ Recipe IDs: {', '.join(str(r) for r in recipes)}"""
             "metadata": {
                 "source": "cdn",
                 "table": "itemuses",
-                "name": f"Item {item_id} Usage",
+                "name": name,
             }
         })
 
@@ -945,7 +957,7 @@ def build_xptable_documents(db):
             continue
 
         level_lines = []
-        for i, xp in enumerate(amounts[:30], 1):
+        for i, xp in enumerate(amounts, 1):
             level_lines.append(f"Level {i}: {xp} XP")
 
         text = f"""XP Table: {name}

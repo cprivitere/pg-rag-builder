@@ -461,6 +461,54 @@ def test_v26_abilitykeyword_id_stable_across_reorder():
     assert ids_forward == ids_reversed, "V26: id must not depend on list order"
 
 
+def test_xptable_no_level_cap():
+    from documents.builder import build_xptable_documents
+
+    tables = {
+        "TableBig": {"InternalName": "Big", "XpAmounts": list(range(1, 126))},
+    }
+    db = _make_db()
+    db.tables["xptables"] = tables
+    docs = build_xptable_documents(db)
+    assert len(docs) == 1
+    assert "Level 125: 125 XP" in docs[0]["text"]
+    assert "Level 30:" in docs[0]["text"]
+
+
+def test_skill_rewards_sorted_numeric_prefix():
+    from documents.builder import build_skill_documents
+
+    skills = {
+        "AlcoholTolerance": {
+            "Name": "AlcoholTolerance",
+            "Description": "",
+            "Rewards": {
+                "10": {"Generic": "g"},
+                "10_Dwarf": {"Dwarf": "d"},
+                "30": {"Generic2": "g2"},
+            },
+        }
+    }
+    db = _make_db(skills=skills)
+    docs = build_skill_documents(db)
+    text = docs[0]["text"]
+    assert text.index("Level 10: Generic") < text.index("Level 30: Generic2")
+    assert "Level 10 (Dwarf): Dwarf = d" in text
+
+
+def test_itemuse_name_resolved():
+    from documents.builder import build_itemuse_documents
+
+    itemuses = {
+        "item_1": {"RecipesThatUseItem": [1, 2]},
+    }
+    db = _make_db()
+    db.tables["itemuses"] = itemuses
+    db.tables["items"] = {"item_1": {"Name": "Mushroom"}}
+    docs = build_itemuse_documents(db)
+    assert docs[0]["metadata"]["name"] == "Mushroom"
+
+
 def test_v26_skill_rewards_list_does_not_crash():
     from documents.builder import build_skill_documents
 
