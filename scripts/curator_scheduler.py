@@ -91,6 +91,18 @@ def run_curator_with_scheduler():
     
     print(result.stdout)
     
+    # Rebuild documents so new curated docs reach documents.json (V25)
+    print("Rebuilding documents.json...")
+    docs_result = subprocess.run(
+        [sys.executable, "main.py"],
+        capture_output=True,
+        text=True
+    )
+    
+    if docs_result.returncode != 0:
+        print(f"Documents rebuild failed: {docs_result.stderr}")
+        return
+    
     # Rebuild index if curator created new files
     print("Rebuilding index...")
     rebuild_result = subprocess.run(
