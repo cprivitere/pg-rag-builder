@@ -122,7 +122,7 @@ V25: Curator rebuild order: curated file write → main.py (documents.json) → 
 | T45 | x | Fix curator rebuild — scheduler runs main.py before build_index | V25, T40 |
 | T46 | x | Add EMBEDDING_DIM to config.py, assert at build start + health-check compare | V23 |
 | T47 | x | Gathering summaries — group items by gathering skill level (CDN + wiki) | V19, T25 |
-| T48 | . | Curator refresh — regenerate stale curated docs on source change, ⊥ `if not exists` skip | V20, V25 |
+| T48 | x | Curator refresh — regenerate stale curated docs on source change, ⊥ `if not exists` skip | V20, V25 |
 
 ## §B — Bugs
 

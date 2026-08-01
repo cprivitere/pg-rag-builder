@@ -80,12 +80,13 @@ def run_curator():
     for topic, frags in topics.items():
         if len(frags) >= 3:  # Only create if enough sources
             curated_path = CURATED_DIR / f"{topic}_curated.txt"
-            
-            # Don't overwrite existing curated docs
-            if not curated_path.exists():
-                content = create_curated_from_fragments(topic, frags)
+            content = create_curated_from_fragments(topic, frags)
+
+            # Regenerate when content changed (V20) — stale docs must not persist
+            existed = curated_path.exists()
+            if not existed or curated_path.read_text(encoding="utf-8") != content:
                 curated_path.write_text(content, encoding="utf-8")
-                print(f"Created: {curated_path.name}")
+                print(f"{'Updated' if existed else 'Created'}: {curated_path.name}")
                 created += 1
     
     print(f"Curator complete. Created {created} new curated documents.")
