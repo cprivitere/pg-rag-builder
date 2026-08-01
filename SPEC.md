@@ -64,10 +64,11 @@ V18: Wiki download purge .txt files for pages gone from target category. ⊥ sta
 V19: Comparison/aggregation queries (highest/lowest/best/most) trigger adaptive retrieval — count=20 instead of default. Pre-computed summary docs stored in ChromaDB, retrieved semantically. Prompt includes comparison reasoning instructions.
 V20: Curated documents stored in `data/wiki/curated/` with `_curated` suffix. Auto-generated from wiki page synthesis. Rebuilt during index pass.
 V21: Synthesis capability — pipeline detects scattered answers (multiple sources, low relevance scores) and triggers LLM synthesis to create curated summary documents.
-V22: Background curator agent runs periodically, scans wiki for fragmented knowledge (area levels, skill progressions, crafting chains), creates curated documents, rebuilds index.
+V22: Background curator agent scans wiki for fragmented knowledge (area levels, skill progressions, crafting chains), creates curated documents, rebuilds index. ⊥ periodic scheduling.
 V23: EMBEDDING_DIM constant exists in config.py. Build start: existing collection dim ≠ EMBEDDING_DIM → abort. Health-check: dim vs EMBEDDING_DIM compared, mismatch → issue.
 V24: Synthesis result persisted — pipeline writes synthesized doc to `data/wiki/curated/synthesized_*_curated.txt`, loaded by builder (V20), survives purge (V7). ⊥ inline-only synthesis, ⊥ Chroma upsert (V7 purges ids ∉ documents.json), ⊥ dead `create_curated_doc()`.
 V25: Curator rebuild order: curated file write → main.py (documents.json) → build_index. ⊥ build_index direct after curator — new curated docs ⊥ reach index.
+V26: Builder ∀ nested CDN value access — isinstance guard before `.get()`/`int()`. ⊥ crash mid-build on malformed cell. ⊥ index-based doc ids (churn on data order shift).
 
 ## §T — Tasks
 
@@ -114,7 +115,7 @@ V25: Curator rebuild order: curated file write → main.py (documents.json) → 
 | T37 | x | Add synthesis generator — `rag/synthesis_generator.py` use LLM to create curated docs from retrieved chunks | V21, T36 |
 | T38 | x | Integrate synthesis into pipeline — `rag/pipeline.py` trigger synthesis on scattered answers, persist via curated txt (T44) | V21, T36, T37, V24 |
 | T39 | x | Add curator agent — `scripts/curator.py` background process scans wiki, identifies fragmented knowledge, creates curated docs | V22 |
-| T40 | ~ | Add curator scheduler — periodic runs (daily/weekly), diff detection, rebuild index after changes | V22, T39 |
+| T40 | x | Add curator scheduler — diff detection, rebuild index after changes | V22, T39 |
 | T41 | x | Test curated doc loading — verify curated docs indexed correctly, queries return consolidated answers | V20, T35 |
 | T42 | x | Test synthesis flow — verify scattered answers trigger synthesis, new docs improve future queries | V21, T38 |
 | T43 | x | Update Open WebUI pipe — surface synthesis status in answers ("synthesized from X sources") | V21, T38 |
@@ -123,6 +124,9 @@ V25: Curator rebuild order: curated file write → main.py (documents.json) → 
 | T46 | x | Add EMBEDDING_DIM to config.py, assert at build start + health-check compare | V23 |
 | T47 | x | Gathering summaries — group items by gathering skill level (CDN + wiki) | V19, T25 |
 | T48 | x | Curator refresh — regenerate stale curated docs on source change, ⊥ `if not exists` skip | V20, V25 |
+| T49 | x | Add CDN table builders — skill, quest, ability, npc, effect, lorebook, directedgoal, area, itemuse, landmark, title, vault | V6 |
+| T50 | x | Add CDN table builders — advancementtable, ai, attribute, source, tsys, xptable, abilitykeyword | V6 |
+| T51 | x | Type-aware chunk limits for new doc types in `documents/chunking.py` | V6, T23 |
 
 ## §B — Bugs
 
@@ -138,3 +142,5 @@ V25: Curator rebuild order: curated file write → main.py (documents.json) → 
 | B8 | 2026-08-01 | curator_scheduler.py:96 rebuild runs `vectorstore.build_index` direct — skips main.py → curated docs ⊥ in documents.json → never indexed | V25 |
 | B9 | 2026-08-01 | `create_curated_doc()` dead (0 callers) — pipeline.py:52-59 synthesize inline only, ⊥ persist → T42 "new docs improve future queries" false | V24 |
 | B10 | 2026-08-01 | V24 draft "upsert synthesized doc to ChromaDB" — conflicts V7 (purge ids ∉ documents.json) + V15 (orphan flag) → synthesized docs deleted next build | V24 |
+| B11 | 2026-08-01 | builder.py:769 `ab_data.get()` unguarded — AI Abilities value non-dict → AttributeError crash mid-build. Same at :186 `rewards.keys()` | V26 |
+| B12 | 2026-08-01 | summaries.py:183 `int()` on wiki level cell — non-numeric cell ("varies", "??") → ValueError kills build | V26 |

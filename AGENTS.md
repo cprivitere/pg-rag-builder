@@ -16,7 +16,8 @@ uv run python -m scripts.retrieval # interactive Chroma similarity search (requi
 ### Mise Tasks
 
 **Pipeline:**
-- `mise r` / `mise refresh` — Full refresh: download_cdn + download_wiki + main + build_index
+- `mise r` / `mise refresh` — Fast refresh: download_cdn + main + build_index (skips slow wiki fetch)
+- `mise refresh::full` — Full refresh: download_cdn + download_wiki + main + build_index
 - `mise t` / `mise test` — Run pytest test suite
 - `mise v` / `mise validate` — Health-check index, rebuild if issues found
 
@@ -106,7 +107,7 @@ LLM and embedding servers not needed for build/refresh — only for interactive 
 
 ## Testing
 
-- `pytest` — 90+ tests
+- `pytest` — 180+ tests
 - Interactive tests excluded from pytest run: `test_rag.py`, `test_retrieval.py`, `test_embedding.py`, `test_similarity.py`
 - Integration tests use temp ChromaDB dirs — no external deps needed
 - Health-check tests use temp dirs + synthetic docs

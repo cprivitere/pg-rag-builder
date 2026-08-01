@@ -1,7 +1,11 @@
 from documents.resolver import GameResolver
 from documents.wiki_builder import build_wiki_documents
 from documents.chunking import chunk_all_documents
-from documents.summaries import build_summary_documents
+from documents.summaries import (
+    build_summary_documents,
+    build_gathering_summaries,
+    build_wiki_gathering_summaries,
+)
 from pathlib import Path
 
 
@@ -164,11 +168,878 @@ Produces:
     return documents
 
 
+def build_skill_documents(db):
+    documents = []
+    skills = db.tables.get("skills", {})
+
+    for skill_id, skill in skills.items():
+        if not isinstance(skill, dict):
+            continue
+
+        name = skill.get("Name", skill_id)
+        desc = skill.get("Description", "")
+        parents = skill.get("Parents", [])
+        rewards = skill.get("Rewards", {})
+        hints = skill.get("AdvancementHints", {})
+
+        if not isinstance(rewards, dict):
+            rewards = {}
+        if not isinstance(hints, dict):
+            hints = {}
+
+        reward_lines = []
+        for level in sorted(rewards.keys(), key=lambda x: int(x) if str(x).isdigit() else 0):
+            r = rewards[level]
+            if isinstance(r, dict):
+                for rk, rv in r.items():
+                    reward_lines.append(f"- Level {level}: {rk} = {rv}")
+
+        hint_lines = []
+        for level in sorted(hints.keys(), key=lambda x: int(x) if str(x).isdigit() else 0):
+            hint_lines.append(f"- Level {level}: {hints[level]}")
+
+        text = f"""Skill: {name}
+
+Description:
+{desc}
+
+Parents:
+{', '.join(parents) if parents else 'None'}
+
+Rewards:
+{chr(10).join(reward_lines) if reward_lines else 'None'}
+
+Advancement Hints:
+{chr(10).join(hint_lines) if hint_lines else 'None'}"""
+
+        if skill.get("Combat"):
+            text += "\n\nType: Combat"
+        elif skill.get("AuxCombat"):
+            text += "\n\nType: Auxiliary Combat"
+        else:
+            text += "\n\nType: Non-Combat"
+
+        if skill.get("MaxBonusLevels"):
+            text += f"\nMax Bonus Levels: {skill['MaxBonusLevels']}"
+
+        documents.append({
+            "id": f"skill_{skill_id}",
+            "type": "skill",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "skills",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_quest_documents(db):
+    documents = []
+    quests = db.tables.get("quests", {})
+
+    for quest_id, quest in quests.items():
+        if not isinstance(quest, dict):
+            continue
+
+        name = quest.get("Name", quest_id)
+        desc = quest.get("Description", "")
+        preface = quest.get("PrefaceText", "")
+        success = quest.get("SuccessText", "")
+        location = quest.get("DisplayedLocation", "")
+        keywords = quest.get("Keywords", [])
+
+        if "Lint_NotObtainable" in keywords:
+            continue
+
+        objectives = []
+        for obj in quest.get("Objectives", []):
+            obj_desc = obj.get("Description", "")
+            obj_type = obj.get("Type", "")
+            obj_num = obj.get("Number", 1)
+            target = obj.get("Target", "")
+            objectives.append(f"- {obj_type}: {obj_desc} (x{obj_num}, target: {target})")
+
+        requirements = []
+        for req in quest.get("Requirements", []):
+            if isinstance(req, str):
+                requirements.append(req)
+            elif isinstance(req, list):
+                for sub in req:
+                    if isinstance(sub, dict):
+                        req_t = sub.get("T", "")
+                        if req_t == "MinSkillLevel":
+                            requirements.append(f"Skill {sub.get('Skill','')} >= {sub.get('Level',0)}")
+                        elif req_t == "MinFavorLevel":
+                            requirements.append(f"Favor with {sub.get('Npc','')} >= {sub.get('Level','')}")
+                        elif req_t == "QuestCompleted":
+                            requirements.append(f"Completed quest: {sub.get('Quest','')}")
+            elif isinstance(req, dict):
+                req_t = req.get("T", "")
+                if req_t == "MinSkillLevel":
+                    requirements.append(f"Skill {req.get('Skill','')} >= {req.get('Level',0)}")
+                elif req_t == "MinFavorLevel":
+                    requirements.append(f"Favor with {req.get('Npc','')} >= {req.get('Level','')}")
+                elif req_t == "QuestCompleted":
+                    requirements.append(f"Completed quest: {req.get('Quest','')}")
+
+        rewards_text = []
+        for r in quest.get("Rewards", []):
+            if isinstance(r, dict):
+                r_t = r.get("T", "")
+                if r_t == "SkillXp":
+                    rewards_text.append(f"+{r.get('Xp',0)} {r.get('Skill','')} XP")
+                elif r_t == "Recipe":
+                    rewards_text.append(f"Recipe: {r.get('Recipe','')}")
+
+        for ri in quest.get("Rewards_Items", []):
+            rewards_text.append(f"Item: {ri.get('Item','')} x{ri.get('StackSize',1)}")
+
+        text = f"""Quest: {name}
+
+Description:
+{desc}"""
+
+        if preface:
+            text += f"\n\nPreface:\n{preface}"
+        if success:
+            text += f"\n\nCompletion:\n{success}"
+        if location:
+            text += f"\n\nLocation: {location}"
+        if objectives:
+            text += f"\n\nObjectives:\n{chr(10).join(objectives)}"
+        if requirements:
+            text += f"\n\nRequirements:\n" + "\n".join(f"- {r}" for r in requirements)
+        if rewards_text:
+            text += f"\n\nRewards:\n" + "\n".join(f"- {r}" for r in rewards_text)
+
+        documents.append({
+            "id": f"quest_{quest_id}",
+            "type": "quest",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "quests",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_ability_documents(db):
+    documents = []
+    abilities = db.tables.get("abilities", {})
+
+    for ability_id, ability in abilities.items():
+        if not isinstance(ability, dict):
+            continue
+
+        keywords = ability.get("Keywords", [])
+        if "Lint_MonsterAbility" in keywords:
+            continue
+
+        name = ability.get("Name", ability_id)
+        desc = ability.get("Description", "")
+        skill = ability.get("Skill", "")
+        damage_type = ability.get("DamageType", "")
+        target = ability.get("Target", "")
+        level = ability.get("Level", 0)
+        reset_time = ability.get("ResetTime", 0)
+
+        text = f"""Ability: {name}
+
+Description:
+{desc}
+
+Skill: {skill}
+Damage Type: {damage_type}
+Target: {target}
+Level: {level}
+Reset Time: {reset_time}s"""
+
+        pve = ability.get("PvE", {})
+        if pve:
+            damage = pve.get("Damage", 0)
+            power_cost = pve.get("PowerCost", 0)
+            rage_cost = pve.get("RageCost", 0)
+            range_val = pve.get("Range", 0)
+            text += f"\n\nPvE: Damage={damage}, PowerCost={power_cost}, RageCost={rage_cost}, Range={range_val}"
+
+        if keywords:
+            text += f"\n\nKeywords: {', '.join(keywords)}"
+
+        documents.append({
+            "id": f"ability_{ability_id}",
+            "type": "ability",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "abilities",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_npc_documents(db):
+    documents = []
+    npcs = db.tables.get("npcs", {})
+
+    for npc_id, npc in npcs.items():
+        if not isinstance(npc, dict):
+            continue
+
+        name = npc.get("Name", npc_id)
+        desc = npc.get("Desc", "")
+        area = npc.get("AreaFriendlyName", "")
+        services = npc.get("Services", [])
+
+        text = f"""NPC: {name}
+
+Description:
+{desc}
+
+Location: {area}"""
+
+        if services:
+            service_lines = []
+            for svc in services:
+                svc_type = svc.get("Type", "")
+                favor = svc.get("Favor", "")
+                skills = svc.get("Skills", [])
+                line = f"- {svc_type}"
+                if favor:
+                    line += f" (Favor: {favor})"
+                if skills:
+                    line += f" - Skills: {', '.join(skills)}"
+                service_lines.append(line)
+            text += "\n\nServices:\n" + "\n".join(service_lines)
+
+        documents.append({
+            "id": f"npc_{npc_id}",
+            "type": "npc",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "npcs",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_effect_documents(db):
+    documents = []
+    effects = db.tables.get("effects", {})
+
+    for effect_id, effect in effects.items():
+        if not isinstance(effect, dict):
+            continue
+
+        name = effect.get("Name", effect_id)
+        desc = effect.get("Desc", "")
+        keywords = effect.get("Keywords", [])
+
+        if not desc:
+            continue
+
+        text = f"""Effect: {name}
+
+Description:
+{desc}"""
+
+        if keywords:
+            text += f"\n\nKeywords: {', '.join(keywords)}"
+
+        documents.append({
+            "id": f"effect_{effect_id}",
+            "type": "effect",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "effects",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_lorebook_documents(db):
+    documents = []
+    lorebooks = db.tables.get("lorebooks", {})
+
+    for book_id, book in lorebooks.items():
+        if not isinstance(book, dict):
+            continue
+
+        title = book.get("Title", book.get("Name", book_id))
+        text_content = book.get("Text", "")
+        category = book.get("Category", "")
+        location = book.get("LocationHint", "")
+        keywords = book.get("Keywords", [])
+
+        if not text_content:
+            continue
+
+        import mwparserfromhell
+        clean_text = mwparserfromhell.parse(text_content).strip_code(
+            normalize=False, collapse=True
+        ).strip()
+
+        doc_text = f"""Lore Book: {title}
+
+Category: {category}
+Location: {location}
+
+Content:
+{clean_text}"""
+
+        if keywords:
+            doc_text += f"\n\nKeywords: {', '.join(keywords)}"
+
+        documents.append({
+            "id": f"lorebook_{book_id}",
+            "type": "lorebook",
+            "text": doc_text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "lorebooks",
+                "name": title,
+            }
+        })
+
+    return documents
+
+
+def build_directedgoal_documents(db):
+    documents = []
+    goals = db.tables.get("directedgoals", [])
+
+    if not isinstance(goals, list):
+        return documents
+
+    for goal in goals:
+        if not isinstance(goal, dict):
+            continue
+
+        label = goal.get("Label", "")
+        zone = goal.get("Zone", "")
+        large_hint = goal.get("LargeHint", "")
+        small_hint = goal.get("SmallHint", "")
+
+        if not large_hint and not small_hint:
+            continue
+
+        text = f"""Directed Goal: {label}
+
+Zone: {zone}"""
+
+        if large_hint:
+            text += f"\n\nHint: {large_hint}"
+        if small_hint:
+            text += f"\n\nSmall Hint: {small_hint}"
+
+        documents.append({
+            "id": f"goal_{goal.get('Id', label)}",
+            "type": "directedgoal",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "directedgoals",
+                "name": label,
+            }
+        })
+
+    return documents
+
+
+def build_area_documents(db):
+    documents = []
+    areas = db.tables.get("areas", {})
+
+    for area_id, area in areas.items():
+        if not isinstance(area, dict):
+            continue
+
+        name = area.get("FriendlyName", area_id)
+        short = area.get("ShortFriendlyName", "")
+
+        text = f"""Area: {name}
+
+Short Name: {short}
+Internal ID: {area_id}"""
+
+        documents.append({
+            "id": f"area_{area_id}",
+            "type": "area",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "areas",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_itemuse_documents(db):
+    documents = []
+    itemuses = db.tables.get("itemuses", {})
+
+    for item_id, use_data in itemuses.items():
+        if not isinstance(use_data, dict):
+            continue
+
+        recipes = use_data.get("RecipesThatUseItem", [])
+        if not recipes:
+            continue
+
+        text = f"""Item Usage: {item_id}
+
+Used in {len(recipes)} recipes:
+Recipe IDs: {', '.join(str(r) for r in recipes)}"""
+
+        documents.append({
+            "id": f"itemuse_{item_id}",
+            "type": "itemuse",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "itemuses",
+                "name": f"Item {item_id} Usage",
+            }
+        })
+
+    return documents
+
+
+def build_landmark_documents(db):
+    documents = []
+    landmarks = db.tables.get("landmarks", {})
+
+    for area_id, marks in landmarks.items():
+        if not isinstance(marks, list):
+            continue
+
+        for i, mark in enumerate(marks):
+            if not isinstance(mark, dict):
+                continue
+
+            name = mark.get("Name", "")
+            desc = mark.get("Desc", "")
+            mark_type = mark.get("Type", "")
+            loc = mark.get("Loc", "")
+
+            text = f"""Landmark: {name}
+
+Type: {mark_type}
+Area: {area_id}
+Location: {loc}
+
+Description:
+{desc}"""
+
+            documents.append({
+                "id": f"landmark_{area_id}_{name}_{i}",
+                "type": "landmark",
+                "text": text.strip(),
+                "metadata": {
+                    "source": "cdn",
+                    "table": "landmarks",
+                    "name": name,
+                }
+            })
+
+    return documents
+
+
+def build_title_documents(db):
+    documents = []
+    titles = db.tables.get("playertitles", {})
+
+    for title_id, title_data in titles.items():
+        if not isinstance(title_data, dict):
+            continue
+
+        title_text = title_data.get("Title", "")
+
+        documents.append({
+            "id": f"title_{title_id}",
+            "type": "title",
+            "text": f"Player Title: {title_text}",
+            "metadata": {
+                "source": "cdn",
+                "table": "playertitles",
+                "name": title_text,
+            }
+        })
+
+    return documents
+
+
+def build_vault_documents(db):
+    documents = []
+    vaults = db.tables.get("storagevaults", {})
+
+    for vault_id, vault in vaults.items():
+        if not isinstance(vault, dict):
+            continue
+
+        name = vault.get("NpcFriendlyName", f"Vault {vault_id}")
+        area = vault.get("Area", "")
+        slots = vault.get("NumSlots", 0)
+        has_npc = vault.get("HasAssociatedNpc", False)
+
+        text = f"""Storage Vault: {name}
+
+Area: {area}
+Slots: {slots}
+Has Associated NPC: {has_npc}"""
+
+        documents.append({
+            "id": f"vault_{vault_id}",
+            "type": "vault",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "storagevaults",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_advancementtable_documents(db):
+    documents = []
+    tables = db.tables.get("advancementtables", {})
+
+    for table_id, table_data in tables.items():
+        if not isinstance(table_data, dict):
+            continue
+
+        name = table_data.get("InternalName", table_id)
+
+        stat_lines = []
+        for key, val in table_data.items():
+            if key == "InternalName":
+                continue
+            if isinstance(val, dict):
+                stat_lines.append(f"- {key}:")
+                for sk, sv in val.items():
+                    stat_lines.append(f"  {sk}: {sv}")
+            else:
+                stat_lines.append(f"- {key}: {val}")
+
+        text = f"""Advancement Table: {name}
+
+{chr(10).join(stat_lines)}"""
+
+        documents.append({
+            "id": f"advtable_{table_id}",
+            "type": "advancementtable",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "advancementtables",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_ai_documents(db):
+    documents = []
+    ai_data = db.tables.get("ai", {})
+
+    for ai_id, ai in ai_data.items():
+        if not isinstance(ai, dict):
+            continue
+
+        comment = ai.get("Comment", "")
+        mobility = ai.get("MobilityType", "")
+        is_pet = ai.get("UncontrolledPet", False)
+        abilities = ai.get("Abilities", {})
+        if not isinstance(abilities, dict):
+            abilities = {}
+
+        ability_lines = []
+        for ab_name, ab_data in abilities.items():
+            if not isinstance(ab_data, dict):
+                continue
+            min_lvl = ab_data.get("minLevel", 1)
+            max_lvl = ab_data.get("maxLevel", "max")
+            ability_lines.append(f"- {ab_name} (levels {min_lvl}-{max_lvl})")
+
+        text = f"""AI Behavior: {ai_id}
+
+Comment: {comment}
+Mobility: {mobility}
+Uncontrolled Pet: {is_pet}
+
+Abilities:
+{chr(10).join(ability_lines) if ability_lines else 'None'}"""
+
+        documents.append({
+            "id": f"ai_{ai_id}",
+            "type": "ai",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "ai",
+                "name": ai_id,
+            }
+        })
+
+    return documents
+
+
+def build_attribute_documents(db):
+    documents = []
+    attrs = db.tables.get("attributes", {})
+
+    for attr_id, attr in attrs.items():
+        if not isinstance(attr, dict):
+            continue
+
+        label = attr.get("Label", attr_id)
+        default = attr.get("DefaultValue", 0)
+        display_rule = attr.get("DisplayRule", "")
+        display_type = attr.get("DisplayType", "")
+
+        text = f"""Attribute: {label}
+
+Internal Name: {attr_id}
+Default Value: {default}
+Display Rule: {display_rule}
+Display Type: {display_type}"""
+
+        documents.append({
+            "id": f"attr_{attr_id}",
+            "type": "attribute",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "attributes",
+                "name": label,
+            }
+        })
+
+    return documents
+
+
+def build_source_documents(db):
+    documents = []
+
+    for table_name in ["sources_abilities", "sources_items", "sources_recipes"]:
+        sources = db.tables.get(table_name, {})
+        source_type = table_name.replace("sources_", "")
+
+        for item_id, source_data in sources.items():
+            if not isinstance(source_data, dict):
+                continue
+
+            entries = source_data.get("entries", [])
+            if not entries:
+                continue
+
+            entry_lines = []
+            for entry in entries:
+                entry_type = entry.get("Type", entry.get("type", ""))
+                npc = entry.get("Npc", entry.get("npc", ""))
+                skill = entry.get("skill", "")
+                line = f"- {entry_type}"
+                if npc:
+                    line += f" from {npc}"
+                if skill:
+                    line += f" ({skill} skill)"
+                entry_lines.append(line)
+
+            text = f"""Source: {item_id}
+
+Found in {table_name}:
+{chr(10).join(entry_lines)}"""
+
+            documents.append({
+                "id": f"source_{source_type}_{item_id}",
+                "type": "source",
+                "text": text.strip(),
+                "metadata": {
+                    "source": "cdn",
+                    "table": table_name,
+                    "name": f"{item_id} Sources",
+                }
+            })
+
+    return documents
+
+
+def build_tsys_documents(db):
+    documents = []
+    tsys = db.tables.get("tsysclientinfo", {})
+
+    for item_id, info in tsys.items():
+        if not isinstance(info, dict):
+            continue
+
+        name = info.get("InternalName", item_id)
+        skill = info.get("Skill", "")
+        suffix = info.get("Suffix", "")
+        slots = info.get("Slots", [])
+        tiers = info.get("Tiers", {})
+
+        tier_lines = []
+        for tier_id, tier_data in tiers.items():
+            if not isinstance(tier_data, dict):
+                continue
+            min_lvl = tier_data.get("MinLevel", "?")
+            max_lvl = tier_data.get("MaxLevel", "?")
+            rarity = tier_data.get("MinRarity", "")
+            descs = tier_data.get("EffectDescs", [])
+            desc_str = ", ".join(descs) if descs else ""
+            tier_lines.append(f"- {tier_id}: Level {min_lvl}-{max_lvl}, {rarity}: {desc_str}")
+
+        text = f"""Treasure Item: {name}
+
+Skill: {skill}
+Suffix: {suffix}
+Slots: {', '.join(slots) if slots else 'Any'}
+
+Tiers:
+{chr(10).join(tier_lines) if tier_lines else 'None'}"""
+
+        documents.append({
+            "id": f"tsys_{item_id}",
+            "type": "tsys",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "tsysclientinfo",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_xptable_documents(db):
+    documents = []
+    tables = db.tables.get("xptables", {})
+
+    for table_id, table_data in tables.items():
+        if not isinstance(table_data, dict):
+            continue
+
+        name = table_data.get("InternalName", table_id)
+        amounts = table_data.get("XpAmounts", [])
+
+        if not amounts:
+            continue
+
+        level_lines = []
+        for i, xp in enumerate(amounts[:30], 1):
+            level_lines.append(f"Level {i}: {xp} XP")
+
+        text = f"""XP Table: {name}
+
+XP required per level:
+{chr(10).join(level_lines)}"""
+
+        documents.append({
+            "id": f"xptable_{table_id}",
+            "type": "xptable",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "xptables",
+                "name": name,
+            }
+        })
+
+    return documents
+
+
+def build_abilitykeyword_documents(db):
+    import hashlib
+
+    documents = []
+    keywords = db.tables.get("abilitykeywords", [])
+
+    if not isinstance(keywords, list):
+        return documents
+
+    seen_ids = set()
+    for kw in keywords:
+        if not isinstance(kw, dict):
+            continue
+
+        must_have = kw.get("MustHaveAbilityKeywords", [])
+        crit_attrs = kw.get("AttributesThatDeltaCritChance", [])
+        crit_dmg = kw.get("AttributesThatModCritDamage", [])
+
+        # Stable id — order-independent hash of content (V26)
+        stable_key = ",".join(sorted(str(m) for m in must_have))
+        id_hash = hashlib.sha256(stable_key.encode()).hexdigest()[:12]
+        doc_id = f"abkeyword_{id_hash}"
+        if doc_id in seen_ids:
+            counter = 2
+            while f"{doc_id}_{counter}" in seen_ids:
+                counter += 1
+            doc_id = f"{doc_id}_{counter}"
+        seen_ids.add(doc_id)
+
+        text = f"""Ability Keyword Combo: {stable_key}
+
+Required Keywords: {', '.join(must_have) if must_have else 'None'}
+Crit Chance Attrs: {', '.join(crit_attrs) if crit_attrs else 'None'}
+Crit Damage Attrs: {', '.join(crit_dmg) if crit_dmg else 'None'}"""
+
+        documents.append({
+            "id": doc_id,
+            "type": "abilitykeyword",
+            "text": text.strip(),
+            "metadata": {
+                "source": "cdn",
+                "table": "abilitykeywords",
+                "name": f"Keyword Combo: {stable_key}",
+            }
+        })
+
+    return documents
+
+
 def build_documents(db):
     documents = []
 
     documents.extend(build_item_documents(db))
     documents.extend(build_recipe_documents(db))
+    documents.extend(build_skill_documents(db))
+    documents.extend(build_quest_documents(db))
+    documents.extend(build_ability_documents(db))
+    documents.extend(build_npc_documents(db))
+    documents.extend(build_effect_documents(db))
+    documents.extend(build_lorebook_documents(db))
+    documents.extend(build_directedgoal_documents(db))
+    documents.extend(build_area_documents(db))
+    documents.extend(build_itemuse_documents(db))
+    documents.extend(build_landmark_documents(db))
+    documents.extend(build_title_documents(db))
+    documents.extend(build_vault_documents(db))
+    documents.extend(build_advancementtable_documents(db))
+    documents.extend(build_ai_documents(db))
+    documents.extend(build_attribute_documents(db))
+    documents.extend(build_source_documents(db))
+    documents.extend(build_tsys_documents(db))
+    documents.extend(build_xptable_documents(db))
+    documents.extend(build_abilitykeyword_documents(db))
     documents.extend(build_wiki_documents(db))
     documents.extend(build_curated_documents())
 
@@ -189,7 +1060,57 @@ def build_documents(db):
                     doc["metadata"]["name"] = line.replace("Recipe: ", "")
                     break
 
+                if line.startswith("Skill: "):
+                    doc["metadata"]["name"] = line.replace("Skill: ", "")
+                    break
+
+                if line.startswith("Quest: "):
+                    doc["metadata"]["name"] = line.replace("Quest: ", "")
+                    break
+
+                if line.startswith("Ability: "):
+                    doc["metadata"]["name"] = line.replace("Ability: ", "")
+                    break
+
+                if line.startswith("NPC: "):
+                    doc["metadata"]["name"] = line.replace("NPC: ", "")
+                    break
+
+                if line.startswith("Effect: "):
+                    doc["metadata"]["name"] = line.replace("Effect: ", "")
+                    break
+
+                if line.startswith("Lore Book: "):
+                    doc["metadata"]["name"] = line.replace("Lore Book: ", "")
+                    break
+
+                if line.startswith("Directed Goal: "):
+                    doc["metadata"]["name"] = line.replace("Directed Goal: ", "")
+                    break
+
+                if line.startswith("Area: "):
+                    doc["metadata"]["name"] = line.replace("Area: ", "")
+                    break
+
+                if line.startswith("Landmark: "):
+                    doc["metadata"]["name"] = line.replace("Landmark: ", "")
+                    break
+
+                if line.startswith("Player Title: "):
+                    doc["metadata"]["name"] = line.replace("Player Title: ", "")
+                    break
+
+                if line.startswith("Storage Vault: "):
+                    doc["metadata"]["name"] = line.replace("Storage Vault: ", "")
+                    break
+
     summaries = build_summary_documents(documents)
     documents.extend(summaries)
+
+    gathering = build_gathering_summaries(db.tables.get("items", {}), db.tables.get("recipes", {}))
+    documents.extend(gathering)
+
+    wiki_gathering = build_wiki_gathering_summaries(db.wiki)
+    documents.extend(wiki_gathering)
 
     return chunk_all_documents(documents)

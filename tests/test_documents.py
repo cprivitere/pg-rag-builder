@@ -1,9 +1,25 @@
 from unittest.mock import patch
 
-from documents.builder import build_item_documents, build_recipe_documents
+from documents.builder import (
+    build_item_documents,
+    build_recipe_documents,
+    build_skill_documents,
+    build_quest_documents,
+    build_ability_documents,
+    build_npc_documents,
+    build_effect_documents,
+    build_lorebook_documents,
+    build_directedgoal_documents,
+    build_area_documents,
+    build_landmark_documents,
+    build_title_documents,
+    build_vault_documents,
+)
 
 
-def _make_db(items=None, recipes=None):
+def _make_db(items=None, recipes=None, skills=None, quests=None,
+             abilities=None, npcs=None, effects=None, lorebooks=None,
+             areas=None, landmarks=None, playertitles=None, storagevaults=None):
     class FakeDB:
         def __init__(self):
             self.tables = {}
@@ -11,6 +27,26 @@ def _make_db(items=None, recipes=None):
                 self.tables["items"] = items
             if recipes is not None:
                 self.tables["recipes"] = recipes
+            if skills is not None:
+                self.tables["skills"] = skills
+            if quests is not None:
+                self.tables["quests"] = quests
+            if abilities is not None:
+                self.tables["abilities"] = abilities
+            if npcs is not None:
+                self.tables["npcs"] = npcs
+            if effects is not None:
+                self.tables["effects"] = effects
+            if lorebooks is not None:
+                self.tables["lorebooks"] = lorebooks
+            if areas is not None:
+                self.tables["areas"] = areas
+            if landmarks is not None:
+                self.tables["landmarks"] = landmarks
+            if playertitles is not None:
+                self.tables["playertitles"] = playertitles
+            if storagevaults is not None:
+                self.tables["storagevaults"] = storagevaults
             self.wiki = {}
     return FakeDB()
 
@@ -78,3 +114,360 @@ def test_build_documents_includes_summaries():
     assert len(summaries) >= 1
     cheesemaking_summary = next(s for s in summaries if "Cheesemaking" in s["metadata"]["name"])
     assert "Cheese B (50)" in cheesemaking_summary["text"]
+
+
+def test_skill_document_shape():
+    skills = {
+        "Alchemy": {
+            "Name": "Alchemy",
+            "Description": "The art of combining things.",
+            "Parents": [],
+            "Rewards": {"10": {"Ability": "PoisonBlade1"}},
+            "AdvancementHints": {"50": "Gain favor with Strom."},
+            "Combat": False,
+            "MaxBonusLevels": 25,
+        }
+    }
+    db = _make_db(skills=skills)
+    docs = build_skill_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["id"] == "skill_Alchemy"
+    assert doc["type"] == "skill"
+    assert "Alchemy" in doc["text"]
+    assert "combining things" in doc["text"]
+    assert doc["metadata"]["source"] == "cdn"
+    assert doc["metadata"]["table"] == "skills"
+    assert doc["metadata"]["name"] == "Alchemy"
+
+
+def test_skill_document_includes_rewards_and_hints():
+    skills = {
+        "Dungcrafting": {
+            "Name": "Dungcrafting",
+            "Description": "Poop skill.",
+            "Parents": ["Gardening"],
+            "Rewards": {"20": {"BonusToSkill": "Cow"}, "25": {"BonusToSkill": "Pig"}},
+            "AdvancementHints": {},
+            "Combat": False,
+        }
+    }
+    db = _make_db(skills=skills)
+    docs = build_skill_documents(db)
+    doc = docs[0]
+    assert "Gardening" in doc["text"]
+    assert "BonusToSkill" in doc["text"]
+
+
+def test_quest_document_shape():
+    quests = {
+        "Graffiti_Glyph27": {
+            "Name": "Graffiti: Mastering \"Poop\"",
+            "Description": "Learn the poop symbol.",
+            "PrefaceText": "The animal-turd symbol.",
+            "Objectives": [
+                {"Description": "Poop in public", "Type": "UseAbility", "Number": 1, "Target": "AnimalPoop"},
+            ],
+            "Requirements": [],
+            "Rewards": [{"Skill": "Lore", "T": "SkillXp", "Xp": 15}],
+            "Keywords": [],
+        }
+    }
+    db = _make_db(quests=quests)
+    docs = build_quest_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["id"] == "quest_Graffiti_Glyph27"
+    assert doc["type"] == "quest"
+    assert "Graffiti" in doc["text"]
+    assert "poop" in doc["text"].lower()
+    assert doc["metadata"]["source"] == "cdn"
+    assert doc["metadata"]["table"] == "quests"
+
+
+def test_quest_document_skips_not_obtainable():
+    quests = {
+        "q1": {
+            "Name": "Deleted Quest",
+            "Description": "Old quest.",
+            "Objectives": [],
+            "Keywords": ["Lint_NotObtainable"],
+        }
+    }
+    db = _make_db(quests=quests)
+    docs = build_quest_documents(db)
+    assert len(docs) == 0
+
+
+def test_quest_document_includes_objectives_and_rewards():
+    quests = {
+        "q1": {
+            "Name": "Kill Stuff",
+            "Description": "Kill 5 skeletons.",
+            "Objectives": [
+                {"Description": "Kill Skeletons", "Type": "Kill", "Number": 5, "Target": "Skeleton"},
+            ],
+            "Requirements": [
+                {"T": "MinSkillLevel", "Skill": "Sword", "Level": 10},
+            ],
+            "Rewards": [
+                {"Skill": "Sword", "T": "SkillXp", "Xp": 100},
+            ],
+            "Rewards_Items": [
+                {"Item": "Potato", "StackSize": 5},
+            ],
+            "Keywords": [],
+        }
+    }
+    db = _make_db(quests=quests)
+    docs = build_quest_documents(db)
+    doc = docs[0]
+    assert "Kill Skeletons" in doc["text"]
+    assert "Sword" in doc["text"]
+    assert "Potato" in doc["text"]
+
+
+def test_build_documents_includes_skills_and_quests():
+    from documents.builder import build_documents
+
+    skills = {
+        "TestSkill": {"Name": "TestSkill", "Description": "A test skill.", "Parents": [], "Rewards": {}}
+    }
+    quests = {
+        "TestQuest": {"Name": "Test Quest", "Description": "A test quest.", "Objectives": [], "Keywords": []}
+    }
+    db = _make_db(skills=skills, quests=quests)
+    docs = build_documents(db)
+    types = {d["type"] for d in docs}
+    assert "skill" in types
+    assert "quest" in types
+
+
+def test_ability_document_shape():
+    abilities = {
+        "Fireball": {
+            "Name": "Fireball",
+            "Description": "A ball of fire.",
+            "Skill": "FireMagic",
+            "DamageType": "Fire",
+            "Target": "Enemy",
+            "Level": 10,
+            "ResetTime": 3.0,
+            "Keywords": ["Attack", "Ranged"],
+            "PvE": {"Damage": 50, "PowerCost": 10, "RageCost": 0, "Range": 20},
+        }
+    }
+    db = _make_db(abilities=abilities)
+    docs = build_ability_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["id"] == "ability_Fireball"
+    assert doc["type"] == "ability"
+    assert "Fireball" in doc["text"]
+    assert "FireMagic" in doc["text"]
+    assert doc["metadata"]["table"] == "abilities"
+
+
+def test_ability_document_skips_monster_abilities():
+    abilities = {
+        "Bite": {
+            "Name": "Bite",
+            "Description": "Monster bite.",
+            "Keywords": ["Lint_MonsterAbility"],
+        }
+    }
+    db = _make_db(abilities=abilities)
+    docs = build_ability_documents(db)
+    assert len(docs) == 0
+
+
+def test_npc_document_shape():
+    npcs = {
+        "NPC_Rita": {
+            "Name": "Rita",
+            "Desc": "A friendly healer.",
+            "AreaFriendlyName": "Serbule",
+            "Services": [
+                {"Type": "Training", "Favor": "Neutral", "Skills": ["Healing"]},
+            ],
+        }
+    }
+    db = _make_db(npcs=npcs)
+    docs = build_npc_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["id"] == "npc_NPC_Rita"
+    assert doc["type"] == "npc"
+    assert "Rita" in doc["text"]
+    assert "Serbule" in doc["text"]
+    assert "Healing" in doc["text"]
+
+
+def test_effect_document_shape():
+    effects = {
+        "Poison": {
+            "Name": "Poisoned",
+            "Desc": "You are poisoned. Lose 5 HP per second.",
+            "Keywords": ["Debuff", "DamageOverTime"],
+        }
+    }
+    db = _make_db(effects=effects)
+    docs = build_effect_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["id"] == "effect_Poison"
+    assert doc["type"] == "effect"
+    assert "Poisoned" in doc["text"]
+    assert "Debuff" in doc["text"]
+
+
+def test_effect_document_skips_empty_desc():
+    effects = {
+        "e1": {"Name": "Empty", "Desc": "", "Keywords": []},
+    }
+    db = _make_db(effects=effects)
+    docs = build_effect_documents(db)
+    assert len(docs) == 0
+
+
+def test_lorebook_document_shape():
+    lorebooks = {
+        "book1": {
+            "Title": "The Wasted Wishes",
+            "Text": "<h1>The Wasted Wishes</h1>\nA story about a gorgon.",
+            "Category": "Stories",
+            "LocationHint": "Found in Serbule",
+            "Keywords": ["AreaSerbule"],
+        }
+    }
+    db = _make_db(lorebooks=lorebooks)
+    docs = build_lorebook_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["id"] == "lorebook_book1"
+    assert doc["type"] == "lorebook"
+    assert "Wasted Wishes" in doc["text"]
+    assert "gorgon" in doc["text"]
+
+
+def test_area_document_shape():
+    areas = {
+        "AreaSunVale": {
+            "FriendlyName": "Sun Vale",
+            "ShortFriendlyName": "Sun Vale",
+        }
+    }
+    db = _make_db(areas=areas)
+    docs = build_area_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["id"] == "area_AreaSunVale"
+    assert doc["type"] == "area"
+    assert "Sun Vale" in doc["text"]
+
+
+def test_landmark_document_shape():
+    landmarks = {
+        "AreaStatehelm": [
+            {"Name": "Portal", "Desc": "Return to Statehelm", "Type": "Portal", "Loc": "x:0 y:0 z:0"},
+        ]
+    }
+    db = _make_db(landmarks=landmarks)
+    docs = build_landmark_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["type"] == "landmark"
+    assert "Portal" in doc["text"]
+    assert "Statehelm" in doc["text"]
+
+
+def test_title_document_shape():
+    playertitles = {
+        "title1": {"Title": "The Brave"},
+    }
+    db = _make_db(playertitles=playertitles)
+    docs = build_title_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["type"] == "title"
+    assert "The Brave" in doc["text"]
+
+
+def test_vault_document_shape():
+    storagevaults = {
+        "110": {
+            "Area": "AreaSunVale",
+            "NpcFriendlyName": "Animal Town Transfer Chest",
+            "NumSlots": 0,
+            "HasAssociatedNpc": False,
+        }
+    }
+    db = _make_db(storagevaults=storagevaults)
+    docs = build_vault_documents(db)
+    assert len(docs) == 1
+    doc = docs[0]
+    assert doc["type"] == "vault"
+    assert "Animal Town Transfer Chest" in doc["text"]
+
+
+def test_build_documents_includes_all_new_types():
+    from documents.builder import build_documents
+
+    db = _make_db(
+        abilities={"a1": {"Name": "Test Ability", "Description": "Does stuff.", "Keywords": []}},
+        npcs={"n1": {"Name": "Test NPC", "Desc": "A person.", "AreaFriendlyName": "Town"}},
+        effects={"e1": {"Name": "Test Effect", "Desc": "Does a thing.", "Keywords": []}},
+        lorebooks={"b1": {"Title": "Test Book", "Text": "Once upon a time.", "Category": "Fiction"}},
+        areas={"a1": {"FriendlyName": "Test Area", "ShortFriendlyName": "TA"}},
+        landmarks={"a1": [{"Name": "Test Landmark", "Desc": "A place.", "Type": "POI", "Loc": "x:0 y:0 z:0"}]},
+        playertitles={"t1": {"Title": "Hero"}},
+        storagevaults={"v1": {"Area": "Town", "NpcFriendlyName": "Bank", "NumSlots": 10, "HasAssociatedNpc": True}},
+    )
+    docs = build_documents(db)
+    types = {d["type"] for d in docs}
+    assert "ability" in types
+    assert "npc" in types
+    assert "effect" in types
+    assert "lorebook" in types
+    assert "area" in types
+    assert "landmark" in types
+    assert "title" in types
+    assert "vault" in types
+
+
+def test_v26_ai_abilities_non_dict_does_not_crash():
+    from documents.builder import build_ai_documents
+
+    ai_data = {
+        "ai1": {"Abilities": ["NotADict", {"name": "valid"}]},
+    }
+    db = _make_db()
+    db.tables["ai"] = ai_data
+    docs = build_ai_documents(db)
+    assert len(docs) == 1
+    assert "ai1" in docs[0]["text"]
+
+
+def test_v26_abilitykeyword_id_stable_across_reorder():
+    from documents.builder import build_abilitykeyword_documents
+
+    kw1 = {"MustHaveAbilityKeywords": ["Attack"], "AttributesThatDeltaCritChance": []}
+    kw2 = {"MustHaveAbilityKeywords": ["Debuff"], "AttributesThatDeltaCritChance": []}
+    db = _make_db()
+    db.tables["abilitykeywords"] = [kw1, kw2]
+    ids_forward = {d["id"] for d in build_abilitykeyword_documents(db)}
+    db.tables["abilitykeywords"] = [kw2, kw1]
+    ids_reversed = {d["id"] for d in build_abilitykeyword_documents(db)}
+    assert ids_forward == ids_reversed, "V26: id must not depend on list order"
+
+
+def test_v26_skill_rewards_list_does_not_crash():
+    from documents.builder import build_skill_documents
+
+    skills = {
+        "Sword": {"Name": "Sword", "Rewards": [{"Level": 1, "Name": "Sword 1"}], "Description": ""},
+    }
+    db = _make_db(skills=skills)
+    docs = build_skill_documents(db)
+    assert len(docs) == 1
+    assert "Sword" in docs[0]["text"]
