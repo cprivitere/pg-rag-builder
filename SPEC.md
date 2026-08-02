@@ -69,8 +69,8 @@ V23: EMBEDDING_DIM constant exists in config.py. Build start: existing collectio
 V24: Synthesis result persisted — pipeline writes synthesized doc to `data/wiki/curated/synthesized_*_curated.txt`, loaded by builder (V20), survives purge (V7). ⊥ inline-only synthesis, ⊥ Chroma upsert (V7 purges ids ∉ documents.json), ⊥ dead `create_curated_doc()`.
 V25: Curator rebuild order: curated file write → main.py (documents.json) → build_index. ⊥ build_index direct after curator — new curated docs ⊥ reach index.
 V26: Builder ∀ nested CDN value access — isinstance guard before `.get()`/`int()`. ⊥ crash mid-build on malformed cell. ⊥ index-based doc ids (churn on data order shift).
-V27: ∀ doc → {id,type,text,metadata} shape; type ∈ known set; source ∈ {cdn,wiki,summary,curated}. ⊥ malformed doc enters documents.json.
-V28: ∀ doc text → ⊥ `{{` `}}` `[[` `]]` `{|` template residue, `None` string, raw `item_\d+` id leak. Name fields resolved via GameResolver.
+V27: ∀ doc → {id,type,text,metadata} shape; type ∈ known set; source ∈ {cdn,wiki,computed,curated}. ⊥ malformed doc enters documents.json.
+V28: cdn doc text → ⊥ `{{` `}}` `[[` `]]` `{|` residue, `:\s*None` leak, raw `item_\d+` id. wiki doc text → ⊥ `{{` `}}` only (tables/links/`[[[` source glitches legit). curated → ⊥ nothing (markup intended). Name fields resolved via GameResolver.
 V29: ∀ doc id → unique across build. 2× `build_documents` → identical id→text map. ⊥ duplicate/nondeterministic output.
 V30: ∀ chunk → normalized text ⊆ normalized parent text (trailing partial word allowed — overlap junction normalizes `\n\n`→` `, hard-cap cuts mid-word by design); chunk id unique; metadata.chunk_index/chunk_count present. ⊥ chunk text loss, ⊥ orphan chunks.
 V31: ∀ itemuse doc → key ∈ items table keys; recipe count = len(`RecipesThatUseItem`); name resolved via GameResolver. ⊥ unresolved/unknown-name itemuse, ⊥ count drift from CDN source.
@@ -132,10 +132,10 @@ V31: ∀ itemuse doc → key ∈ items table keys; recipe count = len(`RecipesTh
 | T49 | x | Add CDN table builders — skill, quest, ability, npc, effect, lorebook, directedgoal, area, itemuse, landmark, title, vault | V6 |
 | T50 | x | Add CDN table builders — advancementtable, ai, attribute, source, tsys, xptable, abilitykeyword | V6 |
 | T51 | x | Type-aware chunk limits for new doc types in `documents/chunking.py` | V6, T23 |
-| T52 | . | Quality suite `tests/test_doc_quality.py`: shape+hygiene — synthetic ∀ 23 builders + real-data sweep (skipif data/cdn ⊄) | V27, V28 |
-| T53 | . | Determinism + id dedup tests — 2× build → identical id→text, ids unique | V29 |
-| T54 | . | Chunk↔doc integration — chunk text ⊆ parent, unique chunk ids, chunk_index/chunk_count metadata | V30 |
-| T55 | . | Cross-source consistency — itemuse counts vs `RecipesThatUseItem`, name resolution, known-skill rewards spot check | V31 |
+| T52 | x | Quality suite `tests/test_doc_quality.py`: shape+hygiene — synthetic ∀ 23 builders + real-data sweep (skipif data/cdn ⊄) | V27, V28 |
+| T53 | x | Determinism + id dedup tests — 2× build → identical id→text, ids unique | V29 |
+| T54 | x | Chunk↔doc integration — chunk text ⊆ parent, unique chunk ids, chunk_index/chunk_count metadata | V30 |
+| T55 | x | Cross-source consistency — itemuse counts vs `RecipesThatUseItem`, name resolution, known-skill rewards spot check | V31 |
 
 ## §B — Bugs
 
@@ -154,3 +154,6 @@ V31: ∀ itemuse doc → key ∈ items table keys; recipe count = len(`RecipesTh
 | B11 | 2026-08-01 | builder.py:769 `ab_data.get()` unguarded — AI Abilities value non-dict → AttributeError crash mid-build. Same at :186 `rewards.keys()` | V26 |
 | B12 | 2026-08-01 | summaries.py:183 `int()` on wiki level cell — non-numeric cell ("varies", "??") → ValueError kills build | V26 |
 | B13 | 2026-08-01 | builder.py xptable `amounts[:30]` — real tables have ≤125 entries → levels 31+ silently dropped → "XP to level N" answers garbage | T50 |
+| B14 | 2026-08-01 | `None` leak — builders render missing `.get()` values: skill `Parents:\nNone` (731 docs), ai Abilities, tsys Slots, xptable name, abilitykeyword attrs | V28 |
+| B15 | 2026-08-01 | source docs text `Source: item_1` — raw CDN key leaked to human text (6361 docs) instead of resolved name | V28 |
+| B16 | 2026-08-01 | wiki_builder template residue — mwparserfromhell parse glitch: unclosed `'''` before `==` heading → preceding `{{Ambox}}` shell survives strip_code (3/6200 docs) | V28 |
