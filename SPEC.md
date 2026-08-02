@@ -30,7 +30,7 @@ api: POST `:8081/embedding` → embedding vector (llama.cpp)
 api: POST `:8080/v1/chat/completions` → LLM response (llama.cpp)
 db: `data/chroma` → ChromaDB persistent store
 db: `data/documents.json` → generated JSON corpus
-cfg: `config.py` → DATA_DIR, CDN_DIR, WIKI_DIR
+cfg: `config.py` → DATA_DIR, CDN_DIR, WIKI_DIR, EMBEDDING_DIM. Batch consts in `vectorstore/build_index.py` → EMBED_BATCH_SIZE=1000, BATCH_SIZE=5000
 coll: `project_gorgon` → ChromaDB collection name
 cmd: `uv run python -m scripts.retrieval` → interactive Chroma similarity search (stdio)
 cmd: `uv run python -m scripts.embedding` → manual embedding vector inspect (stdio)
