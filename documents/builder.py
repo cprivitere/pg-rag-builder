@@ -211,14 +211,13 @@ def build_skill_documents(db):
 Description:
 {desc}
 
-Parents:
-{', '.join(parents) if parents else 'None'}
-
 Rewards:
-{chr(10).join(reward_lines) if reward_lines else 'None'}
+{chr(10).join(reward_lines) if reward_lines else 'No rewards listed'}
 
 Advancement Hints:
-{chr(10).join(hint_lines) if hint_lines else 'None'}"""
+{chr(10).join(hint_lines) if hint_lines else 'No advancement hints listed'}"""
+        if parents:
+            text += f"\n\nParents:\n{', '.join(parents)}"
 
         if skill.get("Combat"):
             text += "\n\nType: Combat"
@@ -798,7 +797,7 @@ Mobility: {mobility}
 Uncontrolled Pet: {is_pet}
 
 Abilities:
-{chr(10).join(ability_lines) if ability_lines else 'None'}"""
+{chr(10).join(ability_lines) if ability_lines else 'No abilities listed'}"""
 
         documents.append({
             "id": f"ai_{ai_id}",
@@ -847,9 +846,9 @@ Display Type: {display_type}"""
 
     return documents
 
-
 def build_source_documents(db):
     documents = []
+    resolver = GameResolver(db)
 
     for table_name in ["sources_abilities", "sources_items", "sources_recipes"]:
         sources = db.tables.get(table_name, {})
@@ -863,11 +862,19 @@ def build_source_documents(db):
             if not entries:
                 continue
 
+            if source_type == "items":
+                display_name = resolver.item_name(item_id.removeprefix("item_"))
+            elif source_type == "abilities":
+                display_name = resolver.ability_name(item_id.removeprefix("ability_"))
+            else:
+                display_name = resolver.recipe_name(item_id.removeprefix("recipe_"))
+
             entry_lines = []
             for entry in entries:
                 entry_type = entry.get("Type", entry.get("type", ""))
                 npc = entry.get("Npc", entry.get("npc", ""))
                 skill = entry.get("skill", "")
+
                 line = f"- {entry_type}"
                 if npc:
                     line += f" from {npc}"
@@ -875,7 +882,7 @@ def build_source_documents(db):
                     line += f" ({skill} skill)"
                 entry_lines.append(line)
 
-            text = f"""Source: {item_id}
+            text = f"""Source: {display_name}
 
 Found in {table_name}:
 {chr(10).join(entry_lines)}"""
@@ -887,7 +894,7 @@ Found in {table_name}:
                 "metadata": {
                     "source": "cdn",
                     "table": table_name,
-                    "name": f"{item_id} Sources",
+                    "name": f"{display_name} Sources",
                 }
             })
 
@@ -923,10 +930,10 @@ def build_tsys_documents(db):
 
 Skill: {skill}
 Suffix: {suffix}
-Slots: {', '.join(slots) if slots else 'Any'}
+Slots: {', '.join(s for s in slots if s and s != "None") if slots else 'Any'}
 
 Tiers:
-{chr(10).join(tier_lines) if tier_lines else 'None'}"""
+{chr(10).join(tier_lines) if tier_lines else 'No tiers listed'}"""
 
         documents.append({
             "id": f"tsys_{item_id}",
@@ -950,7 +957,9 @@ def build_xptable_documents(db):
         if not isinstance(table_data, dict):
             continue
 
-        name = table_data.get("InternalName", table_id)
+        name = table_data.get("InternalName")
+        if not name or name == "None":
+            name = table_id
         amounts = table_data.get("XpAmounts", [])
 
         if not amounts:
@@ -1008,11 +1017,14 @@ def build_abilitykeyword_documents(db):
             doc_id = f"{doc_id}_{counter}"
         seen_ids.add(doc_id)
 
-        text = f"""Ability Keyword Combo: {stable_key}
-
-Required Keywords: {', '.join(must_have) if must_have else 'None'}
-Crit Chance Attrs: {', '.join(crit_attrs) if crit_attrs else 'None'}
-Crit Damage Attrs: {', '.join(crit_dmg) if crit_dmg else 'None'}"""
+        text_lines = [f"Ability Keyword Combo: {stable_key or 'Unknown combo'}"]
+        if must_have:
+            text_lines.append(f"Required Keywords: {', '.join(must_have)}")
+        if crit_attrs:
+            text_lines.append(f"Crit Chance Attrs: {', '.join(crit_attrs)}")
+        if crit_dmg:
+            text_lines.append(f"Crit Damage Attrs: {', '.join(crit_dmg)}")
+        text = "\n".join(text_lines)
 
         documents.append({
             "id": doc_id,
@@ -1028,7 +1040,7 @@ Crit Damage Attrs: {', '.join(crit_dmg) if crit_dmg else 'None'}"""
     return documents
 
 
-def build_documents(db):
+def _assemble_documents(db):
     documents = []
 
     documents.extend(build_item_documents(db))
@@ -1125,4 +1137,8 @@ def build_documents(db):
     wiki_gathering = build_wiki_gathering_summaries(db.wiki)
     documents.extend(wiki_gathering)
 
-    return chunk_all_documents(documents)
+    return documents
+
+
+def build_documents(db):
+    return chunk_all_documents(_assemble_documents(db))

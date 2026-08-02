@@ -1,0 +1,251 @@
+import re
+from pathlib import Path
+
+import pytest
+
+from documents.chunking import chunk_all_documents
+
+CDN_DIR = Path("data/cdn")
+
+KNOWN_TYPES = {
+    "item", "recipe", "skill", "quest", "ability", "npc", "effect",
+    "lorebook", "directedgoal", "area", "itemuse", "landmark", "title",
+    "vault", "advancementtable", "ai", "attribute", "source", "tsys",
+    "xptable", "abilitykeyword", "wiki", "summary", "curated",
+}
+KNOWN_SOURCES = {"cdn", "wiki", "computed", "curated"}
+
+_CDN_RESIDUE = ["{{", "}}", "[[", "]]", "{|"]
+_WIKI_RESIDUE = ["{{", "}}"]
+_NONE_LEAK = re.compile(r":\s*None\b")
+_RAW_ITEM_ID = re.compile(r"item_\d+")
+
+
+def _assemble(db):
+    from documents.builder import _assemble_documents
+    return _assemble_documents(db)
+
+
+@pytest.fixture(scope="session")
+def real_docs():
+    if not (CDN_DIR / "items.json").exists():
+        pytest.skip("data/cdn/ absent — real-data sweep skipped")
+
+    from database import GameDatabase
+    from loaders.cdn_loader import load_database
+    from loaders.wiki_loader import load_wiki
+
+    db = GameDatabase()
+    load_database(db)
+    load_wiki(db)
+    return _assemble(db)
+
+
+def _violations(docs, check):
+    return [x["id"] for x in docs if check(x)]
+
+
+# ---------- T52: shape contract (V27) ----------
+
+def test_real_shape_contract(real_docs):
+    assert real_docs, "no docs built from real data"
+    bad = []
+    for doc in real_docs:
+        for key in ("id", "type", "text", "metadata"):
+            if key not in doc:
+                bad.append(f"{doc.get('id', '?')}: missing {key}")
+                continue
+        if not isinstance(doc.get("text"), str) or not doc["text"].strip():
+            bad.append(f"{doc.get('id', '?')}: empty text")
+        if doc.get("type") not in KNOWN_TYPES:
+            bad.append(f"{doc.get('id', '?')}: unknown type {doc.get('type')!r}")
+        src = doc.get("metadata", {}).get("source")
+        if src not in KNOWN_SOURCES:
+            bad.append(f"{doc.get('id', '?')}: unknown source {src!r}")
+        if src == "cdn" and "table" not in doc.get("metadata", {}):
+            bad.append(f"{doc.get('id', '?')}: cdn doc missing table")
+    assert not bad, f"shape violations: {bad[:10]}"
+
+
+def test_shape_contract_all_builders():
+    from tests.test_documents import _make_db
+
+    tables = {
+        "items": {"item_1": {"Name": "Mushroom", "Description": "A mushroom."}},
+        "recipes": {"recipe_1": {"Name": "Butter", "Description": "Churn it."}},
+        "skills": {"Alchemy": {"Name": "Alchemy", "Description": "Combine."}},
+        "quests": {"q1": {"Name": "Fetch", "Description": "Fetch a thing.",
+                          "Objectives": [{"Description": "Get thing"}]}},
+        "abilities": {"ability_1": {"Name": "Punch", "Description": "Punch it."}},
+        "npcs": {"npc_1": {"Name": "Guard", "Description": "Guards."}},
+        "effects": {"effect_1": {"Name": "Burn", "Description": "Hurt."}},
+        "lorebooks": {"lb_1": {"Name": "Tome", "Text": "Words."}},
+        "directedgoals": {"dg_1": {"Name": "Goal", "Description": "Do it."}},
+        "areas": {"area_1": {"Name": "Cave", "Description": "Damp."}},
+        "itemuses": {"item_1": {"RecipesThatUseItem": [1]}},
+        "landmarks": {"lm_1": {"Name": "Rock", "Description": "Big."}},
+        "playertitles": {"t1": {"Title": "King", "Description": "Royal."}},
+        "storagevaults": {"v1": {"Name": "Vault", "Description": "Stores."}},
+        "advancementtables": {"at_1": {"InternalName": "At", "Levels": []}},
+        "ai": {"ai_1": {"Comment": "c", "Abilities": {}}},
+        "attributes": {"attr_1": {"Label": "Str"}},
+        "sources_items": {"item_1": {"entries": [{"Type": "Skill"}]}},
+        "sources_abilities": {"ability_1": {"entries": [{"Type": "Skill"}]}},
+        "sources_recipes": {"recipe_1": {"entries": [{"Type": "Skill"}]}},
+        "tsysclientinfo": {"ts_1": {"InternalName": "Ts"}},
+        "xptables": {"xp_1": {"InternalName": "Xp", "XpAmounts": [10, 20]}},
+        "abilitykeywords": [{"MustHaveAbilityKeywords": ["A"]}],
+    }
+    db = _make_db()
+    db.tables = tables
+    docs = _assemble(db)
+    assert docs
+    for doc in docs:
+        if doc["metadata"]["source"] == "cdn":
+            assert doc["type"] in KNOWN_TYPES, doc["id"]
+            assert "table" in doc["metadata"], doc["id"]
+            assert doc["metadata"]["source"] in KNOWN_SOURCES, doc["id"]
+
+
+# ---------- T52: text hygiene (V28) ----------
+
+def test_real_hygiene_cdn(real_docs):
+    bad = []
+    for doc in real_docs:
+        if doc["metadata"].get("source") != "cdn":
+            continue
+        text = doc["text"]
+        residue = [m for m in _CDN_RESIDUE if m in text]
+        if residue:
+            bad.append(f"{doc['id']}: residue {residue}")
+        if _NONE_LEAK.search(text):
+            bad.append(f"{doc['id']}: None leak")
+        if _RAW_ITEM_ID.search(text):
+            bad.append(f"{doc['id']}: raw item id")
+    assert not bad, f"cdn hygiene violations ({len(bad)}): {bad[:10]}"
+
+
+def test_real_hygiene_wiki(real_docs):
+    bad = []
+    for doc in real_docs:
+        if doc["metadata"].get("source") != "wiki":
+            continue
+        residue = [m for m in _WIKI_RESIDUE if m in doc["text"]]
+        if residue:
+            bad.append(f"{doc['id']}: residue {residue}")
+    assert not bad, f"wiki hygiene violations ({len(bad)}): {bad[:10]}"
+
+
+# ---------- T53: determinism + dedup (V29) ----------
+
+def test_real_determinism(real_docs):
+    from database import GameDatabase
+    from loaders.cdn_loader import load_database
+    from loaders.wiki_loader import load_wiki
+
+    db = GameDatabase()
+    load_database(db)
+    load_wiki(db)
+    again = _assemble(db)
+    first_map = {d["id"]: d["text"] for d in real_docs}
+    second_map = {d["id"]: d["text"] for d in again}
+    assert first_map == second_map, "doc id→text map changed across builds"
+
+
+def test_real_ids_unique(real_docs):
+    ids = [d["id"] for d in real_docs]
+    dupes = sorted({i for i in ids if ids.count(i) > 1})
+    assert not dupes, f"duplicate doc ids: {dupes[:10]}"
+
+
+# ---------- T54: chunk↔doc integration (V30) ----------
+
+def _norm(s):
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def _covers(parent, chunk):
+    p = _norm(parent)
+    c = _norm(chunk)
+    if c in p:
+        return True
+    m = re.search(r"\S+$", c)
+    if not m:
+        return False
+    base = c[:m.start()].rstrip()
+    return base in p and re.search(r"(?<=\s)" + re.escape(m.group(0)), p)
+
+
+def test_real_chunk_coverage(real_docs):
+    chunks = chunk_all_documents(real_docs)
+    assert chunks
+    by_id = {d["id"]: d for d in real_docs}
+    bad = []
+    for chunk in chunks:
+        parent = by_id.get(chunk["id"])
+        if parent is None:
+            for doc_id in by_id:
+                if chunk["id"].startswith(doc_id + "_chunk_"):
+                    parent = by_id[doc_id]
+                    break
+        if parent is None or not _covers(parent["text"], chunk["text"]):
+            bad.append(chunk["id"])
+    assert not bad, f"chunks not covered by parent ({len(bad)}): {bad[:10]}"
+
+
+def test_real_chunk_metadata(real_docs):
+    chunks = chunk_all_documents(real_docs)
+    ids = [c["id"] for c in chunks]
+    assert len(ids) == len(set(ids)), "duplicate chunk ids"
+    split = [c for c in chunks if "_chunk_" in c["id"]]
+    assert split, "no docs were chunked — invariant untested"
+    for chunk in split:
+        meta = chunk["metadata"]
+        assert "chunk_index" in meta, chunk["id"]
+        assert "chunk_count" in meta, chunk["id"]
+        assert 0 <= meta["chunk_index"] < meta["chunk_count"], chunk["id"]
+        assert meta["chunk_count"] > 1, chunk["id"]
+
+
+# ---------- T55: cross-source consistency (V31) ----------
+
+def test_real_itemuse_keys_in_items_table(real_docs):
+    import json
+    itemuses = json.load(open(CDN_DIR / "itemuses.json", encoding="utf-8"))
+    items = json.load(open(CDN_DIR / "items.json", encoding="utf-8"))
+    missing = [k for k in itemuses if k not in items]
+    assert not missing, f"itemuse keys missing from items: {missing[:10]}"
+
+
+def test_real_itemuse_count_matches(real_docs):
+    import json
+    itemuses = json.load(open(CDN_DIR / "itemuses.json", encoding="utf-8"))
+    for doc in real_docs:
+        if doc["type"] != "itemuse":
+            continue
+        item_id = doc["id"].removeprefix("itemuse_")
+        data = itemuses.get(item_id, {})
+        expected = len(data.get("RecipesThatUseItem", []))
+        assert f"Used in {expected} recipes" in doc["text"], (
+            f"{doc['id']}: count mismatch")
+
+
+def test_real_source_names_resolved(real_docs):
+    bad = []
+    for doc in real_docs:
+        if doc["type"] != "source":
+            continue
+        if "Unknown" in doc["text"] or "Unknown" in doc["metadata"]["name"]:
+            bad.append(doc["id"])
+        if _RAW_ITEM_ID.search(doc["text"]):
+            bad.append(doc["id"])
+    assert not bad, f"unresolved source names ({len(bad)}): {bad[:10]}"
+
+
+def test_real_skill_rewards_spotcheck(real_docs):
+    alchemy = next(
+        (d for d in real_docs if d["type"] == "skill" and d["id"] == "skill_Alchemy"),
+        None)
+    assert alchemy is not None, "skill_Alchemy missing"
+    assert "Level 10:" in alchemy["text"], "Alchemy level 10 rewards missing"
+    assert "None" not in alchemy["text"], "Alchemy rewards show None"

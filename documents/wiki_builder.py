@@ -43,6 +43,13 @@ def build_wiki_documents(db):
                 normalize=False, collapse=True
             ).strip()
 
+            # mwparserfromhell glitch: unclosed ''' before a == heading leaves
+            # preceding template shells intact (B16). Drop leftover shells.
+            text = re.sub(r"\{\{[^{}]*\}\}", "", text).strip()
+            # unclosed openers and stray closers left behind (nested templates)
+            text = re.sub(r"\{\{[^{}]*$", "", text, flags=re.M).strip()
+            text = re.sub(r"^\}\}", "", text, flags=re.M).strip()
+
             if not text or len(text) < MIN_SECTION_CHARS:
                 continue
 
