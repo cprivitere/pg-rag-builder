@@ -71,8 +71,8 @@ V25: Curator rebuild order: curated file write → main.py (documents.json) → 
 V26: Builder ∀ nested CDN value access — isinstance guard before `.get()`/`int()`. ⊥ crash mid-build on malformed cell. ⊥ index-based doc ids (churn on data order shift).
 V27: ∀ doc → {id,type,text,metadata} shape; type ∈ known set; source ∈ {cdn,wiki,computed,curated}. ⊥ malformed doc enters documents.json.
 V28: cdn doc text → ⊥ `{{` `}}` `[[` `]]` `{|` residue, `:\s*None` leak, raw `item_\d+` id. wiki doc text → ⊥ `{{` `}}` only (tables/links/`[[[` source glitches legit). curated → ⊥ nothing (markup intended). Name fields resolved via GameResolver.
-V29: ∀ doc id → unique across build. 2× `build_documents` → identical id→text map. ⊥ duplicate/nondeterministic output.
-V30: ∀ chunk → normalized text ⊆ normalized parent text (trailing partial word allowed — overlap junction normalizes `\n\n`→` `, hard-cap cuts mid-word by design); chunk id unique; metadata.chunk_index/chunk_count present. ⊥ chunk text loss, ⊥ orphan chunks.
+V29: ∀ doc id → unique across build. 2× `_assemble_documents` → identical id→text map (chunking pure fn of assembled docs — ⊥ need separate build_documents determinism check). ⊥ duplicate/nondeterministic output.
+V30: ∀ split chunk → normalized text ⊆ normalized parent text (trailing partial word allowed — overlap junction normalizes `\n\n`→` `, hard-cap cuts mid-word by design); chunk id unique; metadata.chunk_index/chunk_count present on split chunks; unchunked doc passes through unchanged. ⊥ chunk text loss, ⊥ orphan chunks.
 V31: ∀ itemuse doc → key ∈ items table keys; recipe count = len(`RecipesThatUseItem`); name resolved via GameResolver. ⊥ unresolved/unknown-name itemuse, ⊥ count drift from CDN source.
 
 ## §T — Tasks
