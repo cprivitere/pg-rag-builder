@@ -11,9 +11,12 @@ Usage:
 """
 
 import asyncio
+import logging
 import os
 import sys
 from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 PG_ROOT = Path(r"F:\ProjectGorgon\pg-rag-builder")
 if str(PG_ROOT) not in sys.path:
@@ -56,8 +59,9 @@ class Pipe:
 
             try:
                 result = pipeline_ask(query)
-            except Exception as e:
-                return f"Entity error: {e}"
+            except Exception:
+                logger.exception("entity pipeline failed for query: %r", query)
+                return "Sorry, the entity lookup failed. Please try again."
             sources = [f"- {s['citation']}" for s in result["sources"]]
             source_block = "\n".join(sources) if sources else "No sources found."
             return f"{result['answer']}\n\n---\n**Sources:**\n{source_block}"
@@ -70,8 +74,9 @@ class Pipe:
                 rerank=self.valves.USE_RERANK,
                 query_type=query_type,
             )
-        except Exception as e:
-            return f"Retrieval error: {e}"
+        except Exception:
+            logger.exception("retrieval failed for query: %r", query)
+            return "Sorry, I could not find any matches. Please try again."
 
         docs = results["documents"][0]
         metadatas = results["metadatas"][0]
@@ -91,15 +96,16 @@ class Pipe:
                 docs = [synthesized]
                 synthesis_used = True
             except Exception:
-                pass  # Fall through to normal flow
+                logger.exception("synthesis failed for query: %r", query)
 
         context = "\n\n---\n\n".join(docs)
         prompt = build_prompt(query, context, query_type=query_type)
 
         try:
             answer = await asyncio.to_thread(generate, prompt)
-        except Exception as e:
-            return f"LLM error: {e}"
+        except Exception:
+            logger.exception("LLM generation failed for query: %r", query)
+            return "Sorry, the answer could not be generated. Please try again."
 
         sources = []
         for doc_id, dist, meta in zip(

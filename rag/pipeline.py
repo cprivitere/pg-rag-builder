@@ -1,3 +1,4 @@
+import logging
 import re
 
 import chromadb
@@ -11,6 +12,8 @@ from rag.prompts import build_prompt
 from rag.llm import generate
 from rag.synthesis_detector import should_synthesize
 from rag.synthesis_generator import synthesize_answer, create_curated_doc
+
+logger = logging.getLogger(__name__)
 
 CURATED_DIR = Path("data/wiki/curated")
 
@@ -74,6 +77,10 @@ def _gap_fill(question, answer, ids, docs, metas, dists, query_type):
     """
     if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
         return answer, ids, docs, metas, dists
+    if not (answer or "").strip():
+        answer = _generate_with(question, docs, query_type)
+        if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
+            return answer, ids, docs, metas, dists
     m = SUBJECT_REGEX.search(answer)
     subject = m.group(1).strip() if m else question
     extra = retrieve(
@@ -108,8 +115,6 @@ def _ask_entity(question):
     dists = list(ctx["distances"][0])
 
     answer = _generate_with(question, docs, "entity")
-    if not (answer or "").strip():
-        answer = _generate_with(question, docs, "entity")
     answer, ids, docs, metas, dists = _gap_fill(
         question, answer, ids, docs, metas, dists, "entity"
     )
@@ -136,8 +141,8 @@ def ask(question, metadata_filter=None):
         question,
         metadata_filter=metadata_filter,
         query_type=query_type,
-        count=20 if query_type == "general" else None,
-        hybrid=True if query_type == "general" else None,
+        count=20 if query_type == "general" else 3,
+        hybrid=query_type == "general",
     )
 
     documents = results["documents"][0]
@@ -165,8 +170,13 @@ def ask(question, metadata_filter=None):
             _persist_synthesized(curated_doc)
             # Use synthesized as context instead of raw docs
             documents = [synthesized]
-        except Exception:
-            pass  # Fall through to normal flow
+        except Exception as exc:
+            logger.warning(
+                "synthesis failed for %r (query_type=%s): %s",
+                question,
+                query_type,
+                exc,
+            )
 
     context = "\n\n---\n\n".join(
         documents
@@ -179,8 +189,6 @@ def ask(question, metadata_filter=None):
     )
 
     answer = generate(prompt)
-    if not (answer or "").strip():
-        answer = generate(prompt)
     answer, ids, documents, distances, metadatas = _gap_fill(
         question, answer, ids, documents, distances, metadatas, query_type
     )

@@ -33,7 +33,7 @@ def generate(prompt):
         ) from e
     except requests.exceptions.Timeout as e:
         raise LLMServerError(
-            f"LLM server at {LLM_URL} timed out after 120s."
+            f"LLM server at {LLM_URL} timed out after 300s."
         ) from e
 
     return response.json()["choices"][0]["message"]["content"]

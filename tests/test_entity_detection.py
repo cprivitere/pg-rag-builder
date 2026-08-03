@@ -9,6 +9,7 @@ SYNTHETIC_INDEX = [
     ("Pig Poop", "item_1495", "item"),
     ("Poop", "ability_ability_9488", "ability"),
     ("Graffiti: Mastering 'Poop'", "quest_quest_197", "quest"),
+    ("Mushroom", "item_900", "item"),
 ]
 
 
@@ -71,3 +72,12 @@ def test_longest_name_wins():
 
 def test_unknown_query_general():
     assert classify_query("how does crafting work in this game") == "general"
+
+
+def test_find_entity_typo_fallback(monkeypatch):
+    monkeypatch.setattr(
+        "rag.query_classifier.correct_query", lambda q: "what is mushroom"
+    )
+    hub, dtype = find_entity("what is msurhoom")
+    assert hub == "item_900"
+    assert dtype == "item"

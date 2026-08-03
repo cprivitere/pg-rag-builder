@@ -173,3 +173,59 @@ def test_gap_fill_max_one_loop(monkeypatch):
 
     pipeline.ask("what is Dungcrafting")
     assert len(calls) == 2
+
+
+def test_gap_fill_empty_answer_retries_without_retrieve(monkeypatch):
+    _set_entity(monkeypatch)
+    queue = ["", "Dungcrafting is learned via the Graffiti quest."]
+    calls = []
+    retrieved = []
+
+    def fake_generate(prompt):
+        calls.append(prompt)
+        return queue.pop(0)
+
+    monkeypatch.setattr("rag.pipeline.generate", fake_generate)
+    monkeypatch.setattr(
+        "rag.pipeline.retrieve",
+        lambda *a, **k: retrieved.append(a) or {
+            "ids": [["quest_quest_197_chunk_1"]],
+            "documents": [["quest text"]],
+            "metadatas": [[{}]],
+            "distances": [[0.2]],
+        },
+    )
+
+    result = pipeline.ask("what is Dungcrafting")
+
+    assert len(calls) == 2
+    assert len(retrieved) == 0
+    assert result["answer"] == "Dungcrafting is learned via the Graffiti quest."
+
+
+def test_gap_fill_empty_answer_then_retrieve(monkeypatch):
+    _set_entity(monkeypatch)
+    queue = ["", "", "Learned from the Graffiti quest."]
+    calls = []
+    retrieved = []
+
+    def fake_generate(prompt):
+        calls.append(prompt)
+        return queue.pop(0)
+
+    monkeypatch.setattr("rag.pipeline.generate", fake_generate)
+    monkeypatch.setattr(
+        "rag.pipeline.retrieve",
+        lambda *a, **k: retrieved.append(a) or {
+            "ids": [["quest_quest_197_chunk_1"]],
+            "documents": [["quest text"]],
+            "metadatas": [[{}]],
+            "distances": [[0.2]],
+        },
+    )
+
+    result = pipeline.ask("what is Dungcrafting")
+
+    assert len(calls) == 3
+    assert len(retrieved) == 1
+    assert result["answer"] == "Learned from the Graffiti quest."

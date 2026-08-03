@@ -1,6 +1,7 @@
 import chromadb
 
 from embeddings.llama_embeddings import embed_text
+from rag.spelling import correct_query
 
 
 RERANK_MULTIPLIER = 3
@@ -77,6 +78,7 @@ def _hybrid_fuse(dense_ids, dense_texts, dense_metadatas, dense_distances,
 
 
 def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False, query_type="general"):
+    question = correct_query(question)
     client = chromadb.PersistentClient(
         path="data/chroma"
     )
@@ -87,7 +89,7 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False,
 
     embedding = embed_text(question)
 
-    effective_count = 20 if query_type == "comparison" else count
+    effective_count = 20 if query_type == "comparison" else (count or 3)
 
     dense_count = effective_count
     if hybrid:

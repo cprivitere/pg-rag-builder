@@ -1,8 +1,11 @@
 import json
+import logging
 from pathlib import Path
 
 from config import CONTEXT_BUDGET
 from rag.retriever import retrieve
+
+logger = logging.getLogger(__name__)
 
 FACET_PLANS = {
     "skill": [
@@ -50,11 +53,14 @@ _DOCS_CACHE = None
 
 def _load_docs():
     global _DOCS_CACHE
-    if _DOCS_CACHE is None:
-        _DOCS_CACHE = json.loads(
-            Path("data/documents.json").read_text(encoding="utf-8")
-        )
-    return _DOCS_CACHE
+    path = Path("data/documents.json")
+    try:
+        mtime = path.stat().st_mtime
+    except FileNotFoundError:
+        return None
+    if _DOCS_CACHE is None or _DOCS_CACHE[0] != mtime:
+        _DOCS_CACHE = (mtime, json.loads(path.read_text(encoding="utf-8")))
+    return _DOCS_CACHE[1]
 
 
 def _hub_chunks(hub_id, docs):
@@ -85,6 +91,8 @@ def _entity_type(hub_id):
 
 def build_entity_context(question, hub_id):
     docs = _load_docs()
+    if not docs:
+        return None
     hub_chunks = _hub_chunks(hub_id, docs)
     if not hub_chunks:
         return None
@@ -107,7 +115,10 @@ def build_entity_context(question, hub_id):
                 hybrid=True,
                 rerank=True,
             )
-        except Exception:
+        except Exception as exc:
+            logger.warning(
+                "facet %r failed for hub %r: %s", facet_q, hub_id, exc
+            )
             continue
         for i in range(len(res["ids"][0])):
             did = res["ids"][0][i]

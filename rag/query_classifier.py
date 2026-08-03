@@ -2,6 +2,8 @@ import json
 import re
 from pathlib import Path
 
+from rag.spelling import correct_query
+
 COMPARISON_PATTERNS = [
     r"\bhighest\b",
     r"\blowest\b",
@@ -42,15 +44,29 @@ ENTITY_PATTERNS = [
 ENTITY_TYPES = ("skill", "item", "ability", "quest", "recipe", "effect", "area", "npc")
 
 _ENTITY_INDEX = None
+_NAME_RE_CACHE = {}
+
+
+def _name_regex(name):
+    key = name.lower()
+    pattern = _NAME_RE_CACHE.get(key)
+    if pattern is None:
+        pattern = re.compile(rf"\b{re.escape(key)}\b")
+        _NAME_RE_CACHE[key] = pattern
+    return pattern
 
 
 def _load_entity_index():
     global _ENTITY_INDEX
-    if _ENTITY_INDEX is not None:
-        return _ENTITY_INDEX
+    path = Path("data/documents.json")
+    try:
+        mtime = path.stat().st_mtime
+    except FileNotFoundError:
+        mtime = None
+    if _ENTITY_INDEX is not None and _ENTITY_INDEX[0] == mtime:
+        return _ENTITY_INDEX[1]
 
     index = []
-    path = Path("data/documents.json")
     if path.exists():
         seen = set()
         for doc in json.loads(path.read_text(encoding="utf-8")):
@@ -68,7 +84,8 @@ def _load_entity_index():
             index.append((name, doc_id, dtype))
 
     index.sort(key=lambda t: len(t[0]), reverse=True)
-    _ENTITY_INDEX = index
+    _ENTITY_INDEX = (mtime, index)
+    _NAME_RE_CACHE.clear()
     return index
 
 
@@ -79,11 +96,23 @@ def _hub_id(doc_id, dtype):
     return doc_id
 
 
+def _match_entity(text):
+    for name, doc_id, dtype in _load_entity_index():
+        if _name_regex(name).search(text):
+            return _hub_id(doc_id, dtype), dtype
+    return None
+
+
 def find_entity(query):
     lower = query.lower()
-    for name, doc_id, dtype in _load_entity_index():
-        if re.search(rf"\b{re.escape(name.lower())}\b", lower):
-            return _hub_id(doc_id, dtype), dtype
+    hit = _match_entity(lower)
+    if hit:
+        return hit
+    corrected = correct_query(query)
+    if corrected != lower:
+        hit = _match_entity(corrected)
+        if hit:
+            return hit
     return None, None
 
 
