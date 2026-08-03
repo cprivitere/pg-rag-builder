@@ -33,7 +33,7 @@ from rag.synthesis_generator import synthesize_answer
 
 class Pipe:
     class Valves(BaseModel):
-        TOP_K: int = Field(default=3, description="Number of context chunks to retrieve")
+        TOP_K: int = Field(default=20, description="Number of context chunks to retrieve (general queries)")
         USE_HYBRID: bool = Field(default=True, description="Enable hybrid BM25 + semantic search")
         USE_RERANK: bool = Field(default=True, description="Enable reranking of results")
 
@@ -50,6 +50,17 @@ class Pipe:
             return "Empty query."
 
         query_type = classify_query(query)
+
+        if query_type == "entity":
+            from rag.pipeline import ask as pipeline_ask
+
+            try:
+                result = pipeline_ask(query)
+            except Exception as e:
+                return f"Entity error: {e}"
+            sources = [f"- {s['citation']}" for s in result["sources"]]
+            source_block = "\n".join(sources) if sources else "No sources found."
+            return f"{result['answer']}\n\n---\n**Sources:**\n{source_block}"
 
         try:
             results = retrieve(

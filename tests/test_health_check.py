@@ -140,3 +140,17 @@ def test_metadata_hash_corruption_detected():
         meta["metadata_hash"] = "corrupt"
         coll.update(ids=["a"], metadatas=[meta])
         assert health_check(chroma_path=chroma_path, documents_path=doc_path) == 1
+
+
+def test_large_collection_no_sqlite_limit_crash():
+    docs = [
+        {"id": f"doc_{i}", "type": "item", "text": f"text {i}", "metadata": dict(META)}
+        for i in range(5500)
+    ]
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as tmp:
+        chroma_path = str(Path(tmp) / "chroma")
+        doc_path = str(Path(tmp) / "documents.json")
+        with open(doc_path, "w") as f:
+            json.dump(docs, f)
+        _build_test_index(docs, chroma_path)
+        assert health_check(chroma_path=chroma_path, documents_path=doc_path) == 0

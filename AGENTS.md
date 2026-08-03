@@ -88,6 +88,8 @@ Each step depends on prior output. Never build index without documents. Never bu
 
 LLM and embedding servers not needed for build/refresh — only for interactive RAG queries. Open WebUI requires Python 3.11 (separate from main project's Python ≥3.14).
 
+LLM server runs with `-c 16384` context + `--reasoning-budget 1024` + `--kv-cache-type q8_0` (mise.toml). `CONTEXT_BUDGET = 24000` chars in config.py caps packed entity context. Entity questions route through `rag/entity_retrieval.py` (whole-doc dossier assembly + facet expansion); `rag/pipeline.py` handles the entity path + one-shot gap-fill. Open WebUI TOP_K valve defaults to 20 for general queries.
+
 ## Data directory
 
 `data/` is gitignored, not tracked. Contents:

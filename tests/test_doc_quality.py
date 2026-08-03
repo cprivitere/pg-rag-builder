@@ -11,7 +11,7 @@ KNOWN_TYPES = {
     "item", "recipe", "skill", "quest", "ability", "npc", "effect",
     "lorebook", "directedgoal", "area", "itemuse", "landmark", "title",
     "vault", "advancementtable", "ai", "attribute", "source", "tsys",
-    "xptable", "abilitykeyword", "wiki", "summary", "curated",
+    "xptable", "abilitykeyword", "wiki", "summary", "curated", "skillprofile",
 }
 KNOWN_SOURCES = {"cdn", "wiki", "computed", "curated"}
 

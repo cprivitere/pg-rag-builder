@@ -20,9 +20,10 @@ def generate(prompt):
                         "content": prompt
                     }
                 ],
-                "temperature": 0.2
+                "temperature": 0.2,
+                "max_tokens": 8192
             },
-            timeout=120
+            timeout=300
         )
         response.raise_for_status()
     except requests.exceptions.ConnectionError as e:

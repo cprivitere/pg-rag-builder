@@ -4,6 +4,7 @@ from pathlib import Path
 from documents.resolver import GameResolver
 from documents.wiki_builder import build_wiki_documents
 from documents.chunking import chunk_all_documents
+from documents.skill_profiles import build_skill_profile_documents
 from documents.summaries import (
     build_summary_documents,
     build_gathering_summaries,
@@ -1046,6 +1047,7 @@ def _assemble_documents(db):
     documents.extend(build_item_documents(db))
     documents.extend(build_recipe_documents(db))
     documents.extend(build_skill_documents(db))
+    documents.extend(build_skill_profile_documents(db))
     documents.extend(build_quest_documents(db))
     documents.extend(build_ability_documents(db))
     documents.extend(build_npc_documents(db))

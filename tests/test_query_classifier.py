@@ -46,7 +46,7 @@ def test_direct_lookup():
 
 
 def test_general_query():
-    assert classify_query("tell me about cheesemaking") == "general"
+    assert classify_query("tell me about grinding levels") == "general"
 
 
 def test_case_insensitive():

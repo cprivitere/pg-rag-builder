@@ -10,6 +10,16 @@ def test_v23_embedding_dim_in_config():
     assert isinstance(EMBEDDING_DIM, int) and EMBEDDING_DIM > 0
 
 
+def test_context_budget_in_config():
+    from config import CONTEXT_BUDGET
+    assert isinstance(CONTEXT_BUDGET, int) and CONTEXT_BUDGET > 0
+
+
+def test_v37_general_top_k_20():
+    from pg_rag import Pipe
+    assert Pipe.Valves().TOP_K == 20, "V37: general TOP_K must default to 20"
+
+
 def test_v2_chroma_path_consistent():
     from vectorstore.build_index import build_index
     import rag.retriever

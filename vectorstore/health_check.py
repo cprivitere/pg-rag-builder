@@ -9,12 +9,26 @@ from vectorstore.hashes import embedding_hash, metadata_hash
 CHROMA_PATH = "data/chroma"
 COLLECTION_NAME = "project_gorgon"
 DOCUMENTS_PATH = "data/documents.json"
+BATCH_SIZE = 5000
+
+
+def _iter_collection(collection, include=None, batch_size=BATCH_SIZE):
+    """Paginated get — unbounded get() hits SQLite variable limit on large collections."""
+    count = collection.count()
+    for start in range(0, count, batch_size):
+        yield collection.get(
+            limit=batch_size,
+            offset=start,
+            include=include or [],
+        )
 
 
 def _check_hash_integrity(collection, issues, source_docs=None):
-    result = collection.get(include=["metadatas"])
-    ids = result["ids"]
-    metadatas = result["metadatas"]
+    ids = []
+    metadatas = []
+    for batch in _iter_collection(collection, include=["metadatas"]):
+        ids.extend(batch["ids"])
+        metadatas.extend(batch["metadatas"])
     if not ids:
         return
 
@@ -103,7 +117,9 @@ def health_check(chroma_path=CHROMA_PATH, collection_name=COLLECTION_NAME,
                 f"Document count mismatch: ChromaDB={chroma_count}, expected={expected_count}"
             )
 
-        chroma_ids = set(collection.get()["ids"])
+        chroma_ids = set()
+        for batch in _iter_collection(collection):
+            chroma_ids.update(batch["ids"])
         doc_ids = set(d["id"] for d in docs)
         orphaned = chroma_ids - doc_ids
         if orphaned:

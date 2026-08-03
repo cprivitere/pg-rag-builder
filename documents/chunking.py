@@ -26,6 +26,7 @@ TYPE_MAX_CHARS = {
     "xptable": 512,
     "abilitykeyword": 256,
     "wiki": 1024,
+    "skillprofile": 1024,
 }
 
 

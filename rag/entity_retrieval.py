@@ -1,0 +1,135 @@
+import json
+from pathlib import Path
+
+from config import CONTEXT_BUDGET
+from rag.retriever import retrieve
+
+FACET_PLANS = {
+    "skill": [
+        ("recipes", "recipe"),
+        ("quests", "quest"),
+        ("trainers", "npc"),
+        ("advancement", "advancementtable"),
+        ("XP requirements", "xptable"),
+        ("abilities", "ability"),
+    ],
+    "item": [
+        ("recipes that use", "recipe"),
+        ("uses", "itemuse"),
+        ("sources", "source"),
+    ],
+    "ability": [
+        ("skill", "skill"),
+        ("keywords", "abilitykeyword"),
+    ],
+    "quest": [
+        ("rewards", "item"),
+        ("requirements", "abilitykeyword"),
+        ("location", "npc"),
+    ],
+    "recipe": [
+        ("ingredients", "item"),
+        ("skill", "skill"),
+        ("results", "item"),
+    ],
+    "effect": [
+        ("items", "item"),
+    ],
+    "area": [
+        ("NPCs", "npc"),
+        ("quests", "quest"),
+    ],
+    "npc": [
+        ("services", "skill"),
+        ("quests", "quest"),
+    ],
+}
+
+_DOCS_CACHE = None
+
+
+def _load_docs():
+    global _DOCS_CACHE
+    if _DOCS_CACHE is None:
+        _DOCS_CACHE = json.loads(
+            Path("data/documents.json").read_text(encoding="utf-8")
+        )
+    return _DOCS_CACHE
+
+
+def _hub_chunks(hub_id, docs):
+    chunks = []
+    for doc in docs:
+        doc_id = doc["id"]
+        if doc_id == hub_id or doc_id.startswith(hub_id + "_chunk_"):
+            chunks.append(doc)
+    chunks.sort(key=lambda d: int(d["metadata"].get("chunk_index", -1)))
+    return chunks
+
+
+def _entity_type(hub_id):
+    for prefix, dtype in [
+        ("skillprofile_", "skill"),
+        ("item_", "item"),
+        ("ability_", "ability"),
+        ("quest_", "quest"),
+        ("recipe_", "recipe"),
+        ("effect_", "effect"),
+        ("area_", "area"),
+        ("npc_", "npc"),
+    ]:
+        if hub_id.startswith(prefix):
+            return dtype
+    return None
+
+
+def build_entity_context(question, hub_id):
+    docs = _load_docs()
+    hub_chunks = _hub_chunks(hub_id, docs)
+    if not hub_chunks:
+        return None
+
+    dtype = _entity_type(hub_id)
+
+    ids = [d["id"] for d in hub_chunks]
+    texts = [d["text"] for d in hub_chunks]
+    metas = [d["metadata"] for d in hub_chunks]
+    dists = [0.0] * len(hub_chunks)
+
+    seen = set(ids)
+
+    for facet_q, ftype in FACET_PLANS.get(dtype, []):
+        try:
+            res = retrieve(
+                f"{facet_q} {question}",
+                count=3,
+                metadata_filter={"type": ftype},
+                hybrid=True,
+                rerank=True,
+            )
+        except Exception:
+            continue
+        for i in range(len(res["ids"][0])):
+            did = res["ids"][0][i]
+            if did in seen:
+                continue
+            seen.add(did)
+            ids.append(did)
+            texts.append(res["documents"][0][i])
+            metas.append(res["metadatas"][0][i])
+            dists.append(res["distances"][0][i])
+
+    total = 0
+    cut = len(texts)
+    for i, t in enumerate(texts):
+        if total + len(t) > CONTEXT_BUDGET and i > 0:
+            cut = i
+            break
+        total += len(t)
+
+    return {
+        "ids": [ids[:cut]],
+        "documents": [texts[:cut]],
+        "metadatas": [metas[:cut]],
+        "distances": [dists[:cut]],
+    }

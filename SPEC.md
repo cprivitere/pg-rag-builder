@@ -8,6 +8,10 @@ Local RAG assistant for Project Gorgon game data. Ingest CDN/wiki exports → em
 
 **Anti-pattern:** System must NOT respond: "I do not know the specific names of the level 30 areas, but the context mentions that players should head to appropriate level 20 areas, then 30, then 40, etc." — When information exists in wiki but is scattered across pages, system should synthesize and provide specific answers (e.g., "Eltibule: 20-30, Serbule Hills: 18-24").
 
+**Skill profiles:** System synthesizes per-skill knowledge docs from CDN cross-references (abilities, advancement, XP table, recipes, quests, trainers). Undocumented/new skills (e.g. Dungcrafting) answer completely from raw table data — ⊥ wiki page dependency.
+
+**Dossier parity:** Entity questions ("tell me everything about X") match manual full-source answer quality — whole hub docs + cross-reference facets, not top-N fragments. General questions get ≥20 chunks. LLM context 32K.
+
 ## §C — Constraints
 
 C1. Local only — ⊥ cloud APIs for embedding or LLM
@@ -17,6 +21,9 @@ C4. Vector store: ChromaDB PersistentClient @ `data/chroma`
 C5. Incremental indexing — ⊥ full rebuild on data update
 C6. Python ≥3.14. Deps: chromadb, requests, mwparserfromhell
 C7. OpenCode superpowers/agent config — `.agents/`, `skills-lock.json`, `docs/superpowers/` — ⊥ commit to git. Local-only tooling, not project assets.
+C8. Latency flexible — multi-pass retrieval + re-answer acceptable. ⊥ latency-first design.
+C9. LLM server context 16384 tokens (`-c 16384` + `--kv-cache-type q8_0` in mise.toml) — fits CONTEXT_BUDGET prompt (≤5.5K tok) + output (≤8192) with headroom; q8_0 KV halves cache RAM (B21). ⊥ 8K context (fragment starvation).
+C10. Quality verified vs golden dossiers — 5 canonical answers, fact-list assertions. ⊥ subjective eyeball-only verification.
 
 ## §I — Interfaces
 
@@ -40,6 +47,10 @@ cmd: `uv run python check_services.py` → service status checker for mise statu
 cmd: `uv run python -m scripts.curator` → background curator agent — scan wiki for scattered info, create curated documents
 cmd: `uv run python -m scripts.curator_scheduler` → curator run w/ change detection + index rebuild
 api: POST `:8080/v1/chat/completions` → LLM synthesis for auto-generating curated documents
+mod: `rag/entity_retrieval.py` → entity path — hub doc whole load, facet expansion, context pack
+cmd: `uv run python -m scripts.golden_check` → RAG vs golden dossiers fact pass/fail report (needs :8080 + :8081)
+data: `data/golden/` → golden answer dossiers (5, fact lists)
+cfg: `config.py` → CONTEXT_BUDGET = 24000 chars (≈6K tokens) — entity context pack cap
 
 ## §V — Invariants
 
@@ -74,6 +85,17 @@ V28: cdn doc text → ⊥ `{{` `}}` `[[` `]]` `{|` residue, `:\s*None` leak, raw
 V29: ∀ doc id → unique across build. 2× `_assemble_documents` → identical id→text map (chunking pure fn of assembled docs — ⊥ need separate build_documents determinism check). ⊥ duplicate/nondeterministic output.
 V30: ∀ split chunk → normalized text ⊆ normalized parent text (trailing partial word allowed — overlap junction normalizes `\n\n`→` `, hard-cap cuts mid-word by design); chunk id unique; metadata.chunk_index/chunk_count present on split chunks; unchunked doc passes through unchanged. ⊥ chunk text loss, ⊥ orphan chunks.
 V31: ∀ itemuse doc → key ∈ items table keys; recipe count = len(`RecipesThatUseItem`); name resolved via GameResolver. ⊥ unresolved/unknown-name itemuse, ⊥ count drift from CDN source.
+V32: ∀ skill ∈ skills.json → `skillprofile_<key>` doc (type `skillprofile`, source cdn, table skills, metadata name = skill Name). Text sections: description, type, parents, rewards, abilities (Skill==key), advancement (advtable key `<num>_<key>` numeric-prefix, first match), XP table (skill.XpTable → xptables InternalName), recipes (Skill/RewardSkill==key, sorted by SkillLevelReq, cap 25 + `+N more`), quests (Rewards SkillXp or Requirements MinSkillLevel, cap 25), trainers (NPC Services Training). ∅ sections omitted. ⊥ skill without profile, ⊥ unbounded lists.
+V33: Health-check ∀ `collection.get()` paginated `BATCH_SIZE=5000` (`health_check.py:15,:106`). ⊥ unbounded get → SQLite "too many SQL variables" crash hides drift.
+V34: Entity query → hub docs loaded whole — ∀ chunks of hub doc (chunk_index order) into context. ⊥ top-N similarity cut fragments hub doc (dossier loss).
+V35: Entity context assembly — hub whole + facet sub-queries (parallel, type-filtered `where`, top-3 each) + dedupe vs context, pack to `CONTEXT_BUDGET`, hub-first. ⊥ unbounded context, ⊥ facet noise (unrelated type).
+V36: Gap-fill — answer self-reports missing (regex `I do not know|not found|no information|unable to find`) → targeted retrieval on missing subject → append → re-answer. Max 1 pass. ⊥ infinite loop.
+V37: General query → count ≥ 20 chunks (32K window). ⊥ top-5 starvation.
+V38: Golden dossiers — `data/golden/` 5 entries (3 entity + 2 general), each required-fact list. `scripts/golden_check.py` asserts every fact substring ∈ answer, nonzero exit on miss. Servers down → skip (interactive-test pattern). ⊥ pipeline change without golden re-check.
+V39: Entity hub-miss → general path fallback. ⊥ empty/error context on entity query.
+V40: Entity path bypasses synthesis — assembled dossier context ⊥ replaced by `should_synthesize` output.
+V41: Gap-fill subject extraction — regex capture from missing-phrase; empty subject → fall back to the question itself as the sub-query. ⊥ unguided re-answer.
+V42: Golden fact = normalized variant list (≥1 match). ⊥ single brittle substring.
 
 ## §T — Tasks
 
@@ -136,6 +158,18 @@ V31: ∀ itemuse doc → key ∈ items table keys; recipe count = len(`RecipesTh
 | T53 | x | Determinism + id dedup tests — 2× build → identical id→text, ids unique | V29 |
 | T54 | x | Chunk↔doc integration — chunk text ⊆ parent, unique chunk ids, chunk_index/chunk_count metadata | V30 |
 | T55 | x | Cross-source consistency — itemuse counts vs `RecipesThatUseItem`, name resolution, known-skill rewards spot check | V31 |
+| T56 | x | Skill profile builder — `documents/skill_profiles.py` `build_skill_profile_documents(db)`; chunk limit `skillprofile: 1024` in chunking TYPE_MAX_CHARS | V32 |
+| T57 | x | Wire profile builder into `_assemble_documents` | V32, T56 |
+| T58 | x | Health-check pagination — batch `collection.get()` @ `:15` `:106` | V33, B17 |
+| T59 | x | Rebuild index — clear 132-doc drift + 37 orphaned abkeyword ids; EMBEDDING_DIM 512→1024 (B19) | B18, V1 |
+| T60 | x | Profile tests — cross-ref counts (abilities/recipes/quests), recipe cap 25, advtable numeric-prefix link, xptable link, 2× build determinism; update KNOWN_TYPES (`tests/test_doc_quality.py:10`) with `skillprofile` | V32, V29 |
+| T61 | x | Health-check pagination test — temp collection >5k docs, get() returns all ids | V33 |
+| T62 | x | Entity detection — `classify_query` `entity` type: regex (`what is X`/`tell me about X`/`how do I get X`) + name lookup vs documents.json metadata names (skill/item/ability/quest/recipe/effect/area/npc) → hub key | V34 |
+| T63 | x | `rag/entity_retrieval.py` — hub doc whole load (all chunks, chunk_index order) + facet expansion (parallel type-filtered top-3) + dedupe + pack to CONTEXT_BUDGET | V34, V35 |
+| T64 | x | Pipeline wiring — entity path in `rag/pipeline.py` (bypass synthesis, V40) + gap-fill loop (max 1 pass, subject regex capture) | V36, V40, V41 |
+| T65 | x | General path — TOP_K default 20 (pg_rag.py valve + retriever count); Open WebUI valve update note | V37 |
+| T66 | x | LLM context 32768 — mise.toml `-c 32768` + AGENTS.md; CONTEXT_BUDGET in config.py | C9 |
+| T67 | x | Golden harness — 5 dossiers `data/golden/` (variant fact lists) + `scripts/golden_check.py` + pytest wrapper (skip w/o servers) | V38, V42 |
 
 ## §B — Bugs
 
@@ -157,3 +191,8 @@ V31: ∀ itemuse doc → key ∈ items table keys; recipe count = len(`RecipesTh
 | B14 | 2026-08-01 | `None` leak — builders render missing `.get()` values: skill `Parents:\nNone` (731 docs), ai Abilities, tsys Slots, xptable name, abilitykeyword attrs | V28 |
 | B15 | 2026-08-01 | source docs text `Source: item_1` — raw CDN key leaked to human text (6361 docs) instead of resolved name | V28 |
 | B16 | 2026-08-01 | wiki_builder template residue — mwparserfromhell parse glitch: unclosed `'''` before `==` heading → preceding `{{Ambox}}` shell survives strip_code (3/6200 docs) | V28 |
+| B17 | 2026-08-01 | health_check `collection.get()` unbounded @ `:15`,`:106` — 90k ids → Chroma SQLite var limit "too many SQL variables" crash → index drift invisible | V33 |
+| B18 | 2026-08-01 | Index drift — 132 docs in documents.json ⊄ ChromaDB (98 xptable, 26 abkeyword, 6 itemuse, 2 skill chunks); 37 orphaned `abkeyword_0..N` (pre-hash id scheme) ⊥ purged; B17 crash hid it | T58, T59 |
+| B19 | 2026-08-02 | `EMBEDDING_DIM = 512` (T46) — jina-embeddings-v5 GGUF Q8_0 returns 1024-dim; existing collection built at 1024. Guard V13/V23 fired correctly at build start (dim 1024 ≠ 512) → abort. No collection corruption — wrong constant, not missing check | V23 (worked) |
+| B20 | 2026-08-02 | Dossier fragmentation — top-N chunk selection cuts hub docs: `skillprofile_Pooping` chunk_1 (XP table, advancement, quests) scores low vs "what is X" → facets missing from context → LLM answers "I do not know how to learn" despite data present. Same root: top-5 context ≈ 5KB vs 32K window | V34-V37 |
+| B21 | 2026-08-02 | Thinking model eats output budget — gemma-4 QAT emits `reasoning_content` first; large dossier prompts → model thinks the entire `max_tokens` (28K chars reasoning, zero content). Also empty-content flakes on some queries. Fix: `--reasoning-budget 1024` (mise.toml ×3) + client `max_tokens 8192` + empty-answer retry-once | C9, V36 |

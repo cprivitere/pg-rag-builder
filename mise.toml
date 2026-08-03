@@ -76,7 +76,7 @@ alias = "xe"
 # Debug commands (foreground mode)
 
 [tasks.debug-llm]
-run = "llama-server -hf unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL --spec-type draft-mtp --spec-draft-n-max 4 -ngl 999 -fa on -c 8192 --host 0.0.0.0 --port 8080"
+run = "llama-server -hf unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL --spec-type draft-mtp --spec-draft-n-max 4 -ngl 999 -fa on -c 16384 --reasoning-budget 1024 -ctk q8_0 -ctv q8_0 --host 0.0.0.0 --port 8080"
 description = "Start LLM server in foreground (debug)"
 alias = "dsl"
 
@@ -84,7 +84,7 @@ alias = "dsl"
 
 [tasks.start-llm]
 run = '''
-powershell -NoProfile -Command "New-Item -ItemType Directory -Force -Path logs | Out-Null; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL','--spec-type','draft-mtp','--spec-draft-n-max','4','-ngl','999','-fa','on','-c','8192','--host','0.0.0.0','--port','8080' -WindowStyle Hidden -RedirectStandardOutput 'logs/llm.log' -RedirectStandardError 'logs/llm-error.log'; Write-Host 'Started LLM server (:8080) - logs in logs/llm.log'"
+powershell -NoProfile -Command "New-Item -ItemType Directory -Force -Path logs | Out-Null; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL','--spec-type','draft-mtp','--spec-draft-n-max','4','-ngl','999','-fa','on','-c','16384','--reasoning-budget','1024','-ctk','q8_0','-ctv','q8_0','--host','0.0.0.0','--port','8080' -WindowStyle Hidden -RedirectStandardOutput 'logs/llm.log' -RedirectStandardError 'logs/llm-error.log'; Write-Host 'Started LLM server (:8080) - logs in logs/llm.log'"
 '''
 description = "Start LLM server (gemma-4-26B on :8080) with logging"
 alias = "sl"
@@ -121,7 +121,7 @@ alias = "xw"
 
 [tasks.start-all]
 run = '''
-powershell -NoProfile -Command "New-Item -ItemType Directory -Force -Path logs | Out-Null; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0','--host','0.0.0.0','--port','8081','--embedding','--pooling','last','-ngl','99','-np','4','-c','8192' -WindowStyle Hidden -RedirectStandardOutput 'logs/embed.log' -RedirectStandardError 'logs/embed-error.log'; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL','--spec-type','draft-mtp','--spec-draft-n-max','4','-ngl','999','-fa','on','-c','8192','--host','0.0.0.0','--port','8080' -WindowStyle Hidden -RedirectStandardOutput 'logs/llm.log' -RedirectStandardError 'logs/llm-error.log'; Start-Process -FilePath 'uv' -ArgumentList 'run','--directory','F:\\ProjectGorgon\\mywebui','open-webui','serve','--port','3000' -WindowStyle Hidden -RedirectStandardOutput 'logs/webui.log' -RedirectStandardError 'logs/webui-error.log'; Write-Host 'Started: embed(:8081) llm(:8080) webui(:3000) - logs in logs/ directory'"
+powershell -NoProfile -Command "New-Item -ItemType Directory -Force -Path logs | Out-Null; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0','--host','0.0.0.0','--port','8081','--embedding','--pooling','last','-ngl','99','-np','4','-c','8192' -WindowStyle Hidden -RedirectStandardOutput 'logs/embed.log' -RedirectStandardError 'logs/embed-error.log'; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL','--spec-type','draft-mtp','--spec-draft-n-max','4','-ngl','999','-fa','on','-c','16384','--reasoning-budget','1024','-ctk','q8_0','-ctv','q8_0','--host','0.0.0.0','--port','8080' -WindowStyle Hidden -RedirectStandardOutput 'logs/llm.log' -RedirectStandardError 'logs/llm-error.log'; Start-Process -FilePath 'uv' -ArgumentList 'run','--directory','F:\\ProjectGorgon\\mywebui','open-webui','serve','--port','3000' -WindowStyle Hidden -RedirectStandardOutput 'logs/webui.log' -RedirectStandardError 'logs/webui-error.log'; Write-Host 'Started: embed(:8081) llm(:8080) webui(:3000) - logs in logs/ directory'"
 '''
 description = "Start all services (embed + llm + webui) with logging"
 alias = "start"
