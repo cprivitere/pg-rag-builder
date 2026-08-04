@@ -1,165 +1,125 @@
 [tools]
 python = "latest"
 
+[env]
+# Portable paths - update this if mywebui moves
+WEBUI_DIR = "F:/ProjectGorgon/mywebui"
+# Logs directory
+LOGS_DIR = "{{ config_root }}/logs"
+
+[task_config]
+# Default to PowerShell on Windows with -NoProfile (mise default)
+shell = "pwsh -NoProfile -Command"
+# Run tasks from project root by default
+dir = "{{ config_root }}"
+# Cascade to any child mise.toml files
+cascade = true
+
 [tasks.test]
-run = "uv run -m pytest tests/"
 description = "Run test suite"
-alias = "t"
+run = "uv run -m pytest tests/"
+alias = "te"
+
+# --- Pipeline tasks ---
 
 [tasks.refresh]
-run = "mise run refresh::cdn && mise run refresh::documents && mise run refresh::vectors"
 description = "Fast refresh: CDN data + rebuild documents + update vectorstore (skips slow wiki fetch)"
-alias = "r"
+run = [
+  "uv run python download_cdn.py",
+  "uv run python main.py",
+  "uv run -m vectorstore.build_index",
+]
+alias = "rf"
 
 [tasks."refresh::full"]
-run = "mise run refresh::cdn && mise run refresh::wiki && mise run refresh::documents && mise run refresh::vectors"
 description = "Full refresh: CDN + wiki data + rebuild documents + update vectorstore"
+depends = ["refresh::cdn", "refresh::wiki", "refresh::documents", "refresh::vectors"]
 
 [tasks."refresh::cdn"]
-run = "uv run python download_cdn.py"
 description = "Download CDN data to data/cdn/"
+run = "uv run python download_cdn.py"
 
 [tasks."refresh::wiki"]
-run = "uv run python download_wiki.py"
 description = "Download wiki pages to data/wiki/ (slow)"
+run = "uv run python download_wiki.py"
 
 [tasks."refresh::documents"]
-run = "uv run python main.py"
 description = "Build data/documents.json from CDN + wiki data"
+run = "uv run python main.py"
 
 [tasks."refresh::vectors"]
-run = "uv run -m vectorstore.build_index"
 description = "Upsert documents into ChromaDB index"
+run = "uv run -m vectorstore.build_index"
 
 [tasks.validate]
-run = "uv run -m vectorstore.health_check && echo 'Index healthy' || (echo 'Rebuilding...' && uv run -m vectorstore.build_index)"
 description = "Validate vectorstore health; rebuild if issues found"
-alias = "v"
+run = "uv run -m vectorstore.health_check && echo 'Index healthy' || (echo 'Rebuilding...' && uv run -m vectorstore.build_index)"
+alias = "va"
 
 # --- Embedding server ---
 
-# Debug commands (foreground mode)
-
-[tasks.debug-embed-build]
-run = "llama-server -hf jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0 --host 0.0.0.0 --port 8081 --embedding --pooling last -ngl 99 -np 1 -c 64000"
+# Debug/foreground commands
+[tasks."debug-embed-build"]
 description = "Start embedding server in foreground — build mode (debug)"
+run = "llama-server -hf jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0 --host 0.0.0.0 --port 8081 --embedding --pooling last -ngl 99 -np 1 -c 64000"
 alias = "deb"
 
-[tasks.debug-embed]
-run = "llama-server -hf jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0 --host 0.0.0.0 --port 8081 --embedding --pooling last -ngl 99 -np 4 -c 8192"
+[tasks."debug-embed"]
 description = "Start embedding server in foreground — production (debug)"
+run = "llama-server -hf jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0 --host 0.0.0.0 --port 8081 --embedding --pooling last -ngl 99 -np 4 -c 8192"
 alias = "dse"
-
-# Background commands (with logging)
-
-[tasks.start-embed-build]
-run = '''
-powershell -NoProfile -Command "New-Item -ItemType Directory -Force -Path logs | Out-Null; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0','--host','0.0.0.0','--port','8081','--embedding','--pooling','last','-ngl','99','-np','1','-c','64000' -WindowStyle Hidden -RedirectStandardOutput 'logs/embed-build.log' -RedirectStandardError 'logs/embed-build-error.log'; Write-Host 'Started embedding server build mode (:8081) - logs in logs/embed-build.log'"
-'''
-description = "Start embedding server — build mode (1 slot, 64k context) with logging"
-alias = "eb"
-
-[tasks.start-embed]
-run = '''
-powershell -NoProfile -Command "New-Item -ItemType Directory -Force -Path logs | Out-Null; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0','--host','0.0.0.0','--port','8081','--embedding','--pooling','last','-ngl','99','-np','4','-c','8192' -WindowStyle Hidden -RedirectStandardOutput 'logs/embed.log' -RedirectStandardError 'logs/embed-error.log'; Write-Host 'Started embedding server (:8081) - logs in logs/embed.log'"
-'''
-description = "Start embedding server — production (4 slots, 8k context) with logging"
-alias = "se"
-
-[tasks.stop-embed]
-run = "powershell -NoProfile -Command \"$port = 8081; $process = Get-NetTCPConnection -LocalPort $port -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique; if ($process) { Stop-Process -Id $process -Force -ErrorAction SilentlyContinue; Write-Host ('Stopped embedding server (port ' + $port + ')') } else { Write-Host ('No process found on port ' + $port) }\""
-description = "Stop embedding server (kills process on port 8081)"
-alias = "xe"
 
 # --- LLM server ---
 
-# Debug commands (foreground mode)
-
-[tasks.debug-llm]
-run = "llama-server -hf unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL --spec-type draft-mtp --spec-draft-n-max 4 -ngl 999 -fa on -c 16384 --reasoning-budget 1024 -ctk q8_0 -ctv q8_0 --host 0.0.0.0 --port 8080"
+[tasks."debug-llm"]
 description = "Start LLM server in foreground (debug)"
+run = "llama-server -hf unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL --spec-type draft-mtp --spec-draft-n-max 4 -ngl 999 -fa on -c 16384 --reasoning-budget 1024 -ctk q8_0 -ctv q8_0 --host 0.0.0.0 --port 8080"
 alias = "dsl"
-
-# Background commands (with logging)
-
-[tasks.start-llm]
-run = '''
-powershell -NoProfile -Command "New-Item -ItemType Directory -Force -Path logs | Out-Null; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL','--spec-type','draft-mtp','--spec-draft-n-max','4','-ngl','999','-fa','on','-c','16384','--reasoning-budget','1024','-ctk','q8_0','-ctv','q8_0','--host','0.0.0.0','--port','8080' -WindowStyle Hidden -RedirectStandardOutput 'logs/llm.log' -RedirectStandardError 'logs/llm-error.log'; Write-Host 'Started LLM server (:8080) - logs in logs/llm.log'"
-'''
-description = "Start LLM server (gemma-4-26B on :8080) with logging"
-alias = "sl"
-
-[tasks.stop-llm]
-run = "powershell -NoProfile -Command \"$port = 8080; $process = Get-NetTCPConnection -LocalPort $port -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique; if ($process) { Stop-Process -Id $process -Force -ErrorAction SilentlyContinue; Write-Host ('Stopped LLM server (port ' + $port + ')') } else { Write-Host ('No process found on port ' + $port) }\""
-description = "Stop LLM server (kills process on port 8080)"
-alias = "xl"
 
 # --- Open WebUI ---
 
-# Debug commands (foreground mode)
-
-[tasks.debug-webui]
-run = "cd \"F:\\ProjectGorgon\\mywebui\" && uv run open-webui serve --port 3000"
+[tasks."debug-webui"]
 description = "Start Open WebUI in foreground (debug)"
+run = "uv run open-webui serve --port 3000"
+dir = "{{ env.WEBUI_DIR }}"
 alias = "dsw"
 
-# Background commands (with logging)
+# --- All services (background via file tasks in .mise/tasks/) ---
 
-[tasks.start-webui]
-run = '''
-powershell -NoProfile -Command "New-Item -ItemType Directory -Force -Path logs | Out-Null; Start-Process -FilePath 'uv' -ArgumentList 'run','--directory','F:\\ProjectGorgon\\mywebui','open-webui','serve','--port','3000' -WindowStyle Hidden -RedirectStandardOutput 'logs/webui.log' -RedirectStandardError 'logs/webui-error.log'; Write-Host 'Started Open WebUI (:3000) - logs in logs/webui.log'"
-'''
-description = "Start Open WebUI on :3000 with logging"
-alias = "sw"
-
-[tasks.stop-webui]
-run = "powershell -NoProfile -Command \"$port = 3000; $process = Get-NetTCPConnection -LocalPort $port -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique; if ($process) { Stop-Process -Id $process -Force -ErrorAction SilentlyContinue; Write-Host ('Stopped Open WebUI (port ' + $port + ')') } else { Write-Host ('No process found on port ' + $port) }"
-description = "Stop Open WebUI (kills process on port 3000)"
-alias = "xw"
-
-# --- All services ---
-
-[tasks.start-all]
-run = '''
-powershell -NoProfile -Command "New-Item -ItemType Directory -Force -Path logs | Out-Null; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0','--host','0.0.0.0','--port','8081','--embedding','--pooling','last','-ngl','99','-np','4','-c','8192' -WindowStyle Hidden -RedirectStandardOutput 'logs/embed.log' -RedirectStandardError 'logs/embed-error.log'; Start-Process -FilePath 'llama-server' -ArgumentList '-hf','unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL','--spec-type','draft-mtp','--spec-draft-n-max','4','-ngl','999','-fa','on','-c','16384','--reasoning-budget','1024','-ctk','q8_0','-ctv','q8_0','--host','0.0.0.0','--port','8080' -WindowStyle Hidden -RedirectStandardOutput 'logs/llm.log' -RedirectStandardError 'logs/llm-error.log'; Start-Process -FilePath 'uv' -ArgumentList 'run','--directory','F:\\ProjectGorgon\\mywebui','open-webui','serve','--port','3000' -WindowStyle Hidden -RedirectStandardOutput 'logs/webui.log' -RedirectStandardError 'logs/webui-error.log'; Write-Host 'Started: embed(:8081) llm(:8080) webui(:3000) - logs in logs/ directory'"
-'''
+[tasks."start-all"]
 description = "Start all services (embed + llm + webui) with logging"
+depends = ["embed-start", "llm-start", "webui-start"]
 alias = "start"
 
-[tasks.stop-all]
-run = '''
-powershell -NoProfile -Command "Get-Process llama-server -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue; exit 0"
-powershell -NoProfile -Command "$port = 3000; $process = Get-NetTCPConnection -LocalPort $port -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique; if ($process) { Stop-Process -Id $process -Force -ErrorAction SilentlyContinue; Write-Host ('Stopped Open WebUI (port ' + $port + ')') } else { Write-Host ('No process found on port ' + $port) }"
-echo "All services stopped"
-'''
-description = "Stop all services"
+[tasks."stop-all"]
+description = "Stop all services (embed + llm + webui)"
+depends = ["embed-stop", "llm-stop", "webui-stop"]
 alias = "down"
 
 # --- Status check ---
 
 [tasks.status]
-run = "uv run python check_services.py"
 description = "Check status of all services (embed, llm, webui)"
+run = "uv run python check_services.py"
 alias = "st"
 
 # --- Log viewing ---
 
 [tasks.logs]
-run = "powershell -NoProfile -Command \"Get-ChildItem logs -ErrorAction SilentlyContinue | Select-Object Name, Length, LastWriteTime | Format-Table -AutoSize\""
 description = "List all log files in logs directory"
-alias = "logs"
+run = "Get-ChildItem '{{ env.LOGS_DIR }}' -ErrorAction SilentlyContinue | Select-Object Name, Length, LastWriteTime | Format-Table -AutoSize"
 
-[tasks.tail-embed]
-run = "powershell -NoProfile -Command \"Get-Content logs/embed.log -ErrorAction SilentlyContinue -Wait -Tail 20\""
+[tasks."tail-embed"]
 description = "Tail embedding server log (live, last 20 lines)"
+run = "Get-Content '{{ env.LOGS_DIR }}/embed.log' -ErrorAction SilentlyContinue -Wait -Tail 20"
 alias = "tle"
 
-[tasks.tail-llm]
-run = "powershell -NoProfile -Command \"Get-Content logs/llm.log -ErrorAction SilentlyContinue -Wait -Tail 20\""
+[tasks."tail-llm"]
 description = "Tail LLM server log (live, last 20 lines)"
+run = "Get-Content '{{ env.LOGS_DIR }}/llm.log' -ErrorAction SilentlyContinue -Wait -Tail 20"
 alias = "tll"
 
-[tasks.tail-webui]
-run = "powershell -NoProfile -Command \"Get-Content logs/webui.log -ErrorAction SilentlyContinue -Wait -Tail 20\""
+[tasks."tail-webui"]
 description = "Tail Open WebUI log (live, last 20 lines)"
+run = "Get-Content '{{ env.LOGS_DIR }}/webui.log' -ErrorAction SilentlyContinue -Wait -Tail 20"
 alias = "tlw"
