@@ -1,6 +1,3 @@
-[tools]
-python = "latest"
-
 [env]
 # Portable paths - update this if mywebui moves
 WEBUI_DIR = "F:/ProjectGorgon/mywebui"
@@ -33,7 +30,7 @@ alias = "rf"
 
 [tasks."refresh::full"]
 description = "Full refresh: CDN + wiki data + rebuild documents + update vectorstore"
-depends = ["refresh::cdn", "refresh::wiki", "refresh::documents", "refresh::vectors"]
+depends = ["refresh::vectors"]
 
 [tasks."refresh::cdn"]
 description = "Download CDN data to data/cdn/"
@@ -45,10 +42,12 @@ run = "uv run python download_wiki.py"
 
 [tasks."refresh::documents"]
 description = "Build data/documents.json from CDN + wiki data"
+depends = ["refresh::cdn", "refresh::wiki"]
 run = "uv run python main.py"
 
 [tasks."refresh::vectors"]
 description = "Upsert documents into ChromaDB index"
+depends = ["refresh::documents"]
 run = "uv run -m vectorstore.build_index"
 
 [tasks.validate]
@@ -80,7 +79,7 @@ alias = "dsl"
 
 [tasks."debug-webui"]
 description = "Start Open WebUI in foreground (debug)"
-run = "uv run open-webui serve --port 3000"
+run = "uv run --directory '{{ env.WEBUI_DIR }}' open-webui serve --port 3000"
 dir = "{{ env.WEBUI_DIR }}"
 alias = "dsw"
 
