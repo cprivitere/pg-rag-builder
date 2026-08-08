@@ -89,6 +89,15 @@ def _entity_type(hub_id):
     return None
 
 
+def _entity_name_from_hub(hub_id):
+    """Extract human-readable entity name from hub_id."""
+    for prefix in ("skillprofile_", "item_", "ability_", "quest_",
+                    "recipe_", "effect_", "area_", "npc_"):
+        if hub_id.startswith(prefix):
+            return hub_id[len(prefix):]
+    return hub_id
+
+
 def build_entity_context(question, hub_id):
     docs = _load_docs()
     if not docs:
@@ -98,6 +107,7 @@ def build_entity_context(question, hub_id):
         return None
 
     dtype = _entity_type(hub_id)
+    entity_name = _entity_name_from_hub(hub_id)
 
     ids = [d["id"] for d in hub_chunks]
     texts = [d["text"] for d in hub_chunks]
@@ -106,11 +116,14 @@ def build_entity_context(question, hub_id):
 
     seen = set(ids)
 
+    rerank_used = False
+    FACET_COUNTS = {"recipe": 20}
     for facet_q, ftype in FACET_PLANS.get(dtype, []):
+        facet_query = f"{facet_q} {entity_name}"
         try:
             res = retrieve(
-                f"{facet_q} {question}",
-                count=3,
+                facet_query,
+                count=FACET_COUNTS.get(ftype, 10),
                 metadata_filter={"type": ftype},
                 hybrid=True,
                 rerank=True,
@@ -120,6 +133,7 @@ def build_entity_context(question, hub_id):
                 "facet %r failed for hub %r: %s", facet_q, hub_id, exc
             )
             continue
+        rerank_used = rerank_used or res.get("rerank_used", False)
         for i in range(len(res["ids"][0])):
             did = res["ids"][0][i]
             if did in seen:
@@ -143,4 +157,5 @@ def build_entity_context(question, hub_id):
         "documents": [texts[:cut]],
         "metadatas": [metas[:cut]],
         "distances": [dists[:cut]],
+        "rerank_used": rerank_used,
     }

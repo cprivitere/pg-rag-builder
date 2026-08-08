@@ -23,14 +23,16 @@ uv run python -m scripts.retrieval # interactive Chroma similarity search (requi
 - `mise va` / `mise validate` — Health-check index, rebuild if issues found
 
 **Service Management (with logging via `.mise/tasks/*.ps1`):**
-- `mise start` / `mise start-all` — Start all services (embed + llm + webui) with logging
+- `mise start` / `mise start-all` — Start all services (embed + llm + rerank + webui) with logging
 - `mise down` / `mise stop-all` — Stop all services
 - `mise se` / `mise start-embed` — Start embedding server (production mode) with logging
 - `mise eb` / `mise start-embed-build` — Start embedding server (build mode) with logging
 - `mise sl` / `mise start-llm` — Start LLM server with logging
+- `mise sr` / `mise start-rerank` — Start reranker server (:8082, bge-reranker-v2-m3 Q4_K_M cross-encoder) with logging; params `-Model` (gguf path or `org/repo:quant`) + `-Ctx` via `pwsh .mise/tasks/rerank-start.ps1`
 - `mise sw` / `mise start-webui` — Start Open WebUI with logging
 - `mise xe` / `mise stop-embed` — Stop embedding server
 - `mise xl` / `mise stop-llm` — Stop LLM server
+- `mise xr` / `mise stop-rerank` — Stop reranker server
 - `mise xw` / `mise stop-webui` — Stop Open WebUI (kills process on port 3000)
 
 **Debug Mode (foreground, direct stdout):**
@@ -40,11 +42,12 @@ uv run python -m scripts.retrieval # interactive Chroma similarity search (requi
 - `mise dsw` / `mise debug-webui` — Start Open WebUI in foreground
 
 **Monitoring:**
-- `mise st` / `mise status` — Check status of all services (embed, llm, webui)
+- `mise st` / `mise status` — Check status of all services (embed, llm, rerank, webui)
 - `mise logs` — List all log files in logs/ directory
 - `mise tle` / `mise tail-embed` — Tail embedding server log (live, last 20 lines)
 - `mise tll` / `mise tail-llm` — Tail LLM server log (live, last 20 lines)
 - `mise tlw` / `mise tail-webui` — Tail Open WebUI log (live, last 20 lines)
+- `mise tlr` / `mise tail-rerank` — Tail reranker server log (live, last 20 lines)
 
 **Note:** Use `mise start` instead of `mise up` to avoid conflict with built-in `mise update` command
 
@@ -74,11 +77,12 @@ Each step depends on prior output. Never build index without documents. Never bu
 |---------|------|-------------|
 | llama.cpp embedding | :8081 | `embed_batch`, `embed_text`, Chroma similarity search |
 | llama.cpp LLM | :8080 | RAG Q&A (`scripts.rag`) |
+| llama.cpp reranker (bge-reranker-v2-m3) | :8082 | cross-encoder rerank of retrieved docs |
 | Open WebUI | :3000 | Web interface for LLM interaction |
 
-LLM and embedding servers not needed for build/refresh — only for interactive RAG queries. Open WebUI requires Python 3.11 (separate from main project's Python ≥3.14).
+LLM and embedding servers not needed for build/refresh — only for interactive RAG queries. Reranker optional — lexical fallback when down (SPEC §V60, §V61, `data/rerank_stats.json`). Open WebUI requires Python 3.11 (separate from main project's Python ≥3.14).
 
-LLM server runs with `-c 16384` context + `--reasoning-budget 1024` + `-ctk/-ctv q8_0` kv cache (mise.toml). `CONTEXT_BUDGET = 24000` chars in config.py caps packed entity context. Entity questions route through `rag/entity_retrieval.py` (whole-doc dossier assembly + facet expansion); `rag/pipeline.py` handles the entity path + one-shot gap-fill. Open WebUI TOP_K valve defaults to 20 for general queries.
+LLM server runs with `-c 16384` context + `--reasoning-budget 1024`, KV cache f16 (⊥ q8_0 — breaks MTP draft acceptance, see SPEC §B27; mise.toml). `CONTEXT_BUDGET = 24000` chars in config.py caps packed entity context. Entity questions route through `rag/entity_retrieval.py` (whole-doc dossier assembly + facet expansion); `rag/pipeline.py` handles the entity path + one-shot gap-fill. Open WebUI TOP_K valve defaults to 20 for general queries.
 
 ## Data directory
 
@@ -89,15 +93,17 @@ LLM server runs with `-c 16384` context + `--reasoning-budget 1024` + `-ctk/-ctv
 - `data/chroma/` — ChromaDB persistent store
 - `data/wiki/curated/` — curator output (`scripts/curator.py`)
 - `data/golden/` — golden Q&A eval results (`scripts/golden_check.py`)
+- `data/rerank_stats.json` — reranker fail/success counters (auto-managed)
 - `data/wiki/.meta.json` — touched timestamps for freshness (auto-managed)
 
 ## Logs directory
 
-`logs/` is gitignored, not tracked. Contains service output from background processes:
+`logs/` is not tracked. Contains service output from background processes:
 - `logs/embed.log` / `logs/embed-error.log` — Embedding server output
 - `logs/llm.log` / `logs/llm-error.log` — LLM server output
 - `logs/webui.log` / `logs/webui-error.log` — Open WebUI output
 - `logs/embed-build.log` / `logs/embed-build-error.log` — Embedding build mode output
+- `logs/rerank.log` — Reranker server output
 
 ## Testing
 
@@ -152,3 +158,7 @@ Prerequisites: embedding server (:8081) and LLM server (:8080) must be running.
 - **LLM server draft model** fails if already running (OOM) — ensure `mise down` first
 - **Open WebUI** requires separate `.venv-openwebui/` (Python 3.11) — not managed by mise
 - **Hardcoded path in `pg_rag.py`** — must update if repo moves
+- **`download_wiki.py` category coverage:** `TARGET_CATEGORIES` (flat, curated) + `RECURSIVE_CATEGORIES` (walk category tree: `Creatures` depth 2, `Items` depth 1). Monster/creature + item pages only land via recursion — drop/loot info lives there. Vendor fix: subcats queued bare (⊥ `Category:` prefix twice)
+- **Embedder swap trap:** `embedding_hash` hashes doc TEXT only (build_index.py:97) — changing the embedding model leaves hashes identical, so incremental build skips everything. Swapping models requires wiping `data/chroma` + full rebuild (no `--force` flag yet; SPEC T84)
+- **Reranker sweep 2026-08-08 (SPEC T83):** bge-reranker-v2-m3 Q4_K_M chosen — 5/5 golden, stack 19.8 GB (96% → 82% VRAM), rerank delta +0.34 GB. Qwen3-0.6B (any quant) ≤ 4/5. jina-reranker-v2-base-ml ties at 5/5 with −150 MB but llama.cpp `-hf` download flaky → needs manual cache. `-c 8192` trim = no-op for bge-class rerankers
+- **Host binding trap (SPEC R7):** llama-server `--host [IP_ADDRESS]` binds IPv6 link-local only on this box → `[IP_ADDRESS]` is NOT a valid .NET Uri host, curl/Invoke-WebRequest fail. Spawn new eval servers with `--host Scamper` (ASCII name, resolves fine); existing :8080/:8081/:8082 already bound, don't touch. Probe tool: `uv run python scripts/embed_vram_probe.py` (candidate VRAM deltas → `data/embed_vram.json`, SPEC T86/T87)

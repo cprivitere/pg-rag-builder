@@ -30,6 +30,7 @@ SUBJECT_REGEX = re.compile(
 def _persist_synthesized(doc):
     CURATED_DIR.mkdir(parents=True, exist_ok=True)
     slug = doc["id"].replace("synthesized_", "", 1)
+    slug = re.sub(r'[<>:"/\\|?*]', "-", slug)
     path = CURATED_DIR / f"synthesized_{slug}_curated.txt"
     path.write_text(doc["text"], encoding="utf-8")
 
@@ -76,11 +77,11 @@ def _gap_fill(question, answer, ids, docs, metas, dists, query_type):
     Empty answer also counts as missing.
     """
     if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
-        return answer, ids, docs, metas, dists
+        return answer, ids, docs, metas, dists, False
     if not (answer or "").strip():
         answer = _generate_with(question, docs, query_type)
         if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
-            return answer, ids, docs, metas, dists
+            return answer, ids, docs, metas, dists, False
     m = SUBJECT_REGEX.search(answer)
     subject = m.group(1).strip() if m else question
     extra = retrieve(
@@ -100,7 +101,7 @@ def _gap_fill(question, answer, ids, docs, metas, dists, query_type):
         metas.append(extra["metadatas"][0][i])
         dists.append(extra["distances"][0][i])
     answer = _generate_with(question, docs, query_type)
-    return answer, ids, docs, metas, dists
+    return answer, ids, docs, metas, dists, extra.get("rerank_used", False)
 
 
 def _ask_entity(question):
@@ -115,7 +116,7 @@ def _ask_entity(question):
     dists = list(ctx["distances"][0])
 
     answer = _generate_with(question, docs, "entity")
-    answer, ids, docs, metas, dists = _gap_fill(
+    answer, ids, docs, metas, dists, gap_used = _gap_fill(
         question, answer, ids, docs, metas, dists, "entity"
     )
 
@@ -123,6 +124,7 @@ def _ask_entity(question):
         "answer": answer,
         "documents": docs,
         "query_type": "entity",
+        "rerank_used": ctx.get("rerank_used", False) or gap_used,
         "sources": _build_sources(ids, dists, metas),
     }
 
@@ -189,7 +191,7 @@ def ask(question, metadata_filter=None):
     )
 
     answer = generate(prompt)
-    answer, ids, documents, distances, metadatas = _gap_fill(
+    answer, ids, documents, distances, metadatas, gap_used = _gap_fill(
         question, answer, ids, documents, distances, metadatas, query_type
     )
 
@@ -197,6 +199,7 @@ def ask(question, metadata_filter=None):
         "answer": answer,
         "documents": documents,
         "query_type": query_type,
+        "rerank_used": results.get("rerank_used", False) or gap_used,
         "sources": [
             {
                 "id": doc_id,

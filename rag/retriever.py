@@ -1,8 +1,11 @@
+import logging
+
 import chromadb
 
 from embeddings.llama_embeddings import embed_text
 from rag.spelling import correct_query
 
+logger = logging.getLogger(__name__)
 
 RERANK_MULTIPLIER = 3
 RRF_K = 60
@@ -111,11 +114,13 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False,
         query_kwargs["where"] = metadata_filter
 
     results = collection.query(**query_kwargs)
+    results["rerank_used"] = False
 
     if hybrid:
         from rag.bm25 import load_bm25_index
+        fuse_target = effective_count * RERANK_MULTIPLIER if rerank else effective_count
         bm25_model, all_docs = load_bm25_index()
-        bm25_indices, _ = bm25_model.search(question, k=effective_count * HYBRID_MULTIPLIER)
+        bm25_indices, _ = bm25_model.search(question, k=fuse_target)
         bm25_ids = [all_docs[i]["id"] for i in bm25_indices]
 
         fused_ids, fused_texts, fused_metas, fused_dists = _hybrid_fuse(
@@ -125,14 +130,27 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False,
             results["distances"][0],
             bm25_ids,
             all_docs,
-            effective_count,
+            fuse_target,
         )
         results["ids"] = [fused_ids]
         results["documents"] = [fused_texts]
         results["metadatas"] = [fused_metas]
         results["distances"] = [fused_dists]
-    elif rerank and len(results["ids"][0]) > effective_count:
-        ids, docs, metas, dists = _rerank(
+
+    # Post-fusion metadata filter (BM25 ignores where clause)
+    if metadata_filter is not None and results["ids"][0]:
+        filtered = [
+            i for i in range(len(results["ids"][0]))
+            if all(results["metadatas"][0][i].get(k) == v
+                   for k, v in metadata_filter.items())
+        ]
+        results["ids"] = [[results["ids"][0][i] for i in filtered]]
+        results["documents"] = [[results["documents"][0][i] for i in filtered]]
+        results["metadatas"] = [[results["metadatas"][0][i] for i in filtered]]
+        results["distances"] = [[results["distances"][0][i] for i in filtered]]
+
+    if rerank and len(results["ids"][0]) > effective_count:
+        ids, docs, metas, dists, used = _rerank_or_cross_encoder(
             question,
             results["ids"][0],
             results["documents"][0],
@@ -140,9 +158,36 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False,
             results["distances"][0],
             effective_count,
         )
+        results["rerank_used"] = used
         results["ids"] = [ids]
         results["documents"] = [docs]
         results["metadatas"] = [metas]
         results["distances"] = [dists]
 
     return results
+
+
+def _rerank_or_cross_encoder(query, ids, documents, metadatas, distances, count):
+    """Cross-encoder rerank via :8082; lexical fallback on failure (V60, V61).
+
+    Returns reordered quads + used flag.
+    """
+    try:
+        from rag.reranker_client import rerank_documents, record_failure, record_success
+
+        indices = rerank_documents(query, documents, count)
+        reranked = (
+            [ids[i] for i in indices],
+            [documents[i] for i in indices],
+            [metadatas[i] for i in indices],
+            [distances[i] for i in indices],
+        )
+        record_success()
+        return reranked + (True,)
+    except Exception as exc:
+        logger.warning("[WARN] reranker (:8082) unavailable/failed: %s", exc)
+        try:  # stats update must not break retrieval (V64)
+            record_failure()
+        except Exception:
+            pass
+        return _rerank(query, ids, documents, metadatas, distances, count) + (False,)

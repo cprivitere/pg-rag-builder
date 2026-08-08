@@ -72,7 +72,7 @@ alias = "dse"
 
 [tasks."debug-llm"]
 description = "Start LLM server in foreground (debug)"
-run = "llama-server -hf unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL --spec-type draft-mtp --spec-draft-n-max 4 -ngl 999 -fa on -c 16384 --reasoning-budget 1024 -ctk q8_0 -ctv q8_0 --host 0.0.0.0 --port 8080"
+run = "llama-server -hf unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL --spec-type draft-mtp --spec-draft-n-max 4 -ngl 999 -fa on -c 16384 --reasoning-budget 1024 --host 0.0.0.0 --port 8080"
 alias = "dsl"
 
 # --- Open WebUI ---
@@ -86,19 +86,19 @@ alias = "dsw"
 # --- All services (background via file tasks in .mise/tasks/) ---
 
 [tasks."start-all"]
-description = "Start all services (embed + llm + webui) with logging"
-depends = ["embed-start", "llm-start", "webui-start"]
+description = "Start all services (embed + llm + rerank + webui) with logging"
+depends = ["embed-start", "llm-start", "rerank-start", "webui-start"]
 alias = "start"
 
 [tasks."stop-all"]
-description = "Stop all services (embed + llm + webui)"
-depends = ["embed-stop", "llm-stop", "webui-stop"]
+description = "Stop all services (embed + llm + rerank + webui)"
+depends = ["embed-stop", "llm-stop", "rerank-stop", "webui-stop"]
 alias = "down"
 
 # --- Status check ---
 
 [tasks.status]
-description = "Check status of all services (embed, llm, webui)"
+description = "Check status of all services (embed, llm, rerank, webui)"
 run = "uv run python check_services.py"
 alias = "st"
 
@@ -122,3 +122,8 @@ alias = "tll"
 description = "Tail Open WebUI log (live, last 20 lines)"
 run = "Get-Content '{{ env.LOGS_DIR }}/webui.log' -ErrorAction SilentlyContinue -Wait -Tail 20"
 alias = "tlw"
+
+[tasks."tail-rerank"]
+description = "Tail reranker server log (live, last 20 lines)"
+run = "Get-Content '{{ env.LOGS_DIR }}/rerank.log' -ErrorAction SilentlyContinue -Wait -Tail 20"
+alias = "tlr"
