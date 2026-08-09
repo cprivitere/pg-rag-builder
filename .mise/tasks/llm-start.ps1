@@ -10,15 +10,16 @@ $root = Split-Path -Parent $root
 $logDir = Join-Path $root 'logs'
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 
+$existing = Get-NetTCPConnection -LocalPort 8080 -State Listen -ErrorAction SilentlyContinue
+if ($existing) {
+    Write-Host "LLM server already running on :8080 (PID $($existing.OwningProcess))"
+    exit 0
+}
+
 $exe = 'llama-server'
-$serverArgs = @('-hf','unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL','--spec-type','draft-mtp','--spec-draft-n-max','4','-ngl','999','-fa','on','-c','16384','--reasoning-budget','1024','-ctk','q8_0','-ctv','q8_0','--host','0.0.0.0','--port','8080')
-$outLog = Join-Path $logDir 'llm.log'
-$errLog = Join-Path $logDir 'llm-error.log'
+$logFile = Join-Path $logDir 'llm.log'
+$serverArgs = @('-hf','unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL','--spec-type','draft-mtp','--spec-draft-n-max','4','-ngl','999','-fa','on','-c','16384','-np','1','--reasoning-budget','1024','--host','0.0.0.0','--port','8080',"--log-file","$logFile")
 
-$batPath = [IO.Path]::GetTempFileName() + '.bat'
-$batContent = "@echo off`n`"$exe`" $($serverArgs -join ' ') > `"$outLog`" 2> `"$errLog`""
-[IO.File]::WriteAllText($batPath, $batContent)
+Start-Process -FilePath $exe -ArgumentList $serverArgs -WindowStyle Hidden
 
-Start-Process -FilePath 'cmd.exe' -ArgumentList "/c `"$batPath`"" -WindowStyle Hidden
-
-Write-Host "Started LLM server (:8080) - logs in logs/llm.log"
+Write-Host "Started LLM server (:8080) - log: $logFile"

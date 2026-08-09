@@ -10,6 +10,12 @@ $root = Split-Path -Parent $root
 $logDir = Join-Path $root 'logs'
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 
+$existing = Get-NetTCPConnection -LocalPort 3000 -State Listen -ErrorAction SilentlyContinue
+if ($existing) {
+    Write-Host "Open WebUI already running on :3000 (PID $($existing.OwningProcess))"
+    exit 0
+}
+
 $webuiDir = $env:WEBUI_DIR ?? "F:/ProjectGorgon/mywebui"
 $exe = 'uv'
 $serverArgs = @('run','--directory',$webuiDir,'open-webui','serve','--port','3000')

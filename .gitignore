@@ -226,3 +226,6 @@ data/
 .agents/
 skills-lock.json
 docs/superpowers/
+
+# Other AI tool local files — never commit
+.devin/

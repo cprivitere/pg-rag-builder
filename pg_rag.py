@@ -8,6 +8,9 @@ Usage:
   1. Import this file via Admin Panel > Functions > Import
   2. Select "Project Gorgon RAG" from the model dropdown
   3. Ask game-related questions — queries route through the custom pipeline
+
+Environment:
+  PG_RAG_ROOT — root directory of pg-rag-builder repo (default: F:\ProjectGorgon\pg-rag-builder)
 """
 
 import asyncio
@@ -18,7 +21,7 @@ from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-PG_ROOT = Path(r"F:\ProjectGorgon\pg-rag-builder")
+PG_ROOT = Path(os.environ.get("PG_RAG_ROOT", r"F:\ProjectGorgon\pg-rag-builder"))
 if str(PG_ROOT) not in sys.path:
     sys.path.insert(0, str(PG_ROOT))
 

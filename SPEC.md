@@ -35,7 +35,7 @@ C13. Reranker failure ⊥ silent — log + flag + persistent stats. Fallback = c
 ## §I — Interfaces
 
 cmd: `uv run python download_cdn.py` → fetch CDN JSON → `data/cdn/`
-cmd: `uv run python download_wiki.py` → fetch wiki text → `data/wiki/` (mwclient)
+cmd: `uv run python download_wiki.py` → fetch wiki text → `data/wiki/`
 cmd: `uv run python main.py` → writes `data/documents.json`
 cmd: `uv run python vectorstore/build_index.py` → build/update ChromaDB index
 cmd: `uv run python search.py` → interactive substring search (stdio)
@@ -229,14 +229,14 @@ V65: Embedder swap gate — candidate ! win subset eval + golden facts + VRAM be
 | T79 | x | `data/rerank_stats.json` — best-effort atomic write, failures/last_failure/last_success | V61, V64 |
 | T80 | x | mise `rerank-start`/`rerank-stop` ps1 + status shows :8082 + stats failures counter | V60, V61, R2 |
 | T81 | x | Fallback tests — server down/error/timeout → lexical order, flag False, stats increment | V60, V61 |
-| T82 | x |
 | T83 | x | Rerank memory trims — RESOLVED 2026-08-08: obsoleted by model swap (BAAI/bge-reranker-v2-m3 Q4_K_M). Measured sweep: Qwen3-0.6B Q8_0/-c32768 = 23.3 GB stack, Q8/-c8192 = 21.4 GB (KV cut real), Q4_K_M = 22.1 GB, Q2_K = 3/5 golden (quality floor). bge-m3 + jina-v2 (Q4_K_M) = 19.6-19.8 GB both, 5/5 golden; ctx 8192 = no-op for both (KV ~0.34 GB, ctx-independent pool allocs). Final: bge-m3 Q4_K_M @ -c 32768 → stack 96% -> 82% VRAM (19.8 GB), rerank delta 4.1 GB -> 0.34 GB | V60, T80 |
-| T84 | x | Embedder swap eval — RESOLVED 2026-08-08: current embedder is jina-embeddings-v5-text-small-retrieval (677M, 71.7 MTEB-Eng-v2 avg; measured 610 MB Q8_0). Candidate Qwen3-Embedding-0.6B (610 MB Q8_0, 70.7 avg) = size-neutral, slightly weaker on paper; swap would cost full 27k-doc re-embed + instruct-prefix alignment for ~nil gain. KEEP jina. Only bigger gain = Qwen3-Embedding-4B (74.6 avg, +3.5 GB VRAM — requires T83 trims first if ever re-evaluated) | V2, V23, T76 | Swap = text-hash unchanged -> incremental build skips -> needs wipe + forced rebuild (no --force flag today). Memory-neutral; retrieval quality TBD via golden eval | V2, V23, T76 | `scripts.rag` prints `rerank_used` — ⊥ `scripts.retrieval` (raw query, no client) | V61 |
-| T83 | x | Post-swap golden — RESOLVED 2026-08-08: bge-m3 Q4_K_M @ c32k + c8k both 5/5 (0 miss) | V63 |
-| T85 | ~ | Embedder VRAM pre-filter — probe delta per candidate, drop ≈current-size (won't help) | T83,C11 |
+| T84 | x | Embedder swap eval — RESOLVED 2026-08-08: current embedder is jina-embeddings-v5-text-small-retrieval (677M, 71.7 MTEB-Eng-v2 avg; measured 610 MB Q8_0). Candidate Qwen3-Embedding-0.6B (610 MB Q8_0, 70.7 avg) = size-neutral, slightly weaker on paper; swap would cost full 27k-doc re-embed + instruct-prefix alignment for ~nil gain. KEEP jina. Only bigger gain = Qwen3-Embedding-4B (74.6 avg, +3.5 GB VRAM — requires T83 trims first if ever re-evaluated). Swap note: text-hash unchanged → incremental skips → needs wipe + forced rebuild (no --force flag today). Memory-neutral; retrieval quality TBD via golden eval | V2, V23, T76 |
+| T85 | x | Embedder VRAM pre-filter — resolved host resolution for IPv6 link-local (`socket.getaddrinfo` with scope_id) | T83,C11,R7 |
 | T86 | . | Embedder subset eval — scripts/embed_eval.py + data/eval_subset.json (1.2k docs, 13 queries, sources-derived labels), MRR@10/hit@3-5/recall@10 vs jina | T85,V65 |
 | T87 | . | Sweep runlist — jina-base, MiniLM-L6 22M, mxbai-xsmall 24M⚠, bge-small Q8, embeddinggemma-300m Q8, mxbai-large 335M, KaLM-mini 0.5B; +2 mxbai prefix runs | T86 |
 | T88 | . | Decision gate — subset winner → golden facts (V63) → VRAM; swap only if win, then wipe data/chroma + full re-embed | T87,V63,T84 |
+| T89 | x | Post-swap golden — RESOLVED 2026-08-08: bge-m3 Q4_K_M @ c32k + c8k both 5/5 (0 miss) | V63 |
+| T90 | x | `scripts.rag` prints `rerank_used` — ⊥ `scripts.retrieval` (raw query, no client) | V61 |
 
 ## §B — Bugs
 

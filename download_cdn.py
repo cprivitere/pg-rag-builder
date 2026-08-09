@@ -1,5 +1,8 @@
+import sys
 import requests
 from config import CDN_DIR
+
+sys.stdout.reconfigure(line_buffering=True)
 
 CDN_BASE = "https://cdn.projectgorgon.com"
 VERSION_URL = "http://client.projectgorgon.com/fileversion.txt"

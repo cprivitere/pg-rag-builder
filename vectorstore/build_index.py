@@ -1,5 +1,8 @@
+import sys
 import json
 import chromadb
+
+sys.stdout.reconfigure(line_buffering=True)
 
 from config import EMBEDDING_DIM
 from embeddings.llama_embeddings import embed_batch, validate_embeddings

@@ -1,7 +1,10 @@
+import sys
 from database import GameDatabase
 from loaders.cdn_loader import load_database
 from loaders.wiki_loader import load_wiki
 from documents.builder import build_documents
+
+sys.stdout.reconfigure(line_buffering=True)
 
 
 def main():
