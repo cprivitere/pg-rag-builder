@@ -61,6 +61,24 @@ def test_facet_type_filters(monkeypatch):
     assert {"type": "advancementtable"} in filters
 
 
+def test_facet_uses_entity_name_not_full_question(monkeypatch):
+    calls = []
+
+    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True):
+        calls.append(question)
+        return _empty_retrieve()
+
+    monkeypatch.setattr(er, "retrieve", fake_retrieve)
+    er.build_entity_context(
+        "Tell me what recipes I will use while leveling saddlery from 0 to 15",
+        "skillprofile_Saddlery",
+    )
+    for q in calls:
+        assert "Tell me" not in q
+        assert "leveling" not in q
+        assert "Saddlery" in q
+
+
 def test_facet_dedupe(monkeypatch):
     def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True):
         return {
