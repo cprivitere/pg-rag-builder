@@ -3,21 +3,34 @@ import os
 import sys
 import time
 import random
+import hashlib
 import requests
-from mwclient import Site
-from mwclient import errors as mw_errors
+from datetime import datetime, timezone
+from pathlib import Path
 from config import WIKI_DIR
 
-sys.stdout.reconfigure(encoding='utf-8')
+sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
 
 META_FILE = WIKI_DIR / ".meta.json"
 
 WIKI_HOST = "wiki.projectgorgon.com"
-WIKI_PATH = "/"
+WIKI_API_URL = f"https://{WIKI_HOST}/api.php"
 
-TARGET_CATEGORIES = ["Game updates", "Game Blogs", "NPCs", "Skills"]
+TARGET_CATEGORIES = [
+    "Game updates", "Game Blogs", "NPCs", "Skills", "Abilities", "Beast Forms",
+    "Arthropod", "Animal Handling Creatures", "Aberration", "Bear and Bugbear",
+    "Anagoge Creatures", "Anagoge Records Facility Creatures",
+    "Aktaari Cave Creatures", "Animal Nexus Creatures",
+    "Amaluk Valley Cave Creatures", "Animal Town Creatures", "Augury",
+]
+
+RECURSIVE_CATEGORIES = {
+    "Creatures": 2,
+    "Items": 1,
+}
 
 MAX_RETRIES = 5
+BATCH_SIZE = 50
 BASE_DELAY = 0.5
 CONNECT_TIMEOUT = 15
 READ_TIMEOUT = 60
@@ -29,164 +42,401 @@ RESERVED_NAMES = {
     "LPT1", "LPT2", "LPT3", "LPT4", "LPT5",
     "LPT6", "LPT7", "LPT8", "LPT9",
 }
-
-TRANSIENT_API_CODES = {"ratelimited", "maxlag", "readonly"}
 MAX_FILENAME_LEN = 150
 
+USER_AGENT = "TwinkleofToesPersonalBackup/1.0 (sabin@figarocastle.org)"
 
-def get_safe_filename(page_name, index):
-    safe_title = "".join(c for c in page_name if c.isalnum() or c in (" ", "_", "-")).rstrip()
+
+def get_stable_filename(page_title: str) -> str:
+    safe_title = "".join(c for c in page_title if c.isalnum() or c in (" ", "_", "-")).rstrip()
     safe_title = safe_title.replace(" ", "_")
     if not safe_title:
-        safe_title = f"page_{index}"
+        safe_title = "page"
     stem = safe_title[:MAX_FILENAME_LEN].rstrip(" .")
     if stem.upper() in RESERVED_NAMES:
         stem += "_"
-    return f"{stem}.txt"
+    digest = hashlib.sha256(page_title.encode("utf-8")).hexdigest()[:8]
+    return f"{stem}_{digest}.txt"
 
 
-def is_transient_error(e):
-    if isinstance(e, (requests.exceptions.ConnectionError, requests.exceptions.Timeout)):
-        return True
-    if isinstance(e, mw_errors.APIError):
-        return e.code in TRANSIENT_API_CODES
-    return False
-
-
-def download_page(page, file_path):
-    if not page.exists or page.redirect:
-        print(f"  Skipping (redirect or deleted): {page.name}")
-        return False
-
-    for attempt in range(MAX_RETRIES):
-        try:
-            content = page.text()
-            temp_path = file_path + ".tmp"
-            with open(temp_path, "w", encoding="utf-8") as f:
-                f.write(content)
-            os.replace(temp_path, file_path)
-            return True
-        except (mw_errors.APIError, requests.exceptions.RequestException) as e:
-            if is_transient_error(e) and attempt < MAX_RETRIES - 1:
-                delay = (2 ** attempt) + random.uniform(0, 1)
-                print(f"  Transient error, retrying in {delay:.1f}s... ({e})")
-                time.sleep(delay)
-            else:
-                print(f"  Failed to download {page.name}: {e}")
-                return False
-        except Exception as e:
-            print(f"  Failed to download {page.name}: {e}")
-            return False
-    return False
-
-
-def load_metadata():
+def load_metadata() -> dict:
     if META_FILE.exists():
-        return json.loads(META_FILE.read_text())
+        try:
+            return json.loads(META_FILE.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            return {}
     return {}
 
 
-def save_metadata(meta):
+def save_metadata(meta: dict) -> None:
     META_FILE.parent.mkdir(parents=True, exist_ok=True)
-    META_FILE.write_text(json.dumps(meta, indent=2))
+    temp_path = META_FILE.with_suffix(".tmp")
+    temp_path.write_text(json.dumps(meta, indent=2), encoding="utf-8")
+    os.replace(temp_path, META_FILE)
 
 
-def batch_fetch_touched(site, page_names):
+def make_session() -> requests.Session:
+    session = requests.Session()
+    session.headers.update({"User-Agent": USER_AGENT})
+    return session
+
+
+def api_call_with_retry(session: requests.Session, params: dict) -> dict:
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = session.get(
+                WIKI_API_URL,
+                params=params,
+                timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
+            )
+            response.raise_for_status()
+            data = response.json()
+
+            if "error" in data:
+                error_code = data["error"].get("code", "")
+                if error_code in {"ratelimited", "maxlag", "readonly"}:
+                    retry_after = response.headers.get("Retry-After")
+                    if retry_after:
+                        delay = int(retry_after)
+                    else:
+                        delay = (2 ** attempt) + random.uniform(0, 1)
+                    print(f"[{_ts()}]   API error {error_code}, retrying in {delay:.1f}s...")
+                    time.sleep(delay)
+                    continue
+                raise RuntimeError(f"API error: {data['error']}")
+
+            return data
+
+        except requests.exceptions.RequestException as e:
+            if attempt < MAX_RETRIES - 1:
+                delay = (2 ** attempt) + random.uniform(0, 1)
+                print(f"[{_ts()}]   Request failed, retrying in {delay:.1f}s... ({e})")
+                time.sleep(delay)
+            else:
+                raise
+
+    raise RuntimeError("Max retries exceeded")
+
+
+def enumerate_category_pages(session: requests.Session, category_name: str) -> list[str]:
+    pages = []
+    params = {
+        "action": "query",
+        "format": "json",
+        "list": "categorymembers",
+        "cmtitle": f"Category:{category_name}",
+        "cmnamespace": 0,
+        "cmlimit": "max",
+        "maxlag": 5,
+    }
+    while True:
+        data = api_call_with_retry(session, params)
+        for member in data.get("query", {}).get("categorymembers", []):
+            pages.append(member["title"])
+        if "continue" in data:
+            params.update(data["continue"])
+            time.sleep(BASE_DELAY)
+        else:
+            break
+    return pages
+
+
+def enumerate_category_pages_recursive(
+    session: requests.Session, root_category: str, max_depth: int
+) -> list[str]:
+    pages = []
+    seen_cats = set()
+    seen_pages = set()
+    frontier = [root_category]
+    depth = 0
+    while frontier:
+        next_frontier = []
+        for cat in frontier:
+            if cat in seen_cats:
+                continue
+            seen_cats.add(cat)
+            params = {
+                "action": "query",
+                "format": "json",
+                "list": "categorymembers",
+                "cmtitle": f"Category:{cat}",
+                "cmlimit": "max",
+                "maxlag": 5,
+            }
+            while True:
+                data = api_call_with_retry(session, params)
+                for member in data.get("query", {}).get("categorymembers", []):
+                    if member["ns"] == 0:
+                        if member["title"] not in seen_pages:
+                            seen_pages.add(member["title"])
+                            pages.append(member["title"])
+                    elif member["ns"] == 14 and depth < max_depth:
+                        sub = member["title"].removeprefix("Category:")
+                        if sub not in seen_cats:
+                            next_frontier.append(sub)
+                if "continue" in data:
+                    params.update(data["continue"])
+                    time.sleep(BASE_DELAY)
+                else:
+                    break
+            time.sleep(BASE_DELAY)
+        frontier = next_frontier
+        depth += 1
+    return pages
+
+
+def fetch_timestamps(session: requests.Session, titles: list[str]) -> dict[str, str]:
     touched = {}
-    for i in range(0, len(page_names), 50):
-        batch = page_names[i:i+50]
-        result = site.api(
-            action="query",
-            titles="|".join(batch),
-            prop="info",
-        )
-        for pid, info in result.get("query", {}).get("pages", {}).items():
-            if int(pid) > 0 and "touched" in info:
-                touched[info["title"]] = info["touched"]
+    for i in range(0, len(titles), 50):
+        batch = titles[i:i+50]
+        params = {
+            "action": "query",
+            "format": "json",
+            "titles": "|".join(batch),
+            "prop": "info",
+            "maxlag": 5,
+        }
+        data = api_call_with_retry(session, params)
+        for page_info in data.get("query", {}).get("pages", {}).values():
+            if "missing" in page_info or page_info.get("pageid", 0) <= 0:
+                touched[page_info.get("title", "")] = None
+            elif "touched" in page_info:
+                touched[page_info["title"]] = page_info["touched"]
+        if i + 50 < len(titles):
+            time.sleep(BASE_DELAY)
     return touched
 
 
-def main():
+def fetch_page_content_batch(session: requests.Session, titles: list[str]) -> dict[str, tuple[str, bool]]:
+    results = {}
+    for batch_start in range(0, len(titles), BATCH_SIZE):
+        batch = titles[batch_start:batch_start + BATCH_SIZE]
+        params = {
+            "action": "query",
+            "format": "json",
+            "titles": "|".join(batch),
+            "prop": "revisions",
+            "rvprop": "content",
+            "rvslots": "main",
+            "maxlag": 5,
+            "redirects": "",
+        }
+        data = api_call_with_retry(session, params)
+        pages = data.get("query", {}).get("pages", {})
+        for page_info in pages.values():
+            pageid = page_info.get("pageid", 0)
+            title = page_info.get("title", "")
+            if pageid < 0:
+                results[title] = ("", True)
+                continue
+            if "missing" in page_info:
+                results[title] = ("", True)
+                continue
+            revisions = page_info.get("revisions", [])
+            if revisions and "slots" in revisions[0]:
+                content = revisions[0]["slots"]["main"].get("*", "")
+                results[title] = (content, False)
+            else:
+                results[title] = ("", True)
+        if batch_start + BATCH_SIZE < len(titles):
+            time.sleep(BASE_DELAY)
+    return results
+
+
+def write_page_content(title: str, content: str, filename: str) -> bool:
+    file_path = WIKI_DIR / filename
+    try:
+        temp_path = file_path.with_suffix(".tmp")
+        temp_path.write_text(content, encoding="utf-8")
+        os.replace(temp_path, file_path)
+        return True
+    except Exception as e:
+        print(f"[{_ts()}]   Failed to write {filename}: {e}")
+        return False
+
+
+def remove_stale_files(meta: dict, current_titles: set[str]) -> None:
+    pages_meta = meta.get("pages", {})
+    for title, info in pages_meta.items():
+        if title not in current_titles:
+            filename = info.get("filename")
+            if filename:
+                file_path = WIKI_DIR / filename
+                if file_path.exists():
+                    try:
+                        file_path.unlink()
+                        print(f"[{_ts()}]   Removed stale: {filename}")
+                    except Exception as e:
+                        print(f"[{_ts()}]   Failed to remove {filename}: {e}")
+
+
+def _ts() -> str:
+    return datetime.now(timezone.utc).strftime("%H:%M:%S")
+
+
+def main() -> int:
     WIKI_DIR.mkdir(parents=True, exist_ok=True)
 
-    for f in os.listdir(WIKI_DIR):
-        if f.endswith(".tmp"):
-            os.remove(os.path.join(WIKI_DIR, f))
+    for f in WIKI_DIR.glob("*.tmp"):
+        try:
+            f.unlink()
+        except Exception:
+            pass
 
-    print(f"Connecting to {WIKI_HOST}...")
-    site = Site(
-        WIKI_HOST,
-        path=WIKI_PATH,
-        clients_useragent="TwinkleofToesPersonalBackup/1.0 (sabin@figarocastle.org)",
-        connection_options={"timeout": (CONNECT_TIMEOUT, READ_TIMEOUT)},
-    )
+    print(f"[{_ts()}] Connecting to {WIKI_HOST}...")
+    session = make_session()
 
+    all_titles = []
     if TARGET_CATEGORIES:
-        print(f"Targeting categories: {', '.join(TARGET_CATEGORIES)}")
-        all_pages = []
+        print(f"[{_ts()}] Targeting categories: {', '.join(TARGET_CATEGORIES)}")
         for cat_name in TARGET_CATEGORIES:
             try:
-                cat = site.categories[cat_name]
-                pages = list(cat.members(namespace=0))
-                all_pages.extend(pages)
-                print(f"  Category '{cat_name}': {len(pages)} pages")
-            except mw_errors.APIError as e:
-                print(f"  Category '{cat_name}' not found or inaccessible: {e}")
+                pages = enumerate_category_pages(session, cat_name)
+                all_titles.extend(pages)
+                print(f"[{_ts()}]   Category '{cat_name}': {len(pages)} pages")
+                time.sleep(BASE_DELAY)
+            except Exception as e:
+                print(f"[{_ts()}]   Category '{cat_name}' failed: {e}")
+                return 1
+        for root, max_depth in RECURSIVE_CATEGORIES.items():
+            try:
+                pages = enumerate_category_pages_recursive(session, root, max_depth)
+                all_titles.extend(pages)
+                print(f"[{_ts()}]   Recursive category '{root}' (depth {max_depth}): {len(pages)} pages")
+                time.sleep(BASE_DELAY)
+            except Exception as e:
+                print(f"[{_ts()}]   Recursive category '{root}' failed: {e}")
+                return 1
     else:
-        print("No category filter set. Fetching all wiki pages...")
-        all_pages = site.allpages(namespace=0)
+        print(f"[{_ts()}] No category filter set. Fetching all wiki pages...")
+        params = {
+            "action": "query",
+            "format": "json",
+            "list": "allpages",
+            "apnamespace": 0,
+            "aplimit": "max",
+            "maxlag": 5,
+        }
+        while True:
+            try:
+                data = api_call_with_retry(session, params)
+                for page in data.get("query", {}).get("allpages", []):
+                    all_titles.append(page["title"])
+                if "continue" in data:
+                    params.update(data["continue"])
+                    time.sleep(BASE_DELAY)
+                else:
+                    break
+            except Exception as e:
+                print(f"[{_ts()}]   Allpages failed: {e}")
+                return 1
 
-    pages_to_download = list({p.name: p for p in all_pages}.values())
-    total_count = len(pages_to_download)
-    print(f"Queue verified. Found {total_count} unique items to evaluate.")
+    unique_titles = list(dict.fromkeys(all_titles))
+    total_count = len(unique_titles)
+    print(f"[{_ts()}] Queue verified. Found {total_count} unique items to evaluate.")
 
     meta = load_metadata()
-    all_titles = [p.name for p in pages_to_download]
-    print("Fetching page timestamps for freshness check...")
-    touched_map = batch_fetch_touched(site, all_titles)
+    pages_meta = meta.setdefault("pages", {})
+
+    title_to_filename = {}
+    for title in unique_titles:
+        if title in pages_meta and "filename" in pages_meta[title]:
+            title_to_filename[title] = pages_meta[title]["filename"]
+        else:
+            title_to_filename[title] = get_stable_filename(title)
+
+    print(f"[{_ts()}] Fetching page timestamps for freshness check...")
+    touched_map = fetch_timestamps(session, unique_titles)
+
+    if len(touched_map) != len(unique_titles):
+        missing_titles = set(unique_titles) - set(touched_map.keys())
+        print(f"[{_ts()}]   WARNING: {len(missing_titles)} titles missing from timestamp response")
+        for t in list(missing_titles)[:5]:
+            print(f"[{_ts()}]     missing: {t}")
+        return 1
 
     new_count = 0
     updated_count = 0
     skipped_count = 0
-    current_filenames = set()
 
-    for index, page in enumerate(pages_to_download, 1):
-        filename = get_safe_filename(page.name, index)
-        current_filenames.add(filename)
-        file_path = os.path.join(WIKI_DIR, filename)
+    to_download = []
+    for title in unique_titles:
+        filename = title_to_filename[title]
+        file_path = WIKI_DIR / filename
 
-        stored_touched = meta.get(page.name)
-        current_touched = touched_map.get(page.name)
-        file_exists = os.path.exists(file_path) and os.path.getsize(file_path) > 0
+        stored_touched = pages_meta.get(title, {}).get("touched")
+        current_touched = touched_map.get(title)
+        file_exists = file_path.exists() and file_path.stat().st_size > 0
 
         if file_exists and stored_touched == current_touched:
-            print(f"[{index}/{total_count}] Skipping (unchanged): {page.name}")
             skipped_count += 1
-            time.sleep(random.uniform(0.1, 0.2))
-            continue
-
-        if not file_exists:
-            print(f"[{index}/{total_count}] Downloading (new): {page.name}")
-            new_count += 1
+        elif file_exists and title not in pages_meta:
+            pages_meta[title] = {"touched": current_touched, "filename": filename}
+            skipped_count += 1
         else:
-            print(f"[{index}/{total_count}] Downloading (updated): {page.name}")
-            updated_count += 1
+            to_download.append(title)
 
-        if download_page(page, file_path):
-            meta[page.name] = current_touched
-        time.sleep(random.uniform(BASE_DELAY, BASE_DELAY * 2))
+    if skipped_count:
+        print(f"[{_ts()}] Skipped {skipped_count} unchanged pages.")
 
-    current_page_names = {p.name for p in pages_to_download}
-    meta = {k: v for k, v in meta.items() if k in current_page_names}
-    for f in os.listdir(WIKI_DIR):
-        if f.endswith(".txt") and f not in current_filenames:
-            stale_path = os.path.join(WIKI_DIR, f)
-            os.remove(stale_path)
-            print(f"  Removed stale: {f}")
+    if not to_download:
+        print(f"[{_ts()}] All pages up-to-date.")
+    else:
+        print(f"[{_ts()}] Downloading {len(to_download)} pages...")
 
+    for batch_start in range(0, len(to_download), BATCH_SIZE):
+        batch = to_download[batch_start:batch_start + BATCH_SIZE]
+        batch_num = batch_start // BATCH_SIZE + 1
+        total_batches = (len(to_download) + BATCH_SIZE - 1) // BATCH_SIZE
+        print(f"[{_ts()}]   Batch {batch_num}/{total_batches} ({len(batch)} pages)...")
+
+        try:
+            results = fetch_page_content_batch(session, batch)
+        except Exception as e:
+            print(f"[{_ts()}]   Batch fetch failed: {e}")
+            print(f"[{_ts()}] Aborting sync.")
+            return 1
+
+        for title in batch:
+            filename = title_to_filename[title]
+            file_path = WIKI_DIR / filename
+            current_touched = touched_map.get(title)
+            file_exists = file_path.exists() and file_path.stat().st_size > 0
+
+            content, is_missing = results.get(title, ("", True))
+
+            if is_missing:
+                if file_exists:
+                    try:
+                        file_path.unlink()
+                        print(f"[{_ts()}]   Removed missing page file: {filename}")
+                    except Exception as e:
+                        print(f"[{_ts()}]   Failed to remove missing page file: {e}")
+                pages_meta[title] = {"touched": current_touched, "filename": filename}
+                continue
+
+            if not file_exists:
+                new_count += 1
+            else:
+                updated_count += 1
+
+            if write_page_content(title, content, filename):
+                pages_meta[title] = {"touched": current_touched, "filename": filename}
+            else:
+                print(f"[{_ts()}]   Failed to save {title}, aborting")
+                return 1
+
+        time.sleep(BASE_DELAY)
+
+    current_title_set = set(unique_titles)
+    remove_stale_files(meta, current_title_set)
+
+    meta["pages"] = {k: v for k, v in pages_meta.items() if k in current_title_set}
     save_metadata(meta)
-    print(f"Complete. {new_count} new, {updated_count} updated, {skipped_count} skipped. Saved to '{WIKI_DIR}'.")
+
+    print(f"[{_ts()}] Complete. {new_count} new, {updated_count} updated, {skipped_count} skipped. Saved to '{WIKI_DIR}'.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
