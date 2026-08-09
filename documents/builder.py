@@ -1,4 +1,5 @@
 import mwparserfromhell
+import re
 from pathlib import Path
 
 from documents.resolver import GameResolver
@@ -48,7 +49,15 @@ def build_item_documents(db):
 
     items = db.tables.get("items", {})
 
+    attributes = db.tables.get("attributes", {})
+    if not isinstance(attributes, dict):
+        attributes = {}
+
+    resolver = GameResolver(db)
+
     for item_id, item in items.items():
+        if not isinstance(item, dict):
+            continue
 
         text = f"""
 Item: {item.get('Name', item_id)}
@@ -71,6 +80,63 @@ Stack Size:
 Value:
 {item.get('Value', '')}
 """
+
+        section = []
+
+        equip_slot = item.get("EquipSlot")
+        if equip_slot:
+            section.append(f"Slot: {equip_slot}")
+
+        skill_reqs = item.get("SkillReqs")
+        if isinstance(skill_reqs, dict):
+            for skill, req_level in sorted(skill_reqs.items()):
+                section.append(f"Requires {skill} skill level {req_level}")
+
+        tsys_profile = item.get("TSysProfile")
+        if tsys_profile:
+            section.append(f"TSys Profile: {tsys_profile}")
+
+        crafting_target = item.get("CraftingTargetLevel")
+        if crafting_target is not None:
+            section.append(f"Crafting Target Level: {crafting_target}")
+
+        food_desc = item.get("FoodDesc")
+        if food_desc:
+            section.append(f"Food: {food_desc}")
+
+        effect_descs = item.get("EffectDescs")
+        if isinstance(effect_descs, list):
+            for entry in effect_descs:
+                if not isinstance(entry, str):
+                    continue
+                match = re.fullmatch(r"\{(.+?)\}\{(.+?)\}", entry)
+                if match:
+                    token = match.group(1)
+                    value = match.group(2)
+                    label = token
+                    attr = attributes.get(token)
+                    if isinstance(attr, dict) and attr.get("Label"):
+                        label = attr["Label"]
+                    try:
+                        numeric = float(value)
+                    except (TypeError, ValueError):
+                        section.append(f"Stat: {label} {value}")
+                        continue
+                    sign = "+" if numeric >= 0 else ""
+                    section.append(f"Stat: {label} {sign}{value}")
+                else:
+                    section.append(entry)
+
+        bestow_recipes = item.get("BestowRecipes")
+        if (
+            isinstance(bestow_recipes, list)
+            and isinstance(db.tables.get("recipes"), dict)
+        ):
+            for recipe_code in bestow_recipes:
+                section.append(f"Bestows Recipe: {resolver.recipe_name(recipe_code)}")
+
+        if section:
+            text += "\n\n" + "\n".join(section)
 
         documents.append({
             "id": item_id,
@@ -159,6 +225,44 @@ Produces:
 {chr(10).join(results)}
 """
 
+        reward_skill = recipe.get('RewardSkill', '') or recipe.get('Skill', '')
+        reward_sections = []
+
+        xp = recipe.get('RewardSkillXp')
+        first_time = recipe.get('RewardSkillXpFirstTime')
+        if xp is not None or first_time is not None:
+            xp_part = f"+{xp}" if xp is not None else ""
+            first_part = f"first-time +{first_time}" if first_time is not None else ""
+            joined = ", ".join(p for p in [xp_part, first_part] if p)
+            reward_sections.append(f"Awards {reward_skill} XP: {joined}")
+
+        if recipe.get('RewardSkill') and recipe['RewardSkill'] != recipe.get('Skill', ''):
+            reward_sections.append(f"Reward Skill: {recipe['RewardSkill']}")
+
+        drop_parts = []
+        pct = recipe.get('RewardSkillXpDropOffPct')
+        level = recipe.get('RewardSkillXpDropOffLevel')
+        rate = recipe.get('RewardSkillXpDropOffRate')
+        if pct is not None:
+            drop_parts.append(f"-{pct * 100:g}%")
+        if level is not None:
+            drop_parts.append(f"after level {level}")
+        if rate is not None:
+            drop_parts.append(f"rate {rate}")
+        if drop_parts:
+            reward_sections.append("XP Drop-off: " + ", ".join(drop_parts))
+
+        reset = recipe.get('ResetTimeInSeconds')
+        if reset is not None:
+            reward_sections.append(f"Reset Time: {reset}s")
+
+        max_uses = recipe.get('MaxUses')
+        if max_uses is not None:
+            reward_sections.append(f"Max Uses: {max_uses}")
+
+        if reward_sections:
+            text += "\n\nRewards:\n" + "\n".join(reward_sections)
+
         documents.append({
             "id": recipe_id,
             "type": "recipe",
@@ -183,6 +287,8 @@ def build_skill_documents(db):
         name = skill.get("Name", skill_id)
         desc = skill.get("Description", "")
         parents = skill.get("Parents", [])
+        if not isinstance(parents, list):
+            parents = []
         rewards = skill.get("Rewards", {})
         hints = skill.get("AdvancementHints", {})
 
@@ -201,11 +307,14 @@ def build_skill_documents(db):
                     if parts[0].isdigit() and parts[1]:
                         display_level = f"{parts[0]} ({parts[1]})"
                 for rk, rv in r.items():
-                    reward_lines.append(f"- Level {display_level}: {rk} = {rv}")
+                    if rv is not None:
+                        reward_lines.append(f"- Level {display_level}: {rk} = {rv}")
 
         hint_lines = []
         for level in sorted(hints.keys(), key=lambda x: int(x) if str(x).isdigit() else 0):
-            hint_lines.append(f"- Level {level}: {hints[level]}")
+            hint_val = hints[level]
+            if hint_val is not None:
+                hint_lines.append(f"- Level {level}: {hint_val}")
 
         text = f"""Skill: {name}
 
@@ -218,7 +327,9 @@ Rewards:
 Advancement Hints:
 {chr(10).join(hint_lines) if hint_lines else 'No advancement hints listed'}"""
         if parents:
-            text += f"\n\nParents:\n{', '.join(parents)}"
+            clean_parents = [p for p in parents if p is not None]
+            if clean_parents:
+                text += f"\n\nParents:\n{', '.join(clean_parents)}"
 
         if skill.get("Combat"):
             text += "\n\nType: Combat"
@@ -227,8 +338,9 @@ Advancement Hints:
         else:
             text += "\n\nType: Non-Combat"
 
-        if skill.get("MaxBonusLevels"):
-            text += f"\nMax Bonus Levels: {skill['MaxBonusLevels']}"
+        max_bonus = skill.get("MaxBonusLevels")
+        if max_bonus is not None:
+            text += f"\nMax Bonus Levels: {max_bonus}"
 
         documents.append({
             "id": f"skill_{skill_id}",
@@ -608,6 +720,8 @@ def build_itemuse_documents(db):
             continue
 
         recipes = use_data.get("RecipesThatUseItem", [])
+        if not isinstance(recipes, list):
+            recipes = []
         if not recipes:
             continue
 
@@ -860,6 +974,8 @@ def build_source_documents(db):
                 continue
 
             entries = source_data.get("entries", [])
+            if not isinstance(entries, list):
+                entries = []
             if not entries:
                 continue
 
@@ -914,7 +1030,11 @@ def build_tsys_documents(db):
         skill = info.get("Skill", "")
         suffix = info.get("Suffix", "")
         slots = info.get("Slots", [])
+        if not isinstance(slots, list):
+            slots = []
         tiers = info.get("Tiers", {})
+        if not isinstance(tiers, dict):
+            tiers = {}
 
         tier_lines = []
         for tier_id, tier_data in tiers.items():
@@ -962,6 +1082,8 @@ def build_xptable_documents(db):
         if not name or name == "None":
             name = table_id
         amounts = table_data.get("XpAmounts", [])
+        if not isinstance(amounts, list):
+            amounts = []
 
         if not amounts:
             continue

@@ -1,3 +1,4 @@
+import pytest
 from documents.skill_profiles import build_skill_profile_documents
 
 
@@ -206,6 +207,7 @@ def test_deterministic_two_builds():
     assert [d["text"] for d in docs_a] == [d["text"] for d in docs_b]
 
 
+@pytest.mark.slow
 def test_real_data_dungcrafting_profile():
     from database import GameDatabase
     from loaders.cdn_loader import load_database

@@ -47,6 +47,7 @@ def _violations(docs, check):
 
 # ---------- T52: shape contract (V27) ----------
 
+@pytest.mark.slow
 def test_real_shape_contract(real_docs):
     assert real_docs, "no docs built from real data"
     bad = []
@@ -109,6 +110,7 @@ def test_shape_contract_all_builders():
 
 # ---------- T52: text hygiene (V28) ----------
 
+@pytest.mark.slow
 def test_real_hygiene_cdn(real_docs):
     bad = []
     for doc in real_docs:
@@ -125,6 +127,7 @@ def test_real_hygiene_cdn(real_docs):
     assert not bad, f"cdn hygiene violations ({len(bad)}): {bad[:10]}"
 
 
+@pytest.mark.slow
 def test_real_hygiene_wiki(real_docs):
     bad = []
     for doc in real_docs:
@@ -136,8 +139,30 @@ def test_real_hygiene_wiki(real_docs):
     assert not bad, f"wiki hygiene violations ({len(bad)}): {bad[:10]}"
 
 
+# ---------- T70/T71: item/recipe flat translations (V58) ----------
+
+@pytest.mark.slow
+def test_real_item_recipe_no_brace_residue(real_docs):
+    bad = []
+    for doc in real_docs:
+        if doc["metadata"].get("source") != "cdn" or doc["type"] not in ("item", "recipe"):
+            continue
+        if "{" in doc["text"] or "}" in doc["text"]:
+            bad.append(doc["id"])
+    assert not bad, f"brace residue in item/recipe text ({len(bad)}): {bad[:10]}"
+
+
+@pytest.mark.slow
+def test_real_recipe_xp_line_present(real_docs):
+    recipes = [d for d in real_docs if d["type"] == "recipe"]
+    with_xp = [d for d in recipes if "Awards " in d["text"]]
+    assert with_xp, "no recipe doc has fused XP line"
+    assert any("first-time" in d["text"] for d in with_xp)
+
+
 # ---------- T53: determinism + dedup (V29) ----------
 
+@pytest.mark.slow
 def test_real_determinism(real_docs):
     from database import GameDatabase
     from loaders.cdn_loader import load_database
@@ -152,6 +177,7 @@ def test_real_determinism(real_docs):
     assert first_map == second_map, "doc id→text map changed across builds"
 
 
+@pytest.mark.slow
 def test_real_ids_unique(real_docs):
     ids = [d["id"] for d in real_docs]
     dupes = sorted({i for i in ids if ids.count(i) > 1})
@@ -176,6 +202,7 @@ def _covers(parent, chunk):
     return base in p and re.search(r"(?<=\s)" + re.escape(m.group(0)), p)
 
 
+@pytest.mark.slow
 def test_real_chunk_coverage(real_docs):
     chunks = chunk_all_documents(real_docs)
     assert chunks
@@ -193,6 +220,7 @@ def test_real_chunk_coverage(real_docs):
     assert not bad, f"chunks not covered by parent ({len(bad)}): {bad[:10]}"
 
 
+@pytest.mark.slow
 def test_real_chunk_metadata(real_docs):
     chunks = chunk_all_documents(real_docs)
     ids = [c["id"] for c in chunks]
@@ -209,6 +237,7 @@ def test_real_chunk_metadata(real_docs):
 
 # ---------- T55: cross-source consistency (V31) ----------
 
+@pytest.mark.slow
 def test_real_itemuse_keys_in_items_table(real_docs):
     import json
     itemuses = json.load(open(CDN_DIR / "itemuses.json", encoding="utf-8"))
@@ -217,6 +246,7 @@ def test_real_itemuse_keys_in_items_table(real_docs):
     assert not missing, f"itemuse keys missing from items: {missing[:10]}"
 
 
+@pytest.mark.slow
 def test_real_itemuse_count_matches(real_docs):
     import json
     itemuses = json.load(open(CDN_DIR / "itemuses.json", encoding="utf-8"))
@@ -230,6 +260,7 @@ def test_real_itemuse_count_matches(real_docs):
             f"{doc['id']}: count mismatch")
 
 
+@pytest.mark.slow
 def test_real_source_names_resolved(real_docs):
     bad = []
     for doc in real_docs:
@@ -242,6 +273,7 @@ def test_real_source_names_resolved(real_docs):
     assert not bad, f"unresolved source names ({len(bad)}): {bad[:10]}"
 
 
+@pytest.mark.slow
 def test_real_skill_rewards_spotcheck(real_docs):
     alchemy = next(
         (d for d in real_docs if d["type"] == "skill" and d["id"] == "skill_Alchemy"),

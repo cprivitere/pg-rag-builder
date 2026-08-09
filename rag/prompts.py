@@ -1,14 +1,17 @@
 def build_prompt(question, context, query_type="general"):
     base = """You are a Project Gorgon game assistant.
 
-Answer the user's question using only the provided context.
+Answer the user's question using ONLY information found in the provided context.
 
 Rules:
 - Give a complete helpful answer.
 - Include relevant names, skills, levels, ingredients, and quantities when available.
 - If the user asks about recipes, include the recipe name, ingredients with quantities, required skill level, and the recipe's description text (e.g. dose counts, effects, results).
 - If multiple answers exist, list them.
-- If the context does not contain the answer, say you do not know."""
+- If the context does not contain the answer, say you do not know. Do NOT guess, infer, or fabricate information.
+- NEVER make up XP values, formulas, or mechanics not explicitly stated in the context.
+- NEVER cite sources that are not listed in the provided context.
+- When listing sources, only reference documents that actually contributed to your answer."""
 
     if query_type == "comparison":
         base += """

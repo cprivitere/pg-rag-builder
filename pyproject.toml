@@ -17,6 +17,10 @@ dev = [
 ]
 
 [tool.pytest.ini_options]
+markers = [
+    "slow: tests that load real CDN/wiki data (deselect with '-m \"not slow\"')",
+]
+addopts = "-m 'not slow'"
 filterwarnings = [
     "ignore:.*asyncio\\.iscoroutinefunction.*:DeprecationWarning",
 ]
