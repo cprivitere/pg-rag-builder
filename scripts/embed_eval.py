@@ -27,6 +27,12 @@ import sys
 import time
 from pathlib import Path
 
+try:
+    from scripts.embed_vram_probe import CANDIDATES, _url_args, get_base_url
+except ModuleNotFoundError:
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    from scripts.embed_vram_probe import CANDIDATES, _url_args, get_base_url
+
 DATA = Path(__file__).resolve().parent.parent / "data"
 DOCS_PATH = DATA / "documents.json"
 SUBSET_PATH = DATA / "eval_subset.json"
@@ -36,7 +42,7 @@ SEED = 42
 TARGET = 1200
 N_QUERIES = 13
 TRUNC = 512
-BATCH = 64
+BATCH = 32
 PORT = 8085
 HOST = "Scamper"
 BASELINE_URL = "http://localhost:8081/embedding"
@@ -214,9 +220,16 @@ def truncate(texts):
     return [t[:TRUNC] for t in texts]
 
 
+def _prefix(texts, prefix):
+    if not prefix:
+        return texts
+    return [(prefix + t)[:TRUNC] for t in texts]
+
+
 def _post_embed(texts, url):
     import requests
 
+    url = url if url.endswith("/embedding") else url.rstrip("/") + "/embedding"
     r = requests.post(url, json={"content": list(texts)}, timeout=300)
     r.raise_for_status()
     data = r.json()
@@ -229,11 +242,18 @@ def _post_embed(texts, url):
     return vecs
 
 
-def embed_all(texts, url=BASELINE_URL):
+def embed_all(texts, url=BASELINE_URL, batch=BATCH, prefix=None):
     vecs = []
-    truncated = truncate(texts)
-    for i in range(0, len(truncated), BATCH):
-        vecs.extend(_post_embed(truncated[i:i + BATCH], url))
+    truncated = _prefix(texts, prefix)
+    for i in range(0, len(truncated), batch):
+        for attempt in range(3):
+            try:
+                vecs.extend(_post_embed(truncated[i:i + batch], url))
+                break
+            except Exception:
+                if attempt == 2:
+                    raise
+                time.sleep(5)
     assert len(vecs) == len(texts), (len(vecs), len(texts))
     return vecs
 
@@ -277,36 +297,53 @@ def metrics(query_vecs, doc_vecs, labels, k=10):
     }
 
 
-def spawn_candidate(cand):
-    from scripts.embed_vram_probe import _url_args, get_base_url
+def resolve_base_url(host=HOST, port=PORT):
+    import socket
 
+    try:
+        addrs = socket.getaddrinfo(host, port, socket.AF_INET6, socket.SOCK_STREAM)
+        for res in addrs:
+            _af, _st, _p, _cn, sa = res
+            ip, _port, _flow, scope = sa
+            if scope:
+                return f"http://[{ip}%{scope}]:{port}"
+            return f"http://[{ip}]:{port}"
+    except Exception:
+        pass
+    return f"http://{host}:{port}"
+
+
+def spawn_candidate(cand, pooling="mean"):
+    log_file = DATA / f"embed_eval_{cand['name'].split()[0]}.log"
     cmd = ["llama-server", *_url_args(cand["url"], cand["local"]),
            "--host", HOST, "--port", str(PORT),
-           "--embedding", "--pooling", "mean", "-ngl", "99",
-           "--log-file", str(DATA / "embed_eval.log")]
+           "--embedding", "--pooling", pooling, "-ngl", "99",
+           "-c", "4096",
+           "--log-file", str(log_file)]
     sys.stderr.write(f"  spawning {cand['name']}...\n")
     proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    base_url = get_base_url()
+    base_url = resolve_base_url()
     try:
-        up = False
         for _ in range(300):
             time.sleep(1)
             try:
                 if requests_health(base_url):
-                    up = True
-                    break
+                    return {"base_url": base_url, "proc": proc}
             except Exception:
                 continue
-        if not up:
-            return {"name": cand["name"], "ok": False, "note": "start timeout"}
-        return {"base_url": base_url}
-    finally:
+    except Exception:
+        pass
+    return stop_candidate(cand)
+
+def stop_candidate(cand, proc=None):
+    if proc is not None:
         proc.terminate()
         try:
             proc.wait(timeout=5)
         except Exception:
             proc.kill()
         time.sleep(2)
+    return {"name": cand["name"], "ok": False, "note": "start timeout"}
 
 
 def requests_health(base_url):
@@ -316,13 +353,19 @@ def requests_health(base_url):
     return r.status_code == 200
 
 
-def run_model(subset, url):
+def run_model(subset, url, doc_prefix=None, query_prefix=None):
     doc_texts = [d["text"] for d in subset["docs"]]
     q_texts = [q["q"] for q in subset["queries"]]
     sys.stderr.write(f"  embedding {len(doc_texts)} docs at {url}...\n")
-    doc_vecs = embed_all(doc_texts, url=url)
-    query_vecs = embed_all(q_texts, url=url)
-    return metrics(query_vecs, doc_vecs, [q["relevant"] for q in subset["queries"]])
+    doc_vecs = embed_all(doc_texts, url=url, prefix=doc_prefix)
+    query_vecs = embed_all(q_texts, url=url, prefix=query_prefix)
+    labels = label_indices(subset)
+    return metrics(query_vecs, doc_vecs, labels)
+
+
+def label_indices(subset):
+    idx = {d["id"]: i for i, d in enumerate(subset["docs"])}
+    return [[idx[i] for i in q["relevant"]] for q in subset["queries"]]
 
 
 def with_deltas(cand_metrics, base):
@@ -332,10 +375,30 @@ def with_deltas(cand_metrics, base):
     return out
 
 
+def evaluate_candidate(cand, subset, pooling="mean", doc_prefix=None, query_prefix=None):
+    info = spawn_candidate(cand, pooling=pooling)
+    if not info.get("ok", True):
+        return {"ok": False, "note": info.get("note")}
+    proc = info["proc"]
+    try:
+        m = run_model(subset, info["base_url"], doc_prefix=doc_prefix, query_prefix=query_prefix)
+        return m
+    finally:
+        proc.terminate()
+        try:
+            proc.wait(timeout=5)
+        except Exception:
+            proc.kill()
+        time.sleep(2)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Embedder subset eval (SPEC T86)")
     parser.add_argument("--gen-subset", action="store_true", help="regenerate eval_subset.json")
     parser.add_argument("--sweep", action="store_true", help="spawn + evaluate candidate embedders")
+    parser.add_argument("--only", default=None, help="run only this candidate (substring match)")
+    parser.add_argument("--mxbai-prefix", action="store_true",
+                        help="instruct prefixes (search_document:/search_query:) for mxbai candidates")
     args = parser.parse_args()
 
     if args.gen_subset or not SUBSET_PATH.exists():
@@ -344,8 +407,8 @@ def main():
     subset = load_subset()
     sys.stderr.write(f"subset: {len(subset['docs'])} docs, {len(subset['queries'])} queries\n")
 
-    base_url = BASELINE_URL
     if not args.sweep:
+        base_url = BASELINE_URL
         sys.stderr.write(f"baseline evaluate at {base_url}...\n")
         baseline = run_model(subset, base_url)
         print(json.dumps({"subset": {"docs": len(subset["docs"]), "queries": len(subset["queries"])},
@@ -356,23 +419,32 @@ def main():
              "baseline": baseline}, indent=2), encoding="utf-8")
         return
 
-    from scripts.embed_vram_probe import CANDIDATES
-
-    baseline = run_model(subset, base_url)
+    jina = next(c for c in CANDIDATES if c["name"] == JINA_CURRENT)
+    sys.stderr.write(f"baseline (spawned jina, pooling last) on :{PORT}...\n")
+    baseline = evaluate_candidate(jina, subset, pooling="last")
+    if not isinstance(baseline, dict) or "ok" in baseline:
+        sys.stderr.write(f"baseline spawn failed: {baseline}\n")
+        return
     results = {"generated_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
                "subset": {"docs": len(subset["docs"]), "queries": len(subset["queries"])},
                "baseline": baseline,
                "candidates": {}}
+    doc_prefix = "search_document: " if args.mxbai_prefix else None
+    query_prefix = "search_query: " if args.mxbai_prefix else None
     for cand in CANDIDATES:
         if cand["name"] == JINA_CURRENT:
             continue
-        info = spawn_candidate(cand)
-        if not info.get("ok", True):
-            results["candidates"][cand["name"]] = {"ok": False, "note": info.get("note")}
+        if args.only and args.only.lower() not in cand["name"].lower():
             continue
-        m = run_model(subset, info["base_url"])
-        results["candidates"][cand["name"]] = with_deltas(m, baseline)
-        sys.stderr.write(f"  {cand['name']}: {m}\n")
+        m = evaluate_candidate(cand, subset, pooling="mean",
+                               doc_prefix=doc_prefix, query_prefix=query_prefix)
+        if not isinstance(m, dict) or "ok" in m:
+            sys.stderr.write(f"  {cand['name']}: FAILED {m}\n")
+            results["candidates"][cand["name"]] = m
+            continue
+        label = cand["name"] + (" (prefix)" if args.mxbai_prefix else "")
+        results["candidates"][label] = with_deltas(m, baseline)
+        sys.stderr.write(f"  {label}: {m}\n")
     print(json.dumps(results, indent=2))
     OUT_PATH.write_text(json.dumps(results, indent=2), encoding="utf-8")
 

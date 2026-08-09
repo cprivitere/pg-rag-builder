@@ -233,7 +233,7 @@ V65: Embedder swap gate — candidate ! win subset eval + golden facts + VRAM be
 | T84 | x | Embedder swap eval — RESOLVED 2026-08-08: current embedder is jina-embeddings-v5-text-small-retrieval (677M, 71.7 MTEB-Eng-v2 avg; measured 610 MB Q8_0). Candidate Qwen3-Embedding-0.6B (610 MB Q8_0, 70.7 avg) = size-neutral, slightly weaker on paper; swap would cost full 27k-doc re-embed + instruct-prefix alignment for ~nil gain. KEEP jina. Only bigger gain = Qwen3-Embedding-4B (74.6 avg, +3.5 GB VRAM — requires T83 trims first if ever re-evaluated). Swap note: text-hash unchanged → incremental skips → needs wipe + forced rebuild (no --force flag today). Memory-neutral; retrieval quality TBD via golden eval | V2, V23, T76 |
 | T85 | x | Embedder VRAM pre-filter — resolved host resolution for IPv6 link-local (`socket.getaddrinfo` with scope_id) | T83,C11,R7 |
 | T86 | x | Embedder subset eval — scripts/embed_eval.py + data/eval_subset.json (1.2k docs, 13 queries, sources-derived labels), MRR@10/hit@3-5/recall@10 vs jina | T85,V65 |
-| T87 | . | Sweep runlist — jina-base, MiniLM-L6 22M, mxbai-xsmall 24M⚠, bge-small Q8, embeddinggemma-300m Q8, mxbai-large 335M, KaLM-mini 0.5B; +2 mxbai prefix runs | T86 |
+| T87 | x | Sweep runlist — jina-base, MiniLM-L6 22M, mxbai-xsmall 24M⚠, bge-small Q8, embeddinggemma-300m Q8, mxbai-large 335M, KaLM-mini 0.5B; +2 mxbai prefix runs | T86 |
 | T88 | . | Decision gate — subset winner → golden facts (V63) → VRAM; swap only if win, then wipe data/chroma + full re-embed | T87,V63,T84 |
 | T89 | x | Post-swap golden — RESOLVED 2026-08-08: bge-m3 Q4_K_M @ c32k + c8k both 5/5 (0 miss) | V63 |
 | T90 | x | `scripts.rag` prints `rerank_used` — ⊥ `scripts.retrieval` (raw query, no client) | V61 |

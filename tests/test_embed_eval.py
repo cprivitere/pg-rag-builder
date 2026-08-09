@@ -4,6 +4,7 @@ from scripts.embed_eval import (
     _type_budgets,
     base_key,
     gen_subset,
+    label_indices,
     metrics,
     truncate,
     with_deltas,
@@ -91,3 +92,18 @@ def test_with_deltas():
 def test_base_key_strips_chunks():
     assert base_key("wiki_Page_chunk_3") == "wiki_Page"
     assert base_key("recipe_1") == "recipe_1"
+
+
+def test_label_indices_maps_ids():
+    subset = {
+        "docs": [
+            {"id": "recipe_9", "text": "a"},
+            {"id": "item_3", "text": "b"},
+            {"id": "item_7", "text": "c"},
+        ],
+        "queries": [
+            {"q": "q1", "relevant": ["item_7", "recipe_9"]},
+            {"q": "q2", "relevant": ["item_3"]},
+        ],
+    }
+    assert label_indices(subset) == [[2, 0], [1]]
