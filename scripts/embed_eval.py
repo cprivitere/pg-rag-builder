@@ -69,6 +69,53 @@ SLOTS = [
 
 JINA_CURRENT = "jina-v5-text-small (current)"
 
+BAKEOFF_CANDIDATES = [
+    {
+        "name": "embeddinggemma-300m-Q8",
+        "hf": "unsloth/embeddinggemma-300m-GGUF:Q8_0",
+        "pooling": "mean",
+        "dims": 768,
+        "ctx": 2048,
+        "query_prefix": "task: search result | query: ",
+        "doc_prefix": "title: none | text: ",
+        "gghf_repo": "unsloth/embeddinggemma-300m-GGUF",
+        "gghf_file": "embeddinggemma-300m-Q8_0.gguf",
+    },
+    {
+        "name": "jina-v5-nano-retrieval-Q8",
+        "hf": "jinaai/jina-embeddings-v5-text-nano-retrieval-GGUF:Q8_0",
+        "pooling": "last",
+        "dims": 768,
+        "ctx": 8192,
+        "query_prefix": "Query: ",
+        "doc_prefix": "Document: ",
+        "gghf_repo": "jinaai/jina-embeddings-v5-text-nano-retrieval-GGUF",
+        "gghf_file": "jina-embeddings-v5-text-nano-retrieval-Q8_0.gguf",
+    },
+    {
+        "name": "MiniLM-L6-Q4",
+        "hf": "second-state/All-MiniLM-L6-v2-Embedding-GGUF:Q4_K_M",
+        "pooling": "mean",
+        "dims": 384,
+        "ctx": 512,
+        "query_prefix": None,
+        "doc_prefix": None,
+        "gghf_repo": "second-state/All-MiniLM-L6-v2-Embedding-GGUF",
+        "gghf_file": "ggml-model-Q4_K_M.gguf",
+    },
+    {
+        "name": "bge-small-Q8",
+        "hf": "ggml-org/bge-small-en-v1.5-Q8_0-GGUF:Q8_0",
+        "pooling": "mean",
+        "dims": 384,
+        "ctx": 512,
+        "query_prefix": None,
+        "doc_prefix": None,
+        "gghf_repo": "ggml-org/bge-small-en-v1.5-Q8_0-GGUF",
+        "gghf_file": "bge-small-en-v1.5-q8_0.gguf",
+    },
+]
+
 
 def load_docs():
     with open(DOCS_PATH, encoding="utf-8") as f:
@@ -274,7 +321,7 @@ def _cosine_scores(query, docs):
 
 def metrics(query_vecs, doc_vecs, labels, k=10):
     total_mrr = 0.0
-    hit3 = hit5 = 0
+    hit3 = hit5 = hit10 = 0
     recall_sum = 0.0
     for qv, rel in zip(query_vecs, labels):
         rel_set = set(rel)
@@ -290,12 +337,15 @@ def metrics(query_vecs, doc_vecs, labels, k=10):
             hit3 += 1
         if any(i in rel_set for i in top5):
             hit5 += 1
+        if any(i in rel_set for i in ranked[:10]):
+            hit10 += 1
         recall_sum += len([i for i in ranked if i in rel_set]) / len(rel_set)
     n = len(query_vecs)
     return {
         "mrr10": round(total_mrr / n, 4),
         "hit3": round(hit3 / n, 4),
         "hit5": round(hit5 / n, 4),
+        "hit10": round(hit10 / n, 4),
         "recall10": round(recall_sum / n, 4),
     }
 
@@ -395,6 +445,141 @@ def evaluate_candidate(cand, subset, pooling="mean", ctx=4096, doc_prefix=None, 
         time.sleep(2)
 
 
+def run_bakeoff(args):
+    """Run bake-off: fat-doc corpus, GGUF size as VRAM, ranked report."""
+    import requests
+
+    corpus_path = DATA / "bakeoff_corpus.json"
+    if not corpus_path.exists():
+        sys.stderr.write("bakeoff corpus not found, run: uv run python scripts/bakeoff_corpus.py\n")
+        return
+    corpus = json.loads(corpus_path.read_text(encoding="utf-8"))
+    subset = {"docs": corpus["docs"], "queries": [{"q": q["text"], "relevant": q["expected_doc_ids"]}
+                                                    for q in corpus["queries"]]}
+    sys.stderr.write(f"bakeoff corpus: {len(subset['docs'])} docs, {len(subset['queries'])} queries\n")
+
+    results = {"run_date": time.strftime("%Y-%m-%d"),
+               "corpus_size": len(subset["docs"]),
+               "ctx_chars": TRUNC or 512,
+               "candidates": []}
+
+    for cand in BAKEOFF_CANDIDATES:
+        sys.stderr.write(f"\n--- {cand['name']} ---\n")
+        info = spawn_candidate_bakeoff(cand)
+        if not info.get("ok", True):
+            sys.stderr.write(f"  FAILED: {info.get('note')}\n")
+            results["candidates"].append({"name": cand["name"], "ok": False,
+                                           "note": info.get("note")})
+            continue
+
+        proc = info["proc"]
+        base_url = info["base_url"]
+        try:
+            # Embed and score
+            m = run_model(subset, base_url,
+                          doc_prefix=cand.get("doc_prefix"),
+                          query_prefix=cand.get("query_prefix"))
+            # Parse server log for memory info
+            log_path = DATA / f"embed_eval_{cand['name'].split()[0]}.log"
+            server_log = parse_server_log(log_path)
+
+            # Get GGUF file size
+            vram_mb = get_gguf_size_mb(cand)
+
+            entry = {"name": cand["name"], "dims": cand["dims"],
+                     "quant": cand["hf"].split(":")[-1],
+                     "vram_mb": vram_mb, **m, "server_log": server_log}
+            results["candidates"].append(entry)
+            sys.stderr.write(f"  {cand['name']}: mrr={m['mrr10']}, vram={vram_mb}MB\n")
+        finally:
+            proc.terminate()
+            try:
+                proc.wait(timeout=5)
+            except Exception:
+                proc.kill()
+            time.sleep(2)
+
+    # Rank by MRR@10, tie-break by VRAM
+    ranked = sorted([c for c in results["candidates"] if c.get("ok", True)],
+                    key=lambda c: (-c.get("mrr10", 0), c.get("vram_mb", 9999)))
+    if ranked:
+        results["winner"] = ranked[0]["name"]
+        results["runner_up"] = ranked[1]["name"] if len(ranked) > 1 else None
+
+    # Write report
+    report_path = DATA / "bakeoff_report.json"
+    report_path.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
+    sys.stderr.write(f"\nwrote {report_path}\n")
+
+    # Print ranked table
+    print(f"\n{'Name':<30} {'Dims':>5} {'Quant':<8} {'VRAM MB':>8} {'MRR@10':>8} {'Hit@3':>8} {'Hit@5':>8} {'Hit@10':>8}")
+    print("-" * 95)
+    for c in ranked:
+        print(f"{c['name']:<30} {c['dims']:>5} {c['quant']:<8} {c['vram_mb']:>8} "
+              f"{c.get('mrr10', 0):>8.4f} {c.get('hit3', 0):>8.4f} "
+              f"{c.get('hit5', 0):>8.4f} {c.get('hit10', 0):>8.4f}")
+    if results.get("winner"):
+        print(f"\nWinner: {results['winner']}")
+
+
+def spawn_candidate_bakeoff(cand):
+    """Spawn llama-server for a bake-off candidate."""
+    log_file = DATA / f"embed_eval_{cand['name'].split()[0]}.log"
+    cmd = ["llama-server", "-hf", cand["hf"],
+           "--host", HOST, "--port", str(PORT),
+           "--embedding", "--pooling", cand["pooling"], "-ngl", "99",
+           "-c", str(cand["ctx"]), "-v",
+           "--log-file", str(log_file)]
+    sys.stderr.write(f"  spawning {cand['name']}...\n")
+    proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+    base_url = resolve_base_url()
+    try:
+        for _ in range(300):
+            time.sleep(1)
+            try:
+                if requests_health(base_url):
+                    return {"base_url": base_url, "proc": proc}
+            except Exception:
+                continue
+    except Exception:
+        pass
+    return {"ok": False, "note": "start timeout"}
+
+
+def parse_server_log(log_path):
+    """Extract memory breakdown from llama-server verbose startup log."""
+    if not log_path.exists():
+        return "no log file"
+    try:
+        text = log_path.read_text(encoding="utf-8", errors="replace")
+        lines = text.splitlines()
+        mem_lines = [l for l in lines if any(k in l.lower() for k in
+                     ("kv", "buffer", "memory", "backend", "offload", "model size"))]
+        return " | ".join(mem_lines[-10:]) if mem_lines else "no memory info in log"
+    except Exception as e:
+        return f"log parse error: {e}"
+
+
+def get_gguf_size_mb(cand):
+    """Get GGUF file size in MB. Check local HF cache first, fall back to estimate."""
+    import os
+    # Try local HF cache
+    cache_home = os.environ.get("HF_HOME", os.path.expanduser("~/.cache/huggingface"))
+    # Search for the file in cache
+    hf_repo = cand.get("gghf_repo", "")
+    hf_file = cand.get("gghf_file", "")
+    if hf_repo and hf_file:
+        # Try common HF cache paths
+        for snapshots_dir in [Path(cache_home) / "hub" / f"models--{hf_repo.replace('/', '--')}" / "snapshots"]:
+            if snapshots_dir.exists():
+                for snap in snapshots_dir.iterdir():
+                    fpath = snap / hf_file
+                    if fpath.exists():
+                        return round(fpath.stat().st_size / (1024 * 1024), 1)
+    # Fallback: return None (user can check HF card)
+    return None
+
+
 def main():
     parser = argparse.ArgumentParser(description="Embedder subset eval (SPEC T86)")
     parser.add_argument("--gen-subset", action="store_true", help="regenerate eval_subset.json")
@@ -408,11 +593,17 @@ def main():
                         help="server -c context size for ALL models (uniform token ceiling)")
     parser.add_argument("--trunc-chars", type=int, default=None,
                         help="truncate docs to N chars client-side (safe under ctx; server 400s on over-ctx)")
+    parser.add_argument("--bakeoff", action="store_true",
+                        help="run bake-off: fat-doc corpus, GGUF size as VRAM, ranked report")
     args = parser.parse_args()
 
     if args.no_trunc or args.trunc_chars is not None:
         global TRUNC
         TRUNC = None if args.no_trunc else args.trunc_chars
+
+    if args.bakeoff:
+        run_bakeoff(args)
+        return
 
     if args.gen_subset or not SUBSET_PATH.exists():
         sys.stderr.write("building subset...\n")

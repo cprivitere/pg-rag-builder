@@ -76,16 +76,18 @@ def test_metrics_math():
     assert got["mrr10"] == pytest.approx(0.6111, abs=1e-4)
     assert got["hit3"] == 1.0
     assert got["hit5"] == 1.0
+    assert got["hit10"] == 1.0
     assert got["recall10"] == pytest.approx(1.0)
 
 
 def test_with_deltas():
-    base = {"mrr10": 0.6, "hit3": 0.5, "hit5": 0.6, "recall10": 0.7}
-    cand = {"mrr10": 0.7, "hit3": 0.4, "hit5": 0.6, "recall10": 0.8}
+    base = {"mrr10": 0.6, "hit3": 0.5, "hit5": 0.6, "hit10": 0.7, "recall10": 0.7}
+    cand = {"mrr10": 0.7, "hit3": 0.4, "hit5": 0.6, "hit10": 0.8, "recall10": 0.8}
     out = with_deltas(cand, base)
     assert out["delta_mrr10"] == 0.1
     assert out["delta_hit3"] == -0.1
     assert out["delta_hit5"] == 0.0
+    assert out["delta_hit10"] == 0.1
     assert out["delta_recall10"] == 0.1
 
 
