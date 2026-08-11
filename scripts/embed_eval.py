@@ -10,10 +10,12 @@ Run:
   uv run python scripts/embed_eval.py --sweep        # + spawn candidates on :8085
 
 Candidate servers spawn like the VRAM probe: llama-server --embedding
---pooling mean (uniform naive pooling for every candidate). Baseline runs its
-production pooling (jina-v5 requires --pooling last). Docs truncated to 512
-chars for uniformity across short-context models. Metrics computed in each
-model's own vector space (dims differ — no cross-model vectors).
+--pooling mean (uniform naive pooling for every candidate) unless the
+candidate declares a `pooling` field (e.g. bge-m3/jina-v5 -> last).
+Baseline runs its production pooling (jina-v5 requires --pooling last).
+Docs truncated to 512 chars for uniformity across short-context models;
+pass --no-trunc to run at corpus chunk ceiling instead. Metrics computed
+in each model's own vector space (dims differ — no cross-model vectors).
 
 Writes: data/eval_subset.json, data/embed_eval.json
 """
@@ -217,13 +219,14 @@ def load_subset():
 
 
 def truncate(texts):
-    return [t[:TRUNC] for t in texts]
+    return texts if TRUNC is None else [t[:TRUNC] for t in texts]
 
 
 def _prefix(texts, prefix):
     if not prefix:
         return texts
-    return [(prefix + t)[:TRUNC] for t in texts]
+    return [(prefix + t)[:TRUNC] for t in texts] if TRUNC is not None \
+        else [prefix + t for t in texts]
 
 
 def _post_embed(texts, url):
@@ -244,7 +247,7 @@ def _post_embed(texts, url):
 
 def embed_all(texts, url=BASELINE_URL, batch=BATCH, prefix=None):
     vecs = []
-    truncated = _prefix(texts, prefix)
+    truncated = truncate(_prefix(texts, prefix))
     for i in range(0, len(truncated), batch):
         for attempt in range(3):
             try:
@@ -313,12 +316,12 @@ def resolve_base_url(host=HOST, port=PORT):
     return f"http://{host}:{port}"
 
 
-def spawn_candidate(cand, pooling="mean"):
+def spawn_candidate(cand, pooling="mean", ctx=4096):
     log_file = DATA / f"embed_eval_{cand['name'].split()[0]}.log"
     cmd = ["llama-server", *_url_args(cand["url"], cand["local"]),
            "--host", HOST, "--port", str(PORT),
            "--embedding", "--pooling", pooling, "-ngl", "99",
-           "-c", "4096",
+           "-c", str(ctx), "-np", "1", "--ubatch-size", cand.get("ubatch", "512"),
            "--log-file", str(log_file)]
     sys.stderr.write(f"  spawning {cand['name']}...\n")
     proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
@@ -375,8 +378,8 @@ def with_deltas(cand_metrics, base):
     return out
 
 
-def evaluate_candidate(cand, subset, pooling="mean", doc_prefix=None, query_prefix=None):
-    info = spawn_candidate(cand, pooling=pooling)
+def evaluate_candidate(cand, subset, pooling="mean", ctx=4096, doc_prefix=None, query_prefix=None):
+    info = spawn_candidate(cand, pooling=pooling, ctx=ctx)
     if not info.get("ok", True):
         return {"ok": False, "note": info.get("note")}
     proc = info["proc"]
@@ -399,7 +402,17 @@ def main():
     parser.add_argument("--only", default=None, help="run only this candidate (substring match)")
     parser.add_argument("--mxbai-prefix", action="store_true",
                         help="instruct prefixes (search_document:/search_query:) for mxbai candidates")
+    parser.add_argument("--no-trunc", action="store_true",
+                        help="do not truncate docs to 512 chars (corpus chunk ceiling, SPEC B29)")
+    parser.add_argument("--ctx", type=int, default=4096,
+                        help="server -c context size for ALL models (uniform token ceiling)")
+    parser.add_argument("--trunc-chars", type=int, default=None,
+                        help="truncate docs to N chars client-side (safe under ctx; server 400s on over-ctx)")
     args = parser.parse_args()
+
+    if args.no_trunc or args.trunc_chars is not None:
+        global TRUNC
+        TRUNC = None if args.no_trunc else args.trunc_chars
 
     if args.gen_subset or not SUBSET_PATH.exists():
         sys.stderr.write("building subset...\n")
@@ -421,7 +434,7 @@ def main():
 
     jina = next(c for c in CANDIDATES if c["name"] == JINA_CURRENT)
     sys.stderr.write(f"baseline (spawned jina, pooling last) on :{PORT}...\n")
-    baseline = evaluate_candidate(jina, subset, pooling="last")
+    baseline = evaluate_candidate(jina, subset, pooling="last", ctx=args.ctx)
     if not isinstance(baseline, dict) or "ok" in baseline:
         sys.stderr.write(f"baseline spawn failed: {baseline}\n")
         return
@@ -429,15 +442,19 @@ def main():
                "subset": {"docs": len(subset["docs"]), "queries": len(subset["queries"])},
                "baseline": baseline,
                "candidates": {}}
-    doc_prefix = "search_document: " if args.mxbai_prefix else None
-    query_prefix = "search_query: " if args.mxbai_prefix else None
+    only_list = [o.strip().lower() for o in (args.only or "").split(",") if o.strip()]
     for cand in CANDIDATES:
         if cand["name"] == JINA_CURRENT:
             continue
-        if args.only and args.only.lower() not in cand["name"].lower():
+        if only_list and not any(o in cand["name"].lower() for o in only_list):
             continue
-        m = evaluate_candidate(cand, subset, pooling="mean",
-                               doc_prefix=doc_prefix, query_prefix=query_prefix)
+        qp = cand.get("query_prefix")
+        dp = cand.get("doc_prefix")
+        if args.mxbai_prefix and "mxbai" in cand["name"]:
+            qp = qp or "search_query: "
+            dp = dp or "search_document: "
+        m = evaluate_candidate(cand, subset, pooling=cand.get("pooling", "mean"),
+                               ctx=args.ctx, doc_prefix=dp, query_prefix=qp)
         if not isinstance(m, dict) or "ok" in m:
             sys.stderr.write(f"  {cand['name']}: FAILED {m}\n")
             results["candidates"][cand["name"]] = m

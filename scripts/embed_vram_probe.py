@@ -7,6 +7,7 @@ on :8080/:8081/:8082 is constant), stop server.
 Run: uv run python scripts/embed_vram_probe.py
 Writes: data/embed_vram.json
 """
+import argparse
 import json
 import re
 import subprocess
@@ -62,6 +63,8 @@ CANDIDATES = [
         "name": "embeddinggemma-300m-qat",
         "url": "ggml-org/embeddinggemma-300m-qat-q8_0-GGUF:Q8_0",
         "local": False,
+        "pooling": "last",
+        "ubatch": "2048",
     },
     {
         "name": "mxbai-embed-large-v1",
@@ -72,6 +75,51 @@ CANDIDATES = [
         "name": "KaLM-embedding-mini-instruct-v2.5",
         "url": "Aashraf995/KaLM-embedding-multilingual-mini-instruct-v2.5-Q8_0-GGUF:Q8_0",
         "local": False,
+    },
+    {
+        "name": "nomic-embed-text-v1.5",
+        "url": "nomic-ai/nomic-embed-text-v1.5-GGUF:Q8_0",
+        "local": False,
+    },
+    {
+        "name": "bge-m3 Q8_0",
+        "url": "ggml-org/bge-m3-Q8_0-GGUF",
+        "local": False,
+        "pooling": "last",
+        "ubatch": "2048",
+    },
+    {
+        "name": "bge-m3 Q4_K_M",
+        "url": "gpustack/bge-m3-GGUF:Q4_K_M",
+        "local": False,
+        "pooling": "last",
+        "ubatch": "2048",
+    },
+    {
+        "name": "jina-v5-nano-retrieval Q8",
+        "url": "jinaai/jina-embeddings-v5-text-nano-retrieval-GGUF:Q8_0",
+        "local": False,
+        "pooling": "last",
+    },
+    {
+        "name": "jina-v5-nano-text-matching Q8",
+        "url": "jinaai/jina-embeddings-v5-text-nano-text-matching-GGUF:Q8_0",
+        "local": False,
+        "pooling": "last",
+    },
+    {
+        "name": "bge-small-en-v1.5 (unsloth f16)",
+        "url": "unsloth/bge-small-en-v1.5-GGUF",
+        "local": False,
+        "pooling": "cls",
+        "query_prefix": "Represent this sentence for searching: ",
+    },
+    {
+        "name": "embeddinggemma-300m (unsloth Q8)",
+        "url": "unsloth/embeddinggemma-300M-GGUF:Q8_0",
+        "local": False,
+        "pooling": "last",
+        "ubatch": "2048",
     },
 ]
 
@@ -105,7 +153,8 @@ def probe_one(cand):
         proc = subprocess.Popen(
             ["llama-server", *_url_args(cand["url"], cand["local"]),
              "--host", HOST, "--port", str(PORT),
-             "--embedding", "--pooling", "mean", "-ngl", "99",
+             "--embedding", "--pooling", cand.get("pooling", "mean"), "-ngl", "99",
+             "-c", "8192", "--ubatch-size", cand.get("ubatch", "512"),
              "--log-file", str(DATA / "embed_vram_probe.log")],
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
         )
@@ -133,7 +182,12 @@ def probe_one(cand):
             json={"content": PROBE},
             timeout=60,
         )
-        dim = len(r.json()["embedding"])
+        data = r.json()
+        items = data if isinstance(data, list) else [data]
+        vec = items[0]["embedding"]
+        if vec and isinstance(vec[0], list):
+            vec = vec[0]
+        dim = len(vec)
         time.sleep(3)
         
         peak = _total_vram_mb()
@@ -153,12 +207,25 @@ def probe_one(cand):
 
 
 def main():
-    results = []
+    parser = argparse.ArgumentParser(description="VRAM probe for embedder candidates")
+    parser.add_argument("--only", default=None, help="probe only candidates matching this substring")
+    args = parser.parse_args()
+
+    existing = {}
+    try:
+        for r in json.loads((DATA / "embed_vram.json").read_text(encoding="utf-8")):
+            existing[r["name"]] = r
+    except (FileNotFoundError, json.JSONDecodeError, TypeError):
+        existing = {}
+
     for cand in CANDIDATES:
+        if args.only and args.only.lower() not in cand["name"].lower():
+            continue
         sys.stderr.write(f"\nProbing {cand['name']}...\n")
-        results.append(probe_one(cand))
-    print(json.dumps(results, indent=2))
-    (DATA / "embed_vram.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
+        existing[cand["name"]] = probe_one(cand)
+    print(json.dumps(list(existing.values()), indent=2))
+    (DATA / "embed_vram.json").write_text(
+        json.dumps(list(existing.values()), indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

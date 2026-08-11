@@ -234,7 +234,7 @@ V65: Embedder swap gate — candidate ! win subset eval + golden facts + VRAM be
 | T85 | x | Embedder VRAM pre-filter — resolved host resolution for IPv6 link-local (`socket.getaddrinfo` with scope_id) | T83,C11,R7 |
 | T86 | x | Embedder subset eval — scripts/embed_eval.py + data/eval_subset.json (1.2k docs, 13 queries, sources-derived labels), MRR@10/hit@3-5/recall@10 vs jina | T85,V65 |
 | T87 | x | Sweep runlist — jina-base, MiniLM-L6 22M, mxbai-xsmall 24M⚠, bge-small Q8, embeddinggemma-300m Q8, mxbai-large 335M, KaLM-mini 0.5B; +2 mxbai prefix runs | T86 |
-| T88 | . | Decision gate — subset winner → golden facts (V63) → VRAM; swap only if win, then wipe data/chroma + full re-embed | T87,V63,T84 |
+| T88 | x | Decision gate — RESOLVED 2026-08-09: no winner, KEEP jina. Ties (bge-small, mxbai-large+prefix) hit 512-train-ctx wall — unembeddable on real 1024-char corpus. nomic-embed-v1.5 (8192 ctx) tested → −0.051. Golden not run (no candidate). B29 | T87,V63,T84, B29 |
 | T89 | x | Post-swap golden — RESOLVED 2026-08-08: bge-m3 Q4_K_M @ c32k + c8k both 5/5 (0 miss) | V63 |
 | T90 | x | `scripts.rag` prints `rerank_used` — ⊥ `scripts.retrieval` (raw query, no client) | V61 |
 
@@ -270,3 +270,4 @@ V65: Embedder swap gate — candidate ! win subset eval + golden facts + VRAM be
 | B26 | 2026-08-07 | `download_wiki.py` recursion queued subcats WITH `Category:` prefix → crawl hit `Category:Category:X`, 0 members → monster/item pages never fetched → "I do not know" on drops | T73 |
 | B27 | 2026-08-08 | `-ctk/-ctv q8_0` quantized KV cache breaks Gemma 4 MTP draft acceptance (→0%), e.g. Gemma4 MTP guide: "Quantized KV cache (like Q8_0) breaks acceptance rates (drops to 0%)"; llama.cpp #23636/#23658. Was in llm-start.ps1 + mise.toml | C9 covered |
 | B28 | 2026-08-08 | `_persist_synthesized` — question `?` in doc id → Windows-invalid filename `synthesized_...?_curated.txt` → `Errno 22` → synthesis persistence always fails for `?`-ending queries (all general goldens). Fallback path answers OK — silent data loss | pipeline.py sanitize `[<>:"/\\|?*]` -> `-` |
+| B29 | 2026-08-09 | Embedder sweep arena mismatch (T87): bge-small-en-v1.5 + mxbai-embed-large-v1 GGUF train-ctx 512 → server clamps slot 512 (llama.cpp, ⊥ `-c` override) → real 1024-char corpus chunks unembeddable (500s, "input too large / physical batch 512"). Sweep trunc 512 chars masked wall — tie ≠ production-viable. nomic-embed-v1.5 (8192) tested −0.0513. Fix: future runlists filter ctx ≥ 2048 tok; sweep arena = corpus chunk ceiling (V65) | T88 |
