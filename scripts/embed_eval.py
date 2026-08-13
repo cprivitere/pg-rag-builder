@@ -78,8 +78,7 @@ BAKEOFF_CANDIDATES = [
         "ctx": 2048,
         "query_prefix": "task: search result | query: ",
         "doc_prefix": "title: none | text: ",
-        "gghf_repo": "unsloth/embeddinggemma-300m-GGUF",
-        "gghf_file": "embeddinggemma-300m-Q8_0.gguf",
+        "vram_mb": 329,
     },
     {
         "name": "jina-v5-nano-retrieval-Q8",
@@ -89,8 +88,7 @@ BAKEOFF_CANDIDATES = [
         "ctx": 8192,
         "query_prefix": "Query: ",
         "doc_prefix": "Document: ",
-        "gghf_repo": "jinaai/jina-embeddings-v5-text-nano-retrieval-GGUF",
-        "gghf_file": "jina-embeddings-v5-text-nano-retrieval-Q8_0.gguf",
+        "vram_mb": 233,
     },
     {
         "name": "MiniLM-L6-Q4",
@@ -100,8 +98,7 @@ BAKEOFF_CANDIDATES = [
         "ctx": 512,
         "query_prefix": None,
         "doc_prefix": None,
-        "gghf_repo": "second-state/All-MiniLM-L6-v2-Embedding-GGUF",
-        "gghf_file": "ggml-model-Q4_K_M.gguf",
+        "vram_mb": 21,
     },
     {
         "name": "bge-small-Q8",
@@ -111,8 +108,7 @@ BAKEOFF_CANDIDATES = [
         "ctx": 512,
         "query_prefix": None,
         "doc_prefix": None,
-        "gghf_repo": "ggml-org/bge-small-en-v1.5-Q8_0-GGUF",
-        "gghf_file": "bge-small-en-v1.5-q8_0.gguf",
+        "vram_mb": 37,
     },
 ]
 
@@ -350,6 +346,23 @@ def metrics(query_vecs, doc_vecs, labels, k=10):
     }
 
 
+def _kill_port(port):
+    """Kill any process listening on the given port."""
+    try:
+        conns = subprocess.run(
+            ["pwsh", "-NoProfile", "-Command",
+             f"(Get-NetTCPConnection -LocalPort {port} -ErrorAction SilentlyContinue).OwningProcess"],
+            capture_output=True, text=True, timeout=10,
+        )
+        pids = set(conns.stdout.strip().split())
+        for pid in pids:
+            if pid.isdigit() and int(pid) > 0:
+                subprocess.run(["taskkill", "/F", "/PID", pid],
+                               capture_output=True, timeout=5)
+    except Exception:
+        pass
+
+
 def resolve_base_url(host=HOST, port=PORT):
     import socket
 
@@ -483,8 +496,8 @@ def run_bakeoff(args):
             log_path = DATA / f"embed_eval_{cand['name'].split()[0]}.log"
             server_log = parse_server_log(log_path)
 
-            # Get GGUF file size
-            vram_mb = get_gguf_size_mb(cand)
+            # GGUF file size from candidate config
+            vram_mb = cand.get("vram_mb")
 
             entry = {"name": cand["name"], "dims": cand["dims"],
                      "quant": cand["hf"].split(":")[-1],
@@ -492,16 +505,18 @@ def run_bakeoff(args):
             results["candidates"].append(entry)
             sys.stderr.write(f"  {cand['name']}: mrr={m['mrr10']}, vram={vram_mb}MB\n")
         finally:
-            proc.terminate()
             try:
+                proc.kill()
                 proc.wait(timeout=5)
             except Exception:
-                proc.kill()
+                pass
+            # Kill any lingering llama-server on the port
+            _kill_port(PORT)
             time.sleep(2)
 
     # Rank by MRR@10, tie-break by VRAM
     ranked = sorted([c for c in results["candidates"] if c.get("ok", True)],
-                    key=lambda c: (-c.get("mrr10", 0), c.get("vram_mb", 9999)))
+                    key=lambda c: (-c.get("mrr10", 0), c.get("vram_mb") or 9999))
     if ranked:
         results["winner"] = ranked[0]["name"]
         results["runner_up"] = ranked[1]["name"] if len(ranked) > 1 else None
@@ -526,20 +541,23 @@ def spawn_candidate_bakeoff(cand):
     """Spawn llama-server for a bake-off candidate."""
     log_file = DATA / f"embed_eval_{cand['name'].split()[0]}.log"
     cmd = ["llama-server", "-hf", cand["hf"],
-           "--host", HOST, "--port", str(PORT),
+           "--host", "0.0.0.0", "--port", str(PORT),
            "--embedding", "--pooling", cand["pooling"], "-ngl", "99",
            "-c", str(cand["ctx"]), "-v",
            "--log-file", str(log_file)]
     sys.stderr.write(f"  spawning {cand['name']}...\n")
-    proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
-    base_url = resolve_base_url()
+    proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    base_url = f"http://localhost:{PORT}"
     try:
-        for _ in range(300):
+        for i in range(600):
             time.sleep(1)
             try:
                 if requests_health(base_url):
+                    sys.stderr.write(f"  server up after {i+1}s\n")
                     return {"base_url": base_url, "proc": proc}
-            except Exception:
+            except Exception as e:
+                if i % 30 == 0:
+                    sys.stderr.write(f"  health check error at {i+1}s: {e}\n")
                 continue
     except Exception:
         pass
