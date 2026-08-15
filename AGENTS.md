@@ -4,7 +4,7 @@
 `mise tasks` = full list
 
 ## pipeline
-`uv run pgrag download-cdn → download-wiki → build-documents → build-index` (entry: `src/pgrag/cli.py`)
+`uv run pgrag download-cdn → download-wiki → build-documents → build-index` (+ `validate` for index health; entry: `src/pgrag/cli.py`)
 
 ## layout
 - `src/pgrag/` — importable package (uv installs it editable):
@@ -29,7 +29,7 @@ OpenWebUI,3000,../mywebui
 build/refresh needs no servers. `CONTEXT_BUDGET=24000` (config.py) caps entity ctx.
 
 ## data
-`data/` gitignored: `cdn/ wiki/ documents.json chroma/ wiki/curated/ golden/ rerank_stats.json wiki/.meta.json` · `logs/`: `embed.log llm.log webui.log rerank.log`
+`data/` gitignored: `cdn/ wiki/ documents.json chroma/ wiki/curated/ golden/ rerank_stats.json wiki/.meta.json curator_state.json` · eval records: `embed_eval_*.log`, `embed_vram.json`, `bakeoff_*.json` · `logs/`: `embed.log llm.log webui.log rerank.log`
 
 ## tests
 294 (308 coll −14 slow). All offline; 5 skip golden (need :8080+:8081). Temp-dir integration.

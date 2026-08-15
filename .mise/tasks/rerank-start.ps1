@@ -1,5 +1,5 @@
 #!/usr/bin/env pwsh
-#MISE description="Start reranker server — Qwen3-Reranker-0.6B cross-encoder (:8082) with logging"
+#MISE description="Start reranker server — bge-reranker-v2-m3 cross-encoder (:8082) with logging"
 #MISE alias="sr"
 #MISE depends=["ensure-logs-dir"]
 
@@ -23,9 +23,9 @@ $exe = 'llama-server'
 $logFile = Join-Path $logDir 'rerank.log'
 $target = (Split-Path -Parent $Model) + [IO.Path]::DirectorySeparatorChar + (Split-Path -Leaf $Model)
 if (Test-Path -LiteralPath $Model) {
-    $serverArgs = @('-m',$Model,'--alias','qwen3-reranker','--host','0.0.0.0','--port','8082','--reranking','--pooling','rank','-c',"$Ctx",'-ngl','99',"--log-file","$logFile")
+    $serverArgs = @('-m',$Model,'--alias','bge-reranker-v2-m3','--host','0.0.0.0','--port','8082','--reranking','--pooling','rank','-c',"$Ctx",'-ngl','99',"--log-file","$logFile")
 } else {
-    $serverArgs = @('-hf',$Model,'--alias','qwen3-reranker','--host','0.0.0.0','--port','8082','--reranking','--pooling','rank','-c',"$Ctx",'-ngl','99',"--log-file","$logFile")
+    $serverArgs = @('-hf',$Model,'--alias','bge-reranker-v2-m3','--host','0.0.0.0','--port','8082','--reranking','--pooling','rank','-c',"$Ctx",'-ngl','99',"--log-file","$logFile")
 }
 
 Start-Process -FilePath $exe -ArgumentList $serverArgs -WindowStyle Hidden
