@@ -27,9 +27,23 @@ def _get_existing_dim(collection):
     return None
 
 
-def build_index(documents=None, chroma_path="data/chroma"):
+def build_index(documents=None, chroma_path="data/chroma", source=None):
     if documents is None:
         documents = load_documents()
+
+    if source is not None:
+        scoped = [
+            doc for doc in documents
+            if doc.get("metadata", {}).get("source") == source
+        ]
+        if not scoped:
+            raise ValueError(
+                f"No documents with source='{source}' in documents.json"
+            )
+        print(
+            f"Partial rebuild: source='{source}' ({len(scoped)} of {len(documents)} documents)"
+        )
+        documents = scoped
 
     client = chromadb.PersistentClient(
         path=chroma_path
@@ -52,6 +66,7 @@ def build_index(documents=None, chroma_path="data/chroma"):
 
     existing_hashes = {}
     existing_ids = set()
+    existing_sources = {}
 
     for start in range(0, collection.count(), BATCH_SIZE):
         batch = collection.get(
@@ -64,17 +79,26 @@ def build_index(documents=None, chroma_path="data/chroma"):
             batch["metadatas"]
         ):
             existing_ids.add(doc_id)
-            if "embedding_hash" in metadata:
-                existing_hashes[doc_id] = {
-                    "embedding_hash": metadata["embedding_hash"],
-                    "metadata_hash": metadata["metadata_hash"],
-                }
+            if metadata:
+                existing_sources[doc_id] = metadata.get("source")
+                if "embedding_hash" in metadata:
+                    existing_hashes[doc_id] = {
+                        "embedding_hash": metadata["embedding_hash"],
+                        "metadata_hash": metadata["metadata_hash"],
+                    }
 
     current_ids = set(
         doc["id"] for doc in documents
     )
 
-    deleted_ids = existing_ids - current_ids
+    if source is None:
+        deleted_ids = existing_ids - current_ids
+    else:
+        deleted_ids = {
+            doc_id for doc_id in existing_ids
+            if existing_sources.get(doc_id) == source
+            and doc_id not in current_ids
+        }
 
     if deleted_ids:
         print(f"Deleting {len(deleted_ids)} removed documents")

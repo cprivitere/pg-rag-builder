@@ -19,44 +19,49 @@ def main() -> None:
     p.set_defaults(func=_build_documents)
 
     p = sub.add_parser("build-index", help="Upsert documents into the ChromaDB index")
+    p.add_argument(
+        "--source",
+        choices=["cdn", "wiki", "computed", "curated"],
+        help="Only rebuild documents from this source, leaving all others untouched",
+    )
     p.set_defaults(func=_build_index)
 
     p = sub.add_parser("validate", help="Validate vectorstore health (exit 1 if issues)")
     p.set_defaults(func=_validate)
 
     args = parser.parse_args()
-    rc = args.func()
+    rc = args.func(args)
     sys.exit(rc if isinstance(rc, int) else 0)
 
 
-def _download_cdn() -> int:
+def _download_cdn(args) -> int:
     from pgrag.loaders.download_cdn import download_cdn
 
     download_cdn()
     return 0
 
 
-def _download_wiki() -> int:
+def _download_wiki(args) -> int:
     from pgrag.loaders.download_wiki import main as sync_wiki
 
     return sync_wiki()
 
 
-def _build_documents() -> int:
+def _build_documents(args) -> int:
     from pgrag.build import generate_documents
 
     generate_documents()
     return 0
 
 
-def _build_index() -> int:
+def _build_index(args) -> int:
     from pgrag.vectorstore.build_index import build_index
 
-    build_index()
+    build_index(source=args.source)
     return 0
 
 
-def _validate() -> int:
+def _validate(args) -> int:
     from pgrag.vectorstore.health_check import health_check
 
     return health_check()

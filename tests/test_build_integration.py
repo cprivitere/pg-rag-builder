@@ -182,3 +182,81 @@ def test_build_interruption_persists_completed_batches_and_resumes():
 
         assert embedded_texts == ["text 4", "text 5", "text 6", "text 7"]
         assert coll.count() == 8
+
+
+@patch("pgrag.vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
+def test_partial_rebuild_source_keeps_other_sources(mock_embed):
+    """--source wiki rebuilds only wiki docs; CDN vectors stay untouched."""
+    docs_all = [
+        {"id": "c1", "type": "item", "text": "cdn one", "metadata": {"source": "cdn", "table": "items"}},
+        {"id": "c2", "type": "item", "text": "cdn two", "metadata": {"source": "cdn", "table": "items"}},
+        {"id": "w1", "type": "wiki", "text": "wiki one", "metadata": {"source": "wiki"}},
+    ]
+    docs_wiki_changed = [
+        {"id": "c1", "type": "item", "text": "cdn one", "metadata": {"source": "cdn", "table": "items"}},
+        {"id": "c2", "type": "item", "text": "cdn two", "metadata": {"source": "cdn", "table": "items"}},
+        {"id": "w1", "type": "wiki", "text": "wiki one EDITED", "metadata": {"source": "wiki"}},
+        {"id": "w2", "type": "wiki", "text": "wiki two", "metadata": {"source": "wiki"}},
+    ]
+    embedded = []
+
+    def record_embed(texts):
+        embedded.extend(texts)
+        return [[0.1] * EMBEDDING_DIM for _ in texts]
+
+    with tempfile.TemporaryDirectory(**TMP_KW) as tmp:
+        chroma_path = str(Path(tmp) / "chroma")
+        build_index(documents=docs_all, chroma_path=chroma_path)
+
+        with patch("pgrag.vectorstore.build_index.embed_batch", side_effect=record_embed):
+            build_index(documents=docs_wiki_changed, chroma_path=chroma_path, source="wiki")
+
+        client = chromadb.PersistentClient(path=chroma_path)
+        coll = client.get_collection("project_gorgon")
+        result = coll.get(include=["documents"])
+        assert set(result["ids"]) == {"c1", "c2", "w1", "w2"}
+        assert sorted(e for e in embedded) == ["wiki one EDITED", "wiki two"]
+        texts = {i: d for i, d in zip(result["ids"], result["documents"])}
+        assert texts["w1"] == "wiki one EDITED"
+
+
+@patch("pgrag.vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
+def test_partial_rebuild_source_deletes_only_that_source(mock_embed):
+    """Stale docs of the scoped source are purged; other sources are not touched."""
+    docs_all = [
+        {"id": "c1", "type": "item", "text": "cdn one", "metadata": {"source": "cdn", "table": "items"}},
+        {"id": "c2", "type": "item", "text": "cdn two", "metadata": {"source": "cdn", "table": "items"}},
+        {"id": "w1", "type": "wiki", "text": "wiki one", "metadata": {"source": "wiki"}},
+        {"id": "w2", "type": "wiki", "text": "wiki two", "metadata": {"source": "wiki"}},
+    ]
+    # w1 is dropped from documents; cdn docs are absent too (out of scope)
+    docs_wiki_only = [
+        {"id": "w2", "type": "wiki", "text": "wiki two", "metadata": {"source": "wiki"}},
+    ]
+    with tempfile.TemporaryDirectory(**TMP_KW) as tmp:
+        chroma_path = str(Path(tmp) / "chroma")
+        build_index(documents=docs_all, chroma_path=chroma_path)
+
+        embedded = []
+        with patch("pgrag.vectorstore.build_index.embed_batch", side_effect=lambda texts: (
+            embedded.extend(texts) or [[0.1] * EMBEDDING_DIM for _ in texts]
+        )):
+            build_index(documents=docs_wiki_only, chroma_path=chroma_path, source="wiki")
+
+        client = chromadb.PersistentClient(path=chroma_path)
+        coll = client.get_collection("project_gorgon")
+        assert set(coll.get()["ids"]) == {"c1", "c2", "w2"}, (
+            "only stale wiki docs should be purged; cdn docs must survive"
+        )
+        assert embedded == []
+
+
+@patch("pgrag.vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
+def test_partial_rebuild_unknown_source_aborts(mock_embed):
+    docs = [
+        {"id": "c1", "type": "item", "text": "cdn one", "metadata": {"source": "cdn"}},
+    ]
+    with tempfile.TemporaryDirectory(**TMP_KW) as tmp:
+        chroma_path = str(Path(tmp) / "chroma")
+        with pytest.raises(ValueError, match="No documents with source='bogus'"):
+            build_index(documents=docs, chroma_path=chroma_path, source="bogus")
