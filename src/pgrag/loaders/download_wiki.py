@@ -22,6 +22,7 @@ TARGET_CATEGORIES = [
     "Anagoge Creatures", "Anagoge Records Facility Creatures",
     "Aktaari Cave Creatures", "Animal Nexus Creatures",
     "Amaluk Valley Cave Creatures", "Animal Town Creatures", "Augury",
+    "Quests",
 ]
 
 RECURSIVE_CATEGORIES = {

@@ -4,7 +4,7 @@
 `mise tasks` = full list
 
 ## pipeline
-`uv run pgrag download-cdn → download-wiki → build-documents → build-index` (+ `validate` for index health; entry: `src/pgrag/cli.py`)
+`uv run pgrag download-cdn → download-wiki → build-documents → build-index` (+ `validate` for index health; entry: `src/pgrag/cli.py`). `build-index --source cdn|wiki|computed|curated` = partial rebuild: embeds/purges only that source's docs, leaves the rest untouched.
 
 ## layout
 - `src/pgrag/` — importable package (uv installs it editable):
@@ -38,7 +38,8 @@ build/refresh needs no servers. `CONTEXT_BUDGET=24000` (config.py) caps entity c
 - py≥3.14, `uv`. `hf` global CLI, cache `F:\AI\models\hub\`; GGUF via `-hf org/repo:quant`
 
 ## gotchas
-- **wiki cats**: `TARGET_CATEGORIES` flat + `RECURSIVE_CATEGORIES` walk (`Creatures` d2, `Items` d1) — monsters/items only via recursion (drops live there). Subcats bare (no `Category:` prefix).
+- **wiki cats**: `TARGET_CATEGORIES` flat + `RECURSIVE_CATEGORIES` walk (`Creatures` d2, `Items` d1) — monsters/items only via recursion (drops live there); `Quests` is flat-synced. Subcats bare (no `Category:` prefix). Wiki filenames are `{safe_title}_<sha256-8>.txt`; `wiki_loader` names pages via `.meta.json` real titles (fallback: hash stripped) so doc names/sources show clean titles.
 - **LLM draft model**: OOM if already running → `mise down` first.
 - **scripts/pg_rag.py**: hardcodes `PG_ROOT=F:\ProjectGorgon\pg-rag-builder` + `os.chdir()`, adds `PG_ROOT/src` to `sys.path` — update if repo moves.
 - **mise.toml `[env]`**: `WEBUI_DIR`, `LOGS_DIR` — update if paths move.
+- **test isolation**: `test_download_wiki.py` `main()` tests patch `META_FILE` + `WIKI_DIR` to tmp — they must, or they clobber the real `data/wiki/.meta.json` (was a silent 14k→1 entry destroyer).

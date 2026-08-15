@@ -16,7 +16,6 @@ from pgrag.loaders.download_wiki import (
     remove_stale_files,
     BASE_DELAY,
     MAX_RETRIES,
-    WIKI_DIR,
 )
 
 
@@ -84,7 +83,7 @@ def test_v43_batch_of_one_sends_one():
 # --- V44: skip delay ---
 
 
-def test_v44_skip_delay_uses_base_delay(monkeypatch):
+def test_v44_skip_delay_uses_base_delay(monkeypatch, tmp_path):
     """Skipped pages must use BASE_DELAY, not shorter."""
     delays = []
     original_sleep = time.sleep
@@ -106,8 +105,7 @@ def test_v44_skip_delay_uses_base_delay(monkeypatch):
         }
     }
 
-    WIKI_DIR.mkdir(parents=True, exist_ok=True)
-    test_file = WIKI_DIR / "Existing_Page_abc12345.txt"
+    test_file = tmp_path / "Existing_Page_abc12345.txt"
     test_file.write_text("old content", encoding="utf-8")
 
     try:
@@ -124,7 +122,9 @@ def test_v44_skip_delay_uses_base_delay(monkeypatch):
                 }
             }
             with patch("pgrag.loaders.download_wiki.load_metadata", return_value=meta):
-                download_wiki.main()
+                with patch.object(download_wiki, "WIKI_DIR", tmp_path):
+                    with patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"):
+                        download_wiki.main()
 
         skip_delays = [d for d in delays if d >= 0.1]
         assert all(d >= BASE_DELAY for d in skip_delays if d < 1.0), (
@@ -165,7 +165,7 @@ def test_v49_redirect_pageid_negative_treated_as_missing():
 # --- V50: content fetch failure ---
 
 
-def test_v50_category_failure_aborts(monkeypatch):
+def test_v50_category_failure_aborts(monkeypatch, tmp_path):
     """Category enumeration exception → sync aborts with exit code 1."""
     session = MagicMock()
     meta = {"pages": {}}
@@ -173,12 +173,13 @@ def test_v50_category_failure_aborts(monkeypatch):
     with patch("pgrag.loaders.download_wiki.api_call_with_retry") as mock_api:
         mock_api.side_effect = RuntimeError("Connection lost")
         with patch("pgrag.loaders.download_wiki.load_metadata", return_value=meta):
-            result = download_wiki.main()
+            with patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"):
+                result = download_wiki.main()
 
     assert result == 1, "should abort on category enumeration failure"
 
 
-def test_v50_content_fetch_failure_aborts(monkeypatch):
+def test_v50_content_fetch_failure_aborts(monkeypatch, tmp_path):
     """Content fetch exception → sync aborts with exit code 1."""
     session = MagicMock()
     meta = {"pages": {}}
@@ -189,6 +190,7 @@ def test_v50_content_fetch_failure_aborts(monkeypatch):
         patch("pgrag.loaders.download_wiki.enumerate_category_pages", return_value=["New Page"]),
         patch("pgrag.loaders.download_wiki.enumerate_category_pages_recursive", return_value=[]),
         patch("pgrag.loaders.download_wiki.fetch_timestamps", return_value={"New Page": "2026-01-01T00:00:00Z"}),
+        patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"),
     ):
         result = download_wiki.main()
 
@@ -198,7 +200,7 @@ def test_v50_content_fetch_failure_aborts(monkeypatch):
 # --- V45: timestamp completeness ---
 
 
-def test_v45_absent_title_aborts():
+def test_v45_absent_title_aborts(tmp_path):
     """Title absent from timestamp response (truncation) → abort before content fetch."""
     session = MagicMock()
 
@@ -212,15 +214,15 @@ def test_v45_absent_title_aborts():
         }
         with patch("pgrag.loaders.download_wiki.enumerate_category_pages", return_value=["Page A", "Page B"]):
             with patch("pgrag.loaders.download_wiki.fetch_timestamps", return_value={"Page A": "2026-01-01T00:00:00Z"}):
-                result = download_wiki.main()
+                with patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"):
+                    result = download_wiki.main()
 
     assert result == 1, "should abort when timestamp response is incomplete"
 
 
-def test_v45_missing_title_deletes_tombstones():
+def test_v45_missing_title_deletes_tombstones(tmp_path):
     """Explicit `missing` timestamp → delete local .txt, tombstone meta, no abort."""
-    WIKI_DIR.mkdir(parents=True, exist_ok=True)
-    stale_file = WIKI_DIR / "Gone_Page_00000000.txt"
+    stale_file = tmp_path / "Gone_Page_00000000.txt"
     stale_file.write_text("old", encoding="utf-8")
     meta = {"pages": {"Gone Page": {"touched": "2026-01-01T00:00:00Z", "filename": "Gone_Page_00000000.txt"}}}
 
@@ -233,6 +235,8 @@ def test_v45_missing_title_deletes_tombstones():
                 "Gone Page": ("", True),
                 "Alive Page": ("content", False),
             }),
+            patch.object(download_wiki, "WIKI_DIR", tmp_path),
+            patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"),
         ):
             with patch("pgrag.loaders.download_wiki.load_metadata", return_value=meta):
                 result = download_wiki.main()
@@ -426,7 +430,8 @@ def test_skip_existing_pages_download_new_pages(tmp_path):
         with patch("pgrag.loaders.download_wiki.api_call_with_retry", side_effect=fake_api):
             with patch("pgrag.loaders.download_wiki.load_metadata", return_value=meta):
                 with patch.object(download_wiki, "RECURSIVE_CATEGORIES", {}):
-                    result = download_wiki.main()
+                    with patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"):
+                        result = download_wiki.main()
 
     assert result == 0
     assert not existing_file.exists() or existing_file.read_text(encoding="utf-8") == "old content"
@@ -479,7 +484,8 @@ def test_stale_metadata_existing_file_still_skipped(tmp_path):
         with patch("pgrag.loaders.download_wiki.api_call_with_retry", side_effect=fake_api):
             with patch("pgrag.loaders.download_wiki.load_metadata", return_value=meta):
                 with patch.object(download_wiki, "RECURSIVE_CATEGORIES", {}):
-                    result = download_wiki.main()
+                    with patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"):
+                        result = download_wiki.main()
 
     assert result == 0
     assert existing_file.read_text(encoding="utf-8") == "existing content", (
