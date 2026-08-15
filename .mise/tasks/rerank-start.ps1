@@ -5,7 +5,8 @@
 
 param(
     [string]$Model = 'gpustack/bge-reranker-v2-m3-GGUF:Q4_K_M',
-    [int]$Ctx = 32768
+    [int]$Ctx = 32768,
+    [int]$Batch = 8192
 )
 
 $root = Split-Path -Parent $PSScriptRoot
@@ -23,9 +24,9 @@ $exe = 'llama-server'
 $logFile = Join-Path $logDir 'rerank.log'
 $target = (Split-Path -Parent $Model) + [IO.Path]::DirectorySeparatorChar + (Split-Path -Leaf $Model)
 if (Test-Path -LiteralPath $Model) {
-    $serverArgs = @('-m',$Model,'--alias','bge-reranker-v2-m3','--host','0.0.0.0','--port','8082','--reranking','--pooling','rank','-c',"$Ctx",'-ngl','99',"--log-file","$logFile")
+    $serverArgs = @('-m',$Model,'--alias','bge-reranker-v2-m3','--host','0.0.0.0','--port','8082','--reranking','--pooling','rank','-c',"$Ctx",'-b',"$Batch",'-ub',"$Batch",'-ngl','99',"--log-file","$logFile")
 } else {
-    $serverArgs = @('-hf',$Model,'--alias','bge-reranker-v2-m3','--host','0.0.0.0','--port','8082','--reranking','--pooling','rank','-c',"$Ctx",'-ngl','99',"--log-file","$logFile")
+    $serverArgs = @('-hf',$Model,'--alias','bge-reranker-v2-m3','--host','0.0.0.0','--port','8082','--reranking','--pooling','rank','-c',"$Ctx",'-b',"$Batch",'-ub',"$Batch",'-ngl','99',"--log-file","$logFile")
 }
 
 Start-Process -FilePath $exe -ArgumentList $serverArgs -WindowStyle Hidden

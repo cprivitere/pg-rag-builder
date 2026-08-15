@@ -14,6 +14,12 @@ RERANK_URL = "http://127.0.0.1:8082/v1/rerank"
 RERANK_TIMEOUT = 60
 STATS_FILE = DATA_DIR / "rerank_stats.json"
 
+# Defense-in-depth: keep every rerank payload well under the server's batch
+# ceiling so llama.cpp never 500s with "input is too large to process".
+# bge-reranker-v2-m3 also saturates around this length anyway.
+MAX_RERANK_DOC_CHARS = 12000
+MAX_RERANK_DOCS = 100
+
 
 class RerankError(ConnectionError):
     pass
@@ -28,6 +34,7 @@ def rerank_documents(query, documents, top_n):
     """
     if not documents:
         return []
+    documents = [d[:MAX_RERANK_DOC_CHARS] for d in documents][:MAX_RERANK_DOCS]
     try:
         response = requests.post(
             RERANK_URL,
