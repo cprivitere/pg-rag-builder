@@ -10,6 +10,7 @@ from pgrag.documents.summaries import (
     build_summary_documents,
     build_gathering_summaries,
     build_wiki_gathering_summaries,
+    build_wiki_harvest_map,
 )
 from pathlib import Path
 
@@ -54,6 +55,8 @@ def build_item_documents(db):
         attributes = {}
 
     resolver = GameResolver(db)
+
+    wiki_harvest_map = build_wiki_harvest_map(getattr(db, "wiki", None) or {})
 
     for item_id, item in items.items():
         if not isinstance(item, dict):
@@ -137,6 +140,11 @@ Value:
 
         if section:
             text += "\n\n" + "\n".join(section)
+
+        gather = wiki_harvest_map.get(item.get("Name", "").strip().lower())
+        if gather:
+            skill, level = gather
+            text += f"\n\nGather Requirement:\nRequires {skill} skill level {level} to gather"
 
         documents.append({
             "id": item_id,
@@ -1256,9 +1264,21 @@ def _assemble_documents(db):
     documents.extend(summaries)
 
     gathering = build_gathering_summaries(db.tables.get("items", {}), db.tables.get("recipes", {}))
-    documents.extend(gathering)
-
     wiki_gathering = build_wiki_gathering_summaries(db.wiki)
+
+    # Wiki harvest tables are authoritative for skill requirements; drop the
+    # CDN-derived gathering summary for the same skill to avoid conflicting data.
+    wiki_skills = {
+        s["id"].split("summary_wiki_", 1)[-1]
+        for s in wiki_gathering
+        if s["id"].startswith("summary_wiki_")
+    }
+    gathering = [
+        g for g in gathering
+        if not g["id"].startswith("summary_gathering_")
+        or g["id"].split("summary_gathering_", 1)[-1] not in wiki_skills
+    ]
+    documents.extend(gathering)
     documents.extend(wiki_gathering)
 
     return documents

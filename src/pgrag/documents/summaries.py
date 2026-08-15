@@ -162,11 +162,11 @@ _WIKI_ROW_RE = re.compile(
 )
 
 
-def build_wiki_gathering_summaries(wiki):
-    """Parse harvestable tables from wiki pages and build skill-level summaries.
+def _parse_wiki_harvest_rows(wiki):
+    """Parse harvestable tables from wiki pages.
 
-    Args:
-        wiki: dict of page_name -> raw_text (from db.wiki)
+    Returns:
+        dict: skill -> list of (level, item_name) tuples.
     """
     skill_entries = defaultdict(list)  # skill -> [(level, name)]
 
@@ -185,6 +185,26 @@ def build_wiki_gathering_summaries(wiki):
                 except ValueError:
                     continue  # non-numeric level cell — skip row (V26)
                 skill_entries[skill].append((level, name))
+
+    return skill_entries
+
+
+def build_wiki_harvest_map(wiki):
+    """Map item name (lowercased) -> (skill, required level) from wiki harvest tables."""
+    harvest_map = {}
+    for skill, entries in _parse_wiki_harvest_rows(wiki).items():
+        for level, name in entries:
+            harvest_map.setdefault(name.strip().lower(), (skill, level))
+    return harvest_map
+
+
+def build_wiki_gathering_summaries(wiki):
+    """Parse harvestable tables from wiki pages and build skill-level summaries.
+
+    Args:
+        wiki: dict of page_name -> raw_text (from db.wiki)
+    """
+    skill_entries = _parse_wiki_harvest_rows(wiki)
 
     summaries = []
     for skill, entries in skill_entries.items():

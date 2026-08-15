@@ -116,6 +116,75 @@ def test_build_documents_includes_summaries():
     assert "Cheese B (50)" in cheesemaking_summary["text"]
 
 
+def test_wiki_gathering_summary_supplants_cdn_gathering_summary():
+    from pgrag.documents.builder import build_documents
+
+    items = {
+        "i1": {"Name": "Parasol Mushroom", "Keywords": ["Mushroom1"]},
+    }
+    recipes = {
+        "r1": {"Name": "Gather Mushrooms", "ItemMenuKeywordReq": "Mushroom1", "Skill": "Mycology", "SkillLevelReq": 0},
+    }
+    db = _make_db(items=items, recipes=recipes)
+    db.wiki = {
+        "Mycology": """== Harvestables ==
+{| class="wikitable"
+!Name !! Mycology Required !! Location
+|-
+| {{Item|Parasol Mushroom}} || 0 || Anagoge
+|-
+| {{Item|Mortaferus Mushroom}} || 95 || Vidaria
+|}
+""",
+    }
+    docs = build_documents(db)
+    summary_ids = {d["id"] for d in docs if d["type"] == "summary"}
+    assert "summary_gathering_mycology" not in summary_ids
+    assert "summary_wiki_mycology" in summary_ids
+
+
+def test_cdn_gathering_summary_kept_when_no_wiki_summary():
+    from pgrag.documents.builder import build_documents
+
+    items = {
+        "i1": {"Name": "Rat Pelt", "Keywords": ["Skin1"]},
+    }
+    recipes = {
+        "r1": {"Name": "Skin Rat", "ItemMenuKeywordReq": "Skin1", "Skill": "Tanning", "SkillLevelReq": 1},
+    }
+    db = _make_db(items=items, recipes=recipes)
+    docs = build_documents(db)
+    summary_ids = {d["id"] for d in docs if d["type"] == "summary"}
+    assert "summary_gathering_tanning" in summary_ids
+
+
+def test_item_document_includes_wiki_gather_requirement():
+    items = {
+        "item_11022": {"Name": "Mortaferus Mushroom", "Description": "A large mushroom"},
+    }
+    db = _make_db(items=items)
+    db.wiki = {
+        "Mycology": """== Harvestables ==
+{| class="wikitable"
+!Name !! Mycology Required !! Location
+|-
+| {{Item|Mortaferus Mushroom}} || 95 || Vidaria
+|}
+""",
+    }
+    docs = build_item_documents(db)
+    doc = docs[0]
+    assert "Requires Mycology skill level 95 to gather" in doc["text"]
+
+
+def test_item_document_no_gather_requirement_when_not_in_wiki():
+    items = {"item_1": {"Name": "Bunny Juice", "Description": "Turns you into a rabbit"}}
+    db = _make_db(items=items)
+    docs = build_item_documents(db)
+    doc = docs[0]
+    assert "Gather Requirement" not in doc["text"]
+
+
 def test_skill_document_shape():
     skills = {
         "Alchemy": {

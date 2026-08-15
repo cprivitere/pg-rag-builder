@@ -1,6 +1,7 @@
 from pgrag.documents.summaries import (
     build_gathering_summaries,
     build_wiki_gathering_summaries,
+    build_wiki_harvest_map,
 )
 
 
@@ -263,3 +264,32 @@ def test_v26_non_numeric_level_skipped_not_crash():
     assert "Tin Ore (5)" in text
     assert "Iron Ore (25)" in text
     assert "Mystery Ore" not in text
+
+
+def test_wiki_harvest_map_maps_name_to_skill_and_level():
+    wiki = {
+        "Mycology": """== Harvestables ==
+{| class="wikitable"
+!Name !! Mycology Required !! Location
+|-
+| {{Item|Parasol Mushroom}} || 0 || Anagoge
+|-
+| {{Item|Mortaferus Mushroom}} || 95 || Vidaria
+|}
+""",
+        "Foraging": """== Harvestables ==
+{| class="wikitable"
+!Name !! Foraging Level !! XP
+|-
+| {{Item|Poppy Seeds}} || 50 || 230
+|}
+""",
+    }
+    harvest_map = build_wiki_harvest_map(wiki)
+    assert harvest_map["mortaferus mushroom"] == ("Mycology", 95)
+    assert harvest_map["parasol mushroom"] == ("Mycology", 0)
+    assert harvest_map["poppy seeds"] == ("Foraging", 50)
+
+
+def test_wiki_harvest_map_empty():
+    assert build_wiki_harvest_map({}) == {}

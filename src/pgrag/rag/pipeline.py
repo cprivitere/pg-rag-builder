@@ -35,6 +35,34 @@ def _persist_synthesized(doc):
     path.write_text(doc["text"], encoding="utf-8")
 
 
+_SUMMARY_CANDIDATES = 10
+
+# Query terms hinting at a gathering/harvesting question
+_GATHERING_TERMS = {
+    "mushroom", "mushrooms", "gather", "gathering", "harvest", "harvestable",
+    "pick", "pickable", "forage", "foraging", "mine", "mining", "fish",
+    "fishing", "mycology", "tanning", "collect", "collecting",
+}
+
+
+def _summary_score(question, doc, meta, dist):
+    """Score a summary candidate: lexical overlap + domain preference - distance."""
+    query_terms = {t for t in question.lower().split() if len(t) > 2}
+    text_lower = doc.lower()
+    overlap = sum(1 for t in query_terms if t in text_lower)
+
+    name_lower = str(meta.get("name", "")).lower()
+    score = overlap - dist
+
+    if query_terms & _GATHERING_TERMS and "gathering" in name_lower:
+        score += 3.0
+    # Wiki-derived summaries carry curated, complete tables
+    if "wiki" in name_lower:
+        score += 1.0
+
+    return score
+
+
 def _find_matching_summary(question):
     """Find the most relevant summary document for a comparison query."""
     client = chromadb.PersistentClient(path="data/chroma")
@@ -44,13 +72,24 @@ def _find_matching_summary(question):
 
     results = collection.query(
         query_embeddings=[embedding],
-        n_results=5,
+        n_results=_SUMMARY_CANDIDATES,
         where={"type": "summary"},
     )
 
-    if results["ids"][0]:
-        return results["documents"][0][0]
-    return None
+    if not results["ids"][0]:
+        return None
+
+    best, best_score = None, None
+    for doc_id, doc, meta, dist in zip(
+        results["ids"][0],
+        results["documents"][0],
+        results["metadatas"][0],
+        results["distances"][0],
+    ):
+        score = _summary_score(question, doc, meta, dist)
+        if best_score is None or score > best_score:
+            best, best_score = doc, score
+    return best
 
 
 def _generate_with(question, documents, query_type):
