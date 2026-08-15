@@ -1,4 +1,4 @@
-from documents.chunking import (
+from pgrag.documents.chunking import (
     chunk_document, chunk_all_documents,
     DEFAULT_MAX_CHARS, OVERLAP_CHARS, TYPE_MAX_CHARS,
     _find_best_split, _split_sentences,

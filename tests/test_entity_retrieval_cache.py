@@ -3,7 +3,7 @@ import types
 
 import pytest
 
-from rag import entity_retrieval as er
+from pgrag.rag import entity_retrieval as er
 
 
 def _mk_doc(pid="item_1", dtype="item"):

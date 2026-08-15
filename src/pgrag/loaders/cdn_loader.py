@@ -1,5 +1,5 @@
 import json
-from config import CDN_DIR
+from pgrag.config import CDN_DIR
 
 
 def load_database(db):

@@ -2,7 +2,7 @@ import types
 
 import pytest
 
-from rag import retriever
+from pgrag.rag import retriever
 
 
 class _FakeCollection:

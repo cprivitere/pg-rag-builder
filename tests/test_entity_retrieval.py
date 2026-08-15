@@ -1,6 +1,6 @@
 import pytest
 
-from rag import entity_retrieval as er
+from pgrag.rag import entity_retrieval as er
 
 
 def _mk(doc_id, text, chunk_index=None, dtype="skill", name="X"):

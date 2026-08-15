@@ -2,12 +2,12 @@ import pytest
 import requests
 from unittest.mock import patch
 
-from embeddings.llama_embeddings import embed_batch, EmbeddingServerError, EMBEDDING_URL
-from rag.llm import generate, LLMServerError, LLM_URL
+from pgrag.embeddings.llama_embeddings import embed_batch, EmbeddingServerError, EMBEDDING_URL
+from pgrag.rag.llm import generate, LLMServerError, LLM_URL
 
 
 def test_embedding_server_unreachable():
-    with patch("embeddings.llama_embeddings.requests.post") as mock_post:
+    with patch("pgrag.embeddings.llama_embeddings.requests.post") as mock_post:
         mock_post.side_effect = requests.exceptions.ConnectionError()
         with pytest.raises(EmbeddingServerError) as exc:
             embed_batch(["test"])
@@ -17,7 +17,7 @@ def test_embedding_server_unreachable():
 
 
 def test_embedding_server_timeout():
-    with patch("embeddings.llama_embeddings.requests.post") as mock_post:
+    with patch("pgrag.embeddings.llama_embeddings.requests.post") as mock_post:
         mock_post.side_effect = requests.exceptions.Timeout()
         with pytest.raises(EmbeddingServerError) as exc:
             embed_batch(["test"])
@@ -27,7 +27,7 @@ def test_embedding_server_timeout():
 
 
 def test_embedding_server_http_error_still_raised():
-    with patch("embeddings.llama_embeddings.requests.post") as mock_post:
+    with patch("pgrag.embeddings.llama_embeddings.requests.post") as mock_post:
         mock_response = mock_post.return_value
         mock_response.raise_for_status.side_effect = requests.exceptions.HTTPError("500")
         with pytest.raises(requests.exceptions.HTTPError):
@@ -35,7 +35,7 @@ def test_embedding_server_http_error_still_raised():
 
 
 def test_llm_server_unreachable():
-    with patch("rag.llm.requests.post") as mock_post:
+    with patch("pgrag.rag.llm.requests.post") as mock_post:
         mock_post.side_effect = requests.exceptions.ConnectionError()
         with pytest.raises(LLMServerError) as exc:
             generate("test prompt")
@@ -45,7 +45,7 @@ def test_llm_server_unreachable():
 
 
 def test_llm_server_timeout():
-    with patch("rag.llm.requests.post") as mock_post:
+    with patch("pgrag.rag.llm.requests.post") as mock_post:
         mock_post.side_effect = requests.exceptions.Timeout()
         with pytest.raises(LLMServerError) as exc:
             generate("test prompt")
@@ -55,7 +55,7 @@ def test_llm_server_timeout():
 
 
 def test_llm_server_http_error_still_raised():
-    with patch("rag.llm.requests.post") as mock_post:
+    with patch("pgrag.rag.llm.requests.post") as mock_post:
         mock_response = mock_post.return_value
         mock_response.raise_for_status.side_effect = requests.exceptions.HTTPError("500")
         with pytest.raises(requests.exceptions.HTTPError):

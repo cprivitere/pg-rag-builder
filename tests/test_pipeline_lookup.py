@@ -1,6 +1,6 @@
 import pytest
 
-from rag import pipeline
+from pgrag.rag import pipeline
 
 
 def _lookup_result():
@@ -20,10 +20,10 @@ def test_lookup_query_passes_valid_count(monkeypatch):
         captured["hybrid"] = hybrid
         return _lookup_result()
 
-    monkeypatch.setattr("rag.pipeline.classify_query", lambda q: "lookup")
-    monkeypatch.setattr("rag.pipeline.retrieve", fake_retrieve)
-    monkeypatch.setattr("rag.pipeline.should_synthesize", lambda *a, **k: False)
-    monkeypatch.setattr("rag.pipeline.generate", lambda p: "Level 5.")
+    monkeypatch.setattr("pgrag.rag.pipeline.classify_query", lambda q: "lookup")
+    monkeypatch.setattr("pgrag.rag.pipeline.retrieve", fake_retrieve)
+    monkeypatch.setattr("pgrag.rag.pipeline.should_synthesize", lambda *a, **k: False)
+    monkeypatch.setattr("pgrag.rag.pipeline.generate", lambda p: "Level 5.")
 
     result = pipeline.ask("what level is Dungcrafting")
 

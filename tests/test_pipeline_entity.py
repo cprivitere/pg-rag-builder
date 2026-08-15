@@ -1,6 +1,6 @@
 import pytest
 
-from rag import pipeline
+from pgrag.rag import pipeline
 
 HUB_CTX = {
     "ids": [["skillprofile_Pooping_chunk_0", "skillprofile_Pooping_chunk_1"]],
@@ -22,13 +22,13 @@ HUB_CTX = {
 
 def _set_entity(monkeypatch, ctx=HUB_CTX):
     monkeypatch.setattr(
-        "rag.pipeline.classify_query", lambda q: "entity"
+        "pgrag.rag.pipeline.classify_query", lambda q: "entity"
     )
     monkeypatch.setattr(
-        "rag.pipeline.find_entity", lambda q: ("skillprofile_Pooping", "skill")
+        "pgrag.rag.pipeline.find_entity", lambda q: ("skillprofile_Pooping", "skill")
     )
     monkeypatch.setattr(
-        "rag.pipeline.build_entity_context", lambda q, h: ctx
+        "pgrag.rag.pipeline.build_entity_context", lambda q, h: ctx
     )
 
 
@@ -40,8 +40,8 @@ def test_entity_path_used(monkeypatch):
         prompts.append(prompt)
         return "Dungcrafting is an animal-specific skill for fertilizer-grade poop."
 
-    monkeypatch.setattr("rag.pipeline.generate", fake_generate)
-    monkeypatch.setattr("rag.pipeline.retrieve", lambda *a, **k: None)
+    monkeypatch.setattr("pgrag.rag.pipeline.generate", fake_generate)
+    monkeypatch.setattr("pgrag.rag.pipeline.retrieve", lambda *a, **k: None)
 
     result = pipeline.ask("what is the Dungcrafting skill")
 
@@ -57,9 +57,9 @@ def test_entity_bypasses_synthesis(monkeypatch):
     def boom(*a, **k):
         raise AssertionError("synthesis must not run on entity path")
 
-    monkeypatch.setattr("rag.pipeline.should_synthesize", boom)
-    monkeypatch.setattr("rag.pipeline.generate", lambda p: "answer")
-    monkeypatch.setattr("rag.pipeline.retrieve", lambda *a, **k: None)
+    monkeypatch.setattr("pgrag.rag.pipeline.should_synthesize", boom)
+    monkeypatch.setattr("pgrag.rag.pipeline.generate", lambda p: "answer")
+    monkeypatch.setattr("pgrag.rag.pipeline.retrieve", lambda *a, **k: None)
 
     result = pipeline.ask("what is Dungcrafting")
     assert result["answer"] == "answer"
@@ -73,9 +73,9 @@ def test_hub_miss_falls_back_general(monkeypatch):
         prompts.append(prompt)
         return "general answer"
 
-    monkeypatch.setattr("rag.pipeline.generate", fake_generate)
+    monkeypatch.setattr("pgrag.rag.pipeline.generate", fake_generate)
     monkeypatch.setattr(
-        "rag.pipeline.retrieve",
+        "pgrag.rag.pipeline.retrieve",
         lambda question, metadata_filter=None, query_type="general", count=20, hybrid=True: {
             "ids": [["skill_Pooping"]],
             "documents": [["Skill: Dungcrafting description"]],
@@ -112,8 +112,8 @@ def test_gap_fill_fires_once(monkeypatch):
             "distances": [[0.2]],
         }
 
-    monkeypatch.setattr("rag.pipeline.generate", fake_generate)
-    monkeypatch.setattr("rag.pipeline.retrieve", fake_retrieve)
+    monkeypatch.setattr("pgrag.rag.pipeline.generate", fake_generate)
+    monkeypatch.setattr("pgrag.rag.pipeline.retrieve", fake_retrieve)
 
     result = pipeline.ask("what is the Dungcrafting skill")
 
@@ -142,8 +142,8 @@ def test_gap_fill_empty_subject_falls_back_to_question(monkeypatch):
             "distances": [[0.2]],
         }
 
-    monkeypatch.setattr("rag.pipeline.generate", fake_generate)
-    monkeypatch.setattr("rag.pipeline.retrieve", fake_retrieve)
+    monkeypatch.setattr("pgrag.rag.pipeline.generate", fake_generate)
+    monkeypatch.setattr("pgrag.rag.pipeline.retrieve", fake_retrieve)
 
     result = pipeline.ask("what is Dungcrafting")
     assert len(retrieved) == 1
@@ -160,9 +160,9 @@ def test_gap_fill_max_one_loop(monkeypatch):
         calls.append(prompt)
         return "I do not know how to learn this skill."
 
-    monkeypatch.setattr("rag.pipeline.generate", fake_generate)
+    monkeypatch.setattr("pgrag.rag.pipeline.generate", fake_generate)
     monkeypatch.setattr(
-        "rag.pipeline.retrieve",
+        "pgrag.rag.pipeline.retrieve",
         lambda *a, **k: {
             "ids": [["quest_quest_197_chunk_1"]],
             "documents": [["quest text"]],
@@ -185,9 +185,9 @@ def test_gap_fill_empty_answer_retries_without_retrieve(monkeypatch):
         calls.append(prompt)
         return queue.pop(0)
 
-    monkeypatch.setattr("rag.pipeline.generate", fake_generate)
+    monkeypatch.setattr("pgrag.rag.pipeline.generate", fake_generate)
     monkeypatch.setattr(
-        "rag.pipeline.retrieve",
+        "pgrag.rag.pipeline.retrieve",
         lambda *a, **k: retrieved.append(a) or {
             "ids": [["quest_quest_197_chunk_1"]],
             "documents": [["quest text"]],
@@ -213,9 +213,9 @@ def test_gap_fill_empty_answer_then_retrieve(monkeypatch):
         calls.append(prompt)
         return queue.pop(0)
 
-    monkeypatch.setattr("rag.pipeline.generate", fake_generate)
+    monkeypatch.setattr("pgrag.rag.pipeline.generate", fake_generate)
     monkeypatch.setattr(
-        "rag.pipeline.retrieve",
+        "pgrag.rag.pipeline.retrieve",
         lambda *a, **k: retrieved.append(a) or {
             "ids": [["quest_quest_197_chunk_1"]],
             "documents": [["quest text"]],

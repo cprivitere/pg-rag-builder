@@ -1,4 +1,4 @@
-"""
+r"""
 Project Gorgon RAG Pipe Function for Open WebUI.
 
 Integrates the custom hybrid BM25 + ChromaDB retrieval pipeline
@@ -22,19 +22,19 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 PG_ROOT = Path(os.environ.get("PG_RAG_ROOT", r"F:\ProjectGorgon\pg-rag-builder"))
-if str(PG_ROOT) not in sys.path:
-    sys.path.insert(0, str(PG_ROOT))
+if str(PG_ROOT / "src") not in sys.path:
+    sys.path.insert(0, str(PG_ROOT / "src"))
 
 os.chdir(PG_ROOT)
 
 from pydantic import BaseModel, Field
 
-from rag.query_classifier import classify_query
-from rag.retriever import retrieve
-from rag.prompts import build_prompt
-from rag.llm import generate
-from rag.synthesis_detector import should_synthesize
-from rag.synthesis_generator import synthesize_answer
+from pgrag.rag.query_classifier import classify_query
+from pgrag.rag.retriever import retrieve
+from pgrag.rag.prompts import build_prompt
+from pgrag.rag.llm import generate
+from pgrag.rag.synthesis_detector import should_synthesize
+from pgrag.rag.synthesis_generator import synthesize_answer
 
 
 class Pipe:
@@ -58,7 +58,7 @@ class Pipe:
         query_type = classify_query(query)
 
         if query_type == "entity":
-            from rag.pipeline import ask as pipeline_ask
+            from pgrag.rag.pipeline import ask as pipeline_ask
 
             try:
                 result = pipeline_ask(query)

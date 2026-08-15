@@ -7,7 +7,7 @@ import hashlib
 import requests
 from datetime import datetime, timezone
 from pathlib import Path
-from config import WIKI_DIR
+from pgrag.config import WIKI_DIR
 
 sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
 

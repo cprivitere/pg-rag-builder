@@ -1,6 +1,6 @@
 from unittest.mock import patch
 
-from documents.builder import (
+from pgrag.documents.builder import (
     build_item_documents,
     build_recipe_documents,
     build_skill_documents,
@@ -86,7 +86,7 @@ def test_build_documents_sets_type_in_metadata():
     items = {"item_1": {"Name": "Bunny Juice"}}
     recipes = {"recipe_1": {"Name": "Healing Potion", "Skill": "Alchemy", "SkillLevelReq": 5, "Ingredients": [], "ResultItems": []}}
     db = _make_db(items=items, recipes=recipes)
-    from documents.builder import build_documents
+    from pgrag.documents.builder import build_documents
     docs = build_documents(db)
     for doc in docs:
         assert doc["metadata"]["type"] == doc["type"]
@@ -95,14 +95,14 @@ def test_build_documents_sets_type_in_metadata():
 def test_build_documents_derives_name_from_text_when_missing():
     items = {"item_1": {"Name": "Bunny Juice"}}
     db = _make_db(items=items)
-    from documents.builder import build_documents
+    from pgrag.documents.builder import build_documents
     docs = build_documents(db)
     item_doc = next(d for d in docs if d["id"] == "item_1")
     assert item_doc["metadata"]["name"] == "Bunny Juice"
 
 
 def test_build_documents_includes_summaries():
-    from documents.builder import build_documents
+    from pgrag.documents.builder import build_documents
 
     recipes = {
         "r1": {"Name": "Cheese A", "Skill": "Cheesemaking", "SkillLevelReq": 10, "Ingredients": [], "ResultItems": []},
@@ -228,7 +228,7 @@ def test_quest_document_includes_objectives_and_rewards():
 
 
 def test_build_documents_includes_skills_and_quests():
-    from documents.builder import build_documents
+    from pgrag.documents.builder import build_documents
 
     skills = {
         "TestSkill": {"Name": "TestSkill", "Description": "A test skill.", "Parents": [], "Rewards": {}}
@@ -411,7 +411,7 @@ def test_vault_document_shape():
 
 
 def test_build_documents_includes_all_new_types():
-    from documents.builder import build_documents
+    from pgrag.documents.builder import build_documents
 
     db = _make_db(
         abilities={"a1": {"Name": "Test Ability", "Description": "Does stuff.", "Keywords": []}},
@@ -436,7 +436,7 @@ def test_build_documents_includes_all_new_types():
 
 
 def test_v26_ai_abilities_non_dict_does_not_crash():
-    from documents.builder import build_ai_documents
+    from pgrag.documents.builder import build_ai_documents
 
     ai_data = {
         "ai1": {"Abilities": ["NotADict", {"name": "valid"}]},
@@ -449,7 +449,7 @@ def test_v26_ai_abilities_non_dict_does_not_crash():
 
 
 def test_v26_abilitykeyword_id_stable_across_reorder():
-    from documents.builder import build_abilitykeyword_documents
+    from pgrag.documents.builder import build_abilitykeyword_documents
 
     kw1 = {"MustHaveAbilityKeywords": ["Attack"], "AttributesThatDeltaCritChance": []}
     kw2 = {"MustHaveAbilityKeywords": ["Debuff"], "AttributesThatDeltaCritChance": []}
@@ -462,7 +462,7 @@ def test_v26_abilitykeyword_id_stable_across_reorder():
 
 
 def test_xptable_no_level_cap():
-    from documents.builder import build_xptable_documents
+    from pgrag.documents.builder import build_xptable_documents
 
     tables = {
         "TableBig": {"InternalName": "Big", "XpAmounts": list(range(1, 126))},
@@ -476,7 +476,7 @@ def test_xptable_no_level_cap():
 
 
 def test_skill_rewards_sorted_numeric_prefix():
-    from documents.builder import build_skill_documents
+    from pgrag.documents.builder import build_skill_documents
 
     skills = {
         "AlcoholTolerance": {
@@ -497,7 +497,7 @@ def test_skill_rewards_sorted_numeric_prefix():
 
 
 def test_itemuse_name_resolved():
-    from documents.builder import build_itemuse_documents
+    from pgrag.documents.builder import build_itemuse_documents
 
     itemuses = {
         "item_1": {"RecipesThatUseItem": [1, 2]},
@@ -510,7 +510,7 @@ def test_itemuse_name_resolved():
 
 
 def test_v26_skill_rewards_list_does_not_crash():
-    from documents.builder import build_skill_documents
+    from pgrag.documents.builder import build_skill_documents
 
     skills = {
         "Sword": {"Name": "Sword", "Rewards": [{"Level": 1, "Name": "Sword 1"}], "Description": ""},

@@ -1,4 +1,4 @@
-from documents.wiki_builder import build_wiki_documents, _preserve_template_names
+from pgrag.documents.wiki_builder import build_wiki_documents, _preserve_template_names
 
 
 class FakeDB:

@@ -1,5 +1,5 @@
 import pytest
-from documents.skill_profiles import build_skill_profile_documents
+from pgrag.documents.skill_profiles import build_skill_profile_documents
 
 
 class FakeDb:
@@ -209,8 +209,8 @@ def test_deterministic_two_builds():
 
 @pytest.mark.slow
 def test_real_data_dungcrafting_profile():
-    from database import GameDatabase
-    from loaders.cdn_loader import load_database
+    from pgrag.loaders.database import GameDatabase
+    from pgrag.loaders.cdn_loader import load_database
 
     db = GameDatabase()
     load_database(db)

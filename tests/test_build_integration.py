@@ -6,8 +6,8 @@ import chromadb
 import pytest
 from chromadb.api.models.Collection import Collection
 
-from config import EMBEDDING_DIM
-from vectorstore.build_index import build_index
+from pgrag.config import EMBEDDING_DIM
+from pgrag.vectorstore.build_index import build_index
 
 
 def fake_embed_batch(texts):
@@ -17,7 +17,7 @@ def fake_embed_batch(texts):
 TMP_KW = {"ignore_cleanup_errors": True}
 
 
-@patch("vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
+@patch("pgrag.vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
 def test_build_upserts_docs_with_correct_dim(mock_embed):
     docs = [
         {"id": "a", "type": "item", "text": "alpha", "metadata": {"source": "cdn", "table": "items"}},
@@ -34,7 +34,7 @@ def test_build_upserts_docs_with_correct_dim(mock_embed):
         assert len(result["embeddings"][0]) == EMBEDDING_DIM
 
 
-@patch("vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
+@patch("pgrag.vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
 def test_build_deleted_doc_purged(mock_embed):
     docs_a = [
         {"id": "a", "type": "item", "text": "alpha", "metadata": {"source": "cdn", "table": "items"}},
@@ -53,7 +53,7 @@ def test_build_deleted_doc_purged(mock_embed):
         assert coll.get()["ids"] == ["a"]
 
 
-@patch("vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
+@patch("pgrag.vectorstore.build_index.embed_batch", side_effect=fake_embed_batch)
 def test_build_metadata_only_skips_reembed(mock_embed):
     docs_first = [
         {"id": "x", "type": "item", "text": "same", "metadata": {"source": "cdn", "table": "items", "name": "old"}},
@@ -81,11 +81,11 @@ def test_build_dimension_mismatch_aborts():
     ]
     with tempfile.TemporaryDirectory(**TMP_KW) as tmp:
         chroma_path = str(Path(tmp) / "chroma")
-        with patch("vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2, 0.3, 0.4]]), \
-             patch("vectorstore.build_index.EMBEDDING_DIM", 4):
+        with patch("pgrag.vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2, 0.3, 0.4]]), \
+             patch("pgrag.vectorstore.build_index.EMBEDDING_DIM", 4):
             build_index(documents=docs_first, chroma_path=chroma_path)
-        with patch("vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2]]), \
-             patch("vectorstore.build_index.EMBEDDING_DIM", 4):
+        with patch("pgrag.vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2]]), \
+             patch("pgrag.vectorstore.build_index.EMBEDDING_DIM", 4):
             with pytest.raises(Exception, match="expected 4"):
                 build_index(documents=docs_second, chroma_path=chroma_path)
 
@@ -99,10 +99,10 @@ def test_v23_build_start_aborts_on_dim_mismatch():
     ]
     with tempfile.TemporaryDirectory(**TMP_KW) as tmp:
         chroma_path = str(Path(tmp) / "chroma")
-        with patch("vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2, 0.3, 0.4]]), \
-             patch("vectorstore.build_index.EMBEDDING_DIM", 4):
+        with patch("pgrag.vectorstore.build_index.embed_batch", return_value=[[0.1, 0.2, 0.3, 0.4]]), \
+             patch("pgrag.vectorstore.build_index.EMBEDDING_DIM", 4):
             build_index(documents=docs_first, chroma_path=chroma_path)
-        with patch("vectorstore.build_index.embed_batch", side_effect=AssertionError("must not embed")):
+        with patch("pgrag.vectorstore.build_index.embed_batch", side_effect=AssertionError("must not embed")):
             with pytest.raises(ValueError, match="EMBEDDING_DIM"):
                 build_index(documents=docs_second, chroma_path=chroma_path)
 
@@ -128,9 +128,9 @@ def test_build_interleaves_embed_and_upsert_per_batch():
 
     with tempfile.TemporaryDirectory(**TMP_KW) as tmp:
         chroma_path = str(Path(tmp) / "chroma")
-        with patch("vectorstore.build_index.embed_batch", side_effect=tracked_embed), \
-             patch("vectorstore.build_index.EMBED_BATCH_SIZE", 4), \
-             patch("vectorstore.build_index.BATCH_SIZE", 2), \
+        with patch("pgrag.vectorstore.build_index.embed_batch", side_effect=tracked_embed), \
+             patch("pgrag.vectorstore.build_index.EMBED_BATCH_SIZE", 4), \
+             patch("pgrag.vectorstore.build_index.BATCH_SIZE", 2), \
              patch.object(Collection, "upsert", side_effect=tracked_upsert, autospec=True):
             build_index(documents=docs, chroma_path=chroma_path)
 
@@ -157,9 +157,9 @@ def test_build_interruption_persists_completed_batches_and_resumes():
 
     with tempfile.TemporaryDirectory(**TMP_KW) as tmp:
         chroma_path = str(Path(tmp) / "chroma")
-        with patch("vectorstore.build_index.embed_batch", side_effect=failing_embed), \
-             patch("vectorstore.build_index.EMBED_BATCH_SIZE", 4), \
-             patch("vectorstore.build_index.BATCH_SIZE", 4):
+        with patch("pgrag.vectorstore.build_index.embed_batch", side_effect=failing_embed), \
+             patch("pgrag.vectorstore.build_index.EMBED_BATCH_SIZE", 4), \
+             patch("pgrag.vectorstore.build_index.BATCH_SIZE", 4):
             with pytest.raises(RuntimeError, match="simulated crash"):
                 build_index(documents=docs, chroma_path=chroma_path)
 
@@ -175,9 +175,9 @@ def test_build_interruption_persists_completed_batches_and_resumes():
             embedded_texts.extend(texts)
             return [[0.1] * EMBEDDING_DIM for _ in texts]
 
-        with patch("vectorstore.build_index.embed_batch", side_effect=record_embed), \
-             patch("vectorstore.build_index.EMBED_BATCH_SIZE", 4), \
-             patch("vectorstore.build_index.BATCH_SIZE", 4):
+        with patch("pgrag.vectorstore.build_index.embed_batch", side_effect=record_embed), \
+             patch("pgrag.vectorstore.build_index.EMBED_BATCH_SIZE", 4), \
+             patch("pgrag.vectorstore.build_index.BATCH_SIZE", 4):
             build_index(documents=docs, chroma_path=chroma_path)
 
         assert embedded_texts == ["text 4", "text 5", "text 6", "text 7"]

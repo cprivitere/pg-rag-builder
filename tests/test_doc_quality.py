@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from documents.chunking import chunk_all_documents
+from pgrag.documents.chunking import chunk_all_documents
 
 CDN_DIR = Path("data/cdn")
 
@@ -22,7 +22,7 @@ _RAW_ITEM_ID = re.compile(r"item_\d+")
 
 
 def _assemble(db):
-    from documents.builder import _assemble_documents
+    from pgrag.documents.builder import _assemble_documents
     return _assemble_documents(db)
 
 
@@ -31,9 +31,9 @@ def real_docs():
     if not (CDN_DIR / "items.json").exists():
         pytest.skip("data/cdn/ absent — real-data sweep skipped")
 
-    from database import GameDatabase
-    from loaders.cdn_loader import load_database
-    from loaders.wiki_loader import load_wiki
+    from pgrag.loaders.database import GameDatabase
+    from pgrag.loaders.cdn_loader import load_database
+    from pgrag.loaders.wiki_loader import load_wiki
 
     db = GameDatabase()
     load_database(db)
@@ -164,9 +164,9 @@ def test_real_recipe_xp_line_present(real_docs):
 
 @pytest.mark.slow
 def test_real_determinism(real_docs):
-    from database import GameDatabase
-    from loaders.cdn_loader import load_database
-    from loaders.wiki_loader import load_wiki
+    from pgrag.loaders.database import GameDatabase
+    from pgrag.loaders.cdn_loader import load_database
+    from pgrag.loaders.wiki_loader import load_wiki
 
     db = GameDatabase()
     load_database(db)

@@ -1,5 +1,5 @@
-from rag.retriever import _rerank_or_cross_encoder, _term_overlap
-from rag import reranker_client
+from pgrag.rag.retriever import _rerank_or_cross_encoder, _term_overlap
+from pgrag.rag import reranker_client
 
 
 IDS = ["a", "b", "c"]

@@ -1,4 +1,4 @@
-from rag.query_classifier import classify_query
+from pgrag.rag.query_classifier import classify_query
 
 
 def test_highest_detected():

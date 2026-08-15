@@ -1,4 +1,4 @@
-from rag.prompts import build_prompt
+from pgrag.rag.prompts import build_prompt
 
 
 def test_comparison_prompt_includes_instructions():

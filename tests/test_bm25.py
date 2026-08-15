@@ -1,7 +1,7 @@
 from unittest.mock import patch, MagicMock, ANY
 
-from rag.bm25 import BM25
-from rag.retriever import _hybrid_fuse, retrieve, HYBRID_MULTIPLIER, RRF_K
+from pgrag.rag.bm25 import BM25
+from pgrag.rag.retriever import _hybrid_fuse, retrieve, HYBRID_MULTIPLIER, RRF_K
 
 
 def test_bm25_rank_known_doc_highest():
@@ -98,16 +98,16 @@ def test_hybrid_multiplier_constant():
 
 
 def test_hybrid_default_disabled():
-    from rag.retriever import retrieve
+    from pgrag.rag.retriever import retrieve
     import inspect
     src = inspect.signature(retrieve)
     assert "hybrid" in src.parameters
     assert src.parameters["hybrid"].default is False
 
 
-@patch("rag.retriever.embed_text")
-@patch("rag.retriever.chromadb.PersistentClient")
-@patch("rag.bm25.load_bm25_index")
+@patch("pgrag.rag.retriever.embed_text")
+@patch("pgrag.rag.retriever.chromadb.PersistentClient")
+@patch("pgrag.rag.bm25.load_bm25_index")
 def test_retrieve_hybrid_routes_to_bm25(mock_load, mock_client, mock_embed):
     mock_embed.return_value = [0.1] * 128
     mock_col = MagicMock()
@@ -135,8 +135,8 @@ def test_retrieve_hybrid_routes_to_bm25(mock_load, mock_client, mock_embed):
     assert len(results["ids"][0]) == 3
 
 
-@patch("rag.retriever.embed_text")
-@patch("rag.retriever.chromadb.PersistentClient")
+@patch("pgrag.rag.retriever.embed_text")
+@patch("pgrag.rag.retriever.chromadb.PersistentClient")
 def test_retrieve_comparison_uses_higher_count(mock_client, mock_embed):
     mock_embed.return_value = [0.1] * 128
     mock_col = MagicMock()
@@ -154,8 +154,8 @@ def test_retrieve_comparison_uses_higher_count(mock_client, mock_embed):
     assert call_kwargs["n_results"] == 20
 
 
-@patch("rag.retriever.embed_text")
-@patch("rag.retriever.chromadb.PersistentClient")
+@patch("pgrag.rag.retriever.embed_text")
+@patch("pgrag.rag.retriever.chromadb.PersistentClient")
 def test_retrieve_general_uses_default_count(mock_client, mock_embed):
     mock_embed.return_value = [0.1] * 128
     mock_col = MagicMock()

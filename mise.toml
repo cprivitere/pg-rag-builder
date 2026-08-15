@@ -22,40 +22,40 @@ alias = "te"
 [tasks.refresh]
 description = "Fast refresh: CDN data + rebuild documents + update vectorstore (skips slow wiki fetch)"
 run = [
-  "uv run python download_cdn.py",
-  "uv run python main.py",
-  "uv run -m vectorstore.build_index",
+  "uv run pgrag download-cdn",
+  "uv run pgrag build-documents",
+  "uv run pgrag build-index",
 ]
 alias = "rf"
 
 [tasks."refresh-full"]
 description = "Full refresh: CDN + wiki data + rebuild documents + update vectorstore"
 run = [
-  "uv run python download_cdn.py",
-  "uv run python download_wiki.py",
-  "uv run python main.py",
-  "uv run -m vectorstore.build_index",
+  "uv run pgrag download-cdn",
+  "uv run pgrag download-wiki",
+  "uv run pgrag build-documents",
+  "uv run pgrag build-index",
 ]
 
 [tasks."refresh-cdn"]
 description = "Download CDN data to data/cdn/"
-run = "uv run python download_cdn.py"
+run = "uv run pgrag download-cdn"
 
 [tasks."refresh-wiki"]
 description = "Download wiki pages to data/wiki/ (slow)"
-run = "uv run python download_wiki.py"
+run = "uv run pgrag download-wiki"
 
 [tasks."refresh-documents"]
 description = "Build data/documents.json from CDN + wiki data"
-run = "uv run python main.py"
+run = "uv run pgrag build-documents"
 
 [tasks."refresh-vectors"]
 description = "Upsert documents into ChromaDB index"
-run = "uv run -m vectorstore.build_index"
+run = "uv run pgrag build-index"
 
 [tasks.validate]
 description = "Validate vectorstore health; rebuild if issues found"
-run = "uv run -m vectorstore.health_check && echo 'Index healthy' || (echo 'Rebuilding...' && uv run -m vectorstore.build_index)"
+run = "uv run pgrag validate && echo 'Index healthy' || (echo 'Rebuilding...' && uv run pgrag build-index)"
 alias = "va"
 
 # --- Embedding server ---
@@ -97,7 +97,7 @@ alias = "down"
 
 [tasks.status]
 description = "Check status of all services (embed, llm, rerank, webui)"
-run = "uv run python check_services.py"
+run = "uv run python scripts/check_services.py"
 alias = "st"
 
 # --- Log viewing ---

@@ -1,4 +1,4 @@
-from rag.pipeline import ask
+from pgrag.rag.pipeline import ask
 
 
 def main():

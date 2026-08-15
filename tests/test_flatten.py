@@ -1,5 +1,5 @@
-from documents.builder import build_item_documents, build_recipe_documents
-from vectorstore.hashes import embedding_hash
+from pgrag.documents.builder import build_item_documents, build_recipe_documents
+from pgrag.vectorstore.hashes import embedding_hash
 
 
 def _make_db(items=None, recipes=None, attributes=None):

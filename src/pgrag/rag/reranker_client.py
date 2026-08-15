@@ -6,7 +6,7 @@ import time
 
 import requests
 
-from config import DATA_DIR
+from pgrag.config import DATA_DIR
 
 logger = logging.getLogger(__name__)
 

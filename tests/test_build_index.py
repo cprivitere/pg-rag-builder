@@ -1,7 +1,7 @@
 from unittest.mock import MagicMock, patch
 
-from vectorstore.hashes import embedding_hash, metadata_hash
-from vectorstore.build_index import _get_existing_dim
+from pgrag.vectorstore.hashes import embedding_hash, metadata_hash
+from pgrag.vectorstore.build_index import _get_existing_dim
 
 
 def test_v7_deleted_ids_computation():

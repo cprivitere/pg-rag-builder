@@ -1,4 +1,4 @@
-from documents.summaries import build_summary_documents
+from pgrag.documents.summaries import build_summary_documents
 
 
 def _make_recipes(recipes_dict):

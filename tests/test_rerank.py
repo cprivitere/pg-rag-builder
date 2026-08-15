@@ -1,4 +1,4 @@
-from rag.retriever import _term_overlap, _rerank, RERANK_MULTIPLIER
+from pgrag.rag.retriever import _term_overlap, _rerank, RERANK_MULTIPLIER
 
 
 def test_term_overlap_full_match():

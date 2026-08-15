@@ -1,5 +1,5 @@
 import pytest
-from embeddings.llama_embeddings import validate_embeddings, EmbeddingValidationError
+from pgrag.embeddings.llama_embeddings import validate_embeddings, EmbeddingValidationError
 
 
 def test_valid_vectors_pass():

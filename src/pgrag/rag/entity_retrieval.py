@@ -2,8 +2,8 @@ import json
 import logging
 from pathlib import Path
 
-from config import CONTEXT_BUDGET
-from rag.retriever import retrieve
+from pgrag.config import CONTEXT_BUDGET
+from pgrag.rag.retriever import retrieve
 
 logger = logging.getLogger(__name__)
 

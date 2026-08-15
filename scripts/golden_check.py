@@ -3,7 +3,7 @@ import re
 import sys
 from pathlib import Path
 
-from rag.pipeline import ask
+from pgrag.rag.pipeline import ask
 
 GOLDEN_DIR = Path("data/golden")
 

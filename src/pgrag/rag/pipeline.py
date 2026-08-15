@@ -4,14 +4,14 @@ import re
 import chromadb
 from pathlib import Path
 
-from embeddings.llama_embeddings import embed_text
-from rag.query_classifier import classify_query, find_entity
-from rag.entity_retrieval import build_entity_context
-from rag.retriever import retrieve
-from rag.prompts import build_prompt
-from rag.llm import generate
-from rag.synthesis_detector import should_synthesize
-from rag.synthesis_generator import synthesize_answer, create_curated_doc
+from pgrag.embeddings.llama_embeddings import embed_text
+from pgrag.rag.query_classifier import classify_query, find_entity
+from pgrag.rag.entity_retrieval import build_entity_context
+from pgrag.rag.retriever import retrieve
+from pgrag.rag.prompts import build_prompt
+from pgrag.rag.llm import generate
+from pgrag.rag.synthesis_detector import should_synthesize
+from pgrag.rag.synthesis_generator import synthesize_answer, create_curated_doc
 
 logger = logging.getLogger(__name__)
 

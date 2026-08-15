@@ -1,6 +1,6 @@
 """Synthesis generator — use LLM to create curated docs from scattered chunks."""
 
-from rag.llm import generate, LLMServerError
+from pgrag.rag.llm import generate, LLMServerError
 
 
 SYNTHESIS_PROMPT = """You are a game assistant for Project Gorgon. The user asked a question but the search results are scattered across multiple sources. 

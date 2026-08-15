@@ -1,7 +1,7 @@
 from pathlib import Path
 from unittest.mock import patch
 
-from rag import pipeline
+from pgrag.rag import pipeline
 
 
 FAKE_RESULTS = {
@@ -48,7 +48,7 @@ def test_v24_synthesis_persisted_id_stable(tmp_path):
 
 
 def test_v24_create_curated_doc_returns_shape():
-    from rag.synthesis_generator import create_curated_doc
+    from pgrag.rag.synthesis_generator import create_curated_doc
     results = [
         {"text": "one", "metadata": {"source": "wiki", "name": "one"}},
         {"text": "two", "metadata": {"source": "cdn", "name": "two"}},

@@ -4,9 +4,9 @@ import chromadb
 
 sys.stdout.reconfigure(line_buffering=True)
 
-from config import EMBEDDING_DIM
-from embeddings.llama_embeddings import embed_batch, validate_embeddings
-from vectorstore.hashes import embedding_hash, metadata_hash
+from pgrag.config import EMBEDDING_DIM
+from pgrag.embeddings.llama_embeddings import embed_batch, validate_embeddings
+from pgrag.vectorstore.hashes import embedding_hash, metadata_hash
 
 BATCH_SIZE = 5000
 EMBED_BATCH_SIZE = 10000

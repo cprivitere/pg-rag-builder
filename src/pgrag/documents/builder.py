@@ -2,11 +2,11 @@ import mwparserfromhell
 import re
 from pathlib import Path
 
-from documents.resolver import GameResolver
-from documents.wiki_builder import build_wiki_documents
-from documents.chunking import chunk_all_documents
-from documents.skill_profiles import build_skill_profile_documents
-from documents.summaries import (
+from pgrag.documents.resolver import GameResolver
+from pgrag.documents.wiki_builder import build_wiki_documents
+from pgrag.documents.chunking import chunk_all_documents
+from pgrag.documents.skill_profiles import build_skill_profile_documents
+from pgrag.documents.summaries import (
     build_summary_documents,
     build_gathering_summaries,
     build_wiki_gathering_summaries,

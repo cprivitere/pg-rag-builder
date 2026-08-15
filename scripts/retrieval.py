@@ -1,6 +1,6 @@
 import chromadb
 
-from embeddings.llama_embeddings import embed_text
+from pgrag.embeddings.llama_embeddings import embed_text
 
 
 def main():

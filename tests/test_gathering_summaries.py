@@ -1,4 +1,4 @@
-from documents.summaries import (
+from pgrag.documents.summaries import (
     build_gathering_summaries,
     build_wiki_gathering_summaries,
 )

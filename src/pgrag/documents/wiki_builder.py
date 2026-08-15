@@ -3,7 +3,7 @@ import re
 
 import mwparserfromhell
 
-from config import WIKI_DIR
+from pgrag.config import WIKI_DIR
 
 MIN_SECTION_CHARS = 50
 

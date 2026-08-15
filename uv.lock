@@ -979,7 +979,7 @@ wheels = [
 [[package]]
 name = "pg-rag-builder"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "chromadb" },
     { name = "mwclient" },

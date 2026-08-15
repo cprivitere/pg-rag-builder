@@ -18,6 +18,6 @@ def test_v25_scheduler_runs_main_before_build_index():
          patch("scripts.curator_scheduler.subprocess.run", side_effect=fake_subprocess):
         run_curator_with_scheduler()
 
-    main_idx = calls.index([sys.executable, "main.py"])
-    build_idx = calls.index([sys.executable, "-m", "vectorstore.build_index"])
-    assert main_idx < build_idx, "V25: main.py must run before build_index"
+    main_idx = calls.index([sys.executable, "-m", "pgrag.cli", "build-documents"])
+    build_idx = calls.index([sys.executable, "-m", "pgrag.cli", "build-index"])
+    assert main_idx < build_idx, "V25: build-documents must run before build-index"

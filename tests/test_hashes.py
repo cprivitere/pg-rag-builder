@@ -1,5 +1,5 @@
 import pytest
-from vectorstore.hashes import embedding_hash, metadata_hash
+from pgrag.vectorstore.hashes import embedding_hash, metadata_hash
 
 
 def test_embedding_hash_uses_id_and_text_only():

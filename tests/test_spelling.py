@@ -1,6 +1,6 @@
 import pytest
 
-from rag import spelling
+from pgrag.rag import spelling
 
 
 @pytest.fixture(autouse=True)

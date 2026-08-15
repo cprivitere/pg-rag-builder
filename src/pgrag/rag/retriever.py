@@ -2,8 +2,8 @@ import logging
 
 import chromadb
 
-from embeddings.llama_embeddings import embed_text
-from rag.spelling import correct_query
+from pgrag.embeddings.llama_embeddings import embed_text
+from pgrag.rag.spelling import correct_query
 
 logger = logging.getLogger(__name__)
 
@@ -117,7 +117,7 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False,
     results["rerank_used"] = False
 
     if hybrid:
-        from rag.bm25 import load_bm25_index
+        from pgrag.rag.bm25 import load_bm25_index
         fuse_target = effective_count * RERANK_MULTIPLIER if rerank else effective_count
         bm25_model, all_docs = load_bm25_index()
         bm25_indices, _ = bm25_model.search(question, k=fuse_target)
@@ -173,7 +173,7 @@ def _rerank_or_cross_encoder(query, ids, documents, metadatas, distances, count)
     Returns reordered quads + used flag.
     """
     try:
-        from rag.reranker_client import rerank_documents, record_failure, record_success
+        from pgrag.rag.reranker_client import rerank_documents, record_failure, record_success
 
         indices = rerank_documents(query, documents, count)
         reranked = (

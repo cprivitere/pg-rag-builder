@@ -1,6 +1,6 @@
 import pytest
 
-from rag.query_classifier import classify_query, find_entity
+from pgrag.rag.query_classifier import classify_query, find_entity
 
 SYNTHETIC_INDEX = [
     ("Dungcrafting", "skill_Pooping", "skill"),
@@ -16,7 +16,7 @@ SYNTHETIC_INDEX = [
 @pytest.fixture(autouse=True)
 def fake_index(monkeypatch):
     monkeypatch.setattr(
-        "rag.query_classifier._load_entity_index",
+        "pgrag.rag.query_classifier._load_entity_index",
         lambda: sorted(SYNTHETIC_INDEX, key=lambda t: len(t[0]), reverse=True),
     )
 
@@ -43,7 +43,7 @@ def test_bare_name_entity():
 
 def test_entity_hub_miss_fallback(monkeypatch):
     monkeypatch.setattr(
-        "rag.query_classifier._load_entity_index", lambda: []
+        "pgrag.rag.query_classifier._load_entity_index", lambda: []
     )
     assert classify_query("what is the Dungcrafting skill") == "general"
 
@@ -76,7 +76,7 @@ def test_unknown_query_general():
 
 def test_find_entity_typo_fallback(monkeypatch):
     monkeypatch.setattr(
-        "rag.query_classifier.correct_query", lambda q: "what is mushroom"
+        "pgrag.rag.query_classifier.correct_query", lambda q: "what is mushroom"
     )
     hub, dtype = find_entity("what is msurhoom")
     assert hub == "item_900"

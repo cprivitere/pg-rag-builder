@@ -1,6 +1,6 @@
 import sys
 import requests
-from config import CDN_DIR
+from pgrag.config import CDN_DIR
 
 sys.stdout.reconfigure(line_buffering=True)
 

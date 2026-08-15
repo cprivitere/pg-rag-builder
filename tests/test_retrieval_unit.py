@@ -1,11 +1,11 @@
 from unittest.mock import patch, MagicMock
 
-from rag.retriever import retrieve
-from rag.pipeline import ask
+from pgrag.rag.retriever import retrieve
+from pgrag.rag.pipeline import ask
 
 
-@patch("rag.retriever.embed_text")
-@patch("rag.retriever.chromadb.PersistentClient")
+@patch("pgrag.rag.retriever.embed_text")
+@patch("pgrag.rag.retriever.chromadb.PersistentClient")
 def test_retrieve_default_no_filter(mock_client, mock_embed):
     mock_embed.return_value = [0.1] * 128
     mock_col = MagicMock()
@@ -17,8 +17,8 @@ def test_retrieve_default_no_filter(mock_client, mock_embed):
     assert "where" not in kwargs
 
 
-@patch("rag.retriever.embed_text")
-@patch("rag.retriever.chromadb.PersistentClient")
+@patch("pgrag.rag.retriever.embed_text")
+@patch("pgrag.rag.retriever.chromadb.PersistentClient")
 def test_retrieve_with_source_filter(mock_client, mock_embed):
     mock_embed.return_value = [0.1] * 128
     mock_col = MagicMock()
@@ -31,8 +31,8 @@ def test_retrieve_with_source_filter(mock_client, mock_embed):
     assert kwargs.get("n_results") == 15
 
 
-@patch("rag.retriever.embed_text")
-@patch("rag.retriever.chromadb.PersistentClient")
+@patch("pgrag.rag.retriever.embed_text")
+@patch("pgrag.rag.retriever.chromadb.PersistentClient")
 def test_retrieve_with_table_filter(mock_client, mock_embed):
     mock_embed.return_value = [0.1] * 128
     mock_col = MagicMock()
@@ -44,8 +44,8 @@ def test_retrieve_with_table_filter(mock_client, mock_embed):
     assert kwargs.get("where") == {"table": "items"}
 
 
-@patch("rag.retriever.embed_text")
-@patch("rag.retriever.chromadb.PersistentClient")
+@patch("pgrag.rag.retriever.embed_text")
+@patch("pgrag.rag.retriever.chromadb.PersistentClient")
 def test_retrieve_with_composite_filter(mock_client, mock_embed):
     mock_embed.return_value = [0.1] * 128
     mock_col = MagicMock()
@@ -57,8 +57,8 @@ def test_retrieve_with_composite_filter(mock_client, mock_embed):
     assert kwargs.get("where") == {"source": "wiki", "table": "skills"}
 
 
-@patch("rag.pipeline.retrieve")
-@patch("rag.pipeline.generate")
+@patch("pgrag.rag.pipeline.retrieve")
+@patch("pgrag.rag.pipeline.generate")
 def test_ask_passes_metadata_filter(mock_generate, mock_retrieve):
     mock_generate.return_value = "mock answer"
     mock_retrieve.return_value = {
@@ -75,8 +75,8 @@ def test_ask_passes_metadata_filter(mock_generate, mock_retrieve):
     assert kwargs.get("metadata_filter") == {"source": "cdn"}
 
 
-@patch("rag.pipeline.retrieve")
-@patch("rag.pipeline.generate")
+@patch("pgrag.rag.pipeline.retrieve")
+@patch("pgrag.rag.pipeline.generate")
 def test_source_citation_format_with_name(mock_generate, mock_retrieve):
     mock_generate.return_value = "mock answer"
     mock_retrieve.return_value = {
@@ -95,8 +95,8 @@ def test_source_citation_format_with_name(mock_generate, mock_retrieve):
     assert src["distance"] == 0.42
 
 
-@patch("rag.pipeline.retrieve")
-@patch("rag.pipeline.generate")
+@patch("pgrag.rag.pipeline.retrieve")
+@patch("pgrag.rag.pipeline.generate")
 def test_source_citation_fallback_to_id(mock_generate, mock_retrieve):
     mock_generate.return_value = "mock answer"
     mock_retrieve.return_value = {
@@ -111,8 +111,8 @@ def test_source_citation_fallback_to_id(mock_generate, mock_retrieve):
     assert result["sources"][0]["citation"] == "item_96 (items)"
 
 
-@patch("rag.pipeline.retrieve")
-@patch("rag.pipeline.generate")
+@patch("pgrag.rag.pipeline.retrieve")
+@patch("pgrag.rag.pipeline.generate")
 def test_source_citation_unknown_table(mock_generate, mock_retrieve):
     mock_generate.return_value = "mock answer"
     mock_retrieve.return_value = {

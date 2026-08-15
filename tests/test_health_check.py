@@ -6,9 +6,9 @@ from unittest.mock import patch
 import chromadb
 import pytest
 
-from config import EMBEDDING_DIM
-from vectorstore.build_index import build_index
-from vectorstore.health_check import health_check
+from pgrag.config import EMBEDDING_DIM
+from pgrag.vectorstore.build_index import build_index
+from pgrag.vectorstore.health_check import health_check
 
 
 def fake_embed_batch(texts):
@@ -16,7 +16,7 @@ def fake_embed_batch(texts):
 
 
 def _build_test_index(docs, chroma_path):
-    with patch("vectorstore.build_index.embed_batch", side_effect=fake_embed_batch):
+    with patch("pgrag.vectorstore.build_index.embed_batch", side_effect=fake_embed_batch):
         build_index(documents=docs, chroma_path=chroma_path)
 
 
@@ -120,7 +120,7 @@ def test_v23_dimension_mismatch_reported():
         with open(doc_path, "w") as f:
             json.dump(docs, f)
         _build_test_index(docs, chroma_path)
-        with patch("vectorstore.health_check.EMBEDDING_DIM", 999):
+        with patch("pgrag.vectorstore.health_check.EMBEDDING_DIM", 999):
             assert health_check(chroma_path=chroma_path, documents_path=doc_path) == 1
 
 

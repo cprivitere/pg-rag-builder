@@ -3,8 +3,8 @@ import sys
 
 import chromadb
 
-from config import EMBEDDING_DIM
-from vectorstore.hashes import embedding_hash, metadata_hash
+from pgrag.config import EMBEDDING_DIM
+from pgrag.vectorstore.hashes import embedding_hash, metadata_hash
 
 CHROMA_PATH = "data/chroma"
 COLLECTION_NAME = "project_gorgon"

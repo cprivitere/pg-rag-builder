@@ -2,7 +2,7 @@ import json
 import re
 from pathlib import Path
 
-from rag.spelling import correct_query
+from pgrag.rag.spelling import correct_query
 
 COMPARISON_PATTERNS = [
     r"\bhighest\b",

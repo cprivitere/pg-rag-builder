@@ -3,7 +3,7 @@ import types
 
 import pytest
 
-from rag import query_classifier as qc
+from pgrag.rag import query_classifier as qc
 
 
 def _docs(name, base_id):

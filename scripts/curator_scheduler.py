@@ -94,7 +94,7 @@ def run_curator_with_scheduler():
     # Rebuild documents so new curated docs reach documents.json (V25)
     print("Rebuilding documents.json...")
     docs_result = subprocess.run(
-        [sys.executable, "main.py"],
+        [sys.executable, "-m", "pgrag.cli", "build-documents"],
         capture_output=True,
         text=True
     )
@@ -106,7 +106,7 @@ def run_curator_with_scheduler():
     # Rebuild index if curator created new files
     print("Rebuilding index...")
     rebuild_result = subprocess.run(
-        [sys.executable, "-m", "vectorstore.build_index"],
+        [sys.executable, "-m", "pgrag.cli", "build-index"],
         capture_output=True,
         text=True
     )
