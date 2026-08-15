@@ -9,7 +9,7 @@ from embeddings.llama_embeddings import embed_batch, validate_embeddings
 from vectorstore.hashes import embedding_hash, metadata_hash
 
 BATCH_SIZE = 5000
-EMBED_BATCH_SIZE = 1000
+EMBED_BATCH_SIZE = 10000
 
 
 def load_documents():

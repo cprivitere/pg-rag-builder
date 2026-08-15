@@ -53,7 +53,7 @@ api: POST `:8080/v1/chat/completions` → LLM response / synthesis (llama.cpp)
 db: `data/chroma` → ChromaDB persistent store
 db: `data/documents.json` → generated corpus
 cfg: `config.py` → DATA_DIR, CDN_DIR, WIKI_DIR, EMBEDDING_DIM, CONTEXT_BUDGET=24000
-cfg: `vectorstore/build_index.py` → EMBED_BATCH_SIZE=1000, BATCH_SIZE=5000
+cfg: `vectorstore/build_index.py` → EMBED_BATCH_SIZE=10000, BATCH_SIZE=5000
 coll: `project_gorgon` → collection name
 mod: `rag/entity_retrieval.py` → entity path: hub whole load, facet expansion, context pack
 data: `data/golden/` → golden answer dossiers (5, fact lists)
@@ -81,7 +81,7 @@ V1: Pipeline order: download CDN+wiki → load CDN+wiki → build documents → 
 V2: Chroma path ≡ `data/chroma`. ∀ ref uses `PersistentClient(path="data/chroma")`.
 V3: `embedding_hash()` = sha256(`{id, text}`). `metadata_hash()` = sha256(metadata). Separate.
 V4: Metadata-only change → `collection.update(metadatas=...)` only. Skip re-embed. `build_index.py:126`.
-V5: Embed batch ≤ 1000 (`EMBED_BATCH_SIZE`). Upsert batch ≤ 5000 (`BATCH_SIZE`).
+V5: Embed batch ≤ 10000 (`EMBED_BATCH_SIZE`). Upsert batch ≤ 5000 (`BATCH_SIZE`).
 V6: ∀ doc: `{id, type, text, metadata}`. Metadata: `{source, table, name?, type, embedding_hash, metadata_hash}`.
 V7: Deleted docs purged each build. `collection.delete(ids=deleted_ids)` @ `build_index.py:68-74`.
 V8: Collection name ≡ `project_gorgon`. ∀ ref same name. ⊥ drift build vs retrieve.

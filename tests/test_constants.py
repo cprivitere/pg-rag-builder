@@ -32,7 +32,7 @@ def test_v2_chroma_path_consistent():
 
 def test_v5_embed_batch_size():
     from vectorstore.build_index import EMBED_BATCH_SIZE
-    assert EMBED_BATCH_SIZE <= 1000, "V5: EMBED_BATCH_SIZE must be ≤ 1000"
+    assert EMBED_BATCH_SIZE <= 10000, "V5: EMBED_BATCH_SIZE must be ≤ 10000"
 
 
 def test_v5_upsert_batch_size():

@@ -1,5 +1,5 @@
 #!/usr/bin/env pwsh
-#MISE description="Start embedding server — production (4 slots, 8k context) with logging"
+#MISE description="Start embedding server with logging"
 #MISE alias="se"
 #MISE depends=["ensure-logs-dir"]
 
@@ -18,7 +18,7 @@ if ($existing) {
 
 $exe = 'llama-server'
 $logFile = Join-Path $logDir 'embed.log'
-$serverArgs = @('-hf','jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0','--host','0.0.0.0','--port','8081','--embedding','--pooling','last','-ngl','99','-np','4','-c','8192',"--log-file","$logFile")
+$serverArgs = @('-hf','twine-network/mxbai-embed-xsmall-v1-Q8_0-GGUF:Q8_0','--host','0.0.0.0','--port','8081','--embedding','--pooling','mean','-ngl','99','--ubatch-size','8192','-np','1','-c','4096',"--log-file","$logFile")
 
 Start-Process -FilePath $exe -ArgumentList $serverArgs -WindowStyle Hidden
 

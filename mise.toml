@@ -28,26 +28,29 @@ run = [
 ]
 alias = "rf"
 
-[tasks."refresh::full"]
+[tasks."refresh-full"]
 description = "Full refresh: CDN + wiki data + rebuild documents + update vectorstore"
-depends = ["refresh::vectors"]
+run = [
+  "uv run python download_cdn.py",
+  "uv run python download_wiki.py",
+  "uv run python main.py",
+  "uv run -m vectorstore.build_index",
+]
 
-[tasks."refresh::cdn"]
+[tasks."refresh-cdn"]
 description = "Download CDN data to data/cdn/"
 run = "uv run python download_cdn.py"
 
-[tasks."refresh::wiki"]
+[tasks."refresh-wiki"]
 description = "Download wiki pages to data/wiki/ (slow)"
 run = "uv run python download_wiki.py"
 
-[tasks."refresh::documents"]
+[tasks."refresh-documents"]
 description = "Build data/documents.json from CDN + wiki data"
-depends = ["refresh::cdn", "refresh::wiki"]
 run = "uv run python main.py"
 
-[tasks."refresh::vectors"]
+[tasks."refresh-vectors"]
 description = "Upsert documents into ChromaDB index"
-depends = ["refresh::documents"]
 run = "uv run -m vectorstore.build_index"
 
 [tasks.validate]
@@ -58,14 +61,9 @@ alias = "va"
 # --- Embedding server ---
 
 # Debug/foreground commands
-[tasks."debug-embed-build"]
-description = "Start embedding server in foreground — build mode (debug)"
-run = "llama-server -hf jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0 --host 0.0.0.0 --port 8081 --embedding --pooling last -ngl 99 -np 1 -c 64000"
-alias = "deb"
-
 [tasks."debug-embed"]
-description = "Start embedding server in foreground — production (debug)"
-run = "llama-server -hf jinaai/jina-embeddings-v5-text-small-retrieval-GGUF:Q8_0 --host 0.0.0.0 --port 8081 --embedding --pooling last -ngl 99 -np 4 -c 8192"
+description = "Start embedding server in foreground (debug)"
+run = "llama-server -hf twine-network/mxbai-embed-xsmall-v1-Q8_0-GGUF:Q8_0 --host 0.0.0.0 --port 8081 --embedding --pooling mean -ngl 99 --ubatch-size 8192 -np 1 -c 4096"
 alias = "dse"
 
 # --- LLM server ---

@@ -25,8 +25,7 @@ uv run python -m scripts.retrieval # interactive Chroma similarity search (requi
 **Service Management (with logging via `.mise/tasks/*.ps1`):**
 - `mise start` / `mise start-all` — Start all services (embed + llm + rerank + webui) with logging
 - `mise down` / `mise stop-all` — Stop all services
-- `mise se` / `mise start-embed` — Start embedding server (production mode) with logging
-- `mise eb` / `mise start-embed-build` — Start embedding server (build mode) with logging
+- `mise se` / `mise start-embed` — Start embedding server with logging
 - `mise sl` / `mise start-llm` — Start LLM server with logging
 - `mise sr` / `mise start-rerank` — Start reranker server (:8082, bge-reranker-v2-m3 Q4_K_M cross-encoder) with logging; params `-Model` (gguf path or `org/repo:quant`) + `-Ctx` via `pwsh .mise/tasks/rerank-start.ps1`
 - `mise sw` / `mise start-webui` — Start Open WebUI with logging
@@ -36,8 +35,7 @@ uv run python -m scripts.retrieval # interactive Chroma similarity search (requi
 - `mise xw` / `mise stop-webui` — Stop Open WebUI (kills process on port 3000)
 
 **Debug Mode (foreground, direct stdout):**
-- `mise dse` / `mise debug-embed` — Start embedding server in foreground (production)
-- `mise deb` / `mise debug-embed-build` — Start embedding server in foreground (build mode)
+- `mise dse` / `mise debug-embed` — Start embedding server in foreground
 - `mise dsl` / `mise debug-llm` — Start LLM server in foreground
 - `mise dsw` / `mise debug-webui` — Start Open WebUI in foreground
 
@@ -75,7 +73,7 @@ Each step depends on prior output. Never build index without documents. Never bu
 
 | Service | Port | Required for |
 |---------|------|-------------|
-| llama.cpp embedding | :8081 | `embed_batch`, `embed_text`, Chroma similarity search |
+| llama.cpp embedding (mxbai-xsmall-Q8) | :8081 | `embed_batch`, `embed_text`, Chroma similarity search |
 | llama.cpp LLM | :8080 | RAG Q&A (`scripts.rag`) |
 | llama.cpp reranker (bge-reranker-v2-m3) | :8082 | cross-encoder rerank of retrieved docs |
 | Open WebUI | :3000 | Web interface for LLM interaction |
@@ -99,10 +97,10 @@ LLM server runs with `-c 16384` context + `--reasoning-budget 1024`, KV cache f1
 ## Logs directory
 
 `logs/` is not tracked. Contains service output from background processes:
-- `logs/embed.log` / `logs/embed-error.log` — Embedding server output
+- `logs/embed.log` — Embedding server output
 - `logs/llm.log` / `logs/llm-error.log` — LLM server output
 - `logs/webui.log` / `logs/webui-error.log` — Open WebUI output
-- `logs/embed-build.log` / `logs/embed-build-error.log` — Embedding build mode output
+
 - `logs/rerank.log` — Reranker server output
 
 ## Testing
@@ -119,6 +117,24 @@ cavekit format: §G (Goal), §C (Constraints), §I (Interfaces), §V (Invariants
 ## Python
 
 Requires ≥3.14. Package manager: `uv`. Deps in `pyproject.toml`. Lockfile: `uv.lock`. Run any Python via `uv run python ...`.
+
+## HuggingFace CLI (`hf`)
+
+Used for model management. Installed globally, not via uv.
+
+```bash
+hf cache list                              # list all cached repos with sizes
+hf cache list | Select-String "embed"      # filter to embedding models
+hf models card <org/repo> --format agent   # model card as markdown
+hf models card <org/repo> --metadata --format agent  # model card metadata as JSON
+hf download <org/repo> <file>             # download a specific file
+```
+
+**Tips:**
+- `hf cache list` output includes `size`, `last_accessed`, `last_modified` columns
+- Use `--metadata` flag to get structured JSON (dimensions, context length, license, benchmarks)
+- GGUF files auto-download when passed to llama-server via `-hf org/repo:quant`
+- Cache location: `F:\AI\models\hub/` on this machine
 
 ## OpenCode config — never commit
 

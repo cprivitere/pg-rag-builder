@@ -73,19 +73,23 @@ def test_chunk_all_documents():
 def test_constants():
     assert DEFAULT_MAX_CHARS == 1024
     assert OVERLAP_CHARS == 100
-    assert TYPE_MAX_CHARS["item"] == 512
-    assert TYPE_MAX_CHARS["recipe"] == 512
+    assert TYPE_MAX_CHARS["item"] == 1024
+    assert TYPE_MAX_CHARS["recipe"] == 1024
     assert TYPE_MAX_CHARS["wiki"] == 1024
+    assert TYPE_MAX_CHARS["lorebook"] == 2048
+    assert TYPE_MAX_CHARS["skillprofile"] == 2048
+    assert TYPE_MAX_CHARS["summary"] == 8192
+    assert TYPE_MAX_CHARS["curated"] == 8192
 
 
 def test_type_aware_limits():
-    item_doc = {"id": "i1", "type": "item", "text": "x\n\n" * 200, "metadata": {}}
-    wiki_doc = {"id": "w1", "type": "wiki", "text": "x\n\n" * 200, "metadata": {}}
+    item_doc = {"id": "i1", "type": "item", "text": "x\n\n" * 500, "metadata": {}}
+    lore_doc = {"id": "w1", "type": "lorebook", "text": "x\n\n" * 500, "metadata": {}}
 
     item_chunks = chunk_document(item_doc)
-    wiki_chunks = chunk_document(wiki_doc)
+    lore_chunks = chunk_document(lore_doc)
 
-    assert len(item_chunks) > len(wiki_chunks)
+    assert len(item_chunks) > len(lore_chunks)
 
 
 def test_overlap_between_chunks():
