@@ -141,11 +141,6 @@ def build_index(documents=None, chroma_path="data/chroma"):
                 metadatas=meta_metadatas[i:i + BATCH_SIZE]
             )
 
-    ids = []
-    embeddings = []
-    texts = []
-    metadatas = []
-
     if not documents_to_embed:
         print("No documents need embedding.")
     else:
@@ -167,6 +162,11 @@ def build_index(documents=None, chroma_path="data/chroma"):
 
             validate_embeddings(batch_embeddings, expected_dim=EMBEDDING_DIM)
 
+            ids = []
+            embeddings = []
+            texts = []
+            metadatas = []
+
             for doc, embedding in zip(batch, batch_embeddings):
 
                 ids.append(doc["id"])
@@ -183,15 +183,18 @@ def build_index(documents=None, chroma_path="data/chroma"):
 
                 metadatas.append(metadata)
 
-        for i in range(0, len(ids), BATCH_SIZE):
-            print(f"Adding vectors {i} - {min(i+BATCH_SIZE, len(ids))}")
+            for i in range(0, len(ids), BATCH_SIZE):
+                print(
+                    f"Adding vectors {start + i} - "
+                    f"{start + min(i + BATCH_SIZE, len(ids))}"
+                )
 
-            collection.upsert(
-                ids=ids[i:i+BATCH_SIZE],
-                embeddings=embeddings[i:i+BATCH_SIZE],
-                documents=texts[i:i+BATCH_SIZE],
-                metadatas=metadatas[i:i+BATCH_SIZE]
-            )
+                collection.upsert(
+                    ids=ids[i:i + BATCH_SIZE],
+                    embeddings=embeddings[i:i + BATCH_SIZE],
+                    documents=texts[i:i + BATCH_SIZE],
+                    metadatas=metadatas[i:i + BATCH_SIZE]
+                )
 
     print("Done.")
 
