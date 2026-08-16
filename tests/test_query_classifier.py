@@ -51,3 +51,27 @@ def test_general_query():
 
 def test_case_insensitive():
     assert classify_query("What Is The HIGHEST Level?") == "comparison"
+
+
+def test_leveling_intent_wins_over_comparison_phrasing():
+    """'most efficient way to level X' is a how-to on a named skill, not an
+    item comparison — it must route to the entity dossier."""
+    assert classify_query("What is the most efficient way to level Cheesemaking to level 25?") == "entity"
+
+
+def test_leveling_how_to_routes_to_entity():
+    assert classify_query("How do I level Fishing?") == "entity"
+
+
+def test_leveling_skill_raise_routes_to_entity():
+    assert classify_query("How do I raise my Alchemy skill?") == "entity"
+
+
+def test_leveling_without_named_entity_stays_comparison():
+    """Leveling phrasing with no known entity falls through to comparison."""
+    assert classify_query("What is the most efficient way to level up?") == "comparison"
+
+
+def test_minimum_level_lookup_stays_comparison():
+    """'minimum level for X' is a value comparison, not leveling intent."""
+    assert classify_query("minimum level for cheesemaking?") == "comparison"

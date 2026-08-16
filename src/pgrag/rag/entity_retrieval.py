@@ -1,5 +1,6 @@
 import json
 import logging
+import re
 from pathlib import Path
 
 from pgrag.config import CONTEXT_BUDGET
@@ -143,6 +144,28 @@ def build_entity_context(question, hub_id):
             texts.append(res["documents"][0][i])
             metas.append(res["metadatas"][0][i])
             dists.append(res["distances"][0][i])
+
+    if dtype == "skill":
+        # Put low-level recipes first so the LLM sees what is usable at the
+        # player's target level, and truncation keeps the relevant ones.
+        hub_count = len(hub_chunks)
+        heads = list(zip(ids, texts, metas, dists))[:hub_count]
+        tails = list(zip(ids, texts, metas, dists))[hub_count:]
+
+        def _req_level(item):
+            m = re.search(r"Required Skill Level:\s*\n(\d+)", item[1])
+            return int(m.group(1)) if m else 10**9
+
+        recipes = sorted(
+            (t for t in tails if t[2].get("type") == "recipe"),
+            key=_req_level,
+        )
+        others = [t for t in tails if t[2].get("type") != "recipe"]
+        ordered = heads + recipes + others
+        if ordered:
+            ids, texts, metas, dists = (
+                list(x) for x in zip(*ordered)
+            )
 
     total = 0
     cut = len(texts)

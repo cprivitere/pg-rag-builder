@@ -123,3 +123,35 @@ def test_non_entity_prefix_no_facets():
     er._load_docs = lambda: docs
     r = er.build_entity_context("what is summary", "summary_cheese")
     assert r["ids"][0] == ["summary_cheese"]
+
+
+def test_skill_recipes_sorted_by_required_level(monkeypatch):
+    """Skill dossier lists recipes lowest-required-level first so the LLM can
+    pick what is usable at the player's target level."""
+    import re
+
+    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True):
+        if metadata_filter == {"type": "recipe"}:
+            return {
+                "ids": [["recipe_50", "recipe_5", "recipe_25"]],
+                "documents": [
+                    [
+                        "Recipe: High\n\nRequired Skill Level:\n50",
+                        "Recipe: Low\n\nRequired Skill Level:\n5",
+                        "Recipe: Mid\n\nRequired Skill Level:\n25",
+                    ]
+                ],
+                "metadatas": [[{"type": "recipe"}, {"type": "recipe"}, {"type": "recipe"}]],
+                "distances": [[0.5, 0.4, 0.3]],
+            }
+        return _empty_retrieve()
+
+    monkeypatch.setattr(er, "retrieve", fake_retrieve)
+    r = er.build_entity_context("level Pooping", "skillprofile_Pooping")
+
+    ids = r["ids"][0]
+    # hub chunks first
+    assert ids[:2] == ["skillprofile_Pooping_chunk_0", "skillprofile_Pooping_chunk_1"]
+    # then recipes ascending by required level
+    recipe_ids = ids[2:]
+    assert recipe_ids == ["recipe_5", "recipe_25", "recipe_50"]

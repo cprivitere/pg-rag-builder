@@ -81,6 +81,13 @@ run = "uv run --directory '{{ env.WEBUI_DIR }}' open-webui serve --port 3000"
 dir = "{{ env.WEBUI_DIR }}"
 alias = "dsw"
 
+# --- Gradio chat ---
+
+[tasks.chat]
+description = "Run Gradio chat UI (requires embed + llm services up). Port 7860"
+run = "uv run --with gradio python scripts/rag_chat.py"
+alias = "chat"
+
 # --- All services (background via file tasks in .mise/tasks/) ---
 
 [tasks."start-all"]

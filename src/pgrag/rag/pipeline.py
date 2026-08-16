@@ -9,7 +9,7 @@ from pgrag.rag.query_classifier import classify_query, find_entity
 from pgrag.rag.entity_retrieval import build_entity_context
 from pgrag.rag.retriever import retrieve
 from pgrag.rag.prompts import build_prompt
-from pgrag.rag.llm import generate
+from pgrag.rag.llm import generate, stream_generate
 from pgrag.rag.synthesis_detector import should_synthesize
 from pgrag.rag.synthesis_generator import synthesize_answer, create_curated_doc
 
@@ -158,16 +158,27 @@ def _gap_fill(question, answer, ids, docs, metas, dists, query_type):
     return answer, ids, docs, metas, dists, extra.get("rerank_used", False)
 
 
-def _ask_entity(question):
+def _prepare_entity(question):
+    """Retrieve an entity dossier without generating. Returns
+    (ids, docs, metas, dists, rerank_used) or None if no hub found."""
     hub_id, _ = find_entity(question)
     ctx = build_entity_context(question, hub_id)
     if ctx is None:
         return None
+    return (
+        list(ctx["ids"][0]),
+        list(ctx["documents"][0]),
+        list(ctx["metadatas"][0]),
+        list(ctx["distances"][0]),
+        ctx.get("rerank_used", False),
+    )
 
-    ids = list(ctx["ids"][0])
-    docs = list(ctx["documents"][0])
-    metas = list(ctx["metadatas"][0])
-    dists = list(ctx["distances"][0])
+
+def _ask_entity(question):
+    prepared = _prepare_entity(question)
+    if prepared is None:
+        return None
+    ids, docs, metas, dists, rerank_used = prepared
 
     answer = _generate_with(question, docs, "entity")
     answer, ids, docs, metas, dists, gap_used = _gap_fill(
@@ -178,21 +189,15 @@ def _ask_entity(question):
         "answer": answer,
         "documents": docs,
         "query_type": "entity",
-        "rerank_used": ctx.get("rerank_used", False) or gap_used,
+        "rerank_used": rerank_used or gap_used,
         "sources": _build_sources(ids, dists, metas),
     }
 
 
-def ask(question, metadata_filter=None):
-
-    query_type = classify_query(question)
-
-    if query_type == "entity":
-        result = _ask_entity(question)
-        if result is not None:
-            return result
-        query_type = "general"
-
+def _prepare_general(question, query_type, metadata_filter=None):
+    """Retrieve (and possibly synthesize) context for a general/comparison
+    query. Returns (query_type, ids, documents, metadatas, distances,
+    rerank_used). Does not call the LLM."""
     results = retrieve(
         question,
         metadata_filter=metadata_filter,
@@ -216,7 +221,7 @@ def ask(question, metadata_filter=None):
         {"text": doc, "metadata": meta, "distance": dist}
         for doc, meta, dist in zip(documents, metadatas, distances)
     ]
-    
+
     if should_synthesize(result_dicts, query_type):
         # Synthesize scattered results
         try:
@@ -234,26 +239,151 @@ def ask(question, metadata_filter=None):
                 exc,
             )
 
-    context = "\n\n---\n\n".join(
-        documents
+    return query_type, ids, documents, metadatas, distances, results.get("rerank_used", False)
+
+
+def _stream_generation(question, documents, query_type):
+    context = "\n\n---\n\n".join(documents)
+    prompt = build_prompt(question, context, query_type=query_type)
+    return stream_generate(prompt)
+
+
+def _stream_answer(question, ids, docs, metas, dists, query_type):
+    """Stream the answer (and any gap-fill re-answer) for a prepared context.
+
+    Yields {"type": "token", "text"} deltas and {"type": "reset"} before a
+    gap-fill regeneration. Returns (answer, ids, docs, metas, dists,
+    gap_used) once the final generation completes.
+    """
+    answer = ""
+    for delta in _stream_generation(question, docs, query_type):
+        answer += delta
+        yield {"type": "token", "text": delta}
+
+    if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
+        return answer, ids, docs, metas, dists, False
+
+    if not (answer or "").strip():
+        answer = ""
+        yield {"type": "reset"}
+        for delta in _stream_generation(question, docs, query_type):
+            answer += delta
+            yield {"type": "token", "text": delta}
+        if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
+            return answer, ids, docs, metas, dists, False
+
+    m = SUBJECT_REGEX.search(answer)
+    subject = m.group(1).strip() if m else question
+    extra = retrieve(
+        f"{subject} {question}",
+        count=5,
+        hybrid=True,
+        rerank=True,
     )
+    seen = set(ids)
+    for i in range(len(extra["ids"][0])):
+        did = extra["ids"][0][i]
+        if did in seen:
+            continue
+        seen.add(did)
+        ids.append(did)
+        docs.append(extra["documents"][0][i])
+        metas.append(extra["metadatas"][0][i])
+        dists.append(extra["distances"][0][i])
+
+    answer = ""
+    yield {"type": "reset"}
+    for delta in _stream_generation(question, docs, query_type):
+        answer += delta
+        yield {"type": "token", "text": delta}
+    return answer, ids, docs, metas, dists, extra.get("rerank_used", False)
+
+
+def ask_stream(question, metadata_filter=None):
+    """Streaming variant of ask().
+
+    Yields {"type": "token", "text"} deltas (with {"type": "reset"} between
+    gap-fill re-answers) and finally {"type": "final", "result": {...}}
+    where result mirrors ask()'s return value.
+    """
+    query_type = classify_query(question)
+
+    if query_type == "entity":
+        prepared = _prepare_entity(question)
+        if prepared is not None:
+            ids, docs, metas, dists, rerank_used = prepared
+            answer, ids, docs, metas, dists, gap_used = yield from _stream_answer(
+                question, ids, docs, metas, dists, "entity"
+            )
+            yield {"type": "final", "result": {
+                "answer": answer,
+                "documents": docs,
+                "query_type": "entity",
+                "rerank_used": rerank_used or gap_used,
+                "sources": _build_sources(ids, dists, metas),
+            }}
+            return
+        query_type = "general"
+
+    qt, ids, documents, metadatas, distances, rerank_used = _prepare_general(
+        question, query_type, metadata_filter
+    )
+    answer, ids, documents, metadatas, distances, gap_used = yield from _stream_answer(
+        question, ids, documents, metadatas, distances, qt
+    )
+    yield {"type": "final", "result": {
+        "answer": answer,
+        "documents": documents,
+        "query_type": qt,
+        "rerank_used": rerank_used or gap_used,
+        "sources": [
+            {
+                "id": doc_id,
+                "distance": distance,
+                "metadata": metadata,
+                "citation": f"{metadata.get('name', doc_id)} ({metadata.get('table', 'unknown')})"
+            }
+            for doc_id, distance, metadata in zip(
+                ids,
+                distances,
+                metadatas
+            )
+        ],
+    }}
+
+
+def ask(question, metadata_filter=None):
+
+    query_type = classify_query(question)
+
+    if query_type == "entity":
+        prepared = _prepare_entity(question)
+        if prepared is not None:
+            return _ask_entity(question)
+        query_type = "general"
+
+    qt, ids, documents, metadatas, distances, rerank_used = _prepare_general(
+        question, query_type, metadata_filter
+    )
+
+    context = "\n\n---\n\n".join(documents)
 
     prompt = build_prompt(
         question,
         context,
-        query_type=query_type
+        query_type=qt
     )
 
     answer = generate(prompt)
-    answer, ids, documents, distances, metadatas, gap_used = _gap_fill(
-        question, answer, ids, documents, distances, metadatas, query_type
+    answer, ids, documents, metadatas, distances, gap_used = _gap_fill(
+        question, answer, ids, documents, metadatas, distances, qt
     )
 
     return {
         "answer": answer,
         "documents": documents,
-        "query_type": query_type,
-        "rerank_used": results.get("rerank_used", False) or gap_used,
+        "query_type": qt,
+        "rerank_used": rerank_used or gap_used,
         "sources": [
             {
                 "id": doc_id,

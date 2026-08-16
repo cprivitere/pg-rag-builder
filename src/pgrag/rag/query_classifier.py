@@ -22,6 +22,20 @@ COMPARISON_PATTERNS = [
     r"\bslowest\b",
 ]
 
+# "How do I raise skill X" — even when phrased as "most efficient way to level
+# X" (which trips the comparison patterns above), a named skill entity should
+# route to the entity dossier, not item comparison.
+LEVELING_PATTERNS = [
+    r"\bhow to level(?: up)?\b",
+    r"\bhow do i level(?: up)?\b",
+    r"\bhow do you level(?: up)?\b",
+    r"\b(?:way|ways) to level\b",
+    r"\bmost efficient way to (?:level|raise)\b",
+    r"\befficient way to (?:level|raise)\b",
+    r"\bto level up\b",
+    r"\bhow do i raise (?:my |the )?(\w+) skill\b",
+]
+
 LOOKUP_INDICATORS = [
     r"\bwhat level is\b",
     r"\bwhat level does\b",
@@ -118,6 +132,15 @@ def find_entity(query):
 
 def classify_query(query: str) -> str:
     lower = query.lower()
+
+    # Leveling intent with a named skill wins over comparison phrasing
+    # ("most efficient way to level Cheesemaking" is a how-to, not a comparison).
+    # Restricted to skills: generic words that happen to match NPC names
+    # ("way to level up" -> NPC "Way") must not hijack the route.
+    if any(re.search(p, lower) for p in LEVELING_PATTERNS):
+        hub, dtype = find_entity(query)
+        if hub and dtype == "skill":
+            return "entity"
 
     for pattern in COMPARISON_PATTERNS:
         if re.search(pattern, lower):
