@@ -1,7 +1,13 @@
 import json
 import math
+import os
+import pickle
 import re
 from collections import Counter
+
+CACHE_VERSION = 1
+DEFAULT_INDEX_PATH = "data/documents.json"
+DEFAULT_PICKLE_PATH = "data/bm25_index.pkl"
 
 
 class BM25:
@@ -10,9 +16,9 @@ class BM25:
         self.b = b
         self.doc_count = 0
         self.avgdl = 0.0
-        self.doc_freq = Counter()
         self.doc_lengths = []
         self.documents = []
+        self.postings = {}
         self.df = Counter()
 
     def index(self, documents):
@@ -20,15 +26,19 @@ class BM25:
         self.doc_count = len(self.documents)
         total_length = 0
         self.doc_lengths = []
+        self.postings = {}
         self.df = Counter()
 
-        for doc in self.documents:
+        for doc_idx, doc in enumerate(self.documents):
             tokens = self._tokenize(doc)
             seen = set()
             for t in tokens:
-                self.df[t] += 1
                 if t not in seen:
                     seen.add(t)
+                    self.postings.setdefault(t, {})[doc_idx] = 1
+                    self.df[t] += 1
+                else:
+                    self.postings[t][doc_idx] += 1
             self.doc_lengths.append(len(tokens))
             total_length += len(tokens)
 
@@ -38,7 +48,7 @@ class BM25:
         return re.findall(r"\w+", text.lower())
 
     def _idf(self, term):
-        n = self.df.get(term, 0)
+        n = len(self.postings.get(term, {}))
         return math.log((self.doc_count - n + 0.5) / (n + 0.5) + 1.0)
 
     def search(self, query, k=10):
@@ -47,31 +57,92 @@ class BM25:
             return [], []
 
         tf = Counter(query_terms)
-        scores = []
-
-        for i in range(self.doc_count):
-            doc_tokens = self._tokenize(self.documents[i])
-            doc_tf = Counter(doc_tokens)
-            score = 0.0
-            for term in query_terms:
-                idf = self._idf(term)
-                term_freq = doc_tf.get(term, 0)
-                numerator = term_freq * (self.k1 + 1)
+        scores = {}
+        # Sparse pass over precomputed postings: only docs that contain a
+        # query term are scored, so no per-query 98 MB re-tokenization.
+        for term in query_terms:
+            idf = self._idf(term)
+            qf = tf[term]
+            for doc_idx, term_freq in self.postings.get(term, {}).items():
                 denominator = term_freq + self.k1 * (
-                    1 - self.b + self.b * self.doc_lengths[i] / self.avgdl
+                    1 - self.b
+                    + self.b * self.doc_lengths[doc_idx] / self.avgdl
                 )
-                score += idf * numerator / denominator if denominator else 0.0
-            scores.append((score, i))
+                contribution = (
+                    idf * qf * term_freq * (self.k1 + 1) / denominator
+                )
+                scores[doc_idx] = scores.get(doc_idx, 0.0) + contribution
 
-        scores.sort(key=lambda x: x[0], reverse=True)
-        top = scores[:k]
-        return [t[1] for t in top], [t[0] for t in top]
+        ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+        top = ranked[:k]
+        return [idx for idx, _ in top], [score for _, score in top]
 
 
-def load_bm25_index(path="data/documents.json"):
+def _documents_mtime(source_path):
+    try:
+        return os.path.getmtime(source_path)
+    except OSError:
+        return None
+
+
+def save_bm25_index(model, documents, path=DEFAULT_PICKLE_PATH,
+                    source_path=DEFAULT_INDEX_PATH):
+    """Persist an indexed BM25 + the doc store to `path`, keyed by the
+    documents.json mtime so `load_bm25_index` can detect staleness."""
+    payload = {
+        "__version": CACHE_VERSION,
+        "documents_mtime": _documents_mtime(source_path),
+        "k1": model.k1,
+        "b": model.b,
+        "doc_count": model.doc_count,
+        "avgdl": model.avgdl,
+        "doc_lengths": model.doc_lengths,
+        "postings": model.postings,
+        "documents": documents,
+    }
+    with open(path, "wb") as f:
+        pickle.dump(payload, f)
+
+
+def load_bm25_index(path=DEFAULT_INDEX_PATH, pkl_path=DEFAULT_PICKLE_PATH):
+    """Return (BM25, docs).
+
+    Serves the cached index from `pkl_path` while `documents.json` is
+    unchanged (mtime-keyed); otherwise rebuilds and rewrites the cache.
+    """
+    mtime = _documents_mtime(path)
+    if os.path.exists(pkl_path):
+        try:
+            with open(pkl_path, "rb") as f:
+                state = pickle.load(f)
+            if (
+                state.get("__version") == CACHE_VERSION
+                and state.get("documents_mtime") == mtime
+                and state.get("doc_count", 0) > 0
+                and isinstance(state.get("documents"), list)
+            ):
+                model = BM25(k1=state["k1"], b=state["b"])
+                model.doc_count = state["doc_count"]
+                model.avgdl = state["avgdl"]
+                model.doc_lengths = state["doc_lengths"]
+                model.postings = state["postings"]
+                model.df = Counter(
+                    {term: len(p) for term, p in state["postings"].items()}
+                )
+                return model, state["documents"]
+        except (OSError, EOFError, pickle.UnpicklingError, AttributeError,
+                KeyError, TypeError, ValueError):
+            pass  # stale/corrupt cache -> rebuild below
+
     with open(path, "r", encoding="utf-8") as f:
         docs = json.load(f)
-    texts = [doc["text"] for doc in docs]
     model = BM25()
-    model.index(texts)
+    model.index([doc["text"] for doc in docs])
+    try:
+        dirname = os.path.dirname(pkl_path)
+        if dirname:
+            os.makedirs(dirname, exist_ok=True)
+        save_bm25_index(model, docs, pkl_path, path)
+    except OSError:
+        pass  # cache write is best-effort
     return model, docs

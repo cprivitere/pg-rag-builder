@@ -58,6 +58,11 @@ description = "Validate vectorstore health; rebuild if issues found"
 run = "uv run pgrag validate && echo 'Index healthy' || (echo 'Rebuilding...' && uv run pgrag build-index)"
 alias = "va"
 
+[tasks.golden]
+description = "Run golden eval set (needs embed + llm services up). Exits 1 on missing facts"
+run = "uv run python scripts/golden_check.py"
+alias = "gd"
+
 # --- Embedding server ---
 
 # Debug/foreground commands

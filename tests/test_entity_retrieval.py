@@ -155,3 +155,71 @@ def test_skill_recipes_sorted_by_required_level(monkeypatch):
     # then recipes ascending by required level
     recipe_ids = ids[2:]
     assert recipe_ids == ["recipe_5", "recipe_25", "recipe_50"]
+
+
+# --- wiki page linkage (Step 5) ---
+
+
+def _mkwiki(doc_id, text, entity_id):
+    return {
+        "id": doc_id,
+        "text": text,
+        "metadata": {"type": "wiki", "table": "wiki", "entity_id": entity_id},
+    }
+
+
+def test_wiki_docs_linked_to_skillprofile_hub():
+    """skillprofile hubs must pull wiki pages whose entity_id is the CDN
+    skill doc (e.g. Mushroom Farming mechanics live in the wiki, not the
+    skill profile)."""
+    docs = [
+        _mk("skillprofile_MushroomFarming_chunk_0", "Skill Profile", 0),
+        _mkwiki(
+            "wiki_Mushroom Farming_Mechanics_chunk_3",
+            "Field Mushroom 15 05 hrs Bone Organs",
+            "skill_MushroomFarming",
+        ),
+    ]
+    er._load_docs = lambda: docs
+    r = er.build_entity_context(
+        "Which mushrooms can I grow?", "skillprofile_MushroomFarming"
+    )
+    assert "wiki_Mushroom Farming_Mechanics_chunk_3" in r["ids"][0]
+
+
+def test_wiki_docs_linked_by_item_entity_id():
+    docs = [
+        _mk("item_11004", "Item: Field Mushroom", None, "item", "Field Mushroom"),
+        _mkwiki("wiki_Field Mushroom_How_to_Obtain", "15 Mycology required",
+                "item_11004"),
+    ]
+    er._load_docs = lambda: docs
+    r = er.build_entity_context("Where can I find Field Mushrooms?", "item_11004")
+    assert "wiki_Field Mushroom_How_to_Obtain" in r["ids"][0]
+
+
+def test_wiki_linkage_respects_budget(monkeypatch):
+    monkeypatch.setattr(er, "CONTEXT_BUDGET", 20)
+    docs = [
+        _mk("skillprofile_MushroomFarming_chunk_0", "Skill Profile", 0),
+        _mkwiki(
+            "wiki_Mushroom Farming_Mechanics_chunk_3",
+            "Field Mushroom 15 05 hrs Bone Organs",
+            "skill_MushroomFarming",
+        ),
+    ]
+    er._load_docs = lambda: docs
+    r = er.build_entity_context(
+        "Which mushrooms can I grow?", "skillprofile_MushroomFarming"
+    )
+    assert "wiki_Mushroom Farming_Mechanics_chunk_3" not in r["ids"][0]
+
+
+def test_wiki_linkage_skips_unlinked_wiki():
+    docs = [
+        _mk("skillprofile_Pooping_chunk_0", "Skill Profile", 0),
+        _mkwiki("wiki_Serbule_Overview", "A town", "none"),
+    ]
+    er._load_docs = lambda: docs
+    r = er.build_entity_context("what is Pooping", "skillprofile_Pooping")
+    assert "wiki_Serbule_Overview" not in r["ids"][0]

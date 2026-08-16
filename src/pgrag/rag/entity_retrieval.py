@@ -145,6 +145,32 @@ def build_entity_context(question, hub_id):
             metas.append(res["metadatas"][0][i])
             dists.append(res["distances"][0][i])
 
+    # Wiki pages linked to this entity (Step 5): wiki sections carry
+    # entity_id/entity_type metadata (see documents/wiki_builder.py), so a
+    # skill's mechanics table or an item's How-to-Obtain page joins the
+    # dossier. skillprofile hubs link to the CDN skill doc id.
+    hub_suffix = (
+        hub_id[len("skillprofile_"):]
+        if hub_id.startswith("skillprofile_") else None
+    )
+    for doc in docs:
+        doc_meta = doc.get("metadata", {})
+        if not isinstance(doc_meta, dict):
+            continue
+        if doc.get("type") != "wiki" and doc_meta.get("type") != "wiki":
+            continue
+        if doc["id"] in seen:
+            continue
+        eid = doc_meta.get("entity_id")
+        if eid == hub_id or (
+            hub_suffix and eid == f"skill_{hub_suffix}"
+        ):
+            seen.add(doc["id"])
+            ids.append(doc["id"])
+            texts.append(doc["text"])
+            metas.append(doc_meta)
+            dists.append(0.0)
+
     if dtype == "skill":
         # Put low-level recipes first so the LLM sees what is usable at the
         # player's target level, and truncation keeps the relevant ones.

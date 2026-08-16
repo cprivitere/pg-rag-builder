@@ -15,6 +15,28 @@ from pgrag.documents.summaries import (
 from pathlib import Path
 
 
+def _str_or(value, default=""):
+    """CDN records are messy — coerce to str without crashing on None."""
+    if value is None:
+        return default
+    if isinstance(value, str):
+        return value
+    return str(value)
+
+
+def _int_or(value, default=0):
+    """CDN records are messy — coerce to int (accepts int/float/str)."""
+    if value is None:
+        return default
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        try:
+            return int(float(value))
+        except (TypeError, ValueError):
+            return default
+
+
 def build_curated_documents():
     """Load curated documents from data/wiki/curated/ directory."""
     documents = []
@@ -146,6 +168,16 @@ Value:
             skill, level = gather
             text += f"\n\nGather Requirement:\nRequires {skill} skill level {level} to gather"
 
+        keywords = item.get("Keywords", [])
+        if not isinstance(keywords, list):
+            keywords = []
+
+        skill_reqs = item.get("SkillReqs")
+        skill_req_parts = []
+        if isinstance(skill_reqs, dict):
+            for skill, req_level in sorted(skill_reqs.items()):
+                skill_req_parts.append(f"{skill} {req_level}")
+
         documents.append({
             "id": item_id,
             "type": "item",
@@ -153,7 +185,13 @@ Value:
             "metadata": {
                 "source": "cdn",
                 "table": "items",
-                "name": item.get("Name", item_id)
+                "name": item.get("Name", item_id),
+                # Chroma-filterable scalars (multi-value via " | ")
+                "keywords": " | ".join(keywords),
+                "equip_slot": _str_or(item.get("EquipSlot")),
+                "skill_reqs": " | ".join(skill_req_parts),
+                "value": _int_or(item.get("Value")),
+                "stack_size": _int_or(item.get("MaxStackSize")),
             }
         })
 
@@ -170,6 +208,7 @@ def build_recipe_documents(db):
     for recipe_id, recipe in recipes.items():
 
         ingredients = []
+        ingredient_names = []
 
         for ingredient in recipe.get("Ingredients", []):
 
@@ -177,6 +216,7 @@ def build_recipe_documents(db):
                 name = resolver.item_name(
                     ingredient["ItemCode"]
                 )
+                ingredient_names.append(name)
 
                 ingredients.append(
                     f"- {name} x{ingredient.get('StackSize', 1)}"
@@ -185,6 +225,9 @@ def build_recipe_documents(db):
             elif "ItemKeys" in ingredient:
                 desc = ingredient.get("Desc")
                 keys = ", ".join(ingredient["ItemKeys"])
+                ingredient_names.append(
+                    desc or ", ".join(ingredient["ItemKeys"])
+                )
                 if desc:
                     ingredients.append(
                         f"- {desc} "
@@ -198,17 +241,21 @@ def build_recipe_documents(db):
                     )
 
             else:
+                desc = ingredient.get("Desc", "Unknown ingredient")
+                ingredient_names.append(desc)
                 ingredients.append(
-                    f"- {ingredient.get('Desc', 'Unknown ingredient')}"
+                    f"- {desc}"
                 )
 
         results = []
+        result_names = []
 
         for result in recipe.get("ResultItems", []):
 
             name = resolver.item_name(
                 result["ItemCode"]
             )
+            result_names.append(name)
 
             results.append(
                 f"- {name} x{result['StackSize']}"
@@ -277,7 +324,15 @@ Produces:
             "text": text.strip(),
             "metadata": {
                 "source": "cdn",
-                "table": "recipes"
+                "table": "recipes",
+                # Chroma-filterable scalars (multi-value via " | ")
+                "skill": _str_or(recipe.get("Skill")),
+                "skill_level_req": _int_or(recipe.get("SkillLevelReq")),
+                "reward_skill": _str_or(
+                    recipe.get("RewardSkill") or recipe.get("Skill")
+                ),
+                "ingredients": " | ".join(dict.fromkeys(ingredient_names)),
+                "result_items": " | ".join(dict.fromkeys(result_names)),
             }
         })
 
@@ -414,11 +469,15 @@ def build_quest_documents(db):
                     requirements.append(f"Completed quest: {req.get('Quest','')}")
 
         rewards_text = []
+        reward_skills = []
         for r in quest.get("Rewards", []):
             if isinstance(r, dict):
                 r_t = r.get("T", "")
                 if r_t == "SkillXp":
                     rewards_text.append(f"+{r.get('Xp',0)} {r.get('Skill','')} XP")
+                    skill_name = r.get("Skill")
+                    if skill_name:
+                        reward_skills.append(skill_name)
                 elif r_t == "Recipe":
                     rewards_text.append(f"Recipe: {r.get('Recipe','')}")
 
@@ -451,6 +510,9 @@ Description:
                 "source": "cdn",
                 "table": "quests",
                 "name": name,
+                # Chroma-filterable scalars (multi-value via " | ")
+                "reward_skills": " | ".join(dict.fromkeys(reward_skills)),
+                "location": _str_or(quest.get("DisplayedLocation")),
             }
         })
 
@@ -499,6 +561,9 @@ Reset Time: {reset_time}s"""
         if keywords:
             text += f"\n\nKeywords: {', '.join(keywords)}"
 
+        if not isinstance(keywords, list):
+            keywords = []
+
         documents.append({
             "id": f"ability_{ability_id}",
             "type": "ability",
@@ -507,6 +572,11 @@ Reset Time: {reset_time}s"""
                 "source": "cdn",
                 "table": "abilities",
                 "name": name,
+                # Chroma-filterable scalars (multi-value via " | ")
+                "skill": _str_or(ability.get("Skill")),
+                "keywords": " | ".join(keywords),
+                "level": _int_or(ability.get("Level")),
+                "damage_type": _str_or(ability.get("DamageType")),
             }
         })
 

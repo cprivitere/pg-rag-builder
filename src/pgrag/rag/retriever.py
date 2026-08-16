@@ -39,6 +39,60 @@ def _rerank(query, ids, documents, metadatas, distances, count):
     )
 
 
+def _scalar_eq(value, target):
+    """Equality that understands Chroma scalar metadata quirks:
+    delimited `" | "`-joined strings match by token membership, and
+    numeric metadata matches numeric strings (filters arrive as strings)."""
+    if value is None:
+        return False
+    if isinstance(value, str) and " | " in value:
+        return str(target) in value.split(" | ")
+    if isinstance(value, (int, float)) and isinstance(target, str):
+        try:
+            return value == float(target)
+        except ValueError:
+            return False
+    return value == target
+
+
+_WHERE_OPS = {
+    "$eq": lambda v, t: _scalar_eq(v, t),
+    "$ne": lambda v, t: not _scalar_eq(v, t),
+    "$gt": lambda v, t: v is not None and v > t,
+    "$gte": lambda v, t: v is not None and v >= t,
+    "$lt": lambda v, t: v is not None and v < t,
+    "$lte": lambda v, t: v is not None and v <= t,
+}
+
+
+def _where_matches(metadata, clause):
+    """Evaluate a Chroma-style `where` clause against one doc's metadata.
+
+    Used for the post-fusion filter: BM25-fused hits never passed through
+    Chroma's `where`, so retrieve() re-checks them here. Supports the
+    operators Chroma supports ($eq/$ne/$gt/$gte/$lt/$lte), $and/$or, plain
+    equality, and token membership on " | "-delimited fields.
+    """
+    for key, condition in clause.items():
+        if key == "$and":
+            if not all(_where_matches(metadata, c) for c in condition):
+                return False
+            continue
+        if key == "$or":
+            if not any(_where_matches(metadata, c) for c in condition):
+                return False
+            continue
+        value = metadata.get(key)
+        if isinstance(condition, dict):
+            for op, target in condition.items():
+                fn = _WHERE_OPS.get(op)
+                if fn is None or not fn(value, target):
+                    return False
+        elif not _scalar_eq(value, condition):
+            return False
+    return True
+
+
 def _hybrid_fuse(dense_ids, dense_texts, dense_metadatas, dense_distances,
                   bm25_ids, all_docs, count):
     dense_info = {}
@@ -141,8 +195,7 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False,
     if metadata_filter is not None and results["ids"][0]:
         filtered = [
             i for i in range(len(results["ids"][0]))
-            if all(results["metadatas"][0][i].get(k) == v
-                   for k, v in metadata_filter.items())
+            if _where_matches(results["metadatas"][0][i], metadata_filter)
         ]
         results["ids"] = [[results["ids"][0][i] for i in filtered]]
         results["documents"] = [[results["documents"][0][i] for i in filtered]]

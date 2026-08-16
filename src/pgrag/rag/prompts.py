@@ -18,7 +18,8 @@ Rules:
 - Include relevant names, skills, levels, ingredients, and quantities when available.
 - If the user asks about recipes, include the recipe name, ingredients with quantities, required skill level, and the recipe's description text (e.g. dose counts, effects, results).
 - If multiple answers exist, list them.
-- If the context does not contain the information needed, say you do not know.
+- If the context contains PARTIAL information for the question, answer with exactly what is present and explicitly state what is missing — do not refuse the whole question because one detail is absent.
+- Only say you do not know when the context contains nothing relevant: no facts, names, levels, or values that bear on the question.
 - NEVER fabricate: do not invent facts, names, values, recipes, XP numbers, formulas, or mechanics that are not present in the context. If a specific number is not stated anywhere, say it is not stated rather than guessing.
 - NEVER cite sources that are not listed in the provided context.
 - When listing sources, only reference documents that actually contributed to your answer."""

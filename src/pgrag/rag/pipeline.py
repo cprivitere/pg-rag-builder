@@ -8,6 +8,7 @@ from pgrag.embeddings.llama_embeddings import embed_text
 from pgrag.rag.query_classifier import classify_query, find_entity
 from pgrag.rag.entity_retrieval import build_entity_context
 from pgrag.rag.retriever import retrieve
+from pgrag.rag.bm25 import load_bm25_index
 from pgrag.rag.prompts import build_prompt
 from pgrag.rag.llm import generate, stream_generate
 from pgrag.rag.synthesis_detector import should_synthesize
@@ -16,6 +17,122 @@ from pgrag.rag.synthesis_generator import synthesize_answer, create_curated_doc
 logger = logging.getLogger(__name__)
 
 CURATED_DIR = Path("data/wiki/curated")
+
+# Wiki page expansion bounds (Step 5): at most 2 pages, ~16k chars of
+# appended context per general query.
+_EXPAND_MAX_PAGES = 2
+_EXPAND_MAX_CHARS = 16000
+_EXPAND_PLACEHOLDER_DIST = 1.0
+
+_doc_store = None
+_parent_index = None
+
+
+def _load_parent_index():
+    """id -> doc + parent_id -> [docs], lazily from the persisted BM25 doc
+    store (data/bm25_index.pkl). Built once per process."""
+    global _doc_store, _parent_index
+    if _doc_store is not None:
+        return _doc_store, _parent_index
+    _, all_docs = load_bm25_index()
+    _doc_store = {d["id"]: d for d in all_docs}
+    index = {}
+    for d in all_docs:
+        pid = d.get("metadata", {}).get("parent_id")
+        if pid:
+            index.setdefault(pid, []).append(d)
+    _parent_index = index
+    return _doc_store, _parent_index
+
+
+def _expand_wiki_context(ids, documents, metadatas, distances, store):
+    """Pull sibling chunks of wiki pages hit by retrieval.
+
+    A general query retrieves only the top chunks of a page; the answer often
+    sits in another section of the same page. Expands at most
+    `_EXPAND_MAX_PAGES` pages, id-deduped, bounded to `_EXPAND_MAX_CHARS` of
+    appended text. Appended docs get `_EXPAND_PLACEHOLDER_DIST`; all four
+    lists stay index-aligned. Non-wiki docs are untouched.
+    """
+    parent_ids = []
+    seen = set()
+    for meta in metadatas:
+        if not isinstance(meta, dict):
+            continue
+        parent = meta.get("parent_id")
+        if parent and parent not in seen:
+            seen.add(parent)
+            parent_ids.append(parent)
+        if len(parent_ids) >= _EXPAND_MAX_PAGES:
+            break
+
+    if not parent_ids:
+        return ids, documents, metadatas, distances
+
+    parents = {pid: [] for pid in parent_ids}
+    for pid in parent_ids:
+        for doc in store.values():
+            dmeta = doc.get("metadata", {})
+            if isinstance(dmeta, dict) and dmeta.get("parent_id") == pid:
+                parents[pid].append(doc)
+
+    existing = set(ids)
+    per_parent = {}  # parent -> (added ids, texts, metas, dists)
+    used_chars = 0
+
+    for pid in parent_ids:
+        added_ids, added_texts, added_metas, added_dists = [], [], [], []
+        for doc in parents.get(pid, []):
+            if doc["id"] in existing:
+                continue
+            if used_chars + len(doc["text"]) > _EXPAND_MAX_CHARS:
+                continue
+            existing.add(doc["id"])
+            added_ids.append(doc["id"])
+            added_texts.append(doc["text"])
+            added_metas.append(doc["metadata"])
+            added_dists.append(_EXPAND_PLACEHOLDER_DIST)
+            used_chars += len(doc["text"])
+        if added_ids:
+            per_parent[pid] = (
+                added_ids, added_texts, added_metas, added_dists,
+            )
+
+    if not per_parent:
+        return ids, documents, metadatas, distances
+
+    # Splice each page's siblings right after its first retrieved chunk so
+    # the page stays contiguous and the specific answer is not buried at the
+    # end of the context.
+    result_ids, result_texts, result_metas, result_dists = [], [], [], []
+    spliced = set()
+    for i in range(len(ids)):
+        result_ids.append(ids[i])
+        result_texts.append(documents[i])
+        result_metas.append(metadatas[i])
+        result_dists.append(distances[i])
+        pid = (
+            metadatas[i].get("parent_id")
+            if isinstance(metadatas[i], dict) else None
+        )
+        if pid in per_parent and pid not in spliced:
+            spliced.add(pid)
+            a_ids, a_texts, a_metas, a_dists = per_parent[pid]
+            result_ids.extend(a_ids)
+            result_texts.extend(a_texts)
+            result_metas.extend(a_metas)
+            result_dists.extend(a_dists)
+
+    # A parent not present in the retrieved list is impossible (parents come
+    # from retrieved metadata), but append defensively.
+    for pid, (a_ids, a_texts, a_metas, a_dists) in per_parent.items():
+        if pid not in spliced:
+            result_ids.extend(a_ids)
+            result_texts.extend(a_texts)
+            result_metas.extend(a_metas)
+            result_dists.extend(a_dists)
+
+    return result_ids, result_texts, result_metas, result_dists
 
 MISSING_REGEX = re.compile(
     r"\b(i do not know|not found|no information|unable to find)\b",
@@ -198,12 +315,16 @@ def _prepare_general(question, query_type, metadata_filter=None):
     """Retrieve (and possibly synthesize) context for a general/comparison
     query. Returns (query_type, ids, documents, metadatas, distances,
     rerank_used). Does not call the LLM."""
+    # "lookup" queries ("Where can I find X?") need the same wide hybrid
+    # recall + wiki expansion as "general" — an answer is a fact, not a
+    # comparison, so a 3-doc dense-only window starves it.
+    is_wide = query_type in ("general", "lookup")
     results = retrieve(
         question,
         metadata_filter=metadata_filter,
         query_type=query_type,
-        count=20 if query_type == "general" else 3,
-        hybrid=query_type == "general",
+        count=20 if is_wide else 3,
+        hybrid=is_wide,
     )
 
     documents = results["documents"][0]
@@ -211,18 +332,34 @@ def _prepare_general(question, query_type, metadata_filter=None):
     distances = results["distances"][0]
     metadatas = results["metadatas"][0]
 
+    _expanded = False
+    if is_wide and any(
+        isinstance(m, dict) and m.get("parent_id") for m in metadatas
+    ):
+        # Wiki page expansion (Step 5): pull sibling chunks via parent_id so
+        # "how-to" answers aren't lost in a non-retrieved chunk.
+        store, _ = _load_parent_index()
+        before = len(ids)
+        ids, documents, metadatas, distances = _expand_wiki_context(
+            ids, documents, metadatas, distances, store,
+        )
+        _expanded = len(ids) > before
+
     if query_type == "comparison":
         summary = _find_matching_summary(question)
         if summary:
             documents = [summary] + documents
 
-    # Check if synthesis should be triggered
+    # Check if synthesis should be triggered. When wiki expansion spliced
+    # sibling chunks into the context, the assembled page IS the coherent
+    # answer — synthesis over the top-3 retrieved docs (often stale curated
+    # summaries) would throw the specific row away.
     result_dicts = [
         {"text": doc, "metadata": meta, "distance": dist}
         for doc, meta, dist in zip(documents, metadatas, distances)
     ]
 
-    if should_synthesize(result_dicts, query_type):
+    if should_synthesize(result_dicts, query_type) and not _expanded:
         # Synthesize scattered results
         try:
             synthesized = synthesize_answer(question, result_dicts[:3])  # Limit to 3 sources

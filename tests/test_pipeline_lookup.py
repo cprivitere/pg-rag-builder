@@ -29,5 +29,5 @@ def test_lookup_query_passes_valid_count(monkeypatch):
 
     assert result["query_type"] == "lookup"
     assert result["answer"] == "Level 5."
-    assert isinstance(captured["count"], int) and captured["count"] > 0
-    assert captured["hybrid"] is False
+    assert captured["count"] == 20
+    assert captured["hybrid"] is True

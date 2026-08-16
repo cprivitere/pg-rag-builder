@@ -45,5 +45,10 @@ build/refresh needs no servers. `CONTEXT_BUDGET=34000` (config.py) caps entity c
 - **mise.toml `[env]`**: `WEBUI_DIR`, `LOGS_DIR` — update if paths move.
 - **test isolation**: `test_download_wiki.py` `main()` tests patch `META_FILE` + `WIKI_DIR` to tmp — they must, or they clobber the real `data/wiki/.meta.json` (was a silent 14k→1 entry destroyer).
 
+## agent (oh-my-pi)
+- `.omp/` is project-scoped oh-my-pi config: `RULES.md` (sticky rules), `config.yml` (advisor enabled; model roles live in global config), `WATCHDOG.md` (advisor checklist), `skills/` (`skill://pg-rag`, `pg-data`, `retrieval`, `evaluation`).
+- Skills are discovered at session start; a new `omp` session picks up changes.
+- Golden eval: `mise golden` (needs :8080+:8081); `tests/test_golden_check.py` auto-collects `data/golden/*.json` as offline-skipped tests.
+
 ## roadmap
 - **Agentic retrieval / parent-child chunks (not built)**: pipeline is one-shot — LLM gets a fixed context (entity dossier or top-k) and answers once. No hierarchical chunking (`chunk_index` only, no `parent_id`), no tool-calling, no multi-turn browse. Only second chance is rule-based `_gap_fill` (auto re-retrieve on "I don't know"). If built: (1) record `parent_id` per chunk in chunking/builder, (2) add a resolve endpoint (full parent text or next-level chunks, like `_hub_chunks` but callable by the LLM), (3) make `generate()` tools-aware or add a structured "request more" two-stage loop.
