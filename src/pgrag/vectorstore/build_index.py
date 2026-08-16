@@ -2,11 +2,14 @@ import sys
 import json
 import chromadb
 
-sys.stdout.reconfigure(line_buffering=True)
-
 from pgrag.config import EMBEDDING_DIM
 from pgrag.embeddings.llama_embeddings import embed_batch, validate_embeddings
 from pgrag.vectorstore.hashes import embedding_hash, metadata_hash
+
+try:
+    sys.stdout.reconfigure(line_buffering=True)
+except (AttributeError, ValueError):
+    pass  # not a real stream (e.g. captured by pytest)
 
 BATCH_SIZE = 5000
 EMBED_BATCH_SIZE = 10000

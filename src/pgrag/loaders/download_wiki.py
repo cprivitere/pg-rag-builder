@@ -9,7 +9,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from pgrag.config import WIKI_DIR
 
-sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
+try:
+    sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
+except (AttributeError, ValueError):
+    pass  # not a real stream (e.g. captured by pytest)
 
 META_FILE = WIKI_DIR / ".meta.json"
 
@@ -271,6 +274,31 @@ def remove_stale_files(meta: dict, current_titles: set[str]) -> None:
                         print(f"[{_ts()}]   Failed to remove {filename}: {e}")
 
 
+def remove_orphan_files(meta: dict) -> int:
+    """Delete .txt files on disk not tracked by meta.
+
+    Orphans are leftovers from older, broader enumerations or aborted runs;
+    they are not part of the current sync scope and would otherwise load into
+    the index forever. Returns the number of files removed.
+    """
+    tracked = {
+        info.get("filename")
+        for info in meta.get("pages", {}).values()
+        if info.get("filename")
+    }
+    removed = 0
+    for f in WIKI_DIR.glob("*.txt"):
+        if f.name not in tracked:
+            try:
+                f.unlink()
+                removed += 1
+            except Exception as e:
+                print(f"[{_ts()}]   Failed to remove orphan {f.name}: {e}")
+    if removed:
+        print(f"[{_ts()}]   Removed {removed} orphaned .txt file(s) not in meta")
+    return removed
+
+
 def _ts() -> str:
     return datetime.now(timezone.utc).strftime("%H:%M:%S")
 
@@ -431,6 +459,7 @@ def main() -> int:
 
     current_title_set = set(unique_titles)
     remove_stale_files(meta, current_title_set)
+    remove_orphan_files(meta)
 
     meta["pages"] = {k: v for k, v in pages_meta.items() if k in current_title_set}
     save_metadata(meta)

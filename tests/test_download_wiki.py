@@ -14,6 +14,7 @@ from pgrag.loaders.download_wiki import (
     save_metadata,
     write_page_content,
     remove_stale_files,
+    remove_orphan_files,
     BASE_DELAY,
     MAX_RETRIES,
 )
@@ -251,11 +252,13 @@ def test_v45_missing_title_deletes_tombstones(tmp_path):
 # --- V48: inventory failure ---
 
 
-def test_v48_category_failure_aborts():
+def test_v48_category_failure_aborts(tmp_path):
     """Category enumeration failure → abort before timestamps."""
     session = MagicMock()
 
-    with patch("pgrag.loaders.download_wiki.enumerate_category_pages", side_effect=RuntimeError("API down")):
+    with patch("pgrag.loaders.download_wiki.enumerate_category_pages", side_effect=RuntimeError("API down")), \
+         patch.object(download_wiki, "WIKI_DIR", tmp_path), \
+         patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"):
         result = download_wiki.main()
 
     assert result == 1, "should abort on category failure"
@@ -347,6 +350,32 @@ def test_v46_stale_purge_keeps_current_files(tmp_path):
         remove_stale_files(meta, {"Keep Page"})
 
     assert current_file.exists()
+
+
+def test_v55_orphan_files_removed(tmp_path):
+    """.txt files not tracked by meta are purged; tracked ones survive."""
+    meta = {"pages": {"Keep Page": {"touched": "2026-01-01", "filename": "keep_page_abc12345.txt"}}}
+    (tmp_path / "keep_page_abc12345.txt").write_text("keep", encoding="utf-8")
+    (tmp_path / "orphan_page_ffffffff.txt").write_text("orphan", encoding="utf-8")
+
+    with patch.object(download_wiki, "WIKI_DIR", tmp_path):
+        removed = remove_orphan_files(meta)
+
+    assert removed == 1
+    assert (tmp_path / "keep_page_abc12345.txt").exists()
+    assert not (tmp_path / "orphan_page_ffffffff.txt").exists()
+
+
+def test_v55_orphan_files_nothing_to_do(tmp_path):
+    """All .txt files tracked in meta -> nothing removed."""
+    meta = {"pages": {"Keep Page": {"touched": "2026-01-01", "filename": "keep_page_abc12345.txt"}}}
+    (tmp_path / "keep_page_abc12345.txt").write_text("keep", encoding="utf-8")
+
+    with patch.object(download_wiki, "WIKI_DIR", tmp_path):
+        removed = remove_orphan_files(meta)
+
+    assert removed == 0
+    assert (tmp_path / "keep_page_abc12345.txt").exists()
 
 
 # --- write_page_content ---

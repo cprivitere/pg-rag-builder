@@ -33,6 +33,18 @@ def test_rerank_truncates_long_documents(mock_post):
 
 
 @patch("pgrag.rag.reranker_client.requests.post")
+def test_rerank_truncates_long_query(mock_post):
+    """Pathological queries are truncated too — the doc cap alone must not
+    let a giant query exceed the server's batch ceiling."""
+    mock_post.return_value = _FakeResponse()
+    long_query = "q" * (reranker_client.MAX_RERANK_QUERY_CHARS + 5000)
+    reranker_client.rerank_documents(long_query, ["doc"], 1)
+
+    body = mock_post.call_args[1]["json"]
+    assert len(body["query"]) == reranker_client.MAX_RERANK_QUERY_CHARS
+
+
+@patch("pgrag.rag.reranker_client.requests.post")
 def test_rerank_oversized_doc_stays_under_server_batch(mock_post):
     """Regression: llama.cpp 500s with 'input is too large to process' when a
     query+doc pair exceeds the server batch. The client must truncate oversized

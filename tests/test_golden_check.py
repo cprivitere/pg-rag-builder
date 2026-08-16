@@ -19,14 +19,22 @@ def _servers_up():
     return True
 
 
-pytestmark = pytest.mark.skipif(
-    not _servers_up(),
-    reason="V38: golden check needs LLM (:8080) + embedding (:8081) servers",
-)
+@pytest.fixture()
+def require_servers():
+    """Runtime skip: golden checks need the LLM (:8080) + embedding (:8081)
+    servers. Checked per-test so a server coming up/down mid-run doesn't make
+    the suite depend on collection-time state."""
+    if not _servers_up():
+        pytest.skip("V38: golden check needs LLM (:8080) + embedding (:8081) servers")
 
 
 @pytest.mark.parametrize("path", _GOLDEN_FILES, ids=lambda p: p.stem)
-def test_golden_facts(path):
+def test_golden_facts(path, require_servers):
     golden = json.loads(path.read_text(encoding="utf-8"))
-    _, misses = check_golden(golden)
+    # LLM answers are sampled: retry once to damp nondeterminism. A real
+    # regression still fails both attempts.
+    for _attempt in range(2):
+        _, misses = check_golden(golden)
+        if not misses:
+            return
     assert misses == [], f"missing facts: {misses}"

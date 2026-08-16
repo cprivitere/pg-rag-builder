@@ -44,18 +44,33 @@ _GATHERING_TERMS = {
     "fishing", "mycology", "tanning", "collect", "collecting",
 }
 
+# Query terms hinting at a crafting/recipe question — these must NOT route to
+# gathering summaries, even when they share a skill word (e.g. "Mycology
+# recipe" is about recipes, not harvesting).
+_CRAFTING_TERMS = {
+    "recipe", "recipes", "craft", "crafting", "cook", "cooking", "make",
+    "makeable", "learn", "train", "ability", "abilities", "craftable",
+}
+
 
 def _summary_score(question, doc, meta, dist):
     """Score a summary candidate: lexical overlap + domain preference - distance."""
-    query_terms = {t for t in question.lower().split() if len(t) > 2}
+    query_terms = {t for t in re.findall(r"[a-z]+", question.lower()) if len(t) > 2}
     text_lower = doc.lower()
     overlap = sum(1 for t in query_terms if t in text_lower)
 
     name_lower = str(meta.get("name", "")).lower()
     score = overlap - dist
 
-    if query_terms & _GATHERING_TERMS and "gathering" in name_lower:
+    has_gathering = bool(query_terms & _GATHERING_TERMS)
+    has_crafting = bool(query_terms & _CRAFTING_TERMS)
+    gathering_named = "gathering" in name_lower
+
+    if has_gathering and not has_crafting and gathering_named:
         score += 3.0
+    elif has_crafting and gathering_named:
+        # Crafting questions want recipe summaries, not harvest tables
+        score -= 2.0
     # Wiki-derived summaries carry curated, complete tables
     if "wiki" in name_lower:
         score += 1.0

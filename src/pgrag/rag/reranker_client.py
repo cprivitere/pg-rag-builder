@@ -19,6 +19,7 @@ STATS_FILE = DATA_DIR / "rerank_stats.json"
 # bge-reranker-v2-m3 also saturates around this length anyway.
 MAX_RERANK_DOC_CHARS = 12000
 MAX_RERANK_DOCS = 100
+MAX_RERANK_QUERY_CHARS = 2000
 
 
 class RerankError(ConnectionError):
@@ -35,6 +36,7 @@ def rerank_documents(query, documents, top_n):
     if not documents:
         return []
     documents = [d[:MAX_RERANK_DOC_CHARS] for d in documents][:MAX_RERANK_DOCS]
+    query = query[:MAX_RERANK_QUERY_CHARS]
     try:
         response = requests.post(
             RERANK_URL,

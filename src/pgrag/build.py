@@ -7,7 +7,10 @@ from pgrag.loaders.cdn_loader import load_database
 from pgrag.loaders.wiki_loader import load_wiki
 from pgrag.documents.builder import build_documents
 
-sys.stdout.reconfigure(line_buffering=True)
+try:
+    sys.stdout.reconfigure(line_buffering=True)
+except (AttributeError, ValueError):
+    pass  # not a real stream (e.g. captured by pytest)
 
 
 def generate_documents() -> None:

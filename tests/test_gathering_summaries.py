@@ -154,6 +154,24 @@ def test_fishing_wiki_parsed():
     assert "Crab (0)" in text
 
 
+def test_wiki_summary_source_tagged_wiki():
+    """Wiki-derived summaries carry source=wiki so --source wiki rebuilds them."""
+    wiki = {
+        "Mycology": """== Harvestables ==
+{| class="wikitable"
+!Name !! Level
+|-
+| {{Item|Parasol Mushroom}} || 0
+|}
+"""
+    }
+    summaries = build_wiki_gathering_summaries(wiki)
+    assert len(summaries) == 1
+    doc = summaries[0]
+    assert doc["metadata"]["source"] == "wiki"
+    assert doc["metadata"]["table"] == "summaries"
+
+
 def test_mycology_wiki_parsed():
     wiki = {
         "Mycology": """== Harvestables ==
@@ -289,6 +307,41 @@ def test_wiki_harvest_map_maps_name_to_skill_and_level():
     assert harvest_map["mortaferus mushroom"] == ("Mycology", 95)
     assert harvest_map["parasol mushroom"] == ("Mycology", 0)
     assert harvest_map["poppy seeds"] == ("Foraging", 50)
+
+
+def test_wiki_harvest_map_highest_level_wins_across_skills():
+    """An item in two skill tables shows the binding (highest) requirement."""
+    wiki = {
+        "Foraging": """== Harvestables ==
+{| class="wikitable"
+|-
+| {{Item|Moonberry}} || 5
+|}
+""",
+        "Mining": """== Harvestables ==
+{| class="wikitable"
+|-
+| {{Item|Moonberry}} || 40
+|}
+""",
+    }
+    harvest_map = build_wiki_harvest_map(wiki)
+    assert harvest_map["moonberry"] == ("Mining", 40)
+
+
+def test_wiki_harvest_row_multiple_items_per_line():
+    """finditer captures every {{Item|X}} on a single table row."""
+    wiki = {
+        "Foraging": """== Harvestables ==
+{| class="wikitable"
+|-
+| {{Item|Poppy Seeds}} || 50 || {{Item|Wheat}} || 20
+|}
+""",
+    }
+    harvest_map = build_wiki_harvest_map(wiki)
+    assert harvest_map["poppy seeds"] == ("Foraging", 50)
+    assert harvest_map["wheat"] == ("Foraging", 20)
 
 
 def test_wiki_harvest_map_empty():

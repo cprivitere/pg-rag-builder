@@ -177,8 +177,7 @@ def _parse_wiki_harvest_rows(wiki):
 
         # Match line by line to avoid table syntax interfering with regex
         for line in raw_text.splitlines():
-            row_match = _WIKI_ROW_RE.search(line)
-            if row_match:
+            for row_match in _WIKI_ROW_RE.finditer(line):
                 name = row_match.group(1).strip()
                 try:
                     level = int(row_match.group(2))
@@ -190,11 +189,19 @@ def _parse_wiki_harvest_rows(wiki):
 
 
 def build_wiki_harvest_map(wiki):
-    """Map item name (lowercased) -> (skill, required level) from wiki harvest tables."""
+    """Map item name (lowercased) -> (skill, required level) from wiki harvest tables.
+
+    When an item appears in more than one skill table, the highest level
+    (binding requirement) wins so the item doc shows what it really takes to
+    gather it.
+    """
     harvest_map = {}
     for skill, entries in _parse_wiki_harvest_rows(wiki).items():
         for level, name in entries:
-            harvest_map.setdefault(name.strip().lower(), (skill, level))
+            key = name.strip().lower()
+            current = harvest_map.get(key)
+            if current is None or level > current[1]:
+                harvest_map[key] = (skill, level)
     return harvest_map
 
 
@@ -228,7 +235,7 @@ def build_wiki_gathering_summaries(wiki):
             "type": "summary",
             "text": "\n".join(lines),
             "metadata": {
-                "source": "computed",
+                "source": "wiki",
                 "table": "summaries",
                 "name": f"{skill} Wiki Gathering Summary",
                 "type": "summary",

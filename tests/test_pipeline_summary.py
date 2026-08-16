@@ -48,6 +48,55 @@ def test_summary_score_no_gathering_terms_uses_distance():
     assert _summary_score(question, *a) > _summary_score(question, *b)
 
 
+def test_summary_score_recipe_question_prefers_recipe_summary():
+    """A Mycology *recipe* question must get the recipe summary, not the
+    wiki harvest table — the skill name alone must not trigger gathering."""
+    question = "What is the highest level Mycology recipe?"
+    wiki_gathering = (
+        "Mycology items ranked by required skill level (wiki): 1. Mortaferus Mushroom (95)",
+        {"name": "Mycology Wiki Gathering Summary"},
+        0.85,
+    )
+    recipe = (
+        "Mycology recipes ranked by skill level: 1. Gruesome Spore Bombs (125)",
+        {"name": "Mycology Summary"},
+        0.9,
+    )
+    assert _summary_score(question, *recipe) > _summary_score(question, *wiki_gathering)
+
+
+def test_summary_score_mixed_crafting_terms_do_not_trigger_gathering():
+    question = "What recipes can I make with mushrooms?"
+    wiki_gathering = (
+        "Mycology items ranked by required skill level (wiki): 1. Mortaferus Mushroom (95)",
+        {"name": "Mycology Wiki Gathering Summary"},
+        0.8,
+    )
+    recipe = (
+        "Mycology recipes ranked by skill level: 1. Gruesome Spore Bombs (125)",
+        {"name": "Mycology Summary"},
+        0.9,
+    )
+    assert _summary_score(question, *recipe) > _summary_score(question, *wiki_gathering)
+
+
+def test_summary_score_gathering_bonus_survives_skill_named_question():
+    """Skill-name gathering terms still route to harvest tables when the
+    question is genuinely about gathering, not crafting."""
+    question = "What is the highest level Mycology mushroom?"
+    wiki_gathering = (
+        "Mycology items ranked by required skill level (wiki): 1. Mortaferus Mushroom (95)",
+        {"name": "Mycology Wiki Gathering Summary"},
+        0.8,
+    )
+    recipe = (
+        "Mycology recipes ranked by skill level: 1. Gruesome Spore Bombs (125)",
+        {"name": "Mycology Summary"},
+        0.9,
+    )
+    assert _summary_score(question, *wiki_gathering) > _summary_score(question, *recipe)
+
+
 @patch("pgrag.rag.pipeline.embed_text")
 @patch("pgrag.rag.pipeline.chromadb.PersistentClient")
 def test_find_matching_summary_picks_best_candidate(mock_client, mock_embed):

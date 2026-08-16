@@ -4,7 +4,7 @@
 `mise tasks` = full list
 
 ## pipeline
-`uv run pgrag download-cdn → download-wiki → build-documents → build-index` (+ `validate` for index health; entry: `src/pgrag/cli.py`). `build-index --source cdn|wiki|computed|curated` = partial rebuild: embeds/purges only that source's docs, leaves the rest untouched.
+`uv run pgrag download-cdn → download-wiki → build-documents → build-index` (+ `validate` for index health; entry: `src/pgrag/cli.py`). `build-index --source cdn|wiki|computed|curated` = partial rebuild: embeds/purges only that source's docs, leaves the rest untouched. Wiki harvest summaries are tagged `source=wiki`, so `--source wiki` refreshes them too.
 
 ## layout
 - `src/pgrag/` — importable package (uv installs it editable):
@@ -32,13 +32,13 @@ build/refresh needs no servers. `CONTEXT_BUDGET=24000` (config.py) caps entity c
 `data/` gitignored: `cdn/ wiki/ documents.json chroma/ wiki/curated/ golden/ rerank_stats.json wiki/.meta.json curator_state.json` · eval records: `embed_eval_*.log`, `embed_vram.json`, `bakeoff_*.json` · `logs/`: `embed.log llm.log webui.log rerank.log`
 
 ## tests
-294 (308 coll −14 slow). All offline; 5 skip golden (need :8080+:8081). Temp-dir integration.
+331 offline (350 coll −14 slow). All offline; 5 golden skip unless :8080+:8081 are up (runtime skip + single retry for LLM nondeterminism). Temp-dir integration.
 
 ## env
 - py≥3.14, `uv`. `hf` global CLI, cache `F:\AI\models\hub\`; GGUF via `-hf org/repo:quant`
 
 ## gotchas
-- **wiki cats**: `TARGET_CATEGORIES` flat + `RECURSIVE_CATEGORIES` walk (`Creatures` d2, `Items` d1) — monsters/items only via recursion (drops live there); `Quests` is flat-synced. Subcats bare (no `Category:` prefix). Wiki filenames are `{safe_title}_<sha256-8>.txt`; `wiki_loader` names pages via `.meta.json` real titles (fallback: hash stripped) so doc names/sources show clean titles.
+- **wiki cats**: `TARGET_CATEGORIES` flat + `RECURSIVE_CATEGORIES` walk (`Creatures` d2, `Items` d1) — monsters/items only via recursion (drops live there); `Quests` is flat-synced. Subcats bare (no `Category:` prefix). Wiki filenames are `{safe_title}_<sha256-8>.txt`; `wiki_loader` names pages via `.meta.json` real titles (fallback: hash stripped) so doc names/sources show clean titles. Sync ends with `remove_orphan_files` — `.txt` files not in meta (leftovers from older enumerations/aborted runs) are deleted.
 - **LLM draft model**: OOM if already running → `mise down` first.
 - **scripts/pg_rag.py**: hardcodes `PG_ROOT=F:\ProjectGorgon\pg-rag-builder` + `os.chdir()`, adds `PG_ROOT/src` to `sys.path` — update if repo moves.
 - **mise.toml `[env]`**: `WEBUI_DIR`, `LOGS_DIR` — update if paths move.
