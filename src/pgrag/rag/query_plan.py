@@ -141,12 +141,26 @@ def _find_ingredient(q):
     return token
 
 
+def _and(clauses):
+    """Combine single-field Chroma where-clauses into one valid `where`.
+
+    Chroma `where` accepts exactly one operator cell: a bare dict of N field
+    conditions (`{"type": "ability", "damage_type": "Slashing"}`) is invalid.
+    Combine N>=2 single-field clauses under `$and`; a lone clause passes
+    through unadorned so simple plans stay flat.
+    """
+    if len(clauses) == 1:
+        return clauses[0]
+    return {"$and": list(clauses)}
+
+
 def plan_query(question):
     """Return a high-confidence plan dict or None.
 
     Plan shape: {"native": {where-safe scalars}, "token": {post-fusion},
-    "label": str}. `native` goes to Chroma `where`; `token` only to the
-    post-fusion `_where_matches` (delimited fields).
+    "label": str}. `native` is a valid Chroma `where` (single field, or
+    `$and` of single fields); `token` only to the post-fusion
+    `_where_matches` (delimited fields).
     """
     q = " ".join(str(question or "").lower().split())
     if not q:
@@ -157,7 +171,7 @@ def plan_query(question):
         dmg = _find_damage(q)
         if dmg:
             return {
-                "native": {"type": "ability", "damage_type": dmg},
+                "native": _and([{"type": "ability"}, {"damage_type": dmg}]),
                 "token": {},
                 "label": f"ability damage_type={dmg}",
             }
@@ -167,19 +181,19 @@ def plan_query(question):
         skill = _find_skill(q)
         lv = _LEVEL.search(q)
         if skill:
-            native = {"type": "recipe", "skill": skill}
+            clauses = [{"type": "recipe"}, {"skill": skill}]
             if lv:
                 n = int(lv.group(1) or lv.group(2) or 0)
                 # level-0 rows are "no requirement" recipes usable anywhere;
                 # $lte keeps them (a $gt:0 guard would lose them from low-level
                 # plans, a recall regression the acceptance forbids).
-                native["skill_level_req"] = {"$lte": n}
+                clauses.append({"skill_level_req": {"$lte": n}})
                 return {
-                    "native": native, "token": {},
+                    "native": _and(clauses), "token": {},
                     "label": f"recipe skill={skill} level<={n}",
                 }
             return {
-                "native": native, "token": {},
+                "native": _and(clauses), "token": {},
                 "label": f"recipe skill={skill}",
             }
         # --- Recipe ingredient (post-fusion delimited token) ---
