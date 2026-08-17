@@ -108,6 +108,98 @@ def test_retrieve_passes_operator_filter_to_chroma(mock_client, mock_embed):
 @patch("pgrag.rag.retriever.embed_text")
 @patch("pgrag.rag.retriever.chromadb.PersistentClient")
 @patch("pgrag.rag.bm25.load_bm25_index")
+def test_retrieve_token_filter_post_fusion_only(
+    mock_load, mock_client, mock_embed
+):
+    """A delimited-token filter (ingredient) cannot go to Chroma $contains;
+    it only narrows the fused results, and Chroma where stays unset."""
+    mock_embed.return_value = [0.1] * 384
+    inst = mock_client.return_value
+    col = inst.get_collection.return_value
+    col.query.return_value = {
+        "ids": [["dense_1", "dense_2"]],
+        "documents": [["recipe A", "recipe B"]],
+        "metadatas": [[
+            {"type": "recipe", "ingredients": "Spider Silk | Mushroom"},
+            {"type": "recipe", "ingredients": "Flax Cloth"},
+        ]],
+        "distances": [[0.2, 0.3]],
+    }
+
+    bm25_docs = [
+        {"id": "dense_1", "text": "a",
+         "metadata": {"type": "recipe", "ingredients": "Spider Silk | Mushroom"}},
+        {"id": "dense_2", "text": "b",
+         "metadata": {"type": "recipe", "ingredients": "Flax Cloth"}},
+    ]
+    fake_model = MagicMock()
+    fake_model.search.return_value = ([1, 0], [0.9, 0.8])
+    mock_load.return_value = (fake_model, bm25_docs)
+
+    results = retrieve(
+        "recipes using mushrooms",
+        count=3,
+        token_filter={"ingredients": "Mushroom"},
+        hybrid=True,
+    )
+    # No scalar native filter -> Chroma where untouched.
+    assert "where" not in col.query.call_args.kwargs
+    kept = results["metadatas"][0]
+    kept_ingredients = [m.get("ingredients") for m in kept]
+    assert "Spider Silk | Mushroom" in kept_ingredients
+    assert "Flax Cloth" not in kept_ingredients  # no Mushroom -> dropped
+
+
+@patch("pgrag.rag.retriever.embed_text")
+@patch("pgrag.rag.retriever.chromadb.PersistentClient")
+@patch("pgrag.rag.bm25.load_bm25_index")
+def test_retrieve_native_and_token_filters_agree(
+    mock_load, mock_client, mock_embed
+):
+    """native (scalar, Chroma where) + token (post-fusion) combine: a doc
+    must satisfy both."""
+    mock_embed.return_value = [0.1] * 384
+    inst = mock_client.return_value
+    col = inst.get_collection.return_value
+    col.query.return_value = {
+        "ids": [["dense_1", "dense_2"]],
+        "documents": [["a", "b"]],
+        "metadatas": [[
+            {"type": "recipe", "skill": "Alchemy",
+             "ingredients": "Mushroom"},
+            {"type": "recipe", "skill": "Cooking",
+             "ingredients": "Mushroom"},
+        ]],
+        "distances": [[0.2, 0.3]],
+    }
+    bm25_docs = [{"id": d, "text": t, "metadata": m} for d, t, m in
+                 zip(col.query.return_value["ids"][0],
+                     col.query.return_value["documents"][0],
+                     col.query.return_value["metadatas"][0])]
+    fake_model = MagicMock()
+    fake_model.search.return_value = ([1, 0], [0.9, 0.8])
+    mock_load.return_value = (fake_model, bm25_docs)
+
+    results = retrieve(
+        "alchemy recipes using mushrooms",
+        count=3,
+        metadata_filter={"type": "recipe", "skill": "Alchemy"},
+        token_filter={"ingredients": "Mushroom"},
+        hybrid=True,
+    )
+    assert col.query.call_args.kwargs["where"] == {
+        "type": "recipe", "skill": "Alchemy",
+    }
+    kept = results["metadatas"][0]
+    assert kept == [{"type": "recipe", "skill": "Alchemy",
+                     "ingredients": "Mushroom"}]
+    assert {"type": "recipe", "skill": "Cooking", "ingredients": "Mushroom"} \
+        not in kept
+
+
+@patch("pgrag.rag.retriever.embed_text")
+@patch("pgrag.rag.retriever.chromadb.PersistentClient")
+@patch("pgrag.rag.bm25.load_bm25_index")
 def test_retrieve_hybrid_filters_fused_docs_by_operator(
     mock_load, mock_client, mock_embed
 ):

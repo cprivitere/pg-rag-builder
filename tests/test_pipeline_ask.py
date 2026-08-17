@@ -100,3 +100,50 @@ def test_general_gap_fill_keeps_sources_well_formed(monkeypatch):
         assert isinstance(s["distance"], float), s
     assert sources[-1]["id"] == "quest_quest_1_chunk_1"
     assert sources[-1]["metadata"]["table"] == "quests"
+
+
+def test_general_plan_propagates_native_and_token_filters(monkeypatch):
+    """A high-confidence plan splits into Chroma-where (native) + post-fusion
+    (token) filters and is recorded in the trace."""
+    seen = {}
+
+    def fake_retrieve(question, metadata_filter=None, token_filter=None,
+                      **kwargs):
+        seen["mf"] = metadata_filter
+        seen["tf"] = token_filter
+        return _retrieve_result()
+
+    _setup_general(
+        monkeypatch,
+        lambda p: "You mix milk with mushrooms into a cheese.",
+    )
+    monkeypatch.setattr("pgrag.rag.pipeline.retrieve", fake_retrieve)
+
+    trace = {}
+    pipeline.ask("recipes using mushrooms", trace=trace)
+
+    assert seen["mf"] == {"type": "recipe"}
+    assert seen["tf"] == {"ingredients": "Mushroom"}
+    assert trace["plan"]["label"] == "recipe ingredient=Mushroom"
+
+
+def test_general_user_filter_beats_plan(monkeypatch):
+    """A caller-supplied metadata_filter must not be overridden by a plan."""
+    seen = {}
+
+    def fake_retrieve(question, metadata_filter=None, token_filter=None,
+                      **kwargs):
+        seen["mf"] = metadata_filter
+        seen["tf"] = token_filter
+        return _retrieve_result()
+
+    _setup_general(
+        monkeypatch,
+        lambda p: "Alchemy answer",
+    )
+    monkeypatch.setattr("pgrag.rag.pipeline.retrieve", fake_retrieve)
+
+    pipeline.ask("alchemy recipes", metadata_filter={"type": "recipe"})
+
+    assert seen["mf"] == {"type": "recipe"}
+    assert seen["tf"] is None

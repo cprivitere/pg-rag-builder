@@ -134,7 +134,7 @@ def _hybrid_fuse(dense_ids, dense_texts, dense_metadatas, dense_distances,
     return ids, texts, metas, dists
 
 
-def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False, query_type="general"):
+def retrieve(question, count=3, metadata_filter=None, token_filter=None, rerank=True, hybrid=False, query_type="general", trace=None):
     question = correct_query(question)
     client = chromadb.PersistentClient(
         path="data/chroma"
@@ -170,12 +170,25 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False,
     results = collection.query(**query_kwargs)
     results["rerank_used"] = False
 
+    trace_rec = None
+    if trace is not None:
+        trace_rec = {
+            "query": question,
+            "hybrid": hybrid,
+            "metadata_filter": metadata_filter,
+            "token_filter": token_filter,
+            "dense_ids": list(results["ids"][0]),
+            "dense_dists": list(results["distances"][0]),
+        }
+
     if hybrid:
         from pgrag.rag.bm25 import load_bm25_index
         fuse_target = effective_count * RERANK_MULTIPLIER if rerank else effective_count
         bm25_model, all_docs = load_bm25_index()
         bm25_indices, _ = bm25_model.search(question, k=fuse_target)
         bm25_ids = [all_docs[i]["id"] for i in bm25_indices]
+        if trace_rec is not None:
+            trace_rec["bm25_ids"] = bm25_ids
 
         fused_ids, fused_texts, fused_metas, fused_dists = _hybrid_fuse(
             results["ids"][0],
@@ -190,17 +203,26 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False,
         results["documents"] = [fused_texts]
         results["metadatas"] = [fused_metas]
         results["distances"] = [fused_dists]
+        if trace_rec is not None:
+            trace_rec["rrf_ids"] = list(fused_ids)
 
-    # Post-fusion metadata filter (BM25 ignores where clause)
-    if metadata_filter is not None and results["ids"][0]:
+    # Post-fusion metadata filter (BM25 ignores where clause). The token
+    # filter (delimited `" | "` fields Chroma can't $contains) only runs
+    # here; metadata_filter already narrowed the Chroma query.
+    post_filter = None
+    if metadata_filter or token_filter:
+        post_filter = {**(metadata_filter or {}), **(token_filter or {})}
+    if post_filter and results["ids"][0]:
         filtered = [
             i for i in range(len(results["ids"][0]))
-            if _where_matches(results["metadatas"][0][i], metadata_filter)
+            if _where_matches(results["metadatas"][0][i], post_filter)
         ]
         results["ids"] = [[results["ids"][0][i] for i in filtered]]
         results["documents"] = [[results["documents"][0][i] for i in filtered]]
         results["metadatas"] = [[results["metadatas"][0][i] for i in filtered]]
         results["distances"] = [[results["distances"][0][i] for i in filtered]]
+        if trace_rec is not None:
+            trace_rec["post_filter_ids"] = list(results["ids"][0])
 
     if rerank and len(results["ids"][0]) > effective_count:
         ids, docs, metas, dists, used = _rerank_or_cross_encoder(
@@ -216,6 +238,13 @@ def retrieve(question, count=3, metadata_filter=None, rerank=True, hybrid=False,
         results["documents"] = [docs]
         results["metadatas"] = [metas]
         results["distances"] = [dists]
+        if trace_rec is not None:
+            trace_rec["reranked_ids"] = list(ids)
+            trace_rec["rerank_used"] = used
+
+    if trace_rec is not None:
+        trace_rec["rerank_used"] = results.get("rerank_used", False)
+        trace.setdefault("retrieval_calls", []).append(trace_rec)
 
     return results
 

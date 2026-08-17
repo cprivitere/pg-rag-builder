@@ -126,7 +126,117 @@ This is [[Mycology]], a skill for gathering mushrooms.
     assert "]]" not in all_text
 
 
-def test_wiki_page_preserves_npc_names():
+def test_wiki_table_emits_row_and_coverage_records():
+    raw = """__NOTOC__
+== Grow ==
+{| class="sortable" style="width:100%"
+! Mushroom
+! Mycology Req
+|-
+| {{Item|Parasol Mushroom}} || N/A
+|-
+| {{Item|Mycena Mushroom}} || 05
+|}
+"""
+    db = FakeDB({"Mushroom Farming": raw})
+    docs = build_wiki_documents(db)
+    by_id = {d["id"]: d for d in docs}
+
+    cov = by_id.get("wiki_Mushroom_Farming_table_0_coverage")
+    row0 = by_id.get("wiki_Mushroom_Farming_table_0_row_0")
+    row1 = by_id.get("wiki_Mushroom_Farming_table_0_row_1")
+
+    assert cov is not None
+    assert row0 is not None and row1 is not None
+
+    # coverage: first-column cells, compact
+    assert cov["metadata"]["table_record"] == "coverage"
+    assert cov["metadata"]["table_id"] == "wiki_Mushroom_Farming_table_0"
+    assert "Parasol Mushroom" in cov["text"]
+    assert "Mycena Mushroom" in cov["text"]
+
+    # rows: granular, cell-cleaned
+    assert row0["metadata"]["table_record"] == "row"
+    assert row0["metadata"]["row_key"] == "Parasol Mushroom"
+    assert "Parasol Mushroom" in row0["text"]
+    assert "N/A" in row0["text"]
+    assert "{{Item|" not in row0["text"]
+    assert row1["metadata"]["row_key"] == "Mycena Mushroom"
+
+
+def test_wiki_table_cells_clean_links_and_markup():
+    raw = """__NOTOC__
+== Grow ==
+{| class="wikitable"
+! Item
+! Where
+|-
+| {{Item|Field Mushroom}} || [[Serbule]]''Grass''<br/>&nbsp;
+|}
+"""
+    db = FakeDB({"Field Mushroom": raw})
+    docs = build_wiki_documents(db)
+    row = next(d for d in docs if d["metadata"].get("table_record") == "row")
+    assert "Field Mushroom" in row["text"]
+    assert "[[Serbule" not in row["text"]
+    assert "<br/>" not in row["text"]
+    assert "''" not in row["text"]
+
+
+def test_wiki_table_truncated_to_950():
+    long_cell = "x" * 2000
+    opener = "{|" + ' class="wikitable"'
+    raw = f"""__NOTOC__
+== Grow ==
+{opener}
+! Item
+|-
+| {long_cell} || tail
+|}}
+"""
+    db = FakeDB({"Tabby": raw})
+    docs = [d for d in build_wiki_documents(db)
+            if d.get("type") == "wiki" and d["metadata"].get("table_record")]
+    assert docs
+    for d in docs:
+        assert len(d["text"]) <= 950
+
+
+def test_unclosed_table_falls_back_to_narrative():
+    # No closing |} -> no partial row records; page keeps inline narrative.
+    raw = """__NOTOC__
+== Grow ==
+{| class="wikitable"
+| {{Item|Parasol Mushroom}} || N/A
+-
+| {{Item|Mycena Mushroom}} || 05
+"""
+    db = FakeDB({"Mushroom Farming": raw})
+    docs = build_wiki_documents(db)
+    table_recs = [d for d in docs
+                  if d.get("type") == "wiki" and d["metadata"].get("table_record")]
+    assert table_recs == []
+    all_text = " ".join(d["text"] for d in docs)
+    assert "Parasol Mushroom" in all_text
+    assert "Mycena Mushroom" in all_text
+
+
+def test_wiki_table_removed_from_narrative_section():
+    raw = """__NOTOC__
+== Grow ==
+Intro line describing the growing mechanics in enough detail to survive the minimum section length threshold for this page.
+{| class="wikitable"
+| {{Item|Parasol Mushroom}} || N/A
+|}
+"""
+    db = FakeDB({"Mushroom Farming": raw})
+    docs = build_wiki_documents(db)
+    narr = [d for d in docs if not d["metadata"].get("table_record")]
+    assert any("Intro line" in d["text"] for d in narr)
+    # the raw table markup is gone from every narrative doc
+    for d in narr:
+        assert "{|" not in d["text"]
+        assert "{{Item|" not in d["text"]
     raw = """__NOTOC__
 == Trainers ==
 Talk to {{NPC|Mushroom Jack}} in [[Serbule]] to learn.

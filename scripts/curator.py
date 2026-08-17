@@ -4,9 +4,10 @@ from pathlib import Path
 from datetime import datetime
 import json
 
+from pgrag.config import CURATED_DIR
+
 
 WIKI_DIR = Path("data/wiki")
-CURATED_DIR = Path("data/wiki/curated")
 
 
 def scan_wiki_for_fragments():

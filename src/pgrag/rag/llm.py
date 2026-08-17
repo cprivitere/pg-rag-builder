@@ -10,15 +10,18 @@ class LLMServerError(ConnectionError):
     pass
 
 
-def _post(prompt, stream):
+def _post(prompt, stream, temperature=0.2, seed=None):
+    payload = {
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": temperature,
+        "max_tokens": 8192,
+        "stream": stream,
+    }
+    if seed is not None:
+        payload["seed"] = seed
     return requests.post(
         LLM_URL,
-        json={
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.2,
-            "max_tokens": 8192,
-            "stream": stream,
-        },
+        json=payload,
         timeout=300,
         stream=stream,
     )
@@ -37,10 +40,9 @@ def _server_error(exc):
     return exc
 
 
-def generate(prompt):
-
+def generate(prompt, temperature=0.2, seed=None):
     try:
-        response = _post(prompt, stream=False)
+        response = _post(prompt, stream=False, temperature=temperature, seed=seed)
         response.raise_for_status()
     except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
         raise _server_error(e) from e
@@ -48,7 +50,7 @@ def generate(prompt):
     return response.json()["choices"][0]["message"]["content"]
 
 
-def stream_generate(prompt):
+def stream_generate(prompt, temperature=0.2, seed=None):
     """Stream an LLM completion as a generator of text deltas.
 
     Uses llama.cpp's OpenAI-compatible /v1/chat/completions endpoint
@@ -56,7 +58,7 @@ def stream_generate(prompt):
     the server is unreachable.
     """
     try:
-        response = _post(prompt, stream=True)
+        response = _post(prompt, stream=True, temperature=temperature, seed=seed)
         response.raise_for_status()
     except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
         raise _server_error(e) from e

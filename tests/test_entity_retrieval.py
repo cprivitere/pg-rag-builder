@@ -28,6 +28,40 @@ def fake_docs(monkeypatch):
     monkeypatch.setattr(er, "retrieve", _empty_retrieve)
 
 
+def test_wiki_links_ordered_coverage_row_narrative():
+    # Wiki records of the same entity: coverage, then rows, then narrative.
+    hub = _mk("skill_Alchemy_chunk_0", "Alchemy overview", 0, dtype="skill")
+    cov = {"id": "wiki_Alchemy_table_0_coverage", "text": "covers A, B",
+           "metadata": {"type": "wiki", "table": "wiki", "entity_id": "skill_Alchemy",
+                        "entity_type": "skill", "table_record": "coverage"}}
+    row = {"id": "wiki_Alchemy_table_0_row_1", "text": "A row",
+           "metadata": {"type": "wiki", "table": "wiki", "entity_id": "skill_Alchemy",
+                        "entity_type": "skill", "table_record": "row"}}
+    narr = {"id": "wiki_Alchemy_Overview", "text": "Alchemy is a skill",
+            "metadata": {"type": "wiki", "table": "wiki", "entity_id": "skill_Alchemy",
+                         "entity_type": "skill"}}
+    er._load_docs = lambda: [hub, row, narr, cov]
+    r = er.build_entity_context("what is Alchemy", "skill_Alchemy")
+    ids = r["ids"][0]
+    assert ids == [
+        "skill_Alchemy_chunk_0",
+        "wiki_Alchemy_table_0_coverage",
+        "wiki_Alchemy_table_0_row_1",
+        "wiki_Alchemy_Overview",
+    ]
+
+
+def test_other_entity_wiki_excluded():
+    # A wiki page owned by another entity is left out of this dossier.
+    hub = _mk("skill_Alchemy_chunk_0", "Alchemy overview", 0, dtype="skill")
+    other = {"id": "wiki_Mycology_table_0_coverage", "text": "covers P",
+             "metadata": {"type": "wiki", "table": "wiki", "entity_id": "skill_Mycology",
+                          "entity_type": "skill", "table_record": "coverage"}}
+    er._load_docs = lambda: [hub, other]
+    r = er.build_entity_context("what is Alchemy", "skill_Alchemy")
+    assert all("Mycology" not in i for i in r["ids"][0])
+
+
 def test_hub_whole_loaded_in_order():
     r = er.build_entity_context("what is Dungcrafting", "skillprofile_Pooping")
     assert r["ids"][0] == [
@@ -48,7 +82,7 @@ def test_unchunked_hub_included():
 def test_facet_type_filters(monkeypatch):
     calls = []
 
-    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True):
+    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True, trace=None):
         calls.append((question, metadata_filter))
         return _empty_retrieve()
 
@@ -64,7 +98,7 @@ def test_facet_type_filters(monkeypatch):
 def test_facet_uses_entity_name_not_full_question(monkeypatch):
     calls = []
 
-    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True):
+    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True, trace=None):
         calls.append(question)
         return _empty_retrieve()
 
@@ -80,7 +114,7 @@ def test_facet_uses_entity_name_not_full_question(monkeypatch):
 
 
 def test_facet_dedupe(monkeypatch):
-    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True):
+    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True, trace=None):
         return {
             "ids": [["skillprofile_Pooping_chunk_1", "recipe_906"]],
             "documents": [["dup text", "Recipe text"]],
@@ -98,7 +132,7 @@ def test_facet_dedupe(monkeypatch):
 def test_budget_cap(monkeypatch):
     monkeypatch.setattr(er, "CONTEXT_BUDGET", 100)
 
-    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True):
+    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True, trace=None):
         return {
             "ids": [["recipe_906"]],
             "documents": [["R" * 300]],
@@ -130,7 +164,7 @@ def test_skill_recipes_sorted_by_required_level(monkeypatch):
     pick what is usable at the player's target level."""
     import re
 
-    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True):
+    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True, rerank=True, trace=None):
         if metadata_filter == {"type": "recipe"}:
             return {
                 "ids": [["recipe_50", "recipe_5", "recipe_25"]],
@@ -223,3 +257,67 @@ def test_wiki_linkage_skips_unlinked_wiki():
     er._load_docs = lambda: docs
     r = er.build_entity_context("what is Pooping", "skillprofile_Pooping")
     assert "wiki_Serbule_Overview" not in r["ids"][0]
+
+
+def test_budget_param_truncates(monkeypatch):
+    """An explicit budget caps the dossier while keeping the first doc."""
+
+    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True,
+                      rerank=True, trace=None):
+        return {
+            "ids": [["recipe_extra"]],
+            "documents": [["R" * 300]],
+            "metadatas": [[{"type": "recipe"}]],
+            "distances": [[0.3]],
+        }
+
+    monkeypatch.setattr(er, "retrieve", fake_retrieve)
+    r = er.build_entity_context("what is Pooping", "skillprofile_Pooping", budget=50)
+    texts = r["documents"][0]
+    assert sum(len(t) for t in texts) <= 50
+    assert texts[0].startswith("Skill Profile")
+
+
+def test_build_multi_entity_context_keeps_both_hubs_dedupes(monkeypatch):
+    """Multi-entity context labels each block and dedupes a shared doc."""
+    ability_docs = [
+        _mk("ability_punch_chunk_0", "Punch does 6 damage.", 0, "ability", "Punch"),
+        _mk("ability_front_kick_chunk_0", "Front Kick does 11 damage.", 0, "ability", "Front Kick"),
+    ]
+    monkeypatch.setattr(er, "_load_docs", lambda: ability_docs)
+
+    def fake_retrieve(question, count=3, metadata_filter=None, hybrid=True,
+                      rerank=True, trace=None):
+        return {
+            "ids": [["recipe_shared"]],
+            "documents": [["Shared recipe text"]],
+            "metadatas": [[{"type": "recipe", "name": "Shared"}]],
+            "distances": [[0.2]],
+        }
+
+    monkeypatch.setattr(er, "retrieve", fake_retrieve)
+
+    r = er.build_multi_entity_context(
+        "which deals more damage",
+        [("Punch", "ability_punch", "ability"),
+         ("Front Kick", "ability_front_kick", "ability")],
+    )
+    docs = r["documents"][0]
+    assert "=== Punch (ability) ===" in docs
+    assert "=== Front Kick (ability) ===" in docs
+    assert "Punch does 6 damage." in docs
+    assert "Front Kick does 11 damage." in docs
+    # the shared recipe was returned by both hubs' facets but kept once
+    assert docs.count("Shared recipe text") == 1
+
+
+def test_build_multi_entity_context_unresolved_recorded_in_trace(monkeypatch):
+    mono = {"unresolved": []}
+    monkeypatch.setattr(er, "_load_docs", lambda: [])
+    r = er.build_multi_entity_context(
+        "Punch or Ghost", [("Punch", "ability_punch", "ability"),
+                           ("Ghost", "ability_ghost", "ability")],
+        trace=mono,
+    )
+    assert r is None
+    assert "Ghost" in mono["unresolved"]

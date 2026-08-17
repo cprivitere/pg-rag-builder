@@ -3,6 +3,7 @@ import json
 import chromadb
 
 from pgrag.config import EMBEDDING_DIM
+from pgrag.config import DOCUMENTS_VERSION, DOCUMENTS_VERSION_FILE
 from pgrag.embeddings.llama_embeddings import embed_batch, validate_embeddings
 from pgrag.vectorstore.hashes import embedding_hash, metadata_hash
 
@@ -16,6 +17,26 @@ EMBED_BATCH_SIZE = 10000
 
 
 def load_documents():
+    """Load the persisted documents.json, refusing a stale generation.
+
+    build-documents stamps DOCUMENTS_VERSION_FILE with the generator version.
+    A mismatch (or missing marker) means documents.json predates the current
+    document shape and a build-index would silently embed outdated docs.
+    Fail loudly instead: run build-documents (or `mise sync-<source>`) first.
+    """
+    try:
+        meta = json.loads(DOCUMENTS_VERSION_FILE.read_text(encoding="utf-8"))
+        stored = meta.get("version")
+    except (OSError, ValueError):
+        stored = None
+    if stored != DOCUMENTS_VERSION:
+        raise ValueError(
+            f"data/documents.json is stale (generator v{stored!r}, expected "
+            f"v{DOCUMENTS_VERSION}). Run `uv run pgrag build-documents` "
+            "(or `mise generate-docs`, or a `mise sync-*` task) first — "
+            "build-index only embeds what documents.json already holds "
+            "and cannot regenerate it."
+        )
     with open("data/documents.json", "r", encoding="utf-8") as f:
         return json.load(f)
 

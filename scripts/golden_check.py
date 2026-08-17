@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -6,6 +7,11 @@ from pathlib import Path
 from pgrag.rag.pipeline import ask
 
 GOLDEN_DIR = Path("data/golden")
+TRACE_DIR = Path("data/retrieval_traces")
+
+# Deterministic generation for reproducible golden runs: temperature 0 with a
+# fixed seed makes generation best-effort repeatable (llama.cpp may still vary).
+GENERATION = {"temperature": 0, "seed": 0}
 
 
 def normalize(text):
@@ -14,8 +20,8 @@ def normalize(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def check_golden(golden):
-    result = ask(golden["question"])
+def check_golden(golden, trace=None):
+    result = ask(golden["question"], generation=GENERATION, trace=trace)
     answer = normalize(result["answer"])
     misses = []
     for variants in golden["facts"]:
@@ -26,9 +32,21 @@ def check_golden(golden):
 
 def main():
     total_miss = 0
+    capture_trace = os.environ.get("PGRAG_TRACE") == "1"
     for path in sorted(GOLDEN_DIR.glob("*.json")):
         golden = json.loads(path.read_text(encoding="utf-8"))
-        result, misses = check_golden(golden)
+        trace = {} if capture_trace else None
+        result, misses = check_golden(golden, trace=trace)
+        if capture_trace:
+            TRACE_DIR.mkdir(parents=True, exist_ok=True)
+            try:
+                trace_path = TRACE_DIR / f"{golden['id']}.json"
+                trace_path.write_text(
+                    json.dumps(trace, indent=2, ensure_ascii=False),
+                    encoding="utf-8",
+                )
+            except OSError as exc:
+                print(f"    (trace write failed: {exc})")
         status = "PASS" if not misses else "FAIL"
         print("[%s] %s (%s, %s)" % (
             status,

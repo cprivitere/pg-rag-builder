@@ -8,6 +8,13 @@ from pgrag.rag.retriever import retrieve
 
 logger = logging.getLogger(__name__)
 
+# Cap on Wiki table `row` records grafted into one entity dossier. One
+# entity's page table can emit hundreds of rows; unbounded they flood the
+# context and drown the CDN facts (see dungcrafting regression). The
+# coverage record already summarizes all first cells, and narrative
+# sections are kept — only granular rows are bounded.
+_MAX_WIKI_ROWS = 12
+
 FACET_PLANS = {
     "skill": [
         ("recipes", "recipe"),
@@ -99,16 +106,28 @@ def _entity_name_from_hub(hub_id):
     return hub_id
 
 
-def build_entity_context(question, hub_id):
+def build_entity_context(question, hub_id, budget=None,
+                         other_hub_ids=frozenset(), trace=None):
     docs = _load_docs()
     if not docs:
         return None
+    # Resolve at call time so test/multi-entity overrides land; passers can
+    # cap per-entity (CONTEXT_BUDGET // n) or via a patched constant.
+    if budget is None:
+        budget = CONTEXT_BUDGET
     hub_chunks = _hub_chunks(hub_id, docs)
     if not hub_chunks:
         return None
 
     dtype = _entity_type(hub_id)
+    # Facet queries read the entity's real name, not its numeric id
+    # (item_114 -> "Healing Potion Omega"): a numeric facet query pulls
+    # random docs, and only surfaced now the corpus is ~2.3x bigger.
     entity_name = _entity_name_from_hub(hub_id)
+    if hub_chunks:
+        hub_name = (hub_chunks[0].get("metadata") or {}).get("name")
+        if hub_name:
+            entity_name = hub_name
 
     ids = [d["id"] for d in hub_chunks]
     texts = [d["text"] for d in hub_chunks]
@@ -128,6 +147,7 @@ def build_entity_context(question, hub_id):
                 metadata_filter={"type": ftype},
                 hybrid=True,
                 rerank=True,
+                trace=trace,
             )
         except Exception as exc:
             logger.warning(
@@ -153,6 +173,7 @@ def build_entity_context(question, hub_id):
         hub_id[len("skillprofile_"):]
         if hub_id.startswith("skillprofile_") else None
     )
+    wiki_links = []
     for doc in docs:
         doc_meta = doc.get("metadata", {})
         if not isinstance(doc_meta, dict):
@@ -162,14 +183,43 @@ def build_entity_context(question, hub_id):
         if doc["id"] in seen:
             continue
         eid = doc_meta.get("entity_id")
-        if eid == hub_id or (
-            hub_suffix and eid == f"skill_{hub_suffix}"
-        ):
-            seen.add(doc["id"])
-            ids.append(doc["id"])
-            texts.append(doc["text"])
-            metas.append(doc_meta)
-            dists.append(0.0)
+        if not eid:
+            continue
+        if hub_suffix and eid == f"skill_{hub_suffix}":
+            pass  # this skill's own wiki page belongs to this dossier
+        elif eid != hub_id:
+            continue
+        if eid in other_hub_ids:
+            # A wiki page owned by another entity in a multi-entity context;
+            # leave it for that entity's block.
+            continue
+        wiki_links.append((doc, doc_meta))
+
+    # Compact table records first: a table's coverage line (all rows' first
+    # cells) then its granular rows, then narrative page sections. The sort
+    # is stable, so corpus order is preserved within each class.
+    _TABLE_RANK = {"coverage": 0, "row": 1}
+
+    def _wiki_rank(item):
+        return _TABLE_RANK.get(item[1].get("table_record"), 2)
+
+    wiki_links.sort(key=_wiki_rank)
+    # Bound granular table rows so one page's table can't flood the dossier.
+    _rows_seen = 0
+    _bounded = []
+    for _link in wiki_links:
+        if _link[1].get("table_record") == "row":
+            if _rows_seen >= _MAX_WIKI_ROWS:
+                continue
+            _rows_seen += 1
+        _bounded.append(_link)
+    wiki_links = _bounded
+    for doc, doc_meta in wiki_links:
+        seen.add(doc["id"])
+        ids.append(doc["id"])
+        texts.append(doc["text"])
+        metas.append(doc_meta)
+        dists.append(0.0)
 
     if dtype == "skill":
         # Put low-level recipes first so the LLM sees what is usable at the
@@ -196,10 +246,18 @@ def build_entity_context(question, hub_id):
     total = 0
     cut = len(texts)
     for i, t in enumerate(texts):
-        if total + len(t) > CONTEXT_BUDGET and i > 0:
+        if total + len(t) > budget and i > 0:
             cut = i
             break
         total += len(t)
+
+    if trace is not None:
+        trace["dossier"] = {
+            "hub": hub_id,
+            "n_hub_chunks": len(hub_chunks),
+            "chars": total,
+            "truncated": cut < len(texts),
+        }
 
     return {
         "ids": [ids[:cut]],
@@ -207,4 +265,48 @@ def build_entity_context(question, hub_id):
         "metadatas": [metas[:cut]],
         "distances": [dists[:cut]],
         "rerank_used": rerank_used,
+    }
+
+
+def build_multi_entity_context(question, entities, trace=None):
+    """Concat per-entity dossiers into one labeled comparison context.
+
+    Each entity gets ``CONTEXT_BUDGET // n`` chars; doc ids dedupe across
+    hubs (first block wins). An entity that resolves to no dossier is
+    recorded in ``trace["unresolved"]``.
+    """
+    n = max(len(entities), 1)
+    per_entity = CONTEXT_BUDGET // n
+    other_hubs = {hub for _name, hub, _dtype in entities}
+
+    blocks = []
+    seen = set()
+    for name, hub_id, dtype in entities:
+        ctx = build_entity_context(
+            question,
+            hub_id,
+            budget=per_entity,
+            other_hub_ids=other_hubs - {hub_id},
+            trace=trace,
+        )
+        if ctx is None:
+            if trace is not None:
+                trace.setdefault("unresolved", []).append(name)
+            continue
+        blocks.append(f"=== {name} ({dtype}) ===")
+        for did, text in zip(ctx["ids"][0], ctx["documents"][0]):
+            if did in seen:
+                continue
+            seen.add(did)
+            blocks.append(text)
+
+    if not blocks:
+        return None
+
+    return {
+        "ids": [list(seen)],
+        "documents": [blocks],
+        "metadatas": [[]],
+        "distances": [[]],
+        "rerank_used": False,
     }

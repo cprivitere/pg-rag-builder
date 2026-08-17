@@ -175,7 +175,8 @@ def test_v50_category_failure_aborts(monkeypatch, tmp_path):
         mock_api.side_effect = RuntimeError("Connection lost")
         with patch("pgrag.loaders.download_wiki.load_metadata", return_value=meta):
             with patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"):
-                result = download_wiki.main()
+                with patch.object(download_wiki, "WIKI_DIR", tmp_path):
+                    result = download_wiki.main()
 
     assert result == 1, "should abort on category enumeration failure"
 
@@ -192,6 +193,7 @@ def test_v50_content_fetch_failure_aborts(monkeypatch, tmp_path):
         patch("pgrag.loaders.download_wiki.enumerate_category_pages_recursive", return_value=[]),
         patch("pgrag.loaders.download_wiki.fetch_timestamps", return_value={"New Page": "2026-01-01T00:00:00Z"}),
         patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"),
+        patch.object(download_wiki, "WIKI_DIR", tmp_path),
     ):
         result = download_wiki.main()
 
@@ -216,7 +218,8 @@ def test_v45_absent_title_aborts(tmp_path):
         with patch("pgrag.loaders.download_wiki.enumerate_category_pages", return_value=["Page A", "Page B"]):
             with patch("pgrag.loaders.download_wiki.fetch_timestamps", return_value={"Page A": "2026-01-01T00:00:00Z"}):
                 with patch.object(download_wiki, "META_FILE", tmp_path / ".meta.json"):
-                    result = download_wiki.main()
+                    with patch.object(download_wiki, "WIKI_DIR", tmp_path):
+                        result = download_wiki.main()
 
     assert result == 1, "should abort when timestamp response is incomplete"
 

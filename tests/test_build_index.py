@@ -1,7 +1,37 @@
 from unittest.mock import MagicMock, patch
 
 from pgrag.vectorstore.hashes import embedding_hash, metadata_hash
-from pgrag.vectorstore.build_index import _get_existing_dim
+from pgrag.vectorstore.build_index import _get_existing_dim, load_documents
+
+
+def test_documents_version_refuses_stale(monkeypatch, tmp_path):
+    """build-index must not silently embed a documents.json that predates
+    the current generator — the classic build-index/build-documents trap."""
+    marker = tmp_path / "documents_version.json"
+    marker.write_text('{"version": 1}', encoding="utf-8")
+    monkeypatch.setattr(
+        "pgrag.vectorstore.build_index.DOCUMENTS_VERSION_FILE", marker
+    )
+    try:
+        load_documents()
+    except ValueError as exc:
+        assert "stale" in str(exc)
+        assert "build-documents" in str(exc)
+    else:
+        raise AssertionError("expected ValueError for stale documents.json")
+
+
+def test_documents_version_refuses_missing_marker(monkeypatch, tmp_path):
+    marker = tmp_path / "documents_version.json"
+    monkeypatch.setattr(
+        "pgrag.vectorstore.build_index.DOCUMENTS_VERSION_FILE", marker
+    )
+    try:
+        load_documents()
+    except ValueError as exc:
+        assert "stale" in str(exc)
+    else:
+        raise AssertionError("expected ValueError for missing marker")
 
 
 def test_v7_deleted_ids_computation():

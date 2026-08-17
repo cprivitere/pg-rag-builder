@@ -6,6 +6,8 @@
 ## pipeline
 `uv run pgrag download-cdn → download-wiki → build-documents → build-index` (+ `validate` for index health; entry: `src/pgrag/cli.py`). `build-index --source cdn|wiki|computed|curated` = partial rebuild: embeds/purges only that source's docs, leaves the rest untouched. Wiki harvest summaries are tagged `source=wiki`, so `--source wiki` refreshes them too.
 
+**Freshness contract (avoids the stale-documents trap):** `build-documents` stamps `data/derived/documents_version.json` with `DOCUMENTS_VERSION`; `build-index` refuses to embed a `documents.json` whose stored version differs (it only reads the persisted file, never regenerates it). To converge a source in one command use the `mise sync-*` tasks (`sync-wiki`/`sync-cdn`/`sync`, aliases `syw`/`syc`/`sy`) — each runs `build-documents` (refreshing the marker) before its `build-index`. `generate-docs` (alias `docs`) is the bare idempotent documents rebuild. Bump `DOCUMENTS_VERSION` (config.py) whenever document shape changes.
+
 ## layout
 - `src/pgrag/` — importable package (uv installs it editable):
   - `cli.py` — `pgrag` CLI: download-cdn/wiki, build-documents, build-index, validate

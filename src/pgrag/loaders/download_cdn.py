@@ -1,3 +1,4 @@
+import os
 import sys
 import requests
 from pgrag.config import CDN_DIR
@@ -48,9 +49,14 @@ def download_cdn():
         print(f"  Downloading {name}.json...")
         resp = requests.get(url, timeout=60)
         resp.raise_for_status()
-        dest.write_bytes(resp.content)
+        # Temp + os.replace so a crash mid-download never leaves a partial file.
+        temp = dest.with_suffix(".json.tmp")
+        temp.write_bytes(resp.content)
+        os.replace(temp, dest)
 
-    (CDN_DIR / "version.txt").write_text(str(remote_ver))
+    temp_ver = (CDN_DIR / "version.txt").with_suffix(".txt.tmp")
+    temp_ver.write_text(str(remote_ver))
+    os.replace(temp_ver, CDN_DIR / "version.txt")
     print(f"Done. Saved to {CDN_DIR}")
     return True
 

@@ -1,6 +1,6 @@
 import pytest
 
-from pgrag.rag.query_classifier import classify_query, find_entity
+from pgrag.rag.query_classifier import classify_query, find_entity, find_entities
 
 SYNTHETIC_INDEX = [
     ("Dungcrafting", "skill_Pooping", "skill"),
@@ -81,3 +81,67 @@ def test_find_entity_typo_fallback(monkeypatch):
     hub, dtype = find_entity("what is msurhoom")
     assert hub == "item_900"
     assert dtype == "item"
+
+
+# --- find_entities (multi-entity greedy resolver) ---
+
+
+def _identity(q):
+    return q
+
+
+def test_find_entities_two_hubs_in_query_order(monkeypatch):
+    index = SYNTHETIC_INDEX + [
+        ("Punch", "ability_1001", "ability"),
+        ("Front Kick", "ability_1002", "ability"),
+    ]
+    monkeypatch.setattr(
+        "pgrag.rag.query_classifier._load_entity_index",
+        lambda: sorted(index, key=lambda t: len(t[0]), reverse=True),
+    )
+    monkeypatch.setattr("pgrag.rag.query_classifier.correct_query", _identity)
+
+    got = find_entities("which deals more damage, Punch or Front Kick")
+    assert got == [
+        ("Punch", "ability_1001", "ability"),
+        ("Front Kick", "ability_1002", "ability"),
+    ]
+
+
+def test_find_entities_longest_non_overlap(monkeypatch):
+    monkeypatch.setattr("pgrag.rag.query_classifier.correct_query", _identity)
+    # Index (longest-first) has both "Pig Poop" and "Poop"; the long one claims
+    # the span and the nested "Poop" must be skipped (non-overlapping).
+    got = find_entities("what is pig poop")
+    assert got == [("Pig Poop", "item_1495", "item")]
+
+
+def test_find_entities_empty_when_none(monkeypatch):
+    monkeypatch.setattr(
+        "pgrag.rag.query_classifier._load_entity_index", lambda: []
+    )
+    assert find_entities("no entities here") == []
+
+
+def test_find_entities_corrected_fallback(monkeypatch):
+    monkeypatch.setattr(
+        "pgrag.rag.query_classifier.correct_query",
+        lambda q: "tell me about mushroom",
+    )
+    # original yields nothing; corrected "mushroooms" -> item index (typo).
+    got = find_entities("tell me about mushroooms")
+    assert got == [("Mushroom", "item_900", "item")]
+
+
+def test_classify_two_entities_is_comparison(monkeypatch):
+    index = SYNTHETIC_INDEX + [
+        ("Punch", "ability_1001", "ability"),
+        ("Front Kick", "ability_1002", "ability"),
+    ]
+    monkeypatch.setattr(
+        "pgrag.rag.query_classifier._load_entity_index",
+        lambda: sorted(index, key=lambda t: len(t[0]), reverse=True),
+    )
+    monkeypatch.setattr("pgrag.rag.query_classifier.correct_query", _identity)
+
+    assert classify_query("which deals more damage, Punch or Front Kick") == "comparison"

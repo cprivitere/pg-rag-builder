@@ -1,7 +1,9 @@
 import json
 import os
 import sys
+import time
 
+from pgrag.config import DOCUMENTS_VERSION, DOCUMENTS_VERSION_FILE
 from pgrag.loaders.database import GameDatabase
 from pgrag.loaders.cdn_loader import load_database
 from pgrag.loaders.wiki_loader import load_wiki
@@ -30,6 +32,15 @@ def generate_documents() -> None:
             ensure_ascii=False,
         )
     os.replace(tmp, "data/documents.json")
+
+    DOCUMENTS_VERSION_FILE.parent.mkdir(parents=True, exist_ok=True)
+    DOCUMENTS_VERSION_FILE.write_text(
+        json.dumps({
+            "version": DOCUMENTS_VERSION,
+            "updated": int(time.time()),
+        }),
+        encoding="utf-8",
+    )
 
     print("Saved documents.json")
     print(f"Created {len(documents)} documents")

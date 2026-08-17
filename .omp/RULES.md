@@ -9,7 +9,7 @@ Hard requirements for pg-rag-builder sessions. Sticky: re-attached near the curr
 5. **Before proposing architecture changes, inspect the relevant implementation.** The pipeline is one-shot; only `_gap_fill` re-retrieves. Agentic/tool-calling retrieval is NOT built — never assume it exists.
 6. **When changing retrieval, run the retrieval regression tests** — `tests/test_bm25.py`, `tests/test_retrieval_unit.py`, `tests/test_rerank*.py`, `tests/test_retriever_spelling.py`.
 7. **When changing document generation, inspect representative generated documents** after `pgrag build-documents`.
-8. **When changing the index, distinguish layers:** source data → generated documents → embeddings → index state. Run `pgrag validate` after index work.
+8. **When changing the index, distinguish layers:** source data → generated documents → embeddings → index state. Run `pgrag validate` after index work. `build-index` only embeds the persisted `data/documents.json` and refuses a stale generator version (see `DOCUMENTS_VERSION`); regenerate via `build-documents` (`mise generate-docs`) or a `mise sync-*` task, never assume `build-index` re-parses source.
 9. **Prefer incremental rebuilds during development.**
 10. **Never silently change embedding models.** Embeddings are a fixed-dim contract with the Chroma collection; changing the model means a full re-embed.
 11. **Wiki names come from `data/wiki/.meta.json`.** Filenames are `{safe_title}_<sha256-8>.txt` — never derive display names from filenames, and never let tests write the real meta file (tmp dirs only).

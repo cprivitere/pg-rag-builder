@@ -1,0 +1,198 @@
+"""High-confidence metadata query planning.
+
+Distills obvious structured constraints from a natural-language question into
+a Chroma `where`-native filter (scalar $eq/$ne/$gt conditions) plus a
+post-fusion-only token filter (delimited `" | "` metadata fields Chroma
+cannot $contains). Plans are emitted only when syntax and entity resolution
+are high-confidence; otherwise `plan_query` returns None and retrieval stays
+broad (a false negative is worse than a false positive here).
+
+Skill and damage-type values in the metadata are title-case without spaces
+(e.g. `FlowerArrangement`, `FireMagic`), so extracted tokens are canonicalized
+the same way (`"flower arrangement"` -> `FlowerArrangement`) — Chroma `$eq`
+is exact-match.
+"""
+
+import re
+
+# Recipe/ability verbs that make a structured filter worth attempting.
+_RECIPE = re.compile(r"\b(?:recipe|recipes|craft|crafter|crafting|make|"
+                     r"making|produce|produces|crafted)\b", re.I)
+_ABILITY = re.compile(r"\b(?:ability|abilities|spell|power)\b", re.I)
+
+# Skill words likely to name a recipe/ability skill. Only a curated subset is
+# worth matching; an unknown skill simply yields no skill clause (still safe).
+_SKILL_WORDS = [
+    "alchemy", "mycology", "blacksmithing", "bladesmithing", "swordcrafting",
+    "armorsmithing", "leatherworking", "tailoring", "carpentry", "cooking",
+    "brewing", "baking", "cheesemaking", "fishing", "angling", "foraging",
+    "gardening", "farming", "mushroom farming", "flower arrangement",
+    "candle making", "dye making", "jewelry crafting", "calligraphy",
+    "fletching", "bowyery", "glassblowing", "toolcrafting", "metallurgy",
+    "chemistry", "medicine", "first aid", "anatomy", "shamanic infusion",
+    "necromancy", "psychology", "meditation", "fire magic", "ice magic",
+    "ice conjuration", "holy magic", "dark magic", "trauma surgery",
+    "phrenology", "pottery", "sculpting", "embroidery", "saddlery",
+    "sigil scripting", "surveying", "racing", "hoplology", "unarmed",
+    "staff", "hammer", "sword", "knife", "bow", "shield", "armor",
+    "logistics", "pig latin", "telepathy", "mentalism", "bard",
+    "nature awareness", "tracking", "sprinting", "sailing", "fishing",
+]
+_SKILL_WORDS.sort(key=len, reverse=True)
+_SKILL = re.compile(
+    r"\b(" + "|".join(_SKILL_WORDS) + r")\b", re.I
+)
+
+_LEVEL = re.compile(
+    r"\b(?:(\d{1,3})\s*(?:lv|level|lvl)|(?:lv|level|lvl)\s*(\d{1,3}))\b",
+    re.I,
+)
+
+_INGREDIENT_INTRO = re.compile(
+    r"\b(?:using|use|with|needs?|requir(?:es|ed|ing)?|consumes?|"
+    r"made\s+from|made\s+with|asked\s+for)\b", re.I
+)
+
+# Element/damage tokens -> canonical metadata value (title-case, exact).
+_DAMAGE_WORDS = [
+    ("fire", "Fire"), ("ice", "Cold"), ("cold", "Cold"),
+    ("electric", "Electricity"), ("lightning", "Electricity"),
+    ("acid", "Acid"), ("poison", "Poison"), ("toxic", "Poison"),
+    ("crushing", "Crushing"), ("slashing", "Slashing"),
+    ("piercing", "Piercing"), ("psychic", "Psychic"),
+    ("darkness", "Darkness"), ("holy", "Smiting"), ("nature", "Nature"),
+    ("nothingness", "Nothingness"), ("trauma", "Trauma"),
+    ("demonic", "Demonic"), ("regeneration", "Regeneration"),
+    ("smiting", "Smiting"),
+]
+_DAMAGE = re.compile(r"\b(?:fire|ice|cold|electric|lightning|acid|poison|"
+                     r"toxic|crushing|slashing|piercing|psychic|darkness|"
+                     r"holy|nature|nothingness|trauma|demonic|regeneration|"
+                     r"smiting)\b", re.I)
+
+
+def _canonical_skill(token):
+    """'flower arrangement' -> FlowerArrangement (exact metadata form)."""
+    return "".join(word.capitalize() for word in token.split())
+
+
+def _canonical_ingredient(token):
+    """'spider silk' -> Spider Silk: ingredients are space-separated title
+    case item names, unlike skill metadata."""
+    words = [word.strip("'\",.?;:!()[]{}|") for word in token.split()]
+    words = [w for w in words if w]
+    return " ".join(word.capitalize() for word in words)
+
+
+def _find_skill(q):
+    """Return the canonical skill name if exactly one skill word appears."""
+    hits = list(_SKILL.finditer(q))
+    if len(hits) != 1:
+        return None
+    return _canonical_skill(hits[0].group(1).lower())
+
+
+def _find_damage(q):
+    hit = _DAMAGE.search(q)
+    if not hit:
+        return None
+    for word, canon in _DAMAGE_WORDS:
+        if word == hit.group(0).lower():
+            return canon
+    return hit.group(0).capitalize()
+
+
+def _find_ingredient(q):
+    """Ingredient token(s) immediately after a using/with/needs verb."""
+    m = _INGREDIENT_INTRO.search(q)
+    if not m:
+        return None
+    rest = q[m.end():].strip()
+    # Up to two words of a noun phrase; stop at a recipe/ability/level word.
+    stop = re.compile(r"(?:damage|level|recipe|requir|them|it|that|which|and|"
+                      r"for|to\b|\d)")
+    words = []
+    for w in rest.split():
+        if stop.search(w):
+            break
+        if len(words) >= 2:
+            if re.match(r"(?:of|the|a|an)\b", w):
+                break
+            break
+        words.append(w)
+    if not words:
+        return None
+    # A phrase containing a stopword ("bottle of milk") cannot match the
+    # exact comma/space-separated ingredient list — planning would produce a
+    # false negative (empty result), so skip the plan entirely.
+    if any(w.lower() in ("of", "the", "a", "an") for w in words):
+        return None
+    token = _canonical_ingredient(" ".join(words))
+    # Singularize a plain plural so "mushrooms" matches the item "Mushroom".
+    # Only drop a trailing "s" when the preceding letter is a consonant
+    # ("mushroom-s", "root-s") — mass nouns like "feces"/"species"/"glass"
+    # (suffix -es/-ss) are left exact so the token still matches.
+    if (token.endswith("s") and token[-2] not in "esiu"):
+        token = token[:-1]
+    if len(token.replace(" ", "")) < 2 or token.lower() in (
+        "Using", "With", "Need", "Require", "Use"
+    ):
+        return None
+    return token
+
+
+def plan_query(question):
+    """Return a high-confidence plan dict or None.
+
+    Plan shape: {"native": {where-safe scalars}, "token": {post-fusion},
+    "label": str}. `native` goes to Chroma `where`; `token` only to the
+    post-fusion `_where_matches` (delimited fields).
+    """
+    q = " ".join(str(question or "").lower().split())
+    if not q:
+        return None
+
+    # --- Ability + damage type ---
+    if _ABILITY.search(q):
+        dmg = _find_damage(q)
+        if dmg:
+            return {
+                "native": {"type": "ability", "damage_type": dmg},
+                "token": {},
+                "label": f"ability damage_type={dmg}",
+            }
+
+    # --- Recipe: skill + (max required level) ---
+    if _RECIPE.search(q):
+        skill = _find_skill(q)
+        lv = _LEVEL.search(q)
+        if skill:
+            native = {"type": "recipe", "skill": skill}
+            if lv:
+                n = int(lv.group(1) or lv.group(2) or 0)
+                # level-0 rows are "no requirement" recipes usable anywhere;
+                # $lte keeps them (a $gt:0 guard would lose them from low-level
+                # plans, a recall regression the acceptance forbids).
+                native["skill_level_req"] = {"$lte": n}
+                return {
+                    "native": native, "token": {},
+                    "label": f"recipe skill={skill} level<={n}",
+                }
+            return {
+                "native": native, "token": {},
+                "label": f"recipe skill={skill}",
+            }
+        # --- Recipe ingredient (post-fusion delimited token) ---
+        ing = _find_ingredient(q)
+        if ing:
+            return {
+                "native": {"type": "recipe"},
+                "token": {"ingredients": ing},
+                "label": f"recipe ingredient={ing}",
+            }
+
+    # Ambiguous or unsupported -> broad hybrid retrieval beats a false
+    # negative. Item/acquisition lookup is deliberately not planned: it
+    # needs the entity index to know whether the target is an item, quest,
+    # npc, or area (see plan: no-filter on ambiguity).
+    return None

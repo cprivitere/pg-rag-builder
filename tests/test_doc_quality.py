@@ -27,18 +27,26 @@ def _assemble(db):
 
 
 @pytest.fixture(scope="session")
-def real_docs():
+def real_docs(tmp_path_factory):
     if not (CDN_DIR / "items.json").exists():
         pytest.skip("data/cdn/ absent — real-data sweep skipped")
 
-    from pgrag.loaders.database import GameDatabase
-    from pgrag.loaders.cdn_loader import load_database
-    from pgrag.loaders.wiki_loader import load_wiki
+    # The build writes a .parsed cache; route it to a tmp dir so the real
+    # source tree's derived cache is never mutated by this fixture.
+    from pgrag.documents import wiki_builder
+    _orig_cache = wiki_builder.CACHE_FILE
+    wiki_builder.CACHE_FILE = tmp_path_factory.mktemp("derived") / "wiki_parsed.json"
+    try:
+        from pgrag.loaders.database import GameDatabase
+        from pgrag.loaders.cdn_loader import load_database
+        from pgrag.loaders.wiki_loader import load_wiki
 
-    db = GameDatabase()
-    load_database(db)
-    load_wiki(db)
-    return _assemble(db)
+        db = GameDatabase()
+        load_database(db)
+        load_wiki(db)
+        return _assemble(db)
+    finally:
+        wiki_builder.CACHE_FILE = _orig_cache
 
 
 def _violations(docs, check):

@@ -22,7 +22,7 @@ Create a comprehensive, well-organized response that:
 Response:"""
 
 
-def synthesize_answer(query: str, results: list) -> str:
+def synthesize_answer(query: str, results: list, generation=None) -> str:
     """Synthesize scattered results into a coherent answer.
     
     Args:
@@ -48,7 +48,7 @@ def synthesize_answer(query: str, results: list) -> str:
     )
     
     try:
-        response = generate(prompt)
+        response = generate(prompt, **(generation or {}))
         return response
     except LLMServerError as e:
         # If LLM fails, return a simple concatenation
@@ -81,32 +81,3 @@ def _fallback_synthesis(query: str, results: list) -> str:
         parts.append(f"**{name}** ({source}): {excerpt}")
     
     return "\n\n".join(parts)
-
-
-def create_curated_doc(query: str, results: list, synthesized_text: str = None) -> dict:
-    """Create a curated document from synthesized results.
-
-    Args:
-        query: Original user query
-        results: List of search result documents
-        synthesized_text: Pre-synthesized text; if None, synthesize first
-
-    Returns:
-        Document dict ready for indexing
-    """
-    if synthesized_text is None:
-        synthesized_text = synthesize_answer(query, results)
-
-    # Create doc ID from query
-    doc_id = "synthesized_" + query.lower().replace(" ", "_")[:50]
-
-    return {
-        "id": doc_id,
-        "type": "synthesized",
-        "text": synthesized_text,
-        "metadata": {
-            "source": "synthesized",
-            "table": "synthesized",
-            "name": f"Synthesized: {query[:50]}"
-        }
-    }

@@ -76,7 +76,7 @@ def test_hub_miss_falls_back_general(monkeypatch):
     monkeypatch.setattr("pgrag.rag.pipeline.generate", fake_generate)
     monkeypatch.setattr(
         "pgrag.rag.pipeline.retrieve",
-        lambda question, metadata_filter=None, query_type="general", count=20, hybrid=True: {
+        lambda question, metadata_filter=None, token_filter=None, query_type="general", count=20, hybrid=True, trace=None: {
             "ids": [["skill_Pooping"]],
             "documents": [["Skill: Dungcrafting description"]],
             "metadatas": [[{"name": "Dungcrafting", "table": "skills"}]],
@@ -103,7 +103,7 @@ def test_gap_fill_fires_once(monkeypatch):
         prompts.append(prompt)
         return next(answers)
 
-    def fake_retrieve(question, count=5, hybrid=True, rerank=True):
+    def fake_retrieve(question, count=5, hybrid=True, rerank=True, trace=None, **kwargs):
         assert "learn" in question or "how to learn" in question
         return {
             "ids": [["quest_quest_197_chunk_1"]],
@@ -133,7 +133,7 @@ def test_gap_fill_empty_subject_falls_back_to_question(monkeypatch):
 
     retrieved = []
 
-    def fake_retrieve(question, count=5, hybrid=True, rerank=True):
+    def fake_retrieve(question, count=5, hybrid=True, rerank=True, trace=None, **kwargs):
         retrieved.append(question)
         return {
             "ids": [["quest_quest_197_chunk_1"]],

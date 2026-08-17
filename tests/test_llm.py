@@ -19,7 +19,7 @@ class _FakeResponse:
 def test_stream_generate_parses_sse_deltas(monkeypatch):
     seen = {}
 
-    def fake_post(prompt, stream):
+    def fake_post(prompt, stream, **kwargs):
         seen["stream"] = stream
         chunks = [
             'data: {"choices": [{"delta": {"content": "Hel"}}]}',
@@ -40,10 +40,30 @@ def test_stream_generate_parses_sse_deltas(monkeypatch):
 def test_stream_generate_raises_server_error(monkeypatch):
     import requests
 
-    def boom(prompt, stream):
+    def boom(prompt, stream, **kwargs):
         raise requests.exceptions.ConnectionError("down")
 
     monkeypatch.setattr(llm, "_post", boom)
 
     with pytest.raises(llm.LLMServerError):
         list(llm.stream_generate("prompt"))
+
+
+def test_post_emits_temperature_and_optional_seed(monkeypatch):
+    """_post sends temperature; seed only when provided (None -> omitted)."""
+    captured = {}
+    original_post = llm.requests.post
+
+    def fake_post(url, json=None, **kwargs):
+        captured["json"] = json
+        return original_post(url, json=json, **kwargs)
+
+    monkeypatch.setattr(llm.requests, "post", fake_post)
+
+    llm._post("q", stream=False, temperature=0, seed=42)
+    assert captured["json"]["temperature"] == 0
+    assert captured["json"]["seed"] == 42
+
+    llm._post("q", stream=False)
+    assert captured["json"]["temperature"] == 0.2
+    assert "seed" not in captured["json"]

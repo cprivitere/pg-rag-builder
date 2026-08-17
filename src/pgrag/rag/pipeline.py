@@ -2,21 +2,19 @@ import logging
 import re
 
 import chromadb
-from pathlib import Path
 
 from pgrag.embeddings.llama_embeddings import embed_text
-from pgrag.rag.query_classifier import classify_query, find_entity
+from pgrag.rag.query_classifier import classify_query, find_entity, find_entities
 from pgrag.rag.entity_retrieval import build_entity_context
 from pgrag.rag.retriever import retrieve
+from pgrag.rag.query_plan import plan_query
 from pgrag.rag.bm25 import load_bm25_index
 from pgrag.rag.prompts import build_prompt
 from pgrag.rag.llm import generate, stream_generate
 from pgrag.rag.synthesis_detector import should_synthesize
-from pgrag.rag.synthesis_generator import synthesize_answer, create_curated_doc
+from pgrag.rag.synthesis_generator import synthesize_answer
 
 logger = logging.getLogger(__name__)
-
-CURATED_DIR = Path("data/wiki/curated")
 
 # Wiki page expansion bounds (Step 5): at most 2 pages, ~16k chars of
 # appended context per general query.
@@ -144,12 +142,14 @@ SUBJECT_REGEX = re.compile(
 )
 
 
-def _persist_synthesized(doc):
-    CURATED_DIR.mkdir(parents=True, exist_ok=True)
-    slug = doc["id"].replace("synthesized_", "", 1)
-    slug = re.sub(r'[<>:"/\\|?*]', "-", slug)
-    path = CURATED_DIR / f"synthesized_{slug}_curated.txt"
-    path.write_text(doc["text"], encoding="utf-8")
+MISSING_REGEX = re.compile(
+    r"\b(i do not know|not found|no information|unable to find)\b",
+    re.IGNORECASE,
+)
+SUBJECT_REGEX = re.compile(
+    r"i do not know (?:how to|about) ([^.,!?\n]+)",
+    re.IGNORECASE,
+)
 
 
 _SUMMARY_CANDIDATES = 10
@@ -224,10 +224,10 @@ def _find_matching_summary(question):
     return best
 
 
-def _generate_with(question, documents, query_type):
+def _generate_with(question, documents, query_type, generation=None):
     context = "\n\n---\n\n".join(documents)
     prompt = build_prompt(question, context, query_type=query_type)
-    return generate(prompt)
+    return generate(prompt, **(generation or {}))
 
 
 def _build_sources(ids, distances, metadatas):
@@ -242,7 +242,7 @@ def _build_sources(ids, distances, metadatas):
     ]
 
 
-def _gap_fill(question, answer, ids, docs, metas, dists, query_type):
+def _gap_fill(question, answer, ids, docs, metas, dists, query_type, generation=None, trace=None):
     """One-shot targeted re-retrieval on the missing subject (V36).
     Bare "I do not know." carries no subject -> fall back to the question itself.
     Empty answer also counts as missing.
@@ -250,7 +250,7 @@ def _gap_fill(question, answer, ids, docs, metas, dists, query_type):
     if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
         return answer, ids, docs, metas, dists, False
     if not (answer or "").strip():
-        answer = _generate_with(question, docs, query_type)
+        answer = _generate_with(question, docs, query_type, generation=generation)
         if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
             return answer, ids, docs, metas, dists, False
     m = SUBJECT_REGEX.search(answer)
@@ -260,7 +260,10 @@ def _gap_fill(question, answer, ids, docs, metas, dists, query_type):
         count=5,
         hybrid=True,
         rerank=True,
+        trace=trace,
     )
+    if trace is not None:
+        trace["gap_fill"] = {"triggered": True, "subject": subject}
     seen = set(ids)
     for i in range(len(extra["ids"][0])):
         did = extra["ids"][0][i]
@@ -271,7 +274,7 @@ def _gap_fill(question, answer, ids, docs, metas, dists, query_type):
         docs.append(extra["documents"][0][i])
         metas.append(extra["metadatas"][0][i])
         dists.append(extra["distances"][0][i])
-    answer = _generate_with(question, docs, query_type)
+    answer = _generate_with(question, docs, query_type, generation=generation)
     return answer, ids, docs, metas, dists, extra.get("rerank_used", False)
 
 
@@ -291,15 +294,16 @@ def _prepare_entity(question):
     )
 
 
-def _ask_entity(question):
+def _ask_entity(question, generation=None, trace=None):
     prepared = _prepare_entity(question)
     if prepared is None:
         return None
     ids, docs, metas, dists, rerank_used = prepared
 
-    answer = _generate_with(question, docs, "entity")
-    answer, ids, docs, metas, dists, gap_used = _gap_fill(
-        question, answer, ids, docs, metas, dists, "entity"
+    answer = _generate_with(question, docs, "entity", generation=generation)
+    answer, ids, docs, metas, dist, gap_used = _gap_fill(
+        question, answer, ids, docs, metas, dists, "entity",
+        generation=generation, trace=trace,
     )
 
     return {
@@ -307,14 +311,62 @@ def _ask_entity(question):
         "documents": docs,
         "query_type": "entity",
         "rerank_used": rerank_used or gap_used,
-        "sources": _build_sources(ids, dists, metas),
+        "sources": _build_sources(ids, dist, metas),
     }
 
 
-def _prepare_general(question, query_type, metadata_filter=None):
+def _prepare_multi_entity(question, entities, generation=None, trace=None):
+    """Build one labeled context from several entity dossiers and answer.
+
+    Used for comparison queries naming 2+ entities (e.g. "Punch vs Front
+    Kick"), so the answer sees both entities' own damage/levels rather than
+    only the first-resolved hub.
+    """
+    from pgrag.rag.entity_retrieval import build_multi_entity_context
+
+    ctx = build_multi_entity_context(question, entities, trace=trace)
+    if ctx is None:
+        return None
+    docs = ctx["documents"][0]
+    if trace is not None:
+        trace["entities"] = [
+            {"name": name, "id": hub, "dtype": dtype}
+            for name, hub, dtype in entities
+        ]
+    answer = _generate_with(question, docs, "comparison", generation=generation)
+    return {
+        "answer": answer,
+        "documents": docs,
+        "query_type": "comparison",
+        "rerank_used": ctx.get("rerank_used", False),
+        "sources": _build_sources(ctx["ids"][0], ctx["distances"][0], ctx["metadatas"][0]),
+    }
+
+
+def _apply_plan(question, metadata_filter, trace=None):
+    """Turn a high-confidence metadata plan into native+token filters for the
+    general path. A caller-supplied filter wins (no auto-plan override)."""
+    if metadata_filter is not None:
+        return metadata_filter, None
+    plan = plan_query(question)
+    if plan is None:
+        return None, None
+    if trace is not None:
+        trace["plan"] = {
+            "label": plan["label"],
+            "native": plan["native"],
+            "token": plan["token"],
+        }
+    return plan["native"], plan["token"] or None
+
+
+def _prepare_general(question, query_type, metadata_filter=None, token_filter=None, trace=None, generation=None):
     """Retrieve (and possibly synthesize) context for a general/comparison
     query. Returns (query_type, ids, documents, metadatas, distances,
     rerank_used). Does not call the LLM."""
+    if trace is not None:
+        trace["query"] = question
+        trace["classifier"] = query_type
     # "lookup" queries ("Where can I find X?") need the same wide hybrid
     # recall + wiki expansion as "general" — an answer is a fact, not a
     # comparison, so a 3-doc dense-only window starves it.
@@ -322,9 +374,11 @@ def _prepare_general(question, query_type, metadata_filter=None):
     results = retrieve(
         question,
         metadata_filter=metadata_filter,
+        token_filter=token_filter,
         query_type=query_type,
         count=20 if is_wide else 3,
         hybrid=is_wide,
+        trace=trace,
     )
 
     documents = results["documents"][0]
@@ -344,6 +398,17 @@ def _prepare_general(question, query_type, metadata_filter=None):
             ids, documents, metadatas, distances, store,
         )
         _expanded = len(ids) > before
+        if trace is not None and _expanded:
+            parent_ids = sorted({
+                m.get("parent_id")
+                for m in metadatas
+                if isinstance(m, dict) and m.get("parent_id")
+            })
+            trace["expansion"] = {
+                "parent_ids": parent_ids,
+                "chars": sum(len(d) for d in documents[before:]),
+                "added_count": len(ids) - before,
+            }
 
     if query_type == "comparison":
         summary = _find_matching_summary(question)
@@ -362,12 +427,15 @@ def _prepare_general(question, query_type, metadata_filter=None):
     if should_synthesize(result_dicts, query_type) and not _expanded:
         # Synthesize scattered results
         try:
-            synthesized = synthesize_answer(question, result_dicts[:3])  # Limit to 3 sources
-            # Persist so future queries benefit (V24) — survive purge via curated dir (V20)
-            curated_doc = create_curated_doc(question, result_dicts[:3], synthesized_text=synthesized)
-            _persist_synthesized(curated_doc)
-            # Use synthesized as context instead of raw docs
+            synthesized = synthesize_answer(question, result_dicts[:3], generation=generation)
+            # Use synthesized as context instead of raw docs (ephemeral, in-request
+            # only — never persisted to disk).
             documents = [synthesized]
+            if trace is not None:
+                trace["synthesis"] = {
+                    "triggered": True,
+                    "source_ids": list(ids[:3]),
+                }
         except Exception as exc:
             logger.warning(
                 "synthesis failed for %r (query_type=%s): %s",
@@ -379,13 +447,13 @@ def _prepare_general(question, query_type, metadata_filter=None):
     return query_type, ids, documents, metadatas, distances, results.get("rerank_used", False)
 
 
-def _stream_generation(question, documents, query_type):
+def _stream_generation(question, documents, query_type, generation=None):
     context = "\n\n---\n\n".join(documents)
     prompt = build_prompt(question, context, query_type=query_type)
-    return stream_generate(prompt)
+    return stream_generate(prompt, **(generation or {}))
 
 
-def _stream_answer(question, ids, docs, metas, dists, query_type):
+def _stream_answer(question, ids, docs, metas, dists, query_type, generation=None, trace=None):
     """Stream the answer (and any gap-fill re-answer) for a prepared context.
 
     Yields {"type": "token", "text"} deltas and {"type": "reset"} before a
@@ -393,7 +461,7 @@ def _stream_answer(question, ids, docs, metas, dists, query_type):
     gap_used) once the final generation completes.
     """
     answer = ""
-    for delta in _stream_generation(question, docs, query_type):
+    for delta in _stream_generation(question, docs, query_type, generation=generation):
         answer += delta
         yield {"type": "token", "text": delta}
 
@@ -403,7 +471,7 @@ def _stream_answer(question, ids, docs, metas, dists, query_type):
     if not (answer or "").strip():
         answer = ""
         yield {"type": "reset"}
-        for delta in _stream_generation(question, docs, query_type):
+        for delta in _stream_generation(question, docs, query_type, generation=generation):
             answer += delta
             yield {"type": "token", "text": delta}
         if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
@@ -416,7 +484,10 @@ def _stream_answer(question, ids, docs, metas, dists, query_type):
         count=5,
         hybrid=True,
         rerank=True,
+        trace=trace,
     )
+    if trace is not None:
+        trace["gap_fill"] = {"triggered": True, "subject": subject}
     seen = set(ids)
     for i in range(len(extra["ids"][0])):
         did = extra["ids"][0][i]
@@ -430,13 +501,13 @@ def _stream_answer(question, ids, docs, metas, dists, query_type):
 
     answer = ""
     yield {"type": "reset"}
-    for delta in _stream_generation(question, docs, query_type):
+    for delta in _stream_generation(question, docs, query_type, generation=generation):
         answer += delta
         yield {"type": "token", "text": delta}
     return answer, ids, docs, metas, dists, extra.get("rerank_used", False)
 
 
-def ask_stream(question, metadata_filter=None):
+def ask_stream(question, metadata_filter=None, generation=None, trace=None):
     """Streaming variant of ask().
 
     Yields {"type": "token", "text"} deltas (with {"type": "reset"} between
@@ -444,14 +515,21 @@ def ask_stream(question, metadata_filter=None):
     where result mirrors ask()'s return value.
     """
     query_type = classify_query(question)
+    if trace is not None:
+        trace.setdefault("query", question)
+        trace.setdefault("classifier", query_type)
 
     if query_type == "entity":
         prepared = _prepare_entity(question)
         if prepared is not None:
             ids, docs, metas, dists, rerank_used = prepared
             answer, ids, docs, metas, dists, gap_used = yield from _stream_answer(
-                question, ids, docs, metas, dists, "entity"
+                question, ids, docs, metas, dists, "entity",
+                generation=generation, trace=trace,
             )
+            if trace is not None:
+                trace["generation"] = dict(generation or {})
+                trace["corrected_query"] = (trace.get("retrieval_calls") or [{}])[0].get("query", question)
             yield {"type": "final", "result": {
                 "answer": answer,
                 "documents": docs,
@@ -462,12 +540,30 @@ def ask_stream(question, metadata_filter=None):
             return
         query_type = "general"
 
+    if query_type == "comparison":
+        ents = find_entities(question)
+        if len(ents) >= 2:
+            multi = _prepare_multi_entity(
+                question, ents, generation=generation, trace=trace,
+            )
+            if multi is not None:
+                if trace is not None:
+                    trace["generation"] = dict(generation or {})
+                    trace["corrected_query"] = (trace.get("retrieval_calls") or [{}])[0].get("query", question)
+                yield {"type": "final", "result": multi}
+                return
+
+    mf, tf = _apply_plan(question, metadata_filter, trace=trace)
     qt, ids, documents, metadatas, distances, rerank_used = _prepare_general(
-        question, query_type, metadata_filter
+        question, query_type, mf, token_filter=tf, trace=trace, generation=generation
     )
     answer, ids, documents, metadatas, distances, gap_used = yield from _stream_answer(
-        question, ids, documents, metadatas, distances, qt
+        question, ids, documents, metadatas, distances, qt,
+        generation=generation, trace=trace,
     )
+    if trace is not None:
+        trace["generation"] = dict(generation or {})
+        trace["corrected_query"] = (trace.get("retrieval_calls") or [{}])[0].get("query", question)
     yield {"type": "final", "result": {
         "answer": answer,
         "documents": documents,
@@ -489,18 +585,30 @@ def ask_stream(question, metadata_filter=None):
     }}
 
 
-def ask(question, metadata_filter=None):
-
+def ask(question, metadata_filter=None, generation=None, trace=None):
     query_type = classify_query(question)
+    if trace is not None:
+        trace.setdefault("query", question)
+        trace.setdefault("classifier", query_type)
 
     if query_type == "entity":
         prepared = _prepare_entity(question)
         if prepared is not None:
-            return _ask_entity(question)
+            return _ask_entity(question, generation=generation, trace=trace)
         query_type = "general"
 
+    if query_type == "comparison":
+        ents = find_entities(question)
+        if len(ents) >= 2:
+            multi = _prepare_multi_entity(
+                question, ents, generation=generation, trace=trace,
+            )
+            if multi is not None:
+                return multi
+
+    mf, tf = _apply_plan(question, metadata_filter, trace=trace)
     qt, ids, documents, metadatas, distances, rerank_used = _prepare_general(
-        question, query_type, metadata_filter
+        question, query_type, mf, token_filter=tf, trace=trace, generation=generation
     )
 
     context = "\n\n---\n\n".join(documents)
@@ -511,10 +619,15 @@ def ask(question, metadata_filter=None):
         query_type=qt
     )
 
-    answer = generate(prompt)
+    answer = generate(prompt, **(generation or {}))
     answer, ids, documents, metadatas, distances, gap_used = _gap_fill(
-        question, answer, ids, documents, metadatas, distances, qt
+        question, answer, ids, documents, metadatas, distances, qt,
+        generation=generation, trace=trace,
     )
+
+    if trace is not None:
+        trace["generation"] = dict(generation or {})
+        trace["corrected_query"] = (trace.get("retrieval_calls") or [{}])[0].get("query", question)
 
     return {
         "answer": answer,

@@ -20,6 +20,9 @@ COMPARISON_PATTERNS = [
     r"\bsmallest\b",
     r"\bfastest\b",
     r"\bslowest\b",
+    r"\bvs\.?\b",
+    r"\b(?:more|less) (?:damage|powerful|effective|xp)\b",
+    r"\bbetween .+ and .+\b",
 ]
 
 # "How do I raise skill X" — even when phrased as "most efficient way to level
@@ -130,6 +133,49 @@ def find_entity(query):
     return None, None
 
 
+def find_entities(query) -> list:
+    """All entities named in the query, greedy longest-first and non-overlapping.
+
+    Returns [(name, hub_id, dtype), ...] in query order. Matches against the
+    original text, falling back to the spelling-corrected text when the
+    original yields nothing. Names come from the entity index (not the hub
+    filename), so ability hubs keep their real name.
+    """
+    corrected = correct_query(query)
+    texts = [query]
+    if corrected != query.lower():
+        texts.append(corrected)
+
+    for text in texts:
+        t = text.lower()
+        picked = []
+        spans = []
+        # The index is sorted longest-first, so the first match to claim a
+        # span is the longest; overlapping shorter names are skipped.
+        for name, doc_id, dtype in _load_entity_index():
+            m = _name_regex(name).search(t)
+            if not m:
+                continue
+            s, e = m.span()
+            if any(not (e <= ss or s >= ee) for ss, ee in spans):
+                continue
+            spans.append((s, e))
+            picked.append((s, name, doc_id, dtype))
+        if not picked:
+            continue
+        picked.sort(key=lambda x: x[0])  # query order
+        out = []
+        seen = set()
+        for _s, name, doc_id, dtype in picked:
+            hub = _hub_id(doc_id, dtype)
+            if hub in seen:
+                continue
+            seen.add(hub)
+            out.append((name, hub, dtype))
+        return out
+    return []
+
+
 def classify_query(query: str) -> str:
     lower = query.lower()
 
@@ -145,6 +191,11 @@ def classify_query(query: str) -> str:
     for pattern in COMPARISON_PATTERNS:
         if re.search(pattern, lower):
             return "comparison"
+
+    # Two (or more) entities named in one question is a comparison even when
+    # no superlative/intensifier pattern trips — e.g. "Punch or Front Kick".
+    if len(find_entities(query)) >= 2:
+        return "comparison"
 
     for pattern in LOOKUP_INDICATORS:
         if re.search(pattern, lower):
