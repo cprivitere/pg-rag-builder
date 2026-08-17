@@ -8,139 +8,13 @@ from pgrag.rag.query_classifier import classify_query, find_entity, find_entitie
 from pgrag.rag.entity_retrieval import build_entity_context
 from pgrag.rag.retriever import retrieve
 from pgrag.rag.query_plan import plan_query
-from pgrag.rag.bm25 import load_bm25_index
+from pgrag.rag.resolve import expand_parents
 from pgrag.rag.prompts import build_prompt
 from pgrag.rag.llm import generate, stream_generate
 from pgrag.rag.synthesis_detector import should_synthesize
 from pgrag.rag.synthesis_generator import synthesize_answer
 
 logger = logging.getLogger(__name__)
-
-# Wiki page expansion bounds (Step 5): at most 2 pages, ~16k chars of
-# appended context per general query.
-_EXPAND_MAX_PAGES = 2
-_EXPAND_MAX_CHARS = 16000
-_EXPAND_PLACEHOLDER_DIST = 1.0
-
-_doc_store = None
-_parent_index = None
-
-
-def _load_parent_index():
-    """id -> doc + parent_id -> [docs], lazily from the persisted BM25 doc
-    store (data/bm25_index.pkl). Built once per process."""
-    global _doc_store, _parent_index
-    if _doc_store is not None:
-        return _doc_store, _parent_index
-    _, all_docs = load_bm25_index()
-    _doc_store = {d["id"]: d for d in all_docs}
-    index = {}
-    for d in all_docs:
-        pid = d.get("metadata", {}).get("parent_id")
-        if pid:
-            index.setdefault(pid, []).append(d)
-    _parent_index = index
-    return _doc_store, _parent_index
-
-
-def _expand_wiki_context(ids, documents, metadatas, distances, store):
-    """Pull sibling chunks of wiki pages hit by retrieval.
-
-    A general query retrieves only the top chunks of a page; the answer often
-    sits in another section of the same page. Expands at most
-    `_EXPAND_MAX_PAGES` pages, id-deduped, bounded to `_EXPAND_MAX_CHARS` of
-    appended text. Appended docs get `_EXPAND_PLACEHOLDER_DIST`; all four
-    lists stay index-aligned. Non-wiki docs are untouched.
-    """
-    parent_ids = []
-    seen = set()
-    for meta in metadatas:
-        if not isinstance(meta, dict):
-            continue
-        parent = meta.get("parent_id")
-        if parent and parent not in seen:
-            seen.add(parent)
-            parent_ids.append(parent)
-        if len(parent_ids) >= _EXPAND_MAX_PAGES:
-            break
-
-    if not parent_ids:
-        return ids, documents, metadatas, distances
-
-    parents = {pid: [] for pid in parent_ids}
-    for pid in parent_ids:
-        for doc in store.values():
-            dmeta = doc.get("metadata", {})
-            if isinstance(dmeta, dict) and dmeta.get("parent_id") == pid:
-                parents[pid].append(doc)
-
-    existing = set(ids)
-    per_parent = {}  # parent -> (added ids, texts, metas, dists)
-    used_chars = 0
-
-    for pid in parent_ids:
-        added_ids, added_texts, added_metas, added_dists = [], [], [], []
-        for doc in parents.get(pid, []):
-            if doc["id"] in existing:
-                continue
-            if used_chars + len(doc["text"]) > _EXPAND_MAX_CHARS:
-                continue
-            existing.add(doc["id"])
-            added_ids.append(doc["id"])
-            added_texts.append(doc["text"])
-            added_metas.append(doc["metadata"])
-            added_dists.append(_EXPAND_PLACEHOLDER_DIST)
-            used_chars += len(doc["text"])
-        if added_ids:
-            per_parent[pid] = (
-                added_ids, added_texts, added_metas, added_dists,
-            )
-
-    if not per_parent:
-        return ids, documents, metadatas, distances
-
-    # Splice each page's siblings right after its first retrieved chunk so
-    # the page stays contiguous and the specific answer is not buried at the
-    # end of the context.
-    result_ids, result_texts, result_metas, result_dists = [], [], [], []
-    spliced = set()
-    for i in range(len(ids)):
-        result_ids.append(ids[i])
-        result_texts.append(documents[i])
-        result_metas.append(metadatas[i])
-        result_dists.append(distances[i])
-        pid = (
-            metadatas[i].get("parent_id")
-            if isinstance(metadatas[i], dict) else None
-        )
-        if pid in per_parent and pid not in spliced:
-            spliced.add(pid)
-            a_ids, a_texts, a_metas, a_dists = per_parent[pid]
-            result_ids.extend(a_ids)
-            result_texts.extend(a_texts)
-            result_metas.extend(a_metas)
-            result_dists.extend(a_dists)
-
-    # A parent not present in the retrieved list is impossible (parents come
-    # from retrieved metadata), but append defensively.
-    for pid, (a_ids, a_texts, a_metas, a_dists) in per_parent.items():
-        if pid not in spliced:
-            result_ids.extend(a_ids)
-            result_texts.extend(a_texts)
-            result_metas.extend(a_metas)
-            result_dists.extend(a_dists)
-
-    return result_ids, result_texts, result_metas, result_dists
-
-MISSING_REGEX = re.compile(
-    r"\b(i do not know|not found|no information|unable to find)\b",
-    re.IGNORECASE,
-)
-SUBJECT_REGEX = re.compile(
-    r"i do not know (?:how to|about) ([^.,!?\n]+)",
-    re.IGNORECASE,
-)
-
 
 MISSING_REGEX = re.compile(
     r"\b(i do not know|not found|no information|unable to find)\b",
@@ -153,6 +27,10 @@ SUBJECT_REGEX = re.compile(
 
 
 _SUMMARY_CANDIDATES = 10
+
+# The deferred "request more" is bounded: at most ONE wiki-parent expansion
+# round per missing answer (an unbounded loop risks runaway context growth).
+_AGENTIC_MAX_ROUNDS = 1
 
 # Query terms hinting at a gathering/harvesting question
 _GATHERING_TERMS = {
@@ -242,6 +120,19 @@ def _build_sources(ids, distances, metadatas):
     ]
 
 
+def _resolve_expansion(ids, docs, metas, dists):
+    """Attempt one bounded wiki-parent/sibling expansion of the current
+    context (the deferred "request more": the missing answer may live in a
+    sibling chunk of an already-retrieved page). Returns the (possibly
+    unchanged) lists plus the number of appended docs (0 = nothing to
+    expand, e.g. no wiki parent among the retrieved docs)."""
+    if not any(isinstance(m, dict) and m.get("parent_id") for m in metas):
+        return ids, docs, metas, dists, 0
+    before = len(docs)
+    ids, docs, metas, dists = expand_parents(ids, docs, metas, dists)
+    return ids, docs, metas, dists, len(docs) - before
+
+
 def _gap_fill(question, answer, ids, docs, metas, dists, query_type, generation=None, trace=None):
     """One-shot targeted re-retrieval on the missing subject (V36).
     Bare "I do not know." carries no subject -> fall back to the question itself.
@@ -253,6 +144,20 @@ def _gap_fill(question, answer, ids, docs, metas, dists, query_type, generation=
         answer = _generate_with(question, docs, query_type, generation=generation)
         if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
             return answer, ids, docs, metas, dists, False
+
+    # Deferred "request more": re-answer from the expanded wiki page before
+    # falling through to the subject re-retrieval. One bounded round.
+    expanded = 0
+    ids, docs, metas, dists, expanded = _resolve_expansion(ids, docs, metas, dists)
+    if expanded:
+        answer = _generate_with(question, docs, query_type, generation=generation)
+        if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
+            if trace is not None:
+                trace["resolve"] = {"rounds": 1, "expanded": expanded}
+            return answer, ids, docs, metas, dists, False
+    if trace is not None:
+        trace["resolve"] = {"rounds": 1 if expanded else 0, "expanded": expanded}
+
     m = SUBJECT_REGEX.search(answer)
     subject = m.group(1).strip() if m else question
     extra = retrieve(
@@ -392,12 +297,11 @@ def _prepare_general(question, query_type, metadata_filter=None, token_filter=No
     if is_wide and any(
         isinstance(m, dict) and m.get("parent_id") for m in metadatas
     ):
-        # Wiki page expansion (Step 5): pull sibling chunks via parent_id so
+        # Wiki page expansion: pull sibling chunks via parent_id so
         # "how-to" answers aren't lost in a non-retrieved chunk.
-        store, _ = _load_parent_index()
         before = len(ids)
-        ids, documents, metadatas, distances = _expand_wiki_context(
-            ids, documents, metadatas, distances, store,
+        ids, documents, metadatas, distances = expand_parents(
+            ids, documents, metadatas, distances,
         )
         _expanded = len(ids) > before
         if trace is not None and _expanded:
@@ -478,6 +382,23 @@ def _stream_answer(question, ids, docs, metas, dists, query_type, generation=Non
             yield {"type": "token", "text": delta}
         if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
             return answer, ids, docs, metas, dists, False
+
+    # Deferred "request more": re-answer from the expanded wiki page before
+    # falling through to the subject re-retrieval. One bounded round.
+    expanded = 0
+    ids, docs, metas, dists, expanded = _resolve_expansion(ids, docs, metas, dists)
+    if expanded:
+        answer = ""
+        yield {"type": "reset"}
+        for delta in _stream_generation(question, docs, query_type, generation=generation):
+            answer += delta
+            yield {"type": "token", "text": delta}
+        if (answer or "").strip() and not MISSING_REGEX.search(answer or ""):
+            if trace is not None:
+                trace["resolve"] = {"rounds": 1, "expanded": expanded}
+            return answer, ids, docs, metas, dists, False
+    if trace is not None:
+        trace["resolve"] = {"rounds": 1 if expanded else 0, "expanded": expanded}
 
     m = SUBJECT_REGEX.search(answer)
     subject = m.group(1).strip() if m else question
