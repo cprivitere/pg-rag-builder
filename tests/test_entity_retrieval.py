@@ -89,10 +89,24 @@ def test_leveling_doc_joined_for_skill_hub():
            "metadata": {"type": "computed", "name": "Cheesemaking"}}
     er._load_docs = lambda: [hub, lvl]
     r = er.build_entity_context("how to level Cheesemaking from 17 to 25",
-                                "skill_Cheesemaking")
+                                "skill_Cheesemaking", include_leveling=True)
     ids = r["ids"][0]
     assert "leveling_Cheesemaking" in ids
     assert ids.index("leveling_Cheesemaking") == 1
+
+
+def test_leveling_doc_gated_on_intent():
+    # Leveling doc is NOT shoved into every skill dossier — only leveling
+    # questions (pipeline passes include_leveling). Unrelated skill questions
+    # keep their wiki/table rows un-crowded.
+    hub = _mk("skill_Cheesemaking", "Cheesemaking skill")
+    lvl = {"id": "leveling_Cheesemaking",
+           "text": "Level 25: 990 XP (cumulative 11710)",
+           "metadata": {"type": "computed", "name": "Cheesemaking"}}
+    er._load_docs = lambda: [hub, lvl]
+    r = er.build_entity_context("where are field mushrooms",
+                                "skill_Cheesemaking", include_leveling=False)
+    assert "leveling_Cheesemaking" not in r["ids"][0]
 
 
 def test_leveling_doc_absent_builds_dossier():

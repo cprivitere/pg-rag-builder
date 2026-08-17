@@ -4,7 +4,7 @@ import re
 import chromadb
 
 from pgrag.embeddings.llama_embeddings import embed_text
-from pgrag.rag.query_classifier import classify_query, find_entity, find_entities
+from pgrag.rag.query_classifier import classify_query, find_entity, find_entities, is_leveling_intent
 from pgrag.rag.entity_retrieval import build_entity_context
 from pgrag.rag.retriever import retrieve
 from pgrag.rag.query_plan import plan_query
@@ -282,7 +282,9 @@ def _prepare_entity(question):
     """Retrieve an entity dossier without generating. Returns
     (ids, docs, metas, dists, rerank_used) or None if no hub found."""
     hub_id, _ = find_entity(question)
-    ctx = build_entity_context(question, hub_id)
+    ctx = build_entity_context(
+        question, hub_id, include_leveling=is_leveling_intent(question),
+    )
     if ctx is None:
         return None
     return (

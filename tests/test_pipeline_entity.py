@@ -28,7 +28,7 @@ def _set_entity(monkeypatch, ctx=HUB_CTX):
         "pgrag.rag.pipeline.find_entity", lambda q: ("skillprofile_Pooping", "skill")
     )
     monkeypatch.setattr(
-        "pgrag.rag.pipeline.build_entity_context", lambda q, h: ctx
+        "pgrag.rag.pipeline.build_entity_context", lambda q, h, include_leveling=False: ctx
     )
 
 

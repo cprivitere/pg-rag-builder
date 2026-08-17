@@ -176,6 +176,20 @@ def find_entities(query) -> list:
     return []
 
 
+def is_leveling_intent(query: str) -> bool:
+    """True when the query asks how to level a named skill (one of
+    LEVELING_PATTERNS + a skill entity). The pipeline uses this to pull the
+    computed leveling_<Skill> dossier into the skill hub context — and
+    deliberately NOT for unrelated skill questions (mushroom locations etc),
+    which would otherwise lose wiki/table rows to the front-loaded ladder.
+    """
+    if any(re.search(p, query.lower()) for p in LEVELING_PATTERNS):
+        hub, dtype = find_entity(query)
+        if hub and dtype == "skill":
+            return True
+    return False
+
+
 def classify_query(query: str) -> str:
     lower = query.lower()
 
@@ -183,10 +197,8 @@ def classify_query(query: str) -> str:
     # ("most efficient way to level Cheesemaking" is a how-to, not a comparison).
     # Restricted to skills: generic words that happen to match NPC names
     # ("way to level up" -> NPC "Way") must not hijack the route.
-    if any(re.search(p, lower) for p in LEVELING_PATTERNS):
-        hub, dtype = find_entity(query)
-        if hub and dtype == "skill":
-            return "entity"
+    if is_leveling_intent(query):
+        return "entity"
 
     for pattern in COMPARISON_PATTERNS:
         if re.search(pattern, lower):

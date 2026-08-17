@@ -107,7 +107,8 @@ def _entity_name_from_hub(hub_id):
 
 
 def build_entity_context(question, hub_id, budget=None,
-                         other_hub_ids=frozenset(), trace=None):
+                         other_hub_ids=frozenset(), trace=None,
+                         include_leveling=False):
     docs = _load_docs()
     if not docs:
         return None
@@ -139,10 +140,12 @@ def build_entity_context(question, hub_id, budget=None,
     # Computed per-skill leveling dossier (leveling_<Skill>, source=computed)
     # lives in a separate id namespace from the skill hub; pull it into
     # skill/skillprofile hubs so "how do I level X from A to B" sees the full
-    # cumulative XP ladder + recipe list, ahead of facet/wiki rows. Absent in
-    # corpora without computed docs (no-op).
+    # cumulative XP ladder + recipe list. Only for leveling-intent questions
+    # (pipeline sets include_leveling): an unconditional front-load crowds
+    # unrelated skill questions (e.g. mushroom locations lose their rows).
+    # Absent in corpora without computed docs (no-op).
     _leveling_included = False
-    if hub_id.startswith(("skill_", "skillprofile_")):
+    if include_leveling and hub_id.startswith(("skill_", "skillprofile_")):
         _leveling_id = "leveling_" + hub_id.split("_", 1)[1]
         for _d in docs:
             if _d["id"] == _leveling_id:
