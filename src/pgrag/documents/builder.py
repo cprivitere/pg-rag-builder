@@ -5,13 +5,17 @@ from pathlib import Path
 from pgrag.documents.resolver import GameResolver
 from pgrag.documents.wiki_builder import build_wiki_documents
 from pgrag.documents.chunking import chunk_all_documents
-from pgrag.documents.skill_profiles import build_skill_profile_documents
+from pgrag.documents.skill_profiles import (
+    build_skill_profile_documents,
+    build_leveling_documents,
+)
 from pgrag.documents.summaries import (
     build_summary_documents,
     build_gathering_summaries,
     build_wiki_gathering_summaries,
     build_wiki_harvest_map,
 )
+from pgrag.config import CURATED_DIR
 from pathlib import Path
 
 
@@ -38,9 +42,9 @@ def _int_or(value, default=0):
 
 
 def build_curated_documents():
-    """Load curated documents from data/wiki/curated/ directory."""
+    """Load curated documents from the derived curated directory."""
     documents = []
-    curated_dir = Path("data/wiki/curated")
+    curated_dir = CURATED_DIR
     
     if not curated_dir.exists():
         return documents
@@ -1248,6 +1252,7 @@ def _assemble_documents(db):
     documents.extend(build_recipe_documents(db))
     documents.extend(build_skill_documents(db))
     documents.extend(build_skill_profile_documents(db))
+    documents.extend(build_leveling_documents(db))
     documents.extend(build_quest_documents(db))
     documents.extend(build_ability_documents(db))
     documents.extend(build_npc_documents(db))

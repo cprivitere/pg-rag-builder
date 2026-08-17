@@ -27,6 +27,7 @@ TYPE_MAX_CHARS = {
     "abilitykeyword": 1024,
     "wiki": 1024,
     "skillprofile": 2048,
+    "leveling": 8192,
     "summary": 8192,
     "curated": 8192,
 }

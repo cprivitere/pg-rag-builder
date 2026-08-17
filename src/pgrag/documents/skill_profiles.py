@@ -1,5 +1,9 @@
 RECIPE_CAP = 25
 QUEST_CAP = 25
+LEVELING_RECIPE_CAP = 60
+# Must match chunking.TYPE_MAX_CHARS["leveling"] so the computed doc is never
+# split across chunks (a split ladder reintroduces the completeness gap).
+LEVELING_BUDGET = 8192
 
 
 def _skill_type(skill):
@@ -271,5 +275,148 @@ def build_skill_profile_documents(db):
                 "name": name,
             }
         })
+
+    return documents
+
+
+def _xp_amounts(xptables, xp_table_name):
+    for table_id, table_data in xptables.items():
+        if not isinstance(table_data, dict):
+            continue
+        if table_data.get("InternalName") != xp_table_name:
+            continue
+        amounts = table_data.get("XpAmounts", [])
+        if isinstance(amounts, list):
+            return amounts
+    return []
+
+
+def _leveling_xp_lines(amounts, max_level):
+    lines = []
+    cumulative = 0
+    for i, xp in enumerate(amounts[:max_level], 1):
+        cumulative += xp
+        lines.append(f"- Level {i}: {xp} XP (cumulative {cumulative})")
+    return lines
+
+
+def _recipe_ladder_lines(matches):
+    """Render a sorted recipe list into compact reward-annotated lines."""
+    lines = []
+    for recipe in matches:
+        name = recipe.get("Name", "?")
+        req = recipe.get("SkillLevelReq", 0) or 0
+        xp = recipe.get("RewardSkillXp")
+        first = recipe.get("RewardSkillXpFirstTime")
+        drop_level = recipe.get("RewardSkillXpDropOffLevel")
+        drop_pct = recipe.get("RewardSkillXpDropOffPct")
+        parts = []
+        if xp is not None:
+            parts.append(f"+{xp} XP")
+        if first is not None:
+            parts.append(f"first +{first}")
+        if drop_level is not None:
+            suffix = f" ({drop_pct * 100:g}%)" if drop_pct is not None else ""
+            parts.append(f"drop after {drop_level}{suffix}")
+        reward = ", ".join(parts)
+        lines.append(f"- {name} [lvl {req}]{': ' + reward if reward else ''}")
+    return lines
+
+
+def _skill_recipes(recipes, skill_key):
+    matches = []
+    for recipe_id, recipe in recipes.items():
+        if not isinstance(recipe, dict):
+            continue
+        if recipe.get("Skill") != skill_key and recipe.get("RewardSkill") != skill_key:
+            continue
+        matches.append(recipe)
+    matches.sort(key=lambda r: (r.get("SkillLevelReq", 0) or 0, r.get("Name", "")))
+    return matches
+
+
+def build_leveling_documents(db):
+    """Computed per-skill leveling dossier (source=computed).
+
+    Joins every recipe's reward fields (+XP, first-time bonus, drop-off) to the
+    skill's per-level XP curve in one retrievable, whole-chunk artifact, so a
+    "most efficient way to level X from A to B" question has complete evidence
+    rather than an LLM summing a recall-capped set of recipe chunks.
+    """
+    documents = []
+
+    skills = db.tables.get("skills", {})
+    if not isinstance(skills, dict):
+        return documents
+
+    recipes = db.tables.get("recipes", {})
+    xptables = db.tables.get("xptables", {})
+
+    for skill_id, skill in skills.items():
+        if not isinstance(skill, dict):
+            continue
+
+        name = skill.get("Name", skill_id)
+        matches = _skill_recipes(recipes, skill_id)
+        if not matches:
+            continue
+        max_req = matches[-1].get("SkillLevelReq", 0) or 0
+        xp_table_name = skill.get("XpTable")
+        amounts = _xp_amounts(xptables, xp_table_name) if xp_table_name else []
+
+        # Fit the doc into the leveling chunk budget: show as many of the
+        # lowest-unlock recipes as fit (sorted by level, so the low-mid band a
+        # leveling query targets is always fully enumerated). The omitted
+        # tail is reported honestly as "+N more recipes (from level L)".
+        k = min(LEVELING_RECIPE_CAP, len(matches))
+        doc = None
+        while k >= 1:
+            shown = matches[:k]
+            shown_level = shown[-1].get("SkillLevelReq", 0) or 0
+            sections = [
+                f"Skill: {name}",
+                "Leveling Guide (computed: recipes joined to the per-level XP curve)",
+            ]
+            xp_lines = _leveling_xp_lines(amounts, max_level=shown_level) if amounts else []
+            if xp_lines:
+                sections.append(f"XP table: {xp_table_name}")
+                sections.append(
+                    "XP needed to reach each level (through recipe unlock range):\n"
+                    + "\n".join(xp_lines)
+                )
+            recipe_section = "Recipes (by unlock level):\n" + "\n".join(
+                _recipe_ladder_lines(shown)
+            )
+            omitted = len(matches) - k
+            if omitted > 0:
+                next_level = matches[k].get("SkillLevelReq", 0) or 0
+                recipe_section += f"\n- +{omitted} more recipes (from level {next_level})"
+            sections.append(recipe_section)
+            sections.append(
+                "Leveling strategy:\n"
+                "- The first craft of each recipe awards its first-time XP instead of the normal per-craft XP.\n"
+                "- Repeat crafts award the normal per-craft XP, at full value until your skill reaches that recipe's drop-off level.\n"
+                "- To minimize crafts, craft every unlocked recipe once for its first-time bonus, then repeat the highest-level recipe you can craft.\n"
+            )
+            text = "\n\n".join(sections).strip()
+            if len(text) <= LEVELING_BUDGET:
+                doc = {
+                    "id": f"leveling_{skill_id}",
+                    "type": "leveling",
+                    "text": text,
+                    "metadata": {
+                        "source": "computed",
+                        "table": "skills",
+                        "name": name,
+                        "skill": skill_id,
+                        "max_recipe_level": max_req,
+                        "shown_recipe_count": k,
+                    },
+                }
+                break
+            k -= 1
+
+        if doc is not None:
+            documents.append(doc)
 
     return documents
