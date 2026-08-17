@@ -13,7 +13,7 @@ WIKI_DIR = DATA_DIR / "wiki"
 # scripts.
 DERIVED_DIR = DATA_DIR / "derived"
 WIKI_PARSED_CACHE = DERIVED_DIR / "wiki_parsed.json"
-CURATED_DIR = DERIVED_DIR / "curated"
+CURATED_DIR = WIKI_DIR / "curated"
 
 # Document-shape version. generate_documents() stamps
 # DERIVED/documents_version.json with this; build-index refuses to embed a
