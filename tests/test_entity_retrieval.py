@@ -79,6 +79,31 @@ def test_unchunked_hub_included():
     assert r["ids"][0] == ["item_42"]
 
 
+def test_leveling_doc_joined_for_skill_hub():
+    # The computed per-skill leveling dossier (leveling_<Skill>) joins the skill
+    # hub right after it, in the non-truncated heads, so leveling questions see
+    # the full cumulative XP ladder.
+    hub = _mk("skill_Cheesemaking", "Cheesemaking skill")
+    lvl = {"id": "leveling_Cheesemaking",
+           "text": "Level 25: 990 XP (cumulative 11710)",
+           "metadata": {"type": "computed", "name": "Cheesemaking"}}
+    er._load_docs = lambda: [hub, lvl]
+    r = er.build_entity_context("how to level Cheesemaking from 17 to 25",
+                                "skill_Cheesemaking")
+    ids = r["ids"][0]
+    assert "leveling_Cheesemaking" in ids
+    assert ids.index("leveling_Cheesemaking") == 1
+
+
+def test_leveling_doc_absent_builds_dossier():
+    # Corpora without computed docs (no leveling_X): dossier builds with just
+    # the hub, no crash.
+    hub = _mk("skill_Cheesemaking", "Cheesemaking skill")
+    er._load_docs = lambda: [hub]
+    r = er.build_entity_context("level Cheesemaking", "skill_Cheesemaking")
+    assert r["ids"][0] == ["skill_Cheesemaking"]
+
+
 def test_facet_type_filters(monkeypatch):
     calls = []
 

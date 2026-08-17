@@ -136,6 +136,24 @@ def build_entity_context(question, hub_id, budget=None,
 
     seen = set(ids)
 
+    # Computed per-skill leveling dossier (leveling_<Skill>, source=computed)
+    # lives in a separate id namespace from the skill hub; pull it into
+    # skill/skillprofile hubs so "how do I level X from A to B" sees the full
+    # cumulative XP ladder + recipe list, ahead of facet/wiki rows. Absent in
+    # corpora without computed docs (no-op).
+    _leveling_included = False
+    if hub_id.startswith(("skill_", "skillprofile_")):
+        _leveling_id = "leveling_" + hub_id.split("_", 1)[1]
+        for _d in docs:
+            if _d["id"] == _leveling_id:
+                ids.append(_d["id"])
+                texts.append(_d["text"])
+                metas.append(_d["metadata"])
+                dists.append(0.0)
+                seen.add(_d["id"])
+                _leveling_included = True
+                break
+
     rerank_used = False
     FACET_COUNTS = {"recipe": 20}
     for facet_q, ftype in FACET_PLANS.get(dtype, []):
@@ -224,7 +242,9 @@ def build_entity_context(question, hub_id, budget=None,
     if dtype == "skill":
         # Put low-level recipes first so the LLM sees what is usable at the
         # player's target level, and truncation keeps the relevant ones.
-        hub_count = len(hub_chunks)
+        # The leveling doc (if added) sits at index len(hub_chunks); keep it
+        # in the non-truncated heads head so it always reaches the LLM.
+        hub_count = len(hub_chunks) + (1 if _leveling_included else 0)
         heads = list(zip(ids, texts, metas, dists))[:hub_count]
         tails = list(zip(ids, texts, metas, dists))[hub_count:]
 
