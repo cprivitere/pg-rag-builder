@@ -381,6 +381,9 @@ def build_leveling_documents(db):
             if xp_lines:
                 sections.append(f"XP table: {xp_table_name}")
                 sections.append(
+                    f"Total: {sum(amounts[:shown_level])} cumulative XP to reach the highest shown level ({shown_level})."
+                )
+                sections.append(
                     "XP needed to reach each level (through recipe unlock range):\n"
                     + "\n".join(xp_lines)
                 )

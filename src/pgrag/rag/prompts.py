@@ -49,7 +49,8 @@ LEVELING QUESTION DETECTED (how to raise or level a skill):
 - The context lists recipes with required skill levels, XP rewards, and ingredients.
 - Rank those recipes/activities by XP efficiency using ONLY the values stated in the context. This ranking is expected analysis of stated numbers, not fabrication.
 - Identify which recipes are usable at or below the target level mentioned in the question (default: all listed recipes).
-- Recommend a concrete path: start with the most XP-efficient recipe available at the player's level, then the next, and mention ingredient counts where relevant."""
+- Recommend a concrete path: start with the most XP-efficient recipe available at the player's level, then the next, and mention ingredient counts where relevant.
+- If the context provides a leveling guide with per-level or cumulative XP totals, state the cumulative XP required to reach the target level (and, if plainly derivable, the total for the asked range) explicitly."""
 
     return f"""{base}
 
