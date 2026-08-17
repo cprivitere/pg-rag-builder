@@ -146,3 +146,14 @@ def load_bm25_index(path=DEFAULT_INDEX_PATH, pkl_path=DEFAULT_PICKLE_PATH):
     except OSError:
         pass  # cache write is best-effort
     return model, docs
+
+
+if __name__ == "__main__":
+    # Pre-warm/build the BM25 index. load_bm25_index() rebuilds in-memory
+    # AND persists when documents.json's mtime changed — otherwise the first
+    # hybrid retrieve() pays a multi-minute sync rebuild inline. Run after
+    # build-documents to avoid that first-query spike.
+    import sys
+    sys.stdout.reconfigure(line_buffering=True)
+    load_bm25_index()
+    print("BM25 index ready (rebuilt if documents.json changed)")

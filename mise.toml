@@ -62,30 +62,38 @@ alias = "docs"
 # Each runs build-documents first (which refreshes the generator-version
 # marker) so build-index never consumes a stale documents.json.
 
+[tasks."build-bm25"]
+description = "Pre-warm/build the BM25 index (rebuilt + persisted when documents.json changed). Prevents the lazy first-query rebuild spike"
+run = "uv run python -m pgrag.rag.bm25"
+alias = "b25"
+
 [tasks."sync-wiki"]
-description = "Converge wiki index to current source: regenerate documents, then partial wiki re-embed (table records, parser/CACHE_VERSION changes)"
+description = "Converge wiki index to current source: regenerate documents, then partial wiki re-embed (table records, parser/CACHE_VERSION changes), then BM25"
 run = [
   "uv run pgrag build-documents",
   "uv run pgrag build-index --source wiki",
+  "uv run python -m pgrag.rag.bm25",
 ]
 alias = "syw"
 
 [tasks."sync-cdn"]
-description = "Converge CDN index to current source: fetch CDN, regenerate documents, partial CDN re-embed"
+description = "Converge CDN index to current source: fetch CDN, regenerate documents, partial CDN re-embed, then BM25"
 run = [
   "uv run pgrag download-cdn",
   "uv run pgrag build-documents",
   "uv run pgrag build-index --source cdn",
+  "uv run python -m pgrag.rag.bm25",
 ]
 alias = "syc"
 
 [tasks."sync"]
-description = "Converge the whole index to current sources: fetch CDN + wiki, regenerate documents, full re-embed"
+description = "Converge the whole index to current sources: fetch CDN + wiki, regenerate documents, full re-embed, then BM25"
 run = [
   "uv run pgrag download-cdn",
   "uv run pgrag download-wiki",
   "uv run pgrag build-documents",
   "uv run pgrag build-index",
+  "uv run python -m pgrag.rag.bm25",
 ]
 alias = "sy"
 
