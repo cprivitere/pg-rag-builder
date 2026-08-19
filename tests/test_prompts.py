@@ -35,7 +35,10 @@ def test_leveling_prompt_includes_ranking_instructions():
     )
     assert "LEVELING QUESTION DETECTED" in prompt
     assert "Rank those recipes/activities by XP efficiency" in prompt
-    assert "target level" in prompt
+    assert "XP Range Calculation" in prompt
+    assert "Target Cumulative XP - Start Cumulative XP = Range XP needed" in prompt
+    assert "Recipe Progression Path" in prompt
+    assert "Optimal Strategy" in prompt
 
 
 def test_entity_prompt_without_leveling_has_no_leveling_section():
@@ -60,7 +63,7 @@ def test_prompt_allows_reasoning_but_blocks_fabrication():
     # ...but fabrication is still prohibited
     assert "NEVER fabricate" in prompt
     assert "do not invent facts" in prompt
-
+    assert "Arithmetic directly derived from stated context values" in prompt
 
 def test_old_overrestrictive_wording_removed():
     """'Do NOT guess, infer' conflated interpretation with fabrication and

@@ -90,7 +90,7 @@ def test_leveling_document_shape():
     assert "first +272" in doc["text"]
     assert "drop after 27 (10%)" in doc["text"]
     assert "Level 17: 680 XP (cumulative 4720)" in doc["text"]
-
+    assert "Range XP = Level B cumulative XP - Level A cumulative XP" in doc["text"]
 
 def test_leveling_recipe_ladder_all_within_cap():
     # Under the cap the ladder is complete (no truncation below LEVELING_RECIPE_CAP).

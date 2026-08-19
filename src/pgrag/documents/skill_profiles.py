@@ -375,7 +375,11 @@ def build_leveling_documents(db):
             shown_level = shown[-1].get("SkillLevelReq", 0) or 0
             sections = [
                 f"Skill: {name}",
-                "Leveling Guide (computed: recipes joined to the per-level XP curve)",
+                (
+                    "Leveling Guide (computed: recipes joined to the per-level XP curve)\n"
+                    "To calculate the total XP needed between any two levels (e.g. from Level A to Level B): "
+                    "subtract Level A cumulative XP from Level B cumulative XP (Range XP = Level B cumulative XP - Level A cumulative XP)."
+                ),
             ]
             xp_lines = _leveling_xp_lines(amounts, max_level=shown_level) if amounts else []
             if xp_lines:

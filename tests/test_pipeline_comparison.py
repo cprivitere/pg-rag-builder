@@ -77,6 +77,7 @@ def test_single_entity_comparison_stays_general_path(monkeypatch):
         }
 
     monkeypatch.setattr("pgrag.rag.pipeline.retrieve", fake_retrieve)
+    monkeypatch.setattr("pgrag.rag.pipeline._find_matching_summary", lambda *a, **k: None)
     monkeypatch.setattr("pgrag.rag.pipeline.should_synthesize", lambda *a, **k: False)
     monkeypatch.setattr("pgrag.rag.pipeline.generate", lambda prompt, **k: "answer")
 

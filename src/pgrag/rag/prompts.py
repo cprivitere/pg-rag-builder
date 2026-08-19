@@ -20,7 +20,7 @@ Rules:
 - If multiple answers exist, list them.
 - If the context contains PARTIAL information for the question, answer with exactly what is present and explicitly state what is missing — do not refuse the whole question because one detail is absent.
 - Only say you do not know when the context contains nothing relevant: no facts, names, levels, or values that bear on the question.
-- NEVER fabricate: do not invent facts, names, values, recipes, XP numbers, formulas, or mechanics that are not present in the context. If a specific number is not stated anywhere, say it is not stated rather than guessing.
+- NEVER fabricate: do not invent facts, names, values, recipes, XP numbers, formulas, or mechanics that are not present in the context. Arithmetic directly derived from stated context values (such as calculating the difference between two stated cumulative XP totals: Target Level cumulative XP minus Start Level cumulative XP) is grounded analysis, not fabrication. If a specific number is not stated or derivable from the context, say it is not stated rather than guessing.
 - NEVER cite sources that are not listed in the provided context.
 - When listing sources, only reference documents that actually contributed to your answer."""
 
@@ -48,9 +48,9 @@ ENTITY QUESTION DETECTED (the question names one specific skill, item, ability, 
 LEVELING QUESTION DETECTED (how to raise or level a skill):
 - The context lists recipes with required skill levels, XP rewards, and ingredients.
 - Rank those recipes/activities by XP efficiency using ONLY the values stated in the context. This ranking is expected analysis of stated numbers, not fabrication.
-- Identify which recipes are usable at or below the target level mentioned in the question (default: all listed recipes).
-- Recommend a concrete path: start with the most XP-efficient recipe available at the player's level, then the next, and mention ingredient counts where relevant.
-- If the context provides a leveling guide with per-level or cumulative XP totals, state the cumulative XP required to reach the target level (and, if plainly derivable, the total for the asked range) explicitly."""
+- XP Range Calculation: When asked about a level range (from Level A to Level B), explicitly state the cumulative XP at the starting level, the cumulative XP at the target level, and calculate and state the exact total XP required for the range (Target Cumulative XP - Start Cumulative XP = Range XP needed).
+- Recipe Progression Path: Explicitly name the starting recipe available at the start level, recipes unlocked across the range, and specifically identify the highest recipe in the range with its XP reward.
+- Optimal Strategy: Explicitly state the leveling strategy: craft each unlocked recipe once for its first-time craft XP bonus, then repeat/spam the highest-level recipe available until reaching the target level."""
 
     return f"""{base}
 

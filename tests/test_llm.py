@@ -52,11 +52,10 @@ def test_stream_generate_raises_server_error(monkeypatch):
 def test_post_emits_temperature_and_optional_seed(monkeypatch):
     """_post sends temperature; seed only when provided (None -> omitted)."""
     captured = {}
-    original_post = llm.requests.post
 
     def fake_post(url, json=None, **kwargs):
         captured["json"] = json
-        return original_post(url, json=json, **kwargs)
+        return _FakeResponse([])
 
     monkeypatch.setattr(llm.requests, "post", fake_post)
 
