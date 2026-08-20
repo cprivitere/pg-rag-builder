@@ -383,6 +383,8 @@ def test_comparison_routes_multientity_dossier_both_subjects(monkeypatch):
     # Both subjects' docs are in the dossier (metrics count each canonical unit)
     assert res["stages"]["comparison"]["metrics"]["recall@1"] == 0.5
     assert res["stages"]["comparison"]["metrics"]["recall@5"] == 1.0
+    # Production feeds the whole dossier, so coverage measures both subjects present
+    assert res["stages"]["comparison"]["coverage"] == 1.0
 
 
 # --- Comparison Diff Engine Tests ---

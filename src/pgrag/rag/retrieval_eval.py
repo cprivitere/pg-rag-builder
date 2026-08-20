@@ -225,6 +225,24 @@ def canonical_doc_id(doc_id: str) -> str:
     return _SUFFIX_RE.sub("", doc_id)
 
 
+def _dossier_coverage(
+    dossier_ids: Sequence[str], relevant_ids: Sequence[str] | set[str]
+) -> float:
+    """Fraction of canonical relevant units present anywhere in a context dossier.
+
+    A comparison dossier is a context blob production feeds to the LLM in
+    full — never a ranked top-k the pipeline truncates. Its "hit" question is
+    whether each relevant unit is present at all, not whether it happens to
+    sort into a top-5 of a non-production ordering (which overweights
+    whichever entity's facet docs landed first). Canonicalized on both sides.
+    """
+    rel = {canonical_doc_id(r) for r in relevant_ids}
+    if not rel:
+        return 0.0
+    present = {canonical_doc_id(d) for d in dossier_ids} & rel
+    return len(present) / len(rel)
+
+
 def compute_stage_metrics(
     ranked_ids: Sequence[str], relevant_ids: Sequence[str] | set[str]
 ) -> dict[str, float]:
@@ -418,6 +436,7 @@ def evaluate_query(
             stage_results["comparison"] = {
                 "ranked_ids": comparison_ids,
                 "metrics": compute_stage_metrics(comparison_ids, relevant_ids),
+                "coverage": _dossier_coverage(comparison_ids, relevant_ids),
                 "entities": found_entity_names,
             }
             stage_latencies["comparison"] = (time.perf_counter() - t0) * 1000.0
@@ -626,18 +645,29 @@ def run_benchmark(
             if "dense" in e["stages"]
             else None
         )
-        if primary_stage and e["stages"][primary_stage]["metrics"]["recall@5"] == 0.0:
-            regressions.append(
-                {
-                    "id": e["id"],
-                    "query": e["query"],
-                    "category": e["category"],
-                    "stage": primary_stage,
-                    "recall@5": 0.0,
-                    "mrr": e["stages"][primary_stage]["metrics"]["mrr"],
-                    "relevant_ids": e["relevant_ids"],
-                }
+        if primary_stage:
+            # Comparison queries: the dossier is a full LLM context, so the
+            # zero-flag is dossier coverage (relevant units present anywhere),
+            # not recall@5 over its non-production ordering.
+            zero = (
+                e["stages"][primary_stage].get("coverage", 0.0) == 0.0
+                if primary_stage == "comparison"
+                else e["stages"][primary_stage]["metrics"]["recall@5"] == 0.0
             )
+            if zero:
+                regressions.append(
+                    {
+                        "id": e["id"],
+                        "query": e["query"],
+                        "category": e["category"],
+                        "stage": primary_stage,
+                        "recall@5": e["stages"][primary_stage].get("coverage", 0.0)
+                        if primary_stage == "comparison"
+                        else 0.0,
+                        "mrr": e["stages"][primary_stage]["metrics"]["mrr"],
+                        "relevant_ids": e["relevant_ids"],
+                    }
+                )
 
     benchmark_result = {
         "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),

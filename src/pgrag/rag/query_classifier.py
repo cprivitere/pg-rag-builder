@@ -71,12 +71,12 @@ def _name_regex(name):
     key = name.lower()
     pattern = _NAME_RE_CACHE.get(key)
     if pattern is None:
-        # Match the entity name as a whole word, or as the leading token of a
-        # concatenated camelCase term ("GardeningRelated" -> "Gardening",
-        # "AmethystVein" -> "Amethyst"). The continuation must be an uppercase
-        # letter so a plain longer lowercase word ("garden" against "Gardening",
-        # "gardening" against "Garden") never matches.
-        pattern = re.compile(rf"\b(?i:{re.escape(name)})(?=\b|[A-Z])")
+        # Strict whole-word match. A camelCase-prefix boundary (name + [A-Z])
+        # was tried but over-matched real capitalized compounds ("StaffCaptain"
+        # -> Staff, "ArmorPlate" -> Armor, "BashAttack" -> Bash) with no way to
+        # distinguish them from "GardeningRelated" -> Gardening at the token
+        # level, so entity detection stays exact-word only.
+        pattern = re.compile(rf"\b{re.escape(key)}\b")
         _NAME_RE_CACHE[key] = pattern
     return pattern
 
@@ -129,11 +129,12 @@ def _match_entity(text):
 
 
 def find_entity(query):
-    hit = _match_entity(query)
+    lower = query.lower()
+    hit = _match_entity(lower)
     if hit:
         return hit
     corrected = correct_query(query)
-    if corrected != query.lower():
+    if corrected != lower:
         hit = _match_entity(corrected)
         if hit:
             return hit
@@ -154,7 +155,7 @@ def find_entities(query) -> list:
         texts.append(corrected)
 
     for text in texts:
-        t = text
+        t = text.lower()
         picked = []
         spans = []
         # The index is sorted longest-first, so the first match to claim a

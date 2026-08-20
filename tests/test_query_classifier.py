@@ -86,28 +86,35 @@ def test_minimum_level_lookup_stays_comparison():
     assert classify_query("minimum level for cheesemaking?") == "comparison"
 
 
-def test_concatenated_entity_name_resolves():
-    """'GardeningRelated' is a fused compound whose leading token is the
-    Gardening skill entity; it must resolve the same hub as 'Gardening'."""
-    hub, dtype = find_entity("Which items are GardeningRelated?")
-    assert dtype == "skill"
-    assert hub == "skillprofile_Gardening"
+def test_capitalized_compound_does_not_overmatch():
+    """A known entity name as the prefix of a capitalized compound must NOT
+    resolve that entity. camelCase fusion ('StaffCaptain' -> Staff,
+    'ArmorPlate' -> Armor effect, 'BashAttack' -> Bash) is a false-positive
+    regression; entity detection is strict whole-word only."""
+    assert find_entity("StaffCaptain") == (None, None)
+    assert find_entity("ArmorPlate") == (None, None)
+    assert find_entity("BashAttack") == (None, None)
+    assert find_entity("Hammerhead") == (None, None)
+    assert find_entity("AgateStone") == (None, None)
+    assert find_entity("BarleySoup") == (None, None)
 
 
-def test_concatenated_entity_name_falls_back_to_case():
-    """CamelCase concatenation (uppercase continuation) matches; a plain
-    lowercase word that merely extends the name must not."""
-    assert find_entity("lowercasegardening") == (None, None)
-    assert find_entity("AmethystVein")[0] == "item_18033"
-
-
-def test_prefix_word_not_false_positive():
-    """'garden' is a prefix of the Gardening skill name but is not the skill
-    itself — the boundary fix must not blow it up into the Gardening entity."""
+def test_lowercase_word_extension_not_matched():
+    """'garden'/'gardens' merely extend the Gardening name with lowercase
+    letters; they are not the skill and must not resolve it."""
     assert find_entity("garden") == (None, None)
-
-
-def test_plural_extension_not_matched():
-    """A lowercase trailing extension ('GardeningRelated' vs 'Gardens') must
-    not match the entity — only true camelCase continuations do."""
     assert find_entity("gardens") == (None, None)
+    assert find_entity("lowercasegardening") == (None, None)
+
+
+def test_gardeningrelated_query_classifies_general():
+    """'Which items are GardeningRelated?' is a general items query; the fused
+    'GardeningRelated' token is not the Gardening skill, so it must not be
+    upgraded to an entity route."""
+    assert classify_query("Which items are GardeningRelated?") == "general"
+
+
+def test_amelthyst_compound_resolves_amethyst_item():
+    """'AmethystVein' resolves to the real Amethyst item (spelling split),
+    not a hallucinated entity."""
+    assert find_entity("AmethystVein")[0] == "item_18033"
