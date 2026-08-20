@@ -200,11 +200,38 @@ def build_doc_name_map(
 # --- Query Evaluation ---
 
 
+_SUFFIX_RE = re.compile(r"_(?:chunk|row)_\d+$|_coverage$")
+
+
+def canonical_doc_id(doc_id: str) -> str:
+    """Reduce a doc id to its retrievable unit (page/section base).
+
+    A single wiki table materializes as many index docs: a `_coverage` doc and
+    one `_row_<n>` doc per row, plus `_chunk_<n>` splits on longer docs. IR
+    metrics should count that cluster once, or recall@k is deflated by the row
+    explosion and chunked ranked docs never match base relevant ids. Apply to
+    BOTH relevant and ranked ids so exact-membership semantics are preserved
+    (identical transformation on both sides).
+    """
+    return _SUFFIX_RE.sub("", doc_id)
+
+
 def compute_stage_metrics(
     ranked_ids: Sequence[str], relevant_ids: Sequence[str] | set[str]
 ) -> dict[str, float]:
-    """Compute all standard IR metrics for a single ranked list."""
-    rel_set = set(relevant_ids)
+    """Compute all standard IR metrics for a single ranked list.
+
+    Ids are canonicalized (row/coverage/chunk clusters count as one unit)
+    and deduped order-preserving, so several chunks of the same doc are not
+    counted as several hits and recall@k measures distinct retrieved units.
+    """
+    rel_set = {canonical_doc_id(r) for r in relevant_ids}
+    seen: set[str] = set()
+    ranked_ids = [
+        t
+        for r in ranked_ids
+        if (t := canonical_doc_id(r)) not in seen and not seen.add(t)
+    ]
     return {
         "recall@1": recall_at_k(ranked_ids, rel_set, 1),
         "recall@3": recall_at_k(ranked_ids, rel_set, 3),

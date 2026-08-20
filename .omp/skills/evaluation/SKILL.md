@@ -53,6 +53,11 @@ Each file:
   (`compare_benchmarks`).
 - The offline entity-hub path reuses `build_entity_context_offline`, so it
   measures the same wiki-linked dossier the live pipeline builds.
+- Metrics count **canonical retrievable units**, not raw index docs: a wiki
+  table's `_coverage` + `_row_<n>` docs and any `_chunk_<n>` split collapse to
+  one unit (applied to both relevant and ranked, deduped). Without this the
+  per-row explosion deflates recall@k and chunked ranked docs never match base
+  relevant ids.
 - Add queries to `evaluation/queries.jsonl` to cover a regression case; prefer
   a new per-stage assertion in `tests/test_retrieval_eval.py` for pure metric
   or well-formedness guarantees.

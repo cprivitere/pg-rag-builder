@@ -15,6 +15,7 @@ from typing import Any
 
 from pgrag.rag.retrieval_eval import (
     build_doc_name_map,
+    canonical_doc_id,
     compare_benchmarks,
     compute_stage_metrics,
     dcg_at_k,
@@ -100,6 +101,47 @@ def test_metric_edge_cases_empty_inputs():
 
     # Empty queries list for MRR
     assert mrr([]) == 0.0
+
+
+def test_canonical_doc_id_strips_suffixes():
+    """Row, coverage, and chunk suffixes collapse to the retrievable unit."""
+    assert canonical_doc_id("wiki_Spider_Silk_table_0_row_3") == "wiki_Spider_Silk_table_0"
+    assert canonical_doc_id("wiki_Spider_Silk_table_0_coverage") == "wiki_Spider_Silk_table_0"
+    assert canonical_doc_id("wiki_Spider_Silk_Uses") == "wiki_Spider_Silk_Uses"
+    assert canonical_doc_id("recipe_8533_chunk_0") == "recipe_8533"
+    assert canonical_doc_id("recipe_8533") == "recipe_8533"
+    # Multiple row indices beyond 9
+    assert canonical_doc_id("wiki_X_table_1_row_12") == "wiki_X_table_1"
+
+
+def test_compute_stage_metrics_collapses_row_cluster():
+    """A wiki table's rows count once: ranking one row hits the whole cluster."""
+    rows = [f"wiki_Spider_Silk_table_0_row_{i}" for i in range(25)]
+    # ranked surfaces a single row; relevant is the full 25-row cluster
+    metrics = compute_stage_metrics([rows[0]] + ["unrelated"] * 10, [rows[0]] + rows[1:])
+    assert metrics["hit@1"] == 1.0
+    assert metrics["recall@1"] == 1.0
+    # Without canonicalization this would be recall@1 == 0.0 (24/25 missed)
+    assert metrics["recall@5"] == 1.0
+
+
+def test_compute_stage_metrics_matches_chunked_ranked_to_base_relevant():
+    """Ranked chunk docs reconcile against base (uncannonical) relevant ids."""
+    ranked = ["recipe_8533_chunk_0", "recipe_8533_chunk_1", "other"]
+    metrics = compute_stage_metrics(ranked, ["recipe_8533"])
+    assert metrics["hit@3"] == 1.0
+    assert metrics["mrr"] == pytest.approx(1.0)
+    assert metrics["ndcg@3"] == pytest.approx(1.0)
+
+
+def test_compute_stage_metrics_dedupes_chunk_cluster():
+    """Multiple chunks of the same doc count once: recall measures distinct units."""
+    # 5 chunks of one doc + a missed second doc -> only X recovered
+    ranked = [f"recipe_8533_chunk_{i}" for i in range(5)]
+    metrics = compute_stage_metrics(ranked, ["recipe_8533", "recipe_9999"])
+    assert metrics["hit@5"] == 1.0
+    assert metrics["recall@5"] == 0.5  # 1 distinct unit of 2 relevant recovered
+    assert metrics["mrr"] == pytest.approx(1.0)  # dedupe keeps rank 1
 
 
 def test_metric_boundary_large_k():
