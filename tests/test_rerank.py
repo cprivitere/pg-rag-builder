@@ -3,11 +3,13 @@ from pgrag.rag.retriever import (
     _rerank,
     _hybrid_fuse,
     _tsys_base_id,
+    _tsys_origin_id,
     _entity_name_match,
     _name_injection_ids,
     _apply_name_promotion,
     _is_fragment_id,
     MAX_TSYS_CHUNK_MEMBERS,
+    MAX_TSYS_BASES,
     RERANK_MULTIPLIER,
 )
 
@@ -124,6 +126,34 @@ def test_hybrid_fuse_preserves_distinct_docs_without_tsys():
     dists = [0.3, 0.2, 0.1]
     ids, *_ = _hybrid_fuse(dense, texts, metas, dists, ["c", "b", "a"], [{"id": d} for d in dense], 3)
     assert set(ids) == {"a", "b", "c"}
+
+
+def test_hybrid_fuse_caps_distinct_tsys_bases():
+    # 6 distinct bare tsys_power_* bases (the pollution form: un-chunked
+    # treasure powers) + a distinct target. The window must cap distinct tsys
+    # bases to MAX_TSYS_BASES so the real target survives.
+    dense = [f"tsys_power_{2000+i}" for i in range(6)] + ["ability_ability_9"]
+    texts = [f"text {i}" for i in range(len(dense))]
+    metas = [{}] * len(dense)
+    dists = [0.05] * len(dense)
+
+    ids, _, _, _ = _hybrid_fuse(
+        dense, texts, metas, dists, list(dense), [{"id": d} for d in dense], len(dense)
+    )
+
+    tsys_bases = {d for d in ids if d.startswith("tsys_power_")}
+    assert len(tsys_bases) == MAX_TSYS_BASES, (
+        f"distinct tsys bases must cap at {MAX_TSYS_BASES}, got {len(tsys_bases)}"
+    )
+    assert "ability_ability_9" in ids, "distinct non-tsys target must survive"
+
+
+def test_hybrid_fuse_tsys_origin_matches_both_forms():
+    # chunk fragments and bare docs of the same base count as one origin
+    # against the distinct-base cap.
+    assert _tsys_origin_id("tsys_power_2005") == "tsys_power_2005"
+    assert _tsys_origin_id("tsys_power_2005_chunk_3") == "tsys_power_2005"
+    assert _tsys_origin_id("ability_ability_9") is None
 
 
 def test_entity_name_match_contiguous_multitoken():

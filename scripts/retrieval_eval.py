@@ -279,6 +279,16 @@ def main() -> int:
     if "rerank" in stages_data and "hybrid" in stages_data:
         print(f"Reranker Uplift (NDCG@5):  {summary.get('reranker_uplift', 0.0):+.4f}")
 
+    gold = results.get("gold_report", {})
+    if gold:
+        print(f"Gold-Set Hygiene: {gold.get('missing_count', 0)} cases with missing ids, "
+              f"{gold.get('fanout_count', 0)} fan-out cases")
+        for issue in gold.get("issues", []):
+            if issue["kind"] == "missing":
+                print(f"  [!] {issue['id']} relevant_ids absent from corpus: {issue['relevant_ids']}")
+            else:
+                print(f"  [!] {issue['id']} relevant set size {issue['relevant_size']} (fan-out)")
+
     print("\n--- Retrieval Stage Performance ---")
     print_stage_table(stages_data)
 

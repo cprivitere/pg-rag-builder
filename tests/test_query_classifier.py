@@ -114,6 +114,35 @@ def test_gardeningrelated_query_classifies_general():
     assert classify_query("Which items are GardeningRelated?") == "general"
 
 
+def test_aggregation_recipes_use_stays_general():
+    """'What recipes use Animal Feces?' is an aggregation over recipes — the
+    entity is a filter, not the answer — so it must NOT route to the single
+    item dossier. Paired inverse: 'make Orcish Flour' IS the entity target."""
+    assert classify_query("What recipes use Animal Feces?") == "general"
+    assert classify_query("What recipes can I make with Spider Silk at Tailoring 4?") == "general"
+    assert classify_query("What skill and level do I need to make Orcish Flour?") == "entity"
+
+
+def test_how_do_i_grow_stays_general():
+    """'How do I grow Field Mushrooms?' spans skill + wiki, not a single item
+    dossier; a detected plural entity must not upgrade it to an entity route."""
+    assert classify_query("How do I grow Field Mushrooms?") == "general"
+
+
+def test_who_gives_quests_in_area_stays_general():
+    """'Who gives quests in the Ranalon Den area?' enumerates quests; the area
+    alias must not upgrade it to a single quest dossier."""
+    assert classify_query("Who gives quests in the Ranalon Den area?") == "general"
+
+
+def test_lorebook_series_stays_general():
+    """Lore series/books are multi-part narrative synthesis with no single-hub
+    dossier; detected lorebook entities must not upgrade to entity (or a false
+    comparison when a second 'Lore' skill matches)."""
+    assert classify_query("What is the Chalice Saga about?") == "general"
+    assert classify_query("Tell me about the lore book The Wasted Wishes.") == "general"
+
+
 def test_amelthyst_compound_resolves_amethyst_item():
     """'AmethystVein' resolves to the real Amethyst item (spelling split),
     not a hallucinated entity."""

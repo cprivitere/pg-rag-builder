@@ -20,14 +20,32 @@ HYBRID_MULTIPLIER = 3
 # `tsys_power_NNNN_chunk_M` fragments of the same mechanics page crowd a
 # single unrelated target out of the rerank window. Cap those per base.
 _TSYS_CHUNK_RE = re.compile(r"^(tsys_power_\d+)_chunk_\d+$")
+_TSYS_ORIGIN_RE = re.compile(r"^(tsys_power_\d+)(?:_chunk_\d+)?$")
 
 # Unique tsys power-mechanics chunks kept per base doc in the fused window.
 MAX_TSYS_CHUNK_MEMBERS = 2
+
+# Distinct `tsys_power_*` bases (treasure-suffix powers) allowed in the fused
+# window. These are 7.6k docs that matching a shared term ("Sword", "damage")
+# swarms ability/skill/comparison queries; a genuine treasure-suffix query
+# still surfaces a handful, so cap rather than exclude.
+MAX_TSYS_BASES = 3
 
 
 def _tsys_base_id(doc_id: str) -> str | None:
     """Base doc id if doc_id is a tsys_power_* chunk fragment, else None."""
     m = _TSYS_CHUNK_RE.match(doc_id)
+    return m.group(1) if m else None
+
+
+def _tsys_origin_id(doc_id: str) -> str | None:
+    """`tsys_power_NNNN` origin for any tsys doc (bare or chunked), else None.
+
+    Used for the distinct-base cap: treasure powers are 7.6k distinct docs that
+    swarm shared-term queries, so the cap counts distinct origins whether a
+    doc is un-chunked or a `_chunk_` fragment of the same base.
+    """
+    m = _TSYS_ORIGIN_RE.match(doc_id)
     return m.group(1) if m else None
 
 
@@ -277,23 +295,36 @@ def _hybrid_fuse(dense_ids, dense_texts, dense_metadatas, dense_distances,
 
     scored.sort(key=lambda x: x[0], reverse=True)
 
-    # Bound near-duplicate tsys power-mechanics chunks so a cluster of
-    # `tsys_power_NNNN_chunk_M` fragments doesn't crowd an unrelated single
-    # target out of the rerank window. Only tsys fragments are collapsed —
-    # wiki table rows / skill chunks stay (they're distinctly relevant).
+    # Two distinct tsys bounds, one window:
+    #   - Chunk-collapse (per base, `_tsys_base_id`): a cluster of
+    #     `tsys_power_NNNN_chunk_M` fragments of the SAME base crowds an
+    #     unrelated single target out of the rerank window — keep at most
+    #     MAX_TSYS_CHUNK_MEMBERS per base.
+    #   - Distinct-base cap (`_tsys_origin_id`, counts bare AND chunked):
+    #     the 7.6k treasure-suffix powers swarm ability/skill/comparison
+    #     queries on a shared term ("Sword", "Slashing", "damage"); a genuine
+    #     treasure-suffix query still surfaces a few, so cap ORIGINS, not
+    #     exclude the type entirely.
+    # Wiki table row / skill chunks are distinctly relevant and stay.
     top_ids = []
-    per_tsys = {}
+    per_base: dict[str, int] = {}
+    origins_seen = 0
     for _, doc_id in scored:
         base = _tsys_base_id(doc_id)
-        if base is not None and per_tsys.get(base, 0) >= MAX_TSYS_CHUNK_MEMBERS:
-            continue
         if base is not None:
-            per_tsys[base] = per_tsys.get(base, 0) + 1
+            if per_base.get(base, 0) >= MAX_TSYS_CHUNK_MEMBERS:
+                continue
+            per_base[base] = per_base.get(base, 0) + 1
+        origin = _tsys_origin_id(doc_id)
+        if origin is not None:
+            if origins_seen >= MAX_TSYS_BASES:
+                continue
+            origins_seen += 1
         top_ids.append(doc_id)
         if len(top_ids) >= count:
             break
 
-    del per_tsys
+    del per_base
 
     ids, texts, metas, dists = [], [], [], []
     for doc_id in top_ids:

@@ -433,13 +433,19 @@ def build_multi_entity_context(question, entities, trace=None):
     Each entity gets ``CONTEXT_BUDGET // n`` chars; doc ids dedupe across
     hubs (first block wins). An entity that resolves to no dossier is
     recorded in ``trace["unresolved"]``.
+
+    Ids are kept in document order (a list, deduped on append) — the per-entity
+    dossier already leads with its hub doc, and set-based dedup would scramble
+    that order and bury the compared entities behind facet noise, which is
+    fatal for the rerank-free comparison context.
     """
     n = max(len(entities), 1)
     per_entity = CONTEXT_BUDGET // n
     other_hubs = {hub for _name, hub, _dtype in entities}
 
     blocks = []
-    seen = set()
+    seen: set[str] = set()
+    ordered_ids: list[str] = []
     for name, hub_id, dtype in entities:
         ctx = build_entity_context(
             question,
@@ -457,13 +463,14 @@ def build_multi_entity_context(question, entities, trace=None):
             if did in seen:
                 continue
             seen.add(did)
+            ordered_ids.append(did)
             blocks.append(text)
 
     if not blocks:
         return None
 
     return {
-        "ids": [list(seen)],
+        "ids": [ordered_ids],
         "documents": [blocks],
         "metadatas": [[]],
         "distances": [[]],

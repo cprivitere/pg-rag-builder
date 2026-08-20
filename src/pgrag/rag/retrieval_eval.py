@@ -138,6 +138,12 @@ def resolve_relevant_ids(
 
     Combines explicit `relevant_ids` and doc IDs resolved by name matching
     against `relevant_names`. Also resolves chunk suffixes (_chunk_0, etc.).
+
+    Exact normalized-name matches are always kept. The only substring fallback
+    is the broadening direction (a doc name inside the query name — plurals,
+    dropped modifiers); the reverse (query name inside doc name) is excluded
+    because a short generic term like "Sword"/"Slash" substring-matches
+    hundreds of unrelated docs and inflates the relevant set toward recall@k ≈ 0.
     """
     relevant: set[str] = set()
 
@@ -150,24 +156,24 @@ def resolve_relevant_ids(
             if name in doc_name_map:
                 relevant.update(doc_name_map[name])
             else:
-                # Substring match if exact normalized match missed
+                # Broadening catch ONLY: a doc name sitting inside the query
+                # name (e.g. doc "Field Mushroom" inside query "Field
+                # Mushrooms") — handles plurals and dropped modifiers. The
+                # reverse direction (query name inside doc name) is the
+                # fan-out trap: "Slash"/"Sword" substring-match hundreds of
+                # unrelated docs and inflate |relevant| toward recall@k ≈ 0,
+                # and it never supplies a target the explicit `relevant_ids`
+                # don't already name — so it is deliberately excluded.
                 for map_name, map_ids in doc_name_map.items():
-                    if name in map_name or map_name in name:
+                    if map_name in name:
                         relevant.update(map_ids)
 
-    # Expand any base IDs with known chunk IDs from chunk map or doc_store
     if doc_chunk_map and relevant:
         base_ids = {re.sub(r"_chunk_\d+$", "", rid) for rid in relevant}
         for base in base_ids:
             if base in doc_chunk_map:
                 relevant.update(doc_chunk_map[base])
 
-    # Collapse wiki table row/coverage/chunk fans to their canonical
-    # page/table base (canonical_doc_id), so |relevant| counts distinct
-    # retrievable units — not one entry per row of every matching table that
-    # shares the relevant name. Legitimate distinct targets (item + skill +
-    # wiki page) keep their own base, because canonical_doc_id only strips
-    # the `_row_<n>`/`_coverage`/`_chunk_<n>` suffix.
     if relevant:
         relevant = {canonical_doc_id(rid) for rid in relevant}
 
@@ -223,6 +229,62 @@ def canonical_doc_id(doc_id: str) -> str:
     (identical transformation on both sides).
     """
     return _SUFFIX_RE.sub("", doc_id)
+
+
+# --- Gold-Set Integrity Validation ---
+
+
+def validate_gold(
+    cases: Sequence[dict[str, Any]],
+    doc_store: Sequence[dict[str, Any]] | None = None,
+    max_relevant: int = 40,
+) -> dict[str, Any]:
+    """Check that each case's gold `relevant_ids` resolve against the live corpus.
+
+    Returns counts of (a) `relevant_ids` with no matching doc (stale/nonexistent)
+    and (b) cases whose resolved relevant set exceeds `max_relevant` (fan-out
+    that structurally caps recall@k near zero). Intentional read-only check that
+    reports (via the returned dict and logger) rather than failing the run, so
+    it stays usable as a hygiene signal during development.
+    """
+    if doc_store is None:
+        docs_file = Path("data/documents.json")
+        if not docs_file.exists():
+            return {"missing_count": 0, "fanout_count": 0, "issues": []}
+        try:
+            doc_store = json.loads(docs_file.read_text(encoding="utf-8"))
+        except Exception as exc:
+            logger.warning("validate_gold: could not read documents.json: %s", exc)
+            return {"missing_count": 0, "fanout_count": 0, "issues": []}
+
+    all_ids = {canonical_doc_id(d.get("id", "")) for d in doc_store}
+    name_map, _chunk_map = build_doc_name_map(doc_store)
+
+    issues: list[dict[str, Any]] = []
+    missing_count = 0
+    fanout_count = 0
+
+    for case in cases:
+        cid = case.get("id", "unknown")
+        missing = [r for r in case.get("relevant_ids", []) if canonical_doc_id(r) not in all_ids]
+        if missing:
+            missing_count += 1
+            issues.append({"id": cid, "kind": "missing", "relevant_ids": missing})
+            logger.warning(
+                "gold-validation: %s has relevant_ids absent from the corpus: %s",
+                cid, missing,
+            )
+
+        resolved = resolve_relevant_ids(case, doc_store=doc_store, doc_name_map=name_map)
+        if len(resolved) > max_relevant:
+            fanout_count += 1
+            issues.append({"id": cid, "kind": "fanout", "relevant_size": len(resolved)})
+            logger.warning(
+                "gold-validation: %s relevant set is %d (fan-out; recall@k capped near zero)",
+                cid, len(resolved),
+            )
+
+    return {"missing_count": missing_count, "fanout_count": fanout_count, "issues": issues}
 
 
 def _dossier_coverage(
@@ -567,6 +629,9 @@ def run_benchmark(
         doc_name_map, doc_chunk_map = build_doc_name_map(doc_store)
     else:
         doc_name_map, doc_chunk_map = None, None
+
+    # Gold-set integrity check (stale ids / fan-out) — hygiene signal, not a gate.
+    gold_report = validate_gold(cases, doc_store=doc_store)
     # Preload BM25 model if running offline
     bm25_model, bm25_docs = None, None
     if offline:
@@ -674,6 +739,7 @@ def run_benchmark(
         "total_cases": len(evaluated_queries),
         "total_time_ms": total_time_ms,
         "offline": offline,
+        "gold_report": gold_report,
         "summary": {
             "classifier_accuracy": classifier_acc,
             "entity_accuracy": entity_acc,

@@ -1,6 +1,7 @@
 import pytest
 
 from pgrag.rag.query_classifier import classify_query, find_entity, find_entities
+from pathlib import Path
 
 SYNTHETIC_INDEX = [
     ("Dungcrafting", "skill_Pooping", "skill"),
@@ -131,6 +132,47 @@ def test_find_entities_corrected_fallback(monkeypatch):
     # original yields nothing; corrected "mushroooms" -> item index (typo).
     got = find_entities("tell me about mushroooms")
     assert got == [("Mushroom", "item_900", "item")]
+
+
+def test_plural_append_resolves_entity(monkeypatch):
+    """'{entity}s' / '{entity}es' (append to the full name) resolves the
+    entity: 'Field Mushrooms' -> 'Field Mushroom'. NOT a stem match: 'gardens'
+    is not 'Gardening'+'s' and must stay unmatched."""
+    index = SYNTHETIC_INDEX + [("Field Mushroom", "item_11004", "item")]
+    monkeypatch.setattr(
+        "pgrag.rag.query_classifier._load_entity_index",
+        lambda: sorted(index, key=lambda t: len(t[0]), reverse=True),
+    )
+    assert find_entity("what is a Field Mushrooms")[0] == "item_11004"
+    assert find_entity("gardens") == (None, None)
+    assert find_entity("garden") == (None, None)
+
+
+def test_plural_append_does_not_resolve_stem_variant():
+    """'Field' is not 'Field Mushroom'+'s', so a bare 'Fields' must not
+    resolve the compound entity."""
+    assert find_entity("Fields") == (None, None)
+
+
+def test_aliases_populate_entity_index(monkeypatch):
+    """Query-facing aliases resolve to their real docs via the injected index;
+    'Chalice Saga' -> lorebook, 'Animal Feces' -> poop items, 'Ranalon Den' ->
+    quest cluster. Real index (undo fake_index autouse patch)."""
+    if not Path("data/documents.json").exists():
+        pytest.skip("corpus documents.json not present")
+    monkeypatch.undo()
+    assert find_entity("the Chalice Saga about")[0] == "lorebook_Book_103"
+    assert find_entity("recipes use Animal Feces")[0] == "item_1501"
+    assert find_entity("quests in Ranalon Den")[0] == "quest_quest_25401"
+
+
+def test_lorebook_type_indexed(monkeypatch):
+    """'lorebook' is an entity type; the Wasted Wishes lore book resolves.
+    Real index (undo fake_index autouse patch)."""
+    if not Path("data/documents.json").exists():
+        pytest.skip("corpus documents.json not present")
+    monkeypatch.undo()
+    assert find_entity("the lore book The Wasted Wishes")[0] == "lorebook_Book_101"
 
 
 def test_classify_two_entities_is_comparison(monkeypatch):

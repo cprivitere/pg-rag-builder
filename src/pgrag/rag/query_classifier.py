@@ -61,22 +61,67 @@ ENTITY_PATTERNS = [
     r"\bwhat can\b",
 ]
 
-ENTITY_TYPES = ("skill", "item", "ability", "quest", "recipe", "effect", "area", "npc")
+# Aggregation/listing intent — a named entity is a *filter or aspect* of the
+# question, not the answer itself. "What recipes use Animal Feces?" lists
+# recipes (general), whereas "What skill and level do I need to make Orcish
+# Flour?" targets the item's dossier (entity). Likewise "How do I grow Field
+# Mushrooms?" spans skill + wiki, not a single item dossier, and "Who gives
+# quests in the Ranalon Den area?" enumerates quests rather than a single
+# quest dossier. Lore books ("the Chalice Saga", "the lore book …") are
+# multi-book narrative synthesis with no single-hub dossier, so they stay
+# general too. This mirrors the existing anti-hijack guard
+# (test_gardeningrelated_query_classifies_general): a surface entity mention
+# must not upgrade an aggregation/listing query to a single-entity route.
+# Checked after leveling intent (which is a stronger, skill-specific how-to).
+AGGREGATION_PATTERNS = [
+    r"\brecipes?\s+(?:using|that\s+use|use|can\s+(?:i|you)\s+make)\b",
+    r"\bhow\s+do\s+i\s+grow\b",
+    r"\bcan\s+i\s+grow\b",
+    r"\bwho\s+gives?\s+quests?\s+in\b",
+    r"\blore\s+book\b",
+    r"\bsaga\b",
+]
+
+ENTITY_TYPES = ("skill", "item", "ability", "quest", "recipe", "effect", "area", "npc", "lorebook")
 
 _ENTITY_INDEX = None
 _NAME_RE_CACHE = {}
+
+# Query-facing aliases that don't match any single doc `name`. Each alias key
+# ("Chalice Saga") is injected into the entity index pointing at the real docs
+# (name, doc_id, type) it denotes, so the alias resolves like any real name.
+# Multiple target docs each get an alias entry (a series, quest-cluster, item
+# family all resolve the alias).
+_ENTITY_ALIASES: dict[str, list[tuple[str, str, str]]] = {
+    "Chalice Saga": [
+        ("The Chalice Saga, Vol 1", "lorebook_Book_103", "lorebook"),
+        ("The Chalice Saga, Vol 2", "lorebook_Book_104", "lorebook"),
+        ("The Chalice Saga, Vol 3", "lorebook_Book_105", "lorebook"),
+    ],
+    "Ranalon Den": [
+        (f"quest {i}", f"quest_quest_{i}", "quest") for i in range(25401, 25416)
+    ],
+    "Animal Feces": [
+        ("Meager Animal Poop", "item_1501", "item"),
+        ("Cow Poop", "item_1493", "item"),
+        ("Deer Poop", "item_1494", "item"),
+        ("Pig Poop", "item_1495", "item"),
+        ("Rabbit Poop", "item_1496", "item"),
+    ],
+}
 
 
 def _name_regex(name):
     key = name.lower()
     pattern = _NAME_RE_CACHE.get(key)
     if pattern is None:
-        # Strict whole-word match. A camelCase-prefix boundary (name + [A-Z])
-        # was tried but over-matched real capitalized compounds ("StaffCaptain"
-        # -> Staff, "ArmorPlate" -> Armor, "BashAttack" -> Bash) with no way to
-        # distinguish them from "GardeningRelated" -> Gardening at the token
-        # level, so entity detection stays exact-word only.
-        pattern = re.compile(rf"\b{re.escape(key)}\b")
+        # Strict whole-word match, plus a plural-append variant: `{entity}s` /
+        # `{entity}es` (e.g. "Field Mushrooms" = "Field Mushroom" + "s").
+        # This is NOT a stem/prefix match — "gardens" is not "Gardening"+"s",
+        # and "StaffCaptain"/"BarleySoup" have no word boundary after the
+        # entity name, so they stay unmatched (see test_lowercase_word_exten-
+        # sion_not_matched / test_capitalized_compound_does_not_overmatch).
+        pattern = re.compile(rf"\b{re.escape(key)}(?:es|s)?\b")
         _NAME_RE_CACHE[key] = pattern
     return pattern
 
@@ -107,6 +152,15 @@ def _load_entity_index():
                 continue
             seen.add((name.lower(), doc_id))
             index.append((name, doc_id, dtype))
+
+    # Inject query-facing aliases (multi-target: each target is its own entry
+    # sharing the alias name, so the alias resolves to every real doc).
+    for alias, targets in _ENTITY_ALIASES.items():
+        for _real_name, doc_id, dtype in targets:
+            if (alias.lower(), doc_id) in seen:
+                continue
+            seen.add((alias.lower(), doc_id))
+            index.append((alias, doc_id, dtype))
 
     index.sort(key=lambda t: len(t[0]), reverse=True)
     _ENTITY_INDEX = (mtime, index)
@@ -207,6 +261,14 @@ def classify_query(query: str) -> str:
     # ("way to level up" -> NPC "Way") must not hijack the route.
     if is_leveling_intent(query):
         return "entity"
+
+    # Aggregation/listing intent wins over comparison AND single-entity
+    # routing: the named entity is a filter, not the answer. "recipes can I
+    # make with Spider Silk at Tailoring 4" is a list of recipes (general),
+    # not an item comparison even though two entities appear.
+    for pattern in AGGREGATION_PATTERNS:
+        if re.search(pattern, lower):
+            return "general"
 
     for pattern in COMPARISON_PATTERNS:
         if re.search(pattern, lower):
