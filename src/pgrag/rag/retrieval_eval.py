@@ -162,6 +162,15 @@ def resolve_relevant_ids(
             if base in doc_chunk_map:
                 relevant.update(doc_chunk_map[base])
 
+    # Collapse wiki table row/coverage/chunk fans to their canonical
+    # page/table base (canonical_doc_id), so |relevant| counts distinct
+    # retrievable units — not one entry per row of every matching table that
+    # shares the relevant name. Legitimate distinct targets (item + skill +
+    # wiki page) keep their own base, because canonical_doc_id only strips
+    # the `_row_<n>`/`_coverage`/`_chunk_<n>` suffix.
+    if relevant:
+        relevant = {canonical_doc_id(rid) for rid in relevant}
+
     return relevant
 
 
@@ -250,7 +259,7 @@ def compute_stage_metrics(
 
 def evaluate_query(
     case: dict[str, Any],
-    stages: Sequence[str] = ("dense", "bm25", "hybrid", "rerank", "entity"),
+    stages: Sequence[str] = ("dense", "bm25", "hybrid", "rerank", "entity", "comparison"),
     doc_store: Sequence[dict[str, Any]] | None = None,
     doc_name_map: dict[str, set[str]] | None = None,
     doc_chunk_map: dict[str, set[str]] | None = None,
@@ -271,8 +280,11 @@ def evaluate_query(
         doc_chunk_map=doc_chunk_map,
     )
 
-    # 1. Query classification
-    predicted_classifier = classify_query(query)
+    # 1. Query classification (mirrors pipeline.ask: classify_query drives routing,
+    # including whether a query is a multi-entity comparison). The same label is
+    # forwarded to retrieve() so the eval measures the production query path.
+    query_type = classify_query(query)
+    predicted_classifier = query_type
     expected_classifier = case.get("expected_classifier") or case.get("classifier")
     classifier_match = (
         predicted_classifier == expected_classifier if expected_classifier else True
@@ -309,6 +321,7 @@ def evaluate_query(
                 count=20,
                 hybrid=True,
                 rerank=True,
+                query_type=query_type,
                 trace=trace,
             )
             total_lat = (time.perf_counter() - t0) * 1000.0
@@ -389,6 +402,26 @@ def evaluate_query(
                     "ranked_ids": dossier["ids"][0],
                     "metrics": compute_stage_metrics(dossier["ids"][0], relevant_ids),
                 }
+    # 4. Comparison queries: score the multi-entity dossier production feeds
+    # the LLM (pipeline.ask -> _prepare_multi_entity -> build_multi_entity_context),
+    # not the single-hub rerank window (find_entity keeps only one subject).
+    # Mirrors ask()'s `len(find_entities) >= 2` routing gate. Built whenever a
+    # query classifies as a comparison, independent of which base retrieval
+    # stages a caller requested (the dossier is what production consumes).
+    if query_type == "comparison" and len(found_entities_list) >= 2:
+        from pgrag.rag.entity_retrieval import build_multi_entity_context
+
+        t0 = time.perf_counter()
+        ctx = build_multi_entity_context(query, found_entities_list)
+        if ctx is not None:
+            comparison_ids = list(ctx["ids"][0])
+            stage_results["comparison"] = {
+                "ranked_ids": comparison_ids,
+                "metrics": compute_stage_metrics(comparison_ids, relevant_ids),
+                "entities": found_entity_names,
+            }
+            stage_latencies["comparison"] = (time.perf_counter() - t0) * 1000.0
+
     # Compute reranker uplift (NDCG@5_rerank - NDCG@5_hybrid)
     reranker_uplift = 0.0
     if "rerank" in stage_results and "hybrid" in stage_results:
@@ -475,7 +508,7 @@ def aggregate_metrics(
 
 def run_benchmark(
     cases_path: Path | str | Sequence[dict[str, Any]] = "evaluation/queries.jsonl",
-    stages: Sequence[str] = ("dense", "bm25", "hybrid", "rerank", "entity"),
+    stages: Sequence[str] = ("dense", "bm25", "hybrid", "rerank", "entity", "comparison"),
     out_path: Path | str | None = None,
     offline: bool = False,
     doc_store: Sequence[dict[str, Any]] | None = None,
@@ -581,7 +614,9 @@ def run_benchmark(
     regressions = []
     for e in evaluated_queries:
         primary_stage = (
-            "rerank"
+            "comparison"
+            if "comparison" in e["stages"]
+            else "rerank"
             if "rerank" in e["stages"]
             else "hybrid"
             if "hybrid" in e["stages"]
@@ -687,11 +722,11 @@ def compare_benchmarks(
 
         # Compare primary metric (NDCG@5 on highest available stage)
         curr_primary_stg = next(
-            (s for s in ("rerank", "hybrid", "bm25", "dense") if s in curr_q["stages"]),
+            (s for s in ("comparison", "rerank", "hybrid", "bm25", "dense") if s in curr_q["stages"]),
             None,
         )
         base_primary_stg = next(
-            (s for s in ("rerank", "hybrid", "bm25", "dense") if s in base_q["stages"]),
+            (s for s in ("comparison", "rerank", "hybrid", "bm25", "dense") if s in base_q["stages"]),
             None,
         )
 

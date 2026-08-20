@@ -1,4 +1,4 @@
-from pgrag.rag.query_classifier import classify_query
+from pgrag.rag.query_classifier import classify_query, find_entity
 
 
 def test_highest_detected():
@@ -45,6 +45,15 @@ def test_direct_lookup():
     assert classify_query("what level is statehelm sewer cheese?") == "lookup"
 
 
+def test_what_level_should_is_lookup():
+    """'what level should' must classify as lookup, not entity."""
+    assert classify_query("What level should I be for Gazluk Keep?") == "lookup"
+
+
+def test_what_level_do_i_is_lookup():
+    assert classify_query("what level do I need for Unarmed?") == "lookup"
+
+
 def test_general_query():
     assert classify_query("tell me about grinding levels") == "general"
 
@@ -75,3 +84,30 @@ def test_leveling_without_named_entity_stays_comparison():
 def test_minimum_level_lookup_stays_comparison():
     """'minimum level for X' is a value comparison, not leveling intent."""
     assert classify_query("minimum level for cheesemaking?") == "comparison"
+
+
+def test_concatenated_entity_name_resolves():
+    """'GardeningRelated' is a fused compound whose leading token is the
+    Gardening skill entity; it must resolve the same hub as 'Gardening'."""
+    hub, dtype = find_entity("Which items are GardeningRelated?")
+    assert dtype == "skill"
+    assert hub == "skillprofile_Gardening"
+
+
+def test_concatenated_entity_name_falls_back_to_case():
+    """CamelCase concatenation (uppercase continuation) matches; a plain
+    lowercase word that merely extends the name must not."""
+    assert find_entity("lowercasegardening") == (None, None)
+    assert find_entity("AmethystVein")[0] == "item_18033"
+
+
+def test_prefix_word_not_false_positive():
+    """'garden' is a prefix of the Gardening skill name but is not the skill
+    itself — the boundary fix must not blow it up into the Gardening entity."""
+    assert find_entity("garden") == (None, None)
+
+
+def test_plural_extension_not_matched():
+    """A lowercase trailing extension ('GardeningRelated' vs 'Gardens') must
+    not match the entity — only true camelCase continuations do."""
+    assert find_entity("gardens") == (None, None)

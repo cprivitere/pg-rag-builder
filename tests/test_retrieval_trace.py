@@ -46,7 +46,7 @@ def _install_retrieve_harness(monkeypatch):
     from pgrag.rag import bm25
     monkeypatch.setattr(bm25, "load_bm25_index", _load_bm25)
 
-    def _rerank(q, ids, docs, metas, dists, count):
+    def _rerank(q, ids, docs, metas, dists, count, name_query=None):
         return ids, docs, metas, dists, True
     monkeypatch.setattr(retriever, "_rerank_or_cross_encoder", _rerank)
 

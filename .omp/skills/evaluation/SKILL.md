@@ -58,6 +58,15 @@ Each file:
   one unit (applied to both relevant and ranked, deduped). Without this the
   per-row explosion deflates recall@k and chunked ranked docs never match base
   relevant ids.
+- **Comparison queries** (`query_type == "comparison"`, ≥2 entities) are scored
+  on the multi-entity dossier production feeds the LLM
+  (`build_multi_entity_context`), not the single-hub rerank window — both
+  subjects must be present in the scored context.
+- Retrieval surfaces terse-stub lookup docs (e.g. ability/area stubs) by
+  **exact entity-name injection + promotion**: the bounded longest multi-token
+  span that resolves to a known entity name is injected into the query and the
+  matching explicit-id doc is promoted, so a stub that never appears via dense
+  embedding still ranks. Fragments that only partially match are excluded.
 - Add queries to `evaluation/queries.jsonl` to cover a regression case; prefer
   a new per-stage assertion in `tests/test_retrieval_eval.py` for pure metric
   or well-formedness guarantees.

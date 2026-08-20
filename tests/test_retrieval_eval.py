@@ -255,8 +255,134 @@ def test_resolve_relevant_ids_with_names_and_chunks():
     )
 
     assert "recipe_1001" in resolved
-    assert "recipe_1001_chunk_0" in resolved
-    assert "recipe_1001_chunk_1" in resolved
+    # chunk fans collapse to the canonical base (recipe_1001)
+    assert "recipe_1001_chunk_0" not in resolved
+    assert "recipe_1001_chunk_1" not in resolved
+
+
+def test_resolve_relevant_ids_collapses_wiki_row_coverage_fans():
+    """Wiki table row/coverage fans collapse to their page/table base in |relevant|."""
+    docs_by_id = {
+        # One wiki page table -> coverage + many rows
+        "wiki_Field_Mushroom_table_0_coverage": {"name": "Field Mushroom"},
+        **{
+            f"wiki_Field_Mushroom_table_0_row_{i}": {"name": "Field Mushroom"}
+            for i in range(12)
+        },
+        # Distinct legitimate targets must survive canonicalization
+        "item_11004": {"name": "Field Mushroom"},
+        "wiki_Field Mushroom_Uses": {"name": "Field Mushroom"},
+        "skill_Mycology": {"name": "Mycology"},
+    }
+    sample_docs = [
+        {"id": did, "metadata": meta, "text": "content"}
+        for did, meta in docs_by_id.items()
+    ]
+    name_map, chunk_map = build_doc_name_map(sample_docs)
+
+    case = {
+        "id": "grow-field",
+        "query": "how to grow field mushrooms",
+        "relevant_names": ["Field Mushroom", "Mycology"],
+    }
+    resolved = resolve_relevant_ids(
+        case,
+        doc_store=sample_docs,
+        doc_name_map=name_map,
+        doc_chunk_map=chunk_map,
+    )
+
+    # The 12-row + coverage fan of one table collapses to a single canonical base
+    assert "wiki_Field_Mushroom_table_0" in resolved
+    assert not any("_row_" in r for r in resolved)
+    assert not any("_coverage" in r for r in resolved)
+    # Distinct targets stay: item, wiki narrative page, skill
+    assert "item_11004" in resolved
+    assert "wiki_Field Mushroom_Uses" in resolved
+    assert "skill_Mycology" in resolved
+    # 14 raw Field-Mushroom members + 1 Mycology -> 4 canonical units (not 13+)
+    assert len(resolved) == 4
+
+
+def test_evaluate_query_passes_query_type_to_retrieve(monkeypatch):
+    """evaluate_query forwards classify_query's label to retrieve (production parity)."""
+    captured: dict[str, Any] = {}
+
+    def fake_retrieve(question, count=3, metadata_filter=None, token_filter=None,
+                      rerank=True, hybrid=False, query_type="general", trace=None):
+        captured["query_type"] = query_type
+        captured["count"] = count
+        return {"ids": [[]], "documents": [[]], "metadatas": [[]], "distances": [[]],
+                "rerank_used": False}
+
+    monkeypatch.setattr("pgrag.rag.retriever.retrieve", fake_retrieve)
+    monkeypatch.setattr("pgrag.rag.retrieval_eval.classify_query", lambda q: "comparison")
+    monkeypatch.setattr("pgrag.rag.retrieval_eval.find_entities", lambda q: [
+        ("Fireball", "ability_ability_3502", "ability"),
+        ("Fire Breath", "ability_ability_3607", "ability"),
+    ])
+    monkeypatch.setattr("pgrag.rag.retrieval_eval.find_entity", lambda q: ("ability_ability_3607", None))
+
+    case = {
+        "id": "fireball-vs-firebreath",
+        "query": "What is the difference between Fireball and Fire Breath?",
+        "expected_classifier": "comparison",
+        "target_entities": ["Fireball", "Fire Breath"],
+        "relevant_ids": ["ability_ability_3502", "ability_ability_3607"],
+    }
+    evaluate_query(case, stages=("dense", "comparison"))
+
+    assert captured.get("query_type") == "comparison"
+    assert captured.get("count") == 20
+
+
+def test_comparison_routes_multientity_dossier_both_subjects(monkeypatch):
+    """Comparison queries are scored on the multi-entity dossier (both subjects)."""
+    captured: dict[str, Any] = {}
+
+    def fake_retrieve(question, count=3, metadata_filter=None, token_filter=None,
+                      rerank=True, hybrid=False, query_type="general", trace=None):
+        return {"ids": [[]], "documents": [[]], "metadatas": [[]], "distances": [[]],
+                "rerank_used": False}
+
+    # The multi-entity dossier production feeds the LLM: both subjects present
+    def fake_multi(question, entities, trace=None):
+        captured["entities"] = entities
+        return {
+            "ids": [["ability_ability_3502_chunk_0", "ability_ability_3607_chunk_0"]],
+            "documents": [["a", "b"]],
+            "metadatas": [[]],
+            "distances": [[]],
+            "rerank_used": False,
+        }
+
+    monkeypatch.setattr("pgrag.rag.retriever.retrieve", fake_retrieve)
+    monkeypatch.setattr("pgrag.rag.retrieval_eval.classify_query", lambda q: "comparison")
+    monkeypatch.setattr("pgrag.rag.retrieval_eval.find_entities", lambda q: [
+        ("Fireball", "ability_ability_3502", "ability"),
+        ("Fire Breath", "ability_ability_3607", "ability"),
+    ])
+    monkeypatch.setattr("pgrag.rag.retrieval_eval.find_entity", lambda q: ("ability_ability_3607", None))
+    monkeypatch.setattr("pgrag.rag.entity_retrieval.build_multi_entity_context", fake_multi)
+
+    case = {
+        "id": "fireball-vs-firebreath",
+        "query": "What is the difference between Fireball and Fire Breath?",
+        "expected_classifier": "comparison",
+        "target_entities": ["Fireball", "Fire Breath"],
+        "relevant_ids": ["ability_ability_3502", "ability_ability_3607"],
+    }
+    # "comparison" not listed in stages: the dossier is scored automatically
+    # for comparison queries (production parity).
+    res = evaluate_query(case, stages=("dense",))
+
+    assert res["stages"]["comparison"]["entities"] == ["Fireball", "Fire Breath"]
+    # Both subject hubs forwarded to the dossier builder
+    hubs = [e[1] for e in captured.get("entities", [])]
+    assert "ability_ability_3502" in hubs and "ability_ability_3607" in hubs
+    # Both subjects' docs are in the dossier (metrics count each canonical unit)
+    assert res["stages"]["comparison"]["metrics"]["recall@1"] == 0.5
+    assert res["stages"]["comparison"]["metrics"]["recall@5"] == 1.0
 
 
 # --- Comparison Diff Engine Tests ---

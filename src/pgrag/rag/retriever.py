@@ -1,4 +1,5 @@
 import logging
+import re
 
 import chromadb
 
@@ -10,6 +11,166 @@ logger = logging.getLogger(__name__)
 RERANK_MULTIPLIER = 3
 RRF_K = 60
 HYBRID_MULTIPLIER = 3
+
+# Near-duplicate cluster members that are fragments of one retrievable base
+# unit. For most corpora (wiki leveling tables, skill profile chunks) each
+# member is distinctly relevant, so collapsing them visibly regresses
+# multi-row results. The one debris class that does NOT carry per-member
+# relevance is the `tsys_power_*` mechanics-doc chunk splits: a handful of
+# `tsys_power_NNNN_chunk_M` fragments of the same mechanics page crowd a
+# single unrelated target out of the rerank window. Cap those per base.
+_TSYS_CHUNK_RE = re.compile(r"^(tsys_power_\d+)_chunk_\d+$")
+
+# Unique tsys power-mechanics chunks kept per base doc in the fused window.
+MAX_TSYS_CHUNK_MEMBERS = 2
+
+
+def _tsys_base_id(doc_id: str) -> str | None:
+    """Base doc id if doc_id is a tsys_power_* chunk fragment, else None."""
+    m = _TSYS_CHUNK_RE.match(doc_id)
+    return m.group(1) if m else None
+
+
+# --- Exact entity-name recall / promotion ---
+#
+# Lookup-style questions ("What level is Fireball 3 unlocked at?", "What
+# level should I be for Gazluk Keep?") name a specific entity whose cdn
+# `metadata.name` is an exact, unambiguous multi-token phrase in the query.
+# The dense/BM25 window can still miss it: a terse name-only stub gets a weak
+# embedding (surfaced far outside the window), and verbose query tokens dilute
+# its BM25 score. And when it does reach the rerank pool, the cross-encoder
+# can under-rank its sparse text. So for docs whose exact name is a contiguous
+# multi-token n-gram of the query, (a) inject them into the rerank pool when
+# the window missed them, and (b) float them to the top of the reranked
+# output. Bounded to multi-token exact names so single common words
+# ("fire", "magic", "level") never mass-promote.
+_NAME_INDEX = None
+MAX_NAME_INJECT = 4
+
+# Fragment ids inherit their parent page's name (wiki table rows/coverage and
+# chunk splits all carry the page title), so matching on `name` alone would
+# mass-promote an entire row family. Skip them: promote the substantive docs.
+_FRAGMENT_SUFFIX_RE = re.compile(r"_(?:row|chunk)_\d+$|_coverage$")
+
+
+def _is_fragment_id(doc_id: str) -> bool:
+    return bool(_FRAGMENT_SUFFIX_RE.search(doc_id))
+
+
+def _tokenize(text: str | None) -> list[str]:
+    return re.findall(r"[a-z0-9]+", (text or "").lower())
+
+
+def _entity_name_match(query: str, doc_name: str | None) -> bool:
+    """True iff doc_name is a contiguous 2+ token n-gram of the query.
+
+    e.g. name "Fireball 3" matches query "what level is fireball 3 unlocked
+    at"; name "fire" (single token) does not.
+    """
+    if not doc_name:
+        return False
+    name = _tokenize(doc_name)
+    q = _tokenize(query)
+    if len(name) < 2 or len(name) > len(q):
+        return False
+    for i in range(len(q) - len(name) + 1):
+        if q[i:i + len(name)] == name:
+            return True
+    return False
+
+
+def _load_name_index(docs=None) -> dict:
+    """Build (once, in-process) a lowercased exact-name -> [doc ids] map."""
+    global _NAME_INDEX
+    if _NAME_INDEX is None:
+        if docs is None:
+            from pgrag.rag.bm25 import load_bm25_index
+            docs = load_bm25_index()[1]
+        idx = {}
+        for d in docs:
+            n = (d.get("metadata") or {}).get("name")
+            if not n:
+                continue
+            idx.setdefault(" ".join(n.lower().split()), []).append(d["id"])
+        _NAME_INDEX = idx
+    return _NAME_INDEX
+
+
+def _name_injection_ids(query: str, docs=None) -> list[str]:
+    """Doc ids whose exact name matches the longest multi-token query span.
+
+    Only docs whose full name equals the longest contiguous 2+ token n-gram of
+    the query are returned (the most specific entity, e.g. "Healing Potion
+    Omega" beats the shorter "Healing Potion"). Capped at MAX_NAME_INJECT.
+    """
+    idx = _load_name_index(docs)
+    q = _tokenize(query)
+    for size in range(min(len(q), 4), 1, -1):
+        cur = []
+        seen = set()
+        for i in range(len(q) - size + 1):
+            key = " ".join(q[i:i + size])
+            for did in idx.get(key, ()):
+                if did not in seen:
+                    seen.add(did)
+                    cur.append(did)
+        if cur:
+            return [d for d in cur if not _is_fragment_id(d)][:MAX_NAME_INJECT]
+    return []
+
+
+def _apply_name_promotion(query, pool_ids, pool_docs, pool_metas, pool_dists,
+                          ranked_ids, ranked_docs, ranked_metas, ranked_dists, count):
+    """Float the exact-entity docs to the front of the reranked top-N.
+
+    A pool doc whose full name equals the longest multi-token query span (the
+    most specific entity name in the query, e.g. "Gazluk Keep", "Fireball 3")
+    is moved ahead of the cross-encoder's picks — an exact name is a strong
+    signal the encoder can underweight for terse docs. Shorter/generic name
+    matches (e.g. "Fireball", "Healing Potion") are NOT promoted, so a broad
+    family match never displaces the specific gold doc. A matched doc absent
+    from the ranked top-N is spliced back in. Order is otherwise preserved;
+    output trimmed to ``count``.
+    """
+    spans = []
+    for i, m in enumerate(pool_metas):
+        if _is_fragment_id(pool_ids[i]):
+            continue
+        name = (m or {}).get("name")
+        nm = _tokenize(name)
+        if _entity_name_match(query, name):
+            spans.append((i, len(nm)))
+    if not spans:
+        return ranked_ids, ranked_docs, ranked_metas, ranked_dists
+
+    longest = max(nl for _, nl in spans)
+    matched_pool = {i for i, nl in spans if nl == longest}
+
+    result = list(ranked_ids)
+    present = set(result)
+    # Re-include any matched pool doc the encoder dropped from its top-N.
+    for i in sorted(matched_pool):
+        if pool_ids[i] not in present:
+            result.insert(0, pool_ids[i])
+            present.add(pool_ids[i])
+
+    matched_set = {pool_ids[i] for i in matched_pool}
+    ordered = (
+        [x for x in result if x in matched_set]
+        + [x for x in result if x not in matched_set]
+    )[:count]
+
+    by_id = {
+        pool_ids[i]: (pool_docs[i], pool_metas[i], pool_dists[i])
+        for i in range(len(pool_ids))
+    }
+    new_docs, new_metas, new_dists = [], [], []
+    for x in ordered:
+        d, m, dst = by_id[x]
+        new_docs.append(d)
+        new_metas.append(m)
+        new_dists.append(dst)
+    return ordered, new_docs, new_metas, new_dists
 
 
 def _term_overlap(query, document):
@@ -115,7 +276,24 @@ def _hybrid_fuse(dense_ids, dense_texts, dense_metadatas, dense_distances,
         scored.append((rrf, doc_id))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-    top_ids = [s[1] for s in scored[:count]]
+
+    # Bound near-duplicate tsys power-mechanics chunks so a cluster of
+    # `tsys_power_NNNN_chunk_M` fragments doesn't crowd an unrelated single
+    # target out of the rerank window. Only tsys fragments are collapsed —
+    # wiki table rows / skill chunks stay (they're distinctly relevant).
+    top_ids = []
+    per_tsys = {}
+    for _, doc_id in scored:
+        base = _tsys_base_id(doc_id)
+        if base is not None and per_tsys.get(base, 0) >= MAX_TSYS_CHUNK_MEMBERS:
+            continue
+        if base is not None:
+            per_tsys[base] = per_tsys.get(base, 0) + 1
+        top_ids.append(doc_id)
+        if len(top_ids) >= count:
+            break
+
+    del per_tsys
 
     ids, texts, metas, dists = [], [], [], []
     for doc_id in top_ids:
@@ -135,6 +313,7 @@ def _hybrid_fuse(dense_ids, dense_texts, dense_metadatas, dense_distances,
 
 
 def retrieve(question, count=3, metadata_filter=None, token_filter=None, rerank=True, hybrid=False, query_type="general", trace=None):
+    raw_question = question
     question = correct_query(question)
     client = chromadb.PersistentClient(
         path="data/chroma"
@@ -206,6 +385,28 @@ def retrieve(question, count=3, metadata_filter=None, token_filter=None, rerank=
         if trace_rec is not None:
             trace_rec["rrf_ids"] = list(fused_ids)
 
+        # Exact entity-name recall: a doc whose name is the query's named
+        # entity (e.g. "Fireball 3", "Gazluk Keep") can be missed entirely by
+        # the dense/BM25 window (weak embedding for a terse stub; verbose
+        # query dilutes its BM25 score). Surface it into the rerank pool so
+        # the name-promotion step can float it up.
+        name_ids = _name_injection_ids(raw_question, all_docs)
+        if name_ids:
+            in_pool = set(fused_ids)
+            doc_lookup = {d["id"]: d for d in all_docs}
+            for nid in name_ids:
+                if nid in in_pool or nid not in doc_lookup:
+                    continue
+                doc = doc_lookup[nid]
+                fused_ids.append(nid)
+                fused_texts.append(doc.get("text", ""))
+                fused_metas.append(doc.get("metadata", {}))
+                fused_dists.append(0.0)
+            results["ids"] = [fused_ids]
+            results["documents"] = [fused_texts]
+            results["metadatas"] = [fused_metas]
+            results["distances"] = [fused_dists]
+
     # Post-fusion metadata filter (BM25 ignores where clause). The token
     # filter (delimited `" | "` fields Chroma can't $contains) only runs
     # here; metadata_filter already narrowed the Chroma query.
@@ -232,6 +433,7 @@ def retrieve(question, count=3, metadata_filter=None, token_filter=None, rerank=
             results["metadatas"][0],
             results["distances"][0],
             effective_count,
+            name_query=raw_question,
         )
         results["rerank_used"] = used
         results["ids"] = [ids]
@@ -249,11 +451,16 @@ def retrieve(question, count=3, metadata_filter=None, token_filter=None, rerank=
     return results
 
 
-def _rerank_or_cross_encoder(query, ids, documents, metadatas, distances, count):
+def _rerank_or_cross_encoder(query, ids, documents, metadatas, distances, count, name_query=None):
     """Cross-encoder rerank via :8082; lexical fallback on failure (V60, V61).
 
-    Returns reordered quads + used flag.
+    Returns reordered quads + used flag. ``name_query`` (defaults to
+    ``query``) is the text used for exact-entity-name promotion — pass the
+    uncorrected question so digits/names the spell-corrector rewrites
+    (e.g. "Fireball 3" -> "fireball") still match.
     """
+    if name_query is None:
+        name_query = query
     try:
         from pgrag.rag.reranker_client import rerank_documents, record_failure, record_success
 
@@ -264,6 +471,10 @@ def _rerank_or_cross_encoder(query, ids, documents, metadatas, distances, count)
             [metadatas[i] for i in indices],
             [distances[i] for i in indices],
         )
+        reranked = _apply_name_promotion(
+            name_query, ids, documents, metadatas, distances,
+            *reranked, count,
+        )
         record_success()
         return reranked + (True,)
     except Exception as exc:
@@ -272,4 +483,9 @@ def _rerank_or_cross_encoder(query, ids, documents, metadatas, distances, count)
             record_failure()
         except Exception:
             pass
-        return _rerank(query, ids, documents, metadatas, distances, count) + (False,)
+        fallback = _rerank(query, ids, documents, metadatas, distances, count)
+        fallback = _apply_name_promotion(
+            name_query, ids, documents, metadatas, distances,
+            *fallback, count,
+        )
+        return fallback + (False,)
