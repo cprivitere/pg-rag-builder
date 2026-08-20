@@ -79,6 +79,142 @@ def _hub_chunks(hub_id, docs):
             chunks.append(doc)
     chunks.sort(key=lambda d: int(d["metadata"].get("chunk_index", -1)))
     return chunks
+def build_entity_context_offline(hub_id, docs=None, budget=None):
+    """Offline entity dossier: hub chunks + leveling doc + linked wiki pages.
+
+    Skips facet queries (require live retriever). Used by offline evaluation
+    to measure the same wiki-linked dossier the real pipeline builds.
+    """
+    if docs is None:
+        docs = _load_docs()
+    if not docs:
+        return None
+    if budget is None:
+        from pgrag.config import CONTEXT_BUDGET
+        budget = CONTEXT_BUDGET
+
+    hub_chunks = _hub_chunks(hub_id, docs)
+    if not hub_chunks:
+        return None
+
+    dtype = _entity_type(hub_id)
+    entity_name = _entity_name_from_hub(hub_id)
+    if hub_chunks:
+        hub_name = (hub_chunks[0].get("metadata") or {}).get("name")
+        if hub_name:
+            entity_name = hub_name
+
+    ids = [d["id"] for d in hub_chunks]
+    texts = [d["text"] for d in hub_chunks]
+    metas = [d["metadata"] for d in hub_chunks]
+    dists = [0.0] * len(hub_chunks)
+
+    seen = set(ids)
+
+    # Computed per-skill leveling dossier (leveling_<Skill>)
+    _leveling_included = False
+    if dtype == "skill" and hub_id.startswith(("skill_", "skillprofile_")):
+        hub_suffix = (
+            hub_id[len("skillprofile_"):]
+            if hub_id.startswith("skillprofile_")
+            else hub_id[len("skill_"):]
+        )
+        _leveling_id = "leveling_" + hub_suffix
+        for _d in docs:
+            if _d["id"] == _leveling_id:
+                ids.append(_d["id"])
+                texts.append(_d["text"])
+                metas.append(_d["metadata"])
+                dists.append(0.0)
+                seen.add(_d["id"])
+                _leveling_included = True
+                break
+
+    # Wiki pages linked to this entity (same logic as build_entity_context)
+    hub_suffix = (
+        hub_id[len("skillprofile_"):]
+        if hub_id.startswith("skillprofile_") else None
+    )
+    wiki_links = []
+    for doc in docs:
+        doc_meta = doc.get("metadata", {})
+        if not isinstance(doc_meta, dict):
+            continue
+        if doc.get("type") != "wiki" and doc_meta.get("type") != "wiki":
+            continue
+        if doc["id"] in seen:
+            continue
+        eid = doc_meta.get("entity_id")
+        if not eid:
+            continue
+        if hub_suffix and eid == f"skill_{hub_suffix}":
+            pass
+        elif eid != hub_id:
+            continue
+        wiki_links.append((doc, doc_meta))
+
+    # Compact table records first: coverage then rows then narrative
+    _TABLE_RANK = {"coverage": 0, "row": 1}
+
+    def _wiki_rank(item):
+        return _TABLE_RANK.get(item[1].get("table_record"), 2)
+
+    wiki_links.sort(key=_wiki_rank)
+    # Bound granular table rows
+    _MAX_WIKI_ROWS = 12
+    _rows_seen = 0
+    _bounded = []
+    for _link in wiki_links:
+        if _link[1].get("table_record") == "row":
+            if _rows_seen >= _MAX_WIKI_ROWS:
+                continue
+            _rows_seen += 1
+        _bounded.append(_link)
+    wiki_links = _bounded
+
+    for doc, doc_meta in wiki_links:
+        seen.add(doc["id"])
+        ids.append(doc["id"])
+        texts.append(doc["text"])
+        metas.append(doc_meta)
+        dists.append(0.0)
+
+    if dtype == "skill":
+        hub_count = len(hub_chunks) + (1 if _leveling_included else 0)
+        heads = list(zip(ids, texts, metas, dists))[:hub_count]
+        tails = list(zip(ids, texts, metas, dists))[hub_count:]
+
+        def _req_level(item):
+            import re
+            m = re.search(r"Required Skill Level:\s*\n(\d+)", item[1])
+            return int(m.group(1)) if m else 10**9
+
+        recipes = sorted(
+            (t for t in tails if t[2].get("type") == "recipe"),
+            key=_req_level,
+        )
+        others = [t for t in tails if t[2].get("type") != "recipe"]
+        ordered = heads + recipes + others
+        if ordered:
+            ids, texts, metas, dists = (
+                list(x) for x in zip(*ordered)
+            )
+
+    total = 0
+    cut = len(texts)
+    for i, t in enumerate(texts):
+        if total + len(t) > budget and i > 0:
+            cut = i
+            break
+        total += len(t)
+
+    return {
+        "ids": [ids[:cut]],
+        "documents": [texts[:cut]],
+        "metadatas": [metas[:cut]],
+        "distances": [dists[:cut]],
+        "rerank_used": False,
+    }
 
 
 def _entity_type(hub_id):

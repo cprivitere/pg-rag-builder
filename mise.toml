@@ -107,6 +107,15 @@ description = "Run golden eval set (needs embed + llm services up). Exits 1 on m
 run = "uv run python scripts/golden_check.py"
 alias = "gd"
 
+[tasks."eval-retrieval"]
+description = "Run pre-LLM retrieval evaluation suite (IR metrics: Recall@k, MRR, NDCG@k, Reranker Uplift)"
+run = "uv run python scripts/retrieval_eval.py"
+alias = "ev"
+
+[tasks."eval-offline"]
+description = "Run offline retrieval evaluation (BM25 + classifier + entity resolution without server dependencies)"
+run = "uv run python scripts/retrieval_eval.py --offline"
+
 # --- Embedding server ---
 
 # Debug/foreground commands

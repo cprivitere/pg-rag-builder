@@ -227,5 +227,8 @@ data/
 skills-lock.json
 docs/superpowers/
 
+# Retrieval eval harness output (generated); evaluation/queries.jsonl is gold input, tracked
+evaluation/results/
+
 # Other AI tool local files — never commit
 .devin/

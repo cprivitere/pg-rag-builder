@@ -1,6 +1,6 @@
 ---
 name: evaluation
-description: The pg-rag RAG evaluation harness — golden set, fact-presence checking, metrics, before/after workflow. Use before and after any retrieval or document-generation change that should be measured.
+description: The pg-rag RAG evaluation harness — golden set (fact-presence LLM checks) + pre-LLM IR suite (Recall@k/MRR/NDCG/Hit@k, reranker uplift, entity accuracy), before/after workflow. Use before and after any retrieval or document-generation change that should be measured.
 ---
 
 # evaluation — RAG eval harness
@@ -38,15 +38,36 @@ Each file:
   collection time → new goldens are AUTO-collected as offline-skipped tests
   (skip unless servers up). No test code needed per golden.
 
-## Metrics (target)
+## Retrieval eval suite (pre-LLM IR metrics)
 
-Current harness measures **fact presence (subset recall of stated facts)**.
-The forward-looking targets, captured per stage:
+- `mise eval-retrieval` (alias `ev`) — full per-stage run (needs embed :8081
+  + rerank :8082 up; `build-index` required first). `scripts/retrieval_eval.py`.
+- `mise eval-offline` — `--offline` variant: BM25 + query classifier + entity
+  hub resolution only, no server deps. Use when you only touched retrieval
+  stages that don't need Chroma/rerank.
+- **Dataset**: `evaluation/queries.jsonl` — hand-authored gold input (tracked).
+  Each line: `id`, `query`, `query_type`, `expected_classifier`,
+  `target_entities`, `relevant_ids`, `relevant_names`, `category`.
+- **Output**: `evaluation/results/latest.json` (gitignored, generated).
+  `--baseline` reruns against a saved snapshot for diff/regression comparison
+  (`compare_benchmarks`).
+- The offline entity-hub path reuses `build_entity_context_offline`, so it
+  measures the same wiki-linked dossier the live pipeline builds.
+- Add queries to `evaluation/queries.jsonl` to cover a regression case; prefer
+  a new per-stage assertion in `tests/test_retrieval_eval.py` for pure metric
+  or well-formedness guarantees.
 
-- Recall@5 / Recall@10
-- MRR, NDCG
-- reranker improvement (rerank vs no-rerank on the same query set)
-- entity-resolution accuracy
+## Two layers of measurement
+
+1. **LLM end-to-end** — fact presence (subset recall of stated facts) over
+   `data/golden/*.json`. Cheapest signal that the answer is right.
+2. **Pre-LLM IR suite** (`src/pgrag/rag/retrieval_eval.py`) — per-stage
+   ranking metrics over `evaluation/queries.jsonl`, so a regression can be
+   pinned to the exact stage (BM25, dense, hybrid RRF, rerank, entity hub)
+   instead of "LLM said something wrong":
+   - Recall@k, MRR, NDCG@k, Hit@k
+   - Reranker Uplift (Δ NDCG@5 rerank vs hybrid)
+   - Entity accuracy (Jaccard / strict match on entity linkage)
 
 ## Before/after workflow
 
@@ -57,13 +78,12 @@ The forward-looking targets, captured per stage:
 5. If the "fix" only moved a ranking problem downstream, go back to stage
    localization (`retrieval` skill).
 
-## Planned direction (see .opencode/plans/metadata-bm25-eval.md)
+## Planned direction
 
 - Expand goldens to ~20–30, including named regression cases:
   - `recipes-using-spider-silk` (metadata/keyword search) — fails before
     recipe metadata enrichment, passes after.
   - `grow-field-mushrooms` ("How do I grow Field Mushrooms?") — fails before
     wiki page expansion, passes after.
-- Convert to per-stage metrics (retrieval-level, pre-LLM) for ranking-aware
-  measurement: `evaluation/` dir with `queries.jsonl`, `expected.jsonl`,
-  `results/`.
+- Extend `evaluation/queries.jsonl` (45 cases today) across the same
+  categories, and promote benchmark snapshots into regression thresholds.
