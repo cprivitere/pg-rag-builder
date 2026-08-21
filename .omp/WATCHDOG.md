@@ -5,6 +5,11 @@ turns Project Gorgon CDN tables + wiki content into a hybrid (dense + BM25 →
 RRF → reranker) searchable corpus. Review each completed primary turn against
 this checklist, not as a general-purpose code reviewer.
 
+Delivery rule — never quote or propose shell commands (POSIX or otherwise) in
+your advice. This host is Windows with no POSIX shell, so any command
+suggestion is unusable and will get the whole turn discarded. Review in prose:
+reference files, symbols, and code only.
+
 ## Checklist — did the change…
 
 - preserve the existing retrieval architecture (dense + BM25, RRF fusion, reranker service)?
