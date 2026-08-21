@@ -188,21 +188,55 @@ def _hub_id(doc_id, dtype):
     return doc_id
 
 
-def _match_entity(text):
+def _name_is_capitalized_single_token(name):
+    return name and " " not in name and name.isalpha() and name[:1].isupper()
+
+
+def _proper_noun_blocked(name, dtype, original):
+    """Block a generic lowercase usage from resolving a capitalized single-token
+    NPC name — "a WAY to level" must not match the NPC 'Way', "the ALTAR" must
+    not match the NPC 'Altar'. NPCs are proper nouns, so they resolve only when
+    the query itself capitalizes the name.
+
+    Case is ALWAYS judged against the original query, never the spelling-
+    corrected text (correct_query normalizes to lowercase, so checking it would
+    block every single-token NPC on the correction fallback). A correctly-
+    spelled capitalized NPC resolves on the primary pass; a mistyped NPC token
+    fails closed to the general route rather than manufacturing an entity.
+    Skills/items/abilities are exempt — "a sword"/"a bite" SHOULD resolve the
+    Sword skill / Bite ability, so their lowercase generics stay matched."""
+    if dtype != "npc" or not _name_is_capitalized_single_token(name):
+        return False
+    # Mirror _name_regex's plural suffix and accept ANY uppercase form of the
+    # token (emphatic "WAY", capitalized "Altars") — the same tolerance as the
+    # old per-span isupper() check — but judged against the ORIGINAL query,
+    # never the all-lowercase spelling correction (which would block every
+    # single-token NPC on the correction fallback).
+    pattern = re.compile(rf"\b{re.escape(name)}(?:es|s)?\b", re.IGNORECASE)
+    return not any(original[m.start()].isupper() for m in pattern.finditer(original))
+
+
+def _match_entity(text, original=None):
+    if original is None:
+        original = text
+    lower = text.lower()
     for name, doc_id, dtype in _load_entity_index():
-        if _name_regex(name).search(text):
-            return _hub_id(doc_id, dtype), dtype
+        m = _name_regex(name).search(lower)
+        if not m:
+            continue
+        if _proper_noun_blocked(name, dtype, original):
+            continue
+        return _hub_id(doc_id, dtype), dtype
     return None
 
 
 def find_entity(query):
-    lower = query.lower()
-    hit = _match_entity(lower)
+    hit = _match_entity(query, original=query)
     if hit:
         return hit
     corrected = correct_query(query)
-    if corrected != lower:
-        hit = _match_entity(corrected)
+    if corrected != query:
+        hit = _match_entity(corrected, original=query)
         if hit:
             return hit
     return None, None
@@ -218,7 +252,11 @@ def find_entities(query) -> list:
     """
     corrected = correct_query(query)
     texts = [query]
-    if corrected != query.lower():
+    # Same correction rule as find_entity: fall back to the corrected text when
+    # it differs from the original (incl. case). The proper-noun guard always
+    # judges case against the original query, so the (all-lowercase) corrected
+    # pass can still legitimately resolve a name the user capitalized.
+    if corrected != query:
         texts.append(corrected)
 
     for text in texts:
@@ -230,6 +268,8 @@ def find_entities(query) -> list:
         for name, doc_id, dtype in _load_entity_index():
             m = _name_regex(name).search(t)
             if not m:
+                continue
+            if _proper_noun_blocked(name, dtype, query):
                 continue
             s, e = m.span()
             if any(not (e <= ss or s >= ee) for ss, ee in spans):

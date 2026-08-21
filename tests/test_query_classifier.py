@@ -1,4 +1,6 @@
-from pgrag.rag.query_classifier import classify_query, find_entity
+import pytest
+
+from pgrag.rag.query_classifier import classify_query, find_entities, find_entity
 
 
 def test_highest_detected():
@@ -157,3 +159,91 @@ def test_amelthyst_compound_resolves_amethyst_item():
     """'AmethystVein' resolves to the real Amethyst item (spelling split),
     not a hallucinated entity."""
     assert find_entity("AmethystVein")[0] == "item_18033"
+
+
+_NPC_GUARD_INDEX = [
+    ("Way", "npc_NPC_Way", "npc"),
+    ("Altar", "npc_NPC_Altar", "npc"),
+    ("Guard Owen", "npc_NPC_GuardOwen", "npc"),
+    ("Cooking", "skill_Cooking", "skill"),
+    ("Sword", "item_7", "item"),
+    ("Bash", "ability_1", "ability"),
+]
+
+
+@pytest.fixture
+def npc_guard_index(monkeypatch):
+    monkeypatch.setattr(
+        "pgrag.rag.query_classifier._load_entity_index",
+        lambda: sorted(_NPC_GUARD_INDEX, key=lambda t: len(t[0]), reverse=True),
+    )
+
+
+@pytest.mark.parametrize("npc,hub", [
+    ("Way", "npc_NPC_Way"),
+    ("Altar", "npc_NPC_Altar"),
+])
+def test_npc_proper_noun_requires_capitalized_query(npc_guard_index, npc, hub):
+    """A capitalized single-token NPC name ('Way', 'Altar') is a proper noun:
+    the bare lowercase word in prose must not resolve the NPC. Only a
+    capitalized occurrence does."""
+    assert find_entity(f"tell me about a {npc.lower()} to do it") == (None, None)
+    got, dtype = find_entity(f"Tell me about {npc}")
+    assert (got, dtype) == (hub, "npc")
+
+
+def test_npc_proper_noun_not_listed_from_generic_prose(npc_guard_index):
+    """find_entities must not surface the NPC 'Way' alongside a real skill when
+    the query only uses 'way' generically ("the best way to level")."""
+    got = find_entities("what is the best way to level Cooking")
+    assert got == [("Cooking", "skillprofile_Cooking", "skill")]
+
+
+def test_multi_token_npc_still_case_insensitive(npc_guard_index):
+    """The proper-noun guard is ONLY for single capitalized tokens. A multi-token
+    NPC name ('Guard Owen') matches case-insensitively, like any prose phrase."""
+    for q in ("Where is Guard Owen?", "where is guard owen?", "guard owen"):
+        got, dtype = find_entity(q)
+        assert (got, dtype) == ("npc_NPC_GuardOwen", "npc")
+
+
+def test_npc_proper_noun_allcaps_and_capped_plural(npc_guard_index):
+    """The guard accepts ANY uppercase occurrence of the name — emphatic
+    all-caps ('WAY') and capitalized plurals ('Altars') — matching the old
+    per-span isupper() tolerance, judged against the original query. Lowercase
+    plurals stay generic and blocked."""
+    assert find_entity("tell me about WAY") == ("npc_NPC_Way", "npc")
+    assert find_entity("the Altars of the temple") == ("npc_NPC_Altar", "npc")
+    assert find_entity("the altars blend in") == (None, None)
+
+
+def test_npc_proper_noun_survives_typo_elsewhere(npc_guard_index):
+    """A typo outside the NPC name must not cost the match: the guard judges
+    case against the original query, so 'abot'->'about' can't touch 'Way'."""
+    assert find_entity("Tell me abot Way") == ("npc_NPC_Way", "npc")
+
+
+def test_npc_proper_noun_mistyped_fails_closed(npc_guard_index, monkeypatch):
+    """A mistyped single-token NPC token must NOT be manufactured by the
+    spelling fallback: the corrected text is all-lowercase, but the guard
+    judges the ORIGINAL query, which lacks the capitalized name — so it fails
+    closed to the general route instead of summoning an NPC from a typo."""
+    monkeypatch.setattr(
+        "pgrag.rag.query_classifier.correct_query",
+        lambda q: "tell me about altar",
+    )
+    assert find_entity("tell me about alter") == (None, None)
+    # A capitalized-in-original NPC still resolves (primary pass, typo elsewhere).
+    assert find_entity("Tell me abot Altar") == ("npc_NPC_Altar", "npc")
+
+
+def test_proper_noun_guard_skips_skills_items_abilities(npc_guard_index):
+    """The guard is NPC-only: skills/items/abilities legitimately match
+    lowercase generics ("a cooking pot" -> Cooking skill, "a sharp sword" ->
+    Sword item, "using bash" -> Bash ability)."""
+    got, dtype = find_entity("how do I use a cooking pot")
+    assert (got, dtype) == ("skillprofile_Cooking", "skill")
+    got, dtype = find_entity("find a sharp sword")
+    assert (got, dtype) == ("item_7", "item")
+    got, dtype = find_entity("using bash to fight")
+    assert (got, dtype) == ("ability_1", "ability")
