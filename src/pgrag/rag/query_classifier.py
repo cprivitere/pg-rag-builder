@@ -82,6 +82,19 @@ AGGREGATION_PATTERNS = [
     r"\bsaga\b",
 ]
 
+# Category-listing intent: "Which <category> <verb> ...?" enumerates a class
+# of abilities/items/etc whose shared entity is a filter, not the answer
+# ("Which Sword abilities deal Slashing damage?" lists abilities, it does not
+# open the Sword skill dossier). Guarded at the call site: only routes general
+# when the query names a SINGLE entity, so a 2+-entity comparison phrased this
+# way ("Which ability deals more damage, Punch or Front Kick?") falls through
+# to the comparison branch instead of being hijacked into a listing.
+_LISTING_RE = re.compile(
+    r"\bwhich\s+(?:\w+\s+)*(?:abilities?|items?|recipes?|skills?|weapons?|"
+    r"armours?|armors?|spells?|monsters?|creatures?|materials?|scrolls?|"
+    r"ingredients?)\s+(?:deal|do|have|give|use|make|inflict|grant|drop|require)\b"
+)
+
 ENTITY_TYPES = ("skill", "item", "ability", "quest", "recipe", "effect", "area", "npc", "lorebook")
 
 _ENTITY_INDEX = None
@@ -273,6 +286,16 @@ def classify_query(query: str) -> str:
     for pattern in COMPARISON_PATTERNS:
         if re.search(pattern, lower):
             return "comparison"
+
+    # Category-listing (guarded to a single entity): "Which <category>
+    # <verb> ...?" is a general filter/listing query, not a dossier about the
+    # named entity. Checked after superlative/comparison intent so a single-
+    # entity one ("Which skills give the most XP?") is still a comparison, and
+    # guarded to fewer than two entities so a two-entity no-superlative
+    # question of this shape falls through to the comparison branch below
+    # ("Which abilities deal damage, Punch or Front Kick?" names two).
+    if len(find_entities(query)) < 2 and _LISTING_RE.search(lower):
+        return "general"
 
     # Two (or more) entities named in one question is a comparison even when
     # no superlative/intensifier pattern trips — e.g. "Punch or Front Kick".

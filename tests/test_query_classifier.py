@@ -135,6 +135,16 @@ def test_who_gives_quests_in_area_stays_general():
     assert classify_query("Who gives quests in the Ranalon Den area?") == "general"
 
 
+def test_which_abilities_deal_stays_general():
+    """'Which Sword abilities deal Slashing damage?' is a category listing over
+    a filter (Slashing); the Sword skill mention must not upgrade it to the
+    single-skill dossier. A two-entity question of the same shape stays a
+    comparison (bare verb, no superlative), so the single-entity guard is
+    load-bearing."""
+    assert classify_query("Which Sword abilities deal Slashing damage?") == "general"
+    assert classify_query("Which abilities deal damage, Punch or Front Kick?") == "comparison"
+
+
 def test_lorebook_series_stays_general():
     """Lore series/books are multi-part narrative synthesis with no single-hub
     dossier; detected lorebook entities must not upgrade to entity (or a false
