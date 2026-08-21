@@ -1,56 +1,112 @@
-# pg-rag-builder — agent guide (compressed)
+# Repository Guidelines
 
-## mise
-`mise tasks` = full list
+Oh My Pi agent guide for **pg-rag-builder** — a RAG pipeline and retrieval harness for the *Project Gorgon* game wiki. Vectorizes CDN game data + wiki text into Chroma, retrieves with hybrid BM25+dense fusion, and answers questions through a local LLM.
 
-## pipeline
-`uv run pgrag download-cdn → download-wiki → build-documents → build-index` (+ `validate` for index health; entry: `src/pgrag/cli.py`). `build-index --source cdn|wiki|computed|curated` = partial rebuild: embeds/purges only that source's docs, leaves the rest untouched. Wiki harvest summaries are tagged `source=wiki`, so `--source wiki` refreshes them too.
+---
 
-**Freshness contract (avoids the stale-documents trap):** `build-documents` stamps `data/derived/documents_version.json` with `DOCUMENTS_VERSION`; `build-index` refuses to embed a `documents.json` whose stored version differs (it only reads the persisted file, never regenerates it). To converge a source in one command use the `mise sync-*` tasks (`sync-wiki`/`sync-cdn`/`sync`, aliases `syw`/`syc`/`sy`) — each runs `build-documents` (refreshing the marker) before its `build-index`. `generate-docs` (alias `docs`) is the bare idempotent documents rebuild. Bump `DOCUMENTS_VERSION` (config.py) whenever document shape changes.
+## Project Overview
 
-## layout
-- `src/pgrag/` — importable package (uv installs it editable):
-  - `cli.py` — `pgrag` CLI: download-cdn/wiki, build-documents, build-index, validate
-  - `config.py` — paths (PROJECT_ROOT = repo root), EMBEDDING_DIM, CONTEXT_BUDGET
-  - `build.py` — `generate_documents()` orchestration (CDN+wiki → documents.json)
-  - `loaders/`: disk→DB — `cdn_loader.py`, `wiki_loader.py`, `download_cdn.py`, `download_wiki.py` (wiki sync), `database.py` (`GameDatabase` = `tables`(CDN) + `wiki`(text) handoff bag)
-  - `documents/`: `builder.py` CDN, `wiki_builder.py` wiki→sections, `chunking.py` 1024c/100ov (lorebook+skillprofile 2048, summary+curated 8192), `resolver.py` xrefs, `skill_profiles.py`, `summaries.py`
-  - `embeddings/llama_embeddings.py` → :8081
-  - `vectorstore/`: `build_index.py` incremental, `hashes.py`, `health_check.py`
-  - `rag/`: `retriever.py` chroma+rerank+BM25fuse, `reranker_client.py` :8082+stats, `bm25.py`, `query_classifier.py` entity/comparison/general (+ leveling-intent → skill entity), `spelling.py`, `entity_retrieval.py` dossier (skill recipes sorted by required level), `synthesis_detector.py`+`synthesis_generator.py`, `pipeline.py` entity+gap-fill (+ streaming `ask_stream` events), `prompts.py` (+ leveling ranking block), `llm.py` :8080 (+ `stream_generate` SSE)
-- `scripts/`: `rag.py`, `retrieval.py`, `curator.py`+`curator_scheduler.py`→`data/wiki/curated/`, `golden_check.py`→`data/golden/`, `embed_eval.py`+`embed_vram_probe.py`+`bakeoff_corpus.py`, `check_services.py` status, `pg_rag.py` OpenWebUI pipe, `rag_chat.py` Gradio chat (`mise chat`; `uv run --with gradio`)
-- `tests/` — pytest, imports `pgrag` (installed package)
+Build a searchable, fact-grounded knowledge base from two sources:
+- **CDN**: structured `data/cdn/*.json` tables (items, recipes, abilities, skills, quests, npcs, areas, effects).
+- **Wiki**: raw `data/wiki/*.txt` page dumps (hashed filenames, titles via `data/wiki/.meta.json`).
 
-## services
-svc,port,note
-embed mxbai-xsmall-Q8,8081,embed_text/batch retrieval
-LLM gemma-4-26B,8080,RAG Q&A
-rerank bge-reranker-v2-m3,8082,opt; lexical fallback if down
-OpenWebUI,3000,../mywebui
-chat Gradio,7860,`mise chat`; needs embed+LLM up; history in browser localStorage
+Generate typed documents → embed → index in Chroma → retrieve (dense + BM25 → RRF fuse → rerank) → answer via LLM. Ships a CLI (`pgrag`), OpenWebUI pipe, Gradio chat, curation tooling, and golden/embed eval suites.
 
-build/refresh needs no servers. `CONTEXT_BUDGET=34000` (config.py) caps entity ctx.
+## Architecture & Data Flow
 
-## data
-`data/` gitignored: `cdn/ wiki/ documents.json chroma/ wiki/curated/ golden/ rerank_stats.json wiki/.meta.json curator_state.json` · eval records: `embed_eval_*.log`, `embed_vram.json`, `bakeoff_*.json` · `logs/`: `embed.log llm.log webui.log rerank.log`
+```
+cdn/*.json ─┐
+            ├─ loaders → GameDatabase(tables + wiki) ─┐
+wiki/*.txt ─┘                                          ├─ documents/ (builder + wiki_builder + skill_profiles + summaries)
+data/wiki/curated/*.json ──────────────────────────────┘
+                        │  build.py: generate_documents() → documents.json (+ documents_version.json, stamps DOCUMENTS_VERSION)
+                        ▼
+              build_index.py → Chroma collection "project_gorgon" (incremental, hash-based)
+                        │  EMBED_BATCH_SIZE=10000, validates EMBEDDING_DIM=384
+                        ▼
+Query → query_classifier → retriever (dense + BM25 → RRF fuse → reranker :8082)
+                        │
+                        ├─ entity queries → entity_retrieval (skill dossiers sorted by required level) + gap-fill
+                        └─ pipeline.ask / ask_stream → prompt → LLM :8080 → answer
+```
 
-## tests
-341 offline (360 coll −14 slow). All offline; 5 golden skip unless :8080+:8081 are up (runtime skip + single retry for LLM nondeterminism). Temp-dir integration.
+- **One-shot pipeline**: LLM gets a fixed context and answers once. Only `_gap_fill` / `_stream_answer` re-retrieve (`_AGENTIC_MAX_ROUNDS = 1`, one bounded sibling expansion via `rag/resolve.py`). No agentic tool-calling.
+- **Freshness contract (avoid stale-document trap)**: `build-documents` stamps `data/derived/documents_version.json` with `DOCUMENTS_VERSION` (config.py, currently `4`). `build-index` only reads the persisted `documents.json` and refuses to embed if the stored version differs — it never regenerates. To converge a source in one command, use `mise sync-*` tasks (they run `build-documents` first). Bump `DOCUMENTS_VERSION` whenever document shape changes.
 
-## env
-- py≥3.14, `uv`. `hf` global CLI, cache `F:\AI\models\hub\`; GGUF via `-hf org/repo:quant`
+## Key Directories
 
-## gotchas
-- **wiki cats**: `TARGET_CATEGORIES` flat + `RECURSIVE_CATEGORIES` walk (`Creatures` d2, `Items` d1) — monsters/items only via recursion (drops live there); `Quests` is flat-synced. Subcats bare (no `Category:` prefix). Wiki filenames are `{safe_title}_<sha256-8>.txt`; `wiki_loader` names pages via `.meta.json` real titles (fallback: hash stripped) so doc names/sources show clean titles. Sync ends with `remove_orphan_files` — `.txt` files not in meta (leftovers from older enumerations/aborted runs) are deleted.
-- **LLM draft model**: OOM if already running → `mise down` first.
-- **scripts/pg_rag.py**: hardcodes `PG_ROOT=F:\ProjectGorgon\pg-rag-builder` + `os.chdir()`, adds `PG_ROOT/src` to `sys.path` — update if repo moves.
-- **mise.toml `[env]`**: `WEBUI_DIR`, `LOGS_DIR` — update if paths move.
-- **test isolation**: `test_download_wiki.py` `main()` tests patch `META_FILE` + `WIKI_DIR` to tmp — they must, or they clobber the real `data/wiki/.meta.json` (was a silent 14k→1 entry destroyer).
+- `src/pgrag/` — importable package (`uv` installs editable).
+  - `cli.py` — CLI: `download-cdn`, `download-wiki`, `build-documents`, `build-index`, `validate`.
+  - `config.py` — paths, `EMBEDDING_DIM=384`, `CONTEXT_BUDGET=34000`, `DOCUMENTS_VERSION`, `TARGET_CATEGORIES`/`RECURSIVE_CATEGORIES`.
+  - `build.py` — `generate_documents()` orchestration.
+  - `loaders/` — `cdn_loader` (tables from CDN json), `wiki_loader` (wiki text + `.meta.json` title mapping, orphan cleanup), `database.GameDatabase` (in-memory `tables` + `wiki` bag).
+  - `documents/` — `builder.py`, `wiki_builder.py` (mwparserfromhell → sections/chunks, `parent_id` links), `chunking.py`, `resolver.py` (internal code → display name), `skill_profiles.py`, `summaries.py` (gathering skill maps).
+  - `embeddings/llama_embeddings.py` → :8081.
+  - `vectorstore/` — `build_index.py`, `hashes.py`, `health_check.py`.
+  - `rag/` — `retriever.py`, `reranker_client.py`, `bm25.py`, `query_classifier.py`, `query_plan.py`, `spelling.py`, `entity_retrieval.py`, `resolve.py`, `synthesis_detector.py`+`synthesis_generator.py`, `pipeline.py` (+ `ask_stream`), `prompts.py`, `llm.py`.
+- `scripts/` — eval + service tooling (see Important Files).
+- `tests/` — pytest suite, imports the installed `pgrag` package.
+- `data/` (gitignored) — `cdn/`, `wiki/` (+`curated/`, `.meta.json`), `derived/` (`documents_version.json`, `wiki_parsed.json`), `documents.json`, `chroma/`, `golden/`, `retrieval_traces/`, eval records (`embed_eval_*.log`, `embed_vram.json`, `bakeoff_*.json`). Service logs live at project-root `logs/` (`embed.log`, `llm.log`, `webui.log`, `rerank.log`).
+- `.omp/` — oh-my-pi config: `RULES.md`, `config.yml`, `WATCHDOG.md`, `skills/` (`pg-rag`, `pg-data`, `retrieval`, `evaluation`).
 
-## agent (oh-my-pi)
-- `.omp/` is project-scoped oh-my-pi config: `RULES.md` (sticky rules), `config.yml` (advisor enabled; model roles live in global config), `WATCHDOG.md` (advisor checklist), `skills/` (`skill://pg-rag`, `pg-data`, `retrieval`, `evaluation`).
-- Skills are discovered at session start; a new `omp` session picks up changes.
-- Golden eval: `mise golden` (needs :8080+:8081); `tests/test_golden_check.py` auto-collects `data/golden/*.json` as offline-skipped tests.
+## Development Commands
 
-## roadmap
-- **Parent-child / request-more (bounded resolve shipped; full agentic retrieval not built)**: pipeline is one-shot — the LLM gets a fixed context and answers once. `parent_id` exists on **wiki docs only** (chunk→page; CDN/computed/curated have none). `rag/resolve.py` provides `expand_parents` (sibling-chunk expansion, bounded 2 pages/16k chars) + `load_parent_index`; the general path expands siblings pre-answer, and `_gap_fill`/`_stream_answer` do ONE bounded expansion re-answer before the subject-re-retrieval fallback (`_AGENTIC_MAX_ROUNDS = 1`). On the current corpus that expansion is effectively a no-op for the missing path — entity dossiers are CDN-hub-only (no `parent_id`), and the general path already splices all siblings — so it is a latent mechanism + safety net, not a live recall win. No hierarchical chunking (`chunk_index` only, no `parent_id`-tree), no LLM tool-calling, no multi-turn browse. To make it real: (1) give entity hubs wiki pages' siblings in the dossier, or add a resolve endpoint callable by the LLM, (2) make `generate()` tools-aware or a structured "request more" two-stage loop.
+Python ≥3.14, managed with `uv`. `mise tasks` lists everything (`uv run pgrag …`).
+
+```sh
+uv run pgrag download-wiki          # fetch wiki dumps
+uv run pgrag download-cdn           # fetch CDN json
+uv run pgrag build-documents        # regenerate documents.json (stamps version)
+uv run pgrag build-index            # embed + index into Chroma
+uv run pgrag validate              # index health checks
+uv run pgrag build-index --source cdn|wiki|computed|curated   # partial rebuild of one source
+mise sync-wiki / sync-cdn / sync   # build-documents + build-index in one shot (aliases syw/syc/sy)
+mise generate-docs                 # bare idempotent documents rebuild (alias docs)
+mise golden                        # golden eval (needs :8080 + :8081)
+mise chat                          # Gradio chat (needs embed + LLM up)
+uv run pytest                      # offline test suite
+uv run pytest tests/test_retrieval_unit.py tests/test_bm25.py tests/test_rerank*.py  # retrieval regression
+```
+
+**Build/refresh needs no servers**; only Q&A/eval (`golden`, `chat`, `scripts/retrieval.py`) do.
+
+## Code Conventions & Common Patterns
+
+- **Python/uv**: py≥3.14, type-annotated, package-relative imports (`from pgrag.config import …`). Edit the package in `src/pgrag/`, never hand-edit build artifacts (`documents.json`, `data/derived/wiki_parsed.json`, `bm25_index.pkl`).
+- **Doc identity contract**: every doc carries `id` + `metadata.source` + `metadata.table`. Chroma `update()` merges metadata (add-only) — renames/removals require a full rebuild. Preserve these fields.
+- **Retrieval architecture is fixed**: dense + BM25 → RRF fusion (`_hybrid_fuse`, `HYBRID_MULTIPLIER`) → reranker (`bge-reranker-v2-m3` :8082, lexical fallback if down). Don't replace a component without identifying the existing implementation first; verify with the retrieval regression tests.
+- **Incremental index**: `build_index.py` computes embedding hashes to avoid re-embedding unchanged docs, batches at `EMBED_BATCH_SIZE=10000`, validates dims against `EMBEDDING_DIM`. **Never change embedding models silently** — embeddings are a fixed-dim contract with the Chroma collection.
+- **Error handling**: server clients raise domain errors (e.g. `EmbeddingServerError`, LLM/rerank errors) with the URL in the message; offline tests assert these. Server reachability is checked but servers down → graceful lexical/fallback paths.
+- **Wiki categories**: `TARGET_CATEGORIES` flat + `RECURSIVE_CATEGORIES` (Creatures d2, Items d1) — monsters/items only via recursion. Subcats bare (no `Category:` prefix). Wiki filenames `{safe_title}_<sha256-8>.txt`; display names come only from `.meta.json` (never filenames). Sync ends with `remove_orphan_files`.
+- **Test isolation**: temp dirs for anything touching `data/` (real meta/documents are guarded — a past bug silently destroyed `data/wiki/.meta.json`). `tests/conftest.py` snapshots `data/cdn`/`data/wiki` and asserts immutability.
+
+## Important Files
+
+- `src/pgrag/cli.py` — entry point; `config.py` — constants/paths; `build.py` — document orchestration; `rag/pipeline.py` — query path (deterministic temp=0/seed=0).
+- `scripts/pg_rag.py` — OpenWebUI pipe, **hardcoded** `PG_ROOT=F:\ProjectGorgon\pg-rag-builder` + `os.chdir()`, adds `PG_ROOT/src` to `sys.path` — update if the repo moves. Valves: `TOP_K=20`, `USE_HYBRID`, `USE_RERANK`.
+- `scripts/curator.py` + `curator_scheduler.py` — detect fragmented knowledge (area_levels, skill_trainers, crafting_progressions), write `data/wiki/curated/`, scheduler persists state to `data/curator_state.json` and rebuilds doc/index on change.
+- `scripts/golden_check.py` — fact-presence golden eval → `data/golden/`; `scripts/embed_eval.py` (+`embed_vram_probe.py`, `bakeoff_corpus.py`) — embedding bake-offs.
+- `scripts/check_services.py` — [OK]/[DOWN] probes for all services.
+- `mise.toml` `[env]`: `WEBUI_DIR`, `LOGS_DIR` — update if paths move.
+
+## Runtime/Tooling Preferences
+
+- **Runtime**: Python ≥3.14 via `uv`; model binaries fetched with `hf` global CLI (cache `F:\AI\models\hub\`; GGUF via `-hf org/repo:quant`).
+- **Local services** (running on Windows host):
+  | svc | port | model / note |
+  |-----|------|--------------|
+  | Embeddings | 8081 | `mxbai-xsmall` Q8 (`/embed` + `/batch`) — needed for Q&A/eval |
+  | LLM | 8080 | `gemma-4-26B` — RAG Q&A; **draft model OOMs if already running → `mise down` first** |
+  | Reranker | 8082 | `bge-reranker-v2-m3`, optional, lexical fallback |
+  | OpenWebUI | 3000 | `../mywebui` |
+  | Chat (Gradio) | 7860 | `mise chat`; history in browser localStorage |
+- `scripts/rag_chat.py` and `pg_rag.py` assume these services up.
+- Tests import the installed `pgrag` package — after changing `src/pgrag/`, no reinstall needed (editable install).
+
+## Testing & QA
+
+- **Framework**: pytest via `uv run pytest`; ~341 offline tests (360 collected −14 slow). All offline; temp-dir integration.
+- **Golden eval** (`tests/test_golden_check.py`): parametrized over `data/golden/*.json`; `require_servers` fixture skips unless LLM :8080 + embed :8081 are up; retries once (2 attempts) to damp LLM nondeterminism; both attempts fail = regression.
+- **Retrieval regression set** (run when changing retrieval): `tests/test_bm25.py`, `tests/test_retrieval_unit.py`, `tests/test_rerank*.py`, `tests/test_retriever_spelling.py`.
+- **Key suites** (from `tests/`): `test_documents.py` (doc shape), `test_chunking.py`, `test_health_check.py` (index integrity incl. no-SQLite-crash on large collections), `test_llm.py` (SSE streaming parse), `test_download_wiki.py` (batching, redirects, orphan cleanup — patches `META_FILE`+`WIKI_DIR` to tmp), `test_query_classifier.py`/`test_query_plan.py`, `test_bm25_persist.py`, `test_rerank_fallback.py`, `test_hashes.py`, `test_embed_validation.py`.
+- **Coverage expectation**: one test defends each observable contract; integration tests use temp dirs and mocked servers rather than live ones.
