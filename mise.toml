@@ -116,6 +116,16 @@ alias = "ev"
 description = "Run offline retrieval evaluation (BM25 + classifier + entity resolution without server dependencies)"
 run = "uv run python scripts/retrieval_eval.py --offline"
 
+[tasks."bakeoff-corpus"]
+description = "Regenerate the embedder bake-off corpus (data/bakeoff_corpus.json) from current data/documents.json: ~500 fattest docs, 12 multi-gold queries. Plain bake-off re-runs reuse the persisted corpus"
+run = "uv run python scripts/bakeoff_corpus.py"
+alias = "bkc"
+
+[tasks.bakeoff]
+description = "Run the embedder bake-off (all candidates): spawns each embedder on :8085, measures per-PID VRAM + MRR/Recall@10/NDCG@10/Hit@k, writes data/bakeoff_report.json. Self-contained; no services needed"
+run = "uv run python scripts/embed_eval.py --bakeoff"
+alias = "bk"
+
 # --- Embedding server ---
 
 # Debug/foreground commands
@@ -164,6 +174,11 @@ alias = "down"
 description = "Check status of all services (embed, llm, rerank, webui)"
 run = "uv run python scripts/check_services.py"
 alias = "st"
+
+[tasks.drift]
+description = "Check docs/skills against the repo: pointers resolve, contract constants match, TEST_CONTRACTS covers every test, golden counts are real"
+run = "uv run python scripts/check_docs.py"
+alias = "dr"
 
 # --- Log viewing ---
 
