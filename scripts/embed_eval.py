@@ -30,10 +30,10 @@ import time
 from pathlib import Path
 
 try:
-    from scripts.embed_vram_probe import CANDIDATES, _url_args, get_base_url
+    from scripts.embed_vram_probe import CANDIDATES, _url_args, get_base_url, get_per_pid_vram
 except ModuleNotFoundError:
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-    from scripts.embed_vram_probe import CANDIDATES, _url_args, get_base_url
+    from scripts.embed_vram_probe import CANDIDATES, _url_args, get_base_url, get_per_pid_vram
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 DOCS_PATH = DATA / "documents.json"
@@ -459,7 +459,7 @@ def evaluate_candidate(cand, subset, pooling="mean", ctx=4096, doc_prefix=None, 
 
 
 def run_bakeoff(args):
-    """Run bake-off: fat-doc corpus, GGUF size as VRAM, ranked report."""
+    """Run bake-off: fat-doc corpus, measured per-PID VRAM, ranked report."""
     import requests
 
     corpus_path = DATA / "bakeoff_corpus.json"
@@ -477,6 +477,8 @@ def run_bakeoff(args):
                "candidates": []}
 
     for cand in BAKEOFF_CANDIDATES:
+        if args.only and args.only not in cand["name"]:
+            continue
         sys.stderr.write(f"\n--- {cand['name']} ---\n")
         info = spawn_candidate_bakeoff(cand)
         if not info.get("ok", True):
@@ -496,14 +498,23 @@ def run_bakeoff(args):
             log_path = DATA / f"embed_eval_{cand['name'].split()[0]}.log"
             server_log = parse_server_log(log_path)
 
-            # GGUF file size from candidate config
-            vram_mb = cand.get("vram_mb")
+            # Measured resident VRAM for this candidate's server, per-PID and
+            # settled over samples: single WDDM reads are noisy and back-to-back
+            # same-shape candidates recycle driver pages (see vram_sweep).
+            samples = []
+            for _ in range(4):
+                v = get_per_pid_vram(proc.pid)
+                if v is not None:
+                    samples.append(v)
+                time.sleep(0.3)
+            vram_mb = max(samples) if samples else None
 
             entry = {"name": cand["name"], "dims": cand["dims"],
                      "quant": cand["hf"].split(":")[-1],
                      "vram_mb": vram_mb, **m, "server_log": server_log}
             results["candidates"].append(entry)
-            sys.stderr.write(f"  {cand['name']}: mrr={m['mrr10']}, vram={vram_mb}MB\n")
+            vram_txt = f"{vram_mb:.0f}MB" if vram_mb is not None else "n/a"
+            sys.stderr.write(f"  {cand['name']}: mrr={m['mrr10']}, vram={vram_txt}\n")
         finally:
             try:
                 proc.kill()

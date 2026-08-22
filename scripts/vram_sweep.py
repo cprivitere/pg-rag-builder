@@ -17,7 +17,6 @@ Writes: data/vram_sweep.json
 """
 import argparse
 import json
-import re
 import subprocess
 import sys
 import time
@@ -26,11 +25,13 @@ from pathlib import Path
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
-SCRIPTS = ROOT / "scripts"
 DATA = ROOT / "data"
 
-sys.path.insert(0, str(SCRIPTS))
-from embed_vram_probe import _url_args, _total_vram_mb  # noqa: E402
+try:
+    from scripts.embed_vram_probe import _url_args, _total_vram_mb, get_per_pid_vram  # noqa: E402
+except ModuleNotFoundError:
+    sys.path.insert(0, str(ROOT))
+    from scripts.embed_vram_probe import _url_args, _total_vram_mb, get_per_pid_vram
 
 LLM_MODEL = "unsloth/gemma-4-26B-A4B-it-qat-GGUF:UD-Q4_K_XL"
 RERANK_MODEL = "gpustack/bge-reranker-v2-m3-GGUF:Q4_K_M"
@@ -122,26 +123,6 @@ def _warm(kind, base_url):
                                 "documents": [WARM_RERANK_D]}, timeout=60)
     except Exception as e:
         sys.stderr.write(f"    warm request failed: {e}\n")
-
-
-def get_per_pid_vram(pid):
-    """Dedicated GPU bytes for one PID (summed across LUIDs/segments).
-
-    Process-scoped \\GPU Process Memory(*)\\Dedicated Usage — immune to driver
-    page retention across successive same-shape variants, unlike the summed
-    adapter total. This is the decision metric for flag comparisons.
-    """
-    out = subprocess.run(
-        ["pwsh", "-NoProfile", "-Command",
-         f"(Get-Counter '\\GPU Process Memory(*)\\Dedicated Usage' "
-         f"-ErrorAction SilentlyContinue).CounterSamples | "
-         f"Where-Object {{ $_.InstanceName -match '^pid_{pid}_' }} | "
-         f"Measure-Object -Property CookedValue -Sum"],
-        capture_output=True, text=True, timeout=60,
-    )
-    cleaned = re.sub(r"\x1b\[[0-9;]*m", "", out.stdout)
-    m = re.search(r"Sum\s*:\s*([\d.]+)", cleaned)
-    return (float(m.group(1)) / 1e6) if m else None
 
 
 def _stop(proc, log_fh):

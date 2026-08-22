@@ -137,6 +137,26 @@ def _total_vram_mb():
     return (float(m.group(1)) / 1e6) if m else None  # MB
 
 
+def get_per_pid_vram(pid):
+    """Dedicated GPU bytes for one PID (summed across LUIDs/segments).
+
+    Process-scoped \\GPU Process Memory(*)\\Dedicated Usage — immune to driver
+    page retention across back-to-back same-shape processes, unlike the summed
+    adapter total. Reliable for attributing one llama-server's VRAM.
+    """
+    out = subprocess.run(
+        ["pwsh", "-NoProfile", "-Command",
+         f"(Get-Counter '\\GPU Process Memory(*)\\Dedicated Usage' "
+         f"-ErrorAction SilentlyContinue).CounterSamples | "
+         f"Where-Object {{ $_.InstanceName -match '^pid_{pid}_' }} | "
+         f"Measure-Object -Property CookedValue -Sum"],
+        capture_output=True, text=True, timeout=60,
+    )
+    cleaned = re.sub(r"\x1b\[[0-9;]*m", "", out.stdout)
+    m = re.search(r"Sum\s*:\s*([\d.]+)", cleaned)
+    return (float(m.group(1)) / 1e6) if m else None  # MB
+
+
 def _url_args(url, local):
     if local or url.endswith(".gguf"):
         return ["-m", url]
