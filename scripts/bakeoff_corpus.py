@@ -1,24 +1,74 @@
 """Bake-off corpus generator.
 
-Grabs ~500 fattest docs from data/documents.json and builds 10-15
-queries with known-relevant doc IDs for embedding model comparison.
+Builds an embedder-bake-off eval corpus (data/bakeoff_corpus.json) from the
+generated data/documents.json.
+
+Why the corpus is cluster-sampled: an IR eval is only meaningful if each query's
+gold (relevant) docs are *present* to be retrieved. A blind sample of 500 docs
+from ~258k rarely contains an entity's cross-table footprint, so golds collapse
+to 1 and MRR/NDCG/Recall degenerate. Instead:
+
+- Group docs into *entity clusters*: a doc's full footprint across the source
+  (every doc sharing the same case-normalized metadata.name across the entity
+  tables: item <-> recipe <-> quest <-> wiki, ability <-> effect <-> skill, ...)
+  plus its own multi-chunk page family. Names matching more than AMBIG_CAP docs
+  are "ambiguous" and not grouped, so generic nouns can't form false clusters.
+- Sample whole clusters (so each query's golds are all in the corpus), with a
+  per-table doc budget (no table may exceed cap_share of the corpus) for a
+  representative spread, and force one rich cluster per interesting query type
+  so every query type is covered. Deterministic via SEED.
+- Queries: one per interesting type + fills, to N_QUERIES. Each query's golds =
+  its whole cluster, so most are multi-gold.
+- The corpus carries a fingerprint (gold stats, type distribution, content
+  hash) so a changed/regenerated run is detectable.
 
 Run: uv run python scripts/bakeoff_corpus.py
 Writes: data/bakeoff_corpus.json
 """
+import hashlib
 import json
+import random
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parent.parent / "data"
 DOCS_PATH = DATA / "documents.json"
 OUT_PATH = DATA / "bakeoff_corpus.json"
 
-TARGET = 500
+TARGET = 500            # corpus docs (golds are by-construction present)
+N_QUERIES = 24           # evaluation queries
 SEED = 42
+CAP_SHARE = 0.25        # no single table's docs >25% of the corpus sample
+AMBIG_CAP = 30          # name with more entity-table matches: too generic to group
+INTERESTING = ("recipe", "item", "wiki", "ability", "quest", "skillprofile", "effect")
+# Tables whose same-name records are plausibly the same entity (cross-source link).
+CROSS_TABLES = {
+    "item", "recipe", "quest", "ability", "effect", "skill",
+    "skillprofile", "leveling", "npc", "wiki", "itemuse", "abilitykeyword",
+}
 
 CHUNK_SUFFIX = re.compile(r"_chunk_\d+$")
+
+TYPE_TEMPLATES = {
+    "recipe": "What materials are needed to craft {name}?",
+    "item": "What does the item {name} do?",
+    "wiki": "What does the wiki say about {title}?",
+    "ability": "What does the ability {name} do?",
+    "quest": "How do I start the quest {name}?",
+    "skillprofile": "Tell me everything about the {name} skill",
+    "effect": "What effect does {name} have?",
+}
+FILL_TEMPLATES = {
+    "wiki": "What information is available about {title}?",
+    "skillprofile": "What are the details of the {name} skill profile?",
+    "recipe": "What materials are needed to craft {name}?",
+    "item": "What is {name} used for?",
+    "ability": "What does the ability {name} do?",
+    "quest": "How do I complete the quest {name}?",
+    "effect": "What effect does {name} have?",
+}
 
 
 def base_key(doc_id):
@@ -26,7 +76,7 @@ def base_key(doc_id):
 
 
 def doc_name(doc):
-    meta = doc.get("metadata", {})
+    meta = doc.get("metadata", {}) or {}
     return meta.get("name") or base_key(doc["id"])
 
 
@@ -35,120 +85,210 @@ def load_docs():
         return json.load(f)
 
 
-def pick_fat_docs(docs, target):
-    """Sort by text length descending, take top target."""
-    valid = [d for d in docs if d.get("text", "").strip()]
-    valid.sort(key=lambda d: len(d["text"]), reverse=True)
-    return valid[:target]
+def build_clusters(docs, by_id):
+    """Return (clusters, owner): owner maps doc_id -> cluster index."""
+    name_sets = {}
+    for d in docs:
+        if d.get("type") not in CROSS_TABLES:
+            continue
+        n = doc_name(d).strip()
+        if n:
+            name_sets.setdefault(n.lower(), []).append(d["id"])
+    ambiguous = {n for n, ids in name_sets.items() if len(ids) > AMBIG_CAP}
+
+    family = {}
+    for d in docs:
+        family.setdefault(base_key(d["id"]), []).append(d["id"])
+
+    owner, clusters = {}, []
+    for n, ids in name_sets.items():
+        if n in ambiguous or not ids:
+            continue
+        cid = len(clusters)
+        clusters.append(sorted(ids))
+        for i in ids:
+            owner[i] = cid
+    for ids in family.values():
+        un = [i for i in ids if i not in owner]
+        if un:
+            cid = len(clusters)
+            clusters.append(sorted(un))
+            for i in un:
+                owner[i] = cid
+    return clusters, owner
 
 
-def family_labels(selected_ids, doc_id):
-    """All chunks sharing the same base key."""
-    key = base_key(doc_id)
-    return sorted(i for i in selected_ids if base_key(i) == key)
+def cluster_type_count(ids, by_id):
+    return Counter(by_id[i]["type"] for i in ids)
 
 
-def build_queries(selected_docs, all_docs, n=12):
-    """Hand-craft queries targeting specific docs with known relevance."""
-    selected_ids = {d["id"] for d in selected_docs}
-    by_id = {d["id"]: d for d in all_docs}
-    selected_by_id = {d["id"]: d for d in selected_docs}
+def pick_clusters(clusters, by_id, target, cap_share=CAP_SHARE):
+    """Select whole clusters: force one rich cluster per interesting query type,
+    then fill with a per-table doc budget so no table dominates. Returns cid list."""
+    rng = random.Random(SEED)
+    order = list(range(len(clusters)))
+    rng.shuffle(order)
+    order.sort(key=lambda c: -len(clusters[c]))      # richest first (seeded)
 
-    queries = []
+    total_types = Counter()
+    for ids in clusters:
+        total_types.update(by_id[i]["type"] for i in ids)
+    tt = sum(total_types.values()) or 1
+    cap = {t: max(1, int(target * min(total_types[t] / tt, cap_share)))
+           for t in total_types}
 
-    # Type-stratified picks: grab one doc per interesting type, craft query
-    type_picks = {}
-    for d in selected_docs:
-        t = d["type"]
-        if t not in type_picks and t in ("recipe", "item", "wiki", "ability", "quest", "skillprofile", "effect"):
-            type_picks[t] = d
+    def has_type(ids, t):
+        return any(by_id[i]["type"] == t for i in ids)
 
-    for type_, doc in type_picks.items():
-        name = doc_name(doc)
-        q_id = f"q_{type_}_{len(queries)}"
+    forced = [c for t in INTERESTING
+              for c in (next((x for x in order if has_type(clusters[x], t)), None),)
+              if c is not None]
+    ordered_forced = []
+    seen = set()
+    for c in forced:
+        if c not in seen:
+            seen.add(c)
+            ordered_forced.append(c)
 
-        if type_ == "recipe":
-            q_text = f"What materials are needed to craft {name}?"
-        elif type_ == "item":
-            q_text = f"What does the item {name} do?"
-        elif type_ == "wiki":
+    chosen = list(ordered_forced)
+    used = Counter()
+    for c in chosen:
+        used.update(by_id[i]["type"] for i in clusters[c])
+    chosen_set = set(chosen)
+
+    def size():
+        return sum(len(clusters[c]) for c in chosen)
+
+    for c in order:
+        if c in chosen_set:
+            continue
+        if size() >= target:
+            break
+        ids = clusters[c]
+        nxt = Counter(used)
+        ok = True
+        for i in ids:
+            t = by_id[i]["type"]
+            nxt[t] += 1
+            if nxt[t] > cap[t]:
+                ok = False
+                break
+        if ok and size() + len(ids) <= target:
+            chosen.append(c)
+            used = nxt
+    return chosen
+
+
+def build_queries(docs, clusters, chosen_cids, n=N_QUERIES):
+    """Queries targeting chosen clusters: golds = the whole cluster (all in corpus)."""
+    by_id = {d["id"]: d for d in docs}
+    ordered = sorted(chosen_cids, key=lambda c: -len(clusters[c]))
+
+    def anchor_of_type(ids, t):
+        return next((by_id[i] for i in ids if by_id[i]["type"] == t), by_id[ids[0]])
+
+    def q_text(t, doc):
+        if t == "wiki":
             title = base_key(doc["id"])
             if title.startswith("wiki_"):
                 title = title[len("wiki_"):]
-            q_text = f"What does the wiki say about {title.replace('_', ' ')}?"
-        elif type_ == "ability":
-            q_text = f"What does the ability {name} do?"
-        elif type_ == "quest":
-            q_text = f"How do I start the quest {name}?"
-        elif type_ == "skillprofile":
-            q_text = f"Tell me everything about the {name} skill"
-        elif type_ == "effect":
-            q_text = f"What effect does {name} have?"
-        else:
-            continue
+            return TYPE_TEMPLATES[t].format(title=title.replace("_", " "))
+        return TYPE_TEMPLATES[t].format(name=doc_name(doc))
 
-        relevant = family_labels(selected_ids, doc["id"])
-        if relevant:
-            queries.append({"id": q_id, "text": q_text, "expected_doc_ids": relevant})
-
-    # Fill remaining slots with cross-type queries
-    used_ids = set()
-    for q in queries:
-        used_ids.update(q.get("expected_doc_ids", []))
-    fill_candidates = [d for d in selected_docs if d["id"] not in used_ids]
-    for doc in fill_candidates:
+    queries, used = [], set()
+    # one query per interesting type: richest chosen cluster containing that type
+    for t in INTERESTING:
+        for c in ordered:
+            ids = clusters[c]
+            if any(by_id[i]["type"] == t for i in ids):
+                queries.append({"id": f"q_{t}_{len(queries)}",
+                                "text": q_text(t, anchor_of_type(ids, t)),
+                                "expected_doc_ids": list(ids)})
+                used.update(ids)
+                break
+    # fills from remaining chosen clusters
+    for c in ordered:
         if len(queries) >= n:
             break
-        name = doc_name(doc)
-        q_id = f"q_fill_{len(queries)}"
-        if doc["type"] == "wiki":
-            title = base_key(doc["id"])
-            if title.startswith("wiki_"):
-                title = title[len("wiki_"):]
-            q_text = f"What information is available about {title.replace('_', ' ')}?"
-        elif doc["type"] == "skillprofile":
-            q_text = f"What are the details of the {name} skill profile?"
-        elif doc["type"] == "recipe":
-            q_text = f"What materials are needed to craft {name}?"
-        elif doc["type"] == "item":
-            q_text = f"What is {name} used for?"
-        elif doc["type"] == "ability":
-            q_text = f"What does the ability {name} do?"
-        elif doc["type"] == "quest":
-            q_text = f"How do I complete the quest {name}?"
-        elif doc["type"] == "effect":
-            q_text = f"What effect does {name} have?"
+        ids = clusters[c]
+        if any(i in used for i in ids):
+            continue
+        # pick the cluster's dominant interesting type for the query text, else generic
+        covered = [t for t in INTERESTING if any(by_id[i]["type"] == t for i in ids)]
+        t = covered[0] if covered else None
+        doc = anchor_of_type(ids, t) if t else by_id[ids[0]]
+        if t == "wiki":
+            text = q_text("wiki", doc)
+        elif t:
+            text = FILL_TEMPLATES[t].format(name=doc_name(doc))
         else:
-            q_text = f"Tell me about {name}"
-        relevant = family_labels(selected_ids, doc["id"])
-        if relevant:
-            queries.append({"id": q_id, "text": q_text, "expected_doc_ids": relevant})
-
+            text = "Tell me about {name}".format(name=doc_name(doc))
+        queries.append({"id": f"q_fill_{len(queries)}",
+                        "text": text, "expected_doc_ids": list(ids)})
+        used.update(ids)
     return queries[:n]
+
+
+def fingerprint(corpus):
+    rels = [len(q["expected_doc_ids"]) for q in corpus["queries"]]
+    type_dist = Counter(d["type"] for d in corpus["docs"])
+    blob = json.dumps(corpus, ensure_ascii=False, sort_keys=True).encode()
+    return {
+        "seed": SEED,
+        "n_docs": len(corpus["docs"]),
+        "n_queries": len(rels),
+        "golds_per_query_mean": round(sum(rels) / len(rels), 2) if rels else 0.0,
+        "golds_per_query_min": min(rels) if rels else 0,
+        "golds_per_query_max": max(rels) if rels else 0,
+        "multi_gold_queries": sum(1 for r in rels if r > 1),
+        "corpus_type_dist": dict(sorted(type_dist.items())),
+        "content_hash": hashlib.sha256(blob).hexdigest()[:12],
+    }
 
 
 def main():
     docs = load_docs()
     sys.stderr.write(f"loaded {len(docs)} docs\n")
+    by_id = {d["id"]: d for d in docs}
 
-    selected = pick_fat_docs(docs, TARGET)
-    sys.stderr.write(f"selected {len(selected)} fattest docs (max len: {len(selected[0]['text'])} chars)\n")
+    clusters, _owner = build_clusters(docs, by_id)
+    sys.stderr.write(f"{len(clusters)} entity clusters "
+                     f"(mean {sum(len(c) for c in clusters) / len(clusters):.2f} docs/cluster)\n")
 
-    queries = build_queries(selected, docs)
+    chosen_cids = pick_clusters(clusters, by_id, TARGET)
+    chosen_ids = [i for c in chosen_cids for i in clusters[c]]
+    n_types = len({by_id[i]["type"] for i in chosen_ids})
+    sys.stderr.write(f"selected {len(chosen_cids)} clusters / {len(chosen_ids)} docs "
+                     f"({n_types} tables)\n")
+
+    queries = build_queries(docs, clusters, chosen_cids)
     sys.stderr.write(f"built {len(queries)} queries\n")
 
     corpus = {
-        "docs": [{"id": d["id"], "type": d["type"], "text": d["text"],
-                   "metadata": d.get("metadata", {})} for d in selected],
+        "docs": [{"id": i, "type": by_id[i]["type"], "text": by_id[i].get("text", ""),
+                  "metadata": by_id[i].get("metadata", {})} for i in chosen_ids],
         "queries": queries,
     }
+    idset = set(d["id"] for d in corpus["docs"])
+    missing = [i for q in corpus["queries"] for i in q["expected_doc_ids"] if i not in idset]
+    if missing:
+        sys.stderr.write(f"ERROR: {len(missing)} golds not in corpus\n")
+        sys.exit(1)
+    corpus["fingerprint"] = fingerprint(corpus)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     tmp = OUT_PATH.with_suffix(".tmp")
     tmp.write_text(json.dumps(corpus, indent=1, ensure_ascii=False), encoding="utf-8")
     tmp.replace(OUT_PATH)
-    sys.stderr.write(f"wrote {OUT_PATH}\n")
-    print(json.dumps({"docs": len(corpus["docs"]), "queries": len(corpus["queries"])}))
+    fp = corpus["fingerprint"]
+    sys.stderr.write(f"wrote {OUT_PATH}: {fp['n_docs']} docs, {fp['n_queries']} queries, "
+                     f"mean {fp['golds_per_query_mean']} golds/q "
+                     f"({fp['multi_gold_queries']}/{fp['n_queries']} multi-gold), "
+                     f"hash {fp['content_hash']}\n")
+    print(json.dumps({"docs": fp["n_docs"], "queries": fp["n_queries"],
+                      "mean_golds": fp["golds_per_query_mean"],
+                      "multi_gold": fp["multi_gold_queries"],
+                      "hash": fp["content_hash"]}))
 
 
 if __name__ == "__main__":

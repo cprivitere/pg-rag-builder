@@ -488,6 +488,17 @@ def run_bakeoff(args):
                "corpus_size": len(subset["docs"]),
                "ctx_chars": TRUNC or 512,
                "candidates": []}
+    # Surface the corpus fingerprint so a changed/regenerated corpus is
+    # detectable and runs are comparable (see bakeoff_corpus.py).
+    fp = corpus.get("fingerprint", {})
+    for k in ("n_docs", "n_queries", "seed", "golds_per_query_mean",
+              "golds_per_query_min", "golds_per_query_max",
+              "multi_gold_queries", "content_hash"):
+        if k in fp:
+            results[k] = fp[k]
+    sys.stderr.write(f"  corpus fingerprint: mean {fp.get('golds_per_query_mean')} "
+                     f"golds/q ({fp.get('multi_gold_queries')}/{fp.get('n_queries')} "
+                     f"multi-gold), hash {fp.get('content_hash')}\n")
 
     for cand in BAKEOFF_CANDIDATES:
         if args.only and args.only not in cand["name"]:
