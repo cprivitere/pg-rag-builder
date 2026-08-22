@@ -22,6 +22,7 @@ Writes: data/eval_subset.json, data/embed_eval.json
 import argparse
 import hashlib
 import json
+import math
 import random
 import re
 import subprocess
@@ -315,10 +316,20 @@ def _cosine_scores(query, docs):
     return list(M @ q)
 
 
+def _ndcg(ranked, rel_set, k):
+    """NDCG@k over binary relevance (rel_set), rank-discounted."""
+    dcg = sum(1.0 / math.log2(r + 1) for r, idx in enumerate(ranked[:k], start=1)
+              if idx in rel_set)
+    nrel = min(len(rel_set), k)
+    idcg = sum(1.0 / math.log2(i + 1) for i in range(1, nrel + 1))
+    return dcg / idcg if idcg else 0.0
+
+
 def metrics(query_vecs, doc_vecs, labels, k=10):
     total_mrr = 0.0
     hit3 = hit5 = hit10 = 0
     recall_sum = 0.0
+    ndcg_sum = 0.0
     for qv, rel in zip(query_vecs, labels):
         rel_set = set(rel)
         scores = _cosine_scores(qv, doc_vecs)
@@ -336,13 +347,15 @@ def metrics(query_vecs, doc_vecs, labels, k=10):
         if any(i in rel_set for i in ranked[:10]):
             hit10 += 1
         recall_sum += len([i for i in ranked if i in rel_set]) / len(rel_set)
+        ndcg_sum += _ndcg(ranked, rel_set, k)
     n = len(query_vecs)
     return {
         "mrr10": round(total_mrr / n, 4),
+        "ndcg10": round(ndcg_sum / n, 4),
+        "recall10": round(recall_sum / n, 4),
         "hit3": round(hit3 / n, 4),
         "hit5": round(hit5 / n, 4),
         "hit10": round(hit10 / n, 4),
-        "recall10": round(recall_sum / n, 4),
     }
 
 
@@ -538,12 +551,12 @@ def run_bakeoff(args):
     sys.stderr.write(f"\nwrote {report_path}\n")
 
     # Print ranked table
-    print(f"\n{'Name':<30} {'Dims':>5} {'Quant':<8} {'VRAM MB':>8} {'MRR@10':>8} {'Hit@3':>8} {'Hit@5':>8} {'Hit@10':>8}")
-    print("-" * 95)
+    print(f"\n{'Name':<30} {'Dims':>5} {'Quant':<8} {'VRAM MB':>8} {'MRR@10':>8} {'Recall@10':>9} {'NDCG@10':>8} {'Hit@3':>7} {'Hit@5':>7} {'Hit@10':>8}")
+    print("-" * 110)
     for c in ranked:
         print(f"{c['name']:<30} {c['dims']:>5} {c['quant']:<8} {c['vram_mb']:>8} "
-              f"{c.get('mrr10', 0):>8.4f} {c.get('hit3', 0):>8.4f} "
-              f"{c.get('hit5', 0):>8.4f} {c.get('hit10', 0):>8.4f}")
+              f"{c.get('mrr10', 0):>8.4f} {c.get('recall10', 0):>9.4f} {c.get('ndcg10', 0):>8.4f} "
+              f"{c.get('hit3', 0):>7.4f} {c.get('hit5', 0):>7.4f} {c.get('hit10', 0):>8.4f}")
     if results.get("winner"):
         print(f"\nWinner: {results['winner']}")
 
