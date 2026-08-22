@@ -26,7 +26,7 @@ def main() -> None:
     )
     p.set_defaults(func=_build_index)
 
-    p = sub.add_parser("validate", help="Validate vectorstore health (exit 1 if issues)")
+    p = sub.add_parser("validate", help="Validate full pipeline integrity (exit 1 if issues)")
     p.set_defaults(func=_validate)
 
     args = parser.parse_args()
@@ -62,9 +62,9 @@ def _build_index(args) -> int:
 
 
 def _validate(args) -> int:
-    from pgrag.vectorstore.health_check import health_check
+    from pgrag.validation import validate_all
 
-    return health_check()
+    return validate_all()
 
 
 if __name__ == "__main__":

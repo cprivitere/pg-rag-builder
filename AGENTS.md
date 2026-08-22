@@ -47,7 +47,7 @@ Query → query_classifier → retriever (dense + BM25 → RRF fuse → reranker
 - `scripts/` — eval + service tooling (see Important Files).
 - `tests/` — pytest suite, imports the installed `pgrag` package.
 - `data/` (gitignored) — `cdn/`, `wiki/` (+`curated/`, `.meta.json`), `derived/` (`documents_version.json`, `wiki_parsed.json`), `documents.json`, `chroma/`, `golden/`, `retrieval_traces/`, eval records (`embed_eval_*.log`, `embed_vram.json`, `bakeoff_*.json`). Service logs live at project-root `logs/` (`embed.log`, `llm.log`, `webui.log`, `rerank.log`).
-- `.omp/` — oh-my-pi config: `RULES.md`, `config.yml`, `WATCHDOG.md`, `skills/` (`pg-rag`, `pg-data`, `retrieval`, `evaluation`).
+- `.omp/` — oh-my-pi config: `RULES.md`, `config.yml`, `WATCHDOG.md`, `skills/` (`pg-rag`, `pg-data`, `retrieval`, `evaluation`, `testing`).
 
 ## Development Commands
 
@@ -58,7 +58,7 @@ uv run pgrag download-wiki          # fetch wiki dumps
 uv run pgrag download-cdn           # fetch CDN json
 uv run pgrag build-documents        # regenerate documents.json (stamps version)
 uv run pgrag build-index            # embed + index into Chroma
-uv run pgrag validate              # index health checks
+uv run pgrag validate              # full offline pipeline integrity check (sources, documents+freshness, wiki meta, index)
 uv run pgrag build-index --source cdn|wiki|computed|curated   # partial rebuild of one source
 mise sync-wiki / sync-cdn / sync   # build-documents + build-index in one shot (aliases syw/syc/sy)
 mise generate-docs                 # bare idempotent documents rebuild (alias docs)
@@ -66,6 +66,7 @@ mise golden                        # golden eval (needs :8080 + :8081)
 mise chat                          # Gradio chat (needs embed + LLM up)
 uv run pytest                      # offline test suite
 uv run pytest tests/test_retrieval_unit.py tests/test_bm25.py tests/test_rerank*.py  # retrieval regression
+mise drift                        # check docs/skills against the repo (aliases: dr)
 ```
 
 **Build/refresh needs no servers**; only Q&A/eval (`golden`, `chat`, `scripts/retrieval.py`) do.
@@ -83,9 +84,10 @@ uv run pytest tests/test_retrieval_unit.py tests/test_bm25.py tests/test_rerank*
 ## Important Files
 
 - `src/pgrag/cli.py` — entry point; `config.py` — constants/paths; `build.py` — document orchestration; `rag/pipeline.py` — query path (deterministic temp=0/seed=0).
-- `scripts/pg_rag.py` — OpenWebUI pipe, **hardcoded** `PG_ROOT=F:\ProjectGorgon\pg-rag-builder` + `os.chdir()`, adds `PG_ROOT/src` to `sys.path` — update if the repo moves. Valves: `TOP_K=20`, `USE_HYBRID`, `USE_RERANK`.
-- `scripts/curator.py` + `curator_scheduler.py` — detect fragmented knowledge (area_levels, skill_trainers, crafting_progressions), write `data/wiki/curated/`, scheduler persists state to `data/curator_state.json` and rebuilds doc/index on change.
+- `scripts/pg_rag.py` — OpenWebUI pipe, `PG_ROOT = os.environ.get("PG_RAG_ROOT", r"F:\ProjectGorgon\pg-rag-builder")` (env override, Windows default) + `os.chdir()`, adds `PG_ROOT/src` to `sys.path` — the default path is what moves if the repo relocates. Valves: `TOP_K=20`, `USE_HYBRID=True`, `USE_RERANK=True`.
+- `scripts/curator.py` + `curator_scheduler.py` — heuristic (non-LLM) curation: regex-detect fragmented knowledge (area_levels, skill_trainers, crafting_progressions), write template docs to `data/wiki/curated/`, scheduler persists state to `data/curator_state.json` and rebuilds doc/index on change. Deterministic by design — no LLM, so curated docs are stable anchors.
 - `scripts/golden_check.py` — fact-presence golden eval → `data/golden/`; `scripts/embed_eval.py` (+`embed_vram_probe.py`, `bakeoff_corpus.py`) — embedding bake-offs.
+- `docs/TEST_CONTRACTS.md` — layer→tests→contract map + regression-triage protocol (read before changing behavior/tests); `docs/REVIEW.md` — audit findings + improvement backlog.
 - `scripts/check_services.py` — [OK]/[DOWN] probes for all services.
 - `mise.toml` `[env]`: `WEBUI_DIR`, `LOGS_DIR` — update if paths move.
 
@@ -105,8 +107,9 @@ uv run pytest tests/test_retrieval_unit.py tests/test_bm25.py tests/test_rerank*
 
 ## Testing & QA
 
-- **Framework**: pytest via `uv run pytest`; ~341 offline tests (360 collected −14 slow). All offline; temp-dir integration.
+- **Framework**: pytest via `uv run pytest`; 547 offline tests pass (561 collected, 14 slow deselected). All offline; temp-dir integration.
 - **Golden eval** (`tests/test_golden_check.py`): parametrized over `data/golden/*.json`; `require_servers` fixture skips unless LLM :8080 + embed :8081 are up; retries once (2 attempts) to damp LLM nondeterminism; both attempts fail = regression.
-- **Retrieval regression set** (run when changing retrieval): `tests/test_bm25.py`, `tests/test_retrieval_unit.py`, `tests/test_rerank*.py`, `tests/test_retriever_spelling.py`.
+- **Retrieval regression set** (run when changing retrieval): `tests/test_bm25.py`, `tests/test_retrieval_unit.py`, `tests/test_rerank*.py`, `tests/test_retriever_spelling.py`. **`docs/TEST_CONTRACTS.md` is the authoritative layer→tests→contract map** — read L3 before any retrieval change: it flags shared-function facet coverage (`retrieve()` asserted across 5 files; `_hybrid_fuse` across `test_bm25.py`/`test_rerank.py`) and notes the stale-`DOCUMENTS_VERSION` refusal is directly tested in `test_build_index.py`.
+- **Test edits are contract changes.** Editing what a test *asserts* is not a workaround — state the new contract in the test, run the layer's sibling suite (`docs/TEST_CONTRACTS.md`), and never hand-edit a build artifact (`documents.json`, `bm25_index.pkl`, `wiki_parsed.json`) to satisfy a test. If the behavior didn't legitimately change, the failure is a source regression: fix the source, not the test.
 - **Key suites** (from `tests/`): `test_documents.py` (doc shape), `test_chunking.py`, `test_health_check.py` (index integrity incl. no-SQLite-crash on large collections), `test_llm.py` (SSE streaming parse), `test_download_wiki.py` (batching, redirects, orphan cleanup — patches `META_FILE`+`WIKI_DIR` to tmp), `test_query_classifier.py`/`test_query_plan.py`, `test_bm25_persist.py`, `test_rerank_fallback.py`, `test_hashes.py`, `test_embed_validation.py`.
 - **Coverage expectation**: one test defends each observable contract; integration tests use temp dirs and mocked servers rather than live ones.
